@@ -103,7 +103,7 @@
 		#  - ${username}: The username.
 		# '$' can be escaped by using an extra '$'.
 		# Default: "Minecraft ${mcversion}"
-		simple_title = "Minecraft ${mcversion}"
+		simple_title = "Chroma Sky 2"
 		# The Minecraft window title.
 		# The current activity is not available.
 		# Variables:
@@ -113,7 +113,7 @@
 		#  - ${modversion:modid}: The version of the mod with the specified ID.
 		# '$' can be escaped by using an extra '$'.
 		# Default: "Minecraft ${mcversion}"
-		title = "Minecraft ${mcversion}"
+		title = "Chroma Sky 2"
 		# The Minecraft window title that also takes into account the current activity.
 		# Variables:
 		#  - ${mcversion}: The Minecraft version
@@ -123,7 +123,7 @@
 		#  - ${modversion:modid}: The version of the mod with the specified ID.
 		# '$' can be escaped by using an extra '$'.
 		# Default: "Minecraft ${mcversion} - ${activity}"
-		title_with_activity = "Minecraft ${mcversion} - ${activity}"
+		title_with_activity = "Chroma Sky 2"
 		# Enables custom Minecraft window icons.
 		# Default: true
 		custom_icon = true
@@ -154,19 +154,19 @@
 	# Min: 1
 	# Max: 2147483647
 	# Default: 2400
-	login_timeout_ticks = 2400
+	login_timeout_ticks = 7200
 	# The interval in seconds at which KeepAlive packets are sent to clients.
 	# Min: 1
 	# Max: 2147483647
 	# Default: 15
-	keep_alive_packet_interval_seconds = 15
+	keep_alive_packet_interval_seconds = 75
 	# The KeepAlive timeout in seconds.
 	# This is how long the server waits for a player to return a KeepAlive packet before disconnecting them.
 	# This is automatically rounded up to a multiple of the KeepAlive packet interval.
 	# Min: 1
 	# Max: 2147483647
 	# Default: 120
-	keep_alive_timeout_seconds = 120
+	keep_alive_timeout_seconds = 225
 
 # Options related to packet size limits.
 [packet_size_limits]
@@ -177,7 +177,7 @@
 	# Min: 256
 	# Max: 2147483647
 	# Default: 16777216
-	max_compressed_packet_size = 16777216
+	max_compressed_packet_size = 2147483647
 	# The maximum NBT compound tag packet size.
 	# The vanilla limit is 2097152.
 	# This option is both client and server-sided.
@@ -185,14 +185,14 @@
 	# Min: 256
 	# Max: 2147483647
 	# Default: 16777216
-	max_nbt_compound_tag_packet_size = 16777216
+	max_nbt_compound_tag_packet_size = 2147483647
 	# The maximum client custom payload packet size.
 	# The vanilla limit is 32767.
 	# Setting this to a higher value than the vanilla limit may prevent the client from being disconnected.
 	# Min: 256
 	# Max: 2147483647
 	# Default: 16777216
-	max_client_custom_payload_packet_size = 16777216
+	max_client_custom_payload_packet_size = 2147483647
 
 # Options related to player speed limits.
 # These options are used to fix MC-90062: https://bugs.mojang.com/browse/MC-90062
@@ -281,7 +281,7 @@
 	# This option is both client and server-sided.
 	# Changes to this option are applied after a game restart.
 	# Default: []
-	mixin_blacklist = []
+	mixin_blacklist = ["ServerPlayNetHandlerKeepAlive"]
 
 	# Miscellaneous bug fixes.
 	[misc.bug_fixes]
