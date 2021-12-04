@@ -1,0 +1,10 @@
+9 possible world types found:
+- default
+- flat
+- large_biomes
+- amplified
+- single_biome_surface
+- single_biome_caves
+- single_biome_floating_islands
+- debug_all_block_states
+- voidworld.empty_world_type

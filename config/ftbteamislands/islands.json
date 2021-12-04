@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "name": "Main Islands",
+    "author": "Chroma Team",
+    "desc": "The team behind all the packs?",
+    "islands": [
+      {
+        "name": "Hay look, an Island",
+        "desc": "This is an island",
+        "structure": "island.nbt",
+        "image": "chromasky2:islands/screens/island.png"
+      }
+    ]
+  }
+]
