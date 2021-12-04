@@ -8,10 +8,10 @@
 	LowMemorySlowSearchEnabled = false
 	#How items should be handed to you
 	#Allowed Values: INVENTORY, MOUSE_PICKUP
-	GiveMode = "MOUSE_PICKUP"
+	GiveMode = "INVENTORY"
 	#Max number of columns shown
 	#Range: 4 ~ 100
-	MaxColumns = 9
+	MaxColumns = 20
 	#Max. recipe gui height
 	#Range: > 175
 	RecipeGuiHeight = 350
@@ -51,5 +51,4 @@
 	#Use these formatting keys:
 	#black, dark_blue, dark_green, dark_aqua, dark_red, dark_purple, gold, gray, dark_gray, blue, green, aqua, red, light_purple, yellow, white
 	#obfuscated, bold, strikethrough, underline, italic
-	ModNameFormat = "blue italic"
-
+	ModNameFormat = "aqua"
