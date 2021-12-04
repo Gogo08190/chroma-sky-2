@@ -33,5 +33,4 @@
 
 [storagedrawers]
 	#Always display the extended drawer info
-	alwaysDisplayExtended = false
-
+	alwaysDisplayExtended = true
