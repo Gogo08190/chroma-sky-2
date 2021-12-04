@@ -1,0 +1,86 @@
+
+[general]
+	#Allows you to increase the amount of upgrades that can be put within a single stack. This is not something you should change as it can mess with math but if you opt too, good luck.
+	#Range: 1 ~ 64
+	"Max upgrade stack size" = 18
+	#Exponential cost N amount. We start with 1.35 as it's a good max number at around 10M RF per operation
+	#Range: 1.0 ~ 2.0
+	"Exponential cost base N value" = 1.35
+
+[sluices]
+
+	[sluices.oak]
+		#Defines how long it takes to process a resource in this Sluice (This is multiplied by the recipe base tick time)
+		#Range: 0.0 ~ 1000.0
+		"processing time multiplier" = 1.0
+		#Sets how much fluid is used per processed recipe (This is multiplied by the recipe's fluid consumption rate)
+		#Range: 0.0 ~ 1000.0
+		"fluid multiplier" = 1.0
+		#Sets how much fluid this sluice's tank can carry (in mB)
+		#Range: 0 ~ 1000000
+		"tank capacity" = 12000
+
+	[sluices.iron]
+		#Defines how long it takes to process a resource in this Sluice (This is multiplied by the recipe base tick time)
+		#Range: 0.0 ~ 1000.0
+		"processing time multiplier" = 0.8
+		#Sets how much fluid is used per processed recipe (This is multiplied by the recipe's fluid consumption rate)
+		#Range: 0.0 ~ 1000.0
+		"fluid multiplier" = 0.6
+		#Sets how much fluid this sluice's tank can carry (in mB)
+		#Range: 0 ~ 1000000
+		"tank capacity" = 12000
+
+	[sluices.diamond]
+		#Defines how long it takes to process a resource in this Sluice (This is multiplied by the recipe base tick time)
+		#Range: 0.0 ~ 1000.0
+		"processing time multiplier" = 0.6
+		#Sets how much fluid is used per processed recipe (This is multiplied by the recipe's fluid consumption rate)
+		#Range: 0.0 ~ 1000.0
+		"fluid multiplier" = 0.75
+		#Sets how much fluid this sluice's tank can carry (in mB)
+		#Range: 0 ~ 1000000
+		"tank capacity" = 12000
+
+	[sluices.netherite]
+		#Defines how long it takes to process a resource in this Sluice (This is multiplied by the recipe base tick time)
+		#Range: 0.0 ~ 1000.0
+		"processing time multiplier" = 0.4
+		#Sets how much fluid is used per processed recipe (This is multiplied by the recipe's fluid consumption rate)
+		#Range: 0.0 ~ 1000.0
+		"fluid multiplier" = 0.5
+		#Sets how much fluid this sluice's tank can carry (in mB)
+		#Range: 0 ~ 1000000
+		"tank capacity" = 12000
+		#FE cost per use
+		#Range: > 0
+		"fe cost per use" = 0
+
+	[sluices.empowered]
+		#Defines how long it takes to process a resource in this Sluice (This is multiplied by the recipe base tick time)
+		#Range: 0.0 ~ 1000.0
+		"processing time multiplier" = 0.2
+		#Sets how much fluid is used per processed recipe (This is multiplied by the recipe's fluid consumption rate)
+		#Range: 0.0 ~ 1000.0
+		"fluid multiplier" = 0.2
+		#Sets how much fluid this sluice's tank can carry (in mB)
+		#Range: 0 ~ 1000000
+		"tank capacity" = 25000
+		#FE cost per use
+		#Range: > 0
+		"fe cost per use" = 0
+
+[hammers]
+	#Speed of the iron auto-hammer as ticks taken to process the block
+	#Range: 1 ~ 100000
+	ironSpeed = 50
+	#Speed of the gold auto-hammer as ticks taken to process the block
+	#Range: 1 ~ 100000
+	goldSpeed = 40
+	#Speed of the diamond auto-hammer as ticks taken to process the block
+	#Range: 1 ~ 100000
+	diamondSpeed = 30
+	#Speed of the netherite auto-hammer as ticks taken to process the block
+	#Range: 1 ~ 100000
+	netheriteSpeed = 15
+

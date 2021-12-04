@@ -1,0 +1,20 @@
+#
+#Universal Grid Capacity
+#Range: > 0
+universalGridCapacity = 3200
+#
+#Universal Grid Use Energy
+universalGridUseEnergy = true
+#
+#Universal Grid Open Usage
+#Range: > 0
+universalGridOpenUsage = 30
+#
+#Universal Grid Clear Usage
+#Range: > 0
+universalGridClearUsage = 10
+#
+#Universal Grid Craft Usage
+#Range: > 0
+universalGridCraftUsage = 1
+

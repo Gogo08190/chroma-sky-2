@@ -1,0 +1,6153 @@
+To refresh this file, delete it and run /reload command again! Last updated: Dec 4, 2021 11:46:41 AM
+
+#forge:glass_panes/magenta
+- minecraft:magenta_stained_glass_pane
+- tconstruct:magenta_clear_stained_glass_pane
+
+#mekanismadditions:plastic_blocks/transparent
+- mekanismadditions:black_plastic_transparent
+- mekanismadditions:red_plastic_transparent
+- mekanismadditions:green_plastic_transparent
+- mekanismadditions:brown_plastic_transparent
+- mekanismadditions:blue_plastic_transparent
+- mekanismadditions:purple_plastic_transparent
+- mekanismadditions:cyan_plastic_transparent
+- mekanismadditions:light_gray_plastic_transparent
+- mekanismadditions:gray_plastic_transparent
+- mekanismadditions:pink_plastic_transparent
+- mekanismadditions:lime_plastic_transparent
+- mekanismadditions:yellow_plastic_transparent
+- mekanismadditions:light_blue_plastic_transparent
+- mekanismadditions:magenta_plastic_transparent
+- mekanismadditions:orange_plastic_transparent
+- mekanismadditions:white_plastic_transparent
+
+#forge:storage_blocks/netherite
+- minecraft:netherite_block
+
+#forge:glass_panes/white
+- minecraft:white_stained_glass_pane
+- tconstruct:white_clear_stained_glass_pane
+
+#chisel:diorite
+- chisel:diorite/cracked
+- chisel:diorite/solid_bricks
+- chisel:diorite/small_bricks
+- chisel:diorite/soft_bricks
+- chisel:diorite/cracked_bricks
+- chisel:diorite/triple_bricks
+- chisel:diorite/encased_bricks
+- chisel:diorite/chaotic_bricks
+- chisel:diorite/array
+- chisel:diorite/tiles_medium
+- chisel:diorite/tiles_large
+- chisel:diorite/tiles_small
+- chisel:diorite/chaotic_medium
+- chisel:diorite/chaotic_small
+- chisel:diorite/braid
+- chisel:diorite/dent
+- chisel:diorite/french_1
+- chisel:diorite/french_2
+- chisel:diorite/jellybean
+- chisel:diorite/layers
+- chisel:diorite/mosaic
+- chisel:diorite/ornate
+- chisel:diorite/panel
+- chisel:diorite/road
+- chisel:diorite/slanted
+- chisel:diorite/zag
+- chisel:diorite/circular
+- chisel:diorite/circularct
+- chisel:diorite/weaver
+- chisel:diorite/pillar
+- chisel:diorite/twisted
+- chisel:diorite/prism
+- chisel:diorite/cuts
+- minecraft:polished_diorite
+- minecraft:diorite
+
+#envirocore:litherite_stairs
+- envirocore:litherite_stairs
+- envirocore:litherite_brick_stairs
+- envirocore:litherite_brick_small_stairs
+- envirocore:litherite_cobble_stairs
+- envirocore:litherite_polished_stairs
+- envirocore:litherite_tile_stairs
+- envirocore:litherite_tile_small_stairs
+
+#tconstruct:slimy_leaves
+- tconstruct:earth_slime_leaves
+- tconstruct:sky_slime_leaves
+- tconstruct:ender_slime_leaves
+
+#forge:glass_panes/light_gray
+- minecraft:light_gray_stained_glass_pane
+- tconstruct:light_gray_clear_stained_glass_pane
+
+#chisel:purpur
+- chisel:purpur/cracked
+- chisel:purpur/solid_bricks
+- chisel:purpur/small_bricks
+- chisel:purpur/soft_bricks
+- chisel:purpur/cracked_bricks
+- chisel:purpur/triple_bricks
+- chisel:purpur/encased_bricks
+- chisel:purpur/chaotic_bricks
+- chisel:purpur/array
+- chisel:purpur/tiles_medium
+- chisel:purpur/tiles_large
+- chisel:purpur/tiles_small
+- chisel:purpur/chaotic_medium
+- chisel:purpur/chaotic_small
+- chisel:purpur/braid
+- chisel:purpur/dent
+- chisel:purpur/french_1
+- chisel:purpur/french_2
+- chisel:purpur/jellybean
+- chisel:purpur/layers
+- chisel:purpur/mosaic
+- chisel:purpur/ornate
+- chisel:purpur/panel
+- chisel:purpur/road
+- chisel:purpur/slanted
+- chisel:purpur/zag
+- chisel:purpur/circular
+- chisel:purpur/circularct
+- chisel:purpur/weaver
+- chisel:purpur/pillar
+- chisel:purpur/twisted
+- chisel:purpur/prism
+- chisel:purpur/cuts
+- minecraft:purpur_block
+- minecraft:purpur_pillar
+
+#tconstruct:harvestable/stackable
+- minecraft:sugar_cane
+- minecraft:kelp_plant
+
+#tconstruct:slimy_nylium
+- #tconstruct:slimy_nylium/ichor
+- #tconstruct:slimy_nylium/blood
+
+#minecraft:dragon_immune
+- minecraft:barrier
+- minecraft:bedrock
+- minecraft:end_portal
+- minecraft:end_portal_frame
+- minecraft:end_gateway
+- minecraft:command_block
+- minecraft:repeating_command_block
+- minecraft:chain_command_block
+- minecraft:structure_block
+- minecraft:jigsaw
+- minecraft:moving_piston
+- minecraft:obsidian
+- minecraft:crying_obsidian
+- minecraft:end_stone
+- minecraft:iron_bars
+- minecraft:respawn_anchor
+- tconstruct:obsidian_pane
+- #envirocore:ionite_blocks
+- #envirocore:ionite_stairs
+- #envirocore:ionite_slabs
+- #envirocore:ionite_walls
+- #envirocore:aethium_blocks
+- #envirocore:aethium_stairs
+- #envirocore:aethium_slabs
+- #envirocore:aethium_walls
+- #envirocore:nanorite_blocks
+- #envirocore:nanorite_stairs
+- #envirocore:nanorite_slabs
+- #envirocore:nanorite_walls
+- #envirocore:xerothium_blocks
+- #envirocore:xerothium_stairs
+- #envirocore:xerothium_slabs
+- #envirocore:xerothium_walls
+
+#forge:glass/pink
+- minecraft:pink_stained_glass
+- tconstruct:pink_clear_stained_glass
+
+#forge:chests
+- #forge:chests/electric
+- #forge:chests/personal
+- #forge:chests/ender
+- #forge:chests/trapped
+- #forge:chests/wooden
+- framedblocks:framed_chest
+
+#forge:storage_blocks/emerald
+- minecraft:emerald_block
+
+#forge:ores/redstone
+- minecraft:redstone_ore
+
+#tconstruct:harvestable
+- minecraft:pumpkin
+- minecraft:beehive
+- minecraft:bee_nest
+- #tconstruct:harvestable/crops
+- #tconstruct:harvestable/interact
+- #tconstruct:harvestable/stackable
+
+#tconstruct:foundry/floor
+- #tconstruct:scorched_blocks
+- tconstruct:scorched_drain
+- tconstruct:scorched_chute
+- tconstruct:scorched_duct
+
+#forge:storage_blocks/uranium
+- mekanism:block_uranium
+
+#forge:stairs/plastic/glow
+- mekanismadditions:black_plastic_glow_stairs
+- mekanismadditions:red_plastic_glow_stairs
+- mekanismadditions:green_plastic_glow_stairs
+- mekanismadditions:brown_plastic_glow_stairs
+- mekanismadditions:blue_plastic_glow_stairs
+- mekanismadditions:purple_plastic_glow_stairs
+- mekanismadditions:cyan_plastic_glow_stairs
+- mekanismadditions:light_gray_plastic_glow_stairs
+- mekanismadditions:gray_plastic_glow_stairs
+- mekanismadditions:pink_plastic_glow_stairs
+- mekanismadditions:lime_plastic_glow_stairs
+- mekanismadditions:yellow_plastic_glow_stairs
+- mekanismadditions:light_blue_plastic_glow_stairs
+- mekanismadditions:magenta_plastic_glow_stairs
+- mekanismadditions:orange_plastic_glow_stairs
+- mekanismadditions:white_plastic_glow_stairs
+
+#tconstruct:foundry/tanks
+- #tconstruct:scorched_tanks
+
+#forge:glass/red
+- minecraft:red_stained_glass
+- tconstruct:red_clear_stained_glass
+
+#ftbultimine:farmland_tillable
+- #forge:dirt?
+- #c:dirt?
+- minecraft:dirt
+- minecraft:grass_block
+- minecraft:coarse_dirt
+
+#chisel:sandstone
+- chisel:sandstone/cracked
+- chisel:sandstone/solid_bricks
+- chisel:sandstone/small_bricks
+- chisel:sandstone/soft_bricks
+- chisel:sandstone/cracked_bricks
+- chisel:sandstone/triple_bricks
+- chisel:sandstone/encased_bricks
+- chisel:sandstone/chaotic_bricks
+- chisel:sandstone/array
+- chisel:sandstone/tiles_medium
+- chisel:sandstone/tiles_large
+- chisel:sandstone/tiles_small
+- chisel:sandstone/chaotic_medium
+- chisel:sandstone/chaotic_small
+- chisel:sandstone/braid
+- chisel:sandstone/dent
+- chisel:sandstone/french_1
+- chisel:sandstone/french_2
+- chisel:sandstone/jellybean
+- chisel:sandstone/layers
+- chisel:sandstone/mosaic
+- chisel:sandstone/ornate
+- chisel:sandstone/panel
+- chisel:sandstone/road
+- chisel:sandstone/slanted
+- chisel:sandstone/zag
+- chisel:sandstone/circular
+- chisel:sandstone/circularct
+- chisel:sandstone/weaver
+- chisel:sandstone/pillar
+- chisel:sandstone/twisted
+- chisel:sandstone/prism
+- chisel:sandstone/cuts
+- chisel:sandstone/extra/bevel_creeper
+- chisel:sandstone/extra/glyphs
+- chisel:sandstone/extra/small
+- forge:sandstone?
+
+#chisel:planks/jungle
+- chisel:planks/jungle/large_planks
+- chisel:planks/jungle/crude_horizontal_planks
+- chisel:planks/jungle/vertical_planks
+- chisel:planks/jungle/crude_vertical_planks
+- chisel:planks/jungle/encased_planks
+- chisel:planks/jungle/encased_large_planks
+- chisel:planks/jungle/braced_planks
+- chisel:planks/jungle/shipping_crate
+- chisel:planks/jungle/paneling
+- chisel:planks/jungle/crude_paneling
+- chisel:planks/jungle/stacked
+- chisel:planks/jungle/smooth
+- chisel:planks/jungle/encased_smooth
+- chisel:planks/jungle/braid
+- chisel:planks/jungle/log_cabin
+- minecraft:jungle_planks
+
+#ftbchunks:interact_whitelist
+- minecraft:crafting_table
+- minecraft:bell
+- #tombstone:graves?
+- waystones:waystone?
+- waystones:mossy_waystone?
+- waystones:sandy_waystone?
+
+#envirocore:ionite_blocks
+- envirocore:ionite
+- envirocore:ionite_brick
+- envirocore:ionite_brick_small
+- envirocore:ionite_cobble
+- envirocore:ionite_polished
+- envirocore:ionite_tile
+- envirocore:ionite_tile_small
+
+#forge:glass_panes/green
+- minecraft:green_stained_glass_pane
+- tconstruct:green_clear_stained_glass_pane
+
+#envirocore:aethium_stairs
+- envirocore:aethium_stairs
+- envirocore:aethium_brick_stairs
+- envirocore:aethium_brick_small_stairs
+- envirocore:aethium_cobble_stairs
+- envirocore:aethium_polished_stairs
+- envirocore:aethium_tile_stairs
+- envirocore:aethium_tile_small_stairs
+
+#minecraft:prevent_mob_spawning_inside
+- #minecraft:rails
+
+#chisel:concrete/black
+- chisel:concrete/black/cracked
+- chisel:concrete/black/solid_bricks
+- chisel:concrete/black/small_bricks
+- chisel:concrete/black/soft_bricks
+- chisel:concrete/black/cracked_bricks
+- chisel:concrete/black/triple_bricks
+- chisel:concrete/black/encased_bricks
+- chisel:concrete/black/chaotic_bricks
+- chisel:concrete/black/array
+- chisel:concrete/black/tiles_medium
+- chisel:concrete/black/tiles_large
+- chisel:concrete/black/tiles_small
+- chisel:concrete/black/chaotic_medium
+- chisel:concrete/black/chaotic_small
+- chisel:concrete/black/braid
+- chisel:concrete/black/dent
+- chisel:concrete/black/french_1
+- chisel:concrete/black/french_2
+- chisel:concrete/black/jellybean
+- chisel:concrete/black/layers
+- chisel:concrete/black/mosaic
+- chisel:concrete/black/ornate
+- chisel:concrete/black/panel
+- chisel:concrete/black/road
+- chisel:concrete/black/slanted
+- chisel:concrete/black/zag
+- chisel:concrete/black/circular
+- chisel:concrete/black/circularct
+- chisel:concrete/black/weaver
+- chisel:concrete/black/pillar
+- chisel:concrete/black/twisted
+- chisel:concrete/black/prism
+- chisel:concrete/black/cuts
+- minecraft:black_concrete
+
+#forge:chests/trapped
+- minecraft:trapped_chest
+
+#forge:fence_gates
+- #forge:fence_gates/wooden
+- #forge:fence_gates/plastic
+
+#envirocore:kyronite_stairs
+- envirocore:kyronite_stairs
+- envirocore:kyronite_brick_stairs
+- envirocore:kyronite_brick_small_stairs
+- envirocore:kyronite_cobble_stairs
+- envirocore:kyronite_polished_stairs
+- envirocore:kyronite_tile_stairs
+- envirocore:kyronite_tile_small_stairs
+
+#forge:storage_blocks/rosenquartz
+- tdelight:rosenquartz_block
+
+#tconstruct:scorched_blocks
+- tconstruct:scorched_stone
+- tconstruct:polished_scorched_stone
+- tconstruct:scorched_bricks
+- tconstruct:scorched_road
+- tconstruct:chiseled_scorched_bricks
+
+#forge:sandstone
+- minecraft:sandstone
+- minecraft:cut_sandstone
+- minecraft:chiseled_sandstone
+- minecraft:smooth_sandstone
+- minecraft:red_sandstone
+- minecraft:cut_red_sandstone
+- minecraft:chiseled_red_sandstone
+- minecraft:smooth_red_sandstone
+
+#ceramics:cistern_connections
+- tconstruct:seared_faucet
+- tconstruct:scorched_faucet
+
+#forge:storage_blocks/copper
+- mekanism:block_copper
+- tmechworks:copper_block
+- tconstruct:copper_block
+
+#forge:glass_panes/colorless
+- minecraft:glass_pane
+- tconstruct:clear_glass_pane
+
+#forge:storage_blocks/cast_iron
+- ftbjarmod:cast_iron_block
+
+#envirocore:aethium_blocks
+- envirocore:aethium
+- envirocore:aethium_brick
+- envirocore:aethium_brick_small
+- envirocore:aethium_cobble
+- envirocore:aethium_polished
+- envirocore:aethium_tile
+- envirocore:aethium_tile_small
+
+#chisel:planks/oak
+- chisel:planks/oak/large_planks
+- chisel:planks/oak/crude_horizontal_planks
+- chisel:planks/oak/vertical_planks
+- chisel:planks/oak/crude_vertical_planks
+- chisel:planks/oak/encased_planks
+- chisel:planks/oak/encased_large_planks
+- chisel:planks/oak/braced_planks
+- chisel:planks/oak/shipping_crate
+- chisel:planks/oak/paneling
+- chisel:planks/oak/crude_paneling
+- chisel:planks/oak/stacked
+- chisel:planks/oak/smooth
+- chisel:planks/oak/encased_smooth
+- chisel:planks/oak/braid
+- chisel:planks/oak/log_cabin
+- minecraft:oak_planks
+
+#chisel:wool/black
+- chisel:wool/black/legacy
+- chisel:wool/black/llama
+- minecraft:black_wool
+
+#ftbsluice:auto_hammers
+- ftbsluice:iron_auto_hammer
+- ftbsluice:gold_auto_hammer
+- ftbsluice:diamond_auto_hammer
+- ftbsluice:netherite_auto_hammer
+
+#forge:storage_blocks/lapis
+- minecraft:lapis_block
+
+#minecraft:beds
+- minecraft:red_bed
+- minecraft:black_bed
+- minecraft:blue_bed
+- minecraft:brown_bed
+- minecraft:cyan_bed
+- minecraft:gray_bed
+- minecraft:green_bed
+- minecraft:light_blue_bed
+- minecraft:light_gray_bed
+- minecraft:lime_bed
+- minecraft:magenta_bed
+- minecraft:orange_bed
+- minecraft:pink_bed
+- minecraft:purple_bed
+- minecraft:white_bed
+- minecraft:yellow_bed
+
+#tconstruct:seared_bricks
+- tconstruct:seared_bricks
+- tconstruct:seared_fancy_bricks
+- tconstruct:seared_triangle_bricks
+
+#forge:ores/diamond
+- minecraft:diamond_ore
+
+#chisel:concrete/light_gray
+- chisel:concrete/light_gray/cracked
+- chisel:concrete/light_gray/solid_bricks
+- chisel:concrete/light_gray/small_bricks
+- chisel:concrete/light_gray/soft_bricks
+- chisel:concrete/light_gray/cracked_bricks
+- chisel:concrete/light_gray/triple_bricks
+- chisel:concrete/light_gray/encased_bricks
+- chisel:concrete/light_gray/chaotic_bricks
+- chisel:concrete/light_gray/array
+- chisel:concrete/light_gray/tiles_medium
+- chisel:concrete/light_gray/tiles_large
+- chisel:concrete/light_gray/tiles_small
+- chisel:concrete/light_gray/chaotic_medium
+- chisel:concrete/light_gray/chaotic_small
+- chisel:concrete/light_gray/braid
+- chisel:concrete/light_gray/dent
+- chisel:concrete/light_gray/french_1
+- chisel:concrete/light_gray/french_2
+- chisel:concrete/light_gray/jellybean
+- chisel:concrete/light_gray/layers
+- chisel:concrete/light_gray/mosaic
+- chisel:concrete/light_gray/ornate
+- chisel:concrete/light_gray/panel
+- chisel:concrete/light_gray/road
+- chisel:concrete/light_gray/slanted
+- chisel:concrete/light_gray/zag
+- chisel:concrete/light_gray/circular
+- chisel:concrete/light_gray/circularct
+- chisel:concrete/light_gray/weaver
+- chisel:concrete/light_gray/pillar
+- chisel:concrete/light_gray/twisted
+- chisel:concrete/light_gray/prism
+- chisel:concrete/light_gray/cuts
+- minecraft:light_gray_concrete
+
+#forge:ores/lead
+- mekanism:lead_ore
+
+#minecraft:doors
+- #minecraft:wooden_doors
+- minecraft:iron_door
+- #minecraft:wooden_doors
+- minecraft:iron_door
+- mcwdoors:metal_door
+- mcwdoors:metal_warning_door
+- mcwdoors:metal_hospital_door
+- mcwdoors:metal_reinforced_door
+- mcwdoors:metal_windowed_door
+- mcwdoors:jail_door
+- framedblocks:framed_door
+
+#mekanismadditions:plastic_blocks/road
+- mekanismadditions:black_plastic_road
+- mekanismadditions:red_plastic_road
+- mekanismadditions:green_plastic_road
+- mekanismadditions:brown_plastic_road
+- mekanismadditions:blue_plastic_road
+- mekanismadditions:purple_plastic_road
+- mekanismadditions:cyan_plastic_road
+- mekanismadditions:light_gray_plastic_road
+- mekanismadditions:gray_plastic_road
+- mekanismadditions:pink_plastic_road
+- mekanismadditions:lime_plastic_road
+- mekanismadditions:yellow_plastic_road
+- mekanismadditions:light_blue_plastic_road
+- mekanismadditions:magenta_plastic_road
+- mekanismadditions:orange_plastic_road
+- mekanismadditions:white_plastic_road
+
+#tconstruct:slimy_soil/vanilla
+- tconstruct:earth_vanilla_slime_grass
+- tconstruct:sky_vanilla_slime_grass
+- tconstruct:ichor_vanilla_slime_grass
+- tconstruct:ender_vanilla_slime_grass
+- tconstruct:blood_vanilla_slime_grass
+
+#forge:relocation_not_supported
+- mekanism:cardboard_box
+- mekanism:bounding_block
+- mekanism:advanced_bounding_block
+- mekanism:security_desk
+- mekanism:digital_miner
+- mekanism:seismic_vibrator
+- mekanism:solar_neutron_activator
+- mekanism:modification_station
+- mekanism:isotopic_centrifuge
+- mekanism:radioactive_waste_barrel
+- mekanism:pressurized_reaction_chamber
+- mekanism:basic_pressurized_tube
+- mekanism:advanced_pressurized_tube
+- mekanism:elite_pressurized_tube
+- mekanism:ultimate_pressurized_tube
+- mekanismgenerators:advanced_solar_generator
+- mekanismgenerators:wind_generator
+
+#chisel:metals/aluminum
+- chisel:metals/aluminum/caution
+- chisel:metals/aluminum/crate
+- chisel:metals/aluminum/thermal
+- chisel:metals/aluminum/machine
+- chisel:metals/aluminum/badgreggy
+- chisel:metals/aluminum/bolted
+- chisel:metals/aluminum/scaffold
+- forge:storage_blocks/aluminum?
+
+#minecraft:granodiorite
+- enviromats:granodiorite
+- enviromats:granodiorite_brick
+- enviromats:granodiorite_brick_small
+- enviromats:granodiorite_cobble
+- enviromats:granodiorite_polished
+- enviromats:granodiorite_tile
+- enviromats:granodiorite_tile_small
+- enviromats:granodiorite
+- enviromats:granodiorite_brick
+- enviromats:granodiorite_brick_small
+- enviromats:granodiorite_cobble
+- enviromats:granodiorite_polished
+- enviromats:granodiorite_tile
+- enviromats:granodiorite_tile_small
+
+#minecraft:infiniburn_overworld
+- minecraft:netherrack
+- minecraft:magma_block
+
+#minecraft:flower_pots
+- minecraft:flower_pot
+- minecraft:potted_poppy
+- minecraft:potted_blue_orchid
+- minecraft:potted_allium
+- minecraft:potted_azure_bluet
+- minecraft:potted_red_tulip
+- minecraft:potted_orange_tulip
+- minecraft:potted_white_tulip
+- minecraft:potted_pink_tulip
+- minecraft:potted_oxeye_daisy
+- minecraft:potted_dandelion
+- minecraft:potted_oak_sapling
+- minecraft:potted_spruce_sapling
+- minecraft:potted_birch_sapling
+- minecraft:potted_jungle_sapling
+- minecraft:potted_acacia_sapling
+- minecraft:potted_dark_oak_sapling
+- minecraft:potted_red_mushroom
+- minecraft:potted_brown_mushroom
+- minecraft:potted_dead_bush
+- minecraft:potted_fern
+- minecraft:potted_cactus
+- minecraft:potted_cornflower
+- minecraft:potted_lily_of_the_valley
+- minecraft:potted_wither_rose
+- minecraft:potted_bamboo
+- minecraft:potted_crimson_fungus
+- minecraft:potted_warped_fungus
+- minecraft:potted_crimson_roots
+- minecraft:potted_warped_roots
+
+#envirocore:pladium_walls
+- envirocore:pladium_wall
+- envirocore:pladium_brick_wall
+- envirocore:pladium_brick_small_wall
+- envirocore:pladium_cobble_wall
+
+#envirocore:erodium_slabs
+- envirocore:erodium_slab
+- envirocore:erodium_brick_slab
+- envirocore:erodium_brick_small_slab
+- envirocore:erodium_cobble_slab
+- envirocore:erodium_polished_slab
+- envirocore:erodium_tile_slab
+- envirocore:erodium_tile_small_slab
+
+#chisel:carpet/pink
+- chisel:carpet/pink/legacy
+- chisel:carpet/pink/llama
+- minecraft:pink_carpet
+
+#forge:ores/tin
+- mekanism:tin_ore
+
+#envirocore:ionite_stairs
+- envirocore:ionite_stairs
+- envirocore:ionite_brick_stairs
+- envirocore:ionite_brick_small_stairs
+- envirocore:ionite_cobble_stairs
+- envirocore:ionite_polished_stairs
+- envirocore:ionite_tile_stairs
+- envirocore:ionite_tile_small_stairs
+
+#envirocore:erodium_blocks
+- envirocore:erodium
+- envirocore:erodium_brick
+- envirocore:erodium_brick_small
+- envirocore:erodium_cobble
+- envirocore:erodium_polished
+- envirocore:erodium_tile
+- envirocore:erodium_tile_small
+
+#envirocore:nanorite_blocks
+- envirocore:nanorite
+- envirocore:nanorite_brick
+- envirocore:nanorite_brick_small
+- envirocore:nanorite_cobble
+- envirocore:nanorite_polished
+- envirocore:nanorite_tile
+- envirocore:nanorite_tile_small
+
+#forge:glass/white
+- minecraft:white_stained_glass
+- tconstruct:white_clear_stained_glass
+
+#minecraft:signs
+- #minecraft:standing_signs
+- #minecraft:wall_signs
+
+#forge:glass_panes/red
+- minecraft:red_stained_glass_pane
+- tconstruct:red_clear_stained_glass_pane
+
+#minecraft:wither_summon_base_blocks
+- minecraft:soul_sand
+- minecraft:soul_soil
+
+#forge:storage_blocks/osmium
+- mekanism:block_osmium
+
+#minecraft:hoglin_repellents
+- minecraft:warped_fungus
+- minecraft:potted_warped_fungus
+- minecraft:nether_portal
+- minecraft:respawn_anchor
+- mekanism:teleporter
+- mekanism:quantum_entangloporter
+
+#mekanism:cardboard_blacklist
+- #forge:relocation_not_supported
+- minecraft:white_bed
+- minecraft:orange_bed
+- minecraft:magenta_bed
+- minecraft:light_blue_bed
+- minecraft:yellow_bed
+- minecraft:lime_bed
+- minecraft:pink_bed
+- minecraft:gray_bed
+- minecraft:light_gray_bed
+- minecraft:cyan_bed
+- minecraft:purple_bed
+- minecraft:blue_bed
+- minecraft:brown_bed
+- minecraft:green_bed
+- minecraft:red_bed
+- minecraft:black_bed
+- minecraft:oak_door
+- minecraft:spruce_door
+- minecraft:birch_door
+- minecraft:jungle_door
+- minecraft:acacia_door
+- minecraft:dark_oak_door
+- minecraft:crimson_door
+- minecraft:warped_door
+- minecraft:iron_door
+
+#envirocore:litherite_blocks
+- envirocore:litherite
+- envirocore:litherite_brick
+- envirocore:litherite_brick_small
+- envirocore:litherite_cobble
+- envirocore:litherite_polished
+- envirocore:litherite_tile
+- envirocore:litherite_tile_small
+
+#chisel:concrete/blue
+- chisel:concrete/blue/cracked
+- chisel:concrete/blue/solid_bricks
+- chisel:concrete/blue/small_bricks
+- chisel:concrete/blue/soft_bricks
+- chisel:concrete/blue/cracked_bricks
+- chisel:concrete/blue/triple_bricks
+- chisel:concrete/blue/encased_bricks
+- chisel:concrete/blue/chaotic_bricks
+- chisel:concrete/blue/array
+- chisel:concrete/blue/tiles_medium
+- chisel:concrete/blue/tiles_large
+- chisel:concrete/blue/tiles_small
+- chisel:concrete/blue/chaotic_medium
+- chisel:concrete/blue/chaotic_small
+- chisel:concrete/blue/braid
+- chisel:concrete/blue/dent
+- chisel:concrete/blue/french_1
+- chisel:concrete/blue/french_2
+- chisel:concrete/blue/jellybean
+- chisel:concrete/blue/layers
+- chisel:concrete/blue/mosaic
+- chisel:concrete/blue/ornate
+- chisel:concrete/blue/panel
+- chisel:concrete/blue/road
+- chisel:concrete/blue/slanted
+- chisel:concrete/blue/zag
+- chisel:concrete/blue/circular
+- chisel:concrete/blue/circularct
+- chisel:concrete/blue/weaver
+- chisel:concrete/blue/pillar
+- chisel:concrete/blue/twisted
+- chisel:concrete/blue/prism
+- chisel:concrete/blue/cuts
+- minecraft:blue_concrete
+
+#envirocore:erodium_walls
+- envirocore:erodium_wall
+- envirocore:erodium_brick_wall
+- envirocore:erodium_brick_small_wall
+- envirocore:erodium_cobble_wall
+
+#chisel:emerald
+- chisel:emerald/panel
+- chisel:emerald/panelclassic
+- chisel:emerald/smooth
+- chisel:emerald/chunk
+- chisel:emerald/goldborder
+- chisel:emerald/zelda
+- chisel:emerald/cell
+- chisel:emerald/cellbismuth
+- chisel:emerald/four
+- chisel:emerald/fourornate
+- chisel:emerald/ornate
+- chisel:emerald/masonryemerald
+- chisel:emerald/emeraldcircle
+- chisel:emerald/emeraldprismatic
+- minecraft:beacon_base_blocks?
+
+#chisel:laboratory
+- chisel:laboratory/wallpanel
+- chisel:laboratory/dottedpanel
+- chisel:laboratory/roundel
+- chisel:laboratory/wallvents
+- chisel:laboratory/largetile
+- chisel:laboratory/smalltile
+- chisel:laboratory/floortile
+- chisel:laboratory/checkertile
+- chisel:laboratory/fuzzscreen
+- chisel:laboratory/largesteel
+- chisel:laboratory/smallsteel
+- chisel:laboratory/directionleft
+- chisel:laboratory/directionright
+- chisel:laboratory/infocon
+
+#forge:sand/colorless
+- minecraft:sand
+
+#minecraft:pumice_blocks
+- enviromats:pumice
+- enviromats:pumice_brick
+- enviromats:pumice_brick_small
+- enviromats:pumice_cobble
+- enviromats:pumice_polished
+- enviromats:pumice_tile
+- enviromats:pumice_tile_small
+- enviromats:pumice
+- enviromats:pumice_brick
+- enviromats:pumice_brick_small
+- enviromats:pumice_cobble
+- enviromats:pumice_polished
+- enviromats:pumice_tile
+- enviromats:pumice_tile_small
+
+#tconstruct:harvestable/crops
+- #minecraft:crops
+- #forge:crops?
+- minecraft:nether_wart
+
+#minecraft:blocks
+- envirocore:litherite
+- envirocore:litherite_brick
+- envirocore:litherite_brick_small
+- envirocore:litherite_cobble
+- envirocore:litherite_polished
+- envirocore:litherite_tile
+- envirocore:litherite_tile_small
+- envirocore:erodium
+- envirocore:erodium_brick
+- envirocore:erodium_brick_small
+- envirocore:erodium_cobble
+- envirocore:erodium_polished
+- envirocore:erodium_tile
+- envirocore:erodium_tile_small
+- envirocore:kyronite
+- envirocore:kyronite_brick
+- envirocore:kyronite_brick_small
+- envirocore:kyronite_cobble
+- envirocore:kyronite_polished
+- envirocore:kyronite_tile
+- envirocore:kyronite_tile_small
+- envirocore:pladium
+- envirocore:pladium_brick
+- envirocore:pladium_brick_small
+- envirocore:pladium_cobble
+- envirocore:pladium_polished
+- envirocore:pladium_tile
+- envirocore:pladium_tile_small
+- envirocore:ionite
+- envirocore:ionite_brick
+- envirocore:ionite_brick_small
+- envirocore:ionite_cobble
+- envirocore:ionite_polished
+- envirocore:ionite_tile
+- envirocore:ionite_tile_small
+- envirocore:aethium
+- envirocore:aethium_brick
+- envirocore:aethium_brick_small
+- envirocore:aethium_cobble
+- envirocore:aethium_polished
+- envirocore:aethium_tile
+- envirocore:aethium_tile_small
+- envirocore:nanorite
+- envirocore:nanorite_brick
+- envirocore:nanorite_brick_small
+- envirocore:nanorite_cobble
+- envirocore:nanorite_polished
+- envirocore:nanorite_tile
+- envirocore:nanorite_tile_small
+- envirocore:xerothium
+- envirocore:xerothium_brick
+- envirocore:xerothium_brick_small
+- envirocore:xerothium_cobble
+- envirocore:xerothium_polished
+- envirocore:xerothium_tile
+- envirocore:xerothium_tile_small
+- envirocore:litherite
+- envirocore:litherite_brick
+- envirocore:litherite_brick_small
+- envirocore:litherite_cobble
+- envirocore:litherite_polished
+- envirocore:litherite_tile
+- envirocore:litherite_tile_small
+- envirocore:erodium
+- envirocore:erodium_brick
+- envirocore:erodium_brick_small
+- envirocore:erodium_cobble
+- envirocore:erodium_polished
+- envirocore:erodium_tile
+- envirocore:erodium_tile_small
+- envirocore:kyronite
+- envirocore:kyronite_brick
+- envirocore:kyronite_brick_small
+- envirocore:kyronite_cobble
+- envirocore:kyronite_polished
+- envirocore:kyronite_tile
+- envirocore:kyronite_tile_small
+- envirocore:pladium
+- envirocore:pladium_brick
+- envirocore:pladium_brick_small
+- envirocore:pladium_cobble
+- envirocore:pladium_polished
+- envirocore:pladium_tile
+- envirocore:pladium_tile_small
+- envirocore:ionite
+- envirocore:ionite_brick
+- envirocore:ionite_brick_small
+- envirocore:ionite_cobble
+- envirocore:ionite_polished
+- envirocore:ionite_tile
+- envirocore:ionite_tile_small
+- envirocore:aethium
+- envirocore:aethium_brick
+- envirocore:aethium_brick_small
+- envirocore:aethium_cobble
+- envirocore:aethium_polished
+- envirocore:aethium_tile
+- envirocore:aethium_tile_small
+- envirocore:nanorite
+- envirocore:nanorite_brick
+- envirocore:nanorite_brick_small
+- envirocore:nanorite_cobble
+- envirocore:nanorite_polished
+- envirocore:nanorite_tile
+- envirocore:nanorite_tile_small
+- envirocore:xerothium
+- envirocore:xerothium_brick
+- envirocore:xerothium_brick_small
+- envirocore:xerothium_cobble
+- envirocore:xerothium_polished
+- envirocore:xerothium_tile
+- envirocore:xerothium_tile_small
+- enviromats:basalt
+- enviromats:basalt_brick
+- enviromats:basalt_brick_small
+- enviromats:basalt_cobble
+- enviromats:basalt_polished
+- enviromats:basalt_tile
+- enviromats:basalt_tile_small
+- enviromats:hardened_stone
+- enviromats:hardened_stone_brick
+- enviromats:hardened_stone_brick_small
+- enviromats:hardened_stone_cobble
+- enviromats:hardened_stone_polished
+- enviromats:hardened_stone_tile
+- enviromats:hardened_stone_tile_small
+- enviromats:alabaster_white
+- enviromats:alabaster_white_brick
+- enviromats:alabaster_white_brick_small
+- enviromats:alabaster_white_cobble
+- enviromats:alabaster_white_polished
+- enviromats:alabaster_white_tile
+- enviromats:alabaster_white_tile_small
+- enviromats:alabaster_orange
+- enviromats:alabaster_orange_brick
+- enviromats:alabaster_orange_brick_small
+- enviromats:alabaster_orange_cobble
+- enviromats:alabaster_orange_polished
+- enviromats:alabaster_orange_tile
+- enviromats:alabaster_orange_tile_small
+- enviromats:alabaster_magenta
+- enviromats:alabaster_magenta_brick
+- enviromats:alabaster_magenta_brick_small
+- enviromats:alabaster_magenta_cobble
+- enviromats:alabaster_magenta_polished
+- enviromats:alabaster_magenta_tile
+- enviromats:alabaster_magenta_tile_small
+- enviromats:alabaster_light_blue
+- enviromats:alabaster_light_blue_brick
+- enviromats:alabaster_light_blue_brick_small
+- enviromats:alabaster_light_blue_cobble
+- enviromats:alabaster_light_blue_polished
+- enviromats:alabaster_light_blue_tile
+- enviromats:alabaster_light_blue_tile_small
+- enviromats:alabaster_yellow
+- enviromats:alabaster_yellow_brick
+- enviromats:alabaster_yellow_brick_small
+- enviromats:alabaster_yellow_cobble
+- enviromats:alabaster_yellow_polished
+- enviromats:alabaster_yellow_tile
+- enviromats:alabaster_yellow_tile_small
+- enviromats:alabaster_lime
+- enviromats:alabaster_lime_brick
+- enviromats:alabaster_lime_brick_small
+- enviromats:alabaster_lime_cobble
+- enviromats:alabaster_lime_polished
+- enviromats:alabaster_lime_tile
+- enviromats:alabaster_lime_tile_small
+- enviromats:alabaster_pink
+- enviromats:alabaster_pink_brick
+- enviromats:alabaster_pink_brick_small
+- enviromats:alabaster_pink_cobble
+- enviromats:alabaster_pink_polished
+- enviromats:alabaster_pink_tile
+- enviromats:alabaster_pink_tile_small
+- enviromats:alabaster_gray
+- enviromats:alabaster_gray_brick
+- enviromats:alabaster_gray_brick_small
+- enviromats:alabaster_gray_cobble
+- enviromats:alabaster_gray_polished
+- enviromats:alabaster_gray_tile
+- enviromats:alabaster_gray_tile_small
+- enviromats:alabaster_light_gray
+- enviromats:alabaster_light_gray_brick
+- enviromats:alabaster_light_gray_brick_small
+- enviromats:alabaster_light_gray_cobble
+- enviromats:alabaster_light_gray_polished
+- enviromats:alabaster_light_gray_tile
+- enviromats:alabaster_light_gray_tile_small
+- enviromats:alabaster_cyan
+- enviromats:alabaster_cyan_brick
+- enviromats:alabaster_cyan_brick_small
+- enviromats:alabaster_cyan_cobble
+- enviromats:alabaster_cyan_polished
+- enviromats:alabaster_cyan_tile
+- enviromats:alabaster_cyan_tile_small
+- enviromats:alabaster_purple
+- enviromats:alabaster_purple_brick
+- enviromats:alabaster_purple_brick_small
+- enviromats:alabaster_purple_cobble
+- enviromats:alabaster_purple_polished
+- enviromats:alabaster_purple_tile
+- enviromats:alabaster_purple_tile_small
+- enviromats:alabaster_blue
+- enviromats:alabaster_blue_brick
+- enviromats:alabaster_blue_brick_small
+- enviromats:alabaster_blue_cobble
+- enviromats:alabaster_blue_polished
+- enviromats:alabaster_blue_tile
+- enviromats:alabaster_blue_tile_small
+- enviromats:alabaster_brown
+- enviromats:alabaster_brown_brick
+- enviromats:alabaster_brown_brick_small
+- enviromats:alabaster_brown_cobble
+- enviromats:alabaster_brown_polished
+- enviromats:alabaster_brown_tile
+- enviromats:alabaster_brown_tile_small
+- enviromats:alabaster_green
+- enviromats:alabaster_green_brick
+- enviromats:alabaster_green_brick_small
+- enviromats:alabaster_green_cobble
+- enviromats:alabaster_green_polished
+- enviromats:alabaster_green_tile
+- enviromats:alabaster_green_tile_small
+- enviromats:alabaster_red
+- enviromats:alabaster_red_brick
+- enviromats:alabaster_red_brick_small
+- enviromats:alabaster_red_cobble
+- enviromats:alabaster_red_polished
+- enviromats:alabaster_red_tile
+- enviromats:alabaster_red_tile_small
+- enviromats:alabaster_black
+- enviromats:alabaster_black_brick
+- enviromats:alabaster_black_brick_small
+- enviromats:alabaster_black_cobble
+- enviromats:alabaster_black_polished
+- enviromats:alabaster_black_tile
+- enviromats:alabaster_black_tile_small
+- enviromats:granodiorite
+- enviromats:granodiorite_brick
+- enviromats:granodiorite_brick_small
+- enviromats:granodiorite_cobble
+- enviromats:granodiorite_polished
+- enviromats:granodiorite_tile
+- enviromats:granodiorite_tile_small
+- enviromats:marble
+- enviromats:marble_brick
+- enviromats:marble_brick_small
+- enviromats:marble_cobble
+- enviromats:marble_polished
+- enviromats:marble_tile
+- enviromats:marble_tile_small
+
+#chisel:marble
+- chisel:marble/raw
+- chisel:marble/cracked
+- chisel:marble/solid_bricks
+- chisel:marble/small_bricks
+- chisel:marble/soft_bricks
+- chisel:marble/cracked_bricks
+- chisel:marble/triple_bricks
+- chisel:marble/encased_bricks
+- chisel:marble/chaotic_bricks
+- chisel:marble/array
+- chisel:marble/tiles_medium
+- chisel:marble/tiles_large
+- chisel:marble/tiles_small
+- chisel:marble/chaotic_medium
+- chisel:marble/chaotic_small
+- chisel:marble/braid
+- chisel:marble/dent
+- chisel:marble/french_1
+- chisel:marble/french_2
+- chisel:marble/jellybean
+- chisel:marble/layers
+- chisel:marble/mosaic
+- chisel:marble/ornate
+- chisel:marble/panel
+- chisel:marble/road
+- chisel:marble/slanted
+- chisel:marble/zag
+- chisel:marble/circular
+- chisel:marble/circularct
+- chisel:marble/weaver
+- chisel:marble/pillar
+- chisel:marble/twisted
+- chisel:marble/prism
+- chisel:marble/cuts
+- forge:stone/marble?
+
+#minecraft:soul_speed_blocks
+- minecraft:soul_sand
+- minecraft:soul_soil
+- tconstruct:soul_glass
+- tconstruct:soul_glass_pane
+
+#forge:storage_blocks/charcoal
+- mekanism:block_charcoal
+
+#minecraft:walls
+- minecraft:cobblestone_wall
+- minecraft:mossy_cobblestone_wall
+- minecraft:brick_wall
+- minecraft:prismarine_wall
+- minecraft:red_sandstone_wall
+- minecraft:mossy_stone_brick_wall
+- minecraft:granite_wall
+- minecraft:stone_brick_wall
+- minecraft:nether_brick_wall
+- minecraft:andesite_wall
+- minecraft:red_nether_brick_wall
+- minecraft:sandstone_wall
+- minecraft:end_stone_brick_wall
+- minecraft:diorite_wall
+- minecraft:blackstone_wall
+- minecraft:polished_blackstone_brick_wall
+- minecraft:polished_blackstone_wall
+- minecraft:cobblestone_wall
+- minecraft:mossy_cobblestone_wall
+- minecraft:brick_wall
+- minecraft:prismarine_wall
+- minecraft:red_sandstone_wall
+- minecraft:mossy_stone_brick_wall
+- minecraft:granite_wall
+- minecraft:stone_brick_wall
+- minecraft:nether_brick_wall
+- minecraft:andesite_wall
+- minecraft:red_nether_brick_wall
+- minecraft:sandstone_wall
+- minecraft:end_stone_brick_wall
+- minecraft:diorite_wall
+- minecraft:blackstone_wall
+- minecraft:polished_blackstone_brick_wall
+- minecraft:polished_blackstone_wall
+- mcwwindows:oak_window
+- mcwwindows:spruce_window
+- mcwwindows:birch_window
+- mcwwindows:jungle_window
+- mcwwindows:acacia_window
+- mcwwindows:dark_oak_window
+- mcwwindows:oak_plank_window
+- mcwwindows:spruce_plank_window
+- mcwwindows:birch_plank_window
+- mcwwindows:jungle_plank_window
+- mcwwindows:acacia_plank_window
+- mcwwindows:dark_oak_plank_window
+- mcwwindows:oak_window2
+- mcwwindows:oak_plank_window2
+- mcwwindows:spruce_window2
+- mcwwindows:spruce_plank_window2
+- mcwwindows:birch_window2
+- mcwwindows:birch_plank_window2
+- mcwwindows:jungle_window2
+- mcwwindows:jungle_plank_window2
+- mcwwindows:acacia_window2
+- mcwwindows:acacia_plank_window2
+- mcwwindows:dark_oak_window2
+- mcwwindows:dark_oak_plank_window2
+- mcwwindows:stripped_oak_log_window
+- mcwwindows:stripped_oak_log_window2
+- mcwwindows:stripped_spruce_log_window
+- mcwwindows:stripped_spruce_log_window2
+- mcwwindows:stripped_birch_log_window
+- mcwwindows:stripped_birch_log_window2
+- mcwwindows:stripped_jungle_log_window
+- mcwwindows:stripped_jungle_log_window2
+- mcwwindows:stripped_acacia_log_window
+- mcwwindows:stripped_acacia_log_window2
+- mcwwindows:stripped_dark_oak_log_window
+- mcwwindows:stripped_dark_oak_log_window2
+- mcwwindows:crimson_stem_window
+- mcwwindows:crimson_stem_window2
+- mcwwindows:warped_stem_window
+- mcwwindows:warped_stem_window2
+- mcwwindows:stripped_crimson_stem_window
+- mcwwindows:stripped_crimson_stem_window2
+- mcwwindows:stripped_warped_stem_window
+- mcwwindows:stripped_warped_stem_window2
+- mcwwindows:crimson_planks_window
+- mcwwindows:crimson_planks_window2
+- mcwwindows:warped_planks_window
+- mcwwindows:warped_planks_window2
+- mcwwindows:andesite_window
+- mcwwindows:andesite_window2
+- mcwwindows:diorite_window
+- mcwwindows:diorite_window2
+- mcwwindows:granite_window
+- mcwwindows:granite_window2
+- mcwwindows:stone_window
+- mcwwindows:stone_window2
+- mcwwindows:stone_brick_arrow_slit
+- mcwwindows:cobblestone_arrow_slit
+- mcwwindows:ender_brick_arrow_slit
+- mcwwindows:nether_brick_arrow_slit
+- mcwwindows:stone_brick_gothic
+- mcwwindows:end_brick_gothic
+- mcwwindows:nether_brick_gothic
+- mcwwindows:prismarine_brick_gothic
+- tconstruct:seared_bricks_wall
+- tconstruct:seared_cobble_wall
+- envirocore:litherite_wall
+- envirocore:litherite_brick_wall
+- envirocore:litherite_brick_small_wall
+- envirocore:litherite_cobble_wall
+- envirocore:erodium_wall
+- envirocore:erodium_brick_wall
+- envirocore:erodium_brick_small_wall
+- envirocore:erodium_cobble_wall
+- envirocore:kyronite_wall
+- envirocore:kyronite_brick_wall
+- envirocore:kyronite_brick_small_wall
+- envirocore:kyronite_cobble_wall
+- envirocore:pladium_wall
+- envirocore:pladium_brick_wall
+- envirocore:pladium_brick_small_wall
+- envirocore:pladium_cobble_wall
+- envirocore:ionite_wall
+- envirocore:ionite_brick_wall
+- envirocore:ionite_brick_small_wall
+- envirocore:ionite_cobble_wall
+- envirocore:aethium_wall
+- envirocore:aethium_brick_wall
+- envirocore:aethium_brick_small_wall
+- envirocore:aethium_cobble_wall
+- envirocore:nanorite_wall
+- envirocore:nanorite_brick_wall
+- envirocore:nanorite_brick_small_wall
+- envirocore:nanorite_cobble_wall
+- envirocore:xerothium_wall
+- envirocore:xerothium_brick_wall
+- envirocore:xerothium_brick_small_wall
+- envirocore:xerothium_cobble_wall
+- enviromats:basalt_wall
+- enviromats:basalt_brick_wall
+- enviromats:basalt_brick_small_wall
+- enviromats:basalt_cobble_wall
+- enviromats:hardened_stone_wall
+- enviromats:hardened_stone_brick_wall
+- enviromats:hardened_stone_brick_small_wall
+- enviromats:hardened_stone_cobble_wall
+- enviromats:alabaster_white_wall
+- enviromats:alabaster_white_brick_wall
+- enviromats:alabaster_white_brick_small_wall
+- enviromats:alabaster_white_cobble_wall
+- enviromats:alabaster_orange_wall
+- enviromats:alabaster_orange_brick_wall
+- enviromats:alabaster_orange_brick_small_wall
+- enviromats:alabaster_orange_cobble_wall
+- enviromats:alabaster_magenta_wall
+- enviromats:alabaster_magenta_brick_wall
+- enviromats:alabaster_magenta_brick_small_wall
+- enviromats:alabaster_magenta_cobble_wall
+- enviromats:alabaster_light_blue_wall
+- enviromats:alabaster_light_blue_brick_wall
+- enviromats:alabaster_light_blue_brick_small_wall
+- enviromats:alabaster_light_blue_cobble_wall
+- enviromats:alabaster_yellow_wall
+- enviromats:alabaster_yellow_brick_wall
+- enviromats:alabaster_yellow_brick_small_wall
+- enviromats:alabaster_yellow_cobble_wall
+- enviromats:alabaster_lime_wall
+- enviromats:alabaster_lime_brick_wall
+- enviromats:alabaster_lime_brick_small_wall
+- enviromats:alabaster_lime_cobble_wall
+- enviromats:alabaster_pink_wall
+- enviromats:alabaster_pink_brick_wall
+- enviromats:alabaster_pink_brick_small_wall
+- enviromats:alabaster_pink_cobble_wall
+- enviromats:alabaster_gray_wall
+- enviromats:alabaster_gray_brick_wall
+- enviromats:alabaster_gray_brick_small_wall
+- enviromats:alabaster_gray_cobble_wall
+- enviromats:alabaster_light_gray_wall
+- enviromats:alabaster_light_gray_brick_wall
+- enviromats:alabaster_light_gray_brick_small_wall
+- enviromats:alabaster_light_gray_cobble_wall
+- enviromats:alabaster_cyan_wall
+- enviromats:alabaster_cyan_brick_wall
+- enviromats:alabaster_cyan_brick_small_wall
+- enviromats:alabaster_cyan_cobble_wall
+- enviromats:alabaster_purple_wall
+- enviromats:alabaster_purple_brick_wall
+- enviromats:alabaster_purple_brick_small_wall
+- enviromats:alabaster_purple_cobble_wall
+- enviromats:alabaster_blue_wall
+- enviromats:alabaster_blue_brick_wall
+- enviromats:alabaster_blue_brick_small_wall
+- enviromats:alabaster_blue_cobble_wall
+- enviromats:alabaster_brown_wall
+- enviromats:alabaster_brown_brick_wall
+- enviromats:alabaster_brown_brick_small_wall
+- enviromats:alabaster_brown_cobble_wall
+- enviromats:alabaster_green_wall
+- enviromats:alabaster_green_brick_wall
+- enviromats:alabaster_green_brick_small_wall
+- enviromats:alabaster_green_cobble_wall
+- enviromats:alabaster_red_wall
+- enviromats:alabaster_red_brick_wall
+- enviromats:alabaster_red_brick_small_wall
+- enviromats:alabaster_red_cobble_wall
+- enviromats:alabaster_black_wall
+- enviromats:alabaster_black_brick_wall
+- enviromats:alabaster_black_brick_small_wall
+- enviromats:alabaster_black_cobble_wall
+- enviromats:granodiorite_wall
+- enviromats:granodiorite_brick_wall
+- enviromats:granodiorite_brick_small_wall
+- enviromats:granodiorite_cobble_wall
+- enviromats:marble_wall
+- enviromats:marble_brick_wall
+- enviromats:marble_brick_small_wall
+- enviromats:marble_cobble_wall
+- enviromats:pumice_wall
+- enviromats:pumice_brick_wall
+- enviromats:pumice_brick_small_wall
+- enviromats:pumice_cobble_wall
+- enviromats:travertine_wall
+- enviromats:travertine_brick_wall
+- enviromats:travertine_brick_small_wall
+- enviromats:travertine_cobble_wall
+- framedblocks:framed_wall
+
+#tconstruct:slimy_logs
+- #tconstruct:greenheart_logs
+- #tconstruct:skyroot_logs
+- #tconstruct:bloodshroom_logs
+
+#minecraft:coral_blocks
+- minecraft:tube_coral_block
+- minecraft:brain_coral_block
+- minecraft:bubble_coral_block
+- minecraft:fire_coral_block
+- minecraft:horn_coral_block
+
+#envirocore:xerothium_stairs
+- envirocore:xerothium_stairs
+- envirocore:xerothium_brick_stairs
+- envirocore:xerothium_brick_small_stairs
+- envirocore:xerothium_cobble_stairs
+- envirocore:xerothium_polished_stairs
+- envirocore:xerothium_tile_stairs
+- envirocore:xerothium_tile_small_stairs
+
+#tconstruct:slimy_grass
+- #tconstruct:slimy_grass/earth
+- #tconstruct:slimy_grass/sky
+- #tconstruct:slimy_grass/ender
+
+#forge:fence_gates/plastic
+- mekanismadditions:black_plastic_fence_gate
+- mekanismadditions:red_plastic_fence_gate
+- mekanismadditions:green_plastic_fence_gate
+- mekanismadditions:brown_plastic_fence_gate
+- mekanismadditions:blue_plastic_fence_gate
+- mekanismadditions:purple_plastic_fence_gate
+- mekanismadditions:cyan_plastic_fence_gate
+- mekanismadditions:light_gray_plastic_fence_gate
+- mekanismadditions:gray_plastic_fence_gate
+- mekanismadditions:pink_plastic_fence_gate
+- mekanismadditions:lime_plastic_fence_gate
+- mekanismadditions:yellow_plastic_fence_gate
+- mekanismadditions:light_blue_plastic_fence_gate
+- mekanismadditions:magenta_plastic_fence_gate
+- mekanismadditions:orange_plastic_fence_gate
+- mekanismadditions:white_plastic_fence_gate
+
+#forge:glass/green
+- minecraft:green_stained_glass
+- tconstruct:green_clear_stained_glass
+
+#forge:storage_blocks/lead
+- mekanism:block_lead
+
+#envirocore:xerothium_blocks
+- envirocore:xerothium
+- envirocore:xerothium_brick
+- envirocore:xerothium_brick_small
+- envirocore:xerothium_cobble
+- envirocore:xerothium_polished
+- envirocore:xerothium_tile
+- envirocore:xerothium_tile_small
+
+#chisel:planks/dark_oak
+- chisel:planks/dark_oak/large_planks
+- chisel:planks/dark_oak/crude_horizontal_planks
+- chisel:planks/dark_oak/vertical_planks
+- chisel:planks/dark_oak/crude_vertical_planks
+- chisel:planks/dark_oak/encased_planks
+- chisel:planks/dark_oak/encased_large_planks
+- chisel:planks/dark_oak/braced_planks
+- chisel:planks/dark_oak/shipping_crate
+- chisel:planks/dark_oak/paneling
+- chisel:planks/dark_oak/crude_paneling
+- chisel:planks/dark_oak/stacked
+- chisel:planks/dark_oak/smooth
+- chisel:planks/dark_oak/encased_smooth
+- chisel:planks/dark_oak/braid
+- chisel:planks/dark_oak/log_cabin
+- minecraft:dark_oak_planks
+
+#tconstruct:slimy_soil/ender
+- tconstruct:earth_ender_slime_grass
+- tconstruct:sky_ender_slime_grass
+- tconstruct:ichor_ender_slime_grass
+- tconstruct:ender_ender_slime_grass
+- tconstruct:blood_ender_slime_grass
+- tconstruct:ender_slime_dirt
+
+#framedcompactdrawers:controller
+- storagedrawers:controller
+
+#chisel:wool/light_blue
+- chisel:wool/light_blue/legacy
+- chisel:wool/light_blue/llama
+- minecraft:light_blue_wool
+
+#minecraft:underwater_bonemeals
+- minecraft:seagrass
+- #minecraft:corals
+- #minecraft:wall_corals
+
+#ftbchunks:edit_whitelist
+- gravestone:gravestone?
+
+#minecraft:impermeable
+- minecraft:glass
+- minecraft:white_stained_glass
+- minecraft:orange_stained_glass
+- minecraft:magenta_stained_glass
+- minecraft:light_blue_stained_glass
+- minecraft:yellow_stained_glass
+- minecraft:lime_stained_glass
+- minecraft:pink_stained_glass
+- minecraft:gray_stained_glass
+- minecraft:light_gray_stained_glass
+- minecraft:cyan_stained_glass
+- minecraft:purple_stained_glass
+- minecraft:blue_stained_glass
+- minecraft:brown_stained_glass
+- minecraft:green_stained_glass
+- minecraft:red_stained_glass
+- minecraft:black_stained_glass
+- tconstruct:clear_glass
+- tconstruct:soul_glass
+- tconstruct:seared_glass
+- tconstruct:white_clear_stained_glass
+- tconstruct:orange_clear_stained_glass
+- tconstruct:magenta_clear_stained_glass
+- tconstruct:light_blue_clear_stained_glass
+- tconstruct:yellow_clear_stained_glass
+- tconstruct:lime_clear_stained_glass
+- tconstruct:pink_clear_stained_glass
+- tconstruct:gray_clear_stained_glass
+- tconstruct:light_gray_clear_stained_glass
+- tconstruct:cyan_clear_stained_glass
+- tconstruct:purple_clear_stained_glass
+- tconstruct:blue_clear_stained_glass
+- tconstruct:brown_clear_stained_glass
+- tconstruct:green_clear_stained_glass
+- tconstruct:red_clear_stained_glass
+- tconstruct:black_clear_stained_glass
+
+#minecraft:sand
+- minecraft:sand
+- minecraft:red_sand
+
+#forge:end_stones
+- minecraft:end_stone
+
+#chisel:glowstone
+- chisel:glowstone/cracked
+- chisel:glowstone/soft_bricks
+- chisel:glowstone/cracked_bricks
+- chisel:glowstone/triple_bricks
+- chisel:glowstone/encased_bricks
+- chisel:glowstone/braid
+- chisel:glowstone/array
+- chisel:glowstone/tiles_large
+- chisel:glowstone/tiles_small
+- chisel:glowstone/chaotic_medium
+- chisel:glowstone/chaotic_small
+- chisel:glowstone/dent
+- chisel:glowstone/french_1
+- chisel:glowstone/french_2
+- chisel:glowstone/jellybean
+- chisel:glowstone/layers
+- chisel:glowstone/mosaic
+- chisel:glowstone/ornate
+- chisel:glowstone/panel
+- chisel:glowstone/road
+- chisel:glowstone/slanted
+- chisel:glowstone/solid_bricks
+- chisel:glowstone/small_bricks
+- chisel:glowstone/circular
+- chisel:glowstone/tiles_medium
+- chisel:glowstone/pillar
+- chisel:glowstone/twisted
+- chisel:glowstone/prism
+- chisel:glowstone/extra/bismuth
+- chisel:glowstone/extra/tiles_large_bismuth
+- chisel:glowstone/extra/tiles_medium_bismuth
+- chisel:glowstone/extra/neon
+- chisel:glowstone/extra/neon_panel
+- minecraft:glowstone
+
+#forge:wg_stone
+- enviromats:hardened_stone
+- enviromats:alabaster_white
+- enviromats:marble
+- enviromats:basalt
+- enviromats:travertine
+- enviromats:granodiorite
+
+#forge:fences/wooden
+- minecraft:oak_fence
+- minecraft:spruce_fence
+- minecraft:birch_fence
+- minecraft:jungle_fence
+- minecraft:acacia_fence
+- minecraft:dark_oak_fence
+- minecraft:crimson_fence
+- minecraft:warped_fence
+- tconstruct:greenheart_fence
+- tconstruct:skyroot_fence
+- tconstruct:bloodshroom_fence
+
+#forge:wg_sediment
+- enviromats:pumice
+
+#forge:storage_blocks
+- #forge:storage_blocks/cast_iron
+- #forge:storage_blocks/bronze
+- #forge:storage_blocks/charcoal
+- #forge:storage_blocks/refined_glowstone
+- #forge:storage_blocks/refined_obsidian
+- #forge:storage_blocks/steel
+- #forge:storage_blocks/osmium
+- #forge:storage_blocks/copper
+- #forge:storage_blocks/tin
+- #forge:storage_blocks/lead
+- #forge:storage_blocks/uranium
+- tmechworks:aluminum_block
+- tmechworks:copper_block
+- #forge:storage_blocks/hamletite
+- #forge:storage_blocks/rosenquartz
+- #forge:storage_blocks/gildedfern
+- #forge:storage_blocks/coal
+- #forge:storage_blocks/diamond
+- #forge:storage_blocks/emerald
+- #forge:storage_blocks/gold
+- #forge:storage_blocks/iron
+- #forge:storage_blocks/lapis
+- #forge:storage_blocks/quartz
+- #forge:storage_blocks/redstone
+- #forge:storage_blocks/netherite
+- #forge:storage_blocks/copper
+- #forge:storage_blocks/cobalt
+- #forge:storage_blocks/slimesteel
+- #forge:storage_blocks/silicon_bronze
+- #forge:storage_blocks/rose_gold
+- #forge:storage_blocks/pig_iron
+- #forge:storage_blocks/queens_slime
+- #forge:storage_blocks/manyullyn
+- #forge:storage_blocks/hepatizon
+- #forge:storage_blocks/soulsteel
+- #forge:storage_blocks/knightslime
+
+#minecraft:campfires
+- minecraft:campfire
+- minecraft:soul_campfire
+
+#minecraft:infiniburn_nether
+- #minecraft:infiniburn_overworld
+
+#tconstruct:fuel_tanks
+- tconstruct:seared_heater
+- #tconstruct:seared_tanks
+- #tconstruct:scorched_tanks
+
+#tconstruct:slimy_soil
+- #tconstruct:slimy_soil/earth
+- #tconstruct:slimy_soil/sky
+- #tconstruct:slimy_soil/ichor
+- #tconstruct:slimy_soil/ender
+- #tconstruct:slimy_soil/vanilla
+
+#forge:glass_panes/orange
+- minecraft:orange_stained_glass_pane
+- tconstruct:orange_clear_stained_glass_pane
+
+#chisel:concrete/lime
+- chisel:concrete/lime/cracked
+- chisel:concrete/lime/solid_bricks
+- chisel:concrete/lime/small_bricks
+- chisel:concrete/lime/soft_bricks
+- chisel:concrete/lime/cracked_bricks
+- chisel:concrete/lime/triple_bricks
+- chisel:concrete/lime/encased_bricks
+- chisel:concrete/lime/chaotic_bricks
+- chisel:concrete/lime/array
+- chisel:concrete/lime/tiles_medium
+- chisel:concrete/lime/tiles_large
+- chisel:concrete/lime/tiles_small
+- chisel:concrete/lime/chaotic_medium
+- chisel:concrete/lime/chaotic_small
+- chisel:concrete/lime/braid
+- chisel:concrete/lime/dent
+- chisel:concrete/lime/french_1
+- chisel:concrete/lime/french_2
+- chisel:concrete/lime/jellybean
+- chisel:concrete/lime/layers
+- chisel:concrete/lime/mosaic
+- chisel:concrete/lime/ornate
+- chisel:concrete/lime/panel
+- chisel:concrete/lime/road
+- chisel:concrete/lime/slanted
+- chisel:concrete/lime/zag
+- chisel:concrete/lime/circular
+- chisel:concrete/lime/circularct
+- chisel:concrete/lime/weaver
+- chisel:concrete/lime/pillar
+- chisel:concrete/lime/twisted
+- chisel:concrete/lime/prism
+- chisel:concrete/lime/cuts
+- minecraft:lime_concrete
+
+#forge:ores/quartz
+- minecraft:nether_quartz_ore
+
+#forge:ores/cobalt
+- tconstruct:cobalt_ore
+
+#chisel:carpet/brown
+- chisel:carpet/brown/legacy
+- chisel:carpet/brown/llama
+- minecraft:brown_carpet
+
+#forge:glass/blue
+- minecraft:blue_stained_glass
+- tconstruct:blue_clear_stained_glass
+
+#minecraft:wooden_trapdoors
+- minecraft:acacia_trapdoor
+- minecraft:birch_trapdoor
+- minecraft:dark_oak_trapdoor
+- minecraft:jungle_trapdoor
+- minecraft:oak_trapdoor
+- minecraft:spruce_trapdoor
+- minecraft:crimson_trapdoor
+- minecraft:warped_trapdoor
+- tconstruct:greenheart_trapdoor
+- tconstruct:skyroot_trapdoor
+- tconstruct:bloodshroom_trapdoor
+- minecraft:acacia_trapdoor
+- minecraft:birch_trapdoor
+- minecraft:dark_oak_trapdoor
+- minecraft:jungle_trapdoor
+- minecraft:oak_trapdoor
+- minecraft:spruce_trapdoor
+- mcwtrpdoors:oak_barn_trapdoor
+- mcwtrpdoors:oak_barred_trapdoor
+- mcwtrpdoors:oak_beach_trapdoor
+- mcwtrpdoors:oak_cottage_trapdoor
+- mcwtrpdoors:oak_four_panel_trapdoor
+- mcwtrpdoors:oak_glass_trapdoor
+- mcwtrpdoors:oak_mystic_trapdoor
+- mcwtrpdoors:oak_paper_trapdoor
+- mcwtrpdoors:oak_tropical_trapdoor
+- mcwtrpdoors:spruce_barn_trapdoor
+- mcwtrpdoors:spruce_barred_trapdoor
+- mcwtrpdoors:spruce_beach_trapdoor
+- mcwtrpdoors:spruce_classic_trapdoor
+- mcwtrpdoors:spruce_four_panel_trapdoor
+- mcwtrpdoors:spruce_glass_trapdoor
+- mcwtrpdoors:spruce_mystic_trapdoor
+- mcwtrpdoors:spruce_paper_trapdoor
+- mcwtrpdoors:spruce_tropical_trapdoor
+- mcwtrpdoors:birch_barn_trapdoor
+- mcwtrpdoors:birch_barred_trapdoor
+- mcwtrpdoors:birch_beach_trapdoor
+- mcwtrpdoors:birch_classic_trapdoor
+- mcwtrpdoors:birch_cottage_trapdoor
+- mcwtrpdoors:birch_four_panel_trapdoor
+- mcwtrpdoors:birch_glass_trapdoor
+- mcwtrpdoors:birch_mystic_trapdoor
+- mcwtrpdoors:birch_tropical_trapdoor
+- mcwtrpdoors:jungle_barn_trapdoor
+- mcwtrpdoors:jungle_barred_trapdoor
+- mcwtrpdoors:jungle_classic_trapdoor
+- mcwtrpdoors:jungle_cottage_trapdoor
+- mcwtrpdoors:jungle_four_panel_trapdoor
+- mcwtrpdoors:jungle_glass_trapdoor
+- mcwtrpdoors:jungle_mystic_trapdoor
+- mcwtrpdoors:jungle_paper_trapdoor
+- mcwtrpdoors:jungle_tropical_trapdoor
+- mcwtrpdoors:acacia_barn_trapdoor
+- mcwtrpdoors:acacia_barred_trapdoor
+- mcwtrpdoors:acacia_beach_trapdoor
+- mcwtrpdoors:acacia_classic_trapdoor
+- mcwtrpdoors:acacia_cottage_trapdoor
+- mcwtrpdoors:acacia_four_panel_trapdoor
+- mcwtrpdoors:acacia_glass_trapdoor
+- mcwtrpdoors:acacia_mystic_trapdoor
+- mcwtrpdoors:acacia_paper_trapdoor
+- mcwtrpdoors:dark_oak_barn_trapdoor
+- mcwtrpdoors:dark_oak_barred_trapdoor
+- mcwtrpdoors:dark_oak_beach_trapdoor
+- mcwtrpdoors:dark_oak_classic_trapdoor
+- mcwtrpdoors:dark_oak_cottage_trapdoor
+- mcwtrpdoors:dark_oak_glass_trapdoor
+- mcwtrpdoors:dark_oak_mystic_trapdoor
+- mcwtrpdoors:dark_oak_paper_trapdoor
+- mcwtrpdoors:dark_oak_tropical_trapdoor
+- mcwtrpdoors:crimson_barn_trapdoor
+- mcwtrpdoors:crimson_beach_trapdoor
+- mcwtrpdoors:crimson_classic_trapdoor
+- mcwtrpdoors:crimson_cottage_trapdoor
+- mcwtrpdoors:crimson_four_panel_trapdoor
+- mcwtrpdoors:crimson_glass_trapdoor
+- mcwtrpdoors:crimson_mystic_trapdoor
+- mcwtrpdoors:crimson_paper_trapdoor
+- mcwtrpdoors:crimson_tropical_trapdoor
+- mcwtrpdoors:warped_barn_trapdoor
+- mcwtrpdoors:warped_barred_trapdoor
+- mcwtrpdoors:warped_beach_trapdoor
+- mcwtrpdoors:warped_classic_trapdoor
+- mcwtrpdoors:warped_cottage_trapdoor
+- mcwtrpdoors:warped_four_panel_trapdoor
+- mcwtrpdoors:warped_glass_trapdoor
+- mcwtrpdoors:warped_paper_trapdoor
+- mcwtrpdoors:warped_tropical_trapdoor
+- mcwtrpdoors:oak_bark_trapdoor
+- mcwtrpdoors:spruce_bark_trapdoor
+- mcwtrpdoors:birch_bark_trapdoor
+- mcwtrpdoors:jungle_bark_trapdoor
+- mcwtrpdoors:acacia_bark_trapdoor
+- mcwtrpdoors:dark_oak_bark_trapdoor
+- mcwtrpdoors:crimson_bark_trapdoor
+- mcwtrpdoors:warped_bark_trapdoor
+
+#forge:storage_blocks/coal
+- minecraft:coal_block
+
+#forge:glass/light_blue
+- minecraft:light_blue_stained_glass
+- tconstruct:light_blue_clear_stained_glass
+
+#forge:slabs/plastic
+- mekanismadditions:black_plastic_slab
+- mekanismadditions:red_plastic_slab
+- mekanismadditions:green_plastic_slab
+- mekanismadditions:brown_plastic_slab
+- mekanismadditions:blue_plastic_slab
+- mekanismadditions:purple_plastic_slab
+- mekanismadditions:cyan_plastic_slab
+- mekanismadditions:light_gray_plastic_slab
+- mekanismadditions:gray_plastic_slab
+- mekanismadditions:pink_plastic_slab
+- mekanismadditions:lime_plastic_slab
+- mekanismadditions:yellow_plastic_slab
+- mekanismadditions:light_blue_plastic_slab
+- mekanismadditions:magenta_plastic_slab
+- mekanismadditions:orange_plastic_slab
+- mekanismadditions:white_plastic_slab
+
+#forge:storage_blocks/redstone
+- minecraft:redstone_block
+
+#chisel:wool/orange
+- chisel:wool/orange/legacy
+- chisel:wool/orange/llama
+- minecraft:orange_wool
+
+#chisel:carpet/magenta
+- chisel:carpet/magenta/legacy
+- chisel:carpet/magenta/llama
+- minecraft:magenta_carpet
+
+#minecraft:stairs
+- #minecraft:wooden_stairs
+- minecraft:cobblestone_stairs
+- minecraft:sandstone_stairs
+- minecraft:nether_brick_stairs
+- minecraft:stone_brick_stairs
+- minecraft:brick_stairs
+- minecraft:purpur_stairs
+- minecraft:quartz_stairs
+- minecraft:red_sandstone_stairs
+- minecraft:prismarine_brick_stairs
+- minecraft:prismarine_stairs
+- minecraft:dark_prismarine_stairs
+- minecraft:polished_granite_stairs
+- minecraft:smooth_red_sandstone_stairs
+- minecraft:mossy_stone_brick_stairs
+- minecraft:polished_diorite_stairs
+- minecraft:mossy_cobblestone_stairs
+- minecraft:end_stone_brick_stairs
+- minecraft:stone_stairs
+- minecraft:smooth_sandstone_stairs
+- minecraft:smooth_quartz_stairs
+- minecraft:granite_stairs
+- minecraft:andesite_stairs
+- minecraft:red_nether_brick_stairs
+- minecraft:polished_andesite_stairs
+- minecraft:diorite_stairs
+- minecraft:blackstone_stairs
+- minecraft:polished_blackstone_brick_stairs
+- minecraft:polished_blackstone_stairs
+- #forge:stairs/plastic
+- #forge:stairs/plastic/glow
+- #forge:stairs/plastic/transparent
+- envirocore:litherite_stairs
+- envirocore:litherite_brick_stairs
+- envirocore:litherite_brick_small_stairs
+- envirocore:litherite_cobble_stairs
+- envirocore:litherite_polished_stairs
+- envirocore:litherite_tile_stairs
+- envirocore:litherite_tile_small_stairs
+- envirocore:erodium_stairs
+- envirocore:erodium_brick_stairs
+- envirocore:erodium_brick_small_stairs
+- envirocore:erodium_cobble_stairs
+- envirocore:erodium_polished_stairs
+- envirocore:erodium_tile_stairs
+- envirocore:erodium_tile_small_stairs
+- envirocore:kyronite_stairs
+- envirocore:kyronite_brick_stairs
+- envirocore:kyronite_brick_small_stairs
+- envirocore:kyronite_cobble_stairs
+- envirocore:kyronite_polished_stairs
+- envirocore:kyronite_tile_stairs
+- envirocore:kyronite_tile_small_stairs
+- envirocore:pladium_stairs
+- envirocore:pladium_brick_stairs
+- envirocore:pladium_brick_small_stairs
+- envirocore:pladium_cobble_stairs
+- envirocore:pladium_polished_stairs
+- envirocore:pladium_tile_stairs
+- envirocore:pladium_tile_small_stairs
+- envirocore:ionite_stairs
+- envirocore:ionite_brick_stairs
+- envirocore:ionite_brick_small_stairs
+- envirocore:ionite_cobble_stairs
+- envirocore:ionite_polished_stairs
+- envirocore:ionite_tile_stairs
+- envirocore:ionite_tile_small_stairs
+- envirocore:aethium_stairs
+- envirocore:aethium_brick_stairs
+- envirocore:aethium_brick_small_stairs
+- envirocore:aethium_cobble_stairs
+- envirocore:aethium_polished_stairs
+- envirocore:aethium_tile_stairs
+- envirocore:aethium_tile_small_stairs
+- envirocore:nanorite_stairs
+- envirocore:nanorite_brick_stairs
+- envirocore:nanorite_brick_small_stairs
+- envirocore:nanorite_cobble_stairs
+- envirocore:nanorite_polished_stairs
+- envirocore:nanorite_tile_stairs
+- envirocore:nanorite_tile_small_stairs
+- envirocore:xerothium_stairs
+- envirocore:xerothium_brick_stairs
+- envirocore:xerothium_brick_small_stairs
+- envirocore:xerothium_cobble_stairs
+- envirocore:xerothium_polished_stairs
+- envirocore:xerothium_tile_stairs
+- envirocore:xerothium_tile_small_stairs
+- enviromats:basalt_stairs
+- enviromats:basalt_brick_stairs
+- enviromats:basalt_brick_small_stairs
+- enviromats:basalt_cobble_stairs
+- enviromats:basalt_polished_stairs
+- enviromats:basalt_tile_stairs
+- enviromats:basalt_tile_small_stairs
+- enviromats:hardened_stone_stairs
+- enviromats:hardened_stone_brick_stairs
+- enviromats:hardened_stone_brick_small_stairs
+- enviromats:hardened_stone_cobble_stairs
+- enviromats:hardened_stone_polished_stairs
+- enviromats:hardened_stone_tile_stairs
+- enviromats:hardened_stone_tile_small_stairs
+- enviromats:alabaster_white_stairs
+- enviromats:alabaster_white_brick_stairs
+- enviromats:alabaster_white_brick_small_stairs
+- enviromats:alabaster_white_cobble_stairs
+- enviromats:alabaster_white_polished_stairs
+- enviromats:alabaster_white_tile_stairs
+- enviromats:alabaster_white_tile_small_stairs
+- enviromats:alabaster_orange_stairs
+- enviromats:alabaster_orange_brick_stairs
+- enviromats:alabaster_orange_brick_small_stairs
+- enviromats:alabaster_orange_cobble_stairs
+- enviromats:alabaster_orange_polished_stairs
+- enviromats:alabaster_orange_tile_stairs
+- enviromats:alabaster_orange_tile_small_stairs
+- enviromats:alabaster_magenta_stairs
+- enviromats:alabaster_magenta_brick_stairs
+- enviromats:alabaster_magenta_brick_small_stairs
+- enviromats:alabaster_magenta_cobble_stairs
+- enviromats:alabaster_magenta_polished_stairs
+- enviromats:alabaster_magenta_tile_stairs
+- enviromats:alabaster_magenta_tile_small_stairs
+- enviromats:alabaster_light_blue_stairs
+- enviromats:alabaster_light_blue_brick_stairs
+- enviromats:alabaster_light_blue_brick_small_stairs
+- enviromats:alabaster_light_blue_cobble_stairs
+- enviromats:alabaster_light_blue_polished_stairs
+- enviromats:alabaster_light_blue_tile_stairs
+- enviromats:alabaster_light_blue_tile_small_stairs
+- enviromats:alabaster_yellow_stairs
+- enviromats:alabaster_yellow_brick_stairs
+- enviromats:alabaster_yellow_brick_small_stairs
+- enviromats:alabaster_yellow_cobble_stairs
+- enviromats:alabaster_yellow_polished_stairs
+- enviromats:alabaster_yellow_tile_stairs
+- enviromats:alabaster_yellow_tile_small_stairs
+- enviromats:alabaster_lime_stairs
+- enviromats:alabaster_lime_brick_stairs
+- enviromats:alabaster_lime_brick_small_stairs
+- enviromats:alabaster_lime_cobble_stairs
+- enviromats:alabaster_lime_polished_stairs
+- enviromats:alabaster_lime_tile_stairs
+- enviromats:alabaster_lime_tile_small_stairs
+- enviromats:alabaster_pink_stairs
+- enviromats:alabaster_pink_brick_stairs
+- enviromats:alabaster_pink_brick_small_stairs
+- enviromats:alabaster_pink_cobble_stairs
+- enviromats:alabaster_pink_polished_stairs
+- enviromats:alabaster_pink_tile_stairs
+- enviromats:alabaster_pink_tile_small_stairs
+- enviromats:alabaster_gray_stairs
+- enviromats:alabaster_gray_brick_stairs
+- enviromats:alabaster_gray_brick_small_stairs
+- enviromats:alabaster_gray_cobble_stairs
+- enviromats:alabaster_gray_polished_stairs
+- enviromats:alabaster_gray_tile_stairs
+- enviromats:alabaster_gray_tile_small_stairs
+- enviromats:alabaster_light_gray_stairs
+- enviromats:alabaster_light_gray_brick_stairs
+- enviromats:alabaster_light_gray_brick_small_stairs
+- enviromats:alabaster_light_gray_cobble_stairs
+- enviromats:alabaster_light_gray_polished_stairs
+- enviromats:alabaster_light_gray_tile_stairs
+- enviromats:alabaster_light_gray_tile_small_stairs
+- enviromats:alabaster_cyan_stairs
+- enviromats:alabaster_cyan_brick_stairs
+- enviromats:alabaster_cyan_brick_small_stairs
+- enviromats:alabaster_cyan_cobble_stairs
+- enviromats:alabaster_cyan_polished_stairs
+- enviromats:alabaster_cyan_tile_stairs
+- enviromats:alabaster_cyan_tile_small_stairs
+- enviromats:alabaster_purple_stairs
+- enviromats:alabaster_purple_brick_stairs
+- enviromats:alabaster_purple_brick_small_stairs
+- enviromats:alabaster_purple_cobble_stairs
+- enviromats:alabaster_purple_polished_stairs
+- enviromats:alabaster_purple_tile_stairs
+- enviromats:alabaster_purple_tile_small_stairs
+- enviromats:alabaster_blue_stairs
+- enviromats:alabaster_blue_brick_stairs
+- enviromats:alabaster_blue_brick_small_stairs
+- enviromats:alabaster_blue_cobble_stairs
+- enviromats:alabaster_blue_polished_stairs
+- enviromats:alabaster_blue_tile_stairs
+- enviromats:alabaster_blue_tile_small_stairs
+- enviromats:alabaster_brown_stairs
+- enviromats:alabaster_brown_brick_stairs
+- enviromats:alabaster_brown_brick_small_stairs
+- enviromats:alabaster_brown_cobble_stairs
+- enviromats:alabaster_brown_polished_stairs
+- enviromats:alabaster_brown_tile_stairs
+- enviromats:alabaster_brown_tile_small_stairs
+- enviromats:alabaster_green_stairs
+- enviromats:alabaster_green_brick_stairs
+- enviromats:alabaster_green_brick_small_stairs
+- enviromats:alabaster_green_cobble_stairs
+- enviromats:alabaster_green_polished_stairs
+- enviromats:alabaster_green_tile_stairs
+- enviromats:alabaster_green_tile_small_stairs
+- enviromats:alabaster_red_stairs
+- enviromats:alabaster_red_brick_stairs
+- enviromats:alabaster_red_brick_small_stairs
+- enviromats:alabaster_red_cobble_stairs
+- enviromats:alabaster_red_polished_stairs
+- enviromats:alabaster_red_tile_stairs
+- enviromats:alabaster_red_tile_small_stairs
+- enviromats:alabaster_black_stairs
+- enviromats:alabaster_black_brick_stairs
+- enviromats:alabaster_black_brick_small_stairs
+- enviromats:alabaster_black_cobble_stairs
+- enviromats:alabaster_black_polished_stairs
+- enviromats:alabaster_black_tile_stairs
+- enviromats:alabaster_black_tile_small
+- enviromats:granodiorite_stairs
+- enviromats:granodiorite_brick_stairs
+- enviromats:granodiorite_brick_small_stairs
+- enviromats:granodiorite_cobble_stairs
+- enviromats:granodiorite_polished_stairs
+- enviromats:granodiorite_tile_stairs
+- enviromats:granodiorite_tile_small_stairs
+- enviromats:marble_stairs
+- enviromats:marble_brick_stairs
+- enviromats:marble_brick_small_stairs
+- enviromats:marble_cobble_stairs
+- enviromats:marble_polished_stairs
+- enviromats:marble_tile_stairs
+- enviromats:marble_tile_small_stairs
+- enviromats:pumice_stairs
+- enviromats:pumice_brick_stairs
+- enviromats:pumice_brick_small_stairs
+- enviromats:pumice_cobble_stairs
+- enviromats:pumice_polished_stairs
+- enviromats:pumice_tile_stairs
+- enviromats:pumice_tile_small_stairs
+- enviromats:travertine_stairs
+- enviromats:travertine_brick_stairs
+- enviromats:travertine_brick_small_stairs
+- enviromats:travertine_cobble_stairs
+- enviromats:travertine_polished_stairs
+- enviromats:travertine_tile_stairs
+- enviromats:travertine_tile_small_stairs
+- framedblocks:framed_stairs
+
+#minecraft:logs
+- #minecraft:logs_that_burn
+- #minecraft:crimson_stems
+- #minecraft:warped_stems
+- #tconstruct:slimy_logs
+
+#chisel:wool/blue
+- chisel:wool/blue/legacy
+- chisel:wool/blue/llama
+- minecraft:blue_wool
+
+#chisel:mossy_cobblestone
+- chisel:mossy_cobblestone/cracked
+- chisel:mossy_cobblestone/solid_bricks
+- chisel:mossy_cobblestone/small_bricks
+- chisel:mossy_cobblestone/soft_bricks
+- chisel:mossy_cobblestone/cracked_bricks
+- chisel:mossy_cobblestone/triple_bricks
+- chisel:mossy_cobblestone/encased_bricks
+- chisel:mossy_cobblestone/chaotic_bricks
+- chisel:mossy_cobblestone/array
+- chisel:mossy_cobblestone/tiles_medium
+- chisel:mossy_cobblestone/tiles_large
+- chisel:mossy_cobblestone/tiles_small
+- chisel:mossy_cobblestone/chaotic_medium
+- chisel:mossy_cobblestone/chaotic_small
+- chisel:mossy_cobblestone/braid
+- chisel:mossy_cobblestone/dent
+- chisel:mossy_cobblestone/french_1
+- chisel:mossy_cobblestone/french_2
+- chisel:mossy_cobblestone/jellybean
+- chisel:mossy_cobblestone/layers
+- chisel:mossy_cobblestone/mosaic
+- chisel:mossy_cobblestone/ornate
+- chisel:mossy_cobblestone/panel
+- chisel:mossy_cobblestone/road
+- chisel:mossy_cobblestone/slanted
+- chisel:mossy_cobblestone/zag
+- chisel:mossy_cobblestone/circular
+- chisel:mossy_cobblestone/circularct
+- chisel:mossy_cobblestone/weaver
+- chisel:mossy_cobblestone/pillar
+- chisel:mossy_cobblestone/twisted
+- chisel:mossy_cobblestone/prism
+- chisel:mossy_cobblestone/cuts
+- chisel:mossy_cobblestone/extra/emboss
+- chisel:mossy_cobblestone/extra/indent
+- chisel:mossy_cobblestone/extra/marker
+- minecraft:mossy_cobblestone
+
+#minecraft:valid_spawn
+- minecraft:grass_block
+- minecraft:podzol
+
+#minecraft:mushroom_grow_block
+- minecraft:mycelium
+- minecraft:podzol
+- minecraft:crimson_nylium
+- minecraft:warped_nylium
+
+#chisel:redstone
+- chisel:redstone/cracked
+- chisel:redstone/solid_bricks
+- chisel:redstone/small_bricks
+- chisel:redstone/soft_bricks
+- chisel:redstone/cracked_bricks
+- chisel:redstone/triple_bricks
+- chisel:redstone/encased_bricks
+- chisel:redstone/array
+- chisel:redstone/tiles_medium
+- chisel:redstone/tiles_large
+- chisel:redstone/tiles_small
+- chisel:redstone/chaotic_medium
+- chisel:redstone/chaotic_small
+- chisel:redstone/braid
+- chisel:redstone/dent
+- chisel:redstone/french_1
+- chisel:redstone/french_2
+- chisel:redstone/jellybean
+- chisel:redstone/layers
+- chisel:redstone/mosaic
+- chisel:redstone/ornate
+- chisel:redstone/panel
+- chisel:redstone/road
+- chisel:redstone/slanted
+- chisel:redstone/circular
+- chisel:redstone/pillar
+- chisel:redstone/twisted
+- chisel:redstone/prism
+- forge:storage_blocks/redstone?
+
+#minecraft:wooden_doors
+- minecraft:oak_door
+- minecraft:spruce_door
+- minecraft:birch_door
+- minecraft:jungle_door
+- minecraft:acacia_door
+- minecraft:dark_oak_door
+- minecraft:crimson_door
+- minecraft:warped_door
+- minecraft:oak_door
+- minecraft:spruce_door
+- minecraft:birch_door
+- minecraft:jungle_door
+- minecraft:acacia_door
+- minecraft:dark_oak_door
+- mcwdoors:oak_japanese_door
+- mcwdoors:oak_japanese_door
+- mcwdoors:spruce_japanese_door
+- mcwdoors:birch_japanese_door
+- mcwdoors:jungle_japanese_door
+- mcwdoors:acacia_japanese_door
+- mcwdoors:dark_oak_japanese_door
+- mcwdoors:crimson_japanese_door
+- mcwdoors:warped_japanese_door
+- mcwdoors:oak_japanese2_door
+- mcwdoors:spruce_japanese2_door
+- mcwdoors:birch_japanese2_door
+- mcwdoors:jungle_japanese2_door
+- mcwdoors:acacia_japanese2_door
+- mcwdoors:dark_oak_japanese2_door
+- mcwdoors:crimson_japanese2_door
+- mcwdoors:warped_japanese2_door
+- mcwdoors:oak_barn_door
+- mcwdoors:spruce_barn_door
+- mcwdoors:birch_barn_door
+- mcwdoors:jungle_barn_door
+- mcwdoors:acacia_barn_door
+- mcwdoors:dark_oak_barn_door
+- mcwdoors:crimson_barn_door
+- mcwdoors:warped_barn_door
+- mcwdoors:oak_barn_glass_door
+- mcwdoors:spruce_barn_glass_door
+- mcwdoors:birch_barn_glass_door
+- mcwdoors:jungle_barn_glass_door
+- mcwdoors:acacia_barn_glass_door
+- mcwdoors:dark_oak_barn_glass_door
+- mcwdoors:crimson_barn_glass_door
+- mcwdoors:warped_barn_glass_door
+- mcwdoors:oak_modern_door
+- mcwdoors:spruce_modern_door
+- mcwdoors:birch_modern_door
+- mcwdoors:jungle_modern_door
+- mcwdoors:acacia_modern_door
+- mcwdoors:dark_oak_modern_door
+- mcwdoors:crimson_modern_door
+- mcwdoors:warped_modern_door
+- mcwdoors:oak_cottage_door
+- mcwdoors:birch_cottage_door
+- mcwdoors:jungle_cottage_door
+- mcwdoors:acacia_cottage_door
+- mcwdoors:dark_oak_cottage_door
+- mcwdoors:crimson_cottage_door
+- mcwdoors:warped_cottage_door
+- mcwdoors:spruce_classic_door
+- mcwdoors:birch_classic_door
+- mcwdoors:jungle_classic_door
+- mcwdoors:acacia_classic_door
+- mcwdoors:dark_oak_classic_door
+- mcwdoors:crimson_classic_door
+- mcwdoors:warped_classic_door
+- mcwdoors:oak_beach_door
+- mcwdoors:spruce_beach_door
+- mcwdoors:birch_beach_door
+- mcwdoors:acacia_beach_door
+- mcwdoors:dark_oak_beach_door
+- mcwdoors:crimson_beach_door
+- mcwdoors:warped_beach_door
+- mcwdoors:oak_paper_door
+- mcwdoors:spruce_paper_door
+- mcwdoors:jungle_paper_door
+- mcwdoors:acacia_paper_door
+- mcwdoors:dark_oak_paper_door
+- mcwdoors:crimson_paper_door
+- mcwdoors:warped_paper_door
+- mcwdoors:oak_four_panel_door
+- mcwdoors:spruce_four_panel_door
+- mcwdoors:birch_four_panel_door
+- mcwdoors:jungle_four_panel_door
+- mcwdoors:acacia_four_panel_door
+- mcwdoors:crimson_four_panel_door
+- mcwdoors:warped_four_panel_door
+- mcwdoors:oak_tropical_door
+- mcwdoors:spruce_tropical_door
+- mcwdoors:birch_tropical_door
+- mcwdoors:jungle_tropical_door
+- mcwdoors:dark_oak_tropical_door
+- mcwdoors:crimson_tropical_door
+- mcwdoors:warped_tropical_door
+- mcwdoors:oak_glass_door
+- mcwdoors:spruce_glass_door
+- mcwdoors:birch_glass_door
+- mcwdoors:jungle_glass_door
+- mcwdoors:acacia_glass_door
+- mcwdoors:dark_oak_glass_door
+- mcwdoors:crimson_glass_door
+- mcwdoors:warped_glass_door
+- mcwdoors:oak_stable_door
+- mcwdoors:spruce_stable_door
+- mcwdoors:birch_stable_door
+- mcwdoors:jungle_stable_door
+- mcwdoors:acacia_stable_door
+- mcwdoors:dark_oak_stable_door
+- mcwdoors:crimson_stable_door
+- mcwdoors:warped_stable_door
+- mcwdoors:oak_stable_head_door
+- mcwdoors:spruce_stable_head_door
+- mcwdoors:birch_stable_head_door
+- mcwdoors:jungle_stable_head_door
+- mcwdoors:acacia_stable_head_door
+- mcwdoors:dark_oak_stable_head_door
+- mcwdoors:crimson_stable_head_door
+- mcwdoors:warped_stable_head_door
+- mcwdoors:oak_western_door
+- mcwdoors:spruce_western_door
+- mcwdoors:birch_western_door
+- mcwdoors:jungle_western_door
+- mcwdoors:acacia_western_door
+- mcwdoors:dark_oak_western_door
+- mcwdoors:crimson_western_door
+- mcwdoors:warped_western_door
+- mcwdoors:oak_mystic_door
+- mcwdoors:spruce_mystic_door
+- mcwdoors:birch_mystic_door
+- mcwdoors:jungle_mystic_door
+- mcwdoors:acacia_mystic_door
+- mcwdoors:dark_oak_mystic_door
+- mcwdoors:crimson_mystic_door
+- mcwdoors:oak_bark_glass_door
+- mcwdoors:spruce_bark_glass_door
+- mcwdoors:birch_bark_glass_door
+- mcwdoors:jungle_bark_glass_door
+- mcwdoors:acacia_bark_glass_door
+- mcwdoors:dark_oak_bark_glass_door
+- mcwdoors:crimson_stem_glass_door
+- mcwdoors:warped_stem_glass_door
+- mcwdoors:oak_nether_door
+- mcwdoors:spruce_nether_door
+- mcwdoors:birch_nether_door
+- mcwdoors:jungle_nether_door
+- mcwdoors:acacia_nether_door
+- mcwdoors:dark_oak_nether_door
+- mcwdoors:warped_nether_door
+- tconstruct:greenheart_door
+- tconstruct:skyroot_door
+- tconstruct:bloodshroom_door
+
+#ftbic:reinforced
+- ftbic:reinforced_stone
+- ftbic:reinforced_glass
+
+#tconstruct:planklike
+- #minecraft:planks
+- tconstruct:lavawood
+- tconstruct:blazewood
+- tconstruct:nahuatl
+
+#forge:glass/purple
+- minecraft:purple_stained_glass
+- tconstruct:purple_clear_stained_glass
+
+#minecraft:crimson_stems
+- minecraft:crimson_stem
+- minecraft:stripped_crimson_stem
+- minecraft:crimson_hyphae
+- minecraft:stripped_crimson_hyphae
+
+#enviromats:stairs
+- enviromats:basalt_stairs
+- enviromats:basalt_brick_stairs
+- enviromats:basalt_brick_small_stairs
+- enviromats:basalt_cobble_stairs
+- enviromats:basalt_polished_stairs
+- enviromats:basalt_tile_stairs
+- enviromats:basalt_tile_small_stairs
+- enviromats:hardened_stone_stairs
+- enviromats:hardened_stone_brick_stairs
+- enviromats:hardened_stone_brick_small_stairs
+- enviromats:hardened_stone_cobble_stairs
+- enviromats:hardened_stone_polished_stairs
+- enviromats:hardened_stone_tile_stairs
+- enviromats:hardened_stone_tile_small_stairs
+- enviromats:alabaster_white_stairs
+- enviromats:alabaster_white_brick_stairs
+- enviromats:alabaster_white_brick_small_stairs
+- enviromats:alabaster_white_cobble_stairs
+- enviromats:alabaster_white_polished_stairs
+- enviromats:alabaster_white_tile_stairs
+- enviromats:alabaster_white_tile_small_stairs
+- enviromats:alabaster_orange_stairs
+- enviromats:alabaster_orange_brick_stairs
+- enviromats:alabaster_orange_brick_small_stairs
+- enviromats:alabaster_orange_cobble_stairs
+- enviromats:alabaster_orange_polished_stairs
+- enviromats:alabaster_orange_tile_stairs
+- enviromats:alabaster_orange_tile_small_stairs
+- enviromats:alabaster_light_blue_stairs
+- enviromats:alabaster_light_blue_brick_stairs
+- enviromats:alabaster_light_blue_brick_small_stairs
+- enviromats:alabaster_light_blue_cobble_stairs
+- enviromats:alabaster_light_blue_polished_stairs
+- enviromats:alabaster_light_blue_tile_stairs
+- enviromats:alabaster_light_blue_tile_small_stairs
+- enviromats:alabaster_yellow_stairs
+- enviromats:alabaster_yellow_brick_stairs
+- enviromats:alabaster_yellow_brick_small_stairs
+- enviromats:alabaster_yellow_cobble_stairs
+- enviromats:alabaster_yellow_polished_stairs
+- enviromats:alabaster_yellow_tile_stairs
+- enviromats:alabaster_yellow_tile_small_stairs
+- enviromats:alabaster_lime_stairs
+- enviromats:alabaster_lime_brick_stairs
+- enviromats:alabaster_lime_brick_small_stairs
+- enviromats:alabaster_lime_cobble_stairs
+- enviromats:alabaster_lime_polished_stairs
+- enviromats:alabaster_lime_tile_stairs
+- enviromats:alabaster_lime_tile_small_stairs
+- enviromats:alabaster_pink_stairs
+- enviromats:alabaster_pink_brick_stairs
+- enviromats:alabaster_pink_brick_small_stairs
+- enviromats:alabaster_pink_cobble_stairs
+- enviromats:alabaster_pink_polished_stairs
+- enviromats:alabaster_pink_tile_stairs
+- enviromats:alabaster_pink_tile_small_stairs
+- enviromats:alabaster_gray_stairs
+- enviromats:alabaster_gray_brick_stairs
+- enviromats:alabaster_gray_brick_small_stairs
+- enviromats:alabaster_gray_cobble_stairs
+- enviromats:alabaster_gray_polished_stairs
+- enviromats:alabaster_gray_tile_stairs
+- enviromats:alabaster_gray_tile_small_stairs
+- enviromats:alabaster_light_gray_stairs
+- enviromats:alabaster_light_gray_brick_stairs
+- enviromats:alabaster_light_gray_brick_small_stairs
+- enviromats:alabaster_light_gray_cobble_stairs
+- enviromats:alabaster_light_gray_polished_stairs
+- enviromats:alabaster_light_gray_tile_stairs
+- enviromats:alabaster_light_gray_tile_small_stairs
+- enviromats:alabaster_cyan_stairs
+- enviromats:alabaster_cyan_brick_stairs
+- enviromats:alabaster_cyan_brick_small_stairs
+- enviromats:alabaster_cyan_cobble_stairs
+- enviromats:alabaster_cyan_polished_stairs
+- enviromats:alabaster_cyan_tile_stairs
+- enviromats:alabaster_cyan_tile_small_stairs
+- enviromats:alabaster_purple_stairs
+- enviromats:alabaster_purple_brick_stairs
+- enviromats:alabaster_purple_brick_small_stairs
+- enviromats:alabaster_purple_cobble_stairs
+- enviromats:alabaster_purple_polished_stairs
+- enviromats:alabaster_purple_tile_stairs
+- enviromats:alabaster_purple_tile_small_stairs
+- enviromats:alabaster_blue_stairs
+- enviromats:alabaster_blue_brick_stairs
+- enviromats:alabaster_blue_brick_small_stairs
+- enviromats:alabaster_blue_cobble_stairs
+- enviromats:alabaster_blue_polished_stairs
+- enviromats:alabaster_blue_tile_stairs
+- enviromats:alabaster_blue_tile_small_stairs
+- enviromats:alabaster_brown_stairs
+- enviromats:alabaster_brown_brick_stairs
+- enviromats:alabaster_brown_brick_small_stairs
+- enviromats:alabaster_brown_cobble_stairs
+- enviromats:alabaster_brown_polished_stairs
+- enviromats:alabaster_brown_tile_stairs
+- enviromats:alabaster_brown_tile_small_stairs
+- enviromats:alabaster_green_stairs
+- enviromats:alabaster_green_brick_stairs
+- enviromats:alabaster_green_brick_small_stairs
+- enviromats:alabaster_green_cobble_stairs
+- enviromats:alabaster_green_polished_stairs
+- enviromats:alabaster_green_tile_stairs
+- enviromats:alabaster_green_tile_small_stairs
+- enviromats:alabaster_red_stairs
+- enviromats:alabaster_red_brick_stairs
+- enviromats:alabaster_red_brick_small_stairs
+- enviromats:alabaster_red_cobble_stairs
+- enviromats:alabaster_red_polished_stairs
+- enviromats:alabaster_red_tile_stairs
+- enviromats:alabaster_red_tile_small_stairs
+- enviromats:alabaster_black_stairs
+- enviromats:alabaster_black_brick_stairs
+- enviromats:alabaster_black_brick_small_stairs
+- enviromats:alabaster_black_cobble_stairs
+- enviromats:alabaster_black_polished_stairs
+- enviromats:alabaster_black_tile_stairs
+- enviromats:alabaster_black_tile_small
+
+#tconstruct:slime_block
+- minecraft:slime_block
+- tconstruct:sky_slime
+- tconstruct:ichor_slime
+- tconstruct:ender_slime
+- tconstruct:blood_slime
+
+#botanypots:botany_pots
+- ftb-power-pots:power_pot_mk1
+- ftb-power-pots:power_pot_mk2
+- ftb-power-pots:power_pot_mk3
+- ftb-power-pots:power_pot_mk4
+
+#minecraft:beacon_base_blocks
+- minecraft:netherite_block
+- minecraft:emerald_block
+- minecraft:diamond_block
+- minecraft:gold_block
+- minecraft:iron_block
+- mekanism:block_osmium
+- mekanism:block_copper
+- mekanism:block_tin
+- mekanism:block_lead
+- mekanism:block_uranium
+- mekanism:block_bronze
+- mekanism:block_refined_obsidian
+- mekanism:block_refined_glowstone
+- mekanism:block_steel
+- #forge:storage_blocks/hamletite
+- #forge:storage_blocks/rosenquartz
+- #forge:storage_blocks/gildedfern
+- #forge:storage_blocks/copper
+- #forge:storage_blocks/cobalt
+- #forge:storage_blocks/slimesteel
+- #forge:storage_blocks/silicon_bronze
+- #forge:storage_blocks/rose_gold
+- #forge:storage_blocks/pig_iron
+- #forge:storage_blocks/queens_slime
+- #forge:storage_blocks/manyullyn
+- #forge:storage_blocks/hepatizon
+- #forge:storage_blocks/soulsteel
+- #forge:storage_blocks/knightslime
+- tconstruct:silky_jewel_block
+
+#tconstruct:scorched_tanks
+- tconstruct:scorched_fuel_tank
+- tconstruct:scorched_fuel_gauge
+- tconstruct:scorched_ingot_tank
+- tconstruct:scorched_ingot_gauge
+
+#minecraft:marble_blocks
+- enviromats:marble
+- enviromats:marble_brick
+- enviromats:marble_brick_small
+- enviromats:marble_cobble
+- enviromats:marble_polished
+- enviromats:marble_tile
+- enviromats:marble_tile_small
+- enviromats:marble
+- enviromats:marble_brick
+- enviromats:marble_brick_small
+- enviromats:marble_cobble
+- enviromats:marble_polished
+- enviromats:marble_tile
+- enviromats:marble_tile_small
+
+#chisel:end_stone
+- chisel:end_stone/cracked
+- chisel:end_stone/solid_bricks
+- chisel:end_stone/small_bricks
+- chisel:end_stone/soft_bricks
+- chisel:end_stone/cracked_bricks
+- chisel:end_stone/triple_bricks
+- chisel:end_stone/encased_bricks
+- chisel:end_stone/chaotic_bricks
+- chisel:end_stone/array
+- chisel:end_stone/tiles_medium
+- chisel:end_stone/tiles_large
+- chisel:end_stone/tiles_small
+- chisel:end_stone/chaotic_medium
+- chisel:end_stone/chaotic_small
+- chisel:end_stone/braid
+- chisel:end_stone/dent
+- chisel:end_stone/french_1
+- chisel:end_stone/french_2
+- chisel:end_stone/jellybean
+- chisel:end_stone/layers
+- chisel:end_stone/mosaic
+- chisel:end_stone/ornate
+- chisel:end_stone/panel
+- chisel:end_stone/road
+- chisel:end_stone/slanted
+- chisel:end_stone/zag
+- chisel:end_stone/circular
+- chisel:end_stone/circularct
+- chisel:end_stone/weaver
+- chisel:end_stone/pillar
+- chisel:end_stone/twisted
+- chisel:end_stone/prism
+- chisel:end_stone/cuts
+- minecraft:end_stone_bricks
+- forge:end_stones?
+
+#chisel:charcoal
+- chisel:charcoal/raw
+- chisel:charcoal/cracked
+- chisel:charcoal/solid_bricks
+- chisel:charcoal/small_bricks
+- chisel:charcoal/soft_bricks
+- chisel:charcoal/cracked_bricks
+- chisel:charcoal/triple_bricks
+- chisel:charcoal/encased_bricks
+- chisel:charcoal/chaotic_bricks
+- chisel:charcoal/array
+- chisel:charcoal/tiles_medium
+- chisel:charcoal/tiles_large
+- chisel:charcoal/tiles_small
+- chisel:charcoal/chaotic_medium
+- chisel:charcoal/chaotic_small
+- chisel:charcoal/braid
+- chisel:charcoal/dent
+- chisel:charcoal/french_1
+- chisel:charcoal/french_2
+- chisel:charcoal/jellybean
+- chisel:charcoal/layers
+- chisel:charcoal/mosaic
+- chisel:charcoal/ornate
+- chisel:charcoal/panel
+- chisel:charcoal/road
+- chisel:charcoal/slanted
+- chisel:charcoal/zag
+- chisel:charcoal/circular
+- chisel:charcoal/circularct
+- chisel:charcoal/weaver
+- chisel:charcoal/pillar
+- chisel:charcoal/twisted
+- chisel:charcoal/prism
+- chisel:charcoal/cuts
+- forge:storage_blocks/charcoal?
+
+#minecraft:anvil
+- minecraft:anvil
+- minecraft:chipped_anvil
+- minecraft:damaged_anvil
+
+#envirocore:litherite_slabs
+- envirocore:litherite_slab
+- envirocore:litherite_brick_slab
+- envirocore:litherite_brick_small_slab
+- envirocore:litherite_cobble_slab
+- envirocore:litherite_polished_slab
+- envirocore:litherite_tile_slab
+- envirocore:litherite_tile_small_slab
+
+#chisel:concrete/yellow
+- chisel:concrete/yellow/cracked
+- chisel:concrete/yellow/solid_bricks
+- chisel:concrete/yellow/small_bricks
+- chisel:concrete/yellow/soft_bricks
+- chisel:concrete/yellow/cracked_bricks
+- chisel:concrete/yellow/triple_bricks
+- chisel:concrete/yellow/encased_bricks
+- chisel:concrete/yellow/chaotic_bricks
+- chisel:concrete/yellow/array
+- chisel:concrete/yellow/tiles_medium
+- chisel:concrete/yellow/tiles_large
+- chisel:concrete/yellow/tiles_small
+- chisel:concrete/yellow/chaotic_medium
+- chisel:concrete/yellow/chaotic_small
+- chisel:concrete/yellow/braid
+- chisel:concrete/yellow/dent
+- chisel:concrete/yellow/french_1
+- chisel:concrete/yellow/french_2
+- chisel:concrete/yellow/jellybean
+- chisel:concrete/yellow/layers
+- chisel:concrete/yellow/mosaic
+- chisel:concrete/yellow/ornate
+- chisel:concrete/yellow/panel
+- chisel:concrete/yellow/road
+- chisel:concrete/yellow/slanted
+- chisel:concrete/yellow/zag
+- chisel:concrete/yellow/circular
+- chisel:concrete/yellow/circularct
+- chisel:concrete/yellow/weaver
+- chisel:concrete/yellow/pillar
+- chisel:concrete/yellow/twisted
+- chisel:concrete/yellow/prism
+- chisel:concrete/yellow/cuts
+- minecraft:yellow_concrete
+
+#forge:sand
+- #forge:sand/colorless
+- #forge:sand/red
+
+#minecraft:wall_corals
+- minecraft:tube_coral_wall_fan
+- minecraft:brain_coral_wall_fan
+- minecraft:bubble_coral_wall_fan
+- minecraft:fire_coral_wall_fan
+- minecraft:horn_coral_wall_fan
+
+#chisel:carpet/lime
+- chisel:carpet/lime/legacy
+- chisel:carpet/lime/llama
+- minecraft:lime_carpet
+
+#forge:ores/gold
+- #minecraft:gold_ores
+
+#forge:storage_blocks/hepatizon
+- tconstruct:hepatizon_block
+
+#minecraft:piglin_repellents
+- minecraft:soul_fire
+- minecraft:soul_torch
+- minecraft:soul_lantern
+- minecraft:soul_wall_torch
+- minecraft:soul_campfire
+
+#forge:glass/black
+- minecraft:black_stained_glass
+- tconstruct:black_clear_stained_glass
+
+#minecraft:portals
+- minecraft:nether_portal
+- minecraft:end_portal
+- minecraft:end_gateway
+
+#chisel:carpet/purple
+- chisel:carpet/purple/legacy
+- chisel:carpet/purple/llama
+- minecraft:purple_carpet
+
+#forge:fences/nether_brick
+- minecraft:nether_brick_fence
+
+#forge:glass/lime
+- minecraft:lime_stained_glass
+- tconstruct:lime_clear_stained_glass
+
+#forge:chests/wooden
+- minecraft:chest
+- minecraft:trapped_chest
+
+#forge:storage_blocks/aluminum
+- tmechworks:aluminum_block
+
+#forge:ores/iron
+- minecraft:iron_ore
+
+#chisel:metals/bronze
+- chisel:metals/bronze/caution
+- chisel:metals/bronze/crate
+- chisel:metals/bronze/thermal
+- chisel:metals/bronze/machine
+- chisel:metals/bronze/badgreggy
+- chisel:metals/bronze/bolted
+- chisel:metals/bronze/scaffold
+- forge:storage_blocks/bronze?
+
+#chisel:prismarine
+- chisel:prismarine/cracked
+- chisel:prismarine/solid_bricks
+- chisel:prismarine/small_bricks
+- chisel:prismarine/soft_bricks
+- chisel:prismarine/cracked_bricks
+- chisel:prismarine/triple_bricks
+- chisel:prismarine/encased_bricks
+- chisel:prismarine/chaotic_bricks
+- chisel:prismarine/array
+- chisel:prismarine/tiles_medium
+- chisel:prismarine/tiles_large
+- chisel:prismarine/tiles_small
+- chisel:prismarine/chaotic_medium
+- chisel:prismarine/chaotic_small
+- chisel:prismarine/braid
+- chisel:prismarine/dent
+- chisel:prismarine/french_1
+- chisel:prismarine/french_2
+- chisel:prismarine/jellybean
+- chisel:prismarine/layers
+- chisel:prismarine/mosaic
+- chisel:prismarine/ornate
+- chisel:prismarine/panel
+- chisel:prismarine/road
+- chisel:prismarine/slanted
+- chisel:prismarine/zag
+- chisel:prismarine/circular
+- chisel:prismarine/circularct
+- chisel:prismarine/weaver
+- chisel:prismarine/pillar
+- chisel:prismarine/twisted
+- chisel:prismarine/prism
+- chisel:prismarine/cuts
+- minecraft:prismarine
+- minecraft:dark_prismarine
+- minecraft:prismarine_bricks
+
+#minecraft:wooden_stairs
+- minecraft:oak_stairs
+- minecraft:spruce_stairs
+- minecraft:birch_stairs
+- minecraft:jungle_stairs
+- minecraft:acacia_stairs
+- minecraft:dark_oak_stairs
+- minecraft:crimson_stairs
+- minecraft:warped_stairs
+- tconstruct:greenheart_planks_stairs
+- tconstruct:skyroot_planks_stairs
+- tconstruct:bloodshroom_planks_stairs
+
+#minecraft:carpets
+- minecraft:white_carpet
+- minecraft:orange_carpet
+- minecraft:magenta_carpet
+- minecraft:light_blue_carpet
+- minecraft:yellow_carpet
+- minecraft:lime_carpet
+- minecraft:pink_carpet
+- minecraft:gray_carpet
+- minecraft:light_gray_carpet
+- minecraft:cyan_carpet
+- minecraft:purple_carpet
+- minecraft:blue_carpet
+- minecraft:brown_carpet
+- minecraft:green_carpet
+- minecraft:red_carpet
+- minecraft:black_carpet
+
+#minecraft:base_stone_overworld
+- minecraft:stone
+- minecraft:granite
+- minecraft:diorite
+- minecraft:andesite
+
+#chisel:wool/lime
+- chisel:wool/lime/legacy
+- chisel:wool/lime/llama
+- minecraft:lime_wool
+
+#minecraft:wooden_buttons
+- minecraft:oak_button
+- minecraft:spruce_button
+- minecraft:birch_button
+- minecraft:jungle_button
+- minecraft:acacia_button
+- minecraft:dark_oak_button
+- minecraft:crimson_button
+- minecraft:warped_button
+- tconstruct:greenheart_button
+- tconstruct:skyroot_button
+- tconstruct:bloodshroom_button
+
+#minecraft:stone_bricks
+- minecraft:stone_bricks
+- minecraft:mossy_stone_bricks
+- minecraft:cracked_stone_bricks
+- minecraft:chiseled_stone_bricks
+
+#forge:storage_blocks/quartz
+- minecraft:quartz_block
+
+#forge:glass/orange
+- minecraft:orange_stained_glass
+- tconstruct:orange_clear_stained_glass
+
+#chisel:antiblock
+- chisel:antiblock/white
+- chisel:antiblock/orange
+- chisel:antiblock/magenta
+- chisel:antiblock/light_blue
+- chisel:antiblock/yellow
+- chisel:antiblock/lime
+- chisel:antiblock/pink
+- chisel:antiblock/gray
+- chisel:antiblock/light_gray
+- chisel:antiblock/cyan
+- chisel:antiblock/purple
+- chisel:antiblock/blue
+- chisel:antiblock/brown
+- chisel:antiblock/green
+- chisel:antiblock/red
+- chisel:antiblock/black
+
+#minecraft:slabs
+- #minecraft:wooden_slabs
+- minecraft:stone_slab
+- minecraft:smooth_stone_slab
+- minecraft:stone_brick_slab
+- minecraft:sandstone_slab
+- minecraft:purpur_slab
+- minecraft:quartz_slab
+- minecraft:red_sandstone_slab
+- minecraft:brick_slab
+- minecraft:cobblestone_slab
+- minecraft:nether_brick_slab
+- minecraft:petrified_oak_slab
+- minecraft:prismarine_slab
+- minecraft:prismarine_brick_slab
+- minecraft:dark_prismarine_slab
+- minecraft:polished_granite_slab
+- minecraft:smooth_red_sandstone_slab
+- minecraft:mossy_stone_brick_slab
+- minecraft:polished_diorite_slab
+- minecraft:mossy_cobblestone_slab
+- minecraft:end_stone_brick_slab
+- minecraft:smooth_sandstone_slab
+- minecraft:smooth_quartz_slab
+- minecraft:granite_slab
+- minecraft:andesite_slab
+- minecraft:red_nether_brick_slab
+- minecraft:polished_andesite_slab
+- minecraft:diorite_slab
+- minecraft:cut_sandstone_slab
+- minecraft:cut_red_sandstone_slab
+- minecraft:blackstone_slab
+- minecraft:polished_blackstone_brick_slab
+- minecraft:polished_blackstone_slab
+- #forge:slabs/plastic
+- #forge:slabs/plastic/glow
+- #forge:slabs/plastic/transparent
+- envirocore:litherite_slab
+- envirocore:litherite_brick_slab
+- envirocore:litherite_brick_small_slab
+- envirocore:litherite_cobble_slab
+- envirocore:litherite_polished_slab
+- envirocore:litherite_tile_slab
+- envirocore:litherite_tile_small_slab
+- envirocore:erodium_slab
+- envirocore:erodium_brick_slab
+- envirocore:erodium_brick_small_slab
+- envirocore:erodium_cobble_slab
+- envirocore:erodium_polished_slab
+- envirocore:erodium_tile_slab
+- envirocore:erodium_tile_small_slab
+- envirocore:kyronite_slab
+- envirocore:kyronite_brick_slab
+- envirocore:kyronite_brick_small_slab
+- envirocore:kyronite_cobble_slab
+- envirocore:kyronite_polished_slab
+- envirocore:kyronite_tile_slab
+- envirocore:kyronite_tile_small_slab
+- envirocore:pladium_slab
+- envirocore:pladium_brick_slab
+- envirocore:pladium_brick_small_slab
+- envirocore:pladium_cobble_slab
+- envirocore:pladium_polished_slab
+- envirocore:pladium_tile_slab
+- envirocore:pladium_tile_small_slab
+- envirocore:ionite_slab
+- envirocore:ionite_brick_slab
+- envirocore:ionite_brick_small_slab
+- envirocore:ionite_cobble_slab
+- envirocore:ionite_polished_slab
+- envirocore:ionite_tile_slab
+- envirocore:ionite_tile_small_slab
+- envirocore:aethium_slab
+- envirocore:aethium_brick_slab
+- envirocore:aethium_brick_small_slab
+- envirocore:aethium_cobble_slab
+- envirocore:aethium_polished_slab
+- envirocore:aethium_tile_slab
+- envirocore:aethium_tile_small_slab
+- envirocore:nanorite_slab
+- envirocore:nanorite_brick_slab
+- envirocore:nanorite_brick_small_slab
+- envirocore:nanorite_cobble_slab
+- envirocore:nanorite_polished_slab
+- envirocore:nanorite_tile_slab
+- envirocore:nanorite_tile_small_slab
+- envirocore:xerothium_slab
+- envirocore:xerothium_brick_slab
+- envirocore:xerothium_brick_small_slab
+- envirocore:xerothium_cobble_slab
+- envirocore:xerothium_polished_slab
+- envirocore:xerothium_tile_slab
+- envirocore:xerothium_tile_small_slab
+- enviromats:basalt_slab
+- enviromats:basalt_brick_slab
+- enviromats:basalt_brick_small_slab
+- enviromats:basalt_cobble_slab
+- enviromats:basalt_polished_slab
+- enviromats:basalt_tile_slab
+- enviromats:basalt_tile_small_slab
+- enviromats:hardened_stone_slab
+- enviromats:hardened_stone_brick_slab
+- enviromats:hardened_stone_brick_small_slab
+- enviromats:hardened_stone_cobble_slab
+- enviromats:hardened_stone_polished_slab
+- enviromats:hardened_stone_tile_slab
+- enviromats:hardened_stone_tile_small_slab
+- enviromats:alabaster_white_slab
+- enviromats:alabaster_white_brick_slab
+- enviromats:alabaster_white_brick_small_slab
+- enviromats:alabaster_white_cobble_slab
+- enviromats:alabaster_white_polished_slab
+- enviromats:alabaster_white_tile_slab
+- enviromats:alabaster_white_tile_small_slab
+- enviromats:alabaster_orange_slab
+- enviromats:alabaster_orange_brick_slab
+- enviromats:alabaster_orange_brick_small_slab
+- enviromats:alabaster_orange_cobble_slab
+- enviromats:alabaster_orange_polished_slab
+- enviromats:alabaster_orange_tile_slab
+- enviromats:alabaster_orange_tile_small_slab
+- enviromats:alabaster_magenta_slab
+- enviromats:alabaster_magenta_brick_slab
+- enviromats:alabaster_magenta_brick_small_slab
+- enviromats:alabaster_magenta_cobble_slab
+- enviromats:alabaster_magenta_polished_slab
+- enviromats:alabaster_magenta_tile_slab
+- enviromats:alabaster_magenta_tile_small_slab
+- enviromats:alabaster_light_blue_slab
+- enviromats:alabaster_light_blue_brick_slab
+- enviromats:alabaster_light_blue_brick_small_slab
+- enviromats:alabaster_light_blue_cobble_slab
+- enviromats:alabaster_light_blue_polished_slab
+- enviromats:alabaster_light_blue_tile_slab
+- enviromats:alabaster_light_blue_tile_small_slab
+- enviromats:alabaster_yellow_slab
+- enviromats:alabaster_yellow_brick_slab
+- enviromats:alabaster_yellow_brick_small_slab
+- enviromats:alabaster_yellow_cobble_slab
+- enviromats:alabaster_yellow_polished_slab
+- enviromats:alabaster_yellow_tile_slab
+- enviromats:alabaster_yellow_tile_small_slab
+- enviromats:alabaster_lime_slab
+- enviromats:alabaster_lime_brick_slab
+- enviromats:alabaster_lime_brick_small_slab
+- enviromats:alabaster_lime_cobble_slab
+- enviromats:alabaster_lime_polished_slab
+- enviromats:alabaster_lime_tile_slab
+- enviromats:alabaster_lime_tile_small_slab
+- enviromats:alabaster_pink_slab
+- enviromats:alabaster_pink_brick_slab
+- enviromats:alabaster_pink_brick_small_slab
+- enviromats:alabaster_pink_cobble_slab
+- enviromats:alabaster_pink_polished_slab
+- enviromats:alabaster_pink_tile_slab
+- enviromats:alabaster_pink_tile_small_slab
+- enviromats:alabaster_gray_slab
+- enviromats:alabaster_gray_brick_slab
+- enviromats:alabaster_gray_brick_small_slab
+- enviromats:alabaster_gray_cobble_slab
+- enviromats:alabaster_gray_polished_slab
+- enviromats:alabaster_gray_tile_slab
+- enviromats:alabaster_gray_tile_small_slab
+- enviromats:alabaster_light_gray_slab
+- enviromats:alabaster_light_gray_brick_slab
+- enviromats:alabaster_light_gray_brick_small_slab
+- enviromats:alabaster_light_gray_cobble_slab
+- enviromats:alabaster_light_gray_polished_slab
+- enviromats:alabaster_light_gray_tile_slab
+- enviromats:alabaster_light_gray_tile_small_slab
+- enviromats:alabaster_cyan_slab
+- enviromats:alabaster_cyan_brick_slab
+- enviromats:alabaster_cyan_brick_small_slab
+- enviromats:alabaster_cyan_cobble_slab
+- enviromats:alabaster_cyan_polished_slab
+- enviromats:alabaster_cyan_tile_slab
+- enviromats:alabaster_cyan_tile_small_slab
+- enviromats:alabaster_purple_slab
+- enviromats:alabaster_purple_brick_slab
+- enviromats:alabaster_purple_brick_small_slab
+- enviromats:alabaster_purple_cobble_slab
+- enviromats:alabaster_purple_polished_slab
+- enviromats:alabaster_purple_tile_slab
+- enviromats:alabaster_purple_tile_small_slab
+- enviromats:alabaster_blue_slab
+- enviromats:alabaster_blue_brick_slab
+- enviromats:alabaster_blue_brick_small_slab
+- enviromats:alabaster_blue_cobble_slab
+- enviromats:alabaster_blue_polished_slab
+- enviromats:alabaster_blue_tile_slab
+- enviromats:alabaster_blue_tile_small_slab
+- enviromats:alabaster_brown_slab
+- enviromats:alabaster_brown_brick_slab
+- enviromats:alabaster_brown_brick_small_slab
+- enviromats:alabaster_brown_cobble_slab
+- enviromats:alabaster_brown_polished_slab
+- enviromats:alabaster_brown_tile_slab
+- enviromats:alabaster_brown_tile_small_slab
+- enviromats:alabaster_green_slab
+- enviromats:alabaster_green_brick_slab
+- enviromats:alabaster_green_brick_small_slab
+- enviromats:alabaster_green_cobble_slab
+- enviromats:alabaster_green_polished_slab
+- enviromats:alabaster_green_tile_slab
+- enviromats:alabaster_green_tile_small_slab
+- enviromats:alabaster_red_slab
+- enviromats:alabaster_red_brick_slab
+- enviromats:alabaster_red_brick_small_slab
+- enviromats:alabaster_red_cobble_slab
+- enviromats:alabaster_red_polished_slab
+- enviromats:alabaster_red_tile_slab
+- enviromats:alabaster_red_tile_small_slab
+- enviromats:alabaster_black_slab
+- enviromats:alabaster_black_brick_slab
+- enviromats:alabaster_black_brick_small_slab
+- enviromats:alabaster_black_cobble_slab
+- enviromats:alabaster_black_polished_slab
+- enviromats:alabaster_black_tile_slab
+- enviromats:alabaster_black_tile_small
+- enviromats:granodiorite_slab
+- enviromats:granodiorite_brick_slab
+- enviromats:granodiorite_brick_small_slab
+- enviromats:granodiorite_cobble_slab
+- enviromats:granodiorite_polished_slab
+- enviromats:granodiorite_tile_slab
+- enviromats:granodiorite_tile_small_slab
+- enviromats:marble_slab
+- enviromats:marble_brick_slab
+- enviromats:marble_brick_small_slab
+- enviromats:marble_cobble_slab
+- enviromats:marble_polished_slab
+- enviromats:marble_tile_slab
+- enviromats:marble_tile_small_slab
+- enviromats:pumice_slab
+- enviromats:pumice_brick_slab
+- enviromats:pumice_brick_small_slab
+- enviromats:pumice_cobble_slab
+- enviromats:pumice_polished_slab
+- enviromats:pumice_tile_slab
+- enviromats:pumice_tile_small_slab
+- enviromats:travertine_slab
+- enviromats:travertine_brick_slab
+- enviromats:travertine_brick_small_slab
+- enviromats:travertine_cobble_slab
+- enviromats:travertine_polished_slab
+- enviromats:travertine_tile_slab
+- enviromats:travertine_tile_small_slab
+- framedblocks:framed_slab
+
+#minecraft:guarded_by_piglins
+- minecraft:gold_block
+- minecraft:barrel
+- minecraft:chest
+- minecraft:ender_chest
+- minecraft:gilded_blackstone
+- minecraft:trapped_chest
+- #minecraft:shulker_boxes
+- #minecraft:gold_ores
+- mekanism:block_refined_glowstone
+- mekanism:personal_chest
+- tconstruct:silky_jewel_block
+- #forge:storage_blocks/rose_gold
+
+#forge:ores/emerald
+- minecraft:emerald_ore
+
+#chisel:planks/acacia
+- chisel:planks/acacia/large_planks
+- chisel:planks/acacia/crude_horizontal_planks
+- chisel:planks/acacia/vertical_planks
+- chisel:planks/acacia/crude_vertical_planks
+- chisel:planks/acacia/encased_planks
+- chisel:planks/acacia/encased_large_planks
+- chisel:planks/acacia/braced_planks
+- chisel:planks/acacia/shipping_crate
+- chisel:planks/acacia/paneling
+- chisel:planks/acacia/crude_paneling
+- chisel:planks/acacia/stacked
+- chisel:planks/acacia/smooth
+- chisel:planks/acacia/encased_smooth
+- chisel:planks/acacia/braid
+- chisel:planks/acacia/log_cabin
+- minecraft:acacia_planks
+
+#tconstruct:congealed_slime
+- tconstruct:earth_congealed_slime
+- tconstruct:sky_congealed_slime
+- tconstruct:ichor_congealed_slime
+- tconstruct:ender_congealed_slime
+- tconstruct:blood_congealed_slime
+
+#minecraft:corals
+- #minecraft:coral_plants
+- minecraft:tube_coral_fan
+- minecraft:brain_coral_fan
+- minecraft:bubble_coral_fan
+- minecraft:fire_coral_fan
+- minecraft:horn_coral_fan
+
+#minecraft:buttons
+- #minecraft:wooden_buttons
+- minecraft:stone_button
+- minecraft:polished_blackstone_button
+
+#framedcompactdrawers:compacting
+- storagedrawers:compacting_drawers_3
+
+#tmechworks:drawbridge_blacklist
+
+#envirocore:pladium_stairs
+- envirocore:pladium_stairs
+- envirocore:pladium_brick_stairs
+- envirocore:pladium_brick_small_stairs
+- envirocore:pladium_cobble_stairs
+- envirocore:pladium_polished_stairs
+- envirocore:pladium_tile_stairs
+- envirocore:pladium_tile_small_stairs
+
+#minecraft:rails
+- minecraft:rail
+- minecraft:powered_rail
+- minecraft:detector_rail
+- minecraft:activator_rail
+- framedblocks:framed_rail_slope
+
+#forge:barrels/wooden
+- minecraft:barrel
+
+#tconstruct:harvestable/interact
+- minecraft:sweet_berry_bush
+
+#tconstruct:slimy_grass/earth
+- tconstruct:earth_earth_slime_grass
+- tconstruct:earth_sky_slime_grass
+- tconstruct:earth_ichor_slime_grass
+- tconstruct:earth_ender_slime_grass
+- tconstruct:earth_vanilla_slime_grass
+
+#chisel:carpet/light_blue
+- chisel:carpet/light_blue/legacy
+- chisel:carpet/light_blue/llama
+- minecraft:light_blue_carpet
+
+#minecraft:strider_warm_blocks
+- minecraft:lava
+- tconstruct:magma_fluid
+- tconstruct:blazing_blood_fluid
+
+#minecraft:bee_growables
+- #minecraft:crops
+- minecraft:sweet_berry_bush
+
+#minecraft:wooden_pressure_plates
+- minecraft:oak_pressure_plate
+- minecraft:spruce_pressure_plate
+- minecraft:birch_pressure_plate
+- minecraft:jungle_pressure_plate
+- minecraft:acacia_pressure_plate
+- minecraft:dark_oak_pressure_plate
+- minecraft:crimson_pressure_plate
+- minecraft:warped_pressure_plate
+- tconstruct:greenheart_pressure_plate
+- tconstruct:skyroot_pressure_plate
+- tconstruct:bloodshroom_pressure_plate
+
+#chisel:carpet/orange
+- chisel:carpet/orange/legacy
+- chisel:carpet/orange/llama
+- minecraft:orange_carpet
+
+#chisel:carpet/blue
+- chisel:carpet/blue/legacy
+- chisel:carpet/blue/llama
+- minecraft:blue_carpet
+
+#minecraft:tall_flowers
+- minecraft:sunflower
+- minecraft:lilac
+- minecraft:peony
+- minecraft:rose_bush
+
+#tconstruct:heater_controllers
+- tconstruct:seared_melter
+- tconstruct:scorched_alloyer
+
+#ftbsluice:sluices
+- ftbsluice:oak_sluice
+- ftbsluice:iron_sluice
+- ftbsluice:diamond_sluice
+- ftbsluice:netherite_sluice
+- ftbsluice:empowered_sluice
+
+#minecraft:stone_pressure_plates
+- minecraft:stone_pressure_plate
+- minecraft:polished_blackstone_pressure_plate
+
+#minecraft:gold_ores
+- minecraft:gold_ore
+- minecraft:nether_gold_ore
+
+#forge:glass_panes/pink
+- minecraft:pink_stained_glass_pane
+- tconstruct:pink_clear_stained_glass_pane
+
+#chisel:carpet/white
+- chisel:carpet/white/legacy
+- chisel:carpet/white/llama
+- minecraft:white_carpet
+
+#tconstruct:smeltery
+- #tconstruct:smeltery/wall
+- #tconstruct:smeltery/floor
+- #tconstruct:smeltery/tanks
+
+#envirocore:xerothium_slabs
+- envirocore:xerothium_slab
+- envirocore:xerothium_brick_slab
+- envirocore:xerothium_brick_small_slab
+- envirocore:xerothium_cobble_slab
+- envirocore:xerothium_polished_slab
+- envirocore:xerothium_tile_slab
+- envirocore:xerothium_tile_small_slab
+
+#forge:netherrack
+- minecraft:netherrack
+
+#chisel:concrete/green
+- chisel:concrete/green/cracked
+- chisel:concrete/green/solid_bricks
+- chisel:concrete/green/small_bricks
+- chisel:concrete/green/soft_bricks
+- chisel:concrete/green/cracked_bricks
+- chisel:concrete/green/triple_bricks
+- chisel:concrete/green/encased_bricks
+- chisel:concrete/green/chaotic_bricks
+- chisel:concrete/green/array
+- chisel:concrete/green/tiles_medium
+- chisel:concrete/green/tiles_large
+- chisel:concrete/green/tiles_small
+- chisel:concrete/green/chaotic_medium
+- chisel:concrete/green/chaotic_small
+- chisel:concrete/green/braid
+- chisel:concrete/green/dent
+- chisel:concrete/green/french_1
+- chisel:concrete/green/french_2
+- chisel:concrete/green/jellybean
+- chisel:concrete/green/layers
+- chisel:concrete/green/mosaic
+- chisel:concrete/green/ornate
+- chisel:concrete/green/panel
+- chisel:concrete/green/road
+- chisel:concrete/green/slanted
+- chisel:concrete/green/zag
+- chisel:concrete/green/circular
+- chisel:concrete/green/circularct
+- chisel:concrete/green/weaver
+- chisel:concrete/green/pillar
+- chisel:concrete/green/twisted
+- chisel:concrete/green/prism
+- chisel:concrete/green/cuts
+- minecraft:green_concrete
+
+#chisel:factory
+- chisel:factory/dots
+- chisel:factory/rust2
+- chisel:factory/rust
+- chisel:factory/platex
+- chisel:factory/wireframewhite
+- chisel:factory/wireframe
+- chisel:factory/hazard
+- chisel:factory/hazardorange
+- chisel:factory/circuit
+- chisel:factory/metalbox
+- chisel:factory/goldplate
+- chisel:factory/goldplating
+- chisel:factory/grinder
+- chisel:factory/plating
+- chisel:factory/rustplates
+- chisel:factory/column
+- chisel:factory/frameblue
+- chisel:factory/iceiceice
+- chisel:factory/tilemosaic
+- chisel:factory/vent
+- chisel:factory/wireframeblue
+
+#chisel:granite
+- chisel:granite/cracked
+- chisel:granite/solid_bricks
+- chisel:granite/small_bricks
+- chisel:granite/soft_bricks
+- chisel:granite/cracked_bricks
+- chisel:granite/triple_bricks
+- chisel:granite/encased_bricks
+- chisel:granite/chaotic_bricks
+- chisel:granite/array
+- chisel:granite/tiles_medium
+- chisel:granite/tiles_large
+- chisel:granite/tiles_small
+- chisel:granite/chaotic_medium
+- chisel:granite/chaotic_small
+- chisel:granite/braid
+- chisel:granite/dent
+- chisel:granite/french_1
+- chisel:granite/french_2
+- chisel:granite/jellybean
+- chisel:granite/layers
+- chisel:granite/mosaic
+- chisel:granite/ornate
+- chisel:granite/panel
+- chisel:granite/road
+- chisel:granite/slanted
+- chisel:granite/zag
+- chisel:granite/circular
+- chisel:granite/circularct
+- chisel:granite/weaver
+- chisel:granite/pillar
+- chisel:granite/twisted
+- chisel:granite/prism
+- chisel:granite/cuts
+- minecraft:granite
+- minecraft:polished_granite
+
+#minecraft:soul_fire_base_blocks
+- minecraft:soul_sand
+- minecraft:soul_soil
+- tconstruct:soul_glass
+
+#envirocore:xerothium_walls
+- envirocore:xerothium_wall
+- envirocore:xerothium_brick_wall
+- envirocore:xerothium_brick_small_wall
+- envirocore:xerothium_cobble_wall
+
+#chisel:red_sandstone
+- chisel:red_sandstone/cracked
+- chisel:red_sandstone/solid_bricks
+- chisel:red_sandstone/small_bricks
+- chisel:red_sandstone/soft_bricks
+- chisel:red_sandstone/cracked_bricks
+- chisel:red_sandstone/triple_bricks
+- chisel:red_sandstone/encased_bricks
+- chisel:red_sandstone/chaotic_bricks
+- chisel:red_sandstone/array
+- chisel:red_sandstone/tiles_medium
+- chisel:red_sandstone/tiles_large
+- chisel:red_sandstone/tiles_small
+- chisel:red_sandstone/chaotic_medium
+- chisel:red_sandstone/chaotic_small
+- chisel:red_sandstone/braid
+- chisel:red_sandstone/dent
+- chisel:red_sandstone/french_1
+- chisel:red_sandstone/french_2
+- chisel:red_sandstone/jellybean
+- chisel:red_sandstone/layers
+- chisel:red_sandstone/mosaic
+- chisel:red_sandstone/ornate
+- chisel:red_sandstone/panel
+- chisel:red_sandstone/road
+- chisel:red_sandstone/slanted
+- chisel:red_sandstone/zag
+- chisel:red_sandstone/circular
+- chisel:red_sandstone/circularct
+- chisel:red_sandstone/weaver
+- chisel:red_sandstone/pillar
+- chisel:red_sandstone/twisted
+- chisel:red_sandstone/prism
+- chisel:red_sandstone/cuts
+- chisel:red_sandstone/extra/bevel_skeleton
+- chisel:red_sandstone/extra/glyphs
+- chisel:red_sandstone/extra/small
+- minecraft:cut_red_sandstone
+- minecraft:smooth_red_sandstone
+- minecraft:red_sandstone
+- minecraft:chiseled_red_sandstone
+
+#chisel:concrete/light_blue
+- chisel:concrete/light_blue/cracked
+- chisel:concrete/light_blue/solid_bricks
+- chisel:concrete/light_blue/small_bricks
+- chisel:concrete/light_blue/soft_bricks
+- chisel:concrete/light_blue/cracked_bricks
+- chisel:concrete/light_blue/triple_bricks
+- chisel:concrete/light_blue/encased_bricks
+- chisel:concrete/light_blue/chaotic_bricks
+- chisel:concrete/light_blue/array
+- chisel:concrete/light_blue/tiles_medium
+- chisel:concrete/light_blue/tiles_large
+- chisel:concrete/light_blue/tiles_small
+- chisel:concrete/light_blue/chaotic_medium
+- chisel:concrete/light_blue/chaotic_small
+- chisel:concrete/light_blue/braid
+- chisel:concrete/light_blue/dent
+- chisel:concrete/light_blue/french_1
+- chisel:concrete/light_blue/french_2
+- chisel:concrete/light_blue/jellybean
+- chisel:concrete/light_blue/layers
+- chisel:concrete/light_blue/mosaic
+- chisel:concrete/light_blue/ornate
+- chisel:concrete/light_blue/panel
+- chisel:concrete/light_blue/road
+- chisel:concrete/light_blue/slanted
+- chisel:concrete/light_blue/zag
+- chisel:concrete/light_blue/circular
+- chisel:concrete/light_blue/circularct
+- chisel:concrete/light_blue/weaver
+- chisel:concrete/light_blue/pillar
+- chisel:concrete/light_blue/twisted
+- chisel:concrete/light_blue/prism
+- chisel:concrete/light_blue/cuts
+- minecraft:light_blue_concrete
+
+#mekanismadditions:plastic_blocks/glow
+- mekanismadditions:black_plastic_glow
+- mekanismadditions:red_plastic_glow
+- mekanismadditions:green_plastic_glow
+- mekanismadditions:brown_plastic_glow
+- mekanismadditions:blue_plastic_glow
+- mekanismadditions:purple_plastic_glow
+- mekanismadditions:cyan_plastic_glow
+- mekanismadditions:light_gray_plastic_glow
+- mekanismadditions:gray_plastic_glow
+- mekanismadditions:pink_plastic_glow
+- mekanismadditions:lime_plastic_glow
+- mekanismadditions:yellow_plastic_glow
+- mekanismadditions:light_blue_plastic_glow
+- mekanismadditions:magenta_plastic_glow
+- mekanismadditions:orange_plastic_glow
+- mekanismadditions:white_plastic_glow
+
+#chisel:wool/cyan
+- chisel:wool/cyan/legacy
+- chisel:wool/cyan/llama
+- minecraft:cyan_wool
+
+#forge:gravel
+- minecraft:gravel
+
+#forge:stairs/plastic/transparent
+- mekanismadditions:black_plastic_transparent_stairs
+- mekanismadditions:red_plastic_transparent_stairs
+- mekanismadditions:green_plastic_transparent_stairs
+- mekanismadditions:brown_plastic_transparent_stairs
+- mekanismadditions:blue_plastic_transparent_stairs
+- mekanismadditions:purple_plastic_transparent_stairs
+- mekanismadditions:cyan_plastic_transparent_stairs
+- mekanismadditions:light_gray_plastic_transparent_stairs
+- mekanismadditions:gray_plastic_transparent_stairs
+- mekanismadditions:pink_plastic_transparent_stairs
+- mekanismadditions:lime_plastic_transparent_stairs
+- mekanismadditions:yellow_plastic_transparent_stairs
+- mekanismadditions:light_blue_plastic_transparent_stairs
+- mekanismadditions:magenta_plastic_transparent_stairs
+- mekanismadditions:orange_plastic_transparent_stairs
+- mekanismadditions:white_plastic_transparent_stairs
+
+#forge:glass_panes/cyan
+- minecraft:cyan_stained_glass_pane
+- tconstruct:cyan_clear_stained_glass_pane
+
+#minecraft:wool
+- minecraft:white_wool
+- minecraft:orange_wool
+- minecraft:magenta_wool
+- minecraft:light_blue_wool
+- minecraft:yellow_wool
+- minecraft:lime_wool
+- minecraft:pink_wool
+- minecraft:gray_wool
+- minecraft:light_gray_wool
+- minecraft:cyan_wool
+- minecraft:purple_wool
+- minecraft:blue_wool
+- minecraft:brown_wool
+- minecraft:green_wool
+- minecraft:red_wool
+- minecraft:black_wool
+
+#forge:glass/colorless
+- minecraft:glass
+- tconstruct:clear_glass
+
+#envirocore:ionite_walls
+- envirocore:ionite_wall
+- envirocore:ionite_brick_wall
+- envirocore:ionite_brick_small_wall
+- envirocore:ionite_cobble_wall
+
+#forge:glass_panes/light_blue
+- minecraft:light_blue_stained_glass_pane
+- tconstruct:light_blue_clear_stained_glass_pane
+
+#minecraft:beehives
+- minecraft:bee_nest
+- minecraft:beehive
+
+#minecraft:ice
+- minecraft:ice
+- minecraft:packed_ice
+- minecraft:blue_ice
+- minecraft:frosted_ice
+
+#forge:ores/netherite_scrap
+- minecraft:ancient_debris
+
+#minecraft:crops
+- minecraft:beetroots
+- minecraft:carrots
+- minecraft:potatoes
+- minecraft:wheat
+- minecraft:melon_stem
+- minecraft:pumpkin_stem
+
+#mekanismadditions:plastic_blocks/reinforced
+- mekanismadditions:black_reinforced_plastic
+- mekanismadditions:red_reinforced_plastic
+- mekanismadditions:green_reinforced_plastic
+- mekanismadditions:brown_reinforced_plastic
+- mekanismadditions:blue_reinforced_plastic
+- mekanismadditions:purple_reinforced_plastic
+- mekanismadditions:cyan_reinforced_plastic
+- mekanismadditions:light_gray_reinforced_plastic
+- mekanismadditions:gray_reinforced_plastic
+- mekanismadditions:pink_reinforced_plastic
+- mekanismadditions:lime_reinforced_plastic
+- mekanismadditions:yellow_reinforced_plastic
+- mekanismadditions:light_blue_reinforced_plastic
+- mekanismadditions:magenta_reinforced_plastic
+- mekanismadditions:orange_reinforced_plastic
+- mekanismadditions:white_reinforced_plastic
+
+#forge:stained_glass
+- minecraft:white_stained_glass
+- minecraft:orange_stained_glass
+- minecraft:magenta_stained_glass
+- minecraft:light_blue_stained_glass
+- minecraft:yellow_stained_glass
+- minecraft:lime_stained_glass
+- minecraft:pink_stained_glass
+- minecraft:gray_stained_glass
+- minecraft:light_gray_stained_glass
+- minecraft:cyan_stained_glass
+- minecraft:purple_stained_glass
+- minecraft:blue_stained_glass
+- minecraft:brown_stained_glass
+- minecraft:green_stained_glass
+- minecraft:red_stained_glass
+- minecraft:black_stained_glass
+- tconstruct:white_clear_stained_glass
+- tconstruct:orange_clear_stained_glass
+- tconstruct:magenta_clear_stained_glass
+- tconstruct:light_blue_clear_stained_glass
+- tconstruct:yellow_clear_stained_glass
+- tconstruct:lime_clear_stained_glass
+- tconstruct:pink_clear_stained_glass
+- tconstruct:gray_clear_stained_glass
+- tconstruct:light_gray_clear_stained_glass
+- tconstruct:cyan_clear_stained_glass
+- tconstruct:purple_clear_stained_glass
+- tconstruct:blue_clear_stained_glass
+- tconstruct:brown_clear_stained_glass
+- tconstruct:green_clear_stained_glass
+- tconstruct:red_clear_stained_glass
+- tconstruct:black_clear_stained_glass
+
+#minecraft:travertine_blocks
+- enviromats:travertine_brick
+- enviromats:travertine_brick_small
+- enviromats:travertine_cobble
+- enviromats:travertine_polished
+- enviromats:travertine_tile
+- enviromats:travertine_tile_small
+- enviromats:travertine_brick
+- enviromats:travertine_brick_small
+- enviromats:travertine_cobble
+- enviromats:travertine_polished
+- enviromats:travertine_tile
+- enviromats:travertine_tile_small
+
+#chisel:carpet/black
+- chisel:carpet/black/legacy
+- chisel:carpet/black/llama
+- minecraft:black_carpet
+
+#minecraft:warped_stems
+- minecraft:warped_stem
+- minecraft:stripped_warped_stem
+- minecraft:warped_hyphae
+- minecraft:stripped_warped_hyphae
+
+#envirocore:nanorite_walls
+- envirocore:nanorite_wall
+- envirocore:nanorite_brick_wall
+- envirocore:nanorite_brick_small_wall
+- envirocore:nanorite_cobble_wall
+
+#chisel:carpet/cyan
+- chisel:carpet/cyan/legacy
+- chisel:carpet/cyan/llama
+- minecraft:cyan_carpet
+
+#forge:storage_blocks/iron
+- minecraft:iron_block
+
+#tconstruct:smeltery/tanks
+- #tconstruct:seared_tanks
+
+#forge:glass_panes/brown
+- minecraft:brown_stained_glass_pane
+- tconstruct:brown_clear_stained_glass_pane
+
+#minecraft:climbable
+- minecraft:ladder
+- minecraft:vine
+- minecraft:scaffolding
+- minecraft:weeping_vines
+- minecraft:weeping_vines_plant
+- minecraft:twisting_vines
+- minecraft:twisting_vines_plant
+- tconstruct:seared_ladder
+- tconstruct:scorched_ladder
+- framedblocks:framed_ladder
+
+#storagedrawers:drawers
+- storagedrawers:oak_full_drawers_1
+- storagedrawers:oak_full_drawers_2
+- storagedrawers:oak_full_drawers_4
+- storagedrawers:oak_half_drawers_1
+- storagedrawers:oak_half_drawers_2
+- storagedrawers:oak_half_drawers_4
+- storagedrawers:spruce_full_drawers_1
+- storagedrawers:spruce_full_drawers_2
+- storagedrawers:spruce_full_drawers_4
+- storagedrawers:spruce_half_drawers_1
+- storagedrawers:spruce_half_drawers_2
+- storagedrawers:spruce_half_drawers_4
+- storagedrawers:birch_full_drawers_1
+- storagedrawers:birch_full_drawers_2
+- storagedrawers:birch_full_drawers_4
+- storagedrawers:birch_half_drawers_1
+- storagedrawers:birch_half_drawers_2
+- storagedrawers:birch_half_drawers_4
+- storagedrawers:jungle_full_drawers_1
+- storagedrawers:jungle_full_drawers_2
+- storagedrawers:jungle_full_drawers_4
+- storagedrawers:jungle_half_drawers_1
+- storagedrawers:jungle_half_drawers_2
+- storagedrawers:jungle_half_drawers_4
+- storagedrawers:acacia_full_drawers_1
+- storagedrawers:acacia_full_drawers_2
+- storagedrawers:acacia_full_drawers_4
+- storagedrawers:acacia_half_drawers_1
+- storagedrawers:acacia_half_drawers_2
+- storagedrawers:acacia_half_drawers_4
+- storagedrawers:dark_oak_full_drawers_1
+- storagedrawers:dark_oak_full_drawers_2
+- storagedrawers:dark_oak_full_drawers_4
+- storagedrawers:dark_oak_half_drawers_1
+- storagedrawers:dark_oak_half_drawers_2
+- storagedrawers:dark_oak_half_drawers_4
+
+#minecraft:dark_oak_logs
+- minecraft:dark_oak_log
+- minecraft:dark_oak_wood
+- minecraft:stripped_dark_oak_log
+- minecraft:stripped_dark_oak_wood
+
+#forge:storage_blocks/steel
+- mekanism:block_steel
+
+#forge:glass_panes
+- #forge:glass_panes/colorless
+- #forge:stained_glass_panes
+
+#minecraft:coral_plants
+- minecraft:tube_coral
+- minecraft:brain_coral
+- minecraft:bubble_coral
+- minecraft:fire_coral
+- minecraft:horn_coral
+
+#minecraft:non_flammable_wood
+- minecraft:warped_stem
+- minecraft:stripped_warped_stem
+- minecraft:warped_hyphae
+- minecraft:stripped_warped_hyphae
+- minecraft:crimson_stem
+- minecraft:stripped_crimson_stem
+- minecraft:crimson_hyphae
+- minecraft:stripped_crimson_hyphae
+- minecraft:crimson_planks
+- minecraft:warped_planks
+- minecraft:crimson_slab
+- minecraft:warped_slab
+- minecraft:crimson_pressure_plate
+- minecraft:warped_pressure_plate
+- minecraft:crimson_fence
+- minecraft:warped_fence
+- minecraft:crimson_trapdoor
+- minecraft:warped_trapdoor
+- minecraft:crimson_fence_gate
+- minecraft:warped_fence_gate
+- minecraft:crimson_stairs
+- minecraft:warped_stairs
+- minecraft:crimson_button
+- minecraft:warped_button
+- minecraft:crimson_door
+- minecraft:warped_door
+- minecraft:crimson_sign
+- minecraft:warped_sign
+- minecraft:crimson_wall_sign
+- minecraft:warped_wall_sign
+- tconstruct:bloodshroom_planks
+- tconstruct:bloodshroom_planks_slab
+- tconstruct:bloodshroom_planks_stairs
+- tconstruct:bloodshroom_fence
+- tconstruct:bloodshroom_fence_gate
+- tconstruct:bloodshroom_door
+- tconstruct:bloodshroom_trapdoor
+- tconstruct:bloodshroom_pressure_plate
+- tconstruct:bloodshroom_button
+- #tconstruct:bloodshroom_logs
+
+#chisel:planks/spruce
+- chisel:planks/spruce/large_planks
+- chisel:planks/spruce/crude_horizontal_planks
+- chisel:planks/spruce/vertical_planks
+- chisel:planks/spruce/crude_vertical_planks
+- chisel:planks/spruce/encased_planks
+- chisel:planks/spruce/encased_large_planks
+- chisel:planks/spruce/braced_planks
+- chisel:planks/spruce/shipping_crate
+- chisel:planks/spruce/paneling
+- chisel:planks/spruce/crude_paneling
+- chisel:planks/spruce/stacked
+- chisel:planks/spruce/smooth
+- chisel:planks/spruce/encased_smooth
+- chisel:planks/spruce/braid
+- chisel:planks/spruce/log_cabin
+- minecraft:spruce_planks
+
+#minecraft:alabaster_blocks
+- enviromats:alabaster_white
+- enviromats:alabaster_white_brick
+- enviromats:alabaster_white_brick_small
+- enviromats:alabaster_white_cobble
+- enviromats:alabaster_white_polished
+- enviromats:alabaster_white_tile
+- enviromats:alabaster_white_tile_small
+- enviromats:alabaster_orange
+- enviromats:alabaster_orange_brick
+- enviromats:alabaster_orange_brick_small
+- enviromats:alabaster_orange_cobble
+- enviromats:alabaster_orange_polished
+- enviromats:alabaster_orange_tile
+- enviromats:alabaster_orange_tile_small
+- enviromats:alabaster_magenta
+- enviromats:alabaster_magenta_brick
+- enviromats:alabaster_magenta_brick_small
+- enviromats:alabaster_magenta_cobble
+- enviromats:alabaster_magenta_polished
+- enviromats:alabaster_magenta_tile
+- enviromats:alabaster_magenta_tile_small
+- enviromats:alabaster_light_blue
+- enviromats:alabaster_light_blue_brick
+- enviromats:alabaster_light_blue_brick_small
+- enviromats:alabaster_light_blue_cobble
+- enviromats:alabaster_light_blue_polished
+- enviromats:alabaster_light_blue_tile
+- enviromats:alabaster_light_blue_tile_small
+- enviromats:alabaster_yellow
+- enviromats:alabaster_yellow_brick
+- enviromats:alabaster_yellow_brick_small
+- enviromats:alabaster_yellow_cobble
+- enviromats:alabaster_yellow_polished
+- enviromats:alabaster_yellow_tile
+- enviromats:alabaster_yellow_tile_small
+- enviromats:alabaster_lime
+- enviromats:alabaster_lime_brick
+- enviromats:alabaster_lime_brick_small
+- enviromats:alabaster_lime_cobble
+- enviromats:alabaster_lime_polished
+- enviromats:alabaster_lime_tile
+- enviromats:alabaster_lime_tile_small
+- enviromats:alabaster_pink
+- enviromats:alabaster_pink_brick
+- enviromats:alabaster_pink_brick_small
+- enviromats:alabaster_pink_cobble
+- enviromats:alabaster_pink_polished
+- enviromats:alabaster_pink_tile
+- enviromats:alabaster_pink_tile_small
+- enviromats:alabaster_gray
+- enviromats:alabaster_gray_brick
+- enviromats:alabaster_gray_brick_small
+- enviromats:alabaster_gray_cobble
+- enviromats:alabaster_gray_polished
+- enviromats:alabaster_gray_tile
+- enviromats:alabaster_gray_tile_small
+- enviromats:alabaster_light_gray
+- enviromats:alabaster_light_gray_brick
+- enviromats:alabaster_light_gray_brick_small
+- enviromats:alabaster_light_gray_cobble
+- enviromats:alabaster_light_gray_polished
+- enviromats:alabaster_light_gray_tile
+- enviromats:alabaster_light_gray_tile_small
+- enviromats:alabaster_cyan
+- enviromats:alabaster_cyan_brick
+- enviromats:alabaster_cyan_brick_small
+- enviromats:alabaster_cyan_cobble
+- enviromats:alabaster_cyan_polished
+- enviromats:alabaster_cyan_tile
+- enviromats:alabaster_cyan_tile_small
+- enviromats:alabaster_purple
+- enviromats:alabaster_purple_brick
+- enviromats:alabaster_purple_brick_small
+- enviromats:alabaster_purple_cobble
+- enviromats:alabaster_purple_polished
+- enviromats:alabaster_purple_tile
+- enviromats:alabaster_purple_tile_small
+- enviromats:alabaster_blue
+- enviromats:alabaster_blue_brick
+- enviromats:alabaster_blue_brick_small
+- enviromats:alabaster_blue_cobble
+- enviromats:alabaster_blue_polished
+- enviromats:alabaster_blue_tile
+- enviromats:alabaster_blue_tile_small
+- enviromats:alabaster_brown
+- enviromats:alabaster_brown_brick
+- enviromats:alabaster_brown_brick_small
+- enviromats:alabaster_brown_cobble
+- enviromats:alabaster_brown_polished
+- enviromats:alabaster_brown_tile
+- enviromats:alabaster_brown_tile_small
+- enviromats:alabaster_green
+- enviromats:alabaster_green_brick
+- enviromats:alabaster_green_brick_small
+- enviromats:alabaster_green_cobble
+- enviromats:alabaster_green_polished
+- enviromats:alabaster_green_tile
+- enviromats:alabaster_green_tile_small
+- enviromats:alabaster_red
+- enviromats:alabaster_red_brick
+- enviromats:alabaster_red_brick_small
+- enviromats:alabaster_red_cobble
+- enviromats:alabaster_red_polished
+- enviromats:alabaster_red_tile
+- enviromats:alabaster_red_tile_small
+- enviromats:alabaster_black
+- enviromats:alabaster_black_brick
+- enviromats:alabaster_black_brick_small
+- enviromats:alabaster_black_cobble
+- enviromats:alabaster_black_polished
+- enviromats:alabaster_black_tile
+- enviromats:alabaster_black_tile_small
+- enviromats:alabaster_white
+- enviromats:alabaster_white_brick
+- enviromats:alabaster_white_brick_small
+- enviromats:alabaster_white_cobble
+- enviromats:alabaster_white_polished
+- enviromats:alabaster_white_tile
+- enviromats:alabaster_white_tile_small
+- enviromats:alabaster_orange
+- enviromats:alabaster_orange_brick
+- enviromats:alabaster_orange_brick_small
+- enviromats:alabaster_orange_cobble
+- enviromats:alabaster_orange_polished
+- enviromats:alabaster_orange_tile
+- enviromats:alabaster_orange_tile_small
+- enviromats:alabaster_magenta
+- enviromats:alabaster_magenta_brick
+- enviromats:alabaster_magenta_brick_small
+- enviromats:alabaster_magenta_cobble
+- enviromats:alabaster_magenta_polished
+- enviromats:alabaster_magenta_tile
+- enviromats:alabaster_magenta_tile_small
+- enviromats:alabaster_light_blue
+- enviromats:alabaster_light_blue_brick
+- enviromats:alabaster_light_blue_brick_small
+- enviromats:alabaster_light_blue_cobble
+- enviromats:alabaster_light_blue_polished
+- enviromats:alabaster_light_blue_tile
+- enviromats:alabaster_light_blue_tile_small
+- enviromats:alabaster_yellow
+- enviromats:alabaster_yellow_brick
+- enviromats:alabaster_yellow_brick_small
+- enviromats:alabaster_yellow_cobble
+- enviromats:alabaster_yellow_polished
+- enviromats:alabaster_yellow_tile
+- enviromats:alabaster_yellow_tile_small
+- enviromats:alabaster_lime
+- enviromats:alabaster_lime_brick
+- enviromats:alabaster_lime_brick_small
+- enviromats:alabaster_lime_cobble
+- enviromats:alabaster_lime_polished
+- enviromats:alabaster_lime_tile
+- enviromats:alabaster_lime_tile_small
+- enviromats:alabaster_pink
+- enviromats:alabaster_pink_brick
+- enviromats:alabaster_pink_brick_small
+- enviromats:alabaster_pink_cobble
+- enviromats:alabaster_pink_polished
+- enviromats:alabaster_pink_tile
+- enviromats:alabaster_pink_tile_small
+- enviromats:alabaster_gray
+- enviromats:alabaster_gray_brick
+- enviromats:alabaster_gray_brick_small
+- enviromats:alabaster_gray_cobble
+- enviromats:alabaster_gray_polished
+- enviromats:alabaster_gray_tile
+- enviromats:alabaster_gray_tile_small
+- enviromats:alabaster_light_gray
+- enviromats:alabaster_light_gray_brick
+- enviromats:alabaster_light_gray_brick_small
+- enviromats:alabaster_light_gray_cobble
+- enviromats:alabaster_light_gray_polished
+- enviromats:alabaster_light_gray_tile
+- enviromats:alabaster_light_gray_tile_small
+- enviromats:alabaster_cyan
+- enviromats:alabaster_cyan_brick
+- enviromats:alabaster_cyan_brick_small
+- enviromats:alabaster_cyan_cobble
+- enviromats:alabaster_cyan_polished
+- enviromats:alabaster_cyan_tile
+- enviromats:alabaster_cyan_tile_small
+- enviromats:alabaster_purple
+- enviromats:alabaster_purple_brick
+- enviromats:alabaster_purple_brick_small
+- enviromats:alabaster_purple_cobble
+- enviromats:alabaster_purple_polished
+- enviromats:alabaster_purple_tile
+- enviromats:alabaster_purple_tile_small
+- enviromats:alabaster_blue
+- enviromats:alabaster_blue_brick
+- enviromats:alabaster_blue_brick_small
+- enviromats:alabaster_blue_cobble
+- enviromats:alabaster_blue_polished
+- enviromats:alabaster_blue_tile
+- enviromats:alabaster_blue_tile_small
+- enviromats:alabaster_brown
+- enviromats:alabaster_brown_brick
+- enviromats:alabaster_brown_brick_small
+- enviromats:alabaster_brown_cobble
+- enviromats:alabaster_brown_polished
+- enviromats:alabaster_brown_tile
+- enviromats:alabaster_brown_tile_small
+- enviromats:alabaster_green
+- enviromats:alabaster_green_brick
+- enviromats:alabaster_green_brick_small
+- enviromats:alabaster_green_cobble
+- enviromats:alabaster_green_polished
+- enviromats:alabaster_green_tile
+- enviromats:alabaster_green_tile_small
+- enviromats:alabaster_red
+- enviromats:alabaster_red_brick
+- enviromats:alabaster_red_brick_small
+- enviromats:alabaster_red_cobble
+- enviromats:alabaster_red_polished
+- enviromats:alabaster_red_tile
+- enviromats:alabaster_red_tile_small
+- enviromats:alabaster_black
+- enviromats:alabaster_black_brick
+- enviromats:alabaster_black_brick_small
+- enviromats:alabaster_black_cobble
+- enviromats:alabaster_black_polished
+- enviromats:alabaster_black_tile
+- enviromats:alabaster_black_tile_small
+
+#forge:ores/fluorite
+- mekanism:fluorite_ore
+
+#mekanismadditions:plastic_blocks/slick
+- mekanismadditions:black_slick_plastic
+- mekanismadditions:red_slick_plastic
+- mekanismadditions:green_slick_plastic
+- mekanismadditions:brown_slick_plastic
+- mekanismadditions:blue_slick_plastic
+- mekanismadditions:purple_slick_plastic
+- mekanismadditions:cyan_slick_plastic
+- mekanismadditions:light_gray_slick_plastic
+- mekanismadditions:gray_slick_plastic
+- mekanismadditions:pink_slick_plastic
+- mekanismadditions:lime_slick_plastic
+- mekanismadditions:yellow_slick_plastic
+- mekanismadditions:light_blue_slick_plastic
+- mekanismadditions:magenta_slick_plastic
+- mekanismadditions:orange_slick_plastic
+- mekanismadditions:white_slick_plastic
+
+#forge:storage_blocks/refined_glowstone
+- mekanism:block_refined_glowstone
+
+#envirocore:nanorite_slabs
+- envirocore:nanorite_slab
+- envirocore:nanorite_brick_slab
+- envirocore:nanorite_brick_small_slab
+- envirocore:nanorite_cobble_slab
+- envirocore:nanorite_polished_slab
+- envirocore:nanorite_tile_slab
+- envirocore:nanorite_tile_small_slab
+
+#tconstruct:seared_blocks
+- tconstruct:seared_stone
+- tconstruct:seared_cracked_bricks
+- tconstruct:seared_cobble
+- tconstruct:seared_paver
+- #tconstruct:seared_bricks
+
+#framedblocks:frameable
+- #forge:glass
+- #forge:stained_glass
+- #minecraft:ice
+- #minecraft:leaves
+
+#chisel:concrete/cyan
+- chisel:concrete/cyan/cracked
+- chisel:concrete/cyan/solid_bricks
+- chisel:concrete/cyan/small_bricks
+- chisel:concrete/cyan/soft_bricks
+- chisel:concrete/cyan/cracked_bricks
+- chisel:concrete/cyan/triple_bricks
+- chisel:concrete/cyan/encased_bricks
+- chisel:concrete/cyan/chaotic_bricks
+- chisel:concrete/cyan/array
+- chisel:concrete/cyan/tiles_medium
+- chisel:concrete/cyan/tiles_large
+- chisel:concrete/cyan/tiles_small
+- chisel:concrete/cyan/chaotic_medium
+- chisel:concrete/cyan/chaotic_small
+- chisel:concrete/cyan/braid
+- chisel:concrete/cyan/dent
+- chisel:concrete/cyan/french_1
+- chisel:concrete/cyan/french_2
+- chisel:concrete/cyan/jellybean
+- chisel:concrete/cyan/layers
+- chisel:concrete/cyan/mosaic
+- chisel:concrete/cyan/ornate
+- chisel:concrete/cyan/panel
+- chisel:concrete/cyan/road
+- chisel:concrete/cyan/slanted
+- chisel:concrete/cyan/zag
+- chisel:concrete/cyan/circular
+- chisel:concrete/cyan/circularct
+- chisel:concrete/cyan/weaver
+- chisel:concrete/cyan/pillar
+- chisel:concrete/cyan/twisted
+- chisel:concrete/cyan/prism
+- chisel:concrete/cyan/cuts
+- minecraft:cyan_concrete
+
+#forge:storage_blocks/bronze
+- mekanism:block_bronze
+
+#tconstruct:slimy_soil/earth
+- tconstruct:earth_earth_slime_grass
+- tconstruct:sky_earth_slime_grass
+- tconstruct:ichor_earth_slime_grass
+- tconstruct:ender_earth_slime_grass
+- tconstruct:blood_earth_slime_grass
+- tconstruct:earth_slime_dirt
+
+#forge:storage_blocks/soulsteel
+- tconstruct:soulsteel_block
+
+#chisel:carpet/red
+- chisel:carpet/red/legacy
+- chisel:carpet/red/llama
+- minecraft:red_carpet
+
+#forge:storage_blocks/gildedfern
+- tdelight:gildedfern_block
+
+#envirocore:aethium_slabs
+- envirocore:aethium_slab
+- envirocore:aethium_brick_slab
+- envirocore:aethium_brick_small_slab
+- envirocore:aethium_cobble_slab
+- envirocore:aethium_polished_slab
+- envirocore:aethium_tile_slab
+- envirocore:aethium_tile_small_slab
+
+#minecraft:fences
+- #minecraft:wooden_fences
+- minecraft:nether_brick_fence
+- tconstruct:scorched_bricks_fence
+- tconstruct:nahuatl_fence
+- #forge:fences/plastic
+- #minecraft:wooden_fences
+- minecraft:nether_brick_fence
+- mcwfences:oak_picket_fence
+- mcwfences:spruce_picket_fence
+- mcwfences:birch_picket_fence
+- mcwfences:jungle_picket_fence
+- mcwfences:acacia_picket_fence
+- mcwfences:dark_oak_picket_fence
+- mcwfences:crimson_picket_fence
+- mcwfences:warped_picket_fence
+- mcwfences:oak_stockade_fence
+- mcwfences:spruce_stockade_fence
+- mcwfences:birch_stockade_fence
+- mcwfences:jungle_stockade_fence
+- mcwfences:acacia_stockade_fence
+- mcwfences:dark_oak_stockade_fence
+- mcwfences:crimson_stockade_fence
+- mcwfences:warped_stockade_fence
+- mcwfences:oak_horse_fence
+- mcwfences:spruce_horse_fence
+- mcwfences:birch_horse_fence
+- mcwfences:jungle_horse_fence
+- mcwfences:acacia_horse_fence
+- mcwfences:dark_oak_horse_fence
+- mcwfences:crimson_horse_fence
+- mcwfences:warped_horse_fence
+- mcwfences:oak_wired_fence
+- mcwfences:spruce_wired_fence
+- mcwfences:birch_wired_fence
+- mcwfences:jungle_wired_fence
+- mcwfences:acacia_wired_fence
+- mcwfences:dark_oak_wired_fence
+- mcwfences:crimson_wired_fence
+- mcwfences:warped_wired_fence
+- mcwfences:modern_stone_brick_wall
+- mcwfences:modern_andesite_wall
+- mcwfences:modern_diorite_wall
+- mcwfences:modern_granite_wall
+- mcwfences:modern_end_brick_wall
+- mcwfences:modern_nether_brick_wall
+- mcwfences:modern_blackstone_wall
+- mcwfences:modern_sandstone_wall
+- mcwfences:modern_red_sandstone_wall
+- mcwfences:railing_stone_brick_wall
+- mcwfences:railing_andesite_wall
+- mcwfences:railing_diorite_wall
+- mcwfences:railing_granite_wall
+- mcwfences:railing_end_brick_wall
+- mcwfences:railing_nether_brick_wall
+- mcwfences:railing_blackstone_wall
+- mcwfences:railing_sandstone_wall
+- mcwfences:railing_red_sandstone_wall
+- framedblocks:framed_fence
+
+#minecraft:saplings
+- minecraft:oak_sapling
+- minecraft:spruce_sapling
+- minecraft:birch_sapling
+- minecraft:jungle_sapling
+- minecraft:acacia_sapling
+- minecraft:dark_oak_sapling
+- #tconstruct:slimy_saplings
+
+#forge:storage_blocks/tin
+- mekanism:block_tin
+
+#forge:ores/copper
+- mekanism:copper_ore
+- tmechworks:copper_ore
+- tconstruct:copper_ore
+
+#envirocore:ionite_slabs
+- envirocore:ionite_slab
+- envirocore:ionite_brick_slab
+- envirocore:ionite_brick_small_slab
+- envirocore:ionite_cobble_slab
+- envirocore:ionite_polished_slab
+- envirocore:ionite_tile_slab
+- envirocore:ionite_tile_small_slab
+
+#chisel:futura
+- chisel:futura/screen_metallic
+- chisel:futura/screen_cyan
+- chisel:futura/controller
+- chisel:futura/wavy
+- chisel:futura/controller_purple
+- chisel:futura/uber_wavy
+
+#minecraft:unstable_bottom_center
+- #minecraft:fence_gates
+
+#minecraft:enderman_holdable
+- #minecraft:small_flowers
+- minecraft:grass_block
+- minecraft:dirt
+- minecraft:coarse_dirt
+- minecraft:podzol
+- minecraft:sand
+- minecraft:red_sand
+- minecraft:gravel
+- minecraft:brown_mushroom
+- minecraft:red_mushroom
+- minecraft:tnt
+- minecraft:cactus
+- minecraft:clay
+- minecraft:pumpkin
+- minecraft:carved_pumpkin
+- minecraft:melon
+- minecraft:mycelium
+- minecraft:crimson_fungus
+- minecraft:crimson_nylium
+- minecraft:crimson_roots
+- minecraft:warped_fungus
+- minecraft:warped_nylium
+- minecraft:warped_roots
+- #tconstruct:congealed_slime
+- tconstruct:grout
+- tconstruct:ichor_slime_sapling
+- tconstruct:blood_slime_sapling
+- #tconstruct:slimy_soil
+
+#minecraft:banners
+- minecraft:white_banner
+- minecraft:orange_banner
+- minecraft:magenta_banner
+- minecraft:light_blue_banner
+- minecraft:yellow_banner
+- minecraft:lime_banner
+- minecraft:pink_banner
+- minecraft:gray_banner
+- minecraft:light_gray_banner
+- minecraft:cyan_banner
+- minecraft:purple_banner
+- minecraft:blue_banner
+- minecraft:brown_banner
+- minecraft:green_banner
+- minecraft:red_banner
+- minecraft:black_banner
+- minecraft:white_wall_banner
+- minecraft:orange_wall_banner
+- minecraft:magenta_wall_banner
+- minecraft:light_blue_wall_banner
+- minecraft:yellow_wall_banner
+- minecraft:lime_wall_banner
+- minecraft:pink_wall_banner
+- minecraft:gray_wall_banner
+- minecraft:light_gray_wall_banner
+- minecraft:cyan_wall_banner
+- minecraft:purple_wall_banner
+- minecraft:blue_wall_banner
+- minecraft:brown_wall_banner
+- minecraft:green_wall_banner
+- minecraft:red_wall_banner
+- minecraft:black_wall_banner
+
+#minecraft:wooden_fences
+- minecraft:oak_fence
+- minecraft:acacia_fence
+- minecraft:dark_oak_fence
+- minecraft:spruce_fence
+- minecraft:birch_fence
+- minecraft:jungle_fence
+- minecraft:crimson_fence
+- minecraft:warped_fence
+- tconstruct:greenheart_fence
+- tconstruct:skyroot_fence
+- tconstruct:bloodshroom_fence
+
+#forge:storage_blocks/knightslime
+- tconstruct:knightslime_block
+
+#envirocore:aethium_walls
+- envirocore:aethium_wall
+- envirocore:aethium_brick_wall
+- envirocore:aethium_brick_small_wall
+- envirocore:aethium_cobble_wall
+
+#minecraft:wall_post_override
+- minecraft:torch
+- minecraft:soul_torch
+- minecraft:redstone_torch
+- minecraft:tripwire
+- #minecraft:signs
+- #minecraft:banners
+- #minecraft:pressure_plates
+
+#ftbessentials:ignore_rtp
+- #minecraft:leaves
+- minecraft:bedrock
+
+#tconstruct:anvil_metal
+- #forge:storage_blocks/slimesteel
+- #forge:storage_blocks/silicon_bronze
+- #forge:storage_blocks/rose_gold
+- #forge:storage_blocks/pig_iron
+- #forge:storage_blocks/queens_slime
+- #forge:storage_blocks/manyullyn
+- #forge:storage_blocks/hepatizon
+- #forge:storage_blocks/netherite
+- #forge:storage_blocks/bronze?
+- #forge:storage_blocks/brass?
+- #forge:storage_blocks/electrum?
+- #forge:storage_blocks/invar?
+- #forge:storage_blocks/constantan?
+- #forge:storage_blocks/pewter?
+- #forge:storage_blocks/steel?
+- #forge:storage_blocks/enderium?
+- #forge:storage_blocks/lumium?
+- #forge:storage_blocks/signalum?
+- #forge:storage_blocks/refined_glowstone?
+- #forge:storage_blocks/refined_obsidian?
+
+#mekanismadditions:glow_panels
+- mekanismadditions:black_glow_panel
+- mekanismadditions:red_glow_panel
+- mekanismadditions:green_glow_panel
+- mekanismadditions:brown_glow_panel
+- mekanismadditions:blue_glow_panel
+- mekanismadditions:purple_glow_panel
+- mekanismadditions:cyan_glow_panel
+- mekanismadditions:light_gray_glow_panel
+- mekanismadditions:gray_glow_panel
+- mekanismadditions:pink_glow_panel
+- mekanismadditions:lime_glow_panel
+- mekanismadditions:yellow_glow_panel
+- mekanismadditions:light_blue_glow_panel
+- mekanismadditions:magenta_glow_panel
+- mekanismadditions:orange_glow_panel
+- mekanismadditions:white_glow_panel
+
+#forge:obsidian
+- minecraft:obsidian
+
+#tconstruct:slimy_nylium/ichor
+- tconstruct:ichor_earth_slime_grass
+- tconstruct:ichor_sky_slime_grass
+- tconstruct:ichor_ichor_slime_grass
+- tconstruct:ichor_ender_slime_grass
+- tconstruct:ichor_vanilla_slime_grass
+
+#forge:enderman_place_on_blacklist
+- mekanism:dynamic_tank
+- mekanism:dynamic_valve
+- mekanism:boiler_casing
+- mekanism:boiler_valve
+- mekanism:pressure_disperser
+- mekanism:superheating_element
+- mekanism:induction_casing
+- mekanism:induction_port
+- mekanism:thermal_evaporation_controller
+- mekanism:thermal_evaporation_valve
+- mekanism:thermal_evaporation_block
+- mekanism:structural_glass
+- mekanism:sps_casing
+- mekanism:sps_port
+- mekanism:supercharged_coil
+- mekanismgenerators:turbine_casing
+- mekanismgenerators:turbine_valve
+- mekanismgenerators:turbine_vent
+- mekanismgenerators:electromagnetic_coil
+- mekanismgenerators:rotational_complex
+- mekanismgenerators:saturating_condenser
+- mekanismgenerators:turbine_rotor
+- mekanismgenerators:fission_reactor_casing
+- mekanismgenerators:fission_reactor_port
+- mekanismgenerators:fission_reactor_logic_adapter
+- mekanismgenerators:fission_fuel_assembly
+- mekanismgenerators:control_rod_assembly
+- mekanismgenerators:fusion_reactor_controller
+- mekanismgenerators:fusion_reactor_port
+- mekanismgenerators:fusion_reactor_frame
+- mekanismgenerators:fusion_reactor_logic_adapter
+- mekanismgenerators:laser_focus_matrix
+- mekanismgenerators:reactor_glass
+
+#forge:chests/electric
+- mekanism:personal_chest
+
+#forge:slabs/plastic/glow
+- mekanismadditions:black_plastic_glow_slab
+- mekanismadditions:red_plastic_glow_slab
+- mekanismadditions:green_plastic_glow_slab
+- mekanismadditions:brown_plastic_glow_slab
+- mekanismadditions:blue_plastic_glow_slab
+- mekanismadditions:purple_plastic_glow_slab
+- mekanismadditions:cyan_plastic_glow_slab
+- mekanismadditions:light_gray_plastic_glow_slab
+- mekanismadditions:gray_plastic_glow_slab
+- mekanismadditions:pink_plastic_glow_slab
+- mekanismadditions:lime_plastic_glow_slab
+- mekanismadditions:yellow_plastic_glow_slab
+- mekanismadditions:light_blue_plastic_glow_slab
+- mekanismadditions:magenta_plastic_glow_slab
+- mekanismadditions:orange_plastic_glow_slab
+- mekanismadditions:white_plastic_glow_slab
+
+#chisel:wool/green
+- chisel:wool/green/legacy
+- chisel:wool/green/llama
+- minecraft:green_wool
+
+#chisel:limestone
+- chisel:limestone/raw
+- chisel:limestone/cracked
+- chisel:limestone/solid_bricks
+- chisel:limestone/small_bricks
+- chisel:limestone/soft_bricks
+- chisel:limestone/cracked_bricks
+- chisel:limestone/triple_bricks
+- chisel:limestone/encased_bricks
+- chisel:limestone/chaotic_bricks
+- chisel:limestone/array
+- chisel:limestone/tiles_medium
+- chisel:limestone/tiles_large
+- chisel:limestone/tiles_small
+- chisel:limestone/chaotic_medium
+- chisel:limestone/chaotic_small
+- chisel:limestone/braid
+- chisel:limestone/dent
+- chisel:limestone/french_1
+- chisel:limestone/french_2
+- chisel:limestone/jellybean
+- chisel:limestone/layers
+- chisel:limestone/mosaic
+- chisel:limestone/ornate
+- chisel:limestone/panel
+- chisel:limestone/road
+- chisel:limestone/slanted
+- chisel:limestone/zag
+- chisel:limestone/circular
+- chisel:limestone/circularct
+- chisel:limestone/weaver
+- chisel:limestone/pillar
+- chisel:limestone/twisted
+- chisel:limestone/prism
+- chisel:limestone/cuts
+- forge:stone/limestone?
+
+#minecraft:hardened_stone_blocks
+- enviromats:hardened_stone
+- enviromats:hardened_stone_brick
+- enviromats:hardened_stone_brick_small
+- enviromats:hardened_stone_cobble
+- enviromats:hardened_stone_polished
+- enviromats:hardened_stone_tile
+- enviromats:hardened_stone_tile_small
+- enviromats:hardened_stone
+- enviromats:hardened_stone_brick
+- enviromats:hardened_stone_brick_small
+- enviromats:hardened_stone_cobble
+- enviromats:hardened_stone_polished
+- enviromats:hardened_stone_tile
+- enviromats:hardened_stone_tile_small
+
+#forge:glass/magenta
+- minecraft:magenta_stained_glass
+- tconstruct:magenta_clear_stained_glass
+
+#forge:ores/coal
+- minecraft:coal_ore
+
+#minecraft:fire
+- minecraft:fire
+- minecraft:soul_fire
+
+#chisel:concrete/gray
+- chisel:concrete/gray/cracked
+- chisel:concrete/gray/solid_bricks
+- chisel:concrete/gray/small_bricks
+- chisel:concrete/gray/soft_bricks
+- chisel:concrete/gray/cracked_bricks
+- chisel:concrete/gray/triple_bricks
+- chisel:concrete/gray/encased_bricks
+- chisel:concrete/gray/chaotic_bricks
+- chisel:concrete/gray/array
+- chisel:concrete/gray/tiles_medium
+- chisel:concrete/gray/tiles_large
+- chisel:concrete/gray/tiles_small
+- chisel:concrete/gray/chaotic_medium
+- chisel:concrete/gray/chaotic_small
+- chisel:concrete/gray/braid
+- chisel:concrete/gray/dent
+- chisel:concrete/gray/french_1
+- chisel:concrete/gray/french_2
+- chisel:concrete/gray/jellybean
+- chisel:concrete/gray/layers
+- chisel:concrete/gray/mosaic
+- chisel:concrete/gray/ornate
+- chisel:concrete/gray/panel
+- chisel:concrete/gray/road
+- chisel:concrete/gray/slanted
+- chisel:concrete/gray/zag
+- chisel:concrete/gray/circular
+- chisel:concrete/gray/circularct
+- chisel:concrete/gray/weaver
+- chisel:concrete/gray/pillar
+- chisel:concrete/gray/twisted
+- chisel:concrete/gray/prism
+- chisel:concrete/gray/cuts
+- minecraft:gray_concrete
+
+#minecraft:base_stone_nether
+- minecraft:netherrack
+- minecraft:basalt
+- minecraft:blackstone
+
+#chisel:wool/red
+- chisel:wool/red/legacy
+- chisel:wool/red/llama
+- minecraft:red_wool
+
+#minecraft:wall_signs
+- minecraft:oak_wall_sign
+- minecraft:spruce_wall_sign
+- minecraft:birch_wall_sign
+- minecraft:acacia_wall_sign
+- minecraft:jungle_wall_sign
+- minecraft:dark_oak_wall_sign
+- minecraft:crimson_wall_sign
+- minecraft:warped_wall_sign
+- tconstruct:greenheart_wall_sign
+- tconstruct:skyroot_wall_sign
+- tconstruct:bloodshroom_wall_sign
+
+#tconstruct:seared_tanks
+- tconstruct:seared_fuel_tank
+- tconstruct:seared_fuel_gauge
+- tconstruct:seared_ingot_tank
+- tconstruct:seared_ingot_gauge
+
+#chisel:wool/purple
+- chisel:wool/purple/legacy
+- chisel:wool/purple/llama
+- minecraft:purple_wool
+
+#forge:fences/plastic
+- mekanismadditions:black_plastic_fence
+- mekanismadditions:red_plastic_fence
+- mekanismadditions:green_plastic_fence
+- mekanismadditions:brown_plastic_fence
+- mekanismadditions:blue_plastic_fence
+- mekanismadditions:purple_plastic_fence
+- mekanismadditions:cyan_plastic_fence
+- mekanismadditions:light_gray_plastic_fence
+- mekanismadditions:gray_plastic_fence
+- mekanismadditions:pink_plastic_fence
+- mekanismadditions:lime_plastic_fence
+- mekanismadditions:yellow_plastic_fence
+- mekanismadditions:light_blue_plastic_fence
+- mekanismadditions:magenta_plastic_fence
+- mekanismadditions:orange_plastic_fence
+- mekanismadditions:white_plastic_fence
+
+#chisel:planks/birch
+- chisel:planks/birch/large_planks
+- chisel:planks/birch/crude_horizontal_planks
+- chisel:planks/birch/vertical_planks
+- chisel:planks/birch/crude_vertical_planks
+- chisel:planks/birch/encased_planks
+- chisel:planks/birch/encased_large_planks
+- chisel:planks/birch/braced_planks
+- chisel:planks/birch/shipping_crate
+- chisel:planks/birch/paneling
+- chisel:planks/birch/crude_paneling
+- chisel:planks/birch/stacked
+- chisel:planks/birch/smooth
+- chisel:planks/birch/encased_smooth
+- chisel:planks/birch/braid
+- chisel:planks/birch/log_cabin
+- minecraft:birch_planks
+
+#minecraft:trapdoors
+- #minecraft:wooden_trapdoors
+- minecraft:iron_trapdoor
+- #minecraft:wooden_trapdoors
+- minecraft:iron_trapdoor
+- mcwtrpdoors:metal_trapdoor
+- mcwtrpdoors:metal_full_trapdoor
+- framedblocks:framed_trapdoor
+
+#tconstruct:smeltery/floor
+- #tconstruct:seared_blocks
+- tconstruct:seared_drain
+- tconstruct:seared_chute
+- tconstruct:seared_duct
+
+#tconstruct:slimy_grass/sky
+- tconstruct:sky_earth_slime_grass
+- tconstruct:sky_sky_slime_grass
+- tconstruct:sky_ichor_slime_grass
+- tconstruct:sky_ender_slime_grass
+- tconstruct:sky_vanilla_slime_grass
+
+#forge:glass/cyan
+- minecraft:cyan_stained_glass
+- tconstruct:cyan_clear_stained_glass
+
+#framedblocks:blacklisted
+- minecraft:piston
+- minecraft:sticky_piston
+- minecraft:composter
+
+#forge:glass
+- #forge:glass/colorless
+- #forge:stained_glass
+
+#envirocore:kyronite_walls
+- envirocore:kyronite_wall
+- envirocore:kyronite_brick_wall
+- envirocore:kyronite_brick_small_wall
+- envirocore:kyronite_cobble_wall
+
+#chisel:wool/gray
+- chisel:wool/gray/legacy
+- chisel:wool/gray/llama
+- minecraft:gray_wool
+
+#tconstruct:skyroot_logs
+- tconstruct:skyroot_log
+- tconstruct:stripped_skyroot_log
+- tconstruct:skyroot_wood
+- tconstruct:stripped_skyroot_wood
+
+#tconstruct:slimy_soil/sky
+- tconstruct:earth_sky_slime_grass
+- tconstruct:sky_sky_slime_grass
+- tconstruct:ichor_sky_slime_grass
+- tconstruct:ender_sky_slime_grass
+- tconstruct:blood_sky_slime_grass
+- tconstruct:sky_slime_dirt
+
+#envirocore:erodium_stairs
+- envirocore:erodium_stairs
+- envirocore:erodium_brick_stairs
+- envirocore:erodium_brick_small_stairs
+- envirocore:erodium_cobble_stairs
+- envirocore:erodium_polished_stairs
+- envirocore:erodium_tile_stairs
+- envirocore:erodium_tile_small_stairs
+
+#mekanismadditions:plastic_blocks/plastic
+- mekanismadditions:black_plastic
+- mekanismadditions:red_plastic
+- mekanismadditions:green_plastic
+- mekanismadditions:brown_plastic
+- mekanismadditions:blue_plastic
+- mekanismadditions:purple_plastic
+- mekanismadditions:cyan_plastic
+- mekanismadditions:light_gray_plastic
+- mekanismadditions:gray_plastic
+- mekanismadditions:pink_plastic
+- mekanismadditions:lime_plastic
+- mekanismadditions:yellow_plastic
+- mekanismadditions:light_blue_plastic
+- mekanismadditions:magenta_plastic
+- mekanismadditions:orange_plastic
+- mekanismadditions:white_plastic
+
+#minecraft:leaves
+- minecraft:jungle_leaves
+- minecraft:oak_leaves
+- minecraft:spruce_leaves
+- minecraft:dark_oak_leaves
+- minecraft:acacia_leaves
+- minecraft:birch_leaves
+- #tconstruct:slimy_leaves
+
+#chisel:wool/white
+- chisel:wool/white/legacy
+- chisel:wool/white/llama
+- minecraft:white_wool
+
+#forge:storage_blocks/rose_gold
+- tconstruct:rose_gold_block
+
+#forge:glass_panes/gray
+- minecraft:gray_stained_glass_pane
+- tconstruct:gray_clear_stained_glass_pane
+
+#minecraft:wither_immune
+- minecraft:barrier
+- minecraft:bedrock
+- minecraft:end_portal
+- minecraft:end_portal_frame
+- minecraft:end_gateway
+- minecraft:command_block
+- minecraft:repeating_command_block
+- minecraft:chain_command_block
+- minecraft:structure_block
+- minecraft:jigsaw
+- minecraft:moving_piston
+- #envirocore:kyronite_blocks
+- #envirocore:kyronite_stairs
+- #envirocore:kyronite_slabs
+- #envirocore:kyronite_walls
+- #envirocore:pladium_blocks
+- #envirocore:pladium_stairs
+- #envirocore:pladium_slabs
+- #envirocore:pladium_walls
+- #envirocore:ionite_blocks
+- #envirocore:ionite_stairs
+- #envirocore:ionite_slabs
+- #envirocore:ionite_walls
+- #envirocore:aethium_blocks
+- #envirocore:aethium_stairs
+- #envirocore:aethium_slabs
+- #envirocore:aethium_walls
+- #envirocore:nanorite_blocks
+- #envirocore:nanorite_stairs
+- #envirocore:nanorite_slabs
+- #envirocore:nanorite_walls
+- #envirocore:xerothium_blocks
+- #envirocore:xerothium_stairs
+- #envirocore:xerothium_slabs
+- #envirocore:xerothium_walls
+
+#chisel:wool/light_gray
+- chisel:wool/light_gray/legacy
+- chisel:wool/light_gray/llama
+- minecraft:light_gray_wool
+
+#minecraft:acacia_logs
+- minecraft:acacia_log
+- minecraft:acacia_wood
+- minecraft:stripped_acacia_log
+- minecraft:stripped_acacia_wood
+
+#forge:storage_blocks/silicon_bronze
+- tconstruct:tinkers_bronze_block
+
+#tconstruct:slimy_tree_trunks
+- #tconstruct:slimy_logs
+- #tconstruct:congealed_slime
+
+#forge:stained_glass_panes
+- minecraft:white_stained_glass_pane
+- minecraft:orange_stained_glass_pane
+- minecraft:magenta_stained_glass_pane
+- minecraft:light_blue_stained_glass_pane
+- minecraft:yellow_stained_glass_pane
+- minecraft:lime_stained_glass_pane
+- minecraft:pink_stained_glass_pane
+- minecraft:gray_stained_glass_pane
+- minecraft:light_gray_stained_glass_pane
+- minecraft:cyan_stained_glass_pane
+- minecraft:purple_stained_glass_pane
+- minecraft:blue_stained_glass_pane
+- minecraft:brown_stained_glass_pane
+- minecraft:green_stained_glass_pane
+- minecraft:red_stained_glass_pane
+- minecraft:black_stained_glass_pane
+- tconstruct:white_clear_stained_glass_pane
+- tconstruct:orange_clear_stained_glass_pane
+- tconstruct:magenta_clear_stained_glass_pane
+- tconstruct:light_blue_clear_stained_glass_pane
+- tconstruct:yellow_clear_stained_glass_pane
+- tconstruct:lime_clear_stained_glass_pane
+- tconstruct:pink_clear_stained_glass_pane
+- tconstruct:gray_clear_stained_glass_pane
+- tconstruct:light_gray_clear_stained_glass_pane
+- tconstruct:cyan_clear_stained_glass_pane
+- tconstruct:purple_clear_stained_glass_pane
+- tconstruct:blue_clear_stained_glass_pane
+- tconstruct:brown_clear_stained_glass_pane
+- tconstruct:green_clear_stained_glass_pane
+- tconstruct:red_clear_stained_glass_pane
+- tconstruct:black_clear_stained_glass_pane
+
+#forge:storage_blocks/queens_slime
+- tconstruct:queens_slime_block
+
+#forge:sand/red
+- minecraft:red_sand
+
+#forge:workbenches
+- minecraft:crafting_table
+- tconstruct:crafting_station
+- #forge:workbench?
+
+#minecraft:basalt_blocks
+- enviromats:basalt
+- enviromats:basalt_brick
+- enviromats:basalt_brick_small
+- enviromats:basalt_cobble
+- enviromats:basalt_polished
+- enviromats:basalt_tile
+- enviromats:basalt_tile_small
+- enviromats:basalt
+- enviromats:basalt_brick
+- enviromats:basalt_brick_small
+- enviromats:basalt_cobble
+- enviromats:basalt_polished
+- enviromats:basalt_tile
+- enviromats:basalt_tile_small
+
+#forge:glass/brown
+- minecraft:brown_stained_glass
+- tconstruct:brown_clear_stained_glass
+
+#minecraft:logs_that_burn
+- #minecraft:dark_oak_logs
+- #minecraft:oak_logs
+- #minecraft:acacia_logs
+- #minecraft:birch_logs
+- #minecraft:jungle_logs
+- #minecraft:spruce_logs
+- #tconstruct:greenheart_logs
+- #tconstruct:skyroot_logs
+
+#forge:glass/gray
+- minecraft:gray_stained_glass
+- tconstruct:gray_clear_stained_glass
+
+#forge:glass/light_gray
+- minecraft:light_gray_stained_glass
+- tconstruct:light_gray_clear_stained_glass
+
+#envirocore:kyronite_blocks
+- envirocore:kyronite
+- envirocore:kyronite_brick
+- envirocore:kyronite_brick_small
+- envirocore:kyronite_cobble
+- envirocore:kyronite_polished
+- envirocore:kyronite_tile
+- envirocore:kyronite_tile_small
+
+#minecraft:wooden_slabs
+- minecraft:oak_slab
+- minecraft:spruce_slab
+- minecraft:birch_slab
+- minecraft:jungle_slab
+- minecraft:acacia_slab
+- minecraft:dark_oak_slab
+- minecraft:crimson_slab
+- minecraft:warped_slab
+- tconstruct:greenheart_planks_slab
+- tconstruct:skyroot_planks_slab
+- tconstruct:bloodshroom_planks_slab
+
+#minecraft:small_flowers
+- minecraft:dandelion
+- minecraft:poppy
+- minecraft:blue_orchid
+- minecraft:allium
+- minecraft:azure_bluet
+- minecraft:red_tulip
+- minecraft:orange_tulip
+- minecraft:white_tulip
+- minecraft:pink_tulip
+- minecraft:oxeye_daisy
+- minecraft:cornflower
+- minecraft:lily_of_the_valley
+- minecraft:wither_rose
+
+#forge:storage_blocks/refined_obsidian
+- mekanism:block_refined_obsidian
+
+#mekanism:atomic_disassembler_ore
+- #forge:ores
+- #minecraft:logs
+
+#forge:ores/osmium
+- mekanism:osmium_ore
+
+#forge:glass_panes/black
+- minecraft:black_stained_glass_pane
+- tconstruct:black_clear_stained_glass_pane
+
+#chisel:andesite
+- chisel:andesite/cracked
+- chisel:andesite/solid_bricks
+- chisel:andesite/small_bricks
+- chisel:andesite/soft_bricks
+- chisel:andesite/cracked_bricks
+- chisel:andesite/triple_bricks
+- chisel:andesite/encased_bricks
+- chisel:andesite/chaotic_bricks
+- chisel:andesite/array
+- chisel:andesite/tiles_medium
+- chisel:andesite/tiles_large
+- chisel:andesite/tiles_small
+- chisel:andesite/chaotic_medium
+- chisel:andesite/chaotic_small
+- chisel:andesite/braid
+- chisel:andesite/dent
+- chisel:andesite/french_1
+- chisel:andesite/french_2
+- chisel:andesite/jellybean
+- chisel:andesite/layers
+- chisel:andesite/mosaic
+- chisel:andesite/ornate
+- chisel:andesite/panel
+- chisel:andesite/road
+- chisel:andesite/slanted
+- chisel:andesite/zag
+- chisel:andesite/circular
+- chisel:andesite/circularct
+- chisel:andesite/weaver
+- chisel:andesite/pillar
+- chisel:andesite/twisted
+- chisel:andesite/prism
+- chisel:andesite/cuts
+- minecraft:andesite
+- minecraft:polished_andesite
+
+#envirocore:litherite_walls
+- envirocore:litherite_wall
+- envirocore:litherite_brick_wall
+- envirocore:litherite_brick_small_wall
+- envirocore:litherite_cobble_wall
+
+#tmechworks:firestarter_extinguish_whitelist
+- minecraft:fire
+- minecraft:nether_portal
+
+#forge:glass_panes/blue
+- minecraft:blue_stained_glass_pane
+- tconstruct:blue_clear_stained_glass_pane
+
+#tconstruct:slimy_nylium/blood
+- tconstruct:blood_earth_slime_grass
+- tconstruct:blood_sky_slime_grass
+- tconstruct:blood_ichor_slime_grass
+- tconstruct:blood_ender_slime_grass
+- tconstruct:blood_vanilla_slime_grass
+
+#chisel:concrete/purple
+- chisel:concrete/purple/cracked
+- chisel:concrete/purple/solid_bricks
+- chisel:concrete/purple/small_bricks
+- chisel:concrete/purple/soft_bricks
+- chisel:concrete/purple/cracked_bricks
+- chisel:concrete/purple/triple_bricks
+- chisel:concrete/purple/encased_bricks
+- chisel:concrete/purple/chaotic_bricks
+- chisel:concrete/purple/array
+- chisel:concrete/purple/tiles_medium
+- chisel:concrete/purple/tiles_large
+- chisel:concrete/purple/tiles_small
+- chisel:concrete/purple/chaotic_medium
+- chisel:concrete/purple/chaotic_small
+- chisel:concrete/purple/braid
+- chisel:concrete/purple/dent
+- chisel:concrete/purple/french_1
+- chisel:concrete/purple/french_2
+- chisel:concrete/purple/jellybean
+- chisel:concrete/purple/layers
+- chisel:concrete/purple/mosaic
+- chisel:concrete/purple/ornate
+- chisel:concrete/purple/panel
+- chisel:concrete/purple/road
+- chisel:concrete/purple/slanted
+- chisel:concrete/purple/zag
+- chisel:concrete/purple/circular
+- chisel:concrete/purple/circularct
+- chisel:concrete/purple/weaver
+- chisel:concrete/purple/pillar
+- chisel:concrete/purple/twisted
+- chisel:concrete/purple/prism
+- chisel:concrete/purple/cuts
+- minecraft:purple_concrete
+
+#tconstruct:bloodshroom_logs
+- tconstruct:bloodshroom_log
+- tconstruct:stripped_bloodshroom_log
+- tconstruct:bloodshroom_wood
+- tconstruct:stripped_bloodshroom_wood
+
+#tconstruct:tables
+- tconstruct:crafting_station
+- tconstruct:part_builder
+- tconstruct:tinker_station
+
+#tconstruct:slimy_saplings
+- tconstruct:earth_slime_sapling
+- tconstruct:sky_slime_sapling
+- tconstruct:ender_slime_sapling
+
+#envirocore:nanorite_stairs
+- envirocore:nanorite_stairs
+- envirocore:nanorite_brick_stairs
+- envirocore:nanorite_brick_small_stairs
+- envirocore:nanorite_cobble_stairs
+- envirocore:nanorite_polished_stairs
+- envirocore:nanorite_tile_stairs
+- envirocore:nanorite_tile_small_stairs
+
+#forge:stone
+- minecraft:andesite
+- minecraft:diorite
+- minecraft:granite
+- minecraft:infested_stone
+- minecraft:stone
+- minecraft:polished_andesite
+- minecraft:polished_diorite
+- minecraft:polished_granite
+- enviromats:basalt
+- enviromats:hardened_stone
+- enviromats:alabaster_white
+- enviromats:marble
+- enviromats:basalt
+- enviromats:travertine
+- enviromats:granodiorite
+
+#chisel:wool/brown
+- chisel:wool/brown/legacy
+- chisel:wool/brown/llama
+- minecraft:brown_wool
+
+#minecraft:standing_signs
+- minecraft:oak_sign
+- minecraft:spruce_sign
+- minecraft:birch_sign
+- minecraft:acacia_sign
+- minecraft:jungle_sign
+- minecraft:dark_oak_sign
+- minecraft:crimson_sign
+- minecraft:warped_sign
+- tconstruct:greenheart_sign
+- tconstruct:skyroot_sign
+- tconstruct:bloodshroom_sign
+
+#minecraft:infiniburn_end
+- #minecraft:infiniburn_overworld
+- minecraft:bedrock
+
+#forge:glass_panes/yellow
+- minecraft:yellow_stained_glass_pane
+- tconstruct:yellow_clear_stained_glass_pane
+
+#chisel:carpet/yellow
+- chisel:carpet/yellow/legacy
+- chisel:carpet/yellow/llama
+- minecraft:yellow_carpet
+
+#chisel:wool/yellow
+- chisel:wool/yellow/legacy
+- chisel:wool/yellow/llama
+- minecraft:yellow_wool
+
+#minecraft:wart_blocks
+- minecraft:nether_wart_block
+- minecraft:warped_wart_block
+- tconstruct:ichor_slime_leaves
+- tconstruct:blood_slime_leaves
+
+#envirocore:pladium_slabs
+- envirocore:pladium_slab
+- envirocore:pladium_brick_slab
+- envirocore:pladium_brick_small_slab
+- envirocore:pladium_cobble_slab
+- envirocore:pladium_polished_slab
+- envirocore:pladium_tile_slab
+- envirocore:pladium_tile_small_slab
+
+#tconstruct:tree_log
+- #minecraft:logs
+
+#enviromats:slabs
+- enviromats:basalt_slab
+- enviromats:basalt_brick_slab
+- enviromats:basalt_brick_small_slab
+- enviromats:basalt_cobble_slab
+- enviromats:basalt_polished_slab
+- enviromats:basalt_tile_slab
+- enviromats:basalt_tile_small_slab
+- enviromats:hardened_stone_slab
+- enviromats:hardened_stone_brick_slab
+- enviromats:hardened_stone_brick_small_slab
+- enviromats:hardened_stone_cobble_slab
+- enviromats:hardened_stone_polished_slab
+- enviromats:hardened_stone_tile_slab
+- enviromats:hardened_stone_tile_small_slab
+- enviromats:alabaster_white_slab
+- enviromats:alabaster_white_brick_slab
+- enviromats:alabaster_white_brick_small_slab
+- enviromats:alabaster_white_cobble_slab
+- enviromats:alabaster_white_polished_slab
+- enviromats:alabaster_white_tile_slab
+- enviromats:alabaster_white_tile_small_slab
+- enviromats:alabaster_orange_slab
+- enviromats:alabaster_orange_brick_slab
+- enviromats:alabaster_orange_brick_small_slab
+- enviromats:alabaster_orange_cobble_slab
+- enviromats:alabaster_orange_polished_slab
+- enviromats:alabaster_orange_tile_slab
+- enviromats:alabaster_orange_tile_small_slab
+- enviromats:alabaster_light_blue_slab
+- enviromats:alabaster_light_blue_brick_slab
+- enviromats:alabaster_light_blue_brick_small_slab
+- enviromats:alabaster_light_blue_cobble_slab
+- enviromats:alabaster_light_blue_polished_slab
+- enviromats:alabaster_light_blue_tile_slab
+- enviromats:alabaster_light_blue_tile_small_slab
+- enviromats:alabaster_yellow_slab
+- enviromats:alabaster_yellow_brick_slab
+- enviromats:alabaster_yellow_brick_small_slab
+- enviromats:alabaster_yellow_cobble_slab
+- enviromats:alabaster_yellow_polished_slab
+- enviromats:alabaster_yellow_tile_slab
+- enviromats:alabaster_yellow_tile_small_slab
+- enviromats:alabaster_lime_slab
+- enviromats:alabaster_lime_brick_slab
+- enviromats:alabaster_lime_brick_small_slab
+- enviromats:alabaster_lime_cobble_slab
+- enviromats:alabaster_lime_polished_slab
+- enviromats:alabaster_lime_tile_slab
+- enviromats:alabaster_lime_tile_small_slab
+- enviromats:alabaster_pink_slab
+- enviromats:alabaster_pink_brick_slab
+- enviromats:alabaster_pink_brick_small_slab
+- enviromats:alabaster_pink_cobble_slab
+- enviromats:alabaster_pink_polished_slab
+- enviromats:alabaster_pink_tile_slab
+- enviromats:alabaster_pink_tile_small_slab
+- enviromats:alabaster_gray_slab
+- enviromats:alabaster_gray_brick_slab
+- enviromats:alabaster_gray_brick_small_slab
+- enviromats:alabaster_gray_cobble_slab
+- enviromats:alabaster_gray_polished_slab
+- enviromats:alabaster_gray_tile_slab
+- enviromats:alabaster_gray_tile_small_slab
+- enviromats:alabaster_light_gray_slab
+- enviromats:alabaster_light_gray_brick_slab
+- enviromats:alabaster_light_gray_brick_small_slab
+- enviromats:alabaster_light_gray_cobble_slab
+- enviromats:alabaster_light_gray_polished_slab
+- enviromats:alabaster_light_gray_tile_slab
+- enviromats:alabaster_light_gray_tile_small_slab
+- enviromats:alabaster_cyan_slab
+- enviromats:alabaster_cyan_brick_slab
+- enviromats:alabaster_cyan_brick_small_slab
+- enviromats:alabaster_cyan_cobble_slab
+- enviromats:alabaster_cyan_polished_slab
+- enviromats:alabaster_cyan_tile_slab
+- enviromats:alabaster_cyan_tile_small_slab
+- enviromats:alabaster_purple_slab
+- enviromats:alabaster_purple_brick_slab
+- enviromats:alabaster_purple_brick_small_slab
+- enviromats:alabaster_purple_cobble_slab
+- enviromats:alabaster_purple_polished_slab
+- enviromats:alabaster_purple_tile_slab
+- enviromats:alabaster_purple_tile_small_slab
+- enviromats:alabaster_blue_slab
+- enviromats:alabaster_blue_brick_slab
+- enviromats:alabaster_blue_brick_small_slab
+- enviromats:alabaster_blue_cobble_slab
+- enviromats:alabaster_blue_polished_slab
+- enviromats:alabaster_blue_tile_slab
+- enviromats:alabaster_blue_tile_small_slab
+- enviromats:alabaster_brown_slab
+- enviromats:alabaster_brown_brick_slab
+- enviromats:alabaster_brown_brick_small_slab
+- enviromats:alabaster_brown_cobble_slab
+- enviromats:alabaster_brown_polished_slab
+- enviromats:alabaster_brown_tile_slab
+- enviromats:alabaster_brown_tile_small_slab
+- enviromats:alabaster_green_slab
+- enviromats:alabaster_green_brick_slab
+- enviromats:alabaster_green_brick_small_slab
+- enviromats:alabaster_green_cobble_slab
+- enviromats:alabaster_green_polished_slab
+- enviromats:alabaster_green_tile_slab
+- enviromats:alabaster_green_tile_small_slab
+- enviromats:alabaster_red_slab
+- enviromats:alabaster_red_brick_slab
+- enviromats:alabaster_red_brick_small_slab
+- enviromats:alabaster_red_cobble_slab
+- enviromats:alabaster_red_polished_slab
+- enviromats:alabaster_red_tile_slab
+- enviromats:alabaster_red_tile_small_slab
+- enviromats:alabaster_black_slab
+- enviromats:alabaster_black_brick_slab
+- enviromats:alabaster_black_brick_small_slab
+- enviromats:alabaster_black_cobble_slab
+- enviromats:alabaster_black_polished_slab
+- enviromats:alabaster_black_tile_slab
+- enviromats:alabaster_black_tile_small_slab
+
+#minecraft:shulker_boxes
+- minecraft:shulker_box
+- minecraft:black_shulker_box
+- minecraft:blue_shulker_box
+- minecraft:brown_shulker_box
+- minecraft:cyan_shulker_box
+- minecraft:gray_shulker_box
+- minecraft:green_shulker_box
+- minecraft:light_blue_shulker_box
+- minecraft:light_gray_shulker_box
+- minecraft:lime_shulker_box
+- minecraft:magenta_shulker_box
+- minecraft:orange_shulker_box
+- minecraft:pink_shulker_box
+- minecraft:purple_shulker_box
+- minecraft:red_shulker_box
+- minecraft:white_shulker_box
+- minecraft:yellow_shulker_box
+
+#minecraft:birch_logs
+- minecraft:birch_log
+- minecraft:birch_wood
+- minecraft:stripped_birch_log
+- minecraft:stripped_birch_wood
+
+#tconstruct:slimy_planks
+- tconstruct:greenheart_planks
+- tconstruct:skyroot_planks
+- tconstruct:bloodshroom_planks
+
+#tconstruct:slimy_grass/ender
+- tconstruct:ender_earth_slime_grass
+- tconstruct:ender_sky_slime_grass
+- tconstruct:ender_ichor_slime_grass
+- tconstruct:ender_ender_slime_grass
+- tconstruct:ender_vanilla_slime_grass
+
+#chisel:wool/magenta
+- chisel:wool/magenta/legacy
+- chisel:wool/magenta/llama
+- minecraft:magenta_wool
+
+#forge:glass_panes/purple
+- minecraft:purple_stained_glass_pane
+- tconstruct:purple_clear_stained_glass_pane
+
+#tconstruct:slimy_soil/ichor
+- tconstruct:earth_ichor_slime_grass
+- tconstruct:sky_ichor_slime_grass
+- tconstruct:ichor_ichor_slime_grass
+- tconstruct:ender_ichor_slime_grass
+- tconstruct:blood_ichor_slime_grass
+- tconstruct:ichor_slime_dirt
+
+#forge:glass/yellow
+- minecraft:yellow_stained_glass
+- tconstruct:yellow_clear_stained_glass
+
+#chisel:tyrian
+- chisel:tyrian/shining
+- chisel:tyrian/tyrian
+- chisel:tyrian/chaotic
+- chisel:tyrian/softplate
+- chisel:tyrian/rust
+- chisel:tyrian/elaborate
+- chisel:tyrian/routes
+- chisel:tyrian/platform
+- chisel:tyrian/platetiles
+- chisel:tyrian/diagonal
+- chisel:tyrian/dent
+- chisel:tyrian/blueplating
+- chisel:tyrian/black
+- chisel:tyrian/black2
+- chisel:tyrian/opening
+- chisel:tyrian/plate
+
+#minecraft:oak_logs
+- minecraft:oak_log
+- minecraft:oak_wood
+- minecraft:stripped_oak_log
+- minecraft:stripped_oak_wood
+
+#forge:barrels
+- #forge:barrels/wooden
+
+#chisel:concrete/red
+- chisel:concrete/red/cracked
+- chisel:concrete/red/solid_bricks
+- chisel:concrete/red/small_bricks
+- chisel:concrete/red/soft_bricks
+- chisel:concrete/red/cracked_bricks
+- chisel:concrete/red/triple_bricks
+- chisel:concrete/red/encased_bricks
+- chisel:concrete/red/chaotic_bricks
+- chisel:concrete/red/array
+- chisel:concrete/red/tiles_medium
+- chisel:concrete/red/tiles_large
+- chisel:concrete/red/tiles_small
+- chisel:concrete/red/chaotic_medium
+- chisel:concrete/red/chaotic_small
+- chisel:concrete/red/braid
+- chisel:concrete/red/dent
+- chisel:concrete/red/french_1
+- chisel:concrete/red/french_2
+- chisel:concrete/red/jellybean
+- chisel:concrete/red/layers
+- chisel:concrete/red/mosaic
+- chisel:concrete/red/ornate
+- chisel:concrete/red/panel
+- chisel:concrete/red/road
+- chisel:concrete/red/slanted
+- chisel:concrete/red/zag
+- chisel:concrete/red/circular
+- chisel:concrete/red/circularct
+- chisel:concrete/red/weaver
+- chisel:concrete/red/pillar
+- chisel:concrete/red/twisted
+- chisel:concrete/red/prism
+- chisel:concrete/red/cuts
+- minecraft:red_concrete
+
+#forge:wg_erodible
+- enviromats:pumice
+- enviromats:alabaster_white
+- enviromats:marble
+- enviromats:travertine
+- enviromats:granodiorite
+
+#envirocore:laser_core_connection
+- envirocore:structure_panel
+- envirocore:clear_structure_panel
+- envirocore:litherite_frame
+- envirocore:erodium_frame
+- envirocore:kyronite_frame
+- envirocore:pladium_frame
+- envirocore:ionite_frame
+- envirocore:aethium_frame
+- envirocore:nanorite_frame
+- envirocore:xerothium_frame
+
+#forge:ores/lapis
+- minecraft:lapis_ore
+
+#forge:storage_blocks/slimesteel
+- tconstruct:slimesteel_block
+
+#chisel:coal
+- chisel:coal/cracked
+- chisel:coal/solid_bricks
+- chisel:coal/small_bricks
+- chisel:coal/soft_bricks
+- chisel:coal/cracked_bricks
+- chisel:coal/triple_bricks
+- chisel:coal/encased_bricks
+- chisel:coal/chaotic_bricks
+- chisel:coal/array
+- chisel:coal/tiles_medium
+- chisel:coal/tiles_large
+- chisel:coal/tiles_small
+- chisel:coal/chaotic_medium
+- chisel:coal/chaotic_small
+- chisel:coal/braid
+- chisel:coal/dent
+- chisel:coal/french_1
+- chisel:coal/french_2
+- chisel:coal/jellybean
+- chisel:coal/layers
+- chisel:coal/mosaic
+- chisel:coal/ornate
+- chisel:coal/panel
+- chisel:coal/road
+- chisel:coal/slanted
+- chisel:coal/zag
+- chisel:coal/circular
+- chisel:coal/circularct
+- chisel:coal/weaver
+- chisel:coal/pillar
+- chisel:coal/twisted
+- chisel:coal/prism
+- chisel:coal/cuts
+- forge:storage_blocks/coal?
+
+#forge:stairs/plastic
+- mekanismadditions:black_plastic_stairs
+- mekanismadditions:red_plastic_stairs
+- mekanismadditions:green_plastic_stairs
+- mekanismadditions:brown_plastic_stairs
+- mekanismadditions:blue_plastic_stairs
+- mekanismadditions:purple_plastic_stairs
+- mekanismadditions:cyan_plastic_stairs
+- mekanismadditions:light_gray_plastic_stairs
+- mekanismadditions:gray_plastic_stairs
+- mekanismadditions:pink_plastic_stairs
+- mekanismadditions:lime_plastic_stairs
+- mekanismadditions:yellow_plastic_stairs
+- mekanismadditions:light_blue_plastic_stairs
+- mekanismadditions:magenta_plastic_stairs
+- mekanismadditions:orange_plastic_stairs
+- mekanismadditions:white_plastic_stairs
+
+#forge:dirt
+- minecraft:dirt
+- minecraft:grass_block
+- minecraft:coarse_dirt
+- minecraft:podzol
+- minecraft:mycelium
+
+#minecraft:bamboo_plantable_on
+- #minecraft:sand
+- minecraft:bamboo
+- minecraft:bamboo_sapling
+- minecraft:gravel
+- minecraft:dirt
+- minecraft:grass_block
+- minecraft:podzol
+- minecraft:coarse_dirt
+- minecraft:mycelium
+
+#chisel:concrete/brown
+- chisel:concrete/brown/cracked
+- chisel:concrete/brown/solid_bricks
+- chisel:concrete/brown/small_bricks
+- chisel:concrete/brown/soft_bricks
+- chisel:concrete/brown/cracked_bricks
+- chisel:concrete/brown/triple_bricks
+- chisel:concrete/brown/encased_bricks
+- chisel:concrete/brown/chaotic_bricks
+- chisel:concrete/brown/array
+- chisel:concrete/brown/tiles_medium
+- chisel:concrete/brown/tiles_large
+- chisel:concrete/brown/tiles_small
+- chisel:concrete/brown/chaotic_medium
+- chisel:concrete/brown/chaotic_small
+- chisel:concrete/brown/braid
+- chisel:concrete/brown/dent
+- chisel:concrete/brown/french_1
+- chisel:concrete/brown/french_2
+- chisel:concrete/brown/jellybean
+- chisel:concrete/brown/layers
+- chisel:concrete/brown/mosaic
+- chisel:concrete/brown/ornate
+- chisel:concrete/brown/panel
+- chisel:concrete/brown/road
+- chisel:concrete/brown/slanted
+- chisel:concrete/brown/zag
+- chisel:concrete/brown/circular
+- chisel:concrete/brown/circularct
+- chisel:concrete/brown/weaver
+- chisel:concrete/brown/pillar
+- chisel:concrete/brown/twisted
+- chisel:concrete/brown/prism
+- chisel:concrete/brown/cuts
+- minecraft:brown_concrete
+
+#forge:storage_blocks/pig_iron
+- tconstruct:pig_iron_block
+
+#minecraft:pressure_plates
+- minecraft:light_weighted_pressure_plate
+- minecraft:heavy_weighted_pressure_plate
+- #minecraft:wooden_pressure_plates
+- #minecraft:stone_pressure_plates
+
+#envirocore:kyronite_slabs
+- envirocore:kyronite_slab
+- envirocore:kyronite_brick_slab
+- envirocore:kyronite_brick_small_slab
+- envirocore:kyronite_cobble_slab
+- envirocore:kyronite_polished_slab
+- envirocore:kyronite_tile_slab
+- envirocore:kyronite_tile_small_slab
+
+#minecraft:jungle_logs
+- minecraft:jungle_log
+- minecraft:jungle_wood
+- minecraft:stripped_jungle_log
+- minecraft:stripped_jungle_wood
+
+#forge:chests/ender
+- minecraft:ender_chest
+
+#minecraft:spruce_logs
+- minecraft:spruce_log
+- minecraft:spruce_wood
+- minecraft:stripped_spruce_log
+- minecraft:stripped_spruce_wood
+
+#mekanismadditions:plastic_blocks
+- #mekanismadditions:plastic_blocks/glow
+- #mekanismadditions:plastic_blocks/plastic
+- #mekanismadditions:plastic_blocks/reinforced
+- #mekanismadditions:plastic_blocks/road
+- #mekanismadditions:plastic_blocks/slick
+- #mekanismadditions:plastic_blocks/transparent
+
+#forge:slabs/plastic/transparent
+- mekanismadditions:black_plastic_transparent_slab
+- mekanismadditions:red_plastic_transparent_slab
+- mekanismadditions:green_plastic_transparent_slab
+- mekanismadditions:brown_plastic_transparent_slab
+- mekanismadditions:blue_plastic_transparent_slab
+- mekanismadditions:purple_plastic_transparent_slab
+- mekanismadditions:cyan_plastic_transparent_slab
+- mekanismadditions:light_gray_plastic_transparent_slab
+- mekanismadditions:gray_plastic_transparent_slab
+- mekanismadditions:pink_plastic_transparent_slab
+- mekanismadditions:lime_plastic_transparent_slab
+- mekanismadditions:yellow_plastic_transparent_slab
+- mekanismadditions:light_blue_plastic_transparent_slab
+- mekanismadditions:magenta_plastic_transparent_slab
+- mekanismadditions:orange_plastic_transparent_slab
+- mekanismadditions:white_plastic_transparent_slab
+
+#forge:fence_gates/wooden
+- minecraft:oak_fence_gate
+- minecraft:spruce_fence_gate
+- minecraft:birch_fence_gate
+- minecraft:jungle_fence_gate
+- minecraft:acacia_fence_gate
+- minecraft:dark_oak_fence_gate
+- minecraft:crimson_fence_gate
+- minecraft:warped_fence_gate
+- tconstruct:greenheart_fence_gate
+- tconstruct:skyroot_fence_gate
+- tconstruct:bloodshroom_fence_gate
+
+#forge:ores/aluminum
+- tmechworks:aluminum_ore
+
+#framedcompactdrawers:slave
+- storagedrawers:controller_slave
+
+#forge:ores/uranium
+- mekanism:uranium_ore
+
+#forge:glass_panes/lime
+- minecraft:lime_stained_glass_pane
+- tconstruct:lime_clear_stained_glass_pane
+
+#forge:storage_blocks/manyullyn
+- tconstruct:manyullyn_block
+
+#forge:storage_blocks/hamletite
+- tdelight:hamletite_block
+
+#tconstruct:foundry/wall
+- #tconstruct:scorched_blocks
+- #tconstruct:foundry/tanks
+- tconstruct:scorched_glass
+- tconstruct:scorched_ladder
+- tconstruct:scorched_drain
+- tconstruct:scorched_chute
+- tconstruct:scorched_duct
+
+#tconstruct:smeltery/wall
+- #tconstruct:seared_blocks
+- #tconstruct:smeltery/tanks
+- tconstruct:seared_glass
+- tconstruct:seared_ladder
+- tconstruct:seared_drain
+- tconstruct:seared_chute
+- tconstruct:seared_duct
+
+#tconstruct:greenheart_logs
+- tconstruct:greenheart_log
+- tconstruct:stripped_greenheart_log
+- tconstruct:greenheart_wood
+- tconstruct:stripped_greenheart_wood
+
+#chisel:wool/pink
+- chisel:wool/pink/legacy
+- chisel:wool/pink/llama
+- minecraft:pink_wool
+
+#minecraft:flowers
+- #minecraft:small_flowers
+- #minecraft:tall_flowers
+
+#forge:storage_blocks/cobalt
+- tconstruct:cobalt_block
+
+#minecraft:planks
+- minecraft:oak_planks
+- minecraft:spruce_planks
+- minecraft:birch_planks
+- minecraft:jungle_planks
+- minecraft:acacia_planks
+- minecraft:dark_oak_planks
+- minecraft:crimson_planks
+- minecraft:warped_planks
+- #tconstruct:slimy_planks
+
+#chisel:concrete/orange
+- chisel:concrete/orange/cracked
+- chisel:concrete/orange/solid_bricks
+- chisel:concrete/orange/small_bricks
+- chisel:concrete/orange/soft_bricks
+- chisel:concrete/orange/cracked_bricks
+- chisel:concrete/orange/triple_bricks
+- chisel:concrete/orange/encased_bricks
+- chisel:concrete/orange/chaotic_bricks
+- chisel:concrete/orange/array
+- chisel:concrete/orange/tiles_medium
+- chisel:concrete/orange/tiles_large
+- chisel:concrete/orange/tiles_small
+- chisel:concrete/orange/chaotic_medium
+- chisel:concrete/orange/chaotic_small
+- chisel:concrete/orange/braid
+- chisel:concrete/orange/dent
+- chisel:concrete/orange/french_1
+- chisel:concrete/orange/french_2
+- chisel:concrete/orange/jellybean
+- chisel:concrete/orange/layers
+- chisel:concrete/orange/mosaic
+- chisel:concrete/orange/ornate
+- chisel:concrete/orange/panel
+- chisel:concrete/orange/road
+- chisel:concrete/orange/slanted
+- chisel:concrete/orange/zag
+- chisel:concrete/orange/circular
+- chisel:concrete/orange/circularct
+- chisel:concrete/orange/weaver
+- chisel:concrete/orange/pillar
+- chisel:concrete/orange/twisted
+- chisel:concrete/orange/prism
+- chisel:concrete/orange/cuts
+- minecraft:orange_concrete
+
+#forge:cobblestone
+- minecraft:cobblestone
+- minecraft:infested_cobblestone
+- minecraft:mossy_cobblestone
+
+#chisel:terracotta
+- chisel:terracotta/cracked
+- chisel:terracotta/solid_bricks
+- chisel:terracotta/small_bricks
+- chisel:terracotta/soft_bricks
+- chisel:terracotta/cracked_bricks
+- chisel:terracotta/triple_bricks
+- chisel:terracotta/encased_bricks
+- chisel:terracotta/chaotic_bricks
+- chisel:terracotta/array
+- chisel:terracotta/tiles_medium
+- chisel:terracotta/tiles_large
+- chisel:terracotta/tiles_small
+- chisel:terracotta/chaotic_medium
+- chisel:terracotta/chaotic_small
+- chisel:terracotta/braid
+- chisel:terracotta/dent
+- chisel:terracotta/french_1
+- chisel:terracotta/french_2
+- chisel:terracotta/jellybean
+- chisel:terracotta/layers
+- chisel:terracotta/mosaic
+- chisel:terracotta/ornate
+- chisel:terracotta/panel
+- chisel:terracotta/road
+- chisel:terracotta/slanted
+- chisel:terracotta/zag
+- chisel:terracotta/circular
+- chisel:terracotta/circularct
+- chisel:terracotta/weaver
+- chisel:terracotta/pillar
+- chisel:terracotta/twisted
+- chisel:terracotta/prism
+- chisel:terracotta/cuts
+- minecraft:terracotta
+
+#chisel:carpet/light_gray
+- chisel:carpet/light_gray/legacy
+- chisel:carpet/light_gray/llama
+- minecraft:light_gray_carpet
+
+#chisel:stone_bricks
+- chisel:stone_bricks/cracked
+- chisel:stone_bricks/solid_bricks
+- chisel:stone_bricks/small_bricks
+- chisel:stone_bricks/soft_bricks
+- chisel:stone_bricks/cracked_bricks
+- chisel:stone_bricks/triple_bricks
+- chisel:stone_bricks/encased_bricks
+- chisel:stone_bricks/chaotic_bricks
+- chisel:stone_bricks/array
+- chisel:stone_bricks/tiles_medium
+- chisel:stone_bricks/tiles_large
+- chisel:stone_bricks/tiles_small
+- chisel:stone_bricks/chaotic_medium
+- chisel:stone_bricks/chaotic_small
+- chisel:stone_bricks/braid
+- chisel:stone_bricks/dent
+- chisel:stone_bricks/french_1
+- chisel:stone_bricks/french_2
+- chisel:stone_bricks/jellybean
+- chisel:stone_bricks/layers
+- chisel:stone_bricks/mosaic
+- chisel:stone_bricks/ornate
+- chisel:stone_bricks/panel
+- chisel:stone_bricks/road
+- chisel:stone_bricks/slanted
+- chisel:stone_bricks/zag
+- chisel:stone_bricks/circular
+- chisel:stone_bricks/circularct
+- chisel:stone_bricks/weaver
+- chisel:stone_bricks/pillar
+- chisel:stone_bricks/twisted
+- chisel:stone_bricks/prism
+- chisel:stone_bricks/cuts
+- chisel:stone_bricks/extra/largeornate
+- chisel:stone_bricks/extra/poison
+- chisel:stone_bricks/extra/sunken
+- minecraft:chiseled_stone_bricks
+- minecraft:stone
+- minecraft:cracked_stone_bricks
+- minecraft:stone_bricks
+
+#chisel:quartz
+- chisel:quartz/cracked
+- chisel:quartz/solid_bricks
+- chisel:quartz/small_bricks
+- chisel:quartz/soft_bricks
+- chisel:quartz/cracked_bricks
+- chisel:quartz/triple_bricks
+- chisel:quartz/encased_bricks
+- chisel:quartz/chaotic_bricks
+- chisel:quartz/array
+- chisel:quartz/tiles_medium
+- chisel:quartz/tiles_large
+- chisel:quartz/tiles_small
+- chisel:quartz/chaotic_medium
+- chisel:quartz/chaotic_small
+- chisel:quartz/braid
+- chisel:quartz/dent
+- chisel:quartz/french_1
+- chisel:quartz/french_2
+- chisel:quartz/jellybean
+- chisel:quartz/layers
+- chisel:quartz/mosaic
+- chisel:quartz/ornate
+- chisel:quartz/panel
+- chisel:quartz/road
+- chisel:quartz/slanted
+- chisel:quartz/zag
+- chisel:quartz/circular
+- chisel:quartz/circularct
+- chisel:quartz/weaver
+- chisel:quartz/pillar
+- chisel:quartz/twisted
+- chisel:quartz/prism
+- chisel:quartz/cuts
+- minecraft:chiseled_quartz_block
+- minecraft:quartz_pillar
+- minecraft:smooth_quartz
+- forge:storage_blocks/quartz?
+
+#chisel:cobblestone
+- chisel:cobblestone/cracked
+- chisel:cobblestone/solid_bricks
+- chisel:cobblestone/small_bricks
+- chisel:cobblestone/soft_bricks
+- chisel:cobblestone/cracked_bricks
+- chisel:cobblestone/triple_bricks
+- chisel:cobblestone/encased_bricks
+- chisel:cobblestone/chaotic_bricks
+- chisel:cobblestone/array
+- chisel:cobblestone/tiles_medium
+- chisel:cobblestone/tiles_large
+- chisel:cobblestone/tiles_small
+- chisel:cobblestone/chaotic_medium
+- chisel:cobblestone/chaotic_small
+- chisel:cobblestone/braid
+- chisel:cobblestone/dent
+- chisel:cobblestone/french_1
+- chisel:cobblestone/french_2
+- chisel:cobblestone/jellybean
+- chisel:cobblestone/layers
+- chisel:cobblestone/mosaic
+- chisel:cobblestone/ornate
+- chisel:cobblestone/panel
+- chisel:cobblestone/road
+- chisel:cobblestone/slanted
+- chisel:cobblestone/zag
+- chisel:cobblestone/circular
+- chisel:cobblestone/circularct
+- chisel:cobblestone/weaver
+- chisel:cobblestone/pillar
+- chisel:cobblestone/twisted
+- chisel:cobblestone/prism
+- chisel:cobblestone/cuts
+- chisel:cobblestone/extra/emboss
+- chisel:cobblestone/extra/indent
+- chisel:cobblestone/extra/marker
+- minecraft:cobblestone
+
+#chisel:basalt
+- chisel:basalt/raw
+- chisel:basalt/cracked
+- chisel:basalt/solid_bricks
+- chisel:basalt/small_bricks
+- chisel:basalt/soft_bricks
+- chisel:basalt/cracked_bricks
+- chisel:basalt/triple_bricks
+- chisel:basalt/encased_bricks
+- chisel:basalt/chaotic_bricks
+- chisel:basalt/array
+- chisel:basalt/tiles_medium
+- chisel:basalt/tiles_large
+- chisel:basalt/tiles_small
+- chisel:basalt/chaotic_medium
+- chisel:basalt/chaotic_small
+- chisel:basalt/braid
+- chisel:basalt/dent
+- chisel:basalt/french_1
+- chisel:basalt/french_2
+- chisel:basalt/jellybean
+- chisel:basalt/layers
+- chisel:basalt/mosaic
+- chisel:basalt/ornate
+- chisel:basalt/panel
+- chisel:basalt/road
+- chisel:basalt/slanted
+- chisel:basalt/zag
+- chisel:basalt/circular
+- chisel:basalt/circularct
+- chisel:basalt/weaver
+- chisel:basalt/pillar
+- chisel:basalt/twisted
+- chisel:basalt/prism
+- chisel:basalt/cuts
+- forge:stone/basalt?
+
+#forge:storage_blocks/gold
+- minecraft:gold_block
+
+#tconstruct:foundry
+- #tconstruct:foundry/wall
+- #tconstruct:foundry/floor
+- #tconstruct:foundry/tanks
+
+#minecraft:fence_gates
+- minecraft:acacia_fence_gate
+- minecraft:birch_fence_gate
+- minecraft:dark_oak_fence_gate
+- minecraft:jungle_fence_gate
+- minecraft:oak_fence_gate
+- minecraft:spruce_fence_gate
+- minecraft:crimson_fence_gate
+- minecraft:warped_fence_gate
+- tconstruct:greenheart_fence_gate
+- tconstruct:skyroot_fence_gate
+- tconstruct:bloodshroom_fence_gate
+- #forge:fence_gates/plastic
+
+#forge:ores
+- #forge:ores/copper
+- #forge:ores/tin
+- #forge:ores/osmium
+- #forge:ores/uranium
+- #forge:ores/fluorite
+- #forge:ores/lead
+- rftoolsbase:dimensionalshard_end
+- rftoolsbase:dimensionalshard_nether
+- rftoolsbase:dimensionalshard_overworld
+- tmechworks:aluminum_ore
+- tmechworks:copper_ore
+- #forge:ores/coal
+- #forge:ores/diamond
+- #forge:ores/emerald
+- #forge:ores/gold
+- #forge:ores/iron
+- #forge:ores/lapis
+- #forge:ores/redstone
+- #forge:ores/quartz
+- #forge:ores/netherite_scrap
+- #forge:ores/cobalt
+- #forge:ores/copper
+
+#tconstruct:alloyer_tanks
+- tconstruct:scorched_alloyer
+- tconstruct:seared_melter
+- #tconstruct:seared_tanks
+- #tconstruct:scorched_tanks
+
+#chisel:concrete/pink
+- chisel:concrete/pink/cracked
+- chisel:concrete/pink/solid_bricks
+- chisel:concrete/pink/small_bricks
+- chisel:concrete/pink/soft_bricks
+- chisel:concrete/pink/cracked_bricks
+- chisel:concrete/pink/triple_bricks
+- chisel:concrete/pink/encased_bricks
+- chisel:concrete/pink/chaotic_bricks
+- chisel:concrete/pink/array
+- chisel:concrete/pink/tiles_medium
+- chisel:concrete/pink/tiles_large
+- chisel:concrete/pink/tiles_small
+- chisel:concrete/pink/chaotic_medium
+- chisel:concrete/pink/chaotic_small
+- chisel:concrete/pink/braid
+- chisel:concrete/pink/dent
+- chisel:concrete/pink/french_1
+- chisel:concrete/pink/french_2
+- chisel:concrete/pink/jellybean
+- chisel:concrete/pink/layers
+- chisel:concrete/pink/mosaic
+- chisel:concrete/pink/ornate
+- chisel:concrete/pink/panel
+- chisel:concrete/pink/road
+- chisel:concrete/pink/slanted
+- chisel:concrete/pink/zag
+- chisel:concrete/pink/circular
+- chisel:concrete/pink/circularct
+- chisel:concrete/pink/weaver
+- chisel:concrete/pink/pillar
+- chisel:concrete/pink/twisted
+- chisel:concrete/pink/prism
+- chisel:concrete/pink/cuts
+- minecraft:pink_concrete
+
+#forge:fences
+- #forge:fences/nether_brick
+- #forge:fences/wooden
+- #forge:fences/plastic
+
+#chisel:bricks
+- chisel:bricks/cracked
+- chisel:bricks/solid_bricks
+- chisel:bricks/small_bricks
+- chisel:bricks/soft_bricks
+- chisel:bricks/cracked_bricks
+- chisel:bricks/triple_bricks
+- chisel:bricks/encased_bricks
+- chisel:bricks/chaotic_bricks
+- chisel:bricks/array
+- chisel:bricks/tiles_medium
+- chisel:bricks/tiles_large
+- chisel:bricks/tiles_small
+- chisel:bricks/chaotic_medium
+- chisel:bricks/chaotic_small
+- chisel:bricks/braid
+- chisel:bricks/dent
+- chisel:bricks/french_1
+- chisel:bricks/french_2
+- chisel:bricks/jellybean
+- chisel:bricks/layers
+- chisel:bricks/mosaic
+- chisel:bricks/ornate
+- chisel:bricks/panel
+- chisel:bricks/road
+- chisel:bricks/slanted
+- chisel:bricks/zag
+- chisel:bricks/circular
+- chisel:bricks/circularct
+- chisel:bricks/weaver
+- chisel:bricks/pillar
+- chisel:bricks/twisted
+- chisel:bricks/prism
+- chisel:bricks/cuts
+- minecraft:bricks
+
+#forge:storage_blocks/diamond
+- minecraft:diamond_block
+
+#minecraft:nylium
+- minecraft:crimson_nylium
+- minecraft:warped_nylium
+
+#framedcompactdrawers:frame_double
+- framedcompactdrawers:framed_trim
+
+#enviromats:walls
+- enviromats:basalt_wall
+- enviromats:basalt_brick_wall
+- enviromats:basalt_brick_small_wall
+- enviromats:basalt_cobble_wall
+- enviromats:hardened_stone_wall
+- enviromats:hardened_stone_brick_wall
+- enviromats:hardened_stone_brick_small_wall
+- enviromats:hardened_stone_cobble_wall
+- enviromats:alabaster_white_wall
+- enviromats:alabaster_white_brick_wall
+- enviromats:alabaster_white_brick_small_wall
+- enviromats:alabaster_white_cobble_wall
+- enviromats:alabaster_orange_wall
+- enviromats:alabaster_orange_brick_wall
+- enviromats:alabaster_orange_brick_small_wall
+- enviromats:alabaster_orange_cobble_wall
+- enviromats:alabaster_light_blue_wall
+- enviromats:alabaster_light_blue_brick_wall
+- enviromats:alabaster_light_blue_brick_small_wall
+- enviromats:alabaster_light_blue_cobble_wall
+- enviromats:alabaster_yellow_wall
+- enviromats:alabaster_yellow_brick_wall
+- enviromats:alabaster_yellow_brick_small_wall
+- enviromats:alabaster_yellow_cobble_wall
+- enviromats:alabaster_lime_wall
+- enviromats:alabaster_lime_brick_wall
+- enviromats:alabaster_lime_brick_small_wall
+- enviromats:alabaster_lime_cobble_wall
+- enviromats:alabaster_pink_wall
+- enviromats:alabaster_pink_brick_wall
+- enviromats:alabaster_pink_brick_small_wall
+- enviromats:alabaster_pink_cobble_wall
+- enviromats:alabaster_gray_wall
+- enviromats:alabaster_gray_brick_wall
+- enviromats:alabaster_gray_brick_small_wall
+- enviromats:alabaster_gray_cobble_wall
+- enviromats:alabaster_light_gray_wall
+- enviromats:alabaster_light_gray_brick_wall
+- enviromats:alabaster_light_gray_brick_small_wall
+- enviromats:alabaster_light_gray_cobble_wall
+- enviromats:alabaster_cyan_wall
+- enviromats:alabaster_cyan_brick_wall
+- enviromats:alabaster_cyan_brick_small_wall
+- enviromats:alabaster_cyan_cobble_wall
+- enviromats:alabaster_purple_wall
+- enviromats:alabaster_purple_brick_wall
+- enviromats:alabaster_purple_brick_small_wall
+- enviromats:alabaster_purple_cobble_wall
+- enviromats:alabaster_blue_wall
+- enviromats:alabaster_blue_brick_wall
+- enviromats:alabaster_blue_brick_small_wall
+- enviromats:alabaster_blue_cobble_wall
+- enviromats:alabaster_brown_wall
+- enviromats:alabaster_brown_brick_wall
+- enviromats:alabaster_brown_brick_small_wall
+- enviromats:alabaster_brown_cobble_wall
+- enviromats:alabaster_green_wall
+- enviromats:alabaster_green_brick_wall
+- enviromats:alabaster_green_brick_small_wall
+- enviromats:alabaster_green_cobble_wall
+- enviromats:alabaster_red_wall
+- enviromats:alabaster_red_brick_wall
+- enviromats:alabaster_red_brick_small_wall
+- enviromats:alabaster_red_cobble_wall
+- enviromats:alabaster_black_wall
+- enviromats:alabaster_black_brick_wall
+- enviromats:alabaster_black_brick_small_wall
+- enviromats:alabaster_black_cobble_wall
+
+#chisel:concrete/white
+- chisel:concrete/white/cracked
+- chisel:concrete/white/solid_bricks
+- chisel:concrete/white/small_bricks
+- chisel:concrete/white/soft_bricks
+- chisel:concrete/white/cracked_bricks
+- chisel:concrete/white/triple_bricks
+- chisel:concrete/white/encased_bricks
+- chisel:concrete/white/chaotic_bricks
+- chisel:concrete/white/array
+- chisel:concrete/white/tiles_medium
+- chisel:concrete/white/tiles_large
+- chisel:concrete/white/tiles_small
+- chisel:concrete/white/chaotic_medium
+- chisel:concrete/white/chaotic_small
+- chisel:concrete/white/braid
+- chisel:concrete/white/dent
+- chisel:concrete/white/french_1
+- chisel:concrete/white/french_2
+- chisel:concrete/white/jellybean
+- chisel:concrete/white/layers
+- chisel:concrete/white/mosaic
+- chisel:concrete/white/ornate
+- chisel:concrete/white/panel
+- chisel:concrete/white/road
+- chisel:concrete/white/slanted
+- chisel:concrete/white/zag
+- chisel:concrete/white/circular
+- chisel:concrete/white/circularct
+- chisel:concrete/white/weaver
+- chisel:concrete/white/pillar
+- chisel:concrete/white/twisted
+- chisel:concrete/white/prism
+- chisel:concrete/white/cuts
+- minecraft:white_concrete
+
+#chisel:carpet/green
+- chisel:carpet/green/legacy
+- chisel:carpet/green/llama
+- minecraft:green_carpet
+
+#framedcompactdrawers:frame_triple
+- framedcompactdrawers:framed_compact_drawer
+- framedcompactdrawers:framed_drawer_controller
+- framedcompactdrawers:framed_slave
+- framedcompactdrawers:framed_full_one
+- framedcompactdrawers:framed_full_two
+- framedcompactdrawers:framed_full_four
+- framedcompactdrawers:framed_half_one
+- framedcompactdrawers:framed_half_two
+- framedcompactdrawers:framed_half_four
+
+#chisel:concrete/magenta
+- chisel:concrete/magenta/cracked
+- chisel:concrete/magenta/solid_bricks
+- chisel:concrete/magenta/small_bricks
+- chisel:concrete/magenta/soft_bricks
+- chisel:concrete/magenta/cracked_bricks
+- chisel:concrete/magenta/triple_bricks
+- chisel:concrete/magenta/encased_bricks
+- chisel:concrete/magenta/chaotic_bricks
+- chisel:concrete/magenta/array
+- chisel:concrete/magenta/tiles_medium
+- chisel:concrete/magenta/tiles_large
+- chisel:concrete/magenta/tiles_small
+- chisel:concrete/magenta/chaotic_medium
+- chisel:concrete/magenta/chaotic_small
+- chisel:concrete/magenta/braid
+- chisel:concrete/magenta/dent
+- chisel:concrete/magenta/french_1
+- chisel:concrete/magenta/french_2
+- chisel:concrete/magenta/jellybean
+- chisel:concrete/magenta/layers
+- chisel:concrete/magenta/mosaic
+- chisel:concrete/magenta/ornate
+- chisel:concrete/magenta/panel
+- chisel:concrete/magenta/road
+- chisel:concrete/magenta/slanted
+- chisel:concrete/magenta/zag
+- chisel:concrete/magenta/circular
+- chisel:concrete/magenta/circularct
+- chisel:concrete/magenta/weaver
+- chisel:concrete/magenta/pillar
+- chisel:concrete/magenta/twisted
+- chisel:concrete/magenta/prism
+- chisel:concrete/magenta/cuts
+- minecraft:magenta_concrete
+
+#envirocore:pladium_blocks
+- envirocore:pladium
+- envirocore:pladium_brick
+- envirocore:pladium_brick_small
+- envirocore:pladium_cobble
+- envirocore:pladium_polished
+- envirocore:pladium_tile
+- envirocore:pladium_tile_small
+
+#forge:chests/personal
+- mekanism:personal_chest
+
+#chisel:carpet/gray
+- chisel:carpet/gray/legacy
+- chisel:carpet/gray/llama
+- minecraft:gray_carpet
