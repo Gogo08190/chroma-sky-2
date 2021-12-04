@@ -2,7 +2,7 @@
 [general]
 	#Enables a 5 minute timeout on the `ftbteamislands create` command
 	creationTimeout = true
-	enableSingleplayer = false
+	enableSingleplayer = true
 	enableMultiplayer = true
 	clearInvWhenTeamLeft = true
 	enableMyIslandCommand = true
