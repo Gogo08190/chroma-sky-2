@@ -1884,7 +1884,7 @@
 [client]
 	"Auto Walk Keybind" = true
 	"Back Button Keybind" = true
-	"Chest Searching" = true
+	"Chest Searching" = false
 	"Greener Grass" = true
 	"Improved Mount Hud" = true
 	"Improved Tooltips" = true
@@ -2097,4 +2097,3 @@
 				[experimental.shiba.spawn_config.biomes.biomes]
 					Biomes = []
 					"Is Blacklist" = true
-
