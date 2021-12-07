@@ -19,6 +19,15 @@
 		#Sets how much fluid this sluice's tank can carry (in mB)
 		#Range: 0 ~ 1000000
 		"tank capacity" = 12000
+		#Allows this sluice to be used for item IO
+		allowsIO = false
+		#Allows this sluice to be used for fluid IO
+		allowsTank = false
+		#Allows this sluice to be upgraded
+		upgradeable = false
+		#FE cost per use
+		#Range: > 0
+		"fe cost per use" = 0
 
 	[sluices.iron]
 		#Defines how long it takes to process a resource in this Sluice (This is multiplied by the recipe base tick time)
@@ -30,6 +39,15 @@
 		#Sets how much fluid this sluice's tank can carry (in mB)
 		#Range: 0 ~ 1000000
 		"tank capacity" = 12000
+		#Allows this sluice to be used for item IO
+		allowsIO = true
+		#Allows this sluice to be used for fluid IO
+		allowsTank = false
+		#Allows this sluice to be upgraded
+		upgradeable = false
+		#FE cost per use
+		#Range: > 0
+		"fe cost per use" = 0
 
 	[sluices.diamond]
 		#Defines how long it takes to process a resource in this Sluice (This is multiplied by the recipe base tick time)
@@ -41,6 +59,15 @@
 		#Sets how much fluid this sluice's tank can carry (in mB)
 		#Range: 0 ~ 1000000
 		"tank capacity" = 12000
+		#Allows this sluice to be used for item IO
+		allowsIO = true
+		#Allows this sluice to be used for fluid IO
+		allowsTank = true
+		#Allows this sluice to be upgraded
+		upgradeable = false
+		#FE cost per use
+		#Range: > 0
+		"fe cost per use" = 0
 
 	[sluices.netherite]
 		#Defines how long it takes to process a resource in this Sluice (This is multiplied by the recipe base tick time)
@@ -55,6 +82,12 @@
 		#FE cost per use
 		#Range: > 0
 		"fe cost per use" = 0
+		#Allows this sluice to be used for item IO
+		allowsIO = true
+		#Allows this sluice to be used for fluid IO
+		allowsTank = true
+		#Allows this sluice to be upgraded
+		upgradeable = true
 
 	[sluices.empowered]
 		#Defines how long it takes to process a resource in this Sluice (This is multiplied by the recipe base tick time)
@@ -69,6 +102,12 @@
 		#FE cost per use
 		#Range: > 0
 		"fe cost per use" = 0
+		#Allows this sluice to be used for item IO
+		allowsIO = true
+		#Allows this sluice to be used for fluid IO
+		allowsTank = true
+		#Allows this sluice to be upgraded
+		upgradeable = true
 
 [hammers]
 	#Speed of the iron auto-hammer as ticks taken to process the block

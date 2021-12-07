@@ -25,6 +25,8 @@
 	"Item Blacklist" = []
 	#Valid prefixes: storage_block,seed,plastic,plate,dye,gem,nugget,ore,ingot,glass,misc,rod,logs,crop,dust,stone
 	"Enabled Filters/Prefixes" = ["storage_block", "seed", "plastic", "plate", "dye", "gem", "nugget", "ore", "ingot", "glass", "misc", "rod", "logs", "crop", "dust", "stone"]
+	#Void Miner Wildcard Item ID Blacklist (Wildcard: *) (case insensitive) e.g. mekanism:*
+	"Wildcard Item Blacklist" = []
 
 ["Void Pump"]
 	#Void Pump Partial Fluid Blacklist (prefix fluid. not required) (case insensitive)

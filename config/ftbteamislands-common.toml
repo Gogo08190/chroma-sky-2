@@ -38,3 +38,4 @@
 	#The default islands spawning Y offset
 	#Range: > -2147483648
 	defaultIslandResourceYOffset = 0
+

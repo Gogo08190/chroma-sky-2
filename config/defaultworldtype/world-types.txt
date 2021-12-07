@@ -1,4 +1,4 @@
-9 possible world types found:
+11 possible world types found:
 - default
 - flat
 - large_biomes
@@ -8,3 +8,5 @@
 - single_biome_floating_islands
 - debug_all_block_states
 - voidworld.empty_world_type
+- quark.realistic
+- quark.realistic_large_biomes

@@ -7,3 +7,7 @@
 	#Hide info when drawer is concealed
 	hideConcealed = false
 
+[bloodmagic]
+	#Seeing blood/incense altar info requires holding a divination or seer sigil in any hand
+	altarsRequireSigil = false
+

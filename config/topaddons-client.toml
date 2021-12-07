@@ -34,3 +34,13 @@
 [storagedrawers]
 	#Always display the extended drawer info
 	alwaysDisplayExtended = true
+
+[industrialforegoing]
+	#Color the background of tiny progress bars with the GUI's progress bar color
+	#Replaces the default machine progress in the forge section
+	colorTinyProgressBackground = true
+
+[thermal]
+	#Always show Flux Cell input/output rate (even when not extended)
+	alwaysShowCellIo = false
+
