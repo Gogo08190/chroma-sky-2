@@ -2,7 +2,7 @@
 #Everything to do with gameplay
 [gameplay]
 	#Set this to false to disable new players spawning with the Tinkers' Book.
-	shouldSpawnWithTinkersBook = true
+	shouldSpawnWithTinkersBook = false
 	#If non-empty, only this material will be shown on tools in creative and JEI (or the first valid material if this is invalid for the tool).
 	#If empty, all materials will show
 	showOnlyToolMaterial = ""
@@ -49,11 +49,11 @@
 #Everything to do with world generation
 [worldgen]
 	#Generate Copper
-	generateCopper = true
+	generateCopper = false
 	#Approx Ores per Chunk
 	veinCountCopper = 20
 	#Generate Cobalt
-	generateCobalt = true
+	generateCobalt = false
 	#Approx Ores per Chunk
 	veinCountCobalt = 8
 
@@ -105,4 +105,3 @@
 	#If true, forces integration materials to be enabled, even if the relevant metal is missing. Useful for testing material balance.
 	#Does not provide recipes for any of them, they will only be available to cheat in creative.
 	forceIntegrationMaterials = false
-
