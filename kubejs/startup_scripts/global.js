@@ -1,0 +1,22 @@
+// priority: 1000
+global.types = [
+    "Iron",
+    "Gold",
+    "Diamond",
+    "Lapis",
+    "Quartz",
+    "Redstone",
+    "Emerald",
+    "Copper",
+    "Cobalt",
+    "Lead",
+    "Tin",
+    "Silver",
+    "Nickel",
+    "Osmium",
+    "Fluorite",
+    "Uranium",
+    "Aluminum",
+    "Coal",
+    "Ancient",
+];
