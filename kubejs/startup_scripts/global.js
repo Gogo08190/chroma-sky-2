@@ -18,5 +18,4 @@ global.types = [
     "Uranium",
     "Aluminum",
     "Coal",
-    "Ancient",
 ];
