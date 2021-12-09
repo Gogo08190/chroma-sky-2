@@ -103,4 +103,19 @@ onEvent('recipes', event => {
     M: 'ftbsluice:gold_mesh'
   })
 
+  // Iron Auto Hammer
+  event.remove({ output: 'ftbsluice:iron_auto_hammer' })
+  event.shaped('ftbsluice:iron_auto_hammer', [
+  'FIF',
+  'VHV',
+  'CGC'
+  ], {
+    C: 'ftbjarmod:cast_iron_block',
+    G: 'ftbjarmod:cast_iron_gear',
+    I: '#forge:ingots/gold',
+    V: '#forge:glass',
+    F: '#forge:ingots/iron',
+    H: 'ftbsluice:iron_hammer'
+  })
+
 });
