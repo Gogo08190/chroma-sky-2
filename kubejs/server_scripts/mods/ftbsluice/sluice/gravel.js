@@ -7,7 +7,14 @@ onEvent("recipes", (event) => {
     ]).max(2); //.time().mb();
 
     sluice(["iron"], "#forge:gravel", [
-        ["minecraft:flint", 0.22],
+        ["minecraft:flint", 0.42],
+        ["chromasky:tin_chunk", 0.12],
+        ["chromasky:silver_chunk", 0.13],
+        ["chromasky:coal_chunk", 0.25],
+        ["chromasky:diamond_chunk", 0.01],
+        ["chromasky:redstone_chunk", 0.1],
+        ["projectred-core:electrotine_dust", 0.3],
+        ["chromasky:iron_chunk", 0.46],
     ]);
 
     sluice(["gold"], "#forge:gravel", [
