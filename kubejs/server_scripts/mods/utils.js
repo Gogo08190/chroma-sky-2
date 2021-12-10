@@ -20,9 +20,10 @@ onEvent("recipes", (event) => {
     event.shaped('chromasky:compost', [
     'LLL',
     'LBL',
-    'LLL'
+    'LWL'
     ], {
       L: 'chromasky:leaf',
-      B: 'minecraft:bone_meal'
+      B: 'minecraft:bone_meal',
+      W: 'ftbdripper:water_bowl'
     });
 });
