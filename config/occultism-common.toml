@@ -82,3 +82,4 @@
 		ceilingLightChance = 0.1
 		#The biome types the underground grove cannot spawn in.
 		biomeTypeBlacklist = ["NETHER", "END"]
+
