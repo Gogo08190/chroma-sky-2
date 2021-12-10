@@ -118,4 +118,34 @@ onEvent('recipes', event => {
     H: 'ftbsluice:iron_hammer'
   })
 
+  // Gold Auto Hammer
+  event.remove({ output: 'ftbsluice:gold_auto_hammer' })
+  event.shaped('ftbsluice:gold_auto_hammer', [
+  'FIF',
+  'VHV',
+  'CGC'
+  ], {
+    C: 'ftbjarmod:cast_iron_block',
+    G: 'ftbsluice:iron_auto_hammer',
+    I: '#forge:ingots/gold',
+    V: '#forge:glass',
+    F: '#forge:ingots/iron',
+    H: 'ftbsluice:gold_hammer'
+  })
+
+  // Diamond Auto Hammer
+  event.remove({ output: 'ftbsluice:diamond_auto_hammer' })
+  event.shaped('ftbsluice:diamond_auto_hammer', [
+  'FIF',
+  'VHV',
+  'CGC'
+  ], {
+    C: 'ftbjarmod:cast_iron_block',
+    G: 'ftbsluice:gold_auto_hammer',
+    I: '#forge:ingots/gold',
+    V: '#forge:glass',
+    F: '#forge:ingots/iron',
+    H: 'ftbsluice:diamond_hammer'
+  })
+
 });
