@@ -10,7 +10,7 @@ onEvent('recipes', event => {
     W: 'minecraft:oak_wood',
     S: 'minecraft:stick',
     B: 'minecraft:bowl',
-    H: 'minecraft:bowl'
+    H: 'cyclic:hopper'
   })
 
   // Iron Sluice
