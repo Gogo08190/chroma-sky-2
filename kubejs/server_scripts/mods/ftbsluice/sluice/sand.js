@@ -8,6 +8,13 @@ onEvent("recipes", (event) => {
 
     sluice(["iron"], "#forge:sand", [
         ["minecraft:flint", 0.22],
+        ["chromasky:lead_chunk", 0.12],
+        ["chromasky:aluminum_chunk", 0.11],
+        ["chromasky:nickel_chunk", 0.21],
+        ["chromasky:lapis_chunk", 0.11],
+        ["chromasky:emerald_chunk", 0.02],
+        ["chromasky:diamond_chunk", 0.02],
+        ["chromasky:gold_chunk", 0.02],
     ]);
 
     sluice(["gold"], "#forge:sand", [

@@ -8,6 +8,11 @@ onEvent("recipes", (event) => {
 
     sluice(["iron"], "ftbsluice:dust", [
         ["minecraft:flint", 0.22],
+        ["chromasky:lapis_chunk", 0.21],
+        ["chromasky:redstone_chunk", 0.19],
+        ["projectred-core:ruby", 0.15],
+        ["projectred-core:sapphire", 0.14],
+        ["projectred-core:peridot", 0.16],
     ]);
 
     sluice(["gold"], "ftbsluice:dust", [
