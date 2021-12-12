@@ -59,4 +59,14 @@ onEvent("recipes", (event) => {
       B: 'minecraft:bone_meal',
       W: 'ftbdripper:water_bowl'
     });
+
+    event.remove({ output: 'minecraft:furnace' })
+    event.shaped('chromasky:compost', [
+    'CCC',
+    'D D',
+    'CCC'
+    ], {
+      C: 'minecraft:cobblestone',
+      D: 'chromasky:1x_compressed_cobblestone'
+    });
 });
