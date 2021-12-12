@@ -22,7 +22,12 @@ onEvent("recipes", (event) => {
     ]);
 
     sluice(["diamond"], "ftbsluice:crushed_netherrack", [
-        ["minecraft:coal", 0.26],
+        ["minecraft:netherite_scrap", 0.06],
+        ["chromasky:gold_chunk", 0.29],
+        ["chromasky:emerald_chunk", 0.07],
+        ["chromasky:diamond_chunk", 0.08],
+        ["chromasky:quartz_chunk", 0.30],
+        ["chromasky:cobalt_chunk", 0.18],
     ]);
 
     sluice(["blazing"], "ftbsluice:crushed_netherrack", [
