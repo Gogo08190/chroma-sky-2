@@ -10,10 +10,15 @@ onEvent("recipes", (event) => {
         ["projectred-core:electrotine_dust", 0.22],
         ["projectred-core:ruby", 0.30],
         ["tconstruct:debris_nugget", 0.01],
+        ["chromasky:quartz_chunk", 0.15],
     ]);
 
     sluice(["gold"], "ftbsluice:crushed_netherrack", [
-        ["minecraft:coal", 0.22],
+        ["chromasky:quartz_chunk", 0.23],
+        ["projectred-core:electrotine_dust", 0.30],
+        ["tconstruct:debris_nugget", 0.04],
+        ["projectred-core:ruby", 0.35],
+        ["chromasky:cobalt_chunk", 0.15],
     ]);
 
     sluice(["diamond"], "ftbsluice:crushed_netherrack", [

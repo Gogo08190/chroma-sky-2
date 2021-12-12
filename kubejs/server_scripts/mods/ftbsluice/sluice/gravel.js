@@ -14,11 +14,19 @@ onEvent("recipes", (event) => {
         ["chromasky:diamond_chunk", 0.01],
         ["chromasky:redstone_chunk", 0.1],
         ["projectred-core:electrotine_dust", 0.3],
-        ["chromasky:iron_chunk", 0.46],
+        ["chromasky:iron_chunk", 0.25],
     ]);
 
     sluice(["gold"], "#forge:gravel", [
-        ["minecraft:coal", 0.22],
+        ["minecraft:flint", 0.45],
+        ["chromasky:diamond_chunk", 0.05],
+        ["projectred-core:electrotine_dust", 0.32],
+        ["chromasky:redstone_chunk", 0.2],
+        ["chromasky:silver_chunk", 0.2],
+        ["chromasky:coal_chunk", 0.35],
+        ["chromasky:tin_chunk", 0.24],
+        ["chromasky:iron_chunk", 0.40],
+        ["chromasky:gold_chunk", 0.21],
     ]);
 
     sluice(["diamond"], "#forge:gravel", [
