@@ -12,13 +12,15 @@ onEvent("recipes", (event) => {
     ]);
 
     sluice(["gold"], "ftbsluice:crushed_endstone", [
-        ["miniutilities:ender_dust", 0.40],
+        ["miniutilities:ender_dust", 0.30],
         ["mysticalagriculture:prosperity_shard", 0.30],
         ["tconstruct:manyullyn_nugget", 0.05],
     ]);
 
     sluice(["diamond"], "ftbsluice:crushed_endstone", [
-        ["minecraft:coal", 0.26],
+        ["mysticalagriculture:prosperity_shard", 0.35],
+        ["miniutilities:ender_dust", 0.35],
+        ["tconstruct:manyullyn_nugget", 0.09],
     ]);
 
     sluice(["blazing"], "ftbsluice:crushed_endstone", [
