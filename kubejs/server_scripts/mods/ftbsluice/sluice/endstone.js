@@ -7,7 +7,8 @@ onEvent("recipes", (event) => {
     ]).max(2); //.time().mb();
 
     sluice(["iron"], "ftbsluice:crushed_endstone", [
-        ["minecraft:flint", 0.22],
+        ["mysticalagriculture:prosperity_shard", 0.25],
+        ["miniutilities:ender_dust", 0.3],
     ]);
 
     sluice(["gold"], "ftbsluice:crushed_endstone", [
