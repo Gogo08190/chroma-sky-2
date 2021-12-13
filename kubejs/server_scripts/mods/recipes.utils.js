@@ -51,8 +51,8 @@ onEvent("recipes", (event) => {
     });
 
     event.shaped('minecraft:cobblestone', [
-    'CC ',
-    'CC '
+    'CC',
+    'CC'
     ], {
       C: 'chromasky:pebble'
     });
