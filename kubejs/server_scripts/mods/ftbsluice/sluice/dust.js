@@ -23,6 +23,7 @@ onEvent("recipes", (event) => {
         ["chromasky:lapis_chunk", 0.28],
         ["chromasky:redstone_chunk", 0.21],
         ["projectred-core:ruby", 0.2],
+        ["mana-and-artifice:vinteum_dust", 0.05],
     ]);
 
     sluice(["diamond"], "ftbsluice:dust", [
