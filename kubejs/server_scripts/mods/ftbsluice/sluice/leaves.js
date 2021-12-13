@@ -29,14 +29,38 @@ onEvent("recipes", (event) => {
     ]);
 
     sluice(["gold"], "#minecraft:leaves", [
-        ["minecraft:coal", 0.22],
+        ["pamhc2trees:pistachio_sapling", 0.17],
+        ["pamhc2trees:soursop_sapling", 0.17],
+        ["pamhc2trees:almond_sapling", 0.17],
+        ["pamhc2trees:apricot_sapling", 0.17],
+        ["pamhc2trees:banana_sapling", 0.17],
+        ["pamhc2trees:pecan_sapling", 0.17],
+        ["pamhc2trees:date_sapling", 0.17],
+        ["pamhc2trees:coconut_sapling", 0.17],
+        ["pamhc2trees:pawpaw_sapling", 0.17],
+        ["pamhc2trees:peppercorn_sapling", 0.17],
+        ["pamhc2trees:dragonfruit_sapling", 0.17],
+        ["pamhc2trees:persimmon_sapling", 0.17],
+        ["pamhc2trees:pomegranate_sapling", 0.17],
     ]);
 
     sluice(["diamond"], "#minecraft:leaves", [
-        ["minecraft:coal", 0.26],
+        ["pamhc2trees:nutmeg_sapling", 0.17],
+        ["pamhc2trees:gooseberry_sapling", 0.17],
+        ["pamhc2trees:lemon_sapling", 0.17],
+        ["pamhc2trees:avocado_sapling", 0.17],
+        ["pamhc2trees:candlenut_sapling", 0.17],
+        ["pamhc2trees:vanillabean_sapling", 0.17],
+        ["pamhc2trees:starfruit_sapling", 0.17],
+        ["pamhc2trees:hazelnut_sapling", 0.17],
+        ["pamhc2trees:breadfruit_sapling", 0.17],
+        ["pamhc2trees:guava_sapling", 0.17],
+        ["pamhc2trees:papaya_sapling", 0.17],
+        ["pamhc2trees:apple_sapling", 0.17],
+        ["pamhc2trees:cherry_sapling", 0.17],
     ]);
 
     sluice(["blazing"], "#minecraft:leaves", [
-        ["minecraft:iron_ingot", 0.71],
+        ["minecraft:charcoal", 0.75],
     ]).fluid("minecraft:lava");
 });
