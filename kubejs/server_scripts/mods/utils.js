@@ -50,6 +50,13 @@ onEvent("recipes", (event) => {
       C: 'chromasky:compost'
     });
 
+    event.shaped('minecraft:cobblestone', [
+    'CC ',
+    'CC '
+    ], {
+      C: 'chromasky:pebble'
+    });
+
     event.shaped('chromasky:compost', [
     'LLL',
     'LBL',
