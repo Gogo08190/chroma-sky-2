@@ -68,7 +68,7 @@ onEvent("recipes", (event) => {
     });
 
     event.remove({ output: 'minecraft:furnace' })
-    event.shaped('chromasky:compost', [
+    event.shaped('minecraft:furnace', [
     'CCC',
     'D D',
     'CCC'
