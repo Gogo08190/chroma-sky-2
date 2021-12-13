@@ -2,6 +2,10 @@
 onEvent("recipes", (event) => {
 
     event.remove({ output: 'cobblefordays:tier_1' })
+    event.remove({ output: 'cobblefordays:tier_2' })
+    event.remove({ output: 'cobblefordays:tier_3' })
+    event.remove({ output: 'cobblefordays:tier_4' })
+    event.remove({ output: 'cobblefordays:tier_5' })
     event.shaped('cobblefordays:tier_1', [
     'LCL',
     'BGW',
@@ -14,7 +18,6 @@ onEvent("recipes", (event) => {
       W: 'minecraft:water_bucket'
     });
 
-    event.remove({ output: 'cobblefordays:tier_2' })
     event.custom({
     "type": "tconstruct:casting_table",
     "cast": {
@@ -28,4 +31,10 @@ onEvent("recipes", (event) => {
     "result": "cobblefordays:tier_2",
     "cooling_time": 100
   })
+
+  event.recipes.thermal
+        .smelter("immersiveengineering:ingot_steel", ["cobblefordays:tier_4", "4x tconstruct:hepatizon_block", "2x thermal:obsidian_glass"])
+        .energy(4000);
+
+
 });

@@ -13,6 +13,10 @@ onEvent("recipes", (event) => {
   jar("minecraft:end_stone", ["minecraft:glowstone_dust", Fluid.of("minecraft:lava", 1000)]).time(20);
   jar("16x minecraft:end_stone", ["16x minecraft:glowstone_dust", Fluid.of("minecraft:lava", 16000)]).time(20);
 
+  jar("cobblefordays:tier_3", ["cobblefordays:tier_2", "4x ftbjarmod:cast_iron_gear", "ftbjarmod:cast_iron_block"]).time(300).highTemp();
+
+  jar("cobblefordays:tier_4", ["cobblefordays:tier_3", "2x chromasky:3x_compressed_cobblestone", Fluid.of("tconstruct:molten_rose_gold", 1000)]).time(400).highTemp();
+
   jar(Fluid.of("minecraft:lava", 1000), "#forge:cobblestone").time(3200).lowTemp();
   jar(Fluid.of("minecraft:lava", 1000), "#forge:cobblestone").time(300).highTemp();
 });
