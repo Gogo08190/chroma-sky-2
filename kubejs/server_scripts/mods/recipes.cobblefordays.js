@@ -32,9 +32,6 @@ onEvent("recipes", (event) => {
     "cooling_time": 100
   })
 
-  event.recipes.thermal
-        .smelter("immersiveengineering:ingot_steel", ["cobblefordays:tier_4", "4x tconstruct:hepatizon_block", "2x thermal:obsidian_glass"])
-        .energy(4000);
-
+  event.recipes.thermal.smelter('cobblefordays:tier_5', ['cobblefordays:tier_4', '4x tconstruct:hepatizon_block', '2x thermal:obsidian_glass']).energy(10000)
 
 });
