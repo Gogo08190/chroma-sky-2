@@ -10,6 +10,8 @@ onEvent("recipes", (event) => {
         ["pamhc2trees:paperbark_sapling", 0.17],
         ["pamhc2trees:cinnamon_sapling", 0.17],
         ["pamhc2trees:passionfruit_sapling", 0.17],
+        ["pamhc2trees:maple_sapling", 0.17],
+        ["pamhc2trees:pinenut_sapling", 0.17],
     ]).max(2); //.time().mb();
 
     sluice(["iron"], "#minecraft:leaves", [
