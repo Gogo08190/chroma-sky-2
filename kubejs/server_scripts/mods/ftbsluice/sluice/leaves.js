@@ -13,7 +13,19 @@ onEvent("recipes", (event) => {
     ]).max(2); //.time().mb();
 
     sluice(["iron"], "#minecraft:leaves", [
-        ["minecraft:flint", 0.22],
+        ["pamhc2trees:rambutan_sapling", 0.17],
+        ["pamhc2trees:plum_sapling", 0.17],
+        ["pamhc2trees:fig_sapling", 0.17],
+        ["pamhc2trees:tamarind_sapling", 0.17],
+        ["pamhc2trees:chestnut_sapling", 0.17],
+        ["pamhc2trees:mango_sapling", 0.17],
+        ["pamhc2trees:orange_sapling", 0.17],
+        ["pamhc2trees:peach_sapling", 0.17],
+        ["pamhc2trees:cashew_sapling", 0.17],
+        ["pamhc2trees:grapefruit_sapling", 0.17],
+        ["pamhc2trees:pear_sapling", 0.17],
+        ["pamhc2trees:jackfruit_sapling", 0.17],
+        ["pamhc2trees:lychee_sapling", 0.17],
     ]);
 
     sluice(["gold"], "#minecraft:leaves", [
