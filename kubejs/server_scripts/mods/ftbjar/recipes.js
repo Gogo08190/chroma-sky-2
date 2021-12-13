@@ -1,5 +1,10 @@
 onEvent('recipes', event => {
 
+  // Removed
+  event.remove({ output: 'tconstruct:seared_heater' })
+  event.remove({ output: 'tconstruct:seared_melter' })
+  event.remove({ output: 'tconstruct:seared_brick' })
+
   // Cast Iron Gear
   event.remove({ output: 'ftbjarmod:cast_iron_gear' })
   event.shaped('ftbjarmod:cast_iron_gear', [

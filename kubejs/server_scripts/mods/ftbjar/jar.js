@@ -17,6 +17,12 @@ onEvent("recipes", (event) => {
 
   jar("cobblefordays:tier_4", ["cobblefordays:tier_3", "2x chromasky:3x_compressed_cobblestone", Fluid.of("tconstruct:molten_rose_gold", 1000)]).time(400).highTemp();
 
+  jar('tconstruct:seared_heater', ["8x tconstruct:seared_brick", "minecraft:furnace"]).time(800).highTemp();
+  jar('tconstruct:seared_melter', ["5x tconstruct:seared_brick", "tconstruct:seared_ingot_gauge"]).time(800).highTemp();
+  jar('tconstruct:seared_brick', ["tconstruct:grout"]).time(200).highTemp();
+  jar('8x tconstruct:seared_brick', ["8x tconstruct:grout"]).time(600).highTemp();
+  jar('16x tconstruct:seared_brick', ["16x tconstruct:grout"]).time(800).highTemp();
+
   jar(Fluid.of("minecraft:lava", 1000), "#forge:cobblestone").time(3200).lowTemp();
   jar(Fluid.of("minecraft:lava", 1000), "#forge:cobblestone").time(300).highTemp();
 });
