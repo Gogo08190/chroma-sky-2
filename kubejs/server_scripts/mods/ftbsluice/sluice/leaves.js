@@ -45,10 +45,22 @@ onEvent("recipes", (event) => {
     ]);
 
     sluice(["diamond"], "#minecraft:leaves", [
-        ["minecraft:coal", 0.26],
+        ["pamhc2trees:nutmeg_sapling", 0.17],
+        ["pamhc2trees:gooseberry_sapling", 0.17],
+        ["pamhc2trees:lemon_sapling", 0.17],
+        ["pamhc2trees:avocado_sapling", 0.17],
+        ["pamhc2trees:candlenut_sapling", 0.17],
+        ["pamhc2trees:vanillabean_sapling", 0.17],
+        ["pamhc2trees:starfruit_sapling", 0.17],
+        ["pamhc2trees:hazelnut_sapling", 0.17],
+        ["pamhc2trees:breadfruit_sapling", 0.17],
+        ["pamhc2trees:guava_sapling", 0.17],
+        ["pamhc2trees:papaya_sapling", 0.17],
+        ["pamhc2trees:apple_sapling", 0.17],
+        ["pamhc2trees:cherry_sapling", 0.17],
     ]);
 
     sluice(["blazing"], "#minecraft:leaves", [
-        ["minecraft:iron_ingot", 0.71],
+        ["minecraft:charcoal", 0.75],
     ]).fluid("minecraft:lava");
 });
