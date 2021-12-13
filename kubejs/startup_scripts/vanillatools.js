@@ -1,4 +1,4 @@
-const vanillaTools = Ingredient.of(/minecraft:(wooden|stone|iron|golden|diamond)_(sword|shovel|(pick)?axe|hoe)/);
+const vanillaTools = Ingredient.of(/minecraft:(wooden|stone|iron|golden|diamond|netherite)_(sword|shovel|(pick)?axe|hoe)/);
 
 onEvent("item.modification", (event) => {
     event.modify(vanillaTools, (tool) => {
