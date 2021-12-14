@@ -27,7 +27,15 @@ onEvent("recipes", (event) => {
     ]);
 
     sluice(["diamond"], "ftbsluice:dust", [
-        ["minecraft:coal", 0.26],
+        ["mana-and-artifice:vinteum_dust", 0.1],
+        ["chromasky:iron_chunk", 0.30],
+        ["chromasky:redstone_chunk", 0.3],
+        ["chromasky:lapis_chunk", 0.33],
+        ["chromasky:osmium_chunk", 0.2],
+        ["chromasky:fluorite_chunk", 0.21],
+        ["projectred-core:sapphire", 0.24],
+        ["projectred-core:peridot", 0.23],
+        ["projectred-core:ruby", 0.22],
     ]);
 
     sluice(["blazing"], "ftbsluice:dust", [
