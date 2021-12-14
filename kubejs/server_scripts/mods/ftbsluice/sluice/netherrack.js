@@ -31,6 +31,11 @@ onEvent("recipes", (event) => {
     ]);
 
     sluice(["blazing"], "ftbsluice:crushed_netherrack", [
-        ["minecraft:iron_ingot", 0.71],
+        ["minecraft:gold_ingot", 0.35],
+        ["minecraft:quartz", 0.40],
+        ["minecraft:diamond", 0.06],
+        ["minecraft:emerald", 0.04],
+        ["tconstruct:cobalt_ingot", 0.07],
+        ["minecraft:netherite_scrap", 0.08],
     ]).fluid("minecraft:lava");
 });

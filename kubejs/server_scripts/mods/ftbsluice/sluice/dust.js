@@ -40,5 +40,13 @@ onEvent("recipes", (event) => {
 
     sluice(["blazing"], "ftbsluice:dust", [
         ["minecraft:iron_ingot", 0.71],
+        ["mana-and-artifice:vinteum_dust", 0.25],
+        ["projectred-core:ruby", 0.25],
+        ["projectred-core:peridot", 0.29],
+        ["projectred-core:sapphire", 0.31],
+        ["mekanism:fluorite_gem", 0.26],
+        ["mekanism:ingot_osmium", 0.25],
+        ["minecraft:lapis_lazuli", 0.30],
+        ["minecraft:redstone", 0.35],
     ]).fluid("minecraft:lava");
 });

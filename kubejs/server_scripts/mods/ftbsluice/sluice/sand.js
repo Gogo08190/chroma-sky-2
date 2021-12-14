@@ -42,6 +42,14 @@ onEvent("recipes", (event) => {
     ]);
 
     sluice(["blazing"], "#forge:sand", [
-        ["minecraft:iron_ingot", 0.71],
+        ["tmechworks:aluminum_ingot", 0.25],
+        ["minecraft:lapis_lazuli", 0.23],
+        ["thermal:lead_ingot", 0.31],
+        ["minecraft:gold_ingot", 0.36],
+        ["minecraft:iron_ingot", 0.45],
+        ["mekanism:ingot_uranium", 0.23],
+        ["thermal:nickel_ingot", 0.33],
+        ["minecraft:diamond", 0.09],
+        ["minecraft:emerald", 0.09],
     ]).fluid("minecraft:lava");
 });
