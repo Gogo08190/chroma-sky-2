@@ -59,9 +59,9 @@ boxTopY = 5
 #Range: -1 ~ 10000
 boxBottomY = -1
 #Color of the border of the box (0 to disable)
-boxBorderColor = "ff999999"
+boxBorderColor = "FF2bc7d9"
 #Color of the box (0 to disable)
-boxFillColor = "55006699"
+boxFillColor = "55232323"
 #Thickness of the border of the box (0 to disable)
 #Range: 0 ~ 20
 boxThickness = 2
@@ -78,7 +78,7 @@ holdKeyToMakeVisible = false
 #Range: 0.4 ~ 5.0
 tooltipScale = 1.0
 #Color of the border of the chest contents box (0 to disable)
-chestContentsBorderColor = "ff006699"
+chestContentsBorderColor = "FF2bc7d9"
 #0 means don't show break progress, 1 is show as bar, 2 is show as text
 #Range: 0 ~ 2
 showBreakProgress = 1
@@ -108,4 +108,3 @@ harvestStyleVanilla = true
 	Ok = "green"
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
 	Label = "gray"
-
