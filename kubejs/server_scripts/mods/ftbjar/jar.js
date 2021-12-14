@@ -20,6 +20,11 @@ onEvent("recipes", (event) => {
   jar('tconstruct:seared_heater', ["8x tconstruct:seared_brick", "minecraft:furnace"]).time(200).highTemp();
   jar('tconstruct:seared_melter', ["5x tconstruct:seared_brick", "tconstruct:seared_ingot_gauge"]).time(200).highTemp();
   jar('tconstruct:seared_fuel_tank', ["8x tconstruct:seared_brick", "#forge:glass"]).time(200).highTemp();
+  jar('tconstruct:seared_basin', ["5x tconstruct:seared_brick", "minecraft:cauldron"]).time(200).highTemp();
+  jar('tconstruct:seared_table', ["5x tconstruct:seared_brick", "tconstruct:pattern"]).time(200).highTemp();
+  jar('tconstruct:seared_drain', ["4x tconstruct:seared_brick", "2x thermal:copper_ingot", "tconstruct:seared_faucet"]).time(200).highTemp();
+  jar('tconstruct:seared_duct', ["4x tconstruct:seared_brick", "2x tconstruct:cobalt_ingot", "speedyhoppers:speedyhopper_mk1"]).time(200).highTemp();
+
   jar('tconstruct:seared_brick', ["tconstruct:grout"]).time(200).highTemp();
   jar('8x tconstruct:seared_brick', ["8x tconstruct:grout"]).time(600).highTemp();
   jar('16x tconstruct:seared_brick', ["16x tconstruct:grout"]).time(800).highTemp();
