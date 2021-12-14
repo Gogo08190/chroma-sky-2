@@ -46,7 +46,7 @@ onEvent("recipes", (event) => {
         ["thermal:silver_ingot", 0.30],
         ["thermal:tin_ingot", 0.30],
         ["minecraft:coal", 0.45],
-        ["minecraft:diamond", 0.08],
+        ["minecraft:diamond", 0.1],
         ["minecraft:redstone", 0.30],
         ["minecraft:flint", 0.48],
         ["minecraft:gold_ingot", 0.27],
