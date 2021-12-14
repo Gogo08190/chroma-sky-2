@@ -6,7 +6,15 @@ events.listen('jei.hide.items', function (event) {
     /ftblibrary:fluid_container/,
     /tconstruct:part_builder/,
     /tconstruct:tinker_station/,
-    /tconstruct:crafting_station/
+    /tconstruct:crafting_station/,
+    'ftbquests:missing_item',
+    'ftbquests:custom_icon',
+    'ftbquests:barrier',
+    'ftbquests:stage_barrier',
+    'ftbquests:detector',
+    'ftbjarmod:creative_low_temperature_source',
+    'ftbjarmod:creative_high_temperature_source',
+    'ftbjarmod:creative_subzero_temperature_source'
   ])
 })
 
