@@ -18,6 +18,5 @@ onEvent("recipes", (event) => {
     ]);
 
     sluice(["blazing"], "#forge:dirt", [
-        ["minecraft:iron_ingot", 0.71],
     ]).fluid("minecraft:lava");
 });

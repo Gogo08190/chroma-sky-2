@@ -24,6 +24,5 @@ onEvent("recipes", (event) => {
     ]);
 
     sluice(["blazing"], "ftbsluice:crushed_endstone", [
-        ["minecraft:iron_ingot", 0.71],
     ]).fluid("minecraft:lava");
 });
