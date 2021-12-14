@@ -22,7 +22,9 @@ onEvent("recipes", (event) => {
   jar('tconstruct:seared_fuel_tank', ["8x tconstruct:seared_brick", "#forge:glass"]).time(200).highTemp();
   jar('tconstruct:seared_basin', ["5x tconstruct:seared_brick", "minecraft:cauldron"]).time(200).highTemp();
   jar('tconstruct:seared_table', ["5x tconstruct:seared_brick", "tconstruct:pattern"]).time(200).highTemp();
+  jar('tconstruct:seared_faucet', ["3x tconstruct:seared_brick", "minecraft:flower_pot"]).time(200).highTemp();
   jar('tconstruct:seared_drain', ["4x tconstruct:seared_brick", "2x thermal:copper_ingot", "tconstruct:seared_faucet"]).time(200).highTemp();
+  jar('tconstruct:seared_chute', ["4x tconstruct:seared_brick", "2x thermal:copper_ingot", "minecraft:hopper"]).time(200).highTemp();
   jar('tconstruct:seared_duct', ["4x tconstruct:seared_brick", "2x tconstruct:cobalt_ingot", "speedyhoppers:speedyhopper_mk1"]).time(200).highTemp();
 
   jar('tconstruct:seared_brick', ["tconstruct:grout"]).time(200).highTemp();

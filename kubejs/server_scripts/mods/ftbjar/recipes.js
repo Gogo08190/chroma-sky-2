@@ -8,6 +8,10 @@ onEvent('recipes', event => {
   event.remove({ output: 'tconstruct:seared_basin' })
   event.remove({ output: 'tconstruct:seared_table' })
   event.remove({ output: 'tconstruct:seared_faucet' })
+  event.remove({ output: 'tconstruct:seared_chute' })
+  event.remove({ output: 'tconstruct:seared_drain' })
+  event.remove({ output: 'tconstruct:seared_duct' })
+  event.remove({ output: 'tconstruct:seared_faucet' })
 
   // Cast Iron Gear
   event.remove({ output: 'ftbjarmod:cast_iron_gear' })
