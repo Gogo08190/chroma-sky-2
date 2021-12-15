@@ -55,6 +55,6 @@ onEvent("recipes", (event) => {
         ["thermal:nickel_ingot", 0.33],
         ["minecraft:diamond", 0.09],
         ["minecraft:emerald", 0.09],
-        ["minecraft:emerald", 0.09],
+        ["astralsorcery:aquamarine", 0.28],
     ]).fluid("minecraft:lava");
 });
