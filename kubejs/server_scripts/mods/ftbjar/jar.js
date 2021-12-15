@@ -33,4 +33,6 @@ onEvent("recipes", (event) => {
 
   jar(Fluid.of("minecraft:lava", 1000), "#forge:cobblestone").time(3200).lowTemp();
   jar(Fluid.of("minecraft:lava", 1000), "#forge:cobblestone").time(300).highTemp();
+
+  jar(Fluid.of("minecraft:water", 10), "#minecraft:leaves").time(100).lowTemp();
 });
