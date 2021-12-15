@@ -163,6 +163,7 @@ onEvent("recipes", (event) => {
 
     event.replaceInput("miniutilities:ender_dust", "#forge:dusts/ender");
     event.replaceInput("thermal:ender_pearl_dust", "#forge:dusts/ender");
+    event.replaceOutput("miniutilities:ender_pearl_dust", "thermal:ender_pearl_dust");
 
     event.replaceInput("mekanism:sawdust", "#forge:sawdust");
     event.replaceOutput("mekanism:sawdust", "thermal:sawdust");
@@ -177,7 +178,9 @@ onEvent("recipes", (event) => {
 
     event.replaceInput("thermal:charcoal_block", "#forge:storage_blocks/charcoal");
     event.replaceInput("mekanism:block_charcoal", "#forge:storage_blocks/charcoal");
+    event.replaceInput("quark:block_charcoal", "#forge:storage_blocks/charcoal");
     event.replaceOutput("mekanism:block_charcoal", "thermal:charcoal_block");
+    event.replaceOutput("quark:block_charcoal", "thermal:charcoal_block");
 
     event.replaceInput("projectred-core:ruby", "#forge:gems/ruby");
     event.replaceOutput("thermal:ruby", "projectred-core:ruby");
