@@ -21,13 +21,13 @@ onEvent('recipes', event => {
             },
             {
                 "item": "naturesaura:infused_stone"
-            },
+            }/*,
             {
                 "item": "naturesaura:infused_stone"
             },
             {
                 "item": "naturesaura:infused_stone"
-            }
+            }*/
         ],
         "sapling": {
             "item": "integrateddynamics:menril_sapling"
