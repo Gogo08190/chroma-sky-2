@@ -77,4 +77,27 @@ onEvent("recipes", (event) => {
       C: 'minecraft:cobblestone',
       D: 'chromasky:1x_compressed_cobblestone'
     });
+
+    event.remove({ output: 'cyclic:cask' })
+    event.shaped('cyclic:cask', [
+    'RSR',
+    'SBS',
+    'RSR'
+    ], {
+      R: 'minecraft:rotten_flesh',
+      S: 'minecraft:string',
+      B: 'minecraft:barrel'
+    });
+
+    event.remove({ output: 'integrateddynamics:squeezer' })
+    event.shaped('integrateddynamics:squeezer', [
+    'BEB',
+    'B B',
+    'RSR'
+    ], {
+      R: 'minecraft:stripped_oak_wood',
+      S: 'minecraft:bowl',
+      B: 'minecraft:stick',
+      E: 'pamhc2foodcore:rolleritem'
+    });
 });
