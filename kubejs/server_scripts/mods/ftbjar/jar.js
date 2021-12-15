@@ -75,4 +75,38 @@ onEvent("recipes", (event) => {
   jar("tmechworks:aluminum_ingot", "chromasky:aluminum_cluster").time(400).lowTemp();
   jar("tmechworks:aluminum_ingot", "chromasky:aluminum_cluster").time(100).highTemp();
   jar("tmechworks:aluminum_block", "9x chromasky:aluminum_cluster").time(250).highTemp();
+
+  jar("thermal:nickel_ingot", "chromasky:nickel_cluster").time(400).lowTemp();
+  jar("thermal:nickel_ingot", "chromasky:nickel_cluster").time(100).highTemp();
+  jar("thermal:nickel_block", "9x chromasky:nickel_cluster").time(250).highTemp();
+
+  jar("thermal:silver_ingot", "chromasky:silver_cluster").time(400).lowTemp();
+  jar("thermal:silver_ingot", "chromasky:silver_cluster").time(100).highTemp();
+  jar("thermal:silver_block", "9x chromasky:silver_cluster").time(250).highTemp();
+
+  jar("thermal:tin_ingot", "chromasky:tin_cluster").time(400).lowTemp();
+  jar("thermal:tin_ingot", "chromasky:tin_cluster").time(100).highTemp();
+  jar("thermal:tin_block", "9x chromasky:tin_cluster").time(250).highTemp();
+
+  jar("thermal:lead_ingot", "chromasky:lead_cluster").time(400).lowTemp();
+  jar("thermal:lead_ingot", "chromasky:lead_cluster").time(100).highTemp();
+  jar("thermal:lead_block", "9x chromasky:lead_cluster").time(250).highTemp();
+
+  jar("thermal:copper_ingot", "chromasky:copper_cluster").time(400).lowTemp();
+  jar("thermal:copper_ingot", "chromasky:copper_cluster").time(100).highTemp();
+  jar("thermal:copper_block", "9x chromasky:copper_cluster").time(250).highTemp();
+
+  jar("tconstruct:cobalt_ingot", "chromasky:cobalt_cluster").time(400).lowTemp();
+  jar("tconstruct:cobalt_ingot", "chromasky:cobalt_cluster").time(100).highTemp();
+  jar("tconstruct:cobalt_block", "9x chromasky:cobalt_cluster").time(250).highTemp();
+
+  jar("minecraft:dirt", "8x #minecraft:saplings").time(800);
+  jar("minecraft:dirt", "8x #forge:seeds").time(800);
+
+  jar("8x minecraft:dirt", "64x #minecraft:saplings").time(1200);
+  jar("8x minecraft:dirt", "64x #forge:seeds").time(1200);
+
+  jar("32x minecraft:clay_ball", ["1x #minecraft:sand", "1x #forge:gravel", Fluid.of("minecraft:water", 1000)]).time(
+      20
+  );
 });
