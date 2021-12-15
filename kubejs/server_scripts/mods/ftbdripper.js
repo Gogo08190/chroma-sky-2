@@ -9,12 +9,6 @@ onEvent("recipes", (event) => {
   });
 
   drip({
-    inputBlock: "minecraft:gravel",
-    outputBlock: 'minecraft:cobblestone',
-    chance: 1.0,
-  });
-
-  drip({
     inputBlock: "minecraft:oak_sapling",
     outputBlock: 'minecraft:spruce_sapling',
     chance: 1.0,
