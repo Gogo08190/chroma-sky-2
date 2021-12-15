@@ -1,11 +1,6 @@
 onEvent("recipes", (event) => {
     const sluice = event.recipes.ftbsluice.sluice;
 
-    sluice(["cloth"], "ftbsluice:crushed_netherrack", [
-        ["minecraft:flint", 0.17],
-        ["minecraft:coal", 0.14],
-    ]).max(2); //.time().mb();
-
     sluice(["iron"], "ftbsluice:crushed_netherrack", [
         ["projectred-core:electrotine_dust", 0.22],
         ["projectred-core:ruby", 0.30],

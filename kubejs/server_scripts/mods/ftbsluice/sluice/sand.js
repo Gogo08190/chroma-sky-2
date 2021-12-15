@@ -2,8 +2,10 @@ onEvent("recipes", (event) => {
     const sluice = event.recipes.ftbsluice.sluice;
 
     sluice(["cloth"], "#forge:sand", [
-        ["minecraft:flint", 0.17],
-        ["minecraft:coal", 0.14],
+      ["minecraft:flint", 0.50],
+      ["projectred-core:electrotine_dust", 0.20],
+      ["chromasky:iron_chunk", 0.22],
+      ["chromasky:coal_chunk", 0.18],
     ]).max(2); //.time().mb();
 
     sluice(["iron"], "#forge:sand", [
@@ -27,6 +29,7 @@ onEvent("recipes", (event) => {
         ["chromasky:lapis_chunk", 0.19],
         ["chromasky:lead_chunk", 0.26],
         ["chromasky:aluminum_chunk", 0.18],
+        ["astralsorcery:aquamarine", 0.11],
     ]);
 
     sluice(["diamond"], "#forge:sand", [
@@ -39,6 +42,7 @@ onEvent("recipes", (event) => {
         ["chromasky:lead_chunk", 0.29],
         ["chromasky:lapis_chunk", 0.21],
         ["chromasky:aluminum_chunk", 0.23],
+        ["astralsorcery:aquamarine", 0.24],
     ]);
 
     sluice(["blazing"], "#forge:sand", [
@@ -50,6 +54,7 @@ onEvent("recipes", (event) => {
         ["mekanism:ingot_uranium", 0.23],
         ["thermal:nickel_ingot", 0.33],
         ["minecraft:diamond", 0.09],
+        ["minecraft:emerald", 0.09],
         ["minecraft:emerald", 0.09],
     ]).fluid("minecraft:lava");
 });
