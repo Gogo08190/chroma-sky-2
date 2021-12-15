@@ -24,7 +24,7 @@ events.listen('recipes', function (event) {
         input
       ],
       tool: {
-        "tag": "forge:tools/shovel"
+        "tag": "forge:tools/knives"
       },
       result: output
     })
