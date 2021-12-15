@@ -1,11 +1,6 @@
 onEvent("recipes", (event) => {
     const sluice = event.recipes.ftbsluice.sluice;
 
-    sluice(["cloth"], "ftbsluice:crushed_endstone", [
-        ["minecraft:flint", 0.17],
-        ["minecraft:coal", 0.14],
-    ]).max(2); //.time().mb();
-
     sluice(["iron"], "ftbsluice:crushed_endstone", [
         ["mysticalagriculture:prosperity_shard", 0.25],
         ["miniutilities:ender_dust", 0.3],

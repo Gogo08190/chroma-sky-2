@@ -4,7 +4,7 @@ onEvent("recipes", (event) => {
     sluice(["cloth"], "ftbsluice:crushed_basalt", [
         ["minecraft:flint", 0.17],
         ["minecraft:coal", 0.14],
-    ]).max(2); //.time().mb();
+    ]).mb(50);
 
     sluice(["iron"], "ftbsluice:crushed_basalt", [
         ["minecraft:flint", 0.22],

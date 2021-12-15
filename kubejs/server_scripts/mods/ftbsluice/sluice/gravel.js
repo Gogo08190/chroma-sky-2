@@ -2,9 +2,11 @@ onEvent("recipes", (event) => {
     const sluice = event.recipes.ftbsluice.sluice;
 
     sluice(["cloth"], "#forge:gravel", [
-        ["minecraft:flint", 0.17],
-        ["minecraft:coal", 0.14],
-    ]).max(2); //.time().mb();
+        ["minecraft:flint", 0.63],
+        ["projectred-core:electrotine_dust", 0.20],
+        ["chromasky:iron_chunk", 0.26],
+        ["chromasky:coal_chunk", 0.14],
+    ]).mb(50);
 
     sluice(["iron"], "#forge:gravel", [
         ["minecraft:flint", 0.42],
