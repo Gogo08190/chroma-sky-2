@@ -8,7 +8,7 @@ onEvent("recipes", (event) => {
     event.shapeless('4x minecraft:clay_ball', 'minecraft:clay');
 
     event.shapeless('minecraft:string', '3x chromasky:plant_string');
-    
+
     event.shapeless('minecraft:flint', '3x chromasky:flint_shard');
 
     event.shapeless('minecraft:oak_leaves', '9x chromasky:leaf');
@@ -60,13 +60,12 @@ onEvent("recipes", (event) => {
     });
 
     event.shaped('chromasky:compost', [
-    'LLL',
+    ' L ',
     'LBL',
-    'LWL'
+    ' L '
     ], {
       L: 'chromasky:leaf',
-      B: 'minecraft:bone_meal',
-      W: 'ftbdripper:water_bowl'
+      B: 'minecraft:bone_meal'
     });
 
     event.remove({ output: 'minecraft:furnace' })
@@ -77,5 +76,28 @@ onEvent("recipes", (event) => {
     ], {
       C: 'minecraft:cobblestone',
       D: 'chromasky:1x_compressed_cobblestone'
+    });
+
+    event.remove({ output: 'cyclic:cask' })
+    event.shaped('cyclic:cask', [
+    'RSR',
+    'SBS',
+    'RSR'
+    ], {
+      R: 'minecraft:rotten_flesh',
+      S: 'minecraft:string',
+      B: 'minecraft:barrel'
+    });
+
+    event.remove({ output: 'integrateddynamics:squeezer' })
+    event.shaped('integrateddynamics:squeezer', [
+    'BEB',
+    'B B',
+    'RSR'
+    ], {
+      R: 'minecraft:stripped_oak_wood',
+      S: 'minecraft:bowl',
+      B: 'minecraft:stick',
+      E: 'pamhc2foodcore:rolleritem'
     });
 });
