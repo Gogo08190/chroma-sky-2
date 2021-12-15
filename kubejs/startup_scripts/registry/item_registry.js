@@ -12,4 +12,5 @@ onEvent("item.registry", (event) => {
     event.create("chromasky:plant_string").displayName("Plant String");
     event.create("chromasky:pebble").displayName("Pebble");
     event.create("chromasky:flint_shard").displayName("Flint Shard");
+    event.create("chromasky:magiccrystal").displayName("Magic Crystal");
 });
