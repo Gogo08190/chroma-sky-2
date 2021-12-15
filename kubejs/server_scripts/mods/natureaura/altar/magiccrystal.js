@@ -2,7 +2,7 @@ onEvent('recipes', event => {
     event.custom({
         "type": "naturesaura:altar",
         "input": {
-            "item": "chromasky:magiccrystal"
+            "item": "mana-and-artifice:chimerite_gem"
         },
         "output": {
             "item": "naturesaura:infused_iron"
