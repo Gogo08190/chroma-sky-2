@@ -148,129 +148,16 @@ onEvent('recipes', event => {
     H: 'ftbsluice:diamond_hammer'
   })
 
-  event.shaped('chromasky:iron_cluster', [
-  'CC ',
-  'CC '
+  // Manual Pump
+  event.remove({ output: 'ftbsluice:pump' })
+  event.shaped('ftbsluice:pump', [
+  'CGC',
+  'CTC',
+  'LTL'
   ], {
-    C: 'chromasky:iron_chunk'
-  });
-
-  event.shaped('chromasky:gold_cluster', [
-  'CC ',
-  'CC '
-  ], {
-    C: 'chromasky:gold_chunk'
-  });
-
-  event.shaped('chromasky:diamond_cluster', [
-  'CC ',
-  'CC '
-  ], {
-    C: 'chromasky:diamond_chunk'
-  });
-
-  event.shaped('chromasky:lapis_cluster', [
-  'CC ',
-  'CC '
-  ], {
-    C: 'chromasky:lapis_chunk'
-  });
-
-  event.shaped('chromasky:quartz_cluster', [
-  'CC ',
-  'CC '
-  ], {
-    C: 'chromasky:quartz_chunk'
-  });
-
-  event.shaped('chromasky:redstone_cluster', [
-  'CC ',
-  'CC '
-  ], {
-    C: 'chromasky:redstone_chunk'
-  });
-
-  event.shaped('chromasky:emerald_cluster', [
-  'CC ',
-  'CC '
-  ], {
-    C: 'chromasky:emerald_chunk'
-  });
-
-  event.shaped('chromasky:copper_cluster', [
-  'CC ',
-  'CC '
-  ], {
-    C: 'chromasky:copper_chunk'
-  });
-
-  event.shaped('chromasky:cobalt_cluster', [
-  'CC ',
-  'CC '
-  ], {
-    C: 'chromasky:cobalt_chunk'
-  });
-
-  event.shaped('chromasky:lead_cluster', [
-  'CC ',
-  'CC '
-  ], {
-    C: 'chromasky:lead_chunk'
-  });
-
-  event.shaped('chromasky:tin_cluster', [
-  'CC ',
-  'CC '
-  ], {
-    C: 'chromasky:tin_chunk'
-  });
-
-  event.shaped('chromasky:silver_cluster', [
-  'CC ',
-  'CC '
-  ], {
-    C: 'chromasky:silver_chunk'
-  });
-
-  event.shaped('chromasky:nickel_cluster', [
-  'CC ',
-  'CC '
-  ], {
-    C: 'chromasky:nickel_chunk'
-  });
-
-  event.shaped('chromasky:osmium_cluster', [
-  'CC ',
-  'CC '
-  ], {
-    C: 'chromasky:osmium_chunk'
-  });
-
-  event.shaped('chromasky:fluorite_cluster', [
-  'CC ',
-  'CC '
-  ], {
-    C: 'chromasky:fluorite_chunk'
-  });
-
-  event.shaped('chromasky:uranium_cluster', [
-  'CC ',
-  'CC '
-  ], {
-    C: 'chromasky:uranium_chunk'
-  });
-
-  event.shaped('chromasky:aluminum_cluster', [
-  'CC ',
-  'CC '
-  ], {
-    C: 'chromasky:aluminum_chunk'
-  });
-
-  event.shaped('chromasky:coal_cluster', [
-  'CC ',
-  'CC '
-  ], {
-    C: 'chromasky:coal_chunk'
-  });
+    T: 'ftbjarmod:tube',
+    C: 'ftbjarmod:cast_iron_ingot',
+    G: 'ftbjarmod:cast_iron_gear',
+    L: 'minecraft:stripped_oak_log'
+  })
 });
