@@ -37,6 +37,6 @@ events.listen('recipes', function (event) {
 
   // -----Shovel Recipes -----
 
-  shovelCutting([Item.of('chromasky:flint_shard')], Ingredient.of('minecraft:flint'))
+  shovelCutting([Item.of('chromasky:flint_shard')], Ingredient.of('minecraft:dirt'))
 
 })
