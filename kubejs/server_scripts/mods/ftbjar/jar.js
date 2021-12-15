@@ -35,4 +35,44 @@ onEvent("recipes", (event) => {
   jar(Fluid.of("minecraft:lava", 1000), "#forge:cobblestone").time(300).highTemp();
 
   jar(Fluid.of("minecraft:water", 10), "#minecraft:leaves").time(100).lowTemp();
+
+
+  jar("minecraft:iron_ingot", "chromasky:iron_cluster").time(400).lowTemp();
+  jar("minecraft:iron_ingot", "chromasky:iron_cluster").time(100).highTemp();
+  jar("minecraft:iron_block", "9x chromasky:iron_cluster").time(250).highTemp();
+
+  jar("minecraft:gold_ingot", "chromasky:gold_cluster").time(400).lowTemp();
+  jar("minecraft:gold_ingot", "chromasky:gold_cluster").time(100).highTemp();
+  jar("minecraft:gold_block", "9x chromasky:gold_cluster").time(250).highTemp();
+
+  jar("6x minecraft:redstone", "chromasky:redstone_cluster").time(175).lowTemp();
+  jar("6x minecraft:redstone_block", "9x chromasky:redstone_cluster").time(300).highTemp();
+
+  jar("minecraft:lapis_lazuli", "chromasky:lapis_cluster").time(175).lowTemp();
+  jar("minecraft:lapis_block", "9x chromasky:lapis_cluster").time(300).highTemp();
+
+  jar("minecraft:quartz", "chromasky:quartz_cluster").time(175).lowTemp();
+  jar("minecraft:quartz_block", "4x chromasky:quartz_cluster").time(300).highTemp();
+
+  jar("minecraft:diamond", "chromasky:diamond_cluster").time(250).highTemp();
+  jar("minecraft:diamond_block", "9x chromasky:diamond_cluster").time(500).highTemp();
+
+  jar("minecraft:emerald", "chromasky:emerald_cluster").time(250).highTemp();
+  jar("minecraft:emerald_block", "9x chromasky:emerald_cluster").time(500).highTemp();
+
+  jar("mekanism:ingot_uranium", "chromasky:uranium_cluster").time(250).highTemp();
+  jar("mekanism:block_uranium", "9x chromasky:uranium_cluster").time(500).highTemp();
+
+  jar("mekanism:ingot_osmium", "chromasky:osmium_cluster").time(250).highTemp();
+  jar("mekanism:block_osmium", "9x chromasky:osmium_cluster").time(500).highTemp();
+
+  jar("mekanism:fluorite_gem", "chromasky:fluorite_cluster").time(250).highTemp();
+  jar("9x mekanism:fluorite_gem", "9x chromasky:fluorite_cluster").time(500).highTemp();
+
+  jar("minecraft:netherite_scrap", "9x tconstruct:debris_nugget").time(250).highTemp();
+  jar("9x minecraft:netherite_scrap", "81x tconstruct:debris_nugget").time(500).highTemp();
+
+  jar("tmechworks:aluminum_ingot", "chromasky:aluminum_cluster").time(400).lowTemp();
+  jar("tmechworks:aluminum_ingot", "chromasky:aluminum_cluster").time(100).highTemp();
+  jar("tmechworks:aluminum_block", "9x chromasky:aluminum_cluster").time(250).highTemp();
 });
