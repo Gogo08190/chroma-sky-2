@@ -6,7 +6,7 @@ onEvent("recipes", (event) => {
       ["projectred-core:electrotine_dust", 0.23],
       ["chromasky:iron_chunk", 0.30],
       ["chromasky:coal_chunk", 0.21],
-    ]).max(2); //.time().mb();
+    ]).mb(50);
 
     sluice(["iron"], "ftbsluice:dust", [
         ["minecraft:flint", 0.22],
