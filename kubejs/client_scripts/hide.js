@@ -121,4 +121,7 @@ onEvent("jei.hide.items", (event) => {
     event.hide("projectred-core:copper_ingot");
     event.hide("projectred-core:tin_ingot");
     event.hide("projectred-core:silver_ingot");
+    event.hide("titanium:diamond_gear");
+    event.hide("titanium:gold_gear");
+    event.hide("titanium:iron_gear");
 });
