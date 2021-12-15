@@ -5,7 +5,7 @@ onEvent('recipes', event => {
             "item": "mana-and-artifice:chimerite_gem"
         },
         "output": {
-            "item": "naturesaura:infused_iron"
+            "item": "chromasky:magiccrystal"
         },
         "aura_type": "naturesaura:overworld",
         "aura": 15000,
