@@ -2,23 +2,42 @@ onEvent("recipes", (event) => {
     const sluice = event.recipes.ftbsluice.sluice;
 
     sluice(["cloth"], "ftbsluice:crushed_basalt", [
-        ["minecraft:flint", 0.17],
-        ["minecraft:coal", 0.14],
+        ["minecraft:soul_sand", 0.17],
+        ["minecraft:nether_wart", 0.16],
+        ["tconstruct:netherite_nugget", 0.05],
+        ["minecraft:gold_nugget", 0.16],
+        ["minecraft:netherrack", 0.26],
     ]).mb(50);
 
     sluice(["iron"], "ftbsluice:crushed_basalt", [
-        ["minecraft:flint", 0.22],
+      ["minecraft:soul_sand", 0.23],
+      ["minecraft:nether_wart", 0.21],
+      ["tconstruct:netherite_nugget", 0.06],
+      ["minecraft:gold_nugget", 0.26],
+      ["minecraft:netherrack", 0.36],
     ]);
 
     sluice(["gold"], "ftbsluice:crushed_basalt", [
-        ["minecraft:coal", 0.22],
+      ["minecraft:soul_sand", 0.29],
+      ["minecraft:nether_wart", 0.23],
+      ["tconstruct:netherite_nugget", 0.07],
+      ["minecraft:gold_nugget", 0.29],
+      ["minecraft:netherrack", 0.38],
     ]);
 
     sluice(["diamond"], "ftbsluice:crushed_basalt", [
-        ["minecraft:coal", 0.26],
+      ["minecraft:soul_sand", 0.31],
+      ["minecraft:nether_wart", 0.26],
+      ["tconstruct:netherite_nugget", 0.08],
+      ["minecraft:gold_nugget", 0.31],
+      ["minecraft:netherrack", 0.41],
     ]);
 
     sluice(["blazing"], "ftbsluice:crushed_basalt", [
-        ["minecraft:iron_ingot", 0.71],
+      ["minecraft:soul_sand", 0.31],
+      ["minecraft:nether_wart", 0.27],
+      ["tconstruct:netherite_nugget", 0.09],
+      ["minecraft:gold_nugget", 0.33],
+      ["minecraft:netherrack", 0.43],
     ]).fluid("minecraft:lava");
 });
