@@ -48,6 +48,9 @@ onEvent("recipes", (event) => {
   jar("6x minecraft:redstone", "chromasky:redstone_cluster").time(175).lowTemp();
   jar("6x minecraft:redstone_block", "9x chromasky:redstone_cluster").time(300).highTemp();
 
+  jar("4x minecraft:redstone", "chromasky:coal_cluster").time(175).lowTemp();
+  jar("4x minecraft:redstone_block", "9x chromasky:coal_cluster").time(300).highTemp();
+
   jar("minecraft:lapis_lazuli", "chromasky:lapis_cluster").time(175).lowTemp();
   jar("minecraft:lapis_block", "9x chromasky:lapis_cluster").time(300).highTemp();
 
