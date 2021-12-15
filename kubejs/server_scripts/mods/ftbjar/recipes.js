@@ -13,17 +13,6 @@ onEvent('recipes', event => {
   event.remove({ output: 'tconstruct:seared_duct' })
   event.remove({ output: 'tconstruct:seared_faucet' })
 
-  // Cast Iron Gear
-  event.remove({ output: 'ftbjarmod:cast_iron_gear' })
-  event.shaped('ftbjarmod:cast_iron_gear', [
-  ' C ',
-  'CNC',
-  ' C '
-  ], {
-    N: 'ftbjarmod:cast_iron_nugget',
-    C: 'ftbjarmod:cast_iron_ingot'
-  })
-
   // Auto Processing Block
   event.remove({ output: 'ftbjarmod:auto_processing_block' })
   event.shaped('ftbjarmod:auto_processing_block', [
