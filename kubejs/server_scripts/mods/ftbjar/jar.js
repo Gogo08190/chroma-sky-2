@@ -75,9 +75,9 @@ onEvent("recipes", (event) => {
   jar("minecraft:netherite_scrap", "9x tconstruct:debris_nugget").time(250).highTemp();
   jar("9x minecraft:netherite_scrap", "81x tconstruct:debris_nugget").time(500).highTemp();
 
-  jar("tmechworks:aluminum_ingot", "chromasky:aluminum_cluster").time(400).lowTemp();
-  jar("tmechworks:aluminum_ingot", "chromasky:aluminum_cluster").time(100).highTemp();
-  jar("tmechworks:aluminum_block", "9x chromasky:aluminum_cluster").time(250).highTemp();
+  jar("immersiveengineering:ingot_aluminum", "chromasky:aluminum_cluster").time(400).lowTemp();
+  jar("immersiveengineering:ingot_aluminum", "chromasky:aluminum_cluster").time(100).highTemp();
+  jar("immersiveengineering:storage_aluminum", "9x chromasky:aluminum_cluster").time(250).highTemp();
 
   jar("thermal:nickel_ingot", "chromasky:nickel_cluster").time(400).lowTemp();
   jar("thermal:nickel_ingot", "chromasky:nickel_cluster").time(100).highTemp();
