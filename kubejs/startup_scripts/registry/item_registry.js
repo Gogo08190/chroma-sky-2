@@ -13,4 +13,7 @@ onEvent("item.registry", (event) => {
     event.create("chromasky:pebble").displayName("Pebble");
     event.create("chromasky:flint_shard").displayName("Flint Shard");
     event.create("chromasky:magiccrystal").displayName("Magic Crystal");
+    event.create("chromasky:excitationcoil").displayName("Excitation Coil");
+    event.create("chromasky:top_frame").displayName("Top Machine Frame");
+    event.create("chromasky:bottom_frame").displayName("Bottom Machine Frame");
 });
