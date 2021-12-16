@@ -48,7 +48,7 @@ showHorseStatSetting = "EXTENDED"
 showSilverfish = "NOT"
 #The distance to the left side of the screen. Use -1 if you don't want to set this
 #Range: -1 ~ 10000
-boxLeftX = 5
+boxLeftX = -1
 #The distance to the right side of the screen. Use -1 if you don't want to set this
 #Range: -1 ~ 10000
 boxRightX = -1
@@ -108,3 +108,4 @@ harvestStyleVanilla = true
 	Ok = "green"
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
 	Label = "gray"
+

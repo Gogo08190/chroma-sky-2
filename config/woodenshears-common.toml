@@ -1,0 +1,18 @@
+
+#Durability settings
+[durability]
+	#Range: 1 ~ 10000
+	durability_oak = 50
+	#Range: 1 ~ 10000
+	durability_acacia = 50
+	#Range: 1 ~ 10000
+	durability_birch = 50
+	#Range: 1 ~ 10000
+	durability_jungle = 50
+	#Range: 1 ~ 10000
+	durability_spruce = 50
+	#Range: 1 ~ 10000
+	durability_dark_oak = 50
+	#Range: 1 ~ 10000
+	durability_charred = 50
+

@@ -26,7 +26,7 @@
   "forge:ingots/chrome": "null",
   "forge:ingots/brass": "null",
   "forge:ingots/titanium": "null",
-  "forge:rubber": "null",
+  "forge:rubber": "thermal:rubber",
   "forge:dusts/sulfur": "mekanism:dust_sulfur",
   "forge:ingots/nickel": "thermal:nickel_ingot",
   "forge:ingots/lumium": "thermal:lumium_ingot",
