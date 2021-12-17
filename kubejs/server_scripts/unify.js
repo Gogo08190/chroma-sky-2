@@ -81,4 +81,73 @@ onEvent("recipes", (event) => {
         "thermal:copper_plate"
     );
 
+    unifyMetal(
+        "lead",
+        true,
+        "thermal:lead_nugget",
+        "thermal:lead_ingot",
+        "thermal:lead_block",
+        "thermal:lead_dust",
+        "thermal:lead_gear",
+        "thermal:lead_plate"
+    );
+
+    unifyMetal(
+        "bronze",
+        false,
+        "thermal:bronze_nugget",
+        "thermal:bronze_ingot",
+        "thermal:bronze_block",
+        "thermal:bronze_dust",
+        "thermal:bronze_gear",
+        "thermal:bronze_plate"
+    );
+
+    event.replaceInput("mekanism:ingot_bronze", "#forge:ingots/bronze");
+    event.replaceInput("thermal:bronze_ingot", "#forge:ingots/bronze");
+    event.replaceOutput("mekanism:ingot_bronze", "thermal:bronze_ingot");
+
+    unifyMetal(
+        "uranium",
+        true,
+        "mekanism:nugget_uranium",
+        "mekanism:ingot_uranium",
+        "mekanism:block_uranium",
+        "mekanism:dust_uranium",
+        "",
+        "immersiveengineering:plate_uranium"
+    );
+
+    event.replaceInput("mekanism:dust_uranium", "#forge:dusts/uranium");
+    event.replaceInput("immersiveengineering:dust_uranium", "#forge:dusts/uranium");
+    event.replaceOutput("immersiveengineering:dust_uranium", "mekanism:dust_uranium");
+
+    unifyMetal(
+        "constantan",
+        false,
+        "thermal:constantan_nugget",
+        "thermal:constantan_ingot",
+        "thermal:constantan_block",
+        "thermal:constantan_dust",
+        "thermal:constantan_gear",
+        "thermal:constantan_plate"
+    );
+
+    event.replaceOutput("immersiveengineering:ingot_constantan", "thermal:constantan_ingot");
+    event.replaceOutput("immersiveengineering:storage_constantan", "thermal:constantan_block");
+    event.replaceOutput("immersiveengineering:dust_constantan", "thermal:constantan_dust");
+    event.replaceOutput("immersiveengineering:plate_constantan", "thermal:constantan_plate");
+    event.replaceOutput("immersiveengineering:nugget_constantan", "thermal:constantan_nugget");
+
+    unifyMetal(
+        "electrum",
+        false,
+        "thermal:electrum_nugget",
+        "thermal:electrum_ingot",
+        "thermal:electrum_block",
+        "thermal:electrum_dust",
+        "thermal:electrum_gear",
+        "thermal:electrum_plate"
+    );
+
 });
