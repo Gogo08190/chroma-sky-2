@@ -46,15 +46,18 @@ onEvent('recipes', event => {
                 "item": "immersiveengineering:electric_lantern"
             },
             {
-                "item": "immersiveengineering:component_steel"
-            },
-            {
                 "item": "immersiveengineering:fluid_pump"
             },
             {
                 "item": "immersiveengineering:component_steel"
             },
             {
+                "item": "immersiveengineering:component_steel"
+            },
+            {
+                "item": "minecraft:glass"
+            },
+            {
                 "item": "minecraft:glass"
             },
             {
@@ -62,9 +65,6 @@ onEvent('recipes', event => {
             },
             {
                 "item": "immersiveengineering:treated_wood_horizontal"
-            },
-            {
-                "item": "minecraft:glass"
             }
         ],
         "sapling": {
