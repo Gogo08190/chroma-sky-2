@@ -187,4 +187,22 @@ onEvent("recipes", (event) => {
         "thermal:electrum_plate"
     );
 
+    event.replaceInput("thermal:electrum_ingot", "#forge:ingots/electrum");
+    event.replaceInput("thermal:electrum_block", "#forge:storage_blocks/electrum");
+    event.replaceInput("thermal:electrum_dust", "#forge:dusts/electrum");
+    event.replaceInput("thermal:electrum_plate", "#forge:plates/electrum");
+    event.replaceInput("thermal:electrum_nugget", "#forge:nuggets/electrum");
+
+    event.replaceInput("immersiveengineering:ingot_electrum", "#forge:ingots/electrum");
+    event.replaceInput("immersiveengineering:storage_electrum", "#forge:storage_blocks/electrum");
+    event.replaceInput("immersiveengineering:dust_electrum", "#forge:dusts/electrum");
+    event.replaceInput("immersiveengineering:plate_electrum", "#forge:plates/electrum");
+    event.replaceInput("immersiveengineering:nugget_electrum", "#forge:nuggets/electrum");
+
+    event.replaceOutput("immersiveengineering:ingot_electrum", "thermal:electrum_ingot");
+    event.replaceOutput("immersiveengineering:storage_electrum", "thermal:electrum_block");
+    event.replaceOutput("immersiveengineering:dust_electrum", "thermal:electrum_dust");
+    event.replaceOutput("immersiveengineering:plate_electrum", "thermal:electrum_plate");
+    event.replaceOutput("immersiveengineering:nugget_electrum", "thermal:electrum_nugget");
+
 });
