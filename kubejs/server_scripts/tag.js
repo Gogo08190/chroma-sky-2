@@ -24,6 +24,18 @@ onEvent("item.tags", (event) => {
 
     event.add("forge:dusts/cobalt", "chromasky:cobalt_dust");
 
+    event.get('forge:dusts/gold').remove(['immersiveengineering:dust_gold'])
+    event.get('forge:dusts/copper').remove(['immersiveengineering:dust_copper'])
+    event.get('forge:dusts/lead').remove(['immersiveengineering:dust_lead'])
+    event.get('forge:dusts/aluminum').remove(['immersiveengineering:dust_aluminum'])
+    event.get('forge:dusts/silver').remove(['immersiveengineering:dust_silver'])
+    event.get('forge:dusts/nickel').remove(['immersiveengineering:dust_nickel'])
+    event.get('forge:dusts/uranium').remove(['immersiveengineering:dust_uranium'])
+    event.get('forge:dusts/constantan').remove(['immersiveengineering:dust_constantan'])
+    event.get('forge:dusts/electrum').remove(['immersiveengineering:dust_electrum'])
+    event.get('forge:dusts/steel').remove(['immersiveengineering:dust_steel'])
+    event.get('forge:dusts/iron').remove(['immersiveengineering:dust_iron'])
+
     // Resources
     global.types
         .map((t) => t.toLowerCase())
