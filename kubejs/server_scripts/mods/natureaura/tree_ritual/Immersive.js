@@ -1,6 +1,7 @@
 onEvent('recipes', event => {
     event.remove({ output: 'immersiveengineering:cloche' })
 
+
 event.custom({
     "type": "naturesaura:tree_ritual",
     "ingredients": [
@@ -37,4 +38,6 @@ event.custom({
         "count": 1
     },
     "time": 200
-})
+    })
+
+});
