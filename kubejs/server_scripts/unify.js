@@ -104,8 +104,20 @@ onEvent("recipes", (event) => {
     );
 
     event.replaceInput("mekanism:ingot_bronze", "#forge:ingots/bronze");
+    event.replaceInput("mekanism:block_bronze", "#forge:storage_blocks/bronze");
+    event.replaceInput("mekanism:dust_bronze", "#forge:dusts/bronze");
+    event.replaceInput("mekanism:nugget_bronze", "#forge:nuggets/bronze");
+
     event.replaceInput("thermal:bronze_ingot", "#forge:ingots/bronze");
+    event.replaceInput("thermal:bronze_block", "#forge:storage_blocks/bronze");
+    event.replaceInput("thermal:bronze_dust", "#forge:dusts/bronze");
+    event.replaceInput("thermal:bronze_plate", "#forge:plates/bronze");
+    event.replaceInput("thermal:bronze_nugget", "#forge:nuggets/bronze");
+
     event.replaceOutput("mekanism:ingot_bronze", "thermal:bronze_ingot");
+    event.replaceOutput("mekanism:block_bronze", "thermal:bronze_block");
+    event.replaceOutput("mekanism:dust_bronze", "thermal:bronze_dust");
+    event.replaceOutput("mekanism:nugget_bronze", "thermal:bronze_nugget");
 
     unifyMetal(
         "uranium",
@@ -118,9 +130,22 @@ onEvent("recipes", (event) => {
         "immersiveengineering:plate_uranium"
     );
 
+    event.replaceInput("mekanism:ingot_uranium", "#forge:ingots/uranium");
+    event.replaceInput("mekanism:block_uranium", "#forge:storage_blocks/uranium");
     event.replaceInput("mekanism:dust_uranium", "#forge:dusts/uranium");
+    event.replaceInput("mekanism:nugget_uranium", "#forge:nuggets/uranium");
+
+    event.replaceInput("immersiveengineering:ingot_uranium", "#forge:ingots/uranium");
+    event.replaceInput("immersiveengineering:storage_uranium", "#forge:storage_blocks/uranium");
     event.replaceInput("immersiveengineering:dust_uranium", "#forge:dusts/uranium");
+    event.replaceInput("immersiveengineering:plate_uranium", "#forge:plates/uranium");
+    event.replaceInput("immersiveengineering:nugget_uranium", "#forge:nuggets/uranium");
+
+    event.replaceOutput("immersiveengineering:ingot_uranium", "mekanism:ingot_uranium");
+    event.replaceOutput("immersiveengineering:storage_uranium", "mekanism:block_uranium");
     event.replaceOutput("immersiveengineering:dust_uranium", "mekanism:dust_uranium");
+    event.replaceOutput("immersiveengineering:nugget_uranium", "mekanism:nugget_uranium");
+
 
     unifyMetal(
         "constantan",
@@ -132,6 +157,18 @@ onEvent("recipes", (event) => {
         "thermal:constantan_gear",
         "thermal:constantan_plate"
     );
+
+    event.replaceInput("immersiveengineering:ingot_constantan", "#forge:ingots/constantan");
+    event.replaceInput("immersiveengineering:storage_constantan", "#forge:storage_blocks/constantan");
+    event.replaceInput("immersiveengineering:dust_constantan", "#forge:dusts/constantan");
+    event.replaceInput("immersiveengineering:plate_constantan", "#forge:plates/constantan");
+    event.replaceInput("immersiveengineering:nugget_constantan", "#forge:nuggets/constantan");
+
+    event.replaceInput("thermal:constantan_ingot", "#forge:ingots/constantan");
+    event.replaceInput("thermal:constantan_block", "#forge:storage_blocks/constantan");
+    event.replaceInput("thermal:constantan_dust", "#forge:dusts/constantan");
+    event.replaceInput("thermal:constantan_plate", "#forge:plates/constantan");
+    event.replaceInput("thermal:constantan_nugget", "#forge:nuggets/constantan");
 
     event.replaceOutput("immersiveengineering:ingot_constantan", "thermal:constantan_ingot");
     event.replaceOutput("immersiveengineering:storage_constantan", "thermal:constantan_block");
