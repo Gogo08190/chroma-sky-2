@@ -205,4 +205,70 @@ onEvent("recipes", (event) => {
     event.replaceOutput("immersiveengineering:plate_electrum", "thermal:electrum_plate");
     event.replaceOutput("immersiveengineering:nugget_electrum", "thermal:electrum_nugget");
 
+    unifyMetal(
+       "silver",
+       false,
+       "thermal:silver_nugget",
+       "thermal:silver_ingot",
+       "thermal:silver_block",
+       "thermal:silver_dust",
+       "thermal:silver_gear",
+       "thermal:silver_plate"
+     );
+
+     unifyMetal(
+       "nickel",
+       false,
+       "thermal:nickel_nugget",
+       "thermal:nickel_ingot",
+       "thermal:nickel_block",
+       "thermal:nickel_dust",
+       "thermal:nickel_gear",
+       "thermal:nickel_plate"
+     );
+
+      event.replaceInput("mekanism:dust_diamond", "#forge:dusts/diamond");
+      event.replaceInput("thermal:diamond_dust", "#forge:dusts/diamond");
+      event.replaceOutput("mekanism:dust_diamond", "thermal:diamond_dust");
+
+      event.replaceInput("mekanism:dust_emerald", "#forge:dusts/emerald");
+      event.replaceInput("thermal:emerald_dust", "#forge:dusts/emerald");
+      event.replaceOutput("mekanism:dust_emerald", "thermal:emerald_dust");
+
+      event.replaceInput("mekanism:dust_lapis_lazuli", "#forge:dusts/lapis");
+      event.replaceInput("thermal:lapis_dust", "#forge:dusts/lapis");
+      event.replaceOutput("mekanism:dust_lapis_lazuli", "thermal:lapis_dust");
+
+      event.replaceInput("mekanism:dust_sulfur", "#forge:dusts/sulfur");
+      event.replaceInput("thermal:sulfur_dust", "#forge:dusts/sulfur");
+      event.replaceOutput("mekanism:dust_sulfur", "thermal:sulfur_dust");
+
+      event.replaceInput("mekanism:dust_quartz", "#forge:dusts/quartz");
+      event.replaceInput("thermal:quartz_dust", "#forge:dusts/quartz");
+      event.replaceOutput("mekanism:dust_quartz", "thermal:quartz_dust");
+
+      event.replaceInput("miniutilities:ender_dust", "#forge:dusts/ender");
+      event.replaceInput("thermal:ender_pearl_dust", "#forge:dusts/ender");
+      event.replaceOutput("miniutilities:ender_pearl_dust", "thermal:ender_pearl_dust");
+
+      event.replaceInput("mekanism:sawdust", "#forge:sawdust");
+      event.replaceOutput("mekanism:sawdust", "thermal:sawdust");
+
+      event.replaceOutput("bloodmagic:coalsand", "mekanism:dust_coal");
+      event.replaceOutput("bloodmagic:sulfur", "thermal:sulfur_dust");
+      event.replaceOutput("bloodmagic:ironsand", "thermal:iron_dust");
+      event.replaceOutput("bloodmagic:goldsand", "thermal:gold_dust");
+
+      event.replaceInput("thermal:charcoal_block", "#forge:storage_blocks/charcoal");
+      event.replaceInput("mekanism:block_charcoal", "#forge:storage_blocks/charcoal");
+      event.replaceInput("quark:block_charcoal", "#forge:storage_blocks/charcoal");
+      event.replaceOutput("mekanism:block_charcoal", "thermal:charcoal_block");
+      event.replaceOutput("quark:block_charcoal", "thermal:charcoal_block");
+
+      event.replaceInput("projectred-core:ruby", "#forge:gems/ruby");
+      event.replaceOutput("thermal:ruby", "projectred-core:ruby");
+
+      event.replaceInput("projectred-core:sapphire", "#forge:gems/sapphire");
+      event.replaceOutput("thermal:sapphire", "projectred-core:sapphire");
+
 });
