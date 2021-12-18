@@ -44,6 +44,13 @@ onEvent('item.tags', event => {
     event.remove('forge:nuggets/silver', ['occultism:silver_nugget', 'immersiveengineering:nugget_silver'])
     event.remove('forge:plates/silver', 'immersiveengineering:plate_silver')
 
+    event.remove('forge:ores/nickel', 'immersiveengineering:ore_nickel')
+    event.remove('forge:ingots/nickel', 'immersiveengineering:ingot_nickel')
+    event.remove('forge:storage_blocks/nickel', 'immersiveengineering:storage_nickel')
+    event.remove('forge:dusts/nickel', ['immersiveengineering:dust_nickel', 'pedestals:dustnickel'])
+    event.remove('forge:nuggets/nickel', 'immersiveengineering:nugget_nickel')
+    event.remove('forge:plates/nickel', 'immersiveengineering:plate_nickel')
+
   })
 
 onEvent('block.tags', event => {
@@ -52,6 +59,7 @@ onEvent('block.tags', event => {
     event.remove('forge:ores/lead', ['mekanism:lead_ore', 'immersiveengineering:ore_lead'])
     event.remove('forge:ores/uranium', 'immersiveengineering:ore_uranium')
     event.remove('forge:ores/silver', ['projectred-exploration:silver_ore', 'occultism:silver_ore', 'immersiveengineering:ore_silver'])
+    event.remove('forge:ores/nickel', 'immersiveengineering:ore_nickel')
 
   })
 
@@ -75,7 +83,8 @@ onEvent('recipes', event => {
     "uranium",
     "constantan",
     "electrum",
-    "silver"
+    "silver",
+    "nickel"
   ]
 
   ore.forEach(function (item, index) {
