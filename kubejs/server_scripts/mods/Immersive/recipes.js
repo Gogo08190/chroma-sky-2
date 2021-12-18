@@ -124,4 +124,49 @@ onEvent('recipes', event => {
     S: 'chromasky:1x_compressed_sand'
   })
 
+  // Kinetic Dynamo
+  event.remove({ output: 'immersiveengineering:dynamo' })
+  event.shaped('immersiveengineering:dynamo', [
+  'SSS',
+  'RCR',
+  'SSS'
+  ], {
+    R: 'chromasky:redstone_gear',
+    C: 'immersiveengineering:coil_lv',
+    S: 'mekanism:ingot_steel'
+  })
+
+  // Copper Coil Block
+  event.remove({ output: 'immersiveengineering:coil_lv' })
+  event.shaped('immersiveengineering:coil_lv', [
+  'CCC',
+  'CSC',
+  'CCC'
+  ], {
+    C: 'immersiveengineering:wirecoil_copper',
+    S: 'ftbjarmod:cast_iron_ingot'
+  })
+
+  // Electrum Coil Block
+  event.remove({ output: 'immersiveengineering:coil_mv' })
+  event.shaped('immersiveengineering:coil_mv', [
+  'CCC',
+  'CSC',
+  'CCC'
+  ], {
+    C: 'immersiveengineering:wirecoil_electrum',
+    S: 'mekanism:ingot_steel'
+  })
+
+  // Electrum Coil Block
+  event.remove({ output: 'immersiveengineering:coil_hv' })
+  event.shaped('immersiveengineering:coil_hv', [
+  'CCC',
+  'CSC',
+  'CCC'
+  ], {
+    C: 'immersiveengineering:wirecoil_steel',
+    S: 'mekanism:ingot_steel'
+  })
+
   });
