@@ -18,4 +18,5 @@ onEvent("item.registry", (event) => {
     event.create("chromasky:bottom_frame").displayName("Bottom Machine Frame");
     event.create("chromasky:redstone_gear").displayName("Redstone Gear");
     event.create("chromasky:treated_wood_gear").displayName("Treated Wood Gear");
+    event.create("chromasky:ultimategear").displayName("Ultimate Gear");
 });
