@@ -90,4 +90,26 @@ onEvent('recipes', event => {
     C: 'chromasky:hammer_head'
   })
 
+  // Water Wheel
+  event.remove({ output: 'immersiveengineering:watermill' })
+  event.shaped('immersiveengineering:watermill', [
+  'SSS',
+  'SWS',
+  'SSS '
+  ], {
+    S: 'immersiveengineering:waterwheel_segment',
+    W: 'chromasky:treated_wood_gear'
+  })
+
+  // Windmill
+  event.remove({ output: 'immersiveengineering:windmill' })
+  event.shaped('immersiveengineering:windmill', [
+  'BBB',
+  'BGB',
+  'BBB'
+  ], {
+    B: 'immersiveengineering:windmill_blade',
+    G: 'thermal:invar_gear'
+  })
+
   });
