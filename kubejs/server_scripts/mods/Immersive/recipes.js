@@ -5,9 +5,9 @@ onEvent('recipes', event => {
   event.shaped('immersiveengineering:capacitor_lv', [
   'III',
   'BHB',
-  'SWS'
+  'SRS'
   ], {
-    W: 'thermal:ruby_gear',
+    R: 'chromasky:redstone_gear',
     S: 'immersiveengineering:treated_wood_horizontal',
     B: 'thermal:copper_gear',
     H: 'integrateddynamics:energy_battery',
@@ -64,6 +64,18 @@ onEvent('recipes', event => {
     S: 'immersiveengineering:sheetmetal_steel',
     C: 'immersiveengineering:component_steel',
     E: 'thermal:electrum_gear'
+  })
+
+  // Light Engineering Block
+  event.remove({ output: 'immersiveengineering:light_engineering' })
+  event.shaped('immersiveengineering:light_engineering', [
+  'ICI',
+  'CGC',
+  'ICI'
+  ], {
+    I: 'immersiveengineering:sheetmetal_iron',
+    C: 'immersiveengineering:component_iron',
+    G: 'thermal:copper_gear'
   })
 
   // Light Engineering Block
