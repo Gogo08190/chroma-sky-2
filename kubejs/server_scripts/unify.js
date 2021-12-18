@@ -37,6 +37,13 @@ onEvent('item.tags', event => {
     event.remove('forge:nuggets/electrum', 'immersiveengineering:nugget_electrum')
     event.remove('forge:plates/electrum', 'immersiveengineering:plate_electrum')
 
+    event.remove('forge:ores/silver', ['projectred-exploration:silver_ore', 'occultism:silver_ore', 'immersiveengineering:ore_silver'])
+    event.remove('forge:ingots/silver', ['immersiveengineering:ingot_silver', 'occultism:silver_ingot', 'projectred-core:silver_ingot'])
+    event.remove('forge:storage_blocks/silver', ['projectred-exploration:silver_block', 'occultism:silver_block', 'immersiveengineering:storage_silver'])
+    event.remove('forge:dusts/silver', ['pedestals:dustsilver', 'immersiveengineering:dust_silver', 'occultism:silver_dust'])
+    event.remove('forge:nuggets/silver', ['occultism:silver_nugget', 'immersiveengineering:nugget_silver'])
+    event.remove('forge:plates/silver', 'immersiveengineering:plate_silver')
+
   })
 
 onEvent('block.tags', event => {
@@ -44,6 +51,7 @@ onEvent('block.tags', event => {
     event.remove('forge:ores/copper', ['mekanism:copper_ore', 'tconstruct:copper_ore', 'tmechworks:copper_ore', 'projectred-exploration:copper_ore', 'occultism:copper_ore', 'immersiveengineering:ore_copper'])
     event.remove('forge:ores/lead', ['mekanism:lead_ore', 'immersiveengineering:ore_lead'])
     event.remove('forge:ores/uranium', 'immersiveengineering:ore_uranium')
+    event.remove('forge:ores/silver', ['projectred-exploration:silver_ore', 'occultism:silver_ore', 'immersiveengineering:ore_silver'])
 
   })
 
@@ -66,7 +74,8 @@ onEvent('recipes', event => {
     "bronze",
     "uranium",
     "constantan",
-    "electrum"
+    "electrum",
+    "silver"
   ]
 
   ore.forEach(function (item, index) {
