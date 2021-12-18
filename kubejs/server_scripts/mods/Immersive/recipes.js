@@ -42,4 +42,40 @@ onEvent('recipes', event => {
     I: 'thermal:lumium_ingot'
   })
 
+  // Redstone Engineering Block
+  event.remove({ output: 'immersiveengineering:rs_engineering' })
+  event.shaped('immersiveengineering:rs_engineering', [
+  'BRB',
+  'RIR',
+  'BRB'
+  ], {
+    B: 'immersiveengineering:sheetmetal_iron',
+    R: 'projectred-core:red_ingot',
+    I: 'ftbjarmod:cast_iron_gear'
+  })
+
+  // Heavy Engineering Block
+  event.remove({ output: 'immersiveengineering:heavy_engineering' })
+  event.shaped('immersiveengineering:heavy_engineering', [
+  'SCS',
+  'CEC',
+  'SCS'
+  ], {
+    S: 'immersiveengineering:sheetmetal_steel',
+    C: 'immersiveengineering:component_steel',
+    E: 'thermal:electrum_gear'
+  })
+
+  // Light Engineering Block
+  event.remove({ output: 'immersiveengineering:light_engineering' })
+  event.shaped('immersiveengineering:light_engineering', [
+  'ICI',
+  'CGC',
+  'ICI'
+  ], {
+    I: 'immersiveengineering:sheetmetal_iron',
+    C: 'immersiveengineering:component_iron',
+    G: 'thermal:copper_gear'
+  })
+
   });
