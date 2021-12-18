@@ -162,6 +162,22 @@ events.listen('recipes', event => {
   })
 
   event.custom({
+    "type": "tconstruct:casting_table",
+    "cast":
+    {
+      "item": 'tconstruct:tool_binding_cast'
+    },
+    "cast_consumed": false,
+    "fluid":
+    {
+      "name": "kubejs:molten_cast_iron",
+      "amount": 1152
+    },
+    "result": 'chromasky:wirecutter_head',
+    "cooling_time": 200
+  })
+
+  event.custom({
     "type": "tconstruct:melting",
     "ingredient":
     {

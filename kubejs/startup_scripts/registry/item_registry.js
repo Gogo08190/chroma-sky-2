@@ -20,4 +20,5 @@ onEvent("item.registry", (event) => {
     event.create("chromasky:treated_wood_gear").displayName("Treated Wood Gear");
     event.create("chromasky:ultimategear").displayName("Ultimate Gear");
     event.create("chromasky:hammer_head").displayName("Hammer Head");
+    event.create("chromasky:wirecutter_head").displayName("Wire Cutters Head");
 });
