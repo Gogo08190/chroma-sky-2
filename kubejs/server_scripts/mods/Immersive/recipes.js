@@ -21,11 +21,25 @@ onEvent('recipes', event => {
   'BHB',
   'SWS'
   ], {
-    W: 'thermal:ruby_gear',
+    W: 'thermal:bronze_gear',
     S: 'immersiveengineering:treated_wood_horizontal',
-    B: 'thermal:copper_gear',
+    B: 'thermal:electrum_gear',
     H: 'immersiveengineering:capacitor_lv',
-    I: 'ftbjarmod:cast_iron_ingot'
+    I: 'tconstruct:pig_iron_ingot'
+  })
+
+  // HV Capacitor
+  event.remove({ output: 'immersiveengineering:capacitor_hv' })
+  event.shaped('immersiveengineering:capacitor_hv', [
+  'III',
+  'BHB',
+  'SWS'
+  ], {
+    W: 'thermal:signalum_gear',
+    S: 'immersiveengineering:treated_wood_horizontal',
+    B: 'thermal:invar_gear',
+    H: 'immersiveengineering:capacitor_mv',
+    I: 'thermal:lumium_ingot'
   })
 
   });
