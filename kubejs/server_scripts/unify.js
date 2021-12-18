@@ -1,274 +1,88 @@
-// priority: 100
-onEvent("recipes", (event) => {
 
-    // Gear Recipes
-    event.remove({ id: /industrialforegoing:.*_gear/ });
-    event
-        .shaped("ftbjarmod:cast_iron_gear", [" I ", "INI", " I "], {
-            I: "#forge:ingots/cast_iron",
-            N: "#forge:nuggets/cast_iron",
-        })
-        .id("ftbjarmod:cast_iron_gear");
+onEvent('item.tags', event => {
 
-    event.replaceInput({ output: "#forge:gears" }, "minecraft:iron_nugget", "#forge:nuggets/cast_iron");
+    event.remove('forge:ores/copper', ['mekanism:copper_ore', 'tconstruct:copper_ore', 'tmechworks:copper_ore', 'projectred-exploration:copper_ore', 'occultism:copper_ore', 'immersiveengineering:ore_copper'])
+    event.remove('forge:ingots/copper', ['mekanism:ingot_copper', 'tconstruct:copper_ingot', 'tmechworks:copper_ingot', 'projectred-core:copper_ingot', 'occultism:copper_ingot', 'immersiveengineering:ingot_copper'])
+    event.remove('forge:storage_blocks/copper', ['immersiveengineering:storage_copper', 'occultism:copper_block', 'projectred-exploration:copper_block', 'tmechworks:copper_block', 'tconstruct:copper_block', 'mekanism:block_copper'])
+    event.remove('forge:dusts/copper', ['pedestals:dustcopper', 'immersiveengineering:dust_copper', 'mekanism:dust_copper', 'occultism:copper_dust'])
+    event.remove('forge:nuggets/copper', ['immersiveengineering:nugget_copper', 'occultism:copper_nugget', 'tmechworks:copper_nugget', 'tconstruct:copper_nugget', 'mekanism:nugget_copper'])
+    event.remove('forge:plates/copper', 'immersiveengineering:plate_copper')
 
+      event.remove('forge:ores/lead', ['mekanism:lead_ore', 'immersiveengineering:ore_lead'])
+      event.remove('forge:ingots/lead', ['immersiveengineering:ingot_lead', 'mekanism:ingot_lead'])
+      event.remove('forge:storage_blocks/lead', ['mekanism:block_lead', 'immersiveengineering:storage_lead'])
+      event.remove('forge:dusts/lead', ['mekanism:dust_lead', 'immersiveengineering:dust_lead', 'pedestals:dustlead'])
+      event.remove('forge:nuggets/lead', ['mekanism:nugget_lead', 'immersiveengineering:nugget_lead'])
+      event.remove('forge:plates/lead', 'immersiveengineering:plate_lead')
 
-    const { smelting, blasting } = event.recipes.minecraft;
+  })
 
-    var unifyMetal = function (name, hasOre, nuggetItem, ingotItem, blockItem, dustItem, gearItem, plateItem) {
-        if (ingotItem !== "") event.replaceOutput("#forge:ingots/" + name, ingotItem);
-        if (dustItem !== "") event.replaceOutput("#forge:dusts/" + name, dustItem);
-        if (nuggetItem !== "") event.replaceOutput("#forge:nuggets/" + name, nuggetItem);
-        if (blockItem !== "") event.replaceOutput("#forge:storage_blocks/" + name, blockItem);
-        if (gearItem !== "") event.replaceOutput("#forge:gears/" + name, gearItem);
-        if (plateItem !== "") event.replaceOutput("#forge:plates/" + name, plateItem);
-        event.remove({ output: "#forge:ingots/" + name, type: "minecraft:smelting" });
-        event.remove({ output: "#forge:ingots/" + name, type: "minecraft:blasting" });
-        if (dustItem !== "" && ingotItem !== "") {
-            smelting(ingotItem, "#forge:dusts/" + name).xp(0.7);
-            blasting(ingotItem, "#forge:dusts/" + name).xp(0.7);
-        }
-        if (hasOre && ingotItem !== "") {
-            const oresStrict = Ingredient.of("#forge:ores/" + name).filter(
-                Ingredient.of("#forge:clusters/" + name).not()
-            );
-            smelting(ingotItem, oresStrict).xp(0.7);
-            blasting(ingotItem, oresStrict).xp(0.7);
-        }
-    };
+onEvent('block.tags', event => {
 
-    unifyMetal(
-        "iron",
-        true,
-        "minecraft:iron_nugget",
-        "minecraft:iron_ingot",
-        "minecraft:iron_block",
-        "thermal:iron_dust",
-        "thermal:iron_gear",
-        "thermal:iron_plate"
-    );
+    //Copper
+    event.remove('forge:ores/copper', ['mekanism:copper_ore', 'tconstruct:copper_ore', 'tmechworks:copper_ore', 'projectred-exploration:copper_ore', 'occultism:copper_ore', 'immersiveengineering:ore_copper'])
+    event.remove('forge:ores/lead', ['mekanism:lead_ore', 'immersiveengineering:ore_lead'])
 
-    unifyMetal(
-        "gold",
-        true,
-        "minecraft:gold_nugget",
-        "minecraft:gold_ingot",
-        "minecraft:gold_block",
-        "thermal:gold_dust",
-        "thermal:gold_gear",
-        "thermal:gold_plate"
-    );
+  })
 
-    unifyMetal(
-        "diamond",
-        true,
-        "",
-        "",
-        "minecraft:diamond_block",
-        "thermal:diamond_dust",
-        "thermal:diamond_gear",
-         ""
-   );
+onEvent('recipes', event => {
+  event.remove({id: 'thermal:furnace_1230109216'})
+  event.remove({id: 'thermal:furnace_1048414679'})
+  event.remove({id: 'thermal:furnace_1661183506'})
+  event.remove({id: 'thermal:furnace_1605150019'})
+  event.remove({id: 'thermal:furnace_1017942990'})
+  event.remove({id: 'thermal:furnace_565569254'})
+  event.remove({id: 'thermal:furnace_1806379379'})
+  event.remove({id: 'thermal:furnace_2116933307'})
+  event.remove({id: 'thermal:furnace_108089567'})
+});
 
-   unifyMetal(
-        "copper",
-        true,
-        "thermal:copper_nugget",
-        "thermal:copper_ingot",
-        "thermal:copper_block",
-        "thermal:copper_dust",
-        "thermal:copper_gear",
-        "thermal:copper_plate"
-    );
+onEvent('recipes', event => {
+  var ore = [
+    "copper",
+    "lead",
+  ]
 
-    unifyMetal(
-        "lead",
-        true,
-        "thermal:lead_nugget",
-        "thermal:lead_ingot",
-        "thermal:lead_block",
-        "thermal:lead_dust",
-        "thermal:lead_gear",
-        "thermal:lead_plate"
-    );
-
-    unifyMetal(
-        "bronze",
-        false,
-        "thermal:bronze_nugget",
-        "thermal:bronze_ingot",
-        "thermal:bronze_block",
-        "thermal:bronze_dust",
-        "thermal:bronze_gear",
-        "thermal:bronze_plate"
-    );
-
-    event.replaceInput("mekanism:ingot_bronze", "#forge:ingots/bronze");
-    event.replaceInput("mekanism:block_bronze", "#forge:storage_blocks/bronze");
-    event.replaceInput("mekanism:dust_bronze", "#forge:dusts/bronze");
-    event.replaceInput("mekanism:nugget_bronze", "#forge:nuggets/bronze");
-
-    event.replaceInput("thermal:bronze_ingot", "#forge:ingots/bronze");
-    event.replaceInput("thermal:bronze_block", "#forge:storage_blocks/bronze");
-    event.replaceInput("thermal:bronze_dust", "#forge:dusts/bronze");
-    event.replaceInput("thermal:bronze_plate", "#forge:plates/bronze");
-    event.replaceInput("thermal:bronze_nugget", "#forge:nuggets/bronze");
-
-    event.replaceOutput("mekanism:ingot_bronze", "thermal:bronze_ingot");
-    event.replaceOutput("mekanism:block_bronze", "thermal:bronze_block");
-    event.replaceOutput("mekanism:dust_bronze", "thermal:bronze_dust");
-    event.replaceOutput("mekanism:nugget_bronze", "thermal:bronze_nugget");
-
-    unifyMetal(
-        "uranium",
-        true,
-        "mekanism:nugget_uranium",
-        "mekanism:ingot_uranium",
-        "mekanism:block_uranium",
-        "mekanism:dust_uranium",
-        "",
-        "immersiveengineering:plate_uranium"
-    );
-
-    event.replaceInput("mekanism:ingot_uranium", "#forge:ingots/uranium");
-    event.replaceInput("mekanism:block_uranium", "#forge:storage_blocks/uranium");
-    event.replaceInput("mekanism:dust_uranium", "#forge:dusts/uranium");
-    event.replaceInput("mekanism:nugget_uranium", "#forge:nuggets/uranium");
-
-    event.replaceInput("immersiveengineering:ingot_uranium", "#forge:ingots/uranium");
-    event.replaceInput("immersiveengineering:storage_uranium", "#forge:storage_blocks/uranium");
-    event.replaceInput("immersiveengineering:dust_uranium", "#forge:dusts/uranium");
-    event.replaceInput("immersiveengineering:plate_uranium", "#forge:plates/uranium");
-    event.replaceInput("immersiveengineering:nugget_uranium", "#forge:nuggets/uranium");
-
-    event.replaceOutput("immersiveengineering:ingot_uranium", "mekanism:ingot_uranium");
-    event.replaceOutput("immersiveengineering:storage_uranium", "mekanism:block_uranium");
-    event.replaceOutput("immersiveengineering:dust_uranium", "mekanism:dust_uranium");
-    event.replaceOutput("immersiveengineering:nugget_uranium", "mekanism:nugget_uranium");
-
-
-    unifyMetal(
-        "constantan",
-        false,
-        "thermal:constantan_nugget",
-        "thermal:constantan_ingot",
-        "thermal:constantan_block",
-        "thermal:constantan_dust",
-        "thermal:constantan_gear",
-        "thermal:constantan_plate"
-    );
-
-    event.replaceInput("immersiveengineering:ingot_constantan", "#forge:ingots/constantan");
-    event.replaceInput("immersiveengineering:storage_constantan", "#forge:storage_blocks/constantan");
-    event.replaceInput("immersiveengineering:dust_constantan", "#forge:dusts/constantan");
-    event.replaceInput("immersiveengineering:plate_constantan", "#forge:plates/constantan");
-    event.replaceInput("immersiveengineering:nugget_constantan", "#forge:nuggets/constantan");
-
-    event.replaceInput("thermal:constantan_ingot", "#forge:ingots/constantan");
-    event.replaceInput("thermal:constantan_block", "#forge:storage_blocks/constantan");
-    event.replaceInput("thermal:constantan_dust", "#forge:dusts/constantan");
-    event.replaceInput("thermal:constantan_plate", "#forge:plates/constantan");
-    event.replaceInput("thermal:constantan_nugget", "#forge:nuggets/constantan");
-
-    event.replaceOutput("immersiveengineering:ingot_constantan", "thermal:constantan_ingot");
-    event.replaceOutput("immersiveengineering:storage_constantan", "thermal:constantan_block");
-    event.replaceOutput("immersiveengineering:dust_constantan", "thermal:constantan_dust");
-    event.replaceOutput("immersiveengineering:plate_constantan", "thermal:constantan_plate");
-    event.replaceOutput("immersiveengineering:nugget_constantan", "thermal:constantan_nugget");
-
-    unifyMetal(
-        "electrum",
-        false,
-        "thermal:electrum_nugget",
-        "thermal:electrum_ingot",
-        "thermal:electrum_block",
-        "thermal:electrum_dust",
-        "thermal:electrum_gear",
-        "thermal:electrum_plate"
-    );
-
-    event.replaceInput("thermal:electrum_ingot", "#forge:ingots/electrum");
-    event.replaceInput("thermal:electrum_block", "#forge:storage_blocks/electrum");
-    event.replaceInput("thermal:electrum_dust", "#forge:dusts/electrum");
-    event.replaceInput("thermal:electrum_plate", "#forge:plates/electrum");
-    event.replaceInput("thermal:electrum_nugget", "#forge:nuggets/electrum");
-
-    event.replaceInput("immersiveengineering:ingot_electrum", "#forge:ingots/electrum");
-    event.replaceInput("immersiveengineering:storage_electrum", "#forge:storage_blocks/electrum");
-    event.replaceInput("immersiveengineering:dust_electrum", "#forge:dusts/electrum");
-    event.replaceInput("immersiveengineering:plate_electrum", "#forge:plates/electrum");
-    event.replaceInput("immersiveengineering:nugget_electrum", "#forge:nuggets/electrum");
-
-    event.replaceOutput("immersiveengineering:ingot_electrum", "thermal:electrum_ingot");
-    event.replaceOutput("immersiveengineering:storage_electrum", "thermal:electrum_block");
-    event.replaceOutput("immersiveengineering:dust_electrum", "thermal:electrum_dust");
-    event.replaceOutput("immersiveengineering:plate_electrum", "thermal:electrum_plate");
-    event.replaceOutput("immersiveengineering:nugget_electrum", "thermal:electrum_nugget");
-
-    unifyMetal(
-       "silver",
-       false,
-       "thermal:silver_nugget",
-       "thermal:silver_ingot",
-       "thermal:silver_block",
-       "thermal:silver_dust",
-       "thermal:silver_gear",
-       "thermal:silver_plate"
-     );
-
-     unifyMetal(
-       "nickel",
-       false,
-       "thermal:nickel_nugget",
-       "thermal:nickel_ingot",
-       "thermal:nickel_block",
-       "thermal:nickel_dust",
-       "thermal:nickel_gear",
-       "thermal:nickel_plate"
-     );
-
-      event.replaceInput("mekanism:dust_diamond", "#forge:dusts/diamond");
-      event.replaceInput("thermal:diamond_dust", "#forge:dusts/diamond");
-      event.replaceOutput("mekanism:dust_diamond", "thermal:diamond_dust");
-
-      event.replaceInput("mekanism:dust_emerald", "#forge:dusts/emerald");
-      event.replaceInput("thermal:emerald_dust", "#forge:dusts/emerald");
-      event.replaceOutput("mekanism:dust_emerald", "thermal:emerald_dust");
-
-      event.replaceInput("mekanism:dust_lapis_lazuli", "#forge:dusts/lapis");
-      event.replaceInput("thermal:lapis_dust", "#forge:dusts/lapis");
-      event.replaceOutput("mekanism:dust_lapis_lazuli", "thermal:lapis_dust");
-
-      event.replaceInput("mekanism:dust_sulfur", "#forge:dusts/sulfur");
-      event.replaceInput("thermal:sulfur_dust", "#forge:dusts/sulfur");
-      event.replaceOutput("mekanism:dust_sulfur", "thermal:sulfur_dust");
-
-      event.replaceInput("mekanism:dust_quartz", "#forge:dusts/quartz");
-      event.replaceInput("thermal:quartz_dust", "#forge:dusts/quartz");
-      event.replaceOutput("mekanism:dust_quartz", "thermal:quartz_dust");
-
-      event.replaceInput("miniutilities:ender_dust", "#forge:dusts/ender");
-      event.replaceInput("thermal:ender_pearl_dust", "#forge:dusts/ender");
-      event.replaceOutput("miniutilities:ender_pearl_dust", "thermal:ender_pearl_dust");
-
-      event.replaceInput("mekanism:sawdust", "#forge:sawdust");
-      event.replaceOutput("mekanism:sawdust", "thermal:sawdust");
-
-      event.replaceOutput("bloodmagic:coalsand", "mekanism:dust_coal");
-      event.replaceOutput("bloodmagic:sulfur", "thermal:sulfur_dust");
-      event.replaceOutput("bloodmagic:ironsand", "thermal:iron_dust");
-      event.replaceOutput("bloodmagic:goldsand", "thermal:gold_dust");
-
-      event.replaceInput("thermal:charcoal_block", "#forge:storage_blocks/charcoal");
-      event.replaceInput("mekanism:block_charcoal", "#forge:storage_blocks/charcoal");
-      event.replaceInput("quark:block_charcoal", "#forge:storage_blocks/charcoal");
-      event.replaceOutput("mekanism:block_charcoal", "thermal:charcoal_block");
-      event.replaceOutput("quark:block_charcoal", "thermal:charcoal_block");
-
-      event.replaceInput("projectred-core:ruby", "#forge:gems/ruby");
-      event.replaceOutput("thermal:ruby", "projectred-core:ruby");
-
-      event.replaceInput("projectred-core:sapphire", "#forge:gems/sapphire");
-      event.replaceOutput("thermal:sapphire", "projectred-core:sapphire");
-
+  ore.forEach(function (item, index) {
+    event.remove({id: "mekanism:processing/" + item + "/ingot/from_block"})
+    event.remove({id: 'mekanism:processing/' + item + '/ingot/from_nuggets'})
+    event.remove({id: 'mekanism:processing/' + item + '/ingot/from_dust_blasting'})
+    event.remove({id: 'mekanism:processing/' + item + '/ingot/from_ore_blasting'})
+    event.remove({id: 'mekanism:processing/' + item + '/ingot/from_dust_smelting'})
+    event.remove({id: 'mekanism:processing/' + item + '/ingot/from_ore_smelting'})
+    event.remove({id: 'tconstruct:common/materials/' + item + '_ingot_from_block'})
+    event.remove({id: 'tconstruct:common/materials/' + item + '_ingot_from_nuggets'})
+    event.remove({id: 'tconstruct:common/materials/' + item + '_ingot_blasting'})
+    event.remove({id: 'tconstruct:common/materials/' + item + '_ingot_smelting'})
+    event.remove({id: 'tmechworks:' + item + '_ingot_from_' + item + '_nugget'})
+    event.remove({id: 'tmechworks:' + item + '_ingot_from_' + item + '_block'})
+    event.remove({id: 'tmechworks:' + item + '_ingot_from_blasting'})
+    event.remove({id: 'tmechworks:' + item + '_ingot_from_smelting'})
+    event.remove({id: 'projectred-exploration:' + item + '_from_block'})
+    event.remove({id: 'projectred-exploration:' + item + '_from_ore'})
+    event.remove({id: 'occultism:crafting/' + item + '_ingot_from_block'})
+    event.remove({id: 'occultism:crafting/' + item + '_ingot_from_nuggets'})
+    event.remove({id: 'occultism:blasting/' + item + '_ingot_from_dust'})
+    event.remove({id: 'occultism:blasting/' + item + '_ingot'})
+    event.remove({id: 'occultism:smelting/' + item + '_ingot_from_dust'})
+    event.remove({id: 'occultism:smelting/' + item + '_ingot'})
+    event.remove({id: 'immersiveengineering:crafting/storage_' + item + '_to_ingot_' + item})
+    event.remove({id: 'immersiveengineering:crafting/nugget_' + item + '_to_ingot_' + item})
+    event.remove({id: 'immersiveengineering:crafting/ingot_' + item + '_from_dust_from_blasting'})
+    event.remove({id: 'immersiveengineering:crafting/ingot_' + item + '_from_blasting'})
+    event.remove({id: 'immersiveengineering:crafting/ingot_' + item + '_from_dust'})
+    event.remove({id: 'immersiveengineering:crafting/ingot_' + item})
+    event.remove({id: 'immersiveengineering:crafting/ingot_' + item + '_to_storage_' + item})
+    event.remove({id: 'immersiveengineering:crafting/storage_' + item + '_from_slab'})
+    event.remove({id: 'occultism:crafting/' + item + '_block'})
+    event.remove({id: 'projectred-exploration:' + item + '_block'})
+    event.remove({id: 'tmechworks:' + item + '_block_from_' + item + '_ingot'})
+    event.remove({id: 'tconstruct:common/materials/' + item + '_block_from_ingots'})
+    event.remove({id: 'mekanism:processing/' + item + '/storage_blocks/from_ingots'})
+    event.remove({id: 'immersiveengineering:crafting/ingot_' + item + '_to_nugget_' + item})
+    event.remove({id: 'occultism:crafting/' + item + '_nugget'})
+    event.remove({id: 'tmechworks:' + item + '_nugget_from_' + item + '_ingot'})
+    event.remove({id: 'mekanism:processing/' + item + '/nugget/from_ingot'})
+    event.remove({id: 'tconstruct:common/materials/' + item + '_nugget_from_ingot'})
+  })
 });
