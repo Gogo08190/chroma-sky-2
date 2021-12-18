@@ -78,16 +78,16 @@ onEvent('recipes', event => {
     G: 'thermal:copper_gear'
   })
 
-  // Light Engineering Block
-  event.remove({ output: 'immersiveengineering:light_engineering' })
-  event.shaped('immersiveengineering:light_engineering', [
-  'ICI',
-  'CGC',
-  'ICI'
+  // Engineer's Hammer
+  event.remove({ output: 'immersiveengineering:hammer' })
+  event.shaped('immersiveengineering:hammer', [
+  ' MC',
+  ' SM',
+  'S  '
   ], {
-    I: 'immersiveengineering:sheetmetal_iron',
-    C: 'immersiveengineering:component_iron',
-    G: 'thermal:copper_gear'
+    S: 'immersiveengineering:stick_treated',
+    M: 'minecraft:string',
+    C: 'chromasky:hammer_head'
   })
 
   });
