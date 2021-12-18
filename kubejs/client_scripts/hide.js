@@ -98,7 +98,14 @@ events.listen('jei.hide.items', function (event) {
     'mekanism:dust_lapis_lazuli',
     'mekanism:dust_emerald',
     'mekanism:dust_netherite',
-    'mekanism:dust_quartz'
+    'mekanism:dust_quartz',
+    'occultism:obsidian_dust',
+    'mekanism:tin_ore',
+    'mekanism:nugget_tin',
+    'mekanism:dust_tin',
+    'pedestals:dusttin',
+    'projectred-exploration:tin_ore',
+    'mekanism:ingot_tin'
   ])
 })
 

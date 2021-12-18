@@ -51,6 +51,12 @@ onEvent('item.tags', event => {
     event.remove('forge:nuggets/nickel', 'immersiveengineering:nugget_nickel')
     event.remove('forge:plates/nickel', 'immersiveengineering:plate_nickel')
 
+    event.remove('forge:ores/tin', ['mekanism:tin_ore', 'projectred-exploration:tin_ore'])
+    event.remove('forge:ingots/tin', ['mekanism:ingot_tin', 'projectred-core:tin_ingot'])
+    event.remove('forge:storage_blocks/tin', ['mekanism:block_tin', 'projectred-exploration:tin_block'])
+    event.remove('forge:dusts/tin', ['pedestals:dusttin', 'mekanism:dust_tin'])
+    event.remove('forge:nuggets/tin', ['mekanism:nugget_tin', 'thermal:tin_nugget'])
+
     event.remove('forge:dusts/diamond', 'mekanism:dust_diamond')
 
     event.remove('forge:dusts/gold', ['immersiveengineering:dust_gold', 'occultism:gold_dust', 'pedestals:dustgold', 'mekanism:dust_gold'])
@@ -70,6 +76,7 @@ onEvent('item.tags', event => {
     event.remove('forge:dusts/emerald', 'mekanism:dust_emerald')
     event.remove('forge:dusts/sulfur', 'immersiveengineering:dust_sulfur')
     event.remove('forge:dusts/sulfur', 'thermal:sulfur_dust')
+    event.remove('forge:dusts/obsidian', 'occultism:obsidian_dust')
 
     event.remove('forge:coal_coke', 'thermal:coal_coke')
     event.remove('forge:storage_blocks/coal_coke', 'thermal:coal_coke_block')
@@ -82,6 +89,7 @@ onEvent('block.tags', event => {
     event.remove('forge:ores/uranium', 'immersiveengineering:ore_uranium')
     event.remove('forge:ores/silver', ['projectred-exploration:silver_ore', 'occultism:silver_ore', 'immersiveengineering:ore_silver'])
     event.remove('forge:ores/nickel', 'immersiveengineering:ore_nickel')
+    event.remove('forge:ores/tin', ['mekanism:tin_ore', 'projectred-exploration:tin_ore'])
 
   })
 
@@ -114,11 +122,12 @@ onEvent('recipes', event => {
     "silver",
     "nickel",
     "gold",
-    "iron"
+    "iron",
+    "tin"
   ]
 
   ore.forEach(function (item, index) {
-    event.remove({id: "mekanism:processing/" + item + "/ingot/from_block"})
+    event.remove({id: 'mekanism:processing/' + item + '/ingot/from_block'})
     event.remove({id: 'mekanism:processing/' + item + '/ingot/from_nuggets'})
     event.remove({id: 'mekanism:processing/' + item + '/ingot/from_dust_blasting'})
     event.remove({id: 'mekanism:processing/' + item + '/ingot/from_ore_blasting'})
@@ -172,6 +181,10 @@ onEvent('recipes', event => {
     stoneCutter([{"item": "mekanism:block_lead"},{"item": "immersiveengineering:storage_lead"}],'thermal:lead_block')
     stoneCutter([{"item": "immersiveengineering:storage_lead"},{"item": "thermal:lead_block"}],'mekanism:block_lead')
     stoneCutter([{"item": "mekanism:block_lead"},{"item": "thermal:lead_block"}],'immersiveengineering:storage_lead')
+
+    stoneCutter([{"item": "mekanism:block_tin"},{"item": "projectred-exploration:tin_block"}],'thermal:tin_block')
+    stoneCutter([{"item": "mekanism:block_tin"},{"item": "thermal:tin_block"}],'projectred-exploration:tin_block')
+    stoneCutter([{"item": "projectred-exploration:tin_block"},{"item": "thermal:tin_block"}],'mekanism:block_tin')
 
     stoneCutter([{"item": "mekanism:block_bronze"}],'thermal:bronze_block')
     stoneCutter([{"item": "thermal:bronze_block"}],'mekanism:block_bronze')
