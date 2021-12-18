@@ -16,7 +16,6 @@ onEvent("item.tags", (event) => {
         "minecraft:cut_sandstone",
         "minecraft:smooth_sandstone",
     ]);
-    event.add("chisel:metals/aluminum", ["tmechworks:aluminum_block"]);
     event.add("chisel:metals/bronze", ["thermal:bronze_block"]);
     event.add("chisel:emerald", ["minecraft:emerald_block"]);
     event.add("chisel:redstone", ["minecraft:redstone_block"]);
@@ -27,7 +26,6 @@ onEvent("item.tags", (event) => {
     event.get('forge:dusts/gold').remove('immersiveengineering:dust_gold')
     event.get('forge:dusts/copper').remove('immersiveengineering:dust_copper')
     event.get('forge:dusts/lead').remove('immersiveengineering:dust_lead')
-    event.get('forge:dusts/aluminum').remove('immersiveengineering:dust_aluminum')
     event.get('forge:dusts/silver').remove('immersiveengineering:dust_silver')
     event.get('forge:dusts/nickel').remove('immersiveengineering:dust_nickel')
     event.get('forge:dusts/uranium').remove('immersiveengineering:dust_uranium')
