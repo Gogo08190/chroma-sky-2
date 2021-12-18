@@ -80,6 +80,12 @@ onEvent('item.tags', event => {
 
     event.remove('forge:coal_coke', 'thermal:coal_coke')
     event.remove('forge:storage_blocks/coal_coke', 'thermal:coal_coke_block')
+
+    event.remove('forge:sawdust', 'mekanism:sawdust')
+    event.remove('forge:sawdust', 'immersiveengineering:dust_wood')
+
+    event.remove('forge:storage_blocks/charcoal', 'mekanism:block_charcoal')
+    event.remove('forge:storage_blocks/charcoal', 'quark:charcoal_block')
   })
 
 onEvent('block.tags', event => {
@@ -103,12 +109,40 @@ onEvent('recipes', event => {
   event.remove({id: "immersiveengineering:crafting/ingot_steel_to_storage_steel"})
   event.remove({id: "thermal:storage/coal_coke_from_block"})
   event.remove({id: "thermal:storage/coal_coke_block"})
+  event.remove({id: "mekanism:storage_blocks/charcoal"})
+  event.remove({id: "quark:building/crafting/compressed/charcoal_block"})
 
   event.replaceInput("mekanism:dust_sulfur", "#forge:dusts/sulfur");
   event.replaceInput("thermal:sulfur_dust", "#forge:dusts/sulfur");
   event.replaceInput("immersiveengineering:dust_sulfur", "#forge:dusts/sulfur");
   event.replaceOutput("thermal:sulfur_dust", "mekanism:dust_sulfur");
   event.replaceOutput("immersiveengineering:dust_sulfur", "mekanism:dust_sulfur");
+
+  event.replaceInput("immersiveengineering:dust_wood", "#forge:sawdust");
+  event.replaceOutput("immersiveengineering:dust_wood", "thermal:sawdust");
+  event.replaceInput("mekanism:sawdust", "#forge:sawdust");
+  event.replaceOutput("mekanism:sawdust", "thermal:sawdust");
+
+  event.replaceOutput("bloodmagic:coalsand", "mekanism:dust_coal");
+  event.replaceOutput("bloodmagic:sulfur", "thermal:sulfur_dust");
+  event.replaceOutput("bloodmagic:ironsand", "thermal:iron_dust");
+  event.replaceOutput("bloodmagic:goldsand", "thermal:gold_dust");
+
+  event.replaceInput("thermal:charcoal_block", "#forge:storage_blocks/charcoal");
+  event.replaceInput("mekanism:block_charcoal", "#forge:storage_blocks/charcoal");
+  event.replaceInput("quark:charcoal_block", "#forge:storage_blocks/charcoal");
+  event.replaceOutput("mekanism:block_charcoal", "thermal:charcoal_block");
+  event.replaceOutput("quark:charcoal_block", "thermal:charcoal_block");
+
+  event.replaceInput("projectred-core:ruby", "#forge:gems/ruby");
+  event.replaceOutput("thermal:ruby", "projectred-core:ruby");
+
+  event.replaceInput("projectred-core:sapphire", "#forge:gems/sapphire");
+  event.replaceOutput("thermal:sapphire", "projectred-core:sapphire");
+
+  event.replaceInput("miniutilities:ender_dust", "#forge:dusts/ender");
+  event.replaceInput("thermal:ender_pearl_dust", "#forge:dusts/ender");
+  event.replaceOutput("miniutilities:ender_dust", "thermal:ender_pearl_dust");
 });
 
 onEvent('recipes', event => {

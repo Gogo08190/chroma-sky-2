@@ -105,7 +105,18 @@ events.listen('jei.hide.items', function (event) {
     'mekanism:dust_tin',
     'pedestals:dusttin',
     'projectred-exploration:tin_ore',
-    'mekanism:ingot_tin'
+    'mekanism:ingot_tin',
+    'immersiveengineering:dust_wood',
+    'mekanism:sawdust',
+    'bloodmagic:ironsand',
+    'bloodmagic:goldsand',
+    'bloodmagic:coalsand',
+    'bloodmagic:sulfur',
+    'mekanism:block_charcoal',
+    'quark:charcoal_block',
+    'thermal:sapphire',
+    'thermal:ruby',
+    'miniutilities:ender_dust'
   ])
 })
 
