@@ -15,6 +15,10 @@ onEvent('item.tags', event => {
       event.remove('forge:nuggets/lead', ['mekanism:nugget_lead', 'immersiveengineering:nugget_lead'])
       event.remove('forge:plates/lead', 'immersiveengineering:plate_lead')
 
+      event.remove('forge:ingots/bronze', 'mekanism:ingot_bronze')
+      event.remove('forge:storage_blocks/bronze', 'mekanism:block_bronze')
+      event.remove('forge:nuggets/bronze', 'mekanism:nugget_bronze')
+
   })
 
 onEvent('block.tags', event => {
@@ -41,6 +45,7 @@ onEvent('recipes', event => {
   var ore = [
     "copper",
     "lead",
+    "bronze"
   ]
 
   ore.forEach(function (item, index) {
@@ -84,5 +89,7 @@ onEvent('recipes', event => {
     event.remove({id: 'tmechworks:' + item + '_nugget_from_' + item + '_ingot'})
     event.remove({id: 'mekanism:processing/' + item + '/nugget/from_ingot'})
     event.remove({id: 'tconstruct:common/materials/' + item + '_nugget_from_ingot'})
+    event.remove({id: 'mekanism:nuggets/' + item})
+    event.remove({id: 'mekanism:storage_blocks/' + item})
   })
 });
