@@ -58,6 +58,18 @@ onEvent('item.tags', event => {
 
     event.remove('forge:dusts/iron', ['mekanism:dust_iron', 'pedestals:dustiron', 'occultism:iron_dust', 'immersiveengineering:dust_iron'])
     event.remove('forge:plates/iron', 'immersiveengineering:plate_iron')
+
+    event.remove('forge:ingots/steel', 'immersiveengineering:ingot_steel')
+    event.remove('forge:storage_blocks/steel', 'immersiveengineering:storage_steel')
+    event.remove('forge:dusts/steel', 'immersiveengineering:dust_steel')
+    event.remove('forge:nuggets/steel', 'immersiveengineering:nugget_steel')
+
+    event.remove('forge:dusts/quartz', 'mekanism:dust_quartz')
+    event.remove('forge:dusts/lapis', 'mekanism:dust_lapis_lazuli')
+    event.remove('forge:dusts/netherite', 'mekanism:dust_netherite')
+    event.remove('forge:dusts/emerald', 'mekanism:dust_emerald')
+    event.remove('forge:dusts/sulfur', 'immersiveengineering:dust_sulfur')
+    event.remove('forge:dusts/sulfur', 'thermal:sulfur_dust')
   })
 
 onEvent('block.tags', event => {
@@ -72,6 +84,18 @@ onEvent('block.tags', event => {
 
 onEvent('recipes', event => {
   event.remove({ id: /industrialforegoing:.*_gear/ })
+  event.remove({id: "immersiveengineering:crafting/ingot_steel_to_nugget_steel"})
+  event.remove({id: "immersiveengineering:crafting/storage_steel_to_ingot_steel"})
+  event.remove({id: "immersiveengineering:crafting/nugget_steel_to_ingot_steel"})
+  event.remove({id: "immersiveengineering:crafting/ingot_steel_from_dust_from_blast"})
+  event.remove({id: "immersiveengineering:crafting/ingot_steel_from_dust"})
+  event.remove({id: "immersiveengineering:crafting/ingot_steel_to_storage_steel"})
+
+  event.replaceInput("mekanism:dust_sulfur", "#forge:dusts/sulfur");
+  event.replaceInput("thermal:sulfur_dust", "#forge:dusts/sulfur");
+  event.replaceInput("immersiveengineering:dust_sulfur", "#forge:dusts/sulfur");
+  event.replaceOutput("thermal:sulfur_dust", "mekanism:dust_sulfur");
+  event.replaceOutput("immersiveengineering:dust_sulfur", "mekanism:dust_sulfur");
 });
 
 onEvent('recipes', event => {
@@ -158,6 +182,9 @@ onEvent('recipes', event => {
 
     stoneCutter([{"item": "immersiveengineering:storage_nickel"}],'thermal:nickel_block')
     stoneCutter([{"item": "thermal:nickel_block"}],'immersiveengineering:storage_nickel')
+
+    stoneCutter([{"item": "mekanism:block_steel"}],'immersiveengineering:storage_steel')
+    stoneCutter([{"item": "immersiveengineering:storage_steel"}],'mekanism:block_steel')
 
     stoneCutter([{"item": "occultism:silver_block"},{"item": "projectred-exploration:silver_block"},{"item": "immersiveengineering:storage_silver"}],'thermal:silver_block')
     stoneCutter([{"item": "occultism:silver_block"},{"item": "projectred-exploration:silver_block"},{"item": "thermal:silver_block"}],'immersiveengineering:storage_silver')

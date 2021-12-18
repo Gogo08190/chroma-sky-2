@@ -87,7 +87,11 @@ events.listen('jei.hide.items', function (event) {
     'immersiveengineering:plate_nickel',
     'immersiveengineering:nugget_nickel',
     'immersiveengineering:ingot_nickel',
-    'immersiveengineering:ore_nickel'
+    'immersiveengineering:ore_nickel',
+    'pedestals:dustaluminum',
+    'immersiveengineering:dust_steel',
+    'immersiveengineering:nugget_steel',
+    'immersiveengineering:ingot_steel'
   ])
 })
 
