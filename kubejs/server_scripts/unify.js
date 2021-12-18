@@ -52,6 +52,9 @@ onEvent('item.tags', event => {
     event.remove('forge:plates/nickel', 'immersiveengineering:plate_nickel')
 
     event.remove('forge:dusts/diamond', 'mekanism:dust_diamond')
+
+    event.remove('forge:dusts/gold', ['immersiveengineering:dust_gold', 'occultism:gold_dust', 'pedestals:dustgold', 'mekanism:dust_gold'])
+    event.remove('forge:plates/gold', 'immersiveengineering:plate_gold')
   })
 
 onEvent('block.tags', event => {
