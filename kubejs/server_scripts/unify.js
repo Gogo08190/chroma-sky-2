@@ -68,15 +68,6 @@ onEvent('block.tags', event => {
   })
 
 onEvent('recipes', event => {
-  event.remove({id: 'thermal:furnace_1230109216'})
-  event.remove({id: 'thermal:furnace_1048414679'})
-  event.remove({id: 'thermal:furnace_1661183506'})
-  event.remove({id: 'thermal:furnace_1605150019'})
-  event.remove({id: 'thermal:furnace_1017942990'})
-  event.remove({id: 'thermal:furnace_565569254'})
-  event.remove({id: 'thermal:furnace_1806379379'})
-  event.remove({id: 'thermal:furnace_2116933307'})
-  event.remove({id: 'thermal:furnace_108089567'})
   event.remove({ id: /industrialforegoing:.*_gear/ })
 });
 
@@ -89,7 +80,8 @@ onEvent('recipes', event => {
     "constantan",
     "electrum",
     "silver",
-    "nickel"
+    "nickel",
+    "gold"
   ]
 
   ore.forEach(function (item, index) {
@@ -136,5 +128,8 @@ onEvent('recipes', event => {
     event.remove({id: 'mekanism:nuggets/' + item})
     event.remove({id: 'mekanism:storage_blocks/' + item})
     event.remove({id: 'immersiveengineering:crafting/' + item + '_mix'})
+    event.remove({id: 'pedestals:ingot_' + item + '_blasting'})
+    event.remove({id: 'immersiveengineering:crafting/' + item + '_ingot_from_dust'})
+    event.remove({id: 'immersiveengineering:crafting/' + item + '_ingot_from_dust_from_blasting'})
   })
 });
