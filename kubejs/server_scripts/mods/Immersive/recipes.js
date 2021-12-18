@@ -95,7 +95,7 @@ onEvent('recipes', event => {
   event.shaped('immersiveengineering:watermill', [
   'SSS',
   'SWS',
-  'SSS '
+  'SSS'
   ], {
     S: 'immersiveengineering:waterwheel_segment',
     W: 'chromasky:treated_wood_gear'
@@ -112,4 +112,4 @@ onEvent('recipes', event => {
     G: 'thermal:invar_gear'
   })
 
-  });
+});
