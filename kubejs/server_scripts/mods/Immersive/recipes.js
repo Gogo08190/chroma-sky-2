@@ -44,7 +44,7 @@ onEvent('recipes', event => {
 
   // Redstone Engineering Block
   event.remove({ output: 'immersiveengineering:rs_engineering' })
-  event.shaped('immersiveengineering:rs_engineering', [
+  event.shaped('4x immersiveengineering:rs_engineering', [
   'BRB',
   'RIR',
   'BRB'
@@ -56,7 +56,7 @@ onEvent('recipes', event => {
 
   // Heavy Engineering Block
   event.remove({ output: 'immersiveengineering:heavy_engineering' })
-  event.shaped('immersiveengineering:heavy_engineering', [
+  event.shaped('4x immersiveengineering:heavy_engineering', [
   'SCS',
   'CEC',
   'SCS'
@@ -68,7 +68,7 @@ onEvent('recipes', event => {
 
   // Light Engineering Block
   event.remove({ output: 'immersiveengineering:light_engineering' })
-  event.shaped('immersiveengineering:light_engineering', [
+  event.shaped('4x immersiveengineering:light_engineering', [
   'ICI',
   'CGC',
   'ICI'
