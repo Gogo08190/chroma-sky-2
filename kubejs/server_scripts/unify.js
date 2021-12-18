@@ -55,6 +55,9 @@ onEvent('item.tags', event => {
 
     event.remove('forge:dusts/gold', ['immersiveengineering:dust_gold', 'occultism:gold_dust', 'pedestals:dustgold', 'mekanism:dust_gold'])
     event.remove('forge:plates/gold', 'immersiveengineering:plate_gold')
+
+    event.remove('forge:dusts/iron', ['mekanism:dust_iron', 'pedestals:dustiron', 'occultism:iron_dust', 'immersiveengineering:dust_iron'])
+    event.remove('forge:plates/iron', 'immersiveengineering:plate_iron')
   })
 
 onEvent('block.tags', event => {
@@ -81,7 +84,8 @@ onEvent('recipes', event => {
     "electrum",
     "silver",
     "nickel",
-    "gold"
+    "gold",
+    "iron"
   ]
 
   ore.forEach(function (item, index) {
