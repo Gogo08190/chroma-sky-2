@@ -40,7 +40,7 @@ onEvent("recipes", (event) => {
     multiSmelt("mekanism:nugget_uranium", "chromasky:uranium_cluster");
     multiSmelt("mekanism:nugget_osmium", "chromasky:osmium_cluster");
     multiSmelt("mekanism:fluorite_gem", "chromasky:fluorite_cluster");
-    multiSmelt("tmechworks:aluminum_ingot", "chromasky:aluminum_cluster");
+    multiSmelt("immersiveengineering:ingot_aluminum", "chromasky:aluminum_cluster");
 
     multiSmelt("tconstruct:cobalt_ingot", "chromasky:cobalt_dust");
 });
