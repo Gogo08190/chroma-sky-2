@@ -8,24 +8,42 @@ onEvent('item.tags', event => {
     event.remove('forge:nuggets/copper', ['immersiveengineering:nugget_copper', 'occultism:copper_nugget', 'tmechworks:copper_nugget', 'tconstruct:copper_nugget', 'mekanism:nugget_copper'])
     event.remove('forge:plates/copper', 'immersiveengineering:plate_copper')
 
-      event.remove('forge:ores/lead', ['mekanism:lead_ore', 'immersiveengineering:ore_lead'])
-      event.remove('forge:ingots/lead', ['immersiveengineering:ingot_lead', 'mekanism:ingot_lead'])
-      event.remove('forge:storage_blocks/lead', ['mekanism:block_lead', 'immersiveengineering:storage_lead'])
-      event.remove('forge:dusts/lead', ['mekanism:dust_lead', 'immersiveengineering:dust_lead', 'pedestals:dustlead'])
-      event.remove('forge:nuggets/lead', ['mekanism:nugget_lead', 'immersiveengineering:nugget_lead'])
-      event.remove('forge:plates/lead', 'immersiveengineering:plate_lead')
+    event.remove('forge:ores/lead', ['mekanism:lead_ore', 'immersiveengineering:ore_lead'])
+    event.remove('forge:ingots/lead', ['immersiveengineering:ingot_lead', 'mekanism:ingot_lead'])
+    event.remove('forge:storage_blocks/lead', ['mekanism:block_lead', 'immersiveengineering:storage_lead'])
+    event.remove('forge:dusts/lead', ['mekanism:dust_lead', 'immersiveengineering:dust_lead', 'pedestals:dustlead'])
+    event.remove('forge:nuggets/lead', ['mekanism:nugget_lead', 'immersiveengineering:nugget_lead'])
+    event.remove('forge:plates/lead', 'immersiveengineering:plate_lead')
 
-      event.remove('forge:ingots/bronze', 'mekanism:ingot_bronze')
-      event.remove('forge:storage_blocks/bronze', 'mekanism:block_bronze')
-      event.remove('forge:nuggets/bronze', 'mekanism:nugget_bronze')
+    event.remove('forge:ingots/bronze', 'mekanism:ingot_bronze')
+    event.remove('forge:storage_blocks/bronze', 'mekanism:block_bronze')
+    event.remove('forge:nuggets/bronze', 'mekanism:nugget_bronze')
+
+    event.remove('forge:ores/uranium', 'immersiveengineering:ore_uranium')
+    event.remove('forge:ingots/uranium', 'immersiveengineering:ingot_uranium')
+    event.remove('forge:storage_blocks/uranium', 'immersiveengineering:storage_uranium')
+    event.remove('forge:dusts/uranium', ['immersiveengineering:dust_uranium', 'pedestals:dusturanium'])
+    event.remove('forge:nuggets/uranium', 'immersiveengineering:nugget_uranium')
+
+    event.remove('forge:ingots/constantan', 'immersiveengineering:ingot_constantan')
+    event.remove('forge:storage_blocks/constantan', 'immersiveengineering:storage_constantan')
+    event.remove('forge:dusts/constantan', 'immersiveengineering:dust_constantan')
+    event.remove('forge:nuggets/constantan', 'immersiveengineering:nugget_constantan')
+    event.remove('forge:plates/constantan', 'immersiveengineering:plate_constantan')
+
+    event.remove('forge:ingots/electrum', 'immersiveengineering:ingot_electrum')
+    event.remove('forge:storage_blocks/electrum', 'immersiveengineering:storage_electrum')
+    event.remove('forge:dusts/electrum', 'immersiveengineering:dust_electrum')
+    event.remove('forge:nuggets/electrum', 'immersiveengineering:nugget_electrum')
+    event.remove('forge:plates/electrum', 'immersiveengineering:plate_electrum')
 
   })
 
 onEvent('block.tags', event => {
 
-    //Copper
     event.remove('forge:ores/copper', ['mekanism:copper_ore', 'tconstruct:copper_ore', 'tmechworks:copper_ore', 'projectred-exploration:copper_ore', 'occultism:copper_ore', 'immersiveengineering:ore_copper'])
     event.remove('forge:ores/lead', ['mekanism:lead_ore', 'immersiveengineering:ore_lead'])
+    event.remove('forge:ores/uranium', 'immersiveengineering:ore_uranium')
 
   })
 
@@ -45,7 +63,10 @@ onEvent('recipes', event => {
   var ore = [
     "copper",
     "lead",
-    "bronze"
+    "bronze",
+    "uranium",
+    "constantan",
+    "electrum"
   ]
 
   ore.forEach(function (item, index) {
@@ -91,5 +112,6 @@ onEvent('recipes', event => {
     event.remove({id: 'tconstruct:common/materials/' + item + '_nugget_from_ingot'})
     event.remove({id: 'mekanism:nuggets/' + item})
     event.remove({id: 'mekanism:storage_blocks/' + item})
+    event.remove({id: 'immersiveengineering:crafting/' + item + '_mix'})
   })
 });
