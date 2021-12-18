@@ -24,8 +24,8 @@ onEvent('recipes', event => {
     W: 'thermal:ruby_gear',
     S: 'immersiveengineering:treated_wood_horizontal',
     B: 'thermal:copper_gear',
-    H: 'integrateddynamics:energy_battery', '{capacity:2000000}',
+    H: 'immersiveengineering:capacitor_lv',
     I: 'ftbjarmod:cast_iron_ingot'
   })
-  
+
   });
