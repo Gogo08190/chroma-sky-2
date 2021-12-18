@@ -70,6 +70,9 @@ onEvent('item.tags', event => {
     event.remove('forge:dusts/emerald', 'mekanism:dust_emerald')
     event.remove('forge:dusts/sulfur', 'immersiveengineering:dust_sulfur')
     event.remove('forge:dusts/sulfur', 'thermal:sulfur_dust')
+
+    event.remove('forge:coal_coke', 'thermal:coal_coke')
+    event.remove('forge:storage_blocks/coal_coke', 'thermal:coal_coke_block')
   })
 
 onEvent('block.tags', event => {
@@ -90,6 +93,8 @@ onEvent('recipes', event => {
   event.remove({id: "immersiveengineering:crafting/ingot_steel_from_dust_from_blast"})
   event.remove({id: "immersiveengineering:crafting/ingot_steel_from_dust"})
   event.remove({id: "immersiveengineering:crafting/ingot_steel_to_storage_steel"})
+  event.remove({id: "thermal:storage/coal_coke_from_block"})
+  event.remove({id: "thermal:storage/coal_coke_block"})
 
   event.replaceInput("mekanism:dust_sulfur", "#forge:dusts/sulfur");
   event.replaceInput("thermal:sulfur_dust", "#forge:dusts/sulfur");
@@ -185,6 +190,9 @@ onEvent('recipes', event => {
 
     stoneCutter([{"item": "mekanism:block_steel"}],'immersiveengineering:storage_steel')
     stoneCutter([{"item": "immersiveengineering:storage_steel"}],'mekanism:block_steel')
+
+    stoneCutter([{"item": "thermal:coal_coke_block"}],'immersiveengineering:coke')
+    stoneCutter([{"item": "immersiveengineering:coke"}],'thermal:coal_coke_block')
 
     stoneCutter([{"item": "occultism:silver_block"},{"item": "projectred-exploration:silver_block"},{"item": "immersiveengineering:storage_silver"}],'thermal:silver_block')
     stoneCutter([{"item": "occultism:silver_block"},{"item": "projectred-exploration:silver_block"},{"item": "thermal:silver_block"}],'immersiveengineering:storage_silver')

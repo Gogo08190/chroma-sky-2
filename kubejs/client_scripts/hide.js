@@ -91,7 +91,14 @@ events.listen('jei.hide.items', function (event) {
     'pedestals:dustaluminum',
     'immersiveengineering:dust_steel',
     'immersiveengineering:nugget_steel',
-    'immersiveengineering:ingot_steel'
+    'immersiveengineering:ingot_steel',
+    'thermal:coal_coke',
+    'immersiveengineering:dust_sulfur',
+    'thermal:sulfur_dust',
+    'mekanism:dust_lapis_lazuli',
+    'mekanism:dust_emerald',
+    'mekanism:dust_netherite',
+    'mekanism:dust_quartz'
   ])
 })
 
