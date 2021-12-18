@@ -19,7 +19,7 @@ onEvent("recipes", (event) => {
     });
 
     event.custom({
-    "type": "tconstruct:casting_table",
+    "type": "tconstruct:casting_basin",
     "cast": {
       "item": "cobblefordays:tier_1"
     },
