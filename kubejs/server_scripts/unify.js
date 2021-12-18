@@ -51,6 +51,7 @@ onEvent('item.tags', event => {
     event.remove('forge:nuggets/nickel', 'immersiveengineering:nugget_nickel')
     event.remove('forge:plates/nickel', 'immersiveengineering:plate_nickel')
 
+    event.remove('forge:dusts/diamond', 'mekanism:dust_diamond')
   })
 
 onEvent('block.tags', event => {
@@ -73,6 +74,7 @@ onEvent('recipes', event => {
   event.remove({id: 'thermal:furnace_1806379379'})
   event.remove({id: 'thermal:furnace_2116933307'})
   event.remove({id: 'thermal:furnace_108089567'})
+  event.remove({ id: /industrialforegoing:.*_gear/ })
 });
 
 onEvent('recipes', event => {
