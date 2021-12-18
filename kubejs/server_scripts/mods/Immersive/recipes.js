@@ -112,4 +112,16 @@ onEvent('recipes', event => {
     G: 'thermal:invar_gear'
   })
 
-});
+  // Kiln Brick
+  event.remove({ output: 'immersiveengineering:alloybrick' })
+  event.shaped('2x immersiveengineering:alloybrick', [
+  'BGB',
+  'BSB',
+  'BGB'
+  ], {
+    B: 'minecraft:brick',
+    G: 'tconstruct:grout',
+    S: 'chromasky:1x_compressed_sand'
+  })
+
+  });
