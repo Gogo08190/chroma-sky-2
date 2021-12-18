@@ -136,4 +136,38 @@ onEvent('recipes', event => {
     event.remove({id: 'immersiveengineering:crafting/' + item + '_ingot_from_dust'})
     event.remove({id: 'immersiveengineering:crafting/' + item + '_ingot_from_dust_from_blasting'})
   })
+
+  function stoneCutter(input, output){event.custom({"type": "minecraft:stonecutting","ingredient": input,"result": output,"count": 1})}
+
+    stoneCutter([{"item": "mekanism:block_copper"},{"item": "tconstruct:copper_block"},{"item": "tmechworks:copper_block"},{"item": "projectred-exploration:copper_block"},{"item": "occultism:copper_block"},{"item": "immersiveengineering:storage_copper"}],'thermal:copper_block')
+    stoneCutter([{"item": "mekanism:block_copper"},{"item": "tconstruct:copper_block"},{"item": "tmechworks:copper_block"},{"item": "projectred-exploration:copper_block"},{"item": "occultism:copper_block"},{"item": "thermal:copper_block"}],'immersiveengineering:storage_copper')
+    stoneCutter([{"item": "mekanism:block_copper"},{"item": "tconstruct:copper_block"},{"item": "tmechworks:copper_block"},{"item": "projectred-exploration:copper_block"},{"item": "immersiveengineering:storage_copper"},{"item": "thermal:copper_block"}],'occultism:copper_block')
+    stoneCutter([{"item": "mekanism:block_copper"},{"item": "tconstruct:copper_block"},{"item": "tmechworks:copper_block"},{"item": "occultism:copper_block"},{"item": "immersiveengineering:storage_copper"},{"item": "thermal:copper_block"}],'projectred-exploration:copper_block')
+    stoneCutter([{"item": "mekanism:block_copper"},{"item": "tconstruct:copper_block"},{"item": "projectred-exploration:copper_block"},{"item": "occultism:copper_block"},{"item": "immersiveengineering:storage_copper"},{"item": "thermal:copper_block"}],'tmechworks:copper_block')
+    stoneCutter([{"item": "tmechworks:copper_block"},{"item": "mekanism:block_copper"},{"item": "projectred-exploration:copper_block"},{"item": "occultism:copper_block"},{"item": "immersiveengineering:storage_copper"},{"item": "thermal:copper_block"}],'tconstruct:copper_block')
+    stoneCutter([{"item": "tmechworks:copper_block"},{"item": "tconstruct:copper_block"},{"item": "projectred-exploration:copper_block"},{"item": "occultism:copper_block"},{"item": "immersiveengineering:storage_copper"},{"item": "thermal:copper_block"}],'mekanism:block_copper')
+
+    stoneCutter([{"item": "mekanism:block_lead"},{"item": "immersiveengineering:storage_lead"}],'thermal:lead_block')
+    stoneCutter([{"item": "immersiveengineering:storage_lead"},{"item": "thermal:lead_block"}],'mekanism:block_lead')
+    stoneCutter([{"item": "mekanism:block_lead"},{"item": "thermal:lead_block"}],'immersiveengineering:storage_lead')
+
+    stoneCutter([{"item": "mekanism:block_bronze"}],'thermal:bronze_block')
+    stoneCutter([{"item": "thermal:bronze_block"}],'mekanism:block_bronze')
+
+    stoneCutter([{"item": "mekanism:block_uranium"}],'immersiveengineering:storage_uranium')
+    stoneCutter([{"item": "immersiveengineering:storage_uranium"}],'mekanism:block_uranium')
+
+    stoneCutter([{"item": "thermal:constantan_block"}],'immersiveengineering:storage_constantan')
+    stoneCutter([{"item": "immersiveengineering:storage_constantan"}],'thermal:constantan_block')
+
+    stoneCutter([{"item": "thermal:electrum_block"}],'immersiveengineering:storage_electrum')
+    stoneCutter([{"item": "immersiveengineering:storage_electrum"}],'thermal:electrum_block')
+
+    stoneCutter([{"item": "immersiveengineering:storage_nickel"}],'thermal:nickel_block')
+    stoneCutter([{"item": "thermal:nickel_block"}],'immersiveengineering:storage_nickel')
+
+    stoneCutter([{"item": "occultism:silver_block"},{"item": "projectred-exploration:silver_block"},{"item": "immersiveengineering:storage_silver"}],'thermal:silver_block')
+    stoneCutter([{"item": "occultism:silver_block"},{"item": "projectred-exploration:silver_block"},{"item": "thermal:silver_block"}],'immersiveengineering:storage_silver')
+    stoneCutter([{"item": "occultism:silver_block"},{"item": "immersiveengineering:storage_silver"},{"item": "thermal:silver_block"}],'projectred-exploration:silver_block')
+    stoneCutter([{"item": "projectred-exploration:silver_block"},{"item": "immersiveengineering:storage_silver"},{"item": "thermal:silver_block"}],'occultism:silver_block')
 });
