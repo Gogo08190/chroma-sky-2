@@ -12,6 +12,7 @@ onEvent("recipes", (event) => {
         ["minecraft:cocoa_beans", 0.15],
         ["minecraft:bamboo", 0.15],
         ["minecraft:sugar_cane", 0.15],
+        ["minecraft:cactus", 0.15],
         ["immersiveengineering:seed", 0.15],
     ]).mb(50);
 
