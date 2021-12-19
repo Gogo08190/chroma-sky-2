@@ -114,9 +114,17 @@ events.listen('jei.hide.items', function (event) {
     'bloodmagic:sulfur',
     'mekanism:block_charcoal',
     'quark:charcoal_block',
-    'thermal:sapphire',
-    'thermal:ruby',
-    'miniutilities:ender_dust'
+    'miniutilities:ender_dust',
+    'projectred-core:ruby',
+    'projectred-core:sapphire',
+    'projectred-exploration:ruby_ore',
+    'projectred-exploration:sapphire_ore',
+    'mekanism:ingot_lead',
+    'projectred-core:ruby';
+    'projectred-core:sapphire',
+    'projectred-exploration:ruby_ore',
+    'projectred-exploration:sapphire_ore'
+
   ])
 })
 

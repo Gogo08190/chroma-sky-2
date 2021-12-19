@@ -86,6 +86,9 @@ onEvent('item.tags', event => {
 
     event.remove('forge:storage_blocks/charcoal', 'mekanism:block_charcoal')
     event.remove('forge:storage_blocks/charcoal', 'quark:charcoal_block')
+
+    event.remove('forge:ores/ruby', 'projectred-exploration:ruby_ore')
+    event.remove('forge:ores/sapphire', 'projectred-exploration:sapphire_ore')
   })
 
 onEvent('block.tags', event => {
@@ -96,10 +99,21 @@ onEvent('block.tags', event => {
     event.remove('forge:ores/silver', ['projectred-exploration:silver_ore', 'occultism:silver_ore', 'immersiveengineering:ore_silver'])
     event.remove('forge:ores/nickel', 'immersiveengineering:ore_nickel')
     event.remove('forge:ores/tin', ['mekanism:tin_ore', 'projectred-exploration:tin_ore'])
+    event.remove('forge:ores/ruby', 'projectred-exploration:ruby_ore')
+    event.remove('forge:ores/sapphire', 'projectred-exploration:sapphire_ore')
 
   })
 
 onEvent('recipes', event => {
+  event
+        .shaped("ftbjarmod:cast_iron_gear", [" I ", "INI", " I "], {
+            I: "#forge:ingots/cast_iron",
+            N: "#forge:nuggets/cast_iron",
+        })
+        .id("ftbjarmod:cast_iron_gear");
+
+  event.replaceInput({ output: "#forge:gears" }, "minecraft:iron_nugget", "#forge:nuggets/cast_iron");
+
   event.remove({ id: /industrialforegoing:.*_gear/ })
   event.remove({id: "immersiveengineering:crafting/ingot_steel_to_nugget_steel"})
   event.remove({id: "immersiveengineering:crafting/storage_steel_to_ingot_steel"})
@@ -135,10 +149,14 @@ onEvent('recipes', event => {
   event.replaceOutput("quark:charcoal_block", "thermal:charcoal_block");
 
   event.replaceInput("projectred-core:ruby", "#forge:gems/ruby");
-  event.replaceOutput("thermal:ruby", "projectred-core:ruby");
+  event.replaceInput("thermal:ruby", "#forge:gems/ruby");
+  event.replaceOutput("projectred-core:ruby", "thermal:ruby");
+  event.replaceOutput("projectred-exploration:ruby_block", "thermal:ruby_block");
 
   event.replaceInput("projectred-core:sapphire", "#forge:gems/sapphire");
-  event.replaceOutput("thermal:sapphire", "projectred-core:sapphire");
+  event.replaceInput("thermal:sapphire", "#forge:gems/sapphire");
+  event.replaceOutput("projectred-core:sapphire", "thermal:sapphire");
+  event.replaceOutput("projectred-exploration:sapphire_block", "thermal:sapphire_block");
 
   event.replaceInput("miniutilities:ender_dust", "#forge:dusts/ender");
   event.replaceInput("thermal:ender_pearl_dust", "#forge:dusts/ender");
@@ -240,6 +258,12 @@ onEvent('recipes', event => {
 
     stoneCutter([{"item": "thermal:coal_coke_block"}],'immersiveengineering:coke')
     stoneCutter([{"item": "immersiveengineering:coke"}],'thermal:coal_coke_block')
+
+    stoneCutter([{"item": "projectred-exploration:ruby_block"}],'thermal:ruby_block')
+    stoneCutter([{"item": "thermal:ruby_block"}],'projectred-exploration:ruby_block')
+
+    stoneCutter([{"item": "projectred-exploration:sapphire_block"}],'thermal:sapphire_block')
+    stoneCutter([{"item": "thermal:sapphire_block"}],'projectred-exploration:sapphire_block')
 
     stoneCutter([{"item": "occultism:silver_block"},{"item": "projectred-exploration:silver_block"},{"item": "immersiveengineering:storage_silver"}],'thermal:silver_block')
     stoneCutter([{"item": "occultism:silver_block"},{"item": "projectred-exploration:silver_block"},{"item": "thermal:silver_block"}],'immersiveengineering:storage_silver')

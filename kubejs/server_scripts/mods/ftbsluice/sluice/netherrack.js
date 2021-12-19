@@ -3,7 +3,7 @@ onEvent("recipes", (event) => {
 
     sluice(["iron"], "ftbsluice:crushed_netherrack", [
         ["projectred-core:electrotine_dust", 0.22],
-        ["projectred-core:ruby", 0.30],
+        ["thermal:ruby", 0.30],
         ["tconstruct:debris_nugget", 0.01],
         ["chromasky:quartz_chunk", 0.15],
         ["minecraft:glowstone_dust", 0.11],
@@ -13,7 +13,7 @@ onEvent("recipes", (event) => {
         ["chromasky:quartz_chunk", 0.23],
         ["projectred-core:electrotine_dust", 0.30],
         ["tconstruct:debris_nugget", 0.04],
-        ["projectred-core:ruby", 0.35],
+        ["thermal:ruby", 0.35],
         ["chromasky:cobalt_chunk", 0.15],
         ["minecraft:glowstone_dust", 0.18],
     ]).fluid("minecraft:lava");
