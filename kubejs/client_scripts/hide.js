@@ -119,12 +119,7 @@ events.listen('jei.hide.items', function (event) {
     'projectred-core:sapphire',
     'projectred-exploration:ruby_ore',
     'projectred-exploration:sapphire_ore',
-    'mekanism:ingot_lead',
-    'projectred-core:ruby';
-    'projectred-core:sapphire',
-    'projectred-exploration:ruby_ore',
-    'projectred-exploration:sapphire_ore'
-
+    'mekanism:ingot_lead'
   ])
 })
 
@@ -144,4 +139,7 @@ onEvent("jei.add.items", (event) => {
     event.add(Item.of("thermal:ruby_block"));
     event.add(Item.of("thermal:ruby_dust"));
     event.add(Item.of("thermal:ruby_gear"));
+    event.add(Item.of("thermal:ruby_gear"));
+    event.add(Item.of("thermal:ruby"));
+    event.add(Item.of("thermal:sapphire"));
 });

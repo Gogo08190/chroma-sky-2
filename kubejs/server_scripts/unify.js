@@ -89,6 +89,8 @@ onEvent('item.tags', event => {
 
     event.remove('forge:ores/ruby', 'projectred-exploration:ruby_ore')
     event.remove('forge:ores/sapphire', 'projectred-exploration:sapphire_ore')
+    event.remove('forge:gems/ruby', 'projectred-core:ruby')
+    event.remove('forge:gems/sapphire', 'projectred-core:sapphire')
   })
 
 onEvent('block.tags', event => {
