@@ -7,6 +7,7 @@ onEvent("recipes", (event) => {
         ["tconstruct:debris_nugget", 0.01],
         ["chromasky:quartz_chunk", 0.15],
         ["minecraft:glowstone_dust", 0.11],
+        ["minecraft:blaze_powder", 0.10],
     ]).fluid("minecraft:lava");
 
     sluice(["gold"], "ftbsluice:crushed_netherrack", [
@@ -16,6 +17,7 @@ onEvent("recipes", (event) => {
         ["thermal:ruby", 0.35],
         ["chromasky:cobalt_chunk", 0.15],
         ["minecraft:glowstone_dust", 0.18],
+        ["minecraft:blaze_powder", 0.17],
     ]).fluid("minecraft:lava");
 
     sluice(["diamond"], "ftbsluice:crushed_netherrack", [
@@ -26,6 +28,7 @@ onEvent("recipes", (event) => {
         ["chromasky:quartz_chunk", 0.30],
         ["chromasky:cobalt_chunk", 0.18],
         ["minecraft:glowstone_dust", 0.24],
+        ["minecraft:blaze_powder", 0.23],
     ]).fluid("minecraft:lava");;
 
     sluice(["blazing"], "ftbsluice:crushed_netherrack", [
@@ -36,5 +39,6 @@ onEvent("recipes", (event) => {
         ["tconstruct:cobalt_ingot", 0.07],
         ["minecraft:netherite_scrap", 0.08],
         ["minecraft:glowstone_dust", 0.26],
+        ["minecraft:blaze_powder", 0.30],
     ]).fluid("minecraft:lava");
 });

@@ -7,6 +7,8 @@ onEvent("recipes", (event) => {
         ["tconstruct:netherite_nugget", 0.05],
         ["minecraft:gold_nugget", 0.16],
         ["minecraft:netherrack", 0.26],
+        ["minecraft:brown_mushroom", 0.13],
+        ["minecraft:red_mushroom", 0.13],
     ]).mb(50);
 
     sluice(["iron"], "ftbsluice:crushed_basalt", [
@@ -15,6 +17,8 @@ onEvent("recipes", (event) => {
       ["tconstruct:netherite_nugget", 0.06],
       ["minecraft:gold_nugget", 0.26],
       ["minecraft:netherrack", 0.36],
+      ["farmersdelight:brown_mushroom_colony", 0.13],
+      ["farmersdelight:red_mushroom_colony", 0.13],
     ]);
 
     sluice(["gold"], "ftbsluice:crushed_basalt", [
