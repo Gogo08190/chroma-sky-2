@@ -21,4 +21,7 @@ onEvent("item.registry", (event) => {
     event.create("chromasky:ultimategear").displayName("Ultimate Gear");
     event.create("chromasky:hammer_head").displayName("Hammer Head");
     event.create("chromasky:wirecutter_head").displayName("Wire Cutters Head");
+    event.create("chromasky:mechanic_core_tier_1").displayName("Mechanic Core Tier 1");
+    event.create("chromasky:mechanic_core_tier_2").displayName("Mechanic Core Tier 2");
+    event.create("chromasky:mechanic_core_tier_3").displayName("Mechanic Core Tier 3");
 });
