@@ -158,7 +158,7 @@ onEvent('recipes', event => {
     S: 'mekanism:ingot_steel'
   })
 
-  // Electrum Coil Block
+  // High Voltage Coil Block
   event.remove({ output: 'immersiveengineering:coil_hv' })
   event.shaped('immersiveengineering:coil_hv', [
   'CCC',
@@ -167,6 +167,20 @@ onEvent('recipes', event => {
   ], {
     C: 'immersiveengineering:wirecoil_steel',
     S: 'mekanism:ingot_steel'
+  })
+
+  // Blueprint Components
+  event.remove({ output: Item.of('immersiveengineering:blueprint', '{blueprint:"components"}') })
+  event.shaped(Item.of('immersiveengineering:blueprint', '{blueprint:"components"}'), [
+  'CES',
+  'BBB',
+  'PPP'
+  ], {
+    C: 'thermal:constantan_ingot',
+    S: 'mekanism:ingot_steel',
+    E: 'thermal:electrum_ingot',
+    B: 'minecraft:blue_dye',
+    P: 'minecraft:paper'
   })
 
   });

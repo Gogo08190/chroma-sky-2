@@ -63,4 +63,25 @@ onEvent("recipes", (event) => {
     C: 'immersiveengineering:component_steel',
     G: 'thermal:ruby_gear'
   })
+
+  event.remove({ output: 'thermal:rf_coil' })
+  event.shaped('thermal:rf_coil', [
+  ' WG',
+  'WRW',
+  'GW '
+  ], {
+    W: 'immersiveengineering:wire_electrum',
+    G: 'minecraft:gold_ingot',
+    R: 'extendedcrafting:redstone_ingot'
+  })
+
+  event.remove({ output: 'thermal:redstone_servo' })
+  event.shaped('thermal:redstone_servo', [
+  'RSR',
+  ' S ',
+  'RSR'
+  ], {
+    S: 'mekanism:ingot_steel',
+    R: 'extendedcrafting:redstone_ingot'
+  })
 });

@@ -3,7 +3,7 @@ onEvent("item.tags", (event) => {
     event.add("tconstruct:tables/station", /^tconstruct:tinker_station/g);
     event.add("tconstruct:tables/builder", /^tconstruct:part_builder/g);
     event.add("forge:rubber", "thermal:rubber");
-    event.add("itemfilters:check_nbt", ["extendedcrafting:singularity", "patchouli:guide_book"]);
+    event.add("itemfilters:check_nbt", ["extendedcrafting:singularity", "patchouli:guide_book", "immersiveengineering:blueprint"]);
     event.add("forge:ingots/inferium", "mysticalagriculture:inferium_ingot");
     event.add("forge:uraninite", "powah:uraninite");
     event.add("forge:dusts/ender", "thermal:ender_pearl_dust");
