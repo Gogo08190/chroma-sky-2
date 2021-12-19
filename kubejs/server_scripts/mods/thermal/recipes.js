@@ -84,4 +84,18 @@ onEvent("recipes", (event) => {
     S: 'mekanism:ingot_steel',
     R: 'extendedcrafting:redstone_ingot'
   })
+
+  event.remove({ output: 'thermal:dynamo_stirling' })
+  event.shaped('thermal:dynamo_stirling', [
+  ' C ',
+  'IGI',
+  'BRB'
+  ], {
+    C: 'chromasky:excitationcoil',
+    G: 'ftbjarmod:cast_iron_gear',
+    I: 'ftbjarmod:cast_iron_ingot',
+    B: 'minecraft:basalt',
+    R: 'extendedcrafting:redstone_ingot'
+
+  })
 });
