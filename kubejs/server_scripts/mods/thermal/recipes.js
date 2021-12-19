@@ -54,4 +54,13 @@ onEvent("recipes", (event) => {
     S: 'immersiveengineering:plate_steel',
     R: 'immersiveengineering:stick_steel'
   })
+
+  event.shaped('chromasky:mechanic_core_tier_1', [
+  ' C ',
+  'CGC',
+  ' C '
+  ], {
+    C: 'immersiveengineering:component_steel',
+    G: 'thermal:ruby_gear'
+  })
 });
