@@ -85,6 +85,18 @@ onEvent("recipes", (event) => {
     R: 'extendedcrafting:redstone_ingot'
   })
 
+  event.shaped('chromasky:excitationcoil', [
+  'RRR',
+  'CHC',
+  'ESC'
+  ], {
+    R: 'extendedcrafting:redstone_ingot',
+    C: 'thermal:rf_coil',
+    H: 'immersiveengineering:coil_hv',
+    E: 'thermal:electrum_plate',
+    S: 'thermal:redstone_servo'
+  })
+
   event.remove({ output: 'thermal:dynamo_stirling' })
   event.shaped('thermal:dynamo_stirling', [
   ' C ',
@@ -96,6 +108,5 @@ onEvent("recipes", (event) => {
     I: 'ftbjarmod:cast_iron_ingot',
     B: 'minecraft:basalt',
     R: 'extendedcrafting:redstone_ingot'
-
   })
 });
