@@ -88,7 +88,7 @@ onEvent("recipes", (event) => {
   event.shaped('chromasky:excitationcoil', [
   'RRR',
   'CHC',
-  'ESC'
+  'ESE'
   ], {
     R: 'extendedcrafting:redstone_ingot',
     C: 'thermal:rf_coil',
