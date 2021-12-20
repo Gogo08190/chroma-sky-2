@@ -187,4 +187,40 @@ onEvent("recipes", (event) => {
     B: 'minecraft:bucket',
     C: 'ftbjarmod:cast_iron_ingot'
   })
+
+  event.remove({ output: 'thermal:upgrade_augment_1' })
+  event.shaped('thermal:upgrade_augment_1', [
+  'PGP',
+  'RAR',
+  'PGP'
+  ], {
+    P: 'thermal:invar_plate',
+    G: 'thermal:obsidian_glass',
+    R: 'extendedcrafting:redstone_ingot',
+    A: 'thermal:electrum_gear'
+  })
+
+  event.remove({ output: 'thermal:upgrade_augment_2' })
+  event.shaped('thermal:upgrade_augment_2', [
+  'PGP',
+  'RAR',
+  'PGP'
+  ], {
+    P: 'thermal:electrum_plate',
+    G: 'thermal:lumium_glass',
+    R: 'thermal:signalum_gear',
+    A: 'thermal:upgrade_augment_1'
+  })
+
+  event.remove({ output: 'thermal:upgrade_augment_3' })
+  event.shaped('thermal:upgrade_augment_3', [
+  'PGP',
+  'RAR',
+  'PGP'
+  ], {
+    P: 'thermal:enderium_plate',
+    G: 'thermal:enderium_glass',
+    R: 'thermal:lumium_gear',
+    A: 'thermal:upgrade_augment_2'
+  })
 });
