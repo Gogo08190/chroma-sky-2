@@ -279,4 +279,17 @@ onEvent("recipes", (event) => {
     G: '#forge:glass',
     E: 'thermal:bronze_gear'
   })
+
+  event.remove({ output: 'thermal:device_tree_extractor' })
+  event.shaped('thermal:device_tree_extractor', [
+  'WNW',
+  'GBG',
+  'WSW'
+  ], {
+    W: 'immersiveengineering:treated_wood_horizontal',
+    S: 'thermal:redstone_servo',
+    G: '#forge:glass',
+    B: 'minecraft:bucket',
+    N: 'thermal:nickel_gear'
+  })
 });
