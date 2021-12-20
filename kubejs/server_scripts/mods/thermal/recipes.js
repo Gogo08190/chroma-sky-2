@@ -109,4 +109,17 @@ onEvent("recipes", (event) => {
     B: 'minecraft:basalt',
     R: 'extendedcrafting:redstone_ingot'
   })
+
+  event.remove({ output: 'thermal:device_water_gen' })
+  event.shaped('thermal:device_water_gen', [
+  'PCP',
+  'GBG',
+  'PSP'
+  ], {
+    P: 'thermal:copper_plate',
+    S: 'thermal:redstone_servo',
+    G: '#forge:glass',
+    B: 'minecraft:bucket',
+    C: 'ftbjarmod:cast_iron_ingot'
+  })
 });
