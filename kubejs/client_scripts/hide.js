@@ -122,7 +122,7 @@ events.listen('jei.hide.items', function (event) {
     'mekanism:ingot_lead',
     'projectred-core:tin_ingot',
     'projectred-core:silver_ingot',
-    'projectred-core:silver_ingot'
+    'mekanism:ingot_bronze'
   ])
 })
 
