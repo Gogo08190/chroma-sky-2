@@ -119,7 +119,10 @@ events.listen('jei.hide.items', function (event) {
     'projectred-core:sapphire',
     'projectred-exploration:ruby_ore',
     'projectred-exploration:sapphire_ore',
-    'mekanism:ingot_lead'
+    'mekanism:ingot_lead',
+    'projectred-core:tin_ingot',
+    'projectred-core:silver_ingot',
+    'projectred-core:silver_ingot'
   ])
 })
 

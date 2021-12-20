@@ -55,7 +55,7 @@ onEvent('item.tags', event => {
     event.remove('forge:ingots/tin', ['mekanism:ingot_tin', 'projectred-core:tin_ingot'])
     event.remove('forge:storage_blocks/tin', ['mekanism:block_tin', 'projectred-exploration:tin_block'])
     event.remove('forge:dusts/tin', ['pedestals:dusttin', 'mekanism:dust_tin'])
-    event.remove('forge:nuggets/tin', ['mekanism:nugget_tin', 'thermal:tin_nugget'])
+    event.remove('forge:nuggets/tin', 'mekanism:nugget_tin')
 
     event.remove('forge:dusts/diamond', 'mekanism:dust_diamond')
 
