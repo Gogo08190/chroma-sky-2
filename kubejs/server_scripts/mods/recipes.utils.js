@@ -102,4 +102,15 @@ onEvent("recipes", (event) => {
       O: 'minecraft:obsidian',
       P: 'minecraft:painting'
     });
+
+    event.remove({ output: 'dimpaintings:end_painting' })
+    event.shaped('dimpaintings:end_painting', [
+    'NON',
+    'OPO',
+    'NON'
+    ], {
+      N: 'chromasky:3x_compressed_endstone',
+      O: 'cyclic:ender_eye_reuse',
+      P: 'minecraft:painting'
+    });
 });
