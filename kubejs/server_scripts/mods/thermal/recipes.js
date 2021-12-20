@@ -231,4 +231,52 @@ onEvent("recipes", (event) => {
   ], {
     P: 'mysticalagriculture:rubber_essence'
   })
+
+  event.remove({ output: 'thermal:energy_cell' })
+  event.shaped('thermal:energy_cell', [
+  'CRC',
+  'IFI',
+  'CAC'
+  ], {
+    C: 'thermal:cured_rubber',
+    R: 'extendedcrafting:redstone_ingot_block',
+    I: 'ftbjarmod:cast_iron_ingot',
+    F: 'thermal:energy_cell_frame',
+    A: 'thermal:rf_coil'
+  })
+
+  event.remove({ output: 'thermal:fluid_cell' })
+  event.shaped('thermal:fluid_cell', [
+  'CRC',
+  'IFI',
+  'CAC'
+  ], {
+    C: 'thermal:cured_rubber',
+    R: 'thermal:obsidian_glass',
+    I: 'thermal:bronze_ingot',
+    F: 'thermal:fluid_cell_frame',
+    A: 'thermal:redstone_servo'
+  })
+
+  event.remove({ output: 'thermal:energy_cell_frame' })
+  event.shaped('thermal:energy_cell_frame', [
+  'LGL',
+  'GEG',
+  'LGL'
+  ], {
+    L: 'thermal:lead_plate',
+    G: '#forge:glass',
+    E: 'thermal:electrum_gear'
+  })
+
+  event.remove({ output: 'thermal:fluid_cell_frame' })
+  event.shaped('thermal:fluid_cell_frame', [
+  'LGL',
+  'GEG',
+  'LGL'
+  ], {
+    L: 'thermal:copper_plate',
+    G: '#forge:glass',
+    E: 'thermal:bronze_gear'
+  })
 });
