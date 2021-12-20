@@ -92,8 +92,8 @@ onEvent("recipes", (event) => {
       P: 'minecraft:painting'
     });
 
-    event.remove({ output: 'dimpaintings:overworld_painting' })
-    event.shaped('dimpaintings:overworld_painting', [
+    event.remove({ output: 'dimpaintings:nether_painting' })
+    event.shaped('dimpaintings:nether_painting', [
     'NON',
     'OPO',
     'NON'
