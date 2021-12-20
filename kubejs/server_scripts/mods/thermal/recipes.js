@@ -110,6 +110,71 @@ onEvent("recipes", (event) => {
     R: 'extendedcrafting:redstone_ingot'
   })
 
+  event.remove({ output: 'thermal:dynamo_compression' })
+  event.shaped('thermal:dynamo_compression', [
+  ' C ',
+  'IGI',
+  'BRB'
+  ], {
+    C: 'chromasky:excitationcoil',
+    G: 'thermal:constantan_gear',
+    I: 'thermal:invar_ingot',
+    B: 'thermal:bronze_block',
+    R: 'thermal:rf_coil'
+  })
+
+  event.remove({ output: 'thermal:dynamo_magmatic' })
+  event.shaped('thermal:dynamo_magmatic', [
+  ' C ',
+  'IGI',
+  'BRB'
+  ], {
+    C: 'chromasky:excitationcoil',
+    G: 'thermal:invar_gear',
+    I: 'mekanism:ingot_steel',
+    B: 'thermal:invar_plate',
+    R: 'thermal:rf_coil'
+  })
+
+  event.remove({ output: 'thermal:dynamo_numismatic' })
+  event.shaped('thermal:dynamo_numismatic', [
+  ' C ',
+  'IGI',
+  'BRB'
+  ], {
+    C: 'chromasky:excitationcoil',
+    G: 'thermal:electrum_gear',
+    I: 'thermal:iron_plate',
+    B: 'thermal:lumium_ingot',
+    R: 'thermal:redstone_servo'
+  })
+
+  event.remove({ output: 'thermal:dynamo_lapidary' })
+  event.shaped('thermal:dynamo_lapidary', [
+  ' C ',
+  'IGI',
+  'BRB'
+  ], {
+    C: 'chromasky:excitationcoil',
+    G: 'thermal:lumium_gear',
+    I: 'thermal:invar_ingot',
+    B: 'thermal:lapis_gear',
+    R: 'thermal:rf_coil'
+  })
+
+  event.remove({ output: 'thermal:dynamo_disenchantment' })
+  event.shaped('thermal:dynamo_disenchantment', [
+  ' C ',
+  'IGI',
+  'BRB'
+  ], {
+    C: 'chromasky:excitationcoil',
+    G: 'industrialforegoing:pink_slime_ingot',
+    I: 'tconstruct:manyullyn_ingot',
+    B: 'minecraft:enchanted_book',
+    R: 'thermal:ruby_gear'
+  })
+
   event.remove({ output: 'thermal:device_water_gen' })
   event.shaped('thermal:device_water_gen', [
   'PCP',
