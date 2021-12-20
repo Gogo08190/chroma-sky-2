@@ -68,4 +68,38 @@ onEvent("recipes", (event) => {
       B: 'minecraft:stick',
       E: 'pamhc2foodcore:rolleritem'
     });
+
+    event.remove({ output: 'cookingforblockheads:sink' })
+    event.shaped('cookingforblockheads:sink', [
+    'CCC',
+    'TAT',
+    'TTT'
+    ], {
+      C: 'ftbjarmod:cast_iron_ingot',
+      T: 'minecraft:terracotta',
+      A: 'thermal:device_water_gen'
+    });
+
+    event.remove({ output: 'dimpaintings:overworld_painting' })
+    event.shaped('dimpaintings:overworld_painting', [
+    'SLC',
+    'LPL',
+    'CLS'
+    ], {
+      S: 'chromasky:3x_compressed_stone',
+      C: 'chromasky:3x_compressed_cobblestone',
+      L: '#minecraft:leaves',
+      P: 'minecraft:painting'
+    });
+
+    event.remove({ output: 'dimpaintings:overworld_painting' })
+    event.shaped('dimpaintings:overworld_painting', [
+    'NON',
+    'OPO',
+    'NON'
+    ], {
+      N: 'chromasky:2x_compressed_netherrack',
+      O: 'minecraft:obsidian',
+      P: 'minecraft:painting'
+    });
 });
