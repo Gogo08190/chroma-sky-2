@@ -223,4 +223,12 @@ onEvent("recipes", (event) => {
     R: 'thermal:lumium_gear',
     A: 'thermal:upgrade_augment_2'
   })
+
+  event.remove({ output: 'thermal:rubber' })
+  event.shapeless('4x thermal:rubber', 'thermal:rubber_block');
+  event.shaped('8x thermal:rubber', [
+  'RRR'
+  ], {
+    P: 'mysticalagriculture:rubber_essence'
+  })
 });
