@@ -9,7 +9,7 @@ onEvent("recipes", (event) => {
 
   event.remove({ output: 'thermal:obsidian_glass' })
   event.recipes.thermal
-    .smelter("2x thermal:obsidian_glass", ["#forge:gems/quartz", "minecraft:obsidian", "minecraft:obsidian", "#forge:sand"])
+    .smelter("2x thermal:obsidian_glass", ["#forge:gems/quartz", "minecraft:obsidian", "#forge:sand"])
     .energy(2000);
 
   event
