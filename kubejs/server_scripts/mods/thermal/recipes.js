@@ -292,4 +292,15 @@ onEvent("recipes", (event) => {
     B: 'minecraft:bucket',
     N: 'thermal:nickel_gear'
   })
+
+  event.shaped('chromasky:mechanic_core_tier_2', [
+  'TPR',
+  'PEP',
+  'RPT'
+  ], {
+    T: 'thermal:tar',
+    P: 'industrialforegoing:plastic',
+    R: 'thermal:cured_rubber',
+    E: 'thermal:emerald_gear'
+  })
 });
