@@ -87,4 +87,16 @@ onEvent("recipes", (event) => {
     R: 'extendedcrafting:redstone_ingot',
     F: 'rftoolsutility:crafter2'
   })
+
+  event.remove({ output: 'rftoolsstorage:storage_scanner' })
+  event.shaped('rftoolsstorage:storage_scanner', [
+  'RPR',
+  'GFG',
+  'RPR'
+  ], {
+    G: 'thermal:gold_plate',
+    R: 'extendedcrafting:redstone_ingot',
+    F: 'rftoolsbase:machine_frame',
+    P: 'minecraft:ender_pearl'
+  })
 });
