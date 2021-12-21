@@ -158,4 +158,57 @@ onEvent("recipes", (event) => {
     S: 'rftoolsbuilder:shield_block3',
     N: 'minecraft:nether_star'
   })
+
+  event.remove({ output: 'rftoolsstorage:storage_module0' })
+  event.shaped('rftoolsstorage:storage_module0', [
+  ' C ',
+  'PSP',
+  'QRQ'
+  ], {
+    Q: 'minecraft:quartz',
+    R: 'extendedcrafting:redstone_ingot',
+    P: 'thermal:gold_plate',
+    S: 'mekanism:ingot_steel',
+    C: '#forge:chests'
+  })
+
+  event.remove({ output: 'rftoolsstorage:storage_module1' })
+  event.shaped('rftoolsstorage:storage_module1', [
+  ' C ',
+  'PSP',
+  'QRQ'
+  ], {
+    Q: 'minecraft:quartz',
+    R: 'extendedcrafting:redstone_ingot',
+    P: 'thermal:electrum_plate',
+    S: 'mekanism:ingot_steel',
+    C: 'rftoolsstorage:storage_module0'
+  })
+
+  event.remove({ output: 'rftoolsstorage:storage_module2' })
+  event.shaped('rftoolsstorage:storage_module2', [
+  ' C ',
+  'PSP',
+  'QRQ'
+  ], {
+    Q: '#forge:storage_blocks/quartz',
+    R: 'extendedcrafting:redstone_ingot_block',
+    P: 'tconstruct:rose_gold_block',
+    S: 'mekanism:block_steel',
+    C: 'rftoolsstorage:storage_module1'
+  })
+
+  event.remove({ output: 'rftoolsstorage:storage_module3' })
+  event.shaped('rftoolsstorage:storage_module3', [
+  'DCD',
+  'PSP',
+  'QRQ'
+  ], {
+    Q: 'minecraft:chiseled_quartz_block',
+    R: 'extendedcrafting:redstone_ingot_block',
+    P: 'occultism:spirit_attuned_gem',
+    S: 'tconstruct:slimesteel_block',
+    C: 'rftoolsstorage:storage_module2',
+    D: 'rftoolsbase:infused_diamond'
+  })
 });
