@@ -211,4 +211,17 @@ onEvent("recipes", (event) => {
     C: 'rftoolsstorage:storage_module2',
     D: 'rftoolsbase:infused_diamond'
   })
+
+  event.remove({ output: 'rftoolsstorage:storage_control_module' })
+  event.shaped('rftoolsstorage:storage_control_module', [
+  'SCE',
+  'RIR',
+  'ECS'
+  ], {
+    S: 'thermal:signalum_plate',
+    C: 'immersiveengineering:craftingtable',
+    E: 'thermal:enderium_plate',
+    R: 'extendedcrafting:redstone_ingot',
+    I: 'mekanism:ingot_steel'
+  })
 });
