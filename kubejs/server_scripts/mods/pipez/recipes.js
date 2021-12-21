@@ -52,4 +52,16 @@ onEvent("recipes", (event) => {
     R: 'immersiveposts:stick_lead',
     S: 'mekanism:ingot_steel'
   })
+
+  event.remove({ output: 'pipez:filter_destination_tool' })
+  event.shaped('pipez:filter_destination_tool', [
+  'SSS',
+  'RGR',
+  'SBS'
+  ], {
+    B: '#minecraft:buttons',
+    S: 'mekanism:ingot_steel',
+    R: 'extendedcrafting:redstone_ingot',
+    G: '#forge:glass_panes'
+  })
 });
