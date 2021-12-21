@@ -274,4 +274,16 @@ onEvent("recipes", (event) => {
     E: 'minecraft:ender_pearl',
     M: 'rftoolsbase:machine_frame'
   })
+
+  event.remove({ output: 'rftoolsutility:matter_beamer' })
+  event.shaped('rftoolsutility:matter_beamer', [
+  'RSR',
+  'GMG',
+  'RSR'
+  ], {
+    R: 'extendedcrafting:redstone_ingot_block',
+    S: 'minecraft:shroomlight',
+    G: '#forge:glowstone',
+    M: 'rftoolsbase:machine_frame'
+  })
 });
