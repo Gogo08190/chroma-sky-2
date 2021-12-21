@@ -51,7 +51,7 @@ onEvent("recipes", (event) => {
   ], {
     C: 'immersiveengineering:crate',
     P: 'thermal:invar_plate',
-    R: 'extendedcrafting:redstone_ingot_block',
+    R: 'extendedcrafting:redstone_ingot',
     F: 'rftoolsbase:machine_frame'
   })
 });
