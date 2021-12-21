@@ -99,4 +99,16 @@ onEvent("recipes", (event) => {
     F: 'rftoolsbase:machine_frame',
     P: 'minecraft:ender_pearl'
   })
+
+  event.remove({ output: 'rftoolsbuilder:builder' })
+  event.shaped('rftoolsbuilder:builder', [
+  'BPB',
+  'RFR',
+  'BRB'
+  ], {
+    B: 'minecraft:polished_blackstone_bricks',
+    R: 'extendedcrafting:redstone_ingot',
+    F: 'rftoolsbase:machine_frame',
+    P: 'rftoolsbase:infused_enderpearl'
+  })
 });
