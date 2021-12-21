@@ -41,7 +41,7 @@ onEvent('recipes', event => {
     'signalum',
     'sulfur',
     'bronze',
-    'saltpeter',
+    'niter',
     'enderium',
     'uranium',
     'invar',
@@ -52,5 +52,8 @@ onEvent('recipes', event => {
 
   essence.forEach(function (item, index) {
     event.remove({id: "mysticalagriculture:essence/common/" + item +"_ingot"})
+    event.remove({id: "mysticalagriculture:essence/common/" + item})
+    event.remove({id: "mysticalagriculture:essence/thermal/" + item +"_ingot"})
+    event.remove({id: "mysticalagriculture:essence/gems/" + item})
   });
 });
