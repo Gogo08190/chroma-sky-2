@@ -42,4 +42,16 @@ onEvent("recipes", (event) => {
     R: 'extendedcrafting:redstone_ingot_block',
     E: 'minecraft:emerald'
   })
+
+  event.remove({ output: 'rftoolsstorage:modular_storage' })
+  event.shaped('rftoolsstorage:modular_storage', [
+  'RCR',
+  'PFP',
+  'RPR'
+  ], {
+    C: 'immersiveengineering:crate',
+    P: 'thermal:invar_plate',
+    R: 'extendedcrafting:redstone_ingot_block',
+    F: 'rftoolsbase:machine_frame'
+  })
 });
