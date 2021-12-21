@@ -54,4 +54,15 @@ onEvent("recipes", (event) => {
     R: 'extendedcrafting:redstone_ingot',
     F: 'rftoolsbase:machine_frame'
   })
+
+  event.remove({ output: 'rftoolsutility:crafter1' })
+  event.shaped('rftoolsutility:crafter1', [
+  ' R ',
+  'CFC',
+  ' R '
+  ], {
+    C: 'immersiveengineering:craftingtable',
+    R: 'extendedcrafting:redstone_ingot',
+    F: 'rftoolsbase:machine_frame'
+  })
 });
