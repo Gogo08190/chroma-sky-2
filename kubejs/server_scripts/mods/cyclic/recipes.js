@@ -12,8 +12,8 @@ onEvent("recipes", (event) => {
     Q: 'thermal:quartz_gear'
   })
 
-  event.remove({ output: 'cyclic:solidifier' })
-  event.shaped('cyclic:solidifier', [
+  event.remove({ output: 'cyclic:melter' })
+  event.shaped('cyclic:melter', [
   'LQL',
   'GFG',
   'OOO'
