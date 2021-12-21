@@ -224,4 +224,16 @@ onEvent("recipes", (event) => {
     R: 'extendedcrafting:redstone_ingot',
     I: 'mekanism:ingot_steel'
   })
+
+  event.remove({ output: 'rftoolsutility:matter_transmitter' })
+  event.shaped('rftoolsutility:matter_transmitter', [
+  'PPP',
+  'RFR',
+  'SSS'
+  ], {
+    S: 'mekanism:ingot_steel',
+    R: 'extendedcrafting:redstone_ingot',
+    F: 'rftoolsbase:machine_frame',
+    P: 'minecraft:ender_pearl'
+  })
 });
