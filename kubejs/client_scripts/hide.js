@@ -122,7 +122,23 @@ events.listen('jei.hide.items', function (event) {
     'mekanism:ingot_lead',
     'projectred-core:tin_ingot',
     'projectred-core:silver_ingot',
-    'mekanism:ingot_bronze'
+    'mekanism:ingot_bronze',
+    'mysticalagriculture:brass_essence',
+    'mysticalagriculture:brass_seeds',
+    'mysticalagriculture:iridium_seeds',
+    'mysticalagriculture:iridium_essence',
+    'mysticalagriculture:chrome_seeds',
+    'mysticalagriculture:platinum_seeds',
+    'mysticalagriculture:graphite_seeds',
+    'mysticalagriculture:tungsten_seeds',
+    'mysticalagriculture:mithril_seeds',
+    'mysticalagriculture:titanium_seeds',
+    'mysticalagriculture:platinum_essence',
+    'mysticalagriculture:graphite_essence',
+    'mysticalagriculture:tungsten_essence',
+    'mysticalagriculture:mithril_essence',
+    'mysticalagriculture:titanium_essence',
+    'mysticalagriculture:chrome_essence'
   ])
 })
 
