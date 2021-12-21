@@ -236,4 +236,16 @@ onEvent("recipes", (event) => {
     F: 'rftoolsbase:machine_frame',
     P: 'minecraft:ender_pearl'
   })
+
+  event.remove({ output: 'rftoolsutility:matter_receiver' })
+  event.shaped('rftoolsutility:matter_receiver', [
+  'SSS',
+  'RFR',
+  'PPP'
+  ], {
+    S: 'mekanism:ingot_steel',
+    R: 'extendedcrafting:redstone_ingot',
+    F: 'rftoolsbase:machine_frame',
+    P: 'minecraft:ender_pearl'
+  })
 });
