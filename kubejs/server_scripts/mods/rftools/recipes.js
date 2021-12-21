@@ -20,4 +20,14 @@ onEvent("recipes", (event) => {
     P: 'thermal:gold_plate',
     C: 'chromasky:mechanic_core_tier_2'
   })
+
+  event.remove({ output: 'rftoolsbase:smartwrench' })
+  event.shaped('rftoolsbase:smartwrench', [
+  ' S ',
+  ' PS',
+  'P  '
+  ], {
+    S: 'mekanism:ingot_steel',
+    P: 'thermal:enderium_plate'
+  })
 });
