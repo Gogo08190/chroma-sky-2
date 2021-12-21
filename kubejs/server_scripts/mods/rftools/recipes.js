@@ -30,4 +30,16 @@ onEvent("recipes", (event) => {
     S: 'mekanism:ingot_steel',
     P: 'thermal:enderium_plate'
   })
+
+  event.remove({ output: 'rftoolsbase:tablet' })
+  event.shaped('rftoolsbase:tablet', [
+  'PEP',
+  'RQR',
+  'PRP'
+  ], {
+    Q: 'thermal:quartz_gear',
+    P: 'thermal:gold_plate',
+    R: 'extendedcrafting:redstone_ingot_block',
+    E: 'minecraft:emerald'
+  })
 });
