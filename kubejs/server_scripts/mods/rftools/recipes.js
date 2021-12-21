@@ -260,4 +260,18 @@ onEvent("recipes", (event) => {
     G: 'thermal:obsidian_glass',
     C: 'cyclic:cask'
   })
+
+  event.remove({ output: 'rftoolsutility:spawner' })
+  event.shaped('rftoolsutility:spawner', [
+  'RFR',
+  'EML',
+  'RBR'
+  ], {
+    R: 'extendedcrafting:redstone_ingot',
+    B: 'minecraft:bone',
+    L: 'minecraft:blaze_rod',
+    F: 'minecraft:rotten_flesh',
+    E: 'minecraft:ender_pearl',
+    M: 'rftoolsbase:machine_frame'
+  })
 });
