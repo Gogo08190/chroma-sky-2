@@ -111,4 +111,51 @@ onEvent("recipes", (event) => {
     F: 'rftoolsbase:machine_frame',
     P: 'rftoolsbase:infused_enderpearl'
   })
+
+  event.remove({ output: 'rftoolsbuilder:shield_block1' })
+  event.shaped('rftoolsbuilder:shield_block1', [
+  'PRP',
+  'IFI',
+  'OOO'
+  ], {
+    O: 'minecraft:obsidian',
+    I: 'extendedcrafting:redstone_ingot',
+    R: 'minecraft:redstone_block',
+    F: 'rftoolsbase:machine_frame',
+    P: 'thermal:gold_plate'
+  })
+
+  event.remove({ output: 'rftoolsbuilder:shield_block2' })
+  event.shaped('rftoolsbuilder:shield_block2', [
+  'ROR',
+  'OSO',
+  'ROR'
+  ], {
+    O: 'minecraft:obsidian',
+    R: 'extendedcrafting:redstone_ingot_block',
+    S: 'rftoolsbuilder:shield_block1'
+  })
+
+  event.remove({ output: 'rftoolsbuilder:shield_block3' })
+  event.shaped('rftoolsbuilder:shield_block3', [
+  'ROR',
+  'OSO',
+  'ROR'
+  ], {
+    O: 'minecraft:obsidian',
+    R: 'rftoolsbase:infused_diamond',
+    S: 'rftoolsbuilder:shield_block2'
+  })
+
+  event.remove({ output: 'rftoolsbuilder:shield_block4' })
+  event.shaped('rftoolsbuilder:shield_block4', [
+  'NOR',
+  'OSO',
+  'RON'
+  ], {
+    O: 'minecraft:obsidian',
+    R: 'rftoolsbase:infused_diamond',
+    S: 'rftoolsbuilder:shield_block3',
+    N: 'minecraft:nether_star'
+  })
 });
