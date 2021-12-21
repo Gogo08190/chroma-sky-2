@@ -248,4 +248,16 @@ onEvent("recipes", (event) => {
     F: 'rftoolsbase:machine_frame',
     P: 'minecraft:ender_pearl'
   })
+
+  event.remove({ output: 'rftoolsutility:tank' })
+  event.shaped('rftoolsutility:tank', [
+  'GGG',
+  'CFC',
+  'SSS'
+  ], {
+    S: 'mekanism:ingot_steel',
+    F: 'rftoolsbase:machine_frame',
+    G: 'thermal:obsidian_glass',
+    C: 'cyclic:cask'
+  })
 });
