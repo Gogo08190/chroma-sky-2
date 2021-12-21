@@ -141,7 +141,8 @@ events.listen('jei.hide.items', function (event) {
     'mysticalagriculture:chrome_essence',
     'cyclic:fluid_pipe',
     'cyclic:item_pipe',
-    'cyclic:energy_pipe'
+    'cyclic:energy_pipe',
+    'cyclic:uncrafter'
   ])
 })
 
