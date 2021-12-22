@@ -65,4 +65,46 @@ onEvent('recipes', event => {
     L: 'industrialforegoing:latex_bucket',
     R: 'extendedcrafting:redstone_ingot_block'
   })
+
+  event.remove({ output: 'industrialforegoing:mob_crusher' })
+  event.shaped('industrialforegoing:mob_crusher', [
+  'PSP',
+  'BFB',
+  'GRG'
+  ], {
+    P: 'industrialforegoing:plastic',
+    F: 'industrialforegoing:machine_frame_advanced',
+    R: 'extendedcrafting:redstone_ingot_block',
+    G: 'thermal:electrum_gear',
+    S: 'miniutilities:etheric_sword',
+    B: 'minecraft:book'
+  })
+
+  event.remove({ output: 'industrialforegoing:mob_slaughter_factory' })
+  event.shaped('industrialforegoing:mob_slaughter_factory', [
+  'PGP',
+  'SFS',
+  'ARA'
+  ], {
+    P: 'industrialforegoing:plastic',
+    F: 'industrialforegoing:machine_frame_pity',
+    R: 'extendedcrafting:redstone_ingot_block',
+    G: 'thermal:electrum_gear',
+    S: 'miniutilities:etheric_sword',
+    A: 'miniutilities:healing_axe'
+  })
+
+  event.remove({ output: 'industrialforegoing:mob_duplicator' })
+  event.shaped('industrialforegoing:mob_duplicator', [
+  'PWP',
+  'MFM',
+  'GRG'
+  ], {
+    P: 'industrialforegoing:plastic',
+    F: 'industrialforegoing:machine_frame_advanced',
+    R: 'extendedcrafting:redstone_ingot_block',
+    G: 'thermal:emerald_gear',
+    M: 'minecraft:magma_block',
+    W: 'minecraft:nether_wart_block'
+  })
 });
