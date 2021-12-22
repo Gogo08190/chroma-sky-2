@@ -13,14 +13,4 @@ onEvent('recipes', event => {
     T: 'quark:turf'
   })
 
-  // Golden Stone Brick
-  event.remove({ output: 'naturesaura:gold_brick' })
-  event.shaped('naturesaura:gold_brick', [
-  'GSG',
-  'SGS',
-  'GSG'
-  ], {
-    G: 'naturesaura:gold_fiber',
-    S: 'minecraft:stone_bricks'
-  })
 });
