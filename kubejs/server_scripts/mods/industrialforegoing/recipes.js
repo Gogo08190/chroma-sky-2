@@ -1,7 +1,7 @@
 onEvent('recipes', event => {
   event.remove({ output: 'industrialforegoing:machine_frame_pity' })
   event.shaped('industrialforegoing:machine_frame_pity', [
-  'TRT',
+  'TST',
   'SCS',
   'TST'
   ], {
@@ -17,7 +17,7 @@ onEvent('recipes', event => {
   'GRG'
   ], {
     P: 'industrialforegoing:plastic',
-    O: 'occultism:infused_pickaxe',
+    O: 'cyclic:crystal_pickaxe',
     F: 'industrialforegoing:machine_frame_advanced',
     D: '#forge:ores/diamond',
     G: 'thermal:enderium_gear',
@@ -31,7 +31,7 @@ onEvent('recipes', event => {
   'GRG'
   ], {
     P: 'industrialforegoing:plastic',
-    O: 'occultism:infused_pickaxe',
+    O: 'cyclic:crystal_pickaxe',
     F: 'industrialforegoing:machine_frame_advanced',
     D: 'naturesaura:color_changer',
     G: 'thermal:enderium_gear',
