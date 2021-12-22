@@ -142,7 +142,8 @@ events.listen('jei.hide.items', function (event) {
     'cyclic:fluid_pipe',
     'cyclic:item_pipe',
     'cyclic:energy_pipe',
-    'cyclic:uncrafter'
+    'cyclic:uncrafter',
+    'rats:raw_plastic'
   ])
 })
 
