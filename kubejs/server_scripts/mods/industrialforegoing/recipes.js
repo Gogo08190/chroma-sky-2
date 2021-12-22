@@ -120,4 +120,43 @@ onEvent('recipes', event => {
     F: 'industrialforegoing:machine_frame_pity',
     G: 'thermal:gold_plate'
   })
+
+  event.remove({ output: 'industrialforegoing:item_transporter_type' })
+  event.shaped('2x industrialforegoing:item_transporter_type', [
+  'RER',
+  'GFG',
+  'RPR'
+  ], {
+    P: 'minecraft:piston',
+    F: 'industrialforegoing:machine_frame_pity',
+    G: 'thermal:gold_gear',
+    E: 'minecraft:ender_pearl',
+    R: 'extendedcrafting:redstone_ingot'
+  })
+
+  event.remove({ output: 'industrialforegoing:fluid_transporter_type' })
+  event.shaped('2x industrialforegoing:fluid_transporter_type', [
+  'RER',
+  'GFG',
+  'RPR'
+  ], {
+    P: 'minecraft:piston',
+    F: 'industrialforegoing:machine_frame_pity',
+    G: 'thermal:lapis_gear',
+    E: 'minecraft:ender_pearl',
+    R: 'extendedcrafting:redstone_ingot'
+  })
+
+  event.remove({ output: 'industrialforegoing:world_transporter_type' })
+  event.shaped('2x industrialforegoing:world_transporter_type', [
+  'RER',
+  'GFG',
+  'RPR'
+  ], {
+    P: 'minecraft:piston',
+    F: 'industrialforegoing:machine_frame_pity',
+    G: 'minecraft:hopper',
+    E: 'minecraft:ender_pearl',
+    R: 'extendedcrafting:redstone_ingot'
+  })
 });
