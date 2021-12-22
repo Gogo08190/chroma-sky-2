@@ -22,6 +22,5 @@ onEvent('recipes', event => {
   ], {
     G: 'naturesaura:gold_fiber',
     S: 'minecraft:stone_bricks'
-
   })
 });
