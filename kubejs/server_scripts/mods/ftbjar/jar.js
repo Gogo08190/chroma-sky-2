@@ -111,9 +111,7 @@ onEvent("recipes", (event) => {
   jar("8x minecraft:dirt", "64x #minecraft:saplings").time(1200);
   jar("8x minecraft:dirt", "64x #forge:seeds").time(1200);
 
-  jar('naturesaura:gold_brick', ["naturesaura:gold_fiber", "minecraft:stone_bricks" , Fluid.of("minecraft:water", 1000)]).time(200).lowTemp();
+  jar('naturesaura:gold_brick', ["naturesaura:gold_fiber", "minecraft:stone_bricks" , Fluid.of("minecraft:water", 1000)]).time(50).lowTemp();
 
-  jar("32x minecraft:clay_ball", ["1x #minecraft:sand", "1x #forge:gravel", Fluid.of("minecraft:water", 1000)]).time(
-      20
-  );
+  jar("32x minecraft:clay_ball", ["1x #minecraft:sand", "1x #forge:gravel", Fluid.of("minecraft:water", 1000)]).time(20);
 });
