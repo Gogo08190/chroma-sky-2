@@ -51,4 +51,18 @@ onEvent('recipes', event => {
     G: 'thermal:electrum_gear',
     R: 'extendedcrafting:redstone_ingot'
   })
+
+  event.remove({ output: 'industrialforegoing:latex_processing_unit' })
+  event.shaped('industrialforegoing:latex_processing_unit', [
+  'SRS',
+  'WPL',
+  'SFS'
+  ], {
+    S: 'mekanism:ingot_steel',
+    W: 'minecraft:water_bucket',
+    F: 'thermal:machine_furnace',
+    P: 'industrialforegoing:machine_frame_pity',
+    L: 'industrialforegoing:latex_bucket',
+    R: 'extendedcrafting:redstone_ingot_block'
+  })
 });
