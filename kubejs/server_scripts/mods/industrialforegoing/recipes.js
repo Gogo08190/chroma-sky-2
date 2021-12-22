@@ -107,4 +107,17 @@ onEvent('recipes', event => {
     M: 'minecraft:magma_block',
     W: 'minecraft:nether_wart_block'
   })
+
+  event.remove({ output: 'industrialforegoing:fluid_extractor' })
+  event.shaped('industrialforegoing:fluid_extractor', [
+  'SGS',
+  'BFB',
+  'SPS'
+  ], {
+    S: 'mekanism:ingot_steel',
+    P: 'minecraft:piston',
+    B: 'thermal:polished_slag',
+    F: 'industrialforegoing:machine_frame_pity',
+    G: 'thermal:gold_plate'
+  })
 });
