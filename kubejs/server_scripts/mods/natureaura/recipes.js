@@ -24,5 +24,4 @@ onEvent('recipes', event => {
     S: 'minecraft:stone_bricks'
 
   })
-
-    });
+});
