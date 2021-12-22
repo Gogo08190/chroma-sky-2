@@ -23,4 +23,18 @@ onEvent('recipes', event => {
     G: 'thermal:enderium_gear',
     R: 'extendedcrafting:redstone_ingot'
   })
+
+  event.remove({ output: 'industrialforegoing:fluid_laser_base' })
+  event.shaped('industrialforegoing:fluid_laser_base', [
+  'POP',
+  'DFD',
+  'GRG'
+  ], {
+    P: 'industrialforegoing:plastic',
+    O: 'occultism:infused_pickaxe',
+    F: 'industrialforegoing:machine_frame_advanced',
+    D: 'naturesaura:color_changer',
+    G: 'thermal:enderium_gear',
+    R: 'extendedcrafting:redstone_ingot'
+  })
 });
