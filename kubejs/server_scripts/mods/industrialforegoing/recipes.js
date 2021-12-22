@@ -37,4 +37,18 @@ onEvent('recipes', event => {
     G: 'thermal:enderium_gear',
     R: 'extendedcrafting:redstone_ingot'
   })
+
+  event.remove({ output: 'industrialforegoing:laser_drill' })
+  event.shaped('industrialforegoing:laser_drill', [
+  'POP',
+  'DFD',
+  'GRG'
+  ], {
+    P: 'industrialforegoing:plastic',
+    O: 'thermal:enderium_gear',
+    F: 'industrialforegoing:machine_frame_simple',
+    D: 'immersiveengineering:drillhead_steel',
+    G: 'thermal:electrum_gear',
+    R: 'extendedcrafting:redstone_ingot'
+  })
 });
