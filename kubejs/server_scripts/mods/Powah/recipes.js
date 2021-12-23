@@ -186,4 +186,23 @@ onEvent('recipes', event => {
     }
   )
 
+  event.custom(
+    {
+      "type": "powah:energizing",
+      "ingredients": [
+      {"item": 'powah:crystal_nitro'},
+      {"item": 'powah:ender_core'},
+      {"item": 'refinedstorage:advanced_processor'},
+      {"item": 'thermal:redstone_servo'},
+      {"item": 'thermal:rf_coil'},
+      {"item": 'powah:crystal_nitro'}
+      ],
+      "energy": 5000,
+      "result": {
+      "item": 'chromasky:mechanic_core_tier_4',
+      "count": 1
+      }
+    }
+  )
+
 });
