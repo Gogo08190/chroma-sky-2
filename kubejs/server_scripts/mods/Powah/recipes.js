@@ -37,4 +37,4 @@ onEvent('recipes', event => {
     R: 'thermal:rf_coil',
   })
 
-    });
+});
