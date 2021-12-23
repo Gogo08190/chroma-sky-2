@@ -39,7 +39,7 @@ onEvent('recipes', event => {
 
   // Basic Capacitor
   event.remove({ output: 'powah:capacitor_basic' })
-  event.shaped('powah:capacitor_basic', [
+  event.shaped('2x powah:capacitor_basic', [
   ' SP',
   'SRS',
   'PS '
@@ -51,7 +51,7 @@ onEvent('recipes', event => {
 
   // Energie cable(Starter)
   event.remove({ output: 'powah:energy_cable_starter' })
-  event.shaped('powah:energy_cable_starter', [
+  event.shaped('12x powah:energy_cable_starter', [
   'HHH',
   'SBS',
   'HHH'
