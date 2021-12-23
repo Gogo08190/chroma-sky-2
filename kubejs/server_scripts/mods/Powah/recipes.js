@@ -37,39 +37,41 @@ onEvent('recipes', event => {
     R: 'thermal:rf_coil',
   })
 
+event.remove({ output: 'powah:dielectric_paste' })
+
   event.custom(
     {
         "input": [
             {
-                "item": "mekanism:ingot_steel"
+                "item": "minecraft:coal"
             },
             {
-                "item": "industrialforegoing:pink_slime_ingot"
+                "item": "minecraft:coal"
             },
             {
-                "item": "mekanism:ingot_steel"
+                "item": "minecraft:coal"
             },
             {
-                "item": "rftoolsbase:dimensionalshard"
+                "item": "minecraft:blaze_powder"
             },
             {
-                "item": "rftoolsbase:dimensionalshard"
+                "item": "minecraft:blaze_powder"
             },
             {
-                "item": "mekanism:ingot_steel"
+                "item": "minecraft:clay_ball"
             },
             {
-                "item": "industrialforegoing:pink_slime_ingot"
+                "item": "minecraft:clay_ball"
             },
             {
-                "item": "mekanism:ingot_steel"
+                "item": "minecraft:clay_ball"
             }
         ],
-        "inputFluid": "{FluidName:\"industrialforegoing:ether_gas\",Amount:1000}",
-        "processingTime": 320,
+        "inputFluid": "{FluidName:\"minecraft:lava\",Amount:1000}",
+        "processingTime": 100,
         "output": {
-            "item": "chromasky:mechanic_core_tier_3",
-            "count": 1
+            "item": "powah:dielectric_paste",
+            "count": 24
         },
         "type": "industrialforegoing:dissolution_chamber"
     }
