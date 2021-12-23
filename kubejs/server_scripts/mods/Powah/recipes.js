@@ -74,7 +74,7 @@ onEvent('recipes', event => {
   })
 
   // Wrench
-  event.remove({ output: 'powah:wrench') })
+  event.remove({ output: 'powah:wrench' })
   event.shaped('powah:wrench', [
   ' MP',
   ' PM',
