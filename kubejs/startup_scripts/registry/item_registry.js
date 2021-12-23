@@ -24,4 +24,5 @@ onEvent("item.registry", (event) => {
     event.create("chromasky:mechanic_core_tier_1").displayName("Mechanic Core Tier 1");
     event.create("chromasky:mechanic_core_tier_2").displayName("Mechanic Core Tier 2");
     event.create("chromasky:mechanic_core_tier_3").displayName("Mechanic Core Tier 3");
+    event.create("chromasky:mechanic_core_tier_4").displayName("Mechanic Core Tier 4");
 });
