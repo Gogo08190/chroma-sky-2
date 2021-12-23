@@ -37,7 +37,7 @@ onEvent('recipes', event => {
     R: 'thermal:rf_coil',
   })
 
-event.remove({ output: 'powah:dielectric_paste' })
+  event.remove({ output: 'powah:dielectric_paste' })
 
   event.custom(
     {
