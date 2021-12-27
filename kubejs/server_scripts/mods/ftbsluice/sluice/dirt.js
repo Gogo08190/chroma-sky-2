@@ -14,6 +14,7 @@ onEvent("recipes", (event) => {
         ["minecraft:sugar_cane", 0.15],
         ["minecraft:cactus", 0.15],
         ["immersiveengineering:seed", 0.15],
+        ["minecraft:wheat_seeds", 0.20],
     ]).mb(50);
 
     sluice(["iron"], "#forge:dirt", [
