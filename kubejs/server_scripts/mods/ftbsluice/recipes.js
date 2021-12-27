@@ -76,8 +76,8 @@ onEvent('recipes', event => {
     E: 'minecraft:blaze_rod'
   })
 
-  event.remove({ output: 'ftbsluice:sluice_speed_upgrade' })
-  event.shaped('ftbsluice:sluice_speed_upgrade', [
+  event.remove({ output: 'ftbsluice:sluice_consumption_upgrade' })
+  event.shaped('ftbsluice:sluice_consumption_upgrade', [
   'III',
   'GEG',
   'III'
