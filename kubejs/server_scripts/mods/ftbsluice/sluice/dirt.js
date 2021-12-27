@@ -22,11 +22,11 @@ onEvent("recipes", (event) => {
     ]);
 
     sluice(["gold"], "#forge:dirt", [
-        ["minecraft:coal", 0.22],
+        ["minecraft:kelp", 0.23],
     ]);
 
     sluice(["diamond"], "#forge:dirt", [
-        ["minecraft:coal", 0.26],
+        ["minecraft:kelp", 0.28],
     ]);
 
     sluice(["blazing"], "#forge:dirt", [
