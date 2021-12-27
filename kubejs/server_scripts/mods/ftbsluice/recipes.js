@@ -56,6 +56,37 @@ onEvent('recipes', event => {
     L: '#forge:ingots/netherite'
   })
 
+  event.remove({ output: 'ftbsluice:sluice_fortune_upgrade' })
+  event.shaped('ftbsluice:sluice_fortune_upgrade', [
+  'III',
+  'IEI',
+  'III'
+  ], {
+    I: 'thermal:iron_plate',
+    E: 'thermal:emerald_gear'
+  })
+
+  event.remove({ output: 'ftbsluice:sluice_speed_upgrade' })
+  event.shaped('ftbsluice:sluice_speed_upgrade', [
+  'III',
+  'IEI',
+  'III'
+  ], {
+    I: 'thermal:iron_plate',
+    E: 'minecraft:blaze_rod'
+  })
+
+  event.remove({ output: 'ftbsluice:sluice_speed_upgrade' })
+  event.shaped('ftbsluice:sluice_speed_upgrade', [
+  'III',
+  'GEG',
+  'III'
+  ], {
+    I: 'thermal:iron_plate',
+    E: 'minecraft:lava_bucket',
+    G: 'thermal:gold_plate'
+  })
+
   // Cloth Mesh
   event.remove({ output: 'ftbsluice:cloth_mesh' })
   event.shaped('ftbsluice:cloth_mesh', [
