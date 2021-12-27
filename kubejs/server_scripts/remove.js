@@ -16,4 +16,5 @@ onEvent("recipes", (event) => {
   event.remove({output: 'mysticalagriculture:mithril_essence'})
   event.remove({output: 'mysticalagriculture:titanium_essence'})
   event.remove({output: 'mysticalagriculture:chrome_essence'})
+  event.remove({output: 'extendedcrafting:handheld_table'})
 });

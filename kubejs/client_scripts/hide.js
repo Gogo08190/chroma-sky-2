@@ -144,7 +144,8 @@ events.listen('jei.hide.items', function (event) {
     'cyclic:energy_pipe',
     'cyclic:uncrafter',
     'rats:raw_plastic',
-    'simplegens:simple_statue'
+    'simplegens:simple_statue',
+    'extendedcrafting:handheld_table'
   ])
 })
 

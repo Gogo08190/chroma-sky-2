@@ -466,7 +466,7 @@
 		#Does harvesting crops with a hoe cost durability?
 		"Harvesting Costs Durability" = false
 		#Should Quark look for (nonvanilla) crops, and handle them?
-		"Do Harvesting Search" = true
+		"Do Harvesting Search" = false
 		#Which crops can be harvested?
 		#Format is: "harvestState[,afterHarvest]", i.e. "minecraft:wheat[age=7]" or "minecraft:cocoa[age=2,facing=north],minecraft:cocoa[age=0,facing=north]"
 		"Harvestable Blocks" = ["minecraft:wheat[age=7]", "minecraft:carrots[age=7]", "minecraft:potatoes[age=7]", "minecraft:beetroots[age=3]", "minecraft:nether_wart[age=3]", "minecraft:cocoa[age=2,facing=north],minecraft:cocoa[age=0,facing=north]", "minecraft:cocoa[age=2,facing=south],minecraft:cocoa[age=0,facing=south]", "minecraft:cocoa[age=2,facing=east],minecraft:cocoa[age=0,facing=east]", "minecraft:cocoa[age=2,facing=west],minecraft:cocoa[age=0,facing=west]"]
@@ -2097,4 +2097,3 @@
 				[experimental.shiba.spawn_config.biomes.biomes]
 					Biomes = []
 					"Is Blacklist" = true
-
