@@ -385,4 +385,37 @@ onEvent('recipes', event => {
     S: 'mekanism:ingot_steel',
     L: 'simplylight:rodlamp'
   })
+
+  event.remove({ output: 'envirocore:cpu' })
+  event.shaped('envirocore:cpu', [
+  'GCG',
+  'CLC',
+  'GCG'
+  ], {
+    C: 'minecraft:comparator',
+    G: 'thermal:gold_plate',
+    L: 'envirocore:litherite_crystal'
+  })
+
+  event.remove({ output: 'envirocore:volatile_memory' })
+  event.shaped('envirocore:volatile_memory', [
+  'SRS',
+  'SLS',
+  'SRS'
+  ], {
+    S: 'mekanism:ingot_steel',
+    L: 'envirocore:litherite_crystal',
+    R: 'minecraft:repeater'
+  })
+
+  event.remove({ output: 'envirocore:flash_memory' })
+  event.shaped('envirocore:flash_memory', [
+  'SRS',
+  'RLR',
+  'SRS'
+  ], {
+    S: 'mekanism:ingot_steel',
+    L: 'envirocore:volatile_memory',
+    R: 'minecraft:repeater'
+  })
 });
