@@ -1,6 +1,12 @@
 onEvent('recipes', event => {
 
   event.remove({id: 'compactmachines:wall'})
+  event.remove({ output: 'compactmachines:machine_tiny' })
+  event.remove({ output: 'compactmachines:machine_small' })
+  event.remove({ output: 'compactmachines:machine_normal' })
+  event.remove({ output: 'compactmachines:machine_large' })
+  event.remove({ output: 'compactmachines:machine_giant' })
+  event.remove({ output: 'compactmachines:machine_maximum' })
 
   // Field Projector
   event.remove({ output: 'compactcrafting:field_projector' })
