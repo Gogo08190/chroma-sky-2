@@ -113,4 +113,26 @@ onEvent("recipes", (event) => {
       O: 'cyclic:ender_eye_reuse',
       P: 'minecraft:painting'
     });
+
+    event.remove({ output: 'entangled:block' })
+    event.shaped('entangled:block', [
+    'POP',
+    'OKO',
+    'POP'
+    ], {
+      P: 'minecraft:ender_pearl',
+      O: 'minecraft:obsidian',
+      K: 'krate:krate_basic'
+    });
+
+    event.remove({ output: 'entangled:item' })
+    event.shaped('entangled:item', [
+    ' PK',
+    ' OP',
+    'O  '
+    ], {
+      P: 'minecraft:ender_eye',
+      O: 'minecraft:obsidian',
+      K: 'minecraft:emerald'
+    });
 });
