@@ -65,4 +65,9 @@ event.recipes.immersiveengineering.metal_press(
     "4x immersiveengineering:treated_wood_horizontal",
     "immersiveengineering:mold_gear"
 );
+event.recipes.immersiveengineering.metal_press(
+    "chromasky:draconium_gear",
+    "4x draconicevolution:draconium_ingot",
+    "immersiveengineering:mold_gear"
+);
 });

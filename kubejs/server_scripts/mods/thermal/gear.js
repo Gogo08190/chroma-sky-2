@@ -8,4 +8,5 @@ onEvent("recipes", (event) => {
   event.recipes.thermal.press("thermal:ruby_gear", ["4x thermal:ruby", "thermal:press_gear_die"])
   event.recipes.thermal.press("chromasky:redstone_gear", ["4x extendedcrafting:redstone_ingot", "thermal:press_gear_die"])
   event.recipes.thermal.press("chromasky:treated_wood_gear", ["4x immersiveengineering:treated_wood_horizontal", "thermal:press_gear_die"])
+  event.recipes.thermal.press("chromasky:draconium_gear", ["4x draconicevolution:draconium_ingot", "thermal:press_gear_die"])
 });
