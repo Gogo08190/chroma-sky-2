@@ -90,6 +90,16 @@ onEvent('recipes', event => {
     C: 'chromasky:hammer_head'
   })
 
+  // Wire cutters
+  event.remove({ output: 'immersiveengineering:wirecutter' })
+  event.shaped('immersiveengineering:wirecutter', [
+  'SC ',
+  ' S '
+  ], {
+    S: 'immersiveengineering:stick_treated',
+    C: 'chromasky:wirecutter_head'
+  })
+
   // Water Wheel
   event.remove({ output: 'immersiveengineering:watermill' })
   event.shaped('immersiveengineering:watermill', [
