@@ -101,4 +101,140 @@ onEvent('recipes', event => {
     P: 'solarflux:photovoltaic_cell_6'
   })
 
+  // Mirror
+  event.remove({ output: 'solarflux:mirror' })
+  event.shaped('solarflux:mirror'), [
+  '   ',
+  'OOO',
+  ' S '
+  ], {
+    O: 'thermal:obsidian_glass',
+    S: 'mekanism:ingot_steel'
+  })
+
+  // Photovoltaic Cell 1
+  event.remove({ output: 'solarflux:photovoltaic_cell_1' })
+  event.shaped('solarflux:photovoltaic_cell_1'), [
+  'OOO',
+  'LLL',
+  'MMM'
+  ], {
+    O: 'thermal:obsidian_glass',
+    M: 'solarflux:mirror',
+    L: 'minecraft:lapis_block'
+  })
+
+  // Photovoltaic Cell 2
+  event.remove({ output: 'solarflux:photovoltaic_cell_2' })
+  event.shaped('solarflux:photovoltaic_cell_2'), [
+  'CLC',
+  'LCL',
+  'MPM'
+  ], {
+    P: 'solarflux:photovoltaic_cell_1',
+    M: 'solarflux:mirror',
+    L: 'minecraft:lapis_block',
+    C: 'minecraft:clay'
+  })
+
+  // Photovoltaic Cell 3
+  event.remove({ output: 'solarflux:photovoltaic_cell_3' })
+  event.shaped('solarflux:photovoltaic_cell_3'), [
+  'OOO',
+  'GGG',
+  'VPV'
+  ], {
+    O: 'thermal:obsidian_glass',
+    G: 'mekanism:ingot_refined_glowstone',
+    P: 'solarflux:photovoltaic_cell_2',
+    V: 'minecraft:obsidian'
+  })
+
+  // Photovoltaic Cell 4
+  event.remove({ output: 'solarflux:photovoltaic_cell_4' })
+  event.shaped('solarflux:photovoltaic_cell_4'), [
+  'BBB',
+  'RNR',
+  'EPE'
+  ], {
+    B: 'solarflux:blazing_coating',
+    P: 'solarflux:photovoltaic_cell_3',
+    E: 'refinedstorage:quartz_enriched_iron_block',
+    R: 'mekanism:ingot_refined_glowstone',
+    N: 'powah:crystal_niotic'
+  })
+
+  // Photovoltaic Cell 5
+  event.remove({ output: 'solarflux:photovoltaic_cell_5' })
+  event.shaped('solarflux:photovoltaic_cell_5'), [
+  'EEE',
+  'RNR',
+  'PQP'
+  ], {
+    E: 'solarflux:emerald_glass',
+    P: 'solarflux:photovoltaic_cell_4',
+    Q: 'refinedstorage:quartz_enriched_iron_block',
+    R: 'mekanism:block_refined_glowstone',
+    N: 'powah:niotic_crystal_block'
+  })
+
+  // Photovoltaic Cell 6
+  event.remove({ output: 'solarflux:photovoltaic_cell_5' })
+  event.shaped('solarflux:photovoltaic_cell_5'), [
+  'EEE',
+  'RSR',
+  'PQP'
+  ], {
+    E: 'solarflux:ender_glass',
+    P: 'solarflux:photovoltaic_cell_5',
+    Q: 'refinedstorage:quartz_enriched_iron_block',
+    R: 'mekanism:block_refined_glowstone',
+    S: 'powah:spirited_crystal_block'
+  })
+
+  // Blasing coating
+  event.remove({ output: 'solarflux:blazing_coating' })
+  event.shaped('solarflux:blazing_coating'), [
+  ' M ',
+  ' B ',
+  ' M '
+  ], {
+    M: 'solarflux:mirror',
+    B: 'powah:crystal_blazing'
+  })
+
+  // Emerald glass
+  event.remove({ output: 'solarflux:emerald_glass' })
+  event.shaped('solarflux:emerald_glass'), [
+  ' M ',
+  ' S ',
+  ' M '
+  ], {
+    M: 'solarflux:mirror',
+    S: 'powah:crystal_spirited'
+  })
+
+  // Ender glass
+  event.remove({ output: 'solarflux:ender_glass' })
+  event.shaped('solarflux:ender_glass'), [
+  '   ',
+  'EEE',
+  'PCP'
+  ], {
+    E: 'solarflux:emerald_glass',
+    C: 'powah:ender_core',
+    P: 'miniutilities:ender_pearl_block'
+  })
+
+  // Blank Upgrade
+  event.remove({ output: 'solarflux:blank_upgrade' })
+  event.shaped('solarflux:blank_upgrade'), [
+  ' B ',
+  'BMB',
+  ' B '
+  ], {
+    B: 'tconstruct:seared_stone',
+    M: 'solarflux:mirror'
+  })
+
   });
