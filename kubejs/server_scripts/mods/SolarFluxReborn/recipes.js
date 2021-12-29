@@ -25,7 +25,7 @@ onEvent('recipes', event => {
 
   // Solar Panel III
   event.remove({ output: 'solarflux:sp_3' })
-  event.shaped('solarflux:sp_3'), [
+  event.shaped('solarflux:sp_3', [
   'PPP',
   'SRS',
   'SMS'
@@ -38,7 +38,7 @@ onEvent('recipes', event => {
 
   // Solar Panel IV
   event.remove({ output: 'solarflux:sp_4' })
-  event.shaped('solarflux:sp_4'), [
+  event.shaped('solarflux:sp_4', [
   'PPP',
   'SLS',
   'SMS'
@@ -51,7 +51,7 @@ onEvent('recipes', event => {
 
   // Solar Panel V
   event.remove({ output: 'solarflux:sp_5' })
-  event.shaped('solarflux:sp_5'), [
+  event.shaped('solarflux:sp_5', [
   'PPP',
   'SGS',
   'SES'
@@ -64,7 +64,7 @@ onEvent('recipes', event => {
 
   // Solar Panel VI
   event.remove({ output: 'solarflux:sp_6' })
-  event.shaped('solarflux:sp_6'), [
+  event.shaped('solarflux:sp_6', [
   'PPP',
   'SMS',
   'SNS'
@@ -77,7 +77,7 @@ onEvent('recipes', event => {
 
   // Solar Panel VII
   event.remove({ output: 'solarflux:sp_7' })
-  event.shaped('solarflux:sp_7'), [
+  event.shaped('solarflux:sp_7', [
   'PPP',
   'SMS',
   'SDS'
@@ -90,7 +90,7 @@ onEvent('recipes', event => {
 
   // Solar Panel VIII
   event.remove({ output: 'solarflux:sp_8' })
-  event.shaped('solarflux:sp_8'), [
+  event.shaped('solarflux:sp_8', [
   'PPP',
   'SMS',
   'SDS'
@@ -103,7 +103,7 @@ onEvent('recipes', event => {
 
   // Mirror
   event.remove({ output: 'solarflux:mirror' })
-  event.shaped('solarflux:mirror'), [
+  event.shaped('solarflux:mirror', [
   '   ',
   'OOO',
   ' S '
@@ -114,7 +114,7 @@ onEvent('recipes', event => {
 
   // Photovoltaic Cell 1
   event.remove({ output: 'solarflux:photovoltaic_cell_1' })
-  event.shaped('solarflux:photovoltaic_cell_1'), [
+  event.shaped('solarflux:photovoltaic_cell_1', [
   'OOO',
   'LLL',
   'MMM'
@@ -126,7 +126,7 @@ onEvent('recipes', event => {
 
   // Photovoltaic Cell 2
   event.remove({ output: 'solarflux:photovoltaic_cell_2' })
-  event.shaped('solarflux:photovoltaic_cell_2'), [
+  event.shaped('solarflux:photovoltaic_cell_2', [
   'CLC',
   'LCL',
   'MPM'
@@ -139,7 +139,7 @@ onEvent('recipes', event => {
 
   // Photovoltaic Cell 3
   event.remove({ output: 'solarflux:photovoltaic_cell_3' })
-  event.shaped('solarflux:photovoltaic_cell_3'), [
+  event.shaped('solarflux:photovoltaic_cell_3', [
   'OOO',
   'GGG',
   'VPV'
@@ -152,7 +152,7 @@ onEvent('recipes', event => {
 
   // Photovoltaic Cell 4
   event.remove({ output: 'solarflux:photovoltaic_cell_4' })
-  event.shaped('solarflux:photovoltaic_cell_4'), [
+  event.shaped('solarflux:photovoltaic_cell_4', [
   'BBB',
   'RNR',
   'EPE'
@@ -166,7 +166,7 @@ onEvent('recipes', event => {
 
   // Photovoltaic Cell 5
   event.remove({ output: 'solarflux:photovoltaic_cell_5' })
-  event.shaped('solarflux:photovoltaic_cell_5'), [
+  event.shaped('solarflux:photovoltaic_cell_5', [
   'EEE',
   'RNR',
   'PQP'
@@ -180,7 +180,7 @@ onEvent('recipes', event => {
 
   // Photovoltaic Cell 6
   event.remove({ output: 'solarflux:photovoltaic_cell_5' })
-  event.shaped('solarflux:photovoltaic_cell_5'), [
+  event.shaped('solarflux:photovoltaic_cell_5', [
   'EEE',
   'RSR',
   'PQP'
@@ -194,7 +194,7 @@ onEvent('recipes', event => {
 
   // Blasing coating
   event.remove({ output: 'solarflux:blazing_coating' })
-  event.shaped('solarflux:blazing_coating'), [
+  event.shaped('solarflux:blazing_coating', [
   ' M ',
   ' B ',
   ' M '
@@ -205,7 +205,7 @@ onEvent('recipes', event => {
 
   // Emerald glass
   event.remove({ output: 'solarflux:emerald_glass' })
-  event.shaped('solarflux:emerald_glass'), [
+  event.shaped('solarflux:emerald_glass', [
   ' M ',
   ' S ',
   ' M '
@@ -216,7 +216,7 @@ onEvent('recipes', event => {
 
   // Ender glass
   event.remove({ output: 'solarflux:ender_glass' })
-  event.shaped('solarflux:ender_glass'), [
+  event.shaped('solarflux:ender_glass', [
   '   ',
   'EEE',
   'PCP'
@@ -228,7 +228,7 @@ onEvent('recipes', event => {
 
   // Blank Upgrade
   event.remove({ output: 'solarflux:blank_upgrade' })
-  event.shaped('solarflux:blank_upgrade'), [
+  event.shaped('solarflux:blank_upgrade', [
   ' B ',
   'BMB',
   ' B '
