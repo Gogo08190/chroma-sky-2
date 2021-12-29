@@ -7,6 +7,14 @@ onEvent('recipes', event => {
   event.remove({ output: 'envirotech:aethium_void_miner_ccu' })
   event.remove({ output: 'envirotech:nanorite_void_miner_ccu' })
   event.remove({ output: 'envirotech:xerothium_void_miner_ccu' })
+  event.remove({ output: 'enviroenergy:litherite_solar_ccu' })
+  event.remove({ output: 'enviroenergy:erodium_solar_ccu' })
+  event.remove({ output: 'enviroenergy:kyronite_solar_ccu' })
+  event.remove({ output: 'enviroenergy:pladium_solar_ccu' })
+  event.remove({ output: 'enviroenergy:ionite_solar_ccu' })
+  event.remove({ output: 'enviroenergy:aethium_solar_ccu' })
+  event.remove({ output: 'enviroenergy:nanorite_solar_ccu' })
+  event.remove({ output: 'enviroenergy:xerothium_solar_ccu' })
 
   event.remove({ output: 'envirocore:litherite_crystal' })
   event.shapeless('9x envirocore:litherite_crystal', 'envirocore:litherite');
@@ -337,6 +345,486 @@ onEvent('recipes', event => {
       },
       "result": {
         "item": "envirotech:xerothium_void_miner_ccu"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AABAA",
+        "ACBCA",
+        "BBDBB",
+        "ACBCA",
+        "AABAA"
+      ],
+      "key": {
+        "A": {
+          "item": "envirocore:litherite_crystal"
+        },
+        "B": {
+          "item": "enviroenergy:litherite_solar_cell"
+        },
+        "C": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "D": {
+          "item": "envirocore:structure_panel"
+        }
+      },
+      "result": {
+        "item": "enviroenergy:litherite_solar_ccu"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AABAA",
+        "ACBCA",
+        "BBDBB",
+        "ACBCA",
+        "AABAA"
+      ],
+      "key": {
+        "A": {
+          "item": "envirocore:erodium_crystal"
+        },
+        "B": {
+          "item": "enviroenergy:erodium_solar_cell"
+        },
+        "C": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "D": {
+          "item": "enviroenergy:litherite_solar_ccu"
+        }
+      },
+      "result": {
+        "item": "enviroenergy:erodium_solar_ccu"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AABAA",
+        "ACBCA",
+        "BBDBB",
+        "ACBCA",
+        "AABAA"
+      ],
+      "key": {
+        "A": {
+          "item": "envirocore:kyronite_crystal"
+        },
+        "B": {
+          "item": "enviroenergy:kyronite_solar_cell"
+        },
+        "C": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "D": {
+          "item": "enviroenergy:erodium_solar_ccu"
+        }
+      },
+      "result": {
+        "item": "enviroenergy:kyronite_solar_ccu"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AABAA",
+        "ACBCA",
+        "BBDBB",
+        "ACBCA",
+        "AABAA"
+      ],
+      "key": {
+        "A": {
+          "item": "envirocore:pladium_crystal"
+        },
+        "B": {
+          "item": "enviroenergy:pladium_solar_cell"
+        },
+        "C": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "D": {
+          "item": "enviroenergy:kyronite_solar_ccu"
+        }
+      },
+      "result": {
+        "item": "enviroenergy:pladium_solar_ccu"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AABAA",
+        "ACBCA",
+        "BBDBB",
+        "ACBCA",
+        "AABAA"
+      ],
+      "key": {
+        "A": {
+          "item": "envirocore:ionite_crystal"
+        },
+        "B": {
+          "item": "enviroenergy:ionite_solar_cell"
+        },
+        "C": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "D": {
+          "item": "enviroenergy:pladium_solar_ccu"
+        }
+      },
+      "result": {
+        "item": "enviroenergy:ionite_solar_ccu"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AABAA",
+        "ACBCA",
+        "BBDBB",
+        "ACBCA",
+        "AABAA"
+      ],
+      "key": {
+        "A": {
+          "item": "envirocore:aethium_crystal"
+        },
+        "B": {
+          "item": "enviroenergy:aethium_solar_cell"
+        },
+        "C": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "D": {
+          "item": "enviroenergy:ionite_solar_ccu"
+        }
+      },
+      "result": {
+        "item": "enviroenergy:aethium_solar_ccu"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AABAA",
+        "ACBCA",
+        "BBDBB",
+        "ACBCA",
+        "AABAA"
+      ],
+      "key": {
+        "A": {
+          "item": "envirocore:nanorite_crystal"
+        },
+        "B": {
+          "item": "enviroenergy:nanorite_solar_cell"
+        },
+        "C": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "D": {
+          "item": "enviroenergy:aethium_solar_ccu"
+        }
+      },
+      "result": {
+        "item": "enviroenergy:nanorite_solar_ccu"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AABAA",
+        "ACBCA",
+        "BBDBB",
+        "ACBCA",
+        "AABAA"
+      ],
+      "key": {
+        "A": {
+          "item": "envirocore:xerothium_crystal"
+        },
+        "B": {
+          "item": "enviroenergy:xerothium_solar_cell"
+        },
+        "C": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "D": {
+          "item": "enviroenergy:nanorite_solar_ccu"
+        }
+      },
+      "result": {
+        "item": "enviroenergy:xerothium_solar_ccu"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCBA",
+        "ABCBA",
+        "ABDBA",
+        "ABBBA",
+        "AAAAA"
+      ],
+      "key": {
+        "A": {
+          "item": "envirocore:litherite_crystal"
+        },
+        "B": {
+          "item": "mekanism:block_steel"
+        },
+        "C": {
+          "item": "enviroenergy:insulated_lightning_rod"
+        },
+        "D": {
+          "item": "envirocore:structure_panel"
+        }
+      },
+      "result": {
+        "item": "enviroenergy:litherite_lightning_ccu"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AABAA",
+        "ACBCA",
+        "AADAA",
+        "ACACA",
+        "AAAAA"
+      ],
+      "key": {
+        "A": {
+          "item": "envirocore:erodium_crystal"
+        },
+        "B": {
+          "item": "enviroenergy:insulated_lightning_rod"
+        },
+        "C": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "D": {
+          "item": "enviroenergy:litherite_lightning_ccu"
+        }
+      },
+      "result": {
+        "item": "enviroenergy:erodium_lightning_ccu"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AABAA",
+        "ACBCA",
+        "AADAA",
+        "ACACA",
+        "AAAAA"
+      ],
+      "key": {
+        "A": {
+          "item": "envirocore:kyronite_crystal"
+        },
+        "B": {
+          "item": "enviroenergy:insulated_lightning_rod"
+        },
+        "C": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "D": {
+          "item": "enviroenergy:erodium_lightning_ccu"
+        }
+      },
+      "result": {
+        "item": "enviroenergy:kyronite_lightning_ccu"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AABAA",
+        "ACBCA",
+        "AADAA",
+        "ACACA",
+        "AAAAA"
+      ],
+      "key": {
+        "A": {
+          "item": "envirocore:pladium_crystal"
+        },
+        "B": {
+          "item": "enviroenergy:insulated_lightning_rod"
+        },
+        "C": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "D": {
+          "item": "enviroenergy:kyronite_lightning_ccu"
+        }
+      },
+      "result": {
+        "item": "enviroenergy:pladium_lightning_ccu"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AABAA",
+        "ACBCA",
+        "AADAA",
+        "ACACA",
+        "AAAAA"
+      ],
+      "key": {
+        "A": {
+          "item": "envirocore:ionite_crystal"
+        },
+        "B": {
+          "item": "enviroenergy:insulated_lightning_rod"
+        },
+        "C": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "D": {
+          "item": "enviroenergy:pladium_lightning_ccu"
+        }
+      },
+      "result": {
+        "item": "enviroenergy:ionite_lightning_ccu"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AABAA",
+        "ACBCA",
+        "AADAA",
+        "ACACA",
+        "AAAAA"
+      ],
+      "key": {
+        "A": {
+          "item": "envirocore:aethium_crystal"
+        },
+        "B": {
+          "item": "enviroenergy:insulated_lightning_rod"
+        },
+        "C": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "D": {
+          "item": "enviroenergy:ionite_lightning_ccu"
+        }
+      },
+      "result": {
+        "item": "enviroenergy:aethium_lightning_ccu"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AABAA",
+        "ACBCA",
+        "AADAA",
+        "ACACA",
+        "AAAAA"
+      ],
+      "key": {
+        "A": {
+          "item": "envirocore:nanorite_crystal"
+        },
+        "B": {
+          "item": "enviroenergy:insulated_lightning_rod"
+        },
+        "C": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "D": {
+          "item": "enviroenergy:aethium_lightning_ccu"
+        }
+      },
+      "result": {
+        "item": "enviroenergy:nanorite_lightning_ccu"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AABAA",
+        "ACBCA",
+        "AADAA",
+        "ACACA",
+        "AAAAA"
+      ],
+      "key": {
+        "A": {
+          "item": "envirocore:xerothium_crystal"
+        },
+        "B": {
+          "item": "enviroenergy:insulated_lightning_rod"
+        },
+        "C": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "D": {
+          "item": "enviroenergy:nanorite_lightning_ccu"
+        }
+      },
+      "result": {
+        "item": "enviroenergy:xerothium_lightning_ccu"
       }
     }
   )
