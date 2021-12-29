@@ -15,6 +15,14 @@ onEvent('recipes', event => {
   event.remove({ output: 'enviroenergy:aethium_solar_ccu' })
   event.remove({ output: 'enviroenergy:nanorite_solar_ccu' })
   event.remove({ output: 'enviroenergy:xerothium_solar_ccu' })
+  event.remove({ output: 'enviroenergy:litherite_lightning_ccu' })
+  event.remove({ output: 'enviroenergy:erodium_lightning_ccu' })
+  event.remove({ output: 'enviroenergy:kyronite_lightning_ccu' })
+  event.remove({ output: 'enviroenergy:pladium_lightning_ccu' })
+  event.remove({ output: 'enviroenergy:ionite_lightning_ccu' })
+  event.remove({ output: 'enviroenergy:aethium_lightning_ccu' })
+  event.remove({ output: 'enviroenergy:nanorite_lightning_ccu' })
+  event.remove({ output: 'enviroenergy:xerothium_lightning_ccu' })
 
   event.remove({ output: 'envirocore:litherite_crystal' })
   event.shapeless('9x envirocore:litherite_crystal', 'envirocore:litherite');
