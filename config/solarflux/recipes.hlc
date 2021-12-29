@@ -4,9 +4,9 @@
 # Defaulted to true, but you may disable any of the recipes listed.
 # After you're done changing, you may apply the code right away, using /reload command
 +C:recipes={
-  +B:solarflux:blank_upgrade=true
+  +B:solarflux:blank_upgrade=false
 
-  +B:solarflux:blazing_coating=true
+  +B:solarflux:blazing_coating=false
 
   +B:solarflux:block_charging_upgrade=true
 
@@ -20,41 +20,41 @@
 
   +B:solarflux:efficiency_upgrade=true
 
-  +B:solarflux:emerald_glass=true
+  +B:solarflux:emerald_glass=false
 
-  +B:solarflux:ender_glass=true
+  +B:solarflux:ender_glass=false
 
   +B:solarflux:furnace_upgrade=true
 
-  +B:solarflux:mirror=true
+  +B:solarflux:mirror=false
 
-  +B:solarflux:photovoltaic_cell_1=true
+  +B:solarflux:photovoltaic_cell_1=false
 
-  +B:solarflux:photovoltaic_cell_2=true
+  +B:solarflux:photovoltaic_cell_2=false
 
-  +B:solarflux:photovoltaic_cell_3=true
+  +B:solarflux:photovoltaic_cell_3=false
 
-  +B:solarflux:photovoltaic_cell_4=true
+  +B:solarflux:photovoltaic_cell_4=false
 
-  +B:solarflux:photovoltaic_cell_5=true
+  +B:solarflux:photovoltaic_cell_5=false
 
-  +B:solarflux:photovoltaic_cell_6=true
+  +B:solarflux:photovoltaic_cell_6=false
 
-  +B:solarflux:solar_panel_1=true
+  +B:solarflux:solar_panel_1=false
 
-  +B:solarflux:solar_panel_2=true
+  +B:solarflux:solar_panel_2=false
 
-  +B:solarflux:solar_panel_3=true
+  +B:solarflux:solar_panel_3=false
 
-  +B:solarflux:solar_panel_4=true
+  +B:solarflux:solar_panel_4=false
 
-  +B:solarflux:solar_panel_5=true
+  +B:solarflux:solar_panel_5=false
 
-  +B:solarflux:solar_panel_6=true
+  +B:solarflux:solar_panel_6=false
 
-  +B:solarflux:solar_panel_7=true
+  +B:solarflux:solar_panel_7=false
 
-  +B:solarflux:solar_panel_8=true
+  +B:solarflux:solar_panel_8=false
 
   +B:solarflux:transfer_rate_upgrade=true
 
@@ -63,5 +63,3 @@
   +B:solarflux:wyvern_panel=true
 
 }
-
-
