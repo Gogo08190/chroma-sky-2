@@ -21,7 +21,7 @@
 		#Set this to true to let this feature generate in any world. (Does NOT work for structures!)
 		everyWorld = false
 		#Sets the categories to generate this feature in. Available categories: none,taiga,extreme_hills,jungle,mesa,plains,savanna,icy,the_end,beach,forest,ocean,desert,river,swamp,mushroom,nether
-		biomeCategoryNames = ["the_end"]
+		biomeCategoryNames = []
 		#Sets the worlds to generate this feature in. (Does NOT work for structures!)
 		worldNames = ["overworld"]
 		#Defines the structure spacing for worldgen
@@ -57,7 +57,7 @@
 		#Set this to true to let this feature generate in any world. (Does NOT work for structures!)
 		everyWorld = false
 		#Sets the categories to generate this feature in. Available categories: none,taiga,extreme_hills,jungle,mesa,plains,savanna,icy,the_end,beach,forest,ocean,desert,river,swamp,mushroom,nether
-		biomeCategoryNames = ["the_end"]
+		biomeCategoryNames = ["the_end","nether"]
 		#Sets the worlds to generate this feature in. (Does NOT work for structures!)
 		worldNames = ["overworld"]
 
