@@ -2,7 +2,7 @@ onEvent('recipes', event => {
 
     event.custom({
         "type": "mana-and-artifice:manaweaving-recipe",
-        "output": "chromasky:enderessence",
+        "output": "minecraft:grass_block",
         "tier": 1,
         "items": [
             "minecraft:ender_eye",
