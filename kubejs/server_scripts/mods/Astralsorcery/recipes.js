@@ -9,3 +9,4 @@ onEvent('recipes', event => {
     B: 'minecraft:bone_meal',
     A: 'astralsorcery:aquamarine'
   })
+});
