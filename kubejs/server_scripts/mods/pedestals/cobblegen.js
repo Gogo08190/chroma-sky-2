@@ -23,6 +23,7 @@ onEvent('recipes', e => {
   cobbleGen('chisel:basalt/raw', 'chisel:basalt/solid_bricks')
   cobbleGen('chisel:basalt/solid_bricks', 'enviromats:basalt_brick')
   cobbleGen('quark:basalt', 'quark:basalt_bricks')
+  cobbleGen('projectred-exploration:basalt', 'projectred-exploration:basalt_brick')
   cobbleGen('chisel:limestone/raw', 'chisel:limestone/solid_bricks')
   cobbleGen('quark:limestone', 'quark:limestone_bricks')
   cobbleGen('quark:cobbled_deepslate', 'quark:polished_deepslate')
