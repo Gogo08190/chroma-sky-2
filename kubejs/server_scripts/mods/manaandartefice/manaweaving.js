@@ -7,7 +7,7 @@ onEvent('recipes', event => {
         "items": [
             "minecraft:ender_eye",
             "minecraft:ender_pearl",
-            "ironfurnaces:obsidian_furnace",
+            "minecraft:obsidian",
             "minecraft:nether_star"
         ],
         "patterns": [
