@@ -95,7 +95,7 @@ onEvent("recipes", (event) => {
         I: 'occultism:spirit_attuned_gem',
         S: 'immersiveengineering:stick_treated'
     })
-    // Remote inert
+    // Remote Inert
     event.remove({ output: 'occultism:storage_remote_inert' })
     event.shaped('occultism:storage_remote_inert', [
         'GTG',
