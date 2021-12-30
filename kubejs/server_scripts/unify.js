@@ -271,4 +271,16 @@ onEvent('recipes', event => {
     stoneCutter([{"item": "occultism:silver_block"},{"item": "projectred-exploration:silver_block"},{"item": "thermal:silver_block"}],'immersiveengineering:storage_silver')
     stoneCutter([{"item": "occultism:silver_block"},{"item": "immersiveengineering:storage_silver"},{"item": "thermal:silver_block"}],'projectred-exploration:silver_block')
     stoneCutter([{"item": "projectred-exploration:silver_block"},{"item": "immersiveengineering:storage_silver"},{"item": "thermal:silver_block"}],'occultism:silver_block')
+
+    stoneCutter([{"item": "quark:basalt"},{"item": "projectred-exploration:basalt"}],'chisel:basalt/raw')
+    stoneCutter([{"item": "quark:basalt"},{"item": "chisel:basalt/raw"}],'projectred-exploration:basalt')
+    stoneCutter([{"item": "projectred-exploration:basalt"},{"item": "chisel:basalt/raw"}],'quark:basalt')
+
+    stoneCutter([{"item": "astralsorcery:marble_raw"},{"item": "chisel:marble/raw"},{"item": "projectred-exploration:marble"}],'quark:marble')
+    stoneCutter([{"item": "astralsorcery:marble_raw"},{"item": "chisel:marble/raw"},{"item": "quark:marble"}],'projectred-exploration:marble')
+    stoneCutter([{"item": "astralsorcery:marble_raw"},{"item": "quark:marble"},{"item": "projectred-exploration:marble"}],'chisel:marble/raw')
+    stoneCutter([{"item": "quark:marble"},{"item": "chisel:marble/raw"},{"item": "projectred-exploration:marble"}],'astralsorcery:marble_raw')
+
+    stoneCutter([{"item": "chisel:limestone/raw"}],'quark:limestone')
+    stoneCutter([{"item": "quark:limestone"}],'chisel:limestone/raw')
 });

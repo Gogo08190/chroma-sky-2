@@ -1,8 +1,4 @@
 onEvent('recipes', event => {
-    //removed
-
-
-
     //blank glyph
     event.remove({ output: 'mana-and-artifice:stone_rune_blank' })
     event.shaped('mana-and-artifice:stone_rune_blank', [
