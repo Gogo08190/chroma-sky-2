@@ -1,5 +1,5 @@
 onEvent('recipes', event => {
-    event.remove({output: 'naturesaura:offering'})
+    event.remove({output: 'mana-and-artifice:occulus'})
     event.custom({
         "type": "naturesaura:offering",
         "input": {
