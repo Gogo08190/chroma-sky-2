@@ -147,7 +147,7 @@ onEvent("recipes", (event) => {
     })
 
     // Limestone
-    event.shaped('8x chisel:basalt/raw', [
+    event.shaped('8x chisel:limestone/soft_bricks', [
       `III`,
       `ILI`,
       `III`
