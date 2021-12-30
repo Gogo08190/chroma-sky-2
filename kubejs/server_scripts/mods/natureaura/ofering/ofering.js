@@ -1,4 +1,5 @@
 onEvent('recipes', event => {
+    event.remove({output: 'naturesaura:offering'})
     event.custom({
         "type": "naturesaura:offering",
         "input": {
