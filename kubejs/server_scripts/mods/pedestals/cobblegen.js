@@ -20,6 +20,7 @@ onEvent('recipes', e => {
   cobbleGenSilk('mysticalagriculture:soulstone', 'mysticalagriculture:soulium_block')
   cobbleGen('astralsorcery:marble_raw', 'astralsorcery:marble_bricks')
   cobbleGen('enviromats:marble', 'enviromats:marble_brick')
+  cobbleGen('projectred-exploration:marble', 'projectred-exploration:marble_brick')
   cobbleGen('chisel:basalt/raw', 'chisel:basalt/solid_bricks')
   cobbleGen('chisel:basalt/solid_bricks', 'enviromats:basalt_brick')
   cobbleGen('quark:basalt', 'quark:basalt_bricks')

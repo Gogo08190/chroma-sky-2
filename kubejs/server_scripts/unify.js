@@ -276,6 +276,11 @@ onEvent('recipes', event => {
     stoneCutter([{"item": "quark:basalt"},{"item": "chisel:basalt/raw"}],'projectred-exploration:basalt')
     stoneCutter([{"item": "projectred-exploration:basalt"},{"item": "chisel:basalt/raw"}],'quark:basalt')
 
+    stoneCutter([{"item": "astralsorcery:marble_raw"},{"item": "chisel:marble/raw"},{"item": "projectred-exploration:marble"}],'quark:marble')
+    stoneCutter([{"item": "astralsorcery:marble_raw"},{"item": "chisel:marble/raw"},{"item": "quark:marble"}],'projectred-exploration:marble')
+    stoneCutter([{"item": "astralsorcery:marble_raw"},{"item": "quark:marble"},{"item": "projectred-exploration:marble"}],'chisel:marble/raw')
+    stoneCutter([{"item": "quark:marble"},{"item": "chisel:marble/raw"},{"item": "projectred-exploration:marble"}],'astralsorcery:marble_raw')
+
     stoneCutter([{"item": "chisel:limestone/raw"}],'quark:limestone')
     stoneCutter([{"item": "quark:limestone"}],'chisel:limestone/raw')
 });
