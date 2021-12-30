@@ -27,4 +27,5 @@ onEvent("item.registry", (event) => {
     event.create("chromasky:mechanic_core_tier_4").displayName("Mechanic Core Tier 4");
     event.create("chromasky:draconium_gear").displayName("Draconium Gear");
     event.create("chromasky:draconium_plate").displayName("Draconium Plate");
+    event.create("chromasky:enderessence").displayName("Ender Essence");
 });
