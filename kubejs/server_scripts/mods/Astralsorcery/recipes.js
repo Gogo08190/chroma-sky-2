@@ -9,4 +9,14 @@ onEvent('recipes', event => {
     B: 'minecraft:bone_meal',
     A: 'astralsorcery:aquamarine'
   })
+
+  // Marble
+  event.shaped('8x astralsorcery:marble_raw', [
+    `III`,
+    `ILI`,
+    `III`
+  ], {
+    L: '#forge:dyes/white',
+    I: `minecraft:stone`
+  })
 });

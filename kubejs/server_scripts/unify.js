@@ -271,4 +271,11 @@ onEvent('recipes', event => {
     stoneCutter([{"item": "occultism:silver_block"},{"item": "projectred-exploration:silver_block"},{"item": "thermal:silver_block"}],'immersiveengineering:storage_silver')
     stoneCutter([{"item": "occultism:silver_block"},{"item": "immersiveengineering:storage_silver"},{"item": "thermal:silver_block"}],'projectred-exploration:silver_block')
     stoneCutter([{"item": "projectred-exploration:silver_block"},{"item": "immersiveengineering:storage_silver"},{"item": "thermal:silver_block"}],'occultism:silver_block')
+
+    stoneCutter([{"item": "quark:basalt"},{"item": "projectred-exploration:basalt"}],'chisel:basalt/raw')
+    stoneCutter([{"item": "quark:basalt"},{"item": "chisel:basalt/raw"}],'projectred-exploration:basalt')
+    stoneCutter([{"item": "projectred-exploration:basalt"},{"item": "chisel:basalt/raw"}],'quark:basalt')
+
+    stoneCutter([{"item": "chisel:limestone/raw"}],'quark:limestone')
+    stoneCutter([{"item": "quark:limestone"}],'chisel:limestone/raw')
 });

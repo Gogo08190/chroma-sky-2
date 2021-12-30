@@ -135,4 +135,64 @@ onEvent("recipes", (event) => {
       O: 'minecraft:obsidian',
       K: 'minecraft:emerald'
     });
+
+    // Basalt
+    event.shaped('8x chisel:basalt/raw', [
+      `III`,
+      `ILI`,
+      `III`
+    ], {
+      L: '#forge:dyes/black',
+      I: `minecraft:stone`
+    })
+
+    // Limestone
+    event.shaped('8x chisel:basalt/raw', [
+      `III`,
+      `ILI`,
+      `III`
+    ], {
+      L: '#forge:dyes/yellow',
+      I: `minecraft:stone`
+    })
+
+    // Deepslate
+    event.shaped('8x quark:cobbled_deepslate', [
+      `BSB`,
+      `SBS`,
+      `BSB`
+    ], {
+      B: 'minecraft:basalt',
+      S: 'minecraft:cobblestone'
+    })
+
+    // Jasper
+    event.shaped('8x quark:jasper', [
+      `III`,
+      `ILI`,
+      `III`
+    ], {
+      L: '#forge:dyes/red',
+      I: `minecraft:stone`
+    })
+
+    // Slate
+    event.shaped('8x quark:slate', [
+      `III`,
+      `ILI`,
+      `III`
+    ], {
+      L: '#forge:dyes/cyan',
+      I: `minecraft:stone`
+    })
+
+    // Myalite
+    event.shaped('8x quark:myalite', [
+      `III`,
+      `ILI`,
+      `III`
+    ], {
+      L: '#forge:dyes/purple',
+      I: `minecraft:stone`
+    })
 });
