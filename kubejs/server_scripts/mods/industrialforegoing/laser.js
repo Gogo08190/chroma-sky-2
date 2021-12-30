@@ -20,7 +20,7 @@ onEvent('recipes', e => {
           weight: calc_weight
         }],
         pointer: 0,
-        catalyst: Ingredient.of('industrialforegoing:laser_lens${lens}').toJson()
+        catalyst: Ingredient.of(`industrialforegoing:laser_lens${lens}`).toJson()
       })
     } else {
       e.custom({
@@ -34,7 +34,7 @@ onEvent('recipes', e => {
           weight: weight
         }],
         pointer: 0,
-        catalyst: Ingredient.of('industrialforegoing:laser_lens${lens}').toJson()
+        catalyst: Ingredient.of(`industrialforegoing:laser_lens${lens}`).toJson()
       })
     }
   }
@@ -60,7 +60,7 @@ onEvent('recipes', e => {
           weight: calc_weight
         }],
         pointer: 0,
-        catalyst: Ingredient.of('industrialforegoing:laser_lens${lens}').toJson()
+        catalyst: Ingredient.of(`industrialforegoing:laser_lens${lens}`).toJson()
       })
     } else {
       e.custom({
@@ -74,7 +74,7 @@ onEvent('recipes', e => {
           weight: weight
         }],
         pointer: 0,
-        catalyst: Ingredient.of('industrialforegoing:laser_lens${lens}').toJson()
+        catalyst: Ingredient.of(`industrialforegoing:laser_lens${lens}`).toJson()
       })
     }
   }
@@ -125,6 +125,29 @@ onEvent('recipes', e => {
     })
   }
 
+  function drillAby(result, min, max, weight, lens) {
+    drillW(result, min, max, weight, lens, {
+      type: 'minecraft:worldgen/biome',
+      values: [
+        'theabyss:mud_plains',
+        'thebeginning:ruma_forest',
+        'theabyss:abyss_phantom_biome',
+        'theabyss:aybssmountain',
+        'theabyss:bossuselessbiome',
+        'theabyss:eot_biome',
+        'theabyss:eot_biome_2',
+        'theabyss:forgottenmountains',
+        'theabyss:slime_forest_biome',
+        'theabyss:the_abyss_jungle',
+        'theabyss:the_abyss_plains_biome',
+        'theabyss:theabyssbiome',
+        'theabyss:waywardsea',
+        'thebeginning:flora_forest',
+        'thebeginning:roggen_forest',
+      ]
+    })
+  }
+
   drillOw('rftoolsbase:dimensionalshard_overworld', 0, 32, 6, 0)
   drillOw('astralsorcery:rock_crystal_ore', 8, 32, 10, 0)
   drillOw('astralsorcery:aquamarine_sand_ore', 54, 72, 6, 3)
@@ -139,16 +162,17 @@ onEvent('recipes', e => {
   drillNet('mysticalagradditions:nether_inferium_ore', 0, 32, 20, 5)
   drillNet('mysticalagradditions:nether_prosperity_ore', 0, 80, 20, 0)
 
-  drillEnd('rftoolsbase:dimensionalshard_nether', 0, 32, 6, 0)
-  drillEnd('mysticalagradditions:nether_inferium_ore', 0, 32, 20, 5)
-  drillEnd('mysticalagradditions:nether_prosperity_ore', 0, 80, 20, 0)
-  drillEnd('theabyss:abyssiceore', 10, 30, 20, 11)
-  drillEnd('theabyss:abyssfireore', 20, 30, 20, 6)
-  drillEnd('theabyss:abyssore', 0, 10, 4, 10)
-  drillEnd('theabyss:fusionore', 0, 80, 20, 13)
-  drillEnd('theabyss:loranore', 15, 45, 14, 3)
-  drillEnd('theabyss:unknown_ore', 0, 20, 8, 9)
-  drillEnd('theabyss:garnite_ore', 0, 10, 4, 15)
-  drillEnd('thebeginning:florite_ore', 50, 70, 8, 3)
+  drillEnd('rftoolsbase:dimensionalshard_end', 0, 32, 6, 0)
+  drillEnd('mysticalagradditions:end_inferium_ore', 0, 32, 20, 5)
+  drillEnd('mysticalagradditions:end_prosperity_ore', 0, 80, 20, 0)
+  
+  drillAby('theabyss:abyssiceore', 10, 30, 20, 11)
+  drillAby('theabyss:abyssfireore', 20, 30, 20, 6)
+  drillAby('theabyss:abyssore', 0, 10, 4, 10)
+  drillAby('theabyss:fusionore', 0, 80, 20, 13)
+  drillAby('theabyss:loranore', 15, 45, 14, 3)
+  drillAby('theabyss:unknown_ore', 0, 20, 8, 9)
+  drillAby('theabyss:garnite_ore', 0, 10, 4, 15)
+  drillAby('thebeginning:florite_ore', 50, 70, 8, 3)
   //drill(ore, min_height, max_height, weight, lens)
 })
