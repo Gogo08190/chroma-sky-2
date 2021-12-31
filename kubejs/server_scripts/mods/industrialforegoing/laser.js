@@ -155,6 +155,7 @@ onEvent('recipes', e => {
   drillOw('mysticalagriculture:inferium_ore', 0, 32, 20, 5)
   drillOw('powah:uraninite_ore', 4, 36, 7, 13)
   drillOw('thermal:apatite_ore', 39, 48, 6, 3)
+  drillOw('mana-and-artifice:vinteum_ore', 39, 48, 6, 3)
   drillOw('projectred-exploration:electrotine_ore', 20, 46, 6, 11)
 
   drillNet('mysticalagriculture:soulium_ore', 0, 32, 20, 12)
@@ -165,7 +166,7 @@ onEvent('recipes', e => {
   drillEnd('rftoolsbase:dimensionalshard_end', 0, 32, 6, 0)
   drillEnd('mysticalagradditions:end_inferium_ore', 0, 32, 20, 5)
   drillEnd('mysticalagradditions:end_prosperity_ore', 0, 80, 20, 0)
-  
+
   drillAby('theabyss:abyssiceore', 10, 30, 20, 11)
   drillAby('theabyss:abyssfireore', 20, 30, 20, 6)
   drillAby('theabyss:abyssore', 0, 10, 4, 10)
