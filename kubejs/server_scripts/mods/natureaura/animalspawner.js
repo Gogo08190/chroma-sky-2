@@ -1,7 +1,6 @@
 onEvent('recipes', event => {
 
   event.custom({
-    {
         "type": "naturesaura:animal_spawner",
         "ingredients": [
             {
