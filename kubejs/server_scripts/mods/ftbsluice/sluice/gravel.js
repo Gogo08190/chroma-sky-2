@@ -41,6 +41,7 @@ onEvent("recipes", (event) => {
         ["projectred-core:electrotine_dust", 0.35],
         ["minecraft:flint", 0.47],
         ["chromasky:diamond_chunk", 0.1],
+        ["mana-and-artifice:chimerite_gem", 0.16],
     ]);
 
     sluice(["blazing"], "#forge:gravel", [
@@ -53,5 +54,6 @@ onEvent("recipes", (event) => {
         ["minecraft:flint", 0.48],
         ["minecraft:gold_ingot", 0.27],
         ["projectred-core:electrotine_dust", 0.36],
+        ["mana-and-artifice:chimerite_gem", 0.21],
     ]).fluid("minecraft:lava");
 });
