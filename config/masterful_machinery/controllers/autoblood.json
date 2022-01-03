@@ -1,0 +1,25 @@
+{
+  "controllerId": "autoblood",
+  "name": "Mega Blood Altar",
+  "textureOverride": "bloodmagic:block/blankrune",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "textureOverride": "bloodmagic:block/blankrune",
+      "name": "Item",
+      "id": "dark_celestial_item",
+      "data": {
+        "rows": 1,
+        "columns": 1
+      }
+    },
+    {
+      "type": "masterfulmachinery:fluids",
+      "name": "Small Fluid",
+      "id": "small",
+      "data": {
+        "capacity": 150000
+      }
+    }
+  ]
+}
