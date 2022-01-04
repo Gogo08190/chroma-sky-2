@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "masterfulmachinery:block/autoblood_controller"
+    },
+    "facing=up": {
+      "model": "masterfulmachinery:block/autoblood_controller"
+    },
+    "facing=north": {
+      "model": "masterfulmachinery:block/autoblood_controller"
+    },
+    "facing=south": {
+      "model": "masterfulmachinery:block/autoblood_controller",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "masterfulmachinery:block/autoblood_controller",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "masterfulmachinery:block/autoblood_controller",
+      "y": 90
+    }
+  }
+}

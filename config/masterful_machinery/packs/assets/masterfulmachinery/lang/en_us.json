@@ -1,6 +1,12 @@
 {
+  "block.masterfulmachinery.autoblood_controller": "Mega Blood Altar Controller",
+  "block.masterfulmachinery.autoblood_dark_celestial_item_port_items_input": "Mega Blood Altar - Item Input Port",
+  "block.masterfulmachinery.autoblood_dark_celestial_item_port_items_output": "Mega Blood Altar - Item Output Port",
+  "block.masterfulmachinery.autoblood_small_port_fluids_input": "Mega Blood Altar - Small Fluid Input Port",
+  "block.masterfulmachinery.autoblood_small_port_fluids_output": "Mega Blood Altar - Small Fluid Output Port",
   "block.masterfulmachinery.projector": "Structure Projector",
   "block.masterfulmachinery.structure_generator": "Structure Generator",
+  "container.masterfulmachinery.autoblood_controller.name": "Mega Blood Altar Controller",
   "container.masterfulmachinery.create_rotation": "Rotation Port",
   "item.masterfulmachinery.blueprint": "Blueprint",
   "item.masterfulmachinery.structure_gen_device": "Structure Selector",
