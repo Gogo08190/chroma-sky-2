@@ -13,4 +13,16 @@ onEvent('recipes', event => {
     T: 'quark:turf'
   })
 
+  // Everlasting Spring
+  event.remove({ output: 'naturesaura:spring' })
+  event.shaped('naturesaura:spring', [
+  'LGL',
+  'GTG',
+  'LGL'
+  ], {
+    L: 'minecraft:stone_bricks',
+    G: 'thermal:device_water_gen',
+    T: 'naturesaura:token_euphoria'
+  })
+
 });
