@@ -136,4 +136,15 @@ onEvent("recipes", (event) => {
     B: 'mekanism:basic_induction_cell',
     A: 'theabyss:unorithe_a_netherithe_boots'
   })
+
+  event.remove({ output: 'mekanism:module_base' })
+  event.shaped('2x mekanism:module_base', [
+  'BTB',
+  'THT',
+  'BTB'
+  ], {
+    B: 'thermal:bronze_nugget',
+    T: 'thermal:tin_plate',
+    H: 'mekanism:hdpe_sheet'
+  })
 });
