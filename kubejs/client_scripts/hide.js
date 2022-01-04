@@ -145,7 +145,8 @@ events.listen('jei.hide.items', function (event) {
     'cyclic:uncrafter',
     'rats:raw_plastic',
     'simplegens:simple_statue',
-    'extendedcrafting:handheld_table'
+    'extendedcrafting:handheld_table',
+    'masterfulmachinery:autoblood_small_port_fluids_output'
   ])
 })
 
