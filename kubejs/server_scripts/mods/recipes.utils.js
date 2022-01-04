@@ -110,7 +110,7 @@ onEvent("recipes", (event) => {
     'NON'
     ], {
       N: 'chromasky:3x_compressed_endstone',
-      O: 'cyclic:ender_eye_reuse',
+      O: 'chromasky:enderessence',
       P: 'minecraft:painting'
     });
 
