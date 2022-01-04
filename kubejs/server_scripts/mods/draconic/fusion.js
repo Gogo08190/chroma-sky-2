@@ -14,19 +14,22 @@ onEvent("recipes", (event) => {
                 item: "ftbjarmod:cast_iron_block",
             },
             {
+                item: "ftbjarmod:cast_iron_block",
+            },
+            {
                 item: "powah:spirited_crystal_block",
             },
             {
-                item: "ftbjarmod:cast_iron_block",
+                item: "powah:spirited_crystal_block",
+            },
+            {
+                item: "mekanism:basic_energy_cube",
             },
             {
                 item: "mekanism:basic_energy_cube",
             },
             {
                 item: "ftbjarmod:cast_iron_block",
-            },
-            {
-                item: "powah:spirited_crystal_block",
             },
             {
                 item: "ftbjarmod:cast_iron_block",
@@ -48,19 +51,22 @@ onEvent("recipes", (event) => {
                 item: "ftbjarmod:cast_iron_block",
             },
             {
+                item: "ftbjarmod:cast_iron_block",
+            },
+            {
                 item: "powah:blazing_crystal_block",
             },
             {
-                item: "ftbjarmod:cast_iron_block",
+                item: "powah:blazing_crystal_block",
+            },
+            {
+                item: "mekanism:advanced_energy_cube",
             },
             {
                 item: "mekanism:advanced_energy_cube",
             },
             {
                 item: "ftbjarmod:cast_iron_block",
-            },
-            {
-                item: "powah:blazing_crystal_block",
             },
             {
                 item: "ftbjarmod:cast_iron_block",
@@ -82,19 +88,23 @@ onEvent("recipes", (event) => {
                 item: "ftbjarmod:cast_iron_block",
             },
             {
+                item: "ftbjarmod:cast_iron_block",
+            },
+            {
                 item: "powah:niotic_crystal_block",
             },
             {
-                item: "ftbjarmod:cast_iron_block",
+                item: "powah:niotic_crystal_block",
+            },
+
+            {
+                item: "mekanism:elite_energy_cube",
             },
             {
                 item: "mekanism:elite_energy_cube",
             },
             {
                 item: "ftbjarmod:cast_iron_block",
-            },
-            {
-                item: "powah:niotic_crystal_block",
             },
             {
                 item: "ftbjarmod:cast_iron_block",
@@ -116,19 +126,22 @@ onEvent("recipes", (event) => {
                 item: "ftbjarmod:cast_iron_block",
             },
             {
+                item: "ftbjarmod:cast_iron_block",
+            },
+            {
                 item: "draconicevolution:draconium_block",
             },
             {
-                item: "ftbjarmod:cast_iron_block",
+                item: "draconicevolution:draconium_block",
+            },
+            {
+                item: "mekanism:ultimate_energy_cube",
             },
             {
                 item: "mekanism:ultimate_energy_cube",
             },
             {
                 item: "ftbjarmod:cast_iron_block",
-            },
-            {
-                item: "draconicevolution:draconium_block",
             },
             {
                 item: "ftbjarmod:cast_iron_block",
@@ -151,16 +164,16 @@ onEvent("recipes", (event) => {
                 item: "powah:blazing_crystal_block",
             },
             {
-                item: "minecraft:netherite_ingot",
-            },
-            {
-                item: "powah:blazing_crystal_block",
-            },
-            {
                 item: "powah:blazing_crystal_block",
             },
             {
                 item: "minecraft:netherite_ingot",
+            },
+            {
+                item: "minecraft:netherite_ingot",
+            },
+            {
+                item: "powah:blazing_crystal_block",
             },
             {
                 item: "powah:blazing_crystal_block",
@@ -183,16 +196,16 @@ onEvent("recipes", (event) => {
                 item: "minecraft:blaze_rod",
             },
             {
-                item: "simplyjetpacks:armorplating_ie1",
-            },
-            {
-                item: "minecraft:blaze_rod",
-            },
-            {
                 item: "minecraft:blaze_rod",
             },
             {
                 item: "simplyjetpacks:armorplating_ie1",
+            },
+            {
+                item: "simplyjetpacks:armorplating_ie1",
+            },
+            {
+                item: "minecraft:blaze_rod",
             },
             {
                 item: "minecraft:blaze_rod",
