@@ -580,7 +580,7 @@ e.custom({
     })
   }
 
-  bloodcraft(50 ,'#forge:stone', 1000, 'bloodmagic:blankslate')
+  bloodcraft(50 ,'minecraft:stone', 1000, 'bloodmagic:blankslate')
   bloodcraft(100 ,'bloodmagic:blankslate', 2000, 'bloodmagic:reinforcedslate')
   bloodcraft(250 ,'bloodmagic:reinforcedslate', 5000, 'bloodmagic:infusedslate')
   bloodcraft(750 ,'bloodmagic:infusedslate', 15000, 'bloodmagic:demonslate')
