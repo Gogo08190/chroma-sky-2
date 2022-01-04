@@ -179,6 +179,21 @@ onEvent('recipes', event => {
     H: 'ftbsluice:diamond_hammer'
   })
 
+  // Netherite Auto Hammer
+  event.remove({ output: 'ftbsluice:netherite_auto_hammer' })
+  event.shaped('ftbsluice:netherite_auto_hammer', [
+  'FIF',
+  'VHV',
+  'CGC'
+  ], {
+    C: 'ftbjarmod:cast_iron_block',
+    G: 'ftbsluice:diamond_auto_hammer',
+    I: 'powah:steel_energized',
+    V: '#forge:glass',
+    F: 'minecraft:netherite_ingot',
+    H: 'ftbsluice:netherite_hammer'
+  })
+
   // Manual Pump
   event.remove({ output: 'ftbsluice:pump' })
   event.shaped('ftbsluice:pump', [
