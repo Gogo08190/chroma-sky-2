@@ -8,6 +8,6 @@ onEvent("recipes", (event) => {
   event.shaped('9x extendedcrafting:black_iron_ingot', 'extendedcrafting:black_iron_block')
 
   event.recipes.thermal
-    .smelter("extendedcrafting:black_iron_ingot", ['immersiveengineering:coal_coke', 'mekanism:ingot_steel'])
+    .smelter("extendedcrafting:black_iron_ingot", ['immersiveengineering:coal_coke', 'mekanism:ingot_steel', 'rats:little_black_squash_balls'])
     .energy(6400);
 });
