@@ -565,4 +565,24 @@ e.custom({
     }
   }
 })
+
+  function bloodcraft(ticks, input, mb, output) {
+    e.custom({
+      "type": "masterfulmachinery:machine_process",
+      "structureId": "autoblood_machine",
+      "controllerId": "autoblood",
+      "ticks": ticks,
+      "inputs": [
+          {"type": "masterfulmachinery:items","data": {"item": input,"count": 1}},
+          {"type": "masterfulmachinery:fluids","data": {"fluid": "bloodmagic:life_essence_fluid","amount": mb}}
+      ],
+      "outputs": [{"type": "masterfulmachinery:items","data": {"item": output,"count": 1}}]
+    })
+  }
+
+  bloodcraft(50 ,'#forge:stone', 1000, 'bloodmagic:blankslate')
+  bloodcraft(100 ,'bloodmagic:blankslate', 2000, 'bloodmagic:reinforcedslate')
+  bloodcraft(250 ,'bloodmagic:reinforcedslate', 5000, 'bloodmagic:infusedslate')
+  bloodcraft(750 ,'bloodmagic:infusedslate', 15000, 'bloodmagic:demonslate')
+  bloodcraft(1500 ,'bloodmagic:demonslate', 30000, 'bloodmagic:etherealslate')
 })
