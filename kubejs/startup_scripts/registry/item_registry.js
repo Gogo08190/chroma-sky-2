@@ -47,4 +47,5 @@ onEvent("item.registry", (event) => {
     event.create("chromasky:draconium_plate").displayName("Draconium Plate");
     event.create("chromasky:enderessence").displayName("Ender Essence");
     event.create("chromasky:ultimategem").displayName("Ultimate Gem");
+    event.create("chromasky:pattern_mundane_cast_star_shard").displayName("Pattern: Mundane Cast Star Shard");
 });
