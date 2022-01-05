@@ -5,6 +5,6 @@ onEvent('recipes', event => {
         "tier": 1,
         "mutex_h": 28737120478717464,
         "mutex_v": 30417173679837292,
-        "output": "minecraft:dirt"
+        "output": "chromasky:pattern_mundane_cast_star_shard"
     })
 })
