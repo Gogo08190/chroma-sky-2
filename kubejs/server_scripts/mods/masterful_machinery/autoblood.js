@@ -516,7 +516,7 @@ e.custom({
       "block": "bloodmagic:blankrune"
     },
     "/": {
-      "block": "masterfulmachinery:autoblood_small_port_fluids_input"
+      "block": "masterfulmachinery:autoblood_blood_fluid_port_fluids_input"
     },
     "0": {
       "block": "minecraft:chiseled_polished_blackstone"
@@ -537,10 +537,10 @@ e.custom({
       "block": "minecraft:soul_lantern"
     },
     "6": {
-      "block": "masterfulmachinery:autoblood_dark_celestial_item_port_items_output"
+      "block": "masterfulmachinery:autoblood_blood_item_port_items_output"
     },
     "7": {
-      "block": "masterfulmachinery:autoblood_dark_celestial_item_port_items_input"
+      "block": "masterfulmachinery:autoblood_blood_item_port_items_input"
     },
     "8": {
       "block": "minecraft:red_stained_glass_pane"
