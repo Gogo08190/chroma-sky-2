@@ -7,7 +7,7 @@ onEvent('recipes', event => {
                 "item": "naturesaura:birth_spirit"
             },
             {
-                "item": "minecraft:egg"
+                "item": "minecraft:emerald"
             },
             {
                 "item": "minecraft:anvil"
