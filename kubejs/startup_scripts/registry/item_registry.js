@@ -20,6 +20,23 @@ onEvent("item.registry", (event) => {
     event.create("chromasky:treated_wood_gear").displayName("Treated Wood Gear");
     event.create("chromasky:ultimategear").displayName("Ultimate Gear");
     event.create("chromasky:ultimateplate").displayName("Ultimate Plate");
+    event.create("chromasky:ultimatebeer").displayName("Ultimate Beer").food(foodConsumer => {
+      foodConsumer.hunger(20)
+                  .saturation(5.0)
+                  .eaten(eatenEvent => {
+                    eatenEvent.player.tell("I Love Beer !");
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:speed",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:strength",600,41,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:regeneration",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:fire_resistance",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:water_breathing",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:resistance",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:glowing",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:absorption",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:haste",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:nausea",5,1,false,false)
+                  });
+    });
     event.create("chromasky:hammer_head").displayName("Hammer Head");
     event.create("chromasky:wirecutter_head").displayName("Wire Cutters Head");
     event.create("chromasky:mechanic_core_tier_1").displayName("Mechanic Core Tier 1");
