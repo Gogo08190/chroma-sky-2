@@ -1,6 +1,6 @@
 onEvent('recipes', event => {
 
-  event.remove({ output: 'immersiveengineering:cloche' })
+  event.remove({ output: 'matc:inferium_crystal' })
 
   event.custom({
     "type": "naturesaura:tree_ritual",
