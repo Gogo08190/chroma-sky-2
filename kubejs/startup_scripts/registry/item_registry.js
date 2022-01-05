@@ -46,4 +46,5 @@ onEvent("item.registry", (event) => {
     event.create("chromasky:draconium_gear").displayName("Draconium Gear");
     event.create("chromasky:draconium_plate").displayName("Draconium Plate");
     event.create("chromasky:enderessence").displayName("Ender Essence");
+    event.create("chromasky:ultimategem").displayName("Ultimate Gem");
 });
