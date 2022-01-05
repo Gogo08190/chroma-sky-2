@@ -41,10 +41,6 @@ onEvent("recipes", (event) => {
     rec("2x minecraft:gold_ingot", "minecraft:golden_horse_armor");
     rec("4x minecraft:gold_ingot", "minecraft:bell");
     rec("3x minecraft:diamond", "mekanismtools:diamond_paxel");
-    rec(
-        ["2x minecraft:obsidian", "1x minecraft:ender_pearl", "1x minecraft:blaze_powder"],
-        "itemcollectors:advanced_collector"
-    );
     rec(["2x minecraft:leather", "1x minecraft:blaze_powder"], "enderstorage:ender_pouch");
     rec("1x minecraft:iron_ingot", "minecraft:name_tag");
     rec("1x minecraft:iron_ingot", "minecraft:chain");
