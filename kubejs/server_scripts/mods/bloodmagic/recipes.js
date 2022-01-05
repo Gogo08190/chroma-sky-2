@@ -26,12 +26,12 @@ onEvent('recipes', event => {
   })
 
   event.shaped('masterfulmachinery:autoblood_blood_fluid_port_fluids_input', [
-  'mekanism:ultimate_fluid_tank',
+  'C',
   'R',
   'H'
   ], {
     H: 'speedyhoppers:speedyhopper_mk3',
     R: 'bloodmagic:blankrune',
-    C: 'mekanism:personal_chest'
+    C: 'mekanism:ultimate_fluid_tank'
   })
 });
