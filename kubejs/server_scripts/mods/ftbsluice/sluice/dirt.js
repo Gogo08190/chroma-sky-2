@@ -18,7 +18,8 @@ onEvent("recipes", (event) => {
     ]).mb(50);
 
     sluice(["iron"], "#forge:dirt", [
-        ["minecraft:flint", 0.22],
+        ["occultism:datura_seeds", 0.22],
+        ["minecraft:sweet_berries", 0.22]
     ]);
 
     sluice(["gold"], "#forge:dirt", [
