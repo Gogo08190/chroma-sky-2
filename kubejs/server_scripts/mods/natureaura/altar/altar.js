@@ -1,5 +1,4 @@
 onEvent('recipes', event => {
-    event.remove({output: 'naturesaura:altar'})
     event.custom({
         "type": "naturesaura:altar",
         "input": {
@@ -13,7 +12,6 @@ onEvent('recipes', event => {
         "time": 80
     })
 
-    event.remove({output: 'naturesaura:altar'})
     event.custom({
         "type": "naturesaura:altar",
         "input": {
