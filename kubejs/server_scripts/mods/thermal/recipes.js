@@ -1,4 +1,6 @@
 onEvent("recipes", (event) => {
+  event.remove({ output: 'thermal:machine_frame' })
+  
   event.shaped('thermal:sapphire_gear', [
   ' R ',
   'RCR',

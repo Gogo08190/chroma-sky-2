@@ -1,19 +1,21 @@
 onEvent("recipes", (event) => {
   event.recipes.immersiveengineeringAlloy('extendedcrafting:redstone_ingot', 'ftbjarmod:cast_iron_ingot', 'projectred-core:red_ingot')
 
-  event.remove({ output: 'thermal:machine_frame' })
   event.custom({
       "type": "immersiveengineering:blueprint",
       "inputs": [{
-          "item": "chromasky:top_frame"
+          "item": "minecraft:obsidian"
       },{
-          "item": "chromasky:mechanic_core_tier_1"
+          "item": "minecraft:sand"
       },{
-          "item": "chromasky:bottom_frame"
+          "item": "minecraft:quartz"
+      },{
+          "item": "minecraft:fire_charge"
       }],
       "category": "components",
       "result": {
-          "item": "thermal:machine_frame"
+          "item": "thermal:obsidian_glass",
+          "count": 2
       }
     })
 });
