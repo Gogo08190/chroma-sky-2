@@ -321,7 +321,7 @@
 		fix_duplicate_entity_uuids = true
 		# Logs fixed entity UUIDs.
 		# Default: true
-		log_fixed_duplicate_entity_uuids = true
+		log_fixed_duplicate_entity_uuids = false
 		# Fixes the recipe book not automatically moving ingredients with NBT tags to the crafting grid.
 		# This bug is reported as MC-129057: https://bugs.mojang.com/browse/MC-129057
 		# Default: true
