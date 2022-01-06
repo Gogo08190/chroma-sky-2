@@ -115,17 +115,17 @@ onEvent("recipes", (event) => {
     });
 
     event.remove({ output: 'entangled:block' })
-    event.shaped('entangled:block', [
-    'POP',
-    'OKO',
-    'POP'
-    ], {
-      P: 'minecraft:ender_pearl',
-      O: 'minecraft:obsidian',
-      K: 'krate:krate_basic'
-    });
 
     event.remove({ output: 'entangled:item' })
+    event.shaped('entangled:item', [
+    ' PK',
+    ' OP',
+    'O  '
+    ], {
+      P: 'minecraft:ender_eye',
+      O: 'minecraft:obsidian',
+      K: 'minecraft:emerald'
+    });
 
     // Basalt
     event.shaped('8x chisel:basalt/raw', [
