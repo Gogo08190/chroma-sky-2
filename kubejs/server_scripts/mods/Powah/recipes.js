@@ -195,4 +195,21 @@ onEvent('recipes', event => {
     }
   )
 
+  event.custom(
+    {
+      "type": "powah:energizing",
+      "ingredients": [
+      {"item": 'astralsorcery:illumination_powder'},
+      {"item": 'astralsorcery:illumination_powder'},
+      {"item": 'minecraft:redstone'},
+      {"item": 'minecraft:gunpowder'}
+      ],
+      "energy": 5000,
+      "result": {
+      "item": 'extendedcrafting:luminessence',
+      "count": 2
+      }
+    }
+  )
+
 });
