@@ -1,6 +1,6 @@
 onEvent("recipes", (event) => {
   event.remove({ output: 'thermal:machine_frame' })
-  
+
   event.shaped('thermal:sapphire_gear', [
   ' R ',
   'RCR',
@@ -85,18 +85,6 @@ onEvent("recipes", (event) => {
   ], {
     S: 'mekanism:ingot_steel',
     R: 'extendedcrafting:redstone_ingot'
-  })
-
-  event.shaped('chromasky:excitationcoil', [
-  'RRR',
-  'CHC',
-  'ESE'
-  ], {
-    R: 'extendedcrafting:redstone_ingot',
-    C: 'thermal:rf_coil',
-    H: 'immersiveengineering:coil_hv',
-    E: 'thermal:electrum_plate',
-    S: 'thermal:redstone_servo'
   })
 
   event.remove({ output: 'thermal:dynamo_stirling' })
