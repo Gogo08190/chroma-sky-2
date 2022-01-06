@@ -124,4 +124,61 @@ e.custom({
   }
 })
 
+  function astral2(input1, count1, input2, count2, output, countout, starlight) {
+    e.custom({
+      "type": "masterfulmachinery:machine_process",
+      "structureId": "auto_astral",
+      "controllerId": "autoastral",
+      "ticks": 100,
+      "inputs": [
+          {"type": "masterfulmachinery:items","data": {"item": input1,"count": count1}},
+          {"type": "masterfulmachinery:items","data": {"item": input2,"count": count2}},
+          {"type": "masterfulmachinery:astral_starlight","data": {"amount": starlight}}
+      ],
+      "outputs": [{"type": "masterfulmachinery:items","data": {"item": output,"count": countout}}]
+    })
+  }
+
+  function astral4(input1, count1, input2, count2, input3, count3, input4, count4, output, countout, starlight) {
+    e.custom({
+      "type": "masterfulmachinery:machine_process",
+      "structureId": "auto_astral",
+      "controllerId": "autoastral",
+      "ticks": 100,
+      "inputs": [
+          {"type": "masterfulmachinery:items","data": {"item": input1,"count": count1}},
+          {"type": "masterfulmachinery:items","data": {"item": input2,"count": count2}},
+          {"type": "masterfulmachinery:items","data": {"item": input3,"count": count3}},
+          {"type": "masterfulmachinery:items","data": {"item": input4,"count": count4}},
+          {"type": "masterfulmachinery:astral_starlight","data": {"amount": starlight}}
+      ],
+      "outputs": [{"type": "masterfulmachinery:items","data": {"item": output,"count": countout}}]
+    })
+  }
+
+  function astral3(input1, count1, input2, count2, input3, count3, output, countout, starlight) {
+    e.custom({
+      "type": "masterfulmachinery:machine_process",
+      "structureId": "auto_astral",
+      "controllerId": "autoastral",
+      "ticks": 100,
+      "inputs": [
+          {"type": "masterfulmachinery:items","data": {"item": input1,"count": count1}},
+          {"type": "masterfulmachinery:items","data": {"item": input2,"count": count2}},
+          {"type": "masterfulmachinery:items","data": {"item": input3,"count": count3}},
+          {"type": "masterfulmachinery:astral_starlight","data": {"amount": starlight}}
+      ],
+      "outputs": [{"type": "masterfulmachinery:items","data": {"item": output,"count": countout}}]
+    })
+  }
+
+  // Astral 2 Items
+  astral2('astralsorcery:aquamarine', 2, 'minecraft:glowstone_dust', 2, 'astralsorcery:illumination_powder', 16, 100)
+
+  // Astral 3 Items
+  astral3(input1, count1, input2, count2, input3, count3, output, countout, starlight)
+  
+  // Astral 4 Items
+  astral4(input1, count1, input2, count2, input3, count3, input4, count4, output, countout, starlight)
+
 })
