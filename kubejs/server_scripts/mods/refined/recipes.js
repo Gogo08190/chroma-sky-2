@@ -8,15 +8,6 @@ onEvent('recipes', event => {
     .energy(6400);
 
   event.remove({ output: 'refinedstorage:machine_casing' })
-  event.shaped('refinedstorage:machine_casing', [
-  'QSQ',
-  'SCS',
-  'QSQ'
-  ], {
-    Q: 'refinedstorage:quartz_enriched_iron',
-    S: 'immersiveengineering:component_steel',
-    C: 'chromasky:mechanic_core_tier_3'
-  })
 
   event.remove({ output: 'refinedstorage:controller' })
   event.custom(
