@@ -194,7 +194,8 @@ onEvent('recipes', event => {
       }
     }
   )
-
+event.remove({ output: 'extendedcrafting:luminessence' })
+event.shapeless('9x extendedcrafting:luminessence', 'extendedcrafting:luminessence_block');
   event.custom(
     {
       "type": "powah:energizing",
