@@ -1,0 +1,26 @@
+{
+  "controllerId": "autoastral",
+  "name": "Auto Iridescent Altar",
+  "textureOverride": "astralsorcery:block/black_marble_bricks",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "textureOverride": "astralsorcery:block/black_marble_bricks",
+      "name": "Iridescent Altar Item",
+      "id": "autoastral_item",
+      "data": {
+        "rows": 5,
+        "columns": 5
+      }
+    },
+    {
+      "type": "masterfulmachinery:astral_starlight",
+      "textureOverride": "astralsorcery:block/starmetal",
+      "name": "Starlight",
+      "id": "autoastral_starlight",
+      "data": {
+        "capacity": 10000000
+      }
+    }
+  ]
+}
