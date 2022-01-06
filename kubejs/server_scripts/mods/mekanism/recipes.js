@@ -12,15 +12,6 @@ onEvent("recipes", (event) => {
   })
 
   event.remove({ output: 'mekanism:steel_casing' })
-  event.shaped('mekanism:steel_casing', [
-  'SOS',
-  'OCO',
-  'SOS'
-  ], {
-    S: 'mekanism:ingot_steel',
-    O: 'mekanism:ingot_osmium',
-    C: 'chromasky:mechanic_core_tier_4'
-  })
 
   event.remove({ output: 'mekanismgenerators:heat_generator' })
   event.shaped('mekanismgenerators:heat_generator', [
