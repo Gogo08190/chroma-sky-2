@@ -111,6 +111,8 @@ e.custom({
   // 3 Inputs
   assembling3(20, 2000, 'chromasky:bottom_frame', 1, 'chromasky:mechanic_core_tier_1', 1, 'chromasky:top_frame', 1, 'thermal:machine_frame')
   assembling3(40, 50000, 'refinedstorage:quartz_enriched_iron', 4, 'immersiveengineering:component_steel', 4, 'chromasky:mechanic_core_tier_3', 1, 'refinedstorage:machine_casing')
+  assembling3(20, 10000, 'mekanism:ingot_steel', 4, 'immersiveengineering:treated_wood_horizontal', 4, 'chromasky:mechanic_core_tier_2', 1, 'industrialforegoing:machine_frame_pity')
+  assembling3(20, 100000, 'mekanism:ingot_steel', 4, 'mekanism:ingot_osmium', 4, 'chromasky:mechanic_core_tier_4', 1, 'mekanism:steel_casing')
 
   // 4 Inputs
   assembling4(20, 10000, 'mekanism:ingot_steel', 4, 'thermal:lapis_gear', 2, 'thermal:gold_plate', 2, 'chromasky:mechanic_core_tier_2', 1, 'rftoolsbase:machine_frame')
