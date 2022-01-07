@@ -11,4 +11,15 @@ onEvent('recipes', event => {
     G: 'minecraft:gold_block'
   })
 
-  });
+  event.remove({ output: 'miniutilities:cursed_earth' })
+  event.shaped('8x miniutilities:cursed_earth', [
+  'DCD',
+  'CEC',
+  'DCD'
+  ], {
+    D: 'minecraft:dirt',
+    C: 'minecraft:coarse_dirt',
+    E: 'minecraft:cobblestone'
+  })
+
+});
