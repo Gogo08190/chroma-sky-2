@@ -1,0 +1,26 @@
+{
+  "controllerId": "mysticfactory3",
+  "name": "Mystical Factory Tier 3",
+  "textureOverride": "mysticalagriculture:block/prudentium_gemstone_block",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "textureOverride": "mysticalagriculture:block/prudentium_gemstone_block",
+      "name": "Item",
+      "id": "mystical_item",
+      "data": {
+        "rows": 5,
+        "columns": 5
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "textureOverride": "mysticalagriculture:block/prudentium_gemstone_block",
+      "name": "Energy",
+      "id": "mystical_energy",
+      "data": {
+        "capacity": 1000000
+      }
+    }
+  ]
+}

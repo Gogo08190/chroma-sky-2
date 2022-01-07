@@ -1,0 +1,26 @@
+{
+  "controllerId": "mysticfactory6",
+  "name": "Mystical Factory Tier 6",
+  "textureOverride": "mysticalagriculture:block/supremium_gemstone_block",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "textureOverride": "mysticalagriculture:block/supremium_gemstone_block",
+      "name": "Item",
+      "id": "mystical_item",
+      "data": {
+        "rows": 9,
+        "columns": 9
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "textureOverride": "mysticalagriculture:block/supremium_gemstone_block",
+      "name": "Energy",
+      "id": "mystical_energy",
+      "data": {
+        "capacity": 1000000
+      }
+    }
+  ]
+}
