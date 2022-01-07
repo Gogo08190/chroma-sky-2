@@ -33,4 +33,15 @@ onEvent('recipes', event => {
     E: 'chromasky:drop_of_darkness'
   })
 
+  event.remove({ output: 'miniutilities:blursed_earth' })
+  event.shaped('4x miniutilities:blursed_earth', [
+  'DCD',
+  'CEC',
+  'DCD'
+  ], {
+    D: 'miniutilities:cursed_earth',
+    C: 'miniutilities:blessed_earth',
+    E: 'miniutilities:unstable_block'
+  })
+
 });
