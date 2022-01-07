@@ -62,4 +62,65 @@ e.custom({
     }
   }
 })
+
+  function mystic(rf, input, count, output, countout) {
+    e.custom({
+      "type": "masterfulmachinery:machine_process",
+      "structureId": "mystic_factory5",
+      "controllerId": "mysticfactory5",
+      "ticks": 50,
+      "inputs": [
+          {"type": "masterfulmachinery:items","data": {"item": input,"count": count}},
+          {"type": "masterfulmachinery:energy","data": {"amount": rf}}
+      ],
+      "outputs": [{"type": "masterfulmachinery:items","data": {"item": output,"count": countout}}]
+    })
+  }
+
+  mystic(1500, 'mysticalagriculture:hepatizon_essence', 8, 'tconstruct:hepatizon_ingot', 5)
+  mystic(1500, 'mysticalagriculture:nether_quartz_essence', 8, 'minecraft:quartz', 10)
+  mystic(1500, 'mysticalagriculture:sapphire_essence', 8, 'thermal:sapphire', 5)
+  mystic(1500, 'mysticalagriculture:refined_obsidian_essence', 8, 'mekanism:ingot_refined_obsidian', 5)
+  mystic(1500, 'mysticalagriculture:draconium_essence', 8, 'draconicevolution:draconium_ingot', 5)
+  mystic(1500, 'mysticalagriculture:iron_essence', 8, 'minecraft:iron_ingot', 5)
+  mystic(1500, 'mysticalagriculture:gold_essence', 8, 'minecraft:gold_ingot', 5)
+  mystic(1500, 'mysticalagriculture:glowstone_essence', 8, 'minecraft:glowstone_dust', 10)
+  mystic(1500, 'mysticalagriculture:lead_essence', 8, 'thermal:lead_ingot', 5)
+  mystic(1500, 'mysticalagriculture:bronze_essence', 8, 'thermal:bronze_ingot', 5)
+  mystic(1500, 'mysticalagriculture:osmium_essence', 8, 'mekanism:ingot_osmium', 5)
+  mystic(1500, 'mysticalagriculture:uraninite_essence', 8, 'powah:uraninite', 5)
+  mystic(1500, 'mysticalagriculture:coal_essence', 8, 'minecraft:coal', 10)
+  mystic(1500, 'mysticalagriculture:silver_essence', 8, 'thermal:silver_ingot', 5)
+  mystic(1500, 'mysticalagriculture:queens_slime_essence', 8, 'tconstruct:queens_slime_ingot', 5)
+  mystic(1500, 'mysticalagriculture:blazing_crystal_essence', 8, 'powah:crystal_blazing', 5)
+  mystic(1500, 'mysticalagriculture:slimesteel_essence', 8, 'tconstruct:slimesteel_ingot', 5)
+  mystic(1500, 'mysticalagriculture:cobalt_essence', 8, 'tconstruct:cobalt_ingot', 5)
+  mystic(1500, 'mysticalagriculture:sulfur_essence', 8, 'mekanism:dust_sulfur', 10)
+  mystic(1500, 'mysticalagriculture:invar_essence', 8, 'thermal:invar_ingot', 5)
+  mystic(1500, 'mysticalagriculture:netherite_essence', 8, 'minecraft:netherite_scrap', 5)
+  mystic(1500, 'mysticalagriculture:uranium_essence', 8, 'mekanism:ingot_uranium', 5)
+  mystic(1500, 'mysticalagriculture:redstone_essence', 8, 'minecraft:redstone', 10)
+  mystic(1500, 'mysticalagriculture:saltpeter_essence', 8, 'thermal:niter_dust', 10)
+  mystic(1500, 'mysticalagriculture:refined_glowstone_essence', 8, 'mekanism:ingot_refined_glowstone', 5)
+  mystic(1500, 'mysticalagriculture:enderium_essence', 8, 'thermal:enderium_ingot', 5)
+  mystic(1500, 'mysticalagriculture:quartz_enriched_iron_essence', 8, 'refinedstorage:quartz_enriched_iron', 5)
+  mystic(1500, 'mysticalagriculture:manyullyn_essence', 8, 'tconstruct:manyullyn_ingot', 5)
+  mystic(1500, 'mysticalagriculture:hop_graphite_essence', 8, 'immersiveengineering:ingot_hop_graphite', 5)
+  mystic(1500, 'mysticalagriculture:electrum_essence', 8, 'thermal:electrum_ingot', 5)
+  mystic(1500, 'mysticalagriculture:rose_gold_essence', 8, 'tconstruct:rose_gold_ingot', 5)
+  mystic(1500, 'mysticalagriculture:ruby_essence', 8, 'thermal:ruby', 5)
+  mystic(1500, 'mysticalagriculture:signalum_essence', 8, 'thermal:signalum_ingot', 5)
+  mystic(1500, 'mysticalagriculture:starmetal_essence', 8, 'astralsorcery:starmetal_ingot', 5)
+  mystic(1500, 'mysticalagriculture:copper_essence', 8, 'thermal:copper_ingot', 5)
+  mystic(1500, 'mysticalagriculture:diamond_essence', 8, 'minecraft:diamond', 5)
+  mystic(1500, 'mysticalagriculture:fluorite_essence', 8, 'mekanism:fluorite_gem', 10)
+  mystic(1500, 'mysticalagriculture:energized_steel_essence', 8, 'powah:steel_energized', 5)
+  mystic(1500, 'mysticalagriculture:pig_iron_essence', 8, 'tconstruct:pig_iron_ingot', 5)
+  mystic(1500, 'mysticalagriculture:tin_essence', 8, 'thermal:tin_ingot', 5)
+  mystic(1500, 'mysticalagriculture:tinkers_bronze_essence', 8, 'tconstruct:tinkers_bronze_ingot', 5)
+  mystic(1500, 'mysticalagriculture:aluminum_essence', 8, 'immersiveengineering:ingot_aluminum', 5)
+  mystic(1500, 'mysticalagriculture:lumium_essence', 8, 'thermal:lumium_ingot', 5)
+  mystic(1500, 'mysticalagriculture:emerald_essence', 8, 'minecraft:emerald', 5)
+  mystic(1500, 'mysticalagriculture:awakened_draconium_essence', 8, 'draconicevolution:awakened_draconium_nugget', 5)
+  })
 })
