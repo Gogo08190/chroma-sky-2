@@ -21,7 +21,6 @@ onEvent('recipes', event => {
       },
       "starlight": 60
     }
-  }
 )
 
- });
+});
