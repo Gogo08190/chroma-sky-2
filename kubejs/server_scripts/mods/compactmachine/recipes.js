@@ -33,4 +33,23 @@ onEvent('recipes', event => {
     I: 'ftbjarmod:cast_iron_ingot',
     G: '#forge:glass_panes'
   })
+
+  // Tunnel
+  event.shaped(Item.of('compactmachines:tunnel', 2, '{definition:{id:"compactmachines:item"}}'), [
+  ' W ',
+  'WCW',
+  ' W '
+  ], {
+    W: 'compactmachines:wall',
+    C: '#forge:chests'
+  })
+
+  event.shaped(Item.of('compactmachines:tunnel', 2, '{definition:{id:"compactmachines:redstone_in"}}'), [
+  ' W ',
+  'WCW',
+  ' W '
+  ], {
+    W: 'compactmachines:wall',
+    C: 'extendedcrafting:redstone_ingot'
+  })
 });
