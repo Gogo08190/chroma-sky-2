@@ -22,4 +22,15 @@ onEvent('recipes', event => {
     E: 'chromasky:drop_of_darkness'
   })
 
+  event.remove({ output: 'miniutilities:blessed_earth' })
+  event.shaped('miniutilities:blessed_earth', [
+  'DCD',
+  'CEC',
+  'DCD'
+  ], {
+    D: 'minecraft:dirt',
+    C: 'minecraft:coarse_dirt',
+    E: 'chromasky:drop_of_darkness'
+  })
+
 });
