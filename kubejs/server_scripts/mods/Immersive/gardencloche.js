@@ -124,10 +124,10 @@ events.listen('recipes', function (e) {
     gardenvanilla('minecraft:nether_wart', 1, 'minecraft:nether_wart', 'minecraft:soul_sand', 'crop', 'minecraft:nether_wart')
     gardenvanilla('minecraft:nether_wart', 2, 'minecraft:nether_wart', 'snad:soul_snad', 'crop', 'minecraft:nether_wart')
 
-    function gardenvanilla(result, qte, input, soil, type, block){e.custom({"type":"immersiveengineering:cloche","results":[{"item":result,"count":qte}],"input":{"item":input},"soil":{"item" : soil},"time":50,"render":{"type":type,"block": block}})}
+    function gardenvanilla(result, qte, input, soil, type, block){e.custom({"type":"immersiveengineering:cloche","results":[{"item":result,"count":qte}],"input":{"item":input},"soil":{"item" : soil},"time":200,"render":{"type":type,"block": block}})}
 
     // Mystical
-    function gardenma(crop, soil, qte){e.custom({"type": "immersiveengineering:cloche", "input": { "item": "mysticalagriculture:"+crop+"_seeds" }, "soil": { "item": soil }, "time": 50, "render": { "type": "crop", "block": "mysticalagriculture:"+crop+"_crop" }, "results": [{ "item": "mysticalagriculture:"+crop+"_essence", "count": qte },{"item":"mysticalagriculture:fertilized_essence","count":1}]})}
+    function gardenma(crop, soil, qte){e.custom({"type": "immersiveengineering:cloche", "input": { "item": "mysticalagriculture:"+crop+"_seeds" }, "soil": { "item": soil }, "time": 400, "render": { "type": "crop", "block": "mysticalagriculture:"+crop+"_crop" }, "results": [{ "item": "mysticalagriculture:"+crop+"_essence", "count": qte },{"item":"mysticalagriculture:fertilized_essence","count":1}]})}
     var crop = ["air", "earth", "water", "fire", "inferium", "stone", "dirt", "wood", "ice","nature", "dye", "nether", "coal", "coral", "honey", "pig", "chicken", "cow", "sheep", "squid", "fish", "slime", "turtle", "rubber", "silicon", "sulfur", "aluminum", "copper", "saltpeter", "mystical_flower", "apatite", "marble", "limestone", "basalt","iron", "nether_quartz", "glowstone", "redstone", "obsidian", "prismarine", "zombie", "skeleton", "creeper", "spider", "rabbit", "tin", "bronze", "silver", "lead", "graphite", "blizz", "blitz", "basalz", "manasteel", "ender_biotite", "aquamarine", "rose_gold", "slimesteel", "pig_iron", "tinkers_bronze", "quartz_enriched_iron", "gold", "lapis_lazuli", "end", "experience", "blaze", "ghast", "enderman", "steel", "nickel", "constantan", "electrum", "invar", "uranium", "signalum", "lumium", "hop_graphite", "osmium", "refined_glowstone", "refined_obsidian", "starmetal", "energized_steel", "blazing_crystal", "fluorite", "knightmetal", "cobalt", "hepatizon", "sapphire", "ruby","diamond", "emerald", "netherite", "wither_skeleton", "platinum", "enderium", "rock_crystal", "niotic_crystal", "spirited_crystal", "uraninite", "manyullyn", "queens_slime", "draconium"]
     crop.forEach(C => { gardenma(C, "minecraft:dirt", 1) })
     crop.forEach(C => { gardenma(C, "mysticalagriculture:inferium_farmland", 2) })
@@ -139,23 +139,23 @@ events.listen('recipes', function (e) {
 
     //Nether Star
     e.custom({
-        "type": "immersiveengineering:cloche", "input": { "item": "mysticalagriculture:nether_star_seeds" }, "soil": { "item": "mysticalagradditions:nether_star_crux" }, "time": 50, "render": { "type": "crop", "block": "mysticalagriculture:nether_star_crop" }, "results": [{ "item": "mysticalagriculture:nether_star_essence", "count": 2 },{"item":"mysticalagriculture:fertilized_essence","count":1}]
+        "type": "immersiveengineering:cloche", "input": { "item": "mysticalagriculture:nether_star_seeds" }, "soil": { "item": "mysticalagradditions:nether_star_crux" }, "time": 400, "render": { "type": "crop", "block": "mysticalagriculture:nether_star_crop" }, "results": [{ "item": "mysticalagriculture:nether_star_essence", "count": 2 },{"item":"mysticalagriculture:fertilized_essence","count":1}]
     })
     //Dragon Egg
     e.custom({
-        "type": "immersiveengineering:cloche", "input": { "item": "mysticalagriculture:dragon_egg_seeds" }, "soil": { "item": "mysticalagradditions:dragon_egg_crux" }, "time": 50, "render": { "type": "crop", "block": "mysticalagriculture:dragon_egg_crop" }, "results": [{ "item": "mysticalagriculture:dragon_egg_essence", "count": 2 },{"item":"mysticalagriculture:fertilized_essence","count":1}]
+        "type": "immersiveengineering:cloche", "input": { "item": "mysticalagriculture:dragon_egg_seeds" }, "soil": { "item": "mysticalagradditions:dragon_egg_crux" }, "time": 400, "render": { "type": "crop", "block": "mysticalagriculture:dragon_egg_crop" }, "results": [{ "item": "mysticalagriculture:dragon_egg_essence", "count": 2 },{"item":"mysticalagriculture:fertilized_essence","count":1}]
     })
     //Nitro Crystal
     e.custom({
-        "type": "immersiveengineering:cloche", "input": { "item": "mysticalagriculture:nitro_crystal_seeds" }, "soil": { "item": "mysticalagradditions:nitro_crystal_crux" }, "time": 50, "render": { "type": "crop", "block": "mysticalagriculture:nitro_crystal_crop" }, "results": [{ "item": "mysticalagriculture:nitro_crystal_essence", "count": 2 },{"item":"mysticalagriculture:fertilized_essence","count":1}]
+        "type": "immersiveengineering:cloche", "input": { "item": "mysticalagriculture:nitro_crystal_seeds" }, "soil": { "item": "mysticalagradditions:nitro_crystal_crux" }, "time": 400, "render": { "type": "crop", "block": "mysticalagriculture:nitro_crystal_crop" }, "results": [{ "item": "mysticalagriculture:nitro_crystal_essence", "count": 2 },{"item":"mysticalagriculture:fertilized_essence","count":1}]
     })
     //Awakened Draconium
     e.custom({
-      "type": "immersiveengineering:cloche", "input": { "item": "mysticalagriculture:awakened_draconium_seeds" }, "soil": { "item": "mysticalagradditions:awakened_draconium_crux" }, "time": 50, "render": { "type": "crop", "block": "mysticalagriculture:awakened_draconium_crop" }, "results": [{ "item": "mysticalagriculture:awakened_draconium_essence", "count": 2 },{"item":"mysticalagriculture:fertilized_essence","count":1}]
+      "type": "immersiveengineering:cloche", "input": { "item": "mysticalagriculture:awakened_draconium_seeds" }, "soil": { "item": "mysticalagradditions:awakened_draconium_crux" }, "time": 400, "render": { "type": "crop", "block": "mysticalagriculture:awakened_draconium_crop" }, "results": [{ "item": "mysticalagriculture:awakened_draconium_essence", "count": 2 },{"item":"mysticalagriculture:fertilized_essence","count":1}]
     })
 
     // Thermal
-    function gardenthermal(crop, render, soil, qte){e.custom({"type": "immersiveengineering:cloche", "input": { "item": "thermal:"+crop+"_seeds" }, "soil": { "item": soil }, "time": 50, "render": { "type": render, "block": "thermal:"+crop+"" }, "results": [{ "item": "thermal:"+crop+"", "count": qte }]})}
+    function gardenthermal(crop, render, soil, qte){e.custom({"type": "immersiveengineering:cloche", "input": { "item": "thermal:"+crop+"_seeds" }, "soil": { "item": soil }, "time": 200, "render": { "type": render, "block": "thermal:"+crop+"" }, "results": [{ "item": "thermal:"+crop+"", "count": qte }]})}
     var crop = ["radish", "onion", "corn", "tomato", "strawberry", "barley", "green_bean", "eggplant", "peanut", "bell_pepper", "spinach", "sadiroot", "rice", "tea", "coffee"]
     crop.forEach(C => { gardenthermal(C, "crop", "minecraft:dirt", 1) })
     crop.forEach(C => { gardenthermal(C, "crop", "mysticalagriculture:inferium_farmland", 2) })
@@ -174,7 +174,7 @@ events.listen('recipes', function (e) {
     stem.forEach(C => { gardenthermal(C, "stem", "mysticalagradditions:insanium_farmland", 7) })
 
     // Pams
-    function gardenpam(crop, soil, qte){e.custom({"type": "immersiveengineering:cloche", "input": { "item": "pamhc2crops:"+crop+"seeditem" }, "soil": { "item": soil }, "time": 50, "render": { "type": "crop","block": "pamhc2crops:pam"+crop+"crop" }, "results": [{ "item": "pamhc2crops:"+crop+"item", "count": qte }]})}
+    function gardenpam(crop, soil, qte){e.custom({"type": "immersiveengineering:cloche", "input": { "item": "pamhc2crops:"+crop+"seeditem" }, "soil": { "item": soil }, "time": 400, "render": { "type": "crop","block": "pamhc2crops:pam"+crop+"crop" }, "results": [{ "item": "pamhc2crops:"+crop+"item", "count": qte }]})}
     var crop = ["agave", "amaranth", "arrowroot", "artichoke", "asparagus", "barley", "bean", "bellpepper", "blackberry", "blueberry", "broccoli", "brusselsprout", "cabbage", "cactusfruit", "candleberry", "cantaloupe", "cassava", "cauliflower", "celery", "chickpea", "chilipepper", "coffeebean", "corn", "cotton", "cranberry", "cucumber", "eggplant", "elderberry", "flax", "garlic", "ginger", "grape", "greengrape", "huckleberry", "jicama", "juniperberry", "jute", "kale", "kenaf", "kiwi", "kohlrabi", "leek", "lentil", "lettuce", "millet", "mulberry", "mustardseeds", "oats", "okra", "onion", "parsnip", "peanut", "peas", "pineapple", "quinoa", "radish", "raspberry", "rhubarb", "rice", "rutabaga", "rye", "scallion", "sesameseeds", "sisal", "soybean", "spiceleaf", "spinach", "strawberry", "sweetpotato", "taro", "tealeaf", "tomatillo", "tomato", "turnip", "waterchestnut", "whitemushroom", "wintersquash", "zucchini"]
     crop.forEach(C => { gardenpam(C, "minecraft:dirt", 1) })
     crop.forEach(C => { gardenpam(C, "mysticalagriculture:inferium_farmland", 2) })
