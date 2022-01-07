@@ -25,4 +25,16 @@ onEvent('recipes', event => {
         "time": 50
     })
 
+    event.custom({
+        "type": "naturesaura:altar",
+        "input": {
+            "item": "masterfulmachinery:autoastral_autoastral_item_port_items_output"
+        },
+        "output": {
+            "item": "masterfulmachinery:autoastral_autoastral_item_port_items_input"
+        },
+        "aura_type": "naturesaura:nether",
+        "aura": 5000,
+        "time": 50
+    })
 });
