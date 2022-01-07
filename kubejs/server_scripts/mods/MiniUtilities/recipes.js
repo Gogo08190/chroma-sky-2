@@ -19,7 +19,7 @@ onEvent('recipes', event => {
   ], {
     D: 'minecraft:dirt',
     C: 'minecraft:coarse_dirt',
-    E: 'minecraft:cobblestone'
+    E: 'chromasky:drop_of_darkness'
   })
 
 });
