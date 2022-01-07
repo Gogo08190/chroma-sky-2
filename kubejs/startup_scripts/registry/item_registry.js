@@ -49,4 +49,5 @@ onEvent("item.registry", (event) => {
     event.create("chromasky:ultimategem").displayName("Ultimate Gem");
     event.create("chromasky:pattern_mundane_cast_star_shard").displayName("Pattern: Mundane Cast Star Shard");
     event.create("chromasky:mundane_cast_star_shard").displayName("Mundane Cast Star Shard");
+    event.create("chromasky:drop_of_darkness").displayName("Drop Of Darkness");
 });
