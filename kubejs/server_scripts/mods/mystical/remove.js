@@ -34,6 +34,10 @@ onEvent('recipes', event => {
   event.remove({output: 'thermal:constantan_ingot', input: 'mysticalagriculture:constantan_essence'})
   event.remove({output: 'thermal:nickel_ingot', input: 'mysticalagriculture:nickel_essence'})
   event.remove({output: 'mekanism:ingot_steel', input: 'mysticalagriculture:steel_essence'})
+  event.remove({output: 'minecraft:lapis_lazuli', input: 'mysticalagriculture:lapis_lazuli_essence'})
+  event.remove({output: 'quark:biotite', input: 'mysticalagriculture:ender_biotite_essence'})
+  event.remove({output: 'astralsorcery:aquamarine', input: 'mysticalagriculture:aquamarine_essence'})
+  event.remove({output: 'thermal:apatite', input: 'mysticalagriculture:apatite_essence'})
 
 
   var essence = [
@@ -50,7 +54,11 @@ onEvent('recipes', event => {
     'invar',
     'electrum',
     'sapphire',
-    'ruby'
+    'ruby',
+    'steel',
+    'nickel',
+    'constantan',
+    'apatite'
   ]
 
   essence.forEach(function (item, index) {
