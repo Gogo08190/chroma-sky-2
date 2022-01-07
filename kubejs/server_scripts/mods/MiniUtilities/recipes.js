@@ -30,7 +30,7 @@ onEvent('recipes', event => {
   ], {
     D: 'minecraft:dirt',
     C: 'minecraft:coarse_dirt',
-    E: 'chromasky:drop_of_darkness'
+    E: 'chromasky:drop_of_peacefulless'
   })
 
   event.remove({ output: 'miniutilities:blursed_earth' })
