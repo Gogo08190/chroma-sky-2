@@ -68,7 +68,7 @@ e.custom({
       "type": "masterfulmachinery:machine_process",
       "structureId": "mystic_factory2",
       "controllerId": "mysticfactory2",
-      "ticks": 50,
+      "ticks": 20,
       "inputs": [
           {"type": "masterfulmachinery:items","data": {"item": input,"count": count}},
           {"type": "masterfulmachinery:energy","data": {"amount": rf}}
