@@ -156,7 +156,14 @@ events.listen('jei.hide.items', function (event) {
     'masterfulmachinery:mysticfactory5_mystical_energy_port_energy_output',
     'masterfulmachinery:mysticfactory3_mystical_energy_port_energy_output',
     'masterfulmachinery:mysticfactory7_mystical_energy_port_energy_output',
-    'masterfulmachinery:assemblingfactory_assemblingenergy_port_energy_output'
+    'masterfulmachinery:assemblingfactory_assemblingenergy_port_energy_output',
+    'mob_grinding_utils:golden_egg',
+    'mob_grinding_utils:rotten_egg',
+    'mob_grinding_utils:gm_chicken_feed_cursed',
+    'mob_grinding_utils:nutritious_chicken_feed',
+    'mob_grinding_utils:entity_spawner',
+    'mob_grinding_utils:dreadful_dirt',
+    'mob_grinding_utils:delightful_dirt'
   ])
 })
 
