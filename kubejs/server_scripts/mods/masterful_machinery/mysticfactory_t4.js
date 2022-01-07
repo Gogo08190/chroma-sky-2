@@ -122,5 +122,4 @@ e.custom({
   mystic(1250, 'mysticalagriculture:lumium_essence', 8, 'thermal:lumium_ingot', 4)
   mystic(1250, 'mysticalagriculture:emerald_essence', 8, 'minecraft:emerald', 4)
   mystic(1250, 'mysticalagriculture:awakened_draconium_essence', 8, 'draconicevolution:awakened_draconium_nugget', 4)
-  })
 })
