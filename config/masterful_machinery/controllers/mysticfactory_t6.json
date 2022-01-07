@@ -9,8 +9,8 @@
       "name": "Item",
       "id": "mystical_item",
       "data": {
-        "rows": 9,
-        "columns": 9
+        "rows": 6,
+        "columns": 7
       }
     },
     {
