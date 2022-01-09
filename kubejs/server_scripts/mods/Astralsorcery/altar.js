@@ -68,6 +68,7 @@ onEvent('recipes', event => {
           },
           "R": {
             "type": "thermal:rf_coil"
+          }
         },
         "output": [
           {
