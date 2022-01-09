@@ -75,4 +75,156 @@ events.listen('recipes', event => {
         "type": "industrialforegoing:dissolution_chamber"
     }
   )
+
+  event.custom(
+    {
+        "input": [
+            {
+                "item": "mysticalagriculture:inferium_gemstone_block"
+            },
+            {
+                "item": "masterfulmachinery:mysticfactory1_controller"
+            },
+            {
+                "item": "mysticalagriculture:inferium_gemstone_block"
+            },
+            {
+                "item": "industrialforegoing:processing_addon_2"
+            },
+            {
+                "item": "industrialforegoing:processing_addon_2"
+            },
+            {
+                "item": "mysticalagriculture:inferium_gemstone_block"
+            },
+            {
+                "item": "industrialforegoing:machine_frame_supreme"
+            },
+            {
+                "item": "mysticalagriculture:inferium_gemstone_block"
+            }
+        ],
+        "inputFluid": "{FluidName:\"industrialforegoing:pink_slime\",Amount:1000}",
+        "processingTime": 580,
+        "output": {
+            "item": "masterfulmachinery:mysticfactory2_controller",
+            "count": 1
+        },
+        "type": "industrialforegoing:dissolution_chamber"
+    }
+  )
+
+  event.custom(
+    {
+        "input": [
+            {
+                "item": "mysticalagriculture:inferium_gemstone_block"
+            },
+            {
+                "item": "masterfulmachinery:mysticfactory1_mystical_item_port_items_input"
+            },
+            {
+                "item": "mysticalagriculture:inferium_gemstone_block"
+            },
+            {
+                "item": "industrialforegoing:efficiency_addon_2"
+            },
+            {
+                "item": "industrialforegoing:efficiency_addon_2"
+            },
+            {
+                "item": "mysticalagriculture:inferium_gemstone_block"
+            },
+            {
+                "item": "industrialforegoing:common_black_hole_unit"
+            },
+            {
+                "item": "mysticalagriculture:inferium_gemstone_block"
+            }
+        ],
+        "inputFluid": "{FluidName:\"industrialforegoing:pink_slime\",Amount:1000}",
+        "processingTime": 580,
+        "output": {
+            "item": "masterfulmachinery:mysticfactory2_mystical_item_port_items_input",
+            "count": 1
+        },
+        "type": "industrialforegoing:dissolution_chamber"
+    }
+  )
+
+  event.custom(
+    {
+        "input": [
+            {
+                "item": "mysticalagriculture:inferium_gemstone_block"
+            },
+            {
+                "item": "masterfulmachinery:mysticfactory1_mystical_item_port_items_output"
+            },
+            {
+                "item": "mysticalagriculture:inferium_gemstone_block"
+            },
+            {
+                "item": "industrialforegoing:efficiency_addon_2"
+            },
+            {
+                "item": "industrialforegoing:efficiency_addon_2"
+            },
+            {
+                "item": "mysticalagriculture:inferium_gemstone_block"
+            },
+            {
+                "item": "industrialforegoing:common_black_hole_unit"
+            },
+            {
+                "item": "mysticalagriculture:inferium_gemstone_block"
+            }
+        ],
+        "inputFluid": "{FluidName:\"industrialforegoing:pink_slime\",Amount:1000}",
+        "processingTime": 580,
+        "output": {
+            "item": "masterfulmachinery:mysticfactory2_mystical_item_port_items_output",
+            "count": 1
+        },
+        "type": "industrialforegoing:dissolution_chamber"
+    }
+  )
+
+  event.custom(
+    {
+        "input": [
+            {
+                "item": "mysticalagriculture:inferium_gemstone_block"
+            },
+            {
+                "item": "masterfulmachinery:mysticfactory1_mystical_energy_port_energy_input"
+            },
+            {
+                "item": "mysticalagriculture:inferium_gemstone_block"
+            },
+            {
+                "item": "industrialforegoing:processing_addon_2"
+            },
+            {
+                "item": "industrialforegoing:processing_addon_2"
+            },
+            {
+                "item": "mysticalagriculture:inferium_gemstone_block"
+            },
+            {
+                "item": "industrialforegoing:pink_slime_ingot"
+            },
+            {
+                "item": "mysticalagriculture:inferium_gemstone_block"
+            }
+        ],
+        "inputFluid": "{FluidName:\"industrialforegoing:pink_slime\",Amount:1000}",
+        "processingTime": 580,
+        "output": {
+            "item": "masterfulmachinery:mysticfactory2_mystical_energy_port_energy_input",
+            "count": 1
+        },
+        "type": "industrialforegoing:dissolution_chamber"
+    }
+  )
 });
