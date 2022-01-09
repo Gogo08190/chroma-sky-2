@@ -16,9 +16,7 @@ onEvent("recipes", (event) => {
 
     event.remove({ output: 'extendedcrafting:ender_ingot' })
     event.shaped('2x extendedcrafting:ender_ingot', [
-    'SI ',
-    '   ',
-    '   '
+    'SI'
     ], {
       S: 'powah:steel_energized',
       I: 'rftoolsbase:infused_enderpearl'
