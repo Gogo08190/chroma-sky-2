@@ -227,4 +227,43 @@ events.listen('recipes', event => {
         "type": "industrialforegoing:dissolution_chamber"
     }
   )
+
+  event.remove({ output: 'powah:dielectric_paste' })
+  event.custom(
+    {
+        "input": [
+            {
+                "item": "minecraft:coal"
+            },
+            {
+                "item": "minecraft:coal"
+            },
+            {
+                "item": "minecraft:coal"
+            },
+            {
+                "item": "minecraft:blaze_powder"
+            },
+            {
+                "item": "minecraft:blaze_powder"
+            },
+            {
+                "item": "minecraft:clay_ball"
+            },
+            {
+                "item": "minecraft:clay_ball"
+            },
+            {
+                "item": "minecraft:clay_ball"
+            }
+        ],
+        "inputFluid": "{FluidName:\"minecraft:lava\",Amount:1000}",
+        "processingTime": 100,
+        "output": {
+            "item": "powah:dielectric_paste",
+            "count": 24
+        },
+        "type": "industrialforegoing:dissolution_chamber"
+    }
+  )
 });

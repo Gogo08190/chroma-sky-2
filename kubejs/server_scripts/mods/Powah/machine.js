@@ -1,44 +1,5 @@
 onEvent('recipes', event => {
 
-  event.remove({ output: 'powah:dielectric_paste' })
-  event.custom(
-    {
-        "input": [
-            {
-                "item": "minecraft:coal"
-            },
-            {
-                "item": "minecraft:coal"
-            },
-            {
-                "item": "minecraft:coal"
-            },
-            {
-                "item": "minecraft:blaze_powder"
-            },
-            {
-                "item": "minecraft:blaze_powder"
-            },
-            {
-                "item": "minecraft:clay_ball"
-            },
-            {
-                "item": "minecraft:clay_ball"
-            },
-            {
-                "item": "minecraft:clay_ball"
-            }
-        ],
-        "inputFluid": "{FluidName:\"minecraft:lava\",Amount:1000}",
-        "processingTime": 100,
-        "output": {
-            "item": "powah:dielectric_paste",
-            "count": 24
-        },
-        "type": "industrialforegoing:dissolution_chamber"
-    }
-  )
-
   event.custom(
     {
       "type": "powah:energizing",
@@ -57,8 +18,9 @@ onEvent('recipes', event => {
       }
     }
   )
-event.remove({ output: 'extendedcrafting:luminessence' })
-event.shapeless('9x extendedcrafting:luminessence', 'extendedcrafting:luminessence_block');
+
+  event.remove({ output: 'extendedcrafting:luminessence' })
+  event.shapeless('9x extendedcrafting:luminessence', 'extendedcrafting:luminessence_block');
   event.custom(
     {
       "type": "powah:energizing",
@@ -72,6 +34,79 @@ event.shapeless('9x extendedcrafting:luminessence', 'extendedcrafting:luminessen
       "result": {
       "item": 'extendedcrafting:luminessence',
       "count": 2
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "powah:energizing",
+      "ingredients": [
+      {"item": 'powah:spirited_crystal_block'},
+      {"item": 'powah:spirited_crystal_block'},
+      {"item": 'masterfulmachinery:mysticfactory2_controller'},
+      {"item": 'powah:ender_core'},
+      {"item": 'powah:spirited_crystal_block'},
+      {"item": 'powah:spirited_crystal_block'}
+      ],
+      "energy": 10000,
+      "result": {
+      "item": 'masterfulmachinery:mysticfactory3_controller',
+      "count": 1
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "powah:energizing",
+      "ingredients": [
+      {"item": 'powah:spirited_crystal_block'},
+      {"item": 'powah:energy_hopper_spirited'},
+      {"item": 'masterfulmachinery:mysticfactory2_mystical_item_port_items_input'},
+      {"item": 'powah:energy_hopper_spirited'},
+      {"item": 'powah:spirited_crystal_block'}
+      ],
+      "energy": 10000,
+      "result": {
+      "item": 'masterfulmachinery:mysticfactory3_mystical_item_port_items_input',
+      "count": 1
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "powah:energizing",
+      "ingredients": [
+      {"item": 'powah:spirited_crystal_block'},
+      {"item": 'powah:energy_hopper_spirited'},
+      {"item": 'masterfulmachinery:mysticfactory2_mystical_item_port_items_output'},
+      {"item": 'powah:energy_hopper_spirited'},
+      {"item": 'powah:spirited_crystal_block'}
+      ],
+      "energy": 10000,
+      "result": {
+      "item": 'masterfulmachinery:mysticfactory3_mystical_item_port_items_output',
+      "count": 1
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "powah:energizing",
+      "ingredients": [
+      {"item": 'powah:spirited_crystal_block'},
+      {"item": 'powah:energy_cell_spirited'},
+      {"item": 'masterfulmachinery:mysticfactory2_mystical_item_port_items_output'},
+      {"item": 'powah:energy_cell_spirited'},
+      {"item": 'powah:spirited_crystal_block'}
+      ],
+      "energy": 10000,
+      "result": {
+      "item": 'masterfulmachinery:mysticfactory3_mystical_energy_port_energy_input',
+      "count": 1
       }
     }
   )
