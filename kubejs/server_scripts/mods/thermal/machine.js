@@ -10,8 +10,23 @@ onEvent("recipes", (event) => {
     .energy(2000);
 
   event
-    .custom({"type": "thermal:refinery","ingredient": {"fluid": "thermal:latex","amount": 100},"result": [{"item": "thermal:rubber","chance": 1}],"energy": 10000})
+    .custom({"type": "thermal:refinery","ingredient": {"fluid": "thermal:latex","amount": 100},"result": [{"item": "thermal:rubber","chance": 1}],"energy": 10000});
 
   event
-    .custom({"type": "thermal:pyrolyzer","ingredient": {"item": "thermal:rubber"},"result": [{"item": "thermal:cured_rubber"},{"item": 'thermal:cured_rubber',"chance": 0.5},{"item": 'industrialforegoing:dryrubber',"chance": 0.05}],"energy": 5000,"experience": 0.00})
+    .custom({"type": "thermal:pyrolyzer","ingredient": {"item": "thermal:rubber"},"result": [{"item": "thermal:cured_rubber"},{"item": 'thermal:cured_rubber',"chance": 0.5},{"item": 'industrialforegoing:dryrubber',"chance": 0.05}],"energy": 5000,"experience": 0.00});
+
+  event.recipes.thermal
+    .smelter("masterfulmachinery:mysticfactory1_controller", ["mysticalagriculture:prosperity_gemstone_block", "xnet:controller", "thermal:upgrade_augment_3"])
+    .energy(10000);
+
+  event.recipes.thermal
+    .smelter("masterfulmachinery:mysticfactory1_mystical_item_port_items_input", ["mysticalagriculture:prosperity_gemstone_block", "#forge:chests", "speedyhoppers:speedyhopper_mk3"])
+    .energy(10000);
+
+    event
+      .custom({"type": "thermal:pyrolyzer","ingredient": {"item": "masterfulmachinery:mysticfactory1_mystical_item_port_items_input"},"result": [{"item": "masterfulmachinery:mysticfactory1_mystical_item_port_items_output"}],"energy": 10000,"experience": 0.00});
+
+    event.recipes.thermal
+      .smelter("masterfulmachinery:mysticfactory1_mystical_energy_port_energy_input", ["mysticalagriculture:prosperity_gemstone_block", "thermal:energy_cell", "thermal:charge_bench"])
+      .energy(10000);
 });
