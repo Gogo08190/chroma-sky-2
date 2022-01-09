@@ -37,4 +37,53 @@ onEvent('recipes', event => {
       }
     )
 
+    event.custom(
+      {
+        "type": "astralsorcery:altar",
+        "altar_type": 2,
+        "duration": 400,
+        "starlight": 3200,
+        "pattern": [
+          "GG_GG",
+          "GNRNG",
+          "_MCM_",
+          "GNSNG",
+          "GG_GG"
+        ],
+        "key": {
+          "G": {
+            "item": "mysticalagriculture:supremium_gemstone_block"
+          },
+          "N": {
+            "item": "powah:capacitor_nitro"
+          },
+          "S": {
+            "item": "thermal:redstone_servo"
+          },
+          "M": {
+            "item": "mekanism:steel_casing"
+          },
+          "C": {
+            "type": "masterfulmachinery:mysticfactory5_controller"
+          },
+          "R": {
+            "type": "thermal:rf_coil"
+        },
+        "output": [
+          {
+            "item": "masterfulmachinery:mysticfactory6_controller",
+            "count": 1
+          }
+        ],
+        "effects": [
+          "astralsorcery:built_in_effect_constellation_finish",
+          "astralsorcery:pillar_sparkle",
+          "astralsorcery:luminescence_flare",
+          "astralsorcery:built_in_effect_discovery_central_beam",
+          "astralsorcery:altar_default_sparkle",
+          "astralsorcery:built_in_effect_constellation_lines",
+          "astralsorcery:built_in_effect_attunement_sparkle"
+        ]
+      }
+
 });
