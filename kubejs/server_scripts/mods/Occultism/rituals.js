@@ -1,10 +1,11 @@
 onEvent('recipes', (event) => {
+  event.remove({ output: 'matc:prudentium_crystal' })
     const recipes = [
         {
             ritual_type: 'occultism:craft',
-            activation_item: 'matc:inferium_crystal',
+            activation_item: Item.of('matc:inferium_crystal', '{Damage:0,AS_Amulet_Holder:[I;-888416893,1701662432,-1497637900,545262086]}'),
             pentacle_id: 'occultism:craft_foliot',
-            duration: 60,
+            duration: 15,
             ritual_dummy: 'chromasky:craft_prudentium_crystal',
             ingredients: [
                 'mysticalagriculture:prudentium_gemstone' ,
