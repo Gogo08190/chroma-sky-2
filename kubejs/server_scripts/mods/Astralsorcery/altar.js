@@ -182,4 +182,45 @@ onEvent('recipes', event => {
         ]
       }
     )
+
+    event.custom(
+      {
+        "type": "astralsorcery:altar",
+        "altar_type": 0,
+        "duration": 100,
+        "starlight": 100,
+        "pattern": [
+          "_____",
+          "_PME_",
+          "_NIN_",
+          "_EMP_",
+          "_____"
+        ],
+        "key": {
+          "E": {
+            "item": "theabyss:loran_energy"
+          },
+          "M": {
+            "item": "mekanism:upgrade_energy"
+          },
+          "P": {
+            "item": "pipez:energy_pipe"
+          },
+          "N": {
+            "item": "powah:battery_nitro"
+          },
+          "I": {
+            "item": "masterfulmachinery:mysticfactory5_mystical_energy_port_energy_input"
+        },
+        "output": [
+          {
+            "item": "masterfulmachinery:mysticfactory6_mystical_energy_port_energy_input",
+            "count": 1
+          }
+        ],
+        "effects": [
+          "astralsorcery:built_in_effect_discovery_central_beam"
+        ]
+      }
+    )
 });
