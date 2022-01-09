@@ -85,6 +85,5 @@ onEvent('recipes', event => {
           "astralsorcery:built_in_effect_constellation_lines",
           "astralsorcery:built_in_effect_attunement_sparkle"
         ]
-      }
-    })
+      })
 });
