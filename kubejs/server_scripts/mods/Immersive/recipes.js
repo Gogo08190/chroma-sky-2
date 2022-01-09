@@ -193,4 +193,46 @@ onEvent('recipes', event => {
     P: 'minecraft:paper'
   })
 
-  });
+  event.shaped('masterfulmachinery:assemblingfactory_controller', [
+  'SHS',
+  'MCM',
+  'SRS'
+  ], {
+    S: 'immersiveengineering:sheetmetal_steel',
+    H: 'immersiveengineering:heavy_engineering',
+    C: 'immersiveengineering:circuit_board',
+    M: 'immersiveengineering:component_steel',
+    R: 'immersiveengineering:rs_engineering'
+  })
+
+  event.shaped('masterfulmachinery:assemblingfactory_assembing_item_port_items_input', [
+  'C',
+  'H',
+  'S'
+  ], {
+    S: 'immersiveengineering:sheetmetal_steel',
+    H: 'speedyhoppers:speedyhopper_mk1',
+    C: 'immersiveengineering:crate'
+  })
+
+  event.shaped('masterfulmachinery:assemblingfactory_assembing_item_port_items_output', [
+  'S',
+  'H',
+  'C'
+  ], {
+    S: 'immersiveengineering:sheetmetal_steel',
+    H: 'speedyhoppers:speedyhopper_mk1',
+    C: 'immersiveengineering:crate'
+  })
+
+  event.shaped('masterfulmachinery:assemblingfactory_assemblingenergy_port_energy_input', [
+  'SCS',
+  'MHM',
+  'SCS'
+  ], {
+    S: 'immersiveengineering:sheetmetal_steel',
+    H: 'immersiveengineering:coil_hv',
+    C: 'immersiveengineering:capacitor_hv',
+    M: 'immersiveengineering:component_steel'
+  })
+});
