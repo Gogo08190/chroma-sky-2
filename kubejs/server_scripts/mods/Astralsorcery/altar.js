@@ -64,17 +64,14 @@ onEvent('recipes', event => {
             "item": "mekanism:steel_casing"
           },
           "C": {
-            "type": "masterfulmachinery:mysticfactory5_controller"
+            "item": "masterfulmachinery:mysticfactory5_controller"
           },
           "R": {
-            "type": "thermal:rf_coil"
+            "item": "thermal:rf_coil"
           }
         },
         "output": [
-          {
-            "item": "masterfulmachinery:mysticfactory6_controller",
-            "count": 1
-          }
+          {"item": "masterfulmachinery:mysticfactory6_controller","count": 1}
         ],
         "effects": [
           "astralsorcery:built_in_effect_constellation_finish",
@@ -85,5 +82,6 @@ onEvent('recipes', event => {
           "astralsorcery:built_in_effect_constellation_lines",
           "astralsorcery:built_in_effect_attunement_sparkle"
         ]
-      })
+      }
+    )
 });
