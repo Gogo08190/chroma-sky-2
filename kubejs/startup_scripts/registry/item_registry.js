@@ -51,4 +51,5 @@ onEvent("item.registry", (event) => {
     event.create("chromasky:mundane_cast_star_shard").displayName("Mundane Cast Star Shard");
     event.create("chromasky:drop_of_darkness").displayName("Drop Of Darkness");
     event.create("chromasky:drop_of_peacefulless").displayName("Drop Of Peacefulless");
+    event.create("chromasky:craft_prudentium_crystal").displayName("Ritual: Craft Prudentium Crystal");
 });

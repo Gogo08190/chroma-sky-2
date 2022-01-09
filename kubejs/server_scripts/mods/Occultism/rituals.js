@@ -1,27 +1,37 @@
 onEvent('recipes', (event) => {
+    const recipes = [
+        {
+            ritual_type: 'occultism:craft',
+            activation_item: 'matc:inferium_crystal',
+            pentacle_id: 'occultism:craft_foliot',
+            duration: 60,
+            ritual_dummy: 'chromasky:craft_prudentium_crystal',
+            ingredients: [
+                'mysticalagriculture:prudentium_gemstone' ,
+                'mysticalagriculture:prudentium_essence',
+                'mysticalagriculture:prudentium_gemstone',
+                'mysticalagriculture:prosperity_shard',
+                'mysticalagriculture:prosperity_shard',
+                'mysticalagriculture:prudentium_gemstone',
+                'mysticalagriculture:prudentium_essence' ,
+                'mysticalagriculture:prudentium_gemstone'
+            ],
+            result: 'matc:prudentium_crystal',
+            id: 'chromasky:items/craft_prudentium_crystal'
+        }
+    ];
 
-  event.remove({ output: 'matc:prudentium:crystal' });
+    recipes.forEach((recipe) => {
+        recipe.type = 'occultism:ritual';
 
-  event.custom(
-    {
-        type: 'occultism:ritual',
-        activation_item: 'matc:inferium:crystal',
-        pentacle_id: 'occultism:craft_foliot',
-        require_item_use: false,
-        require_sacrifice: false,
-        ritual: { item: 'occultism:ritual_dummy/matc:prudentium:crystal' },
-        ingredients: [
-            { item: 'mysticalagriculture:prudentium_gemstone' },
-            { item: 'mysticalagriculture:prudentium_essence' },
-            { item: 'mysticalagriculture:prudentium_gemstone' },
-            { item: 'mysticalagriculture:prosperity_shard' },
-            { item: 'mysticalagriculture:prosperity_shard' },
-            { item: 'mysticalagriculture:prudentium_gemstone' },
-            { item: 'mysticalagriculture:prudentium_essence' },
-            { item: 'mysticalagriculture:prudentium_gemstone' }
-        ],
-        result: { item: 'matc:prudentium:crystal' },
-        id: 'occultism/ritual/prudentium_crystal'
-    }
-  )
+        recipe.activation_item = Ingredient.of(recipe.activation_item).toJson();
+        if (recipe.item_to_use) {
+            recipe.item_to_use = Ingredient.of(recipe.item_to_use).toJson();
+        }
+        recipe.ritual_dummy = Ingredient.of(recipe.ritual_dummy).toJson();
+        recipe.ingredients = recipe.ingredients.map((input) => Ingredient.of(input).toJson());
+        recipe.result = Item.of(recipe.result).toJson();
+
+        event.custom(recipe).id(recipe.id);
+    });
 });
