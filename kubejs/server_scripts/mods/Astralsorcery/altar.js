@@ -211,6 +211,7 @@ onEvent('recipes', event => {
           },
           "I": {
             "item": "masterfulmachinery:mysticfactory5_mystical_energy_port_energy_input"
+            }
         },
         "output": [
           {
