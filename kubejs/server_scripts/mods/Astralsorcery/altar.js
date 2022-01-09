@@ -133,4 +133,53 @@ onEvent('recipes', event => {
         ]
       }
     )
+
+    event.custom(
+      {
+        "type": "astralsorcery:altar",
+        "altar_type": 1,
+        "duration": 200,
+        "starlight": 1400,
+        "pattern": [
+          "G___G",
+          "_GCD_",
+          "_GON_",
+          "_GHR_",
+          "G___G"
+        ],
+        "key": {
+          "G": {
+            "item": "mysticalagriculture:supremium_gemstone_block"
+          },
+          "C": {
+            "item": "expandedstorage:netherite_chest"
+          },
+          "R": {
+            "item": "chromasky:redstone_gear"
+          },
+          "N": {
+            "item": "powah:capacitor_nitro"
+          },
+          "D": {
+            "item": "theabyss:abyssfirediamond"
+          },
+          "H": {
+            "item": "naturesaura:grated_chute"
+          },
+          "O": {
+            "item": "masterfulmachinery:mysticfactory5_mystical_item_port_items_output"
+          }
+        },
+        "output": [
+          {
+            "item": "masterfulmachinery:mysticfactory6_mystical_item_port_items_output",
+            "count": 1
+          }
+        ],
+        "effects": [
+          "astralsorcery:built_in_effect_discovery_central_beam",
+          "astralsorcery:built_in_effect_attunement_sparkle"
+        ]
+      }
+    )
 });
