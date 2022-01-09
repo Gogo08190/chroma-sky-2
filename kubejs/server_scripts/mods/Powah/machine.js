@@ -42,12 +42,12 @@ onEvent('recipes', event => {
     {
       "type": "powah:energizing",
       "ingredients": [
-      {"item": 'powah:spirited_crystal_block'},
+      {"item": 'mysticalagriculture:prudentium_gemstone_block'},
       {"item": 'powah:spirited_crystal_block'},
       {"item": 'masterfulmachinery:mysticfactory2_controller'},
       {"item": 'powah:ender_core'},
       {"item": 'powah:spirited_crystal_block'},
-      {"item": 'powah:spirited_crystal_block'}
+      {"item": 'mysticalagriculture:prudentium_gemstone_block'}
       ],
       "energy": 10000,
       "result": {
@@ -61,11 +61,11 @@ onEvent('recipes', event => {
     {
       "type": "powah:energizing",
       "ingredients": [
-      {"item": 'powah:spirited_crystal_block'},
+      {"item": 'mysticalagriculture:prudentium_gemstone_block'},
       {"item": 'powah:energy_hopper_spirited'},
       {"item": 'masterfulmachinery:mysticfactory2_mystical_item_port_items_input'},
       {"item": 'powah:energy_hopper_spirited'},
-      {"item": 'powah:spirited_crystal_block'}
+      {"item": 'mysticalagriculture:prudentium_gemstone_block'}
       ],
       "energy": 10000,
       "result": {
@@ -79,11 +79,11 @@ onEvent('recipes', event => {
     {
       "type": "powah:energizing",
       "ingredients": [
-      {"item": 'powah:spirited_crystal_block'},
+      {"item": 'mysticalagriculture:prudentium_gemstone_block'},
       {"item": 'powah:energy_hopper_spirited'},
       {"item": 'masterfulmachinery:mysticfactory2_mystical_item_port_items_output'},
       {"item": 'powah:energy_hopper_spirited'},
-      {"item": 'powah:spirited_crystal_block'}
+      {"item": 'mysticalagriculture:prudentium_gemstone_block'}
       ],
       "energy": 10000,
       "result": {
@@ -97,11 +97,11 @@ onEvent('recipes', event => {
     {
       "type": "powah:energizing",
       "ingredients": [
-      {"item": 'powah:spirited_crystal_block'},
+      {"item": 'mysticalagriculture:prudentium_gemstone_block'},
       {"item": 'powah:energy_cell_spirited'},
       {"item": 'masterfulmachinery:mysticfactory2_mystical_item_port_items_output'},
       {"item": 'powah:energy_cell_spirited'},
-      {"item": 'powah:spirited_crystal_block'}
+      {"item": 'mysticalagriculture:prudentium_gemstone_block'}
       ],
       "energy": 10000,
       "result": {
