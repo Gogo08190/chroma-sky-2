@@ -20,4 +20,5 @@ onEvent("recipes", (event) => {
   event.remove({output: 'mob_grinding_utils:nutritious_chicken_feed'})
   event.remove({output: 'mob_grinding_utils:gm_chicken_feed_cursed'})
   event.remove({output: 'mob_grinding_utils:entity_spawner'})
+  event.remove({output: 'tombstone:book_of_recycling'})
 });
