@@ -39,6 +39,9 @@ onEvent('recipes', event => {
   event.remove({output: 'astralsorcery:aquamarine', input: 'mysticalagriculture:aquamarine_essence'})
   event.remove({output: 'thermal:apatite', input: 'mysticalagriculture:apatite_essence'})
 
+  event.remove({ output: 'mysticalagriculture:infusion_altar' })
+  event.remove({ output: 'mysticalagriculture:infusion_pedestal' })
+
 
   var essence = [
     'silver',
