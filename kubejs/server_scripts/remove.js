@@ -22,4 +22,5 @@ onEvent("recipes", (event) => {
   event.remove({output: 'mob_grinding_utils:entity_spawner'})
   event.remove({output: 'tombstone:book_of_recycling'})
   event.remove({output: 'pedestals:coin/rfmobgen'})
+  event.remove({output: 'mob_grinding_utils:spikes'})
 });

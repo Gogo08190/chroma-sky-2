@@ -165,7 +165,8 @@ events.listen('jei.hide.items', function (event) {
     'mob_grinding_utils:dreadful_dirt',
     'mob_grinding_utils:delightful_dirt',
     'tombstone:book_of_recycling',
-    'pedestals:coin/rfmobgen'
+    'pedestals:coin/rfmobgen',
+    'mob_grinding_utils:spikes'
   ])
 })
 

@@ -119,6 +119,7 @@ e.custom({
   assembling4(20, 10000, 'mekanism:ingot_steel', 4, 'thermal:lapis_gear', 2, 'thermal:gold_plate', 2, 'chromasky:mechanic_core_tier_2', 1, 'rftoolsbase:machine_frame')
   assembling4(20, 20000, 'mekanism:ingot_steel', 4, 'powah:dielectric_rod', 2, 'powah:dielectric_rod_horizontal', 2, 'chromasky:mechanic_core_tier_3', 1, 'powah:dielectric_casing')
   assembling4(40, 100000, 'extendedcrafting:redstone_ingot_block', 8, 'powah:blazing_crystal_block', 8, 'powah:energized_steel_block', 8, 'extendedcrafting:pedestal', 1, 'mysticalagriculture:infusion_pedestal')
+  assembling4(20, 5000, 'mob_grinding_utils:saw', 1, 'thermal:machine_frame', 1, 'extendedcrafting:redstone_ingot_block', 1, 'minecraft:iron_bars', 16, 'cagedmobs:mobcage')
 
   // 5 Inputs
   assembling5(20, 2000, 'thermal:electrum_plate', 2, 'thermal:redstone_servo', 1, 'thermal:rf_coil', 2, 'immersiveengineering:coil_hv', 1, 'extendedcrafting:redstone_ingot', 3, 'chromasky:excitationcoil')

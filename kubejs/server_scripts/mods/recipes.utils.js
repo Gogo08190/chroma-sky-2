@@ -129,29 +129,29 @@ onEvent("recipes", (event) => {
 
     // Basalt
     event.shaped('8x chisel:basalt/raw', [
-      `III`,
-      `ILI`,
-      `III`
+      'III',
+      'ILI',
+      'III'
     ], {
       L: '#forge:dyes/black',
-      I: `minecraft:stone`
+      I: 'minecraft:stone'
     })
 
     // Limestone
     event.shaped('8x quark:limestone', [
-      `III`,
-      `ILI`,
-      `III`
+      'III',
+      'ILI',
+      'III'
     ], {
       L: '#forge:dyes/yellow',
-      I: `minecraft:stone`
+      I: 'minecraft:stone'
     })
 
     // Deepslate
     event.shaped('8x quark:cobbled_deepslate', [
-      `BSB`,
-      `SBS`,
-      `BSB`
+      'BSB',
+      'SBS',
+      'BSB'
     ], {
       B: 'minecraft:basalt',
       S: 'minecraft:cobblestone'
@@ -159,31 +159,41 @@ onEvent("recipes", (event) => {
 
     // Jasper
     event.shaped('8x quark:jasper', [
-      `III`,
-      `ILI`,
-      `III`
+      'III',
+      'ILI',
+      'III'
     ], {
       L: '#forge:dyes/red',
-      I: `minecraft:stone`
+      I: 'minecraft:stone'
     })
 
     // Slate
     event.shaped('8x quark:slate', [
-      `III`,
-      `ILI`,
-      `III`
+      'III',
+      'ILI',
+      'III'
     ], {
       L: '#forge:dyes/cyan',
-      I: `minecraft:stone`
+      I: 'minecraft:stone'
     })
 
     // Myalite
     event.shaped('8x quark:myalite', [
-      `III`,
-      `ILI`,
-      `III`
+      'III',
+      'ILI',
+      'III'
     ], {
       L: '#forge:dyes/purple',
-      I: `minecraft:stone`
+      I: 'minecraft:stone'
+    })
+
+    event.remove({ output: 'cagedmobs:mobcage' })
+    event.remove({ output: 'cagedmobs:hoppingmobcage' })
+    event.shaped('cagedmobs:hoppingmobcage', [
+      'C',
+      'H'
+    ], {
+      C: 'cagedmobs:mobcage',
+      H: 'speedyhoppers:speedyhopper_mk3'
     })
 });

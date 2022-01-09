@@ -44,4 +44,18 @@ onEvent('recipes', event => {
     E: 'miniutilities:unstable_block'
   })
 
+  event.remove({ output: 'mob_grinding_utils:saw' })
+  event.shaped('mob_grinding_utils:saw', [
+  'SDS',
+  'IRI',
+  'GCG'
+  ], {
+    S: 'minecraft:iron_sword',
+    D: 'minecraft:diamond',
+    I: 'miniutilities:iron_spikes',
+    R: 'extendedcrafting:redstone_ingot_block',
+    G: 'thermal:diamond_gear',
+    C: 'ftbjarmod:cast_iron_block'
+  })
+
 });
