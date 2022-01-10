@@ -124,4 +124,45 @@ e.custom({
   }
 })
 
+  function astral2(input1, count1, input2, count2, output, countout, starlight) {
+    e.custom({
+      "type": "masterfulmachinery:machine_process",
+      "structureId": "auto_astral",
+      "controllerId": "autoastral",
+      "ticks": 100,
+      "inputs": [
+          {"type": "masterfulmachinery:items","data": {"item": input1,"count": count1}},
+          {"type": "masterfulmachinery:items","data": {"item": input2,"count": count2}},
+          {"type": "masterfulmachinery:astral_starlight","data": {"amount": starlight}}
+      ],
+      "outputs": [{"type": "masterfulmachinery:items","data": {"item": output,"count": countout}}]
+    })
+  }
+
+  function astral4(input1, count1, input2, count2, input3, count3, input4, count4, output, countout, starlight) {
+    e.custom({
+      "type": "masterfulmachinery:machine_process",
+      "structureId": "auto_astral",
+      "controllerId": "autoastral",
+      "ticks": 100,
+      "inputs": [
+          {"type": "masterfulmachinery:items","data": {"item": input1,"count": count1}},
+          {"type": "masterfulmachinery:items","data": {"item": input2,"count": count2}},
+          {"type": "masterfulmachinery:items","data": {"item": input3,"count": count3}},
+          {"type": "masterfulmachinery:items","data": {"item": input4,"count": count4}},
+          {"type": "masterfulmachinery:astral_starlight","data": {"amount": starlight}}
+      ],
+      "outputs": [{"type": "masterfulmachinery:items","data": {"item": output,"count": countout}}]
+    })
+  }
+
+  // Astral 2 Items
+  astral2('astralsorcery:aquamarine', 1, 'minecraft:glowstone_dust', 4, 'astralsorcery:illumination_powder', 16, 100)
+  astral2('minecraft:glass_pane', 1, 'astralsorcery:aquamarine', 4, 'astralsorcery:glass_lens', 1, 50)
+  astral2('astralsorcery:marble_raw', 8, 'minecraft:coal', 1, 'astralsorcery:black_marble_raw', 8, 40)
+  astral2('minecraft:paper', 4, 'astralsorcery:aquamarine', 1, 'astralsorcery:parchment', 1, 60)
+
+  // Astral 4 Items
+  astral4('minecraft:oak_planks', 2, 'astralsorcery:marble_raw', 1, 'minecraft:gold_nugget', 2, 'astralsorcery:glass_lens', 1, 'astralsorcery:spectral_relay', 2, 70)
+  astral4('astralsorcery:illumination_powder', 1, 'minecraft:coal', 2, 'minecraft:black_dye', 1, 'minecraft:blue_dye', 1, 'astralsorcery:nocturnal_powder', 4, 80)
 })

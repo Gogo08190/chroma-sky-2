@@ -49,6 +49,12 @@ onEvent("item.registry", (event) => {
     event.create("chromasky:ultimategem").displayName("Ultimate Gem");
     event.create("chromasky:pattern_mundane_cast_star_shard").displayName("Pattern: Mundane Cast Star Shard");
     event.create("chromasky:mundane_cast_star_shard").displayName("Mundane Cast Star Shard");
+
     event.create("chromasky:shard_star").displayName("Star Shard");
     event.create("chromasky:magical_infuse_book").displayName("Magical Infused Book");
+
+    event.create("chromasky:drop_of_darkness").displayName("Drop Of Darkness");
+    event.create("chromasky:drop_of_peacefulless").displayName("Drop Of Peacefulless");
+    event.create("chromasky:craft_prudentium_crystal").displayName("Ritual: Craft Prudentium Crystal");
+
 });

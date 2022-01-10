@@ -11,4 +11,51 @@ onEvent('recipes', event => {
     G: 'minecraft:gold_block'
   })
 
-  });
+  event.remove({ output: 'miniutilities:cursed_earth' })
+  event.shaped('8x miniutilities:cursed_earth', [
+  'DCD',
+  'CEC',
+  'DCD'
+  ], {
+    D: 'minecraft:dirt',
+    C: 'minecraft:coarse_dirt',
+    E: 'chromasky:drop_of_darkness'
+  })
+
+  event.remove({ output: 'miniutilities:blessed_earth' })
+  event.shaped('miniutilities:blessed_earth', [
+  'DCD',
+  'CEC',
+  'DCD'
+  ], {
+    D: 'minecraft:dirt',
+    C: 'minecraft:coarse_dirt',
+    E: 'chromasky:drop_of_peacefulless'
+  })
+
+  event.remove({ output: 'miniutilities:blursed_earth' })
+  event.shaped('4x miniutilities:blursed_earth', [
+  'DCD',
+  'CEC',
+  'DCD'
+  ], {
+    D: 'miniutilities:cursed_earth',
+    C: 'miniutilities:blessed_earth',
+    E: 'miniutilities:unstable_block'
+  })
+
+  event.remove({ output: 'mob_grinding_utils:saw' })
+  event.shaped('mob_grinding_utils:saw', [
+  'SDS',
+  'IRI',
+  'GCG'
+  ], {
+    S: 'minecraft:iron_sword',
+    D: 'minecraft:diamond',
+    I: 'miniutilities:iron_spikes',
+    R: 'extendedcrafting:redstone_ingot_block',
+    G: 'thermal:diamond_gear',
+    C: 'ftbjarmod:cast_iron_block'
+  })
+
+});

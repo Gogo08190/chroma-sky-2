@@ -212,4 +212,219 @@ onEvent("recipes", (event) => {
             },
         ],
     });
+
+    event.recipes.draconicevolution.fusion_crafting({
+        result: {
+            item: "draconicevolution:draconium_chest",
+        },
+        catalyst: {
+            item: "minecraft:chest",
+        },
+        total_energy: 200000,
+        tier: "DRACONIUM",
+        ingredients: [
+            {
+                item: "draconicevolution:draconium_core",
+            },
+            {
+                item: "draconicevolution:draconium_core",
+            },
+            {
+                item: "minecraft:furnace",
+            },
+            {
+                item: "minecraft:furnace",
+            },
+            {
+                item: "minecraft:furnace",
+            },
+            {
+                item: "minecraft:furnace",
+            },
+            {
+                item: "minecraft:furnace",
+            },
+            {
+                item: "minecraft:crafting_table",
+            },
+            {
+                item: "minecraft:crafting_table",
+            },
+            {
+                item: "draconicevolution:draconium_block",
+            },
+        ],
+    });
+
+    event.recipes.draconicevolution.fusion_crafting({
+        result: {
+            item: "masterfulmachinery:mysticfactory7_controller",
+        },
+        catalyst: {
+            item: "masterfulmachinery:mysticfactory6_controller",
+        },
+        total_energy: 2000000,
+        tier: "DRACONIUM",
+        ingredients: [
+            {
+                item: "mysticalagradditions:insanium_gemstone_block",
+            },
+            {
+                item: "mysticalagradditions:insanium_gemstone_block",
+            },
+            {
+                item: "draconicevolution:draconium_block",
+            },
+            {
+                item: "draconicevolution:draconium_block",
+            },
+            {
+                item: "draconicevolution:awakened_core",
+            },
+            {
+                item: "draconicevolution:awakened_core",
+            },
+            {
+                item: "draconicevolution:draconium_block",
+            },
+            {
+                item: "draconicevolution:draconium_block",
+            },
+            {
+                item: "mysticalagradditions:insanium_gemstone_block",
+            },
+            {
+                item: "mysticalagradditions:insanium_gemstone_block",
+            },
+        ],
+    });
+
+    event.recipes.draconicevolution.fusion_crafting({
+        result: {
+            item: "masterfulmachinery:mysticfactory7_mystical_item_port_items_input",
+        },
+        catalyst: {
+            item: "masterfulmachinery:mysticfactory6_mystical_item_port_items_input",
+        },
+        total_energy: 2000000,
+        tier: "DRACONIUM",
+        ingredients: [
+            {
+                item: "mysticalagradditions:insanium_gemstone_block",
+            },
+            {
+                item: "mysticalagradditions:insanium_gemstone_block",
+            },
+            {
+                item: "draconicevolution:draconium_block",
+            },
+            {
+                item: "draconicevolution:draconium_block",
+            },
+            {
+                item: "draconicevolution:draconium_chest",
+            },
+            {
+                item: "draconicevolution:draconium_chest",
+            },
+            {
+                item: "draconicevolution:draconium_block",
+            },
+            {
+                item: "draconicevolution:draconium_block",
+            },
+            {
+                item: "mysticalagradditions:insanium_gemstone_block",
+            },
+            {
+                item: "mysticalagradditions:insanium_gemstone_block",
+            },
+        ],
+    });
+
+    event.recipes.draconicevolution.fusion_crafting({
+        result: {
+            item: "masterfulmachinery:mysticfactory7_mystical_item_port_items_output",
+        },
+        catalyst: {
+            item: "masterfulmachinery:mysticfactory6_mystical_item_port_items_output",
+        },
+        total_energy: 2000000,
+        tier: "DRACONIUM",
+        ingredients: [
+            {
+                item: "mysticalagradditions:insanium_gemstone_block",
+            },
+            {
+                item: "mysticalagradditions:insanium_gemstone_block",
+            },
+            {
+                item: "draconicevolution:draconium_block",
+            },
+            {
+                item: "draconicevolution:draconium_block",
+            },
+            {
+                item: "draconicevolution:draconium_chest",
+            },
+            {
+                item: "draconicevolution:draconium_chest",
+            },
+            {
+                item: "draconicevolution:draconium_block",
+            },
+            {
+                item: "draconicevolution:draconium_block",
+            },
+            {
+                item: "mysticalagradditions:insanium_gemstone_block",
+            },
+            {
+                item: "mysticalagradditions:insanium_gemstone_block",
+            },
+        ],
+    });
+
+    event.recipes.draconicevolution.fusion_crafting({
+        result: {
+            item: "masterfulmachinery:mysticfactory7_mystical_energy_port_energy_input",
+        },
+        catalyst: {
+            item: "masterfulmachinery:mysticfactory6_mystical_energy_port_energy_input",
+        },
+        total_energy: 2000000,
+        tier: "DRACONIUM",
+        ingredients: [
+            {
+                item: "mysticalagradditions:insanium_gemstone_block",
+            },
+            {
+                item: "mysticalagradditions:insanium_gemstone_block",
+            },
+            {
+                item: "draconicevolution:draconium_block",
+            },
+            {
+                item: "draconicevolution:draconium_block",
+            },
+            {
+                item: "draconicevolution:draconic_energy_core",
+            },
+            {
+                item: "draconicevolution:draconic_energy_core",
+            },
+            {
+                item: "draconicevolution:draconium_block",
+            },
+            {
+                item: "draconicevolution:draconium_block",
+            },
+            {
+                item: "mysticalagradditions:insanium_gemstone_block",
+            },
+            {
+                item: "mysticalagradditions:insanium_gemstone_block",
+            },
+        ],
+    });
 });

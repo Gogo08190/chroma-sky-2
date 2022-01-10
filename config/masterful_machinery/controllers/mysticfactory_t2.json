@@ -1,0 +1,26 @@
+{
+  "controllerId": "mysticfactory2",
+  "name": "Mystical Factory Tier 2",
+  "textureOverride": "mysticalagriculture:block/inferium_gemstone_block",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "textureOverride": "mysticalagriculture:block/inferium_gemstone_block",
+      "name": "Item",
+      "id": "mystical_item",
+      "data": {
+        "rows": 4,
+        "columns": 4
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "textureOverride": "mysticalagriculture:block/inferium_gemstone_block",
+      "name": "Energy",
+      "id": "mystical_energy",
+      "data": {
+        "capacity": 1000000
+      }
+    }
+  ]
+}
