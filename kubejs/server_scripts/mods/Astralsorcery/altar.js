@@ -225,6 +225,7 @@ onEvent('recipes', event => {
       }
     )
 
+  event.remove({ output: 'matc:supremium_crystal' })
     event.custom(
       {
         "type": "astralsorcery:altar",
