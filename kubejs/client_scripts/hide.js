@@ -188,7 +188,8 @@ events.listen('jei.hide.items', function (event) {
     'simplyjetpacks:jetpack_te3_armored',
     'simplyjetpacks:jetpack_te4_armored',
     'simplyjetpacks:jetpack_te3',
-    'simplyjetpacks:jetpack_te4'
+    'simplyjetpacks:jetpack_te4',
+    'extendedcrafting:nether_star_block'
   ])
 })
 
