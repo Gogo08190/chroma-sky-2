@@ -189,7 +189,13 @@ events.listen('jei.hide.items', function (event) {
     'simplyjetpacks:jetpack_te4_armored',
     'simplyjetpacks:jetpack_te3',
     'simplyjetpacks:jetpack_te4',
-    'extendedcrafting:nether_star_block'
+    'extendedcrafting:nether_star_block',
+    'overloaded:almost_infinite_tank',
+    'overloaded:true_infinite_tank',
+    'overloaded:almost_infinite_barrel',
+    'overloaded:true_infinite_barrel',
+    'overloaded:almost_infinite_capacitor',
+    'overloaded:true_infinite_capacitor'
   ])
 })
 

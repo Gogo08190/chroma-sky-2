@@ -24,5 +24,12 @@ onEvent("recipes", (event) => {
   event.remove({output: 'pedestals:coin/rfmobgen'})
   event.remove({output: 'mob_grinding_utils:spikes'})
   event.remove({output: 'extendedcrafting:nether_star_block'})
+  event.remove({output: 'overloaded:almost_infinite_tank'})
+  event.remove({output: 'overloaded:almost_infinite_tank'})
+  event.remove({output: 'overloaded:true_infinite_tank'})
+  event.remove({output: 'overloaded:almost_infinite_barrel'})
+  event.remove({output: 'overloaded:true_infinite_barrel'})
+  event.remove({output: 'overloaded:almost_infinite_capacitor'})
+  event.remove({output: 'overloaded:true_infinite_capacitor'})
   event.remove({id: 'pedestals:upgrades/itempedestalupgradedefault'})
 });
