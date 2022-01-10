@@ -224,4 +224,44 @@ onEvent('recipes', event => {
         ]
       }
     )
+
+    event.custom(
+      {
+        "type": "astralsorcery:altar",
+        "altar_type": 1,
+        "duration": 200,
+        "starlight": 1400,
+        "pattern": [
+          "G___G",
+          "_SPS_",
+          "_SOS_",
+          "_SPS_",
+          "G___G"
+        ],
+        "key": {
+          "G": {
+            "item": "mysticalagriculture:supremium_gemstone_block"
+          },
+          "S": {
+            "item": "mysticalagriculture:supremium_gemstone"
+          },
+          "P": {
+            "item": "mysticalagriculture:prosperity_shard"
+          },
+          "O": {
+            "item": "matc:imperium_crystal"
+          }
+        },
+        "output": [
+          {
+            "item": 'matc:supremium_crystal'
+            "count": 1
+          }
+        ],
+        "effects": [
+          "astralsorcery:built_in_effect_discovery_central_beam",
+          "astralsorcery:built_in_effect_attunement_sparkle"
+        ]
+      }
+    )
 });
