@@ -23,4 +23,5 @@ onEvent("recipes", (event) => {
   event.remove({output: 'tombstone:book_of_recycling'})
   event.remove({output: 'pedestals:coin/rfmobgen'})
   event.remove({output: 'mob_grinding_utils:spikes'})
+  event.remove({id: 'pedestals:upgrades/itempedestalupgradedefault'})
 });
