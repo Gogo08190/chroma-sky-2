@@ -166,7 +166,29 @@ events.listen('jei.hide.items', function (event) {
     'mob_grinding_utils:delightful_dirt',
     'tombstone:book_of_recycling',
     'pedestals:coin/rfmobgen',
-    'mob_grinding_utils:spikes'
+    'mob_grinding_utils:spikes',
+    'simplyjetpacks:jetpack_te5',
+    'simplyjetpacks:armorplating_te1',
+    'simplyjetpacks:armorplating_te2',
+    'simplyjetpacks:armorplating_te4',
+    'simplyjetpacks:armorplating_te3',
+    'simplyjetpacks:jetpack_te1',
+    'simplyjetpacks:jetpack_te1_armored',
+    'simplyjetpacks:jetpack_te2',
+    'simplyjetpacks:jetpack_te2_armored',
+    'simplyjetpacks:unit_cryotheum',
+    'simplyjetpacks:unit_glowstone_empty',
+    'simplyjetpacks:unit_glowstone',
+    'simplyjetpacks:unit_cryotheum_empty',
+    'simplyjetpacks:thruster_te5',
+    'simplyjetpacks:thruster_te4',
+    'simplyjetpacks:thruster_te3',
+    'simplyjetpacks:thruster_te2',
+    'simplyjetpacks:thruster_te1',
+    'simplyjetpacks:jetpack_te3_armored',
+    'simplyjetpacks:jetpack_te4_armored',
+    'simplyjetpacks:jetpack_te3',
+    'simplyjetpacks:jetpack_te4'
   ])
 })
 
