@@ -50,4 +50,5 @@ onEvent("item.registry", (event) => {
     event.create("chromasky:pattern_mundane_cast_star_shard").displayName("Pattern: Mundane Cast Star Shard");
     event.create("chromasky:mundane_cast_star_shard").displayName("Mundane Cast Star Shard");
     event.create("chromasky:shard_star").displayName("Star Shard");
+    event.create("chromasky:magical_infuse_book").displayName("Magical Infused Book");
 });
