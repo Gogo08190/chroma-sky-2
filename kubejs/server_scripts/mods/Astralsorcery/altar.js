@@ -255,7 +255,7 @@ onEvent('recipes', event => {
         },
         "output": [
           {
-            "item": 'matc:supremium_crystal'
+            "item": 'matc:supremium_crystal',
             "count": 1
           }
         ],
