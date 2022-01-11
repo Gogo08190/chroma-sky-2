@@ -39,4 +39,19 @@ onEvent('recipes', event => {
         "mana-and-artifice:triangle"
     ]
   })
+  event.remove({ output: 'astralsorcery:tome' })
+  event.custom({
+    "type": "mana-and-artifice:manaweaving-recipe",
+    "output": "astralsorcery:tome",
+    "tier": 1,
+    "items": [
+        "chromasky:magical_infuse_book",
+        "chromasky:shard_star"
+    ],
+    "patterns": [
+        "mana-and-artifice:slash",
+        "mana-and-artifice:circle",
+        "mana-and-artifice:backslash"
+    ]
+  })
 })
