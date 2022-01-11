@@ -43,4 +43,16 @@ onEvent("recipes", (event) => {
     outputBlock: 'integrateddynamics:menril_sapling',
     chance: 1.0,
   });
+
+  drip({
+    inputBlock: 'tconstruct:earth_slime_sapling',
+    outputBlock: 'tconstruct:sky_slime_sapling',
+    chance: 1.0,
+  });
+
+  drip({
+    inputBlock: 'tconstruct:sky_slime_sapling',
+    outputBlock: 'tconstruct:ender_slime_sapling',
+    chance: 1.0,
+  });
 });
