@@ -195,7 +195,27 @@ events.listen('jei.hide.items', function (event) {
     'overloaded:almost_infinite_barrel',
     'overloaded:true_infinite_barrel',
     'overloaded:almost_infinite_capacitor',
-    'overloaded:true_infinite_capacitor'
+    'overloaded:true_infinite_capacitor',
+    'animalcrops:pollen',
+    Item.of('animalcrops:magnemone', '{entity:"minecraft:strider"}'),
+    Item.of('animalcrops:spores', '{entity:"minecraft:piglin"}'),
+    Item.of('animalcrops:spores', '{entity:"minecraft:hoglin"}'),
+    Item.of('animalcrops:anemonemal', '{entity:"minecraft:tropical_fish"}'),
+    Item.of('animalcrops:anemonemal', '{entity:"minecraft:salmon"}'),
+    Item.of('animalcrops:anemonemal', '{entity:"minecraft:pufferfish"}'),
+    Item.of('animalcrops:anemonemal', '{entity:"minecraft:dolphin"}'),
+    Item.of('animalcrops:anemonemal', '{entity:"minecraft:cod"}'),
+    Item.of('animalcrops:seeds', '{entity:"minecraft:wolf"}'),
+    Item.of('animalcrops:seeds', '{entity:"minecraft:polar_bear"}'),
+    Item.of('animalcrops:seeds', '{entity:"minecraft:panda"}'),
+    Item.of('animalcrops:seeds', '{entity:"minecraft:ocelot"}'),
+    Item.of('animalcrops:seeds', '{entity:"minecraft:mooshroom"}'),
+    Item.of('animalcrops:seeds', '{entity:"minecraft:parrot"}'),
+    Item.of('animalcrops:seeds', '{entity:"minecraft:llama"}'),
+    Item.of('animalcrops:seeds', '{entity:"minecraft:horse"}'),
+    Item.of('animalcrops:seeds', '{entity:"minecraft:fox"}'),
+    Item.of('animalcrops:seeds', '{entity:"minecraft:donkey"}'),
+    Item.of('animalcrops:seeds', '{entity:"minecraft:cat"}')
   ])
 })
 
