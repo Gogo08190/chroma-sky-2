@@ -55,4 +55,21 @@ onEvent('recipes', event => {
         "mana-and-artifice:backslash"
     ]
   })
+  event.custom({
+    "type": "mana-and-artifice:manaweaving-recipe",
+    "output": "chromasky:shard_star",
+    "tier": 1,
+    "items": [
+        "chromasky:mundane_cast_star_shard",
+        'minecraft:nether_star'
+    ],
+    "patterns": [
+      "mana-and-artifice:backslash",
+        "mana-and-artifice:backslash",
+        "mana-and-artifice:triangle",
+        "mana-and-artifice:triangle",
+        "mana-and-artifice:slash",
+        "mana-and-artifice:slash"
+    ]
+  })
 })
