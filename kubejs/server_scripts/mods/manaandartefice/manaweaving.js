@@ -34,9 +34,9 @@ onEvent('recipes', event => {
         "mysticalagriculture:tertium_essence"
     ],
     "patterns": [
-        "mana-and-artifice:hourglass",
-        "mana-and-artifice:infinity",
-        "mana-and-artifice:split_triangle"
+        "mana-and-artifice:diamond",
+        "mana-and-artifice:circle",
+        "mana-and-artifice:triangle"
     ]
   })
 })
