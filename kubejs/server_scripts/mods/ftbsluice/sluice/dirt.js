@@ -19,15 +19,18 @@ onEvent("recipes", (event) => {
 
     sluice(["iron"], "#forge:dirt", [
         ["occultism:datura_seeds", 0.22],
-        ["minecraft:sweet_berries", 0.22]
+        ["minecraft:sweet_berries", 0.22],
+        ["mana-and-artifice:aum", 0.20]
     ]);
 
     sluice(["gold"], "#forge:dirt", [
         ["minecraft:kelp", 0.23],
+        ["mana-and-artifice:aum", 0.23]
     ]);
 
     sluice(["diamond"], "#forge:dirt", [
         ["minecraft:kelp", 0.28],
+        ["mana-and-artifice:aum", 0.28]
     ]);
 
     sluice(["blazing"], "#forge:dirt", [
