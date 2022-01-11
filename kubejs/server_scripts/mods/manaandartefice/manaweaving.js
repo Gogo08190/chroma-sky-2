@@ -40,6 +40,7 @@ onEvent('recipes', event => {
     ]
   })
   event.remove({ output: 'astralsorcery:tome' })
+  event.remove({ id: 'astralsorcery:altar/tome' })
   event.custom({
     "type": "mana-and-artifice:manaweaving-recipe",
     "output": "astralsorcery:tome",
