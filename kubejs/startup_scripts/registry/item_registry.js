@@ -56,5 +56,5 @@ onEvent("item.registry", (event) => {
     event.create("chromasky:drop_of_darkness").displayName("Drop Of Darkness");
     event.create("chromasky:drop_of_peacefulless").displayName("Drop Of Peacefulless");
     event.create("chromasky:craft_prudentium_crystal").displayName("Ritual: Craft Prudentium Crystal");
-    event.create("chromasky:starmetal_gear").displayName("Ritual: Craft Prudentium Crystal");
+    event.create("chromasky:starmetal_gear").displayName("Starmetal Gear");
 });
