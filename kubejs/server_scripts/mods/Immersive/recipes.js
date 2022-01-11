@@ -17,7 +17,7 @@ onEvent('recipes', event => {
   // MV Capacitor
   event.remove({ output: 'immersiveengineering:capacitor_mv' })
   event.shaped('immersiveengineering:capacitor_mv', [
-  'III',
+  'PPP',
   'BHB',
   'SWS'
   ], {
@@ -25,13 +25,13 @@ onEvent('recipes', event => {
     S: 'immersiveengineering:treated_wood_horizontal',
     B: 'thermal:electrum_gear',
     H: 'immersiveengineering:capacitor_lv',
-    I: 'tconstruct:pig_iron_ingot'
+    P: 'tconstruct:rose_gold_ingot'
   })
 
   // HV Capacitor
   event.remove({ output: 'immersiveengineering:capacitor_hv' })
   event.shaped('immersiveengineering:capacitor_hv', [
-  'III',
+  'EEE',
   'BHB',
   'SWS'
   ], {
@@ -39,7 +39,7 @@ onEvent('recipes', event => {
     S: 'immersiveengineering:treated_wood_horizontal',
     B: 'thermal:invar_gear',
     H: 'immersiveengineering:capacitor_mv',
-    I: 'thermal:lumium_ingot'
+    E: 'thermal:electrum_ingot'
   })
 
   // Redstone Engineering Block
