@@ -11,7 +11,7 @@ onEvent('recipes', event => {
           "A": {"item": "astralsorcery:black_marble_raw"},
           "R": {"item": "astralsorcery:resonating_gem"},
           "S": {"item": "powah:spirited_crystal_block"},
-          "I": {"item": "naturesaura:infused_iron_block"}
+          "I": {"item": "naturesaura:infused_iron_block"},
           "G": {"item": 'chromasky:starmetal_gear'}
         },
         "output": [
