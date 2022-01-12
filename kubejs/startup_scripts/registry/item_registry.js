@@ -39,8 +39,8 @@ onEvent("item.registry", (event) => {
     });
 
     event.create("chromasky:ultimate_stew").displayName("Ultimate Stew").food(foodConsumer => {
-      foodConsumer.hunger(200)
-                  .saturation(2000.0)
+      foodConsumer.hunger(20)
+                  .saturation(5.0)
                   .eaten(eatenEvent => {
                     eatenEvent.getEntity().getPotionEffects().add("minecraft:speed",600,2,false,false)
                     eatenEvent.getEntity().getPotionEffects().add("minecraft:regeneration",2000,4,false,false)
@@ -56,8 +56,8 @@ onEvent("item.registry", (event) => {
     });
 
     event.create("chromasky:ultimate_meat").displayName("Ultimate Meat").food(foodConsumer => {
-      foodConsumer.hunger(200)
-                  .saturation(2000.0)
+      foodConsumer.hunger(20)
+                  .saturation(100)
                   .eaten(eatenEvent => {
                     eatenEvent.getEntity().getPotionEffects().add("minecraft:strength",6000,4,false,false)
                     eatenEvent.getEntity().getPotionEffects().add("minecraft:health_boost",6000,3,false,false)
