@@ -71,4 +71,9 @@ onEvent("recipes", (event) => {
       "4x draconicevolution:draconium_ingot",
       "immersiveengineering:mold_gear"
   );
+  event.recipes.immersiveengineering.metal_press(
+      "chromasky:starmetal_gear",
+      "4x astralsorcery:starmetal_ingot",
+      "immersiveengineering:mold_gear"
+  );
 });
