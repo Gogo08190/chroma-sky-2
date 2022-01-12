@@ -6,12 +6,13 @@ onEvent('recipes', event => {
         "altar_type": 3,
         "duration": 1200,
         "starlight": 6942,
-        "pattern": ["AAAAA","ARSRA","ASSSA","ARIRA","AAAAA"],
+        "pattern": ["AAAAA","ARSRA","AGSGA","ARIRA","AAAAA"],
         "key": {
           "A": {"item": "astralsorcery:black_marble_raw"},
           "R": {"item": "astralsorcery:resonating_gem"},
           "S": {"item": "powah:spirited_crystal_block"},
           "I": {"item": "naturesaura:infused_iron_block"}
+          "G": {"item": 'chromasky:starmetal_gear'}
         },
         "output": [
           {"item": "masterfulmachinery:autoastral_controller","count": 1}
