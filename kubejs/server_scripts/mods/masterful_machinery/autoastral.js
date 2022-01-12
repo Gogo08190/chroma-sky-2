@@ -124,6 +124,20 @@ e.custom({
   }
 })
 
+function astral1(input1, count1, output, countout, starlight) {
+  e.custom({
+    "type": "masterfulmachinery:machine_process",
+    "structureId": "auto_astral",
+    "controllerId": "autoastral",
+    "ticks": 100,
+    "inputs": [
+        {"type": "masterfulmachinery:items","data": {"item": input1,"count": count1}},
+        {"type": "masterfulmachinery:astral_starlight","data": {"amount": starlight}}
+    ],
+    "outputs": [{"type": "masterfulmachinery:items","data": {"item": output,"count": countout}}]
+  })
+}
+
   function astral2(input1, count1, input2, count2, output, countout, starlight) {
     e.custom({
       "type": "masterfulmachinery:machine_process",
@@ -155,6 +169,8 @@ e.custom({
       "outputs": [{"type": "masterfulmachinery:items","data": {"item": output,"count": countout}}]
     })
   }
+  //Astral 1 item
+  astral1('astralsorcery:starmetal_ingot', 4, 'chromasky:starmetal_gear', 1, 100)
 
   // Astral 2 Items
   astral2('astralsorcery:aquamarine', 1, 'minecraft:glowstone_dust', 4, 'astralsorcery:illumination_powder', 16, 100)
