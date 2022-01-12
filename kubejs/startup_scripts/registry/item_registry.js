@@ -37,6 +37,42 @@ onEvent("item.registry", (event) => {
                     eatenEvent.getEntity().getPotionEffects().add("minecraft:nausea",5,1,false,false)
                   });
     });
+
+    event.create("chromasky:ultimate_stew").displayName("Ultimate Stew").food(foodConsumer => {
+      foodConsumer.hunger(20)
+                  .saturation(5.0)
+                  .eaten(eatenEvent => {
+                    eatenEvent.player.tell("I Love Beer !");
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:speed",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:strength",600,41,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:regeneration",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:fire_resistance",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:water_breathing",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:resistance",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:glowing",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:absorption",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:haste",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:nausea",5,1,false,false)
+                  });
+    });
+
+    event.create("chromasky:ultimate_meat").displayName("Ultimate Meat").food(foodConsumer => {
+      foodConsumer.hunger(20)
+                  .saturation(5.0)
+                  .eaten(eatenEvent => {
+                    eatenEvent.player.tell("I Love Beer !");
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:speed",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:strength",600,41,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:regeneration",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:fire_resistance",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:water_breathing",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:resistance",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:glowing",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:absorption",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:haste",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:nausea",5,1,false,false)
+                  });
+    });
     event.create("chromasky:hammer_head").displayName("Hammer Head");
     event.create("chromasky:wirecutter_head").displayName("Wire Cutters Head");
     event.create("chromasky:mechanic_core_tier_1").displayName("Mechanic Core Tier 1");
@@ -57,6 +93,4 @@ onEvent("item.registry", (event) => {
     event.create("chromasky:drop_of_peacefulless").displayName("Drop Of Peacefulless");
     event.create("chromasky:craft_prudentium_crystal").displayName("Ritual: Craft Prudentium Crystal");
     event.create("chromasky:starmetal_gear").displayName("Starmetal Gear");
-    event.create("chromasky:ultimate_meat").displayName("Ultimate Meat");
-    event.create("chromasky:ultimate_stew").displayName("Ultimate Stew");
 });
