@@ -39,38 +39,31 @@ onEvent("item.registry", (event) => {
     });
 
     event.create("chromasky:ultimate_stew").displayName("Ultimate Stew").food(foodConsumer => {
-      foodConsumer.hunger(20)
-                  .saturation(5.0)
+      foodConsumer.hunger(200)
+                  .saturation(2000.0)
                   .eaten(eatenEvent => {
-                    eatenEvent.player.tell("I Love Beer !");
-                    eatenEvent.getEntity().getPotionEffects().add("minecraft:speed",600,1,false,false)
-                    eatenEvent.getEntity().getPotionEffects().add("minecraft:strength",600,41,false,false)
-                    eatenEvent.getEntity().getPotionEffects().add("minecraft:regeneration",600,1,false,false)
-                    eatenEvent.getEntity().getPotionEffects().add("minecraft:fire_resistance",600,1,false,false)
-                    eatenEvent.getEntity().getPotionEffects().add("minecraft:water_breathing",600,1,false,false)
-                    eatenEvent.getEntity().getPotionEffects().add("minecraft:resistance",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:speed",600,2,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:regeneration",2000,4,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:fire_resistance",6000,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:water_breathing",6000,1,false,false)
                     eatenEvent.getEntity().getPotionEffects().add("minecraft:glowing",600,1,false,false)
-                    eatenEvent.getEntity().getPotionEffects().add("minecraft:absorption",600,1,false,false)
                     eatenEvent.getEntity().getPotionEffects().add("minecraft:haste",600,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:night_vision",600,1,false,false)
                     eatenEvent.getEntity().getPotionEffects().add("minecraft:nausea",5,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:saturation",2000,4,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:strength",6000,4,false,false)
                   });
     });
 
     event.create("chromasky:ultimate_meat").displayName("Ultimate Meat").food(foodConsumer => {
-      foodConsumer.hunger(20)
-                  .saturation(5.0)
+      foodConsumer.hunger(200)
+                  .saturation(2000.0)
                   .eaten(eatenEvent => {
-                    eatenEvent.player.tell("I Love Beer !");
-                    eatenEvent.getEntity().getPotionEffects().add("minecraft:speed",600,1,false,false)
-                    eatenEvent.getEntity().getPotionEffects().add("minecraft:strength",600,41,false,false)
-                    eatenEvent.getEntity().getPotionEffects().add("minecraft:regeneration",600,1,false,false)
-                    eatenEvent.getEntity().getPotionEffects().add("minecraft:fire_resistance",600,1,false,false)
-                    eatenEvent.getEntity().getPotionEffects().add("minecraft:water_breathing",600,1,false,false)
-                    eatenEvent.getEntity().getPotionEffects().add("minecraft:resistance",600,1,false,false)
-                    eatenEvent.getEntity().getPotionEffects().add("minecraft:glowing",600,1,false,false)
-                    eatenEvent.getEntity().getPotionEffects().add("minecraft:absorption",600,1,false,false)
-                    eatenEvent.getEntity().getPotionEffects().add("minecraft:haste",600,1,false,false)
-                    eatenEvent.getEntity().getPotionEffects().add("minecraft:nausea",5,1,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:strength",6000,4,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:health_boost",6000,3,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:saturation",2000,4,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:regeneration",2000,4,false,false)
+                    eatenEvent.getEntity().getPotionEffects().add("minecraft:resistance",2000,4,false,false)
                   });
     });
     event.create("chromasky:hammer_head").displayName("Hammer Head");
