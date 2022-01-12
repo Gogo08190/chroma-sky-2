@@ -58,4 +58,5 @@ onEvent("item.registry", (event) => {
     event.create("chromasky:craft_prudentium_crystal").displayName("Ritual: Craft Prudentium Crystal");
     event.create("chromasky:starmetal_gear").displayName("Starmetal Gear");
     event.create("chromasky:ultimate_meat").displayName("Ultimate Meat");
+    event.create("chromasky:ultimate_stew").displayName("Ultimate Stew");
 });
