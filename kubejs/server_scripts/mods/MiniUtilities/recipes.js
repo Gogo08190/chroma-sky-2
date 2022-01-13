@@ -58,4 +58,16 @@ onEvent('recipes', event => {
     C: 'ftbjarmod:cast_iron_block'
   })
 
+  event.remove({ output: 'miniutilities:mechanical_miner' })
+  event.shaped('miniutilities:mechanical_miner', [
+  'CNC',
+  'GRG',
+  'CGC'
+  ], {
+    C: 'ftbjarmod:cast_iron_ingot',
+    G: 'minecraft:gold_ingot',
+    R: 'extendedcrafting:redstone_ingot_block',
+    N: 'minecraft:netherite_pickaxe'
+  })
+  
 });
