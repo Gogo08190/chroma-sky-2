@@ -37,4 +37,5 @@ onEvent("recipes", (event) => {
   event.remove({output: 'projectex:compressed_refined_link'})
   event.remove({output: 'projectex:personal_link'})
   event.remove({output: 'projectex:arcane_tablet'})
+  event.remove({output: 'projectex:final_star'})
 });

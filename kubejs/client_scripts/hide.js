@@ -203,6 +203,7 @@ events.listen('jei.hide.items', function (event) {
     'projectex:refined_link',
     'projectex:compressed_refined_link',
     'projectex:arcane_tablet',
+    'projectex:final_star',
     'masterfulmachinery:emcflower_assemblingenergy_port_energy_output',
     Item.of('animalcrops:magnemone', '{entity:"minecraft:strider"}'),
     Item.of('animalcrops:spores', '{entity:"minecraft:piglin"}'),
