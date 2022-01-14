@@ -258,4 +258,107 @@ onEvent("recipes", (event) => {
       }
     }
   )
+
+  event.custom(
+    {
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AABAA",
+      "ACDCA",
+      "EDFDE",
+      "GCDCG",
+      "GGHGG"
+    ],
+    "key": {
+      "A": {
+        "item": "miniutilities:emerald_opinium_core"
+      },
+      "B": {
+        "item": "extendedcrafting:redstone_ingot_block"
+      },
+      "C": {
+        "item": "thermal:rf_coil"
+      },
+      "D": {
+        "item": "thermal:enderium_gear"
+      },
+      "E": {
+        "item": "thermal:flux_drill"
+      },
+      "F": {
+        "item": "miniutilities:mechanical_miner"
+      },
+      "G": {
+        "item": "miniutilities:ender_pearl_block"
+      },
+      "H": {
+        "item": "minecraft:observer"
+      }
+    },
+    "result": {
+      "item": "miniutilities:quantum_quarry"
+    }
+  }
+)
+
+  event.custom(
+    {
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABCBD",
+      "EFGFH",
+      "IGJGK",
+      "HFGFE",
+      "LMNMD"
+    ],
+    "key": {
+      "A": {
+        "item": "miniutilities:unstable_ingot"
+      },
+      "B": {
+        "item": "cyclic:charm_home",
+      },
+      "C": {
+        "item": "rftoolsutility:flight_module"
+      },
+      "D": {
+        "item": "miniutilities:unstable_ingot"
+      },
+      "E": {
+        "item": "mekanism:pellet_polonium"
+      },
+      "F": {
+        "item": "chromasky:ultimatebeer"
+      },
+      "G": {
+        "item": "overloaded:nether_star_block"
+      },
+      "H": {
+        "item": "mysticalagriculture:flight_augment"
+      },
+      "I": {
+        "item": "rats:rat_upgrade_angel"
+      },
+      "J": {
+        "item": "occultism:familiar_ring"
+      },
+      "K": {
+        "item": "rats:rat_upgrade_flight"
+      },
+      "L": {
+        "item": "miniutilities:unstable_ingot"
+      },
+      "M": {
+        "item": "mekanism:hdpe_elytra"
+      },
+      "N": {
+        "item": "simplyjetpacks:jetpack_mek4"
+      }
+    },
+    "result": {
+      "item": ""
+    }
+  }
+)
+
 });
