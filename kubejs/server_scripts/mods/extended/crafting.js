@@ -356,7 +356,7 @@ onEvent("recipes", (event) => {
       }
     },
     "result": {
-      "item": ""
+      "item": "miniutilities:angel_ring"
     }
   }
 )
