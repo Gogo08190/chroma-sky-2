@@ -182,7 +182,7 @@ onEvent('recipes', event => {
   event.remove({ output: 'projecte:soul_stone' })
   event.shaped('projecte:soul_stone', [
   'CCC',
-  'RSR',
+  'PSP',
   'CCC'
   ], {
     C: 'powah:crystal_niotic',
@@ -193,7 +193,7 @@ onEvent('recipes', event => {
   event.remove({ output: 'projecte:body_stone' })
   event.shaped('projecte:body_stone', [
   'CCC',
-  'RSR',
+  'PSP',
   'CCC'
   ], {
     C: 'powah:crystal_nitro',
@@ -204,7 +204,7 @@ onEvent('recipes', event => {
   event.remove({ output: 'projecte:mind_stone' })
   event.shaped('projecte:mind_stone', [
   'CCC',
-  'RSR',
+  'PSP',
   'CCC'
   ], {
     C: 'powah:crystal_spirited',
@@ -250,7 +250,7 @@ onEvent('recipes', event => {
   event.remove({ output: 'projectex:energy_link' })
   event.shaped('projectex:energy_link', [
   'LMH',
-  'RCR',
+  'CRC',
   'HML'
   ], {
     H: 'projecte:high_covalence_dust',
@@ -523,7 +523,7 @@ onEvent('recipes', event => {
     }
   }
   )
-  
+
   event.remove({ output: 'projecte:transmutation_tablet' })
   event.custom(
       {
