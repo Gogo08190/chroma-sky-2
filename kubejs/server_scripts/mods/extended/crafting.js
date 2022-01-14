@@ -305,53 +305,47 @@ onEvent("recipes", (event) => {
     {
     "type": "extendedcrafting:shaped_table",
     "pattern": [
-      "ABCBD",
-      "EFGFH",
-      "IGJGK",
-      "HFGFE",
-      "LMNMD"
+      "ABCBA",
+      "DEFEG",
+      "HFIFJ",
+      "GEFED",
+      "AKLKA"
     ],
     "key": {
       "A": {
         "item": "miniutilities:unstable_ingot"
       },
       "B": {
-        "item": "cyclic:charm_home",
+        "item": "cyclic:charm_home"
       },
       "C": {
         "item": "rftoolsutility:flight_module"
       },
       "D": {
-        "item": "miniutilities:unstable_ingot"
-      },
-      "E": {
         "item": "mekanism:pellet_polonium"
       },
-      "F": {
+      "E": {
         "item": "chromasky:ultimatebeer"
       },
-      "G": {
+      "F": {
         "item": "overloaded:nether_star_block"
       },
-      "H": {
+      "G": {
         "item": "mysticalagriculture:flight_augment"
       },
-      "I": {
+      "H": {
         "item": "rats:rat_upgrade_angel"
       },
-      "J": {
+      "I": {
         "item": "occultism:familiar_ring"
       },
-      "K": {
+      "J": {
         "item": "rats:rat_upgrade_flight"
       },
-      "L": {
-        "item": "miniutilities:unstable_ingot"
-      },
-      "M": {
+      "K": {
         "item": "mekanism:hdpe_elytra"
       },
-      "N": {
+      "L": {
         "item": "simplyjetpacks:jetpack_mek4"
       }
     },
@@ -359,6 +353,6 @@ onEvent("recipes", (event) => {
       "item": "miniutilities:angel_ring"
     }
   }
-)
+  )
 
 });
