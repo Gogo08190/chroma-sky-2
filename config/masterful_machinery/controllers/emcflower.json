@@ -1,0 +1,25 @@
+{
+  "controllerId": "emcflower",
+  "name": "Power Flower Fabricator",
+  "textureOverride": "projecte:block/dark_matter_block",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "textureOverride": "projecte:block/dark_matter_block",
+      "name": "Assembling Factory Item",
+      "id": "assembing_item",
+      "data": {
+        "rows": 4,
+        "columns": 6
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Assembling Factory Energy",
+      "id": "assemblingenergy",
+      "data": {
+        "capacity": 10000000
+      }
+    }
+  ]
+}
