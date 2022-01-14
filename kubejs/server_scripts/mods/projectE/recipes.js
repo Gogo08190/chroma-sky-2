@@ -12,9 +12,7 @@ onEvent('recipes', event => {
 
   event.remove({ output: 'projecte:medium_covalence_dust' })
   event.shaped('40x projecte:medium_covalence_dust', [
-  'IR ',
-  '   ',
-  '   '
+  'IR',
   ], {
     I: 'mysticalagradditions:insanium_ingot',
     R: 'extendedcrafting:redstone_ingot'
@@ -22,9 +20,7 @@ onEvent('recipes', event => {
 
   event.remove({ output: 'projecte:high_covalence_dust' })
   event.shaped('40x projecte:high_covalence_dust', [
-  'IC ',
-  '   ',
-  '   '
+  'IC',
   ], {
     I: 'mysticalagradditions:insanium_gemstone',
     C: 'mysticalagradditions:insanium_coal_block'
