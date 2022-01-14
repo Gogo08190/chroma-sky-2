@@ -121,8 +121,10 @@ e.custom({
   assembling4(40, 100000, 'extendedcrafting:redstone_ingot_block', 8, 'powah:blazing_crystal_block', 8, 'powah:energized_steel_block', 8, 'extendedcrafting:pedestal', 1, 'mysticalagriculture:infusion_pedestal')
   assembling4(20, 5000, 'mob_grinding_utils:saw', 1, 'thermal:machine_frame', 1, 'extendedcrafting:redstone_ingot_block', 1, 'minecraft:iron_bars', 16, 'cagedmobs:mobcage')
   assembling4(40, 10000, 'powah:energized_steel_block', 4, 'minecraft:gold_block', 8, 'immersiveengineering:circuit_board', 1, 'mekanism:advanced_control_circuit', 1, 'pedestals:coin/default')
+  assembling4(100, 10000, 'mysticalagriculture:prosperity_seed_base', 1, 'mysticalagriculture:soulium_ingot', 4, 'mysticalagriculture:soulium_gemstone', 4, 'mysticalagriculture:soulium_dust', 4, 'mysticalagriculture:soulium_seed_base')
 
   // 5 Inputs
   assembling5(20, 2000, 'thermal:electrum_plate', 2, 'thermal:redstone_servo', 1, 'thermal:rf_coil', 2, 'immersiveengineering:coil_hv', 1, 'extendedcrafting:redstone_ingot', 3, 'chromasky:excitationcoil')
+  assembling5(100, 10000, 'minecraft:wheat_seeds', 1, 'mysticalagriculture:prosperity_gemstone', 4, 'mysticalagriculture:prosperity_block', 4, 'mysticalagriculture:prosperity_ingot', 4, 'powah:charged_snowball', 4, 'mysticalagriculture:prosperity_seed_base')
   assembling5(80, 1000000, 'extendedcrafting:redstone_ingot_block', 64, 'powah:blazing_crystal_block', 64, 'powah:energized_steel_block', 64, 'immersiveengineering:rs_engineering', 3, 'naturesaura:nature_altar', 1, 'mysticalagriculture:infusion_altar')
 })
