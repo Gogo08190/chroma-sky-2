@@ -41,6 +41,8 @@ onEvent('recipes', event => {
 
   event.remove({ output: 'mysticalagriculture:infusion_altar' })
   event.remove({ output: 'mysticalagriculture:infusion_pedestal' })
+  event.remove({ output: 'mysticalagriculture:prosperity_seed_base' })
+  event.remove({ output: 'mysticalagriculture:soulium_seed_base' })
 
 
   var essence = [

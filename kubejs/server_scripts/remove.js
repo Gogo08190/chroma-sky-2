@@ -34,4 +34,6 @@ onEvent("recipes", (event) => {
   event.remove({id: 'pedestals:upgrades/itempedestalupgradedefault'})
   event.remove({output: 'projectex:alchemy_table'})
   event.remove({output: 'projectex:stone_table'})
+  event.remove({output: 'projectex:compressed_refined_link'})
+  event.remove({output: 'projectex:personal_link'})
 });
