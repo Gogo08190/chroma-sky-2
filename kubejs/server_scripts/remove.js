@@ -32,4 +32,6 @@ onEvent("recipes", (event) => {
   event.remove({output: 'overloaded:almost_infinite_capacitor'})
   event.remove({output: 'overloaded:true_infinite_capacitor'})
   event.remove({id: 'pedestals:upgrades/itempedestalupgradedefault'})
+  event.remove({output: 'projectex:alchemy_table'})
+  event.remove({output: 'projectex:stone_table'})
 });

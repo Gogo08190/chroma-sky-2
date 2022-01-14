@@ -197,6 +197,8 @@ events.listen('jei.hide.items', function (event) {
     'overloaded:almost_infinite_capacitor',
     'overloaded:true_infinite_capacitor',
     'animalcrops:pollen',
+    'projectex:stone_table',
+    'projectex:alchemy_table',
     Item.of('animalcrops:magnemone', '{entity:"minecraft:strider"}'),
     Item.of('animalcrops:spores', '{entity:"minecraft:piglin"}'),
     Item.of('animalcrops:spores', '{entity:"minecraft:hoglin"}'),
