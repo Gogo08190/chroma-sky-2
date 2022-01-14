@@ -85,6 +85,23 @@ events.listen('recipes', function (e) {
     }
   })
 
+  event.remove({ output: 'projectex:basic_power_flower' })
+  event.remove({ output: 'projectex:dark_power_flower' })
+  event.remove({ output: 'projectex:red_power_flower' })
+  event.remove({ output: 'projectex:magenta_power_flower' })
+  event.remove({ output: 'projectex:pink_power_flower' })
+  event.remove({ output: 'projectex:purple_power_flower' })
+  event.remove({ output: 'projectex:violet_power_flower' })
+  event.remove({ output: 'projectex:blue_power_flower' })
+  event.remove({ output: 'projectex:cyan_power_flower' })
+  event.remove({ output: 'projectex:green_power_flower' })
+  event.remove({ output: 'projectex:lime_power_flower' })
+  event.remove({ output: 'projectex:yellow_power_flower' })
+  event.remove({ output: 'projectex:orange_power_flower' })
+  event.remove({ output: 'projectex:white_power_flower' })
+  event.remove({ output: 'projectex:fading_power_flower' })
+  event.remove({ output: 'projectex:final_power_flower' })
+
   function powerflower(ticks, rf, input1, count1, input2, count2, input3, count3, output) {
     e.custom({
       "type": "masterfulmachinery:machine_process",
@@ -101,5 +118,20 @@ events.listen('recipes', function (e) {
     })
   }
 
-  powerflower(60, 10000, 'projectex:basic_compressed_collector', 2, 'projectex:energy_link', 1, 'projectex:basic_relay', 6, 'projectex:basic_power_flower')
+  powerflower(120, 10000, 'projectex:basic_compressed_collector', 2, 'projectex:energy_link', 1, 'projectex:basic_relay', 6, 'projectex:basic_power_flower')
+  powerflower(120, 10000, 'projectex:dark_compressed_collector', 2, 'projectex:energy_link', 1, 'projectex:dark_relay', 6, 'projectex:dark_power_flower')
+  powerflower(120, 10000, 'projectex:red_compressed_collector', 2, 'projectex:energy_link', 1, 'projectex:red_relay', 6, 'projectex:red_power_flower')
+  powerflower(120, 100000, 'projectex:magenta_compressed_collector', 2, 'projectex:energy_link', 1, 'projectex:magenta_relay', 6, 'projectex:magenta_power_flower')
+  powerflower(120, 100000, 'projectex:pink_compressed_collector', 2, 'projectex:energy_link', 1, 'projectex:pink_relay', 6, 'projectex:pink_power_flower')
+  powerflower(120, 100000, 'projectex:purple_compressed_collector', 2, 'projectex:energy_link', 1, 'projectex:purple_relay', 6, 'projectex:purple_power_flower')
+  powerflower(256, 1000000, 'projectex:violet_compressed_collector', 2, 'projectex:energy_link', 1, 'projectex:violet_relay', 6, 'projectex:violet_power_flower')
+  powerflower(256, 1000000, 'projectex:blue_compressed_collector', 2, 'projectex:energy_link', 1, 'projectex:blue_relay', 6, 'projectex:blue_power_flower')
+  powerflower(256, 1000000, 'projectex:cyan_compressed_collector', 2, 'projectex:energy_link', 1, 'projectex:cyan_relay', 6, 'projectex:cyan_power_flower')
+  powerflower(256, 2000000, 'projectex:green_compressed_collector', 2, 'projectex:energy_link', 1, 'projectex:green_relay', 6, 'projectex:green_power_flower')
+  powerflower(256, 3000000, 'projectex:lime_compressed_collector', 2, 'projectex:energy_link', 1, 'projectex:lime_relay', 6, 'projectex:lime_power_flower')
+  powerflower(256, 4000000, 'projectex:yellow_compressed_collector', 2, 'projectex:energy_link', 1, 'projectex:yellow_relay', 6, 'projectex:yellow_power_flower')
+  powerflower(512, 5000000, 'projectex:orange_compressed_collector', 2, 'projectex:energy_link', 1, 'projectex:orange_relay', 6, 'projectex:orange_power_flower')
+  powerflower(512, 6000000, 'projectex:white_compressed_collector', 2, 'projectex:energy_link', 1, 'projectex:white_relay', 6, 'projectex:white_power_flower')
+  powerflower(512, 7000000, 'projectex:fading_compressed_collector', 2, 'projectex:energy_link', 1, 'projectex:fading_relay', 6, 'projectex:fading_power_flower')
+  powerflower(1024, 10000000, 'projectex:final_compressed_collector', 2, 'projectex:energy_link', 1, 'projectex:final_relay', 6, 'projectex:final_power_flower')
 })
