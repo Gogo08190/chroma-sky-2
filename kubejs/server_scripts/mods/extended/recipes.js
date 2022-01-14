@@ -7,6 +7,9 @@ onEvent("recipes", (event) => {
   event.shapeless('extendedcrafting:black_iron_ingot', '9x extendedcrafting:black_iron_nugget')
   event.shaped('9x extendedcrafting:black_iron_ingot', 'extendedcrafting:black_iron_block')
 
+event.remove({ output: 'miniutilities:quantum_quarry' })
+event.remove({ output: 'miniutilities:angel_ring' })
+
   event.recipes.thermal
     .smelter("extendedcrafting:black_iron_ingot", ['immersiveengineering:coal_coke', 'mekanism:ingot_steel', 'rats:little_black_squash_balls'])
     .energy(6400);
