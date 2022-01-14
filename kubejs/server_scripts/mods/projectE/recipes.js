@@ -405,6 +405,7 @@ onEvent('recipes', event => {
     }
   }
   )
+
     event.remove({ output: 'projecte:archangel_smite' })
     event.custom(
       {
@@ -475,6 +476,7 @@ onEvent('recipes', event => {
     }
   }
   )
+
   event.remove({ output: 'projecte:transmutation_table' })
   event.custom(
     {
@@ -521,6 +523,7 @@ onEvent('recipes', event => {
     }
   }
   )
+  
   event.remove({ output: 'projecte:transmutation_tablet' })
   event.custom(
       {
