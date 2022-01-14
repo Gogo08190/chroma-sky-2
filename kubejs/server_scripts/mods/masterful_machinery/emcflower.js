@@ -85,23 +85,6 @@ events.listen('recipes', function (e) {
     }
   })
 
-  event.remove({ output: 'projectex:basic_power_flower' })
-  event.remove({ output: 'projectex:dark_power_flower' })
-  event.remove({ output: 'projectex:red_power_flower' })
-  event.remove({ output: 'projectex:magenta_power_flower' })
-  event.remove({ output: 'projectex:pink_power_flower' })
-  event.remove({ output: 'projectex:purple_power_flower' })
-  event.remove({ output: 'projectex:violet_power_flower' })
-  event.remove({ output: 'projectex:blue_power_flower' })
-  event.remove({ output: 'projectex:cyan_power_flower' })
-  event.remove({ output: 'projectex:green_power_flower' })
-  event.remove({ output: 'projectex:lime_power_flower' })
-  event.remove({ output: 'projectex:yellow_power_flower' })
-  event.remove({ output: 'projectex:orange_power_flower' })
-  event.remove({ output: 'projectex:white_power_flower' })
-  event.remove({ output: 'projectex:fading_power_flower' })
-  event.remove({ output: 'projectex:final_power_flower' })
-
   function powerflower(ticks, rf, input1, count1, input2, count2, input3, count3, output) {
     e.custom({
       "type": "masterfulmachinery:machine_process",
