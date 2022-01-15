@@ -9,6 +9,18 @@
         "desc": "This is an island",
         "structure": "island.nbt",
         "image": "chromasky2:islands/screens/island.png"
+      },
+      {
+        "name": "The Last Shelter",
+        "desc": "The only place for living things",
+        "structure": "lastshelter.nbt",
+        "image": "chromasky2:islands/screens/lastshelter.png"
+      },
+      {
+        "name": "Garden of Glass",
+        "desc": "For the nostalgic",
+        "structure": "gardenisland.nbt",
+        "image": "chromasky2:islands/screens/gardenisland.png"
       }
     ]
   }
