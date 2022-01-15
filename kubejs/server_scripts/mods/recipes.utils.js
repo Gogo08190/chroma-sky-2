@@ -196,4 +196,15 @@ onEvent("recipes", (event) => {
       C: 'cagedmobs:mobcage',
       H: 'speedyhoppers:speedyhopper_mk3'
     })
+
+    event.remove({ output: 'farmingforblockheads:market' })
+    event.shaped('farmingforblockheads:market', [
+    'SRS',
+    'W W',
+    'WWW'
+    ], {
+      W: 'immersiveengineering:treated_wood_horizontal',
+      S: 'immersiveengineering:plate_steel',
+      R: 'thermal:red_rockwool'
+    });
 });
