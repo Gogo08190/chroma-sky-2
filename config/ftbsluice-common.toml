@@ -5,7 +5,7 @@
 	"Max upgrade stack size" = 18
 	#Exponential cost N amount. We start with 1.35 as it's a good max number at around 10M RF per operation
 	#Range: 1.0 ~ 2.0
-	"Exponential cost base N value" = 1.35
+	"Exponential cost base N value" = 1.10
 
 [sluices]
 
@@ -81,7 +81,7 @@
 		"tank capacity" = 12000
 		#FE cost per use
 		#Range: > 0
-		"fe cost per use" = 0
+		"fe cost per use" = 30
 		#Allows this sluice to be used for item IO
 		allowsIO = true
 		#Allows this sluice to be used for fluid IO
@@ -101,7 +101,7 @@
 		"tank capacity" = 25000
 		#FE cost per use
 		#Range: > 0
-		"fe cost per use" = 0
+		"fe cost per use" = 30
 		#Allows this sluice to be used for item IO
 		allowsIO = true
 		#Allows this sluice to be used for fluid IO
@@ -122,4 +122,3 @@
 	#Speed of the netherite auto-hammer as ticks taken to process the block
 	#Range: 1 ~ 100000
 	netheriteSpeed = 15
-
