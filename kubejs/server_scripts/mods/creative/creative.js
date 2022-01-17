@@ -1228,4 +1228,221 @@ onEvent("recipes", (event) => {
     C: 'simplyjetpacks:jetpack_creative',
     U: 'simplyjetpacks:armorplating_mek4'
   })
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDEDCBA",
+        "BFGHIHJFB",
+        "CGKLMNKJC",
+        "DHLOPONHD",
+        "EIMPQPMIE",
+        "DHROPOSHD",
+        "CTKRMSKUC",
+        "BFTHIHUFB",
+        "ABCDEDCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "B": {
+          "item": "powah:energy_cell_nitro"
+        },
+        "C": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "D": {
+          "item": "powah:battery_nitro"
+        },
+        "E": {
+          "item": "overloaded:energy_core"
+        },
+        "F": {
+          "item": "chromasky:ultimateplate"
+        },
+        "G": {
+          "item": "powah:solar_panel_nitro"
+        },
+        "H": {
+          "item": "extendedcrafting:black_iron_block"
+        },
+        "I": {
+          "item": "chromasky:ultimategear"
+        },
+        "J": {
+          "item": "powah:magmator_nitro"
+        },
+        "K": {
+          "item": "extendedcrafting:the_ultimate_block"
+        },
+        "L": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:energized\"}"
+        },
+        "M": {
+          "item": "chromasky:ultimategem"
+        },
+        "N": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:blazing\"}"
+        },
+        "O": {
+          "item": "powah:reactor_nitro"
+        },
+        "P": {
+          "item": "extendedcrafting:crystaltine_catalyst"
+        },
+        "Q": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:nitro\"}"
+        },
+        "R": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:spirited\"}"
+        },
+        "S": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:niotic\"}"
+        },
+        "T": {
+          "item": "powah:furnator_nitro"
+        },
+        "U": {
+          "item": "powah:thermo_generator_nitro"
+        }
+      },
+      "result": {
+        "item": "powah:energy_cell_creative"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        " AA  B ",
+        " AACCDB",
+        " AA  B ",
+        " EEEEE ",
+        " EEEEE ",
+        "   E   ",
+        "  EEE  "
+      ],
+      "key": {
+        "A": {
+          "item": "ftbjarmod:cast_iron_block"
+        },
+        "B": {
+          "item": "extendedcrafting:crystaltine_ingot"
+        },
+        "C": {
+          "item": "powah:nitro_crystal_block"
+        },
+        "D": {
+          "item": "chromasky:ultimatebeer"
+        },
+        "E": {
+          "item": "powah:steel_energized"
+        }
+      },
+      "result": {
+        "type": "forge:nbt",
+        "item": "tconstruct:creative_slot",
+        "count": 1,
+        "nbt": "{slot:\"upgrades\"}"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCCCBA",
+        "AADCDAA",
+        " AEFEA ",
+        " AGFGA ",
+        " AGFGA ",
+        " AGGGA ",
+        "  AAA  "
+      ],
+      "key": {
+        "A": {
+          "item": "powah:steel_energized"
+        },
+        "B": {
+          "item": "tconstruct:earth_slime_crystal"
+        },
+        "C": {
+          "item": "tconstruct:slimesteel_ingot"
+        },
+        "D": {
+          "item": "tconstruct:emerald_reinforcement"
+        },
+        "E": {
+          "item": "chromasky:ultimatebeer"
+        },
+        "F": {
+          "item": "powah:nitro_crystal_block"
+        },
+        "G": {
+          "item": "extendedcrafting:crystaltine_ingot"
+        }
+      },
+      "result": {
+        "type": "forge:nbt",
+        "item": "tconstruct:creative_slot",
+        "count": 1,
+        "nbt": "{slot:\"defence\"}"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "   A   ",
+        "  ABA  ",
+        " AACAA ",
+        "ABCDCBA",
+        " AACAA ",
+        "  ABA  ",
+        "   A   "
+      ],
+      "key": {
+        "A": {
+          "item": "powah:steel_energized"
+        },
+        "B": {
+          "item": "extendedcrafting:crystaltine_ingot"
+        },
+        "C": {
+          "item": "powah:nitro_crystal_block"
+        },
+        "D": {
+          "item": "chromasky:ultimatebeer"
+        }
+      },
+      "result": {
+        "type": "forge:nbt",
+        "item": "tconstruct:creative_slot",
+        "count": 1,
+        "nbt": "{slot:\"abilities\"}"
+      }
+    }
+  )
 });
