@@ -60,9 +60,9 @@ onEvent('recipes', event => {
     K: 'krate:krate_large'
   })
 
-  event.remove({ output: 'refinedstorage:raw_basic_processor' })
-  event.remove({ output: 'refinedstorage:raw_improved_processor' })
-  event.remove({ output: 'refinedstorage:raw_advanced_processor' })
+  event.remove({ output: 'refinedstorage:advanced_processor' })
+  event.remove({ output: 'refinedstorage:improved_processor' })
+  event.remove({ output: 'refinedstorage:basic_processor' })
   event.remove({ output: 'refinedstorage:raw_basic_processor' })
   event.remove({ output: 'refinedstorage:raw_improved_processor' })
   event.remove({ output: 'refinedstorage:raw_advanced_processor' })
