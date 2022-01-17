@@ -20,3 +20,7 @@ onEvent("block.registry", (event) => {
         }
     }
 });
+
+events.listen('block.registry', function (e) {
+  e.create('chromasky:chaos_crux').material('rock').hardness(0.5).displayName('Chaos Crux')
+})

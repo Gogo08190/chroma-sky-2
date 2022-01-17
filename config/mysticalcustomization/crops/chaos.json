@@ -1,0 +1,13 @@
+{
+    "name": "Chaos",
+    "type": "resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "minecraft:air"
+    },
+    "color": "212121",
+    "textures": {
+      "flower": "kubejs:block/chaos_flower",
+      "essence": "mysticalagriculture:item/essence_ingot"
+    }
+  }
