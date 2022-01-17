@@ -314,13 +314,13 @@ onEvent("recipes", (event) => {
       "pattern": [
         "ABCDEDCBF",
         "BGCDHDCGB",
-        "CCIIDIICC",
-        "DDIJKJIDD",
-        "EHDKLKDHE",
-        "DDIJKJIDD",
-        "CCIIDIICC",
+        "CCIIJIICC",
+        "DDIKLKIDD",
+        "EHJLMLJHE",
+        "DDIKLKIDD",
+        "CCIIJIICC",
         "BGCDHDCGB",
-        "MBCDEDCBN"
+        "NBCDEDCBO"
       ],
       "key": {
         "A": {
@@ -354,18 +354,21 @@ onEvent("recipes", (event) => {
           "item": "chromasky:ultimate_meat"
         },
         "J": {
-          "item": "chromasky:ultimategem"
+          "item": "overloaded:item_core"
         },
         "K": {
-          "item": "storagedrawers:creative_storage_upgrade"
+          "item": "chromasky:ultimategem"
         },
         "L": {
-          "item": "mekanism:creative_bin"
+          "item": "storagedrawers:creative_storage_upgrade"
         },
         "M": {
-          "item": "draconicevolution:creative_op_capacitor"
+          "item": "mekanism:creative_bin"
         },
         "N": {
+          "item": "draconicevolution:creative_op_capacitor"
+        },
+        "O": {
           "item": "powah:energy_cell_creative"
         }
       },
