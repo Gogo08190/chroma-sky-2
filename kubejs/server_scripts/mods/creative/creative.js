@@ -1809,4 +1809,74 @@ onEvent("recipes", (event) => {
       }
     }
   )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDEDCBA",
+        "BFGHIHGFB",
+        "CGJKLKJGC",
+        "DHKMNMKHD",
+        "EILNONLIE",
+        "DHKMNMKHD",
+        "CGJKLKJGC",
+        "BFGHIHGFB",
+        "ABCDEDCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "B": {
+          "item": "draconicevolution:chaotic_capacitor"
+        },
+        "C": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "D": {
+          "item": "draconicevolution:chaotic_energy_core"
+        },
+        "E": {
+          "item": "overloaded:energy_core"
+        },
+        "F": {
+          "item": "extendedcrafting:the_ultimate_catalyst"
+        },
+        "G": {
+          "item": "draconicevolution:chaotic_core"
+        },
+        "H": {
+          "item": "draconicevolution:awakened_draconium_block"
+        },
+        "I": {
+          "item": "chromasky:ultimategear"
+        },
+        "J": {
+          "item": "extendedcrafting:the_ultimate_block"
+        },
+        "K": {
+          "item": "extendedcrafting:black_iron_block"
+        },
+        "L": {
+          "item": "chromasky:ultimategem"
+        },
+        "M": {
+          "item": "chromasky:ultimateplate"
+        },
+        "N": {
+          "item": "extendedcrafting:crystaltine_catalyst"
+        },
+        "O": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:draconium\"}"
+        }
+      },
+      "result": {
+        "item": "draconicevolution:creative_capacitor"
+      }
+    }
+  )
 });
