@@ -59,4 +59,142 @@ onEvent('recipes', event => {
     C: 'refinedstorage:machine_casing',
     K: 'krate:krate_large'
   })
+
+  event.remove({ output: 'refinedstorage:raw_basic_processor' })
+  event.remove({ output: 'refinedstorage:raw_improved_processor' })
+  event.remove({ output: 'refinedstorage:raw_advanced_processor' })
+  event.remove({ output: 'refinedstorage:raw_basic_processor' })
+  event.remove({ output: 'refinedstorage:raw_improved_processor' })
+  event.remove({ output: 'refinedstorage:raw_advanced_processor' })
+
+  event.shaped('refinedstorage:raw_basic_processor', [
+  'IP'
+  ], {
+    I: 'minecraft:iron_ingot',
+    P: 'refinedstorage:processor_binding'
+  })
+  event.shaped('refinedstorage:raw_improved_processor', [
+  'IP'
+  ], {
+    I: 'minecraft:gold_ingot',
+    P: 'refinedstorage:processor_binding'
+  })
+  event.shaped('refinedstorage:raw_advanced_processor', [
+  'IP'
+  ], {
+    I: 'minecraft:diamond',
+    P: 'refinedstorage:processor_binding'
+  })
+
+  event.custom(
+    {
+        "input": [
+            {
+                "item": "refinedstorage:quartz_enriched_iron"
+            },
+            {
+                "item": "refinedstorage:raw_basic_processor"
+            },
+            {
+                "item": "refinedstorage:quartz_enriched_iron"
+            },
+            {
+                "item": "refinedstorage:silicon"
+            },
+            {
+                "item": "refinedstorage:silicon"
+            },
+            {
+                "item": "refinedstorage:quartz_enriched_iron"
+            },
+            {
+                "item": "minecraft:redstone"
+            },
+            {
+                "item": "refinedstorage:quartz_enriched_iron"
+            }
+        ],
+        "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:250}",
+        "processingTime": 60,
+        "output": {
+            "item": "refinedstorage:basic_processor",
+            "count": 1
+        },
+        "type": "industrialforegoing:dissolution_chamber"
+    }
+  )
+  event.custom(
+    {
+        "input": [
+            {
+                "item": "refinedstorage:quartz_enriched_iron"
+            },
+            {
+                "item": "refinedstorage:raw_improved_processor"
+            },
+            {
+                "item": "refinedstorage:quartz_enriched_iron"
+            },
+            {
+                "item": "refinedstorage:silicon"
+            },
+            {
+                "item": "refinedstorage:silicon"
+            },
+            {
+                "item": "refinedstorage:quartz_enriched_iron"
+            },
+            {
+                "item": "minecraft:redstone"
+            },
+            {
+                "item": "refinedstorage:quartz_enriched_iron"
+            }
+        ],
+        "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:250}",
+        "processingTime": 60,
+        "output": {
+            "item": "refinedstorage:improved_processor",
+            "count": 1
+        },
+        "type": "industrialforegoing:dissolution_chamber"
+    }
+  )
+  event.custom(
+    {
+        "input": [
+            {
+                "item": "refinedstorage:quartz_enriched_iron"
+            },
+            {
+                "item": "refinedstorage:raw_advanced_processor"
+            },
+            {
+                "item": "refinedstorage:quartz_enriched_iron"
+            },
+            {
+                "item": "refinedstorage:silicon"
+            },
+            {
+                "item": "refinedstorage:silicon"
+            },
+            {
+                "item": "refinedstorage:quartz_enriched_iron"
+            },
+            {
+                "item": "minecraft:redstone"
+            },
+            {
+                "item": "refinedstorage:quartz_enriched_iron"
+            }
+        ],
+        "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:250}",
+        "processingTime": 60,
+        "output": {
+            "item": "refinedstorage:advanced_processor",
+            "count": 1
+        },
+        "type": "industrialforegoing:dissolution_chamber"
+    }
+  )
 });
