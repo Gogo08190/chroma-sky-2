@@ -160,6 +160,7 @@ onEvent('recipes', event => {
         "type": "industrialforegoing:dissolution_chamber"
     }
   )
+
   event.custom(
     {
         "input": [
@@ -197,4 +198,54 @@ onEvent('recipes', event => {
         "type": "industrialforegoing:dissolution_chamber"
     }
   )
+
+  event.remove({'rsinfinitybooster:infinity_card'})
+  event.custom(
+  {
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABCBA",
+      "DCECD",
+      "CEFEC",
+      "GHFIG",
+      "JJJJJ"
+    ],
+    "key": {
+      "A": {
+        "item": "naturesaura:outpost_finder"
+      },
+      "B": {
+        "item": "naturesaura:fortress_finder"
+      },
+      "C": {
+        "item": "refinedstorage:range_upgrade"
+      },
+      "D": {
+        "item": "naturesaura:end_city_finder"
+      },
+      "E": {
+        "item": "extendedcrafting:ender_star"
+      },
+      "F": {
+        "item": "refinedstorage:improved_processor"
+      },
+      "G": {
+        "item": "refinedstorage:advanced_processor"
+      },
+      "H": {
+        "item": "refinedstorage:destruction_core"
+      },
+      "I": {
+        "item": "refinedstorage:construction_core"
+      },
+      "J": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    "result": {
+      "item": "rsinfinitybooster:infinity_card"
+    }
+  }
+)
+
 });
