@@ -35,6 +35,23 @@ events.listen('recipes', function (e) {
     seedPot("dragon_egg", "dragon_egg_crux", 3000)
     seedPot("awakened_draconium", "draconium_crux", 3000)
 
+    e.custom({
+        "type": "botanypots:crop",
+        "seed": { "item": "mysticalagriculture:chaos_seeds" },
+        "categories": ["chaos_crux"],
+        "growthTicks": 3000,
+        "display": { "block": "mysticalagriculture:chaos_crop", "properties": { "age": 7 } },
+        "results": [
+            {
+                "chance": 0.75, "minRolls": 1, "maxRolls": 1,
+                "output": { "item": "mysticalagriculture:chaos_essence", "count": 1 }
+            },
+            {
+                "chance": 0.01, "minRolls": 1, "maxRolls": 1,
+                "output": { "item": "mysticalagriculture:fertilized_essence", "count": 1 }
+            }]
+    })
+
     //soil
     function soil(item, categorie, growth) {
         e.recipes.botanypots.soil({
@@ -49,6 +66,7 @@ events.listen('recipes', function (e) {
     soil("mysticalagradditions:dragon_egg_crux", ["dragon_egg_crux"], 0.90)
     soil("mysticalagradditions:nitro_crystal_crux", ["nitro_crystal_crux"], 0.90)
     soil("mysticalagradditions:awakened_draconium_crux", ["draconium_crux"], 0.90)
+    soil("chromasky:chaos_crux", ["chaos_crux"], 0.90)
 
     e.remove({ id: "mysticalagriculture:soils/inferium_farmland" })
     e.remove({ id: "mysticalagriculture:soils/prudentium_farmland" })
