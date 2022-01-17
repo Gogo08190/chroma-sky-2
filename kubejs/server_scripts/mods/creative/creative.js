@@ -1724,4 +1724,89 @@ onEvent("recipes", (event) => {
       }
     }
   )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDEDCBA",
+        "BFGHIHGFB",
+        "CGJKLKJHC",
+        "DHMNOPMGD",
+        "EILOQOLIE",
+        "DHMROSMHD",
+        "CGJKLKJGC",
+        "BFGHIHGFB",
+        "ABCDEDCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "B": {
+          "item": "draconicevolution:chaotic_energy_module"
+        },
+        "C": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "D": {
+          "item": "draconicevolution:chaotic_energy_core"
+        },
+        "E": {
+          "item": "overloaded:energy_core"
+        },
+        "F": {
+          "item": "extendedcrafting:the_ultimate_catalyst"
+        },
+        "G": {
+          "item": "draconicevolution:chaotic_core"
+        },
+        "H": {
+          "item": "draconicevolution:awakened_draconium_block"
+        },
+        "I": {
+          "item": "draconicevolution:energy_transfuser"
+        },
+        "J": {
+          "item": "extendedcrafting:the_ultimate_block"
+        },
+        "K": {
+          "item": "chromasky:ultimateplate"
+        },
+        "L": {
+          "item": "chromasky:ultimategem"
+        },
+        "M": {
+          "item": "draconicevolution:energy_core"
+        },
+        "N": {
+          "item": "thermal:rf_coil_creative_augment"
+        },
+        "O": {
+          "item": "extendedcrafting:crystaltine_catalyst"
+        },
+        "P": {
+          "item": "immersiveengineering:capacitor_creative"
+        },
+        "Q": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:draconium\"}"
+        },
+        "R": {
+          "item": "powah:energy_cell_creative"
+        },
+        "S": {
+          "type": "forge:nbt",
+          "item": "mekanism:creative_energy_cube",
+          "count": 1,
+          "nbt": "{mekData:{EnergyContainers:[{Container:0b,stored:\"18446744073709551615.9999\"}]}}"
+        }
+      },
+      "result": {
+        "item": "draconicevolution:creative_op_capacitor"
+      }
+    }
+  )
 });
