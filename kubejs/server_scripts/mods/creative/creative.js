@@ -1069,95 +1069,113 @@ onEvent("recipes", (event) => {
   )
 
   event.custom(
-      {
-  "type": "extendedcrafting:shaped_table",
-  "pattern": [
-    " AAA AAA ",
-    "ABCBABCBA",
-    "A DEAEF A",
-    "A GEHEI A",
-    "A JEKEL A",
-    "A MENEO A",
-    "A PQARP A",
-    "A  PAP  A",
-    " SSS SSS "
-  ],
-  "key": {
-    "A": {
-      "item": "extendedcrafting:the_ultimate_ingot"
-    },
-    "B": {
-      "item": "extendedcrafting:elite_catalyst"
-    },
-    "C": {
-      "item": "draconicevolution:chaotic_flight_module"
-    },
-    "D": {
-      "item": "simplyjetpacks:jetpack_vanilla4"
-    },
-    "E": {
-      "item": "projectex:magenta_matter"
-    },
-    "F": {
-      "item": "simplyjetpacks:jetpack_mek4"
-    },
-    "G": {
-      "item": "simplyjetpacks:jetpack_vanilla3"
-    },
-    "H": {
-      "type": "forge:nbt",
-      "item": "mekanism:jetpack",
-      "count": 1,
-      "nbt": "{HideFlags:2}"
-    },
-    "I": {
-      "item": "simplyjetpacks:jetpack_mek3"
-    },
-    "J": {
-      "item": "simplyjetpacks:jetpack_vanilla2"
-    },
-    "K": {
-      "item": "miniutilities:angel_ring"
-    },
-    "L": {
-      "item": "simplyjetpacks:jetpack_mek2"
-    },
-    "M": {
-      "item": "simplyjetpacks:jetpack_vanilla1"
-    },
-    "N": {
-      "item": "simplyjetpacks:jetpack_ie2"
-    },
-    "O": {
-      "item": "simplyjetpacks:jetpack_mek1"
-    },
-    "P": {
-      "item": "extendedcrafting:the_ultimate_catalyst"
-    },
-    "Q": {
-      "item": "simplyjetpacks:jetpack_ie1"
-    },
-    "R": {
-      "item": "simplyjetpacks:jetpack_ie3"
-    },
-    "S": {
-      "item": "extendedcrafting:ultimate_singularity"
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        " AAA AAA ",
+        "ABCBABCBA",
+        "ADEDADFDA",
+        "ADGDHDIDA",
+        "ADJDKDLDA",
+        "ADMDNDODA",
+        "ADPQRSPDA",
+        "ADTUAUVDA",
+        " WXY YXW "
+      ],
+      "key": {
+        "A": {
+          "item": "extendedcrafting:the_ultimate_ingot"
+        },
+        "B": {
+          "item": "extendedcrafting:elite_catalyst"
+        },
+        "C": {
+          "item": "draconicevolution:chaotic_flight_module"
+        },
+        "D": {
+          "item": "projectex:magenta_matter"
+        },
+        "E": {
+          "item": "simplyjetpacks:jetpack_vanilla4"
+        },
+        "F": {
+          "item": "simplyjetpacks:jetpack_mek4"
+        },
+        "G": {
+          "item": "simplyjetpacks:jetpack_vanilla3"
+        },
+        "H": {
+          "type": "forge:nbt",
+          "item": "mekanism:jetpack",
+          "count": 1,
+          "nbt": "{HideFlags:2}"
+        },
+        "I": {
+          "item": "simplyjetpacks:jetpack_mek3"
+        },
+        "J": {
+          "item": "simplyjetpacks:jetpack_vanilla2"
+        },
+        "K": {
+          "item": "miniutilities:angel_ring"
+        },
+        "L": {
+          "item": "simplyjetpacks:jetpack_mek2"
+        },
+        "M": {
+          "item": "simplyjetpacks:jetpack_vanilla1"
+        },
+        "N": {
+          "item": "simplyjetpacks:jetpack_ie2"
+        },
+        "O": {
+          "item": "simplyjetpacks:jetpack_mek1"
+        },
+        "P": {
+          "item": "extendedcrafting:the_ultimate_catalyst"
+        },
+        "Q": {
+          "item": "simplyjetpacks:jetpack_ie1"
+        },
+        "R": {
+          "item": "simplyjetpacks:leather_strap"
+        },
+        "S": {
+          "item": "simplyjetpacks:jetpack_ie3"
+        },
+        "T": {
+          "item": "simplyjetpacks:pilot_goggles_silver"
+        },
+        "U": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "V": {
+          "item": "simplyjetpacks:pilot_goggles_gold"
+        },
+        "W": {
+          "item": "simplyjetpacks:thruster_mek4"
+        },
+        "X": {
+          "item": "simplyjetpacks:thruster_ie3"
+        },
+        "Y": {
+          "item": "simplyjetpacks:thruster_vanilla4"
+        }
+      },
+      "result": {
+        "item": "simplyjetpacks:jetpack_creative"
+      }
     }
-  },
-  "result": {
-    "item": "simplyjetpacks:jetpack_creative"
-  }
-  }
-)
+  )
 
-event.shaped('simplyjetpacks:jetpack_creative_armored', [
-'UUU',
-'UCU',
-'UUU'
-], {
-  C: 'simplyjetpacks:jetpack_creative',
-  U: 'simplyjetpacks:armorplating_mek4'
-})
+  event.shaped('simplyjetpacks:jetpack_creative_armored', [
+  'UUU',
+  'UCU',
+  'UUU'
+  ], {
+    C: 'simplyjetpacks:jetpack_creative',
+    U: 'simplyjetpacks:armorplating_mek4'
+  })
 
   event.recipes.draconicevolution.fusion_crafting({
       result: {
