@@ -1445,4 +1445,283 @@ onEvent("recipes", (event) => {
       }
     }
   )
+
+  event.custom(
+    {
+      "type": "mysticalagriculture:infusion",
+      "input": {
+        "item": "draconicevolution:chaotic_core"
+      },
+      "ingredients":
+      [
+        {"item": 'chromasky:ultimate_meat'},
+        {"item": 'mysticalagradditions:insanium_essence'},
+        {"item": 'chromasky:ultimate_stew'},
+        {"item": 'mysticalagradditions:insanium_essence'},
+        {"item": 'chromasky:ultimategem'},
+        {"item": 'mysticalagradditions:insanium_essence'},
+        {"item": 'extendedcrafting:the_ultimate_ingot'},
+        {"item": 'mysticalagradditions:insanium_essence'}
+      ],
+      "result": { "item": 'mysticalagradditions:creative_essence', "count": 1 }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "mysticalagriculture:infusion",
+      "input": {
+        "item": "mysticalagriculture:prosperity_seed_base"
+      },
+      "ingredients":
+      [
+        {"item": 'draconicevolution:chaos_shard'},
+        {"item": 'mysticalagradditions:insanium_essence'},
+        {"item": 'draconicevolution:chaos_shard'},
+        {"item": 'mysticalagradditions:insanium_essence'},
+        {"item": 'draconicevolution:chaos_shard'},
+        {"item": 'mysticalagradditions:insanium_essence'},
+        {"item": 'draconicevolution:chaos_shard'},
+        {"item": 'mysticalagradditions:insanium_essence'}
+      ],
+      "result": { "item": 'mysticalagriculture:chaos_seeds', "count": 1 }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "    A    ",
+        "   ABA   ",
+        "   ACA   ",
+        "  ADEDA  ",
+        "  AFGFA  ",
+        " ADHIHDA ",
+        " ADFJFDA ",
+        "ABKDLDMBA",
+        "AAAAAAAAA"
+      ],
+      "key": {
+        "A": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "B": {
+          "item": "chromasky:ultimategem"
+        },
+        "C": {
+          "type": "forge:nbt",
+          "item": "bloodmagic:firescribetool",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        },
+        "D": {
+          "item": "bloodmagic:largebloodstonebrick"
+        },
+        "E": {
+          "type": "forge:nbt",
+          "item": "bloodmagic:soulgemgreater",
+          "count": 1,
+          "nbt": "{souls:4096.0d}"
+        },
+        "F": {
+          "item": "bloodmagic:weakbloodshard"
+        },
+        "G": {
+          "type": "forge:nbt",
+          "item": "bloodmagic:waterscribetool",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        },
+        "H": {
+          "item": "bloodmagic:etherealslate"
+        },
+        "I": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "J": {
+          "type": "forge:nbt",
+          "item": "bloodmagic:duskscribetool",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        },
+        "K": {
+          "type": "forge:nbt",
+          "item": "bloodmagic:earthscribetool",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        },
+        "L": {
+          "item": "overloaded:item_core"
+        },
+        "M": {
+          "type": "forge:nbt",
+          "item": "bloodmagic:airscribetool",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        }
+      },
+      "result": {
+        "item": "bloodmagic:activationcrystalcreative"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDEDCBA",
+        "BFGHIHGFB",
+        "CGJKLKJGC",
+        "DHKMNMKHD",
+        "EILNONLIE",
+        "DHKMNMKHD",
+        "CGJKLKJGC",
+        "BFGHIHGFB",
+        "ABCDEDCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "B": {
+          "item": "immersiveengineering:capacitor_hv"
+        },
+        "C": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "D": {
+          "item": "immersiveengineering:wirecoil_steel"
+        },
+        "E": {
+          "item": "overloaded:energy_core"
+        },
+        "F": {
+          "item": "chromasky:ultimateplate"
+        },
+        "G": {
+          "item": "immersiveengineering:thermoelectric_generator"
+        },
+        "H": {
+          "item": "extendedcrafting:black_iron_block"
+        },
+        "I": {
+          "item": "chromasky:ultimategear"
+        },
+        "J": {
+          "item": "extendedcrafting:the_ultimate_ingot"
+        },
+        "K": {
+          "item": "immersiveengineering:sheetmetal_steel"
+        },
+        "L": {
+          "item": "chromasky:ultimategem"
+        },
+        "M": {
+          "item": "immersiveengineering:generator"
+        },
+        "N": {
+          "item": "immersiveengineering:ingot_hop_graphite"
+        },
+        "O": {
+          "item": "immersiveengineering:heavy_engineering"
+        }
+      },
+      "result": {
+        "item": "immersiveengineering:capacitor_creative"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDEDCBA",
+        "BFDEGEDFB",
+        "CDHIJKHDC",
+        "DELMNMLED",
+        "EGONPNOGE",
+        "DELMNMLED",
+        "CDHQJRHDC",
+        "BFDEGEDFB",
+        "ABCDEDCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "overloaded:energy_core"
+        },
+        "B": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "C": {
+          "item": "thermal:rf_coil_augment"
+        },
+        "D": {
+          "item": "thermal:rf_coil_storage_augment"
+        },
+        "E": {
+          "item": "thermal:rf_coil_xfer_augment"
+        },
+        "F": {
+          "item": "extendedcrafting:the_ultimate_catalyst"
+        },
+        "G": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "H": {
+          "item": "extendedcrafting:the_ultimate_ingot"
+        },
+        "I": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:signalum\"}"
+        },
+        "J": {
+          "item": "chromasky:ultimateplate"
+        },
+        "K": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:lumium\"}"
+        },
+        "L": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:redstone\"}"
+        },
+        "M": {
+          "item": "thermal:machine_frame"
+        },
+        "N": {
+          "item": "chromasky:ultimategem"
+        },
+        "O": {
+          "item": "chromasky:ultimategear"
+        },
+        "P": {
+          "item": "thermal:upgrade_augment_3"
+        },
+        "Q": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:aluminum\"}"
+        },
+        "R": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:enderium\"}"
+        }
+      },
+      "result": {
+        "item": "thermal:rf_coil_creative_augment"
+      }
+    }
+  )
 });
