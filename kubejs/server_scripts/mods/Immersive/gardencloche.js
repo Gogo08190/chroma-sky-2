@@ -153,6 +153,10 @@ events.listen('recipes', function (e) {
     e.custom({
       "type": "immersiveengineering:cloche", "input": { "item": "mysticalagriculture:awakened_draconium_seeds" }, "soil": { "item": "mysticalagradditions:awakened_draconium_crux" }, "time": 400, "render": { "type": "crop", "block": "mysticalagriculture:awakened_draconium_crop" }, "results": [{ "item": "mysticalagriculture:awakened_draconium_essence", "count": 2 },{"item":"mysticalagriculture:fertilized_essence","count":1}]
     })
+    //Chaos
+    e.custom({
+      "type": "immersiveengineering:cloche", "input": { "item": "mysticalagriculture:chaos_seeds" }, "soil": { "item": "chromasky:chaos_crux" }, "time": 400, "render": { "type": "crop", "block": "mysticalagriculture:chaos_crop" }, "results": [{ "item": "mysticalagriculture:chaos_essence", "count": 2 },{"item":"mysticalagriculture:fertilized_essence","count":1}]
+    })
 
     // Thermal
     function gardenthermal(crop, render, soil, qte){e.custom({"type": "immersiveengineering:cloche", "input": { "item": "thermal:"+crop+"_seeds" }, "soil": { "item": soil }, "time": 200, "render": { "type": render, "block": "thermal:"+crop+"" }, "results": [{ "item": "thermal:"+crop+"", "count": qte }]})}

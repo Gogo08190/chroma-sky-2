@@ -1,0 +1,10 @@
+{
+  "name": "Signalum",
+  "colors": [
+    "b61300",
+    "fb8233"
+  ],
+  "ingredient": {
+    "item": "thermal:signalum_ingot"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Electrotine",
+  "colors": [
+    "076eac",
+    "0987cd"
+  ],
+  "ingredient": {
+    "item": "projectred-core:electrotine_ingot"
+  }
+}

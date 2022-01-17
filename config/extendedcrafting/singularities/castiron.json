@@ -1,0 +1,10 @@
+{
+  "name": "Cast Iron",
+  "colors": [
+    "7c8898",
+    "8b97a6"
+  ],
+  "ingredient": {
+    "item": "ftbjarmod:cast_iron_ingot"
+  }
+}

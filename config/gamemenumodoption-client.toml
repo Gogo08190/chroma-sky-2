@@ -1,5 +1,4 @@
 
 [General]
-	"Show Notification Mod Update" = true
+	"Show Notification Mod Update" = false
 	"Render Mod List Background" = true
-

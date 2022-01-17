@@ -1,0 +1,10 @@
+{
+  "name": "Niotic",
+  "colors": [
+    "55e6eb",
+    "00497d"
+  ],
+  "ingredient": {
+    "item": "powah:crystal_niotic"
+  }
+}
