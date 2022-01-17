@@ -314,13 +314,13 @@ onEvent("recipes", (event) => {
       "pattern": [
         "ABCDEDCBF",
         "BGCDHDCGB",
-        "CCIIJIICC",
-        "DDIKLKIDD",
-        "EHJLMLJHE",
-        "DDIKLKIDD",
-        "CCIIJIICC",
+        "CCIJKJICC",
+        "DDJLMLJDD",
+        "EHKMNMKHE",
+        "DDJLMLJDD",
+        "CCIJKJICC",
         "BGCDHDCGB",
-        "NBCDEDCBO"
+        "OBCDEDCBP"
       ],
       "key": {
         "A": {
@@ -351,24 +351,27 @@ onEvent("recipes", (event) => {
           "item": "chromasky:ultimatebeer"
         },
         "I": {
-          "item": "chromasky:ultimate_meat"
+          "item": "mysticalagradditions:creative_essence"
         },
         "J": {
-          "item": "overloaded:item_core"
+          "item": "chromasky:ultimate_meat"
         },
         "K": {
-          "item": "chromasky:ultimategem"
+          "item": "overloaded:item_core"
         },
         "L": {
-          "item": "storagedrawers:creative_storage_upgrade"
+          "item": "chromasky:ultimategem"
         },
         "M": {
-          "item": "mekanism:creative_bin"
+          "item": "storagedrawers:creative_storage_upgrade"
         },
         "N": {
-          "item": "draconicevolution:creative_op_capacitor"
+          "item": "mekanism:creative_bin"
         },
         "O": {
+          "item": "draconicevolution:creative_op_capacitor"
+        },
+        "P": {
           "item": "powah:energy_cell_creative"
         }
       },
@@ -898,7 +901,7 @@ onEvent("recipes", (event) => {
           "item": "chromasky:ultimategear"
         },
         "I": {
-          "item": "draconicevolution:chaotic_core"
+          "item": "mysticalagradditions:creative_essence"
         },
         "J": {
           "item": "chromasky:ultimate_stew"
@@ -971,7 +974,7 @@ onEvent("recipes", (event) => {
           "item": "chromasky:ultimategear"
         },
         "I": {
-          "item": "draconicevolution:chaotic_core"
+          "item": "mysticalagradditions:creative_essence"
         },
         "J": {
           "item": "chromasky:ultimate_stew"
@@ -1011,9 +1014,9 @@ onEvent("recipes", (event) => {
         "ABCDEDCBA",
         "BFGGHGGFB",
         "CGIJKJIGC",
-        "DGJLLLJGD",
-        "MHKLNLKHM",
-        "DGJLLLJGD",
+        "DGJLMLJGD",
+        "NHKMOMKHN",
+        "DGJLMLJGD",
         "CGIJKJIGC",
         "BFGGHGGFB",
         "ABCDEDCBA"
@@ -1053,15 +1056,18 @@ onEvent("recipes", (event) => {
           "item": "chromasky:ultimategem"
         },
         "L": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "M": {
           "type": "forge:nbt",
           "item": "extendedcrafting:singularity",
           "count": 1,
           "nbt": "{Id:\"extendedcrafting:emerald\"}"
         },
-        "M": {
+        "N": {
           "item": "mekanism:ultimate_induction_provider"
         },
-        "N": {
+        "O": {
           "type": "forge:nbt",
           "item": "extendedcrafting:singularity",
           "count": 1,
