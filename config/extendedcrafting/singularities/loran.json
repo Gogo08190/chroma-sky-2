@@ -1,0 +1,10 @@
+{
+  "name": "Loran",
+  "colors": [
+    "2bc6ff",
+    "2cffff"
+  ],
+  "ingredient": {
+    "item": "theabyss:abyssloranitem"
+  }
+}
