@@ -1,13 +1,14 @@
 {
-    "name": "Chaos",
-    "type": "resource",
-    "tier": "mysticalagradditions:6",
-    "ingredient": {
-      "item": "minecraft:air"
-    },
-    "color": "212121",
-    "textures": {
-      "flower": "chromasky:block/chaos_flower",
-      "essence": "mysticalagriculture:item/essence_ingot"
-    }
-  }
+  "name": "Chaos",
+  "type": "resource",
+  "tier": "mysticalagradditions:6",
+  "ingredient": {
+    "item": "minecraft:air"
+  },
+  "color": "171717",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_rock",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "crux": "chromasky:chaos_crux"
+}
