@@ -34,23 +34,7 @@ events.listen('recipes', function (e) {
     seedPot("nether_star", "nether_star_crux", 3000)
     seedPot("dragon_egg", "dragon_egg_crux", 3000)
     seedPot("awakened_draconium", "draconium_crux", 3000)
-
-    e.custom({
-        "type": "botanypots:crop",
-        "seed": { "item": "mysticalagriculture:chaos_seeds" },
-        "categories": ["chaos_crux"],
-        "growthTicks": 3000,
-        "display": { "block": "mysticalagriculture:chaos_crop", "properties": { "age": 7 } },
-        "results": [
-            {
-                "chance": 0.75, "minRolls": 1, "maxRolls": 1,
-                "output": { "item": "mysticalagriculture:chaos_essence", "count": 1 }
-            },
-            {
-                "chance": 0.01, "minRolls": 1, "maxRolls": 1,
-                "output": { "item": "mysticalagriculture:fertilized_essence", "count": 1 }
-            }]
-    })
+    seedPot("chaos", "chaos_crux", 3000)
 
     //soil
     function soil(item, categorie, growth) {
