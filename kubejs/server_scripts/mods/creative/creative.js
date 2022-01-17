@@ -1150,6 +1150,15 @@ onEvent("recipes", (event) => {
   }
 )
 
+event.shaped('simplyjetpacks:jetpack_creative_armored', [
+'UUU',
+'UCU',
+'UUU'
+], {
+  C: 'simplyjetpacks:jetpack_creative',
+  U: 'simplyjetpacks:armorplating_mek4'
+})
+
   event.recipes.draconicevolution.fusion_crafting({
       result: {
           type: "forge:nbt",
