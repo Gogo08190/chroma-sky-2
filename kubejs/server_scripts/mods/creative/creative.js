@@ -904,7 +904,7 @@ onEvent("recipes", (event) => {
           "item": "extendedcrafting:the_ultimate_block"
         },
         "L": {
-          "item": "mekanism:pellet_antimatter"
+          "item": "overloaded:item_core"
         },
         "M": {
           "item": "chromasky:ultimate_meat"
@@ -977,7 +977,7 @@ onEvent("recipes", (event) => {
           "item": "extendedcrafting:the_ultimate_block"
         },
         "L": {
-          "item": "mekanism:pellet_antimatter"
+          "item": "overloaded:fluid_core"
         },
         "M": {
           "item": "chromasky:ultimate_meat"
@@ -1009,7 +1009,7 @@ onEvent("recipes", (event) => {
         "BFGGHGGFB",
         "CGIJKJIGC",
         "DGJLLLJGD",
-        "EHKLMLKHE",
+        "MHKLNLKHM",
         "DGJLLLJGD",
         "CGIJKJIGC",
         "BFGGHGGFB",
@@ -1029,7 +1029,7 @@ onEvent("recipes", (event) => {
           "item": "mekanism:energy_tablet"
         },
         "E": {
-          "item": "mekanism:ultimate_induction_provider"
+          "item": "overloaded:energy_core"
         },
         "F": {
           "item": "chromasky:ultimateplate"
@@ -1056,6 +1056,9 @@ onEvent("recipes", (event) => {
           "nbt": "{Id:\"extendedcrafting:emerald\"}"
         },
         "M": {
+          "item": "mekanism:ultimate_induction_provider"
+        },
+        "N": {
           "type": "forge:nbt",
           "item": "extendedcrafting:singularity",
           "count": 1,
@@ -1168,15 +1171,6 @@ onEvent("recipes", (event) => {
     }
   )
 
-  event.shaped('simplyjetpacks:jetpack_creative_armored', [
-  'UUU',
-  'UCU',
-  'UUU'
-  ], {
-    C: 'simplyjetpacks:jetpack_creative',
-    U: 'simplyjetpacks:armorplating_mek4'
-  })
-
   event.recipes.draconicevolution.fusion_crafting({
       result: {
           type: "forge:nbt",
@@ -1217,4 +1211,12 @@ onEvent("recipes", (event) => {
       ],
   });
 
+  event.shaped('simplyjetpacks:jetpack_creative_armored', [
+  'UUU',
+  'UCU',
+  'UUU'
+  ], {
+    C: 'simplyjetpacks:jetpack_creative',
+    U: 'simplyjetpacks:armorplating_mek4'
+  })
 });
