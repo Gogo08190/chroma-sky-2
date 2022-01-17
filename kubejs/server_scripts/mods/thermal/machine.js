@@ -23,10 +23,21 @@ onEvent("recipes", (event) => {
     .smelter("masterfulmachinery:mysticfactory1_mystical_item_port_items_input", ["mysticalagriculture:prosperity_gemstone_block", "#forge:chests", "speedyhoppers:speedyhopper_mk3"])
     .energy(10000);
 
-    event
-      .custom({"type": "thermal:pyrolyzer","ingredient": {"item": "masterfulmachinery:mysticfactory1_mystical_item_port_items_input"},"result": [{"item": "masterfulmachinery:mysticfactory1_mystical_item_port_items_output"}],"energy": 10000,"experience": 0.00});
+  event
+    .custom({"type": "thermal:pyrolyzer","ingredient": {"item": "masterfulmachinery:mysticfactory1_mystical_item_port_items_input"},"result": [{"item": "masterfulmachinery:mysticfactory1_mystical_item_port_items_output"}],"energy": 10000,"experience": 0.00});
 
-    event.recipes.thermal
-      .smelter("masterfulmachinery:mysticfactory1_mystical_energy_port_energy_input", ["mysticalagriculture:prosperity_gemstone_block", "thermal:energy_cell", "thermal:charge_bench"])
-      .energy(10000);
+  event.recipes.thermal
+    .smelter("masterfulmachinery:mysticfactory1_mystical_energy_port_energy_input", ["mysticalagriculture:prosperity_gemstone_block", "thermal:energy_cell", "thermal:charge_bench"])
+    .energy(10000);
+
+
+  event.remove({ output: 'refinedstorage:construction_core' })
+  event.recipes.thermal
+    .smelter("refinedstorage:construction_core", ['refinedstorage:basic_processor', 'minecraft:quartz'])
+    .energy(5000);
+
+  event.remove({ output: 'refinedstorage:destruction_core' })
+  event.recipes.thermal
+    .smelter("refinedstorage:destruction_core", ['refinedstorage:basic_processor', 'minecraft:glowstone_dust'])
+    .energy(5000);
 });
