@@ -199,7 +199,7 @@ onEvent('recipes', event => {
     }
   )
 
-  event.remove({'rsinfinitybooster:infinity_card'})
+  event.remove({ output: 'rsinfinitybooster:infinity_card' })
   event.custom(
     {
       "type": "extendedcrafting:shaped_table",
