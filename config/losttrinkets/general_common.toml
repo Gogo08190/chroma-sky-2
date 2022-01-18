@@ -2,13 +2,13 @@
 unlockEnabled = true
 #Cooldown (ticks) between unlocks
 #Range: 0 ~ 1728000
-unlockCooldown = 2400
+unlockCooldown = 4800
 #List of banned trinkets eg: ["losttrinkets:piggy", "losttrinkets:magical_feathers"]
 #The trinkets listed in here will also be removed from players that already unlocked them.
-blackList = []
+blackList = ["losttrinkets:magical_feathers", "losttrinkets:book_o_enchanting", "losttrinkets:dragon_breath", "losttrinkets:mossy_ring", "losttrinkets:mossy_belt"]
 #List of trinkets that can't be unlocked randomly eg: ["losttrinkets:piggy", "losttrinkets:magical_feathers"]
 #The trinkets listed in here will not be removed from players that already unlocked them.
-nonRandom = []
+nonRandom = ["ftbultimine:ultiminer"]
 
 [Trinket_Slots]
 	#Numbers of trinket slots the player will start with (Only effect newer players!!).
@@ -29,7 +29,7 @@ nonRandom = []
 	killingUnlockEnabled = true
 	#Rarity of unlocking a trinket from killing non-Boss entities. (Greater number = more rare)
 	#Range: 2 ~ 100000
-	killing = 120
+	killing = 128
 
 [Bosses_Killing_Unlocks]
 	#Set to false to disable unlocking trinkets from killing Bosses.
@@ -64,5 +64,4 @@ nonRandom = []
 	woodCuttingUnlockEnabled = true
 	#Rarity of unlocking a trinket from cutting trees. (Greater number = more rare)
 	#Range: 2 ~ 100000
-	woodCutting = 170
-
+	woodCutting = 256
