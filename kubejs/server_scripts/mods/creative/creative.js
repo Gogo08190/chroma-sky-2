@@ -2452,7 +2452,7 @@ onEvent("recipes", (event) => {
           "item": "thermal:beekeeper_helmet"
         },
         "Z": {
-          "item": "cyclic:emerald_helmet"
+          "item": "immersiveengineering:armor_faraday_head"
         },
         "1": {
           "item": "solarflux:sp_de.chaotic"
@@ -2660,6 +2660,103 @@ onEvent("recipes", (event) => {
       },
       "result": {
         "item": "overloaded:multi_leggings"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        " ABACABA ",
+        " BDBEBDB ",
+        " BFBGBHB ",
+        " BIBJBKB ",
+        "LBMBNBOBL",
+        "BBFBJBPBB",
+        "BQRBGBSTB",
+        "BUVBEBWUB",
+        "XBBAYABBX"
+      ],
+      "key": {
+        "A": {
+          "item": "projectex:fading_matter"
+        },
+        "B": {
+          "item": "projectex:white_matter"
+        },
+        "C": {
+          "item": "thermal:diving_boots"
+        },
+        "D": {
+          "item": "draconicevolution:chaotic_capacitor"
+        },
+        "E": {
+          "item": "draconicevolution:chaotic_speed_module"
+        },
+        "F": {
+          "item": "thermal:beekeeper_boots"
+        },
+        "G": {
+          "item": "overloaded:energy_core"
+        },
+        "H": {
+          "item": "cyclic:crystal_boots"
+        },
+        "I": {
+          "item": "tconstruct:plate_boots"
+        },
+        "J": {
+          "item": "solarflux:sp_de.chaotic"
+        },
+        "K": {
+          "item": "naturesaura:sky_shoes"
+        },
+        "L": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "M": {
+          "item": "bloodmagic:livingboots"
+        },
+        "N": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "O": {
+          "item": "immersiveengineering:armor_faraday_feet"
+        },
+        "P": {
+          "item": "thermal:hazmat_boots"
+        },
+        "Q": {
+          "item": "projecte:gem_boots"
+        },
+        "R": {
+          "item": "minecraft:netherite_boots"
+        },
+        "S": {
+          "item": "miniutilities:infused_boots"
+        },
+        "T": {
+          "item": "thebeginning:florite_armor_armor_boots"
+        },
+        "U": {
+          "item": "projectex:final_star_shard"
+        },
+        "V": {
+          "item": "projectred-exploration:sapphire_boots"
+        },
+        "W": {
+          "item": "mysticaladaptations:insanium_boots"
+        },
+        "X": {
+          "item": "chromasky:ultimategem"
+        },
+        "Y": {
+          "item": "mekanism:mekasuit_boots"
+        }
+      },
+      "result": {
+        "item": "overloaded:multi_boots"
       }
     }
   )
