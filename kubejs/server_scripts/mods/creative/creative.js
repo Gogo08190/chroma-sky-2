@@ -2357,6 +2357,8 @@ onEvent("recipes", (event) => {
   event.remove({ output: 'compactvoidminers:void_pump' })
   event.remove({ output: 'overloaded:multi_helmet' })
   event.remove({ output: 'overloaded:multi_chestplate' })
+  event.remove({ output: 'overloaded:multi_leggings' })
+  event.remove({ output: 'overloaded:multi_boots' })
 
   event.custom(
     {
@@ -2558,6 +2560,106 @@ onEvent("recipes", (event) => {
       },
       "result": {
         "item": "overloaded:multi_chestplate"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AAAAAAAAA",
+        "ABCDEDCBA",
+        "AFGBHBGFA",
+        "AIIAAAIIA",
+        "AJKA ALMA",
+        "ANOA APQA",
+        "ARSA ATUA",
+        "AVWA AXYA",
+        "ZAAZ ZAAZ"
+      ],
+      "key": {
+        "A": {
+          "item": "projectex:white_matter"
+        },
+        "B": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "C": {
+          "item": "projectex:fading_matter"
+        },
+        "D": {
+          "item": "draconicevolution:chaotic_speed_module"
+        },
+        "E": {
+          "item": "draconicevolution:chaotic_capacitor"
+        },
+        "F": {
+          "item": "projectex:final_star_shard"
+        },
+        "G": {
+          "item": "solarflux:sp_de.chaotic"
+        },
+        "H": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "I": {
+          "item": "overloaded:energy_core"
+        },
+        "J": {
+          "item": "thermal:beekeeper_leggings"
+        },
+        "K": {
+          "item": "thebeginning:florite_armor_armor_leggings"
+        },
+        "L": {
+          "item": "immersiveengineering:armor_faraday_legs"
+        },
+        "M": {
+          "item": "mekanism:mekasuit_pants"
+        },
+        "N": {
+          "item": "thermal:hazmat_leggings"
+        },
+        "O": {
+          "item": "thermal:diving_leggings"
+        },
+        "P": {
+          "item": "minecraft:netherite_leggings"
+        },
+        "Q": {
+          "item": "mekanismtools:refined_obsidian_leggings"
+        },
+        "R": {
+          "item": "mysticaladaptations:insanium_leggings"
+        },
+        "S": {
+          "item": "bloodmagic:livingleggings"
+        },
+        "T": {
+          "item": "naturesaura:sky_pants"
+        },
+        "U": {
+          "item": "tconstruct:plate_leggings"
+        },
+        "V": {
+          "item": "projectred-exploration:sapphire_leggings"
+        },
+        "W": {
+          "item": "miniutilities:infused_leggings"
+        },
+        "X": {
+          "item": "projecte:gem_leggings"
+        },
+        "Y": {
+          "item": "cyclic:crystal_leggings"
+        },
+        "Z": {
+          "item": "chromasky:ultimategem"
+        }
+      },
+      "result": {
+        "item": "overloaded:multi_leggings"
       }
     }
   )
