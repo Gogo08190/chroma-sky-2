@@ -2356,6 +2356,7 @@ onEvent("recipes", (event) => {
   event.remove({ output: 'compactvoidminers:void_miner' })
   event.remove({ output: 'compactvoidminers:void_pump' })
   event.remove({ output: 'overloaded:multi_helmet' })
+  event.remove({ output: 'overloaded:multi_chestplate' })
 
   event.custom(
     {
@@ -2460,6 +2461,103 @@ onEvent("recipes", (event) => {
       },
       "result": {
         "item": "overloaded:multi_helmet"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABBBBBBBA",
+        "ABBCDEBBA",
+        "ABBFGHBBA",
+        "ADIJKJLDA",
+        "AMNOPQNRA",
+        "AASTJTUAA",
+        "AAAVTWAAA",
+        "AAAAXAAAA",
+        "YAAAAAAAY"
+      ],
+      "key": {
+        "A": {
+          "item": "projectex:white_matter"
+        },
+        "B": {
+          "item": "projectex:fading_matter"
+        },
+        "C": {
+          "item": "immersiveengineering:armor_faraday_chest"
+        },
+        "D": {
+          "item": "solarflux:sp_de.chaotic"
+        },
+        "E": {
+          "item": "minecraft:netherite_chestplate"
+        },
+        "F": {
+          "item": "miniutilities:infused_chestplate"
+        },
+        "G": {
+          "item": "mekanism:mekasuit_bodyarmor"
+        },
+        "H": {
+          "item": "thermal:diving_chestplate"
+        },
+        "I": {
+          "item": "projecte:gem_chestplate"
+        },
+        "J": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "K": {
+          "item": "projectex:final_star_shard"
+        },
+        "L": {
+          "item": "naturesaura:sky_chest"
+        },
+        "M": {
+          "item": "mysticaladaptations:insanium_chestplate"
+        },
+        "N": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "O": {
+          "item": "cyclic:crystal_chestplate"
+        },
+        "P": {
+          "item": "simplyjetpacks:jetpack_creative_armored"
+        },
+        "Q": {
+          "item": "tconstruct:plate_chestplate"
+        },
+        "R": {
+          "item": "mekanismtools:refined_obsidian_chestplate"
+        },
+        "S": {
+          "item": "projectred-exploration:sapphire_chestplate"
+        },
+        "T": {
+          "item": "overloaded:energy_core"
+        },
+        "U": {
+          "item": "thebeginning:florite_armor_armor_chestplate"
+        },
+        "V": {
+          "item": "thermal:hazmat_chestplate"
+        },
+        "W": {
+          "item": "bloodmagic:livingplate"
+        },
+        "X": {
+          "item": "thermal:beekeeper_chestplate"
+        },
+        "Y": {
+          "item": "chromasky:ultimategem"
+        }
+      },
+      "result": {
+        "item": "overloaded:multi_chestplate"
       }
     }
   )
