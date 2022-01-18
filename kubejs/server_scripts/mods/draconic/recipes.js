@@ -165,6 +165,16 @@ onEvent('recipes', event => {
     E: 'draconicevolution:draconic_energy_core',
     C: 'mekanism:ultimate_induction_cell',
     D: 'draconicevolution:awakened_core',
-    T: 'mekanism:ultimate_induction_provider' 
+    T: 'mekanism:ultimate_induction_provider'
+  })
+
+  event.remove({ output: 'draconicevolution:energy_core_stabilizer' })
+  event.shaped('draconicevolution:energy_core_stabilizer', [
+  'D D',
+  ' C ',
+  'D D'
+  ], {
+    D: 'powah:crystal_niotic',
+    C: 'draconicevolution:particle_generator'
   })
 });
