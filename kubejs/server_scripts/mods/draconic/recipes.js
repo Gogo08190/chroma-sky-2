@@ -177,4 +177,16 @@ onEvent('recipes', event => {
     D: 'powah:crystal_niotic',
     C: 'draconicevolution:particle_generator'
   })
+
+  event.remove({ output: 'draconicevolution:module_core' })
+  event.shaped('draconicevolution:module_core', [
+  'SRS',
+  'ECE',
+  'SRS'
+  ], {
+    S: 'mekanism:ingot_steel',
+    R: 'extendedcrafting:redstone_ingot',
+    E: 'powah:steel_energized',
+    C: 'draconicevolution:draconium_core'
+  })
 });
