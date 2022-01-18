@@ -2124,4 +2124,89 @@ onEvent("recipes", (event) => {
       }
     }
   )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDEDCBA",
+        "BFGCHCIFB",
+        "CGJKLKJIC",
+        "DCKMNMKCD",
+        "EHLNONLHE",
+        "DCKMNMKCD",
+        "CPJKLKJQC",
+        "BFPCHCQFB",
+        "ABCDEDCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "overloaded:energy_core"
+        },
+        "B": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "C": {
+          "item": "thermal:fluid_tank_augment"
+        },
+        "D": {
+          "item": "chromasky:ultimategear"
+        },
+        "E": {
+          "item": "thermal:rf_coil"
+        },
+        "F": {
+          "item": "extendedcrafting:the_ultimate_catalyst"
+        },
+        "G": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:signalum\"}"
+        },
+        "H": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "I": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:electrum\"}"
+        },
+        "J": {
+          "item": "extendedcrafting:the_ultimate_ingot"
+        },
+        "K": {
+          "item": "thermal:redstone_servo"
+        },
+        "L": {
+          "item": "chromasky:ultimateplate"
+        },
+        "M": {
+          "item": "thermal:machine_frame"
+        },
+        "N": {
+          "item": "chromasky:ultimategem"
+        },
+        "O": {
+          "item": "thermal:upgrade_augment_3"
+        },
+        "P": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:invar\"}"
+        },
+        "Q": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:lumium\"}"
+        }
+      },
+      "result": {
+        "item": "thermal:fluid_tank_creative_augment"
+      }
+    }
+  )
 });

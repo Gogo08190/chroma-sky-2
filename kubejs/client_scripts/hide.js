@@ -226,7 +226,8 @@ events.listen('jei.hide.items', function (event) {
     Item.of('animalcrops:seeds', '{entity:"minecraft:horse"}'),
     Item.of('animalcrops:seeds', '{entity:"minecraft:fox"}'),
     Item.of('animalcrops:seeds', '{entity:"minecraft:donkey"}'),
-    Item.of('animalcrops:seeds', '{entity:"minecraft:cat"}')
+    Item.of('animalcrops:seeds', '{entity:"minecraft:cat"}'),
+    Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:platinum"}')
   ])
 })
 
