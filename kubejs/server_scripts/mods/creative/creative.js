@@ -2279,4 +2279,77 @@ onEvent("recipes", (event) => {
       }
     }
   )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDEDFBA",
+        "BGBHIHBGB",
+        "CBJKLKJBF",
+        "DHKMNMKHD",
+        "EIONPNOIE",
+        "DHKMNMKHD",
+        "FBJKLKJBC",
+        "BGBHIHBGB",
+        "ABFDEDCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "refinedstorage:4096k_fluid_storage_part"
+        },
+        "B": {
+          "item": "industrialforegoing:laser_drill"
+        },
+        "C": {
+          "item": "overloaded:energy_core"
+        },
+        "D": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "E": {
+          "item": "projectex:fading_matter"
+        },
+        "F": {
+          "item": "overloaded:fluid_core"
+        },
+        "G": {
+          "item": "industrialforegoing:fluid_laser_base"
+        },
+        "H": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "I": {
+          "item": "extendedcrafting:the_ultimate_catalyst"
+        },
+        "J": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:niotic\"}"
+        },
+        "K": {
+          "item": "mekanism:pellet_antimatter"
+        },
+        "L": {
+          "item": "overloaded:hyper_fluid_sender"
+        },
+        "M": {
+          "item": "mekanism:electric_pump"
+        },
+        "N": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "O": {
+          "item": "naturesaura:spring"
+        },
+        "P": {
+          "item": "mekanism:creative_fluid_tank"
+        }
+      },
+      "result": {
+        "item": "compactvoidminers:void_pump"
+      }
+    }
+  )
 });
