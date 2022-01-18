@@ -1406,7 +1406,7 @@ onEvent("recipes", (event) => {
         "type": "forge:nbt",
         "item": "tconstruct:creative_slot",
         "count": 1,
-        "nbt": "{slot:\"defence\"}"
+        "nbt": "{slot:\"defense\"}"
       }
     }
   )
