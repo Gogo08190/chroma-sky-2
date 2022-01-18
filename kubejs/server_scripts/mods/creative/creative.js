@@ -2355,4 +2355,112 @@ onEvent("recipes", (event) => {
 
   event.remove({ output: 'compactvoidminers:void_miner' })
   event.remove({ output: 'compactvoidminers:void_pump' })
+  event.remove({ output: 'overloaded:multi_helmet' })
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AAAAAAAAA",
+        "ABCDEFCBA",
+        "ACGHIHJCA",
+        "AKLMNOLPA",
+        "AQHRSRHTA",
+        "AUVWXWYZA",
+        "AS1SSS1SA",
+        "ASS111SSA",
+        "2ASSSSSA2"
+      ],
+      "key": {
+        "A": {
+          "item": "projectex:white_matter"
+        },
+        "B": {
+          "item": "draconicevolution:chaotic_capacitor"
+        },
+        "C": {
+          "item": "extendedcrafting:the_ultimate_catalyst"
+        },
+        "D": {
+          "item": "tconstruct:plate_helmet"
+        },
+        "E": {
+          "type": "forge:nbt",
+          "item": "mekanismtools:refined_obsidian_helmet"
+        },
+        "F": {
+          "item": "cyclic:crystal_helmet"
+        },
+        "G": {
+          "item": "thebeginning:florite_armor_armor_helmet"
+        },
+        "H": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "I": {
+          "item": "mysticaladaptations:insanium_helmet"
+        },
+        "J": {
+          "item": "theabyss:abyss_fire_upg_a_netherite_helmet"
+        },
+        "K": {
+          "item": "projecte:gem_helmet"
+        },
+        "L": {
+          "item": "overloaded:energy_core"
+        },
+        "M": {
+          "item": "thermal:diving_helmet"
+        },
+        "N": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "O": {
+          "item": "miniutilities:infused_helmet"
+        },
+        "P": {
+          "item": "bloodmagic:livinghelmet"
+        },
+        "Q": {
+          "item": "mekanism:mekasuit_helmet"
+        },
+        "R": {
+          "item": "naturesaura:eye"
+        },
+        "S": {
+          "item": "projectex:fading_matter"
+        },
+        "T": {
+          "item": "minecraft:netherite_helmet"
+        },
+        "U": {
+          "item": "projectred-exploration:sapphire_helmet",
+        },
+        "V": {
+          "item": "thermal:hazmat_helmet"
+        },
+        "W": {
+          "item": "projectex:final_star_shard"
+        },
+        "X": {
+          "item": "immersiveengineering:armor_steel_head"
+        },
+        "Y": {
+          "item": "thermal:beekeeper_helmet"
+        },
+        "Z": {
+          "item": "cyclic:emerald_helmet"
+        },
+        "1": {
+          "item": "solarflux:sp_de.chaotic"
+        },
+        "2": {
+          "item": "chromasky:ultimategem"
+        }
+      },
+      "result": {
+        "item": "overloaded:multi_helmet"
+      }
+    }
+  )
 });
