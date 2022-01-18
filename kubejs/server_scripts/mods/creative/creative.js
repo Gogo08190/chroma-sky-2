@@ -2209,4 +2209,74 @@ onEvent("recipes", (event) => {
       }
     }
   )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDEDFBA",
+        "BGBHIHBGB",
+        "CBJKLKJBF",
+        "DHKMNMKHD",
+        "EILNONLIE",
+        "DHKMNMKHD",
+        "FBJKLKJBC",
+        "BGBHIHBGB",
+        "ABFDEDCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "miniutilities:quantum_quarry"
+        },
+        "B": {
+          "item": "industrialforegoing:laser_drill"
+        },
+        "C": {
+          "item": "overloaded:energy_core"
+        },
+        "D": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "E": {
+          "item": "mekanism:ultimate_induction_cell"
+        },
+        "F": {
+          "item": "overloaded:item_core"
+        },
+        "G": {
+          "item": "industrialforegoing:fluid_laser_base"
+        },
+        "H": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "I": {
+          "item": "extendedcrafting:the_ultimate_catalyst"
+        },
+        "J": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:steel\"}"
+        },
+        "K": {
+          "item": "mekanism:pellet_antimatter"
+        },
+        "L": {
+          "item": "envirotech:xerothium_void_miner_ccu"
+        },
+        "M": {
+          "item": "mekanism:digital_miner"
+        },
+        "N": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "O": {
+          "item": "mekanism:creative_bin"
+        }
+      },
+      "result": {
+        "item": "compactvoidminers:void_miner"
+      }
+    }
+  )
 });
