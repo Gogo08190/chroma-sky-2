@@ -1008,6 +1008,80 @@ onEvent("recipes", (event) => {
     }
   )
 
+  event.shapeless('mekanism:creative_chemical_tank', 'mekanism:creative_chemical_tank');
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDEDCBA",
+        "BFGHIHGFB",
+        "CGJKLKMGC",
+        "DHNOPONHD",
+        "EILPQPLIE",
+        "DHNOPONHD",
+        "CGMKLKJGC",
+        "BFGHIHGFB",
+        "ABCDEDCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "mekanism:alloy_atomic"
+        },
+        "B": {
+          "item": "chromasky:mechanic_core_tier_4"
+        },
+        "C": {
+          "item": "mekanism:ultimate_control_circuit"
+        },
+        "D": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "E": {
+          "item": "mekanism:qio_drive_supermassive"
+        },
+        "F": {
+          "item": "extendedcrafting:crystaltine_catalyst"
+        },
+        "G": {
+          "item": "mekanism:ultimate_chemical_tank"
+        },
+        "H": {
+          "item": "chromasky:ultimategear"
+        },
+        "I": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "J": {
+          "item": "chromasky:ultimate_stew"
+        },
+        "K": {
+          "item": "extendedcrafting:the_ultimate_block"
+        },
+        "L": {
+          "item": "overloaded:fluid_core"
+        },
+        "M": {
+          "item": "chromasky:ultimate_meat"
+        },
+        "N": {
+          "item": "chromasky:ultimategem"
+        },
+        "O": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "P": {
+          "item": "projectex:final_star_shard"
+        },
+        "Q": {
+          "item": "mekanism:qio_drive_array"
+        }
+      },
+      "result": {
+        "item": "mekanism:creative_chemical_tank"
+      }
+    }
+  )
+
   event.custom(
     {
       "type": "extendedcrafting:shaped_table",
