@@ -934,6 +934,7 @@ onEvent("recipes", (event) => {
     }
   )
 
+  event.shapeless('mekanism:creative_fluid_tank', 'mekanism:creative_fluid_tank');
   event.custom(
     {
       "type": "extendedcrafting:shaped_table",
