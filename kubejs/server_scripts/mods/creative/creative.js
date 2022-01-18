@@ -2352,4 +2352,7 @@ onEvent("recipes", (event) => {
       }
     }
   )
+
+  event.remove({ output: 'compactvoidminers:void_miner' })
+  event.remove({ output: 'compactvoidminers:void_pump' })
 });
