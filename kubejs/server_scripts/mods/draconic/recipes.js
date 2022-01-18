@@ -155,4 +155,16 @@ onEvent('recipes', event => {
     C: 'draconicevolution:draconium_core',
     O: 'draconicevolution:infused_obsidian'
   })
+
+  event.remove({ output: 'draconicevolution:energy_core' })
+  event.shaped('draconicevolution:energy_core', [
+  'ECE',
+  'TDT',
+  'ECE'
+  ], {
+    E: 'draconicevolution:draconic_energy_core',
+    C: 'mekanism:ultimate_induction_cell',
+    D: 'draconicevolution:awakened_core',
+    T: 'mekanism:ultimate_induction_provider' 
+  })
 });

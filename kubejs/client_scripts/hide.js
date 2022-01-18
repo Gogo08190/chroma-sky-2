@@ -206,6 +206,7 @@ events.listen('jei.hide.items', function (event) {
     'projectex:final_star',
     'cyclic:battery',
     'cyclic:battery_infinite',
+    'overloaded:creative_generator',
     'masterfulmachinery:emcflower_assemblingenergy_port_energy_output',
     Item.of('animalcrops:magnemone', '{entity:"minecraft:strider"}'),
     Item.of('animalcrops:spores', '{entity:"minecraft:piglin"}'),
