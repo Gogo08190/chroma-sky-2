@@ -8,6 +8,7 @@ onEvent("recipes", (event) => {
         ["minecraft:crimson_roots", 0.26],
         ["minecraft:weeping_vines", 0.18],
         ["minecraft:warped_roots", 0.23],
+        ["miniutilities:flame_lily_seeds", 0.23]
     ]).fluid("minecraft:lava");
 
     sluice(["gold"], "minecraft:soul_sand", [
@@ -17,6 +18,7 @@ onEvent("recipes", (event) => {
         ["minecraft:crimson_roots", 0.31],
         ["minecraft:weeping_vines", 0.26],
         ["minecraft:warped_roots", 0.30],
+        ["miniutilities:flame_lily_seeds", 0.23]
     ]).fluid("minecraft:lava");
 
     sluice(["diamond"], "minecraft:soul_sand", [
@@ -26,6 +28,7 @@ onEvent("recipes", (event) => {
         ["minecraft:crimson_roots", 0.38],
         ["minecraft:weeping_vines", 0.30],
         ["minecraft:warped_roots", 0.35],
+        ["miniutilities:flame_lily_seeds", 0.23]
     ]).fluid("minecraft:lava");
 
 });
