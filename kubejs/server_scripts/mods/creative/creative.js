@@ -2359,6 +2359,7 @@ onEvent("recipes", (event) => {
   event.remove({ output: 'overloaded:multi_chestplate' })
   event.remove({ output: 'overloaded:multi_leggings' })
   event.remove({ output: 'overloaded:multi_boots' })
+  event.remove({ output: 'overloaded:railgun' })
 
   event.custom(
     {
