@@ -5,7 +5,7 @@ onEvent('recipes', event => {
 
   // Dielectric Rod
   event.remove({ output: 'powah:dielectric_rod' })
-  event.shaped('powah:dielectric_rod', [
+  event.shaped('8x powah:dielectric_rod', [
   'PBP',
   'PRP',
   'PBP'
@@ -17,7 +17,9 @@ onEvent('recipes', event => {
 
   // Dielectric Rod Horizontal
   event.remove({ output: 'powah:dielectric_rod_horizontal' })
-  event.shaped('powah:dielectric_rod_horizontal', [
+  event.shapeless('powah:dielectric_rod', 'powah:dielectric_rod_horizontal');
+  event.shapeless('powah:dielectric_rod_horizontal', 'powah:dielectric_rod');
+  event.shaped('8x powah:dielectric_rod_horizontal', [
   'PPP',
   'BRB',
   'PPP'
