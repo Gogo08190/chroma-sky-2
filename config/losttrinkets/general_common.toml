@@ -65,3 +65,4 @@ nonRandom = ["ftbultimine:ultiminer"]
 	#Rarity of unlocking a trinket from cutting trees. (Greater number = more rare)
 	#Range: 2 ~ 100000
 	woodCutting = 256
+

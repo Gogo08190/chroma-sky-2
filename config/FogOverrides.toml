@@ -1,0 +1,54 @@
+
+[general]
+	#Overrides are dependent on potion effects
+	"Potion Active" = true
+	#Creative Mode Always Removes Fog
+	"Creative Overrides" = true
+	#Disable the fire overlay when you're burning
+	"Disable Fire Overlay" = false
+	#Offset the fire overlay, negative values means down and positive is up.
+	#Range: -1.0 ~ 1.0
+	"Fire Overlay Offset" = -0.25
+	#Disable the water overlay when you're in water
+	"Disable Water Overlay" = false
+
+[overworld]
+	#Disable Overworld Fog?
+	"Disable Overworld Fog" = false
+	#Overworld Fog Density
+	#Range: 0.001 ~ 0.5
+	"Overworld Fog Density" = 0.0015
+	#Readds the void fog that was removed in 1.8
+	"Enable Void Fog" = false
+	#This is so you can adjust the density of the fog
+	#Range: 0.001 ~ 0.5
+	"Void Fog Density" = 0.3
+	#At what Y-level should the fog active on
+	#Range: 0 ~ 255
+	"Y-Level Activation" = 16
+	#Readds the void particles that was removed in 1.8
+	"Enable Void Particles" = false
+	#If the player is in a skylight level of 8, the fog disappears
+	"Void scared of sky" = true
+
+[nether]
+	#Disable Nether Fog?
+	"Disable Nether Fog" = false
+	#Nether Fog Density
+	#Range: 0.001 ~ 0.5
+	"Nether Fog Density" = 0.01
+
+[lava]
+	#Disable Lava Fog?
+	"Disable Lava Fog" = false
+	#Lava Fog Density
+	#Range: 0.001 ~ 0.5
+	"Lava Fog Density" = 0.03
+
+[water]
+	#Disable Water Fog?
+	"Disable Water Fog" = false
+	#Water Fog Density
+	#Range: 0.001 ~ 0.5
+	"Water Fog Density" = 0.01
+
