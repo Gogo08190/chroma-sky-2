@@ -1,4 +1,24 @@
 {
-  "entries": [],
-  "__comment": "Use the in-game commands to edit this file"
+  "entries": [
+    {
+      "item": "projecte:alchemical_coal",
+      "emc": 512
+    },
+    {
+      "item": "projecte:mobius_fuel",
+      "emc": 2048
+    },
+    {
+      "item": "projecte:aeternalis_fuel",
+      "emc": 8192
+    },
+    {
+      "item": "projecte:dark_matter",
+      "emc": 139264
+    },
+    {
+      "item": "projecte:philosophers_stone",
+      "emc": 1252315
+    }
+  ]
 }

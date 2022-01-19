@@ -5,7 +5,7 @@
 	"Max upgrade stack size" = 18
 	#Exponential cost N amount. We start with 1.35 as it's a good max number at around 10M RF per operation
 	#Range: 1.0 ~ 2.0
-	"Exponential cost base N value" = 1.10
+	"Exponential cost base N value" = 1.1
 
 [sluices]
 
@@ -122,3 +122,4 @@
 	#Speed of the netherite auto-hammer as ticks taken to process the block
 	#Range: 1 ~ 100000
 	netheriteSpeed = 15
+

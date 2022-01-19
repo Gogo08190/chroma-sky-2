@@ -87,3 +87,8 @@ onEvent("item.registry", (event) => {
     event.create("chromasky:craft_prudentium_crystal").displayName("Ritual: Craft Prudentium Crystal");
     event.create("chromasky:starmetal_gear").displayName("Starmetal Gear");
 });
+
+onEvent('jei.information', event => {
+  event.add('chromasky:drop_of_darkness', ['Has a chance to drop on a Wither Skeleton']);
+  event.add('chromasky:drop_of_peacefulless', ['Has a chance to drop on a Passive Mob']);
+});

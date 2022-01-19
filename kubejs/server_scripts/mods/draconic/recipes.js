@@ -155,4 +155,38 @@ onEvent('recipes', event => {
     C: 'draconicevolution:draconium_core',
     O: 'draconicevolution:infused_obsidian'
   })
+
+  event.remove({ output: 'draconicevolution:energy_core' })
+  event.shaped('draconicevolution:energy_core', [
+  'ECE',
+  'TDT',
+  'ECE'
+  ], {
+    E: 'draconicevolution:draconic_energy_core',
+    C: 'mekanism:ultimate_induction_cell',
+    D: 'draconicevolution:awakened_core',
+    T: 'mekanism:ultimate_induction_provider'
+  })
+
+  event.remove({ output: 'draconicevolution:energy_core_stabilizer' })
+  event.shaped('draconicevolution:energy_core_stabilizer', [
+  'D D',
+  ' C ',
+  'D D'
+  ], {
+    D: 'powah:crystal_niotic',
+    C: 'draconicevolution:particle_generator'
+  })
+
+  event.remove({ output: 'draconicevolution:module_core' })
+  event.shaped('draconicevolution:module_core', [
+  'SRS',
+  'ECE',
+  'SRS'
+  ], {
+    S: 'mekanism:ingot_steel',
+    R: 'extendedcrafting:redstone_ingot',
+    E: 'powah:steel_energized',
+    C: 'draconicevolution:draconium_core'
+  })
 });

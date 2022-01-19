@@ -2,7 +2,7 @@
   {
     "name": "Main Islands",
     "author": "Chroma Team",
-    "desc": "The team behind all the packs?",
+    "desc": "Official islands for Chroma Sky 2",
     "islands": [
       {
         "name": "Hay look, an Island",
@@ -21,6 +21,19 @@
         "desc": "For the nostalgic",
         "structure": "gardenisland.nbt",
         "image": "chromasky2:islands/screens/gardenisland.png"
+      }
+    ]
+  },
+  {
+    "name": "Community Islands",
+    "author": "Community",
+    "desc": "The islands that the community has proposed !",
+    "islands": [
+      {
+        "name": "Farland Island - by Ctrl_Juteau",
+        "desc": "This is an island",
+        "structure": "lostisland.nbt",
+        "image": "chromasky2:islands/screens/island.png"
       }
     ]
   }

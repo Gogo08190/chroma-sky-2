@@ -205,7 +205,24 @@ events.listen('jei.hide.items', function (event) {
     'projectex:arcane_tablet',
     'projectex:final_star',
     'cyclic:battery',
+    'cyclic:battery_infinite',
+    'overloaded:creative_generator',
     'masterfulmachinery:emcflower_assemblingenergy_port_energy_output',
+    'masterfulmachinery:structure_generator',
+    'masterfulmachinery:structure_gen_device',
+    'envirocore:creative_energy_source',
+    'integrateddynamics:energy_battery_creative',
+    'mysticalagriculture:creative_soulium_dagger',
+    'buildinggadgets:construction_paste_container_creative',
+    'rftoolsutility:creative_screen',
+    'rftoolspower:dimensionalcell_creative',
+    'theoneprobe:creativeprobe',
+    'losttrinkets:magical_feathers',
+    'losttrinkets:mossy_ring',
+    'losttrinkets:mossy_belt',
+    'losttrinkets:dragon_breath',
+    'losttrinkets:book_o_enchanting',
+    'overloaded:ray_gun',
     Item.of('animalcrops:magnemone', '{entity:"minecraft:strider"}'),
     Item.of('animalcrops:spores', '{entity:"minecraft:piglin"}'),
     Item.of('animalcrops:spores', '{entity:"minecraft:hoglin"}'),
@@ -224,7 +241,9 @@ events.listen('jei.hide.items', function (event) {
     Item.of('animalcrops:seeds', '{entity:"minecraft:horse"}'),
     Item.of('animalcrops:seeds', '{entity:"minecraft:fox"}'),
     Item.of('animalcrops:seeds', '{entity:"minecraft:donkey"}'),
-    Item.of('animalcrops:seeds', '{entity:"minecraft:cat"}')
+    Item.of('animalcrops:seeds', '{entity:"minecraft:cat"}'),
+    Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:platinum"}'),
+    Item.of('modularrouters:creative_module', '{modularrouters:{ModuleFilter:{}}}')
   ])
 })
 

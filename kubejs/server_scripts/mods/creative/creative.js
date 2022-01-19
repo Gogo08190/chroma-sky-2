@@ -934,6 +934,7 @@ onEvent("recipes", (event) => {
     }
   )
 
+  event.shapeless('mekanism:creative_fluid_tank', 'mekanism:creative_fluid_tank');
   event.custom(
     {
       "type": "extendedcrafting:shaped_table",
@@ -1003,6 +1004,80 @@ onEvent("recipes", (event) => {
       },
       "result": {
         "item": "mekanism:creative_fluid_tank"
+      }
+    }
+  )
+
+  event.shapeless('mekanism:creative_chemical_tank', 'mekanism:creative_chemical_tank');
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDEDCBA",
+        "BFGHIHGFB",
+        "CGJKLKMGC",
+        "DHNOPONHD",
+        "EILPQPLIE",
+        "DHNOPONHD",
+        "CGMKLKJGC",
+        "BFGHIHGFB",
+        "ABCDEDCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "mekanism:alloy_atomic"
+        },
+        "B": {
+          "item": "chromasky:mechanic_core_tier_4"
+        },
+        "C": {
+          "item": "mekanism:ultimate_control_circuit"
+        },
+        "D": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "E": {
+          "item": "mekanism:qio_drive_supermassive"
+        },
+        "F": {
+          "item": "extendedcrafting:crystaltine_catalyst"
+        },
+        "G": {
+          "item": "mekanism:ultimate_chemical_tank"
+        },
+        "H": {
+          "item": "chromasky:ultimategear"
+        },
+        "I": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "J": {
+          "item": "chromasky:ultimate_stew"
+        },
+        "K": {
+          "item": "extendedcrafting:the_ultimate_block"
+        },
+        "L": {
+          "item": "overloaded:fluid_core"
+        },
+        "M": {
+          "item": "chromasky:ultimate_meat"
+        },
+        "N": {
+          "item": "chromasky:ultimategem"
+        },
+        "O": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "P": {
+          "item": "projectex:final_star_shard"
+        },
+        "Q": {
+          "item": "mekanism:qio_drive_array"
+        }
+      },
+      "result": {
+        "item": "mekanism:creative_chemical_tank"
       }
     }
   )
@@ -1406,7 +1481,7 @@ onEvent("recipes", (event) => {
         "type": "forge:nbt",
         "item": "tconstruct:creative_slot",
         "count": 1,
-        "nbt": "{slot:\"defence\"}"
+        "nbt": "{slot:\"defense\"}"
       }
     }
   )
@@ -1721,6 +1796,1036 @@ onEvent("recipes", (event) => {
       },
       "result": {
         "item": "thermal:rf_coil_creative_augment"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDEDCBA",
+        "BFGHIHGFB",
+        "CGJKLKJHC",
+        "DHMNOPMGD",
+        "EILOQOLIE",
+        "DHMROSMHD",
+        "CGJKLKJGC",
+        "BFGHIHGFB",
+        "ABCDEDCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "B": {
+          "item": "draconicevolution:chaotic_energy_module"
+        },
+        "C": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "D": {
+          "item": "draconicevolution:chaotic_energy_core"
+        },
+        "E": {
+          "item": "overloaded:energy_core"
+        },
+        "F": {
+          "item": "extendedcrafting:the_ultimate_catalyst"
+        },
+        "G": {
+          "item": "draconicevolution:chaotic_core"
+        },
+        "H": {
+          "item": "draconicevolution:awakened_draconium_block"
+        },
+        "I": {
+          "item": "draconicevolution:energy_transfuser"
+        },
+        "J": {
+          "item": "extendedcrafting:the_ultimate_block"
+        },
+        "K": {
+          "item": "chromasky:ultimateplate"
+        },
+        "L": {
+          "item": "chromasky:ultimategem"
+        },
+        "M": {
+          "item": "draconicevolution:energy_core"
+        },
+        "N": {
+          "item": "thermal:rf_coil_creative_augment"
+        },
+        "O": {
+          "item": "extendedcrafting:crystaltine_catalyst"
+        },
+        "P": {
+          "item": "immersiveengineering:capacitor_creative"
+        },
+        "Q": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:draconium\"}"
+        },
+        "R": {
+          "item": "powah:energy_cell_creative"
+        },
+        "S": {
+          "type": "forge:nbt",
+          "item": "mekanism:creative_energy_cube",
+          "count": 1,
+          "nbt": "{mekData:{EnergyContainers:[{Container:0b,stored:\"18446744073709551615.9999\"}]}}"
+        }
+      },
+      "result": {
+        "item": "draconicevolution:creative_op_capacitor"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDEDCBA",
+        "BFGHIHGFB",
+        "CGJKLKJGC",
+        "DHKMNMKHD",
+        "EILNONLIE",
+        "DHKMNMKHD",
+        "CGJKLKJGC",
+        "BFGHIHGFB",
+        "ABCDEDCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "B": {
+          "item": "draconicevolution:chaotic_capacitor"
+        },
+        "C": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "D": {
+          "item": "draconicevolution:chaotic_energy_core"
+        },
+        "E": {
+          "item": "overloaded:energy_core"
+        },
+        "F": {
+          "item": "extendedcrafting:the_ultimate_catalyst"
+        },
+        "G": {
+          "item": "draconicevolution:chaotic_core"
+        },
+        "H": {
+          "item": "draconicevolution:awakened_draconium_block"
+        },
+        "I": {
+          "item": "chromasky:ultimategear"
+        },
+        "J": {
+          "item": "extendedcrafting:the_ultimate_block"
+        },
+        "K": {
+          "item": "extendedcrafting:black_iron_block"
+        },
+        "L": {
+          "item": "chromasky:ultimategem"
+        },
+        "M": {
+          "item": "chromasky:ultimateplate"
+        },
+        "N": {
+          "item": "extendedcrafting:crystaltine_catalyst"
+        },
+        "O": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:draconium\"}"
+        }
+      },
+      "result": {
+        "item": "draconicevolution:creative_capacitor"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDEDCBA",
+        "BFGCHCIFB",
+        "CGJKLKJIC",
+        "DCKMNMKCD",
+        "EHLNONLHE",
+        "DCKMNMKCD",
+        "CPJKLKJQC",
+        "BFPCHCQFB",
+        "ABCDEDCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "overloaded:energy_core"
+        },
+        "B": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "C": {
+          "item": "thermal:machine_efficiency_augment"
+        },
+        "D": {
+          "item": "chromasky:ultimategear"
+        },
+        "E": {
+          "item": "thermal:rf_coil"
+        },
+        "F": {
+          "item": "extendedcrafting:the_ultimate_catalyst"
+        },
+        "G": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:signalum\"}"
+        },
+        "H": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "I": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:electrum\"}"
+        },
+        "J": {
+          "item": "extendedcrafting:the_ultimate_ingot"
+        },
+        "K": {
+          "item": "thermal:redstone_servo"
+        },
+        "L": {
+          "item": "chromasky:ultimateplate"
+        },
+        "M": {
+          "item": "thermal:machine_frame"
+        },
+        "N": {
+          "item": "chromasky:ultimategem"
+        },
+        "O": {
+          "item": "thermal:upgrade_augment_3"
+        },
+        "P": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:invar\"}"
+        },
+        "Q": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:lumium\"}"
+        }
+      },
+      "result": {
+        "item": "thermal:machine_efficiency_creative_augment"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDEDCBA",
+        "BFGCHCIFB",
+        "CGJKLKJIC",
+        "DCKMNMKCD",
+        "EHLNONLHE",
+        "DCKMNMKCD",
+        "CPJKLKJQC",
+        "BFPCHCQFB",
+        "ABCDEDCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "overloaded:energy_core"
+        },
+        "B": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "C": {
+          "item": "thermal:machine_catalyst_augment"
+        },
+        "D": {
+          "item": "chromasky:ultimategear"
+        },
+        "E": {
+          "item": "thermal:rf_coil"
+        },
+        "F": {
+          "item": "extendedcrafting:the_ultimate_catalyst"
+        },
+        "G": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:signalum\"}"
+        },
+        "H": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "I": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:electrum\"}"
+        },
+        "J": {
+          "item": "extendedcrafting:the_ultimate_ingot"
+        },
+        "K": {
+          "item": "thermal:redstone_servo"
+        },
+        "L": {
+          "item": "chromasky:ultimateplate"
+        },
+        "M": {
+          "item": "thermal:machine_frame"
+        },
+        "N": {
+          "item": "chromasky:ultimategem"
+        },
+        "O": {
+          "item": "thermal:upgrade_augment_3"
+        },
+        "P": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:invar\"}"
+        },
+        "Q": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:lumium\"}"
+        }
+      },
+      "result": {
+        "item": "thermal:machine_catalyst_creative_augment"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDEDCBA",
+        "BFGCHCIFB",
+        "CGJKLKJIC",
+        "DCKMNMKCD",
+        "EHLNONLHE",
+        "DCKMNMKCD",
+        "CPJKLKJQC",
+        "BFPCHCQFB",
+        "ABCDEDCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "overloaded:energy_core"
+        },
+        "B": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "C": {
+          "item": "thermal:fluid_tank_augment"
+        },
+        "D": {
+          "item": "chromasky:ultimategear"
+        },
+        "E": {
+          "item": "thermal:rf_coil"
+        },
+        "F": {
+          "item": "extendedcrafting:the_ultimate_catalyst"
+        },
+        "G": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:signalum\"}"
+        },
+        "H": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "I": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:electrum\"}"
+        },
+        "J": {
+          "item": "extendedcrafting:the_ultimate_ingot"
+        },
+        "K": {
+          "item": "thermal:redstone_servo"
+        },
+        "L": {
+          "item": "chromasky:ultimateplate"
+        },
+        "M": {
+          "item": "thermal:machine_frame"
+        },
+        "N": {
+          "item": "chromasky:ultimategem"
+        },
+        "O": {
+          "item": "thermal:upgrade_augment_3"
+        },
+        "P": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:invar\"}"
+        },
+        "Q": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:lumium\"}"
+        }
+      },
+      "result": {
+        "item": "thermal:fluid_tank_creative_augment"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDEDFBA",
+        "BGBHIHBGB",
+        "CBJKLKJBF",
+        "DHKMNMKHD",
+        "EILNONLIE",
+        "DHKMNMKHD",
+        "FBJKLKJBC",
+        "BGBHIHBGB",
+        "ABFDEDCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "miniutilities:quantum_quarry"
+        },
+        "B": {
+          "item": "industrialforegoing:laser_drill"
+        },
+        "C": {
+          "item": "overloaded:energy_core"
+        },
+        "D": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "E": {
+          "item": "mekanism:ultimate_induction_cell"
+        },
+        "F": {
+          "item": "overloaded:item_core"
+        },
+        "G": {
+          "item": "industrialforegoing:fluid_laser_base"
+        },
+        "H": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "I": {
+          "item": "extendedcrafting:the_ultimate_catalyst"
+        },
+        "J": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:steel\"}"
+        },
+        "K": {
+          "item": "mekanism:pellet_antimatter"
+        },
+        "L": {
+          "item": "envirotech:xerothium_void_miner_ccu"
+        },
+        "M": {
+          "item": "mekanism:digital_miner"
+        },
+        "N": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "O": {
+          "item": "mekanism:creative_bin"
+        }
+      },
+      "result": {
+        "item": "compactvoidminers:void_miner"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDEDFBA",
+        "BGBHIHBGB",
+        "CBJKLKJBF",
+        "DHKMNMKHD",
+        "EIONPNOIE",
+        "DHKMNMKHD",
+        "FBJKLKJBC",
+        "BGBHIHBGB",
+        "ABFDEDCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "refinedstorage:4096k_fluid_storage_part"
+        },
+        "B": {
+          "item": "industrialforegoing:laser_drill"
+        },
+        "C": {
+          "item": "overloaded:energy_core"
+        },
+        "D": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "E": {
+          "item": "projectex:fading_matter"
+        },
+        "F": {
+          "item": "overloaded:fluid_core"
+        },
+        "G": {
+          "item": "industrialforegoing:fluid_laser_base"
+        },
+        "H": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "I": {
+          "item": "extendedcrafting:the_ultimate_catalyst"
+        },
+        "J": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:niotic\"}"
+        },
+        "K": {
+          "item": "mekanism:pellet_antimatter"
+        },
+        "L": {
+          "item": "overloaded:hyper_fluid_sender"
+        },
+        "M": {
+          "item": "mekanism:electric_pump"
+        },
+        "N": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "O": {
+          "item": "naturesaura:spring"
+        },
+        "P": {
+          "item": "mekanism:creative_fluid_tank"
+        }
+      },
+      "result": {
+        "item": "compactvoidminers:void_pump"
+      }
+    }
+  )
+
+  event.remove({ output: 'compactvoidminers:void_miner' })
+  event.remove({ output: 'compactvoidminers:void_pump' })
+  event.remove({ output: 'overloaded:multi_helmet' })
+  event.remove({ output: 'overloaded:multi_chestplate' })
+  event.remove({ output: 'overloaded:multi_leggings' })
+  event.remove({ output: 'overloaded:multi_boots' })
+  event.remove({ output: 'overloaded:railgun' })
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AAAAAAAAA",
+        "ABCDEFCBA",
+        "ACGHIHJCA",
+        "AKLMNOLPA",
+        "AQHRSRHTA",
+        "AUVWXWYZA",
+        "AS1SSS1SA",
+        "ASS111SSA",
+        "2ASSSSSA2"
+      ],
+      "key": {
+        "A": {
+          "item": "projectex:white_matter"
+        },
+        "B": {
+          "item": "draconicevolution:chaotic_capacitor"
+        },
+        "C": {
+          "item": "extendedcrafting:the_ultimate_catalyst"
+        },
+        "D": {
+          "item": "tconstruct:plate_helmet"
+        },
+        "E": {
+          "type": "forge:nbt",
+          "item": "mekanismtools:refined_obsidian_helmet"
+        },
+        "F": {
+          "item": "cyclic:crystal_helmet"
+        },
+        "G": {
+          "item": "thebeginning:florite_armor_armor_helmet"
+        },
+        "H": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "I": {
+          "item": "mysticaladaptations:insanium_helmet"
+        },
+        "J": {
+          "item": "theabyss:abyss_fire_upg_a_netherite_helmet"
+        },
+        "K": {
+          "item": "projecte:gem_helmet"
+        },
+        "L": {
+          "item": "overloaded:energy_core"
+        },
+        "M": {
+          "item": "thermal:diving_helmet"
+        },
+        "N": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "O": {
+          "item": "miniutilities:infused_helmet"
+        },
+        "P": {
+          "item": "bloodmagic:livinghelmet"
+        },
+        "Q": {
+          "item": "mekanism:mekasuit_helmet"
+        },
+        "R": {
+          "item": "naturesaura:eye"
+        },
+        "S": {
+          "item": "projectex:fading_matter"
+        },
+        "T": {
+          "item": "minecraft:netherite_helmet"
+        },
+        "U": {
+          "item": "projectred-exploration:sapphire_helmet",
+        },
+        "V": {
+          "item": "thermal:hazmat_helmet"
+        },
+        "W": {
+          "item": "projectex:final_star_shard"
+        },
+        "X": {
+          "item": "immersiveengineering:armor_steel_head"
+        },
+        "Y": {
+          "item": "thermal:beekeeper_helmet"
+        },
+        "Z": {
+          "item": "immersiveengineering:armor_faraday_head"
+        },
+        "1": {
+          "item": "solarflux:sp_de.chaotic"
+        },
+        "2": {
+          "item": "chromasky:ultimategem"
+        }
+      },
+      "result": {
+        "item": "overloaded:multi_helmet"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABBBBBBBA",
+        "ABBCDEBBA",
+        "ABBFGHBBA",
+        "ADIJKJLDA",
+        "AMNOPQNRA",
+        "AASTJTUAA",
+        "AAAVTWAAA",
+        "AAAAXAAAA",
+        "YAAAAAAAY"
+      ],
+      "key": {
+        "A": {
+          "item": "projectex:white_matter"
+        },
+        "B": {
+          "item": "projectex:fading_matter"
+        },
+        "C": {
+          "item": "immersiveengineering:armor_faraday_chest"
+        },
+        "D": {
+          "item": "solarflux:sp_de.chaotic"
+        },
+        "E": {
+          "item": "minecraft:netherite_chestplate"
+        },
+        "F": {
+          "item": "miniutilities:infused_chestplate"
+        },
+        "G": {
+          "item": "mekanism:mekasuit_bodyarmor"
+        },
+        "H": {
+          "item": "thermal:diving_chestplate"
+        },
+        "I": {
+          "item": "projecte:gem_chestplate"
+        },
+        "J": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "K": {
+          "item": "projectex:final_star_shard"
+        },
+        "L": {
+          "item": "naturesaura:sky_chest"
+        },
+        "M": {
+          "item": "mysticaladaptations:insanium_chestplate"
+        },
+        "N": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "O": {
+          "item": "cyclic:crystal_chestplate"
+        },
+        "P": {
+          "item": "simplyjetpacks:jetpack_creative_armored"
+        },
+        "Q": {
+          "item": "tconstruct:plate_chestplate"
+        },
+        "R": {
+          "item": "mekanismtools:refined_obsidian_chestplate"
+        },
+        "S": {
+          "item": "projectred-exploration:sapphire_chestplate"
+        },
+        "T": {
+          "item": "overloaded:energy_core"
+        },
+        "U": {
+          "item": "thebeginning:florite_armor_armor_chestplate"
+        },
+        "V": {
+          "item": "thermal:hazmat_chestplate"
+        },
+        "W": {
+          "item": "bloodmagic:livingplate"
+        },
+        "X": {
+          "item": "thermal:beekeeper_chestplate"
+        },
+        "Y": {
+          "item": "chromasky:ultimategem"
+        }
+      },
+      "result": {
+        "item": "overloaded:multi_chestplate"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AAAAAAAAA",
+        "ABCDEDCBA",
+        "AFGBHBGFA",
+        "AIIAAAIIA",
+        "AJKA ALMA",
+        "ANOA APQA",
+        "ARSA ATUA",
+        "AVWA AXYA",
+        "ZAAZ ZAAZ"
+      ],
+      "key": {
+        "A": {
+          "item": "projectex:white_matter"
+        },
+        "B": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "C": {
+          "item": "projectex:fading_matter"
+        },
+        "D": {
+          "item": "draconicevolution:chaotic_speed_module"
+        },
+        "E": {
+          "item": "draconicevolution:chaotic_capacitor"
+        },
+        "F": {
+          "item": "projectex:final_star_shard"
+        },
+        "G": {
+          "item": "solarflux:sp_de.chaotic"
+        },
+        "H": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "I": {
+          "item": "overloaded:energy_core"
+        },
+        "J": {
+          "item": "thermal:beekeeper_leggings"
+        },
+        "K": {
+          "item": "thebeginning:florite_armor_armor_leggings"
+        },
+        "L": {
+          "item": "immersiveengineering:armor_faraday_legs"
+        },
+        "M": {
+          "item": "mekanism:mekasuit_pants"
+        },
+        "N": {
+          "item": "thermal:hazmat_leggings"
+        },
+        "O": {
+          "item": "thermal:diving_leggings"
+        },
+        "P": {
+          "item": "minecraft:netherite_leggings"
+        },
+        "Q": {
+          "item": "mekanismtools:refined_obsidian_leggings"
+        },
+        "R": {
+          "item": "mysticaladaptations:insanium_leggings"
+        },
+        "S": {
+          "item": "bloodmagic:livingleggings"
+        },
+        "T": {
+          "item": "naturesaura:sky_pants"
+        },
+        "U": {
+          "item": "tconstruct:plate_leggings"
+        },
+        "V": {
+          "item": "projectred-exploration:sapphire_leggings"
+        },
+        "W": {
+          "item": "miniutilities:infused_leggings"
+        },
+        "X": {
+          "item": "projecte:gem_leggings"
+        },
+        "Y": {
+          "item": "cyclic:crystal_leggings"
+        },
+        "Z": {
+          "item": "chromasky:ultimategem"
+        }
+      },
+      "result": {
+        "item": "overloaded:multi_leggings"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        " ABACABA ",
+        " BDBEBDB ",
+        " BFBGBHB ",
+        " BIBJBKB ",
+        "LBMBNBOBL",
+        "BBFBJBPBB",
+        "BQRBGBSTB",
+        "BUVBEBWUB",
+        "XBBAYABBX"
+      ],
+      "key": {
+        "A": {
+          "item": "projectex:fading_matter"
+        },
+        "B": {
+          "item": "projectex:white_matter"
+        },
+        "C": {
+          "item": "thermal:diving_boots"
+        },
+        "D": {
+          "item": "draconicevolution:chaotic_capacitor"
+        },
+        "E": {
+          "item": "draconicevolution:chaotic_speed_module"
+        },
+        "F": {
+          "item": "thermal:beekeeper_boots"
+        },
+        "G": {
+          "item": "overloaded:energy_core"
+        },
+        "H": {
+          "item": "cyclic:crystal_boots"
+        },
+        "I": {
+          "item": "tconstruct:plate_boots"
+        },
+        "J": {
+          "item": "solarflux:sp_de.chaotic"
+        },
+        "K": {
+          "item": "naturesaura:sky_shoes"
+        },
+        "L": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "M": {
+          "item": "bloodmagic:livingboots"
+        },
+        "N": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "O": {
+          "item": "immersiveengineering:armor_faraday_feet"
+        },
+        "P": {
+          "item": "thermal:hazmat_boots"
+        },
+        "Q": {
+          "item": "projecte:gem_boots"
+        },
+        "R": {
+          "item": "minecraft:netherite_boots"
+        },
+        "S": {
+          "item": "miniutilities:infused_boots"
+        },
+        "T": {
+          "item": "thebeginning:florite_armor_armor_boots"
+        },
+        "U": {
+          "item": "projectex:final_star_shard"
+        },
+        "V": {
+          "item": "projectred-exploration:sapphire_boots"
+        },
+        "W": {
+          "item": "mysticaladaptations:insanium_boots"
+        },
+        "X": {
+          "item": "chromasky:ultimategem"
+        },
+        "Y": {
+          "item": "mekanism:mekasuit_boots"
+        }
+      },
+      "result": {
+        "item": "overloaded:multi_boots"
+      }
+    }
+  )
+
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        " AA      ",
+        "ABAA     ",
+        "AACCA    ",
+        " ACDEA   ",
+        "  AEFEA  ",
+        "   AEGHA ",
+        "  AAAHIJA",
+        "  KLAAMNA",
+        "  AKA AAO"
+      ],
+      "key": {
+        "A": {
+          "item": "projectex:fading_matter"
+        },
+        "B": {
+          "item": "mekanism:laser"
+        },
+        "C": {
+          "item": "overloaded:energy_core"
+        },
+        "D": {
+          "item": "draconicevolution:chaotic_capacitor"
+        },
+        "E": {
+          "item": "draconicevolution:reactor_stabilizer"
+        },
+        "F": {
+          "item": "draconicevolution:reactor_core"
+        },
+        "G": {
+          "item": "solarflux:sp_de.chaotic"
+        },
+        "H": {
+          "item": "projectex:final_star_shard"
+        },
+        "I": {
+          "item": "draconicevolution:chaotic_damage_module"
+        },
+        "J": {
+          "item": "draconicevolution:chaotic_proj_damage_module"
+        },
+        "K": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "L": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "M": {
+          "item": "draconicevolution:draconic_proj_grav_comp_module"
+        },
+        "N": {
+          "item": "immersiveengineering:railgun"
+        },
+        "O": {
+          "item": "chromasky:ultimategem"
+        }
+      },
+      "result": {
+        "item": "overloaded:railgun"
       }
     }
   )
