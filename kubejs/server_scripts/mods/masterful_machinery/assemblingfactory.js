@@ -114,6 +114,7 @@ e.custom({
   assembling3(20, 10000, 'mekanism:ingot_steel', 4, 'immersiveengineering:treated_wood_horizontal', 4, 'chromasky:mechanic_core_tier_2', 1, 'industrialforegoing:machine_frame_pity')
   assembling3(20, 100000, 'mekanism:ingot_steel', 4, 'mekanism:ingot_osmium', 4, 'chromasky:mechanic_core_tier_4', 1, 'mekanism:steel_casing')
   assembling3(20, 100000, 'krate:krate_basic', 4, 'minecraft:obsidian', 4, 'minecraft:ender_pearl', 4, 'entangled:block')
+  assembling3(20, 10000, 'mysticalagriculture:inferium_essence', 4, 'mysticalagriculture:inferium_block', 4, 'minecraft:wheat_seeds', 1, 'mysticalagriculture:inferium_seeds')
 
   // 4 Inputs
   assembling4(20, 10000, 'mekanism:ingot_steel', 4, 'thermal:lapis_gear', 2, 'thermal:gold_plate', 2, 'chromasky:mechanic_core_tier_2', 1, 'rftoolsbase:machine_frame')
