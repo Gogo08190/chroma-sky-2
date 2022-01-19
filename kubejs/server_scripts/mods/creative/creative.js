@@ -2829,4 +2829,280 @@ onEvent("recipes", (event) => {
       }
     }
   )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "         ",
+        "     AAA ",
+        "    ABCDA",
+        "   AEFGHA",
+        "  AIJKALA",
+        " AMNOPQRA",
+        " ASTUOVA ",
+        " AWXYAA  ",
+        "  AAA    "
+      ],
+      "key": {
+        "A": {
+          "item": "rats:block_of_cheese"
+        },
+        "B": {
+          "item": "rats:cheese"
+        },
+        "C": {
+          "item": "pamhc2foodextended:groiledcheesesandwichitem"
+        },
+        "D": {
+          "item": "chromasky:ultimatebeer"
+        },
+        "E": {
+          "item": "pamhc2foodextended:grilledcheesevegemitetoastitem"
+        },
+        "F": {
+          "item": "pamhc2foodextended:cheesesteakitem"
+        },
+        "G": {
+          "item": "pamhc2foodcore:pumpkincheesecakeitem"
+        },
+        "H": {
+          "item": "pamhc2foodcore:baconcheeseburgeritem"
+        },
+        "I": {
+          "item": "rats:blue_cheese"
+        },
+        "J": {
+          "item": "pamhc2foodcore:cheesecakeitem"
+        },
+        "K": {
+          "item": "pamhc2foodextended:crackersandcheeseitem"
+        },
+        "L": {
+          "item": "pamhc2foodextended:cheesedanishitem"
+        },
+        "M": {
+          "item": "rats:nether_cheese"
+        },
+        "N": {
+          "item": "pamhc2foodextended:hamandcheesesandwichitem"
+        },
+        "O": {
+          "item": "pamhc2foodextended:potatoandcheesepirogiitem"
+        },
+        "P": {
+          "item": "pamhc2foodcore:grilledcheeseitem"
+        },
+        "Q": {
+          "item": "pamhc2foodcore:macncheeseitem"
+        },
+        "R": {
+          "item": "pamhc2foodextended:cheeseontoastitem"
+        },
+        "S": {
+          "item": "thermal:cheese_wheel"
+        },
+        "T": {
+          "item": "farmersdelight:sweet_berry_cheesecake_slice"
+        },
+        "U": {
+          "item": "pamhc2foodcore:basiccheeseburgeritem"
+        },
+        "V": {
+          "item": "pamhc2foodextended:herbcheeseballitem"
+        },
+        "W": {
+          "item": "chromasky:ultimate_meat"
+        },
+        "X": {
+          "item": "farmersdelight:sweet_berry_cheesecake"
+        },
+        "Y": {
+          "item": "thermal:cheese_wedge"
+        }
+      },
+      "result": {
+        "item": "rats:creative_cheese"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABBBBBBBA",
+        "BCCDDDCCB",
+        "BCDDEDDCB",
+        "BDDFEGDDB",
+        "BDEEHEEDB",
+        "BDDIEJDDB",
+        "BCDDEDDCB",
+        "BCCDDDCCB",
+        "ABBBBBBBA"
+      ],
+      "key": {
+        "A": {
+          "item": "chromasky:ultimategem"
+        },
+        "B": {
+          "item": "rats:marbled_cheese_raw"
+        },
+        "C": {
+          "item": "extendedcrafting:the_ultimate_ingot"
+        },
+        "D": {
+          "item": "rats:tiny_coin"
+        },
+        "E": {
+          "item": "rats:rat_upgrade_jury_rigged"
+        },
+        "F": {
+          "type": "forge:nbt",
+          "item": "rats:piper_hat",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        },
+        "G": {
+          "type": "forge:nbt",
+          "item": "rats:black_death_mask",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        },
+        "H": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "I": {
+          "type": "forge:nbt",
+          "item": "rats:plague_scythe",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        },
+        "J": {
+          "type": "forge:nbt",
+          "item": "rats:rat_flute",
+          "count": 1,
+          "nbt": "{Command:1}"
+        }
+      },
+      "result": {
+        "item": "rats:rat_upgrade_combined_creative"
+      }
+    }
+  )
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABBBBBBBA",
+        "BCDEBFDCB",
+        "BDGHIJKDB",
+        "BLMIDINOB",
+        "BBPQDRSBB",
+        "BTUVDWXYB",
+        "BDZ1D23DB",
+        "BCD4B5DCB",
+        "ABBBBBBBA"
+      ],
+      "key": {
+        "A": {
+          "item": "chromasky:ultimategem"
+        },
+        "B": {
+          "item": "rats:block_of_cheese"
+        },
+        "C": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "D": {
+          "item": "extendedcrafting:the_ultimate_ingot"
+        },
+        "E": {
+          "item": "rats:rat_upgrade_dragon"
+        },
+        "F": {
+          "item": "rats:rat_upgrade_damage_protection"
+        },
+        "G": {
+          "item": "rats:rat_upgrade_chef"
+        },
+        "H": {
+          "item": "rats:rat_upgrade_god"
+        },
+        "I": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "J": {
+          "item": "rats:rat_upgrade_replanter"
+        },
+        "K": {
+          "item": "rats:rat_upgrade_ore_doubling"
+        },
+        "L": {
+          "item": "rats:rat_upgrade_warrior"
+        },
+        "M": {
+          "item": "rats:rat_upgrade_undead"
+        },
+        "N": {
+          "item": "rats:rat_upgrade_gemcutter"
+        },
+        "O": {
+          "item": "rats:rat_upgrade_carrat"
+        },
+        "P": {
+          "item": "rats:rat_upgrade_no_flute"
+        },
+        "Q": {
+          "item": "rats:rat_upgrade_bee"
+        },
+        "R": {
+          "item": "rats:rat_upgrade_enchanter"
+        },
+        "S": {
+          "item": "rats:rat_upgrade_asbestos"
+        },
+        "T": {
+          "item": "rats:rat_upgrade_christmas"
+        },
+        "U": {
+          "item": "rats:rat_upgrade_poison"
+        },
+        "V": {
+          "item": "rats:rat_upgrade_underwater"
+        },
+        "W": {
+          "item": "rats:rat_upgrade_crossbow"
+        },
+        "X": {
+          "item": "rats:rat_upgrade_demon"
+        },
+        "Y": {
+          "item": "rats:rat_upgrade_strength"
+        },
+        "Z": {
+          "item": "rats:rat_upgrade_health"
+        },
+        "1": {
+          "item": "rats:rat_upgrade_speed"
+        },
+        "2": {
+          "item": "rats:rat_upgrade_disenchanter"
+        },
+        "3": {
+          "item": "rats:rat_upgrade_bow"
+        },
+        "4": {
+          "item": "rats:rat_upgrade_platter"
+        },
+        "5": {
+          "item": "rats:rat_upgrade_angel"
+        }
+      },
+      "result": {
+        "item": "rats:rat_upgrade_creative"
+      }
+    }
+  )
 });
