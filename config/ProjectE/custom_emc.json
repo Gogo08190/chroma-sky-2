@@ -15,6 +15,10 @@
     {
       "item": "projecte:dark_matter",
       "emc": 139264
+    },
+    {
+      "item": "projecte:philosophers_stone",
+      "emc": 1252315
     }
   ]
 }
