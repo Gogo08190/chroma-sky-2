@@ -38,4 +38,31 @@ onEvent('recipes', event => {
     R: 'bloodmagic:blankrune',
     C: 'mekanism:ultimate_fluid_tank'
   })
+
+  event.remove({ output: 'bloodmagic:altar' })
+  event.shaped('bloodmagic:altar', [
+  'CNC',
+  'CFC',
+  'SSS'
+  ], {
+    S: 'powah:steel_energized',
+    C: 'chromasky:3x_compressed_stone',
+    F: 'industrialforegoing:resourceful_furnace',
+    N: 'powah:nitro_crystal_block'
+  })
+
+  event.remove({ output: 'bloodmagic:sacrificialdagger' })
+  event.shaped('bloodmagic:sacrificialdagger', [
+  'GGG',
+  'NSG',
+  'ENG'
+  ], {
+    E: 'theabyss:fusionsword',
+    N: 'powah:crystal_nitro',
+    S: 'powah:steel_energized',
+    G: 'thermal:obsidian_glass'
+  })
+
+  event.remove({ output: 'bloodmagic:daggerofsacrifice' })
+  event.recipes.bloodmagic.altar( 'bloodmagic:daggerofsacrifice', 'mysticalagriculture:soulium_dagger').upgradeLevel(2).altarSyphon(3000).consumptionRate(5).drainRate(5)
 });
