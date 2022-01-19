@@ -85,7 +85,7 @@ onEvent('recipes', event => {
   ' SM',
   'S  '
   ], {
-    S: 'immersiveengineering:stick_treated',
+    S: 'minecraft:stick',
     M: 'minecraft:string',
     C: 'chromasky:hammer_head'
   })
@@ -96,7 +96,7 @@ onEvent('recipes', event => {
   'SC ',
   ' S '
   ], {
-    S: 'immersiveengineering:stick_treated',
+    S: 'minecraft:stick',
     C: 'chromasky:wirecutter_head'
   })
 
