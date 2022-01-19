@@ -2760,4 +2760,72 @@ onEvent("recipes", (event) => {
       }
     }
   )
+
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        " AA      ",
+        "ABAA     ",
+        "AACCA    ",
+        " ACDEA   ",
+        "  AEFEA  ",
+        "   AEGHA ",
+        "  AAAHIJA",
+        "  KLAAMNA",
+        "  AKA AAO"
+      ],
+      "key": {
+        "A": {
+          "item": "projectex:fading_matter"
+        },
+        "B": {
+          "item": "mekanism:laser"
+        },
+        "C": {
+          "item": "overloaded:energy_core"
+        },
+        "D": {
+          "item": "draconicevolution:chaotic_capacitor"
+        },
+        "E": {
+          "item": "draconicevolution:reactor_stabilizer"
+        },
+        "F": {
+          "item": "draconicevolution:reactor_core"
+        },
+        "G": {
+          "item": "solarflux:sp_de.chaotic"
+        },
+        "H": {
+          "item": "projectex:final_star_shard"
+        },
+        "I": {
+          "item": "draconicevolution:chaotic_damage_module"
+        },
+        "J": {
+          "item": "draconicevolution:chaotic_proj_damage_module"
+        },
+        "K": {
+          "item": "mysticalagradditions:creative_essence"
+        },
+        "L": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "M": {
+          "item": "draconicevolution:draconic_proj_grav_comp_module"
+        },
+        "N": {
+          "item": "immersiveengineering:railgun"
+        },
+        "O": {
+          "item": "chromasky:ultimategem"
+        }
+      },
+      "result": {
+        "item": "overloaded:railgun"
+      }
+    }
+  )
 });
