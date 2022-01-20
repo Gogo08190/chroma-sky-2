@@ -37,6 +37,38 @@ onEvent("recipes", (event) => {
         ],
     });
 
+    event.remove({ output: 'draconicevolution:wyvern_chestpiece' })
+    event.recipes.draconicevolution.fusion_crafting({
+        result: {
+            item: "draconicevolution:wyvern_chestpiece",
+        },
+        catalyst: {
+            item: "theabyss:abyss_a_netherithe_chestplate",
+        },
+        total_energy: 8000000,
+        tier: "WYVERN",
+        ingredients: [
+            {
+                item: "draconicevolution:draconium_core",
+            },
+            {
+                item: "draconicevolution:draconium_ingot",
+            },
+            {
+                item: "draconicevolution:draconium_ingot",
+            },
+            {
+                item: "draconicevolution:basic_relay_crystal",
+            },
+            {
+                item: "draconicevolution:wyvern_energy_core",
+            },
+            {
+                item: "draconicevolution:basic_relay_crystal",
+            },
+        ],
+    });
+
     event.recipes.draconicevolution.fusion_crafting({
         result: {
             item: "ftb-power-pots:power_pot_mk2",
