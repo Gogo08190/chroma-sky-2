@@ -446,6 +446,9 @@ onEvent("recipes", (event) => {
           "item": "immersiveengineering:coal_coke"
         },
         {
+          "item": "immersivepetroleum:petcoke"
+        },
+        {
           "item": "mysticalagradditions:inferium_coal"
         },
         {
