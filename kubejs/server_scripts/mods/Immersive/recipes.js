@@ -1,6 +1,6 @@
 onEvent('recipes', event => {
 
-  event.remove({output: 'immersiveengineering:dust_hop_graphite', input: 'immersiveengineering:dust_coke'})
+  event.remove({id: 'immersiveengineering:squeezer/graphite_dust'})
 
   // LV Capacitor
   event.remove({ output: 'immersiveengineering:capacitor_lv' })
