@@ -207,4 +207,17 @@ onEvent("recipes", (event) => {
       S: 'immersiveengineering:plate_steel',
       R: 'thermal:red_rockwool'
     });
+
+    event.remove({ output: 'tiab:timeinabottle' })
+    event.shaped('tiab:timeinabottle', [
+    'GGG',
+    'DTD',
+    'LBL'
+    ], {
+      L: 'minecraft:lapis_lazuli',
+      B: 'minecraft:glass_bottle',
+      D: 'thermal:diamond_gear',
+      T: 'naturesaura:clock_hand',
+      G: 'minecraft:gold_ingot'
+    });
 });
