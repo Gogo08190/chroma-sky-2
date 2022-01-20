@@ -26,6 +26,17 @@ onEvent("recipes", (event) => {
     B: 'thermal:copper_ingot'
   })
 
+  event.remove({ output: 'mekanism:basic_fluid_tank' })
+  event.shaped('mekanism:basic_fluid_tank', [
+  'RIR',
+  'IGI',
+  'RIR'
+  ], {
+    R: 'extendedcrafting:redstone_ingot',
+    I: 'ftbjarmod:cast_iron_ingot',
+    G: 'ftbjarmod:tempered_glass'
+  })
+
   event.remove({ output: 'mekanismgenerators:solar_panel' })
   event.shaped('mekanismgenerators:solar_panel', [
   'GGG',
