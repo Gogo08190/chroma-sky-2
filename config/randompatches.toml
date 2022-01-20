@@ -131,16 +131,16 @@
 		# Forward slashes should be used even on Windows to preserve compatibility with other platforms.
 		# Backward slashes will automatically be replaced.
 		# Default: ""
-		icon_16x16 = ""
+		icon_16x16 = "kubejs/assets/chromasky2/icon.png"
 		# The path to the 16x16 Minecraft window icon relative to the Minecraft instance directory.
 		# Forward slashes should be used even on Windows to preserve compatibility with other platforms.
 		# Backward slashes will automatically be replaced.
 		# Default: ""
-		icon_32x32 = ""
+		icon_32x32 = "kubejs/assets/chromasky2/icon.png"
 		# The path to the 256x256 Minecraft window icon relative to the Minecraft instance directory.
 		# This is only used on Mac OS X.
 		# Default: ""
-		icon_256x256 = ""
+		icon_256x256 = "kubejs/assets/chromasky2/icon.png"
 
 # Options related to connection timeouts.
 [connection_timeouts]

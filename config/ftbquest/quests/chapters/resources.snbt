@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 5.5d
-			y: -8.5d
+			x: 5.2295918367346985d
+			y: -8.534183673469386d
 			description: [
 				"The manual pump will allow you to bring water automatically in your sluices."
 				""
@@ -30,7 +30,7 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 4.5d
 			y: -7.5d
 			dependencies: [
 				"3A520D98DB566C24"
