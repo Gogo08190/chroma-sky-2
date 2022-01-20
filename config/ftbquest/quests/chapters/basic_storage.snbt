@@ -1,0 +1,295 @@
+{
+	id: "1AEF78891286546B"
+	group: "638FC427456F902B"
+	order_index: 2
+	filename: "basic_storage"
+	title: "Basic Storage"
+	icon: "krate:krate_big"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: -0.5d
+			id: "06A76CB4F8480A70"
+			tasks: [{
+				id: "16CF0D5EA3439317"
+				type: "item"
+				item: "krate:krate_small"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["06A76CB4F8480A70"]
+			id: "2C8FDC0987A55F71"
+			tasks: [{
+				id: "4E78881611951E40"
+				type: "item"
+				item: "krate:krate_basic"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["2C8FDC0987A55F71"]
+			id: "7A51E26FF5BD4D1E"
+			tasks: [{
+				id: "4EF1B71677B974F3"
+				type: "item"
+				item: "krate:krate_big"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			dependencies: ["7A51E26FF5BD4D1E"]
+			id: "0919CE4B899BD2BC"
+			tasks: [{
+				id: "3FF8407C9ECE2F8A"
+				type: "item"
+				item: "krate:krate_large"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			id: "7F397E4088BA8A5F"
+			tasks: [{
+				id: "714FFF1782FC895C"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			id: "67F2C921E03718D4"
+			tasks: [{
+				id: "19698126CB026EE8"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_2"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			id: "4B33BFA502399324"
+			tasks: [{
+				id: "71C430E8FD57FF68"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_4"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			id: "7B5B6F766D59F274"
+			tasks: [{
+				id: "586422C9732B212E"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			id: "61ABE2239032E04E"
+			tasks: [{
+				id: "481AE1D5FFB6D9A5"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			id: "54BB24C4670F336B"
+			tasks: [{
+				id: "0716010C3F8880E4"
+				type: "item"
+				item: "storagedrawers:drawer_key"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			id: "550D8B1810AEA52B"
+			tasks: [{
+				id: "274C3D8AD7F8FD9E"
+				type: "item"
+				item: "storagedrawers:quantify_key"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			id: "3193437C5F3F0D6E"
+			tasks: [{
+				id: "65D594E9E8A93EC0"
+				type: "item"
+				item: "storagedrawers:shroud_key"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			id: "5C6387836A9F6896"
+			tasks: [{
+				id: "22D01A5BAD78C30B"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["5C6387836A9F6896"]
+			id: "7405B83D0ADAC9FE"
+			tasks: [{
+				id: "470837B2A0E73910"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			dependencies: ["5C6387836A9F6896"]
+			id: "133EB74E48D93422"
+			tasks: [{
+				id: "64728CF7625DBCEE"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["5C6387836A9F6896"]
+			id: "2C9BB21CD8A445DE"
+			tasks: [{
+				id: "38BAD5588A8EE333"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["5C6387836A9F6896"]
+			id: "13D47AA9963C2A5A"
+			tasks: [{
+				id: "77530E94A8A06596"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			dependencies: ["5C6387836A9F6896"]
+			id: "7DDF88D02453003F"
+			tasks: [{
+				id: "5D3701409F215826"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			dependencies: ["5C6387836A9F6896"]
+			id: "339A4351EEA4BBCD"
+			tasks: [{
+				id: "2FAAA908B4728FCC"
+				type: "item"
+				item: "storagedrawers:void_upgrade"
+			}]
+		}
+		{
+			title: "Chest"
+			x: -1.5d
+			y: -1.5d
+			id: "7BDEB257307A7144"
+			tasks: [{
+				id: "4DE62D47250F49F6"
+				type: "item"
+				title: "Any Chests"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["7BDEB257307A7144"]
+			id: "2B639970FB4E8E2C"
+			tasks: [{
+				id: "3EAE878D73B2E703"
+				type: "item"
+				item: "expandedstorage:iron_chest"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["2B639970FB4E8E2C"]
+			id: "286E234A9FF52C4B"
+			tasks: [{
+				id: "271430A95A35BBD7"
+				type: "item"
+				item: "expandedstorage:gold_chest"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["286E234A9FF52C4B"]
+			id: "67F093BAC3F2F4E2"
+			tasks: [{
+				id: "20BAE18E7EFE3E55"
+				type: "item"
+				item: "expandedstorage:diamond_chest"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["67F093BAC3F2F4E2"]
+			id: "261364DCA6357742"
+			tasks: [{
+				id: "71C4F702CA56FD9D"
+				type: "item"
+				item: "expandedstorage:obsidian_chest"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["261364DCA6357742"]
+			id: "6A7576494C71ABFA"
+			tasks: [{
+				id: "4CFE1BF3796D9DFA"
+				type: "item"
+				item: "expandedstorage:netherite_chest"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			dependencies: ["5C6387836A9F6896"]
+			id: "34E11B1C3B3443D6"
+			tasks: [{
+				id: "519E17ED80E395DD"
+				type: "item"
+				item: "storagedrawers:illumination_upgrade"
+			}]
+		}
+	]
+}

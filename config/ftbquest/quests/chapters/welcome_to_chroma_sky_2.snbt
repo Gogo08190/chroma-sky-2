@@ -1,0 +1,61 @@
+{
+	id: "55C5E6B920D7D0D6"
+	group: ""
+	order_index: 0
+	filename: "welcome_to_chroma_sky_2"
+	title: "Welcome to Chroma Sky 2"
+	icon: "easy_villagers:villager"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "easy_villagers:villager"
+			x: 0.0d
+			y: -0.5d
+			shape: "diamond"
+			size: 2.0d
+			id: "5AA98A6A5E15905F"
+			tasks: [{
+				id: "5B8B68C114B20D74"
+				type: "checkmark"
+				title: "&bWelcome To Chroma Sky 2"
+			}]
+		}
+		{
+			icon: "apotheosis:prismatic_web"
+			x: 0.0d
+			y: 1.5d
+			shape: "diamond"
+			id: "738A41EE59B4EDC5"
+			tasks: [{
+				id: "7353B0C8F5A50E49"
+				type: "checkmark"
+				title: "Website"
+			}]
+		}
+		{
+			icon: "ftbquests:book"
+			x: -0.5d
+			y: 1.0d
+			shape: "diamond"
+			id: "243F4EFC9D26092C"
+			tasks: [{
+				id: "264E7046950CF37A"
+				type: "checkmark"
+				title: "Quest"
+			}]
+		}
+		{
+			icon: "losttrinkets:tha_cloud"
+			x: 0.5d
+			y: 1.0d
+			shape: "diamond"
+			id: "024C04C97172D08D"
+			tasks: [{
+				id: "27D96D6880BAC10E"
+				type: "checkmark"
+				title: "Islands"
+			}]
+		}
+	]
+}

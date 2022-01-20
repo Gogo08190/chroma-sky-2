@@ -1,0 +1,480 @@
+{
+	id: "7592EF1502B175DE"
+	group: "638FC427456F902B"
+	order_index: 1
+	filename: "resources"
+	title: "Resources"
+	icon: "ftbjarmod:tempered_jar"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 5.5d
+			y: -8.5d
+			description: [
+				"The manual pump will allow you to bring water automatically in your sluices."
+				""
+				"You can accumulate energy in the pump by right-clicking on it."
+				"Then uses that stored energy to pull 1000mb of water per second from an infinite water source below and push it into a connected Sluice."
+			]
+			dependencies: [
+				"1B69AF5509A2B907"
+				"5B805560F6C55879"
+			]
+			min_width: 250
+			id: "3B562ADCA37D372C"
+			tasks: [{
+				id: "4512DCE2F6494882"
+				type: "item"
+				item: "ftbsluice:pump"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -7.5d
+			dependencies: [
+				"3A520D98DB566C24"
+				"3F05D033EBD0710D"
+			]
+			id: "6A80532DD41BEECA"
+			tasks: [{
+				id: "229CE3B3B270692C"
+				type: "item"
+				item: "ftbsluice:iron_sluice"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -12.0d
+			description: [
+				"Tempered Glass Jars are used to mix, smelt items and fluids using different heat sources below the jar."
+				""
+				"In the top center you can see the currently selected recipe and (if applicable) its process, as well as controls to start / stop processing."
+				"At the bottom is the recipe selection area, if a recipe is greyed out it means you don't have the right heat source below the jar."
+				""
+				"&n&l&7No Temperature&r : Glowstone, Crying Obsidian, Respawn Anchor, Any Block"
+				""
+				"&n&l&6Low Temperature&r : Campfire, Fire, Torch, Lava, Magma Block"
+				""
+				"&n&l&bHigh Temperature&r : Soul Campfire, Beacon, Blue Magma Block, Soul Fire"
+				""
+				"&n&lSub-Zero Temperature&r : Snow, Ice, Packed Ice, Blue Ice, Dry Ice"
+			]
+			dependencies: ["21288D54FFA59370"]
+			min_width: 300
+			id: "054C13431F464EC6"
+			tasks: [{
+				id: "0B2EF1BF5A9AC98B"
+				type: "item"
+				item: "ftbjarmod:tempered_jar"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -12.0d
+			dependencies: [
+				"1B69AF5509A2B907"
+				"054C13431F464EC6"
+			]
+			id: "7AB5F4329A74D395"
+			tasks: [{
+				id: "0636596C538435E2"
+				type: "item"
+				item: "ftbjarmod:jar"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -12.0d
+			dependencies: [
+				"1B69AF5509A2B907"
+				"054C13431F464EC6"
+				"67E762B3198BF56C"
+			]
+			id: "5E1336C65337CC14"
+			tasks: [{
+				id: "72D2A54B43CFCE75"
+				type: "item"
+				item: "ftbjarmod:auto_processing_block"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -6.0d
+			dependencies: [
+				"3F05D033EBD0710D"
+				"0ABA29AAB5DCD885"
+			]
+			id: "45DCDA121B4179D2"
+			tasks: [{
+				id: "76EA0C0314B82C09"
+				type: "item"
+				item: "ftbsluice:iron_mesh"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -5.5d
+			dependencies: ["45DCDA121B4179D2"]
+			id: "5457F53E1DBA6A03"
+			tasks: [{
+				id: "3271126105738133"
+				type: "item"
+				item: "ftbsluice:gold_mesh"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -6.0d
+			dependencies: ["5457F53E1DBA6A03"]
+			id: "22999033333BCA2C"
+			tasks: [{
+				id: "6E7B955ACBE357DC"
+				type: "item"
+				item: "ftbsluice:diamond_mesh"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -12.0d
+			dependencies: [
+				"1B69AF5509A2B907"
+				"67E762B3198BF56C"
+			]
+			id: "21288D54FFA59370"
+			tasks: [{
+				id: "5C35847E959DD74B"
+				type: "item"
+				item: "ftbjarmod:tube"
+			}]
+			rewards: [{
+				id: "6447F36957C10CEC"
+				type: "item"
+				item: "ftbjarmod:tube"
+				count: 6
+			}]
+		}
+		{
+			x: 2.5d
+			y: -12.0d
+			shape: "pentagon"
+			dependencies: [
+				"5357A7208D1C2B46"
+				"243FA1E08B56689C"
+			]
+			size: 1.2d
+			id: "28B825EB289B3BCD"
+			tasks: [{
+				id: "61E19EAAC23389C5"
+				type: "item"
+				item: "dimpaintings:nether_painting"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -12.0d
+			description: ["By melting &8cobblestone&r in FTB Jar you will get &clava&r."]
+			dependencies: ["054C13431F464EC6"]
+			id: "0BA2FBC41F80C847"
+			tasks: [{
+				id: "460BAF174FBC9BA8"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.0d
+			dependencies: [
+				"3F05D033EBD0710D"
+				"1B69AF5509A2B907"
+			]
+			id: "2BA8BD15B112F7BE"
+			tasks: [{
+				id: "7409DF1CE9F8F0DA"
+				type: "item"
+				item: "ftbsluice:iron_auto_hammer"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.5d
+			dependencies: ["2BA8BD15B112F7BE"]
+			id: "36E1FC744D10BC6E"
+			tasks: [{
+				id: "62184A064CF1702C"
+				type: "item"
+				item: "ftbsluice:gold_auto_hammer"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.0d
+			dependencies: ["36E1FC744D10BC6E"]
+			id: "472B6224BE2A72E1"
+			tasks: [{
+				id: "2694746C7A87045A"
+				type: "item"
+				item: "ftbsluice:diamond_auto_hammer"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -10.5d
+			dependencies: ["0BA2FBC41F80C847"]
+			id: "4DE1E7A69AD51402"
+			tasks: [{
+				id: "4D56D89167681FA6"
+				type: "item"
+				item: "cobblefordays:tier_1"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -10.5d
+			dependencies: [
+				"0BA2FBC41F80C847"
+				"054C13431F464EC6"
+				"152FF2195E210630"
+			]
+			id: "243FA1E08B56689C"
+			tasks: [{
+				id: "6957E409B34987A4"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -13.5d
+			dependencies: [
+				"0BA2FBC41F80C847"
+				"054C13431F464EC6"
+			]
+			id: "5357A7208D1C2B46"
+			tasks: [{
+				id: "2650D8600E46305B"
+				type: "item"
+				item: "minecraft:netherrack"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -7.5d
+			dependencies: ["6A80532DD41BEECA"]
+			id: "0F668D0787EC56C6"
+			tasks: [{
+				id: "5F901F2A3B868534"
+				type: "item"
+				item: "ftbsluice:diamond_sluice"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -13.5d
+			dependencies: [
+				"152FF2195E210630"
+				"0BA2FBC41F80C847"
+				"054C13431F464EC6"
+			]
+			id: "4EA01A9B2D78799A"
+			tasks: [{
+				id: "7C1FF047929BC5B8"
+				type: "item"
+				item: "minecraft:basalt"
+			}]
+		}
+		{
+			title: "Clusters"
+			x: 9.0d
+			y: -10.5d
+			shape: "circle"
+			dependencies: [
+				"2BF510AA8F2C57F2"
+				"0ABA29AAB5DCD885"
+			]
+			id: "088D692E25F62BFD"
+			tasks: [{
+				id: "72E74E9FAD435E21"
+				type: "item"
+				title: "Any Cluster"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "chromasky:iron_cluster"
+								Count: 1b
+							}
+							{
+								id: "chromasky:gold_cluster"
+								Count: 1b
+							}
+							{
+								id: "chromasky:diamond_cluster"
+								Count: 1b
+							}
+							{
+								id: "chromasky:quartz_cluster"
+								Count: 1b
+							}
+							{
+								id: "chromasky:redstone_cluster"
+								Count: 1b
+							}
+							{
+								id: "chromasky:emerald_cluster"
+								Count: 1b
+							}
+							{
+								id: "chromasky:copper_cluster"
+								Count: 1b
+							}
+							{
+								id: "chromasky:cobalt_cluster"
+								Count: 1b
+							}
+							{
+								id: "chromasky:lead_cluster"
+								Count: 1b
+							}
+							{
+								id: "chromasky:tin_cluster"
+								Count: 1b
+							}
+							{
+								id: "chromasky:silver_cluster"
+								Count: 1b
+							}
+							{
+								id: "chromasky:lapis_cluster"
+								Count: 1b
+							}
+							{
+								id: "chromasky:nickel_cluster"
+								Count: 1b
+							}
+							{
+								id: "chromasky:osmium_cluster"
+								Count: 1b
+							}
+							{
+								id: "chromasky:fluorite_cluster"
+								Count: 1b
+							}
+							{
+								id: "chromasky:uranium_cluster"
+								Count: 1b
+							}
+							{
+								id: "chromasky:aluminum_cluster"
+								Count: 1b
+							}
+							{
+								id: "chromasky:coal_cluster"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -10.5d
+			dependencies: [
+				"0BA2FBC41F80C847"
+				"054C13431F464EC6"
+			]
+			id: "0D0125950C81816E"
+			tasks: [{
+				id: "3757FFD8D0E7D80D"
+				type: "item"
+				item: "minecraft:end_stone"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -9.5d
+			id: "50A94B8D166B0C9A"
+			tasks: [{
+				id: "7C73F4A316418FA1"
+				type: "item"
+				item: "cobblefordays:tier_3"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -8.5d
+			dependencies: ["50A94B8D166B0C9A"]
+			id: "3C1BADD6E7521772"
+			tasks: [{
+				id: "4B14928865C5EA9E"
+				type: "item"
+				item: "cobblefordays:tier_4"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -14.5d
+			shape: "octagon"
+			description: ["Cast Iron Gears, is one of the main components in FTB Jar recipes."]
+			dependencies: ["1B69AF5509A2B907"]
+			size: 1.3d
+			id: "67E762B3198BF56C"
+			tasks: [{
+				id: "6D30C741A38BFB8A"
+				type: "item"
+				item: "ftbjarmod:cast_iron_gear"
+			}]
+			rewards: [{
+				id: "3D861573A4B964E7"
+				type: "item"
+				item: "ftbjarmod:cast_iron_ingot"
+				count: 4
+			}]
+		}
+		{
+			title: "Clay Ball"
+			x: 7.0d
+			y: -10.5d
+			dependencies: ["054C13431F464EC6"]
+			id: "712D827C9FB7556F"
+			tasks: [{
+				id: "08A4B83E17A272BD"
+				type: "item"
+				item: "minecraft:clay_ball"
+				count: 16L
+			}]
+		}
+		{
+			title: "Grout"
+			x: 7.5d
+			y: -9.5d
+			dependencies: ["712D827C9FB7556F"]
+			id: "3AC4A6F40DA6E680"
+			tasks: [{
+				id: "73E13465E8AA92EE"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 16L
+			}]
+		}
+		{
+			title: "Seared Brick"
+			x: 8.719047619047643d
+			y: -8.652721088435342d
+			shape: "gear"
+			dependencies: ["3AC4A6F40DA6E680"]
+			size: 1.5d
+			id: "4276B8AFA45FF422"
+			tasks: [{
+				id: "4FE61F9FB135DC8A"
+				type: "item"
+				item: "tconstruct:seared_brick"
+				count: 16L
+			}]
+		}
+	]
+}

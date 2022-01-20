@@ -1,0 +1,21 @@
+{
+	id: "24B5CB632A3AE889"
+	group: "638FC427456F902B"
+	order_index: 3
+	filename: "mana_and_artifice"
+	title: "Mana and Artifice"
+	icon: "mana-and-artifice:guide_book"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -2.5d
+		y: -0.5d
+		shape: "hexagon"
+		id: "49766DA502FA3CE3"
+		tasks: [{
+			id: "4B231D4E67358D4C"
+			type: "item"
+			item: "mana-and-artifice:guide_book"
+		}]
+	}]
+}
