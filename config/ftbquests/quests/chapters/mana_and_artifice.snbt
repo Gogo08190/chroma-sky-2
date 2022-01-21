@@ -1,21 +1,778 @@
 {
 	id: "24B5CB632A3AE889"
 	group: "638FC427456F902B"
-	order_index: 3
+	order_index: 6
 	filename: "mana_and_artifice"
 	title: "Mana and Artifice"
 	icon: "mana-and-artifice:guide_book"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: -2.5d
-		y: -0.5d
-		shape: "hexagon"
-		id: "49766DA502FA3CE3"
-		tasks: [{
-			id: "4B231D4E67358D4C"
-			type: "item"
-			item: "mana-and-artifice:guide_book"
-		}]
-	}]
+	quests: [
+		{
+			x: -3.5d
+			y: -0.5d
+			shape: "hexagon"
+			id: "49766DA502FA3CE3"
+			tasks: [{
+				id: "4B231D4E67358D4C"
+				type: "item"
+				item: "mana-and-artifice:guide_book"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["49766DA502FA3CE3"]
+			id: "4D65C663D6E33AD1"
+			tasks: [{
+				id: "5188E2343B5AE669"
+				type: "item"
+				item: "mana-and-artifice:occulus"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["4D65C663D6E33AD1"]
+			id: "13EEC00E8C0E74D3"
+			tasks: [{
+				id: "21949E2CB8FDCE4C"
+				type: "checkmark"
+				title: "Tier2"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -0.5d
+			dependencies: ["13EEC00E8C0E74D3"]
+			id: "4673AA05474E416E"
+			tasks: [{
+				id: "7B4C7C4592917C6E"
+				type: "checkmark"
+				title: "Tier3"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			dependencies: ["4673AA05474E416E"]
+			id: "19C32614D8476285"
+			tasks: [{
+				id: "2D63A37E0E1255CA"
+				type: "checkmark"
+				title: "Tier4"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -0.5d
+			dependencies: ["19C32614D8476285"]
+			id: "38EF232690208FB4"
+			tasks: [{
+				id: "0301E3DD744FD467"
+				type: "checkmark"
+				title: "Tier5"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.0d
+			dependencies: ["19C32614D8476285"]
+			id: "708365E2F99D6FA3"
+			tasks: [{
+				id: "164E37F3CAE6FF70"
+				type: "item"
+				item: "mana-and-artifice:eldrin_altar"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["4D65C663D6E33AD1"]
+			id: "3F20415ED705FE0B"
+			tasks: [{
+				id: "1B65433B8677483E"
+				type: "item"
+				item: "mana-and-artifice:vellum"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			shape: "hexagon"
+			dependencies: ["528078ED845A9B6D"]
+			id: "2BDE562C12CC5DEB"
+			tasks: [{
+				id: "017F8A9B26461902"
+				type: "item"
+				item: "mana-and-artifice:inscription_table"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"78F051756FD54991"
+				"4D65C663D6E33AD1"
+			]
+			id: "52D71AEBD81BBA13"
+			tasks: [
+				{
+					id: "0A918B82286A6751"
+					type: "item"
+					item: "mana-and-artifice:arcane_ash"
+				}
+				{
+					id: "496BBF0DDCB162A4"
+					type: "item"
+					item: "mana-and-artifice:arcane_compound"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			shape: "hexagon"
+			dependencies: [
+				"52D71AEBD81BBA13"
+				"3F20415ED705FE0B"
+			]
+			id: "528078ED845A9B6D"
+			tasks: [{
+				id: "143A006AC03C044F"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:arcanist_ink"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			shape: "hexagon"
+			dependencies: ["2BDE562C12CC5DEB"]
+			id: "5E72C0CD30B7B124"
+			tasks: [{
+				id: "1BDC95FFA3FE7B47"
+				type: "item"
+				item: "mana-and-artifice:spell_book"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["4D65C663D6E33AD1"]
+			id: "515EF3943ECD7DDB"
+			tasks: [{
+				id: "3E08E5E9C2B894C9"
+				type: "item"
+				title: "Manaweaving wand"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:improvised_manaweaver_wand"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "mana-and-artifice:manaweaver_wand_advanced"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:manaweaver_wand"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			shape: "hexagon"
+			dependencies: ["4D65C663D6E33AD1"]
+			id: "78F051756FD54991"
+			tasks: [{
+				id: "68F9DAC565D488AD"
+				type: "item"
+				item: "mana-and-artifice:runeforge"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			shape: "hexagon"
+			dependencies: ["4D65C663D6E33AD1"]
+			id: "02628A32D083A95D"
+			tasks: [{
+				id: "2A3389FC0CD9820E"
+				type: "item"
+				item: "mana-and-artifice:manaweaving_altar"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			shape: "hexagon"
+			dependencies: ["4D65C663D6E33AD1"]
+			id: "4691A19BAFA54576"
+			tasks: [{
+				id: "345747F3471FC276"
+				type: "item"
+				item: "mana-and-artifice:construct_workbench"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			shape: "hexagon"
+			dependencies: ["4691A19BAFA54576"]
+			id: "32E4EADD98A8D491"
+			tasks: [{
+				id: "7DDF7A62CEA81CCA"
+				type: "item"
+				item: "mana-and-artifice:lodestar"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.0d
+			shape: "hexagon"
+			dependencies: ["3CB541121BAD261F"]
+			id: "489D66AC806D8BF7"
+			tasks: [{
+				id: "04AE63432F2ACB29"
+				type: "item"
+				item: "mana-and-artifice:runic_anvil"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.0d
+			shape: "hexagon"
+			dependencies: [
+				"44AF16FDCA3DFE4D"
+				"007BAD2E799D3D20"
+			]
+			id: "2A010874B1F1D042"
+			tasks: [{
+				id: "136FB3B3A26C3BD9"
+				type: "item"
+				item: "mana-and-artifice:runescribing_table"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["78F051756FD54991"]
+			id: "44AF16FDCA3DFE4D"
+			tasks: [{
+				id: "6AFBEBFE734996B3"
+				type: "item"
+				item: "mana-and-artifice:rune_clay_plate"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["78F051756FD54991"]
+			id: "007BAD2E799D3D20"
+			tasks: [{
+				id: "4C3B67E31926A5BE"
+				type: "item"
+				item: "mana-and-artifice:rune_pattern"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.0d
+			shape: "hexagon"
+			dependencies: ["2A010874B1F1D042"]
+			id: "3CB541121BAD261F"
+			tasks: [{
+				id: "2C0B7EA1A8D96A08"
+				type: "item"
+				item: "chromasky:pattern_mundane_cast_star_shard"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -5.0d
+			shape: "hexagon"
+			dependencies: ["3CB541121BAD261F"]
+			id: "1C1C756C3EAC95D5"
+			tasks: [{
+				id: "3218D2F7DE090D48"
+				type: "item"
+				item: "chromasky:mundane_cast_star_shard"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -2.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["1C1C756C3EAC95D5"]
+			id: "25EAB80CD5791A3C"
+			tasks: [{
+				id: "18C27A122019B8CB"
+				type: "item"
+				item: "chromasky:shard_star"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -1.0d
+			shape: "octagon"
+			dependencies: [
+				"650C8A3EAF99F7F6"
+				"25EAB80CD5791A3C"
+			]
+			size: 1.5d
+			id: "6FB5DF0B64BAD4B9"
+			tasks: [{
+				id: "18B12513A69832F6"
+				type: "item"
+				item: "astralsorcery:tome"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["57AC8058D7F2828C"]
+			dependency_requirement: "all_started"
+			id: "650C8A3EAF99F7F6"
+			tasks: [{
+				id: "42498958DF76B3EA"
+				type: "item"
+				item: "chromasky:magical_infuse_book"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["02628A32D083A95D"]
+			dependency_requirement: "all_started"
+			id: "5549ED33FDF4AEAF"
+			tasks: [{
+				id: "6A08CE817143F9CD"
+				type: "item"
+				item: "chromasky:enderessence"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["5549ED33FDF4AEAF"]
+			id: "0BDA67667CF2B2A3"
+			tasks: [{
+				id: "7F34FA8EAAFCD098"
+				type: "item"
+				item: "dimpaintings:end_painting"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["02628A32D083A95D"]
+			id: "56CE056754AC2BBF"
+			tasks: [{
+				id: "2896F533E313C043"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:bed_charm"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["02628A32D083A95D"]
+			id: "3B661CBEB09023A6"
+			tasks: [{
+				id: "793E1CAE1C5064B5"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:fall_charm"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			shape: "hexagon"
+			dependencies: ["4D65C663D6E33AD1"]
+			id: "32DA82CA3B2CB77E"
+			tasks: [{
+				id: "556CE501A96438E0"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:wizard_chalk"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -11.5d
+			description: [
+				"Tier 1:"
+				""
+				"To move to Tier 2, you will need to perform several tasks but not all, but a minimum of 10, for a maximum of 12, you will need to: "
+				""
+				"-Cast a spell"
+				""
+				"-Cast a cantrip (a sequence of symbols drawn in the air via the manaweaving wand, you can see the combinations by doing ctrl+right click you can select the symbols to be drawn by clicking on the little arrows right next to the symbol under the cantrip)"
+				""
+				"-Make a tier 1 ritual (you can see them in the codex, you just have to put the symbols on the ground as indicated on the craft, to activate the ritual you have to right click with a purified vinteum dust to see the items then right click again to activate the ritual)"
+				""
+				"-Create a manaweaving altar"
+				""
+				"-Create a viteum manaweaving wand"
+				""
+				"-Create a spell of complexity 15 or more"
+				""
+				"-Create an inscription table"
+				""
+				"-Craft something with a manaweaving altar"
+				""
+				"-Draw a symbol with the manaweaving wand (right click while drawing in the air)"
+				""
+				"-Reach a magic level of 15 (this level will increase as you use magic)"
+				""
+				"-use a bonefeather charm"
+				""
+				"-use an enderfeather charm"
+			]
+			min_width: 300
+			id: "06A1EEB14413F998"
+			tasks: [{
+				id: "36BA7C7B1D2A8F5B"
+				type: "item"
+				item: "mana-and-artifice:modifier_book"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -11.0d
+			id: "7AEF59123D32D06A"
+			tasks: [{
+				id: "3A35876521D1AFE0"
+				type: "item"
+				item: "mana-and-artifice:magic_broom"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -10.0d
+			id: "1B51595D4FE0E914"
+			tasks: [{
+				id: "4EE9C030679E2367"
+				type: "item"
+				item: "mana-and-artifice:mana_crystal"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -9.0d
+			id: "68C465D866121627"
+			tasks: [{
+				id: "1B5E7C61BBE80801"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:mana_crystal_fragment"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -11.5d
+			id: "7FB89B5AC336FF59"
+			tasks: [
+				{
+					id: "5B5AD483A9E07005"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:constructs/construct_basic_head_wood"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_rebreather_head_wood"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_smart_head_wood"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_horn_head_wood"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_rebreather_head_stone"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_smart_head_stone"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_horn_head_stone"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_basic_head_stone"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "11C3B4C73D8464B9"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:constructs/construct_basic_torso_wood"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_basic_torso_stone"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_mana_torso_stone"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_armor_torso_stone"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_mana_torso_wood"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_armor_torso_wood"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "4A4B95D25E718330"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:constructs/construct_blade_arm_left_wood"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_hammer_arm_left_wood"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_grabber_arm_left_wood"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_axe_arm_left_wood"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_shield_arm_left_wood"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_mana_cannon_left_wood"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_blade_arm_left_stone"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_mana_cannon_left_stone"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_shield_arm_left_stone"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_axe_arm_left_stone"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_grabber_arm_left_stone"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_hammer_arm_left_stone"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "17E7545EAACD15A2"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:constructs/construct_blade_arm_right_wood"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_grabber_arm_right_stone"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_axe_arm_right_stone"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_shield_arm_right_stone"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_mana_cannon_right_stone"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_hammer_arm_right_wood"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_grabber_arm_right_wood"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_axe_arm_right_wood"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_shield_arm_right_wood"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_mana_cannon_right_wood"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_blade_arm_right_stone"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_hammer_arm_right_stone"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "39F04CE30F189847"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:constructs/construct_basic_legs_stone"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_reinforced_legs_stone"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_ender_legs_stone"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_reinforced_legs_wood"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_basic_legs_wood"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_ender_legs_wood"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+	]
 }

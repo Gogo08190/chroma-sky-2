@@ -1,0 +1,583 @@
+{
+	id: "109529D227503DC3"
+	group: "638FC427456F902B"
+	order_index: 4
+	filename: "integrated_dynamics"
+	title: "Integrated Dynamics"
+	icon: "integrateddynamics:on_the_dynamics_of_integration"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 7.0d
+			y: -7.5d
+			dependencies: ["0ABA29AAB5DCD885"]
+			id: "71F00867FCD80380"
+			tasks: [{
+				id: "1BEB0C583DA25737"
+				type: "item"
+				item: "integrateddynamics:menril_sapling"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			id: "08030E2DAC25D1B7"
+			tasks: [{
+				id: "7D35CCF2ADB14DB3"
+				type: "item"
+				item: "integrateddynamics:crystalized_menril_block"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			dependencies: ["08030E2DAC25D1B7"]
+			id: "148A86A18A62924F"
+			tasks: [{
+				id: "0914723A1338280E"
+				type: "item"
+				item: "integrateddynamics:cable"
+				count: 16L
+			}]
+		}
+		{
+			title: "Reading blocks"
+			x: 2.0d
+			y: 0.0d
+			id: "1720A119FB153603"
+			tasks: [
+				{
+					id: "02D254BF8B963543"
+					type: "item"
+					item: "integrateddynamics:part_block_reader"
+				}
+				{
+					id: "185CC6A7A6EEDB90"
+					type: "item"
+					item: "integrateddynamics:part_inventory_reader"
+				}
+				{
+					id: "7248C29D2442E742"
+					type: "item"
+					item: "integrateddynamics:part_machine_reader"
+				}
+			]
+		}
+		{
+			title: "Reading other things"
+			x: 3.0d
+			y: 0.0d
+			id: "1E403A5E9388C9E7"
+			tasks: [
+				{
+					id: "605FEAAC72770DC5"
+					type: "item"
+					item: "integrateddynamics:part_entity_reader"
+				}
+				{
+					id: "06BCD7A3795BDA7C"
+					type: "item"
+					item: "integrateddynamics:part_world_reader"
+				}
+			]
+		}
+		{
+			title: "Redstone logic"
+			x: 2.0d
+			y: 1.0d
+			id: "7A5FD0937937264F"
+			tasks: [
+				{
+					id: "6AE91B3B8C565B81"
+					type: "item"
+					item: "integrateddynamics:part_redstone_reader"
+				}
+				{
+					id: "1FEC1D52F78ECA68"
+					type: "item"
+					item: "integrateddynamics:part_redstone_writer"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			subtitle: "Make a Crafting Interface"
+			description: [
+				"The &bCrafting Interface&r is the first step to auto-crafting using your network."
+				""
+				"Attach the Crafting Interface &6to the machine you want to craft with&r. For regular 3x3 crafting recipes, attach it to a Crafting Table; for smelting recipes, attach it to a Furnace; etc."
+				""
+				"Using a &6Logic Programmer&r, click &9Recipe&r and set the crafting recipe you want. For instance, place 8 Oak Planks in the left slots, then place a Chest in the right slots."
+				""
+				"Insert this Variable Card into one of the slots in the Crafting Interface, and the network will now have access to that recipe."
+			]
+			min_width: 250
+			id: "41A2EF471C77213F"
+			tasks: [{
+				id: "3D6FADCAFEA4CE7F"
+				type: "item"
+				item: "integratedcrafting:part_interface_crafting"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			id: "07D14E4D9C83F746"
+			tasks: [{
+				id: "1EEDC9831A69C44C"
+				type: "item"
+				item: "integratedcrafting:part_crafting_writer"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			subtitle: "Make a Crafting Job Terminal"
+			description: [
+				"The &bCrafting Job Terminal&r has a list of all current crafting jobs in its network."
+				"You can click on any crafting job to cancel it."
+			]
+			hide_dependency_lines: true
+			dependencies: ["3D6378E8B91C9436"]
+			id: "6BAFFC59116E2E71"
+			tasks: [{
+				id: "718188D0D15AD21F"
+				type: "item"
+				item: "integratedterminals:part_terminal_crafting_job"
+			}]
+		}
+		{
+			title: "Energy logistics"
+			x: 2.0d
+			y: 2.0d
+			id: "7BA49648ADDE7424"
+			tasks: [
+				{
+					id: "005105B427043EA6"
+					type: "item"
+					item: "integratedtunnels:part_interface_energy"
+				}
+				{
+					id: "73F98571A10D698F"
+					type: "item"
+					item: "integratedtunnels:part_importer_energy"
+				}
+				{
+					id: "0D0FA99AF69CD0B5"
+					type: "item"
+					item: "integratedtunnels:part_exporter_energy"
+				}
+			]
+		}
+		{
+			title: "Energy in the world"
+			x: 3.0d
+			y: 2.0d
+			id: "231B32FB7E367404"
+			tasks: [
+				{
+					id: "6B1BAB395FB0A8D1"
+					type: "item"
+					item: "integratedtunnels:part_importer_world_energy"
+				}
+				{
+					id: "4CF46889CC959AB3"
+					type: "item"
+					item: "integratedtunnels:part_exporter_world_energy"
+				}
+			]
+		}
+		{
+			title: "Fluid logistics"
+			x: 2.0d
+			y: 3.0d
+			id: "78779C0CD4360979"
+			tasks: [
+				{
+					id: "705793B51A27E54E"
+					type: "item"
+					item: "integratedtunnels:part_interface_fluid"
+				}
+				{
+					id: "42AAB61A3DF99044"
+					type: "item"
+					item: "integratedtunnels:part_importer_fluid"
+				}
+				{
+					id: "53A50DFB1603D317"
+					type: "item"
+					item: "integratedtunnels:part_exporter_fluid"
+				}
+			]
+		}
+		{
+			title: "Fluid in the world"
+			x: 3.0d
+			y: 3.0d
+			id: "544B2084C465A145"
+			tasks: [
+				{
+					id: "53C657EAD4399576"
+					type: "item"
+					item: "integratedtunnels:part_importer_world_fluid"
+				}
+				{
+					id: "60F2CEE0FBD606DA"
+					type: "item"
+					item: "integratedtunnels:part_exporter_world_fluid"
+				}
+			]
+		}
+		{
+			title: "Item logistics"
+			x: 2.0d
+			y: 4.0d
+			id: "4F217273CE80A7D7"
+			tasks: [
+				{
+					id: "0CA109BB1CAB642D"
+					type: "item"
+					item: "integratedtunnels:part_interface_item"
+				}
+				{
+					id: "19C21BC08D637E82"
+					type: "item"
+					item: "integratedtunnels:part_importer_item"
+				}
+				{
+					id: "5BCE38146D72181F"
+					type: "item"
+					item: "integratedtunnels:part_exporter_item"
+				}
+			]
+		}
+		{
+			title: "Item in the world"
+			x: 3.0d
+			y: 4.0d
+			id: "5BA14CBCC45A12A1"
+			tasks: [
+				{
+					id: "37DFB98BA3AB96BC"
+					type: "item"
+					item: "integratedtunnels:part_importer_world_item"
+				}
+				{
+					id: "3D27472E30BABF5B"
+					type: "item"
+					item: "integratedtunnels:part_exporter_world_item"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			subtitle: "Make a Storage Terminal"
+			description: ["All &bstored items&f, &bfluids &fand &benergy &fbecome visible and interactable from a single place using the &bStorage Terminal&f, and &bcrafting jobs &fbecome manageable from the &bCrafting Job Terminal&f."]
+			id: "22E48889C36049E9"
+			tasks: [{
+				id: "640280DAA0771254"
+				type: "item"
+				item: "integratedterminals:part_terminal_storage"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			id: "01A95C71F1AE6645"
+			tasks: [{
+				id: "4D76250025748EB7"
+				type: "item"
+				item: "integratedterminals:terminal_storage_portable"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			id: "344AF4A7C54D9658"
+			tasks: [{
+				id: "459F99CE5498379C"
+				type: "item"
+				item: "integrateddynamics:portable_logic_programmer"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			description: ["Long range networks."]
+			id: "28AE7992778C4123"
+			tasks: [{
+				id: "3FB672E2C22AD18A"
+				type: "item"
+				item: "integrateddynamics:part_connector_mono_directional"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			description: ["Really long range networks."]
+			id: "1C75E084C62E31A9"
+			tasks: [{
+				id: "1A45A387E6A264BD"
+				type: "item"
+				item: "integrateddynamics:part_connector_omni_directional"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -2.5d
+			description: ["Get the Block you are looking at."]
+			dependencies: ["2BF510AA8F2C57F2"]
+			id: "3E0102CF4E76CE82"
+			tasks: [{
+				id: "14DBCA8CAE9BE59D"
+				type: "advancement"
+				advancement: "integrateddynamics:advanced_operations/what_would_i_be_looking_at"
+				criterion: ""
+			}]
+		}
+		{
+			x: 14.5d
+			y: 4.5d
+			description: ["Dynamically filter enchantable items in the Storage Terminal using Variable"]
+			dependencies: ["2BF510AA8F2C57F2"]
+			id: "51E256D601D5900E"
+			tasks: [{
+				id: "3F8F34E42E0ED90E"
+				type: "advancement"
+				advancement: "integratedterminals:storage_terminal_filtering/filter_enchantable"
+				criterion: ""
+			}]
+		}
+		{
+			x: 14.5d
+			y: -1.5d
+			description: ["Check if a Stone Pickaxe can break an Obsidian block, and show the result in a Display Panel."]
+			dependencies: ["2BF510AA8F2C57F2"]
+			id: "4F3FBABA90B54AFF"
+			tasks: [{
+				id: "35E16F63A199557C"
+				type: "advancement"
+				advancement: "integrateddynamics:challenges/tool_for_obsidian"
+				criterion: ""
+			}]
+		}
+		{
+			x: 14.5d
+			y: 0.5d
+			description: ["Use a Crafting Writer to start a crafting job for Oak Planks."]
+			dependencies: ["2BF510AA8F2C57F2"]
+			id: "42D00E445B997B2B"
+			tasks: [{
+				id: "510039793EAF3282"
+				type: "advancement"
+				advancement: "integratedcrafting:autocrafting_trigger/craft_planks"
+				criterion: ""
+			}]
+		}
+		{
+			x: 14.5d
+			y: 3.5d
+			description: ["Play the step sound of a Wet Sponge block."]
+			dependencies: ["2BF510AA8F2C57F2"]
+			id: "603796112345983E"
+			tasks: [{
+				id: "04B605FE1DE7F159"
+				type: "advancement"
+				advancement: "integrateddynamics:challenges/sponge_step_sound"
+				criterion: ""
+			}]
+		}
+		{
+			x: 14.5d
+			y: 2.5d
+			description: [
+				"Create a systeme that automatically opens a door when you pass by an Entity Reader based on entity name matching, using Redstone Writer directly pointing to the door."
+				"Hint : Pass an entity name as first argument into the equals operator."
+			]
+			dependencies: ["2BF510AA8F2C57F2"]
+			id: "65DF2EDD54F16B22"
+			tasks: [{
+				id: "4186A5F67A859DEB"
+				type: "advancement"
+				advancement: "integrateddynamics:challenges/smart_pressure_plate"
+				criterion: ""
+			}]
+		}
+		{
+			x: 14.5d
+			y: -0.5d
+			description: ["Break Stone blocks using a World Block Importer."]
+			dependencies: ["2BF510AA8F2C57F2"]
+			id: "764FDCA51D6A228B"
+			tasks: [{
+				id: "56209FE74B644628"
+				type: "advancement"
+				advancement: "integratedtunnels:break_stone/break_stone"
+				criterion: ""
+			}]
+		}
+		{
+			x: 14.5d
+			y: 1.5d
+			description: ["Click with a Diamond Sword using a Player Simulator."]
+			dependencies: ["2BF510AA8F2C57F2"]
+			id: "5539D44A512E0843"
+			tasks: [{
+				id: "7B429A33716FA224"
+				type: "advancement"
+				advancement: "integratedtunnels:click_sword/click_sword"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.0d
+			y: -5.5d
+			subtitle: "Make a Drying Basin"
+			description: [
+				"The &bDrying Basin&r will dry items/fluids inserted into it. Some recipes may require both items &oand&r fluids to work; see its uses in JEI."
+				"Its most important use is to &6convert Menril Resin into a Block of Crystallized Menril&r."
+			]
+			id: "0CE03C2648BD9948"
+			tasks: [{
+				id: "5AB4033B13308002"
+				type: "item"
+				item: "integrateddynamics:drying_basin"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			subtitle: "Make a Mechanical Drying Basin"
+			description: ["The &bMechanical Drying Basin&r works just like the Drying Basin, but uses energy."]
+			id: "1B26D90A4DA22414"
+			tasks: [{
+				id: "6B4A2B2E18DFEA81"
+				type: "item"
+				item: "integrateddynamics:mechanical_drying_basin"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			subtitle: "Make a Mechanical Squeezer"
+			description: [
+				"The &bMechanical Squeezer&r &6uses energy&r to convert Menril Wood into Menril Resin, at the same time as producing Crystallized Menril Chunks."
+				"You can also use it as &ba grinder&r."
+			]
+			id: "1A89AEC8DAC884C5"
+			tasks: [{
+				id: "259E1A9E3E0CF834"
+				type: "item"
+				item: "integrateddynamics:mechanical_squeezer"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			id: "3D6378E8B91C9436"
+			tasks: [{
+				id: "7A73F33BA1631829"
+				type: "item"
+				item: "integratedterminals:menril_glass"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.5d
+			id: "4E0F477B942667FE"
+			tasks: [{
+				id: "28AF8F558FB8277A"
+				type: "item"
+				item: "integrateddynamics:crystalized_chorus_block"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			id: "5E75F1DB2EE8484B"
+			tasks: [{
+				id: "71DF2FF030864DD1"
+				type: "item"
+				item: "integratedterminals:chorus_glass"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.5d
+			id: "6891D7CAA482B258"
+			tasks: [{
+				id: "7B335303EA44EB00"
+				type: "item"
+				item: "integrateddynamics:logic_director"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.5d
+			id: "376158C957B192C7"
+			tasks: [{
+				id: "6AF8FB0B9298B0DD"
+				type: "item"
+				item: "integrateddynamics:crystalized_chorus_chunk"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.5d
+			id: "019F24CC72ACD58E"
+			tasks: [{
+				id: "7E2CF39AE6E0FE95"
+				type: "item"
+				item: {
+					id: "integrateddynamics:energy_battery"
+					Count: 1b
+					tag: {
+						energy: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.5d
+			id: "30E6A9B910CD3D04"
+			tasks: [{
+				id: "63D5AA5503ABA102"
+				type: "item"
+				item: "integrateddynamics:coal_generator"
+			}]
+		}
+		{
+			title: "Knowledge Juice"
+			x: 7.0d
+			y: -5.5d
+			subtitle: "Make a Squeezer"
+			description: [
+				"Right-click Menril Wood into a &bSqueezer&r to insert it, then jump up and down on top of it to squish it down, this produce &6Menril Resin&r."
+				"The Menril Resin will automatically be output to a fluid container on &6two if its sides&r."
+				"Give the Squeezer a &6redstone signal&r to reset it."
+			]
+			min_width: 250
+			id: "64022C765DB7BA44"
+			tasks: [{
+				id: "5B59E09ABE0527C8"
+				type: "item"
+				item: "integrateddynamics:squeezer"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -6.5d
+			dependencies: ["71F00867FCD80380"]
+			id: "6997990786B3DCF9"
+			tasks: [{
+				id: "185EC19D30CBEA28"
+				type: "item"
+				item: "integrateddynamics:on_the_dynamics_of_integration"
+			}]
+		}
+	]
+}

@@ -1,0 +1,1382 @@
+{
+	id: "26A0D6C6E9DF9D17"
+	group: "638FC427456F902B"
+	order_index: 7
+	filename: "occultism"
+	title: "Occultism"
+	icon: "occultism:debug_wand"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -7.0d
+			y: -0.5d
+			width: 10.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "occultism:textures/gui/book/bat_familiar.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.765986394557821d
+			y: 6.960544217687058d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "occultism:textures/gui/book/pentagram_rose.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 13.356462585034052d
+			y: 0.11224489795918657d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "occultism:textures/gui/book/pentagram_rose.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 8.612585034013591d
+			y: 0.044897959183657576d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "occultism:textures/gui/book/pentagram_rose.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 14.683418367346931d
+			y: 7.554081632653052d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "occultism:textures/gui/book/pentagram_rose.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "You can now see a new world"
+			description: [""]
+			size: 2.0d
+			id: "593C97F1466B4214"
+			tasks: [{
+				id: "7CD6A5FA87CB5F98"
+				type: "item"
+				item: "occultism:datura_seeds"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["593C97F1466B4214"]
+			id: "242069899D14A2DF"
+			tasks: [{
+				id: "5F1632D4D12A604F"
+				type: "item"
+				item: "occultism:dictionary_of_spirits"
+			}]
+		}
+		{
+			title: "Spirit Fire"
+			icon: "occultism:spirit_fire"
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["593C97F1466B4214"]
+			id: "5007B0720DA78896"
+			tasks: [{
+				id: "21312DA8E7C7F118"
+				type: "checkmark"
+				title: "Spiritfire!"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			dependencies: ["5007B0720DA78896"]
+			id: "748B28CA71EB65FE"
+			tasks: [{
+				id: "4B9C0A4EA46E4667"
+				type: "item"
+				item: {
+					id: "occultism:otherworld_sapling_natural"
+					Count: 1b
+					tag: {
+						isInventoryItem: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["5007B0720DA78896"]
+			id: "0DFF62AA3CC689C7"
+			tasks: [{
+				id: "56B733F22FF33B0F"
+				type: "item"
+				item: "occultism:spirit_attuned_gem"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			dependencies: ["5007B0720DA78896"]
+			id: "05CF0E1BB3279BB2"
+			tasks: [{
+				id: "02E5EE6AFD5C2274"
+				type: "item"
+				item: "occultism:purified_ink"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			dependencies: ["5007B0720DA78896"]
+			id: "37835F8EBFC2056D"
+			tasks: [{
+				id: "454ADBDAB5F95E3D"
+				type: "item"
+				item: "occultism:otherstone"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			dependencies: ["5007B0720DA78896"]
+			id: "3A610D5177B9B690"
+			tasks: [{
+				id: "21E5B0EEEEB13747"
+				type: "item"
+				item: "occultism:chalk_white_impure"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["3A610D5177B9B690"]
+			id: "58AEB7A8E6F6A08A"
+			tasks: [
+				{
+					id: "3ADE969C51952E24"
+					type: "item"
+					item: {
+						id: "occultism:chalk_white"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-1473269377
+								973752737
+								-1456830272
+								-117663136
+							]
+						}
+					}
+				}
+				{
+					id: "04D436B39D3C854D"
+					type: "item"
+					item: "occultism:brush"
+				}
+			]
+		}
+		{
+			title: "Gettin' Some Tallow"
+			x: -3.856462585033981d
+			y: 2.0210884353741463d
+			dependencies: ["242069899D14A2DF"]
+			id: "013F0C3D9BC90444"
+			tasks: [
+				{
+					id: "4A3B9A8F15E3C8D1"
+					type: "item"
+					item: {
+						id: "occultism:butcher_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1B6BB40BC2DE7137"
+					type: "item"
+					item: "occultism:tallow"
+				}
+			]
+		}
+		{
+			title: "Your first ritual !"
+			x: -3.770408163265273d
+			y: 6.840136054421777d
+			subtitle: "You're a wizard ! "
+			description: [
+				"The &2Aviar's Circle&r is the first ritual of the &bOccultism&r mod."
+				"To build this ritual you can use the &9Dictionary of Spirits&r."
+				"Here are the needed ingredients below :"
+				"- 4 &0Candles&r"
+				"- 4 or more &0Sacrifical Bowls&r (depending on the desired ritual)."
+				"- Your &8white chalk&r to draw symbols on the ground"
+				"- The &6Golden Sacrifical Bowl&r "
+			]
+			dependencies: [
+				"013F0C3D9BC90444"
+				"58AEB7A8E6F6A08A"
+			]
+			size: 1.25d
+			min_width: 250
+			id: "14518278805D60D1"
+			tasks: [
+				{
+					id: "24E3FD603FD6F07F"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 4L
+				}
+				{
+					id: "79C9506431E7F4D1"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+				}
+				{
+					id: "4F5D10DD1BCB76D3"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["5007B0720DA78896"]
+			id: "57AC8058D7F2828C"
+			tasks: [{
+				id: "4E27D43CFD995E47"
+				type: "item"
+				item: "chromasky:magical_infuse_book"
+			}]
+		}
+		{
+			title: "Otherstone Trader"
+			icon: "occultism:ritual_dummy/summon_foliot_otherstone_trader"
+			x: -2.1659863945578266d
+			y: 7.389115646258496d
+			subtitle: "Worth Exchange"
+			description: [
+				"The &3Otherstone Exchanger&r is a little guy that will help you get some &5Otherstone&r. "
+				"You will just need to drop some normal some vanilla stone and he will give you &5Otherstones&r."
+			]
+			dependencies: ["14518278805D60D1"]
+			id: "6CC208ED91F88BA0"
+			tasks: [
+				{
+					id: "55A72960BAC758C2"
+					type: "item"
+					item: "minecraft:diorite"
+				}
+				{
+					id: "7F6BC1E8B516496F"
+					type: "item"
+					item: "minecraft:granite"
+				}
+				{
+					id: "7821164411A7D500"
+					type: "item"
+					item: "minecraft:stone"
+				}
+				{
+					id: "46A92C4EEF81027B"
+					type: "item"
+					item: "minecraft:andesite"
+				}
+				{
+					id: "1C8F477727DA2ABB"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Breired"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			id: "54B53A39142BBA7A"
+			tasks: [{
+				id: "6FD701C20368025C"
+				type: "item"
+				item: "occultism:book_of_binding_foliot"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			dependencies: ["54B53A39142BBA7A"]
+			id: "765761A6D78A05B0"
+			tasks: [{
+				id: "08D26C978985289F"
+				type: "item"
+				item: "occultism:book_of_binding_djinni"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			dependencies: ["765761A6D78A05B0"]
+			id: "3C12F011AC8065E3"
+			tasks: [{
+				id: "313CFC3659B6F084"
+				type: "item"
+				item: "occultism:book_of_binding_afrit"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.5d
+			dependencies: ["3C12F011AC8065E3"]
+			id: "5F2EB0170467535E"
+			tasks: [{
+				id: "483B1E170EAF5B86"
+				type: "item"
+				item: "occultism:book_of_binding_marid"
+			}]
+		}
+		{
+			title: "Otherworld Sapling Trader"
+			icon: "occultism:otherworld_sapling"
+			x: -3.7537414965986287d
+			y: 8.540136054421758d
+			subtitle: "Another exchange !"
+			description: [
+				"The &2Otherworld Sapling Exchanger&r is a little guy that will help you get some Stable &5Otherworld Saplings&r. "
+				"You will just need to drop some normal vanilla &2Oak Saplings&r and he will give you stables &5Otherworld Saplings&r."
+			]
+			dependencies: ["14518278805D60D1"]
+			id: "4141D25E86015854"
+			tasks: [
+				{
+					id: "11B3FF36CE3DE0F3"
+					type: "item"
+					item: "minecraft:birch_sapling"
+				}
+				{
+					id: "578226C44BA902C4"
+					type: "item"
+					item: "minecraft:spruce_sapling"
+				}
+				{
+					id: "7C8E62926E261499"
+					type: "item"
+					item: "minecraft:jungle_sapling"
+				}
+				{
+					id: "2A4807522C5EA41B"
+					type: "item"
+					item: "minecraft:oak_sapling"
+				}
+				{
+					id: "5AA0BBFCB00484B4"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Azursorark"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Foliot Janitor"
+			icon: "occultism:ritual_dummy/summon_foliot_cleaner"
+			x: -5.365986394557822d
+			y: 7.360544217687064d
+			subtitle: "Living Vacuum Hopper"
+			description: [
+				"This Little guy will pick up items for you and even puts them in a chest (or else !)"
+				"You will have to bound the &2Janitor&r to your book of calling."
+			]
+			dependencies: ["14518278805D60D1"]
+			id: "7C23D137E5E2E3C7"
+			tasks: [
+				{
+					id: "21ED607B8D7E3949"
+					type: "item"
+					item: "occultism:brush"
+				}
+				{
+					id: "675FB8D0840FD87A"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+				{
+					id: "4F1AA20841C9E88A"
+					type: "item"
+					item: "minecraft:dispenser"
+				}
+				{
+					id: "6F4E63D27FD88EA2"
+					type: "item"
+					item: "minecraft:chest"
+				}
+				{
+					id: "6E059DA14616639A"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Reiarkes"
+						}
+					}
+				}
+				{
+					id: "09A81AB4D30AF925"
+					type: "item"
+					item: {
+						id: "occultism:book_of_calling_foliot_cleaner"
+						Count: 1b
+						tag: {
+							spiritName: "Drakirure"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Foliot Crusher"
+			icon: "occultism:ritual_dummy/summon_foliot_crusher"
+			x: -2.765986394557821d
+			y: 5.446258503401353d
+			subtitle: "Classic Crusher"
+			description: [
+				"The &6Foliot Crusher&r will crush ores into powders. "
+				"He will stau in the world for 50 IRL minutes so be careful ! "
+			]
+			dependencies: ["14518278805D60D1"]
+			id: "21B647B48022DA26"
+			tasks: [
+				{
+					id: "72343C00FEA34DFB"
+					type: "item"
+					item: "chromasky:iron_cluster"
+				}
+				{
+					id: "210926E9ACCCCF1A"
+					type: "item"
+					item: "chromasky:copper_cluster"
+				}
+				{
+					id: "2439C7FEE0F86BBB"
+					type: "item"
+					item: "chromasky:gold_cluster"
+				}
+				{
+					id: "1136D2A70E472DE7"
+					type: "item"
+					item: "chromasky:silver_cluster"
+				}
+				{
+					id: "6B3F3DD33B04E2BA"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Krmurmed"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Lumberjack"
+			x: -4.823129251700678d
+			y: 5.50340136054421d
+			subtitle: "Timber !"
+			description: [
+				"The &3Foliot Lumberjack&r will chop trees and replant them. "
+				"He can place wood into a chest and has a 64x64 maximum work range."
+			]
+			dependencies: ["14518278805D60D1"]
+			id: "73CA596B21D55C3E"
+			tasks: [
+				{
+					id: "14C90F6D1D389F63"
+					type: "item"
+					item: {
+						id: "occultism:otherworld_sapling_natural"
+						Count: 1b
+						tag: {
+							isInventoryItem: 1b
+						}
+					}
+				}
+				{
+					id: "4E80DAD0DB138366"
+					type: "item"
+					item: {
+						id: "minecraft:iron_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "65ECC6C91E0350FE"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Azakcreser"
+						}
+					}
+				}
+				{
+					id: "7831BAEDCA6339DE"
+					type: "item"
+					item: "minecraft:spruce_sapling"
+				}
+				{
+					id: "1765628625E6E5D5"
+					type: "item"
+					item: "minecraft:birch_sapling"
+				}
+				{
+					id: "546E968A4D89ED11"
+					type: "item"
+					item: "minecraft:oak_sapling"
+				}
+			]
+		}
+		{
+			title: "Foliot Transporter"
+			x: -3.717006802721059d
+			y: 9.448299319727894d
+			subtitle: "Living Item Pipe"
+			description: [
+				"As you may understand, the &2Foliot Transporter&r can move items through GUIs."
+				"He could be a good way to automate !"
+			]
+			dependencies: ["14518278805D60D1"]
+			id: "74E03994A701CA78"
+			tasks: [
+				{
+					id: "2E8A6C5DFC240C34"
+					type: "item"
+					item: "minecraft:dispenser"
+				}
+				{
+					id: "10227E9A1C4572D0"
+					type: "item"
+					item: "minecraft:minecart"
+				}
+				{
+					id: "427A296D77136AF1"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+				{
+					id: "4EB77F0B16B2B810"
+					type: "item"
+					item: "minecraft:chest"
+				}
+				{
+					id: "695AE199952E4FD0"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Barmiriark"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 4.0d
+			dependencies: ["3A610D5177B9B690"]
+			id: "43013BA1107142E0"
+			tasks: [{
+				id: "19D8E134E9F17666"
+				type: "item"
+				item: "occultism:chalk_gold_impure"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 4.0d
+			dependencies: ["43013BA1107142E0"]
+			id: "29508BCD0282B6B6"
+			tasks: [{
+				id: "3AAEE7BFF1E253EE"
+				type: "item"
+				item: {
+					id: "occultism:chalk_gold"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Eziveus' Spectral Compulsion"
+			x: 13.38605442176872d
+			y: -0.03299319727891259d
+			dependencies: ["29508BCD0282B6B6"]
+			size: 1.25d
+			id: "4641078FDD6E3595"
+			tasks: [
+				{
+					id: "205FA00DBFE9D75D"
+					type: "item"
+					item: "occultism:spirit_attuned_crystal"
+					count: 2L
+				}
+				{
+					id: "3E7D39FC54C72D51"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 2L
+				}
+				{
+					id: "7D70DE783600075A"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+				{
+					id: "776724A5E3CE165F"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+				}
+			]
+		}
+		{
+			title: "Infused Lenses"
+			x: 12.285034013605483d
+			y: -1.5306122448979522d
+			dependencies: ["4641078FDD6E3595"]
+			id: "227ABB042FCE13AE"
+			tasks: [
+				{
+					id: "69A4B03C6156209F"
+					type: "item"
+					item: "occultism:lenses"
+				}
+				{
+					id: "4D9A840CA649F840"
+					type: "item"
+					item: "thermal:silver_ingot"
+					count: 2L
+				}
+				{
+					id: "1C2C6344283FBF74"
+					type: "item"
+					item: "minecraft:gold_ingot"
+				}
+				{
+					id: "3380EB821774F3B9"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "KliKli"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.758503401360556d
+			y: -0.5884353741496682d
+			dependencies: ["227ABB042FCE13AE"]
+			id: "61FC5847FE175F29"
+			tasks: [{
+				id: "35BD937D7581D408"
+				type: "item"
+				item: {
+					id: "occultism:otherworld_goggles"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Suprisingly Substantial Satchel"
+			x: 11.579251700680302d
+			y: 0.5163265306122398d
+			dependencies: ["4641078FDD6E3595"]
+			id: "3C858E5CA6631D63"
+			tasks: [
+				{
+					id: "74DFE3DBB792B378"
+					type: "item"
+					item: "minecraft:chest"
+				}
+				{
+					id: "1581B19E963B6788"
+					type: "item"
+					item: "minecraft:leather"
+					count: 2L
+				}
+				{
+					id: "0874EFB779CDBC38"
+					type: "item"
+					item: "thermal:silver_ingot"
+				}
+				{
+					id: "276D00ADBDBE5EC9"
+					type: "item"
+					item: "minecraft:string"
+				}
+				{
+					id: "55EDDEC2ED28ED35"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Azurloritron"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Storage Actuator Base"
+			x: 13.400680272108872d
+			y: 1.6591836734693857d
+			dependencies: ["4641078FDD6E3595"]
+			id: "040CF734DB19F901"
+			tasks: [
+				{
+					id: "2A1F0178DF023C9B"
+					type: "item"
+					item: "occultism:otherstone_pedestal"
+				}
+				{
+					id: "7BE1F4BDB09484AB"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 3L
+				}
+				{
+					id: "2A8B1A23F1729C62"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Reiires"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Stable Wormhole"
+			x: 13.377891156462638d
+			y: -1.7806122448979664d
+			dependencies: ["4641078FDD6E3595"]
+			id: "7DD01D66A90266B7"
+			tasks: [
+				{
+					id: "436878BB9B075B41"
+					type: "item"
+					item: "occultism:wormhole_frame"
+				}
+				{
+					id: "04476662E5279EDE"
+					type: "item"
+					item: "minecraft:quartz"
+					count: 2L
+				}
+				{
+					id: "63279CA2D266D1FB"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+				{
+					id: "4BF95607A9929905"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Zedmuraeus"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Tier 1 Dimensional Storage Stabilizer"
+			x: 15.0d
+			y: -0.5d
+			dependencies: ["4641078FDD6E3595"]
+			id: "5498A5AA98F66341"
+			tasks: [
+				{
+					id: "23AB086AD63D4114"
+					type: "item"
+					item: "occultism:otherstone_pedestal"
+				}
+				{
+					id: "0DDA6A5542780B84"
+					type: "item"
+					item: "occultism:spirit_attuned_gem"
+				}
+				{
+					id: "0D953814D9947B23"
+					type: "item"
+					item: "thermal:copper_block"
+				}
+				{
+					id: "0EF20FBCAFB25120"
+					type: "item"
+					item: "minecraft:blaze_powder"
+				}
+				{
+					id: "543B1D274AC91355"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Zurcloes"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Foliot Miner"
+			x: 15.0d
+			y: 0.5d
+			dependencies: ["4641078FDD6E3595"]
+			id: "2C8777622083BFDA"
+			tasks: [
+				{
+					id: "3C99099E7787BD49"
+					type: "item"
+					item: "occultism:magic_lamp_empty"
+				}
+				{
+					id: "70B67A408C79B91E"
+					type: "item"
+					item: "minecraft:gravel"
+				}
+				{
+					id: "71FAA4E597D5CB86"
+					type: "item"
+					title: "Iron Ore"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ores/iron"
+						}
+					}
+				}
+				{
+					id: "41048E94904673D3"
+					type: "item"
+					item: {
+						id: "occultism:iesnium_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "56745F5A7215707E"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Azakcreses"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Hedryin's Lure"
+			x: 8.614625850340154d
+			y: -0.06156462585033751d
+			dependencies: ["29508BCD0282B6B6"]
+			size: 1.25d
+			id: "61458FAF0B2DD408"
+			tasks: [
+				{
+					id: "4F91E71E96C8F7A1"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 8L
+				}
+				{
+					id: "146F1EB5897BAD28"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+				}
+				{
+					id: "08B8EB253DC1DC06"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			title: "Summon &5Possessed Endermite&r"
+			x: 9.636394557823124d
+			y: -1.5027210884353934d
+			dependencies: ["61458FAF0B2DD408"]
+			id: "7FBCFDBC63C87744"
+			tasks: [
+				{
+					id: "3C665CF7C79EDB3B"
+					type: "observation"
+					title: "Observe a &5Possessed Endermite&r"
+					icon: "occultism:ritual_dummy/possess_endermite"
+					timer: 0L
+					observe_type: 5
+					to_observe: "occultism:possessed_endermite"
+				}
+				{
+					id: "719B9E309E4958F7"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 2L
+				}
+				{
+					id: "391659FEEC927965"
+					type: "item"
+					item: "minecraft:stone"
+					count: 2L
+				}
+				{
+					id: "58A8FE20D1BD020B"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Creomeecred"
+						}
+					}
+				}
+				{
+					id: "3793420E0F1D013A"
+					type: "item"
+					item: "minecraft:egg"
+				}
+			]
+		}
+		{
+			title: "Summon &8Possessed Skeleton&r"
+			x: 7.660204081632656d
+			y: -1.5503401360544373d
+			dependencies: ["61458FAF0B2DD408"]
+			id: "4752BE0799381B31"
+			tasks: [
+				{
+					id: "3CA221A65A66A155"
+					type: "item"
+					item: "minecraft:bone"
+					count: 4L
+				}
+				{
+					id: "579E96988B5EB023"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Reiarkes"
+						}
+					}
+				}
+				{
+					id: "1AAE7565476B36B1"
+					type: "observation"
+					title: "Look at a &8Possessed Skeleton&r"
+					icon: "occultism:ritual_dummy/possess_skeleton"
+					timer: 0L
+					observe_type: 5
+					to_observe: "occultism:possessed_skeleton"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 7.5d
+			dependencies: ["3A610D5177B9B690"]
+			id: "7AE0D40C4457C642"
+			tasks: [{
+				id: "22A1A834FC465B3F"
+				type: "item"
+				item: "occultism:chalk_purple_impure"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 7.5d
+			dependencies: ["7AE0D40C4457C642"]
+			id: "151C234E8E89D188"
+			tasks: [{
+				id: "781971647BBC20C7"
+				type: "item"
+				item: {
+					id: "occultism:chalk_purple"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Strigeors Higher Binding"
+			x: 14.67857142857143d
+			y: 7.443877551020407d
+			dependencies: ["151C234E8E89D188"]
+			size: 1.25d
+			id: "23A49D6344786D2A"
+			tasks: [
+				{
+					id: "5B0B45ED6FF5A1C1"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 4L
+				}
+				{
+					id: "7673393371D98999"
+					type: "item"
+					item: "occultism:spirit_attuned_crystal"
+					count: 4L
+				}
+				{
+					id: "13D00B1E6715E43A"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+				{
+					id: "445B1A1CC0B14F36"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+				}
+			]
+		}
+		{
+			title: "Infused Pickaex"
+			x: 13.718707482993239d
+			y: 6.085034013605444d
+			dependencies: ["23A49D6344786D2A"]
+			id: "52A9B829A4D0206D"
+			tasks: [
+				{
+					id: "36F3CE6B0D073120"
+					type: "item"
+					item: "minecraft:stick"
+					count: 2L
+				}
+				{
+					id: "31F1593DAD14262D"
+					type: "item"
+					item: "thermal:silver_ingot"
+					count: 2L
+				}
+				{
+					id: "2C28D76E2027760B"
+					type: "item"
+					item: "occultism:spirit_attuned_pickaxe_head"
+				}
+				{
+					id: "10B2880B853D26E6"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Cromurure"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Soul Gem"
+			x: 15.734013605442229d
+			y: 6.095238095238102d
+			dependencies: ["23A49D6344786D2A"]
+			id: "4C4A63FB1B15C899"
+			tasks: [
+				{
+					id: "3DFF58ED7F221B4E"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 4L
+				}
+				{
+					id: "03598B77C911FD2D"
+					type: "item"
+					item: "minecraft:gold_ingot"
+				}
+				{
+					id: "65DA1580EE6A5C67"
+					type: "item"
+					item: "thermal:silver_ingot"
+				}
+				{
+					id: "185E087783FC871C"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "660F0116A0C61844"
+					type: "item"
+					item: "thermal:copper_ingot"
+				}
+				{
+					id: "42D97BFA42F2E991"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Ridanisaurus"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Prudentium Crystal"
+			icon: {
+				id: "matc:prudentium_crystal"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 14.5d
+			y: -1.5d
+			dependencies: ["4641078FDD6E3595"]
+			id: "1D8AB179DEB3AA4B"
+			tasks: [
+				{
+					id: "5E1AD68889064E17"
+					type: "item"
+					item: "mysticalagriculture:prudentium_gemstone"
+					count: 4L
+				}
+				{
+					id: "719B93A819E0D45F"
+					type: "item"
+					item: "mysticalagriculture:prosperity_shard"
+					count: 2L
+				}
+				{
+					id: "0CEE1AAF758C3A63"
+					type: "item"
+					item: "mysticalagriculture:prudentium_essence"
+					count: 2L
+				}
+				{
+					id: "47C63FB3732A1E3C"
+					type: "item"
+					item: {
+						id: "matc:inferium_crystal"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Dimensional Crystal Matrix"
+			x: 16.329931972789097d
+			y: 8.037414965986393d
+			dependencies: ["23A49D6344786D2A"]
+			id: "70897A94E1945D61"
+			tasks: [
+				{
+					id: "726DC8EDC4D9D74E"
+					type: "item"
+					item: "minecraft:quartz_block"
+					count: 3L
+				}
+				{
+					id: "760EE2F4FA6F7251"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+				{
+					id: "1E370668ACDC69D3"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Morsorzur"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Storage Accessor"
+			x: 13.0d
+			y: 8.0d
+			dependencies: ["23A49D6344786D2A"]
+			id: "7A5778FFFC7DD583"
+			tasks: [
+				{
+					id: "26E047581F16EAD1"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 2L
+				}
+				{
+					id: "043D539749F28B1E"
+					type: "item"
+					item: "occultism:storage_remote_inert"
+				}
+				{
+					id: "40B9BA8F0AA1EA86"
+					type: "item"
+					item: "minecraft:quartz"
+				}
+				{
+					id: "19B481C79C059D58"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Creoarkarc"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Tier 2 Dimensional Storage Stabilizer"
+			x: 14.696598639455772d
+			y: 9.12482993197279d
+			dependencies: ["23A49D6344786D2A"]
+			id: "37A79BC191EA4457"
+			tasks: [
+				{
+					id: "55708A67AACE561F"
+					type: "item"
+					item: "occultism:storage_stabilizer_tier1"
+				}
+				{
+					id: "7757ABDD0020E104"
+					type: "item"
+					item: "occultism:spirit_attuned_gem"
+					count: 2L
+				}
+				{
+					id: "00D8D7020AB8529F"
+					type: "item"
+					item: "minecraft:ghast_tear"
+				}
+				{
+					id: "5203DDC72A8DA54B"
+					type: "item"
+					item: "thermal:silver_block"
+				}
+				{
+					id: "5336FCC028CF7A5F"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Mararccred"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Dimensional Mineshaft"
+			x: 14.66301020408163d
+			y: 5.696938775510198d
+			dependencies: ["23A49D6344786D2A"]
+			id: "074EF4BDC0439C58"
+			tasks: [
+				{
+					id: "3A0243B793632FB4"
+					type: "item"
+					item: "occultism:otherstone"
+					count: 4L
+				}
+				{
+					id: "67EA8FCAA88875AD"
+					type: "item"
+					item: "minecraft:gold_ingot"
+				}
+				{
+					id: "70FECC9909B731DA"
+					type: "item"
+					item: "occultism:iesnium_block"
+				}
+				{
+					id: "42036031BEDE3EF9"
+					type: "item"
+					item: "occultism:spirit_attuned_crystal"
+				}
+				{
+					id: "3782A335FF032105"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Barirarc"
+						}
+					}
+				}
+			]
+		}
+	]
+}

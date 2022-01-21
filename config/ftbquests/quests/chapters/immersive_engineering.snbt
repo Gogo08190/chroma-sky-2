@@ -1,0 +1,1130 @@
+{
+	id: "2C3B3233CE95C551"
+	group: "638FC427456F902B"
+	order_index: 5
+	filename: "immersive_engineering"
+	title: "Immersive Engineering"
+	icon: "immersivepetroleum:pumpjack"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 7.0d
+			y: 0.5d
+			width: 13.0d
+			height: 13.0d
+			rotation: 0.0d
+			image: "chromasky2:textures/quest/blueprint.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 18.5d
+			y: 0.5d
+			width: 13.0d
+			height: 13.0d
+			rotation: 0.0d
+			image: "chromasky2:textures/quest/blueprint.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 13.0d
+			y: 12.0d
+			width: 13.0d
+			height: 13.0d
+			rotation: 0.0d
+			image: "chromasky2:textures/quest/blueprint.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 7.0d
+			y: -3.0d
+			width: 7.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chromasky2:textures/quest/ie_resources.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 18.5d
+			y: -3.0d
+			width: 7.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chromasky2:textures/quest/ie_energy.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 13.0d
+			y: 8.5d
+			width: 7.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chromasky2:textures/quest/ie_machinery.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Build a &6Coke Oven"
+			x: 6.0d
+			y: 0.5d
+			dependencies: ["0DC6C504C33132CA"]
+			id: "32B0711F8E58C7C3"
+			tasks: [{
+				id: "59C7A66A8C3C9A5D"
+				type: "observation"
+				title: "Look at a complete &6Coke Oven"
+				icon: "immersiveengineering:coke_oven"
+				timer: 15L
+				observe_type: 0
+				to_observe: "immersiveengineering:coke_oven"
+			}]
+		}
+		{
+			title: "Build a &6Blast Furnace"
+			x: 8.0d
+			y: 0.5d
+			description: ["The Crude Blast Furnace alloys Iron with Coal Cokes to produce Steel."]
+			dependencies: ["17089E72E359D3DC"]
+			id: "64F1156BDE5B5686"
+			tasks: [{
+				id: "65BFF525410E261E"
+				type: "observation"
+				title: "Look at a complete &6Blast Furnace"
+				icon: "immersiveengineering:blast_furnace"
+				timer: 20L
+				observe_type: 0
+				to_observe: "immersiveengineering:blast_furnace"
+			}]
+		}
+		{
+			title: "Build an &6Alloy Kiln"
+			x: 4.0d
+			y: 0.5d
+			description: ["The Alloy Kiln is used to create alloys."]
+			dependencies: ["15292CDBE90169DD"]
+			id: "76F3D860B8C7FA5E"
+			tasks: [{
+				id: "70CB79014092E8C2"
+				type: "observation"
+				title: "Look at a complete &6Alloy Kiln"
+				icon: "immersiveengineering:alloy_smelter"
+				timer: 15L
+				observe_type: 0
+				to_observe: "immersiveengineering:alloy_smelter"
+			}]
+		}
+		{
+			title: "Build an &6Automated Workbench"
+			x: 11.0d
+			y: 14.0d
+			description: [
+				"The Automated Workbench is an automated version of the Engineer's Workbench."
+				""
+				"5x Steel Scaffolding"
+				"4x Light Engineering"
+				"4x Conveyor Belt"
+				"2x Treated Wood Slab"
+				"2x Heavy Engineering Block"
+				"1x Redstone Engineering Block"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"5E1F9A6B1FEB5289"
+				"47A4D81697C274A3"
+			]
+			id: "05779F68EBA1F83C"
+			tasks: [{
+				id: "6B50510363834506"
+				type: "observation"
+				title: "Look a complete Auto Workbench"
+				icon: "immersiveengineering:auto_workbench"
+				timer: 15L
+				observe_type: 0
+				to_observe: "immersiveengineering:auto_workbench"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			dependencies: ["64F1156BDE5B5686"]
+			id: "47A4D81697C274A3"
+			tasks: [{
+				id: "41D53C9198042415"
+				type: "item"
+				item: "mekanism:ingot_steel"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["32B0711F8E58C7C3"]
+			id: "4053153C0E72EB77"
+			tasks: [{
+				id: "3DF66306898B8768"
+				type: "item"
+				item: "immersiveengineering:coal_coke"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			dependencies: ["32B0711F8E58C7C3"]
+			id: "20C7BB0FB260AC6A"
+			tasks: [{
+				id: "0FF814C3B8525BFA"
+				type: "item"
+				item: "immersiveengineering:creosote_bucket"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			dependencies: ["64F1156BDE5B5686"]
+			id: "0507BB01DF49C38B"
+			tasks: [{
+				id: "04A2E2351269246E"
+				type: "item"
+				item: "immersiveengineering:slag"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["76F3D860B8C7FA5E"]
+			id: "321AFD3A1679E8E0"
+			tasks: [{
+				id: "2242573249C557AA"
+				type: "item"
+				item: "extendedcrafting:redstone_ingot"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			dependencies: ["76F3D860B8C7FA5E"]
+			id: "505915AA1C542C01"
+			tasks: [{
+				id: "3C5CB955D2A68A45"
+				type: "item"
+				item: "thermal:electrum_ingot"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			dependencies: ["76F3D860B8C7FA5E"]
+			id: "22B0E29207751423"
+			tasks: [{
+				id: "1992EF8CEC6F7326"
+				type: "item"
+				item: "thermal:invar_ingot"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			dependencies: ["76F3D860B8C7FA5E"]
+			id: "106B89A7A018AD2D"
+			tasks: [{
+				id: "7E8B128EE1A3B653"
+				type: "item"
+				item: "thermal:bronze_ingot"
+			}]
+		}
+		{
+			title: "Build an &6Arc Furnace"
+			x: 17.0d
+			y: 16.0d
+			description: [
+				"The Arc Furnace is used for smelting ores and grits into ingots, creating alloys including steel, and recycling certain tools and armor."
+				"For it to operate, the Arc Furnace needs power and three working Graphite Electrodes."
+				""
+				"27x Reinforced Blast Brick"
+				"14x Steel Sheetmetal Slab"
+				"10x Light Engineering Block"
+				"08x Steel Sheetmetal"
+				"06x Steel Block"
+				"05x Steel Scaffolding"
+				"05x Heavy Engineering Block"
+				"01x Cauldron"
+				"01x Redstone Engineering Block"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"4BDFE24CE49F32A0"
+				"47A4D81697C274A3"
+			]
+			id: "3A3033BD83C58D7C"
+			tasks: [{
+				id: "3343F867D0215AA2"
+				type: "observation"
+				title: "Look at a complete &6Arc Furnace"
+				icon: "immersiveengineering:arc_furnace"
+				timer: 15L
+				observe_type: 0
+				to_observe: "immersiveengineering:arc_furnace"
+			}]
+		}
+		{
+			title: "Build an &6Assembler"
+			x: 17.0d
+			y: 10.0d
+			description: [
+				"The Assembler is used to automatically craft items."
+				"Recipes can be set inside of the Assembler."
+				"The fluid tanks in the Assembler will automatically fill liquid containers used in recipes, such as Water Buckets."
+				"The Assembler will automatically craft the set recipes if it has the correct materials."
+				""
+				"6x Steel Scaffolding"
+				"2x Redstone Engineering Block"
+				"2x Light Engineering Block"
+				"9x Iron Sheetmetal"
+				"6x Iron Sheetmetal Slab"
+				"2x Conveyor Belt"
+			]
+			hide_dependency_lines: true
+			dependencies: ["47A4D81697C274A3"]
+			id: "1ACE3B9D0233F6E5"
+			tasks: [{
+				id: "454EA27892467FE1"
+				type: "observation"
+				title: "Look at a complete &6Assembler"
+				icon: "immersiveengineering:assembler"
+				timer: 15L
+				observe_type: 0
+				to_observe: "immersiveengineering:assembler"
+			}]
+		}
+		{
+			title: "Build a &6Bottling Machine"
+			x: 13.0d
+			y: 14.0d
+			description: [
+				"The Bottling Machine is used to fill liquid containers."
+				""
+				"3x Steel Scaffolding"
+				"2x Iron Sheetmetal"
+				"1x Redstone Engineering Block"
+				"2x Light Engineering Block"
+				"3x Conveyor Belt"
+				"1x Fluid Pump"
+				"1x Glass"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"47A4D81697C274A3"
+				"341411D6BC7E2F0C"
+			]
+			id: "271DC553520729A6"
+			tasks: [{
+				id: "020BE90D9CCD193D"
+				type: "observation"
+				title: "Look at a complete &6Bottling Machine"
+				icon: "immersiveengineering:bottling_machine"
+				timer: 15L
+				observe_type: 0
+				to_observe: "immersiveengineering:bottling_machine"
+			}]
+		}
+		{
+			title: "Build a &6Crusher"
+			x: 11.0d
+			y: 10.0d
+			description: [
+				"The crusher allows you to crush materials."
+				""
+				"10x Steel Scaffolding"
+				"10x Light Enfineering Block"
+				"01x Redstone Engineering Block"
+				"08x Steel Fence"
+				"09x Hooper"
+			]
+			hide_dependency_lines: true
+			dependencies: ["47A4D81697C274A3"]
+			id: "1BA5653D4E507226"
+			tasks: [{
+				id: "251A14BBF227514C"
+				type: "observation"
+				title: "Look at a complete &6Crusher"
+				icon: "immersiveengineering:crusher"
+				timer: 15L
+				observe_type: 0
+				to_observe: "immersiveengineering:crusher"
+			}]
+		}
+		{
+			title: "Build a &6Diesel Generator"
+			x: 20.5d
+			y: 2.5d
+			description: [
+				"The Diesel Generator generates energy by burning Biodiesel or other modded fuels."
+				""
+				"13x Heavy Engineering Block"
+				"09x Radiator Block"
+				"06x Steel Scaffolding"
+				"05x Fluid Pipe"
+				"04x Generator Block"
+				"01x Redstone Engineering Block"
+			]
+			hide_dependency_lines: true
+			dependencies: ["47A4D81697C274A3"]
+			id: "2FA1D09F8788E613"
+			tasks: [{
+				id: "00BAB278979BBE16"
+				type: "observation"
+				title: "Look at a complete &6Diesel Generator"
+				icon: "immersiveengineering:diesel_generator"
+				timer: 15L
+				observe_type: 0
+				to_observe: "immersiveengineering:diesel_generator"
+			}]
+		}
+		{
+			title: "Build a &6Distillation Tower"
+			x: 15.0d
+			y: 16.0d
+			description: [
+				"The Distillation Tower is primarily used to convert Crude Oil into usable Diesel and Gasoline fuels and Lubricant, creating Bitumen as a byproduct."
+				""
+				"25x Steel Scaffolding"
+				"33x Steel Scaffolding Slab"
+				"17x Fluid Pipe"
+				"60x Iron Sheetmetal"
+				"04x Heavy Engineering Block"
+				"01x Redstone Engineering Block"
+			]
+			hide_dependency_lines: true
+			dependencies: ["47A4D81697C274A3"]
+			id: "1C5CC1150D9EC872"
+			tasks: [{
+				id: "6EE4C86325582300"
+				type: "observation"
+				title: "Look at a complete &6Distillation Tower"
+				icon: "immersivepetroleum:distillationtower"
+				timer: 15L
+				observe_type: 0
+				to_observe: "immersivepetroleum:distillationtower"
+			}]
+		}
+		{
+			title: "Build an &6Industrial Fermenter"
+			x: 15.0d
+			y: 12.0d
+			description: [
+				"The Fermenter is used to make Ethanol."
+				""
+				"6x Steel Scaffolding"
+				"4x Cauldron"
+				"4x Iron Sheetmetal"
+				"2x Fluid Pipes"
+				"2x Light Engineering Blocks"
+				"1x Redstone Engineering Block"
+			]
+			hide_dependency_lines: true
+			dependencies: ["47A4D81697C274A3"]
+			id: "382C824778767E59"
+			tasks: [{
+				id: "3CDB9BE3EEEEA695"
+				type: "observation"
+				title: "Look at a complete &6Industrial Fermenter"
+				icon: "immersiveengineering:fermenter"
+				timer: 15L
+				observe_type: 0
+				to_observe: "immersiveengineering:fermenter"
+			}]
+		}
+		{
+			title: "Build an &6Improved Blast Furnace"
+			x: 10.0d
+			y: 0.5d
+			description: [
+				"The Improved Blast Furnace that alloys Iron with Coal Cokes to produce Steel."
+				""
+				"It is the upgraded tier of the Crude Blast Furnace, capable of automation and also of greater speeds once Blast Furnace Preheaters are added."
+			]
+			dependencies: ["4BDFE24CE49F32A0"]
+			id: "72C595C7660A0772"
+			tasks: [{
+				id: "4C4FD70C38477BC2"
+				type: "observation"
+				title: "Look at a complete &6Improve Blast Furnace"
+				icon: "immersiveengineering:advanced_blast_furnace"
+				timer: 15L
+				observe_type: 0
+				to_observe: "immersiveengineering:advanced_blast_furnace"
+			}]
+		}
+		{
+			title: "Build a &6Lightning Rod"
+			x: 16.5d
+			y: 2.5d
+			description: [
+				"The Lightning Rod is used to generate energy with thunder."
+				"Stacking many Steel Fences on the middle block increases the chance of lightning hitting the middle block dramatically."
+				""
+				"One lightning strike will generate 16,000,000 IF."
+				""
+				"8x Copper Coil Block"
+				"4x Steel Scaffolding"
+				"4x HV Capacitor"
+				"4x Light Enfineering Block"
+				"4x Treated Wood Fence"
+				"3x High-Voltage Coil Block"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"5E1F9A6B1FEB5289"
+				"47A4D81697C274A3"
+			]
+			id: "0BC9880B53E548C5"
+			tasks: [{
+				id: "3078253664DD8728"
+				type: "observation"
+				title: "Look at a complete &6Lightning Rod"
+				icon: "immersiveengineering:lightning_rod"
+				timer: 15L
+				observe_type: 0
+				to_observe: "immersiveengineering:lightning_rod"
+			}]
+		}
+		{
+			title: "Build a &6Metal Press"
+			x: 9.0d
+			y: 10.0d
+			description: [
+				"The metal press allows you to make plates, gears, rods and more."
+				""
+				"1x Piston"
+				"2x Steel Scaffolding"
+				"1x Redstone Engineering Block"
+				"1x Heavy Engineering Block"
+				"2x Conveyor Belt"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"47A4D81697C274A3"
+				"341411D6BC7E2F0C"
+			]
+			id: "5D4D5257E78D1C9F"
+			tasks: [{
+				id: "36EC98D27B00C7F3"
+				type: "observation"
+				title: "Look at a complete &6Metal Press"
+				icon: "immersiveengineering:metal_press"
+				timer: 15L
+				observe_type: 0
+				to_observe: "immersiveengineering:metal_press"
+			}]
+		}
+		{
+			title: "Build a &6Mixer"
+			x: 15.0d
+			y: 14.0d
+			description: [
+				"The Mixer accepts items, liquid, and energy, and produces new liquids from the result."
+				""
+				"3x Fluid Pipe"
+				"4x Iron Sheetmetal"
+				"4x Light Engineering Block"
+				"1x Steel Fence"
+				"5x Steel Scaffolding"
+				"1x Redstone Engineering Block"
+			]
+			hide_dependency_lines: true
+			dependencies: ["47A4D81697C274A3"]
+			id: "0E596D8FDEBEB7E5"
+			tasks: [{
+				id: "127BA9105EAC191F"
+				type: "observation"
+				title: "Look at a complet &6Mixer"
+				icon: "immersiveengineering:mixer"
+				timer: 15L
+				observe_type: 0
+				to_observe: "immersiveengineering:mixer"
+			}]
+		}
+		{
+			title: "Build a &6Pumpjack"
+			x: 11.0d
+			y: 16.0d
+			description: [
+				"The Pumpjack extracts fluid like Crude Oil from reservoirs."
+				"A Core Sample Drill tests for these reservoirs."
+				""
+				"One it's powered, the pumpjack pumps at a rate of 15 mB/tick"
+				""
+				"11x Steel Scaffolding"
+				"06x Treated Wood Fence"
+				"04x Fluid Pipe"
+				"02x Steel Block"
+				"02x Light Engineering Block"
+				"02x Heavy Engineering Block"
+				"01x Redstone Engineering Block"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"5E1F9A6B1FEB5289"
+				"47A4D81697C274A3"
+			]
+			id: "36558CF342BE6935"
+			tasks: [{
+				id: "7976F0B95F3E4E37"
+				type: "observation"
+				title: "Look at a complete &6Pumpjack"
+				icon: "immersivepetroleum:pumpjack"
+				timer: 15L
+				observe_type: 0
+				to_observe: "immersivepetroleum:pumpjack"
+			}]
+		}
+		{
+			title: "Build a &6Refinery"
+			x: 13.0d
+			y: 12.0d
+			description: [
+				"The Refinery is used to make Biodiesel."
+				""
+				"16x Iron Sheetmetal"
+				"08x Steel Scaffolding"
+				"05x Fluid Pipe"
+				"02x Light Engineering Block"
+				"02x Heavy Engineering Block"
+				"01x Redstone Engineering Block"
+			]
+			hide_dependency_lines: true
+			dependencies: ["47A4D81697C274A3"]
+			id: "7C637C870F1BD689"
+			tasks: [{
+				id: "763E7DD21348B646"
+				type: "observation"
+				title: "Look at a complete &6Refinery"
+				icon: "immersiveengineering:refinery"
+				timer: 15L
+				observe_type: 0
+				to_observe: "immersiveengineering:refinery"
+			}]
+		}
+		{
+			title: "Build a &6Squeezer"
+			x: 11.0d
+			y: 12.0d
+			description: [
+				"The Industrial Squeezer is to make Plant Oil or HOP Graphite Dust."
+				""
+				"6x Steel Scaffolding"
+				"4x Wooden Barrel"
+				"3x Steel Fence"
+				"2x Fluid Pipe"
+				"2x Light Engineering Block"
+				"1x Redstone Engineering Block"
+				"1x Piston"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"5E1F9A6B1FEB5289"
+				"47A4D81697C274A3"
+			]
+			id: "2BD179A1C0E56FC8"
+			tasks: [{
+				id: "233272E6E9F74BA4"
+				type: "observation"
+				title: "Look at a complete &6Squeezer"
+				icon: "immersiveengineering:squeezer"
+				timer: 15L
+				observe_type: 0
+				to_observe: "immersiveengineering:squeezer"
+			}]
+		}
+		{
+			title: "Build a &6Tank"
+			x: 13.0d
+			y: 10.0d
+			description: [
+				"Used to store fluids."
+				"Can store 512 buckets."
+				""
+				"04x Treated Wood Fence"
+				"34x Iron Sheetmetal"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"20C7BB0FB260AC6A"
+				"5E1F9A6B1FEB5289"
+			]
+			id: "58538AA2E06E572F"
+			tasks: [{
+				id: "44577CAEDC225871"
+				type: "observation"
+				title: "Look at a complete &6Tank"
+				icon: "immersiveengineering:tank"
+				timer: 15L
+				observe_type: 0
+				to_observe: "immersiveengineering:tank"
+			}]
+		}
+		{
+			title: "Build a &6Coker"
+			x: 9.0d
+			y: 16.0d
+			description: [
+				"The Coker is used to process Bitumen into Petroleum Coke and Diesel as a byproduct."
+				""
+				"012x Concrete"
+				"098x Steel Scaffolding"
+				"001x Steel Sheetmetal"
+				"005x Light Engineering Block"
+				"001x Redstone Engineering Block"
+				"045x Concrete Tile"
+				"088x Steel Fence"
+				"162x Iron Sheetmetal"
+				"045x Steel Scaffolding Slab"
+				"047x Fluid Pipe"
+				"003x Steel Structural Arm"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"47A4D81697C274A3"
+				"0507BB01DF49C38B"
+			]
+			id: "7E5CB4CB89170134"
+			tasks: [{
+				id: "16EC84FB73913E64"
+				type: "observation"
+				title: "Look at a complete &6Coker"
+				icon: "immersivepetroleum:cokerunit"
+				timer: 15L
+				observe_type: 0
+				to_observe: "immersivepetroleum:cokerunit"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 16.0d
+			description: ["The Core Sample Drill is used to detect and analyze Mineral Deposits that can be extracted by an Excavator or a PumpJack for fluids."]
+			hide_dependency_lines: true
+			dependencies: ["47A4D81697C274A3"]
+			id: "2CD281A8E3DF7252"
+			tasks: [{
+				id: "232EDDDA801CDC39"
+				type: "item"
+				item: "immersiveengineering:sample_drill"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -1.5d
+			description: ["The Engineer's Workbench used both for crafting special items and for modifying IE's unique tools."]
+			hide_dependency_lines: true
+			dependencies: ["20C7BB0FB260AC6A"]
+			id: "0DBCCDC1A9287229"
+			tasks: [{
+				id: "16A5C6385D120B50"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -1.5d
+			description: ["The LV Capacitors are energy storage blocks."]
+			hide_dependency_lines: true
+			dependencies: [
+				"20C7BB0FB260AC6A"
+				"5E1F9A6B1FEB5289"
+			]
+			id: "0C62C613B2CC0973"
+			tasks: [{
+				id: "5045E0F2A9C11E48"
+				type: "item"
+				item: "immersiveengineering:capacitor_lv"
+			}]
+		}
+		{
+			x: 18.5d
+			y: -1.5d
+			description: ["The MV Capacitors are energy storage blocks."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0C62C613B2CC0973"
+				"2665C893012A391D"
+				"106B89A7A018AD2D"
+				"5E1F9A6B1FEB5289"
+			]
+			id: "7D249B3741F5A983"
+			tasks: [{
+				id: "29E720F29A147897"
+				type: "item"
+				item: "immersiveengineering:capacitor_mv"
+			}]
+		}
+		{
+			x: 20.5d
+			y: -1.5d
+			description: ["The HV Capacitors are energy storage blocks."]
+			hide_dependency_lines: true
+			dependencies: [
+				"7D249B3741F5A983"
+				"505915AA1C542C01"
+				"22B0E29207751423"
+				"20C7BB0FB260AC6A"
+				"5E1F9A6B1FEB5289"
+			]
+			id: "3ABC5EB20529B64A"
+			tasks: [{
+				id: "0635AA35CB049B7A"
+				type: "item"
+				item: "immersiveengineering:capacitor_hv"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.5d
+			dependencies: ["0879ADA84875B0B0"]
+			id: "7AFAAAC28B565A1A"
+			tasks: [{
+				id: "0AF6BFB7FBE78168"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			dependencies: ["5A37D5B4FFEA6E6D"]
+			id: "0C279BF8A1B67396"
+			tasks: [{
+				id: "67D547EBB2247CCD"
+				type: "item"
+				item: {
+					id: "immersiveengineering:wirecutter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: 0.5d
+			description: ["The Water Wheel is used to generate energy with flowing water when connected to the front of a Kinetic Dynamo."]
+			hide_dependency_lines: true
+			dependencies: ["44885326BA2DCB65"]
+			id: "34223067CD59C964"
+			tasks: [{
+				id: "285F68BF2ED4A50D"
+				type: "item"
+				item: "immersiveengineering:watermill"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 0.5d
+			description: ["The Windmill is used to generate energy with wind when connected to a Kinetic Dynamo."]
+			hide_dependency_lines: true
+			dependencies: ["44885326BA2DCB65"]
+			id: "34069BC744165BE6"
+			tasks: [{
+				id: "09CBD39AEDFCCBFA"
+				type: "item"
+				item: "immersiveengineering:windmill"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 0.5d
+			description: [
+				"The Windmill Sail improves Windmill blades one at a time, attachable by using a Windmill Sail on the hub."
+				"Windmills accept up to 8 Windmill Sails."
+			]
+			hide_dependency_lines: true
+			dependencies: ["34069BC744165BE6"]
+			id: "0D8ABABE476CA0E1"
+			tasks: [{
+				id: "7D2EE6CE0E5DEAFD"
+				type: "item"
+				item: "immersiveengineering:windmill_sail"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["47A4D81697C274A3"]
+			id: "44885326BA2DCB65"
+			tasks: [{
+				id: "4CF528F424020C94"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 4.5d
+			dependencies: ["088D692E25F62BFD"]
+			id: "02D57B235AAB19DF"
+			tasks: [{
+				id: "398ACD7BE33A95B3"
+				type: "item"
+				title: "Wire Connector"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "immersiveengineering:connector_lv"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:connector_mv"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:connector_hv"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: 4.5d
+			dependencies: ["088D692E25F62BFD"]
+			id: "5C483E6D8C928523"
+			tasks: [{
+				id: "6EC99E9E20EBC8C5"
+				type: "item"
+				title: "Wire Relay"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "immersiveengineering:connector_lv_relay"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:connector_mv_relay"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:connector_hv_relay"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Improved Blast Furnace requirement"
+			x: 10.0d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"64F1156BDE5B5686"
+				"47A4D81697C274A3"
+			]
+			id: "4BDFE24CE49F32A0"
+			tasks: [
+				{
+					id: "5F0167B6A7B69094"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+				{
+					id: "5AA62207F9E313E5"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+			]
+		}
+		{
+			x: 17.5d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"7AFAAAC28B565A1A"
+				"0C279BF8A1B67396"
+			]
+			id: "47530229808ECD67"
+			tasks: [{
+				id: "140D0127FBB9573A"
+				type: "item"
+				title: "Wire"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "immersiveengineering:wirecoil_copper"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:wirecoil_electrum"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:wirecoil_steel"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 18.5d
+			y: 2.5d
+			description: ["The Thermoelectric Generator  can generate energy based on the temperature difference of the blocks surrounding it."]
+			hide_dependency_lines: true
+			dependencies: [
+				"2DEB807CF1367A24"
+				"47A4D81697C274A3"
+				"47530229808ECD67"
+			]
+			id: "5240BA8BE5A52CEC"
+			tasks: [{
+				id: "7B1F6271BCB0D418"
+				type: "item"
+				item: "immersiveengineering:thermoelectric_generator"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			description: ["The Engineer's Manual is an in-game guide to the mod and it's mechanics."]
+			id: "1692C36C794C6561"
+			tasks: [{
+				id: "7D4B18108092A8C6"
+				type: "item"
+				item: "immersiveengineering:manual"
+			}]
+		}
+		{
+			title: "Build a &6Silo"
+			x: 15.0d
+			y: 10.0d
+			description: [
+				"Used to store items."
+				"Can store 41,472 items of one type."
+				""
+				"04x Treated Wood Fence"
+				"50x Iron Shettmetal"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"20C7BB0FB260AC6A"
+				"5E1F9A6B1FEB5289"
+			]
+			id: "3DB12CA30EB77377"
+			tasks: [{
+				id: "5DA93D5899067293"
+				type: "observation"
+				title: "Look at a complete &6Silo"
+				icon: "immersiveengineering:silo"
+				timer: 15L
+				observe_type: 0
+				to_observe: "immersiveengineering:silo"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			description: ["The Conveyor Belt is used to move items and entities."]
+			dependencies: [
+				"3F05D033EBD0710D"
+				"088D692E25F62BFD"
+			]
+			id: "341411D6BC7E2F0C"
+			tasks: [{
+				id: "2DEDB584A782952C"
+				type: "item"
+				item: "immersiveengineering:conveyor_basic"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 4.5d
+			description: ["The Charging Station is used to charge energy containers and tools."]
+			hide_dependency_lines: true
+			dependencies: [
+				"47530229808ECD67"
+				"5C483E6D8C928523"
+				"20C7BB0FB260AC6A"
+				"5E1F9A6B1FEB5289"
+			]
+			id: "751262403C44DA25"
+			tasks: [{
+				id: "2E1BB05CE672719C"
+				type: "item"
+				item: "immersiveengineering:charging_station"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.5d
+			description: ["The Blast Furnace Preheater is used to speed up the Improved Blast Furnace using Energy."]
+			dependencies: ["4BDFE24CE49F32A0"]
+			id: "07D65D087AEE1748"
+			tasks: [{
+				id: "0756EE42DD28702A"
+				type: "item"
+				item: "immersiveengineering:blastfurnace_preheater"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.5d
+			dependencies: ["76F3D860B8C7FA5E"]
+			id: "2DEB807CF1367A24"
+			tasks: [{
+				id: "0372418561E1A064"
+				type: "item"
+				item: "thermal:constantan_ingot"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			dependencies: ["20C7BB0FB260AC6A"]
+			id: "5E1F9A6B1FEB5289"
+			tasks: [{
+				id: "04B400861C87A78B"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+			}]
+		}
+	]
+}

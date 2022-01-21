@@ -1,7 +1,7 @@
 {
 	id: "7592EF1502B175DE"
 	group: "638FC427456F902B"
-	order_index: 1
+	order_index: 2
 	filename: "resources"
 	title: "Resources"
 	icon: "ftbjarmod:tempered_jar"
@@ -397,6 +397,7 @@
 		{
 			x: 2.5d
 			y: -9.5d
+			dependencies: ["266D1CAE103C0114"]
 			id: "50A94B8D166B0C9A"
 			tasks: [{
 				id: "7C73F4A316418FA1"
@@ -407,7 +408,10 @@
 		{
 			x: 2.5d
 			y: -8.5d
-			dependencies: ["50A94B8D166B0C9A"]
+			dependencies: [
+				"50A94B8D166B0C9A"
+				"540B2743537BEA5E"
+			]
 			id: "3C1BADD6E7521772"
 			tasks: [{
 				id: "4B14928865C5EA9E"

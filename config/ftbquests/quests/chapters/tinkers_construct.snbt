@@ -1,0 +1,1253 @@
+{
+	id: "52BB70956B16E779"
+	group: "638FC427456F902B"
+	order_index: 3
+	filename: "tinkers_construct"
+	title: "Tinkers' Construct"
+	icon: "tconstruct:smeltery_controller"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 7.5d
+		y: -2.5d
+		width: 7.0d
+		height: 7.0d
+		rotation: 0.0d
+		image: "tconstruct:textures/block/smeltery/tank/tinker_tank.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -3.0d
+			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["241B936F9A019F68"]
+			id: "53A94F66906D4D19"
+			tasks: [{
+				id: "2714EC49AC798DCE"
+				type: "item"
+				item: "tconstruct:seared_melter"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -6.0d
+			shape: "octagon"
+			dependencies: ["4276B8AFA45FF422"]
+			size: 1.3d
+			id: "241B936F9A019F68"
+			tasks: [{
+				id: "62DBD8CA481407E8"
+				type: "item"
+				item: "tconstruct:seared_ingot_gauge"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			dependencies: [
+				"4276B8AFA45FF422"
+				"054C13431F464EC6"
+			]
+			id: "62D331AED4A993CB"
+			tasks: [{
+				id: "13AA03E1F0D54CA2"
+				type: "item"
+				title: "Heat Source"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:seared_heater"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:seared_fuel_tank"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.5d
+			dependencies: [
+				"4276B8AFA45FF422"
+				"054C13431F464EC6"
+			]
+			id: "6D37AB0D68E920BB"
+			tasks: [{
+				id: "5EB814B55024112B"
+				type: "item"
+				item: "tconstruct:seared_faucet"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			dependencies: [
+				"4276B8AFA45FF422"
+				"054C13431F464EC6"
+			]
+			id: "4E6C333A9DDE6DDE"
+			tasks: [{
+				id: "192A8378B13D8B84"
+				type: "item"
+				item: "tconstruct:seared_table"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.5d
+			dependencies: [
+				"4276B8AFA45FF422"
+				"054C13431F464EC6"
+			]
+			id: "13C0AA08EB0FD6E8"
+			tasks: [{
+				id: "2CD46E0F98299C8E"
+				type: "item"
+				item: "tconstruct:seared_basin"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"4DE1E7A69AD51402"
+				"3AC4A6F40DA6E680"
+				"53A94F66906D4D19"
+			]
+			id: "266D1CAE103C0114"
+			tasks: [{
+				id: "6B63ACA6ABB3B003"
+				type: "item"
+				item: "cobblefordays:tier_2"
+			}]
+		}
+		{
+			x: -3.494217687074851d
+			y: -0.6423469387755176d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["62D331AED4A993CB"]
+			size: 1.5d
+			id: "2665C893012A391D"
+			tasks: [{
+				id: "5C42D7BBD8CEE401"
+				type: "item"
+				item: "tconstruct:smeltery_controller"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: [
+				"2665C893012A391D"
+				"4276B8AFA45FF422"
+				"054C13431F464EC6"
+			]
+			id: "7B983194ECC1D810"
+			tasks: [{
+				id: "641E7C4278039819"
+				type: "item"
+				item: "tconstruct:seared_duct"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"4276B8AFA45FF422"
+				"6D37AB0D68E920BB"
+				"054C13431F464EC6"
+				"2665C893012A391D"
+			]
+			id: "542656F29C73645F"
+			tasks: [{
+				id: "4CDE3D31E31171FE"
+				type: "item"
+				item: "tconstruct:seared_drain"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: [
+				"4276B8AFA45FF422"
+				"054C13431F464EC6"
+				"2665C893012A391D"
+			]
+			id: "47BFC6C01440F9E1"
+			tasks: [{
+				id: "46EE685675219296"
+				type: "item"
+				item: "tconstruct:seared_chute"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["2665C893012A391D"]
+			id: "540B2743537BEA5E"
+			tasks: [{
+				id: "074E6C25EE4762C0"
+				type: "item"
+				item: "tconstruct:molten_rose_gold_bucket"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"53A94F66906D4D19"
+				"4E6C333A9DDE6DDE"
+			]
+			id: "3D6E645CE45111C1"
+			tasks: [{
+				id: "2682E64818DE2A25"
+				type: "item"
+				title: "Gold Cast"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:casts/gold"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["2665C893012A391D"]
+			id: "0DC6C504C33132CA"
+			tasks: [{
+				id: "4197AC6626B22CEF"
+				type: "item"
+				title: "Coke Brick"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["2665C893012A391D"]
+			id: "17089E72E359D3DC"
+			tasks: [{
+				id: "44070E52F6AFF4DE"
+				type: "item"
+				title: "Blast Brick"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"01FAD8CD30F1C74E"
+				"53A94F66906D4D19"
+			]
+			size: 2.0d
+			id: "7591B15CAC991001"
+			tasks: [{
+				id: "433FA7206A5996CA"
+				type: "item"
+				item: "tconstruct:foundry_controller"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			shape: "diamond"
+			dependencies: ["17C6CAAA5C8CC8ED"]
+			id: "026BD0F8F92F7753"
+			tasks: [{
+				id: "257E0D8EF29552EB"
+				type: "item"
+				item: "tconstruct:scorched_fuel_tank"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["17C6CAAA5C8CC8ED"]
+			id: "01FAD8CD30F1C74E"
+			tasks: [{
+				id: "5F955096E6596B5F"
+				type: "item"
+				item: "tconstruct:scorched_bricks"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			shape: "diamond"
+			dependencies: ["17C6CAAA5C8CC8ED"]
+			id: "219072F52DEF3B7A"
+			tasks: [{
+				id: "7CD665462BF488A5"
+				type: "item"
+				item: "tconstruct:scorched_table"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: ["17C6CAAA5C8CC8ED"]
+			id: "39C8E164B1F7ED23"
+			tasks: [{
+				id: "5CF13BD3BA30673D"
+				type: "item"
+				item: "tconstruct:scorched_basin"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			shape: "diamond"
+			dependencies: ["17C6CAAA5C8CC8ED"]
+			id: "6D9693292F3FB31E"
+			tasks: [{
+				id: "5E8E85E2A75187C4"
+				type: "item"
+				item: "tconstruct:scorched_faucet"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			shape: "diamond"
+			dependencies: ["17C6CAAA5C8CC8ED"]
+			id: "4B4400BB988CBB0F"
+			tasks: [{
+				id: "08738FDC8E2A7AE4"
+				type: "item"
+				item: "tconstruct:scorched_drain"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			shape: "diamond"
+			dependencies: ["17C6CAAA5C8CC8ED"]
+			id: "1A15F41D6CB7A8D1"
+			tasks: [{
+				id: "1E63D41D3B0A5D04"
+				type: "item"
+				item: "tconstruct:scorched_chute"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			shape: "diamond"
+			dependencies: ["17C6CAAA5C8CC8ED"]
+			id: "10B2DD7CCD4DC3C0"
+			tasks: [{
+				id: "2B014E8B9AA317F5"
+				type: "item"
+				item: "tconstruct:scorched_duct"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.0d
+			shape: "octagon"
+			dependencies: [
+				"08DCFB994C66EE23"
+				"28B825EB289B3BCD"
+			]
+			id: "17C6CAAA5C8CC8ED"
+			tasks: [{
+				id: "75B94350AB5C5948"
+				type: "item"
+				item: "tconstruct:nether_grout"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"53A94F66906D4D19"
+				"0ABA29AAB5DCD885"
+				"28B825EB289B3BCD"
+			]
+			id: "2F165F5796B67065"
+			tasks: [{
+				id: "5F7DF984F46ECEE2"
+				type: "item"
+				title: "Helmet Modifier"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 437.0f
+										"tconstruct:armor": 0.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:boon_of_sssss"
+											level: 1s
+										}
+										{
+											name: "tconstruct:spider_disguise"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:spider"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 537.0f
+										"tconstruct:armor": 1.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:frosttouch"
+											level: 1s
+										}
+										{
+											name: "tconstruct:stray_disguise"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:bloodbone"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 487.0f
+										"tconstruct:armor": 0.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:wither_skeleton_disguise"
+											level: 1s
+										}
+										{
+											name: "tconstruct:withered"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:necrotic_bone"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 517.0f
+										"tconstruct:armor": 2.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:wildfire"
+											level: 1s
+										}
+										{
+											name: "tconstruct:zombie_disguise"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:rotten_flesh"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 512.0f
+										"tconstruct:armor": 2.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:revenge"
+											level: 1s
+										}
+										{
+											name: "tconstruct:zombified_piglin_disguise"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:pig_iron"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 587.0f
+										"tconstruct:armor": 0.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:enderdodging"
+											level: 1s
+										}
+										{
+											name: "tconstruct:enderman_disguise"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:ender_pearl"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 567.0f
+										"tconstruct:armor": 1.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:blaze_disguise"
+											level: 1s
+										}
+										{
+											name: "tconstruct:firebreath"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:blazing_bone"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 427.0f
+										"tconstruct:armor": 0.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:cave_spider_disguise"
+											level: 1s
+										}
+										{
+											name: "tconstruct:mithridatism"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:venom"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 422.0f
+										"tconstruct:armor": 0.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:creeper_disguise"
+											level: 1s
+										}
+										{
+											name: "tconstruct:self_destructive"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:gunpowder"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 507.0f
+										"tconstruct:armor": 2.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:breathtaking"
+											level: 1s
+										}
+										{
+											name: "tconstruct:drowned_disguise"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:copper"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 527.0f
+										"tconstruct:armor": 2.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:husk_disguise"
+											level: 1s
+										}
+										{
+											name: "tconstruct:plague"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:iron"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 537.0f
+										"tconstruct:armor": 1.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:gold_guard"
+											level: 1s
+										}
+										{
+											name: "tconstruct:piglin_brute_disguise"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:rose_gold"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 487.0f
+										"tconstruct:armor": 0.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:chrysophilite"
+											level: 1s
+										}
+										{
+											name: "tconstruct:piglin_disguise"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:gold"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 462.0f
+										"tconstruct:armor": 0.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:skeleton_disguise"
+											level: 1s
+										}
+										{
+											name: "tconstruct:strong_bones"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:bone"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["2665C893012A391D"]
+			id: "3C9BBB51B8881161"
+			tasks: [{
+				id: "5305A4C63F207D8B"
+				type: "item"
+				item: {
+					id: "tconstruct:plate_helmet"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:armor_toughness": 2.0f
+							"tconstruct:knockback_resistance": 0.1f
+							"tconstruct:durability": 330.0f
+							"tconstruct:armor": 2.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							defense: 4
+							upgrades: 1
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["2665C893012A391D"]
+			id: "17838489D5A55D26"
+			tasks: [{
+				id: "2CEF644F064008A3"
+				type: "item"
+				item: {
+					id: "tconstruct:plate_chestplate"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:armor_toughness": 2.0f
+							"tconstruct:knockback_resistance": 0.1f
+							"tconstruct:durability": 480.0f
+							"tconstruct:armor": 7.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							defense: 4
+							upgrades: 1
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["2665C893012A391D"]
+			id: "1B7E194F8F2EF78D"
+			tasks: [{
+				id: "1053EBE772DA0E01"
+				type: "item"
+				item: {
+					id: "tconstruct:plate_leggings"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:armor_toughness": 2.0f
+							"tconstruct:knockback_resistance": 0.1f
+							"tconstruct:durability": 450.0f
+							"tconstruct:armor": 5.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							defense: 4
+							upgrades: 1
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["2665C893012A391D"]
+			id: "039FF0835804EA55"
+			tasks: [{
+				id: "2D0457268633DAF5"
+				type: "item"
+				item: {
+					id: "tconstruct:plate_boots"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:armor_toughness": 2.0f
+							"tconstruct:knockback_resistance": 0.1f
+							"tconstruct:durability": 390.0f
+							"tconstruct:armor": 2.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							defense: 4
+							upgrades: 1
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -4.0d
+			dependencies: ["088D692E25F62BFD"]
+			id: "600DE6B0FCE3718F"
+			tasks: [{
+				id: "34C7562AA1C37E8E"
+				type: "item"
+				item: {
+					id: "tconstruct:travelers_helmet"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 110.0f
+							"tconstruct:armor": 1.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 3
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			dependencies: ["088D692E25F62BFD"]
+			id: "6934D15444A49430"
+			tasks: [{
+				id: "429C137658121B6D"
+				type: "item"
+				item: {
+					id: "tconstruct:travelers_chestplate"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 160.0f
+							"tconstruct:armor": 5.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 3
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.0d
+			dependencies: ["088D692E25F62BFD"]
+			id: "27927631C7B8C6A8"
+			tasks: [{
+				id: "115AEDFFDE00DDA3"
+				type: "item"
+				item: {
+					id: "tconstruct:travelers_leggings"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 150.0f
+							"tconstruct:armor": 4.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 3
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			dependencies: ["088D692E25F62BFD"]
+			id: "32452C25895EC660"
+			tasks: [{
+				id: "4D931A184A4C075F"
+				type: "item"
+				item: {
+					id: "tconstruct:travelers_boots"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 130.0f
+							"tconstruct:armor": 1.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 3
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"53A94F66906D4D19"
+				"0ABA29AAB5DCD885"
+				"28B825EB289B3BCD"
+			]
+			id: "4F1EFA8076CCEE5A"
+			tasks: [{
+				id: "47D79085D585B401"
+				type: "item"
+				item: {
+					id: "tconstruct:slime_chestplate"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 672.0f
+							"tconstruct:armor": 0.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [{
+							name: "tconstruct:wings"
+							level: 1s
+						}]
+						Damage: 0
+						tic_volatile_data: {
+							"tconstruct:elyta": 1b
+						}
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 5
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"53A94F66906D4D19"
+				"0ABA29AAB5DCD885"
+				"28B825EB289B3BCD"
+			]
+			id: "748E91A203F6C9E9"
+			tasks: [{
+				id: "377D6410C39DB50A"
+				type: "item"
+				item: {
+					id: "tconstruct:slime_leggings"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 630.0f
+							"tconstruct:armor": 0.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:pockets"
+								level: 1s
+							}
+							{
+								name: "tconstruct:protection"
+								level: 1s
+							}
+						]
+						Damage: 0
+						tic_volatile_data: {
+							"tconstruct:total_item_slots": 9
+						}
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 5
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"53A94F66906D4D19"
+				"0ABA29AAB5DCD885"
+				"28B825EB289B3BCD"
+			]
+			id: "45E1736768756C7F"
+			tasks: [{
+				id: "3313BC7D00FF10E3"
+				type: "item"
+				item: {
+					id: "tconstruct:slime_boots"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 546.0f
+							"tconstruct:armor": 0.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:bouncy"
+								level: 1s
+							}
+							{
+								name: "tconstruct:leaping"
+								level: 1s
+							}
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 5
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["3AC4A6F40DA6E680"]
+			id: "15292CDBE90169DD"
+			tasks: [{
+				id: "1806F6D35ACF14FA"
+				type: "item"
+				title: "Kiln Brick"
+				item: "immersiveengineering:alloybrick"
+				count: 8L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"53A94F66906D4D19"
+				"3D6E645CE45111C1"
+			]
+			id: "0879ADA84875B0B0"
+			tasks: [{
+				id: "4E728AFB2CC69CEF"
+				type: "item"
+				item: "chromasky:hammer_head"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"53A94F66906D4D19"
+				"3D6E645CE45111C1"
+			]
+			id: "5A37D5B4FFEA6E6D"
+			tasks: [{
+				id: "741DB0F69E330696"
+				type: "item"
+				item: "chromasky:wirecutter_head"
+			}]
+		}
+	]
+}
