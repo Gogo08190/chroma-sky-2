@@ -39,4 +39,5 @@ onEvent("recipes", (event) => {
   event.remove({output: 'projectex:arcane_tablet'})
   event.remove({output: 'projectex:final_star'})
   event.remove({output: 'cyclic:battery'})
+  event.remove({output: 'buildersaddition:iron_rod'})
 });

@@ -106,7 +106,7 @@ onEvent('recipes', event => {
   'RSR'
   ], {
     S: '#forge:ingots/iron',
-    R: 'buildersaddition:iron_rod',
+    R: 'immersiveengineering:stick_iron',
     M: 'ftbsluice:cloth_mesh'
   })
 
@@ -118,7 +118,7 @@ onEvent('recipes', event => {
   'RSR'
   ], {
     S: '#forge:ingots/gold',
-    R: 'buildersaddition:iron_rod',
+    R: 'immersiveengineering:stick_iron',
     M: 'ftbsluice:iron_mesh'
   })
 
@@ -130,7 +130,7 @@ onEvent('recipes', event => {
   'RSR'
   ], {
     S: '#forge:gems/diamond',
-    R: 'buildersaddition:iron_rod',
+    R: 'immersiveengineering:stick_iron',
     M: 'ftbsluice:gold_mesh'
   })
 
