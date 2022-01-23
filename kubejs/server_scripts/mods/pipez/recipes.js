@@ -64,4 +64,14 @@ onEvent("recipes", (event) => {
     R: 'extendedcrafting:redstone_ingot',
     G: '#forge:glass_panes'
   })
+
+  event.shaped('pipez:infinity_upgrade', [
+  'CUC',
+  'UMU',
+  'CUC'
+  ], {
+    C: 'overloaded:item_core',
+    U: 'pipez:ultimate_upgrade',
+    M: 'chromasky:mechanic_core_tier_4'
+  })
 });
