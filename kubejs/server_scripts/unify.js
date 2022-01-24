@@ -114,8 +114,6 @@ onEvent('recipes', event => {
         })
         .id("ftbjarmod:cast_iron_gear");
 
-  event.replaceInput({ output: "#forge:gears" }, "minecraft:iron_nugget", "#forge:nuggets/cast_iron");
-
   event.remove({ id: /industrialforegoing:.*_gear/ })
   event.remove({id: "immersiveengineering:crafting/ingot_steel_to_nugget_steel"})
   event.remove({id: "immersiveengineering:crafting/storage_steel_to_ingot_steel"})
