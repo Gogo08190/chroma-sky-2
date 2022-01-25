@@ -85,6 +85,15 @@ onEvent('recipes', event => {
     I: 'minecraft:diamond',
     P: 'refinedstorage:processor_binding'
   })
+  event.shaped('extrastorage:raw_neural_processor', [
+  'AI',
+  'PO'
+  ], {
+    P: 'refinedstorage:processor_binding',
+    A: 'refinedstorage:raw_advanced_processor',
+    I: 'refinedstorage:raw_improved_processor',
+    O: 'minecraft:obsidian'
+  })
 
   event.custom(
     {
@@ -198,6 +207,46 @@ onEvent('recipes', event => {
         "type": "industrialforegoing:dissolution_chamber"
     }
   )
+
+  event.custom(
+    {
+        "input": [
+            {
+                "item": "refinedstorage:quartz_enriched_iron"
+            },
+            {
+                "item": "extrastorage:raw_neural_processor"
+            },
+            {
+                "item": "refinedstorage:quartz_enriched_iron"
+            },
+            {
+                "item": "refinedstorage:silicon"
+            },
+            {
+                "item": "refinedstorage:silicon"
+            },
+            {
+                "item": "refinedstorage:quartz_enriched_iron"
+            },
+            {
+                "item": "minecraft:quartz"
+            },
+            {
+                "item": "refinedstorage:quartz_enriched_iron"
+            }
+        ],
+        "inputFluid": "{FluidName:\"industrialforegoing:ether\",Amount:250}",
+        "processingTime": 60,
+        "output": {
+            "item": "extrastorage:neural_processor",
+            "count": 1
+        },
+        "type": "industrialforegoing:dissolution_chamber"
+    }
+  )
+  event.remove({ output: 'extrastorage:neural_processor' })
+  event.remove({ output: 'extrastorage:raw_neural_processor' })
 
   event.remove({ output: 'rsinfinitybooster:infinity_card' })
   event.custom(
