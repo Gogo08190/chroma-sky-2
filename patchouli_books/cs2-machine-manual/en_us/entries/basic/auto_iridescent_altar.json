@@ -1,0 +1,120 @@
+{
+    "name": "Auto Iridescent Altar",
+    "icon": "masterfulmachinery:autoastral_controller",
+    "category": "patchouli:basic",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Description here"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "pattern": [
+                  [
+                    "           ",
+                    "           ",
+                    "  ))) )))  ",
+                    "  )     )  ",
+                    "  )     )  ",
+                    "     5     ",
+                    "  )     )  ",
+                    "  )     )  ",
+                    "  ))) )))  ",
+                    "           ",
+                    "           "
+                  ],
+                  [
+                    "           ",
+                    " 4)     )4 ",
+                    " )       ) ",
+                    "           ",
+                    "           ",
+                    "           ",
+                    "           ",
+                    "           ",
+                    " )       ) ",
+                    " 4)     )4 ",
+                    "           "
+                  ],
+                  [
+                    "           ",
+                    " 3       3 ",
+                    "           ",
+                    "           ",
+                    "           ",
+                    "           ",
+                    "           ",
+                    "           ",
+                    "           ",
+                    " 3       3 ",
+                    "           "
+                  ],
+                  [
+                    "           ",
+                    " 3       3 ",
+                    "           ",
+                    "           ",
+                    "           ",
+                    "           ",
+                    "           ",
+                    "           ",
+                    "           ",
+                    " 3       3 ",
+                    "           "
+                  ],
+                  [
+                    "CCC     CCC",
+                    "C1 CCCCC 1C",
+                    "C         C",
+                    " C       C ",
+                    " C       C ",
+                    " C   2   C ",
+                    " C       C ",
+                    " C       C ",
+                    "C         C",
+                    "C1 CCCCC 1C",
+                    "CCC     CCC"
+                  ],
+                  [
+                    ")))     )))",
+                    ")*+)))))+*)",
+                    ")+-------+)",
+                    " )-**-**-) ",
+                    " )-*****-) ",
+                    " .--***--/ ",
+                    " )-*****-) ",
+                    " )-**-**-) ",
+                    ")+-------+)",
+                    ")*+))0))+*)",
+                    ")))     )))"
+                  ]
+                  ],
+                  "mapping": {
+                    ")": "astralsorcery:black_marble_bricks",
+                    "*": "astralsorcery:black_marble_raw",
+                    "+": "simplylight:illuminant_black_block_on",
+                    "-": "astralsorcery:marble_raw",
+                    ".": "masterfulmachinery:autoastral_autoastral_item_port_items_output",
+                    "/": "masterfulmachinery:autoastral_autoastral_item_port_items_input",
+                    "C": "astralsorcery:infused_wood_slab",
+                    "1": "astralsorcery:black_marble_runed",
+                    "2": "astralsorcery:altar_radiance",
+                    "3": "astralsorcery:marble_pillar",
+                    "4": "astralsorcery:black_marble_chiseled",
+                    "5": "masterfulmachinery:autoastral_autoastral_starlight_port_astral_starlight_input",
+                    "0": "masterfulmachinery:autoastral_controller"
+                  }
+            },
+			"text": "*Place the controller screen facing outwards, it is turned in the diagram due to manual limitations.*"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "This multiblock will require the following pieces:$(li)38 Steel Sheetmetal$(li)10 Steel Block$(li)05 Conveyor Belt$(li)02 Radiator Block$(li)20 Hardened Glass$(li)02 Laser Port"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Assembling Factory$(li2)01 Controller$(li2)01 Item Input Port$(li2)01 Item Output Port$(li2)01 Energy Input Port"
+        }
+    ]
+}

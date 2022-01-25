@@ -1,0 +1,59 @@
+{
+    "name": "Assembling Factory",
+    "icon": "masterfulmachinery:assemblingfactory_controller",
+    "category": "patchouli:basic",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Assembling Factory will allow you to assemble components and cores to create different machine components and other things."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "pattern": [
+                    [
+                      ")))))))",
+                      ")*****)",
+                      ")))))))"
+                    ],
+					          [
+                        ")-----)",
+                        "C 1 1 C",
+                        ")-----)"
+                    ],
+					          [
+                        ")-----)",
+                        "/.....,",
+                        ")-----)"
+                    ],
+					          [
+                        ")))0)))",
+                        ")*****)",
+                        ")))X)))"
+                    ]
+                  ],
+                  "mapping": {
+                    "X": "masterfulmachinery:assemblingfactory_controller",
+                    "C": "immersiveengineering:radiator",
+                    "1": "miniutilities:laser_port",
+                    ")": "immersiveengineering:sheetmetal_steel",
+                    "*": "mekanism:block_steel",
+                    "0": "masterfulmachinery:assemblingfactory_assemblingenergy_port_energy_input",
+                    ",": "masterfulmachinery:assemblingfactory_assembing_item_port_items_output",
+                    "-": "thermal:obsidian_glass",
+                    ".": "immersiveengineering:conveyor_basic",
+                    "/": "masterfulmachinery:assemblingfactory_assembing_item_port_items_input"
+                  }
+            },
+			"text": "*Place the controller screen facing outwards, it is turned in the diagram due to manual limitations.*"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "This multiblock will require the following pieces:$(li)38 Steel Sheetmetal$(li)10 Steel Block$(li)05 Conveyor Belt$(li)02 Radiator Block$(li)20 Hardened Glass$(li)02 Laser Port"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Assembling Factory$(li2)01 Controller$(li2)01 Item Input Port$(li2)01 Item Output Port$(li2)01 Energy Input Port"
+        }
+    ]
+}
