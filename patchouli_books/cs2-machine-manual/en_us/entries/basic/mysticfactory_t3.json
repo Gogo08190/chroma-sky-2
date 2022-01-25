@@ -1,0 +1,61 @@
+{
+    "name": "Mystical Factory Tier 3",
+    "icon": "masterfulmachinery:mysticfactory3_controller",
+    "category": "patchouli:basic",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Description here"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "pattern": [
+                  [
+                    ")))))))))",
+                    ")*3*3*3*)",
+                    ")))))))))"
+                  ],
+                  [
+                    ")-------)",
+                    "2       2",
+                    ")-------)"
+                  ],
+                  [
+                    ")-------)",
+                    "1./.C./.,",
+                    ")-------)"
+                  ],
+                  [
+                    "))))+))))",
+                    ")*******)",
+                    "))))0))))"
+                  ]
+                  ],
+                  "mapping": {
+                    "C": "thermal:machine_crafter",
+                    "1": "masterfulmachinery:mysticfactory3_mystical_item_port_items_input",
+                    "2": "immersiveengineering:fluid_placer",
+                    "3": "simplylight:illuminant_block_on",
+                    ")": "mysticalagriculture:prudentium_gemstone_block",
+                    "*": "mysticalagriculture:witherproof_block",
+                    "+": "masterfulmachinery:mysticfactory3_mystical_energy_port_energy_input",
+                    ",": "masterfulmachinery:mysticfactory3_mystical_item_port_items_output",
+                    "-": "mysticalagriculture:witherproof_glass",
+                    ".": "immersiveengineering:conveyor_basic",
+                    "/": "mysticalagriculture:prudentium_reprocessor",
+                    "0": "masterfulmachinery:mysticfactory3_controller"
+                  }
+            },
+			"text": "*Place the controller screen facing outwards, it is turned in the diagram due to manual limitations.*"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "This multiblock will require the following pieces:$(li)38 Steel Sheetmetal$(li)10 Steel Block$(li)05 Conveyor Belt$(li)02 Radiator Block$(li)20 Hardened Glass$(li)02 Laser Port"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Assembling Factory$(li2)01 Controller$(li2)01 Item Input Port$(li2)01 Item Output Port$(li2)01 Energy Input Port"
+        }
+    ]
+}

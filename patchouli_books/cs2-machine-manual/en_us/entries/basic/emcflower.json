@@ -1,0 +1,91 @@
+{
+    "name": "Power Flower Fabricator",
+    "icon": "masterfulmachinery:emcflower_controller",
+    "category": "patchouli:basic",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Description here"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "pattern": [
+                  [
+                    "       ",
+                    "       ",
+                    "       ",
+                    "   /   ",
+                    "       ",
+                    "       ",
+                    "       "
+                  ],
+                  [
+                    "       ",
+                    "       ",
+                    "   /   ",
+                    "  ///  ",
+                    "   /   ",
+                    "       ",
+                    "       "
+                  ],
+                  [
+                    "       ",
+                    "   /   ",
+                    "  ///  ",
+                    " ///// ",
+                    "  ///  ",
+                    "   /   ",
+                    "       "
+                  ],
+                  [
+                    "       ",
+                    "       ",
+                    "   /   ",
+                    "  ///  ",
+                    "   /   ",
+                    "       ",
+                    "       "
+                  ],
+                  [
+                    ".     .",
+                    "       ",
+                    "       ",
+                    "   /   ",
+                    "       ",
+                    "       ",
+                    ".     ."
+                  ],
+                  [
+                    ")))*)))",
+                    ")+++++)",
+                    ")+++++)",
+                    "-+++++,",
+                    ")+++++)",
+                    ")+++++)",
+                    ")))0)))"
+                  ]
+                  ],
+                  "mapping": {
+                    ")": "projecte:dark_matter_block",
+                    "*": "masterfulmachinery:emcflower_assemblingenergy_port_energy_input",
+                    "+": "minecraft:polished_blackstone_bricks",
+                    ",": "masterfulmachinery:emcflower_assembing_item_port_items_output",
+                    "-": "masterfulmachinery:emcflower_assembing_item_port_items_input",
+                    ".": "projectex:energy_link",
+                    "/":  "projectex:basic_collector",
+                    "0":  "masterfulmachinery:emcflower_controller"
+                  }
+            },
+			"text": "*Place the controller screen facing outwards, it is turned in the diagram due to manual limitations.*"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "This multiblock will require the following pieces:$(li)38 Steel Sheetmetal$(li)10 Steel Block$(li)05 Conveyor Belt$(li)02 Radiator Block$(li)20 Hardened Glass$(li)02 Laser Port"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Assembling Factory$(li2)01 Controller$(li2)01 Item Input Port$(li2)01 Item Output Port$(li2)01 Energy Input Port"
+        }
+    ]
+}
