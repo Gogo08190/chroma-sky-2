@@ -40,4 +40,15 @@ onEvent("recipes", (event) => {
   event.recipes.thermal
     .smelter("refinedstorage:destruction_core", ['refinedstorage:basic_processor', 'minecraft:glowstone_dust'])
     .energy(5000);
+
+  event.recipes.thermal
+    .crucible(Fluid.of('kubejs:cryotheum', 100), 'thermal:blizz_powder')
+
+  event.recipes.thermal
+    .bottler("simplyjetpacks:unit_glowstone", ['simplyjetpacks:unit_glowstone_empty', Fluid.of('thermal:glowstone', 1000)])
+    .energy(500);
+
+  event.recipes.thermal
+    .bottler("simplyjetpacks:unit_cryotheum", ['simplyjetpacks:unit_cryotheum_empty', Fluid.of('kubejs:cryotheum', 1000)])
+    .energy(500);
 });

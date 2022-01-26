@@ -23,4 +23,10 @@ onEvent("fluid.registry", (event) => {
         .textureThick(0x3e2126)
         .bucketColor(0x3e2126)
         .displayName("Molten Nether Brick");
+
+    event
+        .create("cryotheum")
+        .textureThick(0x0deaf7)
+        .bucketColor(0x0deaf7)
+        .displayName("Cryotheum");
 });
