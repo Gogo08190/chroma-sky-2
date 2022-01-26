@@ -38,6 +38,7 @@ onEvent('recipes', event => {
   event.remove({output: 'quark:biotite', input: 'mysticalagriculture:ender_biotite_essence'})
   event.remove({output: 'astralsorcery:aquamarine', input: 'mysticalagriculture:aquamarine_essence'})
   event.remove({output: 'thermal:apatite', input: 'mysticalagriculture:apatite_essence'})
+  event.remove({output: 'refinedstorage:silicon', input: 'mysticalagriculture:silicon_essence'})
 
   event.remove({ output: 'mysticalagriculture:infusion_altar' })
   event.remove({ output: 'mysticalagriculture:infusion_pedestal' })

@@ -132,4 +132,5 @@ e.custom({
   mystic(1750, 'mysticalagriculture:constantan_essence', 8, 'thermal:constantan_ingot', 6)
   mystic(1750, 'mysticalagriculture:nickel_essence', 8, 'thermal:nickel_ingot', 6)
   mystic(1750, 'mysticalagriculture:steel_essence', 8, 'mekanism:ingot_steel', 6)
+  mystic(1750, 'mysticalagriculture:silicon_essence', 3, 'refinedstorage:silicon', 12)
 })

@@ -133,4 +133,5 @@ e.custom({
   mystic(2000, 'mysticalagriculture:nickel_essence', 8, 'thermal:nickel_ingot', 7)
   mystic(2000, 'mysticalagriculture:steel_essence', 8, 'mekanism:ingot_steel', 7)
   mystic(2000, 'mysticalagriculture:chaos_essence', 8, 'draconicevolution:small_chaos_frag', 2)
+  mystic(2000, 'mysticalagriculture:silicon_essence', 3, 'refinedstorage:silicon', 14)
 })

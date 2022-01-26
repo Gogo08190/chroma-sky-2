@@ -114,6 +114,7 @@ e.custom({
   mystic(500, 'mysticalagriculture:copper_essence', 8, 'thermal:copper_ingot', 1)
   mystic(500, 'mysticalagriculture:diamond_essence', 8, 'minecraft:diamond', 1)
   mystic(500, 'mysticalagriculture:fluorite_essence', 8, 'mekanism:fluorite_gem', 2)
+  mystic(500, 'mysticalagriculture:silicon_essence', 3, 'refinedstorage:silicon', 2)
   mystic(500, 'mysticalagriculture:energized_steel_essence', 8, 'powah:steel_energized', 1)
   mystic(500, 'mysticalagriculture:pig_iron_essence', 8, 'tconstruct:pig_iron_ingot', 1)
   mystic(500, 'mysticalagriculture:tin_essence', 8, 'thermal:tin_ingot', 1)
