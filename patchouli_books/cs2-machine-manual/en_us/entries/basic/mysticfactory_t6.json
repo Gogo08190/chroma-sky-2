@@ -51,7 +51,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "This multiblock will require the following pieces:$(li)38 Steel Sheetmetal$(li)10 Steel Block$(li)05 Conveyor Belt$(li)02 Radiator Block$(li)20 Hardened Glass$(li)02 Laser Port"
+            "text": "This multiblock will require the following pieces:$(li)46 Supremium Gemstone Block$(li)28 Witherproof Glass$(li)11 Witherproof Block$(li)04 Conveyor Belt$(li)03 Illuminant Block (Inverted)$(li)02 Supremium Seed Reprocessor$(li)02 Fluid Outlet$(li)01 Sequential Fabricator"
         },
         {
             "type": "patchouli:text",

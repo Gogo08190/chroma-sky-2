@@ -110,11 +110,11 @@
         },
         {
             "type": "patchouli:text",
-            "text": "This multiblock will require the following pieces:$(li)38 Steel Sheetmetal$(li)10 Steel Block$(li)05 Conveyor Belt$(li)02 Radiator Block$(li)20 Hardened Glass$(li)02 Laser Port"
+            "text": "This multiblock will require the following pieces:$(li)65 Sooty Marble Bricks$(li)40 Infused Wood Slab$(li)28 Marble$(li)25 Sooty Marble$(li)08 Illuminant Black Block (Inverted)$(li)08 Marble Pillar $(li)05 Chiseled Sooty Marble $(li)04 Runed Sooty Marble"
         },
         {
             "type": "patchouli:text",
-            "text": "$(li)Assembling Factory$(li2)01 Controller$(li2)01 Item Input Port$(li2)01 Item Output Port$(li2)01 Energy Input Port"
+            "text": "$(li)01 Iridescent Altar$(li)Assembling Factory$(li2)01 Controller$(li2)01 Item Input Port$(li2)01 Item Output Port$(li2)01 Starlight Input Port"
         }
     ]
 }
