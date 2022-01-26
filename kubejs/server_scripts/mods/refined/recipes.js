@@ -1,5 +1,6 @@
 onEvent('recipes', event => {
   event.remove({ output: 'refinedstorage:quartz_enriched_iron' })
+  event.remove({output: 'refinedstorage:silicon', input: 'minecraft:quartz'})
 
   event.shapeless('9x refinedstorage:quartz_enriched_iron', 'refinedstorage:quartz_enriched_iron_block');
 
