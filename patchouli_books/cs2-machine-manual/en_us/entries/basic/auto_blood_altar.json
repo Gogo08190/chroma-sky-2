@@ -532,11 +532,11 @@
         },
         {
             "type": "patchouli:text",
-            "text": "This multiblock will require the following pieces:$(li)38 Steel Sheetmetal$(li)10 Steel Block$(li)05 Conveyor Belt$(li)02 Radiator Block$(li)20 Hardened Glass$(li)02 Laser Port"
+            "text": "This multiblock will require the following pieces:$(li)541 Polished Blackstone$(li)313 Polished Blackstone Stairs$(li)110 Polished Blackstone Wall$(li)42 Polished Blackstone Slab$(li)26 Chiseled Polished Blackstone$(li)36 Block of Netherite$(li)28 Acceleration Rune$(li)16 Rune of Augmented Capacity$(li)16 Rune of Capacity$(li)16 Speed Rune"
         },
         {
             "type": "patchouli:text",
-            "text": "$(li)Assembling Factory$(li2)01 Controller$(li2)01 Item Input Port$(li2)01 Item Output Port$(li2)01 Energy Input Port"
+            "text": "$(li)08 Rune of Sacrifice$(li)13 Large Bloodstone Brick$(li)13 Soul Lantern$(li)04 Beacon$(li)04 Glowstone$(li)04 Red Stained Glass Pane$(li)01 Hopper$(li)Assembling Factory$(li2)01 Controller$(li2)01 Item Input Port$(li2)01 Item Output Port$(li2)01 Fluid Input Port"
         }
     ]
 }
