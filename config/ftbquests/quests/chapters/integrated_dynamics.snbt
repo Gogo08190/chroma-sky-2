@@ -9,9 +9,9 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 7.0d
+			x: 7.5d
 			y: -7.5d
-			dependencies: ["0ABA29AAB5DCD885"]
+			dependencies: ["1364BC9D46E89B79"]
 			id: "71F00867FCD80380"
 			tasks: [{
 				id: "1BEB0C583DA25737"
@@ -20,8 +20,14 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -0.5d
+			x: 7.0d
+			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"64022C765DB7BA44"
+				"0CE03C2648BD9948"
+				"71F00867FCD80380"
+			]
 			id: "08030E2DAC25D1B7"
 			tasks: [{
 				id: "7D35CCF2ADB14DB3"
@@ -31,7 +37,7 @@
 		}
 		{
 			x: 7.5d
-			y: 1.0d
+			y: -1.0d
 			dependencies: ["08030E2DAC25D1B7"]
 			id: "148A86A18A62924F"
 			tasks: [{
@@ -43,8 +49,10 @@
 		}
 		{
 			title: "Reading blocks"
-			x: 2.0d
-			y: 0.0d
+			x: 3.5d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["08030E2DAC25D1B7"]
 			id: "1720A119FB153603"
 			tasks: [
 				{
@@ -66,8 +74,10 @@
 		}
 		{
 			title: "Reading other things"
-			x: 3.0d
+			x: 3.5d
 			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["08030E2DAC25D1B7"]
 			id: "1E403A5E9388C9E7"
 			tasks: [
 				{
@@ -84,8 +94,10 @@
 		}
 		{
 			title: "Redstone logic"
-			x: 2.0d
+			x: 3.5d
 			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["08030E2DAC25D1B7"]
 			id: "7A5FD0937937264F"
 			tasks: [
 				{
@@ -101,8 +113,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: 1.0d
+			x: 2.0d
+			y: -4.0d
 			subtitle: "Make a Crafting Interface"
 			description: [
 				"The &bCrafting Interface&r is the first step to auto-crafting using your network."
@@ -113,6 +125,8 @@
 				""
 				"Insert this Variable Card into one of the slots in the Crafting Interface, and the network will now have access to that recipe."
 			]
+			hide_dependency_lines: true
+			dependencies: ["08030E2DAC25D1B7"]
 			min_width: 250
 			id: "41A2EF471C77213F"
 			tasks: [{
@@ -122,8 +136,10 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 1.0d
+			x: 3.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["08030E2DAC25D1B7"]
 			id: "07D14E4D9C83F746"
 			tasks: [{
 				id: "1EEDC9831A69C44C"
@@ -132,8 +148,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 0.0d
+			x: 1.5d
+			y: -3.0d
 			subtitle: "Make a Crafting Job Terminal"
 			description: [
 				"The &bCrafting Job Terminal&r has a list of all current crafting jobs in its network."
@@ -150,8 +166,10 @@
 		}
 		{
 			title: "Energy logistics"
-			x: 2.0d
-			y: 2.0d
+			x: 6.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["08030E2DAC25D1B7"]
 			id: "7BA49648ADDE7424"
 			tasks: [
 				{
@@ -173,8 +191,12 @@
 		}
 		{
 			title: "Energy in the world"
-			x: 3.0d
-			y: 2.0d
+			x: 6.0d
+			y: 1.5d
+			dependencies: [
+				"6891D7CAA482B258"
+				"7BA49648ADDE7424"
+			]
 			id: "231B32FB7E367404"
 			tasks: [
 				{
@@ -191,8 +213,10 @@
 		}
 		{
 			title: "Fluid logistics"
-			x: 2.0d
-			y: 3.0d
+			x: 7.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["08030E2DAC25D1B7"]
 			id: "78779C0CD4360979"
 			tasks: [
 				{
@@ -214,8 +238,12 @@
 		}
 		{
 			title: "Fluid in the world"
-			x: 3.0d
-			y: 3.0d
+			x: 7.5d
+			y: 1.5d
+			dependencies: [
+				"6891D7CAA482B258"
+				"78779C0CD4360979"
+			]
 			id: "544B2084C465A145"
 			tasks: [
 				{
@@ -232,8 +260,10 @@
 		}
 		{
 			title: "Item logistics"
-			x: 2.0d
-			y: 4.0d
+			x: 9.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["08030E2DAC25D1B7"]
 			id: "4F217273CE80A7D7"
 			tasks: [
 				{
@@ -255,8 +285,12 @@
 		}
 		{
 			title: "Item in the world"
-			x: 3.0d
-			y: 4.0d
+			x: 9.0d
+			y: 1.5d
+			dependencies: [
+				"6891D7CAA482B258"
+				"4F217273CE80A7D7"
+			]
 			id: "5BA14CBCC45A12A1"
 			tasks: [
 				{
@@ -272,10 +306,15 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 2.0d
+			x: 2.5d
+			y: -3.0d
 			subtitle: "Make a Storage Terminal"
 			description: ["All &bstored items&f, &bfluids &fand &benergy &fbecome visible and interactable from a single place using the &bStorage Terminal&f, and &bcrafting jobs &fbecome manageable from the &bCrafting Job Terminal&f."]
+			hide_dependency_lines: true
+			dependencies: [
+				"71F00867FCD80380"
+				"08030E2DAC25D1B7"
+			]
 			id: "22E48889C36049E9"
 			tasks: [{
 				id: "640280DAA0771254"
@@ -284,8 +323,9 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -1.0d
+			x: 3.5d
+			y: -3.0d
+			dependencies: ["22E48889C36049E9"]
 			id: "01A95C71F1AE6645"
 			tasks: [{
 				id: "4D76250025748EB7"
@@ -294,8 +334,10 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -1.0d
+			x: 1.5d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["08030E2DAC25D1B7"]
 			id: "344AF4A7C54D9658"
 			tasks: [{
 				id: "459F99CE5498379C"
@@ -304,9 +346,14 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -1.0d
+			x: 2.5d
+			y: 1.5d
 			description: ["Long range networks."]
+			hide_dependency_lines: true
+			dependencies: [
+				"148A86A18A62924F"
+				"08030E2DAC25D1B7"
+			]
 			id: "28AE7992778C4123"
 			tasks: [{
 				id: "3FB672E2C22AD18A"
@@ -315,9 +362,11 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -1.0d
+			x: 2.5d
+			y: 0.5d
 			description: ["Really long range networks."]
+			hide_dependency_lines: true
+			dependencies: ["6891D7CAA482B258"]
 			id: "1C75E084C62E31A9"
 			tasks: [{
 				id: "1A45A387E6A264BD"
@@ -326,7 +375,7 @@
 			}]
 		}
 		{
-			x: 14.5d
+			x: 11.0d
 			y: -2.5d
 			description: ["Get the Block you are looking at."]
 			dependencies: ["2BF510AA8F2C57F2"]
@@ -339,8 +388,8 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 4.5d
+			x: 12.0d
+			y: 0.5d
 			description: ["Dynamically filter enchantable items in the Storage Terminal using Variable"]
 			dependencies: ["2BF510AA8F2C57F2"]
 			id: "51E256D601D5900E"
@@ -352,7 +401,7 @@
 			}]
 		}
 		{
-			x: 14.5d
+			x: 11.0d
 			y: -1.5d
 			description: ["Check if a Stone Pickaxe can break an Obsidian block, and show the result in a Display Panel."]
 			dependencies: ["2BF510AA8F2C57F2"]
@@ -365,8 +414,8 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 0.5d
+			x: 12.0d
+			y: -1.5d
 			description: ["Use a Crafting Writer to start a crafting job for Oak Planks."]
 			dependencies: ["2BF510AA8F2C57F2"]
 			id: "42D00E445B997B2B"
@@ -378,8 +427,8 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 3.5d
+			x: 12.0d
+			y: -2.5d
 			description: ["Play the step sound of a Wet Sponge block."]
 			dependencies: ["2BF510AA8F2C57F2"]
 			id: "603796112345983E"
@@ -391,8 +440,8 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 2.5d
+			x: 11.0d
+			y: 0.5d
 			description: [
 				"Create a systeme that automatically opens a door when you pass by an Entity Reader based on entity name matching, using Redstone Writer directly pointing to the door."
 				"Hint : Pass an entity name as first argument into the equals operator."
@@ -407,7 +456,7 @@
 			}]
 		}
 		{
-			x: 14.5d
+			x: 11.0d
 			y: -0.5d
 			description: ["Break Stone blocks using a World Block Importer."]
 			dependencies: ["2BF510AA8F2C57F2"]
@@ -420,8 +469,8 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 1.5d
+			x: 12.0d
+			y: -0.5d
 			description: ["Click with a Diamond Sword using a Player Simulator."]
 			dependencies: ["2BF510AA8F2C57F2"]
 			id: "5539D44A512E0843"
@@ -433,12 +482,16 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 8.5d
 			y: -5.5d
 			subtitle: "Make a Drying Basin"
 			description: [
 				"The &bDrying Basin&r will dry items/fluids inserted into it. Some recipes may require both items &oand&r fluids to work; see its uses in JEI."
 				"Its most important use is to &6convert Menril Resin into a Block of Crystallized Menril&r."
+			]
+			dependencies: [
+				"3F97D03C2402B70D"
+				"3F05D033EBD0710D"
 			]
 			id: "0CE03C2648BD9948"
 			tasks: [{
@@ -448,10 +501,14 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -2.0d
+			x: 8.5d
+			y: -2.5d
 			subtitle: "Make a Mechanical Drying Basin"
 			description: ["The &bMechanical Drying Basin&r works just like the Drying Basin, but uses energy."]
+			dependencies: [
+				"0CE03C2648BD9948"
+				"019F24CC72ACD58E"
+			]
 			id: "1B26D90A4DA22414"
 			tasks: [{
 				id: "6B4A2B2E18DFEA81"
@@ -460,12 +517,16 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -3.0d
+			x: 6.5d
+			y: -2.5d
 			subtitle: "Make a Mechanical Squeezer"
 			description: [
 				"The &bMechanical Squeezer&r &6uses energy&r to convert Menril Wood into Menril Resin, at the same time as producing Crystallized Menril Chunks."
 				"You can also use it as &ba grinder&r."
+			]
+			dependencies: [
+				"64022C765DB7BA44"
+				"019F24CC72ACD58E"
 			]
 			id: "1A89AEC8DAC884C5"
 			tasks: [{
@@ -475,8 +536,13 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -2.0d
+			x: 8.0d
+			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"0CE03C2648BD9948"
+				"71F00867FCD80380"
+			]
 			id: "3D6378E8B91C9436"
 			tasks: [{
 				id: "7A73F33BA1631829"
@@ -485,8 +551,10 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 5.5d
+			x: 8.5d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["1B26D90A4DA22414"]
 			id: "4E0F477B942667FE"
 			tasks: [{
 				id: "28AF8F558FB8277A"
@@ -495,8 +563,10 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 5.5d
+			x: 6.5d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["1B26D90A4DA22414"]
 			id: "5E75F1DB2EE8484B"
 			tasks: [{
 				id: "71DF2FF030864DD1"
@@ -505,8 +575,13 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 5.5d
+			x: 7.5d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"376158C957B192C7"
+				"08030E2DAC25D1B7"
+			]
 			id: "6891D7CAA482B258"
 			tasks: [{
 				id: "7B335303EA44EB00"
@@ -515,8 +590,10 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 6.5d
+			x: 7.5d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["1B26D90A4DA22414"]
 			id: "376158C957B192C7"
 			tasks: [{
 				id: "6AF8FB0B9298B0DD"
@@ -525,8 +602,9 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 6.5d
+			x: 7.0d
+			y: -3.5d
+			dependencies: ["08030E2DAC25D1B7"]
 			id: "019F24CC72ACD58E"
 			tasks: [{
 				id: "7E2CF39AE6E0FE95"
@@ -541,8 +619,9 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 6.5d
+			x: 8.0d
+			y: -3.5d
+			dependencies: ["019F24CC72ACD58E"]
 			id: "30E6A9B910CD3D04"
 			tasks: [{
 				id: "63D5AA5503ABA102"
@@ -552,7 +631,7 @@
 		}
 		{
 			title: "Knowledge Juice"
-			x: 7.0d
+			x: 6.5d
 			y: -5.5d
 			subtitle: "Make a Squeezer"
 			description: [
@@ -560,6 +639,7 @@
 				"The Menril Resin will automatically be output to a fluid container on &6two if its sides&r."
 				"Give the Squeezer a &6redstone signal&r to reset it."
 			]
+			dependencies: ["3F97D03C2402B70D"]
 			min_width: 250
 			id: "64022C765DB7BA44"
 			tasks: [{
@@ -569,7 +649,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 7.5d
 			y: -6.5d
 			dependencies: ["71F00867FCD80380"]
 			id: "6997990786B3DCF9"

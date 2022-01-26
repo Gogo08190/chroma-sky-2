@@ -4,12 +4,12 @@
 	order_index: 0
 	filename: "welcome_to_chroma_sky_2"
 	title: "Welcome to Chroma Sky 2"
-	icon: "easy_villagers:villager"
+	icon: "chromasky:magiccrystal"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			icon: "easy_villagers:villager"
+			icon: "chromasky:magiccrystal"
 			x: 0.0d
 			y: -0.5d
 			shape: "diamond"
@@ -55,6 +55,28 @@
 				id: "27D96D6880BAC10E"
 				type: "checkmark"
 				title: "Islands"
+			}]
+		}
+		{
+			icon: "losttrinkets:treasure_bag"
+			x: 0.0d
+			y: 2.5d
+			shape: "diamond"
+			description: [
+				"Trinkets will give you good effects such as preventing you from taking damage from falling, increasing health, giving you the ability to climb walls, etc."
+				""
+				"Trinkets are randomly unlocked when you doing some activities like fighting enemies and bosses, trading, mining ores, cutting trees, and farming."
+				"Each activity has a rarity of unlocking trinkets eg: killing bosses has a better chance than normal enemies"
+				""
+				"&aYou learn the trinket by holding the trinket in your hand and right-clicking."
+				""
+				"&3You can access the trinket GUI by pressing the R (by default) key on your keyboard. "
+			]
+			id: "769D409BA5258BBD"
+			tasks: [{
+				id: "3BF48E9C80FFE840"
+				type: "checkmark"
+				title: "Lost Trinkets"
 			}]
 		}
 	]

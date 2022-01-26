@@ -1,0 +1,1728 @@
+{
+	id: "6543D50CE942A7FE"
+	group: "73390EDA98890AC0"
+	order_index: 0
+	filename: "industrial_foregoing"
+	title: "Industrial foregoing"
+	icon: "industrialforegoing:machine_frame_supreme"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.0d
+			y: -4.0d
+			shape: "diamond"
+			description: ["Go to the upper tier with dissolution chamber"]
+			hide_dependency_lines: true
+			dependencies: [
+				"2E1A0AB49E83B283"
+				"5E1F9A6B1FEB5289"
+				"47A4D81697C274A3"
+				"39DB67EE674F41A4"
+			]
+			size: 2.0d
+			id: "63B23FA7CF83536B"
+			tasks: [{
+				id: "3D7D45995C4D1806"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"63B23FA7CF83536B"
+				"57196F75D8B2E56E"
+				"160136E00BDB7DAF"
+			]
+			size: 2.0d
+			id: "2B1E63E2EF6E34BE"
+			tasks: [{
+				id: "3E98E50F5927B293"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"2B1E63E2EF6E34BE"
+				"57196F75D8B2E56E"
+				"6E9406EFFF5CE4B4"
+			]
+			size: 2.0d
+			id: "330F7694A3CE7357"
+			tasks: [{
+				id: "08122DDD30E5CF26"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -4.0d
+			shape: "diamond"
+			description: ["Tier max of the machine frame"]
+			hide_dependency_lines: true
+			dependencies: [
+				"330F7694A3CE7357"
+				"57196F75D8B2E56E"
+			]
+			hide: false
+			size: 2.0d
+			id: "2CFB31CFACB54C1E"
+			tasks: [{
+				id: "3F233867FD472D7D"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.5d
+			shape: "diamond"
+			description: ["A machine used to spawn withers. When provided with power, &e3 Wither Skulls&r and &e4 soulsand&r, it will completely build the wither spawning structure in the working area."]
+			dependencies: ["2CFB31CFACB54C1E"]
+			id: "32E2F6F68434B61E"
+			tasks: [{
+				id: "13209C55B79EBCEE"
+				type: "item"
+				item: "industrialforegoing:wither_builder"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["2CFB31CFACB54C1E"]
+			id: "1BBA243024E0C905"
+			tasks: [{
+				id: "18A4D42C6DE2ED48"
+				type: "item"
+				item: "industrialforegoing:mycelial_meatallurgic"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.5d
+			shape: "diamond"
+			dependencies: ["2CFB31CFACB54C1E"]
+			id: "455A90465089C22F"
+			tasks: [{
+				id: "2E5FBC17377372D7"
+				type: "item"
+				item: "industrialforegoing:black_hole_controller"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["2CFB31CFACB54C1E"]
+			id: "3D996A5DB63C97A2"
+			tasks: [{
+				id: "1BD0D67BD8E72AB3"
+				type: "item"
+				item: "industrialforegoing:mycelial_halitosis"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.0d
+			shape: "diamond"
+			subtitle: "Can Hold : &32,147,483,647 &ritems"
+			dependencies: ["2CFB31CFACB54C1E"]
+			id: "0EF1ACEFF122225D"
+			tasks: [{
+				id: "23E8F90A3BE398D6"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_unit"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -3.0d
+			shape: "diamond"
+			subtitle: "Can Hold : &32,147,483,647 &rmb"
+			dependencies: ["2CFB31CFACB54C1E"]
+			id: "0F57C37E86815CEC"
+			tasks: [{
+				id: "36A87C2EBFD1D21B"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_tank"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["2CFB31CFACB54C1E"]
+			id: "3B8028A6249B3CF5"
+			tasks: [{
+				id: "2128DE37DCFAF009"
+				type: "item"
+				item: "industrialforegoing:mycelial_netherstar"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			shape: "diamond"
+			description: ["Kills all mobs on the block in front of it. Stores their drops in its inventory and converts the experience into liquid Essence"]
+			dependencies: ["330F7694A3CE7357"]
+			id: "1131683F9811C282"
+			tasks: [{
+				id: "53BF0206DC9BA665"
+				type: "item"
+				item: "industrialforegoing:mob_crusher"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			shape: "diamond"
+			description: ["A next-generation &ecobbelstone&r generator."]
+			dependencies: ["330F7694A3CE7357"]
+			id: "6FC97C8A57860696"
+			tasks: [{
+				id: "673897047075C183"
+				type: "item"
+				item: "industrialforegoing:material_stonework_factory"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["330F7694A3CE7357"]
+			id: "1FA3D6F420394316"
+			tasks: [{
+				id: "1D26C8DE95870DB8"
+				type: "item"
+				item: "industrialforegoing:mycelial_rocket"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["330F7694A3CE7357"]
+			id: "40B97878E3A5E500"
+			tasks: [{
+				id: "13E278F085FDFE58"
+				type: "item"
+				item: "industrialforegoing:mycelial_potion"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["330F7694A3CE7357"]
+			id: "385261FEAC06D6F5"
+			tasks: [{
+				id: "5A371B9FDB49BCA9"
+				type: "item"
+				item: "industrialforegoing:mycelial_slimey"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.0d
+			shape: "diamond"
+			description: [""]
+			dependencies: ["330F7694A3CE7357"]
+			id: "649AAA6B08377944"
+			tasks: [{
+				id: "17E4CE51E0EFE782"
+				type: "item"
+				item: "industrialforegoing:ore_laser_base"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			shape: "diamond"
+			description: ["An automatic vanilla brewer"]
+			dependencies: ["330F7694A3CE7357"]
+			id: "25D1C06635013827"
+			tasks: [{
+				id: "6B157FC59132FC2C"
+				type: "item"
+				item: "industrialforegoing:potion_brewer"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			shape: "diamond"
+			description: ["When provided with power this machine will &6freeze &fand &6heal &fany entity that are in its working area."]
+			dependencies: ["330F7694A3CE7357"]
+			id: "24E42EC0C5B00885"
+			tasks: [{
+				id: "6C0188D7380C796A"
+				type: "item"
+				item: "industrialforegoing:stasis_chamber"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			shape: "diamond"
+			description: ["Using liquid meat and an ore this machine will turn that meat into raw ore meat of that ore."]
+			dependencies: ["330F7694A3CE7357"]
+			id: "01C64E1C07B8237B"
+			tasks: [{
+				id: "29130A47B5E0A7E7"
+				type: "item"
+				item: "industrialforegoing:washing_factory"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.0d
+			shape: "diamond"
+			subtitle: "Can Hold : &367,108,864 &rmb"
+			dependencies: ["330F7694A3CE7357"]
+			id: "2C06BBD227F27724"
+			tasks: [{
+				id: "215B86982D51BD19"
+				type: "item"
+				item: "industrialforegoing:advanced_black_hole_tank"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			shape: "diamond"
+			subtitle: "Can Hold : &367,108,864 &ritems"
+			dependencies: ["330F7694A3CE7357"]
+			id: "4E52879C12B5AAE4"
+			tasks: [{
+				id: "07A15BB5CBBBAEAA"
+				type: "item"
+				item: "industrialforegoing:advanced_black_hole_unit"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			shape: "diamond"
+			description: ["This machine functions the same way as an anvill but instead of experience it uses &1Essence.&r It can grab essence from the tank on top of the cost is too big."]
+			dependencies: ["330F7694A3CE7357"]
+			id: "487D1E30DF7CC914"
+			tasks: [{
+				id: "1522E3A061720D01"
+				type: "item"
+				item: "industrialforegoing:enchantment_applicator"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			shape: "diamond"
+			description: ["This machine can extract enchantments from items when provided with a book."]
+			dependencies: ["330F7694A3CE7357"]
+			id: "3E7DF156E952E88C"
+			tasks: [{
+				id: "58F77E601862A76A"
+				type: "item"
+				item: "industrialforegoing:enchantment_extractor"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			shape: "diamond"
+			description: ["Consumes liquid Essence to add enchantments to items. Can only add level 30 enchantments, with each enchantment costing 3 buckets of liquid Essence. Requires power."]
+			dependencies: ["330F7694A3CE7357"]
+			id: "412272889C4120C4"
+			tasks: [{
+				id: "0D1BDC5B86CFF825"
+				type: "item"
+				item: "industrialforegoing:enchantment_factory"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			shape: "diamond"
+			description: ["This machine will sort items that are enchanted from the one that aren't."]
+			dependencies: ["330F7694A3CE7357"]
+			id: "70C1A8C1A4193198"
+			tasks: [{
+				id: "3EFE612EBA652943"
+				type: "item"
+				item: "industrialforegoing:enchantment_sorter"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			shape: "diamond"
+			description: [
+				"When fully charged with a &bLaser Drill &fit will drain fluids. To do it will need a specific catalyst that won't be consumed and the machine will need to be placed in a specific biome and drill at a specific depth."
+				""
+				"To make &bEther Gas&f, it has to be over a Wither."
+				""
+				"In order to keep the Wither contained, I suggest you to use &cwither proof blocks&f."
+				""
+				"Place the &3Stasis Chamber&r underneath the Wither to make sure it can't move anymore."
+			]
+			dependencies: ["330F7694A3CE7357"]
+			id: "43BA91382EFDF002"
+			tasks: [{
+				id: "4471D604991895D7"
+				type: "item"
+				item: "industrialforegoing:fluid_laser_base"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			shape: "diamond"
+			description: ["Using fermented ore meat and sand this machine will turn that meat into dust from the ore that it was first created."]
+			dependencies: ["330F7694A3CE7357"]
+			id: "1C92C039A504D3B9"
+			tasks: [{
+				id: "410A028842C467BF"
+				type: "item"
+				item: "industrialforegoing:fluid_sieving_machine"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			shape: "diamond"
+			description: ["Charges items that can hold power. It charges &einfinity&r items very fast."]
+			dependencies: ["330F7694A3CE7357"]
+			id: "12465B84F7CA88D4"
+			tasks: [{
+				id: "7889DBEDAEE6D04A"
+				type: "item"
+				item: "industrialforegoing:infinity_charger"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["330F7694A3CE7357"]
+			id: "7746AE4E402C2D72"
+			tasks: [{
+				id: "7BF6B26DA4189ACC"
+				type: "item"
+				item: "industrialforegoing:mycelial_magma"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["330F7694A3CE7357"]
+			id: "090A5783F3C50648"
+			tasks: [{
+				id: "194DB4B9E94C27E0"
+				type: "item"
+				item: "industrialforegoing:mycelial_explosive"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["330F7694A3CE7357"]
+			id: "5C11DCF5FFACEAC1"
+			tasks: [{
+				id: "7DDC0BA16B62D2B4"
+				type: "item"
+				item: "industrialforegoing:mycelial_ender"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["330F7694A3CE7357"]
+			id: "35FEB96BA8C7A81F"
+			tasks: [{
+				id: "55F1435B146BABE9"
+				type: "item"
+				item: "industrialforegoing:mycelial_disenchantment"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["330F7694A3CE7357"]
+			id: "62E101210B2393F1"
+			tasks: [{
+				id: "6B52808C4BFB732A"
+				type: "item"
+				item: "industrialforegoing:mycelial_death"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["330F7694A3CE7357"]
+			id: "1DC0419903624513"
+			tasks: [{
+				id: "1E67B2EBCB379662"
+				type: "item"
+				item: "industrialforegoing:mycelial_crimed"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			shape: "diamond"
+			description: [
+				"A machine used to spawn mobs."
+				"When provided with power, &1Essence&r and any entity in a &1mob Imprisonment Tool&r it will spawn them around it."
+			]
+			dependencies: ["330F7694A3CE7357"]
+			id: "762FDE2FD8D49DEA"
+			tasks: [{
+				id: "493A08CCEA8CDF56"
+				type: "item"
+				item: "industrialforegoing:mob_duplicator"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			shape: "diamond"
+			description: ["Bonemeals crops directly in front of it when supplied with fertilizer (bonemeal)."]
+			dependencies: ["2B1E63E2EF6E34BE"]
+			id: "283FB1B9E64ABF66"
+			tasks: [{
+				id: "4B89CE7199B00184"
+				type: "item"
+				item: "industrialforegoing:plant_fertilizer"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["2B1E63E2EF6E34BE"]
+			id: "31E902EBCC03051A"
+			tasks: [{
+				id: "60E0AACF0F50BB05"
+				type: "item"
+				item: "industrialforegoing:mycelial_furnace"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			shape: "diamond"
+			description: [
+				"This machine when combined with power and &ewater&r (ore &elava&r for nether crops) it will speed up growth crop a bit."
+				""
+				"By providing very small amouts of &1Ether Gas&r crops will grow much faster and they will be replanted automatically."
+			]
+			dependencies: ["2B1E63E2EF6E34BE"]
+			id: "1501D2169447A969"
+			tasks: [{
+				id: "6DF720E0DBBF23ED"
+				type: "item"
+				item: "industrialforegoing:hydroponic_bed"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			shape: "diamond"
+			subtitle: "Can Hold : &3524,288 &rmb"
+			dependencies: ["2B1E63E2EF6E34BE"]
+			id: "52F3A8CA801AC307"
+			tasks: [{
+				id: "0F1B6FA52EB300C9"
+				type: "item"
+				item: "industrialforegoing:simple_black_hole_tank"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			shape: "diamond"
+			description: ["This machine will detect how many entities are in front of it and it will emit a redstone signal in the back with the same strength as the amount of entities detected."]
+			dependencies: ["2B1E63E2EF6E34BE"]
+			id: "5932F70C7B7174D6"
+			tasks: [{
+				id: "5611D49FDC0EF902"
+				type: "item"
+				item: "industrialforegoing:mob_detector"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["2B1E63E2EF6E34BE"]
+			id: "5549C8185080A8AC"
+			tasks: [{
+				id: "7E64E95A5E73EC33"
+				type: "item"
+				item: "industrialforegoing:mycelial_pink"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["2B1E63E2EF6E34BE"]
+			id: "10AE5D996ED22A65"
+			tasks: [{
+				id: "1406F637FBECB378"
+				type: "item"
+				item: "industrialforegoing:mycelial_frosty"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			shape: "diamond"
+			subtitle: "Can Hold : &3524,288 &ritems"
+			dependencies: ["2B1E63E2EF6E34BE"]
+			id: "20B8B518AD35A7C4"
+			tasks: [{
+				id: "3945558BB67DFE32"
+				type: "item"
+				item: "industrialforegoing:simple_black_hole_unit"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			shape: "diamond"
+			description: ["Using raw ore meat this machine will seal its contents when reached the configured level and it will ferment that meat using the selected production type."]
+			dependencies: ["2B1E63E2EF6E34BE"]
+			id: "23FBB58702F7C693"
+			tasks: [{
+				id: "13A5A652DE7650DE"
+				type: "item"
+				item: "industrialforegoing:fermentation_station"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			shape: "diamond"
+			description: ["This machine, when provided with power, charges the first &1Ore Laser Base&r and &1fluid Laser base&r that finds in its working area."]
+			dependencies: ["2B1E63E2EF6E34BE"]
+			id: "1A5CD3B8C88C2F76"
+			tasks: [{
+				id: "7CB21479545E00A2"
+				type: "item"
+				item: "industrialforegoing:laser_drill"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			shape: "diamond"
+			description: ["When placed above a &ewater pool&r of at least &13×3&r and &e1&r block deep, it will start &efishing&r ans put the fish in the internal inventory, at the cost of &e5000&rRF per operation."]
+			dependencies: ["2B1E63E2EF6E34BE"]
+			id: "442B4A1C5ECC8476"
+			tasks: [{
+				id: "0DD114F5B0BB9247"
+				type: "item"
+				item: "industrialforegoing:marine_fisher"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["2B1E63E2EF6E34BE"]
+			id: "05E89540E49C88DB"
+			tasks: [{
+				id: "1283CC77714CF1C1"
+				type: "item"
+				item: "industrialforegoing:mycelial_culinary"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			shape: "diamond"
+			description: ["A machine used to collect &1Sewage&r from animals and experience to turn int into essence."]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "12BE7267252FCE66"
+			tasks: [{
+				id: "1D7F528921D81AAB"
+				type: "item"
+				item: "industrialforegoing:sewer"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.0d
+			shape: "diamond"
+			description: [
+				"A machine that fransforms &esludge&r into something useful."
+				""
+				"When supplied with &esludge&r, obtained from the &1Plant Gatherer&r, it will generate &esomething&r"
+			]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "0027267FD98236F4"
+			tasks: [{
+				id: "61B739420A3AA21E"
+				type: "item"
+				item: "industrialforegoing:sludge_refiner"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			shape: "diamond"
+			description: ["A machine used to &eplant&r crops and saplings."]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "744804847D5DE61F"
+			tasks: [{
+				id: "7B9684C947C5C2E9"
+				type: "item"
+				item: "industrialforegoing:plant_sower"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			shape: "diamond"
+			description: ["A machine used to &echop&r trees and &eharvest&r crops. Each operation creates a little bit of &1Sludge&r"]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "02CC80C4C5E7D553"
+			tasks: [{
+				id: "4F7606E1B6E9399C"
+				type: "item"
+				item: "industrialforegoing:plant_gatherer"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -2.0d
+			shape: "diamond"
+			subtitle: "Can Hold : &316,384 &ritems"
+			description: [""]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "5D2B140840C2A89D"
+			tasks: [{
+				id: "2B336025FA7BD70E"
+				type: "item"
+				item: "industrialforegoing:pity_black_hole_unit"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -2.5d
+			shape: "diamond"
+			subtitle: "Can Hold : &364,000 &rmb"
+			dependencies: ["63B23FA7CF83536B"]
+			id: "26D5879959DE4A52"
+			tasks: [{
+				id: "09F4380CBB26BEA0"
+				type: "item"
+				item: "industrialforegoing:pity_black_hole_tank"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -2.5d
+			shape: "diamond"
+			description: ["Turns &9wooden items and blocks&r into power. The rates are identical to those of the Petrified Fuel Generator."]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "3EFB4F3BDAFB9CE6"
+			tasks: [{
+				id: "1741BFE23400A0BA"
+				type: "item"
+				item: "industrialforegoing:pitiful_generator"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			shape: "diamond"
+			description: [
+				"Duplicates &efungi&r."
+				""
+				"For nether fungi it needs &elava&r."
+			]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "4C3328C0818848B0"
+			tasks: [{
+				id: "67F8CB7348B66F0F"
+				type: "item"
+				item: "industrialforegoing:spores_recreator"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			shape: "diamond"
+			description: [
+				"A machine that generates &ewater&r from surrounding sourceblocks."
+				""
+				"When adjacent to at least &e2 water source blocks&r, it will start working."
+			]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "1F6C68FC5931B312"
+			tasks: [{
+				id: "6CEFA6EAA0F16351"
+				type: "item"
+				item: "industrialforegoing:water_condensator"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			shape: "diamond"
+			description: ["Breeds animals which are on the block in front of it using food given as an input. The input must be the correct food type (pigs eat carrots, cows eat wheat, etc)."]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "7B430A28ED635F21"
+			tasks: [{
+				id: "442F465569563566"
+				type: "item"
+				item: "industrialforegoing:animal_feeder"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.5d
+			shape: "diamond"
+			description: ["It places blocks."]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "0330063F67B18137"
+			tasks: [{
+				id: "04362DB1FABA37E1"
+				type: "item"
+				item: "industrialforegoing:block_placer"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			shape: "diamond"
+			subtitle: "Can Hold : &32,048 &ritems"
+			dependencies: ["63B23FA7CF83536B"]
+			id: "517D10874CCF2C39"
+			tasks: [{
+				id: "68C1F77B3DEDD82B"
+				type: "item"
+				item: "industrialforegoing:common_black_hole_unit"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -3.0d
+			shape: "diamond"
+			subtitle: "Can Hold : &316,000 &rmb"
+			dependencies: ["63B23FA7CF83536B"]
+			id: "279608DF67349FAC"
+			tasks: [{
+				id: "5EC99F4D63F9D020"
+				type: "item"
+				item: "industrialforegoing:common_black_hole_tank"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			shape: "diamond"
+			description: ["Break any block in front of it and places it in the internal inventory, at the cost of &e1000&rRF per operation."]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "1E0E37433EDFD597"
+			tasks: [{
+				id: "7E9C72B7CAF46340"
+				type: "item"
+				item: "industrialforegoing:block_breaker"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.5d
+			shape: "diamond"
+			description: ["A machine that when provided with water and some &eseeds&r,&esapplings&r,&edyes&r and &eskulls&r??? it will create &1Biofuel&r"]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "58B3C38BCA49FB74"
+			tasks: [{
+				id: "06CCE9DDF1EAB43A"
+				type: "item"
+				item: "industrialforegoing:bioreactor"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -2.0d
+			shape: "diamond"
+			description: ["Turns liquid Biofuel into power. Liquid Biofuel can be obtained using a Bioreactor"]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "0E924CB5C7EF54B2"
+			tasks: [{
+				id: "3E9173EA8772E4F8"
+				type: "item"
+				item: "industrialforegoing:biofuel_generator"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			shape: "diamond"
+			description: ["&2Harvests resources&r from animals on the block in front of it. This includes shearing sheep, milking cows, and collecting ink sacs from squid.&3Does not require tools to do these actions&r."]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "2DE45C592C57D462"
+			tasks: [{
+				id: "3835F9D172B726C0"
+				type: "item"
+				item: "industrialforegoing:animal_rancher"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -0.5d
+			shape: "diamond"
+			description: ["A machine used to separate &ebaby&r animals from adult animals. Baby animals will be teleported to the back of the machine. You can change what type of mobs get moved in the GUI."]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "401C5E5E7E9CC7CB"
+			tasks: [{
+				id: "7B74C8966DF0467C"
+				type: "item"
+				item: "industrialforegoing:animal_baby_separator"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			shape: "diamond"
+			description: [
+				"A powerfull machine used to craft material using up to &e8&r item and/or &e1&r fluid. This machine can produce items and/or fluids."
+				""
+				"All the recipe are shapeless meaning that the ingredients can be in any slot."
+			]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "0990C82D9CE73CAF"
+			tasks: [{
+				id: "1B9C46205C75EEEE"
+				type: "item"
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			shape: "diamond"
+			description: ["This machine mixes primal dye colours to create the colours of the raindow."]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "209DE424F426C49F"
+			tasks: [{
+				id: "74E6605EE3BA5246"
+				type: "item"
+				item: "industrialforegoing:dye_mixer"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.5d
+			shape: "diamond"
+			description: ["It drains a fluid source block in front of it."]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "3F134853F9111E68"
+			tasks: [{
+				id: "5AB766345D7BDD4F"
+				type: "item"
+				item: "industrialforegoing:fluid_collector"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -3.5d
+			shape: "diamond"
+			description: ["Place down a Tree Fluid Extractor. Place any type of log in front of the face with the animation. The Tree Fluid Extractor will slowly consume the log, turning it into liquid latex."]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "30C48A7DE3117D33"
+			tasks: [{
+				id: "7AC1126EAB26F55A"
+				type: "item"
+				item: "industrialforegoing:fluid_extractor"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.5d
+			shape: "diamond"
+			description: ["It places fluids."]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "4E0FE273BA918875"
+			tasks: [{
+				id: "01242863F10040DF"
+				type: "item"
+				item: "industrialforegoing:fluid_placer"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["63B23FA7CF83536B"]
+			id: "5374089195AB2CD9"
+			tasks: [{
+				id: "3740159871A65040"
+				type: "item"
+				item: "industrialforegoing:fluid_transporter_type"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["63B23FA7CF83536B"]
+			id: "2835BDF902E80234"
+			tasks: [{
+				id: "1C2197B9AC162639"
+				type: "item"
+				item: "industrialforegoing:item_transporter_type"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -3.0d
+			shape: "diamond"
+			description: ["The Latex Processing Unit needs to be supplied with power, water, and liquid latex. Once it has all of these inputs, it will produce Tiny Dry Rubber. Put 9 Tiny Dry Rubber into a crafting grid to produce Dry Rubber."]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "48E4B71B64A76DCD"
+			tasks: [{
+				id: "026A3187E043D88C"
+				type: "item"
+				item: "industrialforegoing:latex_processing_unit"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.0d
+			shape: "diamond"
+			description: ["Kills all mobs on the block in front of it. &dCreates liquid Meat and Pink Slime&r, but does &1not store or drop experience or mob drops&r. Requires power."]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "060FE76E8FA55A0D"
+			tasks: [{
+				id: "49AFC3B79D41E16E"
+				type: "item"
+				item: "industrialforegoing:mob_slaughter_factory"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.0d
+			shape: "diamond"
+			description: [
+				"3 furnaces in 1."
+				""
+				"Returns &e2mb&r of essence per item melted."
+			]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "0FE5FF6916A0EAAD"
+			tasks: [{
+				id: "27199E9681697455"
+				type: "item"
+				item: "industrialforegoing:resourceful_furnace"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -1.5d
+			shape: "diamond"
+			description: ["When provided with &1Sewage&r this machine will create &1Fertilizer&r from it."]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "386EB5512AADF487"
+			tasks: [{
+				id: "6EE7E5E837738499"
+				type: "item"
+				item: "industrialforegoing:sewage_composter"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			shape: "square"
+			description: [
+				"The Infinity Hammer is a tool that allows you damage enemies in an area. Increasing the tier will give you access to different level of &eBeheading&r, allowing you to get mob heads easily."
+				""
+				"When right clicked into the ground it will make a &eshatter&r effect into the ground in a cone shape in front of the user."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0990C82D9CE73CAF"]
+			id: "39CE2D3196951E55"
+			tasks: [{
+				id: "539AACCCF7BD1EC4"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_hammer"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Beheading: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			shape: "square"
+			description: [
+				"The Infinity Backpack is a tool that allow you to store big amounts of items in a portable way."
+				""
+				"It can hold 3 specific fluids:"
+				"&ebiofuel&r to allow automatic operations to fonction,"
+				"&eessence&r from the picked up experience,"
+				"and &eliquid meat&r to feed you automatically."
+				""
+				"When &eMagnet Mode&r is enabled nearby item will be teleported to the player when they can be picked up."
+				""
+				"When &eAuto-Pickup Mode&r is enabled item that can go in the backpack picked up by the player it will go into the backpack automatically."
+				""
+				"Each slot can be configured to &evoid&r excess or to &erefill&r stacks that aren't full in your inventory."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0990C82D9CE73CAF"]
+			min_width: 250
+			id: "075E58D8F753CAAB"
+			tasks: [{
+				id: "70853ABDBD8A3EF1"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_backpack"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.0d
+			shape: "square"
+			description: [
+				"The Infinity Saw is a tool that allows you to chop trees efficiently, the bigger the tier the more blocks you can chop at the same time."
+				"Keep breaking the same block to chop big trees."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0990C82D9CE73CAF"]
+			id: "32A6022FC30307FE"
+			tasks: [{
+				id: "029EE0E27EC3B455"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_saw"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			shape: "square"
+			description: [
+				"The Infinity Trident is a tool that allows you to release the true power of a trident."
+				"Increasing the tier will give you access to different levels of &eLoyalty, Riptide&r and &eChanneling&r."
+				""
+				"Channeling and hit damage will be applied in aoe."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0990C82D9CE73CAF"]
+			id: "5FB0E87B4B124DB3"
+			tasks: [{
+				id: "09DF11F606753738"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_trident"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Riptide: 0
+						Channeling: 0b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Loyalty: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			shape: "square"
+			description: ["A drill which gets upgraded as energy is put into it. The easiest way to get started charging your drill is with a Wireless Charger from the Chargers mod."]
+			hide_dependency_lines: true
+			dependencies: ["0990C82D9CE73CAF"]
+			id: "6045E9004C76EBC9"
+			tasks: [{
+				id: "79D2208D3BB78C20"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_drill"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Tiny Dry Rubber"
+			x: -7.0d
+			y: 3.5d
+			shape: "square"
+			description: ["Create in latex processing unit"]
+			hide_dependency_lines: true
+			dependencies: [
+				"48E4B71B64A76DCD"
+				"160136E00BDB7DAF"
+			]
+			id: "23CAAA1E2EF8A7A2"
+			tasks: [{
+				id: "1870EB1E276D454B"
+				type: "item"
+				item: "industrialforegoing:tinydryrubber"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 4.5d
+			shape: "square"
+			dependencies: ["23CAAA1E2EF8A7A2"]
+			id: "37C608454496720E"
+			tasks: [{
+				id: "54EB4AD1FB4ED1CB"
+				type: "item"
+				item: "industrialforegoing:dryrubber"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 5.5d
+			shape: "square"
+			dependencies: ["37C608454496720E"]
+			id: "57196F75D8B2E56E"
+			tasks: [{
+				id: "7FBA1D5B3218003D"
+				type: "item"
+				item: "industrialforegoing:plastic"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			shape: "diamond"
+			description: [
+				"Using the &eMycelial Network&r (A subspace domain containing a living vegetable mass of fungus called the mycelium"
+				"This reactor can detect the other &eMycelial generator&r and generate massive amount of FE."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2CFB31CFACB54C1E"]
+			size: 2.0d
+			id: "3C0C25F26BED0E21"
+			tasks: [{
+				id: "1B1BE688A776576E"
+				type: "item"
+				item: "industrialforegoing:mycelial_reactor"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			shape: "diamond"
+			description: [
+				"Imbued with unknow technology, this block will spawn &emob&r at a fast rate when certain condition are met."
+				""
+				"Firstly it requires &e1000RF&r and &e20mb&r of &eLiquid Meat&r per operation, secondly normal mob spawn condition have to be met (this means the light level has to be &e7&r or lower and the block has to be loaded)"
+			]
+			dependencies: ["63B23FA7CF83536B"]
+			id: "3A6F0CC2918F2E22"
+			tasks: [{
+				id: "4B82B736DFF8E55A"
+				type: "item"
+				item: "industrialforegoing:mechanical_dirt"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			shape: "square"
+			description: [
+				"The Infinity Launcher is a tool that allows you to capture or release entities from &4Mob Imprisonment Tool&r at a range."
+				"When selecting the mode in the GUI and firing the launcher you will be able to release or capture mob using the &eMIT&r in your inventory."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0990C82D9CE73CAF"]
+			id: "55701B7355376249"
+			tasks: [{
+				id: "096B7F93CBAE0177"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_launcher"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Plunger: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["63B23FA7CF83536B"]
+			id: "5D03F967C8508E3C"
+			tasks: [{
+				id: "49D2847E8E793898"
+				type: "item"
+				item: "industrialforegoing:world_transporter_type"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 2.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["30C48A7DE3117D33"]
+			id: "160136E00BDB7DAF"
+			tasks: [{
+				id: "04FB0B6E6D216526"
+				type: "item"
+				item: "industrialforegoing:latex_bucket"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0990C82D9CE73CAF"]
+			id: "147220F3780A1677"
+			tasks: [{
+				id: "2ECF11D741E04B43"
+				type: "item"
+				item: "industrialforegoing:pink_slime"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0990C82D9CE73CAF"]
+			id: "1CCB64CF9751C0B8"
+			tasks: [{
+				id: "716C295B408177F7"
+				type: "item"
+				item: "industrialforegoing:pink_slime_ingot"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["060FE76E8FA55A0D"]
+			id: "6E9406EFFF5CE4B4"
+			tasks: [{
+				id: "53B1C4E603DBD1CA"
+				type: "item"
+				item: "industrialforegoing:pink_slime_bucket"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -5.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["57196F75D8B2E56E"]
+			id: "072DB837B787A7B9"
+			tasks: [{
+				id: "76AEA7FB6662F2F1"
+				type: "item"
+				item: "industrialforegoing:mob_imprisonment_tool"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"160136E00BDB7DAF"
+				"0990C82D9CE73CAF"
+			]
+			id: "1241F51C8E2401FF"
+			tasks: [{
+				id: "047132603374AB4C"
+				type: "item"
+				title: "Range Addon"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "industrialforegoing:range_addon0"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 0.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon1"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 1.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon2"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 2.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon3"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 3.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon4"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 4.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon5"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 5.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon6"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 6.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon7"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 7.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon8"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 8.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon9"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 9.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon10"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 10.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon11"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 11.0f
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.5d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"0990C82D9CE73CAF"
+				"160136E00BDB7DAF"
+			]
+			id: "7043C1FD9228EB28"
+			tasks: [{
+				id: "2CF7E0029AD73EFD"
+				type: "item"
+				item: {
+					id: "industrialforegoing:efficiency_addon_1"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Efficiency: 0.9f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.5d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"0990C82D9CE73CAF"
+				"160136E00BDB7DAF"
+			]
+			id: "4B32692132D235BD"
+			tasks: [{
+				id: "4D03B95FFF949605"
+				type: "item"
+				item: {
+					id: "industrialforegoing:efficiency_addon_2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Efficiency: 0.8f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 4.5d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"0990C82D9CE73CAF"
+				"160136E00BDB7DAF"
+			]
+			id: "75EBB1A755908149"
+			tasks: [{
+				id: "152D9959EBA57AE3"
+				type: "item"
+				item: {
+					id: "industrialforegoing:processing_addon_1"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Processing: 2.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 4.5d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"0990C82D9CE73CAF"
+				"160136E00BDB7DAF"
+			]
+			id: "5314C6AA4E6DCD59"
+			tasks: [{
+				id: "470A9E02B71BDC3C"
+				type: "item"
+				item: {
+					id: "industrialforegoing:processing_addon_2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Processing: 3.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 5.5d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"0990C82D9CE73CAF"
+				"160136E00BDB7DAF"
+			]
+			id: "108B87DB77CE85BB"
+			tasks: [{
+				id: "54E44289C7694139"
+				type: "item"
+				item: {
+					id: "industrialforegoing:speed_addon_1"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Speed: 2.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 5.5d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"0990C82D9CE73CAF"
+				"160136E00BDB7DAF"
+			]
+			id: "31E523EFDEC21013"
+			tasks: [{
+				id: "326DEA4E9D6F701F"
+				type: "item"
+				item: {
+					id: "industrialforegoing:speed_addon_2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Speed: 3.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -5.0d
+			shape: "diamond"
+			dependencies: ["088D692E25F62BFD"]
+			id: "3E40223122F23C8C"
+			tasks: [{
+				id: "7A4243E512FBF851"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 8.0d
+			shape: "gear"
+			hide_dependency_lines: true
+			dependencies: [
+				"1CCB64CF9751C0B8"
+				"43BA91382EFDF002"
+				"0990C82D9CE73CAF"
+				"47A4D81697C274A3"
+			]
+			size: 2.0d
+			id: "288DBA416FE2AA3C"
+			tasks: [{
+				id: "226F8E48442B9827"
+				type: "item"
+				item: "chromasky:mechanic_core_tier_3"
+			}]
+		}
+	]
+}

@@ -13,6 +13,8 @@
 			x: 0.5d
 			y: -5.5d
 			shape: "octagon"
+			subtitle: "Timber !"
+			description: ["Like any good Minecraft adventure you have to cut wood !"]
 			size: 2.0d
 			id: "3F97D03C2402B70D"
 			tasks: [{
@@ -91,6 +93,13 @@
 		{
 			x: 3.0d
 			y: -5.5d
+			description: [
+				"Sluices use a Mesh and fluid to process blocks like Gravel, Sand and more into more advanced resources."
+				""
+				"Hold the mesh in your hand and right click it on the sluice to insert it."
+				"The sluice has an internal tank which it consumes water from after every operation. "
+				"Right-click with a water bucket to fill the tank."
+			]
 			dependencies: ["3F97D03C2402B70D"]
 			id: "3A520D98DB566C24"
 			tasks: [{
@@ -103,6 +112,11 @@
 			title: "Hammers"
 			x: -2.0d
 			y: -5.5d
+			description: [
+				"Hammers can be used to crush down blocks into gradually finer and finer variants."
+				""
+				"&7Cobble → Gravel → Dirt → Sand → Dust"
+			]
 			dependencies: ["3F97D03C2402B70D"]
 			id: "6A3F0F7ABEFAE183"
 			tasks: [{
@@ -259,6 +273,7 @@
 		{
 			x: 0.5d
 			y: -7.0d
+			description: ["The composter will allow you to obtain bone meal by putting in leaves."]
 			dependencies: ["3F97D03C2402B70D"]
 			id: "0E304BDD61392FBF"
 			tasks: [{
@@ -343,6 +358,11 @@
 			title: "Primary Resources"
 			x: -3.0d
 			y: -5.5d
+			description: [
+				"The main resources to get your first resources in the sluices."
+				""
+				"&bYou have just unlocked FTB Ultimine, see Lost Tinkets quest for more information about how to use the ultiminer trinket in the Information chapter "
+			]
 			dependencies: [
 				"6A3F0F7ABEFAE183"
 				"793F6D3707268AFB"
@@ -409,6 +429,7 @@
 		{
 			x: 2.0d
 			y: -4.5d
+			description: ["Press cactus with the Squeezer to get Water."]
 			dependencies: ["3F97D03C2402B70D"]
 			id: "10F6C86E83D59E25"
 			tasks: [{
@@ -420,12 +441,13 @@
 				id: "12DB8F2FE447B125"
 				type: "item"
 				item: "minecraft:cactus"
-				count: 2
+				count: 3
 			}]
 		}
 		{
 			x: 2.5d
 			y: -3.5d
+			description: ["Place the Cask next to the squeezer to collect and store water."]
 			dependencies: ["10F6C86E83D59E25"]
 			id: "79AFBD2DDADB091E"
 			tasks: [{
@@ -505,6 +527,14 @@
 		{
 			x: 6.0d
 			y: -5.5d
+			description: [
+				"Many resources that you would find underground, such as Iron, Gold, Coal, etc. can be gathered as Chunks by processing basic materials in a sluice."
+				""
+				"To then further process those Chunks into the actual resources, you can either..."
+				"1. Smelt the Chunks into Nuggets directly."
+				"2. Craft the Chunks into Clusters and process them in a Smeltery. (Ore-doubling included!)"
+				"3. Craft the Chunks into Clusters, and melt them directly into Ingots using a Jar."
+			]
 			dependencies: [
 				"08DCFB994C66EE23"
 				"3A520D98DB566C24"
@@ -544,12 +574,19 @@
 		{
 			x: 6.0d
 			y: -3.5d
+			description: ["The campfire allows you to obtain cast iron by burning iron in it."]
 			dependencies: ["67E0A913501D13AF"]
 			id: "7177A157E31F65A9"
 			tasks: [{
 				id: "697457011B813079"
 				type: "item"
 				item: "minecraft:campfire"
+			}]
+			rewards: [{
+				id: "56125DF6A3233A5A"
+				type: "item"
+				item: "farmersdelight:cooked_mutton_chops"
+				count: 4
 			}]
 		}
 		{

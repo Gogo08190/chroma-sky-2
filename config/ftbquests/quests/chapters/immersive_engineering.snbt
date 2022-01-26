@@ -134,8 +134,8 @@
 		}
 		{
 			title: "Build an &6Automated Workbench"
-			x: 11.0d
-			y: 14.0d
+			x: 9.0d
+			y: 12.0d
 			description: [
 				"The Automated Workbench is an automated version of the Engineer's Workbench."
 				""
@@ -253,7 +253,7 @@
 		{
 			title: "Build an &6Arc Furnace"
 			x: 17.0d
-			y: 16.0d
+			y: 14.0d
 			description: [
 				"The Arc Furnace is used for smelting ores and grits into ingots, creating alloys including steel, and recycling certain tools and armor."
 				"For it to operate, the Arc Furnace needs power and three working Graphite Electrodes."
@@ -316,8 +316,8 @@
 		}
 		{
 			title: "Build a &6Bottling Machine"
-			x: 13.0d
-			y: 14.0d
+			x: 17.0d
+			y: 12.0d
 			description: [
 				"The Bottling Machine is used to fill liquid containers."
 				""
@@ -401,7 +401,7 @@
 		{
 			title: "Build a &6Distillation Tower"
 			x: 15.0d
-			y: 16.0d
+			y: 14.0d
 			description: [
 				"The Distillation Tower is primarily used to convert Crude Oil into usable Diesel and Gasoline fuels and Lubricant, creating Bitumen as a byproduct."
 				""
@@ -537,7 +537,7 @@
 		}
 		{
 			title: "Build a &6Mixer"
-			x: 15.0d
+			x: 13.0d
 			y: 14.0d
 			description: [
 				"The Mixer accepts items, liquid, and energy, and produces new liquids from the result."
@@ -565,7 +565,7 @@
 		{
 			title: "Build a &6Pumpjack"
 			x: 11.0d
-			y: 16.0d
+			y: 14.0d
 			description: [
 				"The Pumpjack extracts fluid like Crude Oil from reservoirs."
 				"A Core Sample Drill tests for these reservoirs."
@@ -684,7 +684,7 @@
 		{
 			title: "Build a &6Coker"
 			x: 9.0d
-			y: 16.0d
+			y: 14.0d
 			description: [
 				"The Coker is used to process Bitumen into Petroleum Coke and Diesel as a byproduct."
 				""
@@ -717,7 +717,7 @@
 			}]
 		}
 		{
-			x: 13.0d
+			x: 11.0d
 			y: 16.0d
 			description: ["The Core Sample Drill is used to detect and analyze Mineral Deposits that can be extracted by an Excavator or a PumpJack for fluids."]
 			hide_dependency_lines: true
@@ -1124,6 +1124,121 @@
 				id: "04B400861C87A78B"
 				type: "item"
 				item: "immersiveengineering:treated_wood_horizontal"
+			}]
+		}
+		{
+			title: "&aMechanic Core Tier 1"
+			x: 8.94047619047619d
+			y: 4.488095238095255d
+			shape: "gear"
+			hide_dependency_lines: true
+			dependencies: [
+				"47A4D81697C274A3"
+				"5D4D5257E78D1C9F"
+			]
+			size: 2.0d
+			id: "07922BF1DC0DB8FE"
+			tasks: [{
+				id: "3E66B8310B5FB54F"
+				type: "item"
+				item: "chromasky:mechanic_core_tier_1"
+			}]
+		}
+		{
+			title: "&cAssembling Factory"
+			icon: "masterfulmachinery:assemblingfactory_controller"
+			x: 14.357142857142854d
+			y: 16.071428571428584d
+			shape: "octagon"
+			subtitle: "Useful to do everything"
+			description: [
+				"The Assembling Factory will allow you to assemble components and cores to create different machine components and other things."
+				""
+				"Press the use key on the assembling factory controller to see what the structure looks like."
+				""
+				"This machine require Energy to operate."
+				""
+				"You can use the Machinery Manual to help you to build the various multiblocks of Chroma Sky 2."
+				""
+				"{image:chromasky2:textures/quest/assembling_factory.png width:200 height:100 align:1}"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0DBCCDC1A9287229"
+				"47A4D81697C274A3"
+				"3ABC5EB20529B64A"
+			]
+			size: 2.0d
+			min_width: 250
+			id: "39DB67EE674F41A4"
+			tasks: [
+				{
+					id: "16A4EB2D8D6E9B21"
+					type: "item"
+					item: "masterfulmachinery:assemblingfactory_controller"
+				}
+				{
+					id: "36768A605AA086F2"
+					type: "item"
+					item: "masterfulmachinery:assemblingfactory_assembing_item_port_items_input"
+				}
+				{
+					id: "76EA2B2ACF4CD19F"
+					type: "item"
+					item: "masterfulmachinery:assemblingfactory_assembing_item_port_items_output"
+				}
+				{
+					id: "66A6626A99964C48"
+					type: "item"
+					item: "masterfulmachinery:assemblingfactory_assemblingenergy_port_energy_input"
+				}
+				{
+					id: "621C3B4DFA069B48"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 38L
+				}
+				{
+					id: "3F0D0BC7F2285C73"
+					type: "item"
+					item: "mekanism:block_steel"
+					count: 10L
+				}
+				{
+					id: "1C23D2E68C71A7B8"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 5L
+				}
+				{
+					id: "55DD152C6E401FFD"
+					type: "item"
+					item: "immersiveengineering:radiator"
+					count: 2L
+				}
+				{
+					id: "22BA882B6FA30861"
+					type: "item"
+					item: "thermal:obsidian_glass"
+					count: 20L
+				}
+				{
+					id: "26AE42692A5542E4"
+					type: "item"
+					item: "miniutilities:laser_port"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "58C805FF051FE043"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "patchouli:cs2-machine-manual"
+					}
+				}
 			}]
 		}
 	]

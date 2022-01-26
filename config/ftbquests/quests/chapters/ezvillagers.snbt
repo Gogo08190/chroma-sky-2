@@ -1,0 +1,209 @@
+{
+	id: "2BCDA95FC92F8BC3"
+	group: "258B5ED587988A28"
+	order_index: 3
+	filename: "ezvillagers"
+	title: "EZ Villagers"
+	icon: "easy_villagers:villager"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 4.0d
+			y: -0.5d
+			shape: "diamond"
+			description: [
+				"The villager item can be obtained by sneaking and right-clicking a villager or pressing the V (by default) key."
+				""
+				"The villager item can be placed by right-clicking on the ground."
+				""
+				"At least you won't have to find it behind a hill."
+			]
+			size: 1.5d
+			id: "69E0345D5A3BBA38"
+			tasks: [{
+				id: "3B4EF87950D8ACA6"
+				type: "item"
+				item: "easy_villagers:villager"
+			}]
+			rewards: [{
+				id: "613C94FCF156F646"
+				type: "item"
+				item: {
+					id: "animalcrops:seeds"
+					Count: 1b
+					tag: {
+						entity: "minecraft:villager"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			shape: "diamond"
+			description: ["The trader block allows trading with the villager without having to deal with securing the villager. This block also allows the villager to restock in non-working hours. The restocking time of the villager is not dependent on any external sources like day/night time or dimension."]
+			dependencies: [
+				"47A4D81697C274A3"
+				"0C1760A0E6D5AF4C"
+			]
+			id: "342B3DD82822DC35"
+			tasks: [{
+				id: "373FE8EEF1C3B08F"
+				type: "item"
+				item: "easy_villagers:trader"
+			}]
+			rewards: [{
+				id: "529596AAACB8134E"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 4
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			shape: "diamond"
+			description: ["The auto trader works exactly line the trader block, except it automatically trades items for you. You can also automatically put items in and take items out with a hopper."]
+			dependencies: [
+				"47A4D81697C274A3"
+				"0C1760A0E6D5AF4C"
+			]
+			id: "7B25AFFD8C770A6C"
+			tasks: [{
+				id: "044035CC69D98EF2"
+				type: "item"
+				item: "easy_villagers:auto_trader"
+			}]
+			rewards: [{
+				id: "5EF47FD5EE612D9F"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 4
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			shape: "diamond"
+			description: ["The farmer block contains a whole crop farm in a single block. This helps to reduce lag and save space."]
+			dependencies: [
+				"47A4D81697C274A3"
+				"0C1760A0E6D5AF4C"
+			]
+			id: "154CE0DD795E57C2"
+			tasks: [{
+				id: "7000BE975423FC75"
+				type: "item"
+				item: "easy_villagers:farmer"
+			}]
+			rewards: [{
+				id: "218E06C71168E745"
+				type: "item"
+				item: "minecraft:wheat"
+				count: 16
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			shape: "diamond"
+			description: ["The breeder block produces baby villagers by putting in food. This also helps to reduce lag, save space and also a lot of frustration."]
+			dependencies: [
+				"47A4D81697C274A3"
+				"0C1760A0E6D5AF4C"
+			]
+			id: "3C3C023DAD1FF329"
+			tasks: [{
+				id: "2E8470233853A886"
+				type: "item"
+				item: "easy_villagers:breeder"
+			}]
+			rewards: [{
+				id: "5CCABACA07E40DF6"
+				type: "item"
+				item: "minecraft:carrot"
+				count: 16
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			shape: "diamond"
+			description: ["The converter block converts villagers to zombie villagers and cures them afterwards, enabling the player that placed the block better trades from the cured villager. This block needs a golden apple, any type of potion of weakness and the villager to convert. This process takes approximately five minutes."]
+			dependencies: [
+				"47A4D81697C274A3"
+				"0C1760A0E6D5AF4C"
+			]
+			id: "56194F5EEDAE9181"
+			tasks: [{
+				id: "4CC93DD36DB303CC"
+				type: "item"
+				item: "easy_villagers:converter"
+			}]
+			rewards: [{
+				id: "5DEEA9A6EFF9DB10"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			shape: "diamond"
+			description: ["The iron farm block contains a complete iron farm in a single block. It produces one iron golem every four minutes. This averages about one iron ingot per minute."]
+			dependencies: [
+				"47A4D81697C274A3"
+				"0C1760A0E6D5AF4C"
+			]
+			id: "529341319CA7AF2F"
+			tasks: [{
+				id: "4E182D86C260F7A8"
+				type: "item"
+				item: "easy_villagers:iron_farm"
+			}]
+			rewards: [{
+				id: "42E70AB47E9AD736"
+				type: "item"
+				item: "minecraft:poppy"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			shape: "diamond"
+			description: ["The incubator block increases the growth rate of baby villagers."]
+			dependencies: [
+				"47A4D81697C274A3"
+				"0C1760A0E6D5AF4C"
+			]
+			id: "6595523BFE3FDE67"
+			tasks: [{
+				id: "1DB75A72F71C025A"
+				type: "item"
+				item: "easy_villagers:incubator"
+			}]
+		}
+		{
+			icon: "minecraft:emerald"
+			x: 4.0d
+			y: 2.5d
+			shape: "diamond"
+			description: [
+				"When looking for a good trade, you always have to remove the villagers workstation, in order to reset their trades. The trade cycle button solves this problem. If a villager hasn't been traded before, you can just press it and the trades reset automatically."
+				""
+				"Alternatively you can use the C (by default) key to cycle trades."
+				""
+				"This also works for normal villagers."
+			]
+			hide_dependency_lines: true
+			dependencies: ["342B3DD82822DC35"]
+			id: "01F1C546339F7BC2"
+			tasks: [{
+				id: "647EC8CE7E3A668B"
+				type: "checkmark"
+				title: "Trade Cycling"
+			}]
+		}
+	]
+}

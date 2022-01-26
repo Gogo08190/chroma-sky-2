@@ -1,7 +1,7 @@
 {
 	id: "24B5CB632A3AE889"
-	group: "638FC427456F902B"
-	order_index: 6
+	group: "258B5ED587988A28"
+	order_index: 2
 	filename: "mana_and_artifice"
 	title: "Mana and Artifice"
 	icon: "mana-and-artifice:guide_book"
@@ -33,8 +33,38 @@
 		{
 			x: 6.0d
 			y: -8.5d
+			description: [
+				"Tier 1:"
+				""
+				"To move to Tier 2, you will need to perform several tasks but not all, but a minimum of 10, for a maximum of 12, you will need to: "
+				""
+				"-Cast a spell"
+				""
+				"-Cast a cantrip (a sequence of symbols drawn in the air via the manaweaving wand, you can see the combinations by doing ctrl+right click you can select the symbols to be drawn by clicking on the little arrows right next to the symbol under the cantrip)"
+				""
+				"-Make a tier 1 ritual (you can see them in the codex, you just have to put the symbols on the ground as indicated on the craft, to activate the ritual you have to right click with a purified vinteum dust to see the items then right click again to activate the ritual)"
+				""
+				"-Create a manaweaving altar"
+				""
+				"-Create a viteum manaweaving wand"
+				""
+				"-Create a spell of complexity 15 or more"
+				""
+				"-Create an inscription table"
+				""
+				"-Craft something with a manaweaving altar"
+				""
+				"-Draw a symbol with the manaweaving wand (right click while drawing in the air)"
+				""
+				"-Reach a magic level of 15 (this level will increase as you use magic)"
+				""
+				"-use a bonefeather charm"
+				""
+				"-use an enderfeather charm"
+			]
 			hide_dependency_lines: true
 			dependencies: ["4D65C663D6E33AD1"]
+			min_width: 250
 			id: "13EEC00E8C0E74D3"
 			tasks: [{
 				id: "21949E2CB8FDCE4C"
@@ -43,9 +73,40 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -0.5d
-			dependencies: ["13EEC00E8C0E74D3"]
+			x: 14.0d
+			y: -8.5d
+			description: [
+				"Tier 2:"
+				""
+				"To move to Tier 3, you will need to perform several tasks but not all, but a minimum of 11, for a maximum of 14, you will need to: "
+				""
+				"-Add a modifier to a spell using the Ritual of Alteration                                                -Cast a tier 2 cantrip"
+				""
+				"-Craft a Magic Broom"
+				""
+				"-Craft a Mana Crystal"
+				""
+				"-Craft a mana crystal fragment"
+				""
+				"-Craft a construct with at least 3 wood or stone part"
+				""
+				"-Craft a spell with complexity 35 or more"
+				""
+				"-Craft a unfired Rune plate"
+				""
+				"_Craft a elemental mote using using one of the 6 mote ritual"
+				""
+				"-Have an active set bonus (You will need to wear at least 3 part of the Mage Armor)"
+				""
+				"-Make a charcoal print of a scribed rune ate the runic anvil"
+				""
+				"-Reach magic level 30"
+				""
+				"-Runeforge a rune                              -Runescribe a rune Pattern"
+			]
+			hide_dependency_lines: true
+			dependencies: ["1AF520BA592D90CD"]
+			min_width: 250
 			id: "4673AA05474E416E"
 			tasks: [{
 				id: "7B4C7C4592917C6E"
@@ -56,6 +117,7 @@
 		{
 			x: 7.5d
 			y: -0.5d
+			hide_dependency_lines: true
 			dependencies: ["4673AA05474E416E"]
 			id: "19C32614D8476285"
 			tasks: [{
@@ -67,6 +129,7 @@
 		{
 			x: 10.0d
 			y: -0.5d
+			hide_dependency_lines: true
 			dependencies: ["19C32614D8476285"]
 			id: "38EF232690208FB4"
 			tasks: [{
@@ -242,10 +305,10 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -3.0d
+			x: 6.0d
+			y: -13.5d
 			shape: "hexagon"
-			dependencies: ["4691A19BAFA54576"]
+			dependencies: ["6687C08D2F544C4D"]
 			id: "32E4EADD98A8D491"
 			tasks: [{
 				id: "7DDF7A62CEA81CCA"
@@ -458,35 +521,8 @@
 		{
 			x: 7.0d
 			y: -11.5d
-			description: [
-				"Tier 1:"
-				""
-				"To move to Tier 2, you will need to perform several tasks but not all, but a minimum of 10, for a maximum of 12, you will need to: "
-				""
-				"-Cast a spell"
-				""
-				"-Cast a cantrip (a sequence of symbols drawn in the air via the manaweaving wand, you can see the combinations by doing ctrl+right click you can select the symbols to be drawn by clicking on the little arrows right next to the symbol under the cantrip)"
-				""
-				"-Make a tier 1 ritual (you can see them in the codex, you just have to put the symbols on the ground as indicated on the craft, to activate the ritual you have to right click with a purified vinteum dust to see the items then right click again to activate the ritual)"
-				""
-				"-Create a manaweaving altar"
-				""
-				"-Create a viteum manaweaving wand"
-				""
-				"-Create a spell of complexity 15 or more"
-				""
-				"-Create an inscription table"
-				""
-				"-Craft something with a manaweaving altar"
-				""
-				"-Draw a symbol with the manaweaving wand (right click while drawing in the air)"
-				""
-				"-Reach a magic level of 15 (this level will increase as you use magic)"
-				""
-				"-use a bonefeather charm"
-				""
-				"-use an enderfeather charm"
-			]
+			description: ["You need to make the alteration ritual, next select witch augment you want to add to your spell with the book of altaration"]
+			dependencies: ["13EEC00E8C0E74D3"]
 			min_width: 300
 			id: "06A1EEB14413F998"
 			tasks: [{
@@ -497,7 +533,8 @@
 		}
 		{
 			x: 8.5d
-			y: -11.0d
+			y: -10.0d
+			dependencies: ["13EEC00E8C0E74D3"]
 			id: "7AEF59123D32D06A"
 			tasks: [{
 				id: "3A35876521D1AFE0"
@@ -507,7 +544,8 @@
 		}
 		{
 			x: 8.5d
-			y: -10.0d
+			y: -9.0d
+			dependencies: ["13EEC00E8C0E74D3"]
 			id: "1B51595D4FE0E914"
 			tasks: [{
 				id: "4EE9C030679E2367"
@@ -517,7 +555,8 @@
 		}
 		{
 			x: 8.5d
-			y: -9.0d
+			y: -8.0d
+			dependencies: ["13EEC00E8C0E74D3"]
 			id: "68C465D866121627"
 			tasks: [{
 				id: "1B5E7C61BBE80801"
@@ -532,13 +571,34 @@
 			}]
 		}
 		{
+			title: "Wooden/Stone Construct"
 			x: 6.0d
 			y: -11.5d
+			subtitle: "How Craft a Construct 101"
+			description: [
+				"To craft a construct you will need:"
+				""
+				"-One of each part of the construct (head, torso, left arm, right arm, legs)"
+				""
+				"-You will need at least 8 chimerite crystal the color doesn't matter"
+				""
+				"-Now place your part one the construct workbench"
+				""
+				"-The thing that influence your construct is the element you choose, for the element you will need to right cick with a spell, and the atribiut of the spell will be copy on your chimerite crystal"
+				""
+				"-To build your construt "
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"13EEC00E8C0E74D3"
+				"4691A19BAFA54576"
+			]
 			id: "7FB89B5AC336FF59"
 			tasks: [
 				{
 					id: "5B5AD483A9E07005"
 					type: "item"
+					title: "Wooden/Stone head"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -583,6 +643,7 @@
 				{
 					id: "11C3B4C73D8464B9"
 					type: "item"
+					title: "Wooden/Stone Torso"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -619,6 +680,7 @@
 				{
 					id: "4A4B95D25E718330"
 					type: "item"
+					title: "Wooden/Stone Left Arm"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -679,6 +741,7 @@
 				{
 					id: "17E7545EAACD15A2"
 					type: "item"
+					title: "Wooden/Stone Right Arm"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -739,6 +802,7 @@
 				{
 					id: "39F04CE30F189847"
 					type: "item"
+					title: "Wooden/Stone Legs"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -773,6 +837,496 @@
 					}
 				}
 			]
+		}
+		{
+			title: "Mote"
+			x: 5.0d
+			y: -11.5d
+			description: [
+				"How to obtain the mote:"
+				""
+				"-Ritual of Forgotten Lore / Mote of Magic: You will need to place a least 10 bookshelf near the ritual place for make this ritual worked"
+				""
+				"-Ritual of the Untamed Wind / Mote of Air: This ritual must be execute very high"
+				""
+				"-Ritual of the Endless Void / Mote of Ender: This ritual must be execut in complete darkness"
+				""
+				"-Ritual of the Searing Inferno / Mote of Fire: need to be execute in the nether"
+				""
+				"-Ritual of the Deep Ocean / Mote of Water: Need to be place in oceao biome"
+				""
+				"-Ritual of ancient stone / Mote of Earth: One of the chalk mark must be place on bedrock (the center one)"
+			]
+			dependencies: ["13EEC00E8C0E74D3"]
+			min_width: 250
+			id: "73C20CE2F47089A3"
+			tasks: [{
+				id: "016215281B2EB83D"
+				type: "item"
+				title: "Mote"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:mote_air"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:mote_earth"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:mote_fire"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:mote_water"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:mote_ender"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Mage Armor"
+			x: 2.5d
+			y: -10.0d
+			dependencies: ["751B41B7BA66644E"]
+			id: "4DDEB0A10FF382AB"
+			tasks: [
+				{
+					id: "044D940DFBA4611C"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:mage_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2DF6BC73C8AE5D5B"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:mage_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0D9C7D00FFFF4FE2"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:mage_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "06BBBFF0D150CC6B"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:mage_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Charcoal print"
+			x: 3.5d
+			y: -9.0d
+			description: ["To make a charcoal print you need one rune, a paper, a coal. First place your rune on the anvil, next place the paper, and to finish the craft right click with a coal"]
+			dependencies: ["13EEC00E8C0E74D3"]
+			id: "5BB34233D6DBEB69"
+			tasks: [{
+				id: "01CA5E4907EE2119"
+				type: "item"
+				title: "Runscribing recipe"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_defense"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_marking"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_ender"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_rod"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_aura"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_claw"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_axe"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_hammer"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_hips"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_torso"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_head"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_metal_ritual_rune"
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Join a faction"
+			icon: "mana-and-artifice:mark_of_the_nether"
+			x: 11.5d
+			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"13EEC00E8C0E74D3"
+				"4FDA6BA92C248171"
+				"21294FC0C57E5F7B"
+				"69E4431DF3EA08B5"
+				"5A02C170FCE213E2"
+				"75C7B0DE0395829F"
+				"5BB34233D6DBEB69"
+				"4DDEB0A10FF382AB"
+				"73C20CE2F47089A3"
+				"7FB89B5AC336FF59"
+				"06A1EEB14413F998"
+				"7AEF59123D32D06A"
+				"1B51595D4FE0E914"
+				"68C465D866121627"
+				"78EA346149E8ACCF"
+			]
+			id: "1AF520BA592D90CD"
+			tasks: [{
+				id: "64FDA2DD085ECEA6"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.5d
+			dependencies: ["13EEC00E8C0E74D3"]
+			id: "21294FC0C57E5F7B"
+			tasks: [{
+				id: "6371FEE2DD1953F9"
+				type: "checkmark"
+				title: "Cast a tier 2 cantrip"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -12.5d
+			dependencies: ["7FB89B5AC336FF59"]
+			id: "6687C08D2F544C4D"
+			tasks: [
+				{
+					id: "6DD1DC9E965BEF1E"
+					type: "checkmark"
+					title: "Craft a construct with at least 3 wood or stone part"
+				}
+				{
+					id: "7AC546585D1C7F08"
+					type: "item"
+					title: "Crystal"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:chimerite_crystal_light_gray"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:chimerite_crystal_yellow"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:chimerite_crystal_white"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:chimerite_crystal_light_blue"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:chimerite_crystal_green"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:chimerite_crystal_red"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:chimerite_crystal_purple"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:chimerite_crystal_gray"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:chimerite_crystal_cyan"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:chimerite_crystal_pink"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:chimerite_crystal_orange"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:chimerite_crystal_brown"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:chimerite_crystal_blue"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:chimerite_crystal_magenta"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:chimerite_crystal_lime"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:chimerite_crystal_black"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 8L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -5.5d
+			dependencies: ["13EEC00E8C0E74D3"]
+			id: "4FDA6BA92C248171"
+			tasks: [{
+				id: "4A19C438B13C794A"
+				type: "checkmark"
+				title: "Craft a spell with complexity 35 or more"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -10.0d
+			description: ["With your actual tier the only item with a set bonus is the mage armor"]
+			dependencies: ["13EEC00E8C0E74D3"]
+			id: "751B41B7BA66644E"
+			tasks: [{
+				id: "6AA7B809EDEA9D92"
+				type: "checkmark"
+				title: "Have an active set bonus"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -5.5d
+			dependencies: ["13EEC00E8C0E74D3"]
+			id: "69E4431DF3EA08B5"
+			tasks: [{
+				id: "00CC0A40310B821B"
+				type: "checkmark"
+				title: "Reach magic level 30"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -7.0d
+			dependencies: ["13EEC00E8C0E74D3"]
+			id: "5A02C170FCE213E2"
+			tasks: [{
+				id: "038C32CEE3B89F0E"
+				type: "item"
+				item: "mana-and-artifice:rune_clay_plate"
+			}]
+		}
+		{
+			title: "Runeforge a rune"
+			x: 8.5d
+			y: -7.0d
+			dependencies: ["13EEC00E8C0E74D3"]
+			id: "78EA346149E8ACCF"
+			tasks: [{
+				id: "123D7766B67E9C43"
+				type: "item"
+				title: "Rune"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:rune_ritual_metal"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_air"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_defense"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_aura"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_marking"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Runescribe a rune Pattern"
+			x: 3.5d
+			y: -8.0d
+			dependencies: ["5A02C170FCE213E2"]
+			id: "75C7B0DE0395829F"
+			tasks: [{
+				id: "03D354CEF1200C4C"
+				type: "item"
+				title: "Rune Pattern"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:rune_pattern_ritual_metal"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_pattern_defense"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_pattern_air"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_pattern_earth"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_pattern_water"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_pattern_fire"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_pattern_ender"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_pattern_arcane"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_pattern_aura"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_pattern_marking"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
 		}
 	]
 }

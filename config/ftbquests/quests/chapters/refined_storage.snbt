@@ -1,0 +1,1656 @@
+{
+	id: "5DAC7BC12836A880"
+	group: "7F090E96EFD94B43"
+	order_index: 1
+	filename: "refined_storage"
+	title: "Refined Storage"
+	icon: "refinedstorage:controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 21.0d
+			y: -8.5d
+			width: 7.0d
+			height: 7.0d
+			rotation: 45.0d
+			image: "refinedstorage:textures/block/relay/cutouts/light_blue.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 15.0d
+			y: -8.5d
+			width: 7.0d
+			height: 7.0d
+			rotation: 45.0d
+			image: "refinedstorage:textures/block/relay/cutouts/lime.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 18.0d
+			y: -7.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 45.0d
+			image: "refinedstorage:textures/block/relay/cutouts/magenta.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 23.0d
+			y: -4.0d
+			width: 7.0d
+			height: 7.0d
+			rotation: 45.0d
+			image: "refinedstorage:textures/block/relay/cutouts/orange.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 13.0d
+			y: -4.0d
+			width: 7.0d
+			height: 7.0d
+			rotation: 45.0d
+			image: "refinedstorage:textures/block/relay/cutouts/red.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 18.0d
+			y: 3.0d
+			width: 5.0d
+			height: 5.0d
+			rotation: 45.0d
+			image: "refinedstorage:textures/block/relay/cutouts/cyan.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 18.0d
+			y: 5.5d
+			shape: "diamond"
+			description: [
+				"&bThe Wrench&r in Refined Storage is a tool that can do two things:"
+				""
+				"→ Rotate blocks"
+				"→ Break Refined Storage covers"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"49149CE5DB8F85F0"
+				"43AC302D806DFECF"
+			]
+			id: "759F4D5336077A1D"
+			tasks: [{
+				id: "29AB16F4A7133874"
+				type: "item"
+				item: "refinedstorage:wrench"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 5.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"0C1760A0E6D5AF4C"
+				"47A4D81697C274A3"
+			]
+			id: "49149CE5DB8F85F0"
+			tasks: [{
+				id: "69BBCD8524505420"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+			}]
+		}
+		{
+			x: 23.0d
+			y: -3.0d
+			shape: "diamond"
+			description: [
+				"&bCable&r is used to connect devices to the Controller."
+				""
+				"Cables are not always necessary, as long as the devices are next to each other in any direction a connection will be established as well."
+			]
+			hide_dependency_lines: true
+			dependencies: ["49149CE5DB8F85F0"]
+			id: "197009F06C64D6E6"
+			tasks: [{
+				id: "1484289B8EEFCC67"
+				type: "item"
+				item: "refinedstorage:cable"
+				count: 12L
+			}]
+		}
+		{
+			x: 22.5d
+			y: -3.5d
+			shape: "diamond"
+			description: ["&bThe Importer&f imports items or fluids from an inventory in front of the block and inserts it in the storage network (if there is space)."]
+			hide_dependency_lines: true
+			dependencies: [
+				"197009F06C64D6E6"
+				"0343844DF10E4A80"
+				"3C850D80A0757306"
+			]
+			id: "6D3EB7F0D06F2EB2"
+			tasks: [{
+				id: "6D3257A457185D9B"
+				type: "item"
+				item: "refinedstorage:importer"
+			}]
+		}
+		{
+			x: 23.5d
+			y: -3.5d
+			shape: "diamond"
+			description: ["&bThe Exporter &fextracts items or fluids from the storage network and inserts it in the inventory or tank in front of it."]
+			hide_dependency_lines: true
+			dependencies: [
+				"197009F06C64D6E6"
+				"13718A7F713D4FD5"
+				"0343844DF10E4A80"
+			]
+			id: "02AB95E5098BE217"
+			tasks: [{
+				id: "37DE8E7352981D55"
+				type: "item"
+				item: "refinedstorage:exporter"
+			}]
+		}
+		{
+			x: 23.0d
+			y: -5.0d
+			shape: "diamond"
+			description: ["&bThe External&r Storage is a block that provides the storage network with storage of the inventory or fluid tank in front of the device."]
+			hide_dependency_lines: true
+			dependencies: [
+				"49149CE5DB8F85F0"
+				"197009F06C64D6E6"
+				"3C850D80A0757306"
+				"13718A7F713D4FD5"
+				"0343844DF10E4A80"
+			]
+			id: "4114D67CC3638826"
+			tasks: [{
+				id: "30AA3706888B408E"
+				type: "item"
+				item: "refinedstorage:external_storage"
+			}]
+		}
+		{
+			x: 24.0d
+			y: -4.0d
+			shape: "diamond"
+			description: ["&bThe Constructor&r places items or fluids from the storage network in the world."]
+			hide_dependency_lines: true
+			dependencies: [
+				"49149CE5DB8F85F0"
+				"197009F06C64D6E6"
+				"0343844DF10E4A80"
+				"13718A7F713D4FD5"
+			]
+			id: "6CACEAAD4D937A33"
+			tasks: [{
+				id: "7D07425CB625DFA0"
+				type: "item"
+				item: "refinedstorage:constructor"
+			}]
+		}
+		{
+			x: 22.0d
+			y: -4.0d
+			shape: "diamond"
+			description: ["&bThe Destructor&r destroys blocks or fluids in front of it and puts the drops in the storage network."]
+			hide_dependency_lines: true
+			dependencies: [
+				"49149CE5DB8F85F0"
+				"197009F06C64D6E6"
+				"3C850D80A0757306"
+				"0343844DF10E4A80"
+			]
+			id: "6AD4CB026445B847"
+			tasks: [{
+				id: "6850F8653CED5A75"
+				type: "item"
+				item: "refinedstorage:destructor"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 3.0d
+			shape: "diamond"
+			description: [
+				"&bThe Controller &fis the core of the Refined Storage network. "
+				"You need to connect all the Refined Storage devices to this block. (You can connect devices by placing them right next to the Controller or with cables.)"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"13718A7F713D4FD5"
+				"3C850D80A0757306"
+				"58A9D7D7EFE97810"
+				"0343844DF10E4A80"
+				"49149CE5DB8F85F0"
+				"0990C82D9CE73CAF"
+			]
+			size: 3.0d
+			id: "5125D46AE360B8F6"
+			tasks: [{
+				id: "66F41DAD3A4C2410"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+		}
+		{
+			x: 18.0d
+			y: -0.5d
+			shape: "diamond"
+			description: ["&bThe Machine Casing&r is a block that is used to craft the various Refined Storage devices."]
+			hide_dependency_lines: true
+			dependencies: [
+				"49149CE5DB8F85F0"
+				"288DBA416FE2AA3C"
+				"39DB67EE674F41A4"
+			]
+			size: 1.5d
+			id: "418E4C58B76E51A5"
+			tasks: [{
+				id: "6ABEBA41D42535DC"
+				type: "item"
+				item: "refinedstorage:machine_casing"
+			}]
+		}
+		{
+			x: 18.0d
+			y: -7.0d
+			shape: "diamond"
+			description: ["&bThe Disk Drive &fis used to store your crafted Storage Disks. A total of 8 disks can be stored in each Disk Drive block."]
+			hide_dependency_lines: true
+			dependencies: [
+				"49149CE5DB8F85F0"
+				"418E4C58B76E51A5"
+				"58A9D7D7EFE97810"
+				"0919CE4B899BD2BC"
+			]
+			size: 1.5d
+			id: "66AE1B7024E49ED8"
+			tasks: [{
+				id: "7E132C5299A6FFAE"
+				type: "item"
+				item: "refinedstorage:disk_drive"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 0.5d
+			shape: "diamond"
+			description: [
+				"&bThe Crafter&r is a block that crafts items with patterns. It can take speed upgrades to increase the crafting speed."
+				""
+				"Can hold 9 patterns."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"49149CE5DB8F85F0"
+				"418E4C58B76E51A5"
+				"3C850D80A0757306"
+				"13718A7F713D4FD5"
+				"58A9D7D7EFE97810"
+			]
+			id: "6639CE9C42A43276"
+			tasks: [{
+				id: "5854C3E042A3BF4E"
+				type: "item"
+				item: "refinedstorage:crafter"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.0d
+			shape: "diamond"
+			description: [
+				"&bThe Crafter&r is a block that crafts items with patterns. It can take speed upgrades to increase the crafting speed."
+				""
+				"Can hold 27 patterns."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6639CE9C42A43276"]
+			id: "5B7E5DB87E13AE8E"
+			tasks: [{
+				id: "7068BC193493C776"
+				type: "item"
+				item: "extrastorage:iron_crafter"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 0.0d
+			shape: "diamond"
+			description: [
+				"&bThe Crafter&r is a block that crafts items with patterns. It can take speed upgrades to increase the crafting speed."
+				""
+				"Can hold 45 patterns."
+			]
+			hide_dependency_lines: true
+			dependencies: ["5B7E5DB87E13AE8E"]
+			id: "2935E99AD59862F7"
+			tasks: [{
+				id: "04BBE01ABAECC5FF"
+				type: "item"
+				item: "extrastorage:gold_crafter"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 1.0d
+			shape: "diamond"
+			description: [
+				"&bThe Crafter&r is a block that crafts items with patterns. It can take speed upgrades to increase the crafting speed."
+				""
+				"Can hold 63 patterns."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2935E99AD59862F7"]
+			id: "641C986AF1E5788A"
+			tasks: [{
+				id: "18EB6DA139F9D271"
+				type: "item"
+				item: "extrastorage:diamond_crafter"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 1.0d
+			shape: "diamond"
+			description: [
+				"&bThe Crafter&r is a block that crafts items with patterns. It can take speed upgrades to increase the crafting speed."
+				""
+				"Can hold 81 patterns."
+			]
+			hide_dependency_lines: true
+			dependencies: ["641C986AF1E5788A"]
+			id: "0A2927998DD8693F"
+			tasks: [{
+				id: "79AB4CB1257E3A26"
+				type: "item"
+				item: "extrastorage:netherite_crafter"
+			}]
+		}
+		{
+			x: 19.0d
+			y: 0.0d
+			shape: "diamond"
+			description: ["&bThe Grid&r is a block that allows access to the items and fluids in the storage network."]
+			hide_dependency_lines: true
+			dependencies: [
+				"58A9D7D7EFE97810"
+				"0343844DF10E4A80"
+				"3C850D80A0757306"
+				"13718A7F713D4FD5"
+				"49149CE5DB8F85F0"
+				"418E4C58B76E51A5"
+			]
+			id: "2880615DA06A1679"
+			tasks: [{
+				id: "67EA2869809BD899"
+				type: "item"
+				item: "refinedstorage:grid"
+			}]
+		}
+		{
+			x: 18.5d
+			y: 0.5d
+			shape: "diamond"
+			description: ["&bThe Crafting Grid&r is the same as a regular Grid, but has a crafting inventory."]
+			hide_dependency_lines: true
+			dependencies: [
+				"2880615DA06A1679"
+				"58A9D7D7EFE97810"
+			]
+			id: "2234D1E39974C401"
+			tasks: [{
+				id: "4FB80F89D546A0FD"
+				type: "item"
+				item: "refinedstorage:crafting_grid"
+			}]
+		}
+		{
+			x: 17.0d
+			y: 0.0d
+			shape: "diamond"
+			description: ["&bThe Pattern Grid&r is the same as a regular Grid, but also allows for the creation of patterns."]
+			hide_dependency_lines: true
+			dependencies: [
+				"2880615DA06A1679"
+				"554F07C62FC1C424"
+				"58A9D7D7EFE97810"
+			]
+			id: "5B0B2F6E3F3C693E"
+			tasks: [{
+				id: "4FFBEF720DE227D4"
+				type: "item"
+				item: "refinedstorage:pattern_grid"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 0.5d
+			shape: "diamond"
+			description: ["&bThe Fluid Grid&r is the same as a regular Grid, but is used for viewing fluids in the fluid storage of your storage network."]
+			hide_dependency_lines: true
+			dependencies: [
+				"2880615DA06A1679"
+				"58A9D7D7EFE97810"
+			]
+			id: "504EC73A798CC4B3"
+			tasks: [{
+				id: "7277FDCF0FAD0945"
+				type: "item"
+				item: "refinedstorage:fluid_grid"
+			}]
+		}
+		{
+			title: "Wireless Network"
+			x: 19.0d
+			y: 1.0d
+			shape: "diamond"
+			description: [
+				"&bA Network Transmitter&r sends a network signal to a Network Receiver that is specified in the given Network Card."
+				""
+				"&bThe Network Receiver&r is the block that receives a signal from the Network Transmitter."
+				""
+				"&bA Network Card&r is an item that stores the coordinates of a Network Receiver."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"3C850D80A0757306"
+				"13718A7F713D4FD5"
+				"58A9D7D7EFE97810"
+				"418E4C58B76E51A5"
+				"49149CE5DB8F85F0"
+			]
+			id: "4941E64E326EA7F5"
+			tasks: [
+				{
+					id: "0DE8C76961E47137"
+					type: "item"
+					item: "refinedstorage:network_transmitter"
+				}
+				{
+					id: "5D2FD2544144A0C4"
+					type: "item"
+					item: "refinedstorage:network_receiver"
+				}
+				{
+					id: "2B3E972C3B2F7DCA"
+					type: "item"
+					item: "refinedstorage:network_card"
+				}
+			]
+		}
+		{
+			x: 22.5d
+			y: 0.0d
+			shape: "diamond"
+			description: [
+				"With the &bWireless Grid &rthe player can access their items from anywhere."
+				""
+				"To activate the Wireless Grid, the player has to right click the Wireless Grid on a Controller."
+				""
+				"To use the Wireless Grid the item needs Forge Energy. You’ll have to charge it in a block that charges items from another mod."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"2880615DA06A1679"
+				"58A9D7D7EFE97810"
+				"49149CE5DB8F85F0"
+			]
+			id: "38B72A6959E4AB4B"
+			tasks: [{
+				id: "3DFC7C081E7381F4"
+				type: "item"
+				item: "refinedstorage:wireless_grid"
+			}]
+		}
+		{
+			x: 23.5d
+			y: 0.0d
+			shape: "diamond"
+			description: ["With the &bWireless Fluid Grid &rthe player can access their fluids from anywhere."]
+			hide_dependency_lines: true
+			dependencies: [
+				"504EC73A798CC4B3"
+				"49149CE5DB8F85F0"
+				"58A9D7D7EFE97810"
+			]
+			id: "02190133B62444A5"
+			tasks: [{
+				id: "61EB1F837D997175"
+				type: "item"
+				item: "refinedstorage:wireless_fluid_grid"
+			}]
+		}
+		{
+			x: 23.5d
+			y: 1.0d
+			shape: "diamond"
+			description: ["With the &bWireless Crafting Monitor&r the player can see what is crafting from anywhere."]
+			hide_dependency_lines: true
+			dependencies: [
+				"4795E76B96170846"
+				"58A9D7D7EFE97810"
+				"49149CE5DB8F85F0"
+			]
+			id: "5B68FBC5224B5E5D"
+			tasks: [{
+				id: "140BD62C26456869"
+				type: "item"
+				item: "refinedstorage:wireless_crafting_monitor"
+			}]
+		}
+		{
+			x: 22.5d
+			y: 1.0d
+			shape: "diamond"
+			description: ["With the &bWireless Crafting Grid &rthe player can access their items from anywhere."]
+			hide_dependency_lines: true
+			dependencies: [
+				"2234D1E39974C401"
+				"49149CE5DB8F85F0"
+				"58A9D7D7EFE97810"
+			]
+			id: "6F43BB8ED63AF234"
+			tasks: [{
+				id: "040D5883E9FE40B4"
+				type: "item"
+				item: "refinedstorageaddons:wireless_crafting_grid"
+			}]
+		}
+		{
+			x: 23.0d
+			y: 0.5d
+			shape: "diamond"
+			description: [
+				"&bThe Wireless Transmitter&r is used to send signals to wireless network items in Refined Storage."
+				""
+				"The default range is 16 blocks, but can be upgraded with range upgrades."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"418E4C58B76E51A5"
+				"49149CE5DB8F85F0"
+				"58A9D7D7EFE97810"
+			]
+			id: "36EE8BEE0B42495C"
+			tasks: [{
+				id: "59F2811B15A5C184"
+				type: "item"
+				item: "refinedstorage:wireless_transmitter"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 0.5d
+			shape: "diamond"
+			description: ["&bThe Crafter Manager&r is a block that allows you to see all your patterns in one GUI."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6639CE9C42A43276"
+				"49149CE5DB8F85F0"
+				"418E4C58B76E51A5"
+				"58A9D7D7EFE97810"
+			]
+			id: "3689524D5D3A98CF"
+			tasks: [{
+				id: "0FD0DF91BD1D0729"
+				type: "item"
+				item: "refinedstorage:crafter_manager"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 0.5d
+			shape: "diamond"
+			description: [
+				"&bThe Crafting Monitor&r is a block that shows all the current running crafting tasks and how long they have been running."
+				""
+				"Each crafting task can be cancelled manually. It is also possible to cancel all crafting tasks at once."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0343844DF10E4A80"
+				"554F07C62FC1C424"
+				"418E4C58B76E51A5"
+			]
+			id: "4795E76B96170846"
+			tasks: [{
+				id: "1812F095FF1B26D4"
+				type: "item"
+				item: "refinedstorage:crafting_monitor"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -8.5d
+			shape: "diamond"
+			description: ["&bThe 1k Storage Part&r is used to craft the 1k Storage Disk."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6B4B2CB11433F7D3"
+				"49149CE5DB8F85F0"
+			]
+			id: "2E23FE3790E375D1"
+			tasks: [{
+				id: "41D072498EC6581F"
+				type: "item"
+				item: "refinedstorage:1k_storage_part"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -9.0d
+			shape: "diamond"
+			description: ["&bThe 4k Storage Part&r is used to craft the 4k Storage Disk."]
+			hide_dependency_lines: true
+			dependencies: [
+				"43AC302D806DFECF"
+				"49149CE5DB8F85F0"
+				"2E23FE3790E375D1"
+			]
+			id: "5AE625369DF24894"
+			tasks: [{
+				id: "5C3AB8C65FE1754D"
+				type: "item"
+				item: "refinedstorage:4k_storage_part"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -9.5d
+			shape: "diamond"
+			description: ["&bThe 16k Storage Part&r is used to craft the 16k Storage Disk."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0343844DF10E4A80"
+				"49149CE5DB8F85F0"
+				"5AE625369DF24894"
+			]
+			id: "2D6585520410D52F"
+			tasks: [{
+				id: "6250185EA0158563"
+				type: "item"
+				item: "refinedstorage:16k_storage_part"
+			}]
+		}
+		{
+			x: 20.0d
+			y: -8.5d
+			shape: "diamond"
+			description: ["&bThe 64k Fluid Storage Part&r is used to craft the 64k Fluid Storage Disk."]
+			hide_dependency_lines: true
+			dependencies: [
+				"49149CE5DB8F85F0"
+				"6B4B2CB11433F7D3"
+			]
+			id: "63764EE6C69163CE"
+			tasks: [{
+				id: "416554BF6601F930"
+				type: "item"
+				item: "refinedstorage:64k_fluid_storage_part"
+			}]
+		}
+		{
+			x: 20.5d
+			y: -9.0d
+			shape: "diamond"
+			description: ["&bThe 256k Fluid Storage Part&r is used to craft the 256k Fluid Storage Disk."]
+			hide_dependency_lines: true
+			dependencies: [
+				"43AC302D806DFECF"
+				"63764EE6C69163CE"
+				"49149CE5DB8F85F0"
+			]
+			id: "5AE2DC1B1714FD5E"
+			tasks: [{
+				id: "4BE24DA54CA5FE36"
+				type: "item"
+				item: "refinedstorage:256k_fluid_storage_part"
+			}]
+		}
+		{
+			x: 21.0d
+			y: -9.5d
+			shape: "diamond"
+			description: ["&bThe 1024k Fluid Storage Part&r is used to craft the 1024k Fluid Storage Disk."]
+			hide_dependency_lines: true
+			dependencies: [
+				"5AE2DC1B1714FD5E"
+				"0343844DF10E4A80"
+				"49149CE5DB8F85F0"
+			]
+			id: "09195E101588E048"
+			tasks: [{
+				id: "1340F86EB846969C"
+				type: "item"
+				item: "refinedstorage:1024k_fluid_storage_part"
+			}]
+		}
+		{
+			x: 21.5d
+			y: -9.0d
+			shape: "diamond"
+			description: ["&bThe 4096k Fluid Storage Part&r is used to craft the 4096k Fluid Storage Disk."]
+			hide_dependency_lines: true
+			dependencies: [
+				"58A9D7D7EFE97810"
+				"09195E101588E048"
+				"49149CE5DB8F85F0"
+			]
+			id: "75386F834699DB09"
+			tasks: [{
+				id: "53FFBB4153B958E1"
+				type: "item"
+				item: "refinedstorage:4096k_fluid_storage_part"
+			}]
+		}
+		{
+			x: 18.0d
+			y: -4.5d
+			shape: "diamond"
+			description: ["&bThe Raw Basic Processor&r is used to craft a Basic Processor."]
+			hide_dependency_lines: true
+			dependencies: ["0E11FB9D0BDE5F5E"]
+			id: "37273105ACF2ED06"
+			tasks: [{
+				id: "6491BFA5D0DF4FC1"
+				type: "item"
+				item: "refinedstorage:raw_basic_processor"
+			}]
+		}
+		{
+			x: 19.0d
+			y: -3.5d
+			shape: "diamond"
+			description: ["&bThe Raw Improved Processor&r is used to craft a Improved Processor."]
+			hide_dependency_lines: true
+			dependencies: ["0E11FB9D0BDE5F5E"]
+			id: "0647F367A68FFA99"
+			tasks: [{
+				id: "4F3963219C8892CD"
+				type: "item"
+				item: "refinedstorage:raw_improved_processor"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -4.0d
+			shape: "diamond"
+			description: ["&bThe Raw Advanced Processor&r is used to craft a Advanced Processor."]
+			hide_dependency_lines: true
+			dependencies: ["0E11FB9D0BDE5F5E"]
+			id: "3666B1587CFCAFDB"
+			tasks: [{
+				id: "6CBD61F54EB2FD53"
+				type: "item"
+				item: "refinedstorage:raw_advanced_processor"
+			}]
+		}
+		{
+			x: 18.5d
+			y: 5.0d
+			shape: "diamond"
+			dependencies: ["054C13431F464EC6"]
+			id: "6B4B2CB11433F7D3"
+			tasks: [{
+				id: "2105E0B1D472D0F1"
+				type: "item"
+				item: "refinedstorage:silicon"
+			}]
+		}
+		{
+			x: 18.0d
+			y: -3.5d
+			shape: "diamond"
+			description: ["&bThe Processor&r is used to craft the various Refined Storage devices."]
+			hide_dependency_lines: true
+			dependencies: [
+				"37273105ACF2ED06"
+				"6B4B2CB11433F7D3"
+			]
+			id: "43AC302D806DFECF"
+			tasks: [{
+				id: "65D008021CC16E6E"
+				type: "item"
+				item: "refinedstorage:basic_processor"
+			}]
+		}
+		{
+			x: 18.5d
+			y: -4.0d
+			shape: "diamond"
+			description: ["&bThe Processor&r is used to craft the various Refined Storage devices."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0647F367A68FFA99"
+				"6B4B2CB11433F7D3"
+			]
+			id: "0343844DF10E4A80"
+			tasks: [{
+				id: "12A43298475AD49F"
+				type: "item"
+				item: "refinedstorage:improved_processor"
+			}]
+		}
+		{
+			x: 17.0d
+			y: -3.5d
+			shape: "diamond"
+			description: ["&bThe Processor&r is used to craft the various Refined Storage devices."]
+			hide_dependency_lines: true
+			dependencies: [
+				"3666B1587CFCAFDB"
+				"6B4B2CB11433F7D3"
+			]
+			id: "58A9D7D7EFE97810"
+			tasks: [{
+				id: "6B1E300CE5C47D02"
+				type: "item"
+				item: "refinedstorage:advanced_processor"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -3.0d
+			shape: "diamond"
+			description: ["&bThe Construction Core&r is used in recipes for devices that turn items from the storage network into items in the world."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0C1760A0E6D5AF4C"
+				"43AC302D806DFECF"
+			]
+			id: "13718A7F713D4FD5"
+			tasks: [{
+				id: "2CC909B77F1C8B33"
+				type: "item"
+				item: "refinedstorage:construction_core"
+			}]
+		}
+		{
+			x: 18.5d
+			y: -3.0d
+			shape: "diamond"
+			description: ["&bThe Destruction Core&r is used in recipes for devices that turn items from the world into items in the storage network."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0C1760A0E6D5AF4C"
+				"43AC302D806DFECF"
+			]
+			id: "3C850D80A0757306"
+			tasks: [{
+				id: "1556C8105FB91524"
+				type: "item"
+				item: "refinedstorage:destruction_core"
+			}]
+		}
+		{
+			x: 18.0d
+			y: -2.0d
+			shape: "diamond"
+			description: ["&bProcessor Binding&r is used to craft the various processors."]
+			dependencies: ["424F705CF3F9E901"]
+			id: "0E11FB9D0BDE5F5E"
+			tasks: [{
+				id: "10813E9D532D8DFF"
+				type: "item"
+				item: "refinedstorage:processor_binding"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -4.5d
+			shape: "diamond"
+			description: [
+				"&bThe Stack upgrade&r will improve item or fluid transfer speeds by using a whole stack (64 items) instead of 1 item at a time."
+				""
+				"It can be combined with speed upgrades to let the device go to the next slot quicker."
+			]
+			hide_dependency_lines: true
+			dependencies: ["030F514B651E307A"]
+			id: "0AEBA4E45E26BEAF"
+			tasks: [{
+				id: "7EF31B52236BF1A6"
+				type: "item"
+				item: "refinedstorage:stack_upgrade"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -5.0d
+			shape: "diamond"
+			description: [
+				"&bThe Crafting Upgrade&r will schedule a crafting task when the item being used in a device is needed but not available."
+				""
+				"By using this upgrade, the amount of FE/t that this device draws will increase."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"723B9752EB147E01"
+				"13718A7F713D4FD5"
+				"49149CE5DB8F85F0"
+			]
+			id: "05467BA08DBC2D87"
+			tasks: [{
+				id: "0143C35118818165"
+				type: "item"
+				item: "refinedstorage:crafting_upgrade"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -3.5d
+			shape: "diamond"
+			description: ["&bThe Range Upgrade&r increases the range of the Wireless Transmitter."]
+			hide_dependency_lines: true
+			dependencies: [
+				"49149CE5DB8F85F0"
+				"723B9752EB147E01"
+			]
+			id: "7B0744D1585CE469"
+			tasks: [{
+				id: "1C701EDE1CC41D99"
+				type: "item"
+				item: "refinedstorage:range_upgrade"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -4.5d
+			shape: "diamond"
+			description: ["&bThe Speed Upgrade&r will increase the speed of the device that it is being inserted to."]
+			hide_dependency_lines: true
+			dependencies: [
+				"723B9752EB147E01"
+				"49149CE5DB8F85F0"
+			]
+			id: "030F514B651E307A"
+			tasks: [{
+				id: "0EF57B44294E4D83"
+				type: "item"
+				item: "refinedstorage:speed_upgrade"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -3.0d
+			shape: "diamond"
+			description: ["&bThe Upgrade&r is the base item used for every type of upgrade."]
+			hide_dependency_lines: true
+			dependencies: [
+				"49149CE5DB8F85F0"
+				"0343844DF10E4A80"
+			]
+			id: "723B9752EB147E01"
+			tasks: [{
+				id: "2267391F5B153500"
+				type: "item"
+				item: "refinedstorage:upgrade"
+			}]
+		}
+		{
+			x: 17.0d
+			y: 1.0d
+			shape: "diamond"
+			description: ["&bA Pattern&r is an item that is used in autocrafting. It stores the recipe that should be autocrafted."]
+			hide_dependency_lines: true
+			dependencies: ["49149CE5DB8F85F0"]
+			id: "554F07C62FC1C424"
+			tasks: [{
+				id: "754D5CA411423945"
+				type: "item"
+				item: "refinedstorage:pattern"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -10.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"49149CE5DB8F85F0"
+				"418E4C58B76E51A5"
+				"3C850D80A0757306"
+				"0343844DF10E4A80"
+				"13718A7F713D4FD5"
+			]
+			id: "4E5DA92E95810512"
+			tasks: [{
+				id: "734065083E2F0CEE"
+				type: "item"
+				item: "refinedcooking:kitchen_station"
+			}]
+		}
+		{
+			x: 18.5d
+			y: -10.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"418E4C58B76E51A5"
+				"13718A7F713D4FD5"
+				"3C850D80A0757306"
+				"58A9D7D7EFE97810"
+			]
+			id: "68E190831E0216FD"
+			tasks: [{
+				id: "44D4FC05E09BE6FD"
+				type: "item"
+				item: "refinedcooking:kitchen_access_point"
+			}]
+		}
+		{
+			x: 18.0d
+			y: -9.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"58A9D7D7EFE97810"
+				"49149CE5DB8F85F0"
+			]
+			id: "37DEC3B5FCCD3CAD"
+			tasks: [{
+				id: "11D2517C6C81238E"
+				type: "item"
+				item: "refinedcooking:kitchen_network_card"
+			}]
+		}
+		{
+			x: 23.5d
+			y: -4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"02AB95E5098BE217"
+				"0343844DF10E4A80"
+			]
+			id: "04E45C500FBB7D04"
+			tasks: [{
+				id: "215483440D3E9F2B"
+				type: "item"
+				item: "extrastorage:advanced_exporter"
+			}]
+		}
+		{
+			x: 22.5d
+			y: -4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"6D3EB7F0D06F2EB2"
+				"0343844DF10E4A80"
+			]
+			id: "042E2480F1AA851A"
+			tasks: [{
+				id: "5C069553F74F12B0"
+				type: "item"
+				item: "extrastorage:advanced_importer"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -5.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"0E11FB9D0BDE5F5E"
+				"0647F367A68FFA99"
+				"3666B1587CFCAFDB"
+			]
+			id: "73B62FA7D52F6620"
+			tasks: [{
+				id: "6E61310C75F99095"
+				type: "item"
+				item: "extrastorage:raw_neural_processor"
+			}]
+		}
+		{
+			x: 18.5d
+			y: -5.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"73B62FA7D52F6620"
+				"6B4B2CB11433F7D3"
+				"49149CE5DB8F85F0"
+			]
+			id: "198B990466F74967"
+			tasks: [{
+				id: "1E05897CCBDF18FF"
+				type: "item"
+				item: "extrastorage:neural_processor"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -8.5d
+			shape: "diamond"
+			description: ["&bThe 256k Storage Part&r is used to craft the 256k Storage Disk."]
+			hide_dependency_lines: true
+			dependencies: [
+				"7B33F5B6CE1418C5"
+				"58A9D7D7EFE97810"
+				"49149CE5DB8F85F0"
+			]
+			id: "621924A7F5263C46"
+			tasks: [{
+				id: "0AF889FDBADC3CF7"
+				type: "item"
+				item: "extrastorage:storagepart_256k"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -8.0d
+			shape: "diamond"
+			description: ["&bThe 1024k Storage Part&r is used to craft the 1024k Storage Disk."]
+			hide_dependency_lines: true
+			dependencies: [
+				"621924A7F5263C46"
+				"49149CE5DB8F85F0"
+				"58A9D7D7EFE97810"
+			]
+			id: "4BF4FDFD04A7E19D"
+			tasks: [{
+				id: "3E97C3A2A8616599"
+				type: "item"
+				item: "extrastorage:storagepart_1024k"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -7.5d
+			shape: "diamond"
+			description: ["&bThe 4096k Storage Part&r is used to craft the 4096k Storage Disk."]
+			hide_dependency_lines: true
+			dependencies: [
+				"4BF4FDFD04A7E19D"
+				"58A9D7D7EFE97810"
+				"49149CE5DB8F85F0"
+			]
+			id: "181DEB1EEE5FEA2B"
+			tasks: [{
+				id: "64FF18877DE2FF96"
+				type: "item"
+				item: "extrastorage:storagepart_4096k"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -8.0d
+			shape: "diamond"
+			description: ["&bThe 16384k Storage Part&r is used to craft the 16384k Storage Disk."]
+			hide_dependency_lines: true
+			dependencies: [
+				"181DEB1EEE5FEA2B"
+				"49149CE5DB8F85F0"
+				"58A9D7D7EFE97810"
+			]
+			id: "4D7BC95BA9ACA231"
+			tasks: [{
+				id: "5B0182FE63FE89A5"
+				type: "item"
+				item: "extrastorage:storagepart_16384k"
+			}]
+		}
+		{
+			x: 22.0d
+			y: -8.5d
+			shape: "diamond"
+			description: ["&bThe 16384k Fluid Storage Part&r is used to craft the 16384k Fluid Storage Disk."]
+			hide_dependency_lines: true
+			dependencies: [
+				"75386F834699DB09"
+				"58A9D7D7EFE97810"
+				"49149CE5DB8F85F0"
+			]
+			id: "1D1E0A110BA1FAB5"
+			tasks: [{
+				id: "74F1E7E9436CC28E"
+				type: "item"
+				item: "extrastorage:storagepart_16384k_fluid"
+			}]
+		}
+		{
+			x: 21.5d
+			y: -8.0d
+			shape: "diamond"
+			description: ["&bThe 65536k Fluid Storage Part&r is used to craft the 65536k Fluid Storage Disk."]
+			hide_dependency_lines: true
+			dependencies: [
+				"58A9D7D7EFE97810"
+				"49149CE5DB8F85F0"
+				"1D1E0A110BA1FAB5"
+			]
+			id: "105F1F3A7BD1D3B5"
+			tasks: [{
+				id: "448088D0380473D8"
+				type: "item"
+				item: "extrastorage:storagepart_65536k_fluid"
+			}]
+		}
+		{
+			x: 21.0d
+			y: -7.5d
+			shape: "diamond"
+			description: ["&bThe 262144k Fluid Storage Part&r is used to craft the 262144k Fluid Storage Disk."]
+			hide_dependency_lines: true
+			dependencies: [
+				"105F1F3A7BD1D3B5"
+				"49149CE5DB8F85F0"
+				"58A9D7D7EFE97810"
+			]
+			id: "6C7271DDA954005B"
+			tasks: [{
+				id: "671E36F454415090"
+				type: "item"
+				item: "extrastorage:storagepart_262144k_fluid"
+			}]
+		}
+		{
+			x: 20.5d
+			y: -8.0d
+			shape: "diamond"
+			description: ["&bThe 1048576k Fluid Storage Part&r is used to craft the 1048576k Fluid Storage Disk."]
+			hide_dependency_lines: true
+			dependencies: [
+				"49149CE5DB8F85F0"
+				"58A9D7D7EFE97810"
+				"6C7271DDA954005B"
+			]
+			id: "2D3ED5B9DA7DF41E"
+			tasks: [{
+				id: "107A53F7B3EF1607"
+				type: "item"
+				item: "extrastorage:storagepart_1048576k_fluid"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -4.0d
+			shape: "diamond"
+			description: [
+				"&bThe Silk Touch Upgrade&r makes the Destructor use Silk Touch on the blocks that it is breaking."
+				""
+				"By using this upgrade, the amount of FE/t that this device draws will increase."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"49149CE5DB8F85F0"
+				"723B9752EB147E01"
+			]
+			id: "7027FA12E0D09FFD"
+			tasks: [{
+				id: "5F119B3BC51C7AD8"
+				type: "item"
+				item: "refinedstorage:silk_touch_upgrade"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -4.0d
+			shape: "diamond"
+			description: [
+				"&bThe Fortune Upgrade&r will make the Destructor use a certain fortune level (depending on which Fortune Upgrade you have) on the block it is breaking."
+				""
+				"This upgrade has 3 versions:"
+				"→ Fortune 1"
+				"→ Fortune 2"
+				"→ Fortune 3"
+				""
+				"By using this upgrade, the amount of FE/t that this device draws will increase."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"723B9752EB147E01"
+				"49149CE5DB8F85F0"
+			]
+			id: "449C3F98FF6E186A"
+			tasks: [{
+				id: "6097182844DF2E5F"
+				type: "item"
+				title: "Fortune Upgrade"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "refinedstorage:fortune_1_upgrade"
+								Count: 1b
+							}
+							{
+								id: "refinedstorage:fortune_2_upgrade"
+								Count: 1b
+							}
+							{
+								id: "refinedstorage:fortune_3_upgrade"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: -3.5d
+			shape: "diamond"
+			description: [
+				"&bThe Regulator Upgrade&r is an upgrade that can be inserted into an Exporter to keep certain items or fluids in stock in the connected inventory."
+				""
+				"It will try to keep the connected inventory stocked by using items or fluids from the storage network."
+				""
+				"Additionally, the Regulator Upgrade can be combined with a Crafting Upgrade to start autocrafting tasks when the stock from the storage network runs out."
+				""
+				"By using this upgrade, the amount of FE/t that this device draws will increase."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"49149CE5DB8F85F0"
+				"723B9752EB147E01"
+			]
+			id: "17F253F16FB25659"
+			tasks: [{
+				id: "08B3286FA8BCD9D5"
+				type: "item"
+				item: "refinedstorage:regulator_upgrade"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -9.0d
+			shape: "diamond"
+			description: ["&bThe 64k Storage Part&r is used to craft the 64k Storage Disk."]
+			hide_dependency_lines: true
+			dependencies: [
+				"58A9D7D7EFE97810"
+				"49149CE5DB8F85F0"
+				"2D6585520410D52F"
+			]
+			id: "7B33F5B6CE1418C5"
+			tasks: [{
+				id: "2658A37C994F843C"
+				type: "item"
+				item: "refinedstorage:64k_storage_part"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -8.5d
+			shape: "diamond"
+			min_required_dependencies: 1
+			dependencies: [
+				"181DEB1EEE5FEA2B"
+				"4D7BC95BA9ACA231"
+				"2E23FE3790E375D1"
+				"5AE625369DF24894"
+				"2D6585520410D52F"
+				"7B33F5B6CE1418C5"
+				"621924A7F5263C46"
+				"4BF4FDFD04A7E19D"
+			]
+			id: "3DF249C840E413EF"
+			tasks: [{
+				id: "386BA46C12671FE6"
+				type: "item"
+				title: "Storage Disk"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "refinedstorage:1k_storage_disk"
+								Count: 1b
+								tag: {
+									Id: [I;
+										464942956
+										618482438
+										-1601878935
+										-599337760
+									]
+								}
+							}
+							{
+								id: "refinedstorage:4k_storage_disk"
+								Count: 1b
+								tag: {
+									Id: [I;
+										756851647
+										1243170723
+										-1739939196
+										1376828076
+									]
+								}
+							}
+							{
+								id: "refinedstorage:16k_storage_disk"
+								Count: 1b
+								tag: {
+									Id: [I;
+										-278722910
+										-210416169
+										-1522224914
+										1835276769
+									]
+								}
+							}
+							{
+								id: "refinedstorage:64k_storage_disk"
+								Count: 1b
+								tag: {
+									Id: [I;
+										-1686898155
+										-1483257635
+										-1094045548
+										1576787707
+									]
+								}
+							}
+							{
+								id: "extrastorage:disk_256k"
+								Count: 1b
+								tag: {
+									ID: [I;
+										-785650605
+										128139496
+										-1208613015
+										-1141812018
+									]
+								}
+							}
+							{
+								id: "extrastorage:disk_1024k"
+								Count: 1b
+								tag: {
+									ID: [I;
+										1179430314
+										499928381
+										-2082878094
+										-434804559
+									]
+								}
+							}
+							{
+								id: "extrastorage:disk_4096k"
+								Count: 1b
+								tag: {
+									ID: [I;
+										-713867360
+										-571784354
+										-1358192803
+										-432454012
+									]
+								}
+							}
+							{
+								id: "extrastorage:disk_16384k"
+								Count: 1b
+								tag: {
+									ID: [I;
+										-1032835585
+										1045383707
+										-1500161207
+										1409773663
+									]
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Fluid Storage Disk"
+			x: 21.0d
+			y: -8.5d
+			shape: "diamond"
+			min_required_dependencies: 1
+			dependencies: [
+				"63764EE6C69163CE"
+				"5AE2DC1B1714FD5E"
+				"09195E101588E048"
+				"75386F834699DB09"
+				"1D1E0A110BA1FAB5"
+				"105F1F3A7BD1D3B5"
+				"6C7271DDA954005B"
+				"2D3ED5B9DA7DF41E"
+			]
+			id: "3D2795995FFAA47A"
+			tasks: [{
+				id: "109589A3069AB61C"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "refinedstorage:64k_fluid_storage_disk"
+								Count: 1b
+								tag: {
+									Id: [I;
+										266685547
+										54805972
+										-1299651643
+										1978130194
+									]
+								}
+							}
+							{
+								id: "refinedstorage:256k_fluid_storage_disk"
+								Count: 1b
+								tag: {
+									Id: [I;
+										84830348
+										-1401139278
+										-1868757425
+										1324525671
+									]
+								}
+							}
+							{
+								id: "refinedstorage:1024k_fluid_storage_disk"
+								Count: 1b
+								tag: {
+									Id: [I;
+										-807262079
+										-1247786535
+										-1246257842
+										-2054285393
+									]
+								}
+							}
+							{
+								id: "refinedstorage:4096k_fluid_storage_disk"
+								Count: 1b
+								tag: {
+									Id: [I;
+										2010662032
+										1620855137
+										-2100999483
+										-739673659
+									]
+								}
+							}
+							{
+								id: "extrastorage:disk_16384k_fluid"
+								Count: 1b
+								tag: {
+									ID: [I;
+										-1985483554
+										-2013771290
+										-1373535725
+										2030658236
+									]
+								}
+							}
+							{
+								id: "extrastorage:disk_65536k_fluid"
+								Count: 1b
+								tag: {
+									ID: [I;
+										2060802662
+										-688962023
+										-1171528773
+										198036769
+									]
+								}
+							}
+							{
+								id: "extrastorage:disk_262144k_fluid"
+								Count: 1b
+								tag: {
+									ID: [I;
+										162574752
+										-1087159056
+										-1608943936
+										-1894449441
+									]
+								}
+							}
+							{
+								id: "extrastorage:disk_1048576k_fluid"
+								Count: 1b
+								tag: {
+									ID: [I;
+										-2080185154
+										-1278327044
+										-1253036494
+										658278031
+									]
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+	]
+}

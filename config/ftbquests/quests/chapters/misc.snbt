@@ -1,0 +1,870 @@
+{
+	id: "58B2FCB6A7C1320D"
+	group: "638FC427456F902B"
+	order_index: 6
+	filename: "misc"
+	title: "Misc"
+	icon: {
+		id: "buildinggadgets:gadget_copy_paste"
+		Count: 1b
+		tag: {
+			mode: 0b
+			template_id: [I;
+				-706370051
+				-677756061
+				-1878632327
+				-1161966628
+			]
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -4.0d
+			shape: "gear"
+			id: "5C1F3C366E52F0BF"
+			tasks: [{
+				id: "5A25AA9FB181F640"
+				type: "item"
+				item: {
+					id: "tiab:timeinabottle"
+					Count: 1b
+					tag: {
+						timeData: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "1D5BEBE48651F563"
+				type: "item"
+				item: "supplementaries:clock_block"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.0d
+			shape: "octagon"
+			description: ["The Building Gadget allows you to build structures using a set of different Building Modes."]
+			dependencies: [
+				"3F05D033EBD0710D"
+				"088D692E25F62BFD"
+			]
+			id: "0BB86AD42F37B36D"
+			tasks: [{
+				id: "5C554DF2C3A6D6A6"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			shape: "octagon"
+			description: ["The Exchanging Gadget provides basic exchanging abilities using a set of different Exchanging Modes."]
+			dependencies: [
+				"3F05D033EBD0710D"
+				"088D692E25F62BFD"
+			]
+			id: "6CEE7B961076326E"
+			tasks: [{
+				id: "4A74E3CB2883A360"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_exchanging"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			shape: "octagon"
+			description: ["The Copy Paste Gadget allows you to select a large radius to copy and paste in a different location."]
+			dependencies: [
+				"3F05D033EBD0710D"
+				"088D692E25F62BFD"
+			]
+			id: "37E7A7B9989E3C83"
+			tasks: [{
+				id: "2A4E1EEF9A0BCD9D"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_copy_paste"
+					Count: 1b
+					tag: {
+						mode: 0b
+						template_id: [I;
+							-706370051
+							-677756061
+							-1878632327
+							-1161966628
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			shape: "octagon"
+			description: ["The Destruction Gadget allows you to void a large area."]
+			dependencies: [
+				"3F05D033EBD0710D"
+				"088D692E25F62BFD"
+			]
+			id: "620D2DCE038B259E"
+			tasks: [{
+				id: "17E42AC23C58C148"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_destruction"
+					Count: 1b
+					tag: {
+						overlay: 1b
+						fuzzy: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			dependencies: ["39DB67EE674F41A4"]
+			id: "462A030FB9640053"
+			tasks: [{
+				id: "09A4B92A987A54CB"
+				type: "item"
+				item: "cagedmobs:mobcage"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			dependencies: ["462A030FB9640053"]
+			id: "4EE4C8827A0D8A12"
+			tasks: [{
+				id: "590875D8B33D8D42"
+				type: "item"
+				item: "cagedmobs:hoppingmobcage"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			dependencies: ["3F05D033EBD0710D"]
+			id: "7BAEA669F08E6D8C"
+			tasks: [{
+				id: "2A7797FD2B40636F"
+				type: "item"
+				item: "cagedmobs:dnasampler"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			dependencies: ["088D692E25F62BFD"]
+			id: "296792C170EC1D6B"
+			tasks: [{
+				id: "24F7B9853B8FBA8C"
+				type: "item"
+				item: "cagedmobs:dnasamplerdiamond"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["296792C170EC1D6B"]
+			id: "419BA67AC730DEEE"
+			tasks: [{
+				id: "28E96CFA7A3DEF3D"
+				type: "item"
+				item: "cagedmobs:dnasamplernetherite"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			dependencies: [
+				"088D692E25F62BFD"
+				"7177A157E31F65A9"
+			]
+			id: "519EBA91C39CFAB1"
+			tasks: [{
+				id: "3940FFA64E92D8F7"
+				type: "item"
+				item: "cagedmobs:cookingupgrade"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["088D692E25F62BFD"]
+			id: "1FAF131138CDC09A"
+			tasks: [{
+				id: "7CEF3A6A09CAC056"
+				type: "item"
+				item: "cagedmobs:lightningupgrade"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			dependencies: ["088D692E25F62BFD"]
+			id: "4D7519CBAA057211"
+			tasks: [{
+				id: "6BBF64049DC50979"
+				type: "item"
+				item: "cagedmobs:arrowupgrade"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -3.0d
+			shape: "hexagon"
+			dependencies: [
+				"47A4D81697C274A3"
+				"321AFD3A1679E8E0"
+			]
+			id: "380E9CB925E92F25"
+			tasks: [{
+				id: "6BDFF1FE68279B77"
+				type: "item"
+				item: "pipez:item_pipe"
+			}]
+			rewards: [{
+				id: "153FD01CCE7EB871"
+				type: "item"
+				item: "pipez:item_pipe"
+				count: 16
+			}]
+		}
+		{
+			x: -8.0d
+			y: -2.0d
+			shape: "hexagon"
+			dependencies: [
+				"47A4D81697C274A3"
+				"321AFD3A1679E8E0"
+			]
+			id: "3D2E3D9DCF93B206"
+			tasks: [{
+				id: "4C4098B24D3EC5E4"
+				type: "item"
+				item: "pipez:fluid_pipe"
+			}]
+			rewards: [{
+				id: "2D9310A227265FC9"
+				type: "item"
+				item: "pipez:fluid_pipe"
+				count: 16
+			}]
+		}
+		{
+			x: -8.0d
+			y: -1.0d
+			shape: "hexagon"
+			dependencies: [
+				"47A4D81697C274A3"
+				"321AFD3A1679E8E0"
+				"505915AA1C542C01"
+			]
+			id: "550F76A37A2D6A81"
+			tasks: [{
+				id: "539ECE75BC31C123"
+				type: "item"
+				item: "pipez:energy_pipe"
+			}]
+			rewards: [{
+				id: "6F49B5F4EBE792C3"
+				type: "item"
+				item: "pipez:energy_pipe"
+				count: 16
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: [
+				"47A4D81697C274A3"
+				"321AFD3A1679E8E0"
+			]
+			id: "0BC5CF7D0AB007C8"
+			tasks: [{
+				id: "0936D86F19E3CB83"
+				type: "item"
+				item: "pipez:gas_pipe"
+			}]
+			rewards: [{
+				id: "6EFD3B98D96B9AEF"
+				type: "item"
+				item: "pipez:gas_pipe"
+				count: 16
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.0d
+			shape: "hexagon"
+			dependencies: [
+				"550F76A37A2D6A81"
+				"3D2E3D9DCF93B206"
+				"380E9CB925E92F25"
+			]
+			id: "6424AAF1A11798C8"
+			tasks: [{
+				id: "695454DE20BECF82"
+				type: "item"
+				item: "pipez:universal_pipe"
+			}]
+			rewards: [{
+				id: "54907ADFE9AA392C"
+				type: "item"
+				item: "pipez:universal_pipe"
+				count: 6
+			}]
+		}
+		{
+			x: -8.0d
+			y: -4.0d
+			shape: "hexagon"
+			dependencies: ["47A4D81697C274A3"]
+			id: "1ECC23A92C612D2A"
+			tasks: [{
+				id: "4DB6D73DE99B03B3"
+				type: "item"
+				item: "pipez:wrench"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -4.0d
+			shape: "hexagon"
+			dependencies: [
+				"47A4D81697C274A3"
+				"321AFD3A1679E8E0"
+			]
+			id: "6B676EB98B41BA22"
+			tasks: [{
+				id: "750155E057F6E296"
+				type: "item"
+				item: "pipez:filter_destination_tool"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -3.0d
+			shape: "hexagon"
+			description: ["Transfert 8 items every 15 ticks."]
+			dependencies: ["3F05D033EBD0710D"]
+			id: "47FD87C40EF62ABB"
+			tasks: [{
+				id: "2959AD38A2627DD4"
+				type: "item"
+				item: "pipez:basic_upgrade"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -2.0d
+			shape: "hexagon"
+			description: ["Transfert 16 items every 10 ticks."]
+			dependencies: ["47FD87C40EF62ABB"]
+			id: "7D7D7DC63E4C2F0A"
+			tasks: [{
+				id: "38C4CD7DA42A5C26"
+				type: "item"
+				item: "pipez:improved_upgrade"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.0d
+			shape: "hexagon"
+			description: ["Transfert 32 items every 5 ticks."]
+			dependencies: ["7D7D7DC63E4C2F0A"]
+			id: "08C40E34FE7E24CE"
+			tasks: [{
+				id: "5BD161CD4D177397"
+				type: "item"
+				item: "pipez:advanced_upgrade"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.0d
+			shape: "hexagon"
+			description: ["Transfert 64 items every tick."]
+			dependencies: ["08C40E34FE7E24CE"]
+			id: "3390851CC346F5F5"
+			tasks: [{
+				id: "5A2B5ED8F2226882"
+				type: "item"
+				item: "pipez:ultimate_upgrade"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			shape: "rsquare"
+			dependencies: [
+				"39DB67EE674F41A4"
+				"2C8FDC0987A55F71"
+			]
+			id: "4121C4B3289FE87D"
+			tasks: [{
+				id: "4319FBB0AE21CF05"
+				type: "item"
+				item: {
+					id: "entangled:block"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			shape: "rsquare"
+			dependencies: [
+				"243FA1E08B56689C"
+				"088D692E25F62BFD"
+			]
+			id: "3D2BB0556215FF69"
+			tasks: [{
+				id: "7B33778C7B41B22F"
+				type: "item"
+				item: {
+					id: "entangled:item"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.0d
+			shape: "square"
+			description: ["A 3x3x3 box."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6705F141D138C325"
+				"0DFB491BD9E57A34"
+			]
+			id: "2EEC166F47EEB059"
+			tasks: [{
+				id: "5440EFEEDAB0B775"
+				type: "item"
+				item: "compactmachines:machine_tiny"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			shape: "square"
+			description: ["A 5x5x5 box."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6705F141D138C325"
+				"0DFB491BD9E57A34"
+			]
+			id: "32DB131E9B2EFB23"
+			tasks: [{
+				id: "09710AF66772D38E"
+				type: "item"
+				item: "compactmachines:machine_small"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			shape: "square"
+			description: ["A 7x7x7 box."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6705F141D138C325"
+				"0DFB491BD9E57A34"
+			]
+			id: "52441E36529D495A"
+			tasks: [{
+				id: "02F9B261E6A372AF"
+				type: "item"
+				item: "compactmachines:machine_normal"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			shape: "square"
+			description: ["A 9x9x9 box."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6705F141D138C325"
+				"0DFB491BD9E57A34"
+			]
+			id: "5BB13D343C544F64"
+			tasks: [{
+				id: "078389A73971990A"
+				type: "item"
+				item: "compactmachines:machine_large"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			shape: "square"
+			description: ["A 11x11x11 box."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6705F141D138C325"
+				"0DFB491BD9E57A34"
+			]
+			id: "3E838C03FE839160"
+			tasks: [{
+				id: "50E0C50DD7545011"
+				type: "item"
+				item: "compactmachines:machine_giant"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			shape: "square"
+			description: ["A 13x13x13 box."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6705F141D138C325"
+				"0DFB491BD9E57A34"
+			]
+			id: "15457161BC469A01"
+			tasks: [{
+				id: "6AC4BAF6CCF4BBE7"
+				type: "item"
+				item: "compactmachines:machine_maximum"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			shape: "square"
+			description: ["This tool allows you to enter your Compact Machines."]
+			dependencies: [
+				"1B69AF5509A2B907"
+				"47A4D81697C274A3"
+				"0DBCCDC1A9287229"
+			]
+			id: "6B9DF754ABB193CD"
+			tasks: [{
+				id: "533F3CBC7A42EF12"
+				type: "item"
+				item: "compactmachines:personal_shrinking_device"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			shape: "square"
+			dependencies: [
+				"6705F141D138C325"
+				"1B69AF5509A2B907"
+			]
+			id: "0DFB491BD9E57A34"
+			tasks: [{
+				id: "0C2528F83CE8CE9E"
+				type: "item"
+				item: "compactmachines:wall"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			shape: "square"
+			dependencies: ["0DFB491BD9E57A34"]
+			id: "6B4F5192FF1FF990"
+			tasks: [{
+				id: "49CD121A2DDD5398"
+				type: "item"
+				item: {
+					id: "compactmachines:tunnel"
+					Count: 1b
+					tag: {
+						definition: {
+							id: "compactmachines:item"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			shape: "square"
+			dependencies: [
+				"0DFB491BD9E57A34"
+				"321AFD3A1679E8E0"
+			]
+			id: "2A7954D1A6045440"
+			tasks: [{
+				id: "7EE681DF686F1EFA"
+				type: "item"
+				item: {
+					id: "compactmachines:tunnel"
+					Count: 1b
+					tag: {
+						definition: {
+							id: "compactmachines:redstone_in"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			shape: "square"
+			dependencies: [
+				"1B9AFBFD62DBF237"
+				"3EAB488E2A6BC29A"
+			]
+			id: "6705F141D138C325"
+			tasks: [{
+				id: "36CA26F91CD6AD0C"
+				type: "item"
+				item: "compactcrafting:field_projector"
+				count: 4L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.0d
+			shape: "diamond"
+			description: ["You can trash Items !"]
+			dependencies: ["088D692E25F62BFD"]
+			id: "7E47E2F9A6FF7C47"
+			tasks: [{
+				id: "666BA0045B11885D"
+				type: "item"
+				item: "trashcans:item_trash_can"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.0d
+			shape: "diamond"
+			description: ["You can trash Fluids !"]
+			dependencies: ["088D692E25F62BFD"]
+			id: "6FAD8088FF55A204"
+			tasks: [{
+				id: "27873DDD983E02B6"
+				type: "item"
+				item: "trashcans:liquid_trash_can"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			shape: "diamond"
+			description: ["You can trash Energy !"]
+			dependencies: ["088D692E25F62BFD"]
+			id: "24AA54314A035049"
+			tasks: [{
+				id: "7F7E7ED0644C4A05"
+				type: "item"
+				item: "trashcans:energy_trash_can"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			shape: "diamond"
+			description: ["You can trash everything."]
+			dependencies: [
+				"7E47E2F9A6FF7C47"
+				"6FAD8088FF55A204"
+				"24AA54314A035049"
+			]
+			id: "59F48016581F70E0"
+			tasks: [{
+				id: "5FF52C569C868557"
+				type: "item"
+				item: "trashcans:ultimate_trash_can"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			dependencies: [
+				"3F05D033EBD0710D"
+				"088D692E25F62BFD"
+			]
+			id: "5EE635DB437B6ACE"
+			tasks: [{
+				id: "082AE524E78D37A9"
+				type: "item"
+				item: {
+					id: "charginggadgets:charging_station"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "57FE994E7AEBA966"
+				type: "item"
+				item: "minecraft:coal"
+				count: 8
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			dependencies: [
+				"3F05D033EBD0710D"
+				"088D692E25F62BFD"
+			]
+			id: "6AE7A9622E87841E"
+			tasks: [{
+				id: "7033F3D53C61C88B"
+				type: "item"
+				item: "buildinggadgets:template_manager"
+			}]
+			rewards: [{
+				id: "16D7553282D0BA75"
+				type: "item"
+				item: "minecraft:paper"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -4.0d
+			dependencies: ["793F6D3707268AFB"]
+			id: "6ED11CD6BDBD5ABF"
+			tasks: [{
+				id: "6755443A8EC3DE1A"
+				type: "item"
+				item: {
+					id: "constructionwand:stone_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: -3.0d
+			dependencies: ["3F05D033EBD0710D"]
+			id: "3E26238C4EBD0434"
+			tasks: [{
+				id: "5CAB6E282F8DBE4A"
+				type: "item"
+				item: {
+					id: "constructionwand:iron_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: -2.0d
+			dependencies: ["088D692E25F62BFD"]
+			id: "0BA4B694D58CFBFD"
+			tasks: [{
+				id: "7CE1E33081F85E4B"
+				type: "item"
+				item: {
+					id: "constructionwand:diamond_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: -1.0d
+			dependencies: ["088D692E25F62BFD"]
+			id: "29C488DD8A1CF337"
+			tasks: [{
+				id: "514EC55A2B362E07"
+				type: "item"
+				item: {
+					id: "constructionwand:infinity_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			shape: "gear"
+			description: ["Prevents natural spawning of hostile monsters in a big radius around the torch."]
+			dependencies: ["088D692E25F62BFD"]
+			id: "33D43AA047132058"
+			tasks: [{
+				id: "50242FC327846515"
+				type: "item"
+				item: "torchmaster:megatorch"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			shape: "gear"
+			description: ["Places invisible lights in a radius around the lamp."]
+			dependencies: ["088D692E25F62BFD"]
+			id: "0B95BC9066A3A231"
+			tasks: [{
+				id: "3D9A1468B8738BAE"
+				type: "item"
+				item: "torchmaster:feral_flare_lantern"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			shape: "gear"
+			description: ["Prevents natural spawning of passive animals like squids, bats or ocelots in a big radius around the lamp."]
+			dependencies: ["088D692E25F62BFD"]
+			id: "2B1112222E55E109"
+			tasks: [{
+				id: "5BEC3303B1A67879"
+				type: "item"
+				item: "torchmaster:dreadlamp"
+			}]
+		}
+	]
+}

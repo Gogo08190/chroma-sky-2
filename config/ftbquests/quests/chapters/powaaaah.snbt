@@ -1,0 +1,1916 @@
+{
+	id: "1DF8E3925E40EBA2"
+	group: "7F090E96EFD94B43"
+	order_index: 0
+	filename: "powaaaah"
+	title: "Powaaah !"
+	icon: {
+		id: "powah:battery_nitro"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 16.5d
+			y: -3.5d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: ["4F653ADFAFAF8ABB"]
+			id: "285C1BC5A25DC155"
+			tasks: [{
+				id: "28C68AA04637613A"
+				type: "item"
+				item: "powah:crystal_nitro"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -2.25d
+			shape: "diamond"
+			dependencies: ["285C1BC5A25DC155"]
+			size: 1.5d
+			id: "0E3D24DB02A895C7"
+			tasks: [{
+				id: "6B5CE90A5F1D2DD5"
+				type: "item"
+				item: "powah:capacitor_nitro"
+			}]
+		}
+		{
+			x: 17.0d
+			y: -1.5d
+			shape: "diamond"
+			description: [
+				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
+				""
+				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
+			]
+			dependencies: ["0E3D24DB02A895C7"]
+			id: "61BCF2D3E927ABB7"
+			tasks: [{
+				id: "17917C630E5F8B18"
+				type: "item"
+				item: "powah:ender_cell_nitro"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 0.5d
+			shape: "diamond"
+			description: ["&bThe Thermo Generator &fis a &6800FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			dependencies: ["0E3D24DB02A895C7"]
+			id: "0C735A02F1B9234B"
+			tasks: [{
+				id: "35AE33C0B8616E8E"
+				type: "item"
+				item: "powah:thermo_generator_nitro"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 0.0d
+			shape: "diamond"
+			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			dependencies: ["0E3D24DB02A895C7"]
+			id: "65F721F25FF49B6A"
+			tasks: [{
+				id: "13876230873F3829"
+				type: "item"
+				item: "powah:player_transmitter_nitro"
+			}]
+		}
+		{
+			x: 17.0d
+			y: -0.5d
+			shape: "diamond"
+			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			dependencies: ["0E3D24DB02A895C7"]
+			id: "793763A11F94E992"
+			tasks: [{
+				id: "477249AF18837894"
+				type: "item"
+				item: "powah:furnator_nitro"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -1.0d
+			shape: "diamond"
+			description: ["&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			dependencies: ["0E3D24DB02A895C7"]
+			id: "25F4D9591846BD3C"
+			tasks: [{
+				id: "1089840005DC32B7"
+				type: "item"
+				item: "powah:energy_hopper_nitro"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -1.5d
+			shape: "diamond"
+			description: ["&bThe Energy Cell &fis a block used to &6store energy (FE)&f."]
+			dependencies: ["0E3D24DB02A895C7"]
+			id: "60E61FBF1824B1DD"
+			tasks: [{
+				id: "7356EE9AE3FCEB4B"
+				type: "item"
+				item: "powah:energy_cell_nitro"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -1.0d
+			shape: "diamond"
+			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			dependencies: ["0E3D24DB02A895C7"]
+			id: "7514DA68510DE06E"
+			tasks: [{
+				id: "3D28878970161AE6"
+				type: "item"
+				item: "powah:energy_discharger_nitro"
+			}]
+		}
+		{
+			x: 17.0d
+			y: 0.5d
+			shape: "diamond"
+			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			dependencies: ["0E3D24DB02A895C7"]
+			id: "468850F814BC9037"
+			tasks: [{
+				id: "65478F732C0A2B4C"
+				type: "item"
+				item: "powah:reactor_nitro"
+				count: 36L
+			}]
+		}
+		{
+			x: 15.0d
+			y: -0.5d
+			shape: "diamond"
+			description: [
+				"&bCables &fare used to &6transfer power &fbetween machines."
+				""
+				"You can change &6transfer mode &fof by &6right-clicking &fa cable using &bWrench &fwith Config mode selected."
+			]
+			dependencies: ["0E3D24DB02A895C7"]
+			id: "0E1D74749DDD0A54"
+			tasks: [{
+				id: "2232E53D1B4282F6"
+				type: "item"
+				item: "powah:energy_cable_nitro"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -0.5d
+			shape: "diamond"
+			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			dependencies: ["0E3D24DB02A895C7"]
+			id: "1B39EF68A68E999E"
+			tasks: [{
+				id: "3612E28D526D92EC"
+				type: "item"
+				item: "powah:magmator_nitro"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -1.0d
+			shape: "diamond"
+			description: ["&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			dependencies: ["0E3D24DB02A895C7"]
+			id: "1996967F6BAAA6C9"
+			tasks: [{
+				id: "0022AAB977F930D9"
+				type: "item"
+				item: "powah:solar_panel_nitro"
+			}]
+		}
+		{
+			x: 18.0d
+			y: -0.5d
+			shape: "diamond"
+			description: [
+				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
+				""
+				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
+			]
+			dependencies: ["0E3D24DB02A895C7"]
+			id: "1F2CDA1EFE61E3E1"
+			tasks: [{
+				id: "54F8C6CD8DEC4473"
+				type: "item"
+				item: "powah:ender_gate_nitro"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["0E3D24DB02A895C7"]
+			id: "7C4C2049F7FABF6E"
+			tasks: [{
+				id: "2FA7BEAE91D5895D"
+				type: "item"
+				item: "powah:energizing_rod_nitro"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 0.0d
+			shape: "diamond"
+			description: ["The &bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			dependencies: ["0E3D24DB02A895C7"]
+			id: "7E35FA60568C0C46"
+			tasks: [{
+				id: "587D20D979177DAF"
+				type: "item"
+				item: {
+					id: "powah:battery_nitro"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: -3.5d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: ["4F653ADFAFAF8ABB"]
+			id: "63112023294D3304"
+			tasks: [{
+				id: "5B66AEFA50311CE4"
+				type: "item"
+				item: "powah:crystal_spirited"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.25d
+			shape: "diamond"
+			dependencies: ["63112023294D3304"]
+			size: 1.5d
+			id: "0D8119105447C49D"
+			tasks: [{
+				id: "4F53ACAD58B8FAF1"
+				type: "item"
+				item: "powah:capacitor_spirited"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.5d
+			shape: "diamond"
+			description: ["&bThe Energy Cell &fits a block used to &6store energy (FE)&f."]
+			dependencies: ["0D8119105447C49D"]
+			id: "49102E7021F6BE09"
+			tasks: [{
+				id: "35F09FD77D2FA102"
+				type: "item"
+				item: "powah:energy_cell_spirited"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -1.5d
+			shape: "diamond"
+			description: [
+				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
+				""
+				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
+			]
+			dependencies: ["0D8119105447C49D"]
+			id: "15FB462C98FB4DAF"
+			tasks: [{
+				id: "0B1EEFE3ADABFFB7"
+				type: "item"
+				item: "powah:ender_cell_spirited"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -0.5d
+			shape: "diamond"
+			description: [
+				"&bCables &fare used to &6transfer power &fbetween machines."
+				""
+				"You can change &6transfer mode &fof by &6right-clicking &fa cable using &bWrench &fwith Config mode selected."
+			]
+			dependencies: ["0D8119105447C49D"]
+			id: "3594073246DD9232"
+			tasks: [{
+				id: "74877C1E64BE1ACA"
+				type: "item"
+				item: "powah:energy_cable_spirited"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -0.5d
+			shape: "diamond"
+			description: [
+				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
+				""
+				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
+			]
+			dependencies: ["0D8119105447C49D"]
+			id: "67FD7AF0B9A296EE"
+			tasks: [{
+				id: "28E904B9A61518B6"
+				type: "item"
+				item: "powah:ender_gate_spirited"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["0D8119105447C49D"]
+			id: "2AC7E89637227237"
+			tasks: [{
+				id: "6EBF872C93E722CA"
+				type: "item"
+				item: "powah:energizing_rod_spirited"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -0.5d
+			shape: "diamond"
+			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			dependencies: ["0D8119105447C49D"]
+			id: "21024B42C2C145B8"
+			tasks: [{
+				id: "6FC0A66EF21A3191"
+				type: "item"
+				item: "powah:furnator_spirited"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -0.5d
+			shape: "diamond"
+			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			dependencies: ["0D8119105447C49D"]
+			id: "68FDEF4BC74CD547"
+			tasks: [{
+				id: "5CE671495F552ED4"
+				type: "item"
+				item: "powah:magmator_spirited"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.5d
+			shape: "diamond"
+			description: ["&bThe Thermo Generator &fis a &6200FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			dependencies: ["0D8119105447C49D"]
+			id: "4BE021261B73FC6E"
+			tasks: [{
+				id: "67DF18C07E8BA7B4"
+				type: "item"
+				item: "powah:thermo_generator_spirited"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.0d
+			shape: "diamond"
+			description: ["&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			dependencies: ["0D8119105447C49D"]
+			id: "5C227F57DB77E6F1"
+			tasks: [{
+				id: "5706A38E5C4E09BC"
+				type: "item"
+				item: "powah:solar_panel_spirited"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.5d
+			shape: "diamond"
+			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			dependencies: ["0D8119105447C49D"]
+			id: "4EBA6DF65F76F53D"
+			tasks: [{
+				id: "5748C697B48F5297"
+				type: "item"
+				item: "powah:reactor_spirited"
+				count: 36L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.0d
+			shape: "diamond"
+			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			dependencies: ["0D8119105447C49D"]
+			id: "47AC91803E031490"
+			tasks: [{
+				id: "15043968AEB2FE1B"
+				type: "item"
+				item: "powah:player_transmitter_spirited"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.0d
+			shape: "diamond"
+			description: ["&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			dependencies: ["0D8119105447C49D"]
+			id: "1F385AF36A90D7E8"
+			tasks: [{
+				id: "57DA762C365C5708"
+				type: "item"
+				item: "powah:energy_hopper_spirited"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.0d
+			shape: "diamond"
+			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			dependencies: ["0D8119105447C49D"]
+			id: "2DF5F62E872C9D2E"
+			tasks: [{
+				id: "0F8024C411E096DF"
+				type: "item"
+				item: "powah:energy_discharger_spirited"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			shape: "diamond"
+			description: ["The &bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			dependencies: ["0D8119105447C49D"]
+			id: "4DE8BDF69E22A6E1"
+			tasks: [{
+				id: "4C69850B97E769E4"
+				type: "item"
+				item: {
+					id: "powah:battery_spirited"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			shape: "diamond"
+			description: ["&bThe Energy Cell &fis a block used to &6store energy (FE)&f."]
+			dependencies: ["0B7E73D585F86047"]
+			id: "5E95CF0FBB66D83E"
+			tasks: [{
+				id: "308DA8865004C41A"
+				type: "item"
+				item: "powah:energy_cell_niotic"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			shape: "diamond"
+			description: [
+				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
+				""
+				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
+			]
+			dependencies: ["0B7E73D585F86047"]
+			id: "51B352951B724B6F"
+			tasks: [{
+				id: "7063622AEDC45429"
+				type: "item"
+				item: "powah:ender_cell_niotic"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			shape: "diamond"
+			description: [
+				"&bCables &fare used to &6transfer power &fbetween machines."
+				""
+				"You can change &6transfer mode &fof by &6right-clicking &fa cable using &bWrench &fwith Config mode selected."
+			]
+			dependencies: ["0B7E73D585F86047"]
+			id: "5783E118C6674AB4"
+			tasks: [{
+				id: "34577DEAF31D0D77"
+				type: "item"
+				item: "powah:energy_cable_niotic"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			shape: "diamond"
+			description: [
+				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
+				""
+				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
+			]
+			dependencies: ["0B7E73D585F86047"]
+			id: "0DCCA14ACC837419"
+			tasks: [{
+				id: "43E4E15B7114A565"
+				type: "item"
+				item: "powah:ender_gate_niotic"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["0B7E73D585F86047"]
+			id: "52E99DBB213F398B"
+			tasks: [{
+				id: "4347741BF6B116D9"
+				type: "item"
+				item: "powah:energizing_rod_niotic"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			shape: "diamond"
+			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			dependencies: ["0B7E73D585F86047"]
+			id: "7B6C5CBA8F926BCB"
+			tasks: [{
+				id: "52122986F8683BE5"
+				type: "item"
+				item: "powah:furnator_niotic"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			shape: "diamond"
+			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			dependencies: ["0B7E73D585F86047"]
+			id: "40CC078ECD314326"
+			tasks: [{
+				id: "0735284D6564AF1D"
+				type: "item"
+				item: "powah:magmator_niotic"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			shape: "diamond"
+			description: ["&bThe Thermo Generator &fis a &690FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			dependencies: ["0B7E73D585F86047"]
+			id: "7B28138ACCC3798E"
+			tasks: [{
+				id: "4B8E7BE2AA3A892E"
+				type: "item"
+				item: "powah:thermo_generator_niotic"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			shape: "diamond"
+			description: ["&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			dependencies: ["0B7E73D585F86047"]
+			id: "4E0AB78C973A5D3F"
+			tasks: [{
+				id: "30778DD111AC03C7"
+				type: "item"
+				item: "powah:solar_panel_niotic"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			shape: "diamond"
+			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			dependencies: ["0B7E73D585F86047"]
+			id: "7D219F512DE2CCEB"
+			tasks: [{
+				id: "7F5534406D5DE9E0"
+				type: "item"
+				item: "powah:reactor_niotic"
+				count: 36L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			shape: "diamond"
+			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			dependencies: ["0B7E73D585F86047"]
+			id: "6A0BE7E4775A7871"
+			tasks: [{
+				id: "68DFD4396AFB116E"
+				type: "item"
+				item: "powah:player_transmitter_niotic"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			shape: "diamond"
+			description: ["&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			dependencies: ["0B7E73D585F86047"]
+			id: "21EBBFDE7657F046"
+			tasks: [{
+				id: "249113B6EE468269"
+				type: "item"
+				item: "powah:energy_hopper_niotic"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			shape: "diamond"
+			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			dependencies: ["0B7E73D585F86047"]
+			id: "4F4DBD43A8937937"
+			tasks: [{
+				id: "6A6B17D0FC37FB79"
+				type: "item"
+				item: "powah:energy_discharger_niotic"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			shape: "diamond"
+			description: ["The &bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			dependencies: ["0B7E73D585F86047"]
+			id: "22A55058EB92E930"
+			tasks: [{
+				id: "7DC43A0537DC4755"
+				type: "item"
+				item: {
+					id: "powah:battery_niotic"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.5d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: ["4F653ADFAFAF8ABB"]
+			id: "254D683B153C4582"
+			tasks: [{
+				id: "4C896322C6013683"
+				type: "item"
+				item: "powah:crystal_niotic"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.25d
+			shape: "diamond"
+			dependencies: ["254D683B153C4582"]
+			size: 1.5d
+			id: "0B7E73D585F86047"
+			tasks: [{
+				id: "52873B9D1D168A59"
+				type: "item"
+				item: "powah:capacitor_niotic"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.0d
+			shape: "diamond"
+			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			dependencies: ["0A42B4C681E9D72F"]
+			id: "567B6A9030415189"
+			tasks: [{
+				id: "7B765EE6345AF2C4"
+				type: "item"
+				item: "powah:reactor_blazing"
+				count: 36L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -6.0d
+			shape: "diamond"
+			description: ["&bThe Energy Cell &fis a block used to &6store energy (FE)&f."]
+			dependencies: ["0A42B4C681E9D72F"]
+			id: "2C553105F13E165E"
+			tasks: [{
+				id: "3A7745EB831E07F1"
+				type: "item"
+				item: "powah:energy_cell_blazing"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -6.0d
+			shape: "diamond"
+			description: [
+				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
+				""
+				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
+			]
+			dependencies: ["0A42B4C681E9D72F"]
+			id: "52779B56C02D11D0"
+			tasks: [{
+				id: "58D7371BF19A6C6E"
+				type: "item"
+				item: "powah:ender_cell_blazing"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.0d
+			shape: "diamond"
+			description: [
+				"&bCables &fare used to &6transfer power &fbetween machines."
+				""
+				"You can change &6transfer mode &fof by &6right-clicking &fa cable using &bWrench &fwith Config mode selected."
+			]
+			dependencies: ["0A42B4C681E9D72F"]
+			id: "29CC371CC8DE7BCA"
+			tasks: [{
+				id: "25FC62E29006E833"
+				type: "item"
+				item: "powah:energy_cable_blazing"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -5.0d
+			shape: "diamond"
+			description: [
+				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
+				""
+				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
+			]
+			dependencies: ["0A42B4C681E9D72F"]
+			id: "6AFADA1538648B24"
+			tasks: [{
+				id: "6563ECB983DA7FD7"
+				type: "item"
+				item: "powah:ender_gate_blazing"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.5d
+			shape: "diamond"
+			dependencies: ["0A42B4C681E9D72F"]
+			id: "2BAD35D96DB76BC0"
+			tasks: [{
+				id: "290F771205C4D7B6"
+				type: "item"
+				item: "powah:energizing_rod_blazing"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -5.0d
+			shape: "diamond"
+			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			dependencies: ["0A42B4C681E9D72F"]
+			id: "656DF0D5540D4302"
+			tasks: [{
+				id: "5CB318387D9055F0"
+				type: "item"
+				item: "powah:furnator_blazing"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -5.0d
+			shape: "diamond"
+			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			dependencies: ["0A42B4C681E9D72F"]
+			id: "12C0DE643A09B665"
+			tasks: [{
+				id: "0D8DD15C093E059E"
+				type: "item"
+				item: "powah:magmator_blazing"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.0d
+			shape: "diamond"
+			description: ["&bThe Thermo Generator &fis a &642FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			dependencies: ["0A42B4C681E9D72F"]
+			id: "19B48C1ACCB70A25"
+			tasks: [{
+				id: "0D5437125575C64F"
+				type: "item"
+				item: "powah:thermo_generator_blazing"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.5d
+			shape: "diamond"
+			description: ["&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			dependencies: ["0A42B4C681E9D72F"]
+			id: "5FDB44458CB44680"
+			tasks: [{
+				id: "5295C2A9D42BE1BB"
+				type: "item"
+				item: "powah:solar_panel_blazing"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -4.5d
+			shape: "diamond"
+			description: ["The &bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			dependencies: ["0A42B4C681E9D72F"]
+			id: "2832B9A6E1DDFE6E"
+			tasks: [{
+				id: "65902B5FF5B241FA"
+				type: "item"
+				item: {
+					id: "powah:battery_blazing"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.5d
+			shape: "diamond"
+			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			dependencies: ["0A42B4C681E9D72F"]
+			id: "2F3BF0AFD6BDCEDF"
+			tasks: [{
+				id: "64C2556348165A7D"
+				type: "item"
+				item: "powah:player_transmitter_blazing"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -5.5d
+			shape: "diamond"
+			description: ["&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			dependencies: ["0A42B4C681E9D72F"]
+			id: "12162E885FAAA002"
+			tasks: [{
+				id: "0A95B61EE0BDF909"
+				type: "item"
+				item: "powah:energy_hopper_blazing"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -5.5d
+			shape: "diamond"
+			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			dependencies: ["0A42B4C681E9D72F"]
+			id: "229E263360CA27F7"
+			tasks: [{
+				id: "23A838E40C688634"
+				type: "item"
+				item: "powah:energy_discharger_blazing"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -8.0d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: ["4F653ADFAFAF8ABB"]
+			id: "57DBDBDE8D06C2AF"
+			tasks: [{
+				id: "71351D9638199A82"
+				type: "item"
+				item: "powah:crystal_blazing"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -6.75d
+			shape: "diamond"
+			dependencies: ["57DBDBDE8D06C2AF"]
+			size: 1.5d
+			id: "0A42B4C681E9D72F"
+			tasks: [{
+				id: "3B395051501ABC22"
+				type: "item"
+				item: "powah:capacitor_blazing"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -8.0d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: ["4F653ADFAFAF8ABB"]
+			id: "71E4BB753498AB6B"
+			tasks: [{
+				id: "2A49C1AAB83E33DF"
+				type: "item"
+				item: "powah:steel_energized"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -6.75d
+			shape: "diamond"
+			dependencies: ["71E4BB753498AB6B"]
+			size: 1.5d
+			id: "770CF5AB3E997837"
+			tasks: [{
+				id: "117595A68BB70B0A"
+				type: "item"
+				item: "powah:capacitor_hardened"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -6.0d
+			shape: "diamond"
+			description: ["&bThe Energy Cell &fis a block used to &6store energy (FE)&f."]
+			dependencies: ["770CF5AB3E997837"]
+			id: "2F459D145C710BC5"
+			tasks: [{
+				id: "59880ED6A66F0D02"
+				type: "item"
+				item: "powah:energy_cell_hardened"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -6.0d
+			shape: "diamond"
+			description: [
+				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
+				""
+				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
+			]
+			dependencies: ["770CF5AB3E997837"]
+			id: "720C76E68E74C94B"
+			tasks: [{
+				id: "19ED203B2C12BD3C"
+				type: "item"
+				item: "powah:ender_cell_hardened"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -5.0d
+			shape: "diamond"
+			description: [
+				"&bCables &fare used to &6transfer power &fbetween machines."
+				""
+				"You can change &6transfer mode &fof by &6right-clicking &fa cable using &bWrench &fwith Config mode selected."
+			]
+			dependencies: ["770CF5AB3E997837"]
+			id: "64D5A5F3617AC469"
+			tasks: [{
+				id: "644FA1BE8433788C"
+				type: "item"
+				item: "powah:energy_cable_hardened"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -5.0d
+			shape: "diamond"
+			description: [
+				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
+				""
+				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
+			]
+			dependencies: ["770CF5AB3E997837"]
+			id: "379EB47D75413F2F"
+			tasks: [{
+				id: "225508D66AD265DC"
+				type: "item"
+				item: "powah:ender_gate_hardened"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -4.5d
+			shape: "diamond"
+			dependencies: ["770CF5AB3E997837"]
+			id: "3D0E78465F82E17C"
+			tasks: [{
+				id: "3269BE200DCB963F"
+				type: "item"
+				item: "powah:energizing_rod_hardened"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -5.0d
+			shape: "diamond"
+			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			dependencies: ["770CF5AB3E997837"]
+			id: "690A299F7992BD66"
+			tasks: [{
+				id: "4628765D3B610B54"
+				type: "item"
+				item: "powah:furnator_hardened"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -5.0d
+			shape: "diamond"
+			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			dependencies: ["770CF5AB3E997837"]
+			id: "2B5532A22B3B7846"
+			tasks: [{
+				id: "3B65F7B1D7E3DBB7"
+				type: "item"
+				item: "powah:magmator_hardened"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -4.0d
+			shape: "diamond"
+			description: ["&bThe Thermo Generator &fis a &618FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			dependencies: ["770CF5AB3E997837"]
+			id: "262D18C51054176B"
+			tasks: [{
+				id: "3CAC780CA3037C79"
+				type: "item"
+				item: "powah:thermo_generator_hardened"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -5.5d
+			shape: "diamond"
+			description: ["&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			dependencies: ["770CF5AB3E997837"]
+			id: "2E0DB02AA0F19B29"
+			tasks: [{
+				id: "2AD08E96C64CC8F7"
+				type: "item"
+				item: "powah:solar_panel_hardened"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -4.0d
+			shape: "diamond"
+			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			dependencies: ["770CF5AB3E997837"]
+			id: "331F8049400EABBC"
+			tasks: [{
+				id: "2CF5A5CDFF2B1454"
+				type: "item"
+				item: "powah:reactor_hardened"
+				count: 36L
+			}]
+		}
+		{
+			x: 14.5d
+			y: -4.5d
+			shape: "diamond"
+			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			dependencies: ["770CF5AB3E997837"]
+			id: "5E9A3E4DFF5A6B81"
+			tasks: [{
+				id: "5C48A3DAE54CC5C3"
+				type: "item"
+				item: "powah:player_transmitter_hardened"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -5.5d
+			shape: "diamond"
+			description: ["&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			dependencies: ["770CF5AB3E997837"]
+			id: "625AAD771D33A007"
+			tasks: [{
+				id: "667DF6900973D4EB"
+				type: "item"
+				item: "powah:energy_hopper_hardened"
+			}]
+			rewards: [{
+				id: "484F9ADFB4510CB7"
+				type: "random"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -4.5d
+			shape: "diamond"
+			description: ["The &bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			dependencies: ["770CF5AB3E997837"]
+			id: "5C74898D6E1D5539"
+			tasks: [{
+				id: "7FA692115DEE0FE9"
+				type: "item"
+				item: {
+					id: "powah:battery_hardened"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: -5.5d
+			shape: "diamond"
+			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			dependencies: ["770CF5AB3E997837"]
+			id: "6361ED7007A6E846"
+			tasks: [{
+				id: "2EEBB77185C253D6"
+				type: "item"
+				item: "powah:energy_discharger_hardened"
+			}]
+		}
+		{
+			x: 10.450000000000001d
+			y: -9.5d
+			shape: "diamond"
+			description: [
+				"&bThe Energizing Orb &fis a block used to energize items, require at least one &6Energizing Rod &fin range of 9X9 to work the energizing speed depends on amount of rods and the rod tier (I/O rate)."
+				""
+				"The orb does not require energy but the rods must be placed on cables or any &6Forge Energy (FE) &fblock to work."
+			]
+			dependencies: ["79B4D111A5BC35BA"]
+			size: 1.9d
+			id: "4F653ADFAFAF8ABB"
+			tasks: [{
+				id: "158C7171D8E7C8A3"
+				type: "item"
+				item: "powah:energizing_orb"
+			}]
+		}
+		{
+			x: 10.450000000000001d
+			y: -11.55d
+			shape: "diamond"
+			dependencies: [
+				"604B00E2A032DB53"
+				"76B3F0738BEBD4E9"
+				"288DBA416FE2AA3C"
+				"47A4D81697C274A3"
+				"39DB67EE674F41A4"
+			]
+			size: 1.1d
+			id: "79B4D111A5BC35BA"
+			tasks: [{
+				id: "6C7B4BFC710D9148"
+				type: "item"
+				item: "powah:dielectric_casing"
+			}]
+		}
+		{
+			x: 9.9d
+			y: -12.1d
+			shape: "diamond"
+			dependencies: ["6B1C6D60AA41FC32"]
+			size: 1.1d
+			id: "604B00E2A032DB53"
+			tasks: [{
+				id: "5198B3135D4E588C"
+				type: "item"
+				item: "powah:dielectric_rod"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -12.1d
+			shape: "diamond"
+			dependencies: ["6B1C6D60AA41FC32"]
+			size: 1.1d
+			id: "76B3F0738BEBD4E9"
+			tasks: [{
+				id: "373D93FCBD1E8291"
+				type: "item"
+				item: "powah:dielectric_rod_horizontal"
+			}]
+		}
+		{
+			x: 10.450000000000001d
+			y: -13.3d
+			shape: "diamond"
+			dependencies: ["0990C82D9CE73CAF"]
+			size: 1.9d
+			id: "6B1C6D60AA41FC32"
+			tasks: [{
+				id: "6A0235819F06D7BE"
+				type: "item"
+				item: "powah:dielectric_paste"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -12.0d
+			shape: "diamond"
+			description: ["&bThe Energy Cell &fis a block used to &6store energy (FE)&f."]
+			dependencies: ["3F769CAECB47AD5E"]
+			id: "3BD5E18D8BEE6E8B"
+			tasks: [{
+				id: "3FE2296F64314C61"
+				type: "item"
+				item: "powah:energy_cell_starter"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -12.0d
+			shape: "diamond"
+			description: [
+				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
+				""
+				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
+			]
+			dependencies: ["3F769CAECB47AD5E"]
+			id: "316B87C6CE78537C"
+			tasks: [{
+				id: "4375709B2950B591"
+				type: "item"
+				item: "powah:ender_cell_starter"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -11.0d
+			shape: "diamond"
+			description: [
+				"&bCables &fare used to &6transfer power &fbetween machines."
+				""
+				"You can change &6transfer mode &fof by &6right-clicking &fa cable using &bWrench &fwith Config mode selected."
+			]
+			dependencies: ["3F769CAECB47AD5E"]
+			id: "1FEC1980227E337C"
+			tasks: [{
+				id: "09F9716615E0CBBE"
+				type: "item"
+				item: "powah:energy_cable_starter"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -11.0d
+			shape: "diamond"
+			description: [
+				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
+				""
+				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
+			]
+			dependencies: ["3F769CAECB47AD5E"]
+			id: "0E1196A46A6B8C55"
+			tasks: [{
+				id: "5B14A35147EBCA6D"
+				type: "item"
+				item: "powah:ender_gate_starter"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -10.5d
+			shape: "diamond"
+			dependencies: ["3F769CAECB47AD5E"]
+			id: "62758CBBB8D5906E"
+			tasks: [{
+				id: "041E37E486A75DC0"
+				type: "item"
+				item: "powah:energizing_rod_starter"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -11.0d
+			shape: "diamond"
+			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			dependencies: ["3F769CAECB47AD5E"]
+			id: "49FB94DEAE2C8852"
+			tasks: [{
+				id: "32EB8931399C06E7"
+				type: "item"
+				item: "powah:furnator_starter"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -10.0d
+			shape: "diamond"
+			description: ["&bThe Thermo Generator &fis a &63FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			dependencies: ["3F769CAECB47AD5E"]
+			id: "2C2C120858F87BEE"
+			tasks: [{
+				id: "7FCAC2B58AC10F8F"
+				type: "item"
+				item: "powah:thermo_generator_starter"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -11.0d
+			shape: "diamond"
+			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			dependencies: ["3F769CAECB47AD5E"]
+			id: "150759BA2EFB95E4"
+			tasks: [{
+				id: "59DD9E197A5E015E"
+				type: "item"
+				item: "powah:magmator_starter"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -11.5d
+			shape: "diamond"
+			description: ["&bThe Solar Panel &fis a &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			dependencies: ["3F769CAECB47AD5E"]
+			id: "36F8633A912BB13C"
+			tasks: [{
+				id: "33E82C4351ABDF87"
+				type: "item"
+				item: "powah:solar_panel_starter"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -10.0d
+			shape: "diamond"
+			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			dependencies: ["3F769CAECB47AD5E"]
+			id: "4C58D006BCCC23F2"
+			tasks: [{
+				id: "76539D650967E880"
+				type: "item"
+				item: "powah:reactor_starter"
+				count: 36L
+			}]
+		}
+		{
+			x: 16.0d
+			y: -10.5d
+			shape: "diamond"
+			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			dependencies: ["3F769CAECB47AD5E"]
+			id: "23521AEE210883F4"
+			tasks: [{
+				id: "29B8FAC4799BC108"
+				type: "item"
+				item: "powah:player_transmitter_starter"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -11.5d
+			shape: "diamond"
+			description: ["&bThe Energy Hopper &fis a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			dependencies: ["3F769CAECB47AD5E"]
+			id: "7585BEC961C8A9DC"
+			tasks: [{
+				id: "592E606A3C3A51F8"
+				type: "item"
+				item: "powah:energy_hopper_starter"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -11.5d
+			shape: "diamond"
+			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			dependencies: ["3F769CAECB47AD5E"]
+			id: "66B7AEA8F79D9C20"
+			tasks: [{
+				id: "0ED6591471DCFCA8"
+				type: "item"
+				item: "powah:energy_discharger_starter"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -10.5d
+			shape: "diamond"
+			description: ["The &bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			dependencies: ["3F769CAECB47AD5E"]
+			id: "1A872B4EA72C7D99"
+			tasks: [{
+				id: "5CDF5FCF93827B9C"
+				type: "item"
+				item: {
+					id: "powah:battery_starter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: -12.75d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["24D6425171F874D0"]
+			size: 1.5d
+			id: "3F769CAECB47AD5E"
+			tasks: [{
+				id: "2406C2814B99FF4E"
+				type: "item"
+				item: "powah:capacitor_basic_tiny"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -12.0d
+			shape: "diamond"
+			description: ["&bThe Energy Cell &fis a block used to &6store energy (FE)&f."]
+			dependencies: ["24D6425171F874D0"]
+			id: "40C459C194730631"
+			tasks: [{
+				id: "60133EADFCD09B5B"
+				type: "item"
+				item: "powah:energy_cell_basic"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -12.0d
+			shape: "diamond"
+			description: [
+				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
+				""
+				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
+			]
+			dependencies: ["24D6425171F874D0"]
+			id: "5CD43E5807FCDE6C"
+			tasks: [{
+				id: "4067A8AC59921454"
+				type: "item"
+				item: "powah:ender_cell_basic"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -11.0d
+			shape: "diamond"
+			description: [
+				"&bCables &fare used to &6transfer power &fbetween machines."
+				""
+				"You can change &6transfer mode &fof by &6right-clicking &fa cable using &bWrench &fwith Config mode selected."
+			]
+			dependencies: ["24D6425171F874D0"]
+			id: "27C412ECFFF2775D"
+			tasks: [{
+				id: "3502C8B3767C01F1"
+				type: "item"
+				item: "powah:energy_cable_basic"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -11.0d
+			shape: "diamond"
+			description: [
+				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
+				""
+				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
+			]
+			dependencies: ["24D6425171F874D0"]
+			id: "4B4BB05A570DA6AB"
+			tasks: [{
+				id: "1158A00E2DDA99FA"
+				type: "item"
+				item: "powah:ender_gate_basic"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -10.5d
+			shape: "diamond"
+			dependencies: ["24D6425171F874D0"]
+			id: "10C16FAF874B6E23"
+			tasks: [{
+				id: "3F198E6D48199D48"
+				type: "item"
+				item: "powah:energizing_rod_basic"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -11.0d
+			shape: "diamond"
+			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			dependencies: ["24D6425171F874D0"]
+			id: "6A3D3782F3FC361E"
+			tasks: [{
+				id: "6FBC961C2B471012"
+				type: "item"
+				item: "powah:furnator_basic"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -11.0d
+			shape: "diamond"
+			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			dependencies: ["24D6425171F874D0"]
+			id: "30E173AD2389FCD0"
+			tasks: [{
+				id: "42A2F80DB26404F7"
+				type: "item"
+				item: "powah:magmator_basic"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -10.0d
+			shape: "diamond"
+			description: ["&bThe Thermo Generator &fis a &68FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			dependencies: ["24D6425171F874D0"]
+			id: "595A92180145FC7A"
+			tasks: [{
+				id: "370CF63DC5CAB56A"
+				type: "item"
+				item: "powah:thermo_generator_basic"
+			}]
+			rewards: [{
+				id: "60D901A32ED14693"
+				type: "random"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -11.5d
+			shape: "diamond"
+			description: ["&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			dependencies: ["24D6425171F874D0"]
+			id: "2B38CDC288333503"
+			tasks: [{
+				id: "55A11E8D68BAE30D"
+				type: "item"
+				item: "powah:solar_panel_basic"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -10.0d
+			shape: "diamond"
+			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			dependencies: ["24D6425171F874D0"]
+			id: "014D5EDAEBF1874C"
+			tasks: [{
+				id: "3CEEF67EF5D40A49"
+				type: "item"
+				item: "powah:reactor_basic"
+				count: 36L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -10.5d
+			shape: "diamond"
+			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			dependencies: ["24D6425171F874D0"]
+			id: "1CA4C40C697B350F"
+			tasks: [{
+				id: "33DE3741660891B9"
+				type: "item"
+				item: "powah:player_transmitter_basic"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -11.5d
+			shape: "diamond"
+			description: ["&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			dependencies: ["24D6425171F874D0"]
+			id: "23B3FD3F1D619ADC"
+			tasks: [{
+				id: "748B414A40543A2B"
+				type: "item"
+				item: "powah:energy_hopper_basic"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -11.5d
+			shape: "diamond"
+			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			dependencies: ["24D6425171F874D0"]
+			id: "49A2E36997C5D522"
+			tasks: [{
+				id: "3C996D78C11833AF"
+				type: "item"
+				item: "powah:energy_discharger_basic"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -12.75d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["6B1C6D60AA41FC32"]
+			size: 1.5d
+			id: "24D6425171F874D0"
+			tasks: [{
+				id: "6C51BD463D4224F9"
+				type: "item"
+				item: "powah:capacitor_basic"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -10.5d
+			shape: "diamond"
+			description: [
+				""
+				"&bBattery &fcharge items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."
+			]
+			dependencies: ["24D6425171F874D0"]
+			id: "1126289F882E697D"
+			tasks: [{
+				id: "788D48F7F87EEBE5"
+				type: "item"
+				item: {
+					id: "powah:battery_basic"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 9.9d
+			y: -8.25d
+			shape: "diamond"
+			description: ["Throwing a &bCharged Snowball &fwill cause a &6bolt of lightning &fto spawn when hitting the ground or when it hits the mod, obtained by energizing a snowball."]
+			dependencies: ["4F653ADFAFAF8ABB"]
+			size: 1.1d
+			id: "73F3EDBEA043AFB0"
+			tasks: [{
+				id: "64A6BBDB9715307D"
+				type: "item"
+				item: "powah:charged_snowball"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -8.25d
+			shape: "diamond"
+			dependencies: ["4F653ADFAFAF8ABB"]
+			size: 1.1d
+			id: "48FFDA6E308FEBC7"
+			tasks: [{
+				id: "63CD2B337AF48E99"
+				type: "item"
+				item: "powah:dry_ice"
+			}]
+		}
+		{
+			x: 10.450000000000001d
+			y: -7.7d
+			shape: "diamond"
+			dependencies: ["4F653ADFAFAF8ABB"]
+			size: 1.1d
+			id: "4F49664319D58211"
+			tasks: [{
+				id: "5EF6209262724267"
+				type: "item"
+				item: "powah:ender_core"
+			}]
+		}
+		{
+			x: 11.55d
+			y: -13.75d
+			shape: "diamond"
+			dependencies: ["18B11493A91AF0F9"]
+			size: 1.1d
+			id: "2EC229BC84ECDD76"
+			tasks: [{
+				id: "50072E86C8642BC5"
+				type: "item"
+				item: "powah:uraninite"
+			}]
+		}
+		{
+			x: 9.35d
+			y: -13.75d
+			shape: "diamond"
+			description: [
+				"&bThe Wrench &fas 3 modes :"
+				""
+				"&6Config Mode&f: used to change cables I/O configuration."
+				""
+				"&6Link Mode&f: used to link linkable blocks like energizing orb and rods."
+				""
+				"&6Rotate Mode&f: used to rotate blocks horizontally."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6B1C6D60AA41FC32"]
+			size: 1.1d
+			id: "29B3DC96FA0FAC49"
+			tasks: [{
+				id: "5A1CCF771BBF4B0E"
+				type: "item"
+				item: {
+					id: "powah:wrench"
+					Count: 1b
+					tag: {
+						PowahWrenchNBT: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 16.5d
+			y: -8.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"604B00E2A032DB53"
+				"76B3F0738BEBD4E9"
+			]
+			id: "2C00C50CA15DD756"
+			tasks: [{
+				id: "605DD5D235179DA1"
+				type: "item"
+				item: "powah:blank_card"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -8.5d
+			shape: "hexagon"
+			description: [
+				"The &bBinding Card &f is used to &6link a player &fwith a &6Player Transmitter &fin the &6same dimension&f."
+				""
+				"You need to link it with you before addind it to the player transmitter. &6Right-click &fit to bind."
+			]
+			dependencies: ["2C00C50CA15DD756"]
+			id: "0E8BDDC1BACAB461"
+			tasks: [{
+				id: "358A7DC889DED3C2"
+				type: "item"
+				item: "powah:binding_card"
+			}]
+		}
+		{
+			x: 18.5d
+			y: -8.5d
+			shape: "hexagon"
+			description: [
+				"The &bDimensional Bind Card &f is used to link a &6player &fwith a &6Player Transmitter across dimensions&f."
+				""
+				"You need to link it with you before addind it to the player transmitter. &6Right-click &fit to bind."
+			]
+			dependencies: ["0E8BDDC1BACAB461"]
+			id: "499A20382CC524F5"
+			tasks: [{
+				id: "45D4466651BDA59D"
+				type: "item"
+				item: "powah:binding_card_dim"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -7.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["6B1C6D60AA41FC32"]
+			id: "593C7B0B7FDF55EC"
+			tasks: [{
+				id: "44EAFED09394972B"
+				type: "item"
+				item: "powah:photoelectric_pane"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -7.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["593C7B0B7FDF55EC"]
+			id: "0EF690102AE89443"
+			tasks: [{
+				id: "598E16EFA9EE007C"
+				type: "item"
+				item: "powah:lens_of_ender"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -8.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["6B1C6D60AA41FC32"]
+			id: "679EEA8ED654D878"
+			tasks: [{
+				id: "56D61761ADA28CF3"
+				type: "item"
+				item: "powah:aerial_pearl"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -8.5d
+			shape: "hexagon"
+			description: [
+				"&bPlayer Aerial Pearl &fis used to craft the &6player transmitter&f."
+				""
+				"You can get it by &6using &fan &bAerial Pearl &fon a &6Zombie &for &6Husk&f."
+			]
+			dependencies: ["679EEA8ED654D878"]
+			id: "081A0799AB8AAF1D"
+			tasks: [{
+				id: "494DB9CC4176688F"
+				type: "item"
+				item: "powah:player_aerial_pearl"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -8.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"3F769CAECB47AD5E"
+				"321AFD3A1679E8E0"
+			]
+			id: "3F81193186747062"
+			tasks: [{
+				id: "115091A14DA9F020"
+				type: "item"
+				item: "powah:thermoelectric_plate"
+			}]
+		}
+		{
+			x: 9.9d
+			y: -14.3d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["6B1C6D60AA41FC32"]
+			size: 1.1d
+			id: "0296D34F87906607"
+			tasks: [{
+				id: "0F96D7D99B396B06"
+				type: "item"
+				item: "powah:book"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -6.0d
+			shape: "gear"
+			hide_dependency_lines: true
+			dependencies: [
+				"4F653ADFAFAF8ABB"
+				"285C1BC5A25DC155"
+			]
+			size: 2.0d
+			id: "1BF9C8439A0AAE86"
+			tasks: [{
+				id: "1ACBBFC48C196CF8"
+				type: "item"
+				item: "chromasky:mechanic_core_tier_4"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -14.3d
+			shape: "diamond"
+			description: ["Can be obtained with sluices."]
+			dependencies: ["5457F53E1DBA6A03"]
+			size: 1.1d
+			id: "18B11493A91AF0F9"
+			tasks: [{
+				id: "0E0EAAEA2AE0A839"
+				type: "item"
+				title: "Raw Uraninite"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:uraninite_raw_poor"
+								Count: 1b
+							}
+							{
+								id: "powah:uraninite_raw"
+								Count: 1b
+							}
+							{
+								id: "powah:uraninite_raw_dense"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+	]
+}

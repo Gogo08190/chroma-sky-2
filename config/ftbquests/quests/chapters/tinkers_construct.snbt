@@ -8,7 +8,7 @@
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
 	images: [{
-		x: 7.5d
+		x: 8.5d
 		y: -2.5d
 		width: 7.0d
 		height: 7.0d
@@ -393,7 +393,7 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: 10.0d
 			y: -4.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -823,7 +823,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 7.0d
 			y: -4.0d
 			hide_dependency_lines: true
 			dependencies: ["2665C893012A391D"]
@@ -856,7 +856,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 7.0d
 			y: -3.0d
 			hide_dependency_lines: true
 			dependencies: ["2665C893012A391D"]
@@ -889,7 +889,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 7.0d
 			y: -2.0d
 			hide_dependency_lines: true
 			dependencies: ["2665C893012A391D"]
@@ -922,7 +922,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 7.0d
 			y: -1.0d
 			hide_dependency_lines: true
 			dependencies: ["2665C893012A391D"]
@@ -955,7 +955,7 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 8.5d
 			y: -4.0d
 			dependencies: ["088D692E25F62BFD"]
 			id: "600DE6B0FCE3718F"
@@ -985,7 +985,7 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 8.5d
 			y: -3.0d
 			dependencies: ["088D692E25F62BFD"]
 			id: "6934D15444A49430"
@@ -1015,7 +1015,7 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 8.5d
 			y: -2.0d
 			dependencies: ["088D692E25F62BFD"]
 			id: "27927631C7B8C6A8"
@@ -1045,7 +1045,7 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 8.5d
 			y: -1.0d
 			dependencies: ["088D692E25F62BFD"]
 			id: "32452C25895EC660"
@@ -1075,7 +1075,7 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: 10.0d
 			y: -3.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1115,7 +1115,7 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: 10.0d
 			y: -2.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1161,7 +1161,7 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: 10.0d
 			y: -1.0d
 			hide_dependency_lines: true
 			dependencies: [

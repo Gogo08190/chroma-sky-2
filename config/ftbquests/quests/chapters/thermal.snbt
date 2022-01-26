@@ -1,0 +1,1317 @@
+{
+	id: "255D970D31FD0A92"
+	group: "258B5ED587988A28"
+	order_index: 1
+	filename: "thermal"
+	title: "Thermal"
+	icon: "thermal:upgrade_augment_3"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 18.0d
+			y: -1.0d
+			shape: "octagon"
+			dependencies: [
+				"07922BF1DC0DB8FE"
+				"39DB67EE674F41A4"
+			]
+			size: 2.0d
+			id: "1B9AFBFD62DBF237"
+			tasks: [{
+				id: "74B617CA70A33947"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: [
+				"505915AA1C542C01"
+				"5D4D5257E78D1C9F"
+			]
+			id: "4B0C1635173D4F83"
+			tasks: [{
+				id: "38FB8FFD2B206D31"
+				type: "item"
+				item: "thermal:energy_cell_frame"
+			}]
+		}
+		{
+			x: 18.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: [
+				"106B89A7A018AD2D"
+				"5D4D5257E78D1C9F"
+			]
+			id: "7AB130E291E1B139"
+			tasks: [{
+				id: "1EB7FB318E0D9BB9"
+				type: "item"
+				item: "thermal:fluid_cell_frame"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 2.5d
+			subtitle: "Charging Items"
+			description: ["Charges items with Forge Energy. Items can be inserted and removed with automation"]
+			hide_dependency_lines: true
+			dependencies: [
+				"500CE4634E4CAA6E"
+				"505915AA1C542C01"
+			]
+			id: "18739251EDCFBAEC"
+			tasks: [{
+				id: "6C29C78C9511A1D7"
+				type: "item"
+				item: "thermal:charge_bench"
+			}]
+		}
+		{
+			x: 17.0d
+			y: 1.5d
+			subtitle: "Manage Forge Energy"
+			description: ["Stores and Transfers Forge Energy."]
+			dependencies: [
+				"4B0C1635173D4F83"
+				"500CE4634E4CAA6E"
+			]
+			id: "0B283B25F2FC6125"
+			tasks: [{
+				id: "71AE5576A5C1ECC2"
+				type: "item"
+				item: {
+					id: "thermal:energy_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							EnergyMax: 1000000
+							EnergySend: 1000
+							Energy: 0
+							EnergyRecv: 1000
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 19.0d
+			y: 1.5d
+			subtitle: "Manage Fluids"
+			description: ["Stores and Transfers Fluids. "]
+			dependencies: [
+				"7AB130E291E1B139"
+				"3EAB488E2A6BC29A"
+			]
+			id: "3C62655829B7BE37"
+			tasks: [{
+				id: "58A61FF1B5D20D71"
+				type: "item"
+				item: {
+					id: "thermal:fluid_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								FluidName: "minecraft:empty"
+								Capacity: 32000
+								Tank: 0b
+								Amount: 0
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 17.0d
+			y: 4.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["3EAB488E2A6BC29A"]
+			id: "16E214339B066D03"
+			tasks: [{
+				id: "505B415F0E6325FB"
+				type: "item"
+				item: "thermal:device_hive_extractor"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 4.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"3EAB488E2A6BC29A"
+				"5E1F9A6B1FEB5289"
+			]
+			id: "60DE2C5FC7E28DE8"
+			tasks: [{
+				id: "569D90883DEC932F"
+				type: "item"
+				item: "thermal:device_tree_extractor"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 5.0d
+			shape: "hexagon"
+			dependencies: ["60DE2C5FC7E28DE8"]
+			id: "37137EA871884B78"
+			tasks: [{
+				id: "5DBFFA7B70CA4335"
+				type: "item"
+				item: "thermal:latex_bucket"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 6.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"500CE4634E4CAA6E"
+				"1B9AFBFD62DBF237"
+			]
+			id: "184243748F0454AD"
+			tasks: [{
+				id: "5CABE2FFB9B6E2A8"
+				type: "item"
+				item: "thermal:machine_refinery"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 4.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["3EAB488E2A6BC29A"]
+			id: "5E9BCCC8CE990A6B"
+			tasks: [{
+				id: "0F7D91FFE4949FAB"
+				type: "item"
+				item: "thermal:device_fisher"
+			}]
+		}
+		{
+			x: 19.0d
+			y: 4.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["500CE4634E4CAA6E"]
+			id: "554DE93FF97BC96E"
+			tasks: [{
+				id: "43F3F0FE93F5731C"
+				type: "item"
+				item: "thermal:device_soil_infuser"
+			}]
+		}
+		{
+			x: 20.0d
+			y: 4.0d
+			shape: "square"
+			description: ["Provides copius amounts of water. Requires adjacent water sources to function."]
+			hide_dependency_lines: true
+			dependencies: ["3EAB488E2A6BC29A"]
+			id: "7C33AAACA8411A4B"
+			tasks: [{
+				id: "52E01CE98B424908"
+				type: "item"
+				item: "thermal:device_water_gen"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 4.0d
+			shape: "diamond"
+			subtitle: "Stone Generation"
+			description: ["Generates various types of stone. Requires an adjacent lava source and cooling (Water). The block beneath may also affect the product."]
+			hide_dependency_lines: true
+			dependencies: ["3EAB488E2A6BC29A"]
+			id: "2A1FEF7C9253725B"
+			tasks: [{
+				id: "3EAA2FEDFCB843A0"
+				type: "item"
+				item: "thermal:device_rock_gen"
+			}]
+		}
+		{
+			x: 21.0d
+			y: 3.5d
+			shape: "diamond"
+			subtitle: "Vacuum Hopper"
+			description: ["Picks up things from a nearby area"]
+			hide_dependency_lines: true
+			dependencies: ["3EAB488E2A6BC29A"]
+			id: "2FF88D89866CFBA1"
+			tasks: [{
+				id: "00E9E878702659ED"
+				type: "item"
+				item: "thermal:device_collector"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 3.5d
+			shape: "diamond"
+			subtitle: "Trash Can "
+			description: ["Destroy anything placed to it. Items and fluid inserted with automation are destroyed instantly"]
+			hide_dependency_lines: true
+			dependencies: ["3EAB488E2A6BC29A"]
+			id: "0CEE56E095598C07"
+			tasks: [{
+				id: "175C8E49BD0F9E81"
+				type: "item"
+				item: "thermal:device_nullifier"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 4.0d
+			shape: "diamond"
+			subtitle: "Potions Splasher"
+			description: ["Spreads potions within the nearby area. Use reageants to boost effectiveness."]
+			hide_dependency_lines: true
+			dependencies: ["3EAB488E2A6BC29A"]
+			id: "64989468F6F01743"
+			tasks: [{
+				id: "201F4152BCE7DB92"
+				type: "item"
+				item: "thermal:device_potion_diffuser"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 0.5d
+			dependencies: [
+				"505915AA1C542C01"
+				"0C279BF8A1B67396"
+				"321AFD3A1679E8E0"
+			]
+			id: "500CE4634E4CAA6E"
+			tasks: [{
+				id: "1CF4C14318054BC4"
+				type: "item"
+				item: "thermal:rf_coil"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 0.5d
+			dependencies: [
+				"47A4D81697C274A3"
+				"321AFD3A1679E8E0"
+			]
+			id: "3EAB488E2A6BC29A"
+			tasks: [{
+				id: "0570C52EE8D0D36B"
+				type: "item"
+				item: "thermal:redstone_servo"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 6.0d
+			shape: "rsquare"
+			subtitle: "Good Furnace"
+			description: ["Smelts things using FE. Uses very little energy to cook food."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1B9AFBFD62DBF237"
+				"500CE4634E4CAA6E"
+			]
+			id: "33923073EC0F66A3"
+			tasks: [{
+				id: "2B8F160316737584"
+				type: "item"
+				item: "thermal:machine_furnace"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 9.0d
+			shape: "rsquare"
+			subtitle: "Watch your hands"
+			description: ["Cuts logs into planks and reprocesses wooden objects. Very useful for making the most out of a tree ."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1B9AFBFD62DBF237"
+				"500CE4634E4CAA6E"
+			]
+			id: "003F966120A9DC74"
+			tasks: [{
+				id: "29AC2DEF6E13F2DE"
+				type: "item"
+				item: "thermal:machine_sawmill"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 7.0d
+			shape: "rsquare"
+			subtitle: "Ain't Reversible"
+			description: ["Smashes things into more broken things. Useful for processing ores or converting items."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1B9AFBFD62DBF237"
+				"500CE4634E4CAA6E"
+			]
+			id: "0AAF9819FF00ADFB"
+			tasks: [{
+				id: "59976946AFDBD601"
+				type: "item"
+				item: "thermal:machine_pulverizer"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 8.0d
+			shape: "rsquare"
+			subtitle: "Not used to cook food"
+			description: ["Smelts metals and things that require high temperatures. Useful for processing ores and creating advanced blocks."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1B9AFBFD62DBF237"
+				"500CE4634E4CAA6E"
+			]
+			id: "0C1760A0E6D5AF4C"
+			tasks: [{
+				id: "081A13549FAF8EBA"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 8.0d
+			shape: "rsquare"
+			subtitle: "Not exactly \"organic\" farming"
+			description: ["Infuses nutrients and light into plants using Forge Energy."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1B9AFBFD62DBF237"
+				"500CE4634E4CAA6E"
+			]
+			id: "2AD6CA944EA28FFB"
+			tasks: [{
+				id: "01DDCE022CF5AB8A"
+				type: "item"
+				item: "thermal:machine_insolator"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 6.0d
+			shape: "rsquare"
+			subtitle: "Separates thing"
+			description: ["Separates items into their components. Some items will process into a fluid component."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1B9AFBFD62DBF237"
+				"500CE4634E4CAA6E"
+			]
+			id: "54844A4DBD92C592"
+			tasks: [{
+				id: "2EF095161D44190C"
+				type: "item"
+				item: "thermal:machine_centrifuge"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 6.0d
+			shape: "rsquare"
+			subtitle: "Pressing"
+			description: ["Squeezes and deforms items. Can use a manufacturing die to determine the output."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1B9AFBFD62DBF237"
+				"500CE4634E4CAA6E"
+			]
+			id: "3BDDE5E2E3851B58"
+			tasks: [{
+				id: "50385FFED8CC074F"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 7.0d
+			shape: "rsquare"
+			subtitle: "Melting "
+			description: ["Turns solid materials into fluids, at high heat. Very useful for creating advanced blocks."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1B9AFBFD62DBF237"
+				"500CE4634E4CAA6E"
+			]
+			id: "53ADD2DEBD599EE1"
+			tasks: [{
+				id: "7D7DDF74D9C81952"
+				type: "item"
+				item: "thermal:machine_crucible"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 9.0d
+			shape: "rsquare"
+			subtitle: "BRRRR !"
+			description: ["Rapidly freezes items and fluids. Can use a forming mold with fluids to determine the output."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1B9AFBFD62DBF237"
+				"500CE4634E4CAA6E"
+			]
+			id: "1C84AA079BA30CF8"
+			tasks: [{
+				id: "1B0C245F95C29738"
+				type: "item"
+				item: "thermal:machine_chiller"
+			}]
+		}
+		{
+			title: "Proccessing Rubber"
+			x: 18.5d
+			y: 6.0d
+			shape: "hexagon"
+			dependencies: [
+				"0D16C08A53727D8E"
+				"661BC53D4AC2DA09"
+			]
+			id: "3B8B6059CD724BD3"
+			tasks: [
+				{
+					id: "6A5812CC328AC695"
+					type: "item"
+					item: "thermal:cured_rubber"
+				}
+				{
+					id: "60D619AB7DF6C8D5"
+					type: "item"
+					item: "industrialforegoing:dryrubber"
+				}
+			]
+			rewards: [{
+				id: "02E35C45C4A8BC8D"
+				type: "item"
+				item: "thermal:rubber"
+				count: 8
+			}]
+		}
+		{
+			x: 19.5d
+			y: 6.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"1B9AFBFD62DBF237"
+				"500CE4634E4CAA6E"
+			]
+			id: "661BC53D4AC2DA09"
+			tasks: [{
+				id: "779F0F76B6CC5436"
+				type: "item"
+				item: "thermal:machine_pyrolyzer"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 6.0d
+			shape: "hexagon"
+			dependencies: ["184243748F0454AD"]
+			id: "0D16C08A53727D8E"
+			tasks: [{
+				id: "10CA36A207CE0132"
+				type: "item"
+				item: "thermal:rubber"
+			}]
+			rewards: [{
+				id: "7B2B3D5F7EDE8799"
+				type: "item"
+				item: "minecraft:vine"
+				count: 10
+			}]
+		}
+		{
+			x: 11.0d
+			y: 9.0d
+			shape: "rsquare"
+			subtitle: "Crafting Automation"
+			description: ["Insert items into the grid to set a crafting recipe. Simply press the confirm button and it should craft without you nearby"]
+			hide_dependency_lines: true
+			dependencies: [
+				"1B9AFBFD62DBF237"
+				"500CE4634E4CAA6E"
+			]
+			id: "5491A1FCA85043B7"
+			tasks: [{
+				id: "079269D2803635BC"
+				type: "item"
+				item: "thermal:machine_crafter"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 8.0d
+			shape: "rsquare"
+			subtitle: "Refreshing"
+			description: ["Fills containers with fluids. This is required to consume certain beverages. "]
+			hide_dependency_lines: true
+			dependencies: [
+				"1B9AFBFD62DBF237"
+				"500CE4634E4CAA6E"
+			]
+			id: "467C279288435530"
+			tasks: [{
+				id: "147C6FDDD766C2FE"
+				type: "item"
+				item: "thermal:machine_bottler"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 7.0d
+			shape: "rsquare"
+			subtitle: "Bottles Not Included"
+			description: ["Brews potions and imbues fluids. You might want a few of these in a row"]
+			hide_dependency_lines: true
+			dependencies: [
+				"1B9AFBFD62DBF237"
+				"500CE4634E4CAA6E"
+			]
+			id: "6FD2578B773C6261"
+			tasks: [{
+				id: "3FBAE1D1161297A8"
+				type: "item"
+				item: "thermal:machine_brewer"
+			}]
+		}
+		{
+			x: 23.0d
+			y: 2.0d
+			shape: "diamond"
+			subtitle: "FE with Solid Fuel"
+			description: [
+				"This &7Dynamo&r can generate FE with, like said in the subtitle, solid fuel."
+				""
+				"Solid Fuels are what you can use in a furnace in order to smelt or cook items "
+			]
+			dependencies: ["4B00EE6E2C55BA82"]
+			id: "57AE8DDD7C33FA5F"
+			tasks: [{
+				id: "14C60CFF45DCD2E3"
+				type: "item"
+				item: "thermal:dynamo_stirling"
+			}]
+		}
+		{
+			x: 23.0d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "Liquifying Fuel"
+			description: [
+				"To generate RF with this &6Dyanmo&r, you will have to use Liquified Fuels."
+				""
+				"What are those liquified fuels?"
+				""
+				"→ Refined Fuel"
+				"→ Tree Oil "
+				"→ Gasoline"
+				"→ Diesel"
+				"→ Biodiesel"
+				""
+				"Each fuel has a different energy generation. Check JEI for further informations."
+			]
+			dependencies: ["4B00EE6E2C55BA82"]
+			id: "59A2063250B0BA23"
+			tasks: [{
+				id: "706C1D677E9FCBF6"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+		}
+		{
+			x: 22.5d
+			y: 2.5d
+			shape: "diamond"
+			subtitle: "FE with lava"
+			description: ["In order to make energy with this &4Dynamo&r you have to insert lava in it."]
+			dependencies: ["4B00EE6E2C55BA82"]
+			id: "7796D8EF75102EB9"
+			tasks: [{
+				id: "745BD79BB4531364"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+			}]
+		}
+		{
+			x: 25.0d
+			y: 2.0d
+			shape: "diamond"
+			subtitle: "Coins for FE"
+			description: [
+				"This &eDynamo&r will generate FE with Coins."
+				""
+				"How to make coins? Craft the &7MultiServo Press&r and put the &8Numismatic Press&r in the second Slot (the one on the bottom)"
+			]
+			dependencies: ["4B00EE6E2C55BA82"]
+			id: "32F5BA861097BA7C"
+			tasks: [{
+				id: "60716B3EE2773AC1"
+				type: "item"
+				item: "thermal:dynamo_numismatic"
+			}]
+		}
+		{
+			x: 25.5d
+			y: 2.5d
+			shape: "diamond"
+			subtitle: "Gems for FE"
+			description: ["This &bDynamo&r can generate energy with gems (type forge:gems in JEI to see all gems)"]
+			dependencies: ["4B00EE6E2C55BA82"]
+			id: "69DDA990A92AE09D"
+			tasks: [{
+				id: "083D5EA253D3BF5E"
+				type: "item"
+				item: "thermal:dynamo_lapidary"
+			}]
+		}
+		{
+			x: 24.0d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["4B00EE6E2C55BA82"]
+			id: "3CF5CDA9DE8D3B16"
+			tasks: [{
+				id: "7B7A6E18E829B628"
+				type: "item"
+				item: "thermal:dynamo_disenchantment"
+			}]
+		}
+		{
+			x: 25.0d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["4B00EE6E2C55BA82"]
+			id: "400BFA3C8F4B22E1"
+			tasks: [{
+				id: "06929A5053987B95"
+				type: "item"
+				item: "thermal:dynamo_gourmand"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 7.5d
+			description: ["Uses to water crops to accelerate their growth."]
+			dependencies: ["088D692E25F62BFD"]
+			id: "2052842A50EFEAF3"
+			tasks: [{
+				id: "60B9ED760CD5DB94"
+				type: "item"
+				item: {
+					id: "thermal:watering_can"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 17.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["500CE4634E4CAA6E"]
+			id: "337E4843E25CF523"
+			tasks: [{
+				id: "691FD7826D15A63E"
+				type: "item"
+				item: {
+					id: "thermal:flux_drill"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["500CE4634E4CAA6E"]
+			id: "10740539236C9C56"
+			tasks: [{
+				id: "62F1D96C6D9B48A9"
+				type: "item"
+				item: {
+					id: "thermal:flux_saw"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 19.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["500CE4634E4CAA6E"]
+			id: "4331BA5090DE3D40"
+			tasks: [{
+				id: "1ED35384FDCF70A1"
+				type: "item"
+				item: {
+					id: "thermal:flux_magnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 20.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["500CE4634E4CAA6E"]
+			id: "1421E0ACCF0A312F"
+			tasks: [{
+				id: "6F14129BC78A564B"
+				type: "item"
+				item: {
+					id: "thermal:flux_capacitor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 18.0d
+			y: 10.0d
+			shape: "gear"
+			hide_dependency_lines: true
+			dependencies: [
+				"3B8B6059CD724BD3"
+				"5D4D5257E78D1C9F"
+				"3BDDE5E2E3851B58"
+				"661BC53D4AC2DA09"
+			]
+			size: 2.0d
+			id: "2E1A0AB49E83B283"
+			tasks: [{
+				id: "21BE7B22347C57AA"
+				type: "item"
+				item: "chromasky:mechanic_core_tier_2"
+			}]
+		}
+		{
+			x: 25.0d
+			y: 6.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["3B8B6059CD724BD3"]
+			id: "51EF3B9AC81BF62E"
+			tasks: [{
+				id: "3DF51B68BD9A973F"
+				type: "item"
+				item: {
+					id: "thermal:hazmat_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 25.0d
+			y: 7.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["3B8B6059CD724BD3"]
+			id: "42F440C59A996EEB"
+			tasks: [{
+				id: "7312989E8B2F9ACF"
+				type: "item"
+				item: {
+					id: "thermal:hazmat_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 25.0d
+			y: 8.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["3B8B6059CD724BD3"]
+			id: "142C780851F1FB5D"
+			tasks: [{
+				id: "307C0AA7F88B7D3B"
+				type: "item"
+				item: {
+					id: "thermal:hazmat_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 25.0d
+			y: 9.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["3B8B6059CD724BD3"]
+			id: "022632A3D6BEEE56"
+			tasks: [{
+				id: "4A1336BE0C376130"
+				type: "item"
+				item: {
+					id: "thermal:hazmat_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 24.0d
+			y: 6.0d
+			shape: "rsquare"
+			dependencies: ["088D692E25F62BFD"]
+			id: "06E8FB56B8D69B00"
+			tasks: [{
+				id: "47CF6769B1BA86DD"
+				type: "item"
+				item: {
+					id: "thermal:beekeeper_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 24.0d
+			y: 7.0d
+			shape: "rsquare"
+			dependencies: ["088D692E25F62BFD"]
+			id: "556AB754C861B1A7"
+			tasks: [{
+				id: "5FA080FCD7F0CA85"
+				type: "item"
+				item: {
+					id: "thermal:beekeeper_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 24.0d
+			y: 8.0d
+			shape: "rsquare"
+			dependencies: ["088D692E25F62BFD"]
+			id: "1A5F22107A196799"
+			tasks: [{
+				id: "20FE3EA093010CD7"
+				type: "item"
+				item: {
+					id: "thermal:beekeeper_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 24.0d
+			y: 9.0d
+			shape: "rsquare"
+			dependencies: ["088D692E25F62BFD"]
+			id: "329F27EF394C6004"
+			tasks: [{
+				id: "772E4C1B291793E5"
+				type: "item"
+				item: {
+					id: "thermal:beekeeper_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 23.0d
+			y: 6.0d
+			shape: "rsquare"
+			dependencies: ["088D692E25F62BFD"]
+			id: "4036098A3CDFD16D"
+			tasks: [{
+				id: "2CD2845A5C7A0F92"
+				type: "item"
+				item: {
+					id: "thermal:diving_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 23.0d
+			y: 7.0d
+			shape: "rsquare"
+			dependencies: ["088D692E25F62BFD"]
+			id: "7361D809F96E0588"
+			tasks: [{
+				id: "384F36B4CD34CF91"
+				type: "item"
+				item: {
+					id: "thermal:diving_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 23.0d
+			y: 8.0d
+			shape: "rsquare"
+			dependencies: ["088D692E25F62BFD"]
+			id: "7A99FE2277EB1807"
+			tasks: [{
+				id: "07E7D0B5C2A699FD"
+				type: "item"
+				item: {
+					id: "thermal:diving_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 23.0d
+			y: 9.0d
+			shape: "rsquare"
+			dependencies: ["088D692E25F62BFD"]
+			id: "5AF7E5130E83F1E3"
+			tasks: [{
+				id: "1DA8AF49B28AA53A"
+				type: "item"
+				item: {
+					id: "thermal:diving_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 24.0d
+			y: 1.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"3EAB488E2A6BC29A"
+				"500CE4634E4CAA6E"
+				"39DB67EE674F41A4"
+				"321AFD3A1679E8E0"
+				"505915AA1C542C01"
+			]
+			size: 1.5d
+			id: "4B00EE6E2C55BA82"
+			tasks: [{
+				id: "26ADD08F816EB890"
+				type: "item"
+				item: "chromasky:excitationcoil"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.5d
+			shape: "diamond"
+			description: ["Upgrade augments improve the overall stats of machines, devices, dynamos, and tools."]
+			hide_dependency_lines: true
+			dependencies: ["0C1760A0E6D5AF4C"]
+			id: "19E99F06941D0A7C"
+			tasks: [{
+				id: "07B92EA792955537"
+				type: "item"
+				item: "thermal:upgrade_augment_1"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.5d
+			shape: "diamond"
+			description: ["Upgrade augments improve the overall stats of machines, devices, dynamos, and tools."]
+			dependencies: ["19E99F06941D0A7C"]
+			id: "7F6741B70773800C"
+			tasks: [{
+				id: "4AE6C1F2D746F518"
+				type: "item"
+				item: "thermal:upgrade_augment_2"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			shape: "diamond"
+			description: ["Upgrade augments improve the overall stats of machines, devices, dynamos, and tools."]
+			dependencies: ["7F6741B70773800C"]
+			id: "552E9825AC399C01"
+			tasks: [{
+				id: "1A98D0587118D89F"
+				type: "item"
+				item: "thermal:upgrade_augment_3"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["500CE4634E4CAA6E"]
+			id: "744F1F6B7167C552"
+			tasks: [{
+				id: "1E9E11F73FD5C019"
+				type: "item"
+				item: "thermal:machine_efficiency_augment"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3EAB488E2A6BC29A"]
+			id: "4A95539C219BEEE3"
+			tasks: [{
+				id: "47FDB0C588F27966"
+				type: "item"
+				item: "thermal:machine_output_augment"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3EAB488E2A6BC29A"]
+			id: "77354D411094235C"
+			tasks: [{
+				id: "3F3C6B5EC1A6641C"
+				type: "item"
+				item: "thermal:machine_catalyst_augment"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["0C1760A0E6D5AF4C"]
+			id: "4E1EB4C68BE3E785"
+			tasks: [{
+				id: "5580CDD0A9566608"
+				type: "item"
+				item: "thermal:dynamo_output_augment"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3EAB488E2A6BC29A"]
+			id: "1FACADC48655D45D"
+			tasks: [{
+				id: "1BE4CD04014B1FF0"
+				type: "item"
+				item: "thermal:machine_cycle_augment"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["0C1760A0E6D5AF4C"]
+			id: "0040335499CE5239"
+			tasks: [{
+				id: "5D16674B6A14060B"
+				type: "item"
+				item: "thermal:potion_amplifier_augment"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["0C1760A0E6D5AF4C"]
+			id: "0B639F6B6AF958B6"
+			tasks: [{
+				id: "12B3A06F8D53DDCF"
+				type: "item"
+				item: "thermal:potion_duration_augment"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3EAB488E2A6BC29A"]
+			id: "616641ADB5661CDD"
+			tasks: [{
+				id: "0E0BAB447CF19D05"
+				type: "item"
+				item: "thermal:area_radius_augment"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["0C1760A0E6D5AF4C"]
+			id: "02106565E3A55C99"
+			tasks: [{
+				id: "3EF7A8502B1CB936"
+				type: "item"
+				item: "thermal:dynamo_fuel_augment"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["500CE4634E4CAA6E"]
+			id: "1C75E8AA107682B1"
+			tasks: [{
+				id: "3B87872D8B6EB35E"
+				type: "item"
+				item: "thermal:rf_coil_augment"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 1.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["500CE4634E4CAA6E"]
+			id: "4B3890C10A1B54FD"
+			tasks: [{
+				id: "52794F66551962FB"
+				type: "item"
+				item: "thermal:rf_coil_storage_augment"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3B8B6059CD724BD3"]
+			id: "0CBE346F12CD4B62"
+			tasks: [{
+				id: "320681005B330885"
+				type: "item"
+				item: "thermal:fluid_tank_augment"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["500CE4634E4CAA6E"]
+			id: "34D8978D96EA83FD"
+			tasks: [{
+				id: "792B09ECD4D115A9"
+				type: "item"
+				item: "thermal:rf_coil_xfer_augment"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["500CE4634E4CAA6E"]
+			id: "6D17CF7DFA7E5F83"
+			tasks: [{
+				id: "6D5BAEC718286A5C"
+				type: "item"
+				item: "thermal:machine_speed_augment"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["0C1760A0E6D5AF4C"]
+			id: "6FCF9D3FABD631B8"
+			tasks: [{
+				id: "0A1FFC24AACD6E1C"
+				type: "item"
+				item: "thermal:item_filter_augment"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["467C279288435530"]
+			id: "7B2BC5A0126A299E"
+			tasks: [{
+				id: "50A76C3B50B29CF9"
+				type: "item"
+				item: "thermal:xp_storage_augment"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 1.0d
+			shape: "diamond"
+			subtitle: "The Wrench"
+			description: [
+				"The &bCrescent Hammer&r"
+				""
+				"So this is the main wrench to the thermal mod."
+				""
+				"With it you can turn machines or break them instantly."
+			]
+			dependencies: ["5D4D5257E78D1C9F"]
+			id: "774317A05B379F52"
+			tasks: [{
+				id: "13E6A9F58ED05C89"
+				type: "item"
+				item: "thermal:wrench"
+			}]
+		}
+	]
+}
