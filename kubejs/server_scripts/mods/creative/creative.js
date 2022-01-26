@@ -1186,13 +1186,13 @@ onEvent("recipes", (event) => {
           "item": "projectex:magenta_matter"
         },
         "E": {
-          "item": "simplyjetpacks:jetpack_vanilla4"
+          "item": "simplyjetpacks:jetpack_te4"
         },
         "F": {
           "item": "simplyjetpacks:jetpack_mek4"
         },
         "G": {
-          "item": "simplyjetpacks:jetpack_vanilla3"
+          "item": "simplyjetpacks:jetpack_te3"
         },
         "H": {
           "type": "forge:nbt",
@@ -1204,7 +1204,7 @@ onEvent("recipes", (event) => {
           "item": "simplyjetpacks:jetpack_mek3"
         },
         "J": {
-          "item": "simplyjetpacks:jetpack_vanilla2"
+          "item": "simplyjetpacks:jetpack_te2"
         },
         "K": {
           "item": "miniutilities:angel_ring"
@@ -1213,7 +1213,7 @@ onEvent("recipes", (event) => {
           "item": "simplyjetpacks:jetpack_mek2"
         },
         "M": {
-          "item": "simplyjetpacks:jetpack_vanilla1"
+          "item": "simplyjetpacks:jetpack_te1"
         },
         "N": {
           "item": "simplyjetpacks:jetpack_ie2"
@@ -1228,13 +1228,13 @@ onEvent("recipes", (event) => {
           "item": "simplyjetpacks:jetpack_ie1"
         },
         "R": {
-          "item": "simplyjetpacks:leather_strap"
+          "item": "simplyjetpacks:jetpack_te5_enderium"
         },
         "S": {
           "item": "simplyjetpacks:jetpack_ie3"
         },
         "T": {
-          "item": "simplyjetpacks:pilot_goggles_silver"
+          "item": "simplyjetpacks:pilot_goggles_iron"
         },
         "U": {
           "item": "extendedcrafting:ultimate_singularity"
