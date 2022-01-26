@@ -201,7 +201,8 @@ events.listen('jei.hide.items', function (event) {
     'losttrinkets:dragon_breath',
     'losttrinkets:book_o_enchanting',
     'overloaded:ray_gun',
-    'buildersaddition:iron_rod'
+    'buildersaddition:iron_rod',
+    'projectex:final_star',
     Item.of('animalcrops:magnemone', '{entity:"minecraft:strider"}'),
     Item.of('animalcrops:spores', '{entity:"minecraft:piglin"}'),
     Item.of('animalcrops:spores', '{entity:"minecraft:hoglin"}'),
