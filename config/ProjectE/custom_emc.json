@@ -14,11 +14,15 @@
     },
     {
       "item": "projecte:dark_matter",
-      "emc": 139264
+      "emc": 28790204
     },
     {
       "item": "projecte:philosophers_stone",
       "emc": 1252315
+    },
+    {
+      "item": "projectex:basic_collector",
+      "emc": 30224200
     }
   ]
 }
