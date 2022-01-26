@@ -78,11 +78,11 @@ undeadSouls = 50
 [ma_worldgen_options]
 	#How far apart wellspring nodes must be as a minimum.  They can be farther than this depending on world seed and generation.
 	#Range: 100 ~ 15000
-	wellspringDistance = 500
+	wellspringDistance = 100
 	#If true, total wellspring power will be calculated per faction rather than per player.
 	wellspringFactionClaims = false
 	#If true, wellsprings will generate with no affinity and the type of lens used will set the affinity of the node.
-	genericWellsprings = false
+	genericWellsprings = true
 	#Size of vinteum veins
 	#Range: 1 ~ 20
 	vinteumVeinSize = 9
