@@ -1,7 +1,7 @@
 {
 	id: "6543D50CE942A7FE"
 	group: "73390EDA98890AC0"
-	order_index: 0
+	order_index: 1
 	filename: "industrial_foregoing"
 	title: "Industrial foregoing"
 	icon: "industrialforegoing:machine_frame_supreme"
@@ -1706,6 +1706,7 @@
 			}]
 		}
 		{
+			title: "&bMechanic Core Tier 3"
 			x: 2.0d
 			y: 8.0d
 			shape: "gear"

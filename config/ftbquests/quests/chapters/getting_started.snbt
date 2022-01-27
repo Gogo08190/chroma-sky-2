@@ -80,7 +80,7 @@
 		{
 			x: -1.0d
 			y: -2.5d
-			description: ["The Dripper drips fluid on to the block below in order to turn in it to other blocks."]
+			description: ["&3The Dripper&r drips fluid on to the block below in order to turn in it to other blocks."]
 			hide_dependency_lines: true
 			dependencies: ["3F97D03C2402B70D"]
 			id: "1364BC9D46E89B79"
@@ -94,7 +94,7 @@
 			x: 3.0d
 			y: -5.5d
 			description: [
-				"Sluices use a Mesh and fluid to process blocks like Gravel, Sand and more into more advanced resources."
+				"&3Sluices&r use a Mesh and fluid to process blocks like Gravel, Sand and more into more advanced resources."
 				""
 				"Hold the mesh in your hand and right click it on the sluice to insert it."
 				"The sluice has an internal tank which it consumes water from after every operation. "
@@ -273,7 +273,7 @@
 		{
 			x: 0.5d
 			y: -7.0d
-			description: ["The composter will allow you to obtain bone meal by putting in leaves."]
+			description: ["&3The composter &rwill allow you to obtain bone meal by putting in leaves."]
 			dependencies: ["3F97D03C2402B70D"]
 			id: "0E304BDD61392FBF"
 			tasks: [{
@@ -574,7 +574,7 @@
 		{
 			x: 6.0d
 			y: -3.5d
-			description: ["The campfire allows you to obtain cast iron by burning iron in it."]
+			description: ["&3The campfire&r allows you to obtain cast iron by burning iron in it."]
 			dependencies: ["67E0A913501D13AF"]
 			id: "7177A157E31F65A9"
 			tasks: [{

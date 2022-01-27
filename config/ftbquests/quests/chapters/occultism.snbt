@@ -1,7 +1,7 @@
 {
 	id: "26A0D6C6E9DF9D17"
 	group: "638FC427456F902B"
-	order_index: 7
+	order_index: 8
 	filename: "occultism"
 	title: "Occultism"
 	icon: "occultism:debug_wand"
@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: -7.0d
-			y: -0.5d
+			x: -6.5d
+			y: -1.5d
 			width: 10.0d
 			height: 10.0d
 			rotation: 0.0d
@@ -139,6 +139,7 @@
 				"The &cDemon Seeds&r are droppable when you break &2Grass&r."
 				"You can plant them in a fertile soil and let the farm begging !"
 			]
+			dependencies: ["45DCDA121B4179D2"]
 			size: 2.0d
 			id: "593C97F1466B4214"
 			tasks: [{
@@ -441,6 +442,11 @@
 			y: -4.5d
 			subtitle: "The basic summoning book"
 			description: ["In order to bind your &bFoliot Book&r to your &6Dictionnary of Spirits&r you'll have to put them both in your crafting table."]
+			hide_dependency_lines: true
+			dependencies: [
+				"593C97F1466B4214"
+				"05CF0E1BB3279BB2"
+			]
 			id: "54B53A39142BBA7A"
 			tasks: [{
 				id: "6FD701C20368025C"
@@ -1293,6 +1299,8 @@
 		{
 			x: 6.5d
 			y: 7.5d
+			subtitle: "Possessed by Spirits"
+			description: ["As same as the &nImpure White&r or &6Golden&r Chalks, you will have to throw this &5Impure Purple Chalk&r into the &5Spiritfire&r."]
 			dependencies: ["3A610D5177B9B690"]
 			id: "7AE0D40C4457C642"
 			tasks: [{
@@ -1304,6 +1312,13 @@
 		{
 			x: 11.0d
 			y: 7.5d
+			subtitle: "The Best Part! "
+			description: [
+				"Summoning Mobs? Check !"
+				"Having better stuff? Check ! "
+				"Getting more storage? Check ! "
+				"&6&lWhat are you waiting for !&r"
+			]
 			dependencies: ["7AE0D40C4457C642"]
 			id: "151C234E8E89D188"
 			tasks: [{
@@ -1375,6 +1390,8 @@
 			}
 			x: 18.893537414966005d
 			y: 8.61122448979593d
+			subtitle: "Iesnium Breaker"
+			description: ["As you may understand, this &5Infused Pickaxe&r will be able to break the &9Iesnium Ore&r. Now good luck finding those..."]
 			dependencies: ["23A49D6344786D2A"]
 			id: "52A9B829A4D0206D"
 			tasks: [
@@ -1554,6 +1571,11 @@
 			}
 			x: 22.322108843537436d
 			y: 8.639795918367362d
+			subtitle: "The other part of Storage"
+			description: [
+				"Here is the second part of the &6Dimensional Storage Actuator&r."
+				"You might want to fusion it with a &9Storage Actuator Base&r to start storing things in it."
+			]
 			dependencies: ["23A49D6344786D2A"]
 			id: "70897A94E1945D61"
 			tasks: [
@@ -1649,6 +1671,8 @@
 			icon: "occultism:storage_stabilizer_tier2"
 			x: 20.493537414966d
 			y: 9.868367346938797d
+			subtitle: "Chests ? Where ! "
+			description: ["Augment the stack storage by 512 in the &6Dimensional Storage Actuator&r."]
 			dependencies: ["23A49D6344786D2A"]
 			id: "37A79BC191EA4457"
 			tasks: [
@@ -1697,6 +1721,11 @@
 			x: 19.43639455782315d
 			y: 6.582653061224505d
 			subtitle: "Auto Miner"
+			description: [
+				"The &8Dimensional Mineshaft&r allow the player to auto mine ores like the &cLaser Drill&r."
+				"Put either the &bFoliot Miner&r or &5Djinni Miner&r in the &8Dimensional Mineshaft's&r GUI and it'll start to mine ores. "
+				"For your information, &5The Djinni Miner&r will have a lesser durability but will mine more rare ores than the &bFoliot Miner&r."
+			]
 			dependencies: ["23A49D6344786D2A"]
 			id: "074EF4BDC0439C58"
 			tasks: [
@@ -1744,7 +1773,11 @@
 			icon: "minecraft:wither_skeleton_skull"
 			x: 17.226190476190467d
 			y: 2.95204081632653d
-			subtitle: "Sacrifice player / pnj"
+			subtitle: "The Army of the Night"
+			description: [
+				"After spawning &8Possessed Skeleton&r, you will now be able to spawn &0Possessed Wither Skeletons&r. "
+				"To activate this ritual you will have to sacrifice a &6Villager&r or a &6Player&r."
+			]
 			dependencies: ["65D9E0F1B657A382"]
 			id: "371989A7DA01B703"
 			tasks: [
@@ -1792,7 +1825,7 @@
 			y: 4.379591836734697d
 			subtitle: "Spooky Scary Skeletons"
 			description: [
-				"The &2Osorin's Unbound Calling&r allows to spawn some &0Possessed Wither Skeletons&r."
+				"The &2Osorin's Unbound Calling&r allows to spawn some &0Possessed Wither Skeletons&r. "
 				"To build this ritual you can use the &9Dictionary of Spirits&r."
 				"Here are the needed ingredients below :"
 				"- 4 &8Skeletons Skulls&r."
@@ -1829,8 +1862,20 @@
 			icon: "occultism:ritual_dummy/custom_ritual"
 			x: 16.259353741496597d
 			y: 11.84897959183673d
+			subtitle: "Darkness has poisened them"
+			description: [
+				"The &2Ihagan's Enthrallement&r allows to spawn other &0Possessed Mobs&r."
+				"To build this ritual you can use the &9Dictionary of Spirits&r."
+				"Here are the needed ingredients below :"
+				"- 8 &7Candles&r."
+				"- 4 &8Skeletons Skulls&r."
+				"- 4 or more &0Sacrifical Bowls&r (depending on the desired ritual)."
+				"- The &6Golden Sacrifical Bowl&r."
+				"- Your &nWhite&r, &6Gold&r and &5Purple&r Chalks to draw symbols on the ground."
+			]
 			dependencies: ["151C234E8E89D188"]
 			size: 1.25d
+			min_width: 250
 			id: "7CCC69A72C6EE4F1"
 			tasks: [
 				{
@@ -1862,7 +1907,8 @@
 			icon: "tconstruct:enderman_head"
 			x: 17.99829931972789d
 			y: 12.344557823129257d
-			subtitle: "sacrifice pig"
+			subtitle: "Angry Endermen"
+			description: ["In order to spawn those &5Possessed Endermen&r you should do the ritual and then sacrifice a &6Pig&r near the golden bowl."]
 			dependencies: ["7CCC69A72C6EE4F1"]
 			id: "0CCACB12CB38D08B"
 			tasks: [
@@ -1904,6 +1950,8 @@
 			icon: "minecraft:ghast_tear"
 			x: 14.65544217687075d
 			y: 12.37312925170069d
+			subtitle: "Cursed Ghasts"
+			description: ["In order to spawn those &8Possessed Ghasts&r you should do the ritual and then sacrifice a &6Cow&r near the golden bowl."]
 			dependencies: ["7CCC69A72C6EE4F1"]
 			id: "0EEE6F65E7E3C75C"
 			tasks: [
@@ -2055,8 +2103,22 @@
 			icon: "occultism:ritual_dummy/custom_ritual"
 			x: 24.962585034013628d
 			y: 11.897619047619038d
+			subtitle: "Even More Storage"
+			description: [
+				"The &2Sevira's Permanent Confinement&r allows to craft only one item :  "
+				"> &6The Tier 3 Dimensional Storage Stabilizer&r."
+				"To build this ritual you can use the &9Dictionary of Spirits&r."
+				"Here are the needed ingredients below :"
+				"- 12 &7Candles&r."
+				"- 3 &8Skeleton Skulls&r."
+				"- 1 &0Wither Skeletons Skull&r."
+				"- 4 &aSacrifical Bowls&r."
+				"- The &6Golden Sacrifical Bowl&r."
+				"- Your &8White&r, &6Gold&r and &5Purple&r Chalks to draw symbols on the ground."
+			]
 			dependencies: ["151C234E8E89D188"]
 			size: 1.25d
+			min_width: 250
 			id: "4F46DD4C3D1A9AD0"
 			tasks: [
 				{
@@ -2080,6 +2142,7 @@
 					id: "20F2057A1124FE97"
 					type: "item"
 					item: "occultism:sacrificial_bowl"
+					count: 4L
 				}
 				{
 					id: "41D0EC5FF9C1B244"
@@ -2093,6 +2156,8 @@
 			icon: "occultism:storage_stabilizer_tier3"
 			x: 26.0d
 			y: 10.5d
+			subtitle: "Do I need to say more?"
+			description: ["Augment the stack storage by 1024 in the &6Dimensional Storage Actuator&r."]
 			dependencies: ["4F46DD4C3D1A9AD0"]
 			id: "43EDDEB618BB663E"
 			tasks: [
@@ -2135,8 +2200,10 @@
 			]
 		}
 		{
-			x: 3.3023809523809433d
-			y: 7.563095238095251d
+			x: 3.201530612244909d
+			y: 7.559523809523789d
+			subtitle: "The Last Tier "
+			description: ["As same as the &nImpure White&r, &6Golden&r or &5Purple Chalks&r, you will have to throw this &4Impure Red Chalk&r into the &5Spiritfire&r."]
 			dependencies: ["3A610D5177B9B690"]
 			id: "1DA4A1FC61B55BF4"
 			tasks: [{
@@ -2148,6 +2215,11 @@
 		{
 			x: 6.5d
 			y: 11.0d
+			subtitle: "Fire !"
+			description: [
+				"Finally ! You've arrived to the last final Chalk of the &5Occultism Mod&r  !"
+				"With this will now be able to unlock other rituals ! "
+			]
 			dependencies: ["1DA4A1FC61B55BF4"]
 			id: "780BE931A964514C"
 			tasks: [{
@@ -2167,8 +2239,23 @@
 			icon: "occultism:ritual_dummy/custom_ritual"
 			x: 9.509523809523813d
 			y: 12.8702380952381d
+			subtitle: "The Last Ritual"
+			description: [
+				"The &2Uphyxes Inverted Tower&r allows to craft only one item :  "
+				"> &6The Tier 4 Dimensional Storage Stabilizer&r."
+				"To build this ritual you can use the &9Dictionary of Spirits&r."
+				"Here are the needed ingredients below :"
+				"- 12 &7Candles&r."
+				"- 8 &5Spirits Attuned Crystals&r."
+				"- 4 &0Wither Skeletons Skulls&r."
+				"- 4 &8Skeleton Skulls&r."
+				"- 5 &aSacrifical Bowls&r."
+				"- The &6Golden Sacrifical Bowl&r."
+				"- Your &8White&r, &6Gold&r, &5Purple&r and &4Red&r Chalks to draw symbols on the ground."
+			]
 			dependencies: ["780BE931A964514C"]
 			size: 1.25d
+			min_width: 250
 			id: "6A192DB5C8E38976"
 			tasks: [
 				{
@@ -2213,6 +2300,8 @@
 			icon: "occultism:storage_stabilizer_tier4"
 			x: 10.538095238095238d
 			y: 11.484523809523829d
+			subtitle: "Last Dimensional Storage Stabilizer"
+			description: ["Augment the stack storage by 2052 in the &6Dimensional Storage Actuator&r."]
 			dependencies: ["6A192DB5C8E38976"]
 			id: "6746A6BC2636EE33"
 			tasks: [

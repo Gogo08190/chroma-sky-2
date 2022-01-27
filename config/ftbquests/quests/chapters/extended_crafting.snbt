@@ -1,0 +1,1071 @@
+{
+	id: "706A574536E10A81"
+	group: "2DAB014F01D11AA1"
+	order_index: 1
+	filename: "extended_crafting"
+	title: "Extended Crafting"
+	icon: "extendedcrafting:ultimate_singularity"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 3.5d
+			y: 0.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"4F653ADFAFAF8ABB"
+				"1EE4F846B5C920BF"
+			]
+			id: "3264895F2406E39E"
+			tasks: [{
+				id: "50529C3A8A21156F"
+				type: "item"
+				item: "extendedcrafting:luminessence"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"0C1760A0E6D5AF4C"
+				"47A4D81697C274A3"
+				"4053153C0E72EB77"
+			]
+			id: "64863AF36FB0BB0F"
+			tasks: [{
+				id: "3CD24DAF5BDB9332"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["71E4BB753498AB6B"]
+			id: "101F290BD470A9EF"
+			tasks: [{
+				id: "7CE8ABB13CA3C450"
+				type: "item"
+				item: "extendedcrafting:ender_ingot"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["79D103500294035B"]
+			id: "1FED4DA5365C4EFF"
+			tasks: [{
+				id: "0403B51120425634"
+				type: "item"
+				item: "extendedcrafting:enhanced_ender_ingot"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"254D683B153C4582"
+				"71E4BB753498AB6B"
+				"47A4D81697C274A3"
+				"7455494CC9E4DF8B"
+				"2F8B8819ED5BBBB6"
+			]
+			id: "1E0506178AC495B7"
+			tasks: [{
+				id: "629744CFD2EFFC12"
+				type: "item"
+				item: "extendedcrafting:crystaltine_ingot"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 12.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["64863AF36FB0BB0F"]
+			size: 1.5d
+			id: "36DC947158012F15"
+			tasks: [{
+				id: "15AD0A7333FE9BCC"
+				type: "item"
+				item: "extendedcrafting:black_iron_slate"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 13.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"36DC947158012F15"
+				"3264895F2406E39E"
+			]
+			id: "0B2A2C436EF8D9D4"
+			tasks: [{
+				id: "3BD0C55FA06CEC57"
+				type: "item"
+				item: "extendedcrafting:basic_catalyst"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 13.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"36DC947158012F15"
+				"3264895F2406E39E"
+			]
+			id: "175D58D02BF6D011"
+			tasks: [{
+				id: "3C99F1E5ECD7BF61"
+				type: "item"
+				item: "extendedcrafting:advanced_catalyst"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 13.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"36DC947158012F15"
+				"3264895F2406E39E"
+			]
+			id: "135A24E2317A0C34"
+			tasks: [{
+				id: "3E7E6CC34A022C5C"
+				type: "item"
+				item: "extendedcrafting:elite_catalyst"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 13.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"36DC947158012F15"
+				"3264895F2406E39E"
+			]
+			id: "5030F7D2DCA4FC1C"
+			tasks: [{
+				id: "3F2147713EBAD2F2"
+				type: "item"
+				item: "extendedcrafting:ultimate_catalyst"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 14.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"36DC947158012F15"
+				"3264895F2406E39E"
+			]
+			id: "30FE0CF71A4F1055"
+			tasks: [{
+				id: "375381E9C29966B9"
+				type: "item"
+				item: "extendedcrafting:redstone_catalyst"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 14.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"36DC947158012F15"
+				"3264895F2406E39E"
+			]
+			id: "205333BF7F4B9C68"
+			tasks: [{
+				id: "3B427369188EF060"
+				type: "item"
+				item: "extendedcrafting:ender_catalyst"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 14.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"36DC947158012F15"
+				"3264895F2406E39E"
+			]
+			id: "256C45966331449E"
+			tasks: [{
+				id: "6ED95571167EEC43"
+				type: "item"
+				item: "extendedcrafting:enhanced_ender_catalyst"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 14.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"36DC947158012F15"
+				"3264895F2406E39E"
+			]
+			id: "7A34AA35145B8E75"
+			tasks: [{
+				id: "5BE5DF574B339827"
+				type: "item"
+				item: "extendedcrafting:crystaltine_catalyst"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 15.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"36DC947158012F15"
+				"3264895F2406E39E"
+			]
+			id: "6677F7F460C26A88"
+			tasks: [{
+				id: "4E0E4B2127A1BF8C"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_catalyst"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["79D103500294035B"]
+			id: "2F182F3F3D5B3979"
+			tasks: [{
+				id: "399DC3C14E28FDC9"
+				type: "item"
+				item: "extendedcrafting:ender_star"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"64863AF36FB0BB0F"
+				"36DC947158012F15"
+				"135A24E2317A0C34"
+			]
+			size: 1.5d
+			id: "07F4EA1B0DBFFED2"
+			tasks: [{
+				id: "3D4C936CE2799061"
+				type: "item"
+				item: "extendedcrafting:compressor"
+			}]
+		}
+		{
+			title: "Ender Crafting"
+			x: 4.0d
+			y: 2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["101F290BD470A9EF"]
+			size: 1.5d
+			id: "79D103500294035B"
+			tasks: [
+				{
+					id: "03416B093F9F58B7"
+					type: "item"
+					item: "extendedcrafting:ender_crafter"
+				}
+				{
+					id: "5A58DD5BFBA72075"
+					type: "item"
+					item: "extendedcrafting:ender_alternator"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"36DC947158012F15"
+				"0B2A2C436EF8D9D4"
+			]
+			id: "344DFFAEAAEFE4BD"
+			tasks: [{
+				id: "18670609F7EFC10A"
+				type: "item"
+				item: "extendedcrafting:basic_table"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"175D58D02BF6D011"
+				"36DC947158012F15"
+			]
+			id: "71A0609C38D650E0"
+			tasks: [{
+				id: "19B3FF5D2E3CBA15"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"135A24E2317A0C34"
+				"36DC947158012F15"
+			]
+			id: "2F8B8819ED5BBBB6"
+			tasks: [{
+				id: "1482B61EFFA9DA26"
+				type: "item"
+				item: "extendedcrafting:elite_table"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"5030F7D2DCA4FC1C"
+				"36DC947158012F15"
+			]
+			id: "2417D983E7A68DA0"
+			tasks: [{
+				id: "3C803832E037287D"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["344DFFAEAAEFE4BD"]
+			id: "7B18E9DB40D7FCCC"
+			tasks: [{
+				id: "7E35F8A4FCFA15A8"
+				type: "item"
+				item: "extendedcrafting:basic_auto_table"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["71A0609C38D650E0"]
+			id: "2BBEA4A507C56FAB"
+			tasks: [{
+				id: "654B22479DF3167F"
+				type: "item"
+				item: "extendedcrafting:advanced_auto_table"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["2F8B8819ED5BBBB6"]
+			id: "61666B0F95EA64D7"
+			tasks: [{
+				id: "53D8180C9DA49019"
+				type: "item"
+				item: "extendedcrafting:elite_auto_table"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["2417D983E7A68DA0"]
+			id: "3C966DCE8D000114"
+			tasks: [{
+				id: "3BAB670B49A1E405"
+				type: "item"
+				item: "extendedcrafting:ultimate_auto_table"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 9.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "1224C173061E46E5"
+			tasks: [{
+				id: "694263CD63C053E1"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:bronze"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "658ACFC2AB9E9E74"
+			tasks: [{
+				id: "59784E88F73934C7"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:invar"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 10.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "64622C6881D9176B"
+			tasks: [{
+				id: "047A990C595E1325"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:energized"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 9.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "1E50E4C21D5079E3"
+			tasks: [{
+				id: "647B7D24B5E63B46"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:electrum"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 9.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "1E88C4D6935A0453"
+			tasks: [{
+				id: "59CF5BDC6E4BB608"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:lapis_lazuli"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 10.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "5A668B51EC873A90"
+			tasks: [{
+				id: "4F1A13F232D2EA21"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:castiron"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "367CE912D0C8651C"
+			tasks: [{
+				id: "3270C1C4AC6F6FE1"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:uranium"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 7.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "33EA5E75664BEF49"
+			tasks: [{
+				id: "249356624B971986"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:coal"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "599D4055D02E28C1"
+			tasks: [{
+				id: "07250982A63F1B3A"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 6.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "4B3BCC03AF0BD408"
+			tasks: [{
+				id: "48A459C219FA7703"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:loran"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 9.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "182D3A56D426A3E2"
+			tasks: [{
+				id: "349E15CB4EDA9B9C"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:diamond"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "0C18582338A3C3D9"
+			tasks: [{
+				id: "76C12B82F4144A13"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:iron"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "519B21F6FE1936D9"
+			tasks: [{
+				id: "2287F1613DABFAFB"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:starmetal"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "1B33290A60E64FC1"
+			tasks: [{
+				id: "0C11EB9BC229BD54"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:lumium"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 8.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "465BF4DF1796B33D"
+			tasks: [{
+				id: "404F8B48DD8EAEA7"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:nickel"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 8.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "597F58A311F26E07"
+			tasks: [{
+				id: "664675210B5F0A3A"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:cobalt"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 9.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "179F77328824BEB6"
+			tasks: [{
+				id: "6375EB932CDFB813"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:electrotine"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 8.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "6CF4C74B279574CB"
+			tasks: [{
+				id: "2F3A41F0AED8F393"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:glowstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 7.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "2952ED791235FA59"
+			tasks: [{
+				id: "71DDF87CFC5C6979"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:blazing"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 10.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "6AE072B1B26F77F7"
+			tasks: [{
+				id: "1F089424C3E09C38"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:steel"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 9.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "7AB7DB11A4B9E915"
+			tasks: [{
+				id: "66467E5C69FCDB50"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:niotic"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 10.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "5CC1617D24647B93"
+			tasks: [{
+				id: "74E3C086157204C7"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:enderium"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "167A48B2B2232EC7"
+			tasks: [{
+				id: "52819B67EBC20D03"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:emerald"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 9.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "53DF8BF9F0826862"
+			tasks: [{
+				id: "4CE54168F3B5AC4D"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:aluminum"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 8.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "06BF7661FF09E0D2"
+			tasks: [{
+				id: "5AB22E131BC83904"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:draconium"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 9.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "2FC02604D05375F1"
+			tasks: [{
+				id: "63F9EB4D6E9405CB"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:silver"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "2CCF1796796BAC07"
+			tasks: [{
+				id: "20D3301C47B607E4"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:nitro"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "0A6BF2B6785074B3"
+			tasks: [{
+				id: "4CCB8C14B3B15827"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:tin"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "4163A358AA950FC7"
+			tasks: [{
+				id: "799AD903C9240101"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:copper"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "102C2FA6708E0763"
+			tasks: [{
+				id: "491950C7A3633DB0"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:signalum"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 7.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "0B9B10CE2EDE7ACB"
+			tasks: [{
+				id: "5FBA9EF317707B02"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:lead"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F4EA1B0DBFFED2"]
+			id: "74AD8B83466694D9"
+			tasks: [{
+				id: "5D35985A08D29AC7"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:spirited"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 8.0d
+			shape: "diamond"
+			dependencies: [
+				"5CC1617D24647B93"
+				"53DF8BF9F0826862"
+				"2FC02604D05375F1"
+				"06BF7661FF09E0D2"
+				"465BF4DF1796B33D"
+				"367CE912D0C8651C"
+				"64622C6881D9176B"
+				"1E88C4D6935A0453"
+				"1E50E4C21D5079E3"
+				"33EA5E75664BEF49"
+				"2952ED791235FA59"
+				"0B9B10CE2EDE7ACB"
+				"599D4055D02E28C1"
+				"4B3BCC03AF0BD408"
+				"102C2FA6708E0763"
+				"74AD8B83466694D9"
+				"0A6BF2B6785074B3"
+				"4163A358AA950FC7"
+				"0C18582338A3C3D9"
+				"519B21F6FE1936D9"
+				"2CCF1796796BAC07"
+				"167A48B2B2232EC7"
+				"1B33290A60E64FC1"
+				"658ACFC2AB9E9E74"
+				"597F58A311F26E07"
+				"5A668B51EC873A90"
+				"1224C173061E46E5"
+				"6CF4C74B279574CB"
+				"179F77328824BEB6"
+				"182D3A56D426A3E2"
+				"7AB7DB11A4B9E915"
+				"6AE072B1B26F77F7"
+			]
+			size: 4.0d
+			id: "59E97A315CC57900"
+			tasks: [{
+				id: "347DCD29D70290EF"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+		}
+	]
+}

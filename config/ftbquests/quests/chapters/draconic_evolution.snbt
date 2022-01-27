@@ -1,0 +1,1982 @@
+{
+	id: "5A6078595E919328"
+	group: "7F090E96EFD94B43"
+	order_index: 3
+	filename: "draconic_evolution"
+	title: "Draconic Evolution"
+	icon: {
+		id: "draconicevolution:chaotic_staff"
+		Count: 1b
+		tag: { }
+		ForgeCaps: {
+			Parent: {
+				module_host: {
+					provider_id: [I;
+						-1458342413
+						140397524
+						-1713524258
+						-1256205110
+					]
+					modules: [ ]
+					properties: {
+						mining_speed: {
+							hud: 1b
+							value: 1.0d
+						}
+					}
+				}
+				energy: {
+					energy: 0L
+				}
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 3.5d
+			y: 10.5d
+			shape: "octagon"
+			dependencies: [
+				"0D0125950C81816E"
+				"22999033333BCA2C"
+			]
+			id: "4414ABE1D7822C6E"
+			tasks: [{
+				id: "4C687C384DD4E570"
+				type: "item"
+				item: "draconicevolution:draconium_dust"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 12.5d
+			shape: "hexagon"
+			dependencies: ["4414ABE1D7822C6E"]
+			id: "41AC0B64728398AF"
+			tasks: [{
+				id: "230606F6780411FC"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 14.5d
+			shape: "diamond"
+			dependencies: [
+				"41AC0B64728398AF"
+				"4F653ADFAFAF8ABB"
+				"254D683B153C4582"
+			]
+			size: 1.5d
+			id: "3DEE79B6C18743BB"
+			tasks: [{
+				id: "34D62E02F41EA0F6"
+				type: "item"
+				item: "draconicevolution:draconium_core"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 16.0d
+			shape: "diamond"
+			dependencies: ["3DEE79B6C18743BB"]
+			size: 1.5d
+			id: "7BDE44B2EBB9F092"
+			tasks: [{
+				id: "33245DEAA6821188"
+				type: "item"
+				item: "draconicevolution:wyvern_core"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 17.5d
+			shape: "diamond"
+			dependencies: ["7BDE44B2EBB9F092"]
+			size: 1.5d
+			id: "186003E81B3E64B4"
+			tasks: [{
+				id: "01155059C5D4D993"
+				type: "item"
+				item: "draconicevolution:awakened_core"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 19.0d
+			shape: "diamond"
+			dependencies: [
+				"186003E81B3E64B4"
+				"02B88561BFA79370"
+			]
+			size: 1.5d
+			id: "30CC45BC745EFC5C"
+			tasks: [{
+				id: "6ABEDD6263DA9F85"
+				type: "item"
+				item: "draconicevolution:chaotic_core"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 16.5d
+			shape: "hexagon"
+			dependencies: ["723F46202A76C7FB"]
+			id: "48A4816FD2732B2F"
+			tasks: [{
+				id: "5B69281F37E5A547"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_block"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 15.5d
+			shape: "hexagon"
+			description: ["You can get a &6Dragon Heart&r by killing the Ender Dragon."]
+			dependencies: ["0BDA67667CF2B2A3"]
+			id: "723F46202A76C7FB"
+			tasks: [{
+				id: "50E3BCDCACCE2DE2"
+				type: "item"
+				item: "draconicevolution:dragon_heart"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 17.5d
+			shape: "hexagon"
+			dependencies: ["48A4816FD2732B2F"]
+			id: "5347872ED95C0D38"
+			tasks: [{
+				id: "6BD114F95114E6E7"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_ingot"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 19.0d
+			shape: "hexagon"
+			description: [
+				"After defeat the Chaos Guardian, you can grab the &8Chaotic Shards&r inside the Chaotic Island."
+				""
+				"Chaotic Island are located every 10000 blocks."
+			]
+			dependencies: ["0BDA67667CF2B2A3"]
+			id: "02B88561BFA79370"
+			tasks: [{
+				id: "0AD476F8B524EA7A"
+				type: "item"
+				item: "draconicevolution:chaos_shard"
+				count: 5L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 14.5d
+			shape: "hexagon"
+			description: [
+				"&dThe Fusion Crafting Core&r is the center of the multi-block Fusion Crafting setup."
+				""
+				"It is used to hold the central item of the craft."
+				""
+				"It crafts by pressing the button on the GUI or by a signal redstone."
+			]
+			hide_dependency_lines: true
+			dependencies: ["3DEE79B6C18743BB"]
+			size: 1.5d
+			id: "7D1F2293C1E1979A"
+			tasks: [{
+				id: "7710EF3E28788D2B"
+				type: "item"
+				item: "draconicevolution:crafting_core"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 14.5d
+			shape: "gear"
+			description: [
+				"&dThe Draconium Fusion Crafting Injector&r is the first tier of Fusion Crafting Injectors used in the Fusion crafting process."
+				""
+				"You must place, at least, &ctwo blocks&r away from the Fusion Core and have a maximum of &c3x3&r on one side."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"47A4D81697C274A3"
+				"3DEE79B6C18743BB"
+			]
+			id: "794CE36A9EBCC151"
+			tasks: [{
+				id: "71940CD5973FE314"
+				type: "item"
+				item: "draconicevolution:basic_crafting_injector"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 16.0d
+			shape: "gear"
+			description: ["&dThe Wyvern Fusion Crafting Injector&r is the second tier of Fusion Crafting Injectors used in the Fusion crafting process and is created using Fusion crafting."]
+			dependencies: ["794CE36A9EBCC151"]
+			id: "2F98FC6EB3FD8756"
+			tasks: [{
+				id: "6318EEF5E0E7D167"
+				type: "item"
+				item: "draconicevolution:wyvern_crafting_injector"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 17.5d
+			shape: "gear"
+			description: ["&dThe Draconic Fusion Crafting Injector&r is the third tier of Fusion Crafting Injectors used in the Fusion crafting process and is created using Fusion crafting."]
+			dependencies: ["2F98FC6EB3FD8756"]
+			id: "30D4F6F9F3D6EAB9"
+			tasks: [{
+				id: "4A8E9996058D59F6"
+				type: "item"
+				item: "draconicevolution:awakened_crafting_injector"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 19.0d
+			shape: "gear"
+			description: ["&dThe Chaotic Fusion Crafting Injector&r is the fourth and final tier of Fusion Crafting Injectors used in the Fusion crafting process and is created using Fusion crafting."]
+			dependencies: ["30D4F6F9F3D6EAB9"]
+			id: "5E8C6F0D7FCAAEA9"
+			tasks: [{
+				id: "31BF02F226F133D7"
+				type: "item"
+				item: "draconicevolution:chaotic_crafting_injector"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 16.0d
+			shape: "hexagon"
+			description: [
+				"&dThe Chest Piece&r is the new armor from Draconic Evolution."
+				""
+				"You can cary him on your body slot or in your curio slot."
+				""
+				"&dThe Wyvern Chest Piece&r has a grid of &56x5&r for modules."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"3DEE79B6C18743BB"
+				"41AC0B64728398AF"
+				"2F98FC6EB3FD8756"
+			]
+			size: 1.5d
+			id: "4B8E2064C4224291"
+			tasks: [{
+				id: "50A5004ABF208DA6"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_chestpiece"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-314780621
+									-968932777
+									-2123877049
+									2137137479
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 17.5d
+			shape: "hexagon"
+			description: ["&dThe Draconic Chest Piece&r has a grid of &58x6&r for modules."]
+			hide_dependency_lines: true
+			dependencies: [
+				"4B8E2064C4224291"
+				"7BDE44B2EBB9F092"
+				"30D4F6F9F3D6EAB9"
+				"5347872ED95C0D38"
+			]
+			size: 1.5d
+			id: "23F3B70F657CB028"
+			tasks: [{
+				id: "15EE37466DE87294"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_chestpiece"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-198309178
+									1124287799
+									-1647907713
+									-444005416
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 19.0d
+			shape: "hexagon"
+			description: ["&dThe Chaotic Chest Piece&r has a grid of &510x8&r for modules."]
+			hide_dependency_lines: true
+			dependencies: [
+				"23F3B70F657CB028"
+				"5E8C6F0D7FCAAEA9"
+				"30CC45BC745EFC5C"
+				"5347872ED95C0D38"
+			]
+			size: 1.5d
+			id: "26E0E2666DD03580"
+			tasks: [{
+				id: "0309A48BE4C3BC98"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_chestpiece"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-35981246
+									1910065371
+									-1939062808
+									297779094
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 12.0d
+			shape: "diamond"
+			description: [
+				"&bThe Advanced Dislocator&r is a device that use to store a lot of teleportation points. "
+				""
+				"&6Shift right-click&r to register your teleportation point in it, you can rename it and lock."
+				""
+				"&bThe Advanced Dislocator&r uses ender pearl as fuel."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"7BDE44B2EBB9F092"
+				"2F98FC6EB3FD8756"
+				"6E06971F3F472AF9"
+				"41AC0B64728398AF"
+			]
+			id: "3F07BE747490BD05"
+			tasks: [{
+				id: "07490592CE2E430A"
+				type: "item"
+				item: {
+					id: "draconicevolution:advanced_dislocator"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 11.0d
+			subtitle: "Whoosh !"
+			description: [
+				"&dThe Dislocator&r is used to teleport you."
+				""
+				"&6Shift right-click&r to set the teleportation position, then you can just &6right-click&r it to teleport you to the location (work in any dimension)."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"4414ABE1D7822C6E"
+				"57DBDBDE8D06C2AF"
+			]
+			id: "6E06971F3F472AF9"
+			tasks: [{
+				id: "208FBD7594572032"
+				type: "item"
+				item: {
+					id: "draconicevolution:dislocator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 11.0d
+			description: [
+				"&dThe dislocator pedestal&r allows to put a dislocator on it."
+				""
+				"Then right click on the pedestal to teleport to the point saved by the dislocator."
+			]
+			dependencies: ["57DBDBDE8D06C2AF"]
+			id: "038CE16EC0D008CF"
+			tasks: [{
+				id: "78F469DDF0003A7F"
+				type: "item"
+				item: "draconicevolution:dislocator_pedestal"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 16.0d
+			shape: "square"
+			description: ["&dThe Wyvern Bow&r has a grid of &54x4&r for modules."]
+			dependencies: ["2F98FC6EB3FD8756"]
+			id: "56312E4EFCCF5CF6"
+			tasks: [{
+				id: "4CAAED8485548436"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_bow"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-526685370
+									1766805218
+									-2019470731
+									-232607724
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 17.5d
+			shape: "square"
+			description: ["&dThe Draconic Bow&r has a grid of &56x5&r for modules."]
+			dependencies: [
+				"56312E4EFCCF5CF6"
+				"30D4F6F9F3D6EAB9"
+			]
+			id: "0D16E71E4E3C21D7"
+			tasks: [{
+				id: "4F5B428706C4A833"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_bow"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1099695692
+									600853834
+									-1286638189
+									504371752
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 19.0d
+			shape: "square"
+			description: ["&dThe Chaotic Bow&r has a grid of &58x6&r for modules."]
+			dependencies: [
+				"0D16E71E4E3C21D7"
+				"5E8C6F0D7FCAAEA9"
+			]
+			id: "22777815DBDA5CFB"
+			tasks: [{
+				id: "22D6485892C95C48"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_bow"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1060164666
+									-1395831008
+									-1569332271
+									-1844231176
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 16.0d
+			shape: "square"
+			description: ["&dThe Wyvern Sword&r has a grid of &54x4&r for modules."]
+			dependencies: ["2F98FC6EB3FD8756"]
+			id: "3456DE9307F84925"
+			tasks: [{
+				id: "21B0C7D6FFFE3ACD"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_sword"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1811504325
+									1561805946
+									-1160417083
+									1696152094
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 17.5d
+			shape: "square"
+			description: ["&dThe Draconic Sword&r has a grid of &56x5&r for modules."]
+			dependencies: [
+				"3456DE9307F84925"
+				"30D4F6F9F3D6EAB9"
+			]
+			id: "0E22D494BB7DA7C7"
+			tasks: [{
+				id: "431A098C9CEFE486"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_sword"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1177073214
+									-371375836
+									-1368801414
+									1066612165
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 19.0d
+			shape: "square"
+			description: ["&dThe Chaotic Sword&r has a grid of &58x6&r for modules."]
+			dependencies: [
+				"0E22D494BB7DA7C7"
+				"5E8C6F0D7FCAAEA9"
+			]
+			id: "7C689DD87E836201"
+			tasks: [{
+				id: "70CDCB4659BE9813"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_sword"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1991938178
+									-140555573
+									-1524801236
+									2054035337
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 16.0d
+			shape: "square"
+			description: ["&dThe Wyvern Pickaxe&r has a grid of &54x4&r for modules."]
+			dependencies: ["2F98FC6EB3FD8756"]
+			id: "0B5516A84DC9138E"
+			tasks: [{
+				id: "5D15B9C11BAB5572"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_pickaxe"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-771155307
+									1010715190
+									-1246247619
+									1180349441
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 17.5d
+			shape: "square"
+			description: ["&dThe Draconic Pickaxe&r has a grid of &56x5&r for modules."]
+			dependencies: [
+				"0B5516A84DC9138E"
+				"30D4F6F9F3D6EAB9"
+			]
+			id: "05D3378A9E18DA8A"
+			tasks: [{
+				id: "28299DA5F2D4695E"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_pickaxe"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1338576426
+									1933659746
+									-1294160311
+									1350732479
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 19.0d
+			shape: "square"
+			description: ["&dThe Chaotic Pickaxe&r has a grid of &58x6&r for modules."]
+			dependencies: [
+				"05D3378A9E18DA8A"
+				"5E8C6F0D7FCAAEA9"
+			]
+			id: "2382E81E30018750"
+			tasks: [{
+				id: "364414A2CE630511"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_pickaxe"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1496280734
+									765216274
+									-1901495614
+									2038767703
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: 16.0d
+			shape: "square"
+			description: ["&dThe Wyvern Shovel&r has a grid of &54x4&r for modules."]
+			dependencies: ["2F98FC6EB3FD8756"]
+			id: "7D86B0E9C0399246"
+			tasks: [{
+				id: "4ED4292D2F8E71F2"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_shovel"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1774379770
+									-1263252478
+									-1164211957
+									307026243
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: 17.5d
+			shape: "square"
+			description: ["&dThe Draconic Shovel&r has a grid of &56x5&r for modules."]
+			dependencies: [
+				"7D86B0E9C0399246"
+				"30D4F6F9F3D6EAB9"
+			]
+			id: "049C87C85C93CDC2"
+			tasks: [{
+				id: "7FDE5F7D522DB924"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_shovel"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									695203866
+									-434223988
+									-2008643676
+									1411803472
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: 19.0d
+			shape: "square"
+			description: ["&dThe Chaotic Shovel&r has a grid of &58x6&r for modules."]
+			dependencies: [
+				"049C87C85C93CDC2"
+				"5E8C6F0D7FCAAEA9"
+			]
+			id: "455A3CAA897731A8"
+			tasks: [{
+				id: "614D989B943B0214"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_shovel"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1026034558
+									-1360182966
+									-1690752874
+									-413980274
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 17.5d
+			shape: "octagon"
+			description: ["&dThe Draconic Staff of Power&r has a grid of &58x6&r for modules."]
+			dependencies: [
+				"049C87C85C93CDC2"
+				"05D3378A9E18DA8A"
+				"0E22D494BB7DA7C7"
+				"30D4F6F9F3D6EAB9"
+			]
+			size: 1.5d
+			id: "698671248A4A56D2"
+			tasks: [{
+				id: "68724E3C8573E995"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_staff"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-614092634
+									-864073959
+									-1531938746
+									-262768114
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 19.0d
+			shape: "octagon"
+			description: ["&dThe Chaotic Staff of Power&r has a grid of &510x8&r for modules."]
+			dependencies: [
+				"455A3CAA897731A8"
+				"2382E81E30018750"
+				"7C689DD87E836201"
+				"5E8C6F0D7FCAAEA9"
+			]
+			size: 1.5d
+			id: "7A46209F3EFBCBC1"
+			tasks: [{
+				id: "00FB83966A16D2D6"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_staff"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1458342413
+									140397524
+									-1713524258
+									-1256205110
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: 16.0d
+			description: ["&dThe Wyvern Capacitor&r has a grid of &54x4&r for modules."]
+			hide_dependency_lines: true
+			dependencies: [
+				"41AC0B64728398AF"
+				"7BDE44B2EBB9F092"
+				"2F98FC6EB3FD8756"
+			]
+			id: "1144C79D6AFB58A5"
+			tasks: [{
+				id: "0CC0A4D2E7A2CDD3"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_capacitor"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1611343373
+									-794999979
+									-2019798660
+									-279284291
+								]
+								modules: [ ]
+								properties: {
+									charge_main: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_armor: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: 17.5d
+			description: ["&dThe Draconic Capacitor&r has a grid of &56x5&r for modules."]
+			dependencies: ["1144C79D6AFB58A5"]
+			id: "357943ECF5E58743"
+			tasks: [{
+				id: "74154B964BE959AB"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_capacitor"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									2131703770
+									-139441400
+									-1721591607
+									-278333905
+								]
+								modules: [ ]
+								properties: {
+									charge_main: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_armor: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: 19.0d
+			description: ["&dThe Chaotic Capacitor&r has a grid of &58x6&r for modules."]
+			dependencies: ["357943ECF5E58743"]
+			id: "52B84CFBBF1F5C3D"
+			tasks: [{
+				id: "4DE87ED85C5F319F"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_capacitor"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1531251522
+									1184514569
+									-2005122767
+									-1115993171
+								]
+								modules: [ ]
+								properties: {
+									charge_main: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_armor: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 11.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"3DEE79B6C18743BB"
+				"17089E72E359D3DC"
+				"47A4D81697C274A3"
+			]
+			id: "6A1308B1983DBBC3"
+			tasks: [{
+				id: "59E4A3C7C730B99F"
+				type: "item"
+				item: "draconicevolution:generator"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 12.5d
+			description: ["&dThe Item Dislocator&r is a magnet with a range of 8 blocks."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6E06971F3F472AF9"
+				"41AC0B64728398AF"
+			]
+			id: "636050D700FFCD24"
+			tasks: [{
+				id: "5EFB8A025B8EA23B"
+				type: "item"
+				item: "draconicevolution:magnet"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 12.5d
+			description: ["&dThe Awakened Item Dislocator&r is an upgrade of item dislocator with a range of 32 blocks."]
+			hide_dependency_lines: true
+			dependencies: [
+				"636050D700FFCD24"
+				"5347872ED95C0D38"
+				"41AC0B64728398AF"
+			]
+			id: "2EB5954D88AC7C58"
+			tasks: [{
+				id: "644372A39B618648"
+				type: "item"
+				item: "draconicevolution:advanced_magnet"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 11.0d
+			shape: "diamond"
+			description: ["&dThe Module Core&r is the base of every Module for your Draconic Evolution Stuff."]
+			hide_dependency_lines: true
+			dependencies: [
+				"41AC0B64728398AF"
+				"71E4BB753498AB6B"
+				"47A4D81697C274A3"
+				"321AFD3A1679E8E0"
+			]
+			size: 2.0d
+			id: "2671EB0D79269F64"
+			tasks: [{
+				id: "6A062CF59AF03A70"
+				type: "item"
+				item: "draconicevolution:module_core"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 10.0d
+			shape: "diamond"
+			description: ["&dThe Crystal Binder&r is used when linking Energy I/O Crystal."]
+			hide_dependency_lines: true
+			dependencies: [
+				"41AC0B64728398AF"
+				"3DEE79B6C18743BB"
+			]
+			id: "66820FD25D19C2AD"
+			tasks: [{
+				id: "4FB5E7A373B7AFE5"
+				type: "item"
+				item: "draconicevolution:crystal_binder"
+			}]
+		}
+		{
+			title: "Basic Energy Transportation"
+			x: -2.5d
+			y: 10.0d
+			shape: "diamond"
+			description: [
+				"&dThe Basic Energy Relay Crystal &ris used to make a relay between I/O Crystal and Energy Crystal, it can store 4M RF and has 8 links, and has a range of 32 blocks."
+				""
+				"&dThe Basic Energy I/O Crystal&r can store 4M RF and has 2 links, it has a range of 32 blocks."
+				""
+				"&dThe Basic Wireless Energy Crystal &ris used to powered machines wirelessly,  can store 4M RF and has 4 links, can provide wireless RF to 16 machines, and it has a range of 128 blocks."
+			]
+			hide_dependency_lines: true
+			dependencies: ["66820FD25D19C2AD"]
+			id: "21337C88E810A987"
+			tasks: [
+				{
+					id: "25993F74BF8B4E7F"
+					type: "item"
+					item: "draconicevolution:basic_io_crystal"
+				}
+				{
+					id: "416217646030839D"
+					type: "item"
+					item: "draconicevolution:basic_relay_crystal"
+				}
+				{
+					id: "0D3678F58E72FB10"
+					type: "item"
+					item: "draconicevolution:basic_wireless_crystal"
+				}
+			]
+		}
+		{
+			title: "Wyvern Energy Transportation"
+			x: -2.0d
+			y: 10.5d
+			shape: "diamond"
+			description: [
+				"&dThe Wyvern Energy Relay Crystal&r is used to make a relay between I/O Crystal and Energy Crystal, It can store 16M RF and has 16 links, and it has a range of 64 blocks."
+				""
+				"&dThe Wyvern Energy I/O Crystal&r can store 16M RF and has 3 links, it has a range of 64 blocks."
+				""
+				"&dThe Wyvern Wireless Energy Crystal&r is used to powered machines wirelessly, it can store 16M RF and has 8 links, it can provide wireless RF to 32 machines, and it has a range of 128 blocks."
+			]
+			hide_dependency_lines: true
+			dependencies: ["21337C88E810A987"]
+			id: "26E0A88FEF2D485A"
+			tasks: [
+				{
+					id: "7B9FDEB450346204"
+					type: "item"
+					item: "draconicevolution:wyvern_io_crystal"
+				}
+				{
+					id: "2B3C60BE38EC7AAC"
+					type: "item"
+					item: "draconicevolution:wyvern_relay_crystal"
+				}
+				{
+					id: "4E39390076B10DD6"
+					type: "item"
+					item: "draconicevolution:wyvern_wireless_crystal"
+				}
+			]
+		}
+		{
+			title: "Draconic Energy Transportation"
+			x: -4.0d
+			y: 10.5d
+			shape: "diamond"
+			description: [
+				"&dThe Draconic Energy Relay Crystal&r is used to make a relay between I/O Crystal and Energy Crystal, it can store 64M RF and has 32 links, and it has a range of 128 blocks."
+				""
+				"&dThe Draconic Energy I/O Crystal&r can store 64M RF and has 4 links, it has a range of 128 blocks."
+				""
+				"&dThe Draconic Wireless Energy Crystal&r is used to powered machines wirelessly, it can store 64M RF and has 16 links, it can provide wireless RF to 64 machines, and it has a range of 128 blocks."
+			]
+			hide_dependency_lines: true
+			dependencies: ["26E0A88FEF2D485A"]
+			id: "2F312AB2271D1B60"
+			tasks: [
+				{
+					id: "24F67DF0F06AF0C5"
+					type: "item"
+					item: "draconicevolution:draconic_io_crystal"
+				}
+				{
+					id: "4CB51F8B458C4441"
+					type: "item"
+					item: "draconicevolution:draconic_relay_crystal"
+				}
+				{
+					id: "3F7902512EA4AA39"
+					type: "item"
+					item: "draconicevolution:draconic_wireless_crystal"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 11.5d
+			shape: "diamond"
+			description: [
+				"&dThe Energy Transfuser&r is used to recharge yout draconic stuff faster."
+				""
+				"You can charge 4 items or blocks inside."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"3DEE79B6C18743BB"
+				"41AC0B64728398AF"
+			]
+			id: "41C21364F8E173F9"
+			tasks: [{
+				id: "7FAF7112DD6C9342"
+				type: "item"
+				item: "draconicevolution:energy_transfuser"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 12.0d
+			shape: "diamond"
+			subtitle: "KILLER 2000 !"
+			description: [
+				"&dThe Mob Grinder&r is used to kill mob with a powerful filter."
+				""
+				"You can change the size of the aoe."
+				"You can define if it will collect items and/or xp."
+				"It can store xp."
+				"You can choose what you want to kill, Hostile, Adults, Tamed mob, etc..."
+				""
+				"You can provide it any sword (can be enchanted) it uses his durability."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"47A4D81697C274A3"
+				"3DEE79B6C18743BB"
+				"41AC0B64728398AF"
+			]
+			id: "6FFF587823D1632E"
+			tasks: [{
+				id: "07AD80497B231A17"
+				type: "item"
+				item: "draconicevolution:grinder"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 10.5d
+			shape: "diamond"
+			description: ["&dThe Energy Module&r is used to increase the energy of your stuff."]
+			dependencies: ["2671EB0D79269F64"]
+			id: "25A9D26C83B360D6"
+			tasks: [
+				{
+					id: "65BFB192C4FBAF64"
+					type: "item"
+					item: "draconicevolution:draconium_energy_module"
+				}
+				{
+					id: "281E54606A0504AF"
+					type: "item"
+					item: "draconicevolution:wyvern_energy_module"
+				}
+				{
+					id: "7C5F90F19B21CECD"
+					type: "item"
+					item: "draconicevolution:draconic_energy_module"
+				}
+				{
+					id: "558219FD3456768E"
+					type: "item"
+					item: "draconicevolution:chaotic_energy_module"
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 9.0d
+			shape: "diamond"
+			description: ["&dThe Speed Module&r is used to increase your movement speed."]
+			dependencies: ["2671EB0D79269F64"]
+			id: "1CBBA0B9FFB30244"
+			tasks: [
+				{
+					id: "24F269BF0ED94F22"
+					type: "item"
+					item: "draconicevolution:draconium_speed_module"
+				}
+				{
+					id: "7A12688E9D326AED"
+					type: "item"
+					item: "draconicevolution:wyvern_speed_module"
+				}
+				{
+					id: "370F2D258FEA7D99"
+					type: "item"
+					item: "draconicevolution:draconic_speed_module"
+				}
+				{
+					id: "12AFFE1FDAAA854A"
+					type: "item"
+					item: "draconicevolution:chaotic_speed_module"
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: 11.0d
+			shape: "diamond"
+			description: ["&dThe Damage Module&r is used to increase the damage done by your weapons."]
+			dependencies: ["2671EB0D79269F64"]
+			id: "6CF78CC29D072123"
+			tasks: [
+				{
+					id: "403AEB21DE014C17"
+					type: "item"
+					item: "draconicevolution:draconium_damage_module"
+				}
+				{
+					id: "15B01AB9E6D79D2E"
+					type: "item"
+					item: "draconicevolution:wyvern_damage_module"
+				}
+				{
+					id: "5388908D9F4A0286"
+					type: "item"
+					item: "draconicevolution:draconic_damage_module"
+				}
+				{
+					id: "4DFBF466395AE256"
+					type: "item"
+					item: "draconicevolution:chaotic_damage_module"
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 10.0d
+			shape: "diamond"
+			description: ["&dThe AOE Module&r is used to increase your AOE on your tools and weapons."]
+			dependencies: ["2671EB0D79269F64"]
+			id: "15C767E7E2956077"
+			tasks: [
+				{
+					id: "5B35CE082B8786A5"
+					type: "item"
+					item: "draconicevolution:draconium_aoe_module"
+				}
+				{
+					id: "3A409A83F0E90153"
+					type: "item"
+					item: "draconicevolution:wyvern_aoe_module"
+				}
+				{
+					id: "07F748FDA8EEE68B"
+					type: "item"
+					item: "draconicevolution:draconic_aoe_module"
+				}
+				{
+					id: "659344D97BA52C43"
+					type: "item"
+					item: "draconicevolution:chaotic_aoe_module"
+				}
+			]
+		}
+		{
+			title: "Projectile Velocity Module"
+			x: 8.5d
+			y: 11.0d
+			shape: "diamond"
+			description: ["&dThe Projectile Velocity Module&r is used to increase the velocity of your arrow when you shoot."]
+			dependencies: ["2671EB0D79269F64"]
+			id: "66D3BB3C1DAFD589"
+			tasks: [
+				{
+					id: "61BBDEB05CEFBC87"
+					type: "item"
+					item: "draconicevolution:wyvern_proj_velocity_module"
+				}
+				{
+					id: "55ECF3BC36F44740"
+					type: "item"
+					item: "draconicevolution:draconic_proj_velocity_module"
+				}
+				{
+					id: "75AB65D4928900C1"
+					type: "item"
+					item: "draconicevolution:chaotic_proj_velocity_module"
+				}
+			]
+		}
+		{
+			title: "Projectile Accuracy Module"
+			x: 9.5d
+			y: 13.0d
+			shape: "diamond"
+			description: ["&dThe Projectile Accuracy Module&r is used to improve your accuracy with the bow."]
+			dependencies: ["2671EB0D79269F64"]
+			id: "5A6C1C19CB67CF09"
+			tasks: [
+				{
+					id: "2C9F8151DD50E27D"
+					type: "item"
+					item: "draconicevolution:wyvern_proj_accuracy_module"
+				}
+				{
+					id: "600721D0FDD292E4"
+					type: "item"
+					item: "draconicevolution:draconic_proj_accuracy_module"
+				}
+				{
+					id: "5AAE42316F7DA5C5"
+					type: "item"
+					item: "draconicevolution:chaotic_proj_accuracy_module"
+				}
+			]
+		}
+		{
+			title: "Projectil Gravity Compensation Module"
+			x: 10.5d
+			y: 10.0d
+			shape: "diamond"
+			description: ["&dThe Projectile Gravity Compensation Module&r is used to make your archery straighter and therefore shoot farther."]
+			dependencies: ["2671EB0D79269F64"]
+			id: "1A6D9F79DEF0AA22"
+			tasks: [
+				{
+					id: "122B15B3EFF48F31"
+					type: "item"
+					item: "draconicevolution:wyvern_proj_grav_comp_module"
+				}
+				{
+					id: "789B5E3F8B5FB68C"
+					type: "item"
+					item: "draconicevolution:draconic_proj_grav_comp_module"
+				}
+				{
+					id: "4913410F90377B6F"
+					type: "item"
+					item: "draconicevolution:chaotic_proj_grav_comp_module"
+				}
+			]
+		}
+		{
+			title: "Projectile Penetration Module"
+			x: 9.0d
+			y: 11.5d
+			shape: "diamond"
+			subtitle: "Armor piercing !"
+			description: ["&dThe Projectile Penetration Module&r is used to penetrate armor when you shoot an arrow, sometimes you can even pass through a target and potentially hit additional targets."]
+			dependencies: ["2671EB0D79269F64"]
+			id: "75C30C2FF55A9533"
+			tasks: [
+				{
+					id: "2360F083633A41CC"
+					type: "item"
+					item: "draconicevolution:wyvern_proj_penetration_module"
+				}
+				{
+					id: "7B63273632C63FC9"
+					type: "item"
+					item: "draconicevolution:draconic_proj_penetration_module"
+				}
+				{
+					id: "3C2D2E872D65AE56"
+					type: "item"
+					item: "draconicevolution:chaotic_proj_penetration_module"
+				}
+			]
+		}
+		{
+			title: "Projectile Damage Module"
+			x: 9.5d
+			y: 12.0d
+			shape: "diamond"
+			description: ["&dThe Projectile Damage Module&r is used to increase the damage done by your arrows."]
+			dependencies: ["2671EB0D79269F64"]
+			id: "111C7DA3D909B3D4"
+			tasks: [
+				{
+					id: "6B59365F18A76EF7"
+					type: "item"
+					item: "draconicevolution:wyvern_proj_damage_module"
+				}
+				{
+					id: "052F49CE0DC040BA"
+					type: "item"
+					item: "draconicevolution:draconic_proj_damage_module"
+				}
+				{
+					id: "1D5DA98E60411678"
+					type: "item"
+					item: "draconicevolution:chaotic_proj_damage_module"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 10.5d
+			shape: "diamond"
+			subtitle: "SPAAAM !!"
+			description: ["&dThe Auto Fire Module&r, is used to add an auto fire to your bow."]
+			dependencies: ["2671EB0D79269F64"]
+			id: "54E3E916D4F42BA3"
+			tasks: [{
+				id: "5A78964F02798386"
+				type: "item"
+				item: "draconicevolution:wyvern_auto_fire_module"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 9.0d
+			shape: "diamond"
+			subtitle: "Bye bye Enderman !"
+			description: ["&dThe Projectile Immunity Cancellation Module&r is used to cancel the enderman's teleportation when you want to shoot them."]
+			dependencies: ["2671EB0D79269F64"]
+			id: "151574B262D18C44"
+			tasks: [{
+				id: "188B38F15B3F3105"
+				type: "item"
+				item: "draconicevolution:draconic_proj_anti_immune_module"
+			}]
+		}
+		{
+			title: "Shield Control Module"
+			x: 10.5d
+			y: 13.0d
+			shape: "diamond"
+			description: ["&dThe Shield Control Module&r is used to decrease the Shield Cooldown."]
+			dependencies: ["2671EB0D79269F64"]
+			id: "7ECCFA2C59A67CBD"
+			tasks: [
+				{
+					id: "7CDB60BCCB9B811C"
+					type: "item"
+					item: "draconicevolution:wyvern_shield_control_module"
+				}
+				{
+					id: "5DF7A97158CE4639"
+					type: "item"
+					item: "draconicevolution:draconic_shield_control_module"
+				}
+				{
+					id: "4E034EE5D1568C41"
+					type: "item"
+					item: "draconicevolution:chaotic_shield_control_module"
+				}
+			]
+		}
+		{
+			title: "Shield Capacity Module"
+			x: 11.0d
+			y: 11.5d
+			shape: "diamond"
+			description: ["&dThe Shield Capacity Module&r is used to increaser your Energy Shield."]
+			dependencies: ["2671EB0D79269F64"]
+			id: "5B7EDAB3E565BBCA"
+			tasks: [
+				{
+					id: "43F621302808A72F"
+					type: "item"
+					item: "draconicevolution:wyvern_shield_capacity_module"
+				}
+				{
+					id: "798F82FF3A15AD00"
+					type: "item"
+					item: "draconicevolution:draconic_shield_capacity_module"
+				}
+				{
+					id: "6FA2218846AD7F5A"
+					type: "item"
+					item: "draconicevolution:chaotic_shield_capacity_module"
+				}
+			]
+		}
+		{
+			title: "Large Shield Capacity Module"
+			x: 10.5d
+			y: 12.0d
+			shape: "diamond"
+			subtitle: "Better, stronger !"
+			description: ["&dThe Large Shield Capacity Module&r is used to increase your Energy Shield but take less place in your tool modules GUI."]
+			dependencies: ["2671EB0D79269F64"]
+			id: "4F11B7C1E58D503A"
+			tasks: [
+				{
+					id: "0516C9903E692BBA"
+					type: "item"
+					item: "draconicevolution:wyvern_large_shield_capacity_module"
+				}
+				{
+					id: "30830617FD57B4CB"
+					type: "item"
+					item: "draconicevolution:draconic_large_shield_capacity_module"
+				}
+				{
+					id: "3F8F206DE273A3F0"
+					type: "item"
+					item: "draconicevolution:chaotic_large_shield_capacity_module"
+				}
+			]
+		}
+		{
+			title: "Shield Recovery Module"
+			x: 10.0d
+			y: 12.5d
+			shape: "diamond"
+			description: ["&dThe Shield Recovery Module&r allows you to improve your shield recharge of your Chest Piece."]
+			dependencies: ["2671EB0D79269F64"]
+			id: "5C9C903FC9672E84"
+			tasks: [
+				{
+					id: "6405CFDF1BA4978D"
+					type: "item"
+					item: "draconicevolution:wyvern_shield_recovery_module"
+				}
+				{
+					id: "457B4C4300889731"
+					type: "item"
+					item: "draconicevolution:draconic_shield_recovery_module"
+				}
+				{
+					id: "63580F9BECD9B0B1"
+					type: "item"
+					item: "draconicevolution:chaotic_shield_recovery_module"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 9.5d
+			shape: "diamond"
+			description: ["&dThe Hill Step Module&r gives you the ability to have a step assist."]
+			dependencies: ["2671EB0D79269F64"]
+			id: "706098A73A2DF519"
+			tasks: [{
+				id: "6D95B21F155913E0"
+				type: "item"
+				item: "draconicevolution:wyvern_hill_step_module"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 11.5d
+			shape: "diamond"
+			description: ["&dThe Jump Module&r is used to give you a Jump Boost effect."]
+			dependencies: ["2671EB0D79269F64"]
+			id: "3F2B95CAD585C6E5"
+			tasks: [
+				{
+					id: "562EA61ECE9EA758"
+					type: "item"
+					item: "draconicevolution:draconium_jump_module"
+				}
+				{
+					id: "42C457FBF75F2237"
+					type: "item"
+					item: "draconicevolution:wyvern_jump_module"
+				}
+				{
+					id: "6E350154CF5E7AA4"
+					type: "item"
+					item: "draconicevolution:draconic_jump_module"
+				}
+				{
+					id: "7624345658478EC9"
+					type: "item"
+					item: "draconicevolution:chaotic_jump_module"
+				}
+			]
+		}
+		{
+			title: "Flight Module"
+			x: 12.0d
+			y: 10.5d
+			shape: "diamond"
+			subtitle: "Better than Elytra"
+			description: [
+				"&dThe Flight Module&r give you an Elytra on your Chest Piece."
+				""
+				"By unlocking &6The Draconic Flight Module &ryou will be able to have the &ecreative flight&r."
+			]
+			dependencies: ["2671EB0D79269F64"]
+			id: "4E28DBC04B2A01AB"
+			tasks: [
+				{
+					id: "4E1327E178A3155D"
+					type: "item"
+					item: "draconicevolution:wyvern_flight_module"
+				}
+				{
+					id: "10D43E0A2DC038FA"
+					type: "item"
+					item: "draconicevolution:draconic_flight_module"
+				}
+				{
+					id: "3530EB98B7A12E98"
+					type: "item"
+					item: "draconicevolution:chaotic_flight_module"
+				}
+			]
+		}
+		{
+			title: "Undying Module"
+			x: 12.0d
+			y: 11.5d
+			shape: "diamond"
+			subtitle: "Invincible ?"
+			description: ["&dThe Undying Module&r is basically a totem of undying installable on your Chest Piece."]
+			dependencies: ["2671EB0D79269F64"]
+			id: "7C29C48445E62700"
+			tasks: [
+				{
+					id: "6D8C6F158B6B717E"
+					type: "item"
+					item: "draconicevolution:wyvern_undying_module"
+				}
+				{
+					id: "7CFAC4C9F62101B9"
+					type: "item"
+					item: "draconicevolution:draconic_undying_module"
+				}
+				{
+					id: "32624325BDE82D85"
+					type: "item"
+					item: "draconicevolution:chaotic_undying_module"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 10.5d
+			shape: "diamond"
+			description: ["&dThe Auto Feed Module&r is used to store food and auto feed you."]
+			dependencies: ["2671EB0D79269F64"]
+			id: "22BA5C2BDD6411B4"
+			tasks: [
+				{
+					id: "4B08F878563AA177"
+					type: "item"
+					item: "draconicevolution:draconium_auto_feed_module"
+				}
+				{
+					id: "1B2335582A0DB014"
+					type: "item"
+					item: "draconicevolution:wyvern_auto_feed_module"
+				}
+				{
+					id: "13D84194E9634F99"
+					type: "item"
+					item: "draconicevolution:draconic_auto_feed_module"
+				}
+			]
+		}
+		{
+			title: "Draconic Energy Storage"
+			x: -3.0d
+			y: 11.0d
+			shape: "diamond"
+			description: [
+				"&dDraconic Energy Storage&r is used to store a lot of energy."
+				""
+				"&dThe Energy Core&r is in the center of draconic ball."
+				""
+				"&dThe Energy Pylons&r are used to insert or extract energy. To work you need to put a glass block on the top of below the Pylon to activate it."
+				""
+				"&dThe Energy Core Stabilizer&r are here to stabilize your Draconic Ball&r."
+				"It needs to be 8 blocks max and 1 block min distance from your Draconic Ball."
+				""
+				"&dTier 1&r (Can store 45.5M RF) : "
+				"• 4 Energy Stabilizer"
+				""
+				"&dTier 2&r (Can store 273M RF) :"
+				"• 6 Draconium Blocks"
+				"• 4 Energy Core Stabilizer"
+				""
+				"&dTier 3&r (Can store 1.6G RF) :"
+				"• 26 Draconium Blocks"
+				"• 4 Energy Core Stabilizer"
+				""
+				"&dTier 4&r (Can store 9.8G RF) :"
+				"• 54 Draconium Blocks"
+				"• 26 Redstone Blocks"
+				"• 4 Energy Core Stabilizer"
+				""
+				"&dTier 5 &r(Can store 59.3G RF) :"
+				"• 90 Draconium Blocks"
+				"• 80 Redstone Blocks"
+				"• 36 Energy Core Stabilizer"
+				""
+				"&dTier 6&r (Can store 356G RF) :"
+				"• 150 Draconium Blocks"
+				"• 178 Redstone Blocks"
+				"• 36 Energy Core Stabilizer"
+				""
+				"&dTier 7&r (Can store 2.14T RF) :"
+				"• 210 Draconium Blocks"
+				"• 328 Redstone Blocks"
+				"• 36 Energy Core Stabilizer"
+				""
+				"&dTier 8&r (Can store Almost Infinite RF ► 9,223,372,036,854,775,807 RF)"
+				"• 378 Awakned Draconium Blocks"
+				"• 786 Draconium Blocks"
+				"• 36 Energy Core Stabilizer"
+			]
+			hide_dependency_lines: true
+			dependencies: ["186003E81B3E64B4"]
+			size: 2.0d
+			min_width: 300
+			id: "17E041B57A3E24B4"
+			tasks: [
+				{
+					id: "5360DA7E60046993"
+					type: "item"
+					item: "draconicevolution:energy_core"
+				}
+				{
+					id: "7C8469B90629B952"
+					type: "item"
+					item: "draconicevolution:energy_pylon"
+					count: 2L
+				}
+				{
+					id: "39286CD25EA27245"
+					type: "item"
+					item: "draconicevolution:energy_core_stabilizer"
+					count: 36L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 12.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"3DEE79B6C18743BB"
+				"794CE36A9EBCC151"
+				"41AC0B64728398AF"
+			]
+			id: "6AC5532E18C98BD6"
+			tasks: [{
+				id: "79EEE458E66BAABC"
+				type: "item"
+				item: "draconicevolution:draconium_chest"
+			}]
+		}
+	]
+}

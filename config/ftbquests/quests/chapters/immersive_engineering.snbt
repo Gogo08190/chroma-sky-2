@@ -1127,7 +1127,7 @@
 			}]
 		}
 		{
-			title: "&aMechanic Core Tier 1"
+			title: "&cMechanic Core Tier 1"
 			x: 8.94047619047619d
 			y: 4.488095238095255d
 			shape: "gear"

@@ -158,6 +158,7 @@
 			x: 2.5d
 			y: -12.0d
 			shape: "pentagon"
+			description: ["&4Nether Painting&r allows you to access the nether by jumping through it."]
 			dependencies: [
 				"5357A7208D1C2B46"
 				"243FA1E08B56689C"
@@ -221,6 +222,7 @@
 		{
 			x: 2.5d
 			y: -10.5d
+			description: ["Makes 1 Cobblestone every 40 ticks."]
 			dependencies: ["0BA2FBC41F80C847"]
 			id: "4DE1E7A69AD51402"
 			tasks: [{
@@ -397,6 +399,7 @@
 		{
 			x: 2.5d
 			y: -9.5d
+			description: ["Makes 1 Cobblestone every 10 ticks."]
 			dependencies: ["266D1CAE103C0114"]
 			id: "50A94B8D166B0C9A"
 			tasks: [{
@@ -408,6 +411,7 @@
 		{
 			x: 2.5d
 			y: -8.5d
+			description: ["Makes 1 Cobblestone every 5 ticks."]
 			dependencies: [
 				"50A94B8D166B0C9A"
 				"540B2743537BEA5E"
@@ -478,6 +482,28 @@
 				type: "item"
 				item: "tconstruct:seared_brick"
 				count: 16L
+			}]
+		}
+		{
+			x: 11.0d
+			y: -10.5d
+			dependencies: ["3F05D033EBD0710D"]
+			id: "2290B3928465E45D"
+			tasks: [{
+				id: "13548CAF5D07D470"
+				type: "item"
+				item: "recycler:recycler"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -9.5d
+			dependencies: ["2290B3928465E45D"]
+			id: "00CEB74CFCF042A8"
+			tasks: [{
+				id: "7DC98FBE1598DF36"
+				type: "item"
+				item: "recycler:advanced_recycler"
 			}]
 		}
 	]

@@ -1,0 +1,483 @@
+{
+	id: "149F0346D4AC2A23"
+	group: "079627CE8649F5BB"
+	order_index: 1
+	filename: "end_game"
+	title: "End Game"
+	icon: "storagedrawers:creative_vending_upgrade"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 4.5d
+			y: 8.0d
+			shape: "gear"
+			id: "054A86B7EABCB11C"
+			tasks: [{
+				id: "19C2E68253545EE3"
+				type: "item"
+				item: "overloaded:energy_core"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 9.0d
+			shape: "gear"
+			id: "6C2104B98DF94EE0"
+			tasks: [{
+				id: "486121B024EB88E4"
+				type: "item"
+				item: "overloaded:item_core"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 10.0d
+			shape: "gear"
+			id: "498CD087341D568F"
+			tasks: [{
+				id: "4DE22122D3B932D7"
+				type: "item"
+				item: "overloaded:fluid_core"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 8.0d
+			shape: "rsquare"
+			id: "01C63B4594E10B63"
+			tasks: [{
+				id: "38A535C1EE4969AC"
+				type: "item"
+				item: {
+					id: "overloaded:multi_helmet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 9.0d
+			shape: "rsquare"
+			id: "10754F48DCD439E2"
+			tasks: [{
+				id: "6D12AD6566723617"
+				type: "item"
+				item: {
+					id: "overloaded:multi_chestplate"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 10.0d
+			shape: "rsquare"
+			id: "2EC9B9319F82CAAA"
+			tasks: [{
+				id: "6F6E2A8CA7106885"
+				type: "item"
+				item: {
+					id: "overloaded:multi_leggings"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 11.0d
+			shape: "rsquare"
+			id: "1417EC3450717C4C"
+			tasks: [{
+				id: "4D696DC07D6F4031"
+				type: "item"
+				item: {
+					id: "overloaded:multi_boots"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: 10.0d
+			shape: "rsquare"
+			id: "104062E92532E624"
+			tasks: [{
+				id: "333572AC1777F971"
+				type: "item"
+				item: {
+					id: "overloaded:railgun"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: 9.0d
+			shape: "rsquare"
+			id: "24DDA8A3EF7756A0"
+			tasks: [{
+				id: "14147ADBD779556A"
+				type: "item"
+				item: "overloaded:instant_furnace"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 11.5d
+			shape: "diamond"
+			id: "56AA9CDCD301A9D8"
+			tasks: [{
+				id: "0858150D3D543E8A"
+				type: "item"
+				item: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "abilities"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 11.5d
+			shape: "diamond"
+			id: "3927BB3A68E82185"
+			tasks: [{
+				id: "668938325D76BB7D"
+				type: "item"
+				item: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "defense"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 7.5d
+			shape: "hexagon"
+			id: "5F0083977E65293D"
+			tasks: [{
+				id: "6113A4E32D45955E"
+				type: "item"
+				item: "bloodmagic:activationcrystalcreative"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 11.0d
+			shape: "diamond"
+			id: "07DB22479A646407"
+			tasks: [{
+				id: "6CC03174AB20AB32"
+				type: "item"
+				item: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "upgrades"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 9.0d
+			shape: "hexagon"
+			id: "638D9EB6D9FBEA2E"
+			tasks: [{
+				id: "55371EB3DFEABA93"
+				type: "item"
+				item: "simplyjetpacks:jetpack_creative"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 9.0d
+			shape: "hexagon"
+			id: "2A7BCBA1BD667CF5"
+			tasks: [{
+				id: "320683CF14B28E92"
+				type: "item"
+				item: "simplyjetpacks:jetpack_creative_armored"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 9.0d
+			shape: "diamond"
+			id: "78D477DCB295EBE1"
+			tasks: [{
+				id: "080F05933685B8D9"
+				type: "item"
+				item: "thermal:rf_coil_creative_augment"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 9.0d
+			shape: "diamond"
+			id: "591F6E5FC9D4AD3F"
+			tasks: [{
+				id: "7D57B323C7ACC6F0"
+				type: "item"
+				item: "thermal:fluid_tank_creative_augment"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 9.5d
+			shape: "diamond"
+			id: "1EC83BA277523E62"
+			tasks: [{
+				id: "0EF1F046F046B682"
+				type: "item"
+				item: "thermal:machine_efficiency_creative_augment"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 8.5d
+			shape: "diamond"
+			id: "68106A0599A0CF90"
+			tasks: [{
+				id: "76233AD43694D001"
+				type: "item"
+				item: "thermal:machine_catalyst_creative_augment"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 5.0d
+			shape: "hexagon"
+			id: "2BE0555774DC8D5C"
+			tasks: [{
+				id: "663C3434DA11B9FD"
+				type: "item"
+				item: "immersiveengineering:capacitor_creative"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 5.5d
+			shape: "hexagon"
+			id: "5B6EDBA4A681664F"
+			tasks: [{
+				id: "262B2AC4584B8317"
+				type: "item"
+				item: "storagedrawers:creative_vending_upgrade"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 5.0d
+			shape: "hexagon"
+			id: "416B8C96028E5B2F"
+			tasks: [{
+				id: "4EAEEDCC2C394677"
+				type: "item"
+				item: "mysticalagradditions:creative_essence"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 4.5d
+			shape: "hexagon"
+			id: "38AC6BC0CC176D65"
+			tasks: [{
+				id: "236D84628658CB0C"
+				type: "item"
+				item: "powah:energy_cell_creative"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 4.5d
+			shape: "hexagon"
+			id: "45B06F1B44EAC2F9"
+			tasks: [{
+				id: "51FE0023DFA13397"
+				type: "item"
+				item: {
+					id: "mekanism:creative_energy_cube"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 6.5d
+			shape: "hexagon"
+			id: "4008F7AB3ED6B40A"
+			tasks: [{
+				id: "262F5A47538F1F1D"
+				type: "item"
+				item: "mekanism:creative_chemical_tank"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 6.5d
+			shape: "hexagon"
+			id: "1B142A6EDFF78F88"
+			tasks: [{
+				id: "2BF7455D31FAB35C"
+				type: "item"
+				item: "mekanism:creative_fluid_tank"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			shape: "diamond"
+			id: "4F4A85EB7BCBE72A"
+			tasks: [{
+				id: "086ED6D07B20D4DF"
+				type: "item"
+				item: "chromasky:ultimate_stew"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 6.0d
+			shape: "hexagon"
+			id: "4E1341850E0BFF90"
+			tasks: [{
+				id: "3C5B84FDC8F3F638"
+				type: "item"
+				item: "mekanism:creative_bin"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.0d
+			shape: "diamond"
+			id: "228808D5974EFFAA"
+			tasks: [{
+				id: "56FEEEAD50E1CA83"
+				type: "item"
+				item: "chromasky:ultimate_meat"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.5d
+			shape: "diamond"
+			id: "77FAD23429703897"
+			tasks: [{
+				id: "26EBCC4D0A97FB5D"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 2.0d
+			shape: "diamond"
+			id: "336E2A9A71DDB442"
+			tasks: [{
+				id: "12D786A327426F7A"
+				type: "item"
+				item: "chromasky:ultimateplate"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 2.0d
+			shape: "diamond"
+			id: "5FFD027EE5DED0D1"
+			tasks: [{
+				id: "422A5EF597C4F186"
+				type: "item"
+				item: "chromasky:ultimategear"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.5d
+			shape: "diamond"
+			id: "054D958E9362C600"
+			tasks: [{
+				id: "4420AB7FF4BD02B2"
+				type: "item"
+				item: "chromasky:ultimategem"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 6.0d
+			shape: "hexagon"
+			id: "3C2A6F3A2569F477"
+			tasks: [{
+				id: "52F74A6E0B0E61B8"
+				type: "item"
+				item: {
+					id: "draconicevolution:creative_capacitor"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1660020084
+									1252870968
+									-1728608901
+									809970523
+								]
+								modules: [ ]
+								properties: {
+									charge_main: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_armor: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.0d
+			shape: "diamond"
+			id: "559D34A164E6E348"
+			tasks: [{
+				id: "2D58749EFF001F29"
+				type: "item"
+				item: "chromasky:ultimatebeer"
+			}]
+		}
+	]
+}

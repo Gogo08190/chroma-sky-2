@@ -1,7 +1,7 @@
 {
 	id: "5DAC7BC12836A880"
 	group: "7F090E96EFD94B43"
-	order_index: 1
+	order_index: 2
 	filename: "refined_storage"
 	title: "Refined Storage"
 	icon: "refinedstorage:controller"
@@ -1650,6 +1650,25 @@
 						]
 					}
 				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: -4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"7B0744D1585CE469"
+				"58A9D7D7EFE97810"
+				"3C850D80A0757306"
+				"13718A7F713D4FD5"
+				"0343844DF10E4A80"
+			]
+			id: "76A3F9F950C29486"
+			tasks: [{
+				id: "33B65848F79B3E34"
+				type: "item"
+				item: "rsinfinitybooster:infinity_card"
 			}]
 		}
 	]
