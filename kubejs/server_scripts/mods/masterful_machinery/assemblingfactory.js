@@ -121,7 +121,7 @@ e.custom({
   assembling4(20, 20000, 'mekanism:ingot_steel', 4, 'powah:dielectric_rod', 2, 'powah:dielectric_rod_horizontal', 2, 'chromasky:mechanic_core_tier_3', 1, 'powah:dielectric_casing')
   assembling4(40, 100000, 'extendedcrafting:redstone_ingot_block', 2, 'powah:blazing_crystal_block', 2, 'powah:energized_steel_block', 2, 'extendedcrafting:pedestal', 1, 'mysticalagriculture:infusion_pedestal')
   assembling4(20, 5000, 'mob_grinding_utils:saw', 1, 'thermal:machine_frame', 1, 'extendedcrafting:redstone_ingot_block', 1, 'minecraft:iron_bars', 16, 'cagedmobs:mobcage')
-  assembling4(40, 10000, 'powah:energized_steel_block', 4, 'minecraft:gold_block', 8, 'immersiveengineering:circuit_board', 1, 'mekanism:advanced_control_circuit', 1, 'pedestals:coin/default')
+  assembling4(40, 10000, 'powah:energized_steel_block', 4, 'minecraft:gold_block', 8, 'immersiveengineering:circuit_board', 1, 'industrialforegoing:pink_slime_ingot', 1, 'pedestals:coin/default')
   assembling4(100, 10000, 'mysticalagriculture:prosperity_seed_base', 1, 'mysticalagriculture:soulium_ingot', 4, 'mysticalagriculture:soulium_gemstone', 4, 'mysticalagriculture:soulium_dust', 4, 'mysticalagriculture:soulium_seed_base')
 
   // 5 Inputs
