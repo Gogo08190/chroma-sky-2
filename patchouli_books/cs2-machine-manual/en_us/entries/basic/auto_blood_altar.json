@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "The $(#f00)Auto Blood Altar $() $(br) will allow you to automate the $(#f00)Blood Altar$()$(br). When using the $(#f22)Item Ports$() you will be able to autocraft.$(br) Don't forget to put the $(#f33)Fluid Input Port$() !"
+            "text": "The $(#f00)Auto Blood Altar $()will allow$(br)you to automate the $(#b52727)Blood Altar.$()$(br)When using the $(#33f725)Item Ports$() you will be able to autocraft.$(br)Don't forget to put the $(#0970f7)Fluid Input Port$() !$(br)When the $(#9e11d6)Well of Suffering$() is placed under, you will be able to extract the blood and put it directly into the $(#0970f7)Fluid Input Port$()."
         },
         {
             "type": "patchouli:multiblock",
