@@ -55,7 +55,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "$(li)Assembling Factory$(li2)01 Controller$(li2)01 Item Input Port$(li2)01 Item Output Port$(li2)01 Energy Input Port"
+            "text": "$(li)Mystical Factory Tier 1$(li2)01 Controller$(li2)01 Item Input Port$(li2)01 Item Output Port$(li2)01 Energy Input Port"
         }
     ]
 }

@@ -536,7 +536,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "$(li)08 Rune of Sacrifice$(li)13 Large Bloodstone Brick$(li)13 Soul Lantern$(li)04 Beacon$(li)04 Glowstone$(li)04 Red Stained Glass Pane$(li)01 Hopper$(li)Assembling Factory$(li2)01 Controller$(li2)01 Item Input Port$(li2)01 Item Output Port$(li2)01 Fluid Input Port"
+            "text": "$(li)08 Rune of Sacrifice$(li)13 Large Bloodstone Brick$(li)13 Soul Lantern$(li)04 Beacon$(li)04 Glowstone$(li)04 Red Stained Glass Pane$(li)01 Hopper$(li)Auto Blood Altar$(li2)01 Controller$(li2)01 Item Input Port$(li2)01 Item Output Port$(li2)01 Fluid Input Port"
         }
     ]
 }
