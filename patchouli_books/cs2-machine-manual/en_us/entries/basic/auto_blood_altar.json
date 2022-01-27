@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Description here"
+            "text": "The $(#f00)Auto Blood Altar $() $(br) will allow you to automate the $(#f00)Blood Altar$()$(br). When using the $(#f22)Item Ports$() you will be able to autocraft.$(br) Don't forget to put the $(#f33)Fluid Input Port$() !"
         },
         {
             "type": "patchouli:multiblock",
