@@ -15,7 +15,7 @@ onEvent('recipes', event => {
     "growTicks": 1200,
     "results": [
     	{
-    		"chance": 0.5,
+    		"chance": 0.2,
     		"output": {
     			"item": "theabyss:phantom_soul_item"
     		},
@@ -23,7 +23,7 @@ onEvent('recipes', event => {
     		"maxAmount": 4
     	},
     	{
-    		"chance": 0.4,
+    		"chance": 0.3,
     		"output": {
     			"item": "minecraft:phantom_membrane"
     		},
@@ -33,4 +33,57 @@ onEvent('recipes', event => {
     ]
 
   })
+
+  event.custom(
+    {
+    "type": "cagedmobs:mob_data",
+    "entity": "theabyss:slime_spider",
+    "conditions": [
+    	{
+    		"type": "forge:mod_loaded",
+    		"modid": "cagedmobs"
+    	}
+    ],
+    "samplerTier": 3,
+    "environments": ["node"],
+    "growTicks": 1200,
+    "results": [
+    	{
+    		"chance": 0.1,
+    		"output": {
+    			"item": "theabyss:slime_stage_1"
+    		},
+    		"minAmount": 1,
+    		"maxAmount": 2
+    	},
+      {
+      "lightning": true,
+      "chance": 0.01,
+        "output": {
+          "item": "theabyss:slime_stage_4"
+        },
+      "minAmount": 1,
+      "maxAmount": 1
+      },
+      {
+      "lightning": true,
+      "chance": 0.02,
+        "output": {
+          "item": "theabyss:slime_stage_3"
+        },
+        "minAmount": 1,
+        "maxAmount": 1
+        },
+    	{
+    		"chance": 0.05,
+    		"output": {
+    			"item": "theabyss:slime_stage_2"
+    		},
+    		"minAmount": 1,
+    		"maxAmount": 4
+    	}
+    ]
+
+  })
+
 });
