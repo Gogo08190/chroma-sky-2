@@ -1,7 +1,7 @@
 {
 	id: "58B2FCB6A7C1320D"
 	group: "638FC427456F902B"
-	order_index: 6
+	order_index: 7
 	filename: "misc"
 	title: "Misc"
 	icon: {
@@ -716,6 +716,7 @@
 		{
 			x: -5.0d
 			y: 0.0d
+			shape: "octagon"
 			dependencies: [
 				"3F05D033EBD0710D"
 				"088D692E25F62BFD"
@@ -740,6 +741,7 @@
 		{
 			x: -5.0d
 			y: 1.0d
+			shape: "octagon"
 			dependencies: [
 				"3F05D033EBD0710D"
 				"088D692E25F62BFD"
@@ -759,6 +761,7 @@
 		{
 			x: -10.0d
 			y: -4.0d
+			description: ["Can place up to 9 blocks at once!"]
 			dependencies: ["793F6D3707268AFB"]
 			id: "6ED11CD6BDBD5ABF"
 			tasks: [{
@@ -777,6 +780,7 @@
 		{
 			x: -10.0d
 			y: -3.0d
+			description: ["Can place up to 27 blocks at once!"]
 			dependencies: ["3F05D033EBD0710D"]
 			id: "3E26238C4EBD0434"
 			tasks: [{
@@ -795,6 +799,7 @@
 		{
 			x: -10.0d
 			y: -2.0d
+			description: ["Can place up to 128 blocks at once!"]
 			dependencies: ["088D692E25F62BFD"]
 			id: "0BA4B694D58CFBFD"
 			tasks: [{
@@ -813,6 +818,7 @@
 		{
 			x: -10.0d
 			y: -1.0d
+			description: ["Can place up to 1024 blocks at once!"]
 			dependencies: ["088D692E25F62BFD"]
 			id: "29C488DD8A1CF337"
 			tasks: [{

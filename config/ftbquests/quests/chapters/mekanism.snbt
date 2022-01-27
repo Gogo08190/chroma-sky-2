@@ -1,0 +1,3318 @@
+{
+	id: "3BBB0322AA63D366"
+	group: "2DAB014F01D11AA1"
+	order_index: 0
+	filename: "mekanism"
+	title: "Mekanism"
+	icon: "mekanism:robit"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 3.0d
+			y: 7.0d
+			shape: "gear"
+			description: ["&bSteel Casing&f is a block used in the crafting recipe of most Mekanism machines."]
+			dependencies: [
+				"1BF9C8439A0AAE86"
+				"47A4D81697C274A3"
+				"39DB67EE674F41A4"
+			]
+			size: 2.0d
+			id: "6F2326323EF33A63"
+			tasks: [{
+				id: "51C868EAC5CDEA8D"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+		}
+		{
+			icon: "mekanism:energized_smelter"
+			x: 2.5d
+			y: 2.0d
+			shape: "diamond"
+			description: ["The &benergized smelter&f is your basic &5electric furnace&f that uses energy instead of fuel to &6smelt items&f."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6F2326323EF33A63"
+				"59BACDF85CF0148A"
+			]
+			id: "1C5818BF2481FEB9"
+			tasks: [{
+				id: "693AA22F87FC5CBF"
+				type: "item"
+				title: "Energized Smelter"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:energized_smelter"
+								Count: 1b
+							}
+							{
+								id: "mekanism:basic_smelting_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_smelting_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_smelting_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_smelting_factory"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			icon: "mekanism:crusher"
+			x: 4.5d
+			y: 2.0d
+			shape: "diamond"
+			description: ["The &bCrusher&f crushes, among other things, clumps into &eDirty Dusts&f, Ingots into &edusts&f and Biomatter into &eBio Fuel&f."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6F2326323EF33A63"
+				"59BACDF85CF0148A"
+			]
+			id: "19F47CFF5CF727F7"
+			tasks: [{
+				id: "458F69E53CF89E02"
+				type: "item"
+				title: "Crusher"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:crusher"
+								Count: 1b
+							}
+							{
+								id: "mekanism:basic_crushing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_crushing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_crushing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_crushing_factory"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			icon: "mekanism:combiner"
+			x: 2.5d
+			y: 3.0d
+			shape: "diamond"
+			description: ["The &bCombiner&f allows the player to create an &aore block&f from &28 dust&f."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6F2326323EF33A63"
+				"39DD69009C6A2070"
+				"6083CEBD7FF77D03"
+			]
+			id: "6FE388941E6F219B"
+			tasks: [{
+				id: "66F4247EE21F16E3"
+				type: "item"
+				title: "Combiner"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:combiner"
+								Count: 1b
+							}
+							{
+								id: "mekanism:basic_combining_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_combining_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_combining_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_combining_factory"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			icon: "mekanism:precision_sawmill"
+			x: 1.5d
+			y: 2.0d
+			shape: "diamond"
+			description: ["The &bPrecision Sawmill &fis used for reclaiming wood from wooden items and turn logs into planks with a 50% better yield (6 instead of 4). "]
+			hide_dependency_lines: true
+			dependencies: [
+				"6F2326323EF33A63"
+				"7C096F70E21229EC"
+				"59BACDF85CF0148A"
+			]
+			id: "10F95237B3DF1A11"
+			tasks: [{
+				id: "41FF6BDABEE3D93C"
+				type: "item"
+				title: "Precision Sawmill"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:precision_sawmill"
+								Count: 1b
+							}
+							{
+								id: "mekanism:basic_sawing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_sawing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_sawing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_sawing_factory"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			icon: "mekanism:enrichment_chamber"
+			x: 3.5d
+			y: 2.0d
+			shape: "diamond"
+			description: [
+				"This machine uses energy to extract &6dusts &rout of certain blocks and ores, making it essential to producing different kinds of tools. Not to be mistaken with the &6Crusher&f, this machine is the pulverizer equivalent in other mods."
+				""
+				"Can also be used to turn Coal or Charcoal into &2Compressed Carbon&r, Redstone into &2Compressed Redstone&r, Diamond into &2Compressed Diamond&r and Refined Obsidian Dust into &2Compressed Obsidian&r, all for use in the &6Metallurgic Infuser&f."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"6F2326323EF33A63"
+				"59BACDF85CF0148A"
+			]
+			id: "5E95677A6ADAD7E8"
+			tasks: [{
+				id: "0DE6FFE2DDC2B775"
+				type: "item"
+				title: "Enrichment Chamber"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:enrichment_chamber"
+								Count: 1b
+							}
+							{
+								id: "mekanism:basic_enriching_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_enriching_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_enriching_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_enriching_factory"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			icon: "mekanism:purification_chamber"
+			x: 2.0d
+			y: 2.5d
+			shape: "diamond"
+			description: ["The &bPurification Chamber&f uses &7oxygen&f to refine Ores and shards into &eclumps&f. Each ore makes 3 clumps, whereas each shard only gives one clump."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6F2326323EF33A63"
+				"310C29C40CBF16D0"
+				"7C096F70E21229EC"
+			]
+			id: "39F87DCB7A61318A"
+			tasks: [{
+				id: "373A4EA6349E93EA"
+				type: "item"
+				title: "Purification Chamber"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:purification_chamber"
+								Count: 1b
+							}
+							{
+								id: "mekanism:basic_purifying_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_purifying_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_purifying_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_purifying_factory"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			icon: "mekanism:chemical_injection_chamber"
+			x: 3.0d
+			y: 2.5d
+			shape: "diamond"
+			description: ["The &bChemical Injection Chamber&f uses Hydrogen Chloride gas to turn ores into 4 Shards."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6F2326323EF33A63"
+				"6083CEBD7FF77D03"
+				"39DD69009C6A2070"
+			]
+			id: "0ECBEBE4E647E5A8"
+			tasks: [{
+				id: "63510D7BC8D8F722"
+				type: "item"
+				title: "Chemical Injection Chamber"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:chemical_injection_chamber"
+								Count: 1b
+							}
+							{
+								id: "mekanism:basic_injecting_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_injecting_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_injecting_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_injecting_factory"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			icon: "mekanism:metallurgic_infuser"
+			x: 3.5d
+			y: 3.0d
+			shape: "diamond"
+			description: ["The &bMetallurgic Infuser&f is the first step in the Mekanism tech tree. The &bMetallurgic Infuser&f is a machine used in the production of &aSteel Ingots&f, &aBronze Ingot&f, &aEnriched Alloy&f, and &aObsidian Ingots&f."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6F2326323EF33A63"
+				"47A4D81697C274A3"
+				"321AFD3A1679E8E0"
+			]
+			id: "0DB499A573427750"
+			tasks: [{
+				id: "463A33FFC46A8DD7"
+				type: "item"
+				title: "Metallurgic Infuser"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:metallurgic_infuser"
+								Count: 1b
+							}
+							{
+								id: "mekanism:basic_infusing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_infusing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_infusing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_infusing_factory"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			shape: "diamond"
+			description: ["The &bOsmium Compressor&f is used to create &aRefined Obsidian Ingots &ffrom Refined Obsidian Dust and &aGlowstone Ingots&f from Glowstone Dust."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6F2326323EF33A63"
+				"310C29C40CBF16D0"
+				"7C096F70E21229EC"
+			]
+			id: "3FDD2A123AFF5BE7"
+			tasks: [{
+				id: "4EA19F14A8880427"
+				type: "item"
+				item: "mekanism:osmium_compressor"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["0DB499A573427750"]
+			id: "59BACDF85CF0148A"
+			tasks: [{
+				id: "52FD59DA21DC1B4B"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["59BACDF85CF0148A"]
+			id: "310C29C40CBF16D0"
+			tasks: [{
+				id: "25E926109C6DC5F0"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["310C29C40CBF16D0"]
+			id: "6083CEBD7FF77D03"
+			tasks: [{
+				id: "3401ED2CEE46D8B9"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["6083CEBD7FF77D03"]
+			id: "7DC080E18C7BD061"
+			tasks: [{
+				id: "786371CC9B462227"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["0DB499A573427750"]
+			id: "7C096F70E21229EC"
+			tasks: [{
+				id: "779638E400040EEC"
+				type: "item"
+				item: "mekanism:alloy_infused"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["7C096F70E21229EC"]
+			id: "39DD69009C6A2070"
+			tasks: [{
+				id: "0EE358D11BD44AB1"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["39DD69009C6A2070"]
+			id: "4110B34782BDB3A5"
+			tasks: [{
+				id: "6A70B4504A916A95"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5E95677A6ADAD7E8"]
+			id: "36E48B4862FBB4AB"
+			tasks: [{
+				id: "032D533EF1F6F22C"
+				type: "item"
+				item: "mekanism:enriched_carbon"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5E95677A6ADAD7E8"]
+			id: "50755D03E2255C40"
+			tasks: [{
+				id: "2F924A199292ED22"
+				type: "item"
+				item: "mekanism:enriched_redstone"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5E95677A6ADAD7E8"]
+			id: "33752322EC3FBB0E"
+			tasks: [{
+				id: "13AE1D8C94CDBE4F"
+				type: "item"
+				item: "mekanism:enriched_diamond"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5E95677A6ADAD7E8"]
+			id: "486A06B6ABA2187C"
+			tasks: [{
+				id: "07C4BD28D01F0C71"
+				type: "item"
+				item: "mekanism:enriched_refined_obsidian"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5E95677A6ADAD7E8"]
+			id: "778C7400103669C8"
+			tasks: [{
+				id: "1B1D6A1A862ECCF9"
+				type: "item"
+				item: "mekanism:enriched_gold"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5E95677A6ADAD7E8"]
+			id: "28A6208FD231ED95"
+			tasks: [{
+				id: "5940E42AB37BC51E"
+				type: "item"
+				item: "mekanism:enriched_tin"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			shape: "diamond"
+			description: ["The &bAtomic Disassembler&f is Mekanism's an all-in-one tool, essentially the ultimate, electronic version of the paxel."]
+			hide_dependency_lines: true
+			dependencies: [
+				"7C096F70E21229EC"
+				"4110B34782BDB3A5"
+				"06975DA1C012F61B"
+				"1D31D6AA2E4EDAB7"
+			]
+			id: "56DB19ED870272A2"
+			tasks: [{
+				id: "6AA7FFF04170C052"
+				type: "item"
+				item: {
+					id: "mekanism:atomic_disassembler"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"7C096F70E21229EC"
+				"1D31D6AA2E4EDAB7"
+			]
+			id: "0DCBB9B7B23670A4"
+			tasks: [{
+				id: "697E39B81F5A89D7"
+				type: "item"
+				item: "mekanism:electric_bow"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			shape: "diamond"
+			description: [
+				"The &bFlamethrower&f is a ranged weapon which uses Hydrogen gas as its fuel."
+				""
+				"&4FIRE !!!!!"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"350D3C66AD652024"
+				"310C29C40CBF16D0"
+			]
+			id: "7B7EB7307B01FDB8"
+			tasks: [{
+				id: "3D9F630EEC533F75"
+				type: "item"
+				item: "mekanism:flamethrower"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			shape: "diamond"
+			description: ["&bFree Runners&f are an item that allows players to ascend 1-block inclines automatically, as well as preventing fall damage as long as they are charged. A fall will reduce the item's charge, depending on how far the fall was."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1D31D6AA2E4EDAB7"
+				"7C096F70E21229EC"
+				"59BACDF85CF0148A"
+			]
+			id: "0EB203E7E779E991"
+			tasks: [{
+				id: "5CD3487052C744FF"
+				type: "item"
+				item: "mekanism:free_runners"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			shape: "diamond"
+			description: ["The &bGas Mask&f is an utility head armor piece, used in conjunction with the Scuba Tank to breathe underwater."]
+			hide_dependency_lines: true
+			dependencies: [
+				"59BACDF85CF0148A"
+				"0CB4DD1292B29613"
+			]
+			id: "39CF088BB685C08B"
+			tasks: [{
+				id: "4D0C4DF6D0FA4FB0"
+				type: "item"
+				item: {
+					id: "mekanism:scuba_mask"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.5d
+			shape: "diamond"
+			description: ["The &bScuba Tank&f is a piece of equipment worn on the backpack that provides underwater respiration when a Gas Mask is worn"]
+			hide_dependency_lines: true
+			dependencies: [
+				"7C096F70E21229EC"
+				"59BACDF85CF0148A"
+				"0CB4DD1292B29613"
+				"350D3C66AD652024"
+			]
+			id: "1C763DCF302FB24A"
+			tasks: [{
+				id: "2885FC40E0CD8916"
+				type: "item"
+				item: {
+					id: "mekanism:scuba_tank"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			shape: "diamond"
+			description: ["The &bJetpack&f is an item that allows the player to fly, equippable in the chestplate slot. It uses Hydrogen gas as a fuel."]
+			hide_dependency_lines: true
+			dependencies: [
+				"59BACDF85CF0148A"
+				"350D3C66AD652024"
+				"0CB4DD1292B29613"
+			]
+			id: "513BF2810C8C4F3D"
+			tasks: [{
+				id: "6748FF0BD7EDF664"
+				type: "item"
+				item: {
+					id: "mekanism:jetpack"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.0d
+			shape: "diamond"
+			description: ["The &bArmored Jetpack&f is an upgraded version of the Jetpack. It provides &e12 armor points&f, offering slightly better protection than a &9diamond chestplate&f with &5Protection IV&f."]
+			hide_dependency_lines: true
+			dependencies: [
+				"513BF2810C8C4F3D"
+				"0CB4DD1292B29613"
+			]
+			id: "2C97E7BCE573D019"
+			tasks: [{
+				id: "245F153571892C93"
+				type: "item"
+				item: "mekanism:jetpack_armored"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			shape: "diamond"
+			description: ["The &bSolar Generator&f harnesses sunlight to create &6power&f. The generator is particularly useful for generating passive energy for above-ground machines instead of draining your main stores."]
+			hide_dependency_lines: true
+			dependencies: [
+				"7C096F70E21229EC"
+				"1D31D6AA2E4EDAB7"
+			]
+			id: "0021AB334CF0E188"
+			tasks: [{
+				id: "67105116DF8AA786"
+				type: "item"
+				item: "mekanismgenerators:solar_generator"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			shape: "diamond"
+			description: ["The &bAdvanced Solar Generator&f is a highly upgraded version of the basic Solar Generator."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0021AB334CF0E188"
+				"7C096F70E21229EC"
+			]
+			id: "03D28F0708556AFC"
+			tasks: [{
+				id: "71804821F636D5C8"
+				type: "item"
+				item: "mekanismgenerators:advanced_solar_generator"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			shape: "diamond"
+			description: ["A &bWind Turbine's&f giant blades harness the force of the wind to generate &6power&f. Each Wind Turbine requires a fairly large 1x1x5 area. The machine will generate power day and night, in sun or rain, but the turbine must have a clear view of the sky."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1D31D6AA2E4EDAB7"
+				"7C096F70E21229EC"
+				"59BACDF85CF0148A"
+			]
+			id: "5F4DB5E7DC1188F4"
+			tasks: [{
+				id: "772763C44EA10422"
+				type: "item"
+				item: "mekanismgenerators:wind_generator"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			shape: "diamond"
+			description: ["The &bChargepad&f is a wireless electric charging station. Any rechargeable items you have in your inventory will be charged while standing on it."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1D31D6AA2E4EDAB7"
+				"0CB4DD1292B29613"
+			]
+			id: "38B71579ED330FD9"
+			tasks: [{
+				id: "3D9C1ABA2831C0AF"
+				type: "item"
+				item: "mekanism:chargepad"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			shape: "diamond"
+			description: ["A &bGas-Burning Generator&f creates power by consuming any burnable gas for example the Hydrogen produced by an Electrolytic Separator or Ethylene."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6F2326323EF33A63"
+				"7C096F70E21229EC"
+			]
+			id: "5B2FDE89107B04F4"
+			tasks: [{
+				id: "0563D4223ADEE8D4"
+				type: "item"
+				item: "mekanismgenerators:gas_burning_generator"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			shape: "diamond"
+			description: ["&bBio-Generators&f produce electricity from &aBio Fuel&f."]
+			hide_dependency_lines: true
+			dependencies: [
+				"59BACDF85CF0148A"
+				"7C096F70E21229EC"
+			]
+			id: "184707184364047F"
+			tasks: [{
+				id: "1A94A30A01984872"
+				type: "item"
+				item: "mekanismgenerators:bio_generator"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			shape: "diamond"
+			description: ["A &bHeat Generator&f converts &4heat energy&f into &6power&f. This is often the first generator to craft because, although it provides only a small amount of power,"]
+			dependencies: ["47A4D81697C274A3"]
+			id: "5B2F9AE2570D7639"
+			tasks: [{
+				id: "61EF7AD8CB2433B3"
+				type: "item"
+				item: "mekanismgenerators:heat_generator"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			shape: "diamond"
+			description: ["The &bpersonal chest&f used to be called, \"Electric Chest\" that could lock with the use of electricity."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0CB4DD1292B29613"
+				"59BACDF85CF0148A"
+			]
+			id: "306D841E39F9471F"
+			tasks: [{
+				id: "1062B6FBDB6820E5"
+				type: "item"
+				item: "mekanism:personal_chest"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 3.5d
+			shape: "diamond"
+			description: ["The &bEnergy Tablet&f is a portable, rechargeable battery pack that can be charged with up to 1,000kJ of energy and can then be used to power other devices. It is also an ingredient in many recipes."]
+			hide_dependency_lines: true
+			dependencies: ["7C096F70E21229EC"]
+			id: "1D31D6AA2E4EDAB7"
+			tasks: [{
+				id: "46F2F82A6CE26DD4"
+				type: "item"
+				item: "mekanism:energy_tablet"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 4.0d
+			shape: "diamond"
+			description: ["An &bEnergy Cube&f is an advanced type of battery that is compatible with multiple energy systems. Energy can be input from 5 sides, and output on 1 side."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1D31D6AA2E4EDAB7"
+				"6F2326323EF33A63"
+			]
+			id: "63A82002A0B61C29"
+			tasks: [{
+				id: "201C742959A7BFF8"
+				type: "item"
+				item: "mekanism:basic_energy_cube"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 5.0d
+			shape: "diamond"
+			description: ["An &bEnergy Cube&f is an advanced type of battery that is compatible with multiple energy systems. Energy can be input from 5 sides, and output on 1 side."]
+			hide_dependency_lines: true
+			dependencies: [
+				"63A82002A0B61C29"
+				"1D31D6AA2E4EDAB7"
+			]
+			id: "1053406710FE3E9E"
+			tasks: [{
+				id: "288CCA98932E2C3E"
+				type: "item"
+				item: "mekanism:advanced_energy_cube"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.0d
+			shape: "diamond"
+			description: ["An &bEnergy Cube&f is an advanced type of battery that is compatible with multiple energy systems. Energy can be input from 5 sides, and output on 1 side."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1053406710FE3E9E"
+				"1D31D6AA2E4EDAB7"
+			]
+			id: "230FD49D5C2AF5A8"
+			tasks: [{
+				id: "1D153A4429898879"
+				type: "item"
+				item: "mekanism:elite_energy_cube"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 5.0d
+			shape: "diamond"
+			description: ["An &bEnergy Cube&f is an advanced type of battery that is compatible with multiple energy systems. Energy can be input from 5 sides, and output on 1 side."]
+			hide_dependency_lines: true
+			dependencies: [
+				"230FD49D5C2AF5A8"
+				"1D31D6AA2E4EDAB7"
+			]
+			id: "45D7CC8AF8E41983"
+			tasks: [{
+				id: "39A8447F14AF9A05"
+				type: "item"
+				item: "mekanism:ultimate_energy_cube"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 5.5d
+			shape: "diamond"
+			description: ["&bInduction Casing&f makes up the multi-block that is the &eInduction Matrix&f, a &6energy storage&f structure that can hold a large amount of energy."]
+			hide_dependency_lines: true
+			dependencies: ["1D31D6AA2E4EDAB7"]
+			id: "20DFC3ECD89CB949"
+			tasks: [{
+				id: "1C4908D6ABB141C4"
+				type: "item"
+				item: "mekanism:induction_casing"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["6083CEBD7FF77D03"]
+			id: "4499AF7082F71FD2"
+			tasks: [{
+				id: "764B34F4E0C5909E"
+				type: "item"
+				item: "mekanism:induction_port"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 3.5d
+			shape: "diamond"
+			description: ["&bInduction Cells&f are components in the &eInduction Matrix&f. Each cell &dincreases the total energy storage&f of a Matrix."]
+			hide_dependency_lines: true
+			dependencies: [
+				"63A82002A0B61C29"
+				"1D31D6AA2E4EDAB7"
+			]
+			id: "1C56345CD6218FA5"
+			tasks: [{
+				id: "2BA69078192229AA"
+				type: "item"
+				item: "mekanism:basic_induction_cell"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 4.5d
+			shape: "diamond"
+			description: ["&bInduction Cells&f are components in the &eInduction Matrix&f. Each cell &dincreases the total energy storage&f of a Matrix."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1053406710FE3E9E"
+				"1C56345CD6218FA5"
+			]
+			id: "6BABE341671D146D"
+			tasks: [{
+				id: "142D494E3E9B55DD"
+				type: "item"
+				item: "mekanism:advanced_induction_cell"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.5d
+			shape: "diamond"
+			description: ["&bInduction Cells&f are components in the &eInduction Matrix&f. Each cell &dincreases the total energy storage&f of a Matrix."]
+			hide_dependency_lines: true
+			dependencies: [
+				"230FD49D5C2AF5A8"
+				"6BABE341671D146D"
+			]
+			id: "5B73A29DC3FD2FA5"
+			tasks: [{
+				id: "1934C0A1F98C687F"
+				type: "item"
+				item: "mekanism:elite_induction_cell"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.5d
+			shape: "diamond"
+			description: ["&bInduction Cells&f are components in the &eInduction Matrix&f. Each cell &dincreases the total energy storage&f of a Matrix."]
+			hide_dependency_lines: true
+			dependencies: [
+				"45D7CC8AF8E41983"
+				"5B73A29DC3FD2FA5"
+			]
+			id: "2065DEF9781A8758"
+			tasks: [{
+				id: "17394280F5A73A3D"
+				type: "item"
+				item: "mekanism:ultimate_induction_cell"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 3.0d
+			shape: "diamond"
+			description: ["The &bInduction Providers&f are used in the &eInduction Matrix&f to determine &dhow fast it is able to output energy&f through the Induction Port."]
+			hide_dependency_lines: true
+			dependencies: [
+				"63A82002A0B61C29"
+				"59BACDF85CF0148A"
+			]
+			id: "67FE3C0B689293C3"
+			tasks: [{
+				id: "30464191F40FF8E1"
+				type: "item"
+				item: "mekanism:basic_induction_provider"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 4.0d
+			shape: "diamond"
+			description: ["The &bInduction Providers&f are used in the &eInduction Matrix&f to determine &dhow fast it is able to output energy&f through the Induction Port."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1053406710FE3E9E"
+				"67FE3C0B689293C3"
+			]
+			id: "47ED83B389EC6E6E"
+			tasks: [{
+				id: "1CD02D6B94337BD5"
+				type: "item"
+				item: "mekanism:advanced_induction_provider"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			shape: "diamond"
+			description: ["The &bInduction Providers&f are used in the &eInduction Matrix&f to determine &dhow fast it is able to output energy&f through the Induction Port."]
+			hide_dependency_lines: true
+			dependencies: [
+				"230FD49D5C2AF5A8"
+				"47ED83B389EC6E6E"
+			]
+			id: "346118EC5B6FA02F"
+			tasks: [{
+				id: "1B4BEB6A36875CF5"
+				type: "item"
+				item: "mekanism:elite_induction_provider"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.0d
+			shape: "diamond"
+			description: ["The &bInduction Providers&f are used in the &eInduction Matrix&f to determine &dhow fast it is able to output energy&f through the Induction Port."]
+			hide_dependency_lines: true
+			dependencies: [
+				"45D7CC8AF8E41983"
+				"346118EC5B6FA02F"
+			]
+			id: "1540227469500735"
+			tasks: [{
+				id: "7740D502DCF866C2"
+				type: "item"
+				item: "mekanism:ultimate_induction_provider"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["59BACDF85CF0148A"]
+			id: "564F03C00ED90A2D"
+			tasks: [{
+				id: "52F3BB61722B8585"
+				type: "item"
+				item: "mekanism:basic_tier_installer"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"7C096F70E21229EC"
+				"310C29C40CBF16D0"
+			]
+			id: "6A610A457751053D"
+			tasks: [{
+				id: "55664DCA142478A5"
+				type: "item"
+				item: "mekanism:advanced_tier_installer"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"39DD69009C6A2070"
+				"6083CEBD7FF77D03"
+			]
+			id: "370F440233E7264F"
+			tasks: [{
+				id: "535D6CAFDD4FEACD"
+				type: "item"
+				item: "mekanism:elite_tier_installer"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"4110B34782BDB3A5"
+				"7DC080E18C7BD061"
+			]
+			id: "5089253EE16D38D0"
+			tasks: [{
+				id: "7A9FD999AD5ED77C"
+				type: "item"
+				item: "mekanism:ultimate_tier_installer"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 3.5d
+			shape: "diamond"
+			description: ["&bUniversal Cables&f are Mekanism's way to transfer power."]
+			hide_dependency_lines: true
+			dependencies: ["0CB4DD1292B29613"]
+			id: "5419C1AA3EE605F2"
+			tasks: [{
+				id: "7106AA3671B046F1"
+				type: "item"
+				item: "mekanism:basic_universal_cable"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 3.5d
+			shape: "diamond"
+			description: ["&bUniversal Cables&f are Mekanism's way to transfer power."]
+			hide_dependency_lines: true
+			dependencies: ["5419C1AA3EE605F2"]
+			id: "31652C7CFC5F7388"
+			tasks: [{
+				id: "675915E907005C2F"
+				type: "item"
+				item: "mekanism:advanced_universal_cable"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 3.5d
+			shape: "diamond"
+			description: ["&bUniversal Cables&f are Mekanism's way to transfer power."]
+			hide_dependency_lines: true
+			dependencies: ["31652C7CFC5F7388"]
+			id: "2EC418A8ED8BC4C1"
+			tasks: [{
+				id: "04A8734A049DDB79"
+				type: "item"
+				item: "mekanism:elite_universal_cable"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 3.5d
+			shape: "diamond"
+			description: ["&bUniversal Cables&f are Mekanism's way to transfer power."]
+			hide_dependency_lines: true
+			dependencies: ["2EC418A8ED8BC4C1"]
+			id: "7739F0CCF09285F4"
+			tasks: [{
+				id: "056367C7BFA75015"
+				type: "item"
+				item: "mekanism:ultimate_universal_cable"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 4.0d
+			shape: "diamond"
+			description: ["&bMechanical Pipe&f is the fluid pipe for Mekanism logistics. It can be used to connect to any blocks with Fluid Handlers in them."]
+			hide_dependency_lines: true
+			dependencies: ["0CB4DD1292B29613"]
+			id: "022D9C6F019B062F"
+			tasks: [{
+				id: "6C9A526C26F5F2EF"
+				type: "item"
+				item: "mekanism:basic_mechanical_pipe"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 4.0d
+			shape: "diamond"
+			description: ["&bMechanical Pipe&f is the fluid pipe for Mekanism logistics. It can be used to connect to any blocks with Fluid Handlers in them."]
+			hide_dependency_lines: true
+			dependencies: ["022D9C6F019B062F"]
+			id: "48729DE43A3562F1"
+			tasks: [{
+				id: "58E48BC20BB73B9C"
+				type: "item"
+				item: "mekanism:advanced_mechanical_pipe"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 4.0d
+			shape: "diamond"
+			description: ["&bMechanical Pipe&f is the fluid pipe for Mekanism logistics. It can be used to connect to any blocks with Fluid Handlers in them."]
+			hide_dependency_lines: true
+			dependencies: ["48729DE43A3562F1"]
+			id: "31A7B49920B85D01"
+			tasks: [{
+				id: "692479C455177482"
+				type: "item"
+				item: "mekanism:elite_mechanical_pipe"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 4.0d
+			shape: "diamond"
+			description: ["&bMechanical Pipe&f is the fluid pipe for Mekanism logistics. It can be used to connect to any blocks with Fluid Handlers in them."]
+			hide_dependency_lines: true
+			dependencies: ["31A7B49920B85D01"]
+			id: "559F35A8AD067941"
+			tasks: [{
+				id: "5AFF2D39614C5F66"
+				type: "item"
+				item: "mekanism:ultimate_mechanical_pipe"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 4.5d
+			shape: "diamond"
+			description: ["&bPressurized Tubes&f are used to transport Gases."]
+			hide_dependency_lines: true
+			dependencies: ["0CB4DD1292B29613"]
+			id: "08E34D87EC8C7942"
+			tasks: [{
+				id: "7052473B189C7D12"
+				type: "item"
+				item: "mekanism:basic_pressurized_tube"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 4.5d
+			shape: "diamond"
+			description: ["&bPressurized Tubes&f are used to transport Gases."]
+			hide_dependency_lines: true
+			dependencies: ["08E34D87EC8C7942"]
+			id: "78E8F3E82B9CB58D"
+			tasks: [{
+				id: "2872F5F88CA59508"
+				type: "item"
+				item: "mekanism:advanced_pressurized_tube"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 4.5d
+			shape: "diamond"
+			description: ["&bPressurized Tubes&f are used to transport Gases."]
+			hide_dependency_lines: true
+			dependencies: ["78E8F3E82B9CB58D"]
+			id: "62993F7D0D6642BB"
+			tasks: [{
+				id: "4D1C18C3643387E4"
+				type: "item"
+				item: "mekanism:elite_pressurized_tube"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 4.5d
+			shape: "diamond"
+			description: ["&bPressurized Tubes&f are used to transport Gases."]
+			hide_dependency_lines: true
+			dependencies: ["62993F7D0D6642BB"]
+			id: "03DA2B09BC1B4603"
+			tasks: [{
+				id: "31A1CFDD056D330C"
+				type: "item"
+				item: "mekanism:ultimate_pressurized_tube"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 5.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["0CB4DD1292B29613"]
+			id: "071676167A024FC6"
+			tasks: [{
+				id: "031A14D3C69D1E9F"
+				type: "item"
+				item: "mekanism:basic_logistical_transporter"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 5.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["071676167A024FC6"]
+			id: "5854EA7D283D0D3D"
+			tasks: [{
+				id: "1896EA53D33FB427"
+				type: "item"
+				item: "mekanism:advanced_logistical_transporter"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 5.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5854EA7D283D0D3D"]
+			id: "5037FC04D974948D"
+			tasks: [{
+				id: "176D2893285D9B39"
+				type: "item"
+				item: "mekanism:elite_logistical_transporter"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 5.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5037FC04D974948D"]
+			id: "55EE2E67C4ECA1E4"
+			tasks: [{
+				id: "465CAC1A4F8C661D"
+				type: "item"
+				item: "mekanism:ultimate_logistical_transporter"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 5.5d
+			shape: "diamond"
+			description: ["Similar to the Universal Cable, the &bThermodynamic Conductor&f is Mekanism's way of transferring power in the form of heat."]
+			hide_dependency_lines: true
+			dependencies: ["2C803B31F2CA442A"]
+			id: "430F7F538F20F802"
+			tasks: [{
+				id: "680CF058ECDC0655"
+				type: "item"
+				item: "mekanism:ultimate_thermodynamic_conductor"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 5.5d
+			shape: "diamond"
+			description: ["Similar to the Universal Cable, the &bThermodynamic Conductor&f is Mekanism's way of transferring power in the form of heat."]
+			hide_dependency_lines: true
+			dependencies: ["4E966E4CC6D7216D"]
+			id: "2C803B31F2CA442A"
+			tasks: [{
+				id: "5A410E7486088D6E"
+				type: "item"
+				item: "mekanism:elite_thermodynamic_conductor"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 5.5d
+			shape: "diamond"
+			description: ["Similar to the Universal Cable, the &bThermodynamic Conductor&f is Mekanism's way of transferring power in the form of heat."]
+			hide_dependency_lines: true
+			dependencies: ["215CE8FADE6B034F"]
+			id: "4E966E4CC6D7216D"
+			tasks: [{
+				id: "2FC7A064921EB58C"
+				type: "item"
+				item: "mekanism:advanced_thermodynamic_conductor"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 5.5d
+			shape: "diamond"
+			description: ["Similar to the Universal Cable, the &bThermodynamic Conductor&f is Mekanism's way of transferring power in the form of heat."]
+			hide_dependency_lines: true
+			dependencies: ["0CB4DD1292B29613"]
+			id: "215CE8FADE6B034F"
+			tasks: [{
+				id: "2F992BC4F0FED40A"
+				type: "item"
+				item: "mekanism:basic_thermodynamic_conductor"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 1.0d
+			shape: "diamond"
+			description: ["&bChemical Tanks&f are storage blocks to store &egases&f."]
+			dependencies: ["088D692E25F62BFD"]
+			id: "350D3C66AD652024"
+			tasks: [{
+				id: "10B5C2D248C63523"
+				type: "item"
+				item: "mekanism:basic_chemical_tank"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 1.5d
+			shape: "diamond"
+			description: ["&bChemical Tanks&f are storage blocks to store &egases&f."]
+			hide_dependency_lines: true
+			dependencies: ["350D3C66AD652024"]
+			id: "5ED220E093B8ECE2"
+			tasks: [{
+				id: "08C79A02E1C0C275"
+				type: "item"
+				item: "mekanism:advanced_chemical_tank"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 2.0d
+			shape: "diamond"
+			description: ["&bChemical Tanks&f are storage blocks to store &egases&f."]
+			hide_dependency_lines: true
+			dependencies: ["5ED220E093B8ECE2"]
+			id: "04519514255C35D2"
+			tasks: [{
+				id: "35A49713CA24F189"
+				type: "item"
+				item: "mekanism:elite_chemical_tank"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 1.5d
+			shape: "diamond"
+			description: ["&bChemical Tanks&f are storage blocks to store &egases&f."]
+			hide_dependency_lines: true
+			dependencies: ["04519514255C35D2"]
+			id: "13AF40487AF2AE91"
+			tasks: [{
+				id: "5B8E482B292262DC"
+				type: "item"
+				item: "mekanism:ultimate_chemical_tank"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 7.0d
+			shape: "diamond"
+			description: ["&bFluid Tanks&f are storage blocks to store &efluids&f."]
+			dependencies: [
+				"1B69AF5509A2B907"
+				"321AFD3A1679E8E0"
+			]
+			id: "30FC1A8057A24789"
+			tasks: [{
+				id: "00631E835CED6F24"
+				type: "item"
+				item: "mekanism:basic_fluid_tank"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 7.5d
+			shape: "diamond"
+			description: ["&bFluid Tanks&f are storage blocks to store &efluids&f."]
+			hide_dependency_lines: true
+			dependencies: ["30FC1A8057A24789"]
+			id: "573D431A97D1FBA5"
+			tasks: [{
+				id: "3CF8E6BCD331347A"
+				type: "item"
+				item: "mekanism:advanced_fluid_tank"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 8.0d
+			shape: "diamond"
+			description: ["&bFluid Tanks&f are storage blocks to store &efluids&f."]
+			hide_dependency_lines: true
+			dependencies: ["573D431A97D1FBA5"]
+			id: "78E1F690F9F4367C"
+			tasks: [{
+				id: "635BD54372BF039D"
+				type: "item"
+				item: "mekanism:elite_fluid_tank"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 7.5d
+			shape: "diamond"
+			description: ["&bFluid Tanks&f are storage blocks to store &efluids&f."]
+			hide_dependency_lines: true
+			dependencies: ["78E1F690F9F4367C"]
+			id: "7C434358204E9430"
+			tasks: [{
+				id: "71A0D7F81B072709"
+				type: "item"
+				item: "mekanism:ultimate_fluid_tank"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 4.0d
+			shape: "diamond"
+			description: ["&bBins&f is a storage block that can only store a single item, however many it can store is based on its tier. It will retain its inventory when broken."]
+			hide_dependency_lines: true
+			dependencies: ["59BACDF85CF0148A"]
+			id: "25085FE16FE9C639"
+			tasks: [{
+				id: "2A966F5AA3991A12"
+				type: "item"
+				item: "mekanism:basic_bin"
+			}]
+		}
+		{
+			x: 18.5d
+			y: 4.5d
+			shape: "diamond"
+			description: ["&bBins&f is a storage block that can only store a single item, however many it can store is based on its tier. It will retain its inventory when broken."]
+			hide_dependency_lines: true
+			dependencies: ["25085FE16FE9C639"]
+			id: "28514843AFD707F6"
+			tasks: [{
+				id: "6D64633C16F42487"
+				type: "item"
+				item: "mekanism:advanced_bin"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 5.0d
+			shape: "diamond"
+			description: ["&bBins&f is a storage block that can only store a single item, however many it can store is based on its tier. It will retain its inventory when broken."]
+			hide_dependency_lines: true
+			dependencies: ["28514843AFD707F6"]
+			id: "7BB051CAC39B0DA5"
+			tasks: [{
+				id: "46B63F3F08E5360B"
+				type: "item"
+				item: "mekanism:elite_bin"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 4.5d
+			shape: "diamond"
+			description: ["&bBins&f is a storage block that can only store a single item, however many it can store is based on its tier. It will retain its inventory when broken."]
+			hide_dependency_lines: true
+			dependencies: ["7BB051CAC39B0DA5"]
+			id: "1B1FA04FA2F7A43C"
+			tasks: [{
+				id: "11C61772C47555C8"
+				type: "item"
+				item: "mekanism:ultimate_bin"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 9.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"76CA9B4B4D139E35"
+				"2065DEF9781A8758"
+				"7DC080E18C7BD061"
+			]
+			id: "5691EA2AB8E2CF39"
+			tasks: [{
+				id: "20514D29FACF1C1A"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_helmet"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 9.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"76CA9B4B4D139E35"
+				"2065DEF9781A8758"
+				"7DC080E18C7BD061"
+			]
+			id: "10A3E15925792B58"
+			tasks: [{
+				id: "2F48BA6399CD6503"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_bodyarmor"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 10.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"76CA9B4B4D139E35"
+				"2065DEF9781A8758"
+				"7DC080E18C7BD061"
+			]
+			id: "21CB5F102C119511"
+			tasks: [{
+				id: "52976E3A45F7E137"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_pants"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 10.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"76CA9B4B4D139E35"
+				"2065DEF9781A8758"
+				"7DC080E18C7BD061"
+			]
+			id: "29E10ED79134DAFE"
+			tasks: [{
+				id: "2342552D7708FBBC"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_boots"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 10.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"76CA9B4B4D139E35"
+				"7DC080E18C7BD061"
+				"2065DEF9781A8758"
+				"56DB19ED870272A2"
+			]
+			id: "7735E2B5D6735306"
+			tasks: [{
+				id: "107DF6975D50A2FB"
+				type: "item"
+				item: {
+					id: "mekanism:meka_tool"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 11.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"76CA9B4B4D139E35"
+				"6F2326323EF33A63"
+				"7DC080E18C7BD061"
+			]
+			id: "2CA3D7F5F1856EA7"
+			tasks: [{
+				id: "6EB257D0A3F66329"
+				type: "item"
+				item: "mekanism:modification_station"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			shape: "diamond"
+			description: ["A &bMekanism machine upgrade&f to make them &eprocess items faster&f, you can install 8 of these in each Mekanism machine."]
+			hide_dependency_lines: true
+			dependencies: ["7C096F70E21229EC"]
+			id: "4F8A969C7C6E1122"
+			tasks: [{
+				id: "4369F70CAC915357"
+				type: "item"
+				item: "mekanism:upgrade_speed"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			shape: "diamond"
+			description: ["The &benergy upgrade&f upgrade allows you to increase the &epower storage capacity&f of a Mekanism machine which has an upgrade slot, as well as &ereduce its power consumption&f."]
+			hide_dependency_lines: true
+			dependencies: ["7C096F70E21229EC"]
+			id: "57AD42E87777C2A2"
+			tasks: [{
+				id: "4AA608697EA38C21"
+				type: "item"
+				item: "mekanism:upgrade_energy"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			shape: "diamond"
+			description: ["The &bFilter Upgrade&f is an upgrade that, when used in the &eElectric Pump&f, allows the Electric Pump to produce &9Heavy Water&f."]
+			hide_dependency_lines: true
+			dependencies: ["7C096F70E21229EC"]
+			id: "2FA22A1BEBB80B1A"
+			tasks: [{
+				id: "11562FA815F1B258"
+				type: "item"
+				item: "mekanism:upgrade_filter"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["7C096F70E21229EC"]
+			id: "75D2D859A8285166"
+			tasks: [{
+				id: "26D714F4A482B7F2"
+				type: "item"
+				item: "mekanism:upgrade_muffling"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			shape: "diamond"
+			description: ["The &bgas upgrade&f allows you to &eincrease the gas usage efficiency&f of a Mekanism machine which allows it."]
+			hide_dependency_lines: true
+			dependencies: ["7C096F70E21229EC"]
+			id: "7F1532926A140454"
+			tasks: [{
+				id: "006AAED5B3A624A0"
+				type: "item"
+				item: "mekanism:upgrade_gas"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 5.0d
+			shape: "diamond"
+			description: ["&bRobit&f is Mekanism's mechanical companion. He can act as a crafting grid, a furnace, an anvil, a chest, or simply a cute little buddy."]
+			hide_dependency_lines: true
+			dependencies: [
+				"06975DA1C012F61B"
+				"4110B34782BDB3A5"
+				"1D31D6AA2E4EDAB7"
+				"306D841E39F9471F"
+			]
+			id: "6B9523CB62DB39EE"
+			tasks: [{
+				id: "53F3D8442DF7F5C0"
+				type: "item"
+				item: "mekanism:robit"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 4.0d
+			shape: "diamond"
+			description: ["The &bDigital Miner&f is the scale &9mining machine&f of Mekanism. However, this machine is like no other as it \"magically-teleports\" mined blocks to its inventory."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6B9523CB62DB39EE"
+				"2065DEF9781A8758"
+				"7DC080E18C7BD061"
+				"59BACDF85CF0148A"
+				"4110B34782BDB3A5"
+				"6F2326323EF33A63"
+			]
+			id: "3556982017D0F596"
+			tasks: [{
+				id: "3C86A40C42A5C66C"
+				type: "item"
+				item: "mekanism:digital_miner"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"4110B34782BDB3A5"
+				"7DC080E18C7BD061"
+				"06975DA1C012F61B"
+			]
+			id: "1D771FC1FCE14064"
+			tasks: [{
+				id: "26B0FA398069DB71"
+				type: "item"
+				item: "mekanism:quantum_entangloporter"
+			}]
+		}
+		{
+			title: "Teleporter"
+			x: 10.0d
+			y: 4.5d
+			shape: "diamond"
+			description: [
+				"The &bTeleporter&f is used with the Teleporter Frame to build a Teleporter Portal."
+				""
+				"With the &bTeleporter frame&f together with the Teleporter you can create a Teleporter Portal."
+				""
+				"This portal can be walked directly into for instant teleportation."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"59BACDF85CF0148A"
+				"6F2326323EF33A63"
+				"06975DA1C012F61B"
+			]
+			id: "6B79F0E9E88407AB"
+			tasks: [
+				{
+					id: "143E0F8B70629FFB"
+					type: "item"
+					item: "mekanism:teleporter_frame"
+					count: 9L
+				}
+				{
+					id: "6A2C29C881F31F07"
+					type: "item"
+					item: "mekanism:teleporter"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			shape: "diamond"
+			description: ["The &bChemical Oxidizer&f is used for making gases from materials."]
+			hide_dependency_lines: true
+			dependencies: [
+				"7C096F70E21229EC"
+				"306D841E39F9471F"
+				"350D3C66AD652024"
+				"59BACDF85CF0148A"
+			]
+			id: "37301C02A03888E2"
+			tasks: [{
+				id: "416A9C47AB72133D"
+				type: "item"
+				item: "mekanism:chemical_oxidizer"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			shape: "diamond"
+			description: ["The &bChemical Infuser&f combines or reacts two gases to create another gas."]
+			hide_dependency_lines: true
+			dependencies: [
+				"7C096F70E21229EC"
+				"59BACDF85CF0148A"
+				"6F2326323EF33A63"
+				"350D3C66AD652024"
+			]
+			id: "6C5EE5F49F7D5A2D"
+			tasks: [{
+				id: "25C6FFDF02DAFF6D"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -5.0d
+			shape: "diamond"
+			description: ["The &bChemical Dissolution Chamber&f is the first machine in the &cx5 ore processing setup&f. It turns &6raw ores&f into &6slurry&f using Sulfuric Acid."]
+			hide_dependency_lines: true
+			dependencies: [
+				"06975DA1C012F61B"
+				"7DC080E18C7BD061"
+				"350D3C66AD652024"
+				"6F2326323EF33A63"
+			]
+			id: "0F708C8972D2B338"
+			tasks: [{
+				id: "79FC07DAAA4CB03E"
+				type: "item"
+				item: "mekanism:chemical_dissolution_chamber"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.5d
+			shape: "diamond"
+			description: ["The &bChemical Washer&f turns Slurry into Clean Slurry using Water."]
+			hide_dependency_lines: true
+			dependencies: [
+				"06975DA1C012F61B"
+				"350D3C66AD652024"
+				"30FC1A8057A24789"
+				"7DC080E18C7BD061"
+				"6F2326323EF33A63"
+			]
+			id: "45BD07C0D2EC1995"
+			tasks: [{
+				id: "1E0D70D8BDCE5B71"
+				type: "item"
+				item: "mekanism:chemical_washer"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			shape: "diamond"
+			description: ["The &bChemical Crystallizer&f turns Clean Slurry into Crystals and Lithium into Lithium Dust."]
+			hide_dependency_lines: true
+			dependencies: [
+				"06975DA1C012F61B"
+				"7DC080E18C7BD061"
+				"6F2326323EF33A63"
+			]
+			id: "4DA9F20D781768A9"
+			tasks: [{
+				id: "0FCACA9CBDC5F282"
+				type: "item"
+				item: "mekanism:chemical_crystallizer"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.5d
+			shape: "diamond"
+			description: ["The &bPressurized Reaction Chamber (PRC)&f is used primarily to create &1Substrate&f (to create HDPE Pellets), &1HDPE Pellets&f (to create HDPE Sheets), and &1Ethylene&f (an efficient source of fuel used in the Gas-Burning Generator)."]
+			hide_dependency_lines: true
+			dependencies: [
+				"59BACDF85CF0148A"
+				"7C096F70E21229EC"
+				"0CB4DD1292B29613"
+				"5E95677A6ADAD7E8"
+				"350D3C66AD652024"
+			]
+			id: "1E6A68EE439D5677"
+			tasks: [{
+				id: "70C68DE8147B6B1E"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.5d
+			shape: "diamond"
+			description: [
+				"The &bRotary Condensentrator&f is used for converting substances between liquid and gaseous forms at a rate of 1:1."
+				""
+				"It has two modes:"
+				""
+				"&6Decondensentrating&f, which turns Liquids into Gases"
+				""
+				"&6Condensentrating&f, which turns Gases into Liquids"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"1D31D6AA2E4EDAB7"
+				"30FC1A8057A24789"
+				"350D3C66AD652024"
+				"59BACDF85CF0148A"
+			]
+			id: "1F58B96FB3049EAC"
+			tasks: [{
+				id: "328344F6C75F3F99"
+				type: "item"
+				item: "mekanism:rotary_condensentrator"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.5d
+			shape: "diamond"
+			description: ["The &bElectrolytic Separator&f sends controlled amounts of direct current into a fluid, causing the atoms in the fluid to break their bonds. This process of electrolysis is used to &ecreate some very useful gases&f from some rather ordinary fluids."]
+			hide_dependency_lines: true
+			dependencies: ["7C096F70E21229EC"]
+			id: "4F8C204321F0FE50"
+			tasks: [{
+				id: "0264F99BD755926E"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["51B180EF634A0C9E"]
+			id: "0CB4DD1292B29613"
+			tasks: [{
+				id: "31A8386A2AEFDE19"
+				type: "item"
+				item: "mekanism:ingot_steel"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["309CFCB619515A6B"]
+			id: "51B180EF634A0C9E"
+			tasks: [{
+				id: "34E8D1849E5C46B3"
+				type: "item"
+				item: "mekanism:dust_steel"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["0DB499A573427750"]
+			id: "309CFCB619515A6B"
+			tasks: [{
+				id: "2D33949D92068198"
+				type: "item"
+				item: "mekanism:enriched_iron"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3FDD2A123AFF5BE7"]
+			id: "06975DA1C012F61B"
+			tasks: [{
+				id: "727A9050850B210B"
+				type: "item"
+				item: "mekanism:ingot_refined_obsidian"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			shape: "diamond"
+			description: ["The &bThermal Evaporation Plant&f is a multiblock structure with the purpose of converting Water to &eBrine&f, which can be further converted to &eLithium&f by the use of a second Thermal Evaporation Plant."]
+			hide_dependency_lines: true
+			dependencies: [
+				"00B87708526D7330"
+				"310C29C40CBF16D0"
+			]
+			id: "0883187EDA953E08"
+			tasks: [{
+				id: "7D79ABD6E6279B69"
+				type: "item"
+				item: "mekanism:thermal_evaporation_controller"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["0CB4DD1292B29613"]
+			id: "00B87708526D7330"
+			tasks: [{
+				id: "605B0421794DB956"
+				type: "item"
+				item: "mekanism:thermal_evaporation_block"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"00B87708526D7330"
+				"310C29C40CBF16D0"
+			]
+			id: "2C25E815900955A9"
+			tasks: [{
+				id: "427D58F4472A5282"
+				type: "item"
+				item: "mekanism:thermal_evaporation_valve"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"59BACDF85CF0148A"
+				"26E1F373CBE76C0E"
+			]
+			id: "3F948F60B4116BB5"
+			tasks: [{
+				id: "0CB39D8A90675D6E"
+				type: "item"
+				item: "mekanism:dynamic_valve"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -1.0d
+			shape: "diamond"
+			description: ["&bDynamic Tank&f makes up the multi-block that is the Dynamic Tank, a &efluid storage&f structure that can hold a large amount of a single type of fluid."]
+			hide_dependency_lines: true
+			dependencies: ["0CB4DD1292B29613"]
+			id: "26E1F373CBE76C0E"
+			tasks: [{
+				id: "61FA8D515B3BAE6E"
+				type: "item"
+				item: "mekanism:dynamic_tank"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -1.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["0CB4DD1292B29613"]
+			id: "1DBF17F4A5A7206E"
+			tasks: [{
+				id: "7A92750BDC136DAB"
+				type: "item"
+				item: "mekanism:structural_glass"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 9.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"7DC080E18C7BD061"
+				"350D3C66AD652024"
+			]
+			id: "5E16E670CF987396"
+			tasks: [{
+				id: "247A834A04533052"
+				type: "item"
+				item: "mekanism:isotopic_centrifuge"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 11.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"5E16E670CF987396"
+				"1C22879EDB479135"
+				"59ED5FF7F677414E"
+				"62C9C51A4491A871"
+				"0FD6F2C50B90A6EE"
+			]
+			id: "76CA9B4B4D139E35"
+			tasks: [{
+				id: "5F3220D23205EC79"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
+			rewards: [{
+				id: "17E471D2132382F0"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+				count: 4
+			}]
+		}
+		{
+			x: -7.0d
+			y: 10.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"6083CEBD7FF77D03"
+				"0CB4DD1292B29613"
+			]
+			id: "1C22879EDB479135"
+			tasks: [{
+				id: "22B9B027207DCC89"
+				type: "item"
+				item: "mekanismgenerators:control_rod_assembly"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 10.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"62C9C51A4491A871"
+				"6083CEBD7FF77D03"
+			]
+			id: "0FD6F2C50B90A6EE"
+			tasks: [{
+				id: "1BDE5C38CA47DCB8"
+				type: "item"
+				item: "mekanismgenerators:fission_reactor_port"
+				count: 4L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 10.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["6F2326323EF33A63"]
+			id: "62C9C51A4491A871"
+			tasks: [{
+				id: "4271F80D790E5C24"
+				type: "item"
+				item: "mekanismgenerators:fission_reactor_casing"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 10.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"350D3C66AD652024"
+				"0CB4DD1292B29613"
+			]
+			id: "59ED5FF7F677414E"
+			tasks: [{
+				id: "014F060D835A9350"
+				type: "item"
+				item: "mekanismgenerators:fission_fuel_assembly"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 10.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["76CA9B4B4D139E35"]
+			id: "0EB13F2FF746B930"
+			tasks: [{
+				id: "759BD24FAD5EF699"
+				type: "item"
+				item: "mekanism:sps_casing"
+				count: 60L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 11.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"7DC080E18C7BD061"
+				"0EB13F2FF746B930"
+			]
+			id: "5B12B021C618CA44"
+			tasks: [{
+				id: "4384EB040723CA2A"
+				type: "item"
+				item: "mekanism:sps_port"
+				count: 3L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 10.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["0CB4DD1292B29613"]
+			id: "58053BB1A02006F5"
+			tasks: [{
+				id: "2CA123D40032B646"
+				type: "item"
+				item: "mekanism:structural_glass"
+				count: 123L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 11.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"7DC080E18C7BD061"
+				"76CA9B4B4D139E35"
+			]
+			id: "59169EA15BF1C3FC"
+			tasks: [{
+				id: "251937080998A40B"
+				type: "item"
+				item: "mekanism:supercharged_coil"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 11.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"5B12B021C618CA44"
+				"0EB13F2FF746B930"
+				"58053BB1A02006F5"
+				"59169EA15BF1C3FC"
+			]
+			id: "49A13CFB3540F203"
+			tasks: [{
+				id: "1CCE1DCBBEE9E26F"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+			}]
+			rewards: [{
+				id: "03587AE35E96AC51"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+				count: 2
+			}]
+		}
+		{
+			x: -6.5d
+			y: -4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["0DB499A573427750"]
+			id: "044CDE297ADAC93F"
+			tasks: [{
+				id: "1E674186382206D9"
+				type: "item"
+				item: "mekanismgenerators:hohlraum"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -6.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"63A82002A0B61C29"
+				"0CB4DD1292B29613"
+			]
+			id: "1BA2E4FD8BBA42ED"
+			tasks: [{
+				id: "5C975D7CB3086BD8"
+				type: "item"
+				item: "mekanism:laser_amplifier"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -6.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"39DD69009C6A2070"
+				"1D31D6AA2E4EDAB7"
+				"6F2326323EF33A63"
+			]
+			id: "782726F2CE37F614"
+			tasks: [{
+				id: "19474D6798289C55"
+				type: "item"
+				item: "mekanism:laser"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -6.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["309CFCB619515A6B"]
+			id: "668B91ABB999EBA6"
+			tasks: [{
+				id: "7DBF33DD9FA8ECFB"
+				type: "item"
+				item: "mekanismgenerators:laser_focus_matrix"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -4.5d
+			shape: "diamond"
+			description: ["The &bFusion Reactor Frame&f is a primary block in the Mekanism &cFusion Reactor&f creation."]
+			hide_dependency_lines: true
+			dependencies: [
+				"4110B34782BDB3A5"
+				"76CA9B4B4D139E35"
+				"6F2326323EF33A63"
+			]
+			id: "23565901704DF1BC"
+			tasks: [{
+				id: "5111A3850DA6E99C"
+				type: "item"
+				item: "mekanismgenerators:fusion_reactor_frame"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"7DC080E18C7BD061"
+				"23565901704DF1BC"
+			]
+			id: "6E39178B9E14A546"
+			tasks: [{
+				id: "26C67F2665C762AE"
+				type: "item"
+				item: "mekanismgenerators:fusion_reactor_port"
+				count: 4L
+			}]
+		}
+		{
+			x: -6.5d
+			y: -5.0d
+			shape: "diamond"
+			description: ["The &bReactor Controller&f is a primary block of the Mekanism &cFusion Reactor&f creation. "]
+			hide_dependency_lines: true
+			dependencies: [
+				"7DC080E18C7BD061"
+				"350D3C66AD652024"
+				"23565901704DF1BC"
+			]
+			id: "7C3AF206F9384C80"
+			tasks: [{
+				id: "67FEC7CAE7ACDA75"
+				type: "item"
+				item: "mekanismgenerators:fusion_reactor_controller"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -6.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"0CB4DD1292B29613"
+				"7C096F70E21229EC"
+			]
+			id: "7C297E764A14FBDA"
+			tasks: [{
+				id: "162F781D7F45ABA6"
+				type: "item"
+				item: "mekanismgenerators:turbine_blade"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -6.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"0CB4DD1292B29613"
+				"7C096F70E21229EC"
+			]
+			id: "353E64D4432E060E"
+			tasks: [{
+				id: "52641F7AEC61CD5A"
+				type: "item"
+				item: "mekanismgenerators:turbine_rotor"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["0CB4DD1292B29613"]
+			id: "6718734F1501927A"
+			tasks: [{
+				id: "3F48360EF37ADA11"
+				type: "item"
+				item: "mekanismgenerators:saturating_condenser"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["7900EAC043EAA8B0"]
+			id: "2EA4B21E31CFE173"
+			tasks: [{
+				id: "4D4D8FB9AD342932"
+				type: "item"
+				item: "mekanismgenerators:turbine_vent"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"310C29C40CBF16D0"
+				"7900EAC043EAA8B0"
+			]
+			id: "4722D542379E327F"
+			tasks: [{
+				id: "2C6300869FD60C3E"
+				type: "item"
+				item: "mekanismgenerators:turbine_valve"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -4.0d
+			shape: "diamond"
+			description: ["&bElectromagnetic Coil&f is a block used in creating several multi-block structures, including the Thermoelectric Boiler."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1D31D6AA2E4EDAB7"
+				"0CB4DD1292B29613"
+			]
+			id: "48030A3C954D7B75"
+			tasks: [{
+				id: "246B93376B7510F2"
+				type: "item"
+				item: "mekanismgenerators:electromagnetic_coil"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -4.5d
+			shape: "diamond"
+			description: ["&bTurbine Casing&f is a pressure-resistant casing that is used in the creation of the &cIndustrial Turbine&f multi block structure."]
+			hide_dependency_lines: true
+			dependencies: ["0CB4DD1292B29613"]
+			id: "7900EAC043EAA8B0"
+			tasks: [{
+				id: "2589D840B2B03E00"
+				type: "item"
+				item: "mekanismgenerators:turbine_casing"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -6.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"0CB4DD1292B29613"
+				"7C096F70E21229EC"
+				"310C29C40CBF16D0"
+			]
+			id: "0D86FA979B3A75BB"
+			tasks: [{
+				id: "4022A11942C9E702"
+				type: "item"
+				item: "mekanismgenerators:rotational_complex"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 9.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["76CA9B4B4D139E35"]
+			id: "5381813F797ABCD9"
+			tasks: [{
+				id: "3A24F4C526965887"
+				type: "item"
+				item: "mekanism:qio_drive_base"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 9.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"76CA9B4B4D139E35"
+				"5381813F797ABCD9"
+			]
+			id: "05D152B159895B1A"
+			tasks: [{
+				id: "5B120BB372174544"
+				type: "item"
+				item: "mekanism:qio_drive_hyper_dense"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 8.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"76CA9B4B4D139E35"
+				"05D152B159895B1A"
+			]
+			id: "770CBD3A672DD6FF"
+			tasks: [{
+				id: "6D86DDB92A0C6B21"
+				type: "item"
+				item: "mekanism:qio_drive_time_dilating"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 9.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"76CA9B4B4D139E35"
+				"770CBD3A672DD6FF"
+			]
+			id: "382A866F71402BFC"
+			tasks: [{
+				id: "42BEDD81ADD983A5"
+				type: "item"
+				item: "mekanism:qio_drive_supermassive"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 9.5d
+			shape: "diamond"
+			description: [
+				"&bQIO Drive Array&r is a blocks that contains QIO Drives and wirelessly transmits their contents to other QIO devices."
+				""
+				"In order to work, the drive array must be set to a frequency."
+			]
+			hide_dependency_lines: true
+			dependencies: ["76CA9B4B4D139E35"]
+			id: "4FCDEF84770C4C7A"
+			tasks: [{
+				id: "6C762AB4D1CBD687"
+				type: "item"
+				item: "mekanism:qio_drive_array"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 10.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["76CA9B4B4D139E35"]
+			id: "6C89273C92F26376"
+			tasks: [{
+				id: "51F6455136F32DBB"
+				type: "item"
+				item: "mekanism:qio_dashboard"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 10.0d
+			shape: "diamond"
+			description: ["A QIO-linked item import unit. Place on a block and import its contents to your QIO system."]
+			hide_dependency_lines: true
+			dependencies: ["76CA9B4B4D139E35"]
+			id: "5DB20AC600A6E20C"
+			tasks: [{
+				id: "663F14CD043437BE"
+				type: "item"
+				item: "mekanism:qio_importer"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 9.5d
+			shape: "diamond"
+			description: ["A QIO-linked item export unit. Place on a block and export contents from your QIO systeme to the block."]
+			hide_dependency_lines: true
+			dependencies: ["76CA9B4B4D139E35"]
+			id: "13A6BBCE1995D3BD"
+			tasks: [{
+				id: "0F6942800A91C4CD"
+				type: "item"
+				item: "mekanism:qio_exporter"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 7.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["76CA9B4B4D139E35"]
+			id: "664D01AB895CF62D"
+			tasks: [{
+				id: "188917BCFBF01051"
+				type: "item"
+				item: "mekanism:portable_qio_dashboard"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 10.5d
+			shape: "diamond"
+			description: ["A QIO-linked redstone adapter. Use to monitor your QIO system's contents."]
+			hide_dependency_lines: true
+			dependencies: ["76CA9B4B4D139E35"]
+			id: "52B113A3A2D0F018"
+			tasks: [{
+				id: "14146053A5E08FD0"
+				type: "item"
+				item: "mekanism:qio_redstone_adapter"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 12.0d
+			shape: "diamond"
+			description: ["A machine used to extract pigments from blocks and items."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6F2326323EF33A63"
+				"59BACDF85CF0148A"
+			]
+			id: "3267112FBC86E44E"
+			tasks: [{
+				id: "7E46BF00986C91EE"
+				type: "item"
+				item: "mekanism:pigment_extractor"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 12.5d
+			shape: "diamond"
+			description: ["A sturdy machine capable of mixing two pigments together to produce a new pigment."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6F2326323EF33A63"
+				"39DD69009C6A2070"
+				"6083CEBD7FF77D03"
+			]
+			id: "4EEF190167857DBF"
+			tasks: [{
+				id: "11BB02C15273D11C"
+				type: "item"
+				item: "mekanism:pigment_mixer"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 12.5d
+			shape: "diamond"
+			description: ["A machine used to color blocks and items via a careful application of a stored pigment."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6F2326323EF33A63"
+				"310C29C40CBF16D0"
+				"7C096F70E21229EC"
+			]
+			id: "595767A10F40C0D7"
+			tasks: [{
+				id: "7F0716D20ED7C5A7"
+				type: "item"
+				item: "mekanism:painting_machine"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3FDD2A123AFF5BE7"]
+			id: "4493AF9FB8C62AD2"
+			tasks: [{
+				id: "62B848B7E4527982"
+				type: "item"
+				item: "mekanism:ingot_refined_glowstone"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 13.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"1E6A68EE439D5677"
+				"2CA3D7F5F1856EA7"
+				"106B89A7A018AD2D"
+			]
+			size: 2.0d
+			id: "6BE52EF19D6EEA0B"
+			tasks: [{
+				id: "55798C4B90233A97"
+				type: "item"
+				item: "mekanism:module_base"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 13.5d
+			shape: "diamond"
+			description: [
+				"&bNutritional Injection Units&r are modules that can be installed on a MekaSuit Helmet to remove the need to manually eat."
+				""
+				"When installed, the MekaSuit helmet will have an internal storage for Nutritional Paste (128,000mb)."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"6BE52EF19D6EEA0B"
+				"39DD69009C6A2070"
+				"76CA9B4B4D139E35"
+			]
+			id: "58327A4260309CE0"
+			tasks: [{
+				id: "5B60EA1BBBA18E92"
+				type: "item"
+				item: "mekanism:module_nutritional_injection_unit"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 15.0d
+			shape: "diamond"
+			description: [
+				"&bJetpack Units&r are modules that allows your MekaSuit Bodyarmor to have the functions of a Jetpack."
+				""
+				"Once applied, the MekaSuit Bodyarmor will have an internal storage for hydrogen (48,000mb)."
+				""
+				"The Jetpack Unit is best paired with the Electrolytic Breathing Unit. Doing so allows the accumulation of hydrogen when underwater or in the rain. "
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"6BE52EF19D6EEA0B"
+				"76CA9B4B4D139E35"
+				"39DD69009C6A2070"
+			]
+			id: "1249B72FC5ABA05E"
+			tasks: [{
+				id: "36A4FD50AA273220"
+				type: "item"
+				item: "mekanism:module_jetpack_unit"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 14.5d
+			shape: "diamond"
+			description: ["&bVision Enhancement Units&r are modules that can be installed on a MekaSuit Helmet to improve night vision."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6BE52EF19D6EEA0B"
+				"76CA9B4B4D139E35"
+				"39DD69009C6A2070"
+				"7C096F70E21229EC"
+			]
+			id: "7C6483424F3B3D97"
+			tasks: [{
+				id: "7CC36D60E2986B17"
+				type: "item"
+				item: "mekanism:module_vision_enhancement_unit"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 15.0d
+			shape: "diamond"
+			description: ["&bSolar Recharging Units&r are modules that charge your MekaSuit during direct exposure to sunlight."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6BE52EF19D6EEA0B"
+				"76CA9B4B4D139E35"
+				"39DD69009C6A2070"
+			]
+			id: "4367B87F8F98E59F"
+			tasks: [{
+				id: "6055899FF2AA5DC1"
+				type: "item"
+				item: "mekanism:module_solar_recharging_unit"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 14.0d
+			shape: "diamond"
+			description: [
+				"&bThe Attack Amplification Unit&r Is a Module that Amplifies Melee attacks to both players and mobs."
+				""
+				"it can only be applied to the Meka-Tool."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"6BE52EF19D6EEA0B"
+				"7C096F70E21229EC"
+			]
+			id: "18C945AFC2D6D315"
+			tasks: [{
+				id: "75B62F5BDB538A4B"
+				type: "item"
+				item: "mekanism:module_attack_amplification_unit"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 14.5d
+			shape: "diamond"
+			description: ["&bHydraulic Propulsion Units&r are modules that allows you climb over a maximum of 2 blocks. It also allows you to jump higher when you hold Left Control and jump (LCrtl+Spacebar)."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6BE52EF19D6EEA0B"
+				"76CA9B4B4D139E35"
+				"39DD69009C6A2070"
+			]
+			id: "4902041E65AE0FEF"
+			tasks: [{
+				id: "0BBDF31F9EF91552"
+				type: "item"
+				item: "mekanism:module_hydraulic_propulsion_unit"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 15.5d
+			shape: "diamond"
+			description: [
+				"&bLocomotive Boosting Units&r are modules that will allow you to boost your sprinting speed and jumping distance."
+				""
+				"It can be configured from 0.0 sprint boost, to a 0.5 sprint boost. Note that your hunger consumption would also increase."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"6BE52EF19D6EEA0B"
+				"76CA9B4B4D139E35"
+				"39DD69009C6A2070"
+			]
+			id: "3C07BDD517079E01"
+			tasks: [{
+				id: "38DB95354BFE13CB"
+				type: "item"
+				item: "mekanism:module_locomotive_boosting_unit"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 15.5d
+			shape: "diamond"
+			description: ["&bDosimeter Units&r are modules that will display your radiation dose in the HUD on the bottom right corner."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6BE52EF19D6EEA0B"
+				"7C096F70E21229EC"
+			]
+			id: "2E308555DFF495FB"
+			tasks: [{
+				id: "4E8401990811F1A6"
+				type: "item"
+				item: "mekanism:module_dosimeter_unit"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 16.0d
+			shape: "diamond"
+			description: ["&bThe Excavation Escalation Unit&r is a module that when added to a Meka-Tool Increases the Mining speed of all blocks."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6BE52EF19D6EEA0B"
+				"7C096F70E21229EC"
+			]
+			id: "34E7D2174E16DE86"
+			tasks: [{
+				id: "14EDE2AE1F8A5562"
+				type: "item"
+				item: "mekanism:module_excavation_escalation_unit"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 16.5d
+			shape: "diamond"
+			description: [
+				"&bElectrolytic Breathing Units&r are modules that allows you to breathe underwater."
+				""
+				""
+				"In addition, if the Jetpack Unit is installed onto the MekaSuit Bodyarmor, it will automatically begin to refuel its hydrogen supply while underwater or out in the rain."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"6BE52EF19D6EEA0B"
+				"7C096F70E21229EC"
+			]
+			id: "239F9DEA918CDEB5"
+			tasks: [{
+				id: "29FA66223132F141"
+				type: "item"
+				item: "mekanism:module_electrolytic_breathing_unit"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 14.5d
+			shape: "diamond"
+			description: [
+				"&bGravitational Modulating Units&r are modules that allows the user to utilize creative flight."
+				""
+				"If the MekaSuit bodyarmor also has a Jetpack Unit installed, the Jetpack Unit will be automatically disabled if the Gravitational Modulating Unit is enabled, and vice versa."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"6BE52EF19D6EEA0B"
+				"49A13CFB3540F203"
+				"4110B34782BDB3A5"
+				"1540227469500735"
+			]
+			id: "5751B14FDF66A732"
+			tasks: [{
+				id: "0E8FA94F4F59C82B"
+				type: "item"
+				item: "mekanism:module_gravitational_modulating_unit"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 13.5d
+			shape: "diamond"
+			description: ["&bVein Mining Unit&r allows for quick mining of ore deposits and rapid felling of trees."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6BE52EF19D6EEA0B"
+				"76CA9B4B4D139E35"
+				"39DD69009C6A2070"
+			]
+			id: "7087DB3248358552"
+			tasks: [{
+				id: "19AE15E4873FD28A"
+				type: "item"
+				item: "mekanism:module_vein_mining_unit"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 15.5d
+			shape: "diamond"
+			description: [
+				"&bThe Farming unit&r is a Module that is applied to the Meka-Tool. It Gives the tool several agriculture-based functions, Up to 4 can be stacked on one tool."
+				""
+				"The Farming unit unlocks the following abilities in the Meka-tool :"
+				"• Soil tilling"
+				"• Log stripping"
+				"• Soil flattening"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"6BE52EF19D6EEA0B"
+				"7C096F70E21229EC"
+			]
+			id: "31689EFB7B3DA9C3"
+			tasks: [{
+				id: "770ACB0641C58603"
+				type: "item"
+				item: "mekanism:module_farming_unit"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 14.5d
+			shape: "diamond"
+			description: ["&bTeleportation Unit &rprovides for quick travel to nearby blocks."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6BE52EF19D6EEA0B"
+				"49A13CFB3540F203"
+				"4110B34782BDB3A5"
+			]
+			id: "01443C6BA68BD575"
+			tasks: [{
+				id: "492AB40DDD4880E9"
+				type: "item"
+				item: "mekanism:module_teleportation_unit"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 14.0d
+			shape: "diamond"
+			description: ["&bCharge Distribution Units&r are modules that distributes gained energy evenly to all MekaSuit armor pieces. Normally if you have installed Solar Recharging Units onto your MekaSuit Helmet, only the helmet will gain all the energy it's producing. With the Charge Distribution Unit installed, the produced energy will be evenly distributed throughout all MekaSuit armor pieces."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6BE52EF19D6EEA0B"
+				"76CA9B4B4D139E35"
+				"39DD69009C6A2070"
+			]
+			id: "6106A879CCC7B5FE"
+			tasks: [{
+				id: "256D03B5215156FA"
+				type: "item"
+				item: "mekanism:module_charge_distribution_unit"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 15.0d
+			shape: "diamond"
+			description: ["&bEnergy Units&r are modules that will double the current energy capacity of the selected MekaSuit armor piece."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6BE52EF19D6EEA0B"
+				"7C096F70E21229EC"
+				"1C56345CD6218FA5"
+			]
+			id: "44819AF00008DEE2"
+			tasks: [{
+				id: "18DBE6604CF19352"
+				type: "item"
+				item: "mekanism:module_energy_unit"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 16.5d
+			shape: "diamond"
+			description: ["&bThe Silk Touch Unit&r is a Module in Mekanism that is installed onto the Meka-Tool, which gives the tool the property of the Silk-Touch Enchantment."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6BE52EF19D6EEA0B"
+				"76CA9B4B4D139E35"
+				"39DD69009C6A2070"
+			]
+			id: "3098B1461152A581"
+			tasks: [{
+				id: "45555BB1F758BEC4"
+				type: "item"
+				item: "mekanism:module_silk_touch_unit"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 15.5d
+			shape: "diamond"
+			description: ["&bRadiation Shielding Units&r are modules that allows your MekaSuit armor piece to act like the respective Hazmat Suit pieces and provide protection from radiation."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6BE52EF19D6EEA0B"
+				"7C096F70E21229EC"
+			]
+			id: "6E2D33B67DD02A4C"
+			tasks: [{
+				id: "4A939215165264D1"
+				type: "item"
+				item: "mekanism:module_radiation_shielding_unit"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 16.0d
+			shape: "diamond"
+			description: [
+				"&bMagnetic Attraction Unit&r is a Module that is applied to the Mekasuit Boots."
+				""
+				"As the item Flavor text states \"[The unit] Uses Powerful Magnets to draw distant items towards the player\", you can install up to 4 on one pair of boots."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"6BE52EF19D6EEA0B"
+				"76CA9B4B4D139E35"
+				"39DD69009C6A2070"
+			]
+			id: "2CFC3AF62959A4F9"
+			tasks: [{
+				id: "13BFA84A25FEB091"
+				type: "item"
+				item: "mekanism:module_magnetic_attraction_unit"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 16.0d
+			shape: "diamond"
+			description: ["&bInhalation Purification Units&r are modules that can protect the player from selected potion effects including beneficial, neutral, and harmful ones."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6BE52EF19D6EEA0B"
+				"76CA9B4B4D139E35"
+				"39DD69009C6A2070"
+			]
+			id: "7228C7D34065BDA6"
+			tasks: [{
+				id: "6E69DE63AB136B16"
+				type: "item"
+				item: "mekanism:module_inhalation_purification_unit"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 9.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"6F2326323EF33A63"
+				"59BACDF85CF0148A"
+			]
+			id: "2C3DCEE82C869BDC"
+			tasks: [{
+				id: "27CDFB3092710DDD"
+				type: "item"
+				item: "mekanism:nutritional_liquifier"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 11.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"59ED5FF7F677414E"
+				"1C22879EDB479135"
+				"62C9C51A4491A871"
+				"0FD6F2C50B90A6EE"
+				"5E16E670CF987396"
+			]
+			id: "53F99D022467ECAB"
+			tasks: [{
+				id: "26A9BD1A10D3A94F"
+				type: "item"
+				item: "mekanism:pellet_plutonium"
+			}]
+		}
+	]
+}

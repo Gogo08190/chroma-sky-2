@@ -1,0 +1,206 @@
+{
+	id: "59BB18E69834AB0C"
+	group: "258B5ED587988A28"
+	order_index: 6
+	filename: "animals_seeds"
+	title: "Animal Crops"
+	icon: {
+		id: "animalcrops:seeds"
+		Count: 1b
+		tag: {
+			entity: "minecraft:chicken"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 6.964285714285715d
+			y: -1.9107142857142883d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "occultism:textures/gui/book/parrot.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.642857142857153d
+			y: -1.5535714285714306d
+			width: 2.0d
+			height: 2.0d
+			rotation: -15.0d
+			image: "losttrinkets:textures/item/piggy.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -1.0d
+			y: -0.5d
+			shape: "rsquare"
+			dependencies: ["0ABA29AAB5DCD885"]
+			id: "3F9B8259D27E86F3"
+			tasks: [{
+				id: "086AB07FF1BD0F42"
+				type: "item"
+				item: {
+					id: "animalcrops:seeds"
+					Count: 1b
+					tag: {
+						entity: "minecraft:bee"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			shape: "rsquare"
+			dependencies: ["0ABA29AAB5DCD885"]
+			id: "580E5D89A0B70236"
+			tasks: [{
+				id: "42005EF08004D48E"
+				type: "item"
+				item: {
+					id: "animalcrops:seeds"
+					Count: 1b
+					tag: {
+						entity: "minecraft:chicken"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			shape: "rsquare"
+			dependencies: ["0ABA29AAB5DCD885"]
+			id: "1815273C8DC71304"
+			tasks: [{
+				id: "5A3DD8F58FDFC8CF"
+				type: "item"
+				item: {
+					id: "animalcrops:seeds"
+					Count: 1b
+					tag: {
+						entity: "minecraft:cow"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			shape: "rsquare"
+			dependencies: ["0ABA29AAB5DCD885"]
+			id: "43F29BB71CF27B40"
+			tasks: [{
+				id: "68C36DE3BCB76FC1"
+				type: "item"
+				item: {
+					id: "animalcrops:seeds"
+					Count: 1b
+					tag: {
+						entity: "minecraft:pig"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			shape: "rsquare"
+			dependencies: ["0ABA29AAB5DCD885"]
+			id: "59602C17CE7298A0"
+			tasks: [{
+				id: "6DBBEF7D3A1AE5C3"
+				type: "item"
+				item: {
+					id: "animalcrops:seeds"
+					Count: 1b
+					tag: {
+						entity: "minecraft:rabbit"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			shape: "rsquare"
+			dependencies: ["0C1760A0E6D5AF4C"]
+			id: "4E7708F607129E79"
+			tasks: [{
+				id: "7A28AD78CA94389B"
+				type: "item"
+				item: {
+					id: "animalcrops:seeds"
+					Count: 1b
+					tag: {
+						entity: "minecraft:sheep"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			shape: "rsquare"
+			dependencies: ["0C1760A0E6D5AF4C"]
+			id: "4FB196575E712982"
+			tasks: [{
+				id: "4C0BE9838D429FF9"
+				type: "item"
+				item: {
+					id: "animalcrops:seeds"
+					Count: 1b
+					tag: {
+						entity: "minecraft:villager"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			shape: "rsquare"
+			dependencies: ["0ABA29AAB5DCD885"]
+			id: "15B15DBDE784EA1B"
+			tasks: [{
+				id: "359ACEF5A716D2FC"
+				type: "item"
+				item: {
+					id: "animalcrops:anemonemal"
+					Count: 1b
+					tag: {
+						entity: "minecraft:squid"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			shape: "rsquare"
+			dependencies: ["0C1760A0E6D5AF4C"]
+			id: "0858178E539369B4"
+			tasks: [{
+				id: "18DD403C6C8F3E91"
+				type: "item"
+				item: {
+					id: "animalcrops:anemonemal"
+					Count: 1b
+					tag: {
+						entity: "minecraft:turtle"
+					}
+				}
+			}]
+		}
+	]
+}

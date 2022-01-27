@@ -160,6 +160,7 @@
 		{
 			x: 2.0d
 			y: -1.0d
+			description: ["Increases the storage amount of the drawer it is applied to by 2."]
 			dependencies: ["5C6387836A9F6896"]
 			id: "7405B83D0ADAC9FE"
 			tasks: [{
@@ -171,6 +172,7 @@
 		{
 			x: 2.0d
 			y: 0.0d
+			description: ["Increases the storage amount of the drawer it is applied to by 4."]
 			dependencies: ["5C6387836A9F6896"]
 			id: "133EB74E48D93422"
 			tasks: [{
@@ -182,6 +184,7 @@
 		{
 			x: 2.0d
 			y: 1.0d
+			description: ["Increases the storage amount of the drawer it is applied to by 8."]
 			dependencies: ["5C6387836A9F6896"]
 			id: "2C9BB21CD8A445DE"
 			tasks: [{
@@ -193,6 +196,7 @@
 		{
 			x: 2.0d
 			y: 2.0d
+			description: ["Increases the storage amount of the drawer it is applied to by 16."]
 			dependencies: ["5C6387836A9F6896"]
 			id: "13D47AA9963C2A5A"
 			tasks: [{
@@ -204,6 +208,7 @@
 		{
 			x: 2.0d
 			y: 3.0d
+			description: ["Increases the storage amount of the drawer it is applied to by 32."]
 			dependencies: ["5C6387836A9F6896"]
 			id: "7DDF88D02453003F"
 			tasks: [{
@@ -215,6 +220,7 @@
 		{
 			x: 3.0d
 			y: -2.5d
+			description: ["This upgrade sends any items over the capacity of the drawer into the void to never be seen again."]
 			dependencies: ["5C6387836A9F6896"]
 			id: "339A4351EEA4BBCD"
 			tasks: [{
@@ -303,6 +309,7 @@
 		{
 			x: 3.0d
 			y: -1.5d
+			description: ["This upgrade illuminates the contained block/item, good for night time!"]
 			dependencies: ["5C6387836A9F6896"]
 			id: "34E11B1C3B3443D6"
 			tasks: [{

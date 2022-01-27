@@ -11,6 +11,92 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 7.5d
+			y: -5.0d
+			width: 8.0d
+			height: 8.0d
+			rotation: 45.0d
+			image: "refinedstorage:textures/block/relay/cutouts/orange.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 13.5d
+			y: -5.0d
+			width: 8.0d
+			height: 8.0d
+			rotation: 45.0d
+			image: "refinedstorage:textures/block/relay/cutouts/yellow.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			width: 8.0d
+			height: 8.0d
+			rotation: 45.0d
+			image: "refinedstorage:textures/block/relay/cutouts/lime.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			width: 8.0d
+			height: 8.0d
+			rotation: 45.0d
+			image: "refinedstorage:textures/block/relay/cutouts/light_blue.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 16.5d
+			y: -0.5d
+			width: 8.0d
+			height: 8.0d
+			rotation: 45.0d
+			image: "refinedstorage:textures/block/relay/cutouts/red.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 15.0d
+			y: -11.0d
+			width: 8.0d
+			height: 8.0d
+			rotation: 45.0d
+			image: "refinedstorage:textures/block/relay/cutouts/gray.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.0d
+			y: -11.0d
+			width: 8.0d
+			height: 8.0d
+			rotation: 45.0d
+			image: "refinedstorage:textures/block/relay/cutouts/gray.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			x: 16.5d
@@ -1862,6 +1948,7 @@
 			}]
 		}
 		{
+			title: "&dMechanic Core Tier 4"
 			x: 10.5d
 			y: -6.0d
 			shape: "gear"
@@ -1869,6 +1956,10 @@
 			dependencies: [
 				"4F653ADFAFAF8ABB"
 				"285C1BC5A25DC155"
+				"58A9D7D7EFE97810"
+				"4F49664319D58211"
+				"500CE4634E4CAA6E"
+				"3EAB488E2A6BC29A"
 			]
 			size: 2.0d
 			id: "1BF9C8439A0AAE86"

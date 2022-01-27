@@ -1,0 +1,1985 @@
+{
+	id: "24A21BFBA2BC04D1"
+	group: "7F090E96EFD94B43"
+	order_index: 1
+	filename: "blood_magic"
+	title: "Blood Magic"
+	icon: "bloodmagic:altar"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Blood Altar Tier One"
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "The Beginning"
+			description: [
+				"So this is the first &4Blood Altar&r tier"
+				""
+				"With that tier you're able to craft some items that will surely lead you to build the tier two"
+				""
+				"{image:chromasky2:textures/quest/tier1.png width:150 height:150 align:1}"
+			]
+			dependencies: [
+				"78A69A7B685E29FB"
+				"285C1BC5A25DC155"
+				"0FE5FF6916A0EAAD"
+				"71E4BB753498AB6B"
+			]
+			size: 1.5d
+			id: "0DB48A26E11F0114"
+			tasks: [{
+				id: "75260777F56D7404"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			subtitle: "Alchemical Crafting"
+			description: [
+				"The &4&lAlchemy Table&r can provide the player nice and cool stuff."
+				""
+				"You can check the recipes on JEI ! "
+				""
+				"Even better it can be automated ! "
+				"Simply put the input thanks to the directions on the GUI and extract underneath the table."
+				""
+				"Be sure to have to correct &aPhilosopher Stone&r or you'll get surprises"
+				""
+			]
+			dependencies: ["0DB48A26E11F0114"]
+			id: "7F47CF0B2B6119BC"
+			tasks: [{
+				id: "2307A0F5C121C842"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			subtitle: "Magical Ashes"
+			description: ["Those &8Arcane Ashes&r can do a kind of exchange. Put the ashes on the ground and then the two needed items (please respect the order as shown on JEI) "]
+			dependencies: ["0DB48A26E11F0114"]
+			id: "7234EDC19FB08166"
+			tasks: [{
+				id: "767FC5C0E419DF8A"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			subtitle: "Blood for the blood god"
+			dependencies: ["0DB48A26E11F0114"]
+			id: "07B16F39EF24C5E8"
+			tasks: [{
+				id: "5A38E3DF350DE569"
+				type: "item"
+				item: "bloodmagic:life_essence_bucket"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			subtitle: "Using souls, digging holes"
+			description: [
+				"This is the forge when you can use &bDemon Wills&r or &8Tartaric Gems&r "
+				""
+				"As said in the &7Demonic Will&r quest, this needs a specific quality for each craft. "
+				""
+				"You better check &cJEI&r to find out what quality are needed."
+			]
+			dependencies: ["0DB48A26E11F0114"]
+			id: "1C885DCACA1EC327"
+			tasks: [{
+				id: "05D72A7736374B57"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			subtitle: "The First Orb"
+			dependencies: ["0DB48A26E11F0114"]
+			id: "7408F8F1AD902D52"
+			tasks: [{
+				id: "1F639253797627A8"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			subtitle: "Dark Souls"
+			description: [
+				"Once you have that &8Snare&r you will have to throw it to an agressive mob such as zombies or skeletons or whatever you like."
+				""
+				"Once that is done, if you're lucky enough, a little white potion effect will appear on the mob, you will have to kill it to have the &4Demonic Will&r."
+			]
+			dependencies: ["0DB48A26E11F0114"]
+			id: "46C51346F06DCE1E"
+			tasks: [{
+				id: "27B5DB363E65D97C"
+				type: "item"
+				item: "bloodmagic:soulsnare"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			dependencies: ["0DB48A26E11F0114"]
+			id: "5188EC1BF58C53AE"
+			tasks: [{
+				id: "3D0FE976287AFA45"
+				type: "item"
+				item: "bloodmagic:blankslate"
+			}]
+		}
+		{
+			title: "Blood Altar Tier Two"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "bloodmagic:textures/item/altarmaker.png"
+				}
+			}
+			x: 4.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "Tier Two"
+			description: [
+				"So you've managed to build the tier II?"
+				""
+				"Now, you can craft the listed items below and go even further by maybe going directly yo the third tier?"
+				""
+				"{image:chromasky2:textures/quest/tier2.png width:200 height:150 align:1}"
+			]
+			dependencies: ["0DB48A26E11F0114"]
+			size: 1.5d
+			id: "4E2EBC93FBE004C0"
+			tasks: [{
+				id: "0C55C63C81FFC57B"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 8L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			subtitle: "Used for the Ritual Of Sacrifice"
+			description: ["In order to have a better source of Blood, make the Ritual Of Sacrifice"]
+			dependencies: ["4E2EBC93FBE004C0"]
+			id: "0CA75CA8046315B6"
+			tasks: [{
+				id: "3022C3D16B435802"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["4E2EBC93FBE004C0"]
+			id: "49FA91CAAB120631"
+			tasks: [{
+				id: "651FE2037B0A2E70"
+				type: "item"
+				item: "bloodmagic:reinforcedslate"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			subtitle: "Blood Orb Tier II"
+			dependencies: ["4E2EBC93FBE004C0"]
+			id: "42BD78F424A0A430"
+			tasks: [{
+				id: "6874019CC4001F54"
+				type: "item"
+				item: "bloodmagic:apprenticebloodorb"
+			}]
+		}
+		{
+			title: "Blood Altar Tier Three"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "bloodmagic:textures/item/altarmaker.png"
+				}
+			}
+			x: 8.5d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "Tier Three Altar"
+			description: ["{image:chromasky2:textures/quest/tier3.png width:250 height:150 align:1}"]
+			dependencies: ["4E2EBC93FBE004C0"]
+			size: 1.5d
+			min_width: 250
+			id: "643221D07E10181E"
+			tasks: [
+				{
+					id: "08AC2E8E1FA07030"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 8L
+				}
+				{
+					id: "1AFFBC0CC945873C"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 20L
+				}
+				{
+					id: "4B6D6D3B3D941F60"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -1.5d
+			dependencies: ["643221D07E10181E"]
+			id: "30C4B1967B040C9C"
+			tasks: [{
+				id: "7A06373A744D26EC"
+				type: "item"
+				item: "bloodmagic:magicianbloodorb"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 0.0d
+			dependencies: [
+				"72112206FF4353B7"
+				"55245EA5424CF806"
+				"73E2EB707D5D66AB"
+				"67F7FAD67A9B654B"
+			]
+			id: "5E87C2601FE97FF1"
+			tasks: [{
+				id: "7A983039EF376B08"
+				type: "item"
+				item: "bloodmagic:ritualdiviner"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.0d
+			dependencies: ["643221D07E10181E"]
+			id: "40BF29176669399A"
+			tasks: [{
+				id: "565BE90062AFB195"
+				type: "item"
+				item: "bloodmagic:infusedslate"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			dependencies: ["643221D07E10181E"]
+			id: "6DDFDB20CE7DA9FE"
+			tasks: [{
+				id: "37B7FE1384E2DE1A"
+				type: "item"
+				item: "bloodmagic:activationcrystalweak"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			dependencies: ["643221D07E10181E"]
+			id: "5C726462D85CD1B0"
+			tasks: [{
+				id: "56EEF53C7C8C4874"
+				type: "item"
+				item: "bloodmagic:reinforcedslate"
+			}]
+		}
+		{
+			title: "Blood Altar Tier Four"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "bloodmagic:textures/item/altarmaker.png"
+				}
+			}
+			x: 8.5d
+			y: 4.5d
+			shape: "rsquare"
+			description: ["{image:chromasky2:textures/quest/tier4.png width:250 height:150 align:1}"]
+			dependencies: ["643221D07E10181E"]
+			hide: false
+			size: 1.5d
+			min_width: 250
+			id: "3096464B66060A9D"
+			tasks: [
+				{
+					id: "5AEB7657386739E7"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 28L
+				}
+				{
+					id: "789E287AC8252239"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 16L
+				}
+				{
+					id: "29B6B70A09106C27"
+					type: "item"
+					item: "bloodmagic:bloodstonebrick"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 4.0d
+			dependencies: ["3096464B66060A9D"]
+			id: "1D3E29B535A0EDC7"
+			tasks: [{
+				id: "5C8AF480513E0774"
+				type: "item"
+				item: "bloodmagic:masterbloodorb"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.0d
+			dependencies: ["3096464B66060A9D"]
+			id: "6077AB5BB795BD9C"
+			tasks: [{
+				id: "55773AC52C7B5F3C"
+				type: "item"
+				item: "bloodmagic:demonslate"
+			}]
+		}
+		{
+			title: "Blood Altar Tier Five"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "bloodmagic:textures/item/altarmaker.png"
+				}
+			}
+			x: 8.496768707483d
+			y: 6.727891156462597d
+			shape: "rsquare"
+			description: ["{image:chromasky2:textures/quest/tier_5.png width:250 height:150 align:1}"]
+			dependencies: ["3096464B66060A9D"]
+			size: 1.5d
+			min_width: 250
+			id: "5FEAE6ACEADD47AE"
+			tasks: [
+				{
+					id: "60DB3E4EBFB4021C"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 52L
+				}
+				{
+					id: "27B1250275E2BA8B"
+					type: "item"
+					item: "minecraft:beacon"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: 10.020578231292518d
+			y: 6.680272108843546d
+			dependencies: ["5FEAE6ACEADD47AE"]
+			id: "16ECE876428DB73E"
+			tasks: [{
+				id: "4206BCE40C95AE5C"
+				type: "item"
+				item: "bloodmagic:etherealslate"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			subtitle: "Mob souls are mine !"
+			description: [
+				"Each &bDemon Will&r has it's own quality. "
+				""
+				"The quality represents the durability of the will. "
+				""
+				"Each craft with the Forge needs a specific quality and a specific &8Tartaric Gem&r"
+			]
+			dependencies: ["46C51346F06DCE1E"]
+			id: "4ED39B97513B3D90"
+			tasks: [{
+				id: "0D48CD1ECABEE487"
+				type: "item"
+				item: "bloodmagic:basemonstersoul"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			dependencies: ["4ED39B97513B3D90"]
+			id: "5D25F533B794CC1E"
+			tasks: [{
+				id: "7C2ADC02710758F4"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgempetty"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -6.0d
+			dependencies: ["5D25F533B794CC1E"]
+			id: "30AB3F561815FD7B"
+			tasks: [{
+				id: "09081C84AC9EFCF6"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemlesser"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -7.5d
+			dependencies: ["30AB3F561815FD7B"]
+			id: "3711076A8C63021E"
+			tasks: [{
+				id: "4F4BB1CE08540A20"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemcommon"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -9.0d
+			dependencies: ["3711076A8C63021E"]
+			id: "2B6E923A2DD9D9F7"
+			tasks: [{
+				id: "7961C8994AC79544"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemgreater"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Sentient Stuff"
+			x: 1.0d
+			y: -4.5d
+			subtitle: "It's not unbreakable"
+			description: ["Just to be clear, the &3Sentient Sword&r can replace the using of snares in order to get &7Demonic Wills&r. Just make sure you have the &5Tartaric Gem&r somewhere in your inventory"]
+			dependencies: ["5D25F533B794CC1E"]
+			id: "48FE3E73DDB45DAE"
+			tasks: [
+				{
+					id: "1B781A277AA0EFE6"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulsword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "03EBEBE499BF4654"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "31824042CD69D944"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulpickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "49FC25965A68848C"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulshovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "037CB3E57FAFBDB3"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulscythe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 1.0d
+			dependencies: [
+				"5E87C2601FE97FF1"
+				"1F025F3352C90FF8"
+			]
+			id: "0C39EA4BEDF891E1"
+			tasks: [{
+				id: "24C8B9F946F6F683"
+				type: "item"
+				item: "bloodmagic:ritualdivinerdusk"
+			}]
+		}
+		{
+			title: "Living Armor"
+			x: -1.5d
+			y: -3.0d
+			dependencies: ["7F47CF0B2B6119BC"]
+			id: "048081FACFFFED86"
+			tasks: [
+				{
+					id: "47997BD28F8E0CD7"
+					type: "item"
+					item: {
+						id: "bloodmagic:livinghelmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "15AC589665EE0A98"
+					type: "item"
+					item: {
+						id: "bloodmagic:livingplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							livingStats: {
+								maxPoints: 100
+								upgrades: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4DFC59DAC895FAB7"
+					type: "item"
+					item: {
+						id: "bloodmagic:livingleggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "504E80CEDF9C5561"
+					type: "item"
+					item: {
+						id: "bloodmagic:livingboots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			subtitle: "Hurt yourself but not others"
+			description: [
+				"The goal of Blood magic is to have a nice survival using as you understood well, Blood !"
+				""
+				"For a long period of time, you will be using your own blood to start and pursue the mod."
+				""
+				"This &4Sacrificial Knife&r will help you get blood. Don't hurt yourself too much, or your soul will directly belong to the Devil."
+				""
+			]
+			dependencies: ["0F612F5A82310C1F"]
+			id: "78A69A7B685E29FB"
+			tasks: [{
+				id: "1808100EE7081F5B"
+				type: "item"
+				item: {
+					id: "bloodmagic:sacrificialdagger"
+					Count: 1b
+					tag: {
+						sacrifice: 0b
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			subtitle: "Takes more blood"
+			dependencies: ["0DB48A26E11F0114"]
+			id: "3E5C9FF001D2E7F8"
+			tasks: [
+				{
+					id: "30098E1A86A9264C"
+					type: "item"
+					item: "bloodmagic:incensealtar"
+				}
+				{
+					id: "48A3CDD20B04D665"
+					type: "item"
+					item: "bloodmagic:woodbrickpath"
+					count: 36L
+				}
+			]
+		}
+		{
+			title: "Demonic Machinery"
+			x: 0.5d
+			y: -3.0d
+			dependencies: ["1C885DCACA1EC327"]
+			id: "596777ECB673C68C"
+			tasks: [
+				{
+					id: "1F473F3C9885D560"
+					type: "item"
+					item: "bloodmagic:demoncrucible"
+				}
+				{
+					id: "34D4BD5BC589579D"
+					type: "item"
+					item: "bloodmagic:demoncrystallizer"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "bloodmagic:guide"
+				}
+			}
+			x: -4.0d
+			y: 1.5d
+			subtitle: "Blood Magic"
+			description: [
+				"The Sanguine Scientiem will help you to go through the Blood Magic mod."
+				"This book will explain how to setup the best Blood Altar and how to use it correctly."
+				"That's why we're giving it :slight_smile: (And also because we're kind, but don't tell anyone !)."
+			]
+			id: "0F612F5A82310C1F"
+			tasks: [{
+				id: "3180592EE0650299"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.5d
+			subtitle: "Rituals !"
+			description: [
+				"In order to make some rituals, you will have to craft the &bRitual Diviner&r (and so have the Tier IV)"
+				""
+				"Once that is done, shift right click in the air with your &bDiviner&r and select your ritual."
+				""
+				"Once you have chosen your ritual, you have to right click on the &8Master Ritual Stone&r and Ritual Stones are getting placed."
+				""
+				"Each color means an element, craft the needed &7Inscription Tools&r. "
+				""
+				"Once that is done you just have to craft the &cWeak Activation Crystal&r and then the ritual should start if you right click with it !"
+				""
+			]
+			dependencies: ["643221D07E10181E"]
+			id: "452D06A5F2021FE0"
+			tasks: [{
+				id: "6E96D8B0A70A6CFC"
+				type: "item"
+				item: "bloodmagic:masterritualstone"
+			}]
+		}
+		{
+			title: "Call Of The Zephyr"
+			x: 15.0d
+			y: -0.5d
+			subtitle: "A Vaccum chest "
+			description: [
+				"Picks up items within its range and places them into the linked chest"
+				""
+				"It needs the &bWeak Activation Crystal&r and costs &41000 LP&r"
+				""
+				"You will need 12 &6Air Ritual Stones&r to create the ritual"
+				""
+				"{image:chromasky2:textures/quest/zephyr.png width:250 height:150 align:1}"
+			]
+			dependencies: ["5E87C2601FE97FF1"]
+			id: "7A2221A9A8FBEE44"
+			tasks: [{
+				id: "760908A277351257"
+				type: "checkmark"
+				title: "Ritual Built"
+			}]
+		}
+		{
+			title: "Crack of the Fractured Crystal"
+			x: 16.0d
+			y: 1.5d
+			subtitle: "Breaking Demons"
+			description: [
+				"Breaks &cDemon Will Crystal Clusters&r of all &caspects&r within its range, dropping the results on the top of the crystals"
+				""
+				"In order to do this ritual, you'll need the &bWeak Activation Crystal&r and the &cRitual Diviner [Dusk]&r."
+				""
+				"In order to create the ritual, you'll have to get : "
+				""
+				"- 8 &2Earth Ritual Stones&r"
+				"- 20 &4Fire Ritual Stones&r"
+				"- 4 &6Ritual Air Stones&r"
+				"- 12 &3Dusk Ritual Stones&r"
+				"- &040000 LP&r"
+				"{image:chromasky2:textures/quest/crack.png width:100 height:100 align:1 fit:true}"
+			]
+			dependencies: ["0C39EA4BEDF891E1"]
+			id: "009DD7F63AD952B7"
+			tasks: [{
+				id: "04F704DB3E6AC062"
+				type: "checkmark"
+				title: "Ritual Built"
+			}]
+		}
+		{
+			title: "Focus of the Ellipsoid"
+			x: 18.0d
+			y: 1.5d
+			subtitle: "Sphere creation"
+			description: [
+				"Creates a hollow spheroid around the ritual using the blocks in the attached chest."
+				""
+				"In order to do this ritual, you'll need the &bWeak Activation Crystal&r and the &cRitual Diviner [Dusk]&r."
+				""
+				"This ritual consumes &420000 LP&r for the activation"
+				""
+				"In order to create the ritual, you'll have to get : "
+				"- 8 &bWater Ritual Stones&r"
+				"- 8 &4Fire Ritual Stones&r"
+				"- 8 &6Air Ritual Stones&r"
+				"- 4 &3Dusk Ritual Stones&r"
+				"{image:chromasky2:textures/quest/ellispoid.png width:250 height:150 align:1}"
+			]
+			dependencies: ["0C39EA4BEDF891E1"]
+			id: "69CEEB4B7AD134CA"
+			tasks: [{
+				id: "60D1720C2D72ED2B"
+				type: "checkmark"
+				title: "Ritual Built"
+			}]
+		}
+		{
+			title: "Reap of the Harvest Moon"
+			x: 13.5d
+			y: 2.5d
+			subtitle: "A nice little farm"
+			description: [
+				"Harvests plants within its range, dropping the results on the ground."
+				""
+				"In order to do this ritual, you'll need the &bWeak Activation Crystal&r and the &cRitual Diviner [Dusk]&r."
+				""
+				"This ritual consume &420 000 LP&r on activation."
+				""
+				"In order to create the ritual, you'll have to get : "
+				"- 8 &bWater Ritual Stones&r"
+				"- 12 &2Earth Ritual Stones&r"
+				"- 4 &3Dusk Ritual Stones&r"
+				""
+				"{image:chromasky2:textures/quest/harvestmoon.png width:250 height:150 align:1}"
+			]
+			dependencies: ["0C39EA4BEDF891E1"]
+			id: "4B740F8597D6916C"
+			tasks: [{
+				id: "1BBD71F51025D734"
+				type: "checkmark"
+				title: "Ritual Built"
+			}]
+		}
+		{
+			title: "Resonance of the Faceted Crystal"
+			x: 15.0d
+			y: 1.5d
+			subtitle: "Separating Crystals"
+			description: [
+				"Splits apart a well-grown &9Raw crystal cluster&r into sperately &8aspected crystal clusters."
+				""
+				"This ritual needs : "
+				"- The &cRitual Diviner [Dusk]."
+				"- A &bWeak Activation Crystal."
+				"- &020000 LP to activate the ritual"
+				"- 1 &1Water Ritual Stone&r"
+				"- 1 &4Fire Ritual Stone&r"
+				"- 1 &2Earth Ritual Stone&r"
+				"- 1 &6Air Ritual Stone&r"
+				"- 12 &3Dusk Ritual Stones&r"
+				""
+				"{image:chromasky2:textures/quest/crystal.png width:250 height:150 align:1}"
+			]
+			dependencies: ["0C39EA4BEDF891E1"]
+			id: "4A4974AB0C32B67D"
+			tasks: [{
+				id: "405B34622441D9FD"
+				type: "checkmark"
+				title: "Ritual Built"
+			}]
+		}
+		{
+			title: "Ritual of Living Evolution"
+			x: 14.0d
+			y: 1.5d
+			subtitle: "A better Living Armor"
+			description: [
+				"Increases the amount of maximum Upgrade Points on your &nLiving Armor&r to 300."
+				""
+				"In order to create the ritual you'll need :"
+				"- The &cRitual Diviner [Dusk]&r"
+				"- A &bWeak Activation Crystal&r"
+				"- A total of &050000 LP&r to activate it."
+				"- 12 &4Fire Ritual Stones&r"
+				"- 24 &2Earth Ritual Stones&r"
+				"- 12 &3Dusk Ritual Stones&r"
+				""
+				"{image:chromasky2:textures/quest/livingevolution.png width:250 height:150 align:1}"
+			]
+			dependencies: ["0C39EA4BEDF891E1"]
+			id: "49E215BC72FD13CB"
+			tasks: [{
+				id: "28D605706B34DD12"
+				type: "checkmark"
+				title: "Ritual Built"
+			}]
+		}
+		{
+			title: "Ritual of Magnetism"
+			x: 15.5d
+			y: -1.5d
+			subtitle: "Ore digger"
+			description: [
+				"Pulls up ores from the ground and puts them into its placement range."
+				""
+				"To create this ritual you'll need :"
+				"- The &bRitual Diviner&r"
+				"- A &cWeak Activation Crystal&r"
+				"- A total of &45000 LP&r to activate it."
+				"- 4 &4Fire Ritual Stones&r"
+				"- 8 &2Earth Ritual Stones&r"
+				"- 4 &6Air Ritual Stones&r"
+				""
+				"{image:chromasky2:textures/quest/magnetism.png width:250 height:150 align:1}"
+			]
+			dependencies: ["5E87C2601FE97FF1"]
+			id: "425E4EB468AFEA1E"
+			tasks: [{
+				id: "03726A51E80BBAEE"
+				type: "checkmark"
+				title: "Ritual Built"
+			}]
+		}
+		{
+			title: "Ritual of Regeneration"
+			x: 17.0d
+			y: 1.5d
+			subtitle: "Heals everyone or everything"
+			description: [
+				"Casts regeneration on entities within its range if they are missing health."
+				""
+				"To do this ritual you'll need : "
+				"- The &bDusk Ritual Diviner"
+				"- A &cWeak Crystal&r"
+				"- &025000 LP&r"
+				"- 8 &1Water Ritual Stones&r"
+				"- 6 &4Fire Ritual Stones&r"
+				"- 20 &2Earth Ritual Stones&r"
+				"- 6 &6Air Ritual Stones&r"
+				"- 4 &3Dusk Ritual Stones&r"
+				"{image:chromasky2:textures/quest/regen.png width:100 height:100 align:1 fit:true}"
+			]
+			dependencies: ["0C39EA4BEDF891E1"]
+			id: "138B4AF29E48424C"
+			tasks: [{
+				id: "5898BAEB4FF22D72"
+				type: "checkmark"
+				title: "Ritual Built"
+			}]
+		}
+		{
+			title: "Ritual of the Crusher"
+			x: 15.5d
+			y: 2.5d
+			subtitle: "Auto Breaker"
+			description: [
+				"Breaks blocks within its crushing range and places the items into the linked chest."
+				""
+				"In order to do this ritual you'll need :"
+				"- The &bDusk Ritual Diviner&r"
+				"- A &cWeak Activation Crystal&r"
+				"- &05000 LP&r"
+				"- 4 &4Fire Ritual Stones&r"
+				"- 4 &2Earth Ritual Stones&r"
+				"- 4 &6Air Ritual Stones&r"
+				"- 4 &3Dusk Ritual Stones&r"
+				""
+				"{image:chromasky2:textures/quest/crusher.png width:250 height:150 align:1}"
+			]
+			dependencies: ["0C39EA4BEDF891E1"]
+			id: "5167B34BB813D921"
+			tasks: [{
+				id: "615F21C6BEBAB70E"
+				type: "checkmark"
+				title: "Ritual Built"
+			}]
+		}
+		{
+			title: "Ritual of the Feathered Knife"
+			x: 17.5d
+			y: 2.5d
+			subtitle: "Wireless Sacrificial Knife"
+			description: [
+				"Drains health from players in its area and puts the &4LP&r into a nearby &6Blood Altar&r. &4LP&r Gains are affected by &cRunes of Self Sacrifice&r"
+				""
+				"In order to activate the ritual you'll need : "
+				"- The &bDusk Ritual Diviner&r"
+				"- A &cWeak Activation Crystal&r"
+				"- &025000 LP&r"
+				"- 4 &1Water Ritual Stones&r"
+				"- 8 &4Fire Ritual Stones&r"
+				"- 16 &2Earth Ritual Stones&r"
+				"- 8 &6Air Ritual Stones&r"
+				"- 4 &3Dusk Ritual Stones&r"
+				""
+				"{image:chromasky2:textures/quest/featheredknife.png width:250 height:150 align:1}"
+			]
+			dependencies: ["0C39EA4BEDF891E1"]
+			id: "3A7B56D36E832388"
+			tasks: [{
+				id: "4686CC5098DC3A6F"
+				type: "checkmark"
+				title: "Ritual Built"
+			}]
+		}
+		{
+			title: "Ritual of the Full Spring"
+			x: 14.0d
+			y: -0.5d
+			subtitle: "Water !"
+			description: [
+				"Generates a source of water from the &2Master Ritual Stone&r"
+				""
+				"To create this ritual you'll need : "
+				"- A basic &bRitual Diviner&r"
+				"- A &cWeak Activation Crystal&r"
+				"- &4500 LP&r"
+				"- 4 &1Water Ritual Stones&r"
+				""
+				"{image:chromasky2:textures/quest/fullspring.png width:250 height:150 align:1}"
+			]
+			dependencies: ["5E87C2601FE97FF1"]
+			id: "311236BDFB9D3A47"
+			tasks: [{
+				id: "0A48C939B8088E05"
+				type: "checkmark"
+				title: "Ritual Built"
+			}]
+		}
+		{
+			title: "Ritual of the Green Grove"
+			x: 13.5d
+			y: -1.5d
+			subtitle: "Harvest time"
+			description: [
+				"Grows crops within its area"
+				""
+				"To create this ritual you'll need : "
+				"- A basic &bRitual Diviner&r"
+				"- A &cWeak Activation Crystal&r"
+				"- &45000 LP&r"
+				"- 4 &bWater Ritual Stones&r"
+				"- 4 &2Earth Ritual Stones&r"
+				""
+				"{image:chromasky2:textures/quest/grove.png width:250 height:150 align:1}"
+			]
+			dependencies: ["5E87C2601FE97FF1"]
+			id: "48DDDF9EA9D5F046"
+			tasks: [{
+				id: "50235550BFBFE48D"
+				type: "checkmark"
+				title: "Ritual Built"
+			}]
+		}
+		{
+			title: "Ritual of the Shepherd"
+			x: 16.5d
+			y: 2.5d
+			subtitle: "They grow up so fast !"
+			description: [
+				"Increases the maturity rate of baby animals within its range."
+				""
+				"In order to do this ritual you'll need :"
+				"- The &cRitual Diviner [Dusk]."
+				"- A &bWeak Activation Crystal."
+				"- &410000 LP&r"
+				"- 4 &1Water Ritual Stones&r"
+				"- 4 &2Earth Ritual Stones&r"
+				"- 4 &6Air Ritual Stones&r"
+				"- 4 &3Dusk Ritual Stones&r"
+				""
+				"{image:chromasky2:textures/quest/shepherd.png width:250 height:150 align:1}"
+			]
+			dependencies: ["0C39EA4BEDF891E1"]
+			id: "0C67F3F6BEB619C3"
+			tasks: [{
+				id: "54524263561FC814"
+				type: "checkmark"
+				title: "Ritual Built"
+			}]
+		}
+		{
+			title: "Serenade of the Nether"
+			x: 14.5d
+			y: -1.5d
+			subtitle: "Lava everywhere !"
+			description: [
+				"Generates a source of lava from the &5Master Ritual Stone&r"
+				""
+				"To create this ritual you'll need : "
+				"- A basic &bRitual Diviner&r"
+				"- A &cWeak Activation Crystal&r"
+				"- &010000 LP&r to activate it"
+				"- 4 &4Fire Ritual Stones&r"
+				""
+				"{image:chromasky2:textures/quest/netherserenade.png width:250 height:150 align:1}"
+			]
+			dependencies: ["5E87C2601FE97FF1"]
+			id: "00935023E0E209D5"
+			tasks: [{
+				id: "395E75473A8C8638"
+				type: "checkmark"
+				title: "Ritual Built"
+			}]
+		}
+		{
+			title: "Sound of the Cleansing Soul"
+			x: 18.5d
+			y: 2.5d
+			subtitle: "I don't like those upgrades..."
+			description: [
+				"Removes all upgrades from your &bLiving Armor&r and gives you the corresponding &bUpgrade Tomes&r. These tomes can be used to re-apply them to your &bLiving Armor&r"
+				""
+				"In order to do this ritual you'll need :"
+				"- The &2Dusk Ritual Diviner"
+				"- A &cWeak Activation Crystal&r"
+				"- &025000 LP&r to activate it"
+				"- 8 &1Water Ritual Stones&r"
+				"- 12 &4Fire Ritual Stones&r"
+				"- 20 &2Earth Ritual Stones&r"
+				"- 4 &6Air Ritual Stones&r"
+				"- 4 &3Dusk Ritual Stones&r"
+				""
+				"{image:chromasky2:textures/quest/cleansingsoul.png width:250 height:150 align:1}"
+			]
+			dependencies: ["0C39EA4BEDF891E1"]
+			id: "4CC9F130D1EFE108"
+			tasks: [{
+				id: "66060062EC2BA205"
+				type: "checkmark"
+				title: "Ritual Built"
+			}]
+		}
+		{
+			title: "Well of Suffering"
+			x: 14.5d
+			y: 2.5d
+			subtitle: "More blood !"
+			description: [
+				"Attacks mobs within its damage zone and puts the &4LP&r into a nearby &bBlood Altar&r"
+				""
+				"In order to do this ritual you'll need :"
+				"- The &5Dusk Ritual Diviner&r"
+				"- A &cWeak Activation Crystal&r"
+				"- &040000 LP&r to activate it"
+				"- 16 &1Water Ritual Stones&r"
+				"- 8 &4Fire Ritual Stones&r"
+				"- 4 &2Earth Ritual Stones&r"
+				"- 4 &6Air Ritual Stones&r"
+				"- 4 &3Dusk Ritual Stones&r"
+				""
+				"{image:chromasky2:textures/quest/suffering.png width:250 height:150 align:1}"
+			]
+			dependencies: ["0C39EA4BEDF891E1"]
+			id: "03E87D29319C3B30"
+			tasks: [{
+				id: "20C2CB674BBA9777"
+				type: "checkmark"
+				title: "Ritual Built"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -0.5d
+			subtitle: "Avatar"
+			dependencies: ["452D06A5F2021FE0"]
+			id: "72112206FF4353B7"
+			tasks: [{
+				id: "01C926DD596B8EA2"
+				type: "item"
+				item: {
+					id: "bloodmagic:airscribetool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.5d
+			subtitle: "Fire ! "
+			dependencies: ["452D06A5F2021FE0"]
+			id: "73E2EB707D5D66AB"
+			tasks: [{
+				id: "770E46276097C23B"
+				type: "item"
+				item: {
+					id: "bloodmagic:firescribetool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.5d
+			subtitle: "AquaMan"
+			dependencies: ["452D06A5F2021FE0"]
+			id: "67F7FAD67A9B654B"
+			tasks: [{
+				id: "2FAE18BB0D05050A"
+				type: "item"
+				item: {
+					id: "bloodmagic:waterscribetool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.5d
+			subtitle: "Terra Power"
+			dependencies: ["452D06A5F2021FE0"]
+			id: "55245EA5424CF806"
+			tasks: [{
+				id: "476E7224D86F03AD"
+				type: "item"
+				item: {
+					id: "bloodmagic:earthscribetool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.5d
+			subtitle: "Darkness calls"
+			dependencies: ["452D06A5F2021FE0"]
+			id: "1F025F3352C90FF8"
+			tasks: [{
+				id: "51A756268AD1EE37"
+				type: "item"
+				item: {
+					id: "bloodmagic:duskscribetool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Edge of the Hidden Realm"
+			x: 16.0d
+			y: -0.5d
+			subtitle: "Demons Calling"
+			description: [
+				"In order to build this ritual you'll need : "
+				"- A basic &bRitual Diviner&r"
+				"- 6 &1Water Ritual Stones&r"
+				"- 10 &4Fire Ritual Stones&r"
+				"- 16 &2Earth Ritual Stones&r"
+				"- 4 &6Air Ritual Stones&r"
+				"- A &cWeak Activation Crystal&r"
+				"- &080000 LP&r to activate the ritual"
+				""
+				"{image:chromasky2:textures/quest/hiddenrealm.png width:100 height:100 align:1 fit:true}"
+			]
+			dependencies: ["5E87C2601FE97FF1"]
+			id: "7C6A74A42FFF3CB3"
+			tasks: [{
+				id: "04819D32FC4C48B0"
+				type: "checkmark"
+				title: "Ritual Built"
+			}]
+		}
+		{
+			x: 20.5d
+			y: -2.0d
+			subtitle: "A key, A door that simple"
+			description: ["Simple Keys are the primary way of navigating through &2Dungeons&r. They can be found inside dungeon chests within the Demon Realm. In case you were wondering, they can be crafted."]
+			hide_dependency_lines: true
+			dependencies: [
+				"49FA91CAAB120631"
+				"1C885DCACA1EC327"
+			]
+			id: "0972DA566D31F61C"
+			tasks: [{
+				id: "43C9801DB06F052A"
+				type: "item"
+				item: "bloodmagic:simplekey"
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "bloodmagic:textures/models/mobsacrificeswirl.png"
+				}
+			}
+			x: 20.97295918367348d
+			y: -0.508843537414954d
+			subtitle: "Demonic Traps and Threats"
+			description: [
+				"Upon performing the &2Edge of the Hidden Realm&r ritual you will find yourself looking at an &2Inversion Pillar&r."
+				"You'll need to right click this pillar to be transported to the &lAntechamber&r, into the &3Demon Realm&r."
+				""
+				"There are a few things of note in this first room: "
+				"- A single treasure chest containing some basic loot and, if you're lucky, a few &2Simple Keys&r."
+				"- A number of &1Doorways&r, each locked with a &3Dungeon Seal&r. Use a &5Key&r on these seals to unlock the next room."
+				"- An &5Inversion Pillar&r, a mirror of the one you summoned previously, right clicking this and you'll return to the overworld."
+			]
+			dependencies: ["7C6A74A42FFF3CB3"]
+			size: 2.0d
+			min_width: 300
+			id: "195589B926F6EC61"
+			tasks: [
+				{
+					id: "156E8C836D02FF42"
+					type: "checkmark"
+					title: "Visit the &3Demon Realm&r."
+				}
+				{
+					id: "339F6796C1F5F5B7"
+					type: "dimension"
+					dimension: "bloodmagic:dungeon"
+				}
+			]
+		}
+		{
+			x: 21.5d
+			y: -2.0d
+			subtitle: "Demon Fruit"
+			description: [
+				"This fruit can be found in the Demon Realm's dungeons. "
+				"It's lifecycle is unfortunately more complex than a potato."
+				""
+				"This fruit will mature into one of two varieties depending on how it was raised. It will, by default, grow the &5Tau Fruit&r, which can be converted into &5Tau Oil&r."
+				"Currently this Oil has 2 uses. It can extend the duration of any &2anointement&r by a factor of four, or it can be used to craft &5Intermediate Cutting Fluid,&r which functions similarly to &2Basic Cutting Fluid&r, but lasts eight times longer and provides a 25% speed boost."
+				"The &5Tau Fruit&r can however matures a different plant. To do so, the plant has to grow while a mob (cow for example) is standing nearby. This will produce &6Saturated Tau&r."
+			]
+			dependencies: ["195589B926F6EC61"]
+			min_width: 300
+			id: "094E53A4DBFB3D59"
+			tasks: [{
+				id: "1BB85502B588136E"
+				type: "item"
+				item: "bloodmagic:weak_tau"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			shape: "diamond"
+			subtitle: "A better bone meal"
+			description: ["The &2Sigil of The Green Grove&r is an item that has multiple uses. The Sigil will use your &cSoul's Network&r's &4LP&r to nourish and grow nearby plants using 150 &4LP&r. However if you shift right click it will grow plants every 5 seconds around you using 150 &4LP&r as well."]
+			dependencies: ["27283317A072FFE4"]
+			id: "59BB64057330233E"
+			tasks: [{
+				id: "15670527D14930DC"
+				type: "item"
+				item: {
+					id: "bloodmagic:growthsigil"
+					Count: 1b
+					tag: {
+						binding: {
+							name: "Noli_666"
+							id: [I;
+								-1473269377
+								973752737
+								-1456830272
+								-117663136
+							]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			subtitle: "Storage for Demons"
+			description: ["The &6Divination Sigil&r will allow you to see your current essence level. This amount is how much LP you have stocked in your &4BloodMagic&r \"network\"."]
+			dependencies: ["7234EDC19FB08166"]
+			id: "27283317A072FFE4"
+			tasks: [{
+				id: "62320AB5A59E0ADA"
+				type: "item"
+				item: {
+					id: "bloodmagic:divinationsigil"
+					Count: 1b
+					tag: {
+						binding: {
+							name: "Noli_666"
+							id: [I;
+								-1473269377
+								973752737
+								-1456830272
+								-117663136
+							]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.0d
+			shape: "diamond"
+			subtitle: "A better Lava Bucket"
+			description: ["The &cLava Sigil&r allows you to place &4Lava&r anywhere in the world with a simple right click."]
+			dependencies: ["27283317A072FFE4"]
+			id: "597ECFD080B7D481"
+			tasks: [{
+				id: "19DE247577A14978"
+				type: "item"
+				item: {
+					id: "bloodmagic:lavasigil"
+					Count: 1b
+					tag: {
+						binding: {
+							name: "Noli_666"
+							id: [I;
+								-1473269377
+								973752737
+								-1456830272
+								-117663136
+							]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			shape: "diamond"
+			subtitle: "Slow Fall not included"
+			description: ["Throw you in the direction you're facing at a cost of &450 LP&r per use. No Feather Falling or same effect are provided. Be sure to have enough &4LP&r before going on an adventure"]
+			dependencies: ["27283317A072FFE4"]
+			id: "6C87226860C9C0B8"
+			tasks: [{
+				id: "41E476D9F1717291"
+				type: "item"
+				item: "bloodmagic:airsigil"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			shape: "diamond"
+			subtitle: "For Miners... or else"
+			description: ["The &6Sigil of The Blood Lamp&r allows you to launch a &cBlood Light&r in the direction that you are facing. When it hits a block, it spawns a nearly invisble light source for &410 LP&r."]
+			dependencies: ["27283317A072FFE4"]
+			id: "1437ACC295F2A177"
+			tasks: [{
+				id: "0002E84BDD3CA1DF"
+				type: "item"
+				item: {
+					id: "bloodmagic:bloodlightsigil"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.5d
+			shape: "diamond"
+			subtitle: "Sigils Backpack"
+			description: ["The &6Sigil Of Holding&r can hold up to 5 other &8Sigils&r at a time. This can allow to activate them all together. "]
+			dependencies: ["27283317A072FFE4"]
+			size: 2.0d
+			id: "05CC4C4E53AA8A27"
+			tasks: [{
+				id: "7762991CB9EA27E8"
+				type: "item"
+				item: {
+					id: "bloodmagic:sigilofholding"
+					Count: 1b
+					tag: {
+						binding: {
+							name: "Noli_666"
+							id: [I;
+								-1473269377
+								973752737
+								-1456830272
+								-117663136
+							]
+						}
+						Items: [ ]
+						leastSig: -5555057992100273270L
+						mostSig: 6946956967779650298L
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.5d
+			shape: "diamond"
+			subtitle: "You are Jesus..!"
+			description: ["&bFrost Walker&r as a &5Sigil"]
+			dependencies: ["27283317A072FFE4"]
+			id: "3BB4F88377BC8FC7"
+			tasks: [{
+				id: "270D2FBF99F9C41D"
+				type: "item"
+				item: {
+					id: "bloodmagic:icesigil"
+					Count: 1b
+					tag: {
+						binding: {
+							name: "Noli_666"
+							id: [I;
+								-1473269377
+								973752737
+								-1456830272
+								-117663136
+							]
+						}
+						activated: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			shape: "diamond"
+			subtitle: "Infinite Water"
+			description: ["The &1Water Sigil&r will generate a &bWater Source&r for 100 &4LP&r for your &cSoul Network&r."]
+			dependencies: ["27283317A072FFE4"]
+			id: "76A86D0765DB47C4"
+			tasks: [{
+				id: "1E5CC0AD45B3048C"
+				type: "item"
+				item: "bloodmagic:watersigil"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.0d
+			shape: "diamond"
+			subtitle: "Better Nullifier"
+			description: ["The &5Void Sigil&r will destroy any fluid source at a cost of &450 LP&r per block."]
+			dependencies: ["27283317A072FFE4"]
+			id: "0DD3FCE7D1995FCE"
+			tasks: [{
+				id: "61EE0B71926B18CA"
+				type: "item"
+				item: {
+					id: "bloodmagic:voidsigil"
+					Count: 1b
+					tag: {
+						binding: {
+							name: "Noli_666"
+							id: [I;
+								-1473269377
+								973752737
+								-1456830272
+								-117663136
+							]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			shape: "diamond"
+			subtitle: "Magneto"
+			description: ["Increase the player's item pickup range to 7 blocks. Consumes &450 LP&r while active."]
+			dependencies: ["27283317A072FFE4"]
+			id: "7C3C2623D77EC240"
+			tasks: [{
+				id: "70FE9FEBE1BA2975"
+				type: "item"
+				item: {
+					id: "bloodmagic:sigilofmagnetism"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			shape: "diamond"
+			subtitle: "A better Divination Sigil"
+			description: ["The &5Seer's Sigil&r is a better &1Divination Sigil&r. It will show the amount of &4LP&r in the player's &6Soul's Network&r and more information about your &cBlood Altar&r"]
+			dependencies: ["27283317A072FFE4"]
+			id: "3C4CE244775F1141"
+			tasks: [{
+				id: "05D4172CC4BB2BAC"
+				type: "item"
+				item: "bloodmagic:seersigil"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -5.5d
+			shape: "diamond"
+			subtitle: "Diggy diggy hole !"
+			description: ["The &5Sigil of the Fast Miner&r is a Sigil that will generate the &6Haste&r potion effect. It consumes &4100 LP&r every 5 seconds."]
+			dependencies: ["27283317A072FFE4"]
+			id: "5F99AECC82A64843"
+			tasks: [{
+				id: "37EC3DBF19DE0439"
+				type: "item"
+				item: {
+					id: "bloodmagic:miningsigil"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			shape: "diamond"
+			subtitle: "Gotta go fast"
+			description: ["The &bSpeed Rune&r increases all crafting operations of the &4Blood Altar&r. Each runes increases by 20% per rune."]
+			dependencies: ["4E2EBC93FBE004C0"]
+			id: "04259AEE1B76B118"
+			tasks: [{
+				id: "2E392B537FDB6A89"
+				type: "item"
+				item: "bloodmagic:speedrune"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			shape: "diamond"
+			subtitle: "Hurts others"
+			description: ["The &cRune of Sacrifice&r increases the amount of &4Life Essence&r gained in the &4&lBlood Altar&r through means that take health from non-player entities. Each rune gives a bonus of +10%."]
+			dependencies: ["4E2EBC93FBE004C0"]
+			id: "5602F5BEC3857DF0"
+			tasks: [{
+				id: "3E26DB5EA5B25EFF"
+				type: "item"
+				item: "bloodmagic:sacrificerune"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			shape: "diamond"
+			subtitle: "That's gotta hurt"
+			description: ["The &6Rune of Self Sacrifice&r increases the amount of &4Life Essence&r gained in the &4&lBlood Altar&r through means that use a player's health. Each rune gives a bonus of +10%."]
+			dependencies: ["4E2EBC93FBE004C0"]
+			id: "75799BECAD6DDD52"
+			tasks: [{
+				id: "25DD8054EBA91B80"
+				type: "item"
+				item: "bloodmagic:selfsacrificerune"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			shape: "diamond"
+			subtitle: "Automation"
+			description: ["The &2Displacement Rune&r increases the flow rate of the &4Life Essence&r into and out of the altar when pumping to and from an external Tank."]
+			dependencies: ["4E2EBC93FBE004C0"]
+			id: "68DDBCBB99B228E3"
+			tasks: [{
+				id: "57695519515ED6ED"
+				type: "item"
+				item: "bloodmagic:dislocationrune"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			shape: "diamond"
+			subtitle: "More blood ! "
+			description: ["The &6Rune of Capacity&r increases the capacity of the the &4&lBlood Altar&r by +20% per rune."]
+			dependencies: ["4E2EBC93FBE004C0"]
+			id: "1C73B88CAF77D053"
+			tasks: [{
+				id: "3533D797D7DA986D"
+				type: "item"
+				item: "bloodmagic:altarcapacityrune"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "More Orb Storage"
+			description: ["The &bRune of The Orb&r increases the capacity of the &4Blood Orb&r that is inside the &4&lBlood Altar&r by  +2% additively per rune while it's in the Altar."]
+			dependencies: ["4E2EBC93FBE004C0"]
+			id: "3A7C76C4432291A1"
+			tasks: [{
+				id: "4E72AE6B87A5013F"
+				type: "item"
+				item: "bloodmagic:orbcapacityrune"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			shape: "diamond"
+			subtitle: "Other way of using blood."
+			description: ["The &aCharging Rune&r when the &4&lBlood Altar&r is not crafting nor filling an orb, will syphon &4LP&r from the Altar to charge an internal buffer. When an item is placed, it will consume instantaneously the stored &4LP&r and use it. This system is charged every &620 ticks&r which can be reduced by 1 per &bAcceleration Rune&r. The Maximum charge that the Altar can handle is &41000 LP&r per &aCharging Rune&r."]
+			dependencies: ["4E2EBC93FBE004C0"]
+			id: "506C96312A58392F"
+			tasks: [{
+				id: "3998817BE3B9229A"
+				type: "item"
+				item: "bloodmagic:chargingrune"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "Sonic's Rune"
+			description: ["The &bAcceleration Rune&r increases the rate of a couple operations. It will reduce 1 tick per rune minimum."]
+			dependencies: ["4E2EBC93FBE004C0"]
+			id: "1AE5B0990623A524"
+			tasks: [{
+				id: "56B745C5520D772D"
+				type: "item"
+				item: "bloodmagic:accelerationrune"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.0d
+			shape: "diamond"
+			subtitle: "Better capacity"
+			description: ["The &4Rune of Augmented Capacity&r increases the capacity of the &4c&lBood Altar&r by +7.5% per rune. They only apply after the regular &nCapacity Runes&r."]
+			dependencies: ["4E2EBC93FBE004C0"]
+			id: "466A3116027899E8"
+			tasks: [{
+				id: "4F2F66FE1A6C2BC2"
+				type: "item"
+				item: "bloodmagic:bettercapacityrune"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			description: [
+				"The &6Incense Altar&r is a multiblock structure that can boost your self-sacricing at a &4&nBlood Altar&r.  By stand near your setup, it will calm you soul base on the area's &2Tranquility&r allowing you to increase LP.The basic T1 Setup is the Altar itself, you have to place it down anywhere (3x3 setup block) and stay within a 5 blocks radius of the Altar.While the Altar is working, it will transform your &8Sacrificial Knife&r and make it shinier.  You will now be able to hold right click near an Altar to sacrifice 90% of your health at once."
+				"Details about the tranquillity : Based on the total &2Tranquility&r of the area, you'll receive a bonus to the &cLP&r added to the &4&nBlood Altar&r. When you hover your &6Incense Altar&r with either a &eDivination Sigil&r or &eSeer's Sigil&r it'll display the total &2Tranquility&r of your setup and the % bonus receive d when sacrificing. (1 LP + bonus/100).To increase the &2Tranquility&r you must place paths leading out to your &6Incense Altar&r. These paths needs to be constructed from a 3 wide set of &8Path&r blocks such as &dWooden Path&r."
+				"Each new \"ring\" of path blocks follow a set of rules : "
+				"- All path blocks on the same ring have to be on the same y-level"
+				"- The next ring of path blocks may not be more than 5 blocks higher or lower than the previous ring."
+				"- The blocks that are the same level or up to two blocks above the path blocks' ring count towards the total &2Tranquility&r."
+				"The efficacy of each type of path blocks is limited by distance. "
+				"Wooden > 3 rings"
+				"Stone > 5 rings"
+				"Worn Stone > 7 rings"
+				"Obsidian > 9 rings."
+				"What blocks are counted to increase the &2Tranquility&r?"
+				"Plants, crops, trees, earthen, water, fire and lava within the &6Incense Altar&r's range. Life essence, Netherrack, Dirt, farmland, potatoes, carrots, wheat, nether wart, beetroots, leaves, logs, fire and grass are as well counted.It's important to note that the &2Tranquility bonus&r is capped by the size of your Altar."
+				"Here are the caps :"
+				"* No path : 20%"
+				"* Wooden path : 60%"
+				"* Stone path : 120% "
+				"* Obsidian (NYI) : 300%"
+			]
+			dependencies: ["3E5C9FF001D2E7F8"]
+			min_width: 450
+			id: "03A35A2B780BAC1C"
+			tasks: [{
+				id: "008C8F60E137AF91"
+				type: "checkmark"
+				title: "Informations about the &6Incense Altar&r"
+			}]
+		}
+		{
+			title: "Auto Blood Altar Part 1"
+			icon: "masterfulmachinery:autoblood_controller"
+			x: -1.0d
+			y: 2.0d
+			shape: "gear"
+			subtitle: "Too big for one part"
+			description: [
+				"To start automating the Blood Altar with &6Masterful Machinery&r you will have to place the controller screen facing outwards, it's turned in the diagram due to manual limitations."
+				"The multiblock will require the following blocks : "
+				"- 541 &8Polished Blackstones"
+				"- 313 &8Polished Blackstone Stairs"
+				"- 110 &8Polished Blackstone Walls"
+				"- 42 &8Polished Blackstone Slabs"
+				"- 26 &8Chiseled Polished Blackstone"
+				"- 36 &5Blocks of Netherite"
+				"- 28 &bAcceleration Runes"
+				"- 16 &cRune of Augmented Capacity"
+				"- 16 &4Rune of Capacity"
+				"- 16 &1Speed Runes"
+				"- 8 &6Runes of Sacrifice"
+				"- 13 &4Large Bloodstone Bricks"
+				"- 13 &9Soul Lanterns"
+				"- 4 &3Beacons"
+				"- 4 &eGlowstones"
+				"- 4 &4Red Stained Glass Panes"
+			]
+			dependencies: ["0DB48A26E11F0114"]
+			size: 2.0d
+			min_width: 400
+			id: "064E59AD8FC91AA2"
+			tasks: [
+				{
+					id: "589915CF067F6076"
+					type: "item"
+					item: "minecraft:polished_blackstone"
+					count: 541L
+				}
+				{
+					id: "076AE7E770FA4A2B"
+					type: "item"
+					item: "minecraft:polished_blackstone_stairs"
+					count: 313L
+				}
+				{
+					id: "72FDBA1A8B4AB7BF"
+					type: "item"
+					item: "minecraft:polished_blackstone_wall"
+					count: 110L
+				}
+				{
+					id: "1A03C2E7767497F3"
+					type: "item"
+					item: "minecraft:polished_blackstone_slab"
+					count: 42L
+				}
+				{
+					id: "791D382EAA826B90"
+					type: "item"
+					item: "minecraft:chiseled_polished_blackstone"
+					count: 26L
+				}
+				{
+					id: "59A2F46B9F046B45"
+					type: "item"
+					item: "minecraft:netherite_block"
+					count: 36L
+				}
+				{
+					id: "7B6AB5C25AE834B9"
+					type: "item"
+					item: "bloodmagic:accelerationrune"
+					count: 28L
+				}
+				{
+					id: "3D3AE726CE7011B0"
+					type: "item"
+					item: "bloodmagic:bettercapacityrune"
+					count: 16L
+				}
+				{
+					id: "32ADF37EA1C3ED5B"
+					type: "item"
+					item: "bloodmagic:altarcapacityrune"
+					count: 16L
+				}
+				{
+					id: "07FBC1FC52A6A803"
+					type: "item"
+					item: "bloodmagic:speedrune"
+					count: 16L
+				}
+				{
+					id: "1ACAFCA727F1A904"
+					type: "item"
+					item: "bloodmagic:sacrificerune"
+					count: 8L
+				}
+				{
+					id: "753F01080DE3172E"
+					type: "item"
+					item: "bloodmagic:largebloodstonebrick"
+					count: 13L
+				}
+				{
+					id: "6C30D4F01733816B"
+					type: "item"
+					item: "minecraft:soul_lantern"
+					count: 13L
+				}
+				{
+					id: "25B3355A04D4EE4A"
+					type: "item"
+					item: "minecraft:beacon"
+					count: 4L
+				}
+				{
+					id: "295647080E5EB1D0"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 4L
+				}
+				{
+					id: "43336919EE18C2F9"
+					type: "item"
+					item: "minecraft:red_stained_glass_pane"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Auto Blood Altar Part 2"
+			icon: "masterfulmachinery:autoblood_controller"
+			x: 1.0d
+			y: 2.0d
+			shape: "gear"
+			subtitle: "Auto Blood Altar Machinery"
+			description: [
+				" * 1 Controller"
+				" * 1 Item Input Port"
+				" * 1 Item Output Port"
+				" * 1 Fluid Input Port"
+			]
+			dependencies: ["0DB48A26E11F0114"]
+			size: 2.0d
+			id: "5A7FE5ABB98EC914"
+			tasks: [
+				{
+					id: "6772479673C6EAF1"
+					type: "item"
+					item: "masterfulmachinery:autoblood_blood_item_port_items_input"
+				}
+				{
+					id: "23B6F1D2BB6FEA02"
+					type: "item"
+					item: "masterfulmachinery:autoblood_blood_item_port_items_output"
+				}
+				{
+					id: "4C0744EA54BE4C1C"
+					type: "item"
+					item: "masterfulmachinery:autoblood_blood_fluid_port_fluids_input"
+				}
+				{
+					id: "0ED3EDE1FAA9D12A"
+					type: "item"
+					item: "masterfulmachinery:autoblood_controller"
+				}
+				{
+					id: "45FD75896CAC6E75"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+			]
+		}
+		{
+			title: "I've Built the Auto Blood Altar ! "
+			x: 0.0d
+			y: 4.5d
+			shape: "hexagon"
+			subtitle: "Multiblock Complete !"
+			description: ["Now you can automate &4&lBlood Magic&r !"]
+			dependencies: [
+				"064E59AD8FC91AA2"
+				"5A7FE5ABB98EC914"
+			]
+			size: 3.0d
+			id: "51F3DE19F22C28AA"
+			tasks: [{
+				id: "73354DCC5EB23FC7"
+				type: "checkmark"
+				title: "I've built the Auto Blood Altar ! "
+			}]
+		}
+	]
+}

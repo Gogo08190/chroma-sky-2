@@ -121,6 +121,7 @@
 			x: 2.0d
 			y: -0.5d
 			shape: "diamond"
+			description: ["Makes 1 Cobblestone every 20 ticks."]
 			hide_dependency_lines: true
 			dependencies: [
 				"4DE1E7A69AD51402"

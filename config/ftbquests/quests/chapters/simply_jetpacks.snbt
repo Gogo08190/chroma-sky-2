@@ -1,0 +1,461 @@
+{
+	id: "1DA3F085FC50E7B6"
+	group: "258B5ED587988A28"
+	order_index: 4
+	filename: "simply_jetpacks"
+	title: "Simply Jetpacks"
+	icon: "simplyjetpacks:jetpack_creative_armored"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["47530229808ECD67"]
+			id: "7E97AA8C55330303"
+			tasks: [{
+				id: "43528E9C6897AC2B"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_ie1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			id: "2D0569B221CE536B"
+			tasks: [{
+				id: "6F07E6F433D06416"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_mek1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			dependencies: ["3F05D033EBD0710D"]
+			id: "4A52DBE03E1EDBCA"
+			tasks: [{
+				id: "662FBD12A2EB1376"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_vanilla1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			dependencies: ["0B283B25F2FC6125"]
+			id: "0438401A6887E878"
+			tasks: [{
+				id: "7B399EEFD0D1E907"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_te1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["7E97AA8C55330303"]
+			id: "09732CB2E83DA92D"
+			tasks: [{
+				id: "5EB9655818640732"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_ie2"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["09732CB2E83DA92D"]
+			id: "4539745F6994B23E"
+			tasks: [{
+				id: "71C64555C7F6752E"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_ie3"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["4539745F6994B23E"]
+			id: "055F93045A24BA60"
+			tasks: [{
+				id: "7E6C8D82856F5F56"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_ie3_armored"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["4A52DBE03E1EDBCA"]
+			id: "3BE0EF6AFB27F8B5"
+			tasks: [{
+				id: "1CADB965959FD456"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_vanilla1_armored"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			dependencies: ["4A52DBE03E1EDBCA"]
+			id: "6653B31254F0EA34"
+			tasks: [{
+				id: "4B835009D4FC3F27"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_vanilla2"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			dependencies: ["6653B31254F0EA34"]
+			id: "60D6626B0AE90D5B"
+			tasks: [{
+				id: "3A196060EB6E4F95"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_vanilla2_armored"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			dependencies: ["6653B31254F0EA34"]
+			id: "3AD1E1F9172A0A01"
+			tasks: [{
+				id: "3304A9D4ED0D7BCF"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_vanilla3"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			dependencies: ["3AD1E1F9172A0A01"]
+			id: "3B8B582C77713F7C"
+			tasks: [{
+				id: "0366BFD3F21AB7A2"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_vanilla3_armored"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			dependencies: ["3AD1E1F9172A0A01"]
+			id: "295F34D5133A0BE1"
+			tasks: [{
+				id: "4BCD9E71BF5C1516"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_vanilla4"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			dependencies: ["295F34D5133A0BE1"]
+			id: "5890B5610EDD6547"
+			tasks: [{
+				id: "65F709FD0143DB44"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_vanilla4_armored"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["2D0569B221CE536B"]
+			id: "5F9443D3F671AD25"
+			tasks: [{
+				id: "1086FC254E8A7D08"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_mek1_armored"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			dependencies: ["2D0569B221CE536B"]
+			id: "7C8CADBBC876AA13"
+			tasks: [{
+				id: "6CC4B062B91B208A"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_mek2"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["7C8CADBBC876AA13"]
+			id: "5D9B86957D3F1D28"
+			tasks: [{
+				id: "73323EB2ED64D7D2"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_mek2_armored"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["7C8CADBBC876AA13"]
+			id: "328F292E631C78C3"
+			tasks: [{
+				id: "7D07B3885211AE1B"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_mek3"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			dependencies: ["328F292E631C78C3"]
+			id: "45428CB564569BD9"
+			tasks: [{
+				id: "197930042E395DAB"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_mek3_armored"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			dependencies: ["328F292E631C78C3"]
+			id: "60A9CD1B233C781D"
+			tasks: [{
+				id: "1778BC282900F48B"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_mek4"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			dependencies: ["60A9CD1B233C781D"]
+			id: "05A80E0FA1B158A2"
+			tasks: [{
+				id: "150942EEA868EBEA"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_mek4_armored"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.0d
+			dependencies: ["0438401A6887E878"]
+			id: "6B94AC7DBA25C2AD"
+			tasks: [{
+				id: "77A5ED0B3966E2BD"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_te1_armored"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.5d
+			dependencies: ["0438401A6887E878"]
+			id: "24F62503203A1494"
+			tasks: [{
+				id: "2A156523E9B4AA4D"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_te2"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.5d
+			dependencies: ["24F62503203A1494"]
+			id: "7F24FD804401D27C"
+			tasks: [{
+				id: "6A58901FA222D17A"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_te2_armored"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["24F62503203A1494"]
+			id: "5112381BD63114A0"
+			tasks: [{
+				id: "29C8F65CAE3F5252"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_te3"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.0d
+			dependencies: ["5112381BD63114A0"]
+			id: "309B93CC498F0F39"
+			tasks: [{
+				id: "63E78ED1D86AE7B1"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_te3_armored"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			dependencies: ["5112381BD63114A0"]
+			id: "598FA74E04009E69"
+			tasks: [{
+				id: "01D8805C1907DD3D"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_te4"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.5d
+			dependencies: ["598FA74E04009E69"]
+			id: "1FB38C3A283C4BEB"
+			tasks: [{
+				id: "5DD7D0B1B4664134"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_te4_armored"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			dependencies: ["598FA74E04009E69"]
+			id: "41AB87093A99960B"
+			tasks: [{
+				id: "3EA8B7C1E913EEDB"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_te5"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			dependencies: ["41AB87093A99960B"]
+			id: "2239033B7DDEE17A"
+			tasks: [{
+				id: "5A68AE9C699C2863"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_te5_enderium"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
+}

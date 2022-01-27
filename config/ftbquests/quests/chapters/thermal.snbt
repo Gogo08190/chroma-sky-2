@@ -787,6 +787,7 @@
 			}]
 		}
 		{
+			title: "&aMechanic Core Tier 2"
 			x: 18.0d
 			y: 10.0d
 			shape: "gear"
@@ -1311,6 +1312,20 @@
 				id: "13E6A9F58ED05C89"
 				type: "item"
 				item: "thermal:wrench"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 10.0d
+			shape: "square"
+			description: ["Makes 1 Cobblestone every tick."]
+			hide_dependency_lines: true
+			dependencies: ["0C1760A0E6D5AF4C"]
+			id: "5248619F9CEA3BDF"
+			tasks: [{
+				id: "2F17CE9FE6B020D1"
+				type: "item"
+				item: "cobblefordays:tier_5"
 			}]
 		}
 	]

@@ -7,6 +7,18 @@
 	icon: "mana-and-artifice:guide_book"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: 1.5d
+		y: -23.5d
+		width: 1.0d
+		height: 1.0d
+		rotation: 0.0d
+		image: "minecraft:textures/gui/presets/isles.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			x: -3.5d
@@ -34,7 +46,7 @@
 			x: 6.0d
 			y: -8.5d
 			description: [
-				"Tier 1:"
+				"Tier 2:"
 				""
 				"To move to Tier 2, you will need to perform several tasks but not all, but a minimum of 10, for a maximum of 12, you will need to: "
 				""
@@ -73,10 +85,10 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: -8.5d
+			x: 16.0d
+			y: -8.0d
 			description: [
-				"Tier 2:"
+				"Tier 3:"
 				""
 				"To move to Tier 3, you will need to perform several tasks but not all, but a minimum of 11, for a maximum of 14, you will need to: "
 				""
@@ -115,10 +127,56 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -0.5d
+			x: 10.5d
+			y: 7.0d
+			description: [
+				"Tier4:"
+				""
+				"To move to Tier 4, you will need to perform several tasks but not all, but a minimum of 11, for a maximum of 14, you will need to:"
+				""
+				"-Cast a tier 3 cantrip"
+				""
+				"-Complete a tier 3 ritual"
+				""
+				"-Craft a construct with at least 3 iron or gold parts"
+				""
+				"-Craft a spell with complexity 55 or more"
+				""
+				"-Craft an Eldritch Orb"
+				""
+				"-Craft an artifact from your faction at the Manaweaving Altar"
+				""
+				"-Enchant an item using the Runic Anvil"
+				""
+				"-Find a Nether Fortress"
+				""
+				"-Perform a Sanctum Invcation ritual and complete the structure"
+				""
+				"-Reach 10km away from the world spawn"
+				""
+				"-Reach magic level 45"
+				""
+				"-Reach the Nether "
+				""
+				"-Summon a &5Wither&r"
+			]
 			hide_dependency_lines: true
-			dependencies: ["4673AA05474E416E"]
+			dependencies: [
+				"11CB044CBA81C556"
+				"408F90A79774C6AC"
+				"4A778795D31679FB"
+				"7C4B633402B3C87D"
+				"7A5170985B71FE8D"
+				"0CFCC7DD8E6D3E07"
+				"0C95E2F5431B2C7D"
+				"384C55A1EB36E6F0"
+				"6A900FC819DAB9B1"
+				"1DC2F765C00E4442"
+				"20A67FCDDA136BD4"
+				"3F63BC271693C52D"
+				"0B73493E4A14631C"
+			]
+			min_width: 250
 			id: "19C32614D8476285"
 			tasks: [{
 				id: "2D63A37E0E1255CA"
@@ -127,10 +185,47 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -0.5d
+			x: 15.0d
+			y: 0.0d
+			description: [
+				"Tier 5:"
+				""
+				"To move to Tier 5, you will need to perform several tasks but not all, but a minimum of 9, for a maximum of 11, you will need to: "
+				""
+				"-Cast a tier 4 cantrip"
+				""
+				"-Craft a Transitory Tunnel"
+				""
+				"-Craft a construct with at least 3 obsidian parts"
+				""
+				"-Craft a spell with complexity 75 or more"
+				""
+				"-Enchant an item with an enchantment of level III or more using the Runic Anvil"
+				""
+				"-Kill the Ender Dragon"
+				""
+				"-Obtain Dragon’s Breath"
+				""
+				"-Obtain Elytra"
+				""
+				"-Reach magic level 60"
+				""
+				"-Upgrade a Runeforge to a Brimstone Forge using a Brimstone Charm"
+			]
 			hide_dependency_lines: true
-			dependencies: ["19C32614D8476285"]
+			dependencies: [
+				"14AE28056311492E"
+				"3B66257FE4994728"
+				"4CFBAF0BE3395E70"
+				"1CFC87FC3F6016E1"
+				"5115C86A230AF803"
+				"2B7A2333CCC54DFA"
+				"0C3736CA1EE060E4"
+				"47F2FAC62E81DCE2"
+				"7C28AB16E293841C"
+				"4A550493150153F1"
+				"0D3E0C66CF130ED8"
+			]
 			id: "38EF232690208FB4"
 			tasks: [{
 				id: "0301E3DD744FD467"
@@ -139,15 +234,23 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -2.0d
+			x: 11.0d
+			y: 6.0d
 			dependencies: ["19C32614D8476285"]
 			id: "708365E2F99D6FA3"
-			tasks: [{
-				id: "164E37F3CAE6FF70"
-				type: "item"
-				item: "mana-and-artifice:eldrin_altar"
-			}]
+			tasks: [
+				{
+					id: "164E37F3CAE6FF70"
+					type: "item"
+					item: "mana-and-artifice:eldrin_altar"
+				}
+				{
+					id: "3372B10974415890"
+					type: "item"
+					item: "mana-and-artifice:pedestal"
+					count: 8L
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -1055,7 +1158,7 @@
 		{
 			title: "Join a faction"
 			icon: "mana-and-artifice:mark_of_the_nether"
-			x: 11.5d
+			x: 9.5d
 			y: -8.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1079,6 +1182,7 @@
 			tasks: [{
 				id: "64FDA2DD085ECEA6"
 				type: "checkmark"
+				title: "You Now  have to join a faction"
 			}]
 		}
 		{
@@ -1327,6 +1431,1322 @@
 					}
 				}
 			}]
+		}
+		{
+			title: "Iron/Gold Construct"
+			x: 14.5d
+			y: -10.0d
+			dependencies: ["4673AA05474E416E"]
+			id: "11CB044CBA81C556"
+			tasks: [
+				{
+					id: "1144AE95A0BDBB9B"
+					type: "item"
+					title: "Head Construct"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:constructs/construct_horn_head_iron"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_smart_head_iron"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_rebreather_head_iron"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_basic_head_iron"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_basic_head_gold"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_horn_head_gold"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_smart_head_gold"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_rebreather_head_gold"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "690ED08F8C469675"
+					type: "item"
+					title: "Torso Construct"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:constructs/construct_basic_torso_iron"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_armor_torso_iron"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_mana_torso_iron"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_armor_torso_gold"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_mana_torso_gold"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_basic_torso_gold"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "5384B62477E9006C"
+					type: "item"
+					title: "Legg Construct"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:constructs/construct_basic_legs_iron"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_ender_legs_iron"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_reinforced_legs_iron"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_ender_legs_gold"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_reinforced_legs_gold"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_basic_legs_gold"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "094C6395CB3D6A36"
+					type: "item"
+					title: "Right Arm"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:constructs/construct_hammer_arm_right_iron"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_blade_arm_right_iron"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_axe_arm_right_iron"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_mana_cannon_right_iron"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_grabber_arm_right_iron"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_shield_arm_right_iron"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_mana_cannon_right_gold"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_shield_arm_right_gold"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_grabber_arm_right_gold"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_axe_arm_right_gold"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_hammer_arm_right_gold"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_blade_arm_right_gold"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "174F7D84C824C9B2"
+					type: "item"
+					title: "Left Construct"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:constructs/construct_mana_cannon_left_iron"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_blade_arm_left_iron"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_shield_arm_left_iron"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_hammer_arm_left_iron"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_grabber_arm_left_iron"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_axe_arm_left_iron"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_mana_cannon_left_gold"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_hammer_arm_left_gold"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_grabber_arm_left_gold"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_blade_arm_left_gold"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_shield_arm_left_gold"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_axe_arm_left_gold"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 17.5d
+			y: -10.0d
+			dependencies: ["4673AA05474E416E"]
+			id: "20A67FCDDA136BD4"
+			tasks: [{
+				id: "5DF6F963784F1F7C"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:eldritch_orb"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Faction Artifact"
+			x: 15.5d
+			y: -10.0d
+			description: [
+				"Eatch faction had thier one artifact, this are the artifact that you can craft at your level:"
+				""
+				"Wizard's Council :"
+				""
+				" -Bracelet of Eldrin Power/-Eldrin Sight Unguent"
+				""
+				"Fey:"
+				""
+				"-Bracelet of Antidote/-Bracelet of Trickery"
+				""
+				"Demons:"
+				""
+				"-Emberglow Bracelet"
+				""
+				"Undead:"
+				""
+				"-Coffin"
+			]
+			dependencies: ["4673AA05474E416E"]
+			min_width: 250
+			id: "0B73493E4A14631C"
+			tasks: [{
+				id: "1D475A93281AE7ED"
+				type: "item"
+				title: "Faction Artifact"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:coffin"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:emberglow_bracelet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "mana-and-artifice:trickery_bracelet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "mana-and-artifice:antidote_bracelet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "mana-and-artifice:eldrin_sight_unguent"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "mana-and-artifice:eldrin_bracelet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 18.0d
+			y: -8.0d
+			dependencies: ["4673AA05474E416E"]
+			id: "6A900FC819DAB9B1"
+			tasks: [{
+				id: "4513831F5DF816CF"
+				type: "checkmark"
+				title: "Cast a tier 3 cantrip"
+			}]
+		}
+		{
+			x: 18.0d
+			y: -9.0d
+			dependencies: ["4673AA05474E416E"]
+			id: "1DC2F765C00E4442"
+			tasks: [{
+				id: "53BA6CBC0331D7F2"
+				type: "checkmark"
+				title: "Complete a tier 3 ritual"
+			}]
+		}
+		{
+			x: 18.0d
+			y: -7.0d
+			dependencies: ["4673AA05474E416E"]
+			id: "384C55A1EB36E6F0"
+			tasks: [{
+				id: "341642F49B117F21"
+				type: "checkmark"
+				title: "Craft a spell with complexity 55 or more"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -6.0d
+			dependencies: ["4673AA05474E416E"]
+			id: "0CFCC7DD8E6D3E07"
+			tasks: [{
+				id: "4421A6BFB56252FC"
+				type: "checkmark"
+				title: "Enchant an item using the runic anvil"
+			}]
+		}
+		{
+			x: 17.0d
+			y: -6.0d
+			dependencies: ["4673AA05474E416E"]
+			id: "0C95E2F5431B2C7D"
+			tasks: [{
+				id: "2FF8EC4707362430"
+				type: "checkmark"
+				title: "Find a nether fortress"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -6.0d
+			dependencies: ["4673AA05474E416E"]
+			id: "7A5170985B71FE8D"
+			tasks: [{
+				id: "7B92AC0536F021AF"
+				type: "checkmark"
+				title: "Perform a Sanctum Invcation ritual and complete the structure"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -9.0d
+			dependencies: ["4673AA05474E416E"]
+			id: "408F90A79774C6AC"
+			tasks: [{
+				id: "0B3A4070527504EB"
+				type: "checkmark"
+				title: "Reach 10km away from the world spawn"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -8.0d
+			dependencies: ["4673AA05474E416E"]
+			id: "4A778795D31679FB"
+			tasks: [{
+				id: "7AC04D6283D52850"
+				type: "checkmark"
+				title: "Reach magic level 45"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -7.0d
+			dependencies: ["4673AA05474E416E"]
+			id: "7C4B633402B3C87D"
+			tasks: [{
+				id: "1F1A3749086948FE"
+				type: "checkmark"
+				title: "Reach the Nether "
+			}]
+		}
+		{
+			x: 16.5d
+			y: -10.0d
+			dependencies: ["4673AA05474E416E"]
+			id: "3F63BC271693C52D"
+			tasks: [{
+				id: "58D7C015DCF2765F"
+				type: "checkmark"
+				title: "Summon a &5Wither&r"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 4.0d
+			dependencies: ["1896236FC7BEFF73"]
+			id: "14AE28056311492E"
+			tasks: [{
+				id: "4922F719442B2E29"
+				type: "item"
+				item: "mana-and-artifice:brimstone_charm"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 7.0d
+			dependencies: ["19C32614D8476285"]
+			id: "4CFBAF0BE3395E70"
+			tasks: [{
+				id: "0FC1F50100C24618"
+				type: "item"
+				item: "mana-and-artifice:transitory_tunnel"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 6.0d
+			dependencies: ["19C32614D8476285"]
+			id: "3B66257FE4994728"
+			tasks: [{
+				id: "4A1E6403A055D01C"
+				type: "item"
+				item: "minecraft:dragon_breath"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 8.0d
+			dependencies: ["19C32614D8476285"]
+			id: "1CFC87FC3F6016E1"
+			tasks: [{
+				id: "499EB84AED7F1E3D"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-462383275
+							-19903110
+							-1433485317
+							-719865307
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Obsidian Construct"
+			x: 12.5d
+			y: 7.0d
+			dependencies: ["19C32614D8476285"]
+			id: "4A550493150153F1"
+			tasks: [
+				{
+					id: "365EA61A493B2B7C"
+					type: "item"
+					title: "Obsidian Construct Head"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:constructs/construct_basic_head_obsidian"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_rebreather_head_obsidian"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_smart_head_obsidian"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_horn_head_obsidian"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "5F18C85382A50F5B"
+					type: "item"
+					title: "Obsidian Construct torso"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:constructs/construct_basic_torso_obsidian"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_mana_torso_obsidian"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_armor_torso_obsidian"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "738C795AE57F7A96"
+					type: "item"
+					title: "Obsidian Construct Leg"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:constructs/construct_basic_legs_obsidian"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_reinforced_legs_obsidian"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_ender_legs_obsidian"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "65ADE8DD089ED130"
+					type: "item"
+					title: "Obsidian Construct Right Arm"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:constructs/construct_mana_cannon_right_obsidian"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_shield_arm_right_obsidian"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_axe_arm_right_obsidian"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_grabber_arm_right_obsidian"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_hammer_arm_right_obsidian"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_blade_arm_right_obsidian"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "435B8AAD280CB989"
+					type: "item"
+					title: "Obsidian Construct Left Arm"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:constructs/construct_mana_cannon_left_obsidian"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_shield_arm_left_obsidian"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_axe_arm_left_obsidian"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_grabber_arm_left_obsidian"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_hammer_arm_left_obsidian"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_blade_arm_left_obsidian"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: 6.0d
+			dependencies: ["19C32614D8476285"]
+			id: "0D3E0C66CF130ED8"
+			tasks: [{
+				id: "17A012E373B3895F"
+				type: "checkmark"
+				title: "Cast a tier 4 cantrip"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 8.0d
+			dependencies: ["19C32614D8476285"]
+			id: "7C28AB16E293841C"
+			tasks: [{
+				id: "7AF832D3B0F4F347"
+				type: "checkmark"
+				title: "Craft a spell with complexity 75 or more"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 9.0d
+			dependencies: ["19C32614D8476285"]
+			id: "0C3736CA1EE060E4"
+			tasks: [{
+				id: "1357C583F38739F1"
+				type: "checkmark"
+				title: "Enchant an item with an enchantment of level III or more using the Runic Anvil"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 9.0d
+			dependencies: ["19C32614D8476285"]
+			id: "2B7A2333CCC54DFA"
+			tasks: [
+				{
+					id: "75834F7B37BA13E4"
+					type: "checkmark"
+					title: "Kill the Ender Dragon"
+				}
+				{
+					id: "11BF9C240DDD4777"
+					type: "item"
+					item: "minecraft:dragon_egg"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 9.0d
+			dependencies: ["19C32614D8476285"]
+			id: "5115C86A230AF803"
+			tasks: [{
+				id: "4019109DC2B06280"
+				type: "checkmark"
+				title: "Reach magic level 60"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 5.0d
+			dependencies: ["0E996FBAF5DB9C91"]
+			id: "68AA9C78C4049902"
+			tasks: [
+				{
+					id: "772B74204E770301"
+					type: "item"
+					title: "Lens"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:refraction_lens_ender"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:refraction_lens_arcane"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:refraction_lens_fire"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:refraction_lens_water"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:refraction_lens_wind"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:refraction_lens_earth"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "4E8CAA8D1FAC41AF"
+					type: "item"
+					item: "mana-and-artifice:decoration/chimerite_arcane_stone_pillar"
+					count: 4L
+				}
+				{
+					id: "47EFC4AF5C79893C"
+					type: "item"
+					item: "mana-and-artifice:decoration/arcane_stone_stairs"
+					count: 8L
+				}
+				{
+					id: "0BA3FDA8DD20B825"
+					type: "item"
+					item: "mana-and-artifice:decoration/arcane_stone_slab"
+					count: 4L
+				}
+				{
+					id: "1AB939AB389AA7CE"
+					type: "item"
+					item: "mana-and-artifice:decoration/chimerite_arcane_stone_corner"
+					count: 4L
+				}
+				{
+					id: "6D167F979794F46A"
+					type: "item"
+					item: "mana-and-artifice:decoration/chimerite_arcane_stone_straight"
+					count: 4L
+				}
+				{
+					id: "4BF659889DA422FC"
+					type: "item"
+					item: "mana-and-artifice:decoration/chimerite_arcane_stone_chiseled"
+				}
+				{
+					id: "795ED984C8C24C08"
+					type: "item"
+					item: "mana-and-artifice:wellspring_pillar"
+					count: 4L
+				}
+				{
+					id: "119B2592A8D6C9EC"
+					type: "item"
+					item: "minecraft:chain"
+					count: 12L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 6.0d
+			dependencies: ["708365E2F99D6FA3"]
+			id: "0E996FBAF5DB9C91"
+			tasks: [
+				{
+					id: "35556B8A4BCE8EA4"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:wellspring_sight_unguent"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C7533C9CE07FD85"
+					type: "item"
+					item: "mana-and-artifice:wellspring_dowsing_rod"
+				}
+			]
+		}
+		{
+			title: "Eldrin Conduit"
+			x: 9.5d
+			y: 5.0d
+			dependencies: ["68AA9C78C4049902"]
+			id: "1896236FC7BEFF73"
+			tasks: [{
+				id: "4F20AE17FD493D1F"
+				type: "item"
+				title: "Eldrin Conduit"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:eldrin_conduit_air"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:eldrin_conduit_earth"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:eldrin_conduit_water"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:eldrin_conduit_fire"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:eldrin_conduit_arcane"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:eldrin_conduit_ender"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 9.0d
+			dependencies: ["19C32614D8476285"]
+			id: "47F2FAC62E81DCE2"
+			tasks: [{
+				id: "19D923D9F83E0E25"
+				type: "checkmark"
+				title: "Reach the End"
+			}]
+		}
+		{
+			title: "Faction armor's"
+			x: 15.0d
+			y: -1.5d
+			description: ["Faction victim"]
+			dependencies: ["38EF232690208FB4"]
+			id: "66BC204048F491F4"
+			tasks: [
+				{
+					id: "38C8EB79B266287B"
+					type: "item"
+					title: "Helmet"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:bone_armor_head"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mana-and-artifice:demon_armor_head"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mana-and-artifice:council_armor_head"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mana-and-artifice:fey_armor_head"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "456C5238B513F158"
+					type: "item"
+					title: "Chestplate"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:bone_armor_chest"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mana-and-artifice:fey_armor_chest"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mana-and-artifice:council_armor_chest"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mana-and-artifice:demon_armor_chest"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "10C493320AE188EF"
+					type: "item"
+					title: "Leging's"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:bone_armor_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mana-and-artifice:demon_armor_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mana-and-artifice:fey_armor_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mana-and-artifice:council_armor_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "367F0110F2D8AF0A"
+					type: "item"
+					title: "Boot"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:bone_armor_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mana-and-artifice:council_armor_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mana-and-artifice:fey_armor_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mana-and-artifice:demon_armor_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Tier 5 artifact"
+			x: 16.5d
+			y: 0.0d
+			dependencies: ["38EF232690208FB4"]
+			id: "0581EC1CDB7FB30A"
+			tasks: [{
+				id: "5C563BE1B7B56E85"
+				type: "item"
+				title: "Artifact"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:arcane_crown"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:hellfire_staff"
+								Count: 1b
+								tag: {
+									Damage: 0
+									spell: { }
+								}
+							}
+							{
+								id: "mana-and-artifice:cowl_of_consumption"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Faction Horn's"
+			x: 15.0d
+			y: 1.5d
+			subtitle: "Call The legion!!!"
+			dependencies: ["38EF232690208FB4"]
+			id: "3966B9895A5FE883"
+			tasks: [{
+				id: "124D56F38380EA53"
+				type: "item"
+				title: "Horn"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:faction_horn_demons"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:faction_horn_fey"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:faction_horn_undead"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:faction_horn_council"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Diamond Construct"
+			x: 13.5d
+			y: 0.0d
+			dependencies: ["38EF232690208FB4"]
+			id: "4195C9A7C99D0A9A"
+			tasks: [
+				{
+					id: "772E015399E5BDB7"
+					type: "item"
+					title: "Diamond Construct Head"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:constructs/construct_basic_head_diamond"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_rebreather_head_diamond"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_smart_head_diamond"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_horn_head_diamond"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "6BED43F78AEA230B"
+					type: "item"
+					title: "Diamond Construct Torso"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:constructs/construct_armor_torso_diamond"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_mana_torso_diamond"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_basic_torso_diamond"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "0194487158FFBE7C"
+					type: "item"
+					title: "Diamond Construct Leg"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:constructs/construct_ender_legs_diamond"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_reinforced_legs_diamond"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_basic_legs_diamond"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "46BCC343D8CE2B59"
+					type: "item"
+					title: "Diamond Construct Right Arm"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:constructs/construct_blade_arm_right_diamond"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_hammer_arm_right_diamond"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_grabber_arm_right_diamond"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_axe_arm_right_diamond"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_shield_arm_right_diamond"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_mana_cannon_right_diamond"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "5C36A1CF25EA4A6D"
+					type: "item"
+					title: "Diamond Construct Left Arm"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:constructs/construct_shield_arm_left_diamond"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_axe_arm_left_diamond"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_mana_cannon_left_diamond"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_blade_arm_left_diamond"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_hammer_arm_left_diamond"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:constructs/construct_grabber_arm_left_diamond"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
 		}
 	]
 }

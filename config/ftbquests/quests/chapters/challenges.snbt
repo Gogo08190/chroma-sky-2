@@ -1,0 +1,87 @@
+{
+	id: "4ECDCEE1362574B3"
+	group: "079627CE8649F5BB"
+	order_index: 0
+	filename: "challenges"
+	title: "Challenges"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.5d
+			y: 1.5d
+			id: "0FAC8439915CB800"
+			tasks: [{
+				id: "5E3B2317B0D2F5A6"
+				type: "stat"
+				title: "Rage Quit ?"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "brandonscore:textures/gui/redstone/never_active.png"
+					}
+				}
+				stat: "minecraft:leave_game"
+				value: 100
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			subtitle: "500"
+			id: "4C1F56190A907ACA"
+			tasks: [{
+				id: "0212112F26F6FF66"
+				type: "stat"
+				icon: "supplementaries:clock_block"
+				stat: "minecraft:play_one_minute"
+				value: 36000000
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			id: "5F3E1AE61DE04F09"
+			tasks: [{
+				id: "16A563D53ADE520D"
+				type: "stat"
+				stat: "minecraft:mob_kills"
+				value: 2000
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			id: "49032A43B4D96127"
+			tasks: [{
+				id: "0498CB3DAEDEAC08"
+				type: "kill"
+				entity: "draconicevolution:draconic_guardian"
+				value: 1L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			id: "5097CD1FDA88CEA5"
+			tasks: [{
+				id: "1F3FDC023558BA3E"
+				type: "kill"
+				entity: "minecraft:wither"
+				value: 50L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			id: "27B2E0ED3A48AB56"
+			tasks: [{
+				id: "7B0EBBB05E94628D"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 10L
+			}]
+		}
+	]
+}

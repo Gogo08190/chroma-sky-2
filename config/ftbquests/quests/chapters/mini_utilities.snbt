@@ -1,0 +1,645 @@
+{
+	id: "47B07ECB63B669B1"
+	group: "73390EDA98890AC0"
+	order_index: 0
+	filename: "mini_utilities"
+	title: "Mini Utilities"
+	icon: "miniutilities:the_final_opinium_core"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["6376580B13B6EEC9"]
+			id: "4F7C495127675673"
+			tasks: [{
+				id: "29B77E5181FCF717"
+				type: "item"
+				item: "miniutilities:cursed_earth"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			dependencies: ["6376580B13B6EEC9"]
+			id: "0ED361E2AEF63ACA"
+			tasks: [{
+				id: "5ABFB22AF1CDA1AE"
+				type: "item"
+				item: "miniutilities:blessed_earth"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: [
+				"0ED361E2AEF63ACA"
+				"4F7C495127675673"
+			]
+			id: "7445D93B7DC8F87B"
+			tasks: [{
+				id: "351B8ACC6E01ADAD"
+				type: "item"
+				item: "miniutilities:blursed_earth"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			id: "180A11DC5CDCAB8E"
+			tasks: [{
+				id: "3BFEA43A749F4C20"
+				type: "item"
+				item: "miniutilities:stone_drum"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			dependencies: ["180A11DC5CDCAB8E"]
+			id: "321F16F05F2120C5"
+			tasks: [{
+				id: "08650906E2C0C499"
+				type: "item"
+				item: "miniutilities:iron_drum"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["321F16F05F2120C5"]
+			id: "3AD8EE3A79A6D652"
+			tasks: [{
+				id: "04344E788F63B334"
+				type: "item"
+				item: "miniutilities:reinforced_large_drum"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			dependencies: ["3AD8EE3A79A6D652"]
+			id: "38AA42D8F2B409B3"
+			tasks: [{
+				id: "750536C1A3DFF8BE"
+				type: "item"
+				item: "miniutilities:netherite_reinforced_drum"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"38AA42D8F2B409B3"
+				"797DD36F60AB5256"
+			]
+			id: "693341DBEC999C06"
+			tasks: [{
+				id: "2F524971134A326A"
+				type: "item"
+				item: "miniutilities:unstable_drum"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["3F97D03C2402B70D"]
+			id: "1326B54AD6674ED2"
+			tasks: [{
+				id: "1B44F3D37401390A"
+				type: "item"
+				item: "miniutilities:wooden_spikes"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["1326B54AD6674ED2"]
+			id: "57777A8FC63D161A"
+			tasks: [{
+				id: "084A5B3E8FB32F6C"
+				type: "item"
+				item: "miniutilities:iron_spikes"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["57777A8FC63D161A"]
+			id: "567259767C30DC44"
+			tasks: [{
+				id: "636AA7FFA7431A79"
+				type: "item"
+				item: "miniutilities:gold_spikes"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["567259767C30DC44"]
+			id: "64ACC0027C3F18E3"
+			tasks: [{
+				id: "15B6902A7FCFD71A"
+				type: "item"
+				item: "miniutilities:diamond_spikes"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["64ACC0027C3F18E3"]
+			id: "711EC9C2696557A7"
+			tasks: [{
+				id: "0A0CEC208726177C"
+				type: "item"
+				item: "miniutilities:netherite_spikes"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["1B69AF5509A2B907"]
+			id: "4686340A08833AA0"
+			tasks: [{
+				id: "4ECD29201496A782"
+				type: "item"
+				item: "miniutilities:mechanical_miner"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["088D692E25F62BFD"]
+			id: "7475E8751BF9C82F"
+			tasks: [{
+				id: "67E9375C61D33B16"
+				type: "item"
+				item: "miniutilities:mechanical_placer"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1B0F2D9BD2106AA7"
+				"500CE4634E4CAA6E"
+				"337E4843E25CF523"
+				"321AFD3A1679E8E0"
+				"4686340A08833AA0"
+			]
+			id: "707F1AC2BC329338"
+			tasks: [{
+				id: "2D44CFA648426F8D"
+				type: "item"
+				item: "miniutilities:quantum_quarry"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			dependencies: ["3F05D033EBD0710D"]
+			id: "68AD871D6B5A0B54"
+			tasks: [{
+				id: "48B6483691D97992"
+				type: "item"
+				item: "miniutilities:solar_panel"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["3F05D033EBD0710D"]
+			id: "2D5D1C540C159BB0"
+			tasks: [{
+				id: "63C8E181454BB7B0"
+				type: "item"
+				item: "miniutilities:lunar_panel"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"373682D1505E0930"
+				"3F05D033EBD0710D"
+			]
+			id: "5725A183087CD84C"
+			tasks: [{
+				id: "1B72577CCC3D77EB"
+				type: "item"
+				item: "miniutilities:solar_panel_controller"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"797DD36F60AB5256"
+				"1B0F2D9BD2106AA7"
+			]
+			id: "59A3C58F91234A58"
+			tasks: [{
+				id: "121855A08BE9C968"
+				type: "item"
+				item: "miniutilities:laser_hub"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"7A1941B35D3A6350"
+				"321AFD3A1679E8E0"
+			]
+			id: "66EA4109B1E9CD93"
+			tasks: [{
+				id: "552F4D29769946FC"
+				type: "item"
+				item: "miniutilities:laser_port"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			dependencies: ["0D0125950C81816E"]
+			id: "18D3F5D8262222DB"
+			tasks: [{
+				id: "6071E20125D79F76"
+				type: "item"
+				item: "miniutilities:ender_lily_seeds"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			dependencies: ["5457F53E1DBA6A03"]
+			id: "1F3DE28F407F98AA"
+			tasks: [{
+				id: "674FC462AEBF576C"
+				type: "item"
+				item: "miniutilities:flame_lily_seeds"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"797DD36F60AB5256"
+				"76CA9B4B4D139E35"
+				"559D34A164E6E348"
+				"60A9CD1B233C781D"
+				"5526DF0B1D93A93E"
+			]
+			id: "3E4BA3D4A5E36CA2"
+			tasks: [{
+				id: "5DCC9ABC95C12E7F"
+				type: "item"
+				item: "miniutilities:angel_ring"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			dependencies: ["797DD36F60AB5256"]
+			id: "46D62EF0BDC145F9"
+			tasks: [{
+				id: "398A8C417AD2EFCB"
+				type: "item"
+				item: "miniutilities:unstable_helmet"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["797DD36F60AB5256"]
+			id: "33B3F3C0C7F03B70"
+			tasks: [{
+				id: "70227FFBAC1E456D"
+				type: "item"
+				item: "miniutilities:unstable_chestplate"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			dependencies: ["797DD36F60AB5256"]
+			id: "2D903588BD32EA2C"
+			tasks: [{
+				id: "3DD8B9277ACAC045"
+				type: "item"
+				item: "miniutilities:unstable_leggings"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			dependencies: ["797DD36F60AB5256"]
+			id: "32C45B83157361AC"
+			tasks: [{
+				id: "480E64BD46FA17FC"
+				type: "item"
+				item: "miniutilities:unstable_boots"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			dependencies: ["20BCDE9BEC4E4609"]
+			id: "1BEE7BEFA5351690"
+			tasks: [{
+				id: "543A13B33C0618B8"
+				type: "item"
+				item: "miniutilities:infused_chestplate"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			dependencies: ["20BCDE9BEC4E4609"]
+			id: "3CF569F98344C27C"
+			tasks: [{
+				id: "2866DDF013E19792"
+				type: "item"
+				item: "miniutilities:infused_helmet"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["20BCDE9BEC4E4609"]
+			id: "0122620B32460BCF"
+			tasks: [{
+				id: "3EDD9A3E20EDF608"
+				type: "item"
+				item: "miniutilities:infused_leggings"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			dependencies: ["20BCDE9BEC4E4609"]
+			id: "434502B290B01AAF"
+			tasks: [{
+				id: "22A4C59BB07D5408"
+				type: "item"
+				item: "miniutilities:infused_boots"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 6.5d
+			dependencies: ["3F05D033EBD0710D"]
+			id: "7A1941B35D3A6350"
+			tasks: [{
+				id: "520AA159585904FC"
+				type: "item"
+				item: "miniutilities:iron_opinium_core"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.5d
+			dependencies: ["7A1941B35D3A6350"]
+			id: "373682D1505E0930"
+			tasks: [{
+				id: "18E0EFE52EA7D06E"
+				type: "item"
+				item: "miniutilities:gold_opinium_core"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.5d
+			dependencies: ["373682D1505E0930"]
+			id: "78374C71C941FA54"
+			tasks: [{
+				id: "05E330532A79D85F"
+				type: "item"
+				item: "miniutilities:diamond_opinium_core"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.5d
+			dependencies: ["78374C71C941FA54"]
+			id: "3DC5527E95FA74A0"
+			tasks: [{
+				id: "709543D7F3B573DB"
+				type: "item"
+				item: "miniutilities:netherite_opinium_core"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.5d
+			dependencies: ["3DC5527E95FA74A0"]
+			id: "1B0F2D9BD2106AA7"
+			tasks: [{
+				id: "251AFCB370B414B0"
+				type: "item"
+				item: "miniutilities:emerald_opinium_core"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 6.5d
+			dependencies: ["1B0F2D9BD2106AA7"]
+			id: "68902D36609C9705"
+			tasks: [{
+				id: "040343383EF7BA33"
+				type: "item"
+				item: "miniutilities:chorus_opinium_core"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 6.5d
+			dependencies: ["68902D36609C9705"]
+			id: "20CFA5D846746039"
+			tasks: [{
+				id: "186A36AB30B57CCE"
+				type: "item"
+				item: "miniutilities:experience_opinium_core"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"20CFA5D846746039"
+				"797DD36F60AB5256"
+			]
+			id: "087A934C57319C29"
+			tasks: [{
+				id: "51F7FF2D8FA7C8F0"
+				type: "item"
+				item: "miniutilities:nether_star_opinium_core"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"087A934C57319C29"
+				"797DD36F60AB5256"
+			]
+			id: "1B2D59CF0C8BAEC9"
+			tasks: [{
+				id: "762BC3184A929993"
+				type: "item"
+				item: "miniutilities:the_final_opinium_core"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 7.5d
+			dependencies: ["243FA1E08B56689C"]
+			id: "0CD840F613B5EB4A"
+			tasks: [{
+				id: "466935C3CFC3AFE9"
+				type: "item"
+				item: "miniutilities:angel_block"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["1B2D59CF0C8BAEC9"]
+			id: "6AB69C17FE7685BD"
+			tasks: [{
+				id: "144AF79003F12155"
+				type: "item"
+				item: "miniutilities:kikoku"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"797DD36F60AB5256"
+				"243FA1E08B56689C"
+			]
+			id: "644B90D480DBD144"
+			tasks: [{
+				id: "5ED080991A24F4FE"
+				type: "item"
+				item: "miniutilities:healing_axe"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"797DD36F60AB5256"
+				"243FA1E08B56689C"
+			]
+			id: "68EF42C9EC565A20"
+			tasks: [{
+				id: "0EC45DC4502F5E7C"
+				type: "item"
+				item: "miniutilities:reversing_hoe"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"797DD36F60AB5256"
+				"243FA1E08B56689C"
+			]
+			id: "6BEF8160A1947E31"
+			tasks: [{
+				id: "686BB35DAECFD08E"
+				type: "item"
+				item: "miniutilities:destruction_pickaxe"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"797DD36F60AB5256"
+				"243FA1E08B56689C"
+			]
+			id: "361A89CCFB5040DF"
+			tasks: [{
+				id: "5993B610B9942F32"
+				type: "item"
+				item: "miniutilities:precision_shears"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"797DD36F60AB5256"
+				"243FA1E08B56689C"
+			]
+			id: "411B5CD02A0F556D"
+			tasks: [{
+				id: "29BA8A57E63D79FF"
+				type: "item"
+				item: "miniutilities:erosion_shovel"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"797DD36F60AB5256"
+				"243FA1E08B56689C"
+			]
+			id: "24227FAFBAE971C3"
+			tasks: [{
+				id: "052C17AB04E5FA9B"
+				type: "item"
+				item: "miniutilities:etheric_sword"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			shape: "octagon"
+			dependencies: ["3F05D033EBD0710D"]
+			id: "797DD36F60AB5256"
+			tasks: [{
+				id: "0393A8E141F38439"
+				type: "item"
+				item: {
+					id: "miniutilities:unstable_ingot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			shape: "octagon"
+			id: "20BCDE9BEC4E4609"
+			tasks: [{
+				id: "072D804B6319A82C"
+				type: "item"
+				item: "miniutilities:experience_pearl"
+			}]
+		}
+	]
+}

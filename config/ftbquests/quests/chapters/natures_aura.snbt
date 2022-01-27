@@ -1,0 +1,1787 @@
+{
+	id: "6A6A0E26F7D468C9"
+	group: "638FC427456F902B"
+	order_index: 6
+	filename: "natures_aura"
+	title: "Nature's aura"
+	icon: "naturesaura:eye_improved"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -2.0d
+			y: -13.5d
+			width: 15.0d
+			height: 15.0d
+			rotation: 0.0d
+			image: "naturesaura:textures/block/ancient_sapling.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -12.0d
+			y: -15.5d
+			width: 9.0d
+			height: 9.0d
+			rotation: 0.0d
+			image: "naturesaura:textures/item/effect_powder.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 14.38095238095238d
+			y: -16.214285714285715d
+			width: 9.0d
+			height: 9.0d
+			rotation: 0.0d
+			image: "naturesaura:textures/particles/magic_round.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -4.5d
+			y: -6.0d
+			dependencies: ["3856D13B148693FD"]
+			id: "2B4192D90D8DB5E6"
+			tasks: [{
+				id: "231382C62C215717"
+				type: "item"
+				item: "naturesaura:gold_leaf"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -6.0d
+			dependencies: ["73C3630F0ACAEFB9"]
+			id: "3856D13B148693FD"
+			tasks: [{
+				id: "414CC5BFE8D7AB55"
+				type: "item"
+				item: "naturesaura:gold_fiber"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.0d
+			dependencies: ["2B4192D90D8DB5E6"]
+			id: "59CBA1EEB96626D5"
+			tasks: [{
+				id: "216B792E0FE08C1F"
+				type: "item"
+				item: "naturesaura:gold_powder"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -6.0d
+			id: "73C3630F0ACAEFB9"
+			tasks: [{
+				id: "6400FC83CD8CEBDC"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+			}]
+		}
+		{
+			title: "Ritual of The Forest"
+			icon: "naturesaura:ancient_sapling"
+			x: -2.0d
+			y: -8.0d
+			description: ["The Ritual of the Forest is a way of creating magical items using the power of nature."]
+			dependencies: ["59CBA1EEB96626D5"]
+			id: "67BC8A5CBAF363F8"
+			tasks: [
+				{
+					id: "2D11277D74D346C0"
+					type: "item"
+					item: "naturesaura:gold_powder"
+					count: 16L
+				}
+				{
+					id: "4749B5A7C92A3BD8"
+					type: "item"
+					item: "naturesaura:wood_stand"
+					count: 8L
+				}
+				{
+					id: "4A6E5D8B4BE8FF64"
+					type: "item"
+					item: "minecraft:oak_sapling"
+				}
+			]
+		}
+		{
+			title: "The Natural Altar"
+			icon: "naturesaura:nature_altar"
+			x: -1.0d
+			y: -15.5d
+			description: ["The Natural Altar collects Aura from the environment to use for the creation of new materials."]
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "7591DDDBE81D6790"
+			tasks: [
+				{
+					id: "468BD555A45CA77E"
+					type: "item"
+					item: "naturesaura:nature_altar"
+				}
+				{
+					id: "0722D93EE8A5A674"
+					type: "item"
+					item: "naturesaura:gold_brick"
+					count: 8L
+				}
+				{
+					id: "131E4A01EFAA0F9D"
+					type: "item"
+					item: "minecraft:oak_planks"
+					count: 20L
+				}
+				{
+					id: "4D7334D8249FDEB4"
+					type: "item"
+					item: "minecraft:chiseled_stone_bricks"
+					count: 4L
+				}
+				{
+					id: "3F9F11FE12CDF414"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 16L
+				}
+			]
+		}
+		{
+			title: "The Crimson Altar"
+			icon: "naturesaura:gold_nether_brick"
+			x: -4.0d
+			y: -17.0d
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "111FCE085D6AC550"
+			tasks: [
+				{
+					id: "052E0AEF90115A41"
+					type: "item"
+					item: "naturesaura:nature_altar"
+				}
+				{
+					id: "55FC227A163B5143"
+					type: "item"
+					item: "minecraft:red_nether_bricks"
+					count: 4L
+				}
+				{
+					id: "203E5CB69CF41A06"
+					type: "item"
+					item: "minecraft:crimson_planks"
+					count: 20L
+				}
+				{
+					id: "4B40890AD2CDE2C1"
+					type: "item"
+					item: "minecraft:nether_bricks"
+					count: 16L
+				}
+				{
+					id: "71394E24696C0A84"
+					type: "item"
+					item: "naturesaura:gold_nether_brick"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -15.5d
+			dependencies: ["7591DDDBE81D6790"]
+			id: "62453989EC0762EA"
+			tasks: [{
+				id: "71DABF9B62AC327C"
+				type: "item"
+				item: "naturesaura:infused_iron"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "53D3FA9A00A66B9C"
+			tasks: [{
+				id: "7E0543F8D112953C"
+				type: "item"
+				item: {
+					id: "naturesaura:infused_iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "39E01B90528B1DD6"
+			tasks: [{
+				id: "48E8682C2FE9487E"
+				type: "item"
+				item: {
+					id: "naturesaura:infused_iron_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "37B2CF01CA0AE16A"
+			tasks: [{
+				id: "2B275BF4BC2C67DB"
+				type: "item"
+				item: {
+					id: "naturesaura:infused_iron_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "6060E305921B33EC"
+			tasks: [{
+				id: "36451D11D708B483"
+				type: "item"
+				item: {
+					id: "naturesaura:infused_iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "77A71004C6664333"
+			tasks: [{
+				id: "4C12D1CE3501F619"
+				type: "item"
+				item: {
+					id: "naturesaura:infused_iron_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-2095430484
+							-1558492576
+							-1614487248
+							188700128
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "378C3546ECB05226"
+			tasks: [{
+				id: "7A8464138A4D11E5"
+				type: "item"
+				item: {
+					id: "naturesaura:infused_iron_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "55E71D71A6701ACC"
+			tasks: [{
+				id: "1310B500F3D8F622"
+				type: "item"
+				item: {
+					id: "naturesaura:infused_iron_chest"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "655FC4EC9EC410EE"
+			tasks: [{
+				id: "34CCCB311F6358AE"
+				type: "item"
+				item: {
+					id: "naturesaura:infused_iron_pants"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "7DB2895A34968593"
+			tasks: [{
+				id: "11D51D4C11A6BB17"
+				type: "item"
+				item: {
+					id: "naturesaura:infused_iron_shoes"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-2095430484
+							-1558492576
+							-1614487248
+							188700128
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: -11.5d
+			description: ["Exploration and beauty"]
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "606BD6F121A796AF"
+			tasks: [{
+				id: "59D28EAFD3D85440"
+				type: "item"
+				item: "naturesaura:token_joy"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -12.5d
+			description: ["This item represent the transience and falling."]
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "13D134D9CECC9EFA"
+			tasks: [{
+				id: "0ED66F326BC35F8C"
+				type: "item"
+				item: "naturesaura:token_fear"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -13.0d
+			description: ["Explosiveness, Fire and Dark"]
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "30905843166E7619"
+			tasks: [{
+				id: "6ECF9C23775DAD6F"
+				type: "item"
+				item: "naturesaura:token_anger"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -11.5d
+			description: ["Fragility and Death"]
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "1074EAA509CF1984"
+			tasks: [{
+				id: "1F98B07A69E7C00B"
+				type: "item"
+				item: "naturesaura:token_sorrow"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -12.0d
+			dependencies: ["48433427C278FD14"]
+			id: "7620EE9990A9DFB4"
+			tasks: [{
+				id: "4FD869F1FBCC2593"
+				type: "item"
+				item: "naturesaura:token_euphoria"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -10.0d
+			dependencies: ["48433427C278FD14"]
+			id: "1D61F379646FA8C8"
+			tasks: [{
+				id: "73A1135008FFBA70"
+				type: "item"
+				item: "naturesaura:token_terror"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -8.0d
+			dependencies: ["48433427C278FD14"]
+			id: "271AE89B1CA86C01"
+			tasks: [{
+				id: "68549754CBE6A313"
+				type: "item"
+				item: "naturesaura:token_rage"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -10.0d
+			description: [""]
+			dependencies: ["48433427C278FD14"]
+			id: "264E33238FD5C2AC"
+			tasks: [{
+				id: "5DF4A9A3449E800C"
+				type: "item"
+				item: "naturesaura:token_grief"
+			}]
+		}
+		{
+			icon: "naturesaura:offering_table"
+			x: 5.5d
+			y: -10.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"13D134D9CECC9EFA"
+				"1074EAA509CF1984"
+			]
+			id: "48433427C278FD14"
+			tasks: [
+				{
+					id: "2C4E9FA9F85A52FA"
+					type: "item"
+					item: "naturesaura:offering_table"
+				}
+				{
+					id: "5D5846CF6A3DF986"
+					type: "item"
+					item: "minecraft:poppy"
+					count: 36L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -15.0d
+			hide_dependency_lines: true
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "2FEE6A814CD633B6"
+			tasks: [{
+				id: "5FE5670A9DDFF67D"
+				type: "item"
+				item: {
+					id: "naturesaura:effect_powder"
+					Count: 1b
+					tag: {
+						effect: "naturesaura:nether_grass"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: -15.0d
+			hide_dependency_lines: true
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "3BDC93352153B7AA"
+			tasks: [{
+				id: "42FC85565C758D55"
+				type: "item"
+				item: {
+					id: "naturesaura:effect_powder"
+					Count: 1b
+					tag: {
+						effect: "naturesaura:animal"
+					}
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: -14.0d
+			hide_dependency_lines: true
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "7475C319E3975C38"
+			tasks: [{
+				id: "3019756208364FE5"
+				type: "item"
+				item: {
+					id: "naturesaura:effect_powder"
+					Count: 1b
+					tag: {
+						effect: "naturesaura:cache_recharge"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: -14.0d
+			hide_dependency_lines: true
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "5742AAFBA251D543"
+			tasks: [{
+				id: "63D1B7618CA878E2"
+				type: "item"
+				item: {
+					id: "naturesaura:effect_powder"
+					Count: 1b
+					tag: {
+						effect: "naturesstarlight:starlight_increase"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: -16.0d
+			hide_dependency_lines: true
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "23F73647DDF8A8D5"
+			tasks: [{
+				id: "7220CA3321CF1507"
+				type: "item"
+				item: {
+					id: "naturesaura:effect_powder"
+					Count: 1b
+					tag: {
+						effect: "naturesaura:plant_boost"
+					}
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: -16.0d
+			hide_dependency_lines: true
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "4DB40ADB100F3064"
+			tasks: [{
+				id: "495EA697FDCAAC3D"
+				type: "item"
+				item: {
+					id: "naturesaura:effect_powder"
+					Count: 1b
+					tag: {
+						effect: "naturesaura:ore_spawn"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.0d
+			y: -13.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"4E340C8BF251D2E5"
+				"2626A2F3A1782F83"
+				"47A262541C6569CA"
+				"1C8E72FDD4811D75"
+			]
+			id: "1FA531FE75961B5C"
+			tasks: [{
+				id: "1B1E9829639F59A2"
+				type: "item"
+				item: "naturesaura:calling_spirit"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -12.0d
+			dependencies: ["48433427C278FD14"]
+			id: "4E340C8BF251D2E5"
+			tasks: [{
+				id: "332732B85BD1942C"
+				type: "item"
+				item: "naturesaura:sky_ingot"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -15.5d
+			dependencies: [
+				"13D134D9CECC9EFA"
+				"7620EE9990A9DFB4"
+			]
+			id: "0A744FB4B351E4DB"
+			tasks: [{
+				id: "63C2FB29AFCC6165"
+				type: "item"
+				item: "naturesaura:time_changer"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -18.5d
+			dependencies: ["111FCE085D6AC550"]
+			id: "2626A2F3A1782F83"
+			tasks: [{
+				id: "334BA7F1ED0B12A9"
+				type: "item"
+				item: "naturesaura:tainted_gold"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -8.5d
+			dependencies: ["73C3630F0ACAEFB9"]
+			id: "7786E772571081E4"
+			tasks: [{
+				id: "3A0EBEEED2CD7F97"
+				type: "item"
+				item: "naturesaura:bottle_two_the_rebottling"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -10.5d
+			dependencies: ["7786E772571081E4"]
+			id: "6FA1B1D053C2C065"
+			tasks: [{
+				id: "034CB9C3FC533156"
+				type: "item"
+				item: {
+					id: "naturesaura:aura_bottle"
+					Count: 1b
+					tag: {
+						stored_type: "naturesaura:end"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: -10.5d
+			dependencies: ["7786E772571081E4"]
+			id: "47A262541C6569CA"
+			tasks: [{
+				id: "3729951548E9BC14"
+				type: "item"
+				item: {
+					id: "naturesaura:aura_bottle"
+					Count: 1b
+					tag: {
+						stored_type: "naturesaura:nether"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: -10.5d
+			dependencies: ["7786E772571081E4"]
+			id: "1C8E72FDD4811D75"
+			tasks: [{
+				id: "555C4A69EBD18DB5"
+				type: "item"
+				item: {
+					id: "naturesaura:aura_bottle"
+					Count: 1b
+					tag: {
+						stored_type: "naturesaura:overworld"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -12.0d
+			dependencies: ["48433427C278FD14"]
+			id: "0D1B669F0D4E09BE"
+			tasks: [{
+				id: "0AB0336322781E6E"
+				type: "item"
+				item: "naturesaura:clock_hand"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -14.0d
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "6CD23AE0395296EC"
+			tasks: [{
+				id: "0B29FE8E209B7989"
+				type: "item"
+				item: "naturesaura:conversion_catalyst"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -17.5d
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "7702FD3B4A46C4BE"
+			tasks: [{
+				id: "58DAA9B4E0DF041F"
+				type: "item"
+				item: "naturesaura:crushing_catalyst"
+			}]
+		}
+		{
+			icon: "naturesaura:rf_converter"
+			x: 13.0d
+			y: -17.5d
+			shape: "circle"
+			description: ["The &5Energetic Aura Forge&r directly converts &2Aura&r into what is known to most people as &6Redstone Flux&r."]
+			hide_dependency_lines: true
+			dependencies: ["6CD23AE0395296EC"]
+			id: "1AC29AFD6A527BFC"
+			tasks: [
+				{
+					id: "4F04D2654F520B1F"
+					type: "item"
+					item: "naturesaura:rf_converter"
+				}
+				{
+					id: "535EC3E5CFF21F43"
+					type: "item"
+					item: "minecraft:redstone_block"
+					count: 18L
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: -14.5d
+			shape: "circle"
+			description: [
+				"As described in the &9One Creating Aura&r section, most &6creational devices&r lack the ability to create &2Aura&r beyond a certain point."
+				""
+				"The &dCreational Catalyst&r easily solves this problem: Placing it directly below any crational device will cause its limit to be lifted, making it able to generate &2Aura&r far beyond the previously mentioned point."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"7620EE9990A9DFB4"
+				"271AE89B1CA86C01"
+				"264E33238FD5C2AC"
+				"1D61F379646FA8C8"
+			]
+			id: "5C5EE1F700AFF13A"
+			tasks: [{
+				id: "53FDEE2C07C8C92C"
+				type: "item"
+				item: "naturesaura:generator_limit_remover"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -16.0d
+			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: [
+				"7620EE9990A9DFB4"
+				"1D61F379646FA8C8"
+			]
+			id: "741A9BB38F47B06A"
+			tasks: [{
+				id: "3C157EF2B36C2C0D"
+				type: "item"
+				item: "naturesaura:time_changer"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -15.5d
+			shape: "circle"
+			description: [
+				"The latent &6magical energy&r that is released when one of these crystal &6grows&r is especially of importance."
+				"Using the &5Crystalline Extractor&r, this energy can be captured and turned into impressive amouts of &2Aura&r."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"62453989EC0762EA"
+				"606BD6F121A796AF"
+			]
+			id: "6950AB39E56A859D"
+			tasks: [{
+				id: "7FFB11385FBCF966"
+				type: "item"
+				item: "naturesstarlight:crystal_generator"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -8.0d
+			shape: "rsquare"
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "072BF88D65C7F365"
+			tasks: [{
+				id: "01C9A420267B7C91"
+				type: "item"
+				item: "naturesaura:ancient_sapling"
+			}]
+		}
+		{
+			icon: "naturesaura:projectile_generator"
+			x: 13.0d
+			y: -14.5d
+			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: [
+				"30905843166E7619"
+				"2626A2F3A1782F83"
+			]
+			id: "2B6D5FE833D6E5FE"
+			tasks: [
+				{
+					id: "6FEE4732C24DE7C2"
+					type: "item"
+					item: "naturesaura:projectile_generator"
+				}
+				{
+					id: "431C87546BED81D5"
+					type: "item"
+					item: "minecraft:arrow"
+					count: 16L
+				}
+			]
+		}
+		{
+			icon: "naturesaura:moss_generator"
+			x: 15.0d
+			y: -14.5d
+			shape: "circle"
+			description: [
+				"A great source of natural &2Aura&r is the &6moss&r on any type of mossy block. this property can be made use of in the form of the &5Swamp Homi&r: It will take any block around it that are covered in moss and remove it, leaving the clean block behind."
+				""
+				"For each block that it does this with, it generates a bit of &2Aura&r and spreads it into the environment."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"62453989EC0762EA"
+				"606BD6F121A796AF"
+			]
+			id: "2EC32E46525E3E08"
+			tasks: [
+				{
+					id: "478CEF0EEA30548D"
+					type: "item"
+					item: "naturesaura:moss_generator"
+				}
+				{
+					id: "7660050C963D311C"
+					type: "item"
+					item: "minecraft:mossy_cobblestone"
+					count: 16L
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: -17.5d
+			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: [
+				"1074EAA509CF1984"
+				"2626A2F3A1782F83"
+				"47A262541C6569CA"
+				"606BD6F121A796AF"
+			]
+			id: "408BEB52388254EB"
+			tasks: [{
+				id: "242409E0E0F9DA10"
+				type: "item"
+				item: "naturesaura:slime_split_generator"
+			}]
+		}
+		{
+			icon: "naturesaura:potion_generator"
+			x: 13.0d
+			y: -15.5d
+			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: [
+				"4E340C8BF251D2E5"
+				"13D134D9CECC9EFA"
+			]
+			id: "6D9986288861DD33"
+			tasks: [
+				{
+					id: "40C6CC853DAE4C74"
+					type: "item"
+					item: "naturesaura:potion_generator"
+				}
+				{
+					id: "09715F46E2971309"
+					type: "item"
+					item: {
+						id: "minecraft:lingering_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:mundane"
+						}
+					}
+				}
+				{
+					id: "2B27C60900D7543C"
+					type: "item"
+					item: "minecraft:red_nether_bricks"
+					count: 12L
+				}
+				{
+					id: "702A072170C6AA6B"
+					type: "item"
+					item: "minecraft:nether_bricks"
+					count: 28L
+				}
+			]
+		}
+		{
+			icon: "naturesaura:chorus_generator"
+			x: 16.0d
+			y: -17.5d
+			shape: "circle"
+			description: [
+				"First of all, a &6chorus flower&r has to be grown at most about two blocks away from it."
+				"Once it has grown high enough, supplying the &5Reaper of Ender Heights&r with a &6redstone signal&r will cause it to start harvesting the entire plant, dispersing &2Aura&r in the process."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"606BD6F121A796AF"
+				"271AE89B1CA86C01"
+			]
+			id: "4A950435627703B1"
+			tasks: [
+				{
+					id: "0DF9AAB475C32E6E"
+					type: "item"
+					item: "naturesaura:chorus_generator"
+				}
+				{
+					id: "62608F035D4F70A5"
+					type: "item"
+					item: "minecraft:chorus_flower"
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: -14.5d
+			shape: "circle"
+			description: [
+				"The &5Firecracker Gaze&r seemingly shares this opinion especially: Consuming any fireworks that are &4dropped&r on the ground around it, it will shoot them up into the air."
+				""
+				"This implies that it would be wise to set up some sort of &4timer&r for its automation."
+				""
+				"For the complexity, especially the &6value&r of the items used in the firework's creation is of importance, but also, the amout of &6firework stars&r, the amout of &6colors&r and some other variables factor into the amout of &2Aura&r created from each shot."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"271AE89B1CA86C01"
+				"606BD6F121A796AF"
+			]
+			id: "526CDE91E43E448B"
+			tasks: [{
+				id: "4D755B39FE720E29"
+				type: "item"
+				item: "naturesaura:firework_generator"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -16.5d
+			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: [
+				"13D134D9CECC9EFA"
+				"1C8E72FDD4811D75"
+				"62453989EC0762EA"
+			]
+			id: "48933BEAA6C06E1A"
+			tasks: [{
+				id: "530FFBACF3EEAC82"
+				type: "item"
+				item: "naturesaura:oak_generator"
+			}]
+		}
+		{
+			icon: "minecraft:dragon_head"
+			x: 13.0d
+			y: -16.5d
+			shape: "circle"
+			description: ["Dropping an &5Ender Eye&r on the ground close to it will cause the rose to consume it and start dispersing its &2Aura&r into the environment."]
+			hide_dependency_lines: true
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "25DD5E2E07E4EB1A"
+			tasks: [
+				{
+					id: "111248D0377BE8E2"
+					type: "item"
+					item: "naturesaura:end_flower"
+				}
+				{
+					id: "3073A17E9F80E85C"
+					type: "kill"
+					entity: "minecraft:ender_dragon"
+					value: 1L
+				}
+				{
+					id: "14A345A07182A0C1"
+					type: "item"
+					item: "minecraft:ender_eye"
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: -17.5d
+			shape: "circle"
+			description: ["This can be made use of using the &5Herbivorous Absorber&r that will, when placed in the world, consume any small flower in the close vicinity and convert their energy into &2Aura&r."]
+			hide_dependency_lines: true
+			dependencies: [
+				"62453989EC0762EA"
+				"606BD6F121A796AF"
+			]
+			id: "7762800EB1C60718"
+			tasks: [{
+				id: "067D485A4D94AA87"
+				type: "item"
+				item: "naturesaura:flower_generator"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -13.0d
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "23FBED7C0340EA45"
+			tasks: [{
+				id: "32A3BA9BAA49A5EA"
+				type: "item"
+				item: "naturesaura:eye"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -17.0d
+			dependencies: ["23FBED7C0340EA45"]
+			id: "10527B01265A0F44"
+			tasks: [{
+				id: "0F68011D42B19B25"
+				type: "item"
+				item: "naturesaura:eye_improved"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["4E340C8BF251D2E5"]
+			id: "4D62C8BB702E6069"
+			tasks: [{
+				id: "2BA2E2B13E3B48FC"
+				type: "item"
+				item: {
+					id: "naturesaura:sky_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["4E340C8BF251D2E5"]
+			id: "03A2DF20BB1193D0"
+			tasks: [{
+				id: "15D6C1AC17012578"
+				type: "item"
+				item: {
+					id: "naturesaura:sky_chest"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["4E340C8BF251D2E5"]
+			id: "547BBD1C0F92A072"
+			tasks: [{
+				id: "69F9FF05D7B0E15B"
+				type: "item"
+				item: {
+					id: "naturesaura:sky_pants"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["4E340C8BF251D2E5"]
+			id: "0B5125D4B5EE6057"
+			tasks: [{
+				id: "7574F39363BC09C1"
+				type: "item"
+				item: {
+					id: "naturesaura:sky_shoes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["4E340C8BF251D2E5"]
+			id: "02CD9EFEE68CBA0A"
+			tasks: [{
+				id: "26986598E30B4570"
+				type: "item"
+				item: {
+					id: "naturesaura:sky_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["4E340C8BF251D2E5"]
+			id: "3C0154D8A459BF91"
+			tasks: [{
+				id: "3DCA61105753379B"
+				type: "item"
+				item: {
+					id: "naturesaura:sky_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-2095430484
+							-1558492576
+							-1614487248
+							188700128
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["4E340C8BF251D2E5"]
+			id: "061BE8DDF1D1DAA9"
+			tasks: [{
+				id: "01DFB0CF7FE61D3F"
+				type: "item"
+				item: {
+					id: "naturesaura:sky_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["4E340C8BF251D2E5"]
+			id: "583674AB153794BB"
+			tasks: [{
+				id: "5C1F4684A9834C12"
+				type: "item"
+				item: {
+					id: "naturesaura:sky_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["4E340C8BF251D2E5"]
+			id: "59A1D6AAFFD38119"
+			tasks: [{
+				id: "6F6CB06C0C32A1C7"
+				type: "item"
+				item: {
+					id: "naturesaura:sky_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -17.0d
+			dependencies: ["7591DDDBE81D6790"]
+			id: "0C09995550F3CE0F"
+			tasks: [{
+				id: "5B727BF8031CBE2E"
+				type: "item"
+				item: "naturesaura:infused_stone"
+			}]
+		}
+		{
+			icon: "naturesaura:animal_spawner"
+			x: 2.5d
+			y: -21.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"4E340C8BF251D2E5"
+				"7620EE9990A9DFB4"
+				"2708CCE704A1ECC0"
+			]
+			id: "04CD419F2D4AB1D0"
+			tasks: [
+				{
+					id: "6E0E4DD4120E3A81"
+					type: "item"
+					item: "naturesaura:animal_spawner"
+				}
+				{
+					id: "6F60329AA5737CA1"
+					type: "item"
+					item: "naturesaura:infused_brick"
+					count: 16L
+				}
+				{
+					id: "13A1AEE6383B3BB7"
+					type: "item"
+					item: "naturesaura:ancient_planks"
+					count: 4L
+				}
+				{
+					id: "35B6A4876A6FDB0C"
+					type: "item"
+					item: "minecraft:hay_block"
+					count: 16L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -21.0d
+			hide_dependency_lines: true
+			dependencies: ["741A9BB38F47B06A"]
+			id: "2708CCE704A1ECC0"
+			tasks: [{
+				id: "387C607741C2CE9B"
+				type: "item"
+				item: "naturesaura:birth_spirit"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -18.0d
+			dependencies: ["0C09995550F3CE0F"]
+			id: "50BE4323CEF3E376"
+			tasks: [{
+				id: "08FE2CC464B56688"
+				type: "item"
+				item: "naturesaura:infused_brick"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -16.5d
+			dependencies: ["62453989EC0762EA"]
+			id: "313DA4A93BD8D422"
+			tasks: [{
+				id: "6BDE2E7ED36273FB"
+				type: "item"
+				item: "naturesaura:aura_cache"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -17.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"4E340C8BF251D2E5"
+				"313DA4A93BD8D422"
+				"0C09995550F3CE0F"
+			]
+			id: "5EF9FD8680E66DE4"
+			tasks: [{
+				id: "4DF78828F3438713"
+				type: "item"
+				item: "naturesaura:aura_trove"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -11.0d
+			dependencies: ["4E340C8BF251D2E5"]
+			id: "3F195334C57E2029"
+			tasks: [{
+				id: "5CF78EF1F1BE8807"
+				type: "item"
+				item: "naturesaura:netherite_finder"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -15.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"264E33238FD5C2AC"
+				"606BD6F121A796AF"
+				"4E340C8BF251D2E5"
+			]
+			id: "47815E8CF5E984A9"
+			tasks: [{
+				id: "0F5C920EA374E2F5"
+				type: "item"
+				item: "naturesaura:pet_reviver"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -13.0d
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "4359D4E42416A597"
+			tasks: [{
+				id: "7281B46C467DCEC3"
+				type: "item"
+				item: "naturesaura:break_prevention"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -12.0d
+			description: ["Locate End City."]
+			dependencies: ["6FA1B1D053C2C065"]
+			id: "340EE143C784BA64"
+			tasks: [{
+				id: "0CBC1911CEE0BCB3"
+				type: "item"
+				item: "naturesaura:end_city_finder"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -15.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"0C09995550F3CE0F"
+				"2626A2F3A1782F83"
+				"271AE89B1CA86C01"
+			]
+			id: "2C1E7F68611F16D6"
+			tasks: [{
+				id: "07F91ED068BA1540"
+				type: "item"
+				item: {
+					id: "naturesaura:shockwave_creator"
+					Count: 1b
+					tag: {
+						x: 44.74506183179455d
+						y: 83.74293160172489d
+						z: -102.66041006271752d
+						air: 0b
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: -12.0d
+			description: ["Locate Nether Fortress."]
+			dependencies: ["47A262541C6569CA"]
+			id: "3C94B10599956154"
+			tasks: [{
+				id: "3A923216BF2E6E2E"
+				type: "item"
+				item: "naturesaura:fortress_finder"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -15.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"6FA1B1D053C2C065"
+				"4E340C8BF251D2E5"
+				"7620EE9990A9DFB4"
+				"1D61F379646FA8C8"
+			]
+			id: "625A280D9BAB39E5"
+			tasks: [{
+				id: "677159248B128DDC"
+				type: "item"
+				item: "naturesaura:death_ring"
+			}]
+		}
+		{
+			icon: "naturesaura:furnace_heater"
+			x: 10.0d
+			y: -14.5d
+			description: ["The Extraneous Firestarter is a way of using Aura to your benefit: It collects it from the world and powers a furnace without needing any fuel."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0C09995550F3CE0F"
+				"62453989EC0762EA"
+				"2626A2F3A1782F83"
+				"13D134D9CECC9EFA"
+			]
+			id: "2FAA582C635713A7"
+			tasks: [
+				{
+					id: "1D502199FC403024"
+					type: "item"
+					item: "naturesaura:furnace_heater"
+				}
+				{
+					id: "0A627955547AAD18"
+					type: "item"
+					item: "minecraft:furnace"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -15.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"2FAA582C635713A7"
+				"62453989EC0762EA"
+				"13D134D9CECC9EFA"
+			]
+			id: "268ABD1643F1BEC5"
+			tasks: [{
+				id: "7A3C7FC8C0F4BDA3"
+				type: "item"
+				item: "naturesaura:blast_furnace_booster"
+			}]
+		}
+		{
+			title: "The adventure rails"
+			x: 9.0d
+			y: -15.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"62453989EC0762EA"
+				"4E340C8BF251D2E5"
+				"2626A2F3A1782F83"
+				"47A262541C6569CA"
+				"6FA1B1D053C2C065"
+				"1C8E72FDD4811D75"
+				"1D61F379646FA8C8"
+				"271AE89B1CA86C01"
+				"7620EE9990A9DFB4"
+			]
+			id: "541EB42A3502F747"
+			tasks: [
+				{
+					id: "122D3A3A8C968789"
+					type: "item"
+					item: "naturesaura:dimension_rail_nether"
+				}
+				{
+					id: "39E7DC8FE6535781"
+					type: "item"
+					item: "naturesaura:dimension_rail_end"
+				}
+				{
+					id: "7260DD0DAA8FB84C"
+					type: "item"
+					item: "naturesaura:dimension_rail_overworld"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -15.5d
+			hide_dependency_lines: true
+			dependencies: ["7620EE9990A9DFB4"]
+			id: "305EE90B1032BA75"
+			tasks: [{
+				id: "1F2A7B451E9C6699"
+				type: "item"
+				item: "naturesaura:spring"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -14.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"6FA1B1D053C2C065"
+				"23FBED7C0340EA45"
+			]
+			id: "724E16B37808DCE9"
+			tasks: [{
+				id: "1FE9B08993080B89"
+				type: "item"
+				item: "naturesaura:chunk_loader"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -14.5d
+			hide_dependency_lines: true
+			dependencies: ["6FA1B1D053C2C065"]
+			id: "3A1F57CF67C4DBFE"
+			tasks: [{
+				id: "21AE8F3AE914E8E5"
+				type: "item"
+				item: "naturesaura:ender_crate"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -14.5d
+			hide_dependency_lines: true
+			dependencies: ["6FA1B1D053C2C065"]
+			id: "3912755F95BE2CDF"
+			tasks: [{
+				id: "2ABDFA2A144A1520"
+				type: "item"
+				item: "naturesaura:ender_access"
+			}]
+		}
+		{
+			title: "Aura Flower"
+			x: 9.0d
+			y: -14.5d
+			hide_dependency_lines: true
+			dependencies: ["111FCE085D6AC550"]
+			id: "4BCA238C4EE0BD35"
+			tasks: [
+				{
+					id: "4A2D44DA6B1BC450"
+					type: "item"
+					item: "naturesaura:warped_aura_mushroom"
+				}
+				{
+					id: "5C9002FD0DCAF753"
+					type: "item"
+					item: "naturesaura:aura_mushroom"
+				}
+				{
+					id: "103F9A61508D43E5"
+					type: "item"
+					item: "naturesaura:crimson_aura_mushroom"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -14.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"6FA1B1D053C2C065"
+				"4E340C8BF251D2E5"
+				"62453989EC0762EA"
+			]
+			id: "377D9C46FA725AB1"
+			tasks: [{
+				id: "32107BAA2F50DA7A"
+				type: "item"
+				item: "naturesaura:mover_cart"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -16.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"1D61F379646FA8C8"
+				"6FA1B1D053C2C065"
+			]
+			id: "0AC9519AF20DDAAD"
+			tasks: [{
+				id: "0C0A023B932A6EC4"
+				type: "item"
+				item: "naturesaura:spawn_lamp"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -16.5d
+			hide_dependency_lines: true
+			dependencies: ["23FBED7C0340EA45"]
+			id: "66CBFD4C91CFC831"
+			tasks: [{
+				id: "65664CBC8F09831E"
+				type: "item"
+				item: "naturesaura:animal_container"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -16.5d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "657E5AFF8D96E41F"
+			tasks: [{
+				id: "70B8C361900E38CD"
+				type: "item"
+				item: "naturesaura:placer"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -16.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"50BE4323CEF3E376"
+				"4E340C8BF251D2E5"
+			]
+			id: "187855ECC5C66261"
+			tasks: [{
+				id: "1FD31C1AFC91CCF8"
+				type: "item"
+				item: "naturesaura:snow_creator"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -16.5d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "0CF6166954E1FD7C"
+			tasks: [{
+				id: "0F269E542753C366"
+				type: "item"
+				item: "naturesaura:pickup_stopper"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -17.5d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "555C1574F2D6716B"
+			tasks: [{
+				id: "655DAD092E43363E"
+				type: "item"
+				item: "naturesaura:aura_timer"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -17.5d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "377381E839A4C259"
+			tasks: [{
+				id: "649284ACA58E392A"
+				type: "item"
+				item: "naturesaura:hopper_upgrade"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -16.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"271AE89B1CA86C01"
+				"4E340C8BF251D2E5"
+			]
+			id: "5480836D0540C2F4"
+			tasks: [{
+				id: "295E87D3C2ACA476"
+				type: "item"
+				item: "naturesaura:field_creator"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -17.5d
+			hide_dependency_lines: true
+			dependencies: ["23FBED7C0340EA45"]
+			id: "3E46BFE9CD66C880"
+			tasks: [{
+				id: "405679C1E28E80B8"
+				type: "item"
+				item: "naturesaura:aura_detector"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -17.5d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "4774E5DBE97FEB16"
+			tasks: [{
+				id: "51953550A6DB5628"
+				type: "item"
+				item: "naturesaura:range_visualizer"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -17.5d
+			dependencies: ["7591DDDBE81D6790"]
+			id: "7455494CC9E4DF8B"
+			tasks: [{
+				id: "50805B8B5DB1BD25"
+				type: "item"
+				item: "chromasky:magiccrystal"
+			}]
+		}
+	]
+}

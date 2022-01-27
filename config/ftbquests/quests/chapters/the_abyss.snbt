@@ -1,0 +1,2496 @@
+{
+	id: "706EC2E8B5481484"
+	group: "7F090E96EFD94B43"
+	order_index: 4
+	filename: "the_abyss"
+	title: "The abyss"
+	icon: "theabyss:node_shard"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: -3.5d
+			dependencies: ["5924A2719A053B61"]
+			id: "576F2384CF4A5DD7"
+			tasks: [{
+				id: "2F609584DBC74917"
+				type: "item"
+				item: "theabyss:abyssloranitem"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			dependencies: ["7591DDDBE81D6790"]
+			id: "5924A2719A053B61"
+			tasks: [{
+				id: "6EDC0A7D23EAC18F"
+				type: "item"
+				item: "theabyss:loranflower"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			dependencies: ["576F2384CF4A5DD7"]
+			id: "72A76CFCD3DBDAB9"
+			tasks: [{
+				id: "051DA2517B76FBE2"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "theabyss:abyssbookitem"
+					}
+				}
+			}]
+		}
+		{
+			title: "Abyss Portal"
+			icon: "theabyss:abyssportalstone"
+			x: -1.5d
+			y: -3.5d
+			description: [""]
+			dependencies: ["576F2384CF4A5DD7"]
+			id: "02E24F6032ED94A3"
+			tasks: [
+				{
+					id: "2F57393C2B729808"
+					type: "item"
+					item: "theabyss:abyssportalstone"
+					count: 10L
+				}
+				{
+					id: "0D6E56A04FFE9AA7"
+					type: "item"
+					item: {
+						id: "theabyss:theabyssdim"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			dependencies: ["02E24F6032ED94A3"]
+			id: "50F3AFDF64210C67"
+			tasks: [{
+				id: "242277B3818464CC"
+				type: "dimension"
+				dimension: "theabyss:theabyssdim"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -6.5d
+			dependencies: ["4426977D7ED752F4"]
+			id: "46AF23700351647F"
+			tasks: [{
+				id: "49F6DA5B6AD6DEDF"
+				type: "item"
+				item: "theabyss:abyssdiamond"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -8.0d
+			dependencies: ["46AF23700351647F"]
+			id: "5A20D2449CE912E3"
+			tasks: [{
+				id: "0950AA92F7A96674"
+				type: "item"
+				item: "theabyss:ultraabyssdiamond"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.5d
+			dependencies: ["5F91598E3C6509BB"]
+			id: "6BA1A90842584C08"
+			tasks: [{
+				id: "53FFEFFCEAE0ECF5"
+				type: "item"
+				item: "theabyss:unknown_diamond"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -6.5d
+			dependencies: ["5186597E9AACF6F0"]
+			id: "406D7606D7E5ACC5"
+			tasks: [{
+				id: "715CFF051BBF60FE"
+				type: "item"
+				item: "theabyss:abyssicediamond"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.5d
+			dependencies: ["425EFB238217FDE3"]
+			id: "6922F366FD53486C"
+			tasks: [{
+				id: "61CE394737B3AAF2"
+				type: "item"
+				item: "theabyss:abyssfirediamond"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -8.5d
+			dependencies: ["6BA1A90842584C08"]
+			id: "0E5E8CBB8A380F7E"
+			tasks: [{
+				id: "17CB86DE3AD2B7F7"
+				type: "item"
+				item: "theabyss:loran_energy"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -11.5d
+			dependencies: ["45E8BB444DBAAEA0"]
+			id: "51E27EF5043F1CB5"
+			tasks: [{
+				id: "0110894504101F35"
+				type: "item"
+				item: "theabyss:thunder_stone"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -9.5d
+			dependencies: ["377B8E23EDE65AD4"]
+			id: "2A37A693DFFADE0C"
+			tasks: [{
+				id: "11175D240A6B592F"
+				type: "item"
+				item: "theabyss:phantom_soul_item"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -10.0d
+			dependencies: ["7B56E21D3592FA35"]
+			id: "45E8BB444DBAAEA0"
+			tasks: [{
+				id: "5C71338F8F39DB37"
+				type: "item"
+				item: "theabyss:thunder_nugget"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -10.0d
+			dependencies: ["4D571C41AE6DBA08"]
+			id: "7DF4C56C2E4DBAF6"
+			tasks: [{
+				id: "377EDE7FD79CCFBF"
+				type: "item"
+				item: "theabyss:life_nugget"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -10.0d
+			dependencies: ["35D025140E375791"]
+			id: "36FF17F44B16FA23"
+			tasks: [{
+				id: "04AC5D0FACD34EC5"
+				type: "item"
+				item: "theabyss:abyssfirenug"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -10.0d
+			dependencies: ["5368DE820CC032B7"]
+			id: "2C6EC507A6C0A4EE"
+			tasks: [{
+				id: "74910A23CD8CCF70"
+				type: "item"
+				item: "theabyss:icora_nugget"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -10.0d
+			dependencies: ["48B2EA3BCB882162"]
+			id: "3C11D2D76EDAADD6"
+			tasks: [{
+				id: "38EF92CFF501D21E"
+				type: "item"
+				item: "thebeginning:lazarus_nugget"
+			}]
+		}
+		{
+			title: "Thunder Plant"
+			x: 4.0d
+			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["50F3AFDF64210C67"]
+			id: "7B56E21D3592FA35"
+			tasks: [{
+				id: "4111798A94976EB8"
+				type: "observation"
+				icon: "theabyss:abyssthunderplant"
+				timer: 1L
+				observe_type: 0
+				to_observe: "theabyss:abyssthunderplant"
+			}]
+		}
+		{
+			title: "Life Flower"
+			x: 5.5d
+			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["50F3AFDF64210C67"]
+			id: "4D571C41AE6DBA08"
+			tasks: [{
+				id: "49CFF4568B3A2450"
+				type: "observation"
+				icon: "theabyss:goldendeathplant"
+				timer: 1L
+				observe_type: 0
+				to_observe: "theabyss:goldendeathplant"
+			}]
+		}
+		{
+			title: "Fire Plant X"
+			x: 7.0d
+			y: -8.5d
+			dependencies: ["50F3AFDF64210C67"]
+			id: "35D025140E375791"
+			tasks: [{
+				id: "4A45633F2FE716B6"
+				type: "observation"
+				icon: "theabyss:fireplantx"
+				timer: 1L
+				observe_type: 0
+				to_observe: "theabyss:fireplantx"
+			}]
+		}
+		{
+			title: "Lazarus Flower"
+			x: 2.5d
+			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["63AF7FEF081583C8"]
+			id: "48B2EA3BCB882162"
+			tasks: [{
+				id: "7E8A904ADD22F7E9"
+				type: "observation"
+				icon: "thebeginning:lazarus_flower"
+				timer: 1L
+				observe_type: 0
+				to_observe: "thebeginning:lazarus_flower"
+			}]
+		}
+		{
+			title: "Icora Flower"
+			x: 8.5d
+			y: -8.5d
+			dependencies: ["1018CECF2CD1A0C9"]
+			id: "5368DE820CC032B7"
+			tasks: [{
+				id: "4F83A714CA731305"
+				type: "observation"
+				icon: "theabyss:icora_flower"
+				timer: 1L
+				observe_type: 0
+				to_observe: "theabyss:icora_flower"
+			}]
+		}
+		{
+			title: "Phantom"
+			x: 10.0d
+			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: ["04CD419F2D4AB1D0"]
+			id: "377B8E23EDE65AD4"
+			tasks: [{
+				id: "1BAC475885C3EF60"
+				type: "observation"
+				icon: "theabyss:eot_phantom_spawn_egg"
+				timer: 4L
+				observe_type: 5
+				to_observe: "theabyss:phantom_abyss_entity"
+			}]
+		}
+		{
+			title: "Unknown Ore"
+			icon: "theabyss:unknown_ore"
+			x: -1.5d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["50F3AFDF64210C67"]
+			id: "5F91598E3C6509BB"
+			tasks: [{
+				id: "3D275D6DACFD502A"
+				type: "observation"
+				icon: "theabyss:unknown_ore"
+				timer: 5L
+				observe_type: 0
+				to_observe: "theabyss:unknown_ore"
+			}]
+		}
+		{
+			title: "Ice Ore"
+			x: -0.5d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["50F3AFDF64210C67"]
+			id: "5186597E9AACF6F0"
+			tasks: [{
+				id: "4AB48EAA0DD6200D"
+				type: "observation"
+				icon: "theabyss:abyssiceore"
+				timer: 5L
+				observe_type: 0
+				to_observe: "theabyss:abyssiceore"
+			}]
+		}
+		{
+			title: "Fire Ore"
+			x: 0.5d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["50F3AFDF64210C67"]
+			id: "425EFB238217FDE3"
+			tasks: [{
+				id: "276D80ED41631453"
+				type: "observation"
+				icon: "theabyss:abyssfireore"
+				timer: 5L
+				observe_type: 0
+				to_observe: "theabyss:abyssfireore"
+			}]
+		}
+		{
+			title: "Abyss Ore"
+			x: -3.5d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["50F3AFDF64210C67"]
+			id: "4426977D7ED752F4"
+			tasks: [{
+				id: "61D10AA81F542FA7"
+				type: "observation"
+				icon: "theabyss:abyssore"
+				timer: 5L
+				observe_type: 0
+				to_observe: "theabyss:abyssore"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.5d
+			dependencies: ["50F3AFDF64210C67"]
+			id: "1018CECF2CD1A0C9"
+			tasks: [{
+				id: "6C41447E3F4CA625"
+				type: "dimension"
+				dimension: "theabyss:theabyssdimiceworld"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -6.5d
+			dependencies: ["77D3FC20B68C5A5B"]
+			id: "05DCFF5D8F3D5136"
+			tasks: [{
+				id: "3A495380B96C5429"
+				type: "dimension"
+				dimension: "theabyss:the_end_of_time"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -6.5d
+			dependencies: ["3BDB681140D956F1"]
+			id: "700FD15DE9E49D60"
+			tasks: [{
+				id: "59264C451B28FE2F"
+				type: "dimension"
+				dimension: "theabyss:the_end_of_time_2"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			dependencies: ["38E08D56032FEA54"]
+			id: "63AF7FEF081583C8"
+			tasks: [{
+				id: "38AC72096D492513"
+				type: "dimension"
+				dimension: "thebeginning:theabyssdimbeginning"
+			}]
+		}
+		{
+			title: "Florite Ore"
+			x: -2.5d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["63AF7FEF081583C8"]
+			id: "0611995CF6286BBD"
+			tasks: [{
+				id: "4C4BB0EC9E8DDF31"
+				type: "observation"
+				icon: "thebeginning:florite_ore"
+				timer: 5L
+				observe_type: 0
+				to_observe: "thebeginning:florite_ore"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.5d
+			dependencies: ["0611995CF6286BBD"]
+			id: "1ABFFC463B088605"
+			tasks: [{
+				id: "42A5A58E96559518"
+				type: "item"
+				item: "thebeginning:florite_ingot"
+			}]
+		}
+		{
+			title: "The Abyss Beginning Portal"
+			icon: "thebeginning:stable_obsidian"
+			x: -1.5d
+			y: -2.0d
+			dependencies: ["02E24F6032ED94A3"]
+			id: "38E08D56032FEA54"
+			tasks: [
+				{
+					id: "3E567A5673D37636"
+					type: "item"
+					item: "thebeginning:stable_obsidian"
+					count: 10L
+				}
+				{
+					id: "078DC531ADC97990"
+					type: "item"
+					item: {
+						id: "thebeginning:theabyssdimbeginning"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Abyss End Spider"
+			x: 12.0d
+			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: ["50F3AFDF64210C67"]
+			id: "324E9D65D883662B"
+			tasks: [{
+				id: "60DD0168C4798F09"
+				type: "observation"
+				icon: "theabyss:endspider_spawn_egg"
+				timer: 4L
+				observe_type: 5
+				to_observe: "theabyss:endspider"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -9.5d
+			dependencies: ["324E9D65D883662B"]
+			id: "337C3F133C360915"
+			tasks: [{
+				id: "524A033DB745218B"
+				type: "item"
+				item: "theabyss:nethernugget"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: ["50F3AFDF64210C67"]
+			id: "77D3FC20B68C5A5B"
+			tasks: [{
+				id: "5213A1805570F5FC"
+				type: "observation"
+				title: "The Roka End Boss"
+				icon: "theabyss:the_roka_end_boss_spawn_egg"
+				timer: 2L
+				observe_type: 5
+				to_observe: "theabyss:the_roka_end_boss"
+			}]
+		}
+		{
+			title: "Loot table roka"
+			x: 13.5d
+			y: -9.5d
+			dependencies: ["77D3FC20B68C5A5B"]
+			id: "4540074B663BFE37"
+			tasks: [
+				{
+					id: "5C1EBC26426921D1"
+					type: "item"
+					item: "minecraft:experience_bottle"
+				}
+				{
+					id: "1002BD8672C65C13"
+					type: "item"
+					item: {
+						id: "theabyss:abysssword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "22A287C7E8C2D0C7"
+					type: "item"
+					item: "theabyss:lost_id_01"
+				}
+				{
+					id: "0594E32D1FBD232C"
+					type: "observation"
+					title: "Shrine Of End (Good End)"
+					icon: "theabyss:eot_end_shrine"
+					timer: 5L
+					observe_type: 0
+					to_observe: "theabyss:eot_end_shrine"
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: ["50F3AFDF64210C67"]
+			id: "3BDB681140D956F1"
+			tasks: [{
+				id: "30352A034F451C6B"
+				type: "observation"
+				title: "Nosaj End Boss"
+				icon: "theabyss:nosaj_boss_spawn_egg"
+				timer: 2L
+				observe_type: 5
+				to_observe: "theabyss:nosaj_boss"
+			}]
+		}
+		{
+			title: "Loot Table Nosaj End"
+			x: 15.0d
+			y: -9.5d
+			dependencies: ["3BDB681140D956F1"]
+			id: "570F8686F5E9DC0A"
+			tasks: [
+				{
+					id: "0E93422F46E5EF41"
+					type: "item"
+					item: {
+						id: "theabyss:hammer_of_abyss"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6075A2252DB416F8"
+					type: "item"
+					item: "minecraft:experience_bottle"
+				}
+				{
+					id: "6AA3C351D472D75F"
+					type: "item"
+					item: "theabyss:lost_id_01"
+				}
+				{
+					id: "27654239253D1103"
+					type: "observation"
+					title: "Shrine Of End (Bad End)"
+					icon: "theabyss:eot_end_shrine_2"
+					timer: 5L
+					observe_type: 0
+					to_observe: "theabyss:eot_end_shrine_2"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -9.5d
+			dependencies: ["67323B8C47F85B81"]
+			id: "4E91A5667FCFB575"
+			tasks: [{
+				id: "29B77A8E3947A822"
+				type: "item"
+				item: "theabyss:scorpioneye"
+				count: 2L
+			}]
+		}
+		{
+			icon: "theabyss:netherscorpion_spawn_egg"
+			x: 11.0d
+			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: ["50F3AFDF64210C67"]
+			id: "67323B8C47F85B81"
+			tasks: [{
+				id: "6BC5D09768A2F6B3"
+				type: "observation"
+				title: "Scorpion"
+				icon: "theabyss:netherscorpion_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "theabyss:netherscorpion"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["50F3AFDF64210C67"]
+			id: "71FDC951F2CAEB6B"
+			tasks: [{
+				id: "34E54B472E8BAF5E"
+				type: "observation"
+				title: "Garnite Ore"
+				icon: "theabyss:garnite_ore"
+				timer: 0L
+				observe_type: 0
+				to_observe: "theabyss:garnite_ore"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -6.5d
+			dependencies: ["71FDC951F2CAEB6B"]
+			id: "503BA9C76DDA7B69"
+			tasks: [{
+				id: "148B39113F5EC321"
+				type: "item"
+				item: "theabyss:garnite_ingot"
+			}]
+		}
+		{
+			icon: "theabyss:fusionore"
+			x: -5.5d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["50F3AFDF64210C67"]
+			id: "10ABD134A75AE62D"
+			tasks: [{
+				id: "264694426B9293BE"
+				type: "observation"
+				title: "Fusion Ore"
+				icon: "theabyss:fusionore"
+				timer: 5L
+				observe_type: 0
+				to_observe: "theabyss:fusionore"
+			}]
+		}
+		{
+			title: "Abyss Armor"
+			x: -3.5d
+			y: -16.5d
+			hide_dependency_lines: true
+			dependencies: ["46AF23700351647F"]
+			id: "3F70EA6C821A0B59"
+			tasks: [
+				{
+					id: "7F14DD565B037AE8"
+					type: "item"
+					item: {
+						id: "theabyss:abyssarmorarmor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0E6676B41EE0D5FD"
+					type: "item"
+					item: {
+						id: "theabyss:abyssarmorarmor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-2095430484
+								-1558492576
+								-1614487248
+								188700128
+							]
+						}
+					}
+				}
+				{
+					id: "07A6BBFCF686213D"
+					type: "item"
+					item: {
+						id: "theabyss:abyssarmorarmor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4CC58E2ED3AA4B4D"
+					type: "item"
+					item: {
+						id: "theabyss:abyssarmorarmor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Abyss Ultra Armor"
+			x: -5.5d
+			y: -17.5d
+			hide_dependency_lines: true
+			dependencies: ["5A20D2449CE912E3"]
+			id: "16EFF7FCEE25B121"
+			tasks: [
+				{
+					id: "223354F0310FA874"
+					type: "item"
+					item: {
+						id: "theabyss:abyssultraarmorarmor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-2095430484
+								-1558492576
+								-1614487248
+								188700128
+							]
+						}
+					}
+				}
+				{
+					id: "5D485BBF24436F7F"
+					type: "item"
+					item: {
+						id: "theabyss:abyssultraarmorarmor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5499A67E5DCE4159"
+					type: "item"
+					item: {
+						id: "theabyss:abyssultraarmorarmor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "57BABA80F54EEF7D"
+					type: "item"
+					item: {
+						id: "theabyss:abyssultraarmorarmor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Fire Armor"
+			x: -0.5d
+			y: -17.5d
+			hide_dependency_lines: true
+			dependencies: ["6922F366FD53486C"]
+			id: "555B0828B4D937D6"
+			tasks: [
+				{
+					id: "38A2DBDF7F3F5AD0"
+					type: "item"
+					item: {
+						id: "theabyss:abyssfirearmorarmor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-2095430484
+								-1558492576
+								-1614487248
+								188700128
+							]
+						}
+					}
+				}
+				{
+					id: "1D53242F22FB0F3C"
+					type: "item"
+					item: {
+						id: "theabyss:abyssfirearmorarmor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1EF075CF87AE39BF"
+					type: "item"
+					item: {
+						id: "theabyss:abyssfirearmorarmor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "23E41474989E728F"
+					type: "item"
+					item: {
+						id: "theabyss:abyssfirearmorarmor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Ice Armor"
+			x: -2.5d
+			y: -16.5d
+			hide_dependency_lines: true
+			dependencies: ["406D7606D7E5ACC5"]
+			id: "4A18E2B3C74480FC"
+			tasks: [
+				{
+					id: "28EB35133F4EA67F"
+					type: "item"
+					item: {
+						id: "theabyss:abyssicearmorarmor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-2095430484
+								-1558492576
+								-1614487248
+								188700128
+							]
+						}
+					}
+				}
+				{
+					id: "1B10D09A3AD29AD1"
+					type: "item"
+					item: {
+						id: "theabyss:abyssicearmorarmor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "710684223ABA2B49"
+					type: "item"
+					item: {
+						id: "theabyss:abyssicearmorarmor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3F7FCC092524B6C9"
+					type: "item"
+					item: {
+						id: "theabyss:abyssicearmorarmor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Fusion Armor"
+			x: -5.5d
+			y: -16.5d
+			hide_dependency_lines: true
+			dependencies: ["5A693930CD50579E"]
+			id: "4046934E0BA4DF1F"
+			tasks: [
+				{
+					id: "65AED94596DFF4C6"
+					type: "item"
+					item: {
+						id: "theabyss:fusionarmor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-2095430484
+								-1558492576
+								-1614487248
+								188700128
+							]
+						}
+					}
+				}
+				{
+					id: "5F3E149ACE96BBD5"
+					type: "item"
+					item: {
+						id: "theabyss:fusionarmor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6946BFED49D555D7"
+					type: "item"
+					item: {
+						id: "theabyss:fusionarmor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "69A613D2359CEA27"
+					type: "item"
+					item: {
+						id: "theabyss:fusionarmor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Unknown Armor"
+			x: -3.5d
+			y: -17.5d
+			hide_dependency_lines: true
+			dependencies: ["6BA1A90842584C08"]
+			id: "128E549E8F187279"
+			tasks: [
+				{
+					id: "6F10346646A87042"
+					type: "item"
+					item: {
+						id: "theabyss:unknown_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-2095430484
+								-1558492576
+								-1614487248
+								188700128
+							]
+						}
+					}
+				}
+				{
+					id: "6F9E99E0097D4564"
+					type: "item"
+					item: {
+						id: "theabyss:unknown_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "71F39372C837A1B9"
+					type: "item"
+					item: {
+						id: "theabyss:unknown_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "702428D0A1D594BF"
+					type: "item"
+					item: {
+						id: "theabyss:unknown_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Phantom Armor"
+			x: -4.5d
+			y: -17.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"128E549E8F187279"
+				"6FDBB9217E16AE9E"
+			]
+			id: "62D6E9C1DFDFEBFE"
+			tasks: [
+				{
+					id: "46ACADA0713A4F51"
+					type: "item"
+					item: {
+						id: "theabyss:phantom_armor_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-2095430484
+								-1558492576
+								-1614487248
+								188700128
+							]
+						}
+					}
+				}
+				{
+					id: "527371445EA65AD2"
+					type: "item"
+					item: {
+						id: "theabyss:phantom_armor_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6D7FF04BFE53185C"
+					type: "item"
+					item: {
+						id: "theabyss:phantom_armor_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3F38AEF6D2E23A4D"
+					type: "item"
+					item: {
+						id: "theabyss:phantom_armor_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Bone Armor"
+			x: 0.5d
+			y: -16.5d
+			hide_dependency_lines: true
+			dependencies: ["5924A2719A053B61"]
+			id: "268E17FEA20DC179"
+			tasks: [
+				{
+					id: "1EACEBF303CC8B3E"
+					type: "item"
+					item: {
+						id: "theabyss:bone_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-2095430484
+								-1558492576
+								-1614487248
+								188700128
+							]
+						}
+					}
+				}
+				{
+					id: "5D0F5C2187BDF6EE"
+					type: "item"
+					item: {
+						id: "theabyss:bone_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5F3755416D20B61A"
+					type: "item"
+					item: {
+						id: "theabyss:bone_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5DF67DE22E526C87"
+					type: "item"
+					item: {
+						id: "theabyss:bone_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Netherfire Armor"
+			x: -1.5d
+			y: -16.5d
+			hide_dependency_lines: true
+			dependencies: ["555B0828B4D937D6"]
+			id: "7BCFAF46CEF707A4"
+			tasks: [
+				{
+					id: "06F6809962FAB129"
+					type: "item"
+					item: {
+						id: "theabyss:abyss_fire_upg_armor_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-2095430484
+								-1558492576
+								-1614487248
+								188700128
+							]
+						}
+					}
+				}
+				{
+					id: "133D416139B588CD"
+					type: "item"
+					item: {
+						id: "theabyss:abyss_fire_upg_armor_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6DA505BB966CB1DE"
+					type: "item"
+					item: {
+						id: "theabyss:abyss_fire_upg_armor_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2B447924E803C543"
+					type: "item"
+					item: {
+						id: "theabyss:abyss_fire_upg_armor_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Garnite Armor"
+			x: -0.5d
+			y: -16.5d
+			hide_dependency_lines: true
+			dependencies: ["503BA9C76DDA7B69"]
+			id: "68A73F1B1806ED68"
+			tasks: [
+				{
+					id: "6E984AD6FE2914CE"
+					type: "item"
+					item: {
+						id: "theabyss:garnit_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-2095430484
+								-1558492576
+								-1614487248
+								188700128
+							]
+						}
+					}
+				}
+				{
+					id: "6C7AB4F10D469696"
+					type: "item"
+					item: {
+						id: "theabyss:garnit_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5C9CA52155BB96FC"
+					type: "item"
+					item: {
+						id: "theabyss:garnit_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "62F855FF9D2E38C3"
+					type: "item"
+					item: {
+						id: "theabyss:garnit_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Unorithe Armor"
+			x: -4.5d
+			y: -16.5d
+			hide_dependency_lines: true
+			dependencies: ["62D6E9C1DFDFEBFE"]
+			id: "2D2FEC036FD0C501"
+			tasks: [
+				{
+					id: "22355A34B451F94A"
+					type: "item"
+					item: {
+						id: "theabyss:unorithe_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-2095430484
+								-1558492576
+								-1614487248
+								188700128
+							]
+						}
+					}
+				}
+				{
+					id: "439CAF079F8ABDD7"
+					type: "item"
+					item: {
+						id: "theabyss:unorithe_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4B1A8B8D5CC7E655"
+					type: "item"
+					item: {
+						id: "theabyss:unorithe_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00340EBA1EEBB0AD"
+					type: "item"
+					item: {
+						id: "theabyss:unorithe_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Unorithe Armor (&4Netherite&r Fusion)"
+			x: -6.5d
+			y: -17.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"34C4E61DA6186995"
+				"2D2FEC036FD0C501"
+			]
+			id: "5DAFFCB6C8E103AA"
+			tasks: [
+				{
+					id: "53248556AA8B097E"
+					type: "item"
+					item: {
+						id: "theabyss:unorithe_a_netherithe_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-2095430484
+								-1558492576
+								-1614487248
+								188700128
+							]
+						}
+					}
+				}
+				{
+					id: "4C6BA15D5DDC9DD8"
+					type: "item"
+					item: {
+						id: "theabyss:unorithe_a_netherithe_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5C2806C2FC5E43FF"
+					type: "item"
+					item: {
+						id: "theabyss:unorithe_a_netherithe_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "20EA00F3208F8ED0"
+					type: "item"
+					item: {
+						id: "theabyss:unorithe_a_netherithe_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Abyss Armor (&4Netherite&r Fusion)"
+			x: -6.5d
+			y: -16.5d
+			hide_dependency_lines: true
+			dependencies: ["3F70EA6C821A0B59"]
+			id: "7320543F4B7E7743"
+			tasks: [
+				{
+					id: "4300ECEAE1DCCDFC"
+					type: "item"
+					item: {
+						id: "theabyss:abyss_a_netherithe_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-2095430484
+								-1558492576
+								-1614487248
+								188700128
+							]
+						}
+					}
+				}
+				{
+					id: "719DA3A300F5877A"
+					type: "item"
+					item: {
+						id: "theabyss:abyss_a_netherithe_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2AA4DDE70AFABB80"
+					type: "item"
+					item: {
+						id: "theabyss:abyss_a_netherithe_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5718D253BE4E35F8"
+					type: "item"
+					item: {
+						id: "theabyss:abyss_a_netherithe_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Netherfire Armor (&4Netherite&r Fusion)"
+			x: -1.5d
+			y: -17.5d
+			hide_dependency_lines: true
+			dependencies: ["7BCFAF46CEF707A4"]
+			id: "4326BEE25C3694B2"
+			tasks: [
+				{
+					id: "5A34994816396248"
+					type: "item"
+					item: {
+						id: "theabyss:abyss_fire_upg_a_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-2095430484
+								-1558492576
+								-1614487248
+								188700128
+							]
+						}
+					}
+				}
+				{
+					id: "2D0FBCA94E925DB8"
+					type: "item"
+					item: {
+						id: "theabyss:abyss_fire_upg_a_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "53BF60B3CCA8ABF5"
+					type: "item"
+					item: {
+						id: "theabyss:abyss_fire_upg_a_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "733E0F6BFE5B36DB"
+					type: "item"
+					item: {
+						id: "theabyss:abyss_fire_upg_a_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Ice Armor (Netherite Fusion)"
+			x: -2.5d
+			y: -17.5d
+			hide_dependency_lines: true
+			dependencies: ["4A18E2B3C74480FC"]
+			id: "561B49896ECB4E94"
+			tasks: [
+				{
+					id: "3BD2F308C5CFD20D"
+					type: "item"
+					item: {
+						id: "theabyss:abyss_ice_a_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-2095430484
+								-1558492576
+								-1614487248
+								188700128
+							]
+						}
+					}
+				}
+				{
+					id: "645B77270960BDBD"
+					type: "item"
+					item: {
+						id: "theabyss:abyss_ice_a_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "501FCD81A27E6740"
+					type: "item"
+					item: {
+						id: "theabyss:abyss_ice_a_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "32635033E6FC485E"
+					type: "item"
+					item: {
+						id: "theabyss:abyss_ice_a_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Florite Armor"
+			x: 0.5d
+			y: -17.5d
+			hide_dependency_lines: true
+			dependencies: ["1ABFFC463B088605"]
+			id: "458A3A2B01475AC9"
+			tasks: [
+				{
+					id: "48EF1D78689DD040"
+					type: "item"
+					item: {
+						id: "thebeginning:florite_armor_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-2095430484
+								-1558492576
+								-1614487248
+								188700128
+							]
+						}
+					}
+				}
+				{
+					id: "6E49ACD92C37EB27"
+					type: "item"
+					item: {
+						id: "thebeginning:florite_armor_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4F19490381D6F951"
+					type: "item"
+					item: {
+						id: "thebeginning:florite_armor_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "299FFA2B42E3AE35"
+					type: "item"
+					item: {
+						id: "thebeginning:florite_armor_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -6.5d
+			dependencies: ["10ABD134A75AE62D"]
+			id: "4DA4860D10C053FE"
+			tasks: [{
+				id: "205DC50E939B6346"
+				type: "item"
+				item: "theabyss:unactivefusioningot"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -8.0d
+			dependencies: ["4DA4860D10C053FE"]
+			id: "5A693930CD50579E"
+			tasks: [{
+				id: "67012D753EE9CC09"
+				type: "item"
+				item: "theabyss:fusioningot"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -12.5d
+			dependencies: ["794DA0DEE3A46620"]
+			id: "6FDBB9217E16AE9E"
+			tasks: [{
+				id: "41AD8D3194BA34E9"
+				type: "item"
+				item: "theabyss:phantom_ingot"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -11.0d
+			dependencies: ["2A37A693DFFADE0C"]
+			id: "794DA0DEE3A46620"
+			tasks: [{
+				id: "36AD7BF5F478418E"
+				type: "item"
+				item: "theabyss:phantom_essence"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -14.0d
+			dependencies: ["6FDBB9217E16AE9E"]
+			id: "34C4E61DA6186995"
+			tasks: [{
+				id: "2333B85ED84A07E9"
+				type: "item"
+				item: "theabyss:unorithe_ingot"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -8.0d
+			id: "0EDA74D35E1FB320"
+			tasks: [{
+				id: "0422D05B88019AAF"
+				type: "item"
+				item: "theabyss:slime_stage_1"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -9.5d
+			dependencies: ["0EDA74D35E1FB320"]
+			id: "5368FE45A9FDF3CF"
+			tasks: [{
+				id: "1EE798A422BFED30"
+				type: "item"
+				item: "theabyss:slime_stage_2"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -11.0d
+			dependencies: ["5368FE45A9FDF3CF"]
+			id: "449ACAA40F1A017D"
+			tasks: [{
+				id: "7B8ADD6C57B738E5"
+				type: "item"
+				item: "theabyss:slime_stage_3"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -12.5d
+			dependencies: ["449ACAA40F1A017D"]
+			id: "7516C939B91E17F1"
+			tasks: [{
+				id: "48F4FA0F38C4DE79"
+				type: "item"
+				item: "theabyss:slime_stage_4"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -21.0d
+			dependencies: ["29842ADFFB75F30B"]
+			id: "781CCCDAF09D095E"
+			tasks: [{
+				id: "38828B053F527B07"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_reg"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 18.0d
+			y: -17.5d
+			dependencies: ["29842ADFFB75F30B"]
+			id: "2CBC28537C4AAF05"
+			tasks: [{
+				id: "623AAB231FE23F15"
+				type: "item"
+				item: {
+					id: "thebeginning:ring_of_nature"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 17.0d
+			y: -17.0d
+			dependencies: ["29842ADFFB75F30B"]
+			id: "4F31D2F6EE0A6CEC"
+			tasks: [{
+				id: "19A5A1807AEE8E1A"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_freeze"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 18.5d
+			y: -20.0d
+			dependencies: ["29842ADFFB75F30B"]
+			id: "3DAD61C93A5BEB99"
+			tasks: [{
+				id: "0E8AEC1DD21543AF"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_thunder"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: -17.5d
+			dependencies: ["29842ADFFB75F30B"]
+			id: "4F651D90C4CFE66F"
+			tasks: [{
+				id: "794B2DFD22921ED0"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_ocean"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 18.5d
+			y: -18.5d
+			dependencies: ["29842ADFFB75F30B"]
+			id: "3310D5178BC7A4BC"
+			tasks: [{
+				id: "05ADC19AA59BD090"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_teleport"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: -18.5d
+			dependencies: ["29842ADFFB75F30B"]
+			id: "5C576C199F4D4E9B"
+			tasks: [{
+				id: "1AEA35CDBC7CAE3A"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_eagle"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: -16.0d
+			dependencies: ["4F31D2F6EE0A6CEC"]
+			id: "79DFADF999BEC94F"
+			tasks: [{
+				id: "4C158731005AE0CC"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_time"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: -20.5d
+			dependencies: ["29842ADFFB75F30B"]
+			id: "6F3A70F9F0366A2C"
+			tasks: [{
+				id: "72A4DC112F178F6A"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_invisibility"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: -16.5d
+			dependencies: ["29842ADFFB75F30B"]
+			id: "772F6C120264AD33"
+			tasks: [{
+				id: "456C2589A8D1A52F"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_fire"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 16.5d
+			y: -21.5d
+			dependencies: ["29842ADFFB75F30B"]
+			id: "28D5472FF7D54D5A"
+			tasks: [{
+				id: "3B8DA2E14EA45C9F"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_telekinetic"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 16.5d
+			y: -19.0d
+			hide_dependency_lines: true
+			dependencies: ["334AC51D18410A5C"]
+			size: 3.0d
+			id: "29842ADFFB75F30B"
+			tasks: [{
+				id: "631F13283B68F1C6"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_ring"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: -19.5d
+			hide_dependency_lines: false
+			dependencies: ["29842ADFFB75F30B"]
+			id: "58A26B1D4B2FB993"
+			tasks: [{
+				id: "631E6A08F7D1032C"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_speed"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: -21.5d
+			dependencies: ["6F3A70F9F0366A2C"]
+			id: "41E5DE1D14B94A89"
+			tasks: [{
+				id: "3E99234AF1FD7EEE"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_ghosts"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: -21.0d
+			dependencies: ["29842ADFFB75F30B"]
+			id: "29103121806797BB"
+			tasks: [{
+				id: "6295933B70C4E510"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_jugger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.5d
+			dependencies: ["576F2384CF4A5DD7"]
+			id: "334AC51D18410A5C"
+			tasks: [{
+				id: "568FFC343A43F69A"
+				type: "item"
+				item: "theabyss:loran_ingot"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -14.5d
+			hide_dependency_lines: true
+			dependencies: ["5924A2719A053B61"]
+			id: "19DB367708C9638F"
+			tasks: [
+				{
+					id: "1E9124938B908B96"
+					type: "item"
+					item: {
+						id: "theabyss:bone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-2095430484
+								-1558492576
+								-1614487248
+								188700128
+							]
+						}
+					}
+				}
+				{
+					id: "627665DAE252064B"
+					type: "item"
+					item: {
+						id: "theabyss:bone_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "58DCA7E0112BECEB"
+					type: "item"
+					item: {
+						id: "theabyss:bone_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0CD37ABFB8666F4B"
+					type: "item"
+					item: {
+						id: "theabyss:bone_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "10120F4AA2E0AFED"
+					type: "item"
+					item: {
+						id: "theabyss:bone_sword_item"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -14.5d
+			id: "12BBA3CCC4AB7082"
+			tasks: [{
+				id: "7022F112CFDC6047"
+				type: "item"
+				item: {
+					id: "theabyss:abyssfiresword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -14.5d
+			id: "6656AF5655017B46"
+			tasks: [
+				{
+					id: "08BAD46F5766D9B1"
+					type: "item"
+					item: {
+						id: "theabyss:abysspoisonsword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0AA3F56D2C89D9A0"
+					type: "item"
+					item: {
+						id: "theabyss:abysspickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5B1C5F20FDE6F4DC"
+					type: "item"
+					item: {
+						id: "theabyss:abyssspade"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6AE16DF53E138336"
+					type: "item"
+					item: {
+						id: "theabyss:abysshoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -14.5d
+			id: "488DB087AA170083"
+			tasks: [
+				{
+					id: "1DAB199256FDA1F4"
+					type: "item"
+					item: {
+						id: "theabyss:ultraabysspoisonsword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "301D373B235022B9"
+					type: "item"
+					item: {
+						id: "theabyss:ultraabyssaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4BFD01153DD74A06"
+					type: "item"
+					item: {
+						id: "theabyss:ultraabysspickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "230A625FB4D67027"
+					type: "item"
+					item: {
+						id: "theabyss:ultraabyssspade"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "41BBF9A619C7216B"
+					type: "item"
+					item: {
+						id: "theabyss:ultraabysshoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -14.5d
+			id: "1C8C87EECC22274D"
+			tasks: [
+				{
+					id: "64F1871E29F2C2C8"
+					type: "item"
+					item: {
+						id: "theabyss:fusionsword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7C9683EC213D1E1C"
+					type: "item"
+					item: {
+						id: "theabyss:fusionpickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4C3A8E748169B94A"
+					type: "item"
+					item: {
+						id: "theabyss:fusionaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1227F20497D5B660"
+					type: "item"
+					item: {
+						id: "theabyss:fusionshovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "68EFED1CA3F713AE"
+					type: "item"
+					item: {
+						id: "theabyss:fusionhoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -14.5d
+			id: "3F7F10492C5DC208"
+			tasks: [{
+				id: "1D194E0A5FD17D59"
+				type: "item"
+				item: {
+					id: "theabyss:unknown_sword_upg"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -14.5d
+			id: "42EE8414EA91B3F8"
+			tasks: [
+				{
+					id: "154F1FB10B06C682"
+					type: "item"
+					item: {
+						id: "theabyss:unknown_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0579E077EEEFD2F4"
+					type: "item"
+					item: {
+						id: "theabyss:unknown_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2D4FC4C32F774D65"
+					type: "item"
+					item: {
+						id: "theabyss:unknown_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2FC3C74B3E35E23D"
+					type: "item"
+					item: {
+						id: "theabyss:unknown_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "41663913558B62C8"
+					type: "item"
+					item: {
+						id: "theabyss:unknown_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -14.5d
+			id: "004BE37356747254"
+			tasks: [{
+				id: "2157065495FEACB3"
+				type: "item"
+				item: {
+					id: "theabyss:unknown_sword_upg_2"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-2095430484
+							-1558492576
+							-1614487248
+							188700128
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -13.5d
+			id: "6C26A1666A64DF4D"
+			tasks: [
+				{
+					id: "2645B880D7CE7DAC"
+					type: "item"
+					item: {
+						id: "theabyss:phantom_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0D2E52C09F400CB5"
+					type: "item"
+					item: {
+						id: "theabyss:phantom_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "77940B03C2148111"
+					type: "item"
+					item: {
+						id: "theabyss:phantom_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0149F895D925F0B9"
+					type: "item"
+					item: {
+						id: "theabyss:phantom_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -13.5d
+			id: "445748FBD5B46253"
+			tasks: [
+				{
+					id: "584AEC20BB34162A"
+					type: "item"
+					item: {
+						id: "theabyss:garnit_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2739A7D2C1B12EE9"
+					type: "item"
+					item: {
+						id: "theabyss:garnit_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7576F96172068EC1"
+					type: "item"
+					item: {
+						id: "theabyss:garnit_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "219B2DCD506D73E5"
+					type: "item"
+					item: {
+						id: "theabyss:garnit_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+	]
+}
