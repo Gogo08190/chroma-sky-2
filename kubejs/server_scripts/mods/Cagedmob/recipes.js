@@ -11,35 +11,24 @@ onEvent('recipes', event => {
     	}
     ],
     "samplerTier": 2,
-    "environments": ["minecraft:diamond_ore"],
+    "environments": ["farm"],
     "growTicks": 1200,
     "results": [
     	{
     		"chance": 0.5,
     		"output": {
-    			"item": "minecraft:feather"
+    			"item": "theabyss:phantom_soul_item"
     		},
     		"minAmount": 1,
-    		"maxAmount": 2
-    	},
-    	{
-    		"chance": 0.8,
-    			"output": {
-    				"item": "minecraft:chicken"
-    			},
-    			"output_cooked": {
-    				"item": "minecraft:cooked_chicken"
-    			},
-    			"minAmount": 1,
-    			"maxAmount": 1
+    		"maxAmount": 4
     	},
     	{
     		"chance": 0.4,
     		"output": {
-    			"item": "minecraft:egg"
+    			"item": "minecraft:phantom_membrane"
     		},
     		"minAmount": 1,
-    		"maxAmount": 1
+    		"maxAmount": 4
     	}
     ]
 
