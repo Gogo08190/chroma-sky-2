@@ -43,7 +43,7 @@ onEvent('recipes', event => {
               "item": "naturesaura:birth_spirit"
           },
           {
-              "item": "minecraft:feather"
+              "item": "rats:feathery_wing"
           },
           {
               "item": "minecraft:phantom_membrane"
@@ -53,23 +53,4 @@ onEvent('recipes', event => {
       "aura": 50000,
       "time": 60
   })
-
-  event.custom({
-      "type": "naturesaura:animal_spawner",
-      "ingredients": [
-          {
-              "item": "naturesaura:birth_spirit"
-          },
-          {
-              "item": "rats:feathery_wing"
-          },
-          {
-              "item": "minecraft:phantom_membrane"
-          }
-      ],
-      "entity": "theabyss:phantom_abyss_entity_lv_l_3",
-      "aura": 50000,
-      "time": 60
-  })
-
 });
