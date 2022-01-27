@@ -3,7 +3,7 @@ onEvent('recipes', event => {
   event.custom(
     {
     "type": "cagedmobs:mob_data",
-    "entity": "theabyss:phantom_abyss_entity_lv_l_3",
+    "entity": "theabyss:phantom_abyss_entity",
     "conditions": [
     	{
     		"type": "forge:mod_loaded",
