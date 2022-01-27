@@ -67,4 +67,22 @@ onEvent("recipes", (event) => {
     rec(["1x minecraft:string", "1x minecraft:stick"], "minecraft:bow");
     rec(["1x minecraft:string", "1x minecraft:stick"], "minecraft:fishing_rod");
     rec(["1x minecraft:glass"], "minecraft:glass_bottle");
+    rec(["4x mysticalagriculture:wither_skeleton_essence"], "minecraft:wither_skeleton_skull");
+    rec(["mysticalagriculture:wither_skeleton_essence"], "chromasky:drop_of_darkness");
+
+    rec(['projectex:basic_compressed_collector', '5x projectex:basic_relay'], 'projectex:basic_power_flower');
+    rec(['projectex:dark_compressed_collector', '5x projectex:dark_relay'], 'projectex:dark_power_flower');
+    rec(['projectex:red_compressed_collector', '5x projectex:red_relay'], 'projectex:red_power_flower');
+    rec(['projectex:magenta_compressed_collector', '5x projectex:magenta_relay'], 'projectex:magenta_power_flower');
+    rec(['projectex:pink_compressed_collector', '5x projectex:pink_relay'], 'projectex:pink_power_flower');
+    rec(['projectex:purple_compressed_collector', '5x projectex:purple_relay'], 'projectex:purple_power_flower');
+    rec(['projectex:violet_compressed_collector', '5x projectex:violet_relay'], 'projectex:violet_power_flower');
+    rec(['projectex:blue_compressed_collector', '5x projectex:blue_relay'], 'projectex:blue_power_flower');
+    rec(['projectex:cyan_compressed_collector', '5x projectex:cyan_relay'], 'projectex:cyan_power_flower');
+    rec(['projectex:green_compressed_collector', '5x projectex:green_relay'], 'projectex:green_power_flower');
+    rec(['projectex:lime_compressed_collector', '5x projectex:lime_relay'], 'projectex:lime_power_flower');
+    rec(['projectex:yellow_compressed_collector', '5x projectex:yellow_relay'], 'projectex:yellow_power_flower');
+    rec(['projectex:orange_compressed_collector', '5x projectex:orange_relay'], 'projectex:orange_power_flower');
+    rec(['projectex:white_compressed_collector', '5x projectex:white_relay'], 'projectex:white_power_flower');
+    rec(['projectex:fading_compressed_collector', '5x projectex:fading_relay'], 'projectex:fading_power_flower');
 });
