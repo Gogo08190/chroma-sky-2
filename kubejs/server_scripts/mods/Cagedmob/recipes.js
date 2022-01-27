@@ -11,7 +11,7 @@ onEvent('recipes', event => {
     	}
     ],
     "samplerTier": 2,
-    "environments": ["farm"],
+    "environments": ["abyss"],
     "growTicks": 1200,
     "results": [
     	{
