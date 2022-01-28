@@ -222,7 +222,8 @@ events.listen('jei.hide.items', function (event) {
     Item.of('animalcrops:seeds', '{entity:"minecraft:donkey"}'),
     Item.of('animalcrops:seeds', '{entity:"minecraft:cat"}'),
     Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:platinum"}'),
-    Item.of('modularrouters:creative_module', '{modularrouters:{ModuleFilter:{}}}')
+    Item.of('modularrouters:creative_module', '{modularrouters:{ModuleFilter:{}}}'),
+    'theabyss:auto_smelt_pick_axe'
   ])
 })
 
