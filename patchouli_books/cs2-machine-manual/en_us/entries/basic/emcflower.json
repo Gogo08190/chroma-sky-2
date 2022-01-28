@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Description here"
+            "text": "$(c)The Power Flower Fabricator$(0) will allow you to assemble components to create Power Flower from ProjectE."
         },
         {
             "type": "patchouli:multiblock",

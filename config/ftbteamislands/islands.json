@@ -34,6 +34,12 @@
         "desc": "This is an island",
         "structure": "lostisland.nbt",
         "image": "chromasky2:islands/screens/island.png"
+      },
+      {
+        "name": "The Kriksnem Island - by Miniteck",
+        "desc": "This is an island",
+        "structure": "kriksnem.nbt",
+        "image": "chromasky2:islands/screens/island.png"
       }
     ]
   }
