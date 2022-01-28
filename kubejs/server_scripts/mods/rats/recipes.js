@@ -5,4 +5,12 @@ onEvent('recipes', event => {
   event.smelting(Item.of('industrialforegoing:tinydryrubber', 1), 'rats:plastic_waste').xp(0.05)
   event.blasting(Item.of('industrialforegoing:tinydryrubber', 1), 'rats:plastic_waste').xp(0.05)
   event.remove({ output: 'rats:rat_upgrade_basic' })
+  event.shaped('rats:plastic_waste', [
+    'OOO',
+    'ORO',
+    'OOO'
+    ], {
+      O: 'thermal:cured_rubber',
+      R: 'minecraft:glass_bottle'
+    })
 });
