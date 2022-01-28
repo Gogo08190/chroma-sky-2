@@ -126,6 +126,6 @@ e.custom({
 
   // 5 Inputs
   assembling5(20, 2000, 'thermal:electrum_plate', 2, 'thermal:redstone_servo', 1, 'thermal:rf_coil', 2, 'immersiveengineering:coil_hv', 1, 'extendedcrafting:redstone_ingot', 3, 'chromasky:excitationcoil')
-  assembling5(100, 10000, 'minecraft:wheat_seeds', 1, 'mysticalagriculture:prosperity_gemstone', 4, 'mysticalagriculture:prosperity_block', 4, 'mysticalagriculture:prosperity_ingot', 4, 'powah:charged_snowball', 4, 'mysticalagriculture:prosperity_seed_base')
+  assembling5(100, 10000, 'minecraft:wheat_seeds', 1, 'mysticalagriculture:prosperity_gemstone', 4, 'mysticalagriculture:prosperity_block', 4, 'mysticalagriculture:prosperity_ingot', 4, 'naturesaura:infused_iron', 2, 'mysticalagriculture:prosperity_seed_base')
   assembling5(80, 1000000, 'extendedcrafting:redstone_ingot_block', 8, 'powah:blazing_crystal_block', 8, 'powah:energized_steel_block', 8, 'immersiveengineering:rs_engineering', 3, 'naturesaura:nature_altar', 1, 'mysticalagriculture:infusion_altar')
 })
