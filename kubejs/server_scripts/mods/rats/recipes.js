@@ -1,7 +1,7 @@
 onEvent('recipes', event => {
 
-  event.remove({id: "rats:plastic_smelting"})
-  event.remove({id: "rats:plastic_blast_furnace"})
+  event.remove({ id: "rats:plastic_smelting" })
+  event.remove({ id: "rats:plastic_blast_furnace" })
   event.smelting(Item.of('industrialforegoing:tinydryrubber', 1), 'rats:plastic_waste').xp(0.05)
   event.blasting(Item.of('industrialforegoing:tinydryrubber', 1), 'rats:plastic_waste').xp(0.05)
   event.remove({ output: 'rats:rat_upgrade_basic' })
@@ -9,8 +9,16 @@ onEvent('recipes', event => {
     'OOO',
     'ORO',
     'OOO'
-    ], {
-      O: 'thermal:cured_rubber',
-      R: 'minecraft:glass_bottle'
-    })
+  ], {
+    O: 'thermal:cured_rubber',
+    R: 'minecraft:glass_bottle'
+  })
+  event.shaped('8x rats:garbage_pile', [
+    'OOO',
+    'ORO',
+    'OOO'
+  ], {
+    O: 'minecraft:dirt',
+    R: 'rats:plastic_waste'
+  })
 });
