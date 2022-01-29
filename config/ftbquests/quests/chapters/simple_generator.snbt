@@ -1,0 +1,182 @@
+{
+	id: "3C01AD765B22EB65"
+	group: "258B5ED587988A28"
+	order_index: 5
+	filename: "simple_generator"
+	title: "Simple Generators"
+	icon: "simplegens:simple_tnt"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.5d
+			y: 0.0d
+			shape: "diamond"
+			description: ["Produces Energy From: Non-fluid furnace fuels."]
+			dependencies: [
+				"47A4D81697C274A3"
+				"4053153C0E72EB77"
+			]
+			id: "7E9DD458AABBD30B"
+			tasks: [{
+				id: "050DF05BF0A0BDFF"
+				type: "item"
+				item: "simplegens:simple_combustion"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			shape: "diamond"
+			description: [
+				"Produces Energy From: Food items."
+				""
+				"The better the food, the more total energy it will produce."
+			]
+			dependencies: ["47A4D81697C274A3"]
+			id: "146C53A8A9791F7F"
+			tasks: [{
+				id: "1EFEF5193F5FFF4A"
+				type: "item"
+				item: "simplegens:simple_culinary"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			shape: "diamond"
+			description: ["Produces Energy From: Ender related items."]
+			dependencies: ["47A4D81697C274A3"]
+			id: "1748E308B3D6722F"
+			tasks: [{
+				id: "597343D9DB01072F"
+				type: "item"
+				item: "simplegens:simple_ender"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			shape: "diamond"
+			description: ["Produces Energy From: Mob heads, eggs, bones etc. The remnants of dead creatures."]
+			dependencies: ["47A4D81697C274A3"]
+			id: "15611B2C31972008"
+			tasks: [{
+				id: "06079455C4C084FD"
+				type: "item"
+				item: "simplegens:simple_soul"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			shape: "diamond"
+			description: ["Produces Energy From: Nether related items, mostly the Nether Star."]
+			dependencies: ["47A4D81697C274A3"]
+			id: "6623FD04B87209F2"
+			tasks: [{
+				id: "7200074BA30BD3C4"
+				type: "item"
+				item: "simplegens:simple_nether"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			shape: "diamond"
+			description: ["Produces Energy From: Pink items"]
+			dependencies: ["47A4D81697C274A3"]
+			id: "119C36B8ABD53234"
+			tasks: [{
+				id: "3EA044B65E3F7B5F"
+				type: "item"
+				item: "simplegens:simple_pink"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			shape: "diamond"
+			description: ["Produces Energy From: TNT and other explosives."]
+			dependencies: ["47A4D81697C274A3"]
+			id: "2D7BA38A637A00D8"
+			tasks: [{
+				id: "778A814D5BA485BF"
+				type: "item"
+				item: "simplegens:simple_tnt"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			shape: "diamond"
+			description: ["Produces Energy From: Potions"]
+			dependencies: ["47A4D81697C274A3"]
+			id: "253C0B15CF823B84"
+			tasks: [{
+				id: "09C2D4AEC1C5473A"
+				type: "item"
+				item: "simplegens:simple_potion"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			shape: "diamond"
+			description: ["Produces Energy From: Hot Fluids"]
+			dependencies: ["47A4D81697C274A3"]
+			id: "446297733A791177"
+			tasks: [{
+				id: "5F956BB236B1AF97"
+				type: "item"
+				item: "simplegens:simple_geothermal"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			shape: "diamond"
+			description: ["Produces Energy From: Combustible fluids"]
+			dependencies: ["47A4D81697C274A3"]
+			id: "519819B4C8940774"
+			tasks: [{
+				id: "4571525D67DAF09A"
+				type: "item"
+				item: "simplegens:simple_fluid_combustion"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			shape: "diamond"
+			description: ["Produces Energy From: Steam"]
+			dependencies: [
+				"47A4D81697C274A3"
+				"59BACDF85CF0148A"
+				"7C297E764A14FBDA"
+			]
+			id: "04087156B23C7207"
+			tasks: [{
+				id: "6DE61AEDAC0C6334"
+				type: "item"
+				item: "simplegens:simple_turbine"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			shape: "diamond"
+			description: ["Produces Energy From: Fluid forms of XP"]
+			dependencies: [
+				"47A4D81697C274A3"
+				"20BCDE9BEC4E4609"
+			]
+			id: "7F17936189D389B3"
+			tasks: [{
+				id: "15FB4F82A23577C2"
+				type: "item"
+				item: "simplegens:simple_xp"
+			}]
+		}
+	]
+}

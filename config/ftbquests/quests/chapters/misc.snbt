@@ -430,6 +430,18 @@
 			x: 2.0d
 			y: -3.0d
 			shape: "rsquare"
+			description: [
+				"&lBinding an Entangled Block&r"
+				"1. Craft an Entangled Block and an Entangled Binder"
+				"2. Place down your Entangled Block"
+				"3. Right-Click on the block you want to bind with the Entangled Binder"
+				"4. Right-Click on your Entangled Block with the Entangled Binder"
+				""
+				"&lUnbinding an Entangled Block&r"
+				"1. Select an empty slot on your hotbar"
+				"2. Start crouching"
+				"3. Right-Click on the Entangled Block"
+			]
 			dependencies: [
 				"39DB67EE674F41A4"
 				"2C8FDC0987A55F71"
@@ -449,6 +461,7 @@
 			x: 2.0d
 			y: -4.0d
 			shape: "rsquare"
+			description: ["Entangled Binder Allows you to control what blocks bind together!"]
 			dependencies: [
 				"243FA1E08B56689C"
 				"088D692E25F62BFD"

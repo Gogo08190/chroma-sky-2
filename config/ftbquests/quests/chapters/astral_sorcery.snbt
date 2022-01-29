@@ -40,6 +40,7 @@
 			x: -16.5d
 			y: -6.5d
 			shape: "diamond"
+			description: ["It is the first tier of crafting altar and is used throughout the Exploration chapter of the Astral Tome."]
 			size: 3.0d
 			id: "4629A552492B890B"
 			tasks: [{
@@ -52,6 +53,7 @@
 			x: -16.5d
 			y: -12.0d
 			shape: "diamond"
+			description: ["It is the second tier of crafting altar and is used throughout the Attunement chapter of the Astral Tome."]
 			hide_dependency_lines: true
 			dependencies: ["4629A552492B890B"]
 			size: 3.0d
@@ -66,6 +68,7 @@
 			x: -10.5d
 			y: -6.0d
 			shape: "diamond"
+			description: ["It is the third tier of crafting altar and is used throughout the Constellation chapter of the Astral Tome."]
 			hide_dependency_lines: true
 			dependencies: ["13C3047AC4A33314"]
 			size: 3.0d
@@ -80,6 +83,7 @@
 			x: -9.5d
 			y: -11.5d
 			shape: "diamond"
+			description: ["It is the fourth and last tier of crafting altar and is used throughout the Radiance chapter of the Astral Tome. It can contain more Starlight and adds 4 more slots for crafting."]
 			hide_dependency_lines: true
 			dependencies: ["62FFB55E9CF351CE"]
 			size: 3.0d
@@ -94,6 +98,15 @@
 			x: -17.5d
 			y: -11.0d
 			shape: "diamond"
+			description: [
+				"It is used to attune Rock Crystals, Celestial Crystals, and (when attuning to a bright constellation) players for further crafting, rituals, or perks."
+				""
+				"After completing the structure described in the following section Construction, Spectral Relays must be placed on the Sooty Marble to attune the Altar to a specific constellation."
+				""
+				"The placement of these Relays can be displayed when the constellation is in the sky and the player is holding its Constellation Paper in either hand; the blocks to place the Relays on will emit dark blue particles."
+				""
+				"When the Attunement Altar is fully set up Rock Crystals and Celestial Crystals can be thrown onto the Altar to attune them."
+			]
 			dependencies: ["13C3047AC4A33314"]
 			id: "66C53CA36AD3422B"
 			tasks: [{
@@ -215,6 +228,7 @@
 			x: -15.5d
 			y: -5.5d
 			shape: "diamond"
+			description: ["It is used to activate Astral Sorcery's crafting altars, as well as the Starlight Infuser."]
 			dependencies: ["4629A552492B890B"]
 			id: "5AF41D8E497E6D5F"
 			tasks: [{
@@ -245,6 +259,13 @@
 			x: -17.0d
 			y: -10.5d
 			shape: "diamond"
+			description: [
+				"It is used to direct Starlight from a Collector Crystal, Celestial Collector Crystal, Lens, or PrismLens to a block."
+				""
+				"Right-clicking on one of the aforementioned blocks with the Linking Tool will display a \"Selected <block>!\" message in the chat log. Right-clicking blocks will direct a ray of starlight to the selected blocks with the text \"Linked <block> to a block!\" Shift right-clicking on the starlight-producing blocks will erase all existing starlight rays and display the message \"Unlinked all links!\" in the chat log."
+				""
+				"Switching to another item will display \"Stopped linking!\" in the chat log and finishing the linking process."
+			]
 			dependencies: ["13C3047AC4A33314"]
 			id: "6398164082354B4C"
 			tasks: [{
@@ -257,6 +278,15 @@
 			x: -15.0d
 			y: -12.5d
 			shape: "diamond"
+			description: [
+				"When right clicked on a block, it places a light source."
+				""
+				"If there is already a light source present then it will be removed."
+				""
+				"When shift-right clicked on a block, it turns it into an unbreakable Translucent Block. Shift-right clicking on a translucent block reverts it to its previous state."
+				""
+				"The wand can be crafted with any dye to change the color of placed light sources."
+			]
 			dependencies: ["13C3047AC4A33314"]
 			id: "27D048A6864628CC"
 			tasks: [{
@@ -275,6 +305,15 @@
 			x: -16.0d
 			y: -13.5d
 			shape: "diamond"
+			description: [
+				"It is used to aid block placement."
+				""
+				"While wielding the wand, sneak right-click on a block in the world to set it as the template block to place down."
+				""
+				"While wielding the wand, sneak right-click on a block in the world to set it as the template block to place down."
+				""
+				""
+			]
 			dependencies: ["13C3047AC4A33314"]
 			id: "713929DF8E2D89FA"
 			tasks: [{
@@ -311,6 +350,7 @@
 			x: -17.0d
 			y: -13.5d
 			shape: "diamond"
+			description: ["When the player right clicks with the wand, they are pulled in the direction they are looking."]
 			dependencies: ["13C3047AC4A33314"]
 			id: "39C6B50124D42720"
 			tasks: [{
@@ -341,6 +381,7 @@
 			x: -18.0d
 			y: -7.0d
 			shape: "diamond"
+			description: ["Right-clicking while outdoors during nighttime displays a view of the night sky's stars, among which the stars of constellations stand out."]
 			dependencies: ["4629A552492B890B"]
 			id: "3C875390A73994D5"
 			tasks: [{
@@ -372,6 +413,7 @@
 			x: -18.0d
 			y: -11.5d
 			shape: "diamond"
+			description: ["It is used to affect the area around it with the attuned Rock Crystal or Celestial Crystal. A list of constellations and their given effects is listed below."]
 			dependencies: ["13C3047AC4A33314"]
 			id: "746A7EE37E8E8A0D"
 			tasks: [{
@@ -384,6 +426,13 @@
 			x: -12.0d
 			y: -5.5d
 			shape: "diamond"
+			description: [
+				"It is used to infuse various items with Starlight to transform them (such as turning Aquamarines into Resonating Gems) and turning Crystal tools into their infused counterparts."
+				""
+				"In order for an infusion to occur, the pits around the Infuser must be filled with Liquid Starlight source blocks."
+				""
+				"When an infusion occurs there is a chance for one or more Liquid Starlight blocks to be consumed."
+			]
 			dependencies: ["62FFB55E9CF351CE"]
 			id: "7E5C6859951B0E01"
 			tasks: [{
@@ -396,6 +445,17 @@
 			x: -10.5d
 			y: -10.5d
 			shape: "diamond"
+			description: [
+				"It can hold up to 24 buckets of any fluid. Depending on the amount of fluid stored, a block representing the fluid rotating in the center of the Chalice will proportionally change size."
+				""
+				"When there is between 1-11 buckets of fluid stored, one \"tendril\" of the fluid will orbit around the chalice, and at 12-24 buckets of fluid stored, two \"tendrils\" will orbit."
+				""
+				"Mechanical fluid transfer can only occur through the bottom side of the block."
+				""
+				"The Containment Chalice is able to interact with blocks within a 16 block radius of itself if there is a line of sight without any opaque blocks."
+				""
+				"It will pull Liquid Starlight from Lightwells in this range, speed up and automatically refill Starlight Infusers in this range, and react with other compatible Chalices in this range."
+			]
 			dependencies: ["47814EBAB3AEBA79"]
 			id: "2D36C42031376EA3"
 			tasks: [{
@@ -408,6 +468,7 @@
 			x: -18.0d
 			y: -6.0d
 			shape: "diamond"
+			description: ["It is used to generate Liquid Starlight. It is only able to hold 2 Buckets' worth of Liquid Starlight. In order for generation to occur, one must place an Aquamarine or Rock Crystal above it."]
 			dependencies: ["4629A552492B890B"]
 			id: "0A9A2C121E1687EA"
 			tasks: [{
@@ -420,6 +481,7 @@
 			x: -15.5d
 			y: -11.0d
 			shape: "diamond"
+			description: ["It is used to discover bright and dim Constellations, provided that the appropriate Constellation Papers have been acquired."]
 			dependencies: ["13C3047AC4A33314"]
 			id: "3DD78732FEC19A3B"
 			tasks: [{
@@ -432,6 +494,11 @@
 			x: -9.5d
 			y: -13.5d
 			shape: "diamond"
+			description: [
+				"It is used to discover any Constellations (bright, dim, and faint), provided that the appropriate Constellation Papers have been acquired."
+				""
+				"It functions similarly to the Looking Glass; right-clicking the placed block at night will show a view of the night sky's stars, among which the stars of constellations stand out."
+			]
 			dependencies: ["47814EBAB3AEBA79"]
 			id: "3F609DCAB4F3DE55"
 			tasks: [{
@@ -444,6 +511,11 @@
 			x: -12.0d
 			y: -6.5d
 			shape: "diamond"
+			description: [
+				"The table has two slots - the first one accepts Parchment, Water Bottles, Books and enchantable items, the second accepts Infused Glass and Engraved Glass."
+				""
+				"Right clicking the table with them will insert the item, shift-right clicking with an empty hand will remove items instead."
+			]
 			dependencies: ["62FFB55E9CF351CE"]
 			id: "63E1B2CBCAF13DF2"
 			tasks: [{
@@ -456,6 +528,7 @@
 			x: -10.0d
 			y: -7.5d
 			shape: "diamond"
+			description: [""]
 			dependencies: ["62FFB55E9CF351CE"]
 			id: "6D4A4E324E1C0E53"
 			tasks: [{
@@ -468,6 +541,16 @@
 			x: -16.0d
 			y: -10.5d
 			shape: "diamond"
+			description: [
+				"It is used to teleport players to other Celestial Gateways."
+				""
+				"When the structure (see Construction below) is built correctly, approaching the Gateway will cause the area around the player to darken into a panoramic night sky."
+				""
+				"Celestial Gateways that can be teleported to are depicted with larger yellow stars among the starry backdrop."
+				""
+				"Sneaking or holding right-click while looking at one will teleport the player to that Gateway after a few seconds"
+				""
+			]
 			dependencies: ["13C3047AC4A33314"]
 			id: "46C48AA4C777EA44"
 			tasks: [{
@@ -486,6 +569,13 @@
 			x: -8.5d
 			y: -10.5d
 			shape: "diamond"
+			description: [
+				" It forms the core of an advanced multi-block. "
+				""
+				"A Containment Chalice must be placed on top of the fountain and supplied with Liquid Starlight for the structure to operate."
+				""
+				"Its exact function is determined by the Prime attached to the fountain's bottom side."
+			]
 			dependencies: ["47814EBAB3AEBA79"]
 			id: "144249D46BDAA7A7"
 			tasks: [{
@@ -522,6 +612,15 @@
 			x: -17.0d
 			y: -8.0d
 			shape: "diamond"
+			description: [
+				"It can either be used to bring more starlight to a Luminous Crafting Table (or any of its upgrades), to set the target Constellation of an Attunement Altar, or to provide items for an Iridescent Altar."
+				""
+				"When placed in a multiblock structure (as described below) with a clear view of the sky and a Glass Lens put into it, the Spectral Relay will bring more starlight to the closest Luminous Crafting Table (or any upgrade) in a 16 blocks radius around itself."
+				""
+				"Multiple Relays in a 16 block radius will have diminishing effects."
+				""
+				"When placed around an Iridescent Altar on the sooty marble, Relays will be highlighted during crafting, showing an image of an item to place on them to continue crafting."
+			]
 			dependencies: ["4629A552492B890B"]
 			id: "0853D7AF14502242"
 			tasks: [{
@@ -534,6 +633,11 @@
 			x: -11.0d
 			y: -7.5d
 			shape: "diamond"
+			description: [
+				"It is similar in function to the Lens, but can redirect multiple beams from one prism."
+				""
+				"The amount of Starlight is divided between all outgoing beams."
+			]
 			dependencies: ["62FFB55E9CF351CE"]
 			id: "4BF1A4BEDE69C8AA"
 			tasks: [{
@@ -552,6 +656,15 @@
 			x: -15.0d
 			y: -11.5d
 			shape: "diamond"
+			description: [
+				"It is used to redirect Starlight in the Starlight network. It can be linked to and linked from by the Linking Tool."
+				""
+				"It can accept Starlight from multiple sources, but it can only emit one ray."
+				""
+				"The size of the Rock Crystal or Celestial Crystal is proportional to the amount of Lenses created, with the size being divided by 80 and rounded down to get the amount of Lenses, with one Lens being the minimum."
+				""
+				"The purity and cutting of the Crystal used affect the amount of Starlight lost when transferring through the Lens."
+			]
 			dependencies: ["13C3047AC4A33314"]
 			id: "3B9339C64369C08A"
 			tasks: [{
@@ -582,6 +695,11 @@
 			x: -9.0d
 			y: -6.5d
 			shape: "diamond"
+			description: [
+				"It is used to act as a proxy for active rituals at any distance."
+				""
+				"The Anchors must be linked with a Linking Tool."
+			]
 			dependencies: ["62FFB55E9CF351CE"]
 			id: "5CD01CC064448ABE"
 			tasks: [{

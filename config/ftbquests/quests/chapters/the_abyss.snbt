@@ -31,8 +31,9 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -2.5d
+			x: -5.5d
+			y: -1.0d
+			description: ["A book that tells you the stats of the mobs."]
 			dependencies: ["576F2384CF4A5DD7"]
 			id: "72A76CFCD3DBDAB9"
 			tasks: [{
@@ -164,8 +165,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -9.5d
+			x: 17.0d
+			y: -10.0d
 			dependencies: ["377B8E23EDE65AD4"]
 			id: "2A37A693DFFADE0C"
 			tasks: [{
@@ -233,12 +234,14 @@
 			title: "Thunder Plant"
 			x: 4.0d
 			y: -8.5d
+			description: ["Look at the plant"]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "7B56E21D3592FA35"
 			tasks: [{
 				id: "4111798A94976EB8"
 				type: "observation"
+				title: "Thunder Plant"
 				icon: "theabyss:abyssthunderplant"
 				timer: 1L
 				observe_type: 0
@@ -249,12 +252,14 @@
 			title: "Life Flower"
 			x: 5.5d
 			y: -8.5d
+			description: ["Look at the flower"]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "4D571C41AE6DBA08"
 			tasks: [{
 				id: "49CFF4568B3A2450"
 				type: "observation"
+				title: "Life Flower"
 				icon: "theabyss:goldendeathplant"
 				timer: 1L
 				observe_type: 0
@@ -265,11 +270,14 @@
 			title: "Fire Plant X"
 			x: 7.0d
 			y: -8.5d
+			description: ["Look at the plant"]
+			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "35D025140E375791"
 			tasks: [{
 				id: "4A45633F2FE716B6"
 				type: "observation"
+				title: "Fire Plant X"
 				icon: "theabyss:fireplantx"
 				timer: 1L
 				observe_type: 0
@@ -280,12 +288,14 @@
 			title: "Lazarus Flower"
 			x: 2.5d
 			y: -8.5d
+			description: ["Look at the flower"]
 			hide_dependency_lines: true
 			dependencies: ["63AF7FEF081583C8"]
 			id: "48B2EA3BCB882162"
 			tasks: [{
 				id: "7E8A904ADD22F7E9"
 				type: "observation"
+				title: "Lazarus Flower"
 				icon: "thebeginning:lazarus_flower"
 				timer: 1L
 				observe_type: 0
@@ -296,11 +306,14 @@
 			title: "Icora Flower"
 			x: 8.5d
 			y: -8.5d
+			description: ["Look at the flower"]
+			hide_dependency_lines: true
 			dependencies: ["1018CECF2CD1A0C9"]
 			id: "5368DE820CC032B7"
 			tasks: [{
 				id: "4F83A714CA731305"
 				type: "observation"
+				title: "Icora Flower"
 				icon: "theabyss:icora_flower"
 				timer: 1L
 				observe_type: 0
@@ -309,14 +322,16 @@
 		}
 		{
 			title: "Phantom"
-			x: 10.0d
-			y: -8.0d
+			x: 17.0d
+			y: -8.5d
+			description: ["Look at an phantom and kill it"]
 			hide_dependency_lines: true
 			dependencies: ["04CD419F2D4AB1D0"]
 			id: "377B8E23EDE65AD4"
 			tasks: [{
 				id: "1BAC475885C3EF60"
 				type: "observation"
+				title: "Phantom"
 				icon: "theabyss:eot_phantom_spawn_egg"
 				timer: 4L
 				observe_type: 5
@@ -328,12 +343,14 @@
 			icon: "theabyss:unknown_ore"
 			x: -1.5d
 			y: -5.0d
+			description: ["Look at the block"]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "5F91598E3C6509BB"
 			tasks: [{
 				id: "3D275D6DACFD502A"
 				type: "observation"
+				title: "Unknown Ore"
 				icon: "theabyss:unknown_ore"
 				timer: 5L
 				observe_type: 0
@@ -344,12 +361,14 @@
 			title: "Ice Ore"
 			x: -0.5d
 			y: -5.0d
+			description: ["Look at the block"]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "5186597E9AACF6F0"
 			tasks: [{
 				id: "4AB48EAA0DD6200D"
 				type: "observation"
+				title: "Ice Ore"
 				icon: "theabyss:abyssiceore"
 				timer: 5L
 				observe_type: 0
@@ -360,12 +379,14 @@
 			title: "Fire Ore"
 			x: 0.5d
 			y: -5.0d
+			description: ["Look at the block"]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "425EFB238217FDE3"
 			tasks: [{
 				id: "276D80ED41631453"
 				type: "observation"
+				title: "Fire Ore"
 				icon: "theabyss:abyssfireore"
 				timer: 5L
 				observe_type: 0
@@ -376,12 +397,14 @@
 			title: "Abyss Ore"
 			x: -3.5d
 			y: -5.0d
+			description: ["Look at the block"]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "4426977D7ED752F4"
 			tasks: [{
 				id: "61D10AA81F542FA7"
 				type: "observation"
+				title: "Abyss Ore"
 				icon: "theabyss:abyssore"
 				timer: 5L
 				observe_type: 0
@@ -391,7 +414,10 @@
 		{
 			x: 2.5d
 			y: -3.5d
-			dependencies: ["50F3AFDF64210C67"]
+			dependencies: [
+				"50F3AFDF64210C67"
+				"6185EB5C5215F063"
+			]
 			id: "1018CECF2CD1A0C9"
 			tasks: [{
 				id: "6C41447E3F4CA625"
@@ -400,8 +426,8 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: -6.5d
+			x: 5.5d
+			y: -3.5d
 			dependencies: ["77D3FC20B68C5A5B"]
 			id: "05DCFF5D8F3D5136"
 			tasks: [{
@@ -411,8 +437,8 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: -6.5d
+			x: 8.5d
+			y: -2.0d
 			dependencies: ["3BDB681140D956F1"]
 			id: "700FD15DE9E49D60"
 			tasks: [{
@@ -436,12 +462,14 @@
 			title: "Florite Ore"
 			x: -2.5d
 			y: -5.0d
+			description: ["Look at the block"]
 			hide_dependency_lines: true
 			dependencies: ["63AF7FEF081583C8"]
 			id: "0611995CF6286BBD"
 			tasks: [{
 				id: "4C4BB0EC9E8DDF31"
 				type: "observation"
+				title: "Florite Ore"
 				icon: "thebeginning:florite_ore"
 				timer: 5L
 				observe_type: 0
@@ -488,14 +516,16 @@
 		}
 		{
 			title: "Abyss End Spider"
-			x: 12.0d
-			y: -8.0d
+			x: 4.5d
+			y: -15.0d
+			description: ["Look at the abyss end spider and kill it"]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "324E9D65D883662B"
 			tasks: [{
 				id: "60DD0168C4798F09"
 				type: "observation"
+				title: "Abyss End Spider"
 				icon: "theabyss:endspider_spawn_egg"
 				timer: 4L
 				observe_type: 5
@@ -503,8 +533,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: -9.5d
+			x: 4.5d
+			y: -17.0d
 			dependencies: ["324E9D65D883662B"]
 			id: "337C3F133C360915"
 			tasks: [{
@@ -514,8 +544,9 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: -8.0d
+			x: 5.5d
+			y: -2.0d
+			description: ["Look at the roka end and kill it"]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "77D3FC20B68C5A5B"
@@ -531,8 +562,8 @@
 		}
 		{
 			title: "Loot table roka"
-			x: 13.5d
-			y: -9.5d
+			x: 7.0d
+			y: -2.0d
 			dependencies: ["77D3FC20B68C5A5B"]
 			id: "4540074B663BFE37"
 			tasks: [
@@ -569,8 +600,9 @@
 			]
 		}
 		{
-			x: 15.0d
-			y: -8.0d
+			x: 8.5d
+			y: -3.5d
+			description: ["Look at the nosaj end boos and kill it"]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "3BDB681140D956F1"
@@ -586,8 +618,8 @@
 		}
 		{
 			title: "Loot Table Nosaj End"
-			x: 15.0d
-			y: -9.5d
+			x: 7.0d
+			y: -3.5d
 			dependencies: ["3BDB681140D956F1"]
 			id: "570F8686F5E9DC0A"
 			tasks: [
@@ -624,8 +656,8 @@
 			]
 		}
 		{
-			x: 11.0d
-			y: -9.5d
+			x: 10.0d
+			y: -17.0d
 			dependencies: ["67323B8C47F85B81"]
 			id: "4E91A5667FCFB575"
 			tasks: [{
@@ -637,8 +669,9 @@
 		}
 		{
 			icon: "theabyss:netherscorpion_spawn_egg"
-			x: 11.0d
-			y: -8.0d
+			x: 10.0d
+			y: -15.0d
+			description: ["Look at a scorpion and kill it"]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "67323B8C47F85B81"
@@ -655,6 +688,7 @@
 		{
 			x: -4.5d
 			y: -5.0d
+			description: ["Look at the block"]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "71FDC951F2CAEB6B"
@@ -683,6 +717,7 @@
 			icon: "theabyss:fusionore"
 			x: -5.5d
 			y: -5.0d
+			description: ["Look at the block"]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "10ABD134A75AE62D"
@@ -1361,8 +1396,8 @@
 		}
 		{
 			title: "Unorithe Armor (&4Netherite&r Fusion)"
-			x: -6.5d
-			y: -17.5d
+			x: 0.5d
+			y: -15.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"34C4E61DA6186995"
@@ -1424,8 +1459,8 @@
 		}
 		{
 			title: "Abyss Armor (&4Netherite&r Fusion)"
-			x: -6.5d
-			y: -16.5d
+			x: -5.5d
+			y: -15.5d
 			hide_dependency_lines: true
 			dependencies: ["3F70EA6C821A0B59"]
 			id: "7320543F4B7E7743"
@@ -1685,8 +1720,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -12.5d
+			x: 15.0d
+			y: -11.5d
 			dependencies: ["794DA0DEE3A46620"]
 			id: "6FDBB9217E16AE9E"
 			tasks: [{
@@ -1696,8 +1731,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -11.0d
+			x: 17.0d
+			y: -11.5d
 			dependencies: ["2A37A693DFFADE0C"]
 			id: "794DA0DEE3A46620"
 			tasks: [{
@@ -1707,8 +1742,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -14.0d
+			x: 13.0d
+			y: -11.5d
 			dependencies: ["6FDBB9217E16AE9E"]
 			id: "34C4E61DA6186995"
 			tasks: [{
@@ -1718,8 +1753,9 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: -8.0d
+			x: 7.0d
+			y: -17.0d
+			dependencies: ["7D8532ED0D801AF9"]
 			id: "0EDA74D35E1FB320"
 			tasks: [{
 				id: "0422D05B88019AAF"
@@ -1728,8 +1764,8 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: -9.5d
+			x: 8.5d
+			y: -17.0d
 			dependencies: ["0EDA74D35E1FB320"]
 			id: "5368FE45A9FDF3CF"
 			tasks: [{
@@ -1739,8 +1775,8 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: -11.0d
+			x: 8.5d
+			y: -15.0d
 			dependencies: ["5368FE45A9FDF3CF"]
 			id: "449ACAA40F1A017D"
 			tasks: [{
@@ -1750,8 +1786,8 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: -12.5d
+			x: 8.5d
+			y: -14.0d
 			dependencies: ["449ACAA40F1A017D"]
 			id: "7516C939B91E17F1"
 			tasks: [{
@@ -2030,8 +2066,9 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -14.5d
+			title: "Bone Tools"
+			x: -4.5d
+			y: -14.0d
 			hide_dependency_lines: true
 			dependencies: ["5924A2719A053B61"]
 			id: "19DB367708C9638F"
@@ -2100,8 +2137,13 @@
 			]
 		}
 		{
-			x: -5.5d
-			y: -14.5d
+			x: -3.5d
+			y: -13.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"6922F366FD53486C"
+				"36FF17F44B16FA23"
+			]
 			id: "12BBA3CCC4AB7082"
 			tasks: [{
 				id: "7022F112CFDC6047"
@@ -2116,8 +2158,11 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -14.5d
+			title: "Abyss Tools"
+			x: -2.5d
+			y: -13.0d
+			hide_dependency_lines: true
+			dependencies: ["46AF23700351647F"]
 			id: "6656AF5655017B46"
 			tasks: [
 				{
@@ -2167,8 +2212,11 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: -14.5d
+			title: "Ultra Tools"
+			x: -1.5d
+			y: -13.0d
+			hide_dependency_lines: true
+			dependencies: ["5A20D2449CE912E3"]
 			id: "488DB087AA170083"
 			tasks: [
 				{
@@ -2229,8 +2277,11 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: -14.5d
+			title: "Fusion Tools"
+			x: -0.5d
+			y: -14.0d
+			hide_dependency_lines: true
+			dependencies: ["5A693930CD50579E"]
 			id: "1C8C87EECC22274D"
 			tasks: [
 				{
@@ -2291,8 +2342,10 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: -14.5d
+			x: 0.5d
+			y: -14.0d
+			hide_dependency_lines: true
+			dependencies: ["36FF17F44B16FA23"]
 			id: "3F7F10492C5DC208"
 			tasks: [{
 				id: "1D194E0A5FD17D59"
@@ -2307,8 +2360,11 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -14.5d
+			title: "Unknown Tools"
+			x: -2.5d
+			y: -14.0d
+			hide_dependency_lines: true
+			dependencies: ["6BA1A90842584C08"]
 			id: "42EE8414EA91B3F8"
 			tasks: [
 				{
@@ -2370,7 +2426,12 @@
 		}
 		{
 			x: 0.5d
-			y: -14.5d
+			y: -13.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"3F7F10492C5DC208"
+				"6FDBB9217E16AE9E"
+			]
 			id: "004BE37356747254"
 			tasks: [{
 				id: "2157065495FEACB3"
@@ -2391,8 +2452,11 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -13.5d
+			title: "Phantom Tools"
+			x: -3.5d
+			y: -14.0d
+			hide_dependency_lines: true
+			dependencies: ["6FDBB9217E16AE9E"]
 			id: "6C26A1666A64DF4D"
 			tasks: [
 				{
@@ -2442,8 +2506,11 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: -13.5d
+			title: "Garnite Tools"
+			x: -5.5d
+			y: -14.0d
+			hide_dependency_lines: true
+			dependencies: ["503BA9C76DDA7B69"]
 			id: "445748FBD5B46253"
 			tasks: [
 				{
@@ -2491,6 +2558,544 @@
 					}
 				}
 			]
+		}
+		{
+			title: "Unorithe Tools"
+			x: -5.5d
+			y: -13.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"6C26A1666A64DF4D"
+				"34C4E61DA6186995"
+			]
+			id: "37D6BEFE705A7CAD"
+			tasks: [
+				{
+					id: "3EA37B408590D4B1"
+					type: "item"
+					item: {
+						id: "theabyss:unorithe_pick_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F659D38C7F05617"
+					type: "item"
+					item: {
+						id: "theabyss:unorithe_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7D2DCBA596B14532"
+					type: "item"
+					item: {
+						id: "theabyss:unorithe_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Knight Tools"
+			x: -1.5d
+			y: -14.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"61BAF2F81D87DAE5"
+				"14CC83498085D974"
+			]
+			id: "71C17E0554C4624C"
+			tasks: [
+				{
+					id: "2AAFAD5335F56ED4"
+					type: "item"
+					item: {
+						id: "theabyss:knight_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "37A6D0407A1799F1"
+					type: "item"
+					item: {
+						id: "theabyss:knight_pick_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-2095430484
+								-1558492576
+								-1614487248
+								188700128
+							]
+						}
+					}
+				}
+				{
+					id: "407A795DF029AF67"
+					type: "item"
+					item: {
+						id: "theabyss:knight_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "312DDD3EE7FEEC81"
+					type: "item"
+					item: {
+						id: "theabyss:knight_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "65B20A371B030697"
+					type: "item"
+					item: {
+						id: "theabyss:knight_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -12.0d
+			dependencies: ["2C6EC507A6C0A4EE"]
+			id: "14CC83498085D974"
+			tasks: [{
+				id: "00721D9894260688"
+				type: "item"
+				item: "theabyss:icora_stone"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -10.5d
+			dependencies: [
+				"0E5E8CBB8A380F7E"
+				"2B2D20ABEE47365B"
+			]
+			id: "61BAF2F81D87DAE5"
+			tasks: [{
+				id: "219E5530F68448E9"
+				type: "item"
+				item: "theabyss:knight_ingot"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -10.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"0E5E8CBB8A380F7E"
+				"3DCB0A20C8A1EBD7"
+			]
+			id: "2B2D20ABEE47365B"
+			tasks: [{
+				id: "56CD03BD5A66E29E"
+				type: "item"
+				item: "theabyss:briked_knight_ingot"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -14.0d
+			dependencies: ["26053ECD39645ECC"]
+			id: "3DCB0A20C8A1EBD7"
+			tasks: [{
+				id: "2E8BDAB006A5632C"
+				type: "item"
+				item: "theabyss:knight_shard"
+			}]
+		}
+		{
+			title: "the lost letters"
+			x: 10.0d
+			y: -3.5d
+			dependencies: ["1A94F29EE2D84BCC"]
+			id: "0B8B819414E9C13C"
+			tasks: [
+				{
+					id: "3932D0EAE935D572"
+					type: "item"
+					item: "theabyss:lost_letter_pt_eof_2"
+				}
+				{
+					id: "6732EDAE3DE760B5"
+					type: "item"
+					item: "theabyss:lost_letter_pt_eof_1"
+				}
+				{
+					id: "5ECFFEBC4404FB0E"
+					type: "item"
+					item: "theabyss:lost_letter_pt_slime_fusion"
+				}
+				{
+					id: "7FF7CAB9ED8F9388"
+					type: "item"
+					item: "theabyss:lost_letter_pt_eof_3"
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: -8.5d
+			dependencies: ["7FA1A3460BF01273"]
+			id: "65DEE077545EBC59"
+			tasks: [{
+				id: "450486B3F46E4BB9"
+				type: "item"
+				item: "theabyss:roka_horn"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.0d
+			description: ["look for and watch "]
+			hide_dependency_lines: true
+			dependencies: ["50F3AFDF64210C67"]
+			id: "1A94F29EE2D84BCC"
+			tasks: [{
+				id: "67FFE5727A4303BB"
+				type: "observation"
+				title: "Monolith"
+				icon: "theabyss:monolith_letter"
+				timer: 0L
+				observe_type: 0
+				to_observe: "theabyss:monolith_letter"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -10.0d
+			description: ["Look at the roka and kill it"]
+			hide_dependency_lines: true
+			dependencies: ["50F3AFDF64210C67"]
+			id: "7FA1A3460BF01273"
+			tasks: [{
+				id: "11F8BDF9B7790E62"
+				type: "observation"
+				title: "Roka"
+				icon: "theabyss:the_roka_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "theabyss:the_roka"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -14.0d
+			description: ["Look at a knight ice and kill it"]
+			hide_dependency_lines: true
+			dependencies: ["1018CECF2CD1A0C9"]
+			id: "26053ECD39645ECC"
+			tasks: [{
+				id: "1B701C58464CF311"
+				type: "observation"
+				title: "Ice Knight"
+				icon: "theabyss:ice_knight_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "theabyss:ice_knight"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -15.0d
+			description: ["Look at a slime spider and kill it"]
+			hide_dependency_lines: true
+			dependencies: ["50F3AFDF64210C67"]
+			id: "7D8532ED0D801AF9"
+			tasks: [{
+				id: "0A473EEA1AA9B1DA"
+				type: "observation"
+				title: "Slime Spider"
+				icon: "theabyss:slime_spider_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "theabyss:slime_spider"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.5d
+			description: ["This book speaks to you, it just serves to make a craft."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0B8B819414E9C13C"
+				"65DEE077545EBC59"
+			]
+			id: "3E7374F2F516211B"
+			tasks: [{
+				id: "4DC194325C3C11D1"
+				type: "item"
+				item: "theabyss:end_of_time_book"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -6.5d
+			description: ["To the choice of boss."]
+			dependencies: ["3E7374F2F516211B"]
+			id: "3C98C940A5F0BA3C"
+			tasks: [{
+				id: "3D98554F6E9E96BF"
+				type: "item"
+				item: {
+					id: "theabyss:end_of_time"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-2095430484
+							-1558492576
+							-1614487248
+							188700128
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -10.0d
+			dependencies: ["791B99F52A7855D4"]
+			id: "2BA4A7731A5012E1"
+			tasks: [{
+				id: "5E434A5AEA2B4EC7"
+				type: "item"
+				item: "theabyss:abyssmelon"
+				count: 2L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -8.5d
+			description: ["look for and watch "]
+			hide_dependency_lines: true
+			dependencies: ["50F3AFDF64210C67"]
+			id: "791B99F52A7855D4"
+			tasks: [{
+				id: "2139AE1B0237D710"
+				type: "observation"
+				title: "Abyss Melon"
+				icon: "theabyss:blue_melon_block"
+				timer: 0L
+				observe_type: 0
+				to_observe: "theabyss:blue_melon_block"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			description: ["Even better than an ender pearl!"]
+			hide_dependency_lines: true
+			dependencies: [
+				"36FF17F44B16FA23"
+				"576F2384CF4A5DD7"
+			]
+			id: "7021684FD5AE5FDD"
+			tasks: [{
+				id: "4F032A2B0D705D3D"
+				type: "item"
+				item: {
+					id: "theabyss:enderbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 18.5d
+			y: -22.5d
+			dependencies: ["781CCCDAF09D095E"]
+			id: "33D3C1AAF6C13935"
+			tasks: [{
+				id: "3977AFF1DB47EB74"
+				type: "item"
+				item: "theabyss:heal_camp_fire"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.5d
+			dependencies: ["34F445E330F23CE8"]
+			id: "136A460D59AC3092"
+			tasks: [{
+				id: "4CCE46BF599D532B"
+				type: "item"
+				item: "theabyss:broken_phantom_bone"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -5.5d
+			dependencies: ["136A460D59AC3092"]
+			id: "56D68FD2F91E1AFE"
+			tasks: [{
+				id: "47D83AB2DB4E9910"
+				type: "item"
+				item: "theabyss:phantom_bone"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["50F3AFDF64210C67"]
+			id: "34F445E330F23CE8"
+			tasks: [{
+				id: "28320AEC05A5FD05"
+				type: "observation"
+				title: "The Abyss Bone Block"
+				icon: "theabyss:bone_block_abyss"
+				timer: 0L
+				observe_type: 0
+				to_observe: "theabyss:bone_block_abyss"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -19.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"48F9166474F9D7D4"
+				"576F2384CF4A5DD7"
+				"0E5E8CBB8A380F7E"
+			]
+			id: "2395D0E74EF2C2E5"
+			tasks: [{
+				id: "1A1CB10C96E34E26"
+				type: "item"
+				item: {
+					id: "theabyss:totem_of_thunder"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-2095430484
+							-1558492576
+							-1614487248
+							188700128
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -19.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"576F2384CF4A5DD7"
+				"334AC51D18410A5C"
+				"48F9166474F9D7D4"
+			]
+			id: "0D38E36A280B3994"
+			tasks: [{
+				id: "4AD75B1F73A864D9"
+				type: "item"
+				item: {
+					id: "theabyss:totem_of_abyss"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -8.5d
+			dependencies: ["6922F366FD53486C"]
+			id: "5640A9F291CFCD2E"
+			tasks: [{
+				id: "72A3401CB5AC2BFA"
+				type: "item"
+				item: "theabyss:netherfire_ingot"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -8.5d
+			description: ["Look at a abyss creeper and kill it"]
+			hide_dependency_lines: true
+			dependencies: ["50F3AFDF64210C67"]
+			id: "5F9ED8BF1BBB4ABC"
+			tasks: [{
+				id: "1C3F51997C25BED3"
+				type: "observation"
+				title: "Abyss Creeper"
+				icon: "theabyss:abysscreeper_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "theabyss:abysscreeper"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -10.0d
+			dependencies: ["5F9ED8BF1BBB4ABC"]
+			id: "0A82FC8B1CF71CF7"
+			tasks: [{
+				id: "76B7F9289B2823ED"
+				type: "item"
+				item: "theabyss:creeper_dust"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -19.5d
+			hide_dependency_lines: true
+			dependencies: ["50F3AFDF64210C67"]
+			id: "48F9166474F9D7D4"
+			tasks: [{
+				id: "248A5ECA5A7BB455"
+				type: "item"
+				item: "minecraft:totem_of_undying"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			description: ["I do not put you the block for the structure because they are not craftable but what I can tell you is that the portal is deep and be lucky to fall on it."]
+			dependencies: ["50F3AFDF64210C67"]
+			id: "6185EB5C5215F063"
+			tasks: [{
+				id: "726B03F0DF3965F5"
+				type: "item"
+				item: {
+					id: "theabyss:theabyssdimiceworld"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 	]
 }

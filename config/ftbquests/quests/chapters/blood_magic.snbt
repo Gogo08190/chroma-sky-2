@@ -19,7 +19,7 @@
 				""
 				"With that tier you're able to craft some items that will surely lead you to build the tier two"
 				""
-				"{image:chromasky2:textures/quest/tier1.png width:150 height:150 align:1}"
+				"{image:chromasky2:textures/quest/tier1.png width:150 height:150 align:1 fit:true}"
 			]
 			dependencies: [
 				"78A69A7B685E29FB"
@@ -59,7 +59,7 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -4.0d
 			y: -1.5d
 			subtitle: "Magical Ashes"
 			description: ["Those &8Arcane Ashes&r can do a kind of exchange. Put the ashes on the ground and then the two needed items (please respect the order as shown on JEI) "]
@@ -166,7 +166,7 @@
 				""
 				"Now, you can craft the listed items below and go even further by maybe going directly yo the third tier?"
 				""
-				"{image:chromasky2:textures/quest/tier2.png width:200 height:150 align:1}"
+				"{image:chromasky2:textures/quest/tier2.png width:200 height:150 align:1 fit:true}"
 			]
 			dependencies: ["0DB48A26E11F0114"]
 			size: 1.5d
@@ -227,7 +227,7 @@
 			y: 0.0d
 			shape: "rsquare"
 			subtitle: "Tier Three Altar"
-			description: ["{image:chromasky2:textures/quest/tier3.png width:250 height:150 align:1}"]
+			description: ["{image:chromasky2:textures/quest/tier3.png width:250 height:150 align:1 fit:true}"]
 			dependencies: ["4E2EBC93FBE004C0"]
 			size: 1.5d
 			min_width: 250
@@ -325,7 +325,7 @@
 			x: 8.5d
 			y: 4.5d
 			shape: "rsquare"
-			description: ["{image:chromasky2:textures/quest/tier4.png width:250 height:150 align:1}"]
+			description: ["{image:chromasky2:textures/quest/tier4.png width:250 height:150 align:1 fit:true}"]
 			dependencies: ["643221D07E10181E"]
 			hide: false
 			size: 1.5d
@@ -386,7 +386,7 @@
 			x: 8.496768707483d
 			y: 6.727891156462597d
 			shape: "rsquare"
-			description: ["{image:chromasky2:textures/quest/tier_5.png width:250 height:150 align:1}"]
+			description: ["{image:chromasky2:textures/quest/tier_5.png width:250 height:150 align:1 fit:true}"]
 			dependencies: ["3096464B66060A9D"]
 			size: 1.5d
 			min_width: 250
@@ -763,7 +763,7 @@
 				""
 				"You will need 12 &6Air Ritual Stones&r to create the ritual"
 				""
-				"{image:chromasky2:textures/quest/zephyr.png width:250 height:150 align:1}"
+				"{image:chromasky2:textures/quest/zephyr.png width:250 height:150 align:1 fit:true}"
 			]
 			dependencies: ["5E87C2601FE97FF1"]
 			id: "7A2221A9A8FBEE44"
@@ -872,7 +872,7 @@
 				"- 1 &6Air Ritual Stone&r"
 				"- 12 &3Dusk Ritual Stones&r"
 				""
-				"{image:chromasky2:textures/quest/crystal.png width:250 height:150 align:1}"
+				"{image:chromasky2:textures/quest/crystal.png width:250 height:150 align:1 fit:true}"
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "4A4974AB0C32B67D"
@@ -898,7 +898,7 @@
 				"- 24 &2Earth Ritual Stones&r"
 				"- 12 &3Dusk Ritual Stones&r"
 				""
-				"{image:chromasky2:textures/quest/livingevolution.png width:250 height:150 align:1}"
+				"{image:chromasky2:textures/quest/livingevolution.png width:250 height:150 align:1 fit:true}"
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "49E215BC72FD13CB"
@@ -924,7 +924,7 @@
 				"- 8 &2Earth Ritual Stones&r"
 				"- 4 &6Air Ritual Stones&r"
 				""
-				"{image:chromasky2:textures/quest/magnetism.png width:250 height:150 align:1}"
+				"{image:chromasky2:textures/quest/magnetism.png width:250 height:150 align:1 fit:true}"
 			]
 			dependencies: ["5E87C2601FE97FF1"]
 			id: "425E4EB468AFEA1E"
@@ -1030,7 +1030,7 @@
 				"- &4500 LP&r"
 				"- 4 &1Water Ritual Stones&r"
 				""
-				"{image:chromasky2:textures/quest/fullspring.png width:250 height:150 align:1}"
+				"{image:chromasky2:textures/quest/fullspring.png width:250 height:150 align:1 fit:true}"
 			]
 			dependencies: ["5E87C2601FE97FF1"]
 			id: "311236BDFB9D3A47"
@@ -1055,7 +1055,7 @@
 				"- 4 &bWater Ritual Stones&r"
 				"- 4 &2Earth Ritual Stones&r"
 				""
-				"{image:chromasky2:textures/quest/grove.png width:250 height:150 align:1}"
+				"{image:chromasky2:textures/quest/grove.png width:250 height:150 align:1 fit:true}"
 			]
 			dependencies: ["5E87C2601FE97FF1"]
 			id: "48DDDF9EA9D5F046"
@@ -1106,7 +1106,7 @@
 				"- &010000 LP&r to activate it"
 				"- 4 &4Fire Ritual Stones&r"
 				""
-				"{image:chromasky2:textures/quest/netherserenade.png width:250 height:150 align:1}"
+				"{image:chromasky2:textures/quest/netherserenade.png width:250 height:150 align:1 fit:true}"
 			]
 			dependencies: ["5E87C2601FE97FF1"]
 			id: "00935023E0E209D5"
@@ -1134,7 +1134,7 @@
 				"- 4 &6Air Ritual Stones&r"
 				"- 4 &3Dusk Ritual Stones&r"
 				""
-				"{image:chromasky2:textures/quest/cleansingsoul.png width:250 height:150 align:1}"
+				"{image:chromasky2:textures/quest/cleansingsoul.png width:250 height:150 align:1 fit:true}"
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "4CC9F130D1EFE108"
@@ -1363,7 +1363,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -5.5d
 			y: -4.5d
 			shape: "diamond"
 			subtitle: "A better bone meal"
@@ -1391,7 +1391,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -4.0d
 			y: -2.5d
 			subtitle: "Storage for Demons"
 			description: ["The &6Divination Sigil&r will allow you to see your current essence level. This amount is how much LP you have stocked in your &4BloodMagic&r \"network\"."]
@@ -1418,7 +1418,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -5.0d
 			y: -4.0d
 			shape: "diamond"
 			subtitle: "A better Lava Bucket"
@@ -1446,7 +1446,7 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: -4.5d
 			y: -3.5d
 			shape: "diamond"
 			subtitle: "Slow Fall not included"
@@ -1460,7 +1460,7 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -3.0d
 			y: -5.0d
 			shape: "diamond"
 			subtitle: "For Miners... or else"
@@ -1478,7 +1478,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -4.0d
 			y: -4.5d
 			shape: "diamond"
 			subtitle: "Sigils Backpack"
@@ -1510,7 +1510,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -3.5d
 			y: -5.5d
 			shape: "diamond"
 			subtitle: "You are Jesus..!"
@@ -1539,7 +1539,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -2.5d
 			y: -4.5d
 			shape: "diamond"
 			subtitle: "Infinite Water"
@@ -1553,7 +1553,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -5.0d
 			y: -5.0d
 			shape: "diamond"
 			subtitle: "Better Nullifier"
@@ -1581,7 +1581,7 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -3.0d
 			y: -4.0d
 			shape: "diamond"
 			subtitle: "Magneto"
@@ -1599,7 +1599,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -3.5d
 			y: -3.5d
 			shape: "diamond"
 			subtitle: "A better Divination Sigil"
@@ -1613,7 +1613,7 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: -4.5d
 			y: -5.5d
 			shape: "diamond"
 			subtitle: "Diggy diggy hole !"
@@ -1979,6 +1979,23 @@
 				id: "73354DCC5EB23FC7"
 				type: "checkmark"
 				title: "I've built the Auto Blood Altar ! "
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			dependencies: ["7F47CF0B2B6119BC"]
+			id: "682F3B47FAE6BB17"
+			tasks: [{
+				id: "1BB7ABF1E6C70586"
+				type: "item"
+				item: {
+					id: "matc:imperium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]

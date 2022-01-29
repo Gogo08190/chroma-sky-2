@@ -1,0 +1,903 @@
+{
+	id: "55D746F3002D9F9B"
+	group: "638FC427456F902B"
+	order_index: 11
+	filename: "rats"
+	title: "Rats"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "rats:textures/thaumcraft_rat_icon.png"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.0d
+			y: -3.0d
+			description: [
+				""
+				"Like a composter you will need to place item on this trash and after a few item that's will give you garbage pill"
+			]
+			id: "6E32CBE4300414BA"
+			tasks: [{
+				id: "6475A7F3C56B1B9F"
+				type: "item"
+				item: "rats:trash_can"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			description: ["Rat's will easly spawn on it"]
+			dependencies: ["6E32CBE4300414BA"]
+			id: "10670EB26DC9CCAA"
+			tasks: [{
+				id: "6EC2CBC16B2E3FD2"
+				type: "item"
+				item: "rats:garbage_pile"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			description: ["For taming the rat's you will need to throw some cheese on the flour and perhap's the rat will be tame"]
+			dependencies: [
+				"10670EB26DC9CCAA"
+				"49C443050019B6F5"
+			]
+			id: "5B97ABA98DAABB77"
+			tasks: [{
+				id: "05469BA674A1B050"
+				type: "checkmark"
+				title: "Tame a Rat"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			dependencies: ["70326FBA1D606DB4"]
+			id: "49C443050019B6F5"
+			tasks: [{
+				id: "6FF8FFA7149A544E"
+				type: "item"
+				item: "rats:cheese"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: ["This will permit to automatize the cheese"]
+			dependencies: ["49C443050019B6F5"]
+			id: "0A44B9BD42686234"
+			tasks: [{
+				id: "4B73A679694C652B"
+				type: "item"
+				item: "rats:auto_curdler"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.0d
+			subtitle: "You Realy need to clean your room"
+			description: ["You need to throw this on a rat, and it will change it in the all mighty king"]
+			id: "43A847C36252ADAA"
+			tasks: [{
+				id: "79C2F3D66AC8D230"
+				type: "item"
+				item: "rats:filth_corruption"
+			}]
+		}
+		{
+			title: "&4Slay The KING&r"
+			icon: {
+				id: "rats:rat_king_crown"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.0d
+			y: 3.0d
+			subtitle: "King's and Queen"
+			dependencies: ["43A847C36252ADAA"]
+			id: "3E5822ED43D30E11"
+			tasks: [
+				{
+					id: "1AFADEFFB33EBE50"
+					type: "item"
+					item: "rats:tangled_rat_tails"
+				}
+				{
+					id: "311DF1794DAE7EB5"
+					type: "item"
+					item: {
+						id: "rats:rat_king_crown"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&8Call of the plague&r"
+			x: -4.0d
+			y: 5.0d
+			subtitle: "I think you see the wrong Doctor"
+			description: [
+				"Right on a plague doctor"
+				"It will turn it in Black Death"
+			]
+			id: "112618C4DB588CEA"
+			tasks: [{
+				id: "43237B923584EA5D"
+				type: "item"
+				item: "rats:plague_tome"
+			}]
+		}
+		{
+			title: "&8Death Slayer&r"
+			icon: {
+				id: "rats:black_death_mask"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.0d
+			y: 5.0d
+			subtitle: "Hopefuly he wasn't link to Nurggle"
+			dependencies: ["112618C4DB588CEA"]
+			id: "397F9C540B1C13DB"
+			tasks: [
+				{
+					id: "453DAC09EAFC9C4A"
+					type: "item"
+					item: {
+						id: "rats:black_death_mask"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "266B40FF7B1BA81C"
+					type: "item"
+					item: {
+						id: "rats:plague_scythe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			description: ["This is basic item for the craft of rat's upgrade"]
+			dependencies: ["5B97ABA98DAABB77"]
+			id: "33332A77A21B5CDE"
+			tasks: [{
+				id: "34D53BC039C95C54"
+				type: "item"
+				item: "rats:rat_upgrade_basic"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -7.5d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "3ED53C2579857476"
+			tasks: [{
+				id: "7CAC0529E20871C3"
+				type: "item"
+				item: "rats:rat_upgrade_jury_rigged"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 8.5d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "15936D51DC51D53B"
+			tasks: [{
+				id: "2FC91505835BF5B5"
+				type: "item"
+				item: "rats:rat_upgrade_speed"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 8.5d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "63AC5A302BFFA94A"
+			tasks: [{
+				id: "6DE0FDCAA0B6E122"
+				type: "item"
+				item: "rats:rat_upgrade_platter"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 8.5d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "39529A319B833D0E"
+			tasks: [{
+				id: "20820A2884A90DBD"
+				type: "item"
+				item: "rats:rat_upgrade_health"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -7.5d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "0655BE6E1126B404"
+			tasks: [{
+				id: "28FF1262951F053B"
+				type: "item"
+				item: "rats:rat_upgrade_armor"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.5d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "4DE56E1826FD58C4"
+			tasks: [{
+				id: "5F4AB51A39665D0D"
+				type: "item"
+				item: "rats:rat_upgrade_bow"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -7.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "314F84795BEF9325"
+			tasks: [{
+				id: "289B586F4AE628C1"
+				type: "item"
+				item: "rats:rat_upgrade_demon"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -7.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "7A7D88EA3225BBAD"
+			tasks: [{
+				id: "6ECAD9EC39E47E08"
+				type: "item"
+				item: "rats:rat_upgrade_strength"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 8.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "4DEABFD3150E4473"
+			tasks: [{
+				id: "3F5314B3E855B3BB"
+				type: "item"
+				item: "rats:rat_upgrade_warrior"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 8.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "00A88420E23273C9"
+			tasks: [{
+				id: "50E58F86CC196BC2"
+				type: "item"
+				item: "rats:rat_upgrade_god"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 7.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "25F63E33E4FBBB00"
+			tasks: [{
+				id: "55038199DB1FBDF9"
+				type: "item"
+				item: "rats:rat_upgrade_chef"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "49111BD553B9E6B6"
+			tasks: [{
+				id: "0528A1C4519090D6"
+				type: "item"
+				item: "rats:rat_upgrade_crafting"
+			}]
+		}
+		{
+			title: "Rats Filter"
+			x: -5.5d
+			y: -6.5d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "4E5FC0FD4ECB351B"
+			tasks: [
+				{
+					id: "6A9317706BA536B3"
+					type: "item"
+					item: {
+						id: "rats:rat_upgrade_blacklist"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "3A3CA101F03F9D89"
+					type: "item"
+					item: {
+						id: "rats:rat_upgrade_whitelist"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -6.5d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "154CEF57E41988BC"
+			tasks: [{
+				id: "499B5A774AA0DB5C"
+				type: "item"
+				item: "rats:rat_upgrade_replanter"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 6.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "626FBB525C4FBF3D"
+			tasks: [{
+				id: "09A8EB311AE65E25"
+				type: "item"
+				item: "rats:rat_upgrade_flight"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "5815DDD4ECAB800E"
+			tasks: [{
+				id: "62A75908283E6C4E"
+				type: "item"
+				item: "rats:rat_upgrade_dragon"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -5.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "54F8865DE030B9FD"
+			tasks: [{
+				id: "65F26B017F1D54DE"
+				type: "item"
+				item: "rats:rat_upgrade_bee"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "0F884FADF97EEB1B"
+			tasks: [{
+				id: "1901AC638038DCF8"
+				type: "item"
+				item: "rats:rat_upgrade_aquatic"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -4.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "6FBB3E96867C037E"
+			tasks: [{
+				id: "744F8AA8250274EC"
+				type: "item"
+				item: "rats:rat_upgrade_ender"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "006725A9140F8726"
+			tasks: [{
+				id: "717BF2AB3B755E08"
+				type: "item"
+				item: "rats:rat_upgrade_lumberjack"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 5.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "18100177AA2F8DD4"
+			tasks: [{
+				id: "7D4E36326A48B842"
+				type: "item"
+				item: "rats:rat_upgrade_miner_ore"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "516ECACDBDEBD9EA"
+			tasks: [{
+				id: "0E5D19C854D5C997"
+				type: "item"
+				item: {
+					id: "rats:rat_upgrade_miner"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 4.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "1CB724BEE7143CF1"
+			tasks: [{
+				id: "35A8D241C2C169DB"
+				type: "item"
+				item: "rats:rat_upgrade_quarry"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "4541273502074A7D"
+			tasks: [{
+				id: "5BE46112963F4C72"
+				type: "item"
+				item: "rats:rat_upgrade_farmer"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "35B38D26FA54DF47"
+			tasks: [{
+				id: "37490B1B0040E112"
+				type: "item"
+				item: "rats:rat_upgrade_breeder"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "507E1585F2D054D0"
+			tasks: [{
+				id: "4CD00F8AF16F88B5"
+				type: "item"
+				item: "rats:rat_upgrade_fisherman"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 1.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "55A5B95F91530F0B"
+			tasks: [{
+				id: "55019E5D7F9EB4EA"
+				type: "item"
+				item: "rats:rat_upgrade_tick_accelerator"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "60612FD534689BC7"
+			tasks: [{
+				id: "61E3CC3B602BE616"
+				type: "item"
+				item: "rats:rat_upgrade_asbestos"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "674BD52EF431FABF"
+			tasks: [{
+				id: "240095EF8B560BE9"
+				type: "item"
+				item: "rats:rat_upgrade_underwater"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "73ADFED1E73ED5DC"
+			tasks: [{
+				id: "373CA9C6DE6A15D5"
+				type: "item"
+				item: "rats:rat_upgrade_damage_protection"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "4E8407453512E902"
+			tasks: [{
+				id: "5E43460B8D6CEBC9"
+				type: "item"
+				item: "rats:rat_upgrade_poison"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "4C929F99BC362343"
+			tasks: [{
+				id: "52BEE9243A2C00BB"
+				type: "item"
+				item: "rats:rat_upgrade_basic_energy"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 3.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "0B55828AE7AFCE2F"
+			tasks: [{
+				id: "6BDE733433D633BB"
+				type: "item"
+				item: "rats:rat_upgrade_ore_doubling"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "6B35B2029116C6E7"
+			tasks: [{
+				id: "544ADCBC91F23EB3"
+				type: "item"
+				item: "rats:rat_upgrade_advanced_energy"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "6E538A7FC3A5A163"
+			tasks: [{
+				id: "08DCB24F35C6D60C"
+				type: "item"
+				item: "rats:rat_upgrade_elite_energy"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -3.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "2035DE8F68CE076B"
+			tasks: [{
+				id: "446D1943FCCB2FB9"
+				type: "item"
+				item: "rats:rat_upgrade_extreme_energy"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -2.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "595FAD3FE0DBF3F1"
+			tasks: [{
+				id: "0BD0727F87E1BC05"
+				type: "item"
+				item: "rats:rat_upgrade_elite_energy"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "3D3ADC255179AA42"
+			tasks: [{
+				id: "2C8DE42B3F56C697"
+				type: "item"
+				item: "rats:rat_upgrade_extreme_energy"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -6.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "51C6A89735458C6E"
+			tasks: [{
+				id: "33ACE2055F9565BD"
+				type: "item"
+				item: "rats:rat_upgrade_bucket"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "6FA25E7505D18DAC"
+			tasks: [{
+				id: "7F8A09FC5B4F8AF2"
+				type: "item"
+				item: "rats:rat_upgrade_big_bucket"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 7.5d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "757BC67D95335A75"
+			tasks: [{
+				id: "1902A348CE0E5DBF"
+				type: "item"
+				item: "rats:rat_upgrade_milker"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 7.5d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "30DBD37FC42F8CA4"
+			tasks: [{
+				id: "10134EC42F601806"
+				type: "item"
+				item: "rats:rat_upgrade_shears"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -6.5d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "496545016559B70C"
+			tasks: [{
+				id: "2333AB055C5E9D03"
+				type: "item"
+				item: "rats:rat_upgrade_aristocrat"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.5d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "47954AEB31526AFE"
+			tasks: [{
+				id: "0C4C33E6D9E81016"
+				type: "item"
+				item: "rats:rat_upgrade_tnt"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.5d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "5D2A308D346DF7A5"
+			tasks: [{
+				id: "7DAE1ECA9AB76CC5"
+				type: "item"
+				item: "rats:rat_upgrade_tnt_survivor"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 7.5d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "46D260903F5F3AE2"
+			tasks: [{
+				id: "1CDA64D116A05B82"
+				type: "item"
+				item: "rats:rat_upgrade_placer"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 7.5d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "48C4BB857F884C1C"
+			tasks: [{
+				id: "6A835D749AEFAFDD"
+				type: "item"
+				item: "rats:rat_upgrade_voodoo"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.5d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "6F6E39CCF94FE7FC"
+			tasks: [{
+				id: "1C4A6AFD2ABD063D"
+				type: "item"
+				item: "rats:rat_upgrade_gemcutter"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -2.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "5B5573AA2CAB580E"
+			tasks: [{
+				id: "4CF212894695AE0F"
+				type: "item"
+				item: "rats:rat_upgrade_enchanter"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "1A1021FCCEC6E596"
+			tasks: [{
+				id: "18E481885AC61325"
+				type: "item"
+				item: "rats:rat_upgrade_disenchanter"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "1969A96B8234E989"
+			tasks: [{
+				id: "4AEB0084C22777CE"
+				type: "item"
+				item: "rats:rat_upgrade_christmas"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "6E2CFB7CD7BA9821"
+			tasks: [{
+				id: "1D01376CA47DA458"
+				type: "item"
+				item: "rats:rat_upgrade_carrat"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "115E2618540D9C15"
+			tasks: [{
+				id: "5B6D10046FB285E7"
+				type: "item"
+				item: "rats:rat_upgrade_no_flute"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 3.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "2A5315B60A7F7506"
+			tasks: [{
+				id: "103459F1FEC21B47"
+				type: "item"
+				item: "rats:rat_upgrade_angel"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "1C2A0D0C8D8C4AD6"
+			tasks: [{
+				id: "36DB40C535CE2CDA"
+				type: "item"
+				item: "rats:rat_upgrade_undead"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "1F736EA92495D846"
+			tasks: [{
+				id: "66E93FEC956F470E"
+				type: "item"
+				item: "rats:rat_upgrade_basic_mount"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "5B9FD82E253939CD"
+			tasks: [{
+				id: "5723770775560A63"
+				type: "item"
+				item: "rats:rat_upgrade_chicken_mount"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "56CAC567CE097D76"
+			tasks: [{
+				id: "58E6115EBBCD910A"
+				type: "item"
+				item: "rats:rat_upgrade_golem_mount"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "1C0C9C7A78948C37"
+			tasks: [{
+				id: "2B29FE2CB7A2F23D"
+				type: "item"
+				item: "rats:rat_upgrade_strider_mount"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["33332A77A21B5CDE"]
+			id: "725F91C8220F0EA5"
+			tasks: [{
+				id: "4BCDDCBB89795FF2"
+				type: "item"
+				item: "rats:rat_upgrade_beast_mount"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			description: ["You will need some milk, wait and the cheese will apear"]
+			id: "70326FBA1D606DB4"
+			tasks: [
+				{
+					id: "5D6090138EF203AD"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+				{
+					id: "68A09709AEAA6C71"
+					type: "item"
+					item: "rats:block_of_cheese"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			size: 5.0d
+			id: "5546DF34B019EB4E"
+			tasks: [{
+				id: "739DC762DD5D2E48"
+				type: "checkmark"
+				title: "THE FLOUR IS LAVA"
+			}]
+		}
+	]
+}

@@ -1783,5 +1783,22 @@
 				item: "chromasky:magiccrystal"
 			}]
 		}
+		{
+			x: -4.5d
+			y: -15.0d
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "09E50257121C71FB"
+			tasks: [{
+				id: "21A2C50B686B8351"
+				type: "item"
+				item: {
+					id: "matc:inferium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
 	]
 }

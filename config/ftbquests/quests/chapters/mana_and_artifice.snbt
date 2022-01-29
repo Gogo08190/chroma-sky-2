@@ -7,18 +7,6 @@
 	icon: "mana-and-artifice:guide_book"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: 1.5d
-		y: -23.5d
-		width: 1.0d
-		height: 1.0d
-		rotation: 0.0d
-		image: "minecraft:textures/gui/presets/isles.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
 	quests: [
 		{
 			x: -3.5d
@@ -2747,6 +2735,28 @@
 					}
 				}
 			]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"02628A32D083A95D"
+				"13EEC00E8C0E74D3"
+			]
+			id: "3DE8005B127FFA10"
+			tasks: [{
+				id: "3D0E51514421C8C0"
+				type: "item"
+				item: {
+					id: "matc:tertium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 	]
 }

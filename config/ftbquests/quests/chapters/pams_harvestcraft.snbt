@@ -1,0 +1,5335 @@
+{
+	id: "70653BF59303963E"
+	group: "638FC427456F902B"
+	order_index: 10
+	filename: "pams_harvestcraft"
+	title: "Pam's HarvestCraft"
+	icon: "pamhc2foodcore:basichamburgeritem"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 8.0d
+			y: -1.5d
+			dependencies: ["7A419FAAEDC02604"]
+			id: "2AA1EF4851115785"
+			tasks: [{
+				id: "2554588EDE9569C8"
+				type: "item"
+				item: "pamhc2foodcore:bakewareitem"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			dependencies: ["7A419FAAEDC02604"]
+			id: "47972778B1C208D6"
+			tasks: [{
+				id: "1DC5352A73BCE571"
+				type: "item"
+				item: "pamhc2foodcore:cuttingboarditem"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			dependencies: ["7A419FAAEDC02604"]
+			id: "14A3A217E5DC0920"
+			tasks: [{
+				id: "28EF98FF8F43132D"
+				type: "item"
+				item: "pamhc2foodcore:grinderitem"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			dependencies: ["7A419FAAEDC02604"]
+			id: "62ACA49F4A5F24E9"
+			tasks: [{
+				id: "66F4C27A990E731A"
+				type: "item"
+				item: "pamhc2foodcore:mixingbowlitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			dependencies: ["7A419FAAEDC02604"]
+			id: "4530D57BA383D2F7"
+			tasks: [{
+				id: "33C29A79D4900269"
+				type: "item"
+				item: "pamhc2foodcore:potitem"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.5d
+			dependencies: ["7A419FAAEDC02604"]
+			id: "4EAB3FCD957B7FB3"
+			tasks: [{
+				id: "4B75341693538416"
+				type: "item"
+				item: "pamhc2foodcore:saucepanitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			dependencies: ["7A419FAAEDC02604"]
+			id: "4171F0E9FA949DB5"
+			tasks: [{
+				id: "596D49994E9C6B22"
+				type: "item"
+				item: "pamhc2foodcore:skilletitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			dependencies: ["7A419FAAEDC02604"]
+			id: "7241E3BDEE534FFE"
+			tasks: [{
+				id: "12B69944BF4FF9C6"
+				type: "item"
+				item: "pamhc2foodcore:rolleritem"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.5d
+			dependencies: ["7A419FAAEDC02604"]
+			id: "64A1FE3DDE129458"
+			tasks: [{
+				id: "71D5852AA5960BFA"
+				type: "item"
+				item: "pamhc2foodcore:juiceritem"
+			}]
+		}
+		{
+			title: "Unlocking Pam's HarvestCraft"
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Unlock the main chapters of &aPam's HarvestCraft&r"
+			size: 3.0d
+			id: "72845589E6B99367"
+			tasks: [{
+				id: "606F774653481CF0"
+				type: "checkmark"
+				title: "Tools ! "
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			subtitle: "I LOVE BREAD"
+			description: ["All the sandwiches of &aPam's HarvestCraft&r"]
+			dependencies: ["72845589E6B99367"]
+			id: "002FB4856186F7F1"
+			tasks: [{
+				id: "12BDEA9F632A300F"
+				type: "checkmark"
+				title: "Sandwiches ! "
+			}]
+		}
+		{
+			x: 6.0d
+			y: 7.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "50ABBC5710AA4F69"
+			tasks: [{
+				id: "150FEBD05E8F452A"
+				type: "item"
+				item: "farmersdelight:bacon_sandwich"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 7.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "470A02ADE95BC49B"
+			tasks: [{
+				id: "578C497B34177B1C"
+				type: "item"
+				item: "farmersdelight:chicken_sandwich"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 7.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "4F49D55BA3B7C0A0"
+			tasks: [{
+				id: "0F9AE23E779F85F5"
+				type: "item"
+				item: "farmersdelight:egg_sandwich"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 7.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "4B3E8AD6460AC95F"
+			tasks: [{
+				id: "29823FC5E7784FBF"
+				type: "item"
+				item: "thermal:pbj_sandwich"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "66CD3B2669147B04"
+			tasks: [{
+				id: "449491F0A6E54162"
+				type: "item"
+				item: "pamhc2foodextended:limejellysandwichitem"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "49ADAC46F0C5CA1C"
+			tasks: [{
+				id: "2CDF618EF8B27586"
+				type: "item"
+				item: "pamhc2foodextended:lemonjellysandwichitem"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "7F78AC069118A633"
+			tasks: [{
+				id: "397FABA2F70EBA6C"
+				type: "item"
+				item: "pamhc2foodextended:durianjellysandwichitem"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "7E571DA09ABD8153"
+			tasks: [{
+				id: "18DDA507FAE5137D"
+				type: "item"
+				item: "pamhc2foodextended:gooseberryjellysandwichitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "15EE933BE98B0EA6"
+			tasks: [{
+				id: "3A682C8A30A63ED2"
+				type: "item"
+				item: "pamhc2foodextended:tamarindjellysandwichitem"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "3645CEF569F97575"
+			tasks: [{
+				id: "023BA14A3AF50636"
+				type: "item"
+				item: "pamhc2foodextended:rambutanjellysandwichitem"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "291DF3FA6950748B"
+			tasks: [{
+				id: "1BADB2296027BD11"
+				type: "item"
+				item: "pamhc2foodextended:passionfruitjellysandwichitem"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "43C02A41DB46D448"
+			tasks: [{
+				id: "2E83E49188DA43F5"
+				type: "item"
+				item: "pamhc2foodextended:lycheejellysandwichitem"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 7.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "3195EB8BEBDB3370"
+			tasks: [{
+				id: "0DD0618B7560A2B9"
+				type: "item"
+				item: "pamhc2foodextended:guavajellysandwichitem"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "477523859A8A4D16"
+			tasks: [{
+				id: "3A274815B4B00060"
+				type: "item"
+				item: "pamhc2foodextended:breadfruitjellysandwichitem"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "262965227743E5BB"
+			tasks: [{
+				id: "23F5CE2A58952DDB"
+				type: "item"
+				item: "pamhc2foodextended:jackfruitjellysandwichitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "2C686497ADF1D7C0"
+			tasks: [{
+				id: "6E94A9CFB4A2D414"
+				type: "item"
+				item: "pamhc2foodextended:starfruitjellysandwichitem"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "1B09BB68C2B984BF"
+			tasks: [{
+				id: "69986D617A4A5F97"
+				type: "item"
+				item: "pamhc2foodextended:pomegranatejellysandwichitem"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "66A9CF02D4A982AE"
+			tasks: [{
+				id: "6DA99D69C731DF00"
+				type: "item"
+				item: "pamhc2foodextended:persimmonjellysandwichitem"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "5854D27908E57C7C"
+			tasks: [{
+				id: "742D03AA666CB9BA"
+				type: "item"
+				item: "pamhc2foodextended:applejellysandwichitem"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 3.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "08FE7F7E1CAE7A63"
+			tasks: [{
+				id: "692D35501D005D7D"
+				type: "item"
+				item: "pamhc2foodextended:cherryjellysandwichitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "634BE175D44104F4"
+			tasks: [{
+				id: "7EED325E6B0BE0E9"
+				type: "item"
+				item: "pamhc2foodextended:orangejellysandwichitem"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "6D771872D1F94A00"
+			tasks: [{
+				id: "28EB374E02051FDC"
+				type: "item"
+				item: "pamhc2foodextended:peachjellysandwichitem"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "7FB0324119DF1231"
+			tasks: [{
+				id: "1902A2A35CE6D956"
+				type: "item"
+				item: "pamhc2foodextended:pearjellysandwichitem"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "305A1F10F676A3BF"
+			tasks: [{
+				id: "7B6B31D04792A1ED"
+				type: "item"
+				item: "pamhc2foodextended:plumjellysandwichitem"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "77CC134A5031F753"
+			tasks: [{
+				id: "14DF51B487C18722"
+				type: "item"
+				item: "pamhc2foodextended:pawpawjellysandwichitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "18D439EEB5487B7D"
+			tasks: [{
+				id: "037D4C7EB5EBCB85"
+				type: "item"
+				item: "pamhc2foodextended:soursopjellysandwichitem"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "088669FE3C086585"
+			tasks: [{
+				id: "017B0CA32481C3B6"
+				type: "item"
+				item: "pamhc2foodextended:apricotjellysandwichitem"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 5.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "3A123AE3D753E128"
+			tasks: [{
+				id: "296B2E0AB7005D33"
+				type: "item"
+				item: "pamhc2foodextended:bananajellysandwichitem"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 5.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "16A700043C252929"
+			tasks: [{
+				id: "7339E92F3C68BDC4"
+				type: "item"
+				item: "pamhc2foodextended:datejellysandwichitem"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 5.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "27565BB3522F6152"
+			tasks: [{
+				id: "70D464CEFDDC79DB"
+				type: "item"
+				item: "pamhc2foodextended:dragonfruitjellysandwichitem"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 7.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "36DA7A7DE58E3339"
+			tasks: [{
+				id: "05A5DF89EE347BDC"
+				type: "item"
+				item: "pamhc2foodextended:figjellysandwichitem"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "0BA6D6B6440571D9"
+			tasks: [{
+				id: "6441C8DE11E376BE"
+				type: "item"
+				item: "pamhc2foodextended:grapefruitjellysandwichitem"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 2.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "75AB550455103299"
+			tasks: [{
+				id: "79E38D1F366BDDA1"
+				type: "item"
+				item: "pamhc2foodextended:mangojellysandwichitem"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 3.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "2959A4DA94F82091"
+			tasks: [{
+				id: "0A7646DDDE206420"
+				type: "item"
+				item: "pamhc2foodextended:papayajellysandwichitem"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 4.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "3B9917BB9CF9348F"
+			tasks: [{
+				id: "5DFD0A2A35FF8A2A"
+				type: "item"
+				item: "pamhc2foodextended:blackberryjellysandwichitem"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 5.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "5E54E734D39EB5F3"
+			tasks: [{
+				id: "65DD5E87D6F8E9CC"
+				type: "item"
+				item: "pamhc2foodextended:blueberryjellysandwichitem"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 7.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "23D46608C974E5DA"
+			tasks: [{
+				id: "2E888AB3C7042F07"
+				type: "item"
+				item: "pamhc2foodextended:blackberryjellysandwichitem"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "2D376F4F8A784783"
+			tasks: [{
+				id: "4ADAF12A4BAF338D"
+				type: "item"
+				item: "pamhc2foodextended:peanutbutterbananasandwichitem"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "43BDB10099C940DB"
+			tasks: [{
+				id: "51B7ECF3ADD7C671"
+				type: "item"
+				item: "pamhc2foodextended:loxbagelsandwichitem"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 3.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "6FA8F6D2D3FF4D6A"
+			tasks: [{
+				id: "16299FDAB77B124A"
+				type: "item"
+				item: "pamhc2foodextended:toastsandwichitem"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 4.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "575A4610B172E1E6"
+			tasks: [{
+				id: "7968EABA9B5B2FD2"
+				type: "item"
+				item: "pamhc2foodextended:meatloafsandwichitem"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 5.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "3A4B58012B554B04"
+			tasks: [{
+				id: "6B1AFB6E7691519B"
+				type: "item"
+				item: "pamhc2foodextended:hamsweetpicklesandwichitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "7B2BE4D084F054C0"
+			tasks: [{
+				id: "3A578E57EA3B85A2"
+				type: "item"
+				item: "pamhc2foodextended:hamandcheesesandwichitem"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 6.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "157A1E7394A8ED74"
+			tasks: [{
+				id: "1C183FEEC963BDEA"
+				type: "item"
+				item: "pamhc2foodextended:groiledcheesesandwichitem"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 6.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "6FDBA525864894E4"
+			tasks: [{
+				id: "0B9908374B2D5B69"
+				type: "item"
+				item: "pamhc2foodextended:friedbolognasandwichitem"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 6.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "7C576243252D02F5"
+			tasks: [{
+				id: "42B79956336F87FD"
+				type: "item"
+				item: "pamhc2foodextended:cucumbersandwichitem"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 6.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "7DD0030DFF3328E1"
+			tasks: [{
+				id: "73D5E6356E0EB722"
+				type: "item"
+				item: "pamhc2foodextended:bolognasandwichitem"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 6.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "230B281F23B5BA7D"
+			tasks: [{
+				id: "5E91C1E9D156BEC4"
+				type: "item"
+				item: "pamhc2foodextended:sweetberryjellysandwichitem"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 6.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "158FD9CE87763121"
+			tasks: [{
+				id: "46150E8FEF904F11"
+				type: "item"
+				item: "pamhc2foodextended:melonjellysandwichitem"
+			}]
+		}
+		{
+			title: "Junk Foods"
+			x: -4.0d
+			y: 4.5d
+			subtitle: "Getting fat"
+			description: ["The grease will be your friend"]
+			dependencies: ["72845589E6B99367"]
+			id: "7E8EDE2BE3EF6163"
+			tasks: [{
+				id: "716492E7B6D3BF43"
+				type: "checkmark"
+				title: "Junk Foods"
+			}]
+		}
+		{
+			x: -12.0d
+			y: 3.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "0DFFC197FDE756E9"
+			tasks: [{
+				id: "5DA18C840A17459A"
+				type: "item"
+				item: "pamhc2foodcore:basicchickensandwichitem"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "391D96831CB64BE3"
+			tasks: [{
+				id: "77EF3573533A1C27"
+				type: "item"
+				item: "pamhc2foodcore:basicfishsandwichitem"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 5.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "411F1C985292CDA6"
+			tasks: [{
+				id: "3D882204B7338C2E"
+				type: "item"
+				item: "pamhc2foodextended:leafychickensandwichitem"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 6.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "227EEE5042ACB262"
+			tasks: [{
+				id: "2E735236EBD2B603"
+				type: "item"
+				item: "pamhc2foodextended:leafyfishsandwichitem"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 7.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "4432397782BC360C"
+			tasks: [{
+				id: "721657E274E3BAA7"
+				type: "item"
+				item: "pamhc2foodcore:basichamburgeritem"
+			}]
+		}
+		{
+			x: -12.0d
+			y: 4.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "35FA66CC1C613DE9"
+			tasks: [{
+				id: "2AA83016EFAF69AE"
+				type: "item"
+				item: "pamhc2foodcore:basiccheeseburgeritem"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 6.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "25F34E0CA2818210"
+			tasks: [{
+				id: "342AF16757B80E93"
+				type: "item"
+				item: "pamhc2foodcore:baconcheeseburgeritem"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 4.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "0B1EAA04134C2536"
+			tasks: [{
+				id: "08D4CD3C92A31DB2"
+				type: "item"
+				item: "pamhc2foodextended:baconmushroomburgeritem"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 5.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "3DDBE658307A7C64"
+			tasks: [{
+				id: "47CA87DA0DE71EDA"
+				type: "item"
+				item: "pamhc2foodextended:deluxecheeseburgeritem"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 6.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "0AF990F82B1FC437"
+			tasks: [{
+				id: "0D4109E3E60BD0DD"
+				type: "item"
+				item: "pamhc2foodextended:beetburgeritem"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 7.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "7362E296BB606781"
+			tasks: [{
+				id: "70AFA70167278F83"
+				type: "item"
+				item: "pamhc2foodextended:coleslawburgeritem"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 7.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "32E20B9D7113CBFE"
+			tasks: [{
+				id: "75C2D4B88DCF6057"
+				type: "item"
+				item: "pamhc2foodextended:gourmetbeefburgeritem"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "6159F5BBF1C341AA"
+			tasks: [{
+				id: "3989FA95B46DF9B8"
+				type: "item"
+				item: "pamhc2foodextended:gourmetmuttonburgeritem"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 4.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "76CB49EC6C5B1A15"
+			tasks: [{
+				id: "06A2FF6C8FB70DC2"
+				type: "item"
+				item: "pamhc2foodextended:gourmetporkburgeritem"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 5.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "518B56A2BB2377AC"
+			tasks: [{
+				id: "49128A31DB3D86FA"
+				type: "item"
+				item: "pamhc2foodextended:onionhamburgeritem"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 6.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "47545DCFC12743F9"
+			tasks: [{
+				id: "0D5B7756935EEB16"
+				type: "item"
+				item: "pamhc2foodextended:paradiseburgeritem"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 7.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "4E30E0460A3C25AA"
+			tasks: [{
+				id: "222BDA094BC979B6"
+				type: "item"
+				item: "pamhc2foodextended:jalapenoburgeritem"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 6.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "235CFC8A81FF8550"
+			tasks: [{
+				id: "7477D0543A9E944E"
+				type: "item"
+				item: "farmersdelight:hamburger"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 4.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "675230B2FD1015A0"
+			tasks: [{
+				id: "4C775CE72C47123A"
+				type: "item"
+				item: "pamhc2foodcore:friedchickenitem"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 4.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "433B74E60F388202"
+			tasks: [{
+				id: "62C1B2E6DBDF590D"
+				type: "item"
+				item: "pamhc2foodcore:friesitem"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 5.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "74C33399BF9DD97E"
+			tasks: [{
+				id: "0DE362B9AAAD1FC6"
+				type: "item"
+				item: "pamhc2foodcore:potatochipsitem"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 6.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "59BD7368858F90EC"
+			tasks: [{
+				id: "6A2BF958910BF48F"
+				type: "item"
+				item: "pamhc2foodextended:bbqpotatochipsitem"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 7.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "5C18DEA5C79450A5"
+			tasks: [{
+				id: "5D8B06439F6FEC23"
+				type: "item"
+				item: "pamhc2foodextended:cheddarandsourcreampotatochipsitem"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 5.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "264CADC5DC7C474E"
+			tasks: [{
+				id: "5B0A5B5CCD9BB24E"
+				type: "item"
+				item: "pamhc2foodextended:chipsanddipitem"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 3.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "08DC7BE8DF9F11E7"
+			tasks: [{
+				id: "62DFBAC4875527C8"
+				type: "item"
+				item: "pamhc2foodextended:cornchipsitem"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 3.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "5D8BA8E64E444740"
+			tasks: [{
+				id: "63E86C67C73A43BA"
+				type: "item"
+				item: "pamhc2foodextended:sourcreamandonionpotatochipsitem"
+			}]
+		}
+		{
+			x: -12.0d
+			y: 2.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "687DE22CE69C979D"
+			tasks: [{
+				id: "79697BE70C7BC094"
+				type: "item"
+				item: "pamhc2foodextended:anchovypepperonipizzaitem"
+			}]
+		}
+		{
+			x: -12.0d
+			y: 5.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "6BA3F038113C28C9"
+			tasks: [{
+				id: "40484CBAFAF5A866"
+				type: "item"
+				item: "pamhc2foodextended:bbqchickenpizzaitem"
+			}]
+		}
+		{
+			x: -12.0d
+			y: 6.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "653309D7DD391344"
+			tasks: [{
+				id: "582DF324A33DE694"
+				type: "item"
+				item: "pamhc2foodextended:hamandpineapplepizzaitem"
+			}]
+		}
+		{
+			x: -12.0d
+			y: 7.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "241A2B0D2AEAF774"
+			tasks: [{
+				id: "2C844E3D7D5BD986"
+				type: "item"
+				item: "pamhc2foodextended:meatfeastpizzaitem"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 5.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "4D1D3C0EED5E066E"
+			tasks: [{
+				id: "5573A81DAA4B293F"
+				type: "item"
+				item: "pamhc2foodextended:pepperonipizzaitem"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 7.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "6A5B3D059707A33C"
+			tasks: [{
+				id: "426EDB104E45A114"
+				type: "item"
+				item: "pamhc2foodextended:pizzasoupitem"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 4.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "0AF24C8B3468F4FF"
+			tasks: [{
+				id: "319A2D3D6FE7489D"
+				type: "item"
+				item: "pamhc2foodextended:pizzasliceitem"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "099C1B18B07F89C6"
+			tasks: [{
+				id: "6F90805DD54D7464"
+				type: "item"
+				item: "pamhc2foodextended:cherrysodaitem"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 3.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "09129CBD20E63A4E"
+			tasks: [{
+				id: "64C768650F734377"
+				type: "item"
+				item: "pamhc2foodextended:colasodaitem"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 3.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "2534A59561ABFFE9"
+			tasks: [{
+				id: "66236971CFB217EA"
+				type: "item"
+				item: "pamhc2foodextended:gingersodaitem"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "18116AE1215828A2"
+			tasks: [{
+				id: "2C723E0CBD995AE8"
+				type: "item"
+				item: "pamhc2foodextended:grapefruitsodaitem"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 2.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "70E4616E60E76060"
+			tasks: [{
+				id: "3392E5B2E520D75E"
+				type: "item"
+				item: "pamhc2foodextended:grapesodaitem"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 2.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "7585CA86411C82A9"
+			tasks: [{
+				id: "3D71927845ECC884"
+				type: "item"
+				item: "pamhc2foodextended:lemonlimesodaitem"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 2.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "1C5C50A8C927944C"
+			tasks: [{
+				id: "41D5208287B7D42D"
+				type: "item"
+				item: "pamhc2foodextended:orangesodaitem"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 2.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "24AEC3624E5009DA"
+			tasks: [{
+				id: "5B9D7443EFB4EB71"
+				type: "item"
+				item: "pamhc2foodextended:rootbeersodaitem"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 2.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "6483354E41328C38"
+			tasks: [{
+				id: "3CE57D09D049D333"
+				type: "item"
+				item: "pamhc2foodextended:strawberrysodaitem"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -7.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "05847F3F4A6F279E"
+			tasks: [{
+				id: "1323BD5FF6A90AC4"
+				type: "item"
+				item: "pamhc2foodcore:applepieitem"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -6.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "6E387735485F95F8"
+			tasks: [{
+				id: "3F15A331EE5D0918"
+				type: "item"
+				item: "pamhc2foodcore:sweetberrypieitem"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -6.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "6F607DDBD20432B6"
+			tasks: [{
+				id: "7FD402AEB76F5EF2"
+				type: "item"
+				item: "pamhc2foodcore:chocolatecupcakeitem"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -6.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "613F3FDD359B9123"
+			tasks: [{
+				id: "34DF797329F04282"
+				type: "item"
+				item: "pamhc2foodcore:carrotcupcakeitem"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -6.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "6372D5DFA4EF45BB"
+			tasks: [{
+				id: "38FB2F7637654A84"
+				type: "item"
+				item: "pamhc2foodcore:pumpkincupcakeitem"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -6.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "0F2BF1E5DED3318D"
+			tasks: [{
+				id: "7D829B14B8ABAA83"
+				type: "item"
+				item: "pamhc2foodcore:caramelcupcakeitem"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -7.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "2505CDFA596B647A"
+			tasks: [{
+				id: "3AC5C23006DCC557"
+				type: "item"
+				item: "pamhc2foodcore:chocolatecakeitem"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -5.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "6B10D83D51EFBB8C"
+			tasks: [{
+				id: "1A174FFE15B9890B"
+				type: "item"
+				item: "pamhc2foodcore:cheesecakeitem"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -5.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "5FE0956323D0C84B"
+			tasks: [{
+				id: "68D1607B095DC094"
+				type: "item"
+				item: "pamhc2foodcore:pumpkincheesecakeitem"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -5.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "038365FB7C6BBF84"
+			tasks: [{
+				id: "261F62EA610E4E80"
+				type: "item"
+				item: "pamhc2foodcore:chocolatemuffinitem"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -5.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "707E7AD039200239"
+			tasks: [{
+				id: "649A78A298AB3CBD"
+				type: "item"
+				item: "pamhc2foodcore:carrotmuffinitem"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -5.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "47AD34DB02305C91"
+			tasks: [{
+				id: "36A2B59BCB0CD56B"
+				type: "item"
+				item: "pamhc2foodcore:pumpkinmuffinitem"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -7.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "6FA15B7FA3D0ABF2"
+			tasks: [{
+				id: "20428D450CE7B346"
+				type: "item"
+				item: "pamhc2foodcore:caramelmuffinitem"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -4.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "4165CD3134E48624"
+			tasks: [{
+				id: "118A01A27545D3DF"
+				type: "item"
+				item: "pamhc2foodcore:donutitem"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -4.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "7BB558DB57135613"
+			tasks: [{
+				id: "2DF59204F45FDD5B"
+				type: "item"
+				item: "pamhc2foodcore:chocolatedonutitem"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -4.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "59DAB1142FBBEC37"
+			tasks: [{
+				id: "5FB419A0BCC28267"
+				type: "item"
+				item: "pamhc2foodcore:jellydonutitem"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -4.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "3084E2B2B219FF30"
+			tasks: [{
+				id: "1870C9AACF5E5C9A"
+				type: "item"
+				item: "pamhc2foodcore:yogurtitem"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -4.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "3E5AE5F64E1DD867"
+			tasks: [{
+				id: "061760A12F534C7B"
+				type: "item"
+				item: "pamhc2foodcore:chocolateyogurtitem"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -7.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "503F875D61A3ADDF"
+			tasks: [{
+				id: "2C47D74255D5BB83"
+				type: "item"
+				item: "pamhc2foodcore:appleyogurtitem"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -3.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "0FC477BEFA92130C"
+			tasks: [{
+				id: "3B3C8E0C23BB38CB"
+				type: "item"
+				item: "pamhc2foodcore:sweetberryyogurtitem"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -3.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "422411BEB5A07C93"
+			tasks: [{
+				id: "4A0CB539CB72D2B0"
+				type: "item"
+				item: "pamhc2foodcore:pumpkinyogurtitem"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -3.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "78280ABA0BE8F100"
+			tasks: [{
+				id: "48BCC527756AFF17"
+				type: "item"
+				item: "pamhc2foodcore:caramelyogurtitem"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -3.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "2A4F7C1C15CDF239"
+			tasks: [{
+				id: "578665A7F400B23B"
+				type: "item"
+				item: "pamhc2foodcore:icecreamitem"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -3.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "77CB3275C57A98B6"
+			tasks: [{
+				id: "13A974E2208D5C52"
+				type: "item"
+				item: "pamhc2foodcore:chocolateicecreamitem"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -6.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "66BA251D84CE413C"
+			tasks: [{
+				id: "0425CD98E6AB486A"
+				type: "item"
+				item: "pamhc2foodcore:caramelicecreamitem"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -5.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "237131FA18B5D031"
+			tasks: [{
+				id: "77B5E5CDFEBF6489"
+				type: "item"
+				item: "pamhc2foodcore:cookiesandmilkitem"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -4.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "0E3534B9D78E098F"
+			tasks: [{
+				id: "71E1A1447A1AAAD7"
+				type: "item"
+				item: "pamhc2foodcore:chocolatebaritem"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "1DB56AB12D476404"
+			tasks: [{
+				id: "7FE6ABEA49286269"
+				type: "item"
+				item: "pamhc2foodcore:fruitsaladitem"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -7.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "72D14F76058D4F83"
+			tasks: [{
+				id: "7CA112911000F2C3"
+				type: "item"
+				item: "pamhc2foodcore:chocolatepuddingitem"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -7.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "036763A7717797B6"
+			tasks: [{
+				id: "1435FF5CD3454B46"
+				type: "item"
+				item: "pamhc2foodcore:chocolaterollitem"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -8.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "46897FC9DECC0940"
+			tasks: [{
+				id: "0FFF2884F735D83A"
+				type: "item"
+				item: "pamhc2foodcore:chocolatecaramelfudgeitem"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -8.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "6C99B9D22C9259C7"
+			tasks: [{
+				id: "47F042038389A8B3"
+				type: "item"
+				item: "pamhc2foodcore:cottoncandyitem"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -8.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "7F7C3BF499C10677"
+			tasks: [{
+				id: "580070942C401557"
+				type: "item"
+				item: "pamhc2foodcore:gummybearsitem"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -8.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "3CAE1CEC193F2373"
+			tasks: [{
+				id: "0935E542F003ED7C"
+				type: "item"
+				item: "pamhc2foodcore:fruitcrumbleitem"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -8.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "66B2509C2AD09ADE"
+			tasks: [{
+				id: "256609B28A9C112E"
+				type: "item"
+				item: "pamhc2foodextended:chocolatecoconutbaritem"
+			}]
+		}
+		{
+			title: "Desserts"
+			x: -9.5d
+			y: -1.5d
+			subtitle: "Not good for your diet"
+			description: ["Main Desserts ! Beware of the sugar !"]
+			dependencies: ["72845589E6B99367"]
+			id: "2D4224644051EE7A"
+			tasks: [{
+				id: "1D830C12B8627B81"
+				type: "checkmark"
+				title: "Desserts"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -8.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "4D4A4DDBAA652F84"
+			tasks: [{
+				id: "3531E820E43997C0"
+				type: "item"
+				item: "pamhc2foodextended:pomegranatepieitem"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -7.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "111E5833F56B4BCB"
+			tasks: [{
+				id: "0BED5E3FB82F2E76"
+				type: "item"
+				item: "pamhc2foodextended:starfruitpieitem"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -6.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "1E796DA18FD08EBE"
+			tasks: [{
+				id: "6FA656368979D6B3"
+				type: "item"
+				item: "pamhc2foodextended:keylimepieitem"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -5.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "5EF32D5B938085A3"
+			tasks: [{
+				id: "68B8FBF21CF112AD"
+				type: "item"
+				item: "pamhc2foodextended:pecanpieitem"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -4.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "78F91BDE7C3231A3"
+			tasks: [{
+				id: "13FCB56FE6AE691E"
+				type: "item"
+				item: "pamhc2foodextended:blackberrypieitem"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -3.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "5744A8B2BE3D7E67"
+			tasks: [{
+				id: "0B2A9373FB45B0AE"
+				type: "item"
+				item: "pamhc2foodextended:blueberrypieitem"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -9.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "556468EF0F144A2C"
+			tasks: [{
+				id: "5C62C32D2E838178"
+				type: "item"
+				item: "pamhc2foodextended:cactusfruitpieitem"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -9.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "3180F60BED42B098"
+			tasks: [{
+				id: "0633CFE9F4D71C38"
+				type: "item"
+				item: "pamhc2foodextended:candleberrypieitem"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -9.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "7422AB288B1C39A5"
+			tasks: [{
+				id: "48F82E367046B08C"
+				type: "item"
+				item: "pamhc2foodextended:pearpieitem"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -9.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "78E149F053F502AA"
+			tasks: [{
+				id: "754CA7AC53A03332"
+				type: "item"
+				item: "pamhc2foodextended:peachpieitem"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -9.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "37E2758080389BCA"
+			tasks: [{
+				id: "0A1D81E218C4C471"
+				type: "item"
+				item: "pamhc2foodextended:orangepieitem"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -9.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "58BC6FFD3E944EB3"
+			tasks: [{
+				id: "0E8BCF26A94CBBDF"
+				type: "item"
+				item: "pamhc2foodextended:cherrypieitem"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -9.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "1CB8A229CA297008"
+			tasks: [{
+				id: "241C17A165C292EC"
+				type: "item"
+				item: "pamhc2foodextended:pineapplepieitem"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -10.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "7B58EC6218A72FF9"
+			tasks: [{
+				id: "1F233D767B52FC18"
+				type: "item"
+				item: "pamhc2foodextended:kiwipieitem"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -10.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "4DDCF88138BFD47D"
+			tasks: [{
+				id: "1D0D901EAB820E84"
+				type: "item"
+				item: "pamhc2foodextended:greengrapepieitem"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -10.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "3E916C4C5BC3BB8C"
+			tasks: [{
+				id: "24733F9D639EA76A"
+				type: "item"
+				item: "pamhc2foodextended:grapepieitem"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -10.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "39F0C29A35615C01"
+			tasks: [{
+				id: "1578947ED7FFC7C3"
+				type: "item"
+				item: "pamhc2foodextended:cantaloupepieitem"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -10.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "7EEB480B6AD5EC1A"
+			tasks: [{
+				id: "4A8EE551CB2D75D6"
+				type: "item"
+				item: "pamhc2foodextended:strawberrypieitem"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -10.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "1B63502CFDF62EE2"
+			tasks: [{
+				id: "4B859A95171D7DD8"
+				type: "item"
+				item: "pamhc2foodextended:raspberrypieitem"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -10.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "44ED31CA20424FF6"
+			tasks: [{
+				id: "141EEB8768DFCFD4"
+				type: "item"
+				item: "pamhc2foodextended:mulberrypieitem"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -10.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "5595CA8293598F74"
+			tasks: [{
+				id: "3C27E3F26811DC75"
+				type: "item"
+				item: "pamhc2foodextended:juniperberrypieitem"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -9.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "2B4B59884A4880B7"
+			tasks: [{
+				id: "46FFA6224D73CF27"
+				type: "item"
+				item: "pamhc2foodextended:huckleberrypieitem"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -8.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "01E4011B2C7C1718"
+			tasks: [{
+				id: "18C97E67F81D0288"
+				type: "item"
+				item: "pamhc2foodextended:elderberrypieitem"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -7.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "3E9E2C65F0C83848"
+			tasks: [{
+				id: "11C57A9614DACE30"
+				type: "item"
+				item: "pamhc2foodextended:cranberrypieitem"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -6.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "04E08E508194C7E4"
+			tasks: [{
+				id: "0E4399C0AE9A339E"
+				type: "item"
+				item: "pamhc2foodextended:plumpieitem"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -5.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "6CDAB0D92F1C2D69"
+			tasks: [{
+				id: "0D1EFA9CA3B1A096"
+				type: "item"
+				item: "pamhc2foodextended:pawpawpieitem"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -4.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "6EFBE3556EB48847"
+			tasks: [{
+				id: "1CED906AB9C34B12"
+				type: "item"
+				item: "pamhc2foodextended:soursoppieitem"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -3.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "679AE914336DD2D4"
+			tasks: [{
+				id: "588E7B8B995C753B"
+				type: "item"
+				item: "pamhc2foodextended:apricotpieitem"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -11.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "2CEA92D79EC83EDB"
+			tasks: [{
+				id: "7393960EDB68103D"
+				type: "item"
+				item: "pamhc2foodextended:bananapieitem"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -11.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "1C25ADC29E2C5978"
+			tasks: [{
+				id: "7F33FB562347A43C"
+				type: "item"
+				item: "pamhc2foodextended:datepieitem"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -11.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "20CC82A88AA9ABA0"
+			tasks: [{
+				id: "755967B53E13EC31"
+				type: "item"
+				item: "pamhc2foodextended:dragonfruitpieitem"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -11.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "1464A5EFC3E73757"
+			tasks: [{
+				id: "16E1D9B87924FB18"
+				type: "item"
+				item: "pamhc2foodextended:figpieitem"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -11.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "237AE32AC284B63E"
+			tasks: [{
+				id: "027FE8960A649F9A"
+				type: "item"
+				item: "pamhc2foodextended:grapefruitpieitem"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -11.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "362390A152F3BDE4"
+			tasks: [{
+				id: "7908CEA10A87A9F6"
+				type: "item"
+				item: "pamhc2foodextended:mangopieitem"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -11.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "38F23686FAD1A66A"
+			tasks: [{
+				id: "612EBB21367026BD"
+				type: "item"
+				item: "pamhc2foodextended:papayapieitem"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -11.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "0BEC134A01C3FCCB"
+			tasks: [{
+				id: "6E4D157D7194EA5B"
+				type: "item"
+				item: "pamhc2foodextended:persimmonpieitem"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -3.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "2C0211FC7DD4D9ED"
+			tasks: [{
+				id: "6382D3EBDFF78C08"
+				type: "item"
+				item: "pamhc2foodextended:breadfruitpieitem"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -4.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "32193B58EB685079"
+			tasks: [{
+				id: "27146ADD1254BDCE"
+				type: "item"
+				item: "pamhc2foodextended:jackfruitpieitem"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -5.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "6E588217A086F73D"
+			tasks: [{
+				id: "485F37659D741AB1"
+				type: "item"
+				item: "pamhc2foodextended:lycheepieitem"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -6.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "22F2F610BBAE6E61"
+			tasks: [{
+				id: "1F2D2AB44147E1D0"
+				type: "item"
+				item: "pamhc2foodextended:guavapieitem"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -7.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "3562F21E797B56D7"
+			tasks: [{
+				id: "45AEF2CAB80014D3"
+				type: "item"
+				item: "pamhc2foodextended:passionfruitpieitem"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -8.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "0CD02B63951517C9"
+			tasks: [{
+				id: "4BC020E452F39AC1"
+				type: "item"
+				item: "pamhc2foodextended:rambutanpieitem"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -9.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "1E01C62D2A6C9B84"
+			tasks: [{
+				id: "5428BFC542B253E2"
+				type: "item"
+				item: "pamhc2foodextended:gooseberrypieitem"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -10.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "49D6796F523717E4"
+			tasks: [{
+				id: "79038ED3A1F4B7DE"
+				type: "item"
+				item: "pamhc2foodextended:durianpieitem"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -11.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "1C755FB836054D9D"
+			tasks: [{
+				id: "48037220E91A6B87"
+				type: "item"
+				item: "pamhc2foodextended:lemonpieitem"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -8.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "7C2A90363B398964"
+			tasks: [{
+				id: "06E9A2647331B6CE"
+				type: "item"
+				item: "pamhc2foodextended:limepieitem"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -13.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "4C51B364546A0399"
+			tasks: [{
+				id: "0DA18CF78EA0E6F2"
+				type: "item"
+				item: "pamhc2foodcore:carrotcakeitem"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -13.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "1190CEA023967834"
+			tasks: [{
+				id: "3AFB21E01C407611"
+				type: "item"
+				item: "pamhc2foodextended:maplesyruppancakesitem"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -12.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "5329651C6301C3DE"
+			tasks: [{
+				id: "0484D3975B0B9A96"
+				type: "item"
+				item: "pamhc2foodextended:pancakesitem"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -12.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "53597C4533DA3CC7"
+			tasks: [{
+				id: "47F80E93BB883049"
+				type: "item"
+				item: "pamhc2foodextended:chocolatesprinklecakeitem"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -13.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "6FC52D8FD3FA1778"
+			tasks: [{
+				id: "148D7C59A481C1C3"
+				type: "item"
+				item: "pamhc2foodextended:fruitcakeitem"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -12.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "529F017CC4685301"
+			tasks: [{
+				id: "32F6D09F52B4E466"
+				type: "item"
+				item: "pamhc2foodextended:holidaycakeitem"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -12.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "3441D4F0703B6B30"
+			tasks: [{
+				id: "7C232533FD53C7F9"
+				type: "item"
+				item: "pamhc2foodextended:lemondrizzlecakeitem"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -12.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "0400E906F4028FD1"
+			tasks: [{
+				id: "6414E75E4A8A7FF5"
+				type: "item"
+				item: "pamhc2foodextended:mochicakeitem"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -12.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "54FCB7C9B7E380BA"
+			tasks: [{
+				id: "14A57271A0BE9607"
+				type: "item"
+				item: "pamhc2foodextended:pineappleupsidedowncakeitem"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -12.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "280F1231E541D8E5"
+			tasks: [{
+				id: "447ED80E74B31153"
+				type: "item"
+				item: "pamhc2foodextended:sprinklescupcakeitem"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -12.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "199765E6BAB50A7A"
+			tasks: [{
+				id: "010787B9EBB5EC3A"
+				type: "item"
+				item: "pamhc2foodextended:redvelvetcupcakeitem"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -12.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "5D79283265C96617"
+			tasks: [{
+				id: "4CB75B2E14B3B622"
+				type: "item"
+				item: "pamhc2foodextended:rivermudcakeitem"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -8.0d
+			subtitle: "I do like bread yes"
+			description: ["Main Toastes of &aPam's HarvestCraft&r"]
+			dependencies: ["72845589E6B99367"]
+			id: "3805B08C81BEA8A0"
+			tasks: [{
+				id: "44F12A2923A15297"
+				type: "checkmark"
+				title: "Toasts"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -6.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "13E38B47B18336B9"
+			tasks: [{
+				id: "5BDB6DEE225FC7E6"
+				type: "item"
+				item: "pamhc2foodcore:applejellytoastitem"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -6.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "74B21B43D5523CFE"
+			tasks: [{
+				id: "0C658DD40F1DD031"
+				type: "item"
+				item: "pamhc2foodcore:melonjellytoastitem"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -6.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "75DE0CB78B35B3D0"
+			tasks: [{
+				id: "10A4E6173D9F5976"
+				type: "item"
+				item: "pamhc2foodcore:sweetberryjellytoastitem"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -5.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "2744AFD03C9A8BE9"
+			tasks: [{
+				id: "127EBF4A5DE97EC4"
+				type: "item"
+				item: "pamhc2foodextended:cinnamontoastitem"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -5.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "36DCBC67255100C1"
+			tasks: [{
+				id: "399D8CB0BF9BAF4A"
+				type: "item"
+				item: "pamhc2foodextended:frenchtoastitem"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -5.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "409FED5BD0BDB5F3"
+			tasks: [{
+				id: "6355D690A876626F"
+				type: "item"
+				item: "pamhc2foodextended:beansontoastitem"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "109D80B5EE2C5D3F"
+			tasks: [{
+				id: "781CC17CC9563A9E"
+				type: "item"
+				item: "pamhc2foodextended:cheeseontoastitem"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "454EBA63BBBD8911"
+			tasks: [{
+				id: "1B5D1ECF939343CB"
+				type: "item"
+				item: "pamhc2foodextended:grilledcheesevegemitetoastitem"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -4.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "126770478BE91B1E"
+			tasks: [{
+				id: "5C5B7C0F9B43B437"
+				type: "item"
+				item: "pamhc2foodextended:toastedwesternitem"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -6.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "0978161629340FDD"
+			tasks: [{
+				id: "6D75E434AF153018"
+				type: "item"
+				item: "pamhc2foodextended:toastsandwichitem"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -5.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "3A8557186268023A"
+			tasks: [{
+				id: "50B9ED3985A0226B"
+				type: "item"
+				item: "pamhc2foodextended:vegemiteontoastitem"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "0A42052C5946FDE9"
+			tasks: [{
+				id: "7DE4AD1425C40C24"
+				type: "item"
+				item: "pamhc2foodextended:blackberryjellytoastitem"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -11.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "68438631747FE96B"
+			tasks: [{
+				id: "0163EE4AD9C6CED0"
+				type: "item"
+				item: "pamhc2foodextended:blueberryjellytoastitem"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -11.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "6CD9EF49ABAB3AE1"
+			tasks: [{
+				id: "3A4BA6338CD262FF"
+				type: "item"
+				item: "pamhc2foodextended:cactusfruitjellytoastitem"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -11.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "50F73673A0BA4D36"
+			tasks: [{
+				id: "4407091DFCE62137"
+				type: "item"
+				item: "pamhc2foodextended:candleberryjellytoastitem"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -11.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "677630062322FC7D"
+			tasks: [{
+				id: "0B2C57FAE064DC45"
+				type: "item"
+				item: "pamhc2foodextended:cranberryjellytoastitem"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -6.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "75CFB7F9C546B511"
+			tasks: [{
+				id: "2234DB7ED406B9D7"
+				type: "item"
+				item: "pamhc2foodextended:elderberryjellytoastitem"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -5.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "2EAEB3C24286AA5A"
+			tasks: [{
+				id: "0AD408C965E42921"
+				type: "item"
+				item: "pamhc2foodextended:huckleberryjellytoastitem"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -4.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "6E233CD08604D6BE"
+			tasks: [{
+				id: "52C7D82C852715D2"
+				type: "item"
+				item: "pamhc2foodextended:juniperberryjellytoastitem"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -11.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "567363E3396E1FFC"
+			tasks: [{
+				id: "5657A2CF5836A2B6"
+				type: "item"
+				item: "pamhc2foodextended:mulberryjellytoastitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -6.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "37500B54ED9373C2"
+			tasks: [{
+				id: "5F77C489FD7EDE98"
+				type: "item"
+				item: "pamhc2foodextended:strawberryjellytoastitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "73C27F027B7D0192"
+			tasks: [{
+				id: "1A0B055D2669402F"
+				type: "item"
+				item: "pamhc2foodextended:raspberryjellytoastitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "4113082CE9A93DD8"
+			tasks: [{
+				id: "7C278DBA1E1C8D76"
+				type: "item"
+				item: "pamhc2foodextended:cantaloupejellytoastitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -11.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "6C50AB80E3867953"
+			tasks: [{
+				id: "1072AA210301027F"
+				type: "item"
+				item: "pamhc2foodextended:grapejellytoastitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -7.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "4F618D27D4A27997"
+			tasks: [{
+				id: "21BEA45811A210F4"
+				type: "item"
+				item: "pamhc2foodextended:greengrapejellytoastitem"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -7.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "6B25F56F29C47A7C"
+			tasks: [{
+				id: "2EA729821034565E"
+				type: "item"
+				item: "pamhc2foodextended:kiwijellytoastitem"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -7.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "2199D23C55B5EAD4"
+			tasks: [{
+				id: "68A55DF6E82572F8"
+				type: "item"
+				item: "pamhc2foodextended:pineapplejellytoastitem"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -7.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "28FF6E2F6293B347"
+			tasks: [{
+				id: "006B911E7A096B3D"
+				type: "item"
+				item: "pamhc2foodextended:cherryjellytoastitem"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -7.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "27A2C07EE9AC78C1"
+			tasks: [{
+				id: "2A24A3AA5348F294"
+				type: "item"
+				item: "pamhc2foodextended:orangejellytoastitem"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -7.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "732726A4A7259E1A"
+			tasks: [{
+				id: "2C375A241FB9074F"
+				type: "item"
+				item: "pamhc2foodextended:pearjellytoastitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -10.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "647EE476DEF1D853"
+			tasks: [{
+				id: "355335922B0235A7"
+				type: "item"
+				item: "pamhc2foodextended:peachjellytoastitem"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -10.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "3C65FFF838C020A9"
+			tasks: [{
+				id: "5F3760C49D0D4565"
+				type: "item"
+				item: "pamhc2foodextended:plumjellytoastitem"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -10.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "41DCBD29F543E728"
+			tasks: [{
+				id: "47E6A4AE3481A3D0"
+				type: "item"
+				item: "pamhc2foodextended:pawpawjellytoastitem"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -10.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "3A1BC8505368EC0D"
+			tasks: [{
+				id: "55BABC3ED0B904FF"
+				type: "item"
+				item: "pamhc2foodextended:soursopjellytoastitem"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -10.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "554C0E18D197933D"
+			tasks: [{
+				id: "5DD8CC4B3E88076F"
+				type: "item"
+				item: "pamhc2foodextended:apricotjellytoastitem"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -10.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "5911E9ACF0445D83"
+			tasks: [{
+				id: "5881969681C98E12"
+				type: "item"
+				item: "pamhc2foodextended:bananajellytoastitem"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -7.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "434023ACB94127EC"
+			tasks: [{
+				id: "498C998570744394"
+				type: "item"
+				item: "pamhc2foodextended:bananajellytoastitem"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -6.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "765A985026605797"
+			tasks: [{
+				id: "5B80693034019F06"
+				type: "item"
+				item: "pamhc2foodextended:datejellytoastitem"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -5.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "1527E83623499754"
+			tasks: [{
+				id: "33E8CD095486248E"
+				type: "item"
+				item: "pamhc2foodextended:dragonfruitjellytoastitem"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -4.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "4DC32BFCED32F76F"
+			tasks: [{
+				id: "17A59E36BC25C2F2"
+				type: "item"
+				item: "pamhc2foodextended:figjellytoastitem"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -11.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "6BC000808AA022E7"
+			tasks: [{
+				id: "3BD950897A391C22"
+				type: "item"
+				item: "pamhc2foodextended:grapefruitjellytoastitem"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -10.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "6EB6ECAA8F943B59"
+			tasks: [{
+				id: "73ABE0FA7A713CB3"
+				type: "item"
+				item: "pamhc2foodextended:mangojellytoastitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -8.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "14F718C8CA4EB565"
+			tasks: [{
+				id: "6778D5ED9327EAEC"
+				type: "item"
+				item: "pamhc2foodextended:papayajellytoastitem"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -8.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "5CD66C5683DCEF25"
+			tasks: [{
+				id: "292230129807872D"
+				type: "item"
+				item: "pamhc2foodextended:persimmonjellytoastitem"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -8.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "57BA755E61E29250"
+			tasks: [{
+				id: "539967041E928DD5"
+				type: "item"
+				item: "pamhc2foodextended:pomegranatejellytoastitem"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -8.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "27E7D53BD5754293"
+			tasks: [{
+				id: "512A569E47C36FBF"
+				type: "item"
+				item: "pamhc2foodextended:starfruitjellytoastitem"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -8.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "30305A1988D563F8"
+			tasks: [{
+				id: "628EEE85D0792597"
+				type: "item"
+				item: "pamhc2foodextended:breadfruitjellytoastitem"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -8.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "636BD6DB3C48655F"
+			tasks: [{
+				id: "29365C035F823255"
+				type: "item"
+				item: "pamhc2foodextended:jackfruitjellytoastitem"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -8.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "3A0A920E95A92B02"
+			tasks: [{
+				id: "5DB6560DA350DC4F"
+				type: "item"
+				item: "pamhc2foodextended:guavajellytoastitem"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -9.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "588F302F9108476A"
+			tasks: [{
+				id: "0448586FB1A5C52F"
+				type: "item"
+				item: "pamhc2foodextended:lycheejellytoastitem"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -9.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "4CC89799115068FA"
+			tasks: [{
+				id: "20AEE8A9679E27E4"
+				type: "item"
+				item: "pamhc2foodextended:passionfruitjellytoastitem"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -9.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "04F90F7CE8372F4A"
+			tasks: [{
+				id: "0D50C04DD7C8F7C7"
+				type: "item"
+				item: "pamhc2foodextended:rambutanjellytoastitem"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -9.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "3E78EFE996AE40C5"
+			tasks: [{
+				id: "141B5408F3E47408"
+				type: "item"
+				item: "pamhc2foodextended:tamarindjellytoastitem"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -9.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "3D449AC030D52958"
+			tasks: [{
+				id: "7470DE656745EE54"
+				type: "item"
+				item: "pamhc2foodextended:gooseberryjellytoastitem"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -9.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "130146FF12D81D9F"
+			tasks: [{
+				id: "3F58B98C0C6BDE66"
+				type: "item"
+				item: "pamhc2foodextended:durianjellytoastitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -9.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "7B00F3EA3C372360"
+			tasks: [{
+				id: "3AF2F2FA5660872B"
+				type: "item"
+				item: "pamhc2foodextended:lemonjellytoastitem"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -12.5d
+			dependencies: ["3805B08C81BEA8A0"]
+			id: "3582ED079FF66C3E"
+			tasks: [{
+				id: "74C0C7B1F75492C0"
+				type: "item"
+				item: "pamhc2foodextended:limejellytoastitem"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			subtitle: "Head freezer"
+			description: ["If it gets very hot here are all of the smoothies of &aPam's HarvestCraft&r"]
+			dependencies: ["72845589E6B99367"]
+			id: "02214A119C000B9D"
+			tasks: [{
+				id: "3CB59B562EE9C64D"
+				type: "checkmark"
+				title: "Smoothies"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -12.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "3E170224584D1BCE"
+			tasks: [{
+				id: "0DD695028A938418"
+				type: "item"
+				item: "pamhc2foodcore:applesmoothieitem"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -12.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "5233C0A293B8B025"
+			tasks: [{
+				id: "2B9DBBA8EBC4C339"
+				type: "item"
+				item: "pamhc2foodcore:melonsmoothieitem"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -12.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "03FA6AB05531002D"
+			tasks: [{
+				id: "2B5A73FBF5CC5960"
+				type: "item"
+				item: "pamhc2foodcore:sweetberrysmoothieitem"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -12.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "753BAE8B9F89DEE5"
+			tasks: [{
+				id: "5CD8D2568C9D4C15"
+				type: "item"
+				item: "pamhc2foodextended:blueberrysmoothieitem"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -12.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "06E40F2A7B2872EC"
+			tasks: [{
+				id: "62F8153FD5DE638F"
+				type: "item"
+				item: "pamhc2foodextended:blackberrysmoothieitem"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -11.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "4DFBAFA5B87FE003"
+			tasks: [{
+				id: "6EC66DAC8017DF93"
+				type: "item"
+				item: "pamhc2foodextended:cactusfruitsmoothieitem"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -11.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "034A9F78A5BB4DC4"
+			tasks: [{
+				id: "5CCD378AC65ECC27"
+				type: "item"
+				item: "pamhc2foodextended:candleberrysmoothieitem"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -11.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "786DAAD3172E6460"
+			tasks: [{
+				id: "732E1EB025182A16"
+				type: "item"
+				item: "pamhc2foodextended:cranberrysmoothieitem"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -11.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "5D1DE68DB52E3517"
+			tasks: [{
+				id: "191BAA05803061B6"
+				type: "item"
+				item: "pamhc2foodextended:elderberrysmoothieitem"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -11.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "3322802FF9B46F25"
+			tasks: [{
+				id: "1616AAF6C351C318"
+				type: "item"
+				item: "pamhc2foodextended:huckleberrysmoothieitem"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -10.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "1284FB81C501C43A"
+			tasks: [{
+				id: "7D60889F28781DF1"
+				type: "item"
+				item: "pamhc2foodextended:juniperberrysmoothieitem"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -10.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "6B9608128CD411BC"
+			tasks: [{
+				id: "2B372B654067B7E7"
+				type: "item"
+				item: "pamhc2foodextended:raspberrysmoothieitem"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -10.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "7956BF4793D50C8F"
+			tasks: [{
+				id: "622149F0E47869FB"
+				type: "item"
+				item: "pamhc2foodextended:mulberrysmoothieitem"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -10.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "18614EF29DCD772B"
+			tasks: [{
+				id: "5E2309AB5360462B"
+				type: "item"
+				item: "pamhc2foodextended:strawberrysmoothieitem"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -10.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "70C0BD03C92D3F4D"
+			tasks: [{
+				id: "768E912406B41D03"
+				type: "item"
+				item: "pamhc2foodextended:cantaloupesmoothieitem"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -9.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "7A908D54B69DD35D"
+			tasks: [{
+				id: "2FB6BDB323A065E4"
+				type: "item"
+				item: "pamhc2foodextended:grapesmoothieitem"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -9.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "2DD350408813AC77"
+			tasks: [{
+				id: "1526C9289D903EC2"
+				type: "item"
+				item: "pamhc2foodextended:grapefruitsmoothieitem"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -9.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "10E80E4B694BBC9D"
+			tasks: [{
+				id: "61A61E3B887D1D29"
+				type: "item"
+				item: "pamhc2foodextended:figsmoothieitem"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -9.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "7780BAD024733BA3"
+			tasks: [{
+				id: "6EA8F69C98D2200A"
+				type: "item"
+				item: "pamhc2foodextended:dragonfruitsmoothieitem"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -9.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "222CF5A1FDF283FD"
+			tasks: [{
+				id: "746B7104543FB525"
+				type: "item"
+				item: "pamhc2foodextended:datesmoothieitem"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -8.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "08DBC809F4E221FA"
+			tasks: [{
+				id: "1056B6E7F090DF01"
+				type: "item"
+				item: "pamhc2foodextended:bananasmoothieitem"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -8.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "081A7EC9981771BC"
+			tasks: [{
+				id: "636DE5D67B9D808C"
+				type: "item"
+				item: "pamhc2foodextended:apricotsmoothieitem"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -8.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "12647D1649C403F0"
+			tasks: [{
+				id: "6FB80701E4667869"
+				type: "item"
+				item: "pamhc2foodextended:soursopsmoothieitem"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -8.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "6265891A929B144C"
+			tasks: [{
+				id: "286A5E595A01314D"
+				type: "item"
+				item: "pamhc2foodextended:pawpawsmoothieitem"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -7.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "47E2AE24D8802AB6"
+			tasks: [{
+				id: "1B9651B1E8DD6758"
+				type: "item"
+				item: "pamhc2foodextended:pearsmoothieitem"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -8.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "7C111FA326D1FA2C"
+			tasks: [{
+				id: "68586849546F3B04"
+				type: "item"
+				item: "pamhc2foodextended:plumsmoothieitem"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "3F65E3D3DD3E06CF"
+			tasks: [{
+				id: "23B3CBD858CE69E4"
+				type: "item"
+				item: "pamhc2foodextended:peachsmoothieitem"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -7.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "1252CE5EC835FC10"
+			tasks: [{
+				id: "00EE7E3C04718F8A"
+				type: "item"
+				item: "pamhc2foodextended:orangesmoothieitem"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -7.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "72F6AC35AD2F93C1"
+			tasks: [{
+				id: "09247CB47632A158"
+				type: "item"
+				item: "pamhc2foodextended:cherrysmoothieitem"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -7.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "39E2BF8A4FA73F97"
+			tasks: [{
+				id: "030867847F19DBE9"
+				type: "item"
+				item: "pamhc2foodextended:pineapplesmoothieitem"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -12.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "600184512A4AECBF"
+			tasks: [{
+				id: "76710E38B8225B12"
+				type: "item"
+				item: "pamhc2foodextended:kiwismoothieitem"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -11.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "20838644152EC91B"
+			tasks: [{
+				id: "36DE01F9D9012ECA"
+				type: "item"
+				item: "pamhc2foodextended:greengrapesmoothieitem"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -10.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "3A210321B5A25C9C"
+			tasks: [{
+				id: "18AE30BBD99BC613"
+				type: "item"
+				item: "pamhc2foodextended:mangosmoothieitem"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -9.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "6C503FCD47F2FC14"
+			tasks: [{
+				id: "6FC307862C600FF1"
+				type: "item"
+				item: "pamhc2foodextended:papayasmoothieitem"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -8.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "0292A07C5926F238"
+			tasks: [{
+				id: "21A235D9334C6B8A"
+				type: "item"
+				item: "pamhc2foodextended:persimmonsmoothieitem"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -7.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "660735876593DC22"
+			tasks: [{
+				id: "7F0A039C3E4207BD"
+				type: "item"
+				item: "pamhc2foodextended:pomegranatesmoothieitem"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			subtitle: "Might be handy !"
+			description: ["Here are the main tools for &aPam's HarvestCraft&r"]
+			dependencies: ["72845589E6B99367"]
+			id: "7A419FAAEDC02604"
+			tasks: [{
+				id: "4F9D8A46C63A28F9"
+				type: "checkmark"
+				title: "Tools"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -13.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "62E6E62130A6F2F1"
+			tasks: [{
+				id: "1456A48FDAF85304"
+				type: "item"
+				item: "pamhc2foodextended:starfruitsmoothieitem"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -13.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "4A31B5FD36736B5C"
+			tasks: [{
+				id: "0921DC4CD37D3167"
+				type: "item"
+				item: "pamhc2foodextended:breadfruitsmoothieitem"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -13.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "5417D3A785192880"
+			tasks: [{
+				id: "0CFE809DB25FEB47"
+				type: "item"
+				item: "pamhc2foodextended:jackfruitsmoothieitem"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -13.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "0C9EDD6ED536C5F3"
+			tasks: [{
+				id: "137B6B85634115C7"
+				type: "item"
+				item: "pamhc2foodextended:guavasmoothieitem"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -13.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "3A66C37E53B881E5"
+			tasks: [{
+				id: "549F5AFF4E6C21FC"
+				type: "item"
+				item: "pamhc2foodextended:lycheesmoothieitem"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -13.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "1B00285157CC3709"
+			tasks: [{
+				id: "0CF10BD8B2556CCD"
+				type: "item"
+				item: "pamhc2foodextended:passionfruitsmoothieitem"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -14.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "2704E2006E581943"
+			tasks: [{
+				id: "6D45654D6934BE4E"
+				type: "item"
+				item: "pamhc2foodextended:rambutansmoothieitem"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -14.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "4FFA03F264E58BF4"
+			tasks: [{
+				id: "3971138D06FC55DE"
+				type: "item"
+				item: "pamhc2foodextended:tamarindsmoothieitem"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -14.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "02957DF717F55D83"
+			tasks: [{
+				id: "326C7AF61657121A"
+				type: "item"
+				item: "pamhc2foodextended:gooseberrysmoothieitem"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -14.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "5F320F98CA46F734"
+			tasks: [{
+				id: "329FD2F5438450DF"
+				type: "item"
+				item: "pamhc2foodextended:duriansmoothieitem"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -14.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "47535595E1DC21D1"
+			tasks: [{
+				id: "48B2BA9EE157C45C"
+				type: "item"
+				item: "pamhc2foodextended:lemonsmoothieitem"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -14.5d
+			dependencies: ["02214A119C000B9D"]
+			id: "74E0F051DD6260C6"
+			tasks: [{
+				id: "7996AFCEAF12608D"
+				type: "item"
+				item: "pamhc2foodextended:limesmoothieitem"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -13.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "529CB0B74CD509DB"
+			tasks: [{
+				id: "480BBFD055FE2F9A"
+				type: "item"
+				item: "pamhc2foodcore:smoresitem"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -13.5d
+			dependencies: ["2D4224644051EE7A"]
+			id: "1BE66A3D5C13DBF8"
+			tasks: [{
+				id: "7B90138A1FA4708A"
+				type: "item"
+				item: "pamhc2foodcore:trailmixitem"
+			}]
+		}
+		{
+			x: -13.0d
+			y: 2.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "1050F861F774D5D4"
+			tasks: [{
+				id: "68331C29DCFEC431"
+				type: "item"
+				item: "pamhc2foodcore:crackeritem"
+			}]
+		}
+		{
+			x: -13.0d
+			y: 7.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "227B25CFC2EE180D"
+			tasks: [{
+				id: "6BE6BE02B70BC9D1"
+				type: "item"
+				item: "pamhc2foodcore:softpretzelitem"
+			}]
+		}
+		{
+			x: -13.0d
+			y: 4.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "64A9C1DDDE0489AF"
+			tasks: [{
+				id: "623DE215E1C92BE5"
+				type: "item"
+				item: "pamhc2foodextended:rootbeerfloatitem"
+			}]
+		}
+		{
+			x: -13.0d
+			y: 6.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "043A2F523EEA179D"
+			tasks: [{
+				id: "6CAFE5B867159BCB"
+				type: "item"
+				item: "pamhc2foodextended:fishtacoitem"
+			}]
+		}
+		{
+			x: -13.0d
+			y: 3.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "4FF3895E8116C695"
+			tasks: [{
+				id: "2CA9FEFEB0F96B73"
+				type: "item"
+				item: "pamhc2foodextended:tacoitem"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			subtitle: "Happy Meals"
+			description: [
+				"Get can enough?? Here are the reals dishes from &aPam's HarvestCraft&r ! "
+				"Bon appétit ! "
+			]
+			dependencies: ["72845589E6B99367"]
+			id: "486D752E708E00F9"
+			tasks: [{
+				id: "0FE938607B114107"
+				type: "checkmark"
+				title: "Dishes"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 11.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "3D7A8748FA43FFB4"
+			tasks: [{
+				id: "0C9512D22248E120"
+				type: "item"
+				item: "pamhc2foodcore:fishandchipsitem"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 11.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "780C8BCB7CA1CBA6"
+			tasks: [{
+				id: "6AA9C11868246317"
+				type: "item"
+				item: "pamhc2foodcore:butteredbakedpotatoitem"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 11.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "5CEFFB5C7D6CBD05"
+			tasks: [{
+				id: "45141348328BDBB2"
+				type: "item"
+				item: "pamhc2foodcore:mashedpotatoesitem"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 11.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "4F9C295DBC4D08AF"
+			tasks: [{
+				id: "45C298F42121F2AD"
+				type: "item"
+				item: "pamhc2foodextended:refriedbeansitem"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 11.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "5DBC6A6B304D1CF7"
+			tasks: [{
+				id: "25C77E7E3CBFCFF9"
+				type: "item"
+				item: "pamhc2foodcore:potatosoupitem"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 12.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "0650122A8CE90BDC"
+			tasks: [{
+				id: "1DDA54D5EBC25684"
+				type: "item"
+				item: "pamhc2foodextended:spagettiitem"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 12.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "7F02D11F801AC896"
+			tasks: [{
+				id: "14EA171B03AF9A1B"
+				type: "item"
+				item: "pamhc2foodextended:spaghettidinneritem"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 12.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "52DDB6DC1FD2D96C"
+			tasks: [{
+				id: "26461FE4F4A16D6C"
+				type: "item"
+				item: "pamhc2foodextended:breadedporkchopitem"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 12.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "2C04938A6FD4AAFE"
+			tasks: [{
+				id: "53E7D7DEA553EFC7"
+				type: "item"
+				item: "pamhc2foodextended:broccolimacitem"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 12.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "631CFBB5C5466BC5"
+			tasks: [{
+				id: "6B8841FCF75F90FA"
+				type: "item"
+				item: "pamhc2foodcore:carrotsoupitem"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 13.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "2BD31F05D3A295CB"
+			tasks: [{
+				id: "05988D97D9F059F8"
+				type: "item"
+				item: "pamhc2foodcore:epicbaconitem"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 13.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "7497A7909CC79158"
+			tasks: [{
+				id: "115C4A68F4A81595"
+				type: "item"
+				item: "pamhc2foodcore:pumpkinsoupitem"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 13.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "7DBA75B9C6BA50FD"
+			tasks: [{
+				id: "0E93AACBC27FB068"
+				type: "item"
+				item: "pamhc2foodcore:baconandeggsitem"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 13.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "237B8B85BB5EC75C"
+			tasks: [{
+				id: "68A3A67212261553"
+				type: "item"
+				item: "pamhc2foodcore:roastedsunflowerseedsitem"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 13.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "106A1B3671867E55"
+			tasks: [{
+				id: "7C1F499B2EA08D90"
+				type: "item"
+				item: "pamhc2foodcore:stewitem"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 14.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "04E73F191D10F78C"
+			tasks: [{
+				id: "3676A39F30BFC6B5"
+				type: "item"
+				item: "pamhc2foodcore:bakedvegetablemedlyitem"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 14.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "2F4D8417531ECD03"
+			tasks: [{
+				id: "1857E4C0492593D5"
+				type: "item"
+				item: "pamhc2foodextended:cookedtofabbititem"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 14.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "4847AB11ED3C2510"
+			tasks: [{
+				id: "3FF0EDE828A0C144"
+				type: "item"
+				item: "pamhc2foodextended:cookedtofaconitem"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 14.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "36C883FA7C0F8550"
+			tasks: [{
+				id: "52D07DAEAC8ED2C8"
+				type: "item"
+				item: "pamhc2foodextended:cookedtofeakitem"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 14.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "62E202C99F7346C7"
+			tasks: [{
+				id: "19940B2F4067C088"
+				type: "item"
+				item: "pamhc2foodextended:cookedtofickenitem"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 15.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "2FABB695F2D0B16D"
+			tasks: [{
+				id: "4D099C6A9EFF1DD3"
+				type: "item"
+				item: "pamhc2foodextended:cookedtofishitem"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 15.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "33FB67EE0553B669"
+			tasks: [{
+				id: "33805491526D384B"
+				type: "item"
+				item: "pamhc2foodextended:cookedtofuttonitem"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 15.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "02D903F2D70CC7F7"
+			tasks: [{
+				id: "2AE2E8462D8C214B"
+				type: "item"
+				item: "pamhc2foodcore:fishsticksitem"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 15.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "3564B8F5D9D959CB"
+			tasks: [{
+				id: "18C9C957B197EBED"
+				type: "item"
+				item: "pamhc2foodextended:chimichangaitem"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 15.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "5A3CAFB2F7D567AB"
+			tasks: [{
+				id: "733838758838BBB1"
+				type: "item"
+				item: "pamhc2foodextended:beansandriceitem"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 16.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "0A95D16A41E9D047"
+			tasks: [{
+				id: "2EB52F642D34FC02"
+				type: "item"
+				item: "pamhc2foodextended:chipsandsalsaitem"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 16.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "02DFC22860BD4A53"
+			tasks: [{
+				id: "6BF10E619BB87338"
+				type: "item"
+				item: "pamhc2foodextended:quesadillaitem"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 16.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "6CA09867FFD89F39"
+			tasks: [{
+				id: "10FDB4A1860F665B"
+				type: "item"
+				item: "pamhc2foodextended:deluxenachoesitem"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 16.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "679A30DC5CAFC800"
+			tasks: [{
+				id: "6A46DA4DA4486DD4"
+				type: "item"
+				item: "pamhc2foodextended:enchiladaitem"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 16.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "23075F221D946E83"
+			tasks: [{
+				id: "1A9DB3046FC2B99A"
+				type: "item"
+				item: "pamhc2foodextended:fiestacornsaladitem"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 11.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "55A2EB1415B9422E"
+			tasks: [{
+				id: "2CFAA3952C3165AE"
+				type: "item"
+				item: "pamhc2foodextended:stuffedchilipeppersitem"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 12.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "64908F5E338F5509"
+			tasks: [{
+				id: "3BB619EEC3FEAB0C"
+				type: "item"
+				item: "pamhc2foodextended:garlicbreaditem"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 13.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "034132B02CD23B0A"
+			tasks: [{
+				id: "00AB026321AA81F6"
+				type: "item"
+				item: "pamhc2foodextended:garlicchickenitem"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 14.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "7B8E560B9D4BCACA"
+			tasks: [{
+				id: "63E758B49619CF37"
+				type: "item"
+				item: "pamhc2foodextended:nachoesitem"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 15.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "12EC579CE96323CF"
+			tasks: [{
+				id: "2BCEFD5C76B1CAC7"
+				type: "item"
+				item: "pamhc2foodextended:garlicmashedpotatoesitem"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 16.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "416B9553CFFB2976"
+			tasks: [{
+				id: "1A3B3E15885798E7"
+				type: "item"
+				item: "pamhc2foodcore:glazedcarrotsitem"
+			}]
+		}
+		{
+			x: -13.0d
+			y: 5.0d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "28D5080AF50FB801"
+			tasks: [{
+				id: "502BA130B446B81E"
+				type: "item"
+				item: "pamhc2foodextended:mcpamitem"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 2.5d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "65B23BFCF06F00BA"
+			tasks: [{
+				id: "53218AA80847BBF5"
+				type: "item"
+				item: "pamhc2foodextended:cookoutmealitem"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 6.5d
+			dependencies: ["7E8EDE2BE3EF6163"]
+			id: "23DB16FD80033EBC"
+			tasks: [{
+				id: "176B257E37B8BF0E"
+				type: "item"
+				item: "pamhc2foodextended:bratwurstitem"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 11.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "584684F8C34A3509"
+			tasks: [{
+				id: "6A2A47B3393DE66A"
+				type: "item"
+				item: "pamhc2foodextended:chilidogitem"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 12.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "05D5B05828B6CE26"
+			tasks: [{
+				id: "466554F1D858D755"
+				type: "item"
+				item: "pamhc2foodextended:chickennoodlesoupitem"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 13.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "0438CEE35982596F"
+			tasks: [{
+				id: "3163BD6BC9101FA3"
+				type: "item"
+				item: "pamhc2foodextended:cinnamonappleoatmealitem"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 14.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "1CC4458A960A87BA"
+			tasks: [{
+				id: "6A869DCF412B3938"
+				type: "item"
+				item: "pamhc2foodextended:coleslawitem"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 15.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "10A70CB7F7D1D74D"
+			tasks: [{
+				id: "12BF3044C8B06F75"
+				type: "item"
+				item: "pamhc2foodextended:breakfastburritoitem"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 16.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "499B0B97F49D6F2A"
+			tasks: [{
+				id: "68E9DE9550FEE410"
+				type: "item"
+				item: "pamhc2foodextended:buttertartitem"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 17.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "06786A22C7EFDD80"
+			tasks: [{
+				id: "484235DAE9AC2AF9"
+				type: "item"
+				item: "pamhc2foodextended:californiarollitem"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 17.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "2655B926722E6FA5"
+			tasks: [{
+				id: "157AC8982CE749AC"
+				type: "item"
+				item: "pamhc2foodextended:cantonesegreensitem"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 17.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "41AB8ACFFEEE0D2F"
+			tasks: [{
+				id: "2BBB72E140DBB2F2"
+				type: "item"
+				item: "pamhc2foodextended:greenbeancasseroleitem"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 17.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "3F48CABCE9B7C8A0"
+			tasks: [{
+				id: "10E319CE4BEF9114"
+				type: "item"
+				item: "pamhc2foodextended:loadedbakedpotatoitem"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 17.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "08984D3F85911C46"
+			tasks: [{
+				id: "53205D6348ECFC74"
+				type: "item"
+				item: "pamhc2foodextended:potatoskinsitem"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 17.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "66445CB2FBCB2271"
+			tasks: [{
+				id: "617A789C89F12D70"
+				type: "item"
+				item: "pamhc2foodextended:mozzerellasticksitem"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 17.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "7C1121C366055A9E"
+			tasks: [{
+				id: "628E61080B4BC406"
+				type: "item"
+				item: "pamhc2foodextended:peachesandcreamoatmealitem"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 19.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "10FE6DB6658C3961"
+			tasks: [{
+				id: "57D90EE1430D3AB0"
+				type: "item"
+				item: "pamhc2foodextended:eggsaladitem"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 12.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "45D2D11E9D7B0CD6"
+			tasks: [{
+				id: "3F88BAF6E65D7A3C"
+				type: "item"
+				item: "pamhc2foodextended:bbqchickenbiscuititem"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 13.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "04CAAE41D0668201"
+			tasks: [{
+				id: "75A74DAA53F78143"
+				type: "item"
+				item: "pamhc2foodextended:apricotglazedporkitem"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 14.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "08AF3DE30135E0A9"
+			tasks: [{
+				id: "5EA2FC2A1A8198AA"
+				type: "item"
+				item: "pamhc2foodextended:asparagusquicheitem"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 15.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "55948427F7A05BD5"
+			tasks: [{
+				id: "703C75F0CDE386A5"
+				type: "item"
+				item: "pamhc2foodextended:avocadoburritoitem"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 11.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "7815D7B3F95291F6"
+			tasks: [{
+				id: "064D5921AB090381"
+				type: "item"
+				item: "pamhc2foodextended:bakedalaskaitem"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 12.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "5A329B099BC53D41"
+			tasks: [{
+				id: "7FA063A7ADC918E6"
+				type: "item"
+				item: "pamhc2foodextended:babaganoushitem"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 18.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "4BFEB7C32731C2AA"
+			tasks: [{
+				id: "2B390F6FFA26410C"
+				type: "item"
+				item: "pamhc2foodextended:bakedhamitem"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 18.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "10034BA46BBA228A"
+			tasks: [{
+				id: "5FD3FB2D9ADD2132"
+				type: "item"
+				item: "pamhc2foodextended:baklavaitem"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 18.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "598963BF90AC9632"
+			tasks: [{
+				id: "02CA952035A99823"
+				type: "item"
+				item: "pamhc2foodextended:bibimbapitem"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 18.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "7A2061A124708C74"
+			tasks: [{
+				id: "788A32D7C3788A02"
+				type: "item"
+				item: "pamhc2foodextended:berryvinaigrettesaladitem"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 18.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "6E0D5026E08FF7F8"
+			tasks: [{
+				id: "339CE777A5221C32"
+				type: "item"
+				item: "pamhc2foodextended:battenbergitem"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 18.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "68976B51D7054C2A"
+			tasks: [{
+				id: "35E39A2A9CEA0201"
+				type: "item"
+				item: "pamhc2foodextended:bbqjackfruititem"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 18.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "767A0A132D095658"
+			tasks: [{
+				id: "7CF94947863F43E3"
+				type: "item"
+				item: "pamhc2foodextended:bentoboxitem"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 11.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "76A528D28BCB4FE7"
+			tasks: [{
+				id: "562B13D974AFAE54"
+				type: "item"
+				item: "pamhc2foodextended:beansontoastitem"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 13.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "3FA5845909EF4923"
+			tasks: [{
+				id: "4EB03D7E96D7EADA"
+				type: "item"
+				item: "pamhc2foodextended:berrymeringuenestitem"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 14.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "4CB8FF256F0179D7"
+			tasks: [{
+				id: "08EC1E89CFD9E770"
+				type: "item"
+				item: "pamhc2foodextended:batteredsausageitem"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 15.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "10F4ED9D282B45ED"
+			tasks: [{
+				id: "2659DAC32CE76FC6"
+				type: "item"
+				item: "pamhc2foodextended:cornonthecobitem"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 19.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "2205A6D53F3CF13C"
+			tasks: [{
+				id: "1F82DCCD638D7062"
+				type: "item"
+				item: "pamhc2foodextended:corndogitem"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 16.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "64FCD0D1F48A9B1C"
+			tasks: [{
+				id: "113413A996C1486D"
+				type: "item"
+				item: "pamhc2foodextended:cantonesenoodlesitem"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 17.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "313AFAFB149D1029"
+			tasks: [{
+				id: "35F19A9022EA2E58"
+				type: "item"
+				item: "pamhc2foodextended:ceasarsaladitem"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 18.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "66615BCAE3D493D8"
+			tasks: [{
+				id: "618C97B3BA59EC86"
+				type: "item"
+				item: "pamhc2foodextended:cevicheitem"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 19.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "459E7D29A29BDC75"
+			tasks: [{
+				id: "7BE6AE4E93DA4C19"
+				type: "item"
+				item: "pamhc2foodextended:charsiuitem"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 19.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "3A80B21F463913CC"
+			tasks: [{
+				id: "4B1BD60C72518B37"
+				type: "item"
+				item: "pamhc2foodextended:cheesedanishitem"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 19.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "6C5D08E4ABB2969F"
+			tasks: [{
+				id: "7F06BE90BD22D188"
+				type: "item"
+				item: "pamhc2foodextended:cheeseontoastitem"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 19.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "70F091D71AC6B53F"
+			tasks: [{
+				id: "7CD9DBC117D7FD65"
+				type: "item"
+				item: "pamhc2foodextended:cheesesteakitem"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 19.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "5CFCAE7E8673ADE6"
+			tasks: [{
+				id: "14D5C89775E054DA"
+				type: "item"
+				item: "pamhc2foodextended:chickenandwafflesitem"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 19.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "27468689068F9D99"
+			tasks: [{
+				id: "063C1007FBD6DE71"
+				type: "item"
+				item: "pamhc2foodextended:chilipoppersitem"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 19.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "557D8299F46F3E26"
+			tasks: [{
+				id: "501C35CEDAEE37E4"
+				type: "item"
+				item: "pamhc2foodextended:chickencelerycasseroleitem"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 18.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "71E56A14D4D209BD"
+			tasks: [{
+				id: "059900197C9F3F07"
+				type: "item"
+				item: "pamhc2foodextended:chickenchowmeinitem"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 17.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "376F65E5977DBD5C"
+			tasks: [{
+				id: "1A85717206C749E6"
+				type: "item"
+				item: "pamhc2foodextended:chickencordonbleuitem"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 16.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "4F27D82DC6EDC326"
+			tasks: [{
+				id: "6721C4F03263B0BA"
+				type: "item"
+				item: "pamhc2foodextended:chickendinneritem"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 20.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "0E1898C3DFC25F3A"
+			tasks: [{
+				id: "58241853F2207AC1"
+				type: "item"
+				item: "pamhc2foodextended:chickengumboitem"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 20.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "4E13F059DA6284F6"
+			tasks: [{
+				id: "295AE494E900978D"
+				type: "item"
+				item: "pamhc2foodextended:chickenparmasanitem"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 20.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "4174E93D99A41493"
+			tasks: [{
+				id: "1D194B9C2B31BCE5"
+				type: "item"
+				item: "pamhc2foodextended:chickenbiscuititem"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 20.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "756C13969C786EF8"
+			tasks: [{
+				id: "5CED47C2ACC87B06"
+				type: "item"
+				item: "pamhc2foodextended:chikorollitem"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 20.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "4FF642F9283632C6"
+			tasks: [{
+				id: "01C9C9FB08C36F6D"
+				type: "item"
+				item: "pamhc2foodextended:cinnamonbreaditem"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 20.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "0217ABECC3A0393B"
+			tasks: [{
+				id: "404CEA275027C0C6"
+				type: "item"
+				item: "pamhc2foodextended:citrussaladitem"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 20.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "3542E39977070E25"
+			tasks: [{
+				id: "09E0C60025A9BE7E"
+				type: "item"
+				item: "pamhc2foodextended:cornedbeefbreakfastitem"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 20.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "78DD85C01E5A6788"
+			tasks: [{
+				id: "4222124E66AC2615"
+				type: "item"
+				item: "pamhc2foodextended:cornedbeefhashitem"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 20.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "5F55665FAE1CF508"
+			tasks: [{
+				id: "756146E7604DCFAC"
+				type: "item"
+				item: "pamhc2foodextended:cornedbeefitem"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 11.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "56C1D84FE9FC91AC"
+			tasks: [{
+				id: "569CF90262E5A19D"
+				type: "item"
+				item: "pamhc2foodextended:cornishpastyitem"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 12.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "634BA0F36AD33313"
+			tasks: [{
+				id: "1E14BDD0CCF7E58C"
+				type: "item"
+				item: "pamhc2foodextended:cottagepieitem"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 13.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "1480E4E1AE42B3B8"
+			tasks: [{
+				id: "2EB225B659EC2EF4"
+				type: "item"
+				item: "pamhc2foodextended:crackersandcheeseitem"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 14.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "25D43A1847486D14"
+			tasks: [{
+				id: "6D5FA61D7582AA13"
+				type: "item"
+				item: "pamhc2foodextended:creamedbroccolisoupitem"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 15.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "5789A5BED8423F3F"
+			tasks: [{
+				id: "122AF86B764AFD3C"
+				type: "item"
+				item: "pamhc2foodextended:creamofavocadosoupitem"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 16.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "6B8ECDBDFDD84254"
+			tasks: [{
+				id: "713F9DE67FCBAFB5"
+				type: "item"
+				item: "pamhc2foodextended:custarditem"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 17.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "1DECAE60E2B15511"
+			tasks: [{
+				id: "64712EF3D17E9AE2"
+				type: "item"
+				item: "pamhc2foodextended:dangoitem"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 18.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "05364642650FFA67"
+			tasks: [{
+				id: "69BEE986E1C0C9A2"
+				type: "item"
+				item: "pamhc2foodextended:deluxechickencurryitem"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 19.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "460040444C1076CC"
+			tasks: [{
+				id: "1C22CD28F3299608"
+				type: "item"
+				item: "pamhc2foodextended:deviledeggitem"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 20.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "316C192CB43FA69F"
+			tasks: [{
+				id: "616900526F09B4ED"
+				type: "item"
+				item: "pamhc2foodextended:dhalitem"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 21.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "4EB75B5BF94C4C54"
+			tasks: [{
+				id: "1ECBA430500A0F4B"
+				type: "item"
+				item: "pamhc2foodextended:dimsumitem"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 21.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "04A9FF4D7CB4E278"
+			tasks: [{
+				id: "5AA588F48D820EF0"
+				type: "item"
+				item: "pamhc2foodextended:eggplantparmitem"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 21.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "3373F001C4183202"
+			tasks: [{
+				id: "1142FDB23500460D"
+				type: "item"
+				item: "pamhc2foodextended:eggsbenedictitem"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 21.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "4D569ACB95B11995"
+			tasks: [{
+				id: "798C45948DB2D799"
+				type: "item"
+				item: "pamhc2foodextended:eggtartitem"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 21.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "6E2E303C1D33AECD"
+			tasks: [{
+				id: "15D261F1720BC5AF"
+				type: "item"
+				item: "pamhc2foodextended:fairybreaditem"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 21.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "3B2A76BC8DA714CD"
+			tasks: [{
+				id: "3738999E2C9C28B0"
+				type: "item"
+				item: "pamhc2foodextended:generaltsochickenitem"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 21.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "0F82647C58F0DDA8"
+			tasks: [{
+				id: "2ADDB3EE06347673"
+				type: "item"
+				item: "pamhc2foodextended:footlongitem"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 21.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "6C64F68626A613EF"
+			tasks: [{
+				id: "3ED95F39EF67946F"
+				type: "item"
+				item: "pamhc2foodextended:friedfeastitem"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 21.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "314332DFED238EFE"
+			tasks: [{
+				id: "7B0155C4C8827EAE"
+				type: "item"
+				item: "pamhc2foodextended:fruitcreamfestivalbreaditem"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 21.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "32DB4F8D6AF69DB2"
+			tasks: [{
+				id: "2473BC89C9BBD0EE"
+				type: "item"
+				item: "pamhc2foodextended:jambalayaitem"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 11.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "6C0FCC0B9DED59BA"
+			tasks: [{
+				id: "426CD0AA68924F68"
+				type: "item"
+				item: "pamhc2foodextended:kohlundpinkelitem"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 12.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "5F0C5B6C4705C2DE"
+			tasks: [{
+				id: "1AD528C8E282E1E1"
+				type: "item"
+				item: "pamhc2foodextended:keylimepieitem"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 13.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "2F42D252F310D6A6"
+			tasks: [{
+				id: "2CDCA0D2D0A56D5D"
+				type: "item"
+				item: "pamhc2foodextended:koreandinneritem"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 14.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "7F5C1F58BED7C41F"
+			tasks: [{
+				id: "612D5E064AFF8907"
+				type: "item"
+				item: "pamhc2foodextended:gherkinitem"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 15.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "54CFF4932D7A17DF"
+			tasks: [{
+				id: "6A4E84257154939C"
+				type: "item"
+				item: "pamhc2foodextended:gingeredrhubarbtartitem"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 16.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "6E54F66BC3B42445"
+			tasks: [{
+				id: "1F3E20D430682E00"
+				type: "item"
+				item: "pamhc2foodextended:gourmetbeefpattyitem"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 17.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "3B2483BBFFED2A05"
+			tasks: [{
+				id: "43F8FAE25B883A2E"
+				type: "item"
+				item: "pamhc2foodextended:gourmetmuttonpattyitem"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 18.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "1D2A6B1266E104E3"
+			tasks: [{
+				id: "5A3AE5FB55896E60"
+				type: "item"
+				item: "pamhc2foodextended:gourmetporkpattyitem"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 19.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "4715DEABE04E9F42"
+			tasks: [{
+				id: "2DA44B575203C45E"
+				type: "item"
+				item: "pamhc2foodextended:grilledskewersitem"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 20.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "7F97B27653994531"
+			tasks: [{
+				id: "7366D00E38EE189B"
+				type: "item"
+				item: "pamhc2foodextended:guacamoleitem"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 21.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "2C00BDF5DDA9B332"
+			tasks: [{
+				id: "570B39C04FE3C8F2"
+				type: "item"
+				item: "pamhc2foodextended:guisoitem"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 11.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "6E01E598D9FE8D5A"
+			tasks: [{
+				id: "35AE3F6772D28A2F"
+				type: "item"
+				item: "pamhc2foodextended:gyudonitem"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 12.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "0AB618321D93D770"
+			tasks: [{
+				id: "3BC2AD59F76B2284"
+				type: "item"
+				item: "pamhc2foodextended:haggisitem"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 13.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "061F4EEEB80D1ABB"
+			tasks: [{
+				id: "477609DADBEDFB3F"
+				type: "item"
+				item: "pamhc2foodextended:hashitem"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 14.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "73E096E0D7D5AB78"
+			tasks: [{
+				id: "0CA76B5FE06738C2"
+				type: "item"
+				item: "pamhc2foodextended:honeyglazedcarrotsitem"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 15.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "1BBC5A432DA61C51"
+			tasks: [{
+				id: "1B76829F683C55BD"
+				type: "item"
+				item: "pamhc2foodextended:honeyglazedhamitem"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 16.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "158F36BD157CE3D0"
+			tasks: [{
+				id: "40B2B371F236A0AA"
+				type: "item"
+				item: "pamhc2foodextended:honeylemonlambitem"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 17.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "228EE1726FA8B950"
+			tasks: [{
+				id: "0ABE0BBCC568413E"
+				type: "item"
+				item: "pamhc2foodextended:futomakiitem"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 18.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "14B6AE932C6438A0"
+			tasks: [{
+				id: "735C511F3AD0CC89"
+				type: "item"
+				item: "pamhc2foodextended:honeysoyribsitem"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 19.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "77536CD506319D0E"
+			tasks: [{
+				id: "0C7A459818D4D051"
+				type: "item"
+				item: "pamhc2foodextended:hotdishcasseroleitem"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 20.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "5AD7261F19101735"
+			tasks: [{
+				id: "6415804A58CFA00A"
+				type: "item"
+				item: "pamhc2foodextended:hotandsoursoupitem"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 21.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "046B10D03C95565A"
+			tasks: [{
+				id: "3B27759EC7BA23A4"
+				type: "item"
+				item: "pamhc2foodextended:lemonmeringueitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 11.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "2902370EF3BF9DAF"
+			tasks: [{
+				id: "46424B16174A4D63"
+				type: "item"
+				item: "pamhc2foodextended:gingerchickenitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 12.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "562A7988C477AC46"
+			tasks: [{
+				id: "65A39BCE3396917D"
+				type: "item"
+				item: "pamhc2foodextended:lasagnaitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 13.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "4658C7303550E7B9"
+			tasks: [{
+				id: "317379D3AF23BB78"
+				type: "item"
+				item: "pamhc2foodextended:mashedpotatoeschickenbiscuititem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 14.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "3BA7B01ECBF11036"
+			tasks: [{
+				id: "387EB82C81CD3D42"
+				type: "item"
+				item: "pamhc2foodextended:mashedpotatoeschickenbiscuititem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 15.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "0F93D413E0423CB6"
+			tasks: [{
+				id: "65DFB65E77A22BF3"
+				type: "item"
+				item: "pamhc2foodextended:meatpieitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 16.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "4F255D0BD53CADA1"
+			tasks: [{
+				id: "0801BFB1C34FE10F"
+				type: "item"
+				item: "pamhc2foodextended:meesuaitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 17.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "3B2A0B92CBAE556B"
+			tasks: [{
+				id: "5984461791737CC1"
+				type: "item"
+				item: "pamhc2foodextended:meringuebombeitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 18.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "6EA8C110D467E2CA"
+			tasks: [{
+				id: "1C09C4CFE5F37AA6"
+				type: "item"
+				item: "pamhc2foodextended:meringuerouladeitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 19.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "1EC562E5300DD4D9"
+			tasks: [{
+				id: "4C9609DC2DD92708"
+				type: "item"
+				item: "pamhc2foodextended:peaandhamsoupitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 20.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "583C794AE7B94108"
+			tasks: [{
+				id: "3009391EABB737E6"
+				type: "item"
+				item: "pamhc2foodextended:ploughmanslunchitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 21.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "57E0219287387541"
+			tasks: [{
+				id: "5ADF9A006FCB9143"
+				type: "item"
+				item: "pamhc2foodextended:porklomeinitem"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 22.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "577436E9B2EB8363"
+			tasks: [{
+				id: "60E9BDB4EF9F0A1F"
+				type: "item"
+				item: "pamhc2foodextended:poutineitem"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 22.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "73E572615A0C193D"
+			tasks: [{
+				id: "4D173A5F37EB556E"
+				type: "item"
+				item: "pamhc2foodextended:pumpkinspicelatteitem"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 22.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "15A88572C021D2A5"
+			tasks: [{
+				id: "06424C1191469627"
+				type: "item"
+				item: "pamhc2foodextended:sausageinbreaditem"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 22.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "59F12BA04FAFAD78"
+			tasks: [{
+				id: "741C07A79C2174EE"
+				type: "item"
+				item: "pamhc2foodextended:slawdogitem"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 22.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "5050413BC27639DE"
+			tasks: [{
+				id: "2848A5C6F6F64BBD"
+				type: "item"
+				item: "pamhc2foodextended:southernstylebreakfastitem"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 22.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "351BF38345720AD2"
+			tasks: [{
+				id: "555BE389EAD650A9"
+				type: "item"
+				item: "pamhc2foodextended:springfieldcashewchickenitem"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 22.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "745DA20F04CDD51F"
+			tasks: [{
+				id: "5A12252E59703C09"
+				type: "item"
+				item: "pamhc2foodextended:springrollitem"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 22.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "45A7D730196566CF"
+			tasks: [{
+				id: "1E681015BDC894E3"
+				type: "item"
+				item: "pamhc2foodextended:sundayroastitem"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 22.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "3BC602EDF91CED3C"
+			tasks: [{
+				id: "5BACEF502EBC3EB2"
+				type: "item"
+				item: "pamhc2foodextended:sundayhighteaitem"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 22.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "36B0E15FF3E2ABFE"
+			tasks: [{
+				id: "0DEA590C112F76F2"
+				type: "item"
+				item: "pamhc2foodextended:steakfajitaitem"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 22.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "00492B8DF443019C"
+			tasks: [{
+				id: "7F93903EC5EB066E"
+				type: "item"
+				item: "pamhc2foodextended:swedishmeatballsitem"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 22.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "3205C75F46F2115A"
+			tasks: [{
+				id: "2E2780723542177C"
+				type: "item"
+				item: "pamhc2foodextended:sweetandsourchickenitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 22.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "1E6C1B45C102B121"
+			tasks: [{
+				id: "0B022D2652BE019E"
+				type: "item"
+				item: "pamhc2foodextended:sweetandsourmeatballsitem"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 23.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "173311EBF08C1EE6"
+			tasks: [{
+				id: "3D702006FF42CEC1"
+				type: "item"
+				item: "pamhc2foodextended:szechuaneggplantitem"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 23.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "16AE7FE2FB3F7E18"
+			tasks: [{
+				id: "32449BF11CEB343C"
+				type: "item"
+				item: "pamhc2foodextended:timpanoitem"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 23.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "11E753CE948C644F"
+			tasks: [{
+				id: "5B6E426A55E0FE8E"
+				type: "item"
+				item: "pamhc2foodextended:weekendpicnicitem"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 23.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "7F379FC02DF5F336"
+			tasks: [{
+				id: "7E684E8CA5BC67B9"
+				type: "item"
+				item: "pamhc2foodextended:zucchinibakeitem"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 23.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "53B27305342EA941"
+			tasks: [{
+				id: "416B648C12EB7B85"
+				type: "item"
+				item: "pamhc2foodextended:zucchinifriesitem"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 23.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "7C098C71B678E725"
+			tasks: [{
+				id: "49A23FD5A54623C5"
+				type: "item"
+				item: "pamhc2foodextended:fajitaburritoitem"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 23.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "033CE3A94478BF19"
+			tasks: [{
+				id: "46E51CF1A2851B8C"
+				type: "item"
+				item: "pamhc2foodextended:chickentendersmealitem"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 23.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "56642D0E92A2A6ED"
+			tasks: [{
+				id: "65D8ED9C96C8E9F4"
+				type: "item"
+				item: "pamhc2foodextended:cornedbeefandcabbageitem"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 23.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "05883D4CCBC0EE39"
+			tasks: [{
+				id: "57C6D30007600BC2"
+				type: "item"
+				item: "pamhc2foodextended:grandmasmacaronicasseroleitem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 23.0d
+			dependencies: ["486D752E708E00F9"]
+			id: "5FF0747610F9ED0C"
+			tasks: [{
+				id: "3391BCDAD7A6F1C2"
+				type: "item"
+				item: "pamhc2foodextended:peanutbutterbananapancakesitem"
+			}]
+		}
+	]
+}

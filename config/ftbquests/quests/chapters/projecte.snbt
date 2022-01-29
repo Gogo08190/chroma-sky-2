@@ -8,6 +8,9 @@
 		id: "projecte:philosophers_stone"
 		Count: 1b
 		tag: { }
+		ForgeCaps: {
+			Parent: { }
+		}
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -16,6 +19,10 @@
 			x: 5.5d
 			y: 6.5d
 			shape: "octagon"
+			dependencies: [
+				"033068689E56D3AD"
+				"349EAE82D9B38037"
+			]
 			id: "1F458F42F0B3C8E2"
 			tasks: [{
 				id: "6C07264DC6CA78DD"
@@ -27,6 +34,10 @@
 			x: 6.5d
 			y: 6.5d
 			shape: "octagon"
+			dependencies: [
+				"321AFD3A1679E8E0"
+				"34E8E2E171CA2688"
+			]
 			id: "41316208B523C9B9"
 			tasks: [{
 				id: "4A240C7B3C2309AD"
@@ -38,6 +49,7 @@
 			x: 7.5d
 			y: 6.5d
 			shape: "octagon"
+			dependencies: ["033068689E56D3AD"]
 			id: "57A871B1FCC4DFF7"
 			tasks: [{
 				id: "40CE0CF463AB46FB"
@@ -789,6 +801,7 @@
 				"285C1BC5A25DC155"
 				"19C32614D8476285"
 				"25EAB80CD5791A3C"
+				"34E8E2E171CA2688"
 			]
 			size: 3.0d
 			id: "27A4585F0269EADA"
