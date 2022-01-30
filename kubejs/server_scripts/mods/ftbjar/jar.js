@@ -115,4 +115,8 @@ onEvent("recipes", (event) => {
   jar('naturesaura:gold_brick', ["naturesaura:gold_fiber", "minecraft:stone_bricks" , Fluid.of("minecraft:water", 1000)]).time(50).lowTemp();
 
   jar("32x minecraft:clay_ball", ["1x #minecraft:sand", "1x #forge:gravel", Fluid.of("minecraft:water", 1000)]).time(20);
+
+  jar("fluxnetworks:flux_dust", "minecraft:redstone").time(100).highTemp();
+  jar("8x fluxnetworks:flux_dust", "8x minecraft:redstone").time(250).highTemp();
+  jar("16x fluxnetworks:flux_dust", "16x minecraft:redstone").time(400).highTemp();
 });
