@@ -69,6 +69,20 @@ onEvent("recipes", (event) => {
     rec(["1x minecraft:glass"], "minecraft:glass_bottle");
     rec(["4x mysticalagriculture:wither_skeleton_essence"], "minecraft:wither_skeleton_skull");
     rec(["mysticalagriculture:wither_skeleton_essence"], "chromasky:drop_of_darkness");
+    rec(['occultism:datura_seeds'], 'occultism:dictionary_of_spirits');
+    rec(['minecraft:brick'], 'pamhc2foodcore:potitem');
+    rec(['ftbjarmod:cast_iron_ingot'], 'ftbjarmod:cast_iron_gear');
+    rec(['integrateddynamics:crystalized_menril_chunk'], 'integrateddynamics:on_the_dynamics_of_integration');
+    rec(['minecraft:black_dye'], 'darkutils:blank_plate');
+    rec(['minecraft:iron_ingot'], 'thermal:wrench');
+    rec(['minecraft:iron_ingot'], 'thermal:wrench');
+    rec(['minecraft:glass'], Item.of('patchouli:guide_book', '{"patchouli:book":"bloodmagic:guide"}'));
+    rec(['industrialforegoing:plastic'], 'chromasky:mechanic_core_tier_2');
+    rec(['minecraft:paper'], 'modularrouters:blank_upgrade');
+    rec(['minecraft:string'], 'refinedstorage:processor_binding');
+    rec(['immersiveengineering:component_steel'], 'chromasky:mechanic_core_tier_1');
+    rec(['minecraft:iron_ingot'], 'rats:trash_can');
+    rec(['cyclic:mason_cobble'], Item.of('patchouli:guide_book', '{"patchouli:book":"cyclic:cyclic_guide_book"}'));
 
     rec(['projectex:basic_compressed_collector', '5x projectex:basic_relay'], 'projectex:basic_power_flower');
     rec(['projectex:dark_compressed_collector', '5x projectex:dark_relay'], 'projectex:dark_power_flower');
