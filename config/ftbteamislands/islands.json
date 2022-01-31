@@ -36,9 +36,50 @@
         "image": "chromasky2:islands/screens/island.png"
       },
       {
+        "name": "Lost City Island - by Ctrl_Juteau",
+        "desc": "This is an island",
+        "structure": "lostcity.nbt",
+        "image": "chromasky2:islands/screens/island.png"
+      },
+      {
         "name": "The Kriksnem Island - by Miniteck",
         "desc": "This is an island",
         "structure": "kriksnem.nbt",
+        "image": "chromasky2:islands/screens/island.png"
+      },
+      {
+        "name": "Breaking Bridge Island - by Staniscraft",
+        "desc": "This is an island",
+        "structure": "voidbridge.nbt",
+        "image": "chromasky2:islands/screens/island.png"
+      },
+      {
+        "name": "Farland Island Multi - by Ctrl_Juteau",
+        "desc": "This is an island",
+        "structure": "lostisland2.nbt",
+        "image": "chromasky2:islands/screens/island.png"
+      },
+      {
+        "name": "The Forklift Island - by TheBloodShadow",
+        "desc": "This is an island",
+        "structure": "forklift.nbt",
+        "image": "chromasky2:islands/screens/island.png"
+      },
+      {
+        "name": "Abandoned Base Island - by Iglée42",
+        "desc": "This is an island",
+        "structure": "abandoned.nbt",
+        "image": "chromasky2:islands/screens/island.png"
+      },
+      {
+        "name": "Ploc Island - by Iglée42",
+        "desc": "This is an island",
+        "structure": "ploc.nbt",
+        "image": "chromasky2:islands/screens/island.png"
+      },
+      {
+        "name": "Abandoned Door Island - by Beua",
+        "structure": "door.nbt",
         "image": "chromasky2:islands/screens/island.png"
       }
     ]
