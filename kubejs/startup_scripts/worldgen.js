@@ -514,3 +514,30 @@ onEvent("worldgen.add", (event) => {
         spawn.maxCount = 2;
     });
 });
+
+onEvent('worldgen.remove', event => {
+  event.removeSpawnsByID((spawn) => {
+    spawn.biomes.values = [
+      'theabyss:mud_plains',
+      'thebeginning:ruma_forest',
+      'theabyss:abyss_phantom_biome',
+      'theabyss:aybssmountain',
+      'theabyss:bossuselessbiome',
+      'theabyss:eot_biome',
+      'theabyss:eot_biome_2',
+      'theabyss:forgottenmountains',
+      'theabyss:slime_forest_biome',
+      'theabyss:the_abyss_jungle',
+      'theabyss:the_abyss_plains_biome',
+      'theabyss:theabyssbiome',
+      'theabyss:waywardsea',
+      'thebeginning:flora_forest',
+      'thebeginning:roggen_forest',
+    ];
+
+    spawns.entities.values = [
+      'mana-and-artifice:skeleton_assassin_bolo',
+      'mana-and-artifice:skeleton_assassin',
+    ]
+  });
+});
