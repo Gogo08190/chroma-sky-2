@@ -542,7 +542,7 @@ onEvent('worldgen.remove', event => {
       'mana-and-artifice:skeleton_assassin',
       'mana-and-artifice:spell_breaker',
       'mana-and-artifice:witch_hunter',
-      'mana-and-artifice:pixie';
+      'mana-and-artifice:pixie',
       'mana-and-artifice:mushroom_soldier',
       'mana-and-artifice:hulking_zombie',
       'mana-and-artifice:skeleton_assassin',
