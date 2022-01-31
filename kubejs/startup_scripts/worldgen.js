@@ -535,7 +535,7 @@ onEvent('worldgen.remove', event => {
       'thebeginning:roggen_forest',
     ];
 
-    spawns.entities.values = [
+    spawn.entities.values = [
       'mana-and-artifice:skeleton_assassin_bolo',
       'mana-and-artifice:skeleton_assassin',
     ]
