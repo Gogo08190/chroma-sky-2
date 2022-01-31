@@ -548,6 +548,6 @@ onEvent('worldgen.remove', event => {
       'mana-and-artifice:skeleton_assassin',
       'mana-and-artifice:demon_imp',
       'mana-and-artifice:lantern_wraith',
-    ]
+    ];
   });
 });
