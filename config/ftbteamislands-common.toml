@@ -13,7 +13,7 @@
 	autoTeleportToIsland = true
 	#The lobby island spawned automatically on servers.
 	#Must be resource location and within the structures folder of data
-	lobbyStructureFile = "ftbteamislands:default_lobby"
+	lobbyStructureFile = "ftbteamislands:spawn"
 
 [islands]
 	#Height at which the islands will generate.
@@ -38,4 +38,3 @@
 	#The default islands spawning Y offset
 	#Range: > -2147483648
 	defaultIslandResourceYOffset = 0
-
