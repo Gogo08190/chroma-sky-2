@@ -42,6 +42,10 @@ onEvent("recipes", (event) => {
     .energy(5000);
 
   event.recipes.thermal
+    .smelter("rats:rat_upgrade_basic", ['2x rats:block_of_cheese', 'thermal:diamond_gear'])
+    .energy(5000);
+
+  event.recipes.thermal
     .crucible(Fluid.of('kubejs:cryotheum', 100), 'thermal:blizz_powder')
 
   event.recipes.thermal
