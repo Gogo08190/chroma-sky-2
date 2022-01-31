@@ -13,11 +13,4 @@ onEvent("item.tooltip", (event) => {
     event.add("miniutilities:cursed_earth", [Text.green("Spawns hostile mobs")]);
     event.add("miniutilities:blessed_earth", [Text.green("Spawns passive mobs")]);
     event.add("miniutilities:blursed_earth", [Text.green("Spawns all mobs")]);
-
-    event.add('farmersdelight:netherite_knife', [
-        Text.red("Do not use on a Stuffed Hoglin due to client crash."),
-    ]);
-    event.add('farmersdelight:golden_knife', [
-        Text.red("Do not use on a Stuffed Hoglin due to client crash."),
-    ]);
 });
