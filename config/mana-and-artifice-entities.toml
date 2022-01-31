@@ -3,35 +3,35 @@
 
 	["Dimension-Level Blacklists"."mana-and-artifice:spell_breaker"]
 		#Comma separated list of dimension ids that this mob type shouldn't spawn in
-		blacklist = ""
+		blacklist = "theabyssdim"
 
 	["Dimension-Level Blacklists"."mana-and-artifice:witch_hunter"]
 		#Comma separated list of dimension ids that this mob type shouldn't spawn in
-		blacklist = ""
+		blacklist = "theabyssdim"
 
 	["Dimension-Level Blacklists"."mana-and-artifice:pixie"]
 		#Comma separated list of dimension ids that this mob type shouldn't spawn in
-		blacklist = ""
+		blacklist = "theabyssdim"
 
 	["Dimension-Level Blacklists"."mana-and-artifice:mushroom_soldier"]
 		#Comma separated list of dimension ids that this mob type shouldn't spawn in
-		blacklist = ""
+		blacklist = "theabyssdim"
 
 	["Dimension-Level Blacklists"."mana-and-artifice:hulking_zombie"]
 		#Comma separated list of dimension ids that this mob type shouldn't spawn in
-		blacklist = ""
+		blacklist = "theabyssdim"
 
 	["Dimension-Level Blacklists"."mana-and-artifice:skeleton_assassin"]
 		#Comma separated list of dimension ids that this mob type shouldn't spawn in
-		blacklist = ""
+		blacklist = "theabyssdim"
 
 	["Dimension-Level Blacklists"."mana-and-artifice:demon_imp"]
 		#Comma separated list of dimension ids that this mob type shouldn't spawn in
-		blacklist = ""
+		blacklist = "theabyssdim"
 
 	["Dimension-Level Blacklists"."mana-and-artifice:lantern_wraith"]
 		#Comma separated list of dimension ids that this mob type shouldn't spawn in
-		blacklist = ""
+		blacklist = "theabyssdim"
 
 [none]
 
@@ -1562,4 +1562,3 @@
 		#Max Pack Size
 		#Range: 1 ~ 5
 		maxPackSize = 3
-
