@@ -533,11 +533,21 @@ onEvent('worldgen.remove', event => {
       'theabyss:waywardsea',
       'thebeginning:flora_forest',
       'thebeginning:roggen_forest',
+      '#nether',
+      '#end',
     ];
 
     spawn.entities.values = [
       'mana-and-artifice:skeleton_assassin_bolo',
       'mana-and-artifice:skeleton_assassin',
+      'mana-and-artifice:spell_breaker',
+      'mana-and-artifice:witch_hunter',
+      'mana-and-artifice:pixie';
+      'mana-and-artifice:mushroom_soldier',
+      'mana-and-artifice:hulking_zombie',
+      'mana-and-artifice:skeleton_assassin',
+      'mana-and-artifice:demon_imp',
+      'mana-and-artifice:lantern_wraith',
     ]
   });
 });
