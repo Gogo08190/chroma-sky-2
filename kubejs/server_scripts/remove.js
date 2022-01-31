@@ -41,4 +41,5 @@ onEvent("recipes", (event) => {
   event.remove({output: 'cyclic:battery'})
   event.remove({output: 'buildersaddition:iron_rod'})
   event.remove({output: 'theabyss:auto_smelt_pick_axe'})
+  event.remove({output: 'extendedcrafting:ultimate_singularity'})
 });
