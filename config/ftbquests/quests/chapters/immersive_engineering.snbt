@@ -466,7 +466,7 @@
 			tasks: [{
 				id: "4C4FD70C38477BC2"
 				type: "observation"
-				title: "Look at a complete &6Improve Blast Furnace"
+				title: "Look at a complete &6Improved Blast Furnace"
 				icon: "immersiveengineering:advanced_blast_furnace"
 				timer: 15L
 				observe_type: 0
@@ -570,7 +570,7 @@
 				"The Pumpjack extracts fluid like Crude Oil from reservoirs."
 				"A Core Sample Drill tests for these reservoirs."
 				""
-				"One it's powered, the pumpjack pumps at a rate of 15 mB/tick"
+				"Once it's powered, the pumpjack pumps at a rate of 15 mB/tick"
 				""
 				"11x Steel Scaffolding"
 				"06x Treated Wood Fence"

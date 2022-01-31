@@ -1,7 +1,7 @@
 {
 	id: "2BCDA95FC92F8BC3"
 	group: "258B5ED587988A28"
-	order_index: 3
+	order_index: 2
 	filename: "ezvillagers"
 	title: "EZ Villagers"
 	icon: "easy_villagers:villager"
@@ -64,7 +64,7 @@
 			x: 3.0d
 			y: 1.0d
 			shape: "diamond"
-			description: ["The auto trader works exactly line the trader block, except it automatically trades items for you. You can also automatically put items in and take items out with a hopper."]
+			description: ["The auto trader works exactly like the trader block, except it automatically trades items for you. You can also automatically put items in and take items out with a hopper."]
 			dependencies: [
 				"47A4D81697C274A3"
 				"0C1760A0E6D5AF4C"

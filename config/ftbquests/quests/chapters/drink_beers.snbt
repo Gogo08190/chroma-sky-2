@@ -1,0 +1,192 @@
+{
+	id: "543327FFF9ACE6AA"
+	group: "049115B9B236F83B"
+	order_index: 2
+	filename: "drink_beers"
+	title: "Drink Beer"
+	icon: "drinkbeer:beer_mug"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 4.5d
+			y: -3.0d
+			shape: "rsquare"
+			description: [
+				"Brewing Beer："
+				"1. Prepare a keg and at least 4 empty beer mugs, open the brewing menu by right clicking on the keg block."
+				"2. Put materials into keg(the order of materials does not matter，e.g.，swapping the positions of apples and wheat in the gif below gets the same beer result)."
+				"3. Once you decide which beer to brew,  put mugs in and start brewing."
+				"4. ...Brewing..."
+				"5. Down the hatch!"
+			]
+			dependencies: ["3F05D033EBD0710D"]
+			id: "7DFEF9DC460FA215"
+			tasks: [{
+				id: "240E5E96F7D7C20A"
+				type: "item"
+				item: "drinkbeer:beer_barrel"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			shape: "rsquare"
+			dependencies: ["3F05D033EBD0710D"]
+			id: "77A289EC4D4E7263"
+			tasks: [{
+				id: "2F91576F9DE10882"
+				type: "item"
+				item: "drinkbeer:empty_beer_mug"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -4.0d
+			shape: "square"
+			dependencies: ["3F97D03C2402B70D"]
+			id: "72091CADBB064FF3"
+			tasks: [{
+				id: "6229A0563026C509"
+				type: "item"
+				item: "drinkbeer:recipe_board_package"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"77A289EC4D4E7263"
+				"7DFEF9DC460FA215"
+				"72091CADBB064FF3"
+			]
+			id: "04D3D8A6713EA496"
+			tasks: [{
+				id: "2036AB5256BC9EEC"
+				type: "item"
+				item: "drinkbeer:beer_mug"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"77A289EC4D4E7263"
+				"7DFEF9DC460FA215"
+				"72091CADBB064FF3"
+			]
+			id: "0771EA1A1A64DEE3"
+			tasks: [{
+				id: "05604F6D169BC04F"
+				type: "item"
+				item: "drinkbeer:beer_mug_blaze_stout"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"77A289EC4D4E7263"
+				"7DFEF9DC460FA215"
+				"72091CADBB064FF3"
+			]
+			id: "689849870CD3F3DF"
+			tasks: [{
+				id: "1A21A0C3C86E1655"
+				type: "item"
+				item: "drinkbeer:beer_mug_blaze_milk_stout"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -0.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"77A289EC4D4E7263"
+				"7DFEF9DC460FA215"
+				"72091CADBB064FF3"
+			]
+			id: "15E54ACCB49EB200"
+			tasks: [{
+				id: "2E283372160C9A12"
+				type: "item"
+				item: "drinkbeer:beer_mug_apple_lambic"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"77A289EC4D4E7263"
+				"7DFEF9DC460FA215"
+				"72091CADBB064FF3"
+			]
+			id: "5615D15B9F77D98A"
+			tasks: [{
+				id: "3A6B38D225765525"
+				type: "item"
+				item: "drinkbeer:beer_mug_sweet_berry_kriek"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"77A289EC4D4E7263"
+				"7DFEF9DC460FA215"
+				"72091CADBB064FF3"
+			]
+			id: "6A11920D5F2A8FB5"
+			tasks: [{
+				id: "4671D3A6F66AA3A4"
+				type: "item"
+				item: "drinkbeer:beer_mug_haars_icey_pale_lager"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"77A289EC4D4E7263"
+				"7DFEF9DC460FA215"
+				"72091CADBB064FF3"
+			]
+			id: "6FAB2AFB78E08098"
+			tasks: [{
+				id: "5711EDC5B6F30A77"
+				type: "item"
+				item: "drinkbeer:beer_mug_pumpkin_kvass"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"77A289EC4D4E7263"
+				"7DFEF9DC460FA215"
+				"72091CADBB064FF3"
+			]
+			id: "1E38D903E2DC9C00"
+			tasks: [{
+				id: "231DB4B31B09311D"
+				type: "item"
+				item: "drinkbeer:beer_mug_night_howl_kvass"
+			}]
+		}
+	]
+}

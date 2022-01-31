@@ -4,12 +4,14 @@
 	order_index: 0
 	filename: "challenges"
 	title: "Challenges"
+	icon: "minecraft:experience_bottle"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 1.5d
-			y: 1.5d
+			x: 1.0d
+			y: -1.5d
+			shape: "octagon"
 			id: "0FAC8439915CB800"
 			tasks: [{
 				id: "5E3B2317B0D2F5A6"
@@ -27,8 +29,9 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 1.5d
+			x: 1.5d
+			y: 0.5d
+			shape: "octagon"
 			subtitle: "500"
 			id: "4C1F56190A907ACA"
 			tasks: [{
@@ -40,47 +43,145 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 1.5d
+			x: 1.5d
+			y: -0.5d
+			shape: "octagon"
 			id: "5F3E1AE61DE04F09"
 			tasks: [{
 				id: "16A563D53ADE520D"
 				type: "stat"
+				icon: {
+					id: "theabyss:nosaj_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 				stat: "minecraft:mob_kills"
 				value: 2000
 			}]
 		}
 		{
-			x: 2.5d
-			y: 2.5d
+			x: -1.0d
+			y: 1.5d
+			shape: "octagon"
 			id: "49032A43B4D96127"
 			tasks: [{
 				id: "0498CB3DAEDEAC08"
 				type: "kill"
+				icon: "draconicevolution:chaos_shard"
 				entity: "draconicevolution:draconic_guardian"
 				value: 1L
 			}]
 		}
 		{
-			x: 3.5d
-			y: 2.5d
+			x: -1.5d
+			y: -0.5d
+			shape: "octagon"
 			id: "5097CD1FDA88CEA5"
 			tasks: [{
 				id: "1F3FDC023558BA3E"
 				type: "kill"
+				icon: "minecraft:nether_star"
 				entity: "minecraft:wither"
 				value: 50L
 			}]
 		}
 		{
-			x: 1.5d
-			y: 2.5d
+			x: -1.5d
+			y: 0.5d
+			shape: "octagon"
 			id: "27B2E0ED3A48AB56"
 			tasks: [{
 				id: "7B0EBBB05E94628D"
 				type: "kill"
+				icon: "minecraft:dragon_head"
 				entity: "minecraft:ender_dragon"
 				value: 10L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			shape: "octagon"
+			id: "678C179D2B54587C"
+			tasks: [{
+				id: "67D55B5A334765D3"
+				type: "stat"
+				icon: "losttrinkets:blaze_heart"
+				stat: "minecraft:animals_bred"
+				value: 250
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			shape: "octagon"
+			id: "1FBC4795122E5ECF"
+			tasks: [{
+				id: "0084A2090D09CC7C"
+				type: "stat"
+				icon: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "mana-and-artifice:fireproof"
+						}]
+					}
+				}
+				stat: "minecraft:enchant_item"
+				value: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			shape: "octagon"
+			id: "360DA03CD8BA490B"
+			tasks: [{
+				id: "58C65BF6DBEB0AC8"
+				type: "kill"
+				icon: "theabyss:roka_horn"
+				entity: "theabyss:the_roka_end_boss"
+				value: 10L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			shape: "octagon"
+			id: "5D00C6669955219A"
+			tasks: [{
+				id: "5E1D126288F909F6"
+				type: "kill"
+				icon: "occultism:afrit_essence"
+				entity: "occultism:afrit_wild"
+				value: 10L
+			}]
+		}
+		{
+			title: "&k&3abc &r&5The Final Challenge &k&3abc&r"
+			x: 0.0d
+			y: 0.0d
+			dependencies: [
+				"678C179D2B54587C"
+				"49032A43B4D96127"
+				"27B2E0ED3A48AB56"
+				"5097CD1FDA88CEA5"
+				"5D00C6669955219A"
+				"360DA03CD8BA490B"
+				"0FAC8439915CB800"
+				"5F3E1AE61DE04F09"
+				"4C1F56190A907ACA"
+				"1FBC4795122E5ECF"
+			]
+			id: "2B99E74F8647BD98"
+			tasks: [{
+				id: "6E95E290C562E2A3"
+				type: "item"
+				item: "projectex:final_power_flower"
 			}]
 		}
 	]

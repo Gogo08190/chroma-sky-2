@@ -1,7 +1,7 @@
 {
 	id: "55D746F3002D9F9B"
-	group: "638FC427456F902B"
-	order_index: 11
+	group: "258B5ED587988A28"
+	order_index: 3
 	filename: "rats"
 	title: "Rats"
 	icon: {
@@ -11,27 +11,51 @@
 			Icon: "rats:textures/thaumcraft_rat_icon.png"
 		}
 	}
-	default_quest_shape: ""
+	default_quest_shape: "diamond"
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -4.0d
-			y: -3.0d
+			x: 5.5d
+			y: 2.0d
+			shape: "rsquare"
+			subtitle: "Garbage maker"
 			description: [
+				"When right clicked on with placeable items in hand, the trash can 'fills up' much like a composter."
 				""
-				"Like a composter you will need to place item on this trash and after a few item that's will give you garbage pill"
+				"At 6 blocks, the next right click releases a &cblock of garbage &rwhich can then be placed or used to craft with."
+				""
+				"When broken, blocks of garbage may also drop plastic waste, which can be smelted to obtain tiny dry rubber."
 			]
+			dependencies: ["3F05D033EBD0710D"]
 			id: "6E32CBE4300414BA"
 			tasks: [{
 				id: "6475A7F3C56B1B9F"
 				type: "item"
 				item: "rats:trash_can"
 			}]
+			rewards: [
+				{
+					id: "23E21DC8971B6BBF"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 12
+				}
+				{
+					id: "544DB1A0987CF6C8"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 12
+				}
+			]
 		}
 		{
-			x: -4.0d
-			y: -1.5d
-			description: ["Rat's will easly spawn on it"]
+			x: 5.5d
+			y: 3.0d
+			description: [
+				"When in darkness, garbage will spawn Rats on top of it."
+				""
+				"Garbage can be used to craft multiple variants that spawn different types of mobs."
+			]
 			dependencies: ["6E32CBE4300414BA"]
 			id: "10670EB26DC9CCAA"
 			tasks: [{
@@ -41,35 +65,34 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 0.0d
-			description: ["For taming the rat's you will need to throw some cheese on the flour and perhap's the rat will be tame"]
-			dependencies: [
-				"10670EB26DC9CCAA"
-				"49C443050019B6F5"
+			x: 5.0d
+			y: 6.0d
+			description: [
+				"&eCheese&r is an item that is crafted from Block of Cheese."
+				""
+				"Cheese is used to tame rats."
+				""
+				"On average, it takes anywhere from 11 to 32 pieces of cheese to tame a wild rat."
 			]
-			id: "5B97ABA98DAABB77"
-			tasks: [{
-				id: "05469BA674A1B050"
-				type: "checkmark"
-				title: "Tame a Rat"
-			}]
-		}
-		{
-			x: -1.0d
-			y: -1.5d
 			dependencies: ["70326FBA1D606DB4"]
 			id: "49C443050019B6F5"
 			tasks: [{
 				id: "6FF8FFA7149A544E"
 				type: "item"
 				item: "rats:cheese"
+				count: 8L
+			}]
+			rewards: [{
+				id: "38046D1D33F9E643"
+				type: "item"
+				item: "rats:cheese"
+				count: 16
 			}]
 		}
 		{
-			x: 0.0d
-			y: -1.5d
-			description: ["This will permit to automatize the cheese"]
+			x: 6.0d
+			y: 6.0d
+			description: ["&eThe Curdling Station &fis used to make Cheese and automate the Cheese production."]
 			dependencies: ["49C443050019B6F5"]
 			id: "0A44B9BD42686234"
 			tasks: [{
@@ -79,10 +102,13 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 3.0d
+			x: 9.0d
+			y: 2.5d
+			shape: "square"
 			subtitle: "You Realy need to clean your room"
-			description: ["You need to throw this on a rat, and it will change it in the all mighty king"]
+			description: ["&4The Ball of Filth&r is an item used to transform a Rat into a Rat King."]
+			hide_dependency_lines: true
+			dependencies: ["30AD8D8704C2612E"]
 			id: "43A847C36252ADAA"
 			tasks: [{
 				id: "79C2F3D66AC8D230"
@@ -99,9 +125,17 @@
 					Damage: 0
 				}
 			}
-			x: -1.0d
-			y: 3.0d
+			x: 9.0d
+			y: 3.5d
+			shape: "square"
 			subtitle: "King's and Queen"
+			description: [
+				"The rat king will spawn and throw rats at the player to attack."
+				""
+				"If you kill rat king you can tame the rats he threw."
+				""
+				"If you kill rat king, you get filth, rat kings crown, and tangled rat tails."
+			]
 			dependencies: ["43A847C36252ADAA"]
 			id: "3E5822ED43D30E11"
 			tasks: [
@@ -121,16 +155,24 @@
 						}
 					}
 				}
+				{
+					id: "44E5AB3D775E3BB7"
+					type: "kill"
+					entity: "rats:rat_king"
+					value: 1L
+				}
 			]
 		}
 		{
 			title: "&8Call of the plague&r"
-			x: -4.0d
-			y: 5.0d
+			x: 2.0d
+			y: 2.5d
+			shape: "square"
 			subtitle: "I think you see the wrong Doctor"
 			description: [
-				"Right on a plague doctor"
-				"It will turn it in Black Death"
+				"&8The Plague Tome&r is an item used to spawn The Black Death."
+				""
+				"It can be obtained as a rare drop from killing a Plague Rat or via trading with a Plague Doctor."
 			]
 			id: "112618C4DB588CEA"
 			tasks: [{
@@ -148,9 +190,17 @@
 					Damage: 0
 				}
 			}
-			x: -1.0d
-			y: 5.0d
+			x: 2.0d
+			y: 3.5d
+			shape: "square"
 			subtitle: "Hopefuly he wasn't link to Nurggle"
+			description: [
+				"&8The Black Death&r is a boss mob that summons many other mobs to defend it, to spread plague and wreak havoc on any mob in its reach."
+				""
+				"The Black Death spawns when a Plague Doctor is struck by lightning."
+				""
+				"Alternatively you can right click a Plague Doctor with a Plague Tome, which can be traded from them for emeralds."
+			]
 			dependencies: ["112618C4DB588CEA"]
 			id: "397F9C540B1C13DB"
 			tasks: [
@@ -179,10 +229,16 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: 1.5d
-			description: ["This is basic item for the craft of rat's upgrade"]
-			dependencies: ["5B97ABA98DAABB77"]
+			title: "&bRat Upgrade: Basic"
+			x: 5.5d
+			y: -1.5d
+			description: ["&bRat Upgrade: Basic&r is a Rat Upgrade with no unique abilities, rather it is used as a crafting ingredient to make more advanced Rat Upgrades."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0C1760A0E6D5AF4C"
+				"70326FBA1D606DB4"
+			]
+			size: 2.3d
 			id: "33332A77A21B5CDE"
 			tasks: [{
 				id: "34D53BC039C95C54"
@@ -191,8 +247,10 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -7.5d
+			x: 5.5d
+			y: -5.5d
+			description: ["Right click to pull up the menu then insert the two upgrades you want to combine."]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "3ED53C2579857476"
 			tasks: [{
@@ -202,8 +260,10 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 8.5d
+			x: 5.5d
+			y: -4.5d
+			description: ["&bRat Upgrade: Speed&r is a Rat Upgrade that makes rats move at twice the speed."]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "15936D51DC51D53B"
 			tasks: [{
@@ -213,8 +273,11 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 8.5d
+			x: 6.0d
+			y: -3.0d
+			shape: "diamond"
+			description: ["&bRat Upgrade: Platter&r will allow a rat to transfer an entire stack of an items at a time. Typically, a rat without this upgrade will only transfer a single item at a time."]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "63AC5A302BFFA94A"
 			tasks: [{
@@ -224,8 +287,10 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 8.5d
+			x: 8.0d
+			y: -2.0d
+			description: ["&bThe Rat Upgrade: Health&r gives the rat an addition 20 health."]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "39529A319B833D0E"
 			tasks: [{
@@ -235,8 +300,10 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -7.5d
+			x: 4.0d
+			y: -3.0d
+			description: ["&bThe Rat Upgrade: Armor&r gives a rat 10 base Rat Armor."]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "0655BE6E1126B404"
 			tasks: [{
@@ -246,8 +313,9 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -7.5d
+			x: 3.5d
+			y: -5.5d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "4DE56E1826FD58C4"
 			tasks: [{
@@ -257,8 +325,15 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -7.0d
+			x: 7.0d
+			y: 0.0d
+			description: [
+				"Rats is lava and fire proof"
+				"Rats will ignite enemies"
+				"&b40 Base Rat Health"
+				"&b4 Base Rat Attack"
+			]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "314F84795BEF9325"
 			tasks: [{
@@ -268,8 +343,9 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -7.0d
+			x: 4.5d
+			y: -2.5d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "7A7D88EA3225BBAD"
 			tasks: [{
@@ -279,8 +355,9 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 8.0d
+			x: 6.5d
+			y: -0.5d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "4DEABFD3150E4473"
 			tasks: [{
@@ -290,8 +367,16 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 8.0d
+			x: 4.5d
+			y: -3.5d
+			description: [
+				"When equipped,it stacks the &bRat Upgrade: Battle-God &rsignificantly increases the rat's base stats. The Upgrade gives the rat:"
+				""
+				"500 Base rat health"
+				"50 Base rat armor"
+				"50 Base rat attack"
+			]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "00A88420E23273C9"
 			tasks: [{
@@ -301,8 +386,10 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 7.0d
+			x: 5.0d
+			y: 0.0d
+			description: ["This upgrade allows the rat to act as a sped up furnace and allows you to cook 3 new foods, Confit Byaldi, Potato Knishes and String Cheese."]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "25F63E33E4FBBB00"
 			tasks: [{
@@ -312,20 +399,44 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 7.0d
+			x: 7.0d
+			y: -1.0d
+			description: [
+				"The Crafting upgrade allows a rat to automatically craft items for you."
+				""
+				"Once applied, the rat then has to be standing on top of a Rat Crafting Table."
+				""
+				"Once on top of the Rat Crafting Table, right-clicking the rat will open a menu where you manage the crafting."
+				""
+				"The top left-most box is where will you put the item you want it to craft."
+				""
+				"The top right-most box is where the crafted item will come out."
+				""
+				"The \"required items\" row is where you will see the required items the item will need to be crafted, but note that the amount is not specified."
+				""
+				"The \"Input\" row is where the required items can be placed in order for the item to be crafted."
+			]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "49111BD553B9E6B6"
-			tasks: [{
-				id: "0528A1C4519090D6"
-				type: "item"
-				item: "rats:rat_upgrade_crafting"
-			}]
+			tasks: [
+				{
+					id: "0528A1C4519090D6"
+					type: "item"
+					item: "rats:rat_upgrade_crafting"
+				}
+				{
+					id: "4A12E53C3DA83978"
+					type: "item"
+					item: "rats:rat_crafting_table"
+				}
+			]
 		}
 		{
 			title: "Rats Filter"
-			x: -5.5d
-			y: -6.5d
+			x: 5.5d
+			y: -3.5d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "4E5FC0FD4ECB351B"
 			tasks: [
@@ -350,8 +461,9 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: -6.5d
+			x: 4.0d
+			y: -5.0d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "154CEF57E41988BC"
 			tasks: [{
@@ -361,8 +473,9 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 6.0d
+			x: 6.0d
+			y: -5.0d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "626FBB525C4FBF3D"
 			tasks: [{
@@ -372,8 +485,10 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 6.0d
+			x: 7.5d
+			y: -1.5d
+			description: ["Gives the rat the ability to breathe fire and fly (Likely inspired by its brother mod ice and fire) The rat will use these abilities to complete tasks given to it."]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "5815DDD4ECAB800E"
 			tasks: [{
@@ -383,8 +498,9 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -5.0d
+			x: 3.0d
+			y: -2.0d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "54F8865DE030B9FD"
 			tasks: [{
@@ -394,8 +510,10 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 8.0d
 			y: -5.0d
+			description: ["&bThe Rat Upgrade: Aquatic&r changes the rat's appearance to one similar of an underwater creature when equipped."]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "0F884FADF97EEB1B"
 			tasks: [{
@@ -405,8 +523,10 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -4.0d
+			x: 5.0d
+			y: -6.0d
+			description: ["&bThe Rat Upgrade: Ender&r gives a rat multiple new features when equipped, all similar to those of an Enderman."]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "6FBB3E96867C037E"
 			tasks: [{
@@ -416,8 +536,14 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 5.0d
 			y: -4.0d
+			description: [
+				"Must be used in conjunction with White List upgrade to function."
+				""
+				"To fall oak tree, insert Oak Log into white list. Setting deposit point will also cause Lumberjack to gather the harvested logs into any containers."
+			]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "006725A9140F8726"
 			tasks: [{
@@ -427,8 +553,10 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 5.0d
+			x: 3.0d
+			y: -3.0d
+			description: ["&bThe Rat Upgrade: Miner&r allows rats to attempt to mine targeted blocks in the list when the rat is set to the \"Harvest\" command."]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "18100177AA2F8DD4"
 			tasks: [{
@@ -438,8 +566,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 5.0d
+			x: 3.5d
+			y: -0.5d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "516ECACDBDEBD9EA"
 			tasks: [{
@@ -453,8 +582,9 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 4.0d
+			x: 4.0d
+			y: 0.0d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "1CB724BEE7143CF1"
 			tasks: [{
@@ -464,8 +594,10 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 4.0d
+			x: 3.0d
+			y: -4.0d
+			description: ["Must be use in conduction with the White List upgrade to function."]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "4541273502074A7D"
 			tasks: [{
@@ -475,8 +607,14 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 2.0d
+			x: 5.0d
+			y: -5.0d
+			description: [
+				"&bThe Rat Upgrade: Animal Breeder&r will allow a rat holding food to breed animals."
+				"The rat's command needs to set to \"Harvest\" in the Rat Menu to breed animals."
+				"Rats will pickup food items from chests or like storage that it is bound to using a Cheese Staff."
+			]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "35B38D26FA54DF47"
 			tasks: [{
@@ -486,8 +624,10 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 2.0d
+			x: 6.5d
+			y: -4.5d
+			description: ["Make sure your rat is near water. Use the cheese staff to give the rat a home chest. Once the rat has a home chest, you can set the rat to \"Harvest\" and the rat will begin to fish. Once the rat catches a fish, it will insert the fish into its' home chest."]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "507E1585F2D054D0"
 			tasks: [{
@@ -497,8 +637,11 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 1.0d
+			x: 8.0d
+			y: -1.0d
+			subtitle: "Torcherino"
+			description: ["Placing the rat above or below any block will accelerate the tickrate by an approximate a factor of five."]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "55A5B95F91530F0B"
 			tasks: [{
@@ -508,8 +651,10 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 1.0d
+			x: 6.0d
+			y: -4.0d
+			description: ["&bThe Rat Upgrade: Asbesto-Rat&r will grant a rat the ability to not take damage from fire, lava or magma."]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "60612FD534689BC7"
 			tasks: [{
@@ -519,8 +664,9 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 0.0d
+			x: 8.0d
+			y: -3.0d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "674BD52EF431FABF"
 			tasks: [{
@@ -530,9 +676,15 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 0.0d
-			dependencies: ["33332A77A21B5CDE"]
+			x: 3.5d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"33332A77A21B5CDE"
+				"674BD52EF431FABF"
+				"4E8407453512E902"
+				"60612FD534689BC7"
+			]
 			id: "73ADFED1E73ED5DC"
 			tasks: [{
 				id: "373CA9C6DE6A15D5"
@@ -541,8 +693,9 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -1.0d
+			x: 3.5d
+			y: -1.5d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "4E8407453512E902"
 			tasks: [{
@@ -552,8 +705,14 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -1.0d
+			x: 7.0d
+			y: -5.0d
+			description: [
+				"&bThe Rat Upgrade: Basic Energy Transfer&r allows a rat with this upgrade to transfer a max of 100 kRF at a time."
+				""
+				"RF and RE can be transferred."
+			]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "4C929F99BC362343"
 			tasks: [{
@@ -563,8 +722,9 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 3.0d
+			x: 7.5d
+			y: -3.5d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "0B55828AE7AFCE2F"
 			tasks: [{
@@ -574,8 +734,9 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -2.0d
+			x: 7.5d
+			y: -0.5d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "6B35B2029116C6E7"
 			tasks: [{
@@ -585,8 +746,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -3.0d
+			x: 3.0d
+			y: -5.0d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "6E538A7FC3A5A163"
 			tasks: [{
@@ -596,8 +758,9 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -3.0d
+			x: 4.5d
+			y: -4.5d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "2035DE8F68CE076B"
 			tasks: [{
@@ -607,30 +770,9 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -2.0d
-			dependencies: ["33332A77A21B5CDE"]
-			id: "595FAD3FE0DBF3F1"
-			tasks: [{
-				id: "0BD0727F87E1BC05"
-				type: "item"
-				item: "rats:rat_upgrade_elite_energy"
-			}]
-		}
-		{
-			x: 2.5d
-			y: 3.0d
-			dependencies: ["33332A77A21B5CDE"]
-			id: "3D3ADC255179AA42"
-			tasks: [{
-				id: "2C8DE42B3F56C697"
-				type: "item"
-				item: "rats:rat_upgrade_extreme_energy"
-			}]
-		}
-		{
-			x: -6.5d
-			y: -6.0d
+			x: 7.0d
+			y: -3.0d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "51C6A89735458C6E"
 			tasks: [{
@@ -640,8 +782,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -6.0d
+			x: 8.0d
+			y: -4.0d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "6FA25E7505D18DAC"
 			tasks: [{
@@ -651,8 +794,14 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 7.5d
+			x: 4.5d
+			y: -5.5d
+			description: [
+				"Rat will milk cows when set to harvest."
+				"Rat will transfer fluids instead of items."
+				"Rat will transfer 1000mb at a time."
+			]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "757BC67D95335A75"
 			tasks: [{
@@ -662,8 +811,9 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 7.5d
+			x: 4.0d
+			y: -1.0d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "30DBD37FC42F8CA4"
 			tasks: [{
@@ -673,19 +823,9 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -6.5d
-			dependencies: ["33332A77A21B5CDE"]
-			id: "496545016559B70C"
-			tasks: [{
-				id: "2333AB055C5E9D03"
-				type: "item"
-				item: "rats:rat_upgrade_aristocrat"
-			}]
-		}
-		{
-			x: -2.5d
-			y: -6.5d
+			x: 7.0d
+			y: -2.0d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "47954AEB31526AFE"
 			tasks: [{
@@ -695,8 +835,9 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -6.5d
+			x: 4.0d
+			y: -2.0d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "5D2A308D346DF7A5"
 			tasks: [{
@@ -706,8 +847,9 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 7.5d
+			x: 7.5d
+			y: -2.5d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "46D260903F5F3AE2"
 			tasks: [{
@@ -717,8 +859,14 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 7.5d
+			x: 6.5d
+			y: -2.5d
+			description: [
+				"Rat takes damage instead of its owner, only when within a certain distance."
+				""
+				"Damage is evenly distributed amongst multiple rats with this upgrade."
+			]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "48C4BB857F884C1C"
 			tasks: [{
@@ -728,8 +876,10 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 7.5d
+			x: 6.0d
+			y: 0.0d
+			description: ["Put the gem in the rat's food box inside the rat's inventory. Once the rat starts eating the gem, the gem will then be transformed into the cut versions."]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "6F6E39CCF94FE7FC"
 			tasks: [{
@@ -739,8 +889,9 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -2.0d
+			x: 7.5d
+			y: -4.5d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "5B5573AA2CAB580E"
 			tasks: [{
@@ -750,8 +901,9 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -1.0d
+			x: 6.0d
+			y: -6.0d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "1A1021FCCEC6E596"
 			tasks: [{
@@ -761,19 +913,10 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 0.0d
-			dependencies: ["33332A77A21B5CDE"]
-			id: "1969A96B8234E989"
-			tasks: [{
-				id: "4AEB0084C22777CE"
-				type: "item"
-				item: "rats:rat_upgrade_christmas"
-			}]
-		}
-		{
-			x: -6.5d
-			y: 1.0d
+			x: 3.0d
+			y: -1.0d
+			description: ["The upgrade allows your rat to basically have unlimited food."]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "6E2CFB7CD7BA9821"
 			tasks: [{
@@ -783,8 +926,9 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 2.0d
+			x: 4.5d
+			y: -0.5d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "115E2618540D9C15"
 			tasks: [{
@@ -794,8 +938,10 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 3.0d
+			x: 7.5d
+			y: -5.5d
+			description: ["&bThe Rat Upgrade: Angel&r will allow a rat with the upgrade equipped to respawn. Like all Rat Upgrades, it can be applied to a rat by placing it in the upgrade slot in the Rat Menu."]
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "2A5315B60A7F7506"
 			tasks: [{
@@ -805,8 +951,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -2.0d
+			x: 6.5d
+			y: -3.5d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "1C2A0D0C8D8C4AD6"
 			tasks: [{
@@ -816,8 +963,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -1.0d
+			x: 3.5d
+			y: -2.5d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "1F736EA92495D846"
 			tasks: [{
@@ -827,8 +975,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 0.0d
+			x: 4.0d
+			y: -4.0d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "5B9FD82E253939CD"
 			tasks: [{
@@ -838,8 +987,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 1.0d
+			x: 5.0d
+			y: -3.0d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "56CAC567CE097D76"
 			tasks: [{
@@ -849,8 +999,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 2.0d
+			x: 6.5d
+			y: -5.5d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "1C0C9C7A78948C37"
 			tasks: [{
@@ -860,8 +1011,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 3.0d
+			x: 7.0d
+			y: -4.0d
+			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "725F91C8220F0EA5"
 			tasks: [{
@@ -871,9 +1023,10 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -3.0d
-			description: ["You will need some milk, wait and the cheese will apear"]
+			title: "&eCheesemaking"
+			x: 5.5d
+			y: 5.5d
+			description: ["A Block of Cheese can be made by interacting with an empty cauldron using a Bucket of Milk."]
 			id: "70326FBA1D606DB4"
 			tasks: [
 				{
@@ -887,16 +1040,214 @@
 					item: "rats:block_of_cheese"
 				}
 			]
+			rewards: [{
+				id: "00BEC14008D8937E"
+				type: "item"
+				item: "minecraft:milk_bucket"
+			}]
 		}
 		{
-			x: 7.5d
-			y: 0.0d
-			size: 5.0d
-			id: "5546DF34B019EB4E"
+			x: 0.0d
+			y: -2.0d
+			subtitle: "You will never need to eat again"
+			description: ["&2Confit Byaldi&r is a food item that is created by giving a Rat with &eRat Upgrade: Chef &rsome &6Assorted Vegetables&r."]
+			hide_dependency_lines: true
+			dependencies: [
+				"25F63E33E4FBBB00"
+				"19322ECDAF4F422A"
+			]
+			hide: true
+			id: "30B465FCD9E4CC28"
 			tasks: [{
-				id: "739DC762DD5D2E48"
-				type: "checkmark"
-				title: "THE FLOUR IS LAVA"
+				id: "585E0B6D56A66969"
+				type: "item"
+				item: "rats:confit_byaldi"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			description: ["&6Assorted vegetables&r is an item that is crafted from a variety of vegetables. "]
+			id: "19322ECDAF4F422A"
+			tasks: [{
+				id: "0FE55235C6D6604A"
+				type: "item"
+				item: "rats:assorted_vegetables"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			subtitle: "You will never need to eat again"
+			hide_dependency_lines: true
+			dependencies: [
+				"25F63E33E4FBBB00"
+				"6ABF2E67C99C6B5B"
+			]
+			hide: true
+			id: "2852D5D738710810"
+			tasks: [{
+				id: "7D409E64DA03568A"
+				type: "item"
+				item: "rats:potato_kinishes"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"6F6E39CCF94FE7FC"
+				"4A6725B54DD382E1"
+			]
+			id: "6ABF2E67C99C6B5B"
+			tasks: [{
+				id: "112F7D37182D2980"
+				type: "item"
+				item: "rats:centipede"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"1223C7BBA4EBEA0E"
+				"0A489C5E8EDE6E9C"
+			]
+			id: "4A6725B54DD382E1"
+			tasks: [{
+				id: "1E7DEA84AAA13D9C"
+				type: "item"
+				item: "rats:little_black_worm"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			id: "1223C7BBA4EBEA0E"
+			tasks: [{
+				id: "1CD5BB172BEABD50"
+				type: "item"
+				item: "rats:potato_pancake"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["6F6E39CCF94FE7FC"]
+			id: "0A489C5E8EDE6E9C"
+			tasks: [{
+				id: "6E6A6F7C8295F36B"
+				type: "item"
+				item: "rats:little_black_squash_balls"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 7.0d
+			subtitle: "You will do what i want you to do"
+			description: [
+				"&eThe Cheese Staff&r its primary purpose is to configure Rat commands and behavior."
+				""
+			]
+			hide_dependency_lines: true
+			dependencies: ["49C443050019B6F5"]
+			size: 1.5d
+			id: "439E821334E5AF3D"
+			tasks: [{
+				id: "3FFD4F034311FE47"
+				type: "item"
+				item: {
+					id: "rats:cheese_stick"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["25F63E33E4FBBB00"]
+			id: "1F3A35EE8F687480"
+			tasks: [{
+				id: "4E54457C0DDDCFA1"
+				type: "item"
+				item: "rats:string_cheese"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -2.0d
+			description: [
+				"A food providing 4 full food, and 8 full saturation."
+				"It is crafted by putting a cooked rat in between two pieces of bread."
+			]
+			dependencies: ["2223601AC03DCF73"]
+			id: "1B87DB25EB725162"
+			tasks: [{
+				id: "68D043E2DE567109"
+				type: "item"
+				item: "rats:rat_burger"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.5d
+			description: ["Cooked Rat is a food item obtained by cooking Raw Rat."]
+			id: "2223601AC03DCF73"
+			tasks: [{
+				id: "21EE18F9B81AEB0D"
+				type: "item"
+				item: "rats:cooked_rat"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.5d
+			description: ["&bThe Rat Upgrade: Aristoc-Rat&r grains a rat to drop Tiny Coins randomly or anytime it kills an enemy."]
+			hide_dependency_lines: true
+			dependencies: ["33332A77A21B5CDE"]
+			id: "27E3F0C640DBD7C0"
+			tasks: [{
+				id: "30DB4B53EB2D61BC"
+				type: "item"
+				item: "rats:rat_upgrade_aristocrat"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			dependencies: ["10670EB26DC9CCAA"]
+			id: "300703C88A2C313A"
+			tasks: [{
+				id: "1C7B5D4ABBCA0917"
+				type: "item"
+				item: "rats:cursed_garbage"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.0d
+			dependencies: ["10670EB26DC9CCAA"]
+			id: "30AD8D8704C2612E"
+			tasks: [{
+				id: "6A719682B031503F"
+				type: "item"
+				item: "rats:compressed_garbage"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			dependencies: ["10670EB26DC9CCAA"]
+			id: "358C536818B4B6F9"
+			tasks: [{
+				id: "306BA92F38444739"
+				type: "item"
+				item: "rats:purified_garbage"
 			}]
 		}
 	]

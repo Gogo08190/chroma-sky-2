@@ -15,6 +15,13 @@
 			shape: "octagon"
 			subtitle: "Timber !"
 			description: ["Like any good Minecraft adventure you have to cut wood !"]
+			dependencies: [
+				"769D409BA5258BBD"
+				"738A41EE59B4EDC5"
+				"243F4EFC9D26092C"
+				"024C04C97172D08D"
+				"5AA98A6A5E15905F"
+			]
 			size: 2.0d
 			id: "3F97D03C2402B70D"
 			tasks: [{

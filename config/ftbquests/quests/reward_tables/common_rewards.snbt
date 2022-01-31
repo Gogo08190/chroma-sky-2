@@ -1,0 +1,8 @@
+{
+	id: "667193135C24B9B2"
+	order_index: 0
+	title: "&aCommon Rewards"
+	icon: "losttrinkets:treasure_bag"
+	loot_size: 1
+	rewards: [ ]
+}

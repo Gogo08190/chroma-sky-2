@@ -1,7 +1,7 @@
 {
 	id: "7AB2283D25B6C174"
 	group: "258B5ED587988A28"
-	order_index: 9
+	order_index: 8
 	filename: "mystical"
 	title: "Mystical"
 	icon: "mysticalagriculture:master_infusion_crystal"
@@ -9,12 +9,11 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -9.5d
-			y: 1.0d
-			dependencies: [
-				"74083D9E4671E933"
-				"39DB67EE674F41A4"
-			]
+			x: -2.0d
+			y: 2.5d
+			shape: "octagon"
+			dependencies: ["39DB67EE674F41A4"]
+			size: 2.0d
 			id: "083F18D402B22953"
 			tasks: [{
 				id: "1230B488BA181F47"
@@ -23,13 +22,15 @@
 			}]
 		}
 		{
-			x: -18.5d
+			x: -17.0d
 			y: 2.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: [
 				"083F18D402B22953"
 				"39DB67EE674F41A4"
 			]
+			size: 2.0d
 			id: "568C652E37D97F53"
 			tasks: [{
 				id: "319F9E1573C96CB3"
@@ -38,8 +39,9 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 2.0d
+			x: 2.0d
+			y: 2.5d
+			shape: "rsquare"
 			dependencies: ["39DB67EE674F41A4"]
 			id: "0A783ECF5E943732"
 			tasks: [
@@ -57,20 +59,10 @@
 			]
 		}
 		{
-			x: -9.5d
-			y: -1.0d
-			dependencies: ["083F18D402B22953"]
-			id: "7C8113333D5CE5C9"
-			tasks: [{
-				id: "4917FCA779E7720E"
-				type: "checkmark"
-				title: "Seed T1"
-			}]
-		}
-		{
-			x: -12.5d
-			y: -2.5d
-			dependencies: ["2E655DDBDDDF509B"]
+			x: -10.5d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["74083D9E4671E933"]
 			id: "2E0A337619784843"
 			tasks: [{
 				id: "27E370D1A79585E5"
@@ -79,9 +71,10 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -4.0d
-			dependencies: ["7A9643797D39730F"]
+			x: -10.0d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["74083D9E4671E933"]
 			id: "18CE85960D5F2B75"
 			tasks: [{
 				id: "4E0BE19631C55909"
@@ -90,9 +83,10 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: -4.0d
-			dependencies: ["7A92F94EBDDD9E99"]
+			x: -10.5d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["74083D9E4671E933"]
 			id: "3F89899854441602"
 			tasks: [{
 				id: "45AE7C7584F58550"
@@ -101,9 +95,10 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -2.0d
-			dependencies: ["2F1B13D7A36B77CC"]
+			x: -11.0d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["74083D9E4671E933"]
 			id: "3E70ACEC164B0FBA"
 			tasks: [{
 				id: "47E2D23E173F986C"
@@ -112,9 +107,10 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: -1.0d
-			dependencies: ["7C8113333D5CE5C9"]
+			x: -8.5d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["74083D9E4671E933"]
 			id: "6DE667FE6909ADD5"
 			tasks: [{
 				id: "3513B3519EA1436E"
@@ -123,9 +119,10 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: 0.0d
-			dependencies: ["7C8113333D5CE5C9"]
+			x: -9.0d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["74083D9E4671E933"]
 			id: "08C6F3E044F98F64"
 			tasks: [{
 				id: "12201AFCCD7282D7"
@@ -134,9 +131,10 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -8.5d
 			y: -1.0d
-			dependencies: ["7C8113333D5CE5C9"]
+			shape: "diamond"
+			dependencies: ["74083D9E4671E933"]
 			id: "534B2326808C2D5E"
 			tasks: [{
 				id: "12E159699FF5C5B1"
@@ -145,9 +143,10 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: 0.0d
-			dependencies: ["7C8113333D5CE5C9"]
+			x: -8.0d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["74083D9E4671E933"]
 			id: "0F1EC5060B467EF2"
 			tasks: [{
 				id: "26FE5EEB5791E55B"
@@ -156,64 +155,11 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: -2.0d
-			dependencies: ["7C8113333D5CE5C9"]
-			id: "2E655DDBDDDF509B"
-			tasks: [{
-				id: "4D37B3E7800C6414"
-				type: "item"
-				item: "mysticalagriculture:air_agglomeratio"
-			}]
-		}
-		{
-			x: -8.5d
-			y: -3.0d
-			dependencies: ["7C8113333D5CE5C9"]
-			id: "7A9643797D39730F"
-			tasks: [{
-				id: "1166510743D908C8"
-				type: "item"
-				item: "mysticalagriculture:earth_agglomeratio"
-			}]
-		}
-		{
-			x: -10.0d
-			y: -3.0d
-			dependencies: ["7C8113333D5CE5C9"]
-			id: "7A92F94EBDDD9E99"
-			tasks: [{
-				id: "6667D5BA53440C61"
-				type: "item"
-				item: "mysticalagriculture:water_agglomeratio"
-			}]
-		}
-		{
-			x: -8.0d
-			y: -2.0d
-			dependencies: ["7C8113333D5CE5C9"]
-			id: "2F1B13D7A36B77CC"
-			tasks: [{
-				id: "0DF4B6169F2988CD"
-				type: "item"
-				item: "mysticalagriculture:fire_agglomeratio"
-			}]
-		}
-		{
-			x: -2.0d
-			y: -1.0d
-			dependencies: ["0F28E6EDB6BC1AA6"]
-			id: "5B027A760026690A"
-			tasks: [{
-				id: "17905F82B1FDD6E8"
-				type: "checkmark"
-				title: "Seed Tier 2"
-			}]
-		}
-		{
 			x: -9.5d
-			y: 2.5d
+			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
+			size: 1.5d
 			id: "74083D9E4671E933"
 			tasks: [{
 				id: "13DFE41AF4B4529E"
@@ -223,12 +169,14 @@
 		}
 		{
 			x: -2.0d
-			y: 2.5d
+			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"09E50257121C71FB"
 				"74083D9E4671E933"
 			]
+			size: 1.5d
 			id: "0F28E6EDB6BC1AA6"
 			tasks: [{
 				id: "64ED9BB33A503669"
@@ -237,13 +185,15 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 2.5d
+			x: 5.5d
+			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"1D8AB179DEB3AA4B"
 				"0F28E6EDB6BC1AA6"
 			]
+			size: 1.5d
 			id: "278CC800303B12A5"
 			tasks: [{
 				id: "2E4BA9483D734331"
@@ -253,12 +203,14 @@
 		}
 		{
 			x: -9.5d
-			y: 4.0d
+			y: 5.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"278CC800303B12A5"
 				"3DE8005B127FFA10"
 			]
+			size: 1.5d
 			id: "695E644312CB3D02"
 			tasks: [{
 				id: "7D967A235BE5CC3E"
@@ -268,12 +220,14 @@
 		}
 		{
 			x: -2.0d
-			y: 4.0d
+			y: 5.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"695E644312CB3D02"
 				"682F3B47FAE6BB17"
 			]
+			size: 1.5d
 			id: "6BCBB87B89D1D218"
 			tasks: [{
 				id: "122797CB9ABDC282"
@@ -282,13 +236,15 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 4.0d
+			x: 5.5d
+			y: 5.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"4B3A7953270DCEFD"
 				"6BCBB87B89D1D218"
 			]
+			size: 1.5d
 			id: "0D702BE2A86D3A38"
 			tasks: [{
 				id: "78DD0BB714F3DBEB"
@@ -297,9 +253,10 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -4.0d
-			dependencies: ["5B027A760026690A"]
+			x: -2.0d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["0F28E6EDB6BC1AA6"]
 			id: "46B371318EBE1D8E"
 			tasks: [{
 				id: "338BCABE089A1A72"
@@ -308,9 +265,10 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -4.0d
-			dependencies: ["12FC5482C372FEDD"]
+			x: -2.5d
+			y: -2.5d
+			shape: "diamond"
+			dependencies: ["0F28E6EDB6BC1AA6"]
 			id: "2320BBFD2D45BB5F"
 			tasks: [{
 				id: "74ABC1EA57D4F666"
@@ -319,9 +277,10 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -4.0d
-			dependencies: ["5B027A760026690A"]
+			x: -1.5d
+			y: -2.5d
+			shape: "diamond"
+			dependencies: ["0F28E6EDB6BC1AA6"]
 			id: "5EBB3D42063AF174"
 			tasks: [{
 				id: "71D283D013156E35"
@@ -330,9 +289,10 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -4.0d
-			dependencies: ["5B027A760026690A"]
+			x: -2.0d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: ["0F28E6EDB6BC1AA6"]
 			id: "34B2AD801DC91EBF"
 			tasks: [{
 				id: "269162B740540A4D"
@@ -341,9 +301,10 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -4.0d
-			dependencies: ["5094527F428E7924"]
+			x: -1.0d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["0F28E6EDB6BC1AA6"]
 			id: "0AF9E384823CE570"
 			tasks: [{
 				id: "7552BF8B7B345B95"
@@ -352,9 +313,10 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: -3.0d
 			y: -1.0d
-			dependencies: ["5B027A760026690A"]
+			shape: "diamond"
+			dependencies: ["0F28E6EDB6BC1AA6"]
 			id: "458B9432C6C2AEE1"
 			tasks: [{
 				id: "52E4EDD84D096CE1"
@@ -363,8 +325,9 @@
 			}]
 		}
 		{
-			x: -19.0d
-			y: -3.5d
+			x: -16.0d
+			y: -2.0d
+			shape: "diamond"
 			dependencies: ["4AC4AC78F653FAFE"]
 			id: "34CD5905563B7F6E"
 			tasks: [{
@@ -374,8 +337,9 @@
 			}]
 		}
 		{
-			x: -22.0d
-			y: -3.5d
+			x: -16.0d
+			y: -1.0d
+			shape: "diamond"
 			dependencies: ["4AC4AC78F653FAFE"]
 			id: "4CC6E5C7D3CA0B16"
 			tasks: [{
@@ -385,8 +349,9 @@
 			}]
 		}
 		{
-			x: -22.0d
-			y: -2.5d
+			x: -17.0d
+			y: -2.0d
+			shape: "diamond"
 			dependencies: ["4AC4AC78F653FAFE"]
 			id: "5DD1264309F27CCF"
 			tasks: [{
@@ -396,8 +361,9 @@
 			}]
 		}
 		{
-			x: -17.0d
-			y: -3.5d
+			x: -16.5d
+			y: -1.5d
+			shape: "diamond"
 			dependencies: ["4AC4AC78F653FAFE"]
 			id: "03C58C29EC35F1E2"
 			tasks: [{
@@ -407,8 +373,9 @@
 			}]
 		}
 		{
-			x: -18.0d
-			y: -3.5d
+			x: -17.5d
+			y: -1.5d
+			shape: "diamond"
 			dependencies: ["4AC4AC78F653FAFE"]
 			id: "52B019B536F7997C"
 			tasks: [{
@@ -418,8 +385,9 @@
 			}]
 		}
 		{
-			x: -17.0d
-			y: 7.0d
+			x: -16.5d
+			y: 7.5d
+			shape: "diamond"
 			dependencies: ["43252F4A179693CA"]
 			id: "211CC4D5C4730915"
 			tasks: [{
@@ -429,8 +397,9 @@
 			}]
 		}
 		{
-			x: -21.0d
-			y: -3.5d
+			x: -18.0d
+			y: -1.0d
+			shape: "diamond"
 			dependencies: ["4AC4AC78F653FAFE"]
 			id: "41C3C477A8187DDC"
 			tasks: [{
@@ -440,9 +409,10 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -2.0d
-			dependencies: ["5B027A760026690A"]
+			x: -2.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["0F28E6EDB6BC1AA6"]
 			id: "299D043C54739465"
 			tasks: [{
 				id: "180680257D66BD47"
@@ -451,9 +421,10 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -4.0d
-			dependencies: ["5B027A760026690A"]
+			x: -3.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["0F28E6EDB6BC1AA6"]
 			id: "4F9C461174E91400"
 			tasks: [{
 				id: "0A32CD71B8C6FF6D"
@@ -462,9 +433,10 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -3.0d
-			dependencies: ["5B027A760026690A"]
+			x: -3.0d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["0F28E6EDB6BC1AA6"]
 			id: "7C1E6041B367CDE9"
 			tasks: [{
 				id: "6B5E087D6C3EEA8C"
@@ -473,9 +445,10 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -3.0d
-			dependencies: ["5B027A760026690A"]
+			x: -0.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["0F28E6EDB6BC1AA6"]
 			id: "6CF504DF90C49E89"
 			tasks: [{
 				id: "20E1F43296497448"
@@ -486,7 +459,8 @@
 		{
 			x: -1.0d
 			y: 0.0d
-			dependencies: ["5B027A760026690A"]
+			shape: "diamond"
+			dependencies: ["0F28E6EDB6BC1AA6"]
 			id: "4E80353FCC073162"
 			tasks: [{
 				id: "58D1EC51536DDDD8"
@@ -495,9 +469,10 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -1.0d
-			dependencies: ["5B027A760026690A"]
+			x: -1.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["0F28E6EDB6BC1AA6"]
 			id: "1C6F6AB5C72FDA5F"
 			tasks: [{
 				id: "2989641A583BF693"
@@ -506,9 +481,10 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 0.0d
-			dependencies: ["5B027A760026690A"]
+			x: -1.0d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["0F28E6EDB6BC1AA6"]
 			id: "76631C01B8C806E2"
 			tasks: [{
 				id: "529A13F0BEC67490"
@@ -517,9 +493,10 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 0.0d
-			dependencies: ["5B027A760026690A"]
+			x: -3.5d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["0F28E6EDB6BC1AA6"]
 			id: "11828129DEAEA9D3"
 			tasks: [{
 				id: "6B6FED48AF3546FC"
@@ -528,9 +505,10 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -2.0d
-			dependencies: ["5B027A760026690A"]
+			x: -0.5d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["0F28E6EDB6BC1AA6"]
 			id: "248F2FDA8FBA1132"
 			tasks: [{
 				id: "1B0D4678D59A16E7"
@@ -539,9 +517,10 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: -3.0d
 			y: 0.0d
-			dependencies: ["5B027A760026690A"]
+			shape: "diamond"
+			dependencies: ["0F28E6EDB6BC1AA6"]
 			id: "6698239EF2FCB12B"
 			tasks: [{
 				id: "57D8BCB5E352A86E"
@@ -550,32 +529,38 @@
 			}]
 		}
 		{
-			x: -18.5d
-			y: -1.0d
-			shape: "circle"
+			x: -17.0d
+			y: -0.5d
+			shape: "diamond"
+			hide_dependency_lines: true
 			dependencies: ["568C652E37D97F53"]
+			size: 1.5d
 			id: "4AC4AC78F653FAFE"
 			tasks: [{
 				id: "339208ACB1032230"
 				type: "checkmark"
-				title: "Passive Mob"
+				title: "&aPassive Mob Seed"
 			}]
 		}
 		{
-			x: -18.5d
-			y: 4.0d
+			x: -17.0d
+			y: 5.5d
+			shape: "diamond"
+			hide_dependency_lines: true
 			dependencies: ["568C652E37D97F53"]
+			size: 1.5d
 			id: "43252F4A179693CA"
 			tasks: [{
 				id: "2A9C58563FEEA10F"
 				type: "checkmark"
-				title: "Hostile Mob"
+				title: "&4Hostile Mob Seed"
 			}]
 		}
 		{
-			x: 8.0d
-			y: -4.0d
-			dependencies: ["5A0F6B2271A6D5D1"]
+			x: 5.5d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["278CC800303B12A5"]
 			id: "1B05C340AC5DCF69"
 			tasks: [{
 				id: "7D15C20EF966AD3A"
@@ -584,9 +569,10 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -4.0d
-			dependencies: ["5A0F6B2271A6D5D1"]
+			x: 7.5d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["278CC800303B12A5"]
 			id: "22161EB765776176"
 			tasks: [{
 				id: "680ABAF5699ED680"
@@ -595,9 +581,10 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -4.0d
-			dependencies: ["5A0F6B2271A6D5D1"]
+			x: 3.5d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["278CC800303B12A5"]
 			id: "4F2FD72FE7421CD0"
 			tasks: [{
 				id: "4E14423245F5B06F"
@@ -606,9 +593,10 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -2.0d
-			dependencies: ["5A0F6B2271A6D5D1"]
+			x: 7.0d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["278CC800303B12A5"]
 			id: "4920285B1A049F8B"
 			tasks: [{
 				id: "07F5119F0FC67980"
@@ -617,9 +605,10 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -4.0d
-			dependencies: ["5A0F6B2271A6D5D1"]
+			x: 7.0d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["278CC800303B12A5"]
 			id: "2D5C8E091EFD7CFD"
 			tasks: [{
 				id: "01694E2158E12E02"
@@ -628,9 +617,10 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -4.0d
-			dependencies: ["29ACFFF19287BAE5"]
+			x: 6.5d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["278CC800303B12A5"]
 			id: "6E144951D3E642F7"
 			tasks: [{
 				id: "00EB720F49E3D344"
@@ -639,8 +629,9 @@
 			}]
 		}
 		{
-			x: -18.0d
-			y: 7.0d
+			x: -16.5d
+			y: 6.5d
+			shape: "diamond"
 			dependencies: ["43252F4A179693CA"]
 			id: "7EA6255ABF7F1D91"
 			tasks: [{
@@ -650,8 +641,9 @@
 			}]
 		}
 		{
-			x: -16.0d
-			y: 4.0d
+			x: -17.5d
+			y: 7.5d
+			shape: "diamond"
 			dependencies: ["43252F4A179693CA"]
 			id: "334A0CA8F5C4169C"
 			tasks: [{
@@ -661,8 +653,9 @@
 			}]
 		}
 		{
-			x: -19.0d
-			y: 7.0d
+			x: -17.5d
+			y: 6.5d
+			shape: "diamond"
 			dependencies: ["43252F4A179693CA"]
 			id: "633A61DBB6DB86A8"
 			tasks: [{
@@ -672,8 +665,9 @@
 			}]
 		}
 		{
-			x: -20.0d
-			y: 7.0d
+			x: -18.0d
+			y: 6.0d
+			shape: "diamond"
 			dependencies: ["43252F4A179693CA"]
 			id: "38B855C1086B924C"
 			tasks: [{
@@ -683,8 +677,9 @@
 			}]
 		}
 		{
-			x: -20.0d
-			y: -3.5d
+			x: -18.0d
+			y: -2.0d
+			shape: "diamond"
 			dependencies: ["4AC4AC78F653FAFE"]
 			id: "5A6FF0950F2E0449"
 			tasks: [{
@@ -694,9 +689,10 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -3.0d
-			dependencies: ["5A0F6B2271A6D5D1"]
+			x: 4.5d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["278CC800303B12A5"]
 			id: "0286CADCB9108F6E"
 			tasks: [{
 				id: "64F1AA5A215113C1"
@@ -705,9 +701,10 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -2.0d
-			dependencies: ["5A0F6B2271A6D5D1"]
+			x: 5.0d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["278CC800303B12A5"]
 			id: "159970874B171FDD"
 			tasks: [{
 				id: "536BA70C9B0D4B40"
@@ -716,9 +713,10 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 4.5d
 			y: -1.0d
-			dependencies: ["5A0F6B2271A6D5D1"]
+			shape: "diamond"
+			dependencies: ["278CC800303B12A5"]
 			id: "7F78C6A7361A7D17"
 			tasks: [{
 				id: "5EB33830B8D512EC"
@@ -727,9 +725,10 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 4.5d
 			y: 0.0d
-			dependencies: ["5A0F6B2271A6D5D1"]
+			shape: "diamond"
+			dependencies: ["278CC800303B12A5"]
 			id: "083383A40A16ECF7"
 			tasks: [{
 				id: "295AD90B2957B05C"
@@ -739,8 +738,9 @@
 		}
 		{
 			x: 5.0d
-			y: 0.0d
-			dependencies: ["5A0F6B2271A6D5D1"]
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["278CC800303B12A5"]
 			id: "43A3E4224A99E9AB"
 			tasks: [{
 				id: "7C9F7FCC5CC63538"
@@ -749,8 +749,9 @@
 			}]
 		}
 		{
-			x: -16.0d
-			y: 6.0d
+			x: -17.0d
+			y: 8.0d
+			shape: "diamond"
 			dependencies: ["43252F4A179693CA"]
 			id: "63930C112D00ECD2"
 			tasks: [{
@@ -761,7 +762,8 @@
 		}
 		{
 			x: -16.0d
-			y: 5.0d
+			y: 7.0d
+			shape: "diamond"
 			dependencies: ["43252F4A179693CA"]
 			id: "43A6DDC86B763ADA"
 			tasks: [{
@@ -771,8 +773,9 @@
 			}]
 		}
 		{
-			x: -16.0d
+			x: -17.0d
 			y: 7.0d
+			shape: "diamond"
 			dependencies: ["43252F4A179693CA"]
 			id: "2EB80A3D669D7317"
 			tasks: [{
@@ -782,9 +785,10 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -1.0d
-			dependencies: ["5A0F6B2271A6D5D1"]
+			x: 6.0d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["278CC800303B12A5"]
 			id: "3A544D32C9B027CE"
 			tasks: [{
 				id: "65196A41A87AC0D4"
@@ -793,9 +797,10 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 6.5d
 			y: 0.0d
-			dependencies: ["5A0F6B2271A6D5D1"]
+			shape: "diamond"
+			dependencies: ["278CC800303B12A5"]
 			id: "24848888DD8C4F92"
 			tasks: [{
 				id: "72378EE4882D537D"
@@ -805,8 +810,9 @@
 		}
 		{
 			x: 4.0d
-			y: -4.0d
-			dependencies: ["5A0F6B2271A6D5D1"]
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["278CC800303B12A5"]
 			id: "716E00455A512E64"
 			tasks: [{
 				id: "082D65DD4F74614B"
@@ -815,9 +821,10 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 0.0d
-			dependencies: ["5A0F6B2271A6D5D1"]
+			x: 6.0d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["278CC800303B12A5"]
 			id: "56900B6309305741"
 			tasks: [{
 				id: "088459AB17825AF4"
@@ -826,9 +833,10 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -3.0d
-			dependencies: ["5A0F6B2271A6D5D1"]
+			x: 4.0d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["278CC800303B12A5"]
 			id: "4295A40F487CDC8E"
 			tasks: [{
 				id: "7A27650CC2496682"
@@ -837,9 +845,10 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 0.0d
-			dependencies: ["5A0F6B2271A6D5D1"]
+			x: 6.5d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["278CC800303B12A5"]
 			id: "4E1432786E429040"
 			tasks: [{
 				id: "0569FFAA6D366A9A"
@@ -848,53 +857,10 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -3.0d
-			dependencies: ["5B027A760026690A"]
-			id: "5094527F428E7924"
-			tasks: [{
-				id: "7ACEC1E8C37F1FBD"
-				type: "item"
-				item: "mysticalagriculture:coral_agglomeratio"
-			}]
-		}
-		{
-			x: -3.0d
-			y: -2.5d
-			dependencies: ["5B027A760026690A"]
-			id: "12FC5482C372FEDD"
-			tasks: [{
-				id: "421107A848A30BE8"
-				type: "item"
-				item: "mysticalagriculture:dye_agglomeratio"
-			}]
-		}
-		{
-			x: 5.0d
-			y: -2.5d
-			dependencies: ["5A0F6B2271A6D5D1"]
-			id: "29ACFFF19287BAE5"
-			tasks: [{
-				id: "436B868CF79F99B2"
-				type: "item"
-				item: "mysticalagriculture:prismarine_agglomeratio"
-			}]
-		}
-		{
-			x: 6.0d
-			y: -1.0d
-			dependencies: ["278CC800303B12A5"]
-			id: "5A0F6B2271A6D5D1"
-			tasks: [{
-				id: "7DCDEFA3950ECCC8"
-				type: "checkmark"
-				title: "Seed tier 3"
-			}]
-		}
-		{
-			x: -11.5d
-			y: 4.0d
-			dependencies: ["765C0BE28A2B79B3"]
+			x: -10.5d
+			y: 6.0d
+			shape: "diamond"
+			dependencies: ["695E644312CB3D02"]
 			id: "64B71F536382EFC5"
 			tasks: [{
 				id: "283414E4F49FC1FD"
@@ -903,9 +869,10 @@
 			}]
 		}
 		{
-			x: -12.5d
-			y: 4.0d
-			dependencies: ["765C0BE28A2B79B3"]
+			x: -10.0d
+			y: 6.5d
+			shape: "diamond"
+			dependencies: ["695E644312CB3D02"]
 			id: "28FFB7546100B3F7"
 			tasks: [{
 				id: "3313B4D7C154BF96"
@@ -914,9 +881,10 @@
 			}]
 		}
 		{
-			x: -13.5d
-			y: 6.0d
-			dependencies: ["073E8D78DB682E3A"]
+			x: -9.0d
+			y: 6.5d
+			shape: "diamond"
+			dependencies: ["695E644312CB3D02"]
 			id: "1D50A370321FA62F"
 			tasks: [{
 				id: "7706F82B12703119"
@@ -925,9 +893,10 @@
 			}]
 		}
 		{
-			x: -13.5d
+			x: -8.5d
 			y: 8.0d
-			dependencies: ["765C0BE28A2B79B3"]
+			shape: "diamond"
+			dependencies: ["695E644312CB3D02"]
 			id: "665E58E2392A7A81"
 			tasks: [{
 				id: "1869DB1153E4238C"
@@ -936,8 +905,9 @@
 			}]
 		}
 		{
-			x: -21.0d
-			y: 7.0d
+			x: -18.5d
+			y: 6.5d
+			shape: "diamond"
 			dependencies: ["43252F4A179693CA"]
 			id: "7D27223D59F350B5"
 			tasks: [{
@@ -947,8 +917,9 @@
 			}]
 		}
 		{
-			x: -22.0d
-			y: 7.0d
+			x: -16.0d
+			y: 6.0d
+			shape: "diamond"
 			dependencies: ["43252F4A179693CA"]
 			id: "6A9AE9A7F6629F42"
 			tasks: [{
@@ -958,8 +929,9 @@
 			}]
 		}
 		{
-			x: -22.0d
-			y: 6.0d
+			x: -15.5d
+			y: 6.5d
+			shape: "diamond"
 			dependencies: ["43252F4A179693CA"]
 			id: "0DBD514BAD257F17"
 			tasks: [{
@@ -969,9 +941,10 @@
 			}]
 		}
 		{
-			x: -13.5d
-			y: 4.0d
-			dependencies: ["765C0BE28A2B79B3"]
+			x: -11.0d
+			y: 5.5d
+			shape: "diamond"
+			dependencies: ["695E644312CB3D02"]
 			id: "383E91454B4559BA"
 			tasks: [{
 				id: "730BE64CEBFA3FAF"
@@ -980,9 +953,10 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 9.0d
-			dependencies: ["765C0BE28A2B79B3"]
+			x: -7.5d
+			y: 7.0d
+			shape: "diamond"
+			dependencies: ["695E644312CB3D02"]
 			id: "17C155007A92847C"
 			tasks: [{
 				id: "7E6F939F5214F291"
@@ -991,9 +965,10 @@
 			}]
 		}
 		{
-			x: -13.5d
-			y: 7.0d
-			dependencies: ["765C0BE28A2B79B3"]
+			x: -8.5d
+			y: 6.0d
+			shape: "diamond"
+			dependencies: ["695E644312CB3D02"]
 			id: "46BEE7295A79B1CB"
 			tasks: [{
 				id: "796EE4F83454BCBF"
@@ -1002,9 +977,10 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 4.0d
-			dependencies: ["765C0BE28A2B79B3"]
+			x: -10.5d
+			y: 7.0d
+			shape: "diamond"
+			dependencies: ["695E644312CB3D02"]
 			id: "1EFF70A6DD514FA7"
 			tasks: [{
 				id: "1D49B15198A918F5"
@@ -1013,9 +989,10 @@
 			}]
 		}
 		{
-			x: -13.5d
-			y: 5.0d
-			dependencies: ["765C0BE28A2B79B3"]
+			x: -11.0d
+			y: 6.5d
+			shape: "diamond"
+			dependencies: ["695E644312CB3D02"]
 			id: "0FE42051B56DF622"
 			tasks: [{
 				id: "5DF6A81E9BC66DAC"
@@ -1024,9 +1001,10 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: -7.5d
 			y: 6.0d
-			dependencies: ["765C0BE28A2B79B3"]
+			shape: "diamond"
+			dependencies: ["695E644312CB3D02"]
 			id: "1A97E07D3EDD7E27"
 			tasks: [{
 				id: "140FAF58333CAB24"
@@ -1035,9 +1013,10 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 4.0d
-			dependencies: ["765C0BE28A2B79B3"]
+			x: -8.0d
+			y: 5.5d
+			shape: "diamond"
+			dependencies: ["695E644312CB3D02"]
 			id: "349BC2A6F8314BB2"
 			tasks: [{
 				id: "33DB267D4C593927"
@@ -1046,9 +1025,10 @@
 			}]
 		}
 		{
-			x: -12.5d
-			y: 9.0d
-			dependencies: ["765C0BE28A2B79B3"]
+			x: -10.0d
+			y: 7.5d
+			shape: "diamond"
+			dependencies: ["695E644312CB3D02"]
 			id: "473F2FB548B78372"
 			tasks: [{
 				id: "0FA969430167E01B"
@@ -1057,9 +1037,10 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 9.0d
-			dependencies: ["765C0BE28A2B79B3"]
+			x: -9.5d
+			y: 8.0d
+			shape: "diamond"
+			dependencies: ["695E644312CB3D02"]
 			id: "0ADF74A43266A9B8"
 			tasks: [{
 				id: "50C21ABFAE4B4C05"
@@ -1069,8 +1050,9 @@
 		}
 		{
 			x: -10.5d
-			y: 4.0d
-			dependencies: ["765C0BE28A2B79B3"]
+			y: 5.0d
+			shape: "diamond"
+			dependencies: ["695E644312CB3D02"]
 			id: "13EA5D0E9433FEA1"
 			tasks: [{
 				id: "22F0494CCC3DE4F5"
@@ -1079,9 +1061,10 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 8.0d
-			dependencies: ["765C0BE28A2B79B3"]
+			x: -11.5d
+			y: 6.0d
+			shape: "diamond"
+			dependencies: ["695E644312CB3D02"]
 			id: "16F3601BC2959CD9"
 			tasks: [{
 				id: "41274D676ADB2E5B"
@@ -1090,9 +1073,10 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 9.0d
-			dependencies: ["765C0BE28A2B79B3"]
+			x: -9.0d
+			y: 7.5d
+			shape: "diamond"
+			dependencies: ["695E644312CB3D02"]
 			id: "6A1172CBCF3DB0AA"
 			tasks: [{
 				id: "60F5229A9E3D9B49"
@@ -1101,9 +1085,10 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: 9.0d
-			dependencies: ["765C0BE28A2B79B3"]
+			x: -11.0d
+			y: 7.5d
+			shape: "diamond"
+			dependencies: ["695E644312CB3D02"]
 			id: "09F5D99619C84C3C"
 			tasks: [{
 				id: "4158FB4531D66805"
@@ -1113,8 +1098,9 @@
 		}
 		{
 			x: -11.5d
-			y: 9.0d
-			dependencies: ["765C0BE28A2B79B3"]
+			y: 7.0d
+			shape: "diamond"
+			dependencies: ["695E644312CB3D02"]
 			id: "2785D64F9A53D974"
 			tasks: [{
 				id: "0C33E2C0EFCD2CAB"
@@ -1123,9 +1109,10 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: 9.0d
-			dependencies: ["765C0BE28A2B79B3"]
+			x: -9.5d
+			y: 7.0d
+			shape: "diamond"
+			dependencies: ["695E644312CB3D02"]
 			id: "73E4B57BFC64D10B"
 			tasks: [{
 				id: "15D573FDF057CADD"
@@ -1134,9 +1121,10 @@
 			}]
 		}
 		{
-			x: -13.5d
-			y: 9.0d
-			dependencies: ["765C0BE28A2B79B3"]
+			x: -10.5d
+			y: 8.0d
+			shape: "diamond"
+			dependencies: ["695E644312CB3D02"]
 			id: "2F6F22807C70A440"
 			tasks: [{
 				id: "11040CC40ABB71D8"
@@ -1145,9 +1133,10 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 4.0d
-			dependencies: ["765C0BE28A2B79B3"]
+			x: -8.5d
+			y: 5.0d
+			shape: "diamond"
+			dependencies: ["695E644312CB3D02"]
 			id: "10EDD8BCC262DCD5"
 			tasks: [{
 				id: "53D7989A3DDA4A96"
@@ -1156,9 +1145,10 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 7.0d
-			dependencies: ["765C0BE28A2B79B3"]
+			x: -8.0d
+			y: 6.5d
+			shape: "diamond"
+			dependencies: ["695E644312CB3D02"]
 			id: "0B85E42FF2D7B809"
 			tasks: [{
 				id: "2CF34AF6B774F3CB"
@@ -1167,9 +1157,10 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 5.0d
-			dependencies: ["765C0BE28A2B79B3"]
+			x: -8.5d
+			y: 7.0d
+			shape: "diamond"
+			dependencies: ["695E644312CB3D02"]
 			id: "4F0A224B44C711EA"
 			tasks: [{
 				id: "06D141DBE439AA87"
@@ -1178,9 +1169,10 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 9.0d
-			dependencies: ["765C0BE28A2B79B3"]
+			x: -8.0d
+			y: 7.5d
+			shape: "diamond"
+			dependencies: ["695E644312CB3D02"]
 			id: "3F4C22A6DD760765"
 			tasks: [{
 				id: "4BA5D03770A4CBE3"
@@ -1189,20 +1181,10 @@
 			}]
 		}
 		{
-			x: -12.0d
-			y: 5.5d
-			dependencies: ["765C0BE28A2B79B3"]
-			id: "073E8D78DB682E3A"
-			tasks: [{
-				id: "70902914EAEE771F"
-				type: "item"
-				item: "mysticalagriculture:end_agglomeratio"
-			}]
-		}
-		{
-			x: -3.5d
-			y: 4.0d
-			dependencies: ["1A4078DB6F9DF425"]
+			x: -2.5d
+			y: 6.5d
+			shape: "diamond"
+			dependencies: ["6BCBB87B89D1D218"]
 			id: "6A0D577530C33C8F"
 			tasks: [{
 				id: "1F1B53BEC1478A8C"
@@ -1211,9 +1193,10 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 5.0d
-			dependencies: ["1A4078DB6F9DF425"]
+			x: -3.0d
+			y: 6.0d
+			shape: "diamond"
+			dependencies: ["6BCBB87B89D1D218"]
 			id: "2D08CC1DFB353DA2"
 			tasks: [{
 				id: "5A0B98F383333DA7"
@@ -1222,9 +1205,10 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 6.0d
-			dependencies: ["1A4078DB6F9DF425"]
+			x: -3.0d
+			y: 5.0d
+			shape: "diamond"
+			dependencies: ["6BCBB87B89D1D218"]
 			id: "31075B03845F4847"
 			tasks: [{
 				id: "3B139179E1160A87"
@@ -1233,8 +1217,9 @@
 			}]
 		}
 		{
-			x: -22.0d
-			y: 5.0d
+			x: -18.0d
+			y: 7.0d
+			shape: "diamond"
 			dependencies: ["43252F4A179693CA"]
 			id: "7C45BE1E82E51881"
 			tasks: [{
@@ -1244,9 +1229,10 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -3.0d
 			y: 7.0d
-			dependencies: ["1A4078DB6F9DF425"]
+			shape: "diamond"
+			dependencies: ["6BCBB87B89D1D218"]
 			id: "07D5A6B89AE6E565"
 			tasks: [{
 				id: "7DC65EDE27146B82"
@@ -1256,8 +1242,9 @@
 		}
 		{
 			x: -3.5d
-			y: 8.0d
-			dependencies: ["1A4078DB6F9DF425"]
+			y: 6.5d
+			shape: "diamond"
+			dependencies: ["6BCBB87B89D1D218"]
 			id: "008181DEFC725E54"
 			tasks: [{
 				id: "6A2C5897A71B9ECB"
@@ -1266,9 +1253,10 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 8.0d
-			dependencies: ["1A4078DB6F9DF425"]
+			x: -0.5d
+			y: 5.5d
+			shape: "diamond"
+			dependencies: ["6BCBB87B89D1D218"]
 			id: "672FEA5CB72B85B1"
 			tasks: [{
 				id: "25E110515ACCC574"
@@ -1277,9 +1265,10 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 8.0d
-			dependencies: ["1A4078DB6F9DF425"]
+			x: -0.5d
+			y: 6.5d
+			shape: "diamond"
+			dependencies: ["6BCBB87B89D1D218"]
 			id: "4EF61CF2C883AC65"
 			tasks: [{
 				id: "3AC3FCE89FCE604B"
@@ -1288,9 +1277,10 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 6.0d
-			dependencies: ["1A4078DB6F9DF425"]
+			x: -1.5d
+			y: 6.5d
+			shape: "diamond"
+			dependencies: ["6BCBB87B89D1D218"]
 			id: "2A7DF005F5446B75"
 			tasks: [{
 				id: "795F178826D59450"
@@ -1299,9 +1289,10 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 8.0d
-			dependencies: ["1A4078DB6F9DF425"]
+			x: -3.5d
+			y: 5.5d
+			shape: "diamond"
+			dependencies: ["6BCBB87B89D1D218"]
 			id: "063AB1DD6931CBE2"
 			tasks: [{
 				id: "1B360A32BA888E21"
@@ -1310,9 +1301,10 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 4.0d
-			dependencies: ["1A4078DB6F9DF425"]
+			x: -1.0d
+			y: 5.0d
+			shape: "diamond"
+			dependencies: ["6BCBB87B89D1D218"]
 			id: "37A6F6CC002B0B0C"
 			tasks: [{
 				id: "67B02AA5DE2B14C1"
@@ -1321,9 +1313,10 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 5.0d
-			dependencies: ["1A4078DB6F9DF425"]
+			x: -1.0d
+			y: 6.0d
+			shape: "diamond"
+			dependencies: ["6BCBB87B89D1D218"]
 			id: "5C8D2CEE4C5F6D4E"
 			tasks: [{
 				id: "247BFFE5C6761D53"
@@ -1332,9 +1325,10 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: -1.0d
 			y: 7.0d
-			dependencies: ["1A4078DB6F9DF425"]
+			shape: "diamond"
+			dependencies: ["6BCBB87B89D1D218"]
 			id: "273C7B733D222D1F"
 			tasks: [{
 				id: "71EE9B8D8947B26D"
@@ -1343,9 +1337,10 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 6.5d
-			dependencies: ["47CF05A335E91A92"]
+			x: 5.5d
+			y: 7.0d
+			shape: "diamond"
+			dependencies: ["0D702BE2A86D3A38"]
 			id: "68555B6068010865"
 			tasks: [
 				{
@@ -1363,7 +1358,8 @@
 		{
 			x: 5.0d
 			y: 6.5d
-			dependencies: ["47CF05A335E91A92"]
+			shape: "diamond"
+			dependencies: ["0D702BE2A86D3A38"]
 			id: "62A1F2ED2B696CD4"
 			tasks: [
 				{
@@ -1379,9 +1375,10 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: 6.5d
-			dependencies: ["47CF05A335E91A92"]
+			x: 4.5d
+			y: 6.0d
+			shape: "diamond"
+			dependencies: ["0D702BE2A86D3A38"]
 			id: "43625F0E97BC12B0"
 			tasks: [
 				{
@@ -1397,9 +1394,10 @@
 			]
 		}
 		{
-			x: 7.0d
+			x: 6.0d
 			y: 6.5d
-			dependencies: ["47CF05A335E91A92"]
+			shape: "diamond"
+			dependencies: ["0D702BE2A86D3A38"]
 			id: "45B1BE48DAD34C31"
 			tasks: [
 				{
@@ -1415,9 +1413,10 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: 6.5d
-			dependencies: ["47CF05A335E91A92"]
+			x: 6.5d
+			y: 6.0d
+			shape: "diamond"
+			dependencies: ["0D702BE2A86D3A38"]
 			id: "78247B8A6DB05267"
 			tasks: [
 				{
@@ -1433,41 +1432,9 @@
 			]
 		}
 		{
-			x: -9.5d
-			y: 6.0d
-			dependencies: ["695E644312CB3D02"]
-			id: "765C0BE28A2B79B3"
-			tasks: [{
-				id: "7BE2B9575FF068FC"
-				type: "checkmark"
-				title: "Seed T4"
-			}]
-		}
-		{
-			x: -2.0d
-			y: 6.0d
-			dependencies: ["6BCBB87B89D1D218"]
-			id: "1A4078DB6F9DF425"
-			tasks: [{
-				id: "104ADF74F32BE5F0"
-				type: "checkmark"
-				title: "Seed T5"
-			}]
-		}
-		{
-			x: 6.0d
-			y: 5.5d
-			dependencies: ["0D702BE2A86D3A38"]
-			id: "47CF05A335E91A92"
-			tasks: [{
-				id: "4EA19EDC45D564C7"
-				type: "checkmark"
-				title: "Seed t6"
-			}]
-		}
-		{
-			x: 11.5d
-			y: 1.0d
+			x: 22.5d
+			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["74083D9E4671E933"]
 			id: "470B19B9A03936AF"
@@ -1478,8 +1445,9 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: 2.0d
+			x: 23.0d
+			y: 0.0d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["0F28E6EDB6BC1AA6"]
 			id: "0D52E4A2075F34AA"
@@ -1490,8 +1458,9 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: 3.0d
+			x: 22.0d
+			y: 0.0d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["278CC800303B12A5"]
 			id: "442F9316D9B2CD5E"
@@ -1502,8 +1471,9 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: 4.0d
+			x: 22.5d
+			y: 0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["695E644312CB3D02"]
 			id: "6092351B4724066C"
@@ -1514,8 +1484,9 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: 5.0d
+			x: 23.5d
+			y: 0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["6BCBB87B89D1D218"]
 			id: "0E136F1D9106B8A4"
@@ -1526,8 +1497,9 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: 6.0d
+			x: 23.0d
+			y: 1.0d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["0D702BE2A86D3A38"]
 			id: "033068689E56D3AD"
@@ -1538,8 +1510,9 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 6.0d
+			x: 19.0d
+			y: -3.0d
+			shape: "diamond"
 			dependencies: ["0EEE5C757ABF4C8C"]
 			id: "1172EF5CCCB09EE3"
 			tasks: [
@@ -1590,8 +1563,9 @@
 			]
 		}
 		{
-			x: 12.5d
-			y: 1.0d
+			x: 18.5d
+			y: -4.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"3E999298ED33E8D7"
@@ -1652,8 +1626,9 @@
 			]
 		}
 		{
-			x: 12.5d
-			y: 2.0d
+			x: 19.0d
+			y: -4.0d
+			shape: "diamond"
 			dependencies: ["66AA797A7F3B609D"]
 			id: "4864C553DFD9C7A0"
 			tasks: [
@@ -1704,8 +1679,9 @@
 			]
 		}
 		{
-			x: 12.5d
-			y: 3.0d
+			x: 18.0d
+			y: -4.0d
+			shape: "diamond"
 			dependencies: ["4864C553DFD9C7A0"]
 			id: "773D402F24E57411"
 			tasks: [
@@ -1756,8 +1732,9 @@
 			]
 		}
 		{
-			x: 12.5d
-			y: 4.0d
+			x: 18.5d
+			y: -3.5d
+			shape: "diamond"
 			dependencies: ["773D402F24E57411"]
 			id: "5D774A2834E59890"
 			tasks: [
@@ -1808,8 +1785,9 @@
 			]
 		}
 		{
-			x: 12.5d
-			y: 5.0d
+			x: 19.5d
+			y: -3.5d
+			shape: "diamond"
 			dependencies: ["5D774A2834E59890"]
 			id: "0EEE5C757ABF4C8C"
 			tasks: [
@@ -1860,8 +1838,9 @@
 			]
 		}
 		{
-			x: 13.5d
-			y: 1.0d
+			x: 20.5d
+			y: -2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"3E999298ED33E8D7"
@@ -1875,8 +1854,9 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: 2.0d
+			x: 21.0d
+			y: -2.0d
+			shape: "diamond"
 			dependencies: ["0F71BE6F92D31316"]
 			id: "5529329D0A4BB02C"
 			tasks: [{
@@ -1886,8 +1866,9 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: 3.0d
+			x: 20.0d
+			y: -2.0d
+			shape: "diamond"
 			dependencies: ["5529329D0A4BB02C"]
 			id: "2910268C3110F8AA"
 			tasks: [{
@@ -1897,8 +1878,9 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: 4.0d
+			x: 20.5d
+			y: -1.5d
+			shape: "diamond"
 			dependencies: ["2910268C3110F8AA"]
 			id: "0E2819E9916222D3"
 			tasks: [{
@@ -1908,8 +1890,9 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: 5.0d
+			x: 21.5d
+			y: -1.5d
+			shape: "diamond"
 			dependencies: ["0E2819E9916222D3"]
 			id: "0220A61FB686A669"
 			tasks: [{
@@ -1919,8 +1902,9 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: 6.0d
+			x: 21.0d
+			y: -1.0d
+			shape: "diamond"
 			dependencies: ["0220A61FB686A669"]
 			id: "54B379DF560A48F4"
 			tasks: [{
@@ -1930,8 +1914,9 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 0.0d
+			x: 13.5d
+			y: 0.5d
+			shape: "square"
 			dependencies: ["2E493DA5E07A7804"]
 			id: "7A0CA37A094EE4AE"
 			tasks: [{
@@ -1941,8 +1926,9 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: -1.0d
+			x: 13.5d
+			y: -0.5d
+			shape: "square"
 			dependencies: ["7DB4A0C8AE804CAF"]
 			id: "2E493DA5E07A7804"
 			tasks: [{
@@ -1952,8 +1938,9 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 1.0d
+			x: 13.5d
+			y: 1.5d
+			shape: "square"
 			dependencies: ["2E493DA5E07A7804"]
 			id: "3E999298ED33E8D7"
 			tasks: [{
@@ -1963,8 +1950,9 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 2.0d
+			x: 13.5d
+			y: 2.5d
+			shape: "square"
 			dependencies: ["2E493DA5E07A7804"]
 			id: "3002E23F236F5D4B"
 			tasks: [{
@@ -1974,8 +1962,9 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 3.0d
+			x: 13.5d
+			y: 3.5d
+			shape: "square"
 			dependencies: ["2E493DA5E07A7804"]
 			id: "7CF74FD90FCAB907"
 			tasks: [{
@@ -1985,8 +1974,9 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 5.0d
+			x: 13.5d
+			y: 5.5d
+			shape: "square"
 			dependencies: ["2E493DA5E07A7804"]
 			id: "46B2C0737D0B6708"
 			tasks: [{
@@ -1996,8 +1986,9 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 4.0d
+			x: 13.5d
+			y: 4.5d
+			shape: "square"
 			dependencies: ["2E493DA5E07A7804"]
 			id: "19CD2703CD8F24B7"
 			tasks: [{
@@ -2007,8 +1998,9 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 6.0d
+			x: 13.5d
+			y: 6.5d
+			shape: "square"
 			dependencies: ["2E493DA5E07A7804"]
 			id: "34E8E2E171CA2688"
 			tasks: [{
@@ -2018,8 +2010,9 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: -1.0d
+			x: 12.5d
+			y: -0.5d
+			shape: "square"
 			dependencies: ["7DB4A0C8AE804CAF"]
 			id: "1D095565CA7B1C62"
 			tasks: [{
@@ -2029,8 +2022,9 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 0.0d
+			x: 12.5d
+			y: 0.5d
+			shape: "square"
 			dependencies: ["1D095565CA7B1C62"]
 			id: "4B7B503228EE2E7E"
 			tasks: [{
@@ -2040,8 +2034,9 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 1.0d
+			x: 12.5d
+			y: 1.5d
+			shape: "square"
 			dependencies: ["1D095565CA7B1C62"]
 			id: "04E5851B9BE50661"
 			tasks: [{
@@ -2051,8 +2046,9 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 2.0d
+			x: 12.5d
+			y: 2.5d
+			shape: "square"
 			dependencies: ["1D095565CA7B1C62"]
 			id: "4D929FF53B2B44E3"
 			tasks: [{
@@ -2062,8 +2058,9 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 3.0d
+			x: 12.5d
+			y: 3.5d
+			shape: "square"
 			dependencies: ["1D095565CA7B1C62"]
 			id: "62AB1EAC05151A44"
 			tasks: [{
@@ -2073,8 +2070,9 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 4.0d
+			x: 12.5d
+			y: 4.5d
+			shape: "square"
 			dependencies: ["1D095565CA7B1C62"]
 			id: "558E5F0EFD894D61"
 			tasks: [{
@@ -2084,8 +2082,9 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 5.0d
+			x: 12.5d
+			y: 5.5d
+			shape: "square"
 			dependencies: ["1D095565CA7B1C62"]
 			id: "2888ACD6C2BDB508"
 			tasks: [{
@@ -2095,8 +2094,9 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 6.0d
+			x: 12.5d
+			y: 6.5d
+			shape: "square"
 			dependencies: ["1D095565CA7B1C62"]
 			id: "349EAE82D9B38037"
 			tasks: [{
@@ -2106,8 +2106,9 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: -2.0d
+			x: 13.0d
+			y: -1.5d
+			shape: "square"
 			id: "7DB4A0C8AE804CAF"
 			tasks: [{
 				id: "32FEB21D8D161811"
@@ -2134,8 +2135,9 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: 1.0d
+			x: 17.0d
+			y: -3.0d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"04E5851B9BE50661"
@@ -2201,8 +2203,9 @@
 			]
 		}
 		{
-			x: 16.5d
-			y: 2.0d
+			x: 17.5d
+			y: -2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"57207483DC98B48C"
@@ -2270,7 +2273,8 @@
 		}
 		{
 			x: 16.5d
-			y: 3.0d
+			y: -2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"3D26B9C2B28F21EF"
@@ -2337,8 +2341,9 @@
 			]
 		}
 		{
-			x: 16.5d
-			y: 4.0d
+			x: 17.0d
+			y: -2.0d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"188394C77C45D3BF"
@@ -2405,8 +2410,9 @@
 			]
 		}
 		{
-			x: 16.5d
-			y: 5.0d
+			x: 18.0d
+			y: -2.0d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"468A64A54300A8E5"
@@ -2443,8 +2449,9 @@
 			]
 		}
 		{
-			x: 16.5d
-			y: 6.0d
+			x: 17.5d
+			y: -1.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"5CDACDCA609C5893"
@@ -2481,8 +2488,9 @@
 			]
 		}
 		{
-			x: 17.5d
-			y: 1.0d
+			x: 19.0d
+			y: -1.0d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["57207483DC98B48C"]
 			id: "6EC9070CCA39A874"
@@ -2499,8 +2507,9 @@
 			}]
 		}
 		{
-			x: 17.5d
-			y: 2.0d
+			x: 19.5d
+			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3D26B9C2B28F21EF"]
 			id: "1BF453B0EC95F2EC"
@@ -2517,8 +2526,9 @@
 			}]
 		}
 		{
-			x: 17.5d
-			y: 3.0d
+			x: 18.5d
+			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["188394C77C45D3BF"]
 			id: "64325F985B44A616"
@@ -2535,8 +2545,9 @@
 			}]
 		}
 		{
-			x: 17.5d
-			y: 4.0d
+			x: 19.0d
+			y: 0.0d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["468A64A54300A8E5"]
 			id: "7830FF45022CA678"
@@ -2553,8 +2564,9 @@
 			}]
 		}
 		{
-			x: 17.5d
-			y: 5.0d
+			x: 20.0d
+			y: 0.0d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["5CDACDCA609C5893"]
 			id: "7B66AECC2AAF6205"
@@ -2565,8 +2577,9 @@
 			}]
 		}
 		{
-			x: 17.5d
-			y: 6.0d
+			x: 19.5d
+			y: 0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["2FD02E84ACBEF387"]
 			id: "0015B2A550ED298F"
@@ -2577,8 +2590,9 @@
 			}]
 		}
 		{
-			x: 18.5d
+			x: 21.0d
 			y: 1.0d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["74083D9E4671E933"]
 			id: "04EC3DC0911D1623"
@@ -2589,8 +2603,9 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: 2.0d
+			x: 21.5d
+			y: 1.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["0F28E6EDB6BC1AA6"]
 			id: "1951C2A748FC8BBD"
@@ -2601,8 +2616,9 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: 3.0d
+			x: 20.5d
+			y: 1.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["278CC800303B12A5"]
 			id: "1099F787A13C5ABC"
@@ -2613,8 +2629,9 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: 4.0d
+			x: 21.0d
+			y: 2.0d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["695E644312CB3D02"]
 			id: "683ACEB4E0B75A7D"
@@ -2625,8 +2642,9 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: 5.0d
+			x: 22.0d
+			y: 2.0d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["6BCBB87B89D1D218"]
 			id: "388BDE392B1129CA"
@@ -2637,8 +2655,9 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: 6.0d
+			x: 21.5d
+			y: 2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["0D702BE2A86D3A38"]
 			id: "528BA75534E68A9C"
@@ -2649,26 +2668,22 @@
 			}]
 		}
 		{
-			x: -13.0d
+			x: -6.0d
 			y: 2.5d
+			shape: "rsquare"
+			hide_dependency_lines: true
 			dependencies: ["74083D9E4671E933"]
 			id: "3F59C34E56F78BB3"
-			tasks: [
-				{
-					id: "361FF00BF24E86EC"
-					type: "item"
-					item: "mysticalagriculture:fertilized_essence"
-				}
-				{
-					id: "012D2902199FE9FD"
-					type: "item"
-					item: "mysticalagriculture:mystical_fertilizer"
-				}
-			]
+			tasks: [{
+				id: "361FF00BF24E86EC"
+				type: "item"
+				item: "mysticalagriculture:fertilized_essence"
+			}]
 		}
 		{
-			x: 10.5d
-			y: 1.0d
+			x: 11.0d
+			y: 1.5d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["74083D9E4671E933"]
 			id: "3D3D89DC1603984B"
@@ -2679,8 +2694,9 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 2.0d
+			x: 11.0d
+			y: 2.5d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["0F28E6EDB6BC1AA6"]
 			id: "3B11AAA77C07B1FA"
@@ -2691,8 +2707,9 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 3.0d
+			x: 11.0d
+			y: 3.5d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["278CC800303B12A5"]
 			id: "0888F0E74A157A73"
@@ -2703,8 +2720,9 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 4.0d
+			x: 11.0d
+			y: 4.5d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["695E644312CB3D02"]
 			id: "057DAD5A78D15949"
@@ -2715,8 +2733,9 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 5.0d
+			x: 11.0d
+			y: 5.5d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["6BCBB87B89D1D218"]
 			id: "55C32FC80E7274DF"
@@ -2727,8 +2746,9 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 6.0d
+			x: 11.0d
+			y: 6.5d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["0D702BE2A86D3A38"]
 			id: "0F084AB64E88A696"
@@ -2739,8 +2759,9 @@
 			}]
 		}
 		{
-			x: 19.5d
-			y: 1.0d
+			x: 15.0d
+			y: 1.5d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: [
 				"04E5851B9BE50661"
@@ -2754,8 +2775,9 @@
 			}]
 		}
 		{
-			x: 19.5d
-			y: 2.0d
+			x: 15.0d
+			y: 2.5d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: [
 				"4D929FF53B2B44E3"
@@ -2769,8 +2791,9 @@
 			}]
 		}
 		{
-			x: 19.5d
-			y: 3.0d
+			x: 15.0d
+			y: 3.5d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: [
 				"62AB1EAC05151A44"
@@ -2784,8 +2807,9 @@
 			}]
 		}
 		{
-			x: 19.5d
-			y: 4.0d
+			x: 15.0d
+			y: 4.5d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: [
 				"558E5F0EFD894D61"
@@ -2799,8 +2823,9 @@
 			}]
 		}
 		{
-			x: 19.5d
-			y: 5.0d
+			x: 15.0d
+			y: 5.5d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: [
 				"2888ACD6C2BDB508"
@@ -2814,8 +2839,8 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: -1.0d
+			x: 7.0d
+			y: -4.5d
 			hide_dependency_lines: true
 			dependencies: ["7A0CA37A094EE4AE"]
 			id: "5693A4D9D9206449"
@@ -2832,8 +2857,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: -1.0d
+			x: 8.5d
+			y: -4.5d
 			dependencies: ["5693A4D9D9206449"]
 			id: "038582C7C5EA0757"
 			tasks: [{
@@ -2849,8 +2874,8 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: -2.5d
+			x: 7.0d
+			y: -5.5d
 			dependencies: ["5693A4D9D9206449"]
 			id: "37AEF2C991581C06"
 			tasks: [{
@@ -2868,6 +2893,7 @@
 		{
 			x: 10.5d
 			y: -8.0d
+			shape: "rsquare"
 			dependencies: ["1DCD192F10FA7920"]
 			id: "5A36D55BA5DD7D02"
 			tasks: [{
@@ -2879,6 +2905,7 @@
 		{
 			x: 9.5d
 			y: -8.0d
+			shape: "rsquare"
 			dependencies: ["1DCD192F10FA7920"]
 			id: "0442A651E7AC468B"
 			tasks: [{
@@ -2890,6 +2917,7 @@
 		{
 			x: 8.5d
 			y: -8.0d
+			shape: "rsquare"
 			dependencies: ["1DCD192F10FA7920"]
 			id: "7623230C1574D84F"
 			tasks: [{
@@ -2901,6 +2929,7 @@
 		{
 			x: 14.5d
 			y: -8.0d
+			shape: "rsquare"
 			dependencies: ["1DCD192F10FA7920"]
 			id: "7A5608AE452A63F9"
 			tasks: [{
@@ -2912,6 +2941,7 @@
 		{
 			x: 15.5d
 			y: -8.0d
+			shape: "rsquare"
 			dependencies: ["1DCD192F10FA7920"]
 			id: "342346CC9645618B"
 			tasks: [{
@@ -2923,6 +2953,7 @@
 		{
 			x: 10.5d
 			y: -9.0d
+			shape: "rsquare"
 			dependencies: ["5A36D55BA5DD7D02"]
 			id: "3D9D2BEE40BF483E"
 			tasks: [{
@@ -2934,6 +2965,7 @@
 		{
 			x: 9.5d
 			y: -9.0d
+			shape: "rsquare"
 			dependencies: ["0442A651E7AC468B"]
 			id: "291B21BEC6B189C0"
 			tasks: [{
@@ -2945,6 +2977,7 @@
 		{
 			x: 7.5d
 			y: -8.0d
+			shape: "rsquare"
 			dependencies: ["1DCD192F10FA7920"]
 			id: "25C1329EC0B90186"
 			tasks: [{
@@ -2956,6 +2989,7 @@
 		{
 			x: 6.5d
 			y: -8.0d
+			shape: "rsquare"
 			dependencies: ["1DCD192F10FA7920"]
 			id: "1F0E8988C13319F7"
 			tasks: [{
@@ -2967,6 +3001,7 @@
 		{
 			x: 4.5d
 			y: -8.0d
+			shape: "rsquare"
 			dependencies: ["1DCD192F10FA7920"]
 			id: "52BEE994B72B5BE1"
 			tasks: [{
@@ -2978,6 +3013,7 @@
 		{
 			x: 8.5d
 			y: -9.0d
+			shape: "rsquare"
 			dependencies: ["7623230C1574D84F"]
 			id: "28570DEDDEDB6946"
 			tasks: [{
@@ -2989,6 +3025,7 @@
 		{
 			x: 10.5d
 			y: -10.0d
+			shape: "rsquare"
 			dependencies: ["3D9D2BEE40BF483E"]
 			id: "06130D148CEA1B0B"
 			tasks: [{
@@ -3000,6 +3037,7 @@
 		{
 			x: 13.5d
 			y: -8.0d
+			shape: "rsquare"
 			dependencies: ["1DCD192F10FA7920"]
 			id: "1D2F5657BE06DA9C"
 			tasks: [{
@@ -3011,6 +3049,7 @@
 		{
 			x: 5.5d
 			y: -9.0d
+			shape: "rsquare"
 			dependencies: ["2F397F4FBB629191"]
 			id: "265408000955F558"
 			tasks: [{
@@ -3022,6 +3061,7 @@
 		{
 			x: 16.5d
 			y: -9.0d
+			shape: "rsquare"
 			dependencies: ["1DCD192F10FA7920"]
 			id: "48DE9C3CEA09BFA0"
 			tasks: [{
@@ -3033,6 +3073,7 @@
 		{
 			x: 9.5d
 			y: -10.0d
+			shape: "rsquare"
 			dependencies: ["291B21BEC6B189C0"]
 			id: "428FE8D1BA2003EF"
 			tasks: [{
@@ -3044,6 +3085,7 @@
 		{
 			x: 12.5d
 			y: -8.0d
+			shape: "rsquare"
 			dependencies: ["1DCD192F10FA7920"]
 			id: "6FFFAD8029B7A3F6"
 			tasks: [{
@@ -3055,6 +3097,7 @@
 		{
 			x: 7.5d
 			y: -9.0d
+			shape: "rsquare"
 			dependencies: ["25C1329EC0B90186"]
 			id: "7EF60D33E2483DCE"
 			tasks: [{
@@ -3066,6 +3109,7 @@
 		{
 			x: 17.5d
 			y: -9.0d
+			shape: "rsquare"
 			dependencies: ["1DCD192F10FA7920"]
 			id: "6BBE8DEED9BA10BD"
 			tasks: [{
@@ -3077,6 +3121,7 @@
 		{
 			x: 6.5d
 			y: -9.0d
+			shape: "rsquare"
 			dependencies: ["1F0E8988C13319F7"]
 			id: "064CBB790BB5C874"
 			tasks: [{
@@ -3088,6 +3133,7 @@
 		{
 			x: 11.5d
 			y: -8.0d
+			shape: "rsquare"
 			dependencies: ["1DCD192F10FA7920"]
 			id: "4B98C8C536AC400E"
 			tasks: [{
@@ -3099,6 +3145,7 @@
 		{
 			x: 4.5d
 			y: -9.0d
+			shape: "rsquare"
 			dependencies: ["52BEE994B72B5BE1"]
 			id: "6946722790A9C082"
 			tasks: [{
@@ -3110,6 +3157,7 @@
 		{
 			x: 8.5d
 			y: -10.0d
+			shape: "rsquare"
 			dependencies: ["28570DEDDEDB6946"]
 			id: "13B4035D6505C3F2"
 			tasks: [{
@@ -3121,6 +3169,7 @@
 		{
 			x: 10.5d
 			y: -11.0d
+			shape: "rsquare"
 			dependencies: ["06130D148CEA1B0B"]
 			id: "6931D8A8A9BE08AA"
 			tasks: [{
@@ -3132,6 +3181,7 @@
 		{
 			x: 16.5d
 			y: -8.0d
+			shape: "rsquare"
 			dependencies: ["1DCD192F10FA7920"]
 			id: "55B0BA7FCFD70AD0"
 			tasks: [{
@@ -3143,6 +3193,7 @@
 		{
 			x: 5.5d
 			y: -10.0d
+			shape: "rsquare"
 			dependencies: ["265408000955F558"]
 			id: "375C1936FF9D0569"
 			tasks: [{
@@ -3154,6 +3205,7 @@
 		{
 			x: 9.5d
 			y: -11.0d
+			shape: "rsquare"
 			dependencies: ["428FE8D1BA2003EF"]
 			id: "0597866FC7DC2A81"
 			tasks: [{
@@ -3165,6 +3217,7 @@
 		{
 			x: 12.5d
 			y: -9.0d
+			shape: "rsquare"
 			dependencies: ["6FFFAD8029B7A3F6"]
 			id: "598B34717EFC5752"
 			tasks: [{
@@ -3176,6 +3229,7 @@
 		{
 			x: 7.5d
 			y: -10.0d
+			shape: "rsquare"
 			dependencies: ["7EF60D33E2483DCE"]
 			id: "54042F40F0D28126"
 			tasks: [{
@@ -3187,6 +3241,7 @@
 		{
 			x: 6.5d
 			y: -10.0d
+			shape: "rsquare"
 			dependencies: ["064CBB790BB5C874"]
 			id: "1D7C37890701DD9E"
 			tasks: [{
@@ -3198,6 +3253,7 @@
 		{
 			x: 11.5d
 			y: -9.0d
+			shape: "rsquare"
 			dependencies: ["4B98C8C536AC400E"]
 			id: "74C941E75A45CFF3"
 			tasks: [{
@@ -3209,6 +3265,7 @@
 		{
 			x: 4.5d
 			y: -10.0d
+			shape: "rsquare"
 			dependencies: ["6946722790A9C082"]
 			id: "08858A1D062BF54B"
 			tasks: [{
@@ -3220,6 +3277,7 @@
 		{
 			x: 8.5d
 			y: -11.0d
+			shape: "rsquare"
 			dependencies: ["13B4035D6505C3F2"]
 			id: "51A09D6CD3E0BCF4"
 			tasks: [{
@@ -3231,6 +3289,7 @@
 		{
 			x: 13.5d
 			y: -10.0d
+			shape: "rsquare"
 			dependencies: ["1DCD192F10FA7920"]
 			id: "111DE50C7CD8161B"
 			tasks: [{
@@ -3242,6 +3301,7 @@
 		{
 			x: 10.5d
 			y: -12.0d
+			shape: "rsquare"
 			dependencies: ["6931D8A8A9BE08AA"]
 			id: "14E50E72DE028B9E"
 			tasks: [{
@@ -3253,6 +3313,7 @@
 		{
 			x: 17.5d
 			y: -8.0d
+			shape: "rsquare"
 			dependencies: ["1DCD192F10FA7920"]
 			id: "6941046CB84C8392"
 			tasks: [{
@@ -3264,6 +3325,7 @@
 		{
 			x: 9.5d
 			y: -12.0d
+			shape: "rsquare"
 			dependencies: ["0597866FC7DC2A81"]
 			id: "3D759F41AA2F7F7A"
 			tasks: [{
@@ -3275,6 +3337,7 @@
 		{
 			x: 12.5d
 			y: -10.0d
+			shape: "rsquare"
 			dependencies: ["598B34717EFC5752"]
 			id: "69C78E092E6D2DAA"
 			tasks: [{
@@ -3286,6 +3349,7 @@
 		{
 			x: 6.5d
 			y: -11.0d
+			shape: "rsquare"
 			dependencies: ["1D7C37890701DD9E"]
 			id: "5F40ACF3F51E1311"
 			tasks: [{
@@ -3297,6 +3361,7 @@
 		{
 			x: 13.5d
 			y: -9.0d
+			shape: "rsquare"
 			dependencies: ["1DCD192F10FA7920"]
 			id: "2C4A40821F1644EF"
 			tasks: [{
@@ -3308,6 +3373,7 @@
 		{
 			x: 11.5d
 			y: -10.0d
+			shape: "rsquare"
 			dependencies: ["74C941E75A45CFF3"]
 			id: "598FC8991F2D7DAC"
 			tasks: [{
@@ -3319,6 +3385,7 @@
 		{
 			x: 4.5d
 			y: -11.0d
+			shape: "rsquare"
 			dependencies: ["08858A1D062BF54B"]
 			id: "51A0E0C4AA0416A4"
 			tasks: [{
@@ -3330,6 +3397,7 @@
 		{
 			x: 14.5d
 			y: -9.0d
+			shape: "rsquare"
 			dependencies: ["1DCD192F10FA7920"]
 			id: "0CE2C81B8847BBD4"
 			tasks: [{
@@ -3341,6 +3409,7 @@
 		{
 			x: 15.5d
 			y: -9.0d
+			shape: "rsquare"
 			dependencies: ["1DCD192F10FA7920"]
 			id: "5E662E3C5C1F5656"
 			tasks: [{
@@ -3352,6 +3421,7 @@
 		{
 			x: 12.5d
 			y: -11.0d
+			shape: "rsquare"
 			dependencies: ["69C78E092E6D2DAA"]
 			id: "7D6C82A4C3A9E130"
 			tasks: [{
@@ -3363,6 +3433,7 @@
 		{
 			x: 10.5d
 			y: -13.0d
+			shape: "rsquare"
 			dependencies: ["14E50E72DE028B9E"]
 			id: "2D34984651160734"
 			tasks: [{
@@ -3374,6 +3445,7 @@
 		{
 			x: 9.5d
 			y: -13.0d
+			shape: "rsquare"
 			dependencies: ["3D759F41AA2F7F7A"]
 			id: "60844E6765A5777C"
 			tasks: [{
@@ -3385,6 +3457,7 @@
 		{
 			x: 11.5d
 			y: -11.0d
+			shape: "rsquare"
 			dependencies: ["598FC8991F2D7DAC"]
 			id: "119D78A58817335A"
 			tasks: [{
@@ -3396,6 +3469,7 @@
 		{
 			x: 4.5d
 			y: -12.0d
+			shape: "rsquare"
 			dependencies: ["51A0E0C4AA0416A4"]
 			id: "53F4B1FD3DEDF39D"
 			tasks: [{
@@ -3407,6 +3481,7 @@
 		{
 			x: 6.5d
 			y: -12.0d
+			shape: "rsquare"
 			dependencies: ["5F40ACF3F51E1311"]
 			id: "09B4DF7041F53016"
 			tasks: [{
@@ -3418,6 +3493,7 @@
 		{
 			x: 5.5d
 			y: -8.0d
+			shape: "rsquare"
 			dependencies: ["1DCD192F10FA7920"]
 			id: "2F397F4FBB629191"
 			tasks: [{
@@ -3454,9 +3530,9 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: -2.5d
-			description: ["You must kill the mobs with the soulium dagger"]
+			x: 8.5d
+			y: -5.5d
+			description: ["You must kill the mobs with the soulium dagger to get their souls."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7A0CA37A094EE4AE"
@@ -3467,6 +3543,756 @@
 				id: "238E8179875B1CF2"
 				type: "item"
 				item: "mysticalagriculture:soul_jar"
+			}]
+		}
+		{
+			title: "Mystical Factory Tier 1"
+			icon: "masterfulmachinery:mysticfactory1_controller"
+			x: -18.5d
+			y: 11.0d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"1D095565CA7B1C62"
+				"723E085AC34DF6A2"
+				"341411D6BC7E2F0C"
+				"5491A1FCA85043B7"
+				"0C1760A0E6D5AF4C"
+				"0B283B25F2FC6125"
+				"552E9825AC399C01"
+				"2A641717D5114E2B"
+			]
+			size: 3.0d
+			id: "3200C3D9158B9D92"
+			tasks: [
+				{
+					id: "0AC46378727C84D0"
+					type: "item"
+					item: "mysticalagriculture:prosperity_gemstone_block"
+					count: 46L
+				}
+				{
+					id: "678E02F75833B678"
+					type: "item"
+					item: "mysticalagriculture:witherproof_glass"
+					count: 28L
+				}
+				{
+					id: "3B4DB50FCE079AFC"
+					type: "item"
+					item: "mysticalagriculture:witherproof_block"
+					count: 11L
+				}
+				{
+					id: "44EBB4B2EB719B87"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 4L
+				}
+				{
+					id: "4B1FBD3664D0EBF6"
+					type: "item"
+					item: "simplylight:illuminant_block_on"
+					count: 3L
+				}
+				{
+					id: "3E691E12AE5B6123"
+					type: "item"
+					item: "mysticalagriculture:basic_reprocessor"
+					count: 2L
+				}
+				{
+					id: "17BF14834BD50C2F"
+					type: "item"
+					item: "immersiveengineering:fluid_placer"
+					count: 2L
+				}
+				{
+					id: "30EA4F705ABC01FB"
+					type: "item"
+					item: "thermal:machine_crafter"
+				}
+				{
+					id: "21A8FC020D0BEB54"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory1_controller"
+				}
+				{
+					id: "057CCFC57824A8C9"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory1_mystical_item_port_items_input"
+				}
+				{
+					id: "145FA97355D79931"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory1_mystical_item_port_items_output"
+				}
+				{
+					id: "3685BFAB2DD7C617"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory1_mystical_energy_port_energy_input"
+				}
+			]
+		}
+		{
+			title: "Mystical Factory Tier 2"
+			icon: "masterfulmachinery:mysticfactory2_controller"
+			x: -15.5d
+			y: 11.0d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"04E5851B9BE50661"
+				"5CF5550246969259"
+				"341411D6BC7E2F0C"
+				"5491A1FCA85043B7"
+				"0990C82D9CE73CAF"
+				"2CFB31CFACB54C1E"
+				"517D10874CCF2C39"
+				"5314C6AA4E6DCD59"
+				"4B32692132D235BD"
+				"1CCB64CF9751C0B8"
+				"3200C3D9158B9D92"
+			]
+			size: 3.0d
+			id: "35B610D7D096D3B7"
+			tasks: [
+				{
+					id: "41AAAD95B705C62A"
+					type: "item"
+					item: "mysticalagriculture:inferium_gemstone_block"
+					count: 46L
+				}
+				{
+					id: "0778CF83615C1EB8"
+					type: "item"
+					item: "mysticalagriculture:inferium_reprocessor"
+					count: 2L
+				}
+				{
+					id: "6F0F44212922BA45"
+					type: "item"
+					item: "thermal:machine_crafter"
+				}
+				{
+					id: "6BBD74FD1B6F62B1"
+					type: "item"
+					item: "immersiveengineering:fluid_placer"
+					count: 2L
+				}
+				{
+					id: "28940C843B0C7091"
+					type: "item"
+					item: "mysticalagriculture:witherproof_glass"
+					count: 28L
+				}
+				{
+					id: "4537C3EB7B6A8843"
+					type: "item"
+					item: "mysticalagriculture:witherproof_block"
+					count: 11L
+				}
+				{
+					id: "5E08389856E1C0F2"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 4L
+				}
+				{
+					id: "5558266B34CDABE7"
+					type: "item"
+					item: "simplylight:illuminant_lime_block_on"
+					count: 3L
+				}
+				{
+					id: "270E577BAAD6A06D"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory2_controller"
+				}
+				{
+					id: "0B2024653FC4059F"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory2_mystical_item_port_items_input"
+				}
+				{
+					id: "5240A53A69AC19F9"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory2_mystical_item_port_items_output"
+				}
+				{
+					id: "6B640D0AB6BCC2A8"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory2_mystical_energy_port_energy_input"
+				}
+			]
+		}
+		{
+			title: "Mystical Factory Tier 3"
+			icon: "masterfulmachinery:mysticfactory3_controller"
+			x: -12.5d
+			y: 11.0d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"4D929FF53B2B44E3"
+				"67CA4C87EE75696D"
+				"341411D6BC7E2F0C"
+				"5491A1FCA85043B7"
+				"35B610D7D096D3B7"
+				"4F653ADFAFAF8ABB"
+				"63112023294D3304"
+				"4F49664319D58211"
+				"1F385AF36A90D7E8"
+				"49102E7021F6BE09"
+			]
+			size: 3.0d
+			id: "0F06579CB40D06BB"
+			tasks: [
+				{
+					id: "47121CC1E2835987"
+					type: "item"
+					item: "mysticalagriculture:prudentium_gemstone_block"
+					count: 46L
+				}
+				{
+					id: "0DCB6D9A7811D821"
+					type: "item"
+					item: "mysticalagriculture:witherproof_block"
+					count: 11L
+				}
+				{
+					id: "71D61D12E3C1837C"
+					type: "item"
+					item: "mysticalagriculture:witherproof_glass"
+					count: 28L
+				}
+				{
+					id: "69634D093DE37F84"
+					type: "item"
+					item: "thermal:machine_crafter"
+				}
+				{
+					id: "6ABA010B54A2A65E"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 4L
+				}
+				{
+					id: "086409DBFECB4D8D"
+					type: "item"
+					item: "immersiveengineering:fluid_placer"
+					count: 2L
+				}
+				{
+					id: "7613C6920D4097FE"
+					type: "item"
+					item: "mysticalagriculture:prudentium_reprocessor"
+					count: 2L
+				}
+				{
+					id: "21A4535C2607783C"
+					type: "item"
+					item: "simplylight:illuminant_green_block_on"
+					count: 3L
+				}
+				{
+					id: "5E4374696B5685EE"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory3_controller"
+				}
+				{
+					id: "1F09F7675B97FA35"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory3_mystical_item_port_items_input"
+				}
+				{
+					id: "42F79589AB2ABE48"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory3_mystical_item_port_items_output"
+				}
+				{
+					id: "3A2726A8E6BE276A"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory3_mystical_energy_port_energy_input"
+				}
+			]
+		}
+		{
+			title: "Mystical Factory Tier 4"
+			icon: "masterfulmachinery:mysticfactory4_controller"
+			x: -9.5d
+			y: 11.0d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"62AB1EAC05151A44"
+				"6234D55BAF808BD2"
+				"341411D6BC7E2F0C"
+				"5491A1FCA85043B7"
+				"0F06579CB40D06BB"
+				"175D58D02BF6D011"
+				"3264895F2406E39E"
+				"71A0609C38D650E0"
+				"79D103500294035B"
+			]
+			size: 3.0d
+			id: "112162B980506C4D"
+			tasks: [
+				{
+					id: "5C509802B4EB7D14"
+					type: "item"
+					item: "mysticalagriculture:tertium_gemstone_block"
+					count: 46L
+				}
+				{
+					id: "1DD9A2AC8F3C2102"
+					type: "item"
+					item: "thermal:machine_crafter"
+				}
+				{
+					id: "1CCEF9B3E2B478CD"
+					type: "item"
+					item: "mysticalagriculture:witherproof_glass"
+					count: 28L
+				}
+				{
+					id: "42EE125A043BB159"
+					type: "item"
+					item: "mysticalagriculture:witherproof_block"
+					count: 11L
+				}
+				{
+					id: "64D9EEA0B2DC93D8"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 4L
+				}
+				{
+					id: "0B26A1FC8D4ECC54"
+					type: "item"
+					item: "immersiveengineering:fluid_placer"
+					count: 2L
+				}
+				{
+					id: "73A3E1215A86B5A7"
+					type: "item"
+					item: "mysticalagriculture:tertium_reprocessor"
+					count: 2L
+				}
+				{
+					id: "45163A156893FF71"
+					type: "item"
+					item: "simplylight:illuminant_orange_block_on"
+					count: 3L
+				}
+				{
+					id: "4639C96A9FF35AE0"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory4_controller"
+				}
+				{
+					id: "6700AA36CA6B46A1"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory4_mystical_item_port_items_input"
+				}
+				{
+					id: "0383DEC0A6011F48"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory4_mystical_item_port_items_output"
+				}
+				{
+					id: "7A27A926399E1CD2"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory4_mystical_energy_port_energy_input"
+				}
+			]
+		}
+		{
+			title: "Mystical Fcatory Tier 5"
+			icon: "masterfulmachinery:mysticfactory5_controller"
+			x: -6.5d
+			y: 11.0d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"558E5F0EFD894D61"
+				"23B08D91A75EF524"
+				"341411D6BC7E2F0C"
+				"5491A1FCA85043B7"
+				"112162B980506C4D"
+				"7DC080E18C7BD061"
+				"6083CEBD7FF77D03"
+				"39DD69009C6A2070"
+				"6FE388941E6F219B"
+				"2F8B8819ED5BBBB6"
+				"76CA9B4B4D139E35"
+				"4110B34782BDB3A5"
+				"45D7CC8AF8E41983"
+			]
+			size: 3.0d
+			id: "410DA7020564FCB3"
+			tasks: [
+				{
+					id: "33CC2416518B8A6C"
+					type: "item"
+					item: "mysticalagriculture:imperium_gemstone_block"
+					count: 46L
+				}
+				{
+					id: "1C9DE3E972375042"
+					type: "item"
+					item: "thermal:machine_crafter"
+				}
+				{
+					id: "3006C95AF6D1284F"
+					type: "item"
+					item: "mysticalagriculture:witherproof_glass"
+					count: 28L
+				}
+				{
+					id: "5E2BAF6FD355AF96"
+					type: "item"
+					item: "mysticalagriculture:witherproof_block"
+					count: 11L
+				}
+				{
+					id: "5390173A6E09528A"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 4L
+				}
+				{
+					id: "750DB23B269FD0EE"
+					type: "item"
+					item: "immersiveengineering:fluid_placer"
+					count: 2L
+				}
+				{
+					id: "5617F7BC162D5CE5"
+					type: "item"
+					item: "mysticalagriculture:imperium_reprocessor"
+					count: 2L
+				}
+				{
+					id: "032BB8A090C8AA2D"
+					type: "item"
+					item: "simplylight:illuminant_cyan_block_on"
+					count: 3L
+				}
+				{
+					id: "7F307A6C5FD0C1A5"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory5_controller"
+				}
+				{
+					id: "15915BC04BFA9109"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory5_mystical_item_port_items_input"
+				}
+				{
+					id: "2FE0BC2AE81DC31B"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory5_mystical_item_port_items_output"
+				}
+				{
+					id: "0EC0B903552E4AB1"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory5_mystical_energy_port_energy_input"
+				}
+			]
+		}
+		{
+			title: "Mystical Factory Tier 6"
+			icon: "masterfulmachinery:mysticfactory6_controller"
+			x: -3.5d
+			y: 11.0d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"2888ACD6C2BDB508"
+				"03F44FE34FEAE9C3"
+				"341411D6BC7E2F0C"
+				"5491A1FCA85043B7"
+				"410DA7020564FCB3"
+				"0E5E8CBB8A380F7E"
+				"6922F366FD53486C"
+				"550F76A37A2D6A81"
+				"57AD42E87777C2A2"
+				"6F2326323EF33A63"
+				"3EAB488E2A6BC29A"
+				"500CE4634E4CAA6E"
+				"0E3D24DB02A895C7"
+				"62FFB55E9CF351CE"
+				"610C21CEF23BA86B"
+			]
+			size: 3.0d
+			id: "50FABEFBAEAA7901"
+			tasks: [
+				{
+					id: "5A03ABBDBD7B398E"
+					type: "item"
+					item: "mysticalagriculture:supremium_gemstone_block"
+					count: 46L
+				}
+				{
+					id: "6FF316213FDF3413"
+					type: "item"
+					item: "thermal:machine_crafter"
+				}
+				{
+					id: "72959C58B760D2B8"
+					type: "item"
+					item: "mysticalagriculture:witherproof_glass"
+					count: 28L
+				}
+				{
+					id: "6D4FCF74EA2C0532"
+					type: "item"
+					item: "mysticalagriculture:witherproof_block"
+					count: 11L
+				}
+				{
+					id: "67CDCB95DEFA5086"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 4L
+				}
+				{
+					id: "2E054E39F4BF5881"
+					type: "item"
+					item: "immersiveengineering:fluid_placer"
+					count: 2L
+				}
+				{
+					id: "39138E232A10C6EC"
+					type: "item"
+					item: "mysticalagriculture:supremium_reprocessor"
+					count: 2L
+				}
+				{
+					id: "094F3D897869095E"
+					type: "item"
+					item: "simplylight:illuminant_red_block_on"
+					count: 3L
+				}
+				{
+					id: "1C72559ADFDBE1E9"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory6_controller"
+				}
+				{
+					id: "6F4C2639EF4E9C68"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory6_mystical_item_port_items_input"
+				}
+				{
+					id: "630BDE4E7CED559D"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory6_mystical_item_port_items_output"
+				}
+				{
+					id: "01DA83FE020F0B00"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory6_mystical_energy_port_energy_input"
+				}
+			]
+		}
+		{
+			title: "Mystical Factory Tier 7"
+			icon: "masterfulmachinery:mysticfactory7_controller"
+			x: -0.5d
+			y: 11.0d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"349EAE82D9B38037"
+				"21E2AF5762F51202"
+				"341411D6BC7E2F0C"
+				"5491A1FCA85043B7"
+				"186003E81B3E64B4"
+				"6AC5532E18C98BD6"
+				"7D1F2293C1E1979A"
+				"794CE36A9EBCC151"
+			]
+			size: 3.0d
+			id: "293CDA648B92CE4E"
+			tasks: [
+				{
+					id: "5A27AF6DAB5D4298"
+					type: "item"
+					item: "mysticalagradditions:insanium_gemstone_block"
+					count: 46L
+				}
+				{
+					id: "7736822881784F31"
+					type: "item"
+					item: "thermal:machine_crafter"
+				}
+				{
+					id: "11AFA808C39B756F"
+					type: "item"
+					item: "mysticalagriculture:witherproof_block"
+					count: 11L
+				}
+				{
+					id: "5E08177F6B28CED6"
+					type: "item"
+					item: "mysticalagriculture:witherproof_glass"
+					count: 28L
+				}
+				{
+					id: "474B0ED60B1B7707"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 4L
+				}
+				{
+					id: "1DFD624986F611DF"
+					type: "item"
+					item: "immersiveengineering:fluid_placer"
+					count: 2L
+				}
+				{
+					id: "70A2F68CEC0AD897"
+					type: "item"
+					item: "mysticaladaptations:insanium_reprocessor"
+					count: 2L
+				}
+				{
+					id: "16FDF3DF1EB217AA"
+					type: "item"
+					item: "simplylight:illuminant_magenta_block_on"
+					count: 3L
+				}
+				{
+					id: "720259E18ADFE494"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory7_controller"
+				}
+				{
+					id: "6BC30B11D2203841"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory7_mystical_item_port_items_input"
+				}
+				{
+					id: "7E6344A19AFFDE39"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory7_mystical_item_port_items_output"
+				}
+				{
+					id: "7984F0CE283D724E"
+					type: "item"
+					item: "masterfulmachinery:mysticfactory7_mystical_energy_port_energy_input"
+				}
+			]
+		}
+		{
+			x: 23.5d
+			y: 2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["7A0CA37A094EE4AE"]
+			id: "723E085AC34DF6A2"
+			tasks: [{
+				id: "205A79F02B9ECB6B"
+				type: "item"
+				item: "mysticalagriculture:basic_reprocessor"
+			}]
+		}
+		{
+			x: 23.0d
+			y: 3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"723E085AC34DF6A2"
+				"3E999298ED33E8D7"
+			]
+			id: "5CF5550246969259"
+			tasks: [{
+				id: "66E563307DCE983D"
+				type: "item"
+				item: "mysticalagriculture:inferium_reprocessor"
+			}]
+		}
+		{
+			x: 24.0d
+			y: 2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"5CF5550246969259"
+				"3002E23F236F5D4B"
+			]
+			id: "67CA4C87EE75696D"
+			tasks: [{
+				id: "3944EF418CF103AA"
+				type: "item"
+				item: "mysticalagriculture:prudentium_reprocessor"
+			}]
+		}
+		{
+			x: 24.5d
+			y: 2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"67CA4C87EE75696D"
+				"7CF74FD90FCAB907"
+			]
+			id: "6234D55BAF808BD2"
+			tasks: [{
+				id: "466BC37C4A0D0279"
+				type: "item"
+				item: "mysticalagriculture:tertium_reprocessor"
+			}]
+		}
+		{
+			x: 24.0d
+			y: 3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"6234D55BAF808BD2"
+				"19CD2703CD8F24B7"
+			]
+			id: "23B08D91A75EF524"
+			tasks: [{
+				id: "78CB9EEE5E615E3D"
+				type: "item"
+				item: "mysticalagriculture:imperium_reprocessor"
+			}]
+		}
+		{
+			x: 23.5d
+			y: 3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"23B08D91A75EF524"
+				"46B2C0737D0B6708"
+			]
+			id: "03F44FE34FEAE9C3"
+			tasks: [{
+				id: "2120125B2A5F1A82"
+				type: "item"
+				item: "mysticalagriculture:supremium_reprocessor"
+			}]
+		}
+		{
+			x: 24.5d
+			y: 3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"03F44FE34FEAE9C3"
+				"34E8E2E171CA2688"
+			]
+			id: "21E2AF5762F51202"
+			tasks: [{
+				id: "6D9B3D068EF34FDE"
+				type: "item"
+				item: "mysticaladaptations:insanium_reprocessor"
 			}]
 		}
 	]

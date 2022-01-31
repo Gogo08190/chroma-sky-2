@@ -1998,5 +1998,40 @@
 				}
 			}]
 		}
+		{
+			x: 21.5d
+			y: -3.5d
+			dependencies: ["094E53A4DBFB3D59"]
+			id: "2C4F5F3EA7FE05EC"
+			tasks: [
+				{
+					id: "15C8C0B77DB19B1F"
+					type: "item"
+					item: "bloodmagic:alchemicalreactionchamber"
+				}
+				{
+					id: "217AE0D1EAFD8F06"
+					type: "item"
+					item: {
+						id: "bloodmagic:sanguinereverter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 21.5d
+			y: -5.0d
+			dependencies: ["2C4F5F3EA7FE05EC"]
+			id: "65BCF1AC99ABAE8E"
+			tasks: [{
+				id: "530844DE570235FF"
+				type: "item"
+				item: "bloodmagic:weakbloodshard"
+			}]
+		}
 	]
 }

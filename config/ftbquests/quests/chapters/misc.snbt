@@ -268,6 +268,7 @@
 			dependencies: [
 				"47A4D81697C274A3"
 				"321AFD3A1679E8E0"
+				"3B8B6059CD724BD3"
 			]
 			id: "3D2E3D9DCF93B206"
 			tasks: [{
@@ -311,6 +312,7 @@
 			dependencies: [
 				"47A4D81697C274A3"
 				"321AFD3A1679E8E0"
+				"7C096F70E21229EC"
 			]
 			id: "0BC5CF7D0AB007C8"
 			tasks: [{
@@ -883,6 +885,181 @@
 				id: "5BEC3303B1A67879"
 				type: "item"
 				item: "torchmaster:dreadlamp"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			shape: "octagon"
+			dependencies: ["3F05D033EBD0710D"]
+			id: "1FE43A6E2FB98AA1"
+			tasks: [{
+				id: "4FBD62B9210BF5D0"
+				type: "item"
+				item: "speedyhoppers:speedyhopper_mk1"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			shape: "octagon"
+			dependencies: ["1FE43A6E2FB98AA1"]
+			id: "32E1C48C781FA640"
+			tasks: [{
+				id: "5932D70BCF3903F3"
+				type: "item"
+				item: "speedyhoppers:speedyhopper_mk2"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			shape: "octagon"
+			dependencies: ["32E1C48C781FA640"]
+			id: "00FA1EE97159B342"
+			tasks: [{
+				id: "24D6FDFD742FF3F8"
+				type: "item"
+				item: "speedyhoppers:speedyhopper_mk3"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["054C13431F464EC6"]
+			id: "77AF5AF7BD27BFAD"
+			tasks: [{
+				id: "2BFF7E28F8E2F80E"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"77AF5AF7BD27BFAD"
+				"780732EFA526050A"
+			]
+			id: "0FC578B7FD3FF48D"
+			tasks: [{
+				id: "589665C8832EC13A"
+				type: "item"
+				item: "fluxnetworks:flux_block"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"780732EFA526050A"
+				"0FC578B7FD3FF48D"
+			]
+			id: "1D8AE33E20BFBCB4"
+			tasks: [{
+				id: "082C8B8E503FA9E5"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["780732EFA526050A"]
+			id: "696E514DDE3AF653"
+			tasks: [{
+				id: "7D310EDA3BF8A748"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"780732EFA526050A"
+				"77AF5AF7BD27BFAD"
+				"0FC578B7FD3FF48D"
+			]
+			id: "0E79214C63CFC260"
+			tasks: [{
+				id: "7F055D7ACBE976F2"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["0FC578B7FD3FF48D"]
+			id: "5090B1F64CD6C162"
+			tasks: [{
+				id: "480894B71FF42298"
+				type: "item"
+				item: "fluxnetworks:basic_flux_storage"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["5090B1F64CD6C162"]
+			id: "1689AB65E9E9D2A4"
+			tasks: [{
+				id: "0C44930F8CF1F234"
+				type: "item"
+				item: "fluxnetworks:herculean_flux_storage"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			shape: "diamond"
+			dependencies: ["1689AB65E9E9D2A4"]
+			id: "07DCE0650BD06116"
+			tasks: [{
+				id: "698F398AE6E87C31"
+				type: "item"
+				item: "fluxnetworks:gargantuan_flux_storage"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			shape: "diamond"
+			dependencies: [
+				"77AF5AF7BD27BFAD"
+				"243FA1E08B56689C"
+			]
+			id: "780732EFA526050A"
+			tasks: [{
+				id: "2B28373FAAB86CCE"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["77AF5AF7BD27BFAD"]
+			id: "6AC15CD094127B1B"
+			tasks: [{
+				id: "56B6C926E9BA95FF"
+				type: "item"
+				item: "fluxnetworks:flux_configurator"
 			}]
 		}
 	]

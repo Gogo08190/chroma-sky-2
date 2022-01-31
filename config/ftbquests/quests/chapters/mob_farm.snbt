@@ -1,7 +1,7 @@
 {
 	id: "4D840B881CA683B7"
-	group: "258B5ED587988A28"
-	order_index: 0
+	group: "049115B9B236F83B"
+	order_index: 5
 	filename: "mob_farm"
 	title: "Mob Farm"
 	icon: "mob_grinding_utils:saw"
@@ -562,6 +562,7 @@
 			x: 6.5d
 			y: 1.5d
 			shape: "diamond"
+			dependencies: ["424F705CF3F9E901"]
 			id: "4BBA14500210DB2C"
 			tasks: [{
 				id: "6C3AD2D95DB98C03"
@@ -573,6 +574,7 @@
 			x: 6.0d
 			y: 2.0d
 			shape: "diamond"
+			dependencies: ["424F705CF3F9E901"]
 			id: "06B74D09DE919DEB"
 			tasks: [{
 				id: "51259CE72EA4C9AF"
@@ -584,6 +586,7 @@
 			x: 5.5d
 			y: 1.5d
 			shape: "diamond"
+			dependencies: ["424F705CF3F9E901"]
 			id: "65C1947F5ACDED86"
 			tasks: [{
 				id: "6D3EA4449197EAE7"

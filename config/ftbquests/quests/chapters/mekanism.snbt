@@ -3314,5 +3314,22 @@
 				item: "mekanism:pellet_plutonium"
 			}]
 		}
+		{
+			x: 3.0d
+			y: -6.0d
+			shape: "diamond"
+			description: ["&bThe Electric Pump&r  is used to pump fluids out of a reservoir in the world or a storage."]
+			hide_dependency_lines: true
+			dependencies: [
+				"7C096F70E21229EC"
+				"6F2326323EF33A63"
+			]
+			id: "55A7568D7B9E079A"
+			tasks: [{
+				id: "2E889069CA0A5BBA"
+				type: "item"
+				item: "mekanism:electric_pump"
+			}]
+		}
 	]
 }

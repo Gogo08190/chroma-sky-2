@@ -1,7 +1,7 @@
 {
 	id: "255D970D31FD0A92"
 	group: "258B5ED587988A28"
-	order_index: 1
+	order_index: 0
 	filename: "thermal"
 	title: "Thermal"
 	icon: "thermal:upgrade_augment_3"

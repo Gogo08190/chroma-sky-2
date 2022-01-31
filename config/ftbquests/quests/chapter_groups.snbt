@@ -1,6 +1,7 @@
 {
 	chapter_groups: [
 		{ id: "638FC427456F902B", title: "&bChapter 1" }
+		{ id: "049115B9B236F83B", title: "&6Foods / Mobs" }
 		{ id: "258B5ED587988A28", title: "&bChapter 2" }
 		{ id: "73390EDA98890AC0", title: "&bChapter 3" }
 		{ id: "7F090E96EFD94B43", title: "&bChapter 4" }

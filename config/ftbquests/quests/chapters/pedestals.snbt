@@ -127,7 +127,7 @@
 			x: -5.5d
 			y: -3.0d
 			description: [
-				"Filters allow control over what items are allowed in a pedestal display. Filter type (whitelist/blacklist) can be changed by crouch-right-clicking the air. The filters that need to be programmed (such as Item or Mod filters) can be crouch-right-clicked on an inventory to set them to the contents of that inventory."
+				"Filters allow control over which items are allowed in a pedestal display. Filter type (whitelist/blacklist) can be changed by crouch-right-clicking the air. The filters that need to be programmed (such as Item or Mod filters) can be crouch-right-clicked on an inventory to set them to the contents of that inventory."
 				""
 				"Filters can be added to a pedestal by holding them in your offhand while right-clicking the pedestal with an empty hand. They can be removed by doing the same with either a filter or a filter tool in your offhand."
 				""
@@ -394,9 +394,9 @@
 			y: -8.0d
 			shape: "diamond"
 			description: [
-				"&3Imports fluids&f from items (inserted in the pedestal) or tanks (below the pedestal) into the PFN. Items that are in the pedestal, will be automatically sent to a connected pedestal once they are empty of fluid."
+				"&3Imports fluids&f from items (inserted in the pedestal) or tanks (below the pedestal) into the PEN. Items that are in the pedestal, will be automatically sent to a connected pedestal once they are empty of fluid."
 				""
-				"&3Exports fluids&f from the PFN by filling buckets or items inserted in the pedestal, or tanks below the pedestal. Items in the pedestal will be automatically sent once they have been filled with fluid, providing there is a pedestal it can send the item to."
+				"&3Exports fluids&f from the PEN by filling buckets or items inserted in the pedestal, or tanks below the pedestal. Items in the pedestal will be automatically sent once they have been filled with fluid, providing there is a pedestal it can send the item to."
 			]
 			dependencies: ["71C0556DED31352E"]
 			size: 1.6d

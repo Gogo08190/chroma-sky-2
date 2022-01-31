@@ -49,6 +49,13 @@
 		{
 			x: -4.5d
 			y: -6.0d
+			description: [
+				"To get into first contact with the substance's powers, one is required to create a &dBrilliant Tree&r that will, when harvested, shed &dGold Leaf&r - a delicate, yet powerful material."
+				""
+				"To create such a tree, simply craft bit of &dBrilliant Fiber&r and place it into the crown of a tree."
+				""
+				"Time will then bring brilliance."
+			]
 			dependencies: ["3856D13B148693FD"]
 			id: "2B4192D90D8DB5E6"
 			tasks: [{
@@ -679,6 +686,7 @@
 		{
 			x: -11.5d
 			y: -10.5d
+			description: ["Right click in the end"]
 			dependencies: ["7786E772571081E4"]
 			id: "6FA1B1D053C2C065"
 			tasks: [{
@@ -696,6 +704,7 @@
 		{
 			x: -10.5d
 			y: -10.5d
+			description: ["Right click in the nether"]
 			dependencies: ["7786E772571081E4"]
 			id: "47A262541C6569CA"
 			tasks: [{
@@ -713,6 +722,7 @@
 		{
 			x: -9.5d
 			y: -10.5d
+			description: ["Right click in the overworld"]
 			dependencies: ["7786E772571081E4"]
 			id: "1C8E72FDD4811D75"
 			tasks: [{
@@ -810,6 +820,15 @@
 			x: 14.5d
 			y: -16.0d
 			shape: "circle"
+			description: [
+				"Over the years, magical botanists have tried to find a way to manipulate &6time&r itself for personal again."
+				""
+				"To set it up, all that is required is for the &dShifting Sundial&r to have an &dItem Frame&r on it containg a &dHand of Time&r."
+				""
+				"The &6rotation&r of the hand in the frame will then determine the time that will be skipped to, with the hand pointing to the top corresponding to midnight."
+				""
+				"To activate a time skip, a regular &dClock&r has to be dropped very close to the sundial."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"7620EE9990A9DFB4"
@@ -859,6 +878,13 @@
 			x: 13.0d
 			y: -14.5d
 			shape: "circle"
+			description: [
+				"The strength of any shot &6projectiles&r is, in some instances, strong enough to pierce living beings and even move them around by way of teleportation."
+				""
+				"For this, different kinds of projectiles produce different amouts - a &dsnowball&r is much less riche in energy than, say, an &dender pearl&r."
+				""
+				"However, this power can be used to create &aAura&r as well: The &dShooting Mark&r converts the energy of any projectiles shot at it into &aAura&r that it spreads into the environment."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"30905843166E7619"
@@ -913,6 +939,13 @@
 			x: 15.0d
 			y: -17.5d
 			shape: "circle"
+			description: [
+				"&6Slimes&r and &6Magma Cubes&r are peculiar beings."
+				""
+				"Upon being hurt enough, the &6split&r into smaller version of themselves, similarly to how cells multiply in the body"
+				""
+				"It should also be noted that, while the &dOffshoot Observer&r is in the process of dispering &aAura&r, causing an additional creature to split will not cause any more &aAura&r to be created."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"1074EAA509CF1984"
@@ -932,6 +965,11 @@
 			x: 13.0d
 			y: -15.5d
 			shape: "circle"
+			description: [
+				"As Ashes turn to ashes, and dust to dust, a similar natural converstion can be achieved with &aAura&r and equally magic &dPotions&r."
+				""
+				"Specifically, &dLingering Potions&r have certain magical abilities that allow on to extract the effect and convert them into &aAura&r efficiently."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"4E340C8BF251D2E5"
@@ -1024,6 +1062,7 @@
 			x: 16.0d
 			y: -16.5d
 			shape: "circle"
+			description: ["Surely, at one point in their lives, any person dealing with trees was faced with this wellknow issue: An &dOak Sapling&r grows into a &6Big tree&r wich is hard to look at, to manage and to chop down."]
 			hide_dependency_lines: true
 			dependencies: [
 				"13D134D9CECC9EFA"
@@ -1287,6 +1326,11 @@
 			icon: "naturesaura:animal_spawner"
 			x: 2.5d
 			y: -21.0d
+			description: [
+				"The required &dSpirit of Birthing&r can be obtained easily by a person &6breeding&r two passive animals together while there is a (slight) excess of &aAura&r present in the surrounding area."
+				""
+				"For each new baby born, there is a chance of a few &dSpirits of Birthing&r to be created in the process."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"4E340C8BF251D2E5"
@@ -1798,6 +1842,17 @@
 						Damage: 0
 					}
 				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -15.0d
+			dependencies: ["62453989EC0762EA"]
+			id: "610C21CEF23BA86B"
+			tasks: [{
+				id: "5EF126715A2640D1"
+				type: "item"
+				item: "naturesaura:grated_chute"
 			}]
 		}
 	]

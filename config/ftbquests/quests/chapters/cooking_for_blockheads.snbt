@@ -1,0 +1,263 @@
+{
+	id: "65F0B5B1CD86BBE8"
+	group: "049115B9B236F83B"
+	order_index: 0
+	filename: "cooking_for_blockheads"
+	title: "Cooking For Blockheads"
+	icon: "cookingforblockheads:cooking_table"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"&6The Cooking Table&r lets the player craft food items using ingredients from not only the player's inventory, but also any ingredients stored within a multiblock kitchen that it is connected to."
+				""
+				"Right-clicking the Cooking Table will bring up a searchable and sortable list of food items that can be crafted with the food ingredients currently available."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0AF6257F7F3CB80A"]
+			id: "2036594D686F079A"
+			tasks: [{
+				id: "267C9E3752E8EFAA"
+				type: "item"
+				item: "cookingforblockheads:cooking_table"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			shape: "square"
+			description: ["&6The Oven&r allows smelting recipes to be used in a multiblock kitchen and is also able to smelt food items in bulk."]
+			dependencies: ["3F05D033EBD0710D"]
+			id: "26C6099D254E34F4"
+			tasks: [{
+				id: "666279DDE7C51AE7"
+				type: "item"
+				item: "cookingforblockheads:oven"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			shape: "square"
+			description: ["&6The Sink &ran endless supply of Fresh Water."]
+			dependencies: ["7C33AAACA8411A4B"]
+			id: "2D150731595C8979"
+			tasks: [{
+				id: "3A2C657A044E186E"
+				type: "item"
+				item: "cookingforblockheads:sink"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["3F97D03C2402B70D"]
+			id: "47935369716C9B45"
+			tasks: [{
+				id: "2C07B0178576EE61"
+				type: "item"
+				item: "cookingforblockheads:tool_rack"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: [
+				"0BA2FBC41F80C847"
+				"3F05D033EBD0710D"
+			]
+			id: "787991D374995417"
+			tasks: [{
+				id: "4239D0CA2098EC2F"
+				type: "item"
+				item: "cookingforblockheads:toaster"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			shape: "rsquare"
+			description: ["Milk can be stored in the &6Milk Jar&r and retrieved using a Bucket."]
+			dependencies: ["3F05D033EBD0710D"]
+			id: "19A3AB8839A43E8F"
+			tasks: [{
+				id: "2CD7DC1FAAF318E7"
+				type: "item"
+				item: "cookingforblockheads:milk_jar"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			shape: "rsquare"
+			description: [
+				"&6The Cow in a Jar&r functions exactly like the Milk Jar, while also automatically generating milk over time."
+				""
+				"This block can only be crafted by placing an Anvil on top of a Cow that is standing on top of a Milk Jar."
+			]
+			dependencies: ["19A3AB8839A43E8F"]
+			id: "24184A603A5A8A71"
+			tasks: [{
+				id: "18EC94F1D367DA29"
+				type: "item"
+				item: "cookingforblockheads:cow_jar"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["3F97D03C2402B70D"]
+			id: "4F5A3765C02CE8CB"
+			tasks: [{
+				id: "47144805DC27037C"
+				type: "item"
+				item: "cookingforblockheads:spice_rack"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			shape: "diamond"
+			description: ["&6The Fruit Basket&r offers 27 slots of storage that can be accessed by a multiblock kitchen."]
+			dependencies: ["3F97D03C2402B70D"]
+			id: "1F2E3E432FE0723B"
+			tasks: [{
+				id: "53CE5ABCAE66170D"
+				type: "item"
+				item: "cookingforblockheads:fruit_basket"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			description: ["&6The Kitchen Counter &roffers 27 slots of storage that can be accessed by a multiblock kitchen."]
+			dependencies: ["7EDF498D2A2487F6"]
+			id: "0B62AADC98AECBE5"
+			tasks: [{
+				id: "74A037FCF6FC338F"
+				type: "item"
+				item: "cookingforblockheads:counter"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["7EDF498D2A2487F6"]
+			id: "07C9AB692E93D296"
+			tasks: [{
+				id: "1266FE306F4D2F84"
+				type: "item"
+				item: "cookingforblockheads:corner"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["7EDF498D2A2487F6"]
+			id: "53981ED04D9CE70D"
+			tasks: [{
+				id: "1737358AE1B4F96D"
+				type: "item"
+				item: "cookingforblockheads:cabinet"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"&6The Fridge&r is used to store items like a Chest and can be dyed."
+				""
+				"If it is connected to a Cooking Table, the player can directly craft food items with components from the Fridge."
+				""
+				"Placing two Fridges vertically will merge them together."
+			]
+			dependencies: ["3F05D033EBD0710D"]
+			id: "4873BB236873D26E"
+			tasks: [{
+				id: "133E11CE6A999554"
+				type: "item"
+				item: "cookingforblockheads:fridge"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: [
+				"3F05D033EBD0710D"
+				"4873BB236873D26E"
+			]
+			id: "011F82F647DB6514"
+			tasks: [{
+				id: "7AF696E583489CF9"
+				type: "item"
+				item: "cookingforblockheads:heating_unit"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: [
+				"3F05D033EBD0710D"
+				"4873BB236873D26E"
+			]
+			id: "5ED0C7DF3F03863A"
+			tasks: [{
+				id: "6F674F2FD4FCC11A"
+				type: "item"
+				item: "cookingforblockheads:ice_unit"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: [
+				"3F05D033EBD0710D"
+				"4873BB236873D26E"
+			]
+			id: "7F936FA2835566F4"
+			tasks: [{
+				id: "7B636DC7102ACF60"
+				type: "item"
+				item: "cookingforblockheads:preservation_chamber"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			shape: "hexagon"
+			dependencies: ["0ABA29AAB5DCD885"]
+			id: "36251EB8F9480A4C"
+			tasks: [{
+				id: "4B6DB7E69257B4B1"
+				type: "item"
+				item: "cookingforblockheads:recipe_book"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			shape: "hexagon"
+			dependencies: ["36251EB8F9480A4C"]
+			id: "0AF6257F7F3CB80A"
+			tasks: [{
+				id: "7A72BFE3F0F36B06"
+				type: "item"
+				item: "cookingforblockheads:crafting_book"
+			}]
+		}
+	]
+}

@@ -1,7 +1,7 @@
 {
 	id: "70653BF59303963E"
-	group: "638FC427456F902B"
-	order_index: 10
+	group: "049115B9B236F83B"
+	order_index: 1
 	filename: "pams_harvestcraft"
 	title: "Pam's HarvestCraft"
 	icon: "pamhc2foodcore:basichamburgeritem"
@@ -124,7 +124,7 @@
 			x: 4.0d
 			y: 4.5d
 			subtitle: "I LOVE BREAD"
-			description: ["All the sandwiches of &aPam's HarvestCraft&r"]
+			description: ["All the sandwiches of &aPam's HarvestCraft&r."]
 			dependencies: ["72845589E6B99367"]
 			id: "002FB4856186F7F1"
 			tasks: [{
@@ -677,7 +677,7 @@
 			x: -4.0d
 			y: 4.5d
 			subtitle: "Getting fat"
-			description: ["The grease will be your friend"]
+			description: ["The grease will be your friend."]
 			dependencies: ["72845589E6B99367"]
 			id: "7E8EDE2BE3EF6163"
 			tasks: [{
@@ -2189,7 +2189,7 @@
 			x: 4.5d
 			y: -8.0d
 			subtitle: "I do like bread yes"
-			description: ["Main Toastes of &aPam's HarvestCraft&r"]
+			description: ["Main Toastes of &aPam's HarvestCraft&r."]
 			dependencies: ["72845589E6B99367"]
 			id: "3805B08C81BEA8A0"
 			tasks: [{
@@ -2829,7 +2829,7 @@
 			x: 0.0d
 			y: -6.0d
 			subtitle: "Head freezer"
-			description: ["If it gets very hot here are all of the smoothies of &aPam's HarvestCraft&r"]
+			description: ["If it gets very hot here are all of the smoothies of &aPam's HarvestCraft&r."]
 			dependencies: ["72845589E6B99367"]
 			id: "02214A119C000B9D"
 			tasks: [{
@@ -3238,7 +3238,7 @@
 			x: 4.0d
 			y: -1.5d
 			subtitle: "Might be handy !"
-			description: ["Here are the main tools for &aPam's HarvestCraft&r"]
+			description: ["Here are the main tools for &aPam's HarvestCraft&r."]
 			dependencies: ["72845589E6B99367"]
 			id: "7A419FAAEDC02604"
 			tasks: [{

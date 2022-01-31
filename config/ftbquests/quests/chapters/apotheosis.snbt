@@ -1,0 +1,286 @@
+{
+	id: "78A7A251CD1BDAAE"
+	group: "258B5ED587988A28"
+	order_index: 9
+	filename: "apotheosis"
+	title: "Apotheosis"
+	icon: "minecraft:spawner"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: 0.5d
+			dependencies: ["2C562B816E58084C"]
+			id: "17F440A8AFB2D790"
+			tasks: [{
+				id: "1EB0CD2D3C446B25"
+				type: "advancement"
+				advancement: "apotheosis:spawner/root"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			shape: "pentagon"
+			dependencies: ["2C562B816E58084C"]
+			id: "0CD809E61CBF155A"
+			tasks: [{
+				id: "1E6A49B39E049BC7"
+				type: "item"
+				item: "apotheosis:hellshelf"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			shape: "pentagon"
+			dependencies: ["2C562B816E58084C"]
+			id: "454D38F803CF5F51"
+			tasks: [{
+				id: "02EA7E115AFCEC5E"
+				type: "item"
+				item: "apotheosis:blazing_hellshelf"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			shape: "pentagon"
+			dependencies: ["2C562B816E58084C"]
+			id: "52D1DE37C65275C1"
+			tasks: [{
+				id: "30913AA719FCFAB8"
+				type: "item"
+				item: "apotheosis:glowing_hellshelf"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			shape: "pentagon"
+			dependencies: ["2C562B816E58084C"]
+			id: "469F76C433E3539B"
+			tasks: [{
+				id: "50930DB786FFAEE3"
+				type: "item"
+				item: "apotheosis:seashelf"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			shape: "pentagon"
+			dependencies: ["2C562B816E58084C"]
+			id: "1B0F068BB061A255"
+			tasks: [{
+				id: "2B179348523AC701"
+				type: "item"
+				item: "apotheosis:crystal_seashelf"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			shape: "pentagon"
+			dependencies: ["2C562B816E58084C"]
+			id: "4AF87DEA14DE4AB9"
+			tasks: [{
+				id: "655724090A98739A"
+				type: "item"
+				item: "apotheosis:heart_seashelf"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			shape: "pentagon"
+			dependencies: ["2C562B816E58084C"]
+			id: "673CC85D8AB9F163"
+			tasks: [{
+				id: "5434063582C8A600"
+				type: "item"
+				item: "apotheosis:endshelf"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			shape: "pentagon"
+			dependencies: ["2C562B816E58084C"]
+			id: "763FB9D99B6C684B"
+			tasks: [{
+				id: "5041D6666F93E1E4"
+				type: "item"
+				item: "apotheosis:draconic_endshelf"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			shape: "pentagon"
+			dependencies: ["2C562B816E58084C"]
+			id: "15A038F7F307DF73"
+			tasks: [{
+				id: "787250FC8C3E97F3"
+				type: "item"
+				item: "apotheosis:pearl_endshelf"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			shape: "pentagon"
+			dependencies: ["2C562B816E58084C"]
+			id: "171000C03FE9CD4E"
+			tasks: [{
+				id: "654BA071990E232D"
+				type: "item"
+				item: "apotheosis:beeshelf"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.5d
+			shape: "pentagon"
+			dependencies: ["2C562B816E58084C"]
+			id: "30859E4F41FB35AD"
+			tasks: [{
+				id: "1829763BE3D2AF2C"
+				type: "item"
+				item: "apotheosis:melonshelf"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			shape: "pentagon"
+			dependencies: ["2C562B816E58084C"]
+			id: "713B7976ABBA3F91"
+			tasks: [{
+				id: "2860805FB11F8EA6"
+				type: "item"
+				item: "apotheosis:enchantment_library"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["2C562B816E58084C"]
+			id: "45CF715D44DAD5A0"
+			tasks: [{
+				id: "6DFD9A674F2C3AE0"
+				type: "item"
+				item: "apotheosis:null_book"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["2C562B816E58084C"]
+			id: "03C5F39D32DAF638"
+			tasks: [{
+				id: "122236451CF20FB5"
+				type: "item"
+				item: "apotheosis:armor_head_book"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.0d
+			shape: "square"
+			dependencies: ["2C562B816E58084C"]
+			id: "16F45B27E53A6F20"
+			tasks: [{
+				id: "293BDE8261ABA91C"
+				type: "item"
+				item: "apotheosis:armor_chest_book"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.0d
+			shape: "square"
+			dependencies: ["2C562B816E58084C"]
+			id: "51B9164856481CCA"
+			tasks: [{
+				id: "5C8C1A17CDF02A52"
+				type: "item"
+				item: "apotheosis:armor_legs_book"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 0.5d
+			shape: "square"
+			dependencies: ["2C562B816E58084C"]
+			id: "2D641BEEDBEE1A43"
+			tasks: [{
+				id: "4D34ED83D208DFCE"
+				type: "item"
+				item: "apotheosis:armor_feet_book"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			shape: "square"
+			dependencies: ["2C562B816E58084C"]
+			id: "33745A802C197BB4"
+			tasks: [{
+				id: "5B83DA207183D136"
+				type: "item"
+				item: "apotheosis:weapon_book"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			shape: "square"
+			dependencies: ["2C562B816E58084C"]
+			id: "0D01F6C1C88BE7FA"
+			tasks: [{
+				id: "548FC130E2D97902"
+				type: "item"
+				item: "apotheosis:digger_book"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["2C562B816E58084C"]
+			id: "4CEE2A3D8DA44F3A"
+			tasks: [{
+				id: "3D47F801AB870745"
+				type: "item"
+				item: "apotheosis:fishing_rod_book"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["2C562B816E58084C"]
+			id: "23B24106E0F85E6C"
+			tasks: [{
+				id: "5D992C21408ED906"
+				type: "item"
+				item: "apotheosis:bow_book"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			id: "2C562B816E58084C"
+			tasks: [{
+				id: "36107F1FF2DEF1BB"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
+		}
+	]
+}

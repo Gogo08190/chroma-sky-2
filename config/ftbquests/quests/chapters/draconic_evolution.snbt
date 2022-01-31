@@ -162,7 +162,7 @@
 			y: 19.0d
 			shape: "hexagon"
 			description: [
-				"After defeat the Chaos Guardian, you can grab the &8Chaotic Shards&r inside the Chaotic Island."
+				"After defeating the Chaos Guardian, you can grab the &8Chaotic Shards&r inside the Chaotic Island."
 				""
 				"Chaotic Island are located every 10000 blocks."
 			]
@@ -263,7 +263,7 @@
 			description: [
 				"&dThe Chest Piece&r is the new armor from Draconic Evolution."
 				""
-				"You can cary him on your body slot or in your curio slot."
+				"You can cary it on your body slot or in your curio slot."
 				""
 				"&dThe Wyvern Chest Piece&r has a grid of &56x5&r for modules."
 			]
@@ -386,7 +386,7 @@
 			y: 12.0d
 			shape: "diamond"
 			description: [
-				"&bThe Advanced Dislocator&r is a device that use to store a lot of teleportation points. "
+				"&bThe Advanced Dislocator&r is a device that stores a lot of teleportation points. "
 				""
 				"&6Shift right-click&r to register your teleportation point in it, you can rename it and lock."
 				""
@@ -1176,7 +1176,7 @@
 		{
 			x: 5.5d
 			y: 12.5d
-			description: ["&dThe Awakened Item Dislocator&r is an upgrade of item dislocator with a range of 32 blocks."]
+			description: ["&dThe Awakened Item Dislocator&r is an upgrade of the item dislocator with a range of 32 blocks."]
 			hide_dependency_lines: true
 			dependencies: [
 				"636050D700FFCD24"
@@ -1331,7 +1331,7 @@
 			y: 11.5d
 			shape: "diamond"
 			description: [
-				"&dThe Energy Transfuser&r is used to recharge yout draconic stuff faster."
+				"&dThe Energy Transfuser&r is used to recharge your draconic stuff faster."
 				""
 				"You can charge 4 items or blocks inside."
 			]
@@ -1360,7 +1360,7 @@
 				"It can store xp."
 				"You can choose what you want to kill, Hostile, Adults, Tamed mob, etc..."
 				""
-				"You can provide it any sword (can be enchanted) it uses his durability."
+				"You can provide it with any sword (can be enchanted) it will uses it's durability."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1552,7 +1552,7 @@
 			x: 10.5d
 			y: 10.0d
 			shape: "diamond"
-			description: ["&dThe Projectile Gravity Compensation Module&r is used to make your archery straighter and therefore shoot farther."]
+			description: ["&dThe Projectile Gravity Compensation Module&r is used to make your bow shot straighter and therefore shoot farther."]
 			dependencies: ["2671EB0D79269F64"]
 			id: "1A6D9F79DEF0AA22"
 			tasks: [
@@ -1809,7 +1809,7 @@
 			shape: "diamond"
 			subtitle: "Better than Elytra"
 			description: [
-				"&dThe Flight Module&r give you an Elytra on your Chest Piece."
+				"&dThe Flight Module&r gives you an Elytra on your Chest Piece."
 				""
 				"By unlocking &6The Draconic Flight Module &ryou will be able to have the &ecreative flight&r."
 			]
@@ -1895,9 +1895,9 @@
 				""
 				"&dThe Energy Core&r is in the center of draconic ball."
 				""
-				"&dThe Energy Pylons&r are used to insert or extract energy. To work you need to put a glass block on the top of below the Pylon to activate it."
+				"&dThe Energy Pylons&r are used to insert or extract energy. To work you need to put a glass block on the top or below the Pylon to activate it."
 				""
-				"&dThe Energy Core Stabilizer&r are here to stabilize your Draconic Ball&r."
+				"&dThe Energy Core Stabilizers&r are here to stabilize your Draconic Ball&r."
 				"It needs to be 8 blocks max and 1 block min distance from your Draconic Ball."
 				""
 				"&dTier 1&r (Can store 45.5M RF) : "

@@ -213,7 +213,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -4.0d
 			y: -2.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1248,6 +1248,159 @@
 				id: "741DB0F69E330696"
 				type: "item"
 				item: "chromasky:wirecutter_head"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["2665C893012A391D"]
+			id: "2B4324FDC031384B"
+			tasks: [{
+				id: "574A1E3D6EEBB2E3"
+				type: "item"
+				title: "Tinker's Anvil"
+				icon: {
+					id: "tconstruct:tinkers_anvil"
+					Count: 1b
+					tag: {
+						texture: "tconstruct:tinkers_bronze_block"
+					}
+				}
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+								tag: {
+									texture: "thermal:electrum_block"
+								}
+							}
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+								tag: {
+									texture: "thermal:invar_block"
+								}
+							}
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+								tag: {
+									texture: "thermal:constantan_block"
+								}
+							}
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+								tag: {
+									texture: "mekanism:block_steel"
+								}
+							}
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+								tag: {
+									texture: "thermal:enderium_block"
+								}
+							}
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+								tag: {
+									texture: "thermal:lumium_block"
+								}
+							}
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+								tag: {
+									texture: "thermal:signalum_block"
+								}
+							}
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+								tag: {
+									texture: "mekanism:block_refined_glowstone"
+								}
+							}
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+								tag: {
+									texture: "thermal:bronze_block"
+								}
+							}
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+								tag: {
+									texture: "mekanism:block_refined_obsidian"
+								}
+							}
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+								tag: {
+									texture: "tconstruct:slimesteel_block"
+								}
+							}
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+								tag: {
+									texture: "tconstruct:tinkers_bronze_block"
+								}
+							}
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+								tag: {
+									texture: "tconstruct:rose_gold_block"
+								}
+							}
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+								tag: {
+									texture: "tconstruct:pig_iron_block"
+								}
+							}
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+								tag: {
+									texture: "tconstruct:queens_slime_block"
+								}
+							}
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+								tag: {
+									texture: "tconstruct:manyullyn_block"
+								}
+							}
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+								tag: {
+									texture: "tconstruct:hepatizon_block"
+								}
+							}
+							{
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
+								tag: {
+									texture: "minecraft:netherite_block"
+								}
+							}
+						]
+					}
+				}
 			}]
 		}
 	]

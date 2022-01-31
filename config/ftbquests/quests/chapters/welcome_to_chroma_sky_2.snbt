@@ -13,12 +13,28 @@
 			x: 0.0d
 			y: -0.5d
 			shape: "diamond"
+			subtitle: "A brand new adventure "
+			description: [
+				"    &k&bchroma&r Hello and welcome to Chroma Sky 2 ! &b&kchroma&r"
+				""
+				"This modpack is a brand new &6SkyBlock&r that is the sequel of &bChroma Sky&r. In this modpack a lot of recipes have changed to manage a good balance. We even created some new machinery to enhance your survival."
+				"New recipes even for creative items, custom items, custom fluids, new mechanics and even more to help you through your journey !  "
+				"Let's begin this new adventure by clicking this &9Checkmark&r !"
+			]
 			size: 2.0d
+			min_width: 300
 			id: "5AA98A6A5E15905F"
 			tasks: [{
 				id: "5B8B68C114B20D74"
 				type: "checkmark"
 				title: "&bWelcome To Chroma Sky 2"
+			}]
+			rewards: [{
+				id: "78FAC8001BA0C5C1"
+				type: "command"
+				auto: "invisible"
+				command: "/tellraw @s [\"\",{\"text\":\"Welcome to \"},{\"text\":\"Chroma Sky 2\",\"color\":\"aqua\"},{\"text\":\" @p, have a good time !\"}]"
+				player_command: true
 			}]
 		}
 		{
@@ -26,23 +42,52 @@
 			x: 0.0d
 			y: 1.5d
 			shape: "diamond"
+			subtitle: "More information about &bChroma Sky 2&r"
+			description: [
+				"On this website you will find more informations about &bChroma Sky 2&r."
+				""
+				"Here is a list of what can be found : "
+				"→ Informations about the starting available islands."
+				"→ Who developped this modpack and their descriptions."
+				"→ The other packs developped by the &bChroma&r Team."
+			]
+			dependencies: ["5AA98A6A5E15905F"]
+			min_width: 250
 			id: "738A41EE59B4EDC5"
 			tasks: [{
 				id: "7353B0C8F5A50E49"
 				type: "checkmark"
 				title: "Website"
 			}]
+			rewards: [{
+				id: "32C84E91AC9A838F"
+				type: "command"
+				auto: "invisible"
+				command: "/tellraw @s [\"\",{\"text\":\"Website here : \"},{\"text\":\"chromatech.fr\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://chromatech.fr/\"}}]"
+				player_command: true
+			}]
 		}
 		{
+			title: "FTB Quests"
 			icon: "ftbquests:book"
 			x: -0.5d
 			y: 1.0d
 			shape: "diamond"
+			subtitle: "How does this questbook work?"
+			description: [
+				""
+				"This &6Questbook&r has a very simple quest system. "
+				"In fact a &8quest&r by default does not require a &7&ldependancy&r so you can do it right now or later, up to you to decide."
+				""
+				"Has you can see, the majority of quests does need a &7&ldependancy&r. In order to unlock them, you can click on the &0&l&nGrey Arrow&r to list the needed &7&ldependancy&r or &7&ldependancies&r."
+			]
+			dependencies: ["5AA98A6A5E15905F"]
+			min_width: 250
 			id: "243F4EFC9D26092C"
 			tasks: [{
 				id: "264E7046950CF37A"
 				type: "checkmark"
-				title: "Quest"
+				title: "Quests"
 			}]
 		}
 		{
@@ -61,6 +106,7 @@
 				""
 				"Thanks to the community for participating and making different islands that you can find in the \"Community Islands\" folder !"
 			]
+			dependencies: ["5AA98A6A5E15905F"]
 			id: "024C04C97172D08D"
 			tasks: [{
 				id: "27D96D6880BAC10E"
@@ -83,6 +129,7 @@
 				""
 				"&3You can access the trinket GUI by pressing the R (by default) key on your keyboard. "
 			]
+			dependencies: ["5AA98A6A5E15905F"]
 			id: "769D409BA5258BBD"
 			tasks: [{
 				id: "3BF48E9C80FFE840"
