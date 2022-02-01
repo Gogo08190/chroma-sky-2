@@ -7,10 +7,120 @@
 	icon: "mana-and-artifice:guide_book"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 10.5d
+			y: 7.0d
+			width: 8.0d
+			height: 8.0d
+			rotation: 0.0d
+			image: "mana-and-artifice:textures/gui/affinity/fire.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 15.0d
+			y: 0.0d
+			width: 6.0d
+			height: 6.0d
+			rotation: 0.0d
+			image: "mana-and-artifice:textures/gui/affinity/earth.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 16.0d
+			y: -8.0d
+			width: 9.0d
+			height: 9.0d
+			rotation: 0.0d
+			image: "mana-and-artifice:textures/gui/affinity/ender.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.0d
+			y: -8.5d
+			width: 15.0d
+			height: 15.0d
+			rotation: 0.0d
+			image: "mana-and-artifice:textures/entity/rift.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.0d
+			y: -8.0d
+			width: 9.0d
+			height: 9.0d
+			rotation: 0.0d
+			image: "mana-and-artifice:textures/block/rituals/chalk_rune_a_active.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -7.0d
+			y: -4.5d
+			width: 9.0d
+			height: 9.0d
+			rotation: 0.0d
+			image: "mana-and-artifice:textures/block/rituals/chalk_rune_o.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			width: 9.0d
+			height: 9.0d
+			rotation: 45.0d
+			image: "mana-and-artifice:textures/block/rituals/chalk_rune_j_metal_active.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -7.5d
+			y: 5.0d
+			width: 9.0d
+			height: 9.0d
+			rotation: 0.0d
+			image: "mana-and-artifice:textures/block/rituals/chalk_rune_p_active.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			width: 9.0d
+			height: 9.0d
+			rotation: 0.0d
+			image: "mana-and-artifice:textures/gui/affinity/arcane.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
-			x: -3.5d
-			y: -0.5d
+			x: -1.5d
+			y: -2.5d
 			shape: "hexagon"
 			id: "49766DA502FA3CE3"
 			tasks: [{
@@ -241,8 +351,8 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: -3.0d
+			x: -1.5d
+			y: -6.5d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["4D65C663D6E33AD1"]
@@ -254,8 +364,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -5.5d
+			x: -1.0d
+			y: -7.5d
 			shape: "hexagon"
 			dependencies: ["528078ED845A9B6D"]
 			id: "2BDE562C12CC5DEB"
@@ -266,8 +376,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -3.0d
+			x: -2.5d
+			y: -7.0d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -289,8 +399,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -4.0d
+			x: -2.5d
+			y: -8.5d
 			shape: "hexagon"
 			dependencies: [
 				"52D71AEBD81BBA13"
@@ -310,8 +420,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -6.5d
+			x: -1.0d
+			y: -10.0d
 			shape: "hexagon"
 			dependencies: ["2BDE562C12CC5DEB"]
 			id: "5E72C0CD30B7B124"
@@ -322,8 +432,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 2.0d
+			x: 1.5d
+			y: 1.5d
 			shape: "hexagon"
 			dependencies: ["4D65C663D6E33AD1"]
 			id: "515EF3943ECD7DDB"
@@ -372,8 +482,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 1.5d
+			x: 2.5d
+			y: -0.5d
 			shape: "hexagon"
 			dependencies: ["4D65C663D6E33AD1"]
 			id: "02628A32D083A95D"
@@ -384,8 +494,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -2.0d
+			x: 1.5d
+			y: -2.5d
 			shape: "hexagon"
 			dependencies: ["4D65C663D6E33AD1"]
 			id: "4691A19BAFA54576"
@@ -408,8 +518,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -4.0d
+			x: -8.0d
+			y: -6.0d
 			shape: "hexagon"
 			dependencies: ["3CB541121BAD261F"]
 			id: "489D66AC806D8BF7"
@@ -420,8 +530,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -3.0d
+			x: -7.5d
+			y: -4.0d
 			shape: "hexagon"
 			dependencies: [
 				"44AF16FDCA3DFE4D"
@@ -435,8 +545,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -2.0d
+			x: -8.0d
+			y: -3.0d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["78F051756FD54991"]
@@ -448,8 +558,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -3.0d
+			x: -6.0d
+			y: -2.5d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["78F051756FD54991"]
@@ -461,8 +571,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -4.0d
+			x: -6.5d
+			y: -5.0d
 			shape: "hexagon"
 			dependencies: ["2A010874B1F1D042"]
 			id: "3CB541121BAD261F"
@@ -473,8 +583,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: -5.0d
+			x: -6.0d
+			y: -6.0d
 			shape: "hexagon"
 			dependencies: ["3CB541121BAD261F"]
 			id: "1C1C756C3EAC95D5"
@@ -485,8 +595,8 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: -2.0d
+			x: -7.0d
+			y: 3.5d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["1C1C756C3EAC95D5"]
@@ -498,8 +608,8 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: -1.0d
+			x: -7.5d
+			y: 5.25d
 			shape: "octagon"
 			dependencies: [
 				"650C8A3EAF99F7F6"
@@ -514,8 +624,8 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: 0.0d
+			x: -8.0d
+			y: 6.5d
 			shape: "hexagon"
 			dependencies: ["57AC8058D7F2828C"]
 			dependency_requirement: "all_started"
@@ -527,8 +637,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 1.5d
+			x: 6.0d
+			y: 2.5d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["02628A32D083A95D"]
@@ -541,8 +651,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 0.5d
+			x: 5.0d
+			y: 2.0d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["5549ED33FDF4AEAF"]
@@ -554,8 +664,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 2.5d
+			x: 3.0d
+			y: 4.0d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["02628A32D083A95D"]
@@ -573,8 +683,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 2.5d
+			x: 3.5d
+			y: 5.0d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["02628A32D083A95D"]
@@ -593,7 +703,7 @@
 		}
 		{
 			x: -2.5d
-			y: 0.5d
+			y: -0.5d
 			shape: "hexagon"
 			dependencies: ["4D65C663D6E33AD1"]
 			id: "32DA82CA3B2CB77E"
@@ -987,8 +1097,8 @@
 		}
 		{
 			title: "Mage Armor"
-			x: 2.5d
-			y: -10.0d
+			x: 3.5d
+			y: -11.0d
 			dependencies: ["751B41B7BA66644E"]
 			id: "4DDEB0A10FF382AB"
 			tasks: [
@@ -1148,6 +1258,20 @@
 			icon: "mana-and-artifice:mark_of_the_nether"
 			x: 9.5d
 			y: -8.5d
+			shape: "circle"
+			description: [
+				"One of the main part of mana and artifact is the faction. Each faction give specific abilities and item, for example the fey will give some peaceful spell and the Demon will give some destructive spell"
+				""
+				"To Join a Faction you will need to execute a specific ritual :"
+				""
+				"-Ritual of the Faerie Courts : Withthis Ritual you will join the &dFaerie faction&r , you will just need an extra &7air mote&r to trade with the fearie queen"
+				""
+				"-Ritual of the Cold Dark : You will join the &bUndead faction&r             &4&kr&r&4WARNING This faction is hard by joining him you will now burn in sunlight, and your mana is now your soul and it can be only regenerate by killing living thing&kr&r"
+				""
+				"-Ritual of the wizard's Council : You will now join the &5wizard faction&r"
+				""
+				"Ritual of the Burning Hells : You will be part of &4Santan Army&r you will just need an extra &6fire mote&r"
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"13EEC00E8C0E74D3"
@@ -1166,6 +1290,7 @@
 				"68C465D866121627"
 				"78EA346149E8ACCF"
 			]
+			min_width: 350
 			id: "1AF520BA592D90CD"
 			tasks: [{
 				id: "64FDA2DD085ECEA6"
@@ -1690,7 +1815,7 @@
 		{
 			title: "Faction Artifact"
 			x: 15.5d
-			y: -10.0d
+			y: -10.5d
 			description: [
 				"Eatch faction had thier one artifact, this are the artifact that you can craft at your level:"
 				""
@@ -1767,7 +1892,7 @@
 			}]
 		}
 		{
-			x: 18.0d
+			x: 18.5d
 			y: -8.0d
 			dependencies: ["4673AA05474E416E"]
 			id: "6A900FC819DAB9B1"
@@ -1778,7 +1903,7 @@
 			}]
 		}
 		{
-			x: 18.0d
+			x: 18.5d
 			y: -9.0d
 			dependencies: ["4673AA05474E416E"]
 			id: "1DC2F765C00E4442"
@@ -1789,7 +1914,7 @@
 			}]
 		}
 		{
-			x: 18.0d
+			x: 18.5d
 			y: -7.0d
 			dependencies: ["4673AA05474E416E"]
 			id: "384C55A1EB36E6F0"
@@ -1801,7 +1926,7 @@
 		}
 		{
 			x: 16.0d
-			y: -6.0d
+			y: -5.5d
 			dependencies: ["4673AA05474E416E"]
 			id: "0CFCC7DD8E6D3E07"
 			tasks: [{
@@ -1811,7 +1936,7 @@
 			}]
 		}
 		{
-			x: 17.0d
+			x: 17.5d
 			y: -6.0d
 			dependencies: ["4673AA05474E416E"]
 			id: "0C95E2F5431B2C7D"
@@ -1822,7 +1947,7 @@
 			}]
 		}
 		{
-			x: 15.0d
+			x: 14.5d
 			y: -6.0d
 			dependencies: ["4673AA05474E416E"]
 			id: "7A5170985B71FE8D"
@@ -1833,7 +1958,7 @@
 			}]
 		}
 		{
-			x: 14.0d
+			x: 13.5d
 			y: -9.0d
 			dependencies: ["4673AA05474E416E"]
 			id: "408F90A79774C6AC"
@@ -1844,7 +1969,7 @@
 			}]
 		}
 		{
-			x: 14.0d
+			x: 13.5d
 			y: -8.0d
 			dependencies: ["4673AA05474E416E"]
 			id: "4A778795D31679FB"
@@ -1855,7 +1980,7 @@
 			}]
 		}
 		{
-			x: 14.0d
+			x: 13.5d
 			y: -7.0d
 			dependencies: ["4673AA05474E416E"]
 			id: "7C4B633402B3C87D"
@@ -1867,7 +1992,7 @@
 		}
 		{
 			x: 16.5d
-			y: -10.0d
+			y: -10.5d
 			dependencies: ["4673AA05474E416E"]
 			id: "3F63BC271693C52D"
 			tasks: [{
@@ -1878,7 +2003,7 @@
 		}
 		{
 			x: 10.5d
-			y: 4.0d
+			y: 4.5d
 			dependencies: ["1896236FC7BEFF73"]
 			id: "14AE28056311492E"
 			tasks: [{
@@ -2737,8 +2862,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: 2.5d
+			x: 4.5d
+			y: 3.5d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: [

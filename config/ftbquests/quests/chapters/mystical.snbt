@@ -3701,7 +3701,7 @@
 				{
 					id: "5558266B34CDABE7"
 					type: "item"
-					item: "simplylight:illuminant_lime_block_on"
+					item: { id: "simplylight:illuminant_lime_block_on", Count: 3b }
 					count: 3L
 				}
 				{
@@ -3792,7 +3792,7 @@
 				{
 					id: "21A4535C2607783C"
 					type: "item"
-					item: "simplylight:illuminant_green_block_on"
+					item: { id: "simplylight:illuminant_green_block_on", Count: 3b }
 					count: 3L
 				}
 				{

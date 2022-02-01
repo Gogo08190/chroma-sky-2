@@ -8,6 +8,9 @@
 		id: "projecte:philosophers_stone"
 		Count: 1b
 		tag: { }
+		ForgeCaps: {
+			Parent: { }
+		}
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
