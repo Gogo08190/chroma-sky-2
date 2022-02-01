@@ -5,7 +5,7 @@
     "desc": "Official islands for Chroma Sky 2",
     "islands": [
       {
-        "name": "Hay look, an Island",
+        "name": "Main Island",
         "desc": "This is an island",
         "structure": "island.nbt",
         "image": "chromasky2:islands/screens/island.png"
@@ -33,55 +33,55 @@
         "name": "Farland Island",
         "desc": "by Ctrl_Juteau",
         "structure": "lostisland.nbt",
-        "image": "chromasky2:islands/screens/island.png"
+        "image": "chromasky2:islands/screens/lostisland.png"
       },
       {
         "name": "Lost City Island",
         "desc": "by Ctrl_Juteau",
         "structure": "lostcity.nbt",
-        "image": "chromasky2:islands/screens/island.png"
+        "image": "chromasky2:islands/screens/lostcity.png"
       },
       {
         "name": "Farland Island Multi ",
         "desc": "by Ctrl_Juteau",
         "structure": "lostisland2.nbt",
-        "image": "chromasky2:islands/screens/island.png"
+        "image": "chromasky2:islands/screens/lostislandm.png"
       },
       {
         "name": "Ploc Island",
         "desc": "by Ploc300",
         "structure": "ploc.nbt",
-        "image": "chromasky2:islands/screens/island.png"
+        "image": "chromasky2:islands/screens/ploc.png"
       },
       {
         "name": "The Kriksnem Island",
         "desc": "by Miniteck",
         "structure": "kriksnem.nbt",
-        "image": "chromasky2:islands/screens/island.png"
+        "image": "chromasky2:islands/screens/kriksnem.png"
       },
       {
         "name": "Abandoned Base Island",
         "desc": "by Iglee42",
         "structure": "abandoned.nbt",
-        "image": "chromasky2:islands/screens/island.png"
+        "image": "chromasky2:islands/screens/abandoned.png"
       },
       {
         "name": "Abandoned Door Island",
         "desc": "by Beua",
         "structure": "door.nbt",
-        "image": "chromasky2:islands/screens/island.png"
+        "image": "chromasky2:islands/screens/door.png"
       },
       {
         "name": "The Forklift Island",
         "desc": "by TheBloodShadow",
         "structure": "forklift.nbt",
-        "image": "chromasky2:islands/screens/island.png"
+        "image": "chromasky2:islands/screens/forklift.png"
       },
       {
         "name": "Breaking Bridge Island",
         "desc": "by Staniscraft",
         "structure": "voidbridge.nbt",
-        "image": "chromasky2:islands/screens/island.png"
+        "image": "chromasky2:islands/screens/voidbridge.png"
       }
     ]
   }
