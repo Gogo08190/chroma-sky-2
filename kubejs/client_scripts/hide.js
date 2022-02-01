@@ -108,6 +108,7 @@ events.listen('jei.hide.items', function (event) {
     'mekanism:ingot_tin',
     'immersiveengineering:dust_wood',
     'mekanism:sawdust',
+    'cyclic:hopper_gold',
     'bloodmagic:ironsand',
     'bloodmagic:goldsand',
     'bloodmagic:coalsand',

@@ -38,6 +38,7 @@ onEvent("recipes", (event) => {
   event.remove({output: 'projectex:personal_link'})
   event.remove({output: 'projectex:arcane_tablet'})
   event.remove({output: 'projectex:final_star'})
+  event.remove({output: 'cyclic:hopper_gold'})
   event.remove({output: 'cyclic:battery'})
   event.remove({output: 'buildersaddition:iron_rod'})
   event.remove({output: 'theabyss:auto_smelt_pick_axe'})
