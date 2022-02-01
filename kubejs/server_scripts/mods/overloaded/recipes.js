@@ -24,6 +24,17 @@ onEvent("recipes", (event) => {
       B: 'industrialforegoing:supreme_black_hole_unit'
     })
 
+    event.remove({ output: 'overloaded:infinite_water_source' })
+    event.shaped('overloaded:infinite_water_source', [
+    'WGW',
+    'GDG',
+    'GGG'
+    ], {
+      G: 'thermal:obsidian_glass',
+      D: 'thermal:diamond_gear',
+      W: 'thermal:device_water_gen'
+    })
+
     event.remove({ output: 'overloaded:fluid_core' })
     event.shaped('overloaded:fluid_core', [
     'SBS',

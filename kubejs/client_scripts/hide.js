@@ -151,6 +151,7 @@ events.listen('jei.hide.items', function (event) {
     'extendedcrafting:handheld_table',
     'masterfulmachinery:autoblood_blood_fluid_port_fluids_output',
     'mysticalagriculture:zinc_essence',
+    'mysticalagriculture:zinc_seeds',
     'masterfulmachinery:mysticfactory1_mystical_energy_port_energy_output',
     'masterfulmachinery:autoastral_autoastral_starlight_port_astral_starlight_output',
     'masterfulmachinery:mysticfactory2_mystical_energy_port_energy_output',
