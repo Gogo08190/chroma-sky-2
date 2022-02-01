@@ -91,6 +91,9 @@ onEvent('item.tags', event => {
     event.remove('forge:ores/sapphire', 'projectred-exploration:sapphire_ore')
     event.remove('forge:gems/ruby', 'projectred-core:ruby')
     event.remove('forge:gems/sapphire', 'projectred-core:sapphire')
+
+    event.remove('forge:slag', 'thermal:slag')
+    event.remove('forge:bitumen', 'thermal:bitumen')
   })
 
 onEvent('block.tags', event => {
@@ -161,6 +164,15 @@ onEvent('recipes', event => {
   event.replaceInput("miniutilities:ender_dust", "#forge:dusts/ender");
   event.replaceInput("thermal:ender_pearl_dust", "#forge:dusts/ender");
   event.replaceOutput("miniutilities:ender_dust", "thermal:ender_pearl_dust");
+
+  event.replaceInput("thermal:slag", "#forge:slag");
+  event.replaceInput("immersiveengineering:slag", "#forge:slag");
+  event.replaceOutput("thermal:slag", "immersiveengineering:slag");
+
+  event.replaceInput("thermal:bitumen", "#forge:bitumen");
+  event.replaceInput("immersivepetroleum:bitumen", "#forge:bitumen");
+  event.replaceOutput("thermal:bitumen", "immersivepetroleum:bitumen");
+
 });
 
 onEvent('recipes', event => {

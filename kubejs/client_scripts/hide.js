@@ -99,6 +99,8 @@ events.listen('jei.hide.items', function (event) {
     'mekanism:dust_emerald',
     'mekanism:dust_netherite',
     'mekanism:dust_quartz',
+    'thermal:slag',
+    'thermal:bitumen',
     'occultism:obsidian_dust',
     'mekanism:tin_ore',
     'mekanism:nugget_tin',
