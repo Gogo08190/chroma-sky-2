@@ -6,7 +6,7 @@ onEvent('recipes', event => {
         "altar_type": 3,
         "duration": 1200,
         "starlight": 6942,
-        "pattern": ["AAAAA","ARSRA","AGSGA","ARIRA","AAAAA"],
+        "pattern": ["AAAAA","ARSRA","AGIGA","ARSRA","AAAAA"],
         "key": {
           "A": {"item": "astralsorcery:black_marble_raw"},
           "R": {"item": "astralsorcery:resonating_gem"},
