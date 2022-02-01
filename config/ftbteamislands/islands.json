@@ -80,6 +80,7 @@
       {
         "name": "Abandoned Door Island - by Beua",
         "structure": "door.nbt",
+        "desc": "This is an island",
         "image": "chromasky2:islands/screens/island.png"
       }
     ]
