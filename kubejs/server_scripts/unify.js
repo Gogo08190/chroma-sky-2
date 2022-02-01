@@ -18,6 +18,7 @@ onEvent('item.tags', event => {
     event.remove('forge:ingots/bronze', 'mekanism:ingot_bronze')
     event.remove('forge:storage_blocks/bronze', 'mekanism:block_bronze')
     event.remove('forge:nuggets/bronze', 'mekanism:nugget_bronze')
+    event.remove('forge:dusts/bronze', 'mekanism:dust_bronze')
 
     event.remove('forge:ores/uranium', 'immersiveengineering:ore_uranium')
     event.remove('forge:ingots/uranium', 'immersiveengineering:ingot_uranium')
@@ -164,6 +165,10 @@ onEvent('recipes', event => {
   event.replaceInput("miniutilities:ender_dust", "#forge:dusts/ender");
   event.replaceInput("thermal:ender_pearl_dust", "#forge:dusts/ender");
   event.replaceOutput("miniutilities:ender_dust", "thermal:ender_pearl_dust");
+
+  event.replaceInput("mekanism:dust_bronze", "#forge:dusts");
+  event.replaceInput("mekanism:dust_bronze", "#forge:dusts");
+  event.replaceOutput("mekanism:dust_bronze", "thermal:bronze_dust");
 
   event.replaceInput("thermal:slag", "#forge:slag");
   event.replaceInput("immersiveengineering:slag", "#forge:slag");
