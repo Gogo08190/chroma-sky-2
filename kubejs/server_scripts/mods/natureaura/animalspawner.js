@@ -53,4 +53,41 @@ onEvent('recipes', event => {
       "aura": 50000,
       "time": 60
   })
+
+  event.custom({
+      "type": "naturesaura:animal_spawner",
+      "ingredients": [
+          {
+              "item": "naturesaura:birth_spirit"
+          },
+          {
+              "item": "minecraft:anvil"
+          },
+          {
+              "item": "cyclic:evoker_fang"
+          }
+      ],
+      "entity": "minecraft:evoker",
+      "aura": 50000,
+      "time": 60
+  })
+
+  event.custom({
+      "type": "naturesaura:animal_spawner",
+      "ingredients": [
+          {
+              "item": "naturesaura:birth_spirit"
+          },
+          {
+              "item": "minecraft:rotten_flesh"
+          },
+          {
+              "item": "minecraft:water_bucket"
+          }
+      ],
+      "entity": "minecraft:drowned",
+      "aura": 50000,
+      "time": 60
+  })
+
 });
