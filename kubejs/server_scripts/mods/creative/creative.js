@@ -114,156 +114,79 @@ onEvent("recipes", (event) => {
 
   event.custom(
     {
-      "type": "extendedcrafting:shapeless_table",
-      "ingredients": [
-        {
-          "item": "minecraft:wheat"
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDE",
+        "FGHIJ",
+        "KLMNK",
+        "OPQRS",
+        "ETCUA"
+      ],
+      "key": {
+        "A": {
+          "item": "rats:potato_kinishes"
         },
-        {
-          "item": "minecraft:carrot"
+        "B": {
+          "item": "minecraft:rabbit_stew"
         },
-        {
-          "item": "minecraft:potato"
+        "C": {
+          "item": "pamhc2foodcore:fruitsaladitem"
         },
-        {
-          "item": "minecraft:apple"
+        "D": {
+          "item": "nethers_delight:strider_moss_stew"
         },
-        {
-          "item": "minecraft:cactus"
+        "E": {
+          "item": "rats:confit_byaldi"
         },
-        {
-          "item": "minecraft:brown_mushroom"
+        "F": {
+          "item": "minecraft:mushroom_stew"
         },
-        {
-          "item": "minecraft:red_mushroom"
+        "G": {
+          "item": "farmersdelight:pumpkin_soup"
         },
-        {
-          "item": "pamhc2trees:cherryitem"
+        "H": {
+          "item": "pamhc2foodextended:tomatosoupitem"
         },
-        {
-          "item": "pamhc2trees:avocadoitem"
+        "I": {
+          "item": "farmersdelight:noodle_soup"
         },
-        {
-          "item": "pamhc2trees:candlenutitem"
+        "J": {
+          "item": "farmersdelight:baked_cod_stew"
         },
-        {
-          "item": "pamhc2trees:chestnutitem"
+        "K": {
+          "item": "pamhc2foodcore:gummybearsitem"
         },
-        {
-          "item": "pamhc2trees:gooseberryitem"
+        "L": {
+          "item": "pamhc2foodextended:peaandhamsoupitem"
         },
-        {
-          "item": "pamhc2trees:lemonitem"
-        },
-        {
-          "item": "pamhc2trees:nutmegitem"
-        },
-        {
-          "item": "pamhc2trees:orangeitem"
-        },
-        {
-          "item": "pamhc2trees:peachitem"
-        },
-        {
-          "item": "pamhc2trees:pearitem"
-        },
-        {
-          "item": "pamhc2trees:plumitem"
-        },
-        {
-          "item": "pamhc2trees:walnutitem"
-        },
-        {
-          "item": "pamhc2trees:hazelnutitem"
-        },
-        {
-          "item": "pamhc2trees:pawpawitem"
-        },
-        {
-          "item": "pamhc2trees:soursopitem"
-        },
-        {
-          "item": "pamhc2trees:almonditem"
-        },
-        {
-          "item": "pamhc2trees:apricotitem"
-        },
-        {
+        "M": {
           "item": "minecraft:cauldron"
         },
-        {
-          "item": "pamhc2trees:bananaitem"
+        "N": {
+          "item": "pamhc2foodextended:potatoandleeksoupitem"
         },
-        {
-          "item": "pamhc2trees:cashewitem"
+        "O": {
+          "item": "minecraft:beetroot_soup"
         },
-        {
-          "item": "pamhc2trees:cinnamonitem"
+        "P": {
+          "item": "thermal:xp_stew"
         },
-        {
-          "item": "pamhc2trees:coconutitem"
+        "Q": {
+          "item": "pamhc2foodextended:seedsoupitem"
         },
-        {
-          "item": "pamhc2trees:dateitem"
+        "R": {
+          "item": "thermal:hearty_stew"
         },
-        {
-          "item": "pamhc2trees:dragonfruititem"
+        "S": {
+          "item": "farmersdelight:fish_stew"
         },
-        {
-          "item": "pamhc2trees:durianitem"
+        "T": {
+          "item": "pamhc2foodcore:stewitem"
         },
-        {
-          "item": "pamhc2trees:figitem"
-        },
-        {
-          "item": "pamhc2trees:grapefruititem"
-        },
-        {
-          "item": "pamhc2trees:limeitem"
-        },
-        {
-          "item": "pamhc2trees:mangoitem"
-        },
-        {
-          "item": "pamhc2trees:oliveitem"
-        },
-        {
-          "item": "pamhc2trees:papayaitem"
-        },
-        {
-          "item": "pamhc2trees:pecanitem"
-        },
-        {
-          "item": "pamhc2trees:peppercornitem"
-        },
-        {
-          "item": "pamhc2trees:persimmonitem"
-        },
-        {
-          "item": "pamhc2trees:pistachioitem"
-        },
-        {
-          "item": "pamhc2trees:pomegranateitem"
-        },
-        {
-          "item": "pamhc2trees:starfruititem"
-        },
-        {
-          "item": "pamhc2trees:vanillabeanitem"
-        },
-        {
-          "item": "pamhc2trees:breadfruititem"
-        },
-        {
-          "item": "pamhc2trees:guavaitem"
-        },
-        {
-          "item": "pamhc2trees:jackfruititem"
-        },
-        {
-          "item": "pamhc2trees:lycheeitem"
+        "U": {
+          "item": "farmersdelight:beef_stew"
         }
-      ],
+      },
       "result": {
         "item": "2x chromasky:ultimate_stew"
       }
