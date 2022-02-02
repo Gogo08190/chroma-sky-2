@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Description here"
+            "text": "The $(#f00)Auto Iridescent Altar $()will allow$(br)you to automate the $(#b52727)Iridescent Altar.$()$(br)When using the $(#33f725)Item Ports$() you will be able to autocraft.$(br)Don't forget to put the $(#0970f7)Starlight Input Port$() !$(br)When a $(#9e11d6)Crystal$() is linked to the Starlight Input Port, it will be able to store starlight."
         },
         {
             "type": "patchouli:multiblock",

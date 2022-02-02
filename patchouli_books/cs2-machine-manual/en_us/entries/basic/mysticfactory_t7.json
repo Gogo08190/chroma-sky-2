@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Description here"
+            "text": "$(#f0f)The Mystical Factory Tier 1$() will allow you to transform essences to resources."
         },
         {
             "type": "patchouli:multiblock",
