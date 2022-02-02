@@ -1,6 +1,11 @@
 events.listen("recipes", (event) => {
     event.recipes.emojiful.emoji_recipe({
         category: "Chroma",
+        name: "chroma_sky_2",
+        url: "https://cdn.discordapp.com/emojis/938092679529644092.png",
+    });
+    event.recipes.emojiful.emoji_recipe({
+        category: "Chroma",
         name: "chroma_technology_2",
         url: "https://cdn.discordapp.com/emojis/856211906863562762.png",
     });
