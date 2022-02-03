@@ -28,6 +28,18 @@
 				type: "item"
 				item: "ftbsluice:pump"
 			}]
+			rewards: [
+				{
+					id: "1B98AC34CCCE3BA0"
+					type: "item"
+					item: "pamhc2foodcore:freshwateritem"
+				}
+				{
+					id: "18A35941713C81C5"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -42,6 +54,18 @@
 				type: "item"
 				item: "ftbsluice:iron_sluice"
 			}]
+			rewards: [
+				{
+					id: "0E365A39A2B8458E"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+				{
+					id: "6C06ACB75D5B522E"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -68,6 +92,19 @@
 				type: "item"
 				item: "ftbjarmod:tempered_jar"
 			}]
+			rewards: [
+				{
+					id: "0FB64E83D11FAB09"
+					type: "item"
+					item: "minecraft:coal"
+					count: 4
+				}
+				{
+					id: "1CD1B176F1BDF2CC"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 9.0d
@@ -81,6 +118,30 @@
 				id: "0636596C538435E2"
 				type: "item"
 				item: "ftbjarmod:jar"
+			}]
+			rewards: [{
+				id: "6F428C8C36830960"
+				type: "item"
+				title: "Cookies Jar"
+				item: {
+					id: "supplementaries:jar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Items: [{
+								Slot: 0b
+								id: "minecraft:cookie"
+								Count: 6b
+							}]
+							id: "supplementaries:jar"
+							FluidHolder: {
+								Count: 0
+								Fluid: "minecraft:empty"
+								CachedColor: 0
+							}
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -97,6 +158,11 @@
 				type: "item"
 				item: "ftbjarmod:auto_processing_block"
 			}]
+			rewards: [{
+				id: "61FC1522E0CFB0D6"
+				type: "item"
+				item: "quark:oak_chest"
+			}]
 		}
 		{
 			x: 7.0d
@@ -111,6 +177,19 @@
 				type: "item"
 				item: "ftbsluice:iron_mesh"
 			}]
+			rewards: [
+				{
+					id: "1DC2E597A24D2BC9"
+					type: "item"
+					item: "minecraft:iron_ore"
+					count: 4
+				}
+				{
+					id: "1DFD9EEDA49B8262"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 8.0d
@@ -122,6 +201,19 @@
 				type: "item"
 				item: "ftbsluice:gold_mesh"
 			}]
+			rewards: [
+				{
+					id: "69DFEDFD28F1B59B"
+					type: "item"
+					item: "minecraft:gold_ore"
+					count: 4
+				}
+				{
+					id: "491B8E020EA3A558"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 9.0d
@@ -133,6 +225,19 @@
 				type: "item"
 				item: "ftbsluice:diamond_mesh"
 			}]
+			rewards: [
+				{
+					id: "646A0320724612F5"
+					type: "item"
+					item: "minecraft:diamond_ore"
+					count: 4
+				}
+				{
+					id: "6588BBA6C191DEC4"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -170,6 +275,18 @@
 				type: "item"
 				item: "dimpaintings:nether_painting"
 			}]
+			rewards: [
+				{
+					id: "6E7C5AB12F8FE2B5"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+				{
+					id: "52A1B246DBFD4E1C"
+					type: "item"
+					item: "dimpaintings:overworld_painting"
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -179,6 +296,11 @@
 			id: "0BA2FBC41F80C847"
 			tasks: [{
 				id: "460BAF174FBC9BA8"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+			rewards: [{
+				id: "63DDFB8AEA9740E8"
 				type: "item"
 				item: "minecraft:lava_bucket"
 			}]
@@ -196,6 +318,24 @@
 				type: "item"
 				item: "ftbsluice:iron_auto_hammer"
 			}]
+			rewards: [
+				{
+					id: "0837D96B69AB0721"
+					type: "item"
+					item: {
+						id: "ftbsluice:iron_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "27CA7F07EEF108F5"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -207,6 +347,24 @@
 				type: "item"
 				item: "ftbsluice:gold_auto_hammer"
 			}]
+			rewards: [
+				{
+					id: "41E7E4D40BD9512E"
+					type: "item"
+					item: {
+						id: "ftbsluice:gold_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6BAE7EC1EF32E12F"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -218,6 +376,24 @@
 				type: "item"
 				item: "ftbsluice:diamond_auto_hammer"
 			}]
+			rewards: [
+				{
+					id: "74FDD95B9BDEB599"
+					type: "item"
+					item: {
+						id: "ftbsluice:diamond_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "50DA388F012FCDC4"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -229,6 +405,11 @@
 				id: "4D56D89167681FA6"
 				type: "item"
 				item: "cobblefordays:tier_1"
+			}]
+			rewards: [{
+				id: "37F80701ACE2A66C"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -245,6 +426,19 @@
 				type: "item"
 				item: "minecraft:obsidian"
 			}]
+			rewards: [
+				{
+					id: "2128E73DF9F0947F"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 4
+				}
+				{
+					id: "0EF9217FC2D02191"
+					type: "item"
+					item: "minecraft:crying_obsidian"
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -259,6 +453,12 @@
 				type: "item"
 				item: "minecraft:netherrack"
 			}]
+			rewards: [{
+				id: "05F0156186EF9EA6"
+				type: "item"
+				item: "minecraft:netherrack"
+				count: 8
+			}]
 		}
 		{
 			x: 6.0d
@@ -270,6 +470,18 @@
 				type: "item"
 				item: "ftbsluice:diamond_sluice"
 			}]
+			rewards: [
+				{
+					id: "51449DFD89429844"
+					type: "item"
+					item: "expandedstorage:wood_to_diamond_conversion_kit"
+				}
+				{
+					id: "1F6845253E7717E6"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -284,6 +496,12 @@
 				id: "7C1FF047929BC5B8"
 				type: "item"
 				item: "minecraft:basalt"
+			}]
+			rewards: [{
+				id: "45048ACC22C830DD"
+				type: "item"
+				item: "minecraft:basalt"
+				count: 8
 			}]
 		}
 		{
@@ -381,6 +599,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7FD0D5691855C87E"
+				type: "random"
+				table_id: 5340274419660823050L
+			}]
 		}
 		{
 			x: 5.5d
@@ -395,6 +618,12 @@
 				type: "item"
 				item: "minecraft:end_stone"
 			}]
+			rewards: [{
+				id: "072DE3CE8B41BAAD"
+				type: "item"
+				item: "minecraft:end_stone"
+				count: 8
+			}]
 		}
 		{
 			x: 2.5d
@@ -406,6 +635,11 @@
 				id: "7C73F4A316418FA1"
 				type: "item"
 				item: "cobblefordays:tier_3"
+			}]
+			rewards: [{
+				id: "38039ACD37D1223E"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -421,6 +655,11 @@
 				id: "4B14928865C5EA9E"
 				type: "item"
 				item: "cobblefordays:tier_4"
+			}]
+			rewards: [{
+				id: "5AC88CC9A3BDC0C3"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -455,6 +694,12 @@
 				item: "minecraft:clay_ball"
 				count: 16L
 			}]
+			rewards: [{
+				id: "4A8CD5F660DF8E2B"
+				type: "item"
+				item: "minecraft:clay_ball"
+				count: 16
+			}]
 		}
 		{
 			title: "Grout"
@@ -468,6 +713,18 @@
 				item: "tconstruct:grout"
 				count: 16L
 			}]
+			rewards: [
+				{
+					id: "2C14B8DC563D0CBF"
+					type: "item"
+					item: "chromasky:1x_compressed_sand"
+				}
+				{
+					id: "3EBFF06F7B1F7A57"
+					type: "item"
+					item: "chromasky:1x_compressed_gravel"
+				}
+			]
 		}
 		{
 			title: "Seared Brick"
@@ -483,6 +740,12 @@
 				item: "tconstruct:seared_brick"
 				count: 16L
 			}]
+			rewards: [{
+				id: "369FC20D8F6B3350"
+				type: "item"
+				item: "tconstruct:seared_brick"
+				count: 8
+			}]
 		}
 		{
 			x: 11.0d
@@ -493,6 +756,11 @@
 				id: "13548CAF5D07D470"
 				type: "item"
 				item: "recycler:recycler"
+			}]
+			rewards: [{
+				id: "4DBFD7F96E2A6DF4"
+				type: "item"
+				item: "minecraft:leather_horse_armor"
 			}]
 		}
 		{
@@ -505,6 +773,18 @@
 				type: "item"
 				item: "recycler:advanced_recycler"
 			}]
+			rewards: [
+				{
+					id: "7C76A389AF775A11"
+					type: "item"
+					item: "minecraft:music_disc_pigstep"
+				}
+				{
+					id: "06468FB7AE025DFE"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 	]
 }

@@ -25,6 +25,11 @@
 				type: "item"
 				item: "rftoolsbase:smartwrench"
 			}]
+			rewards: [{
+				id: "188CC1FECDD1EDC9"
+				type: "item"
+				item: "thermal:enderium_plate"
+			}]
 		}
 		{
 			x: 0.5d
@@ -39,11 +44,18 @@
 				type: "item"
 				item: "rftoolsbase:machine_frame"
 			}]
+			rewards: [{
+				id: "595F620230FD6419"
+				type: "item"
+				item: "rftoolsbase:machine_frame"
+			}]
 		}
 		{
 			title: "Rf with EnderPearls"
 			x: -1.5d
 			y: -1.0d
+			subtitle: "Endergenic Power Generation"
+			description: ["Throw an Ender Pearl at an Endergenic Generator at just the right moment and energy will be produced."]
 			dependencies: ["18345F991AFEEF63"]
 			id: "1703D0B715DED2EF"
 			tasks: [
@@ -68,6 +80,12 @@
 					item: "rftoolsutility:sequencer"
 				}
 			]
+			rewards: [{
+				id: "503C40137779F975"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 16
+			}]
 		}
 		{
 			title: "Crafters"
@@ -102,6 +120,11 @@
 					item: "rftoolsutility:crafter3"
 				}
 			]
+			rewards: [{
+				id: "69263E59C4737453"
+				type: "item"
+				item: "rftoolsutility:crafter3"
+			}]
 		}
 		{
 			title: "Storage"
@@ -151,6 +174,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "635FAC58F1A0CA90"
+				type: "item"
+				item: "rftoolsstorage:storage_module3"
+			}]
 		}
 		{
 			x: -4.5d
@@ -159,6 +187,11 @@
 			id: "3C9FE6987201F275"
 			tasks: [{
 				id: "73013BB97D732483"
+				type: "item"
+				item: "rftoolsbase:machine_base"
+			}]
+			rewards: [{
+				id: "7205865B298E224E"
 				type: "item"
 				item: "rftoolsbase:machine_base"
 			}]
@@ -201,6 +234,11 @@
 					item: "rftoolspower:power_level"
 				}
 			]
+			rewards: [{
+				id: "08A6AC06FBEB5E4B"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -6.5d
@@ -219,6 +257,11 @@
 					item: "rftoolsutility:screen"
 				}
 			]
+			rewards: [{
+				id: "094BAF9A8DE2DDBD"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Usefull Modules"
@@ -294,6 +337,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "02613CA227A900D6"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Shape Cards"
@@ -364,6 +413,11 @@
 					item: "rftoolsbuilder:shape_card_void"
 				}
 			]
+			rewards: [{
+				id: "7E65AB1EA503DA59"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_def"
+			}]
 		}
 		{
 			x: -2.0d
@@ -385,6 +439,11 @@
 				type: "item"
 				item: "rftoolsbuilder:builder"
 			}]
+			rewards: [{
+				id: "2E73F672F39EC923"
+				type: "item"
+				item: "expandedstorage:netherite_chest"
+			}]
 		}
 		{
 			x: -3.0d
@@ -397,6 +456,11 @@
 				id: "0F2FD6B35B1A8E0A"
 				type: "item"
 				item: "rftoolsbase:manual"
+			}]
+			rewards: [{
+				id: "492ED29847A8606E"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -413,6 +477,12 @@
 				id: "56A18B1A0CC37C87"
 				type: "item"
 				item: "rftoolsbase:dimensionalshard"
+			}]
+			rewards: [{
+				id: "04B9D911EBD9F714"
+				type: "item"
+				item: "rftoolsbase:dimensionalshard"
+				count: 4
 			}]
 		}
 		{
@@ -439,6 +509,12 @@
 					item: "rftoolsbase:infused_enderpearl"
 				}
 			]
+			rewards: [{
+				id: "6C0C08BF355C1CA8"
+				type: "item"
+				item: "rftoolsbase:dimensionalshard"
+				count: 4
+			}]
 		}
 		{
 			x: -7.0d
@@ -460,6 +536,11 @@
 				type: "item"
 				item: "rftoolsbase:machine_infuser"
 			}]
+			rewards: [{
+				id: "42CED671182C9716"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 0.5d
@@ -470,6 +551,11 @@
 				id: "1B2C5E00223429DF"
 				type: "item"
 				item: "rftoolspower:power_core1"
+			}]
+			rewards: [{
+				id: "3A78EF1EA149FCFA"
+				type: "item"
+				item: "minecraft:diamond"
 			}]
 		}
 		{
@@ -482,6 +568,11 @@
 				type: "item"
 				item: "rftoolspower:power_core2"
 			}]
+			rewards: [{
+				id: "167729784B7DAC63"
+				type: "item"
+				item: "rftoolsbase:dimensionalshard"
+			}]
 		}
 		{
 			x: -3.5d
@@ -493,6 +584,11 @@
 				type: "item"
 				item: "rftoolspower:power_core3"
 			}]
+			rewards: [{
+				id: "13208834E2C30BF8"
+				type: "item"
+				item: "rftoolsbase:dimensionalshard"
+			}]
 		}
 		{
 			x: 0.5d
@@ -502,6 +598,11 @@
 			id: "010428B4F1F3BF8B"
 			tasks: [{
 				id: "4892569F094E553C"
+				type: "item"
+				item: "rftoolspower:cell1"
+			}]
+			rewards: [{
+				id: "6CA4F68EE154A8E3"
 				type: "item"
 				item: "rftoolspower:cell1"
 			}]
@@ -519,6 +620,11 @@
 				type: "item"
 				item: "rftoolspower:cell2"
 			}]
+			rewards: [{
+				id: "11F28890F70A316E"
+				type: "item"
+				item: "rftoolspower:cell2"
+			}]
 		}
 		{
 			x: -3.5d
@@ -530,6 +636,11 @@
 			id: "7DE0BFEC6ABFA777"
 			tasks: [{
 				id: "0C7C4A4A9EAB1AD7"
+				type: "item"
+				item: "rftoolspower:cell3"
+			}]
+			rewards: [{
+				id: "1AA39C58F67E7BC7"
 				type: "item"
 				item: "rftoolspower:cell3"
 			}]
@@ -557,7 +668,7 @@
 				{
 					id: "65EBDD5A88EE481F"
 					type: "item"
-					item: "rftoolspower:dimensionalcell_advanced"
+					item: "rftoolspower:dimensionalcell_simple"
 				}
 				{
 					id: "7797046D1B3FDC9C"
@@ -565,14 +676,26 @@
 					item: "rftoolspower:dimensionalcell"
 				}
 				{
-					id: "543A161C7AF73772"
+					id: "43B528EE4BF301A6"
 					type: "item"
 					item: "rftoolspower:dimensionalcell_advanced"
 				}
 				{
-					id: "149836D9907F625E"
+					id: "19E98A64FA59E365"
 					type: "item"
 					item: "rftoolspower:powercell_card"
+				}
+			]
+			rewards: [
+				{
+					id: "317560A4F6072463"
+					type: "item"
+					item: "rftoolspower:powercell_card"
+				}
+				{
+					id: "7C3B8C13E9B005D6"
+					type: "random"
+					table_id: 7381842975596526002L
 				}
 			]
 		}
@@ -610,18 +733,12 @@
 					type: "item"
 					item: "rftoolsbase:tablet"
 				}
-				{
-					id: "72AD249F1A5FAB30"
-					type: "item"
-					item: {
-						id: "rftoolsutility:redstone_information"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
 			]
+			rewards: [{
+				id: "099A6CB3721D1EDE"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Spawner"
@@ -654,6 +771,19 @@
 					item: "rftoolsutility:syringe"
 				}
 			]
+			rewards: [{
+				id: "04761302C5BAC6BF"
+				type: "item"
+				item: {
+					id: "rftoolsutility:syringe"
+					Count: 1b
+					tag: {
+						mobName: "minecraft:evoker"
+						mobId: "minecraft:evoker"
+						level: 10
+					}
+				}
+			}]
 		}
 		{
 			title: "Shield"
@@ -693,6 +823,12 @@
 					item: "rftoolsbuilder:blue_shield_template_block"
 				}
 			]
+			rewards: [{
+				id: "6C4F5AD618D774C5"
+				type: "item"
+				item: "rftoolsbuilder:blue_shield_template_block"
+				count: 8
+			}]
 		}
 		{
 			x: 3.0d
@@ -709,6 +845,12 @@
 				id: "45BE9227E4ACB4A8"
 				type: "item"
 				item: "rftoolspower:blazing_agitator"
+			}]
+			rewards: [{
+				id: "0902339D2164F227"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 6
 			}]
 		}
 		{
@@ -729,6 +871,11 @@
 				type: "item"
 				item: "rftoolspower:blazing_infuser"
 			}]
+			rewards: [{
+				id: "2C523514CAB99F54"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 5.0d
@@ -745,6 +892,11 @@
 				id: "3C2E5326C000406B"
 				type: "item"
 				item: "rftoolspower:blazing_generator"
+			}]
+			rewards: [{
+				id: "2264E1EA896305B9"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -780,6 +932,11 @@
 					item: "rftoolsutility:simple_dialer"
 				}
 			]
+			rewards: [{
+				id: "429ABE8A7D0E866D"
+				type: "item"
+				item: "rftoolsutility:matter_receiver"
+			}]
 		}
 		{
 			x: 1.5d
@@ -810,6 +967,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "2B7370DF6D8CA7FD"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 9.0d
@@ -821,6 +983,11 @@
 			id: "2A641717D5114E2B"
 			tasks: [{
 				id: "57DC97964E750E9B"
+				type: "item"
+				item: "xnet:controller"
+			}]
+			rewards: [{
+				id: "1A1D5C19C2E60722"
 				type: "item"
 				item: "xnet:controller"
 			}]
@@ -843,6 +1010,11 @@
 				type: "item"
 				item: "xnet:router"
 			}]
+			rewards: [{
+				id: "09A7ECE4339607D9"
+				type: "item"
+				item: "xnet:router"
+			}]
 		}
 		{
 			x: 12.5d
@@ -855,6 +1027,11 @@
 				id: "1E6DDBBEB5C27529"
 				type: "item"
 				item: "xnet:wireless_router"
+			}]
+			rewards: [{
+				id: "7046552A7A18E81C"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -870,6 +1047,12 @@
 				item: "xnet:antenna_base"
 				count: 2L
 			}]
+			rewards: [{
+				id: "731C87F51CB64EDD"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: 13.0d
@@ -882,6 +1065,12 @@
 				id: "79BCCCA938BF0A25"
 				type: "item"
 				item: "xnet:antenna"
+			}]
+			rewards: [{
+				id: "15A6544804ED50FD"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -896,6 +1085,12 @@
 				type: "item"
 				item: "xnet:antenna_dish"
 			}]
+			rewards: [{
+				id: "25F5D422BF5C3C96"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: 9.5d
@@ -908,6 +1103,11 @@
 				type: "item"
 				item: "xnet:connector_routing"
 			}]
+			rewards: [{
+				id: "109B3899792CA44C"
+				type: "item"
+				item: "xnet:advanced_connector_routing"
+			}]
 		}
 		{
 			x: 10.0d
@@ -919,6 +1119,13 @@
 				id: "263D61B3197A32B1"
 				type: "item"
 				item: "xnet:netcable_routing"
+				count: 32L
+			}]
+			rewards: [{
+				id: "4DDBEC2B2BE697B7"
+				type: "item"
+				item: "xnet:netcable_routing"
+				count: 32
 			}]
 		}
 		{
@@ -931,6 +1138,13 @@
 				id: "636D7A51C0A5DCB1"
 				type: "item"
 				item: "xnet:netcable_blue"
+				count: 16L
+			}]
+			rewards: [{
+				id: "4422B3DF73B57A1C"
+				type: "item"
+				item: "xnet:netcable_blue"
+				count: 16
 			}]
 		}
 		{
@@ -944,6 +1158,11 @@
 				type: "item"
 				item: "xnet:connector_upgrade"
 			}]
+			rewards: [{
+				id: "0DC035D963AA1371"
+				type: "item"
+				item: "xnet:advanced_connector_blue"
+			}]
 		}
 		{
 			x: 8.5d
@@ -955,6 +1174,13 @@
 				id: "3E5C6E63956C05BC"
 				type: "item"
 				item: "xnet:facade"
+				count: 16L
+			}]
+			rewards: [{
+				id: "07B5933EA2B4C949"
+				type: "item"
+				item: "xnet:facade"
+				count: 16
 			}]
 		}
 		{
@@ -972,6 +1198,11 @@
 			id: "6D6553BAA36471D4"
 			tasks: [{
 				id: "1B7ECE7BC9163BF7"
+				type: "item"
+				item: "xnet:connector_blue"
+			}]
+			rewards: [{
+				id: "1B33261219335A8D"
 				type: "item"
 				item: "xnet:connector_blue"
 			}]

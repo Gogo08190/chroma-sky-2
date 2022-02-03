@@ -27,6 +27,11 @@
 				type: "item"
 				item: "industrialforegoing:machine_frame_pity"
 			}]
+			rewards: [{
+				id: "3246248E7A4A89C1"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
 		}
 		{
 			x: 0.0d
@@ -45,6 +50,11 @@
 				type: "item"
 				item: "industrialforegoing:machine_frame_simple"
 			}]
+			rewards: [{
+				id: "45D287C4876F0DC4"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
 		}
 		{
 			x: 5.0d
@@ -60,6 +70,11 @@
 			id: "330F7694A3CE7357"
 			tasks: [{
 				id: "08122DDD30E5CF26"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+			rewards: [{
+				id: "05015814502EE542"
 				type: "item"
 				item: "industrialforegoing:machine_frame_advanced"
 			}]
@@ -82,6 +97,11 @@
 				type: "item"
 				item: "industrialforegoing:machine_frame_supreme"
 			}]
+			rewards: [{
+				id: "48A790E05220AAAF"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
 		}
 		{
 			x: 10.0d
@@ -94,6 +114,11 @@
 				id: "13209C55B79EBCEE"
 				type: "item"
 				item: "industrialforegoing:wither_builder"
+			}]
+			rewards: [{
+				id: "701FF59F83B4C816"
+				type: "random"
+				table_id: 448858559994644628L
 			}]
 		}
 		{
@@ -108,6 +133,11 @@
 				type: "item"
 				item: "industrialforegoing:mycelial_meatallurgic"
 			}]
+			rewards: [{
+				id: "22127B28DFF8EE97"
+				type: "random"
+				table_id: 448858559994644628L
+			}]
 		}
 		{
 			x: 10.0d
@@ -119,6 +149,11 @@
 				id: "2E5FBC17377372D7"
 				type: "item"
 				item: "industrialforegoing:black_hole_controller"
+			}]
+			rewards: [{
+				id: "05DB98ABE057F26D"
+				type: "random"
+				table_id: 448858559994644628L
 			}]
 		}
 		{
@@ -133,6 +168,11 @@
 				type: "item"
 				item: "industrialforegoing:mycelial_halitosis"
 			}]
+			rewards: [{
+				id: "0D5939360C76D767"
+				type: "random"
+				table_id: 448858559994644628L
+			}]
 		}
 		{
 			x: 9.5d
@@ -145,6 +185,11 @@
 				id: "23E8F90A3BE398D6"
 				type: "item"
 				item: "industrialforegoing:supreme_black_hole_unit"
+			}]
+			rewards: [{
+				id: "37D9ED62B32AD76E"
+				type: "random"
+				table_id: 448858559994644628L
 			}]
 		}
 		{
@@ -159,6 +204,11 @@
 				type: "item"
 				item: "industrialforegoing:supreme_black_hole_tank"
 			}]
+			rewards: [{
+				id: "271B4DA7B87D066F"
+				type: "random"
+				table_id: 448858559994644628L
+			}]
 		}
 		{
 			x: 1.0d
@@ -171,6 +221,11 @@
 				id: "2128DE37DCFAF009"
 				type: "item"
 				item: "industrialforegoing:mycelial_netherstar"
+			}]
+			rewards: [{
+				id: "2892561783240DB5"
+				type: "loot"
+				table_id: 448858559994644628L
 			}]
 		}
 		{
@@ -185,6 +240,11 @@
 				type: "item"
 				item: "industrialforegoing:mob_crusher"
 			}]
+			rewards: [{
+				id: "576BB9952C2FCE7A"
+				type: "random"
+				table_id: 5339755484547212720L
+			}]
 		}
 		{
 			x: 5.0d
@@ -197,6 +257,11 @@
 				id: "673897047075C183"
 				type: "item"
 				item: "industrialforegoing:material_stonework_factory"
+			}]
+			rewards: [{
+				id: "2D338FE19A80B88A"
+				type: "random"
+				table_id: 5339755484547212720L
 			}]
 		}
 		{
@@ -211,6 +276,11 @@
 				type: "item"
 				item: "industrialforegoing:mycelial_rocket"
 			}]
+			rewards: [{
+				id: "3735428D740296F4"
+				type: "random"
+				table_id: 5339755484547212720L
+			}]
 		}
 		{
 			x: 2.0d
@@ -223,6 +293,11 @@
 				id: "13E278F085FDFE58"
 				type: "item"
 				item: "industrialforegoing:mycelial_potion"
+			}]
+			rewards: [{
+				id: "41A92944E3778013"
+				type: "random"
+				table_id: 5339755484547212720L
 			}]
 		}
 		{
@@ -237,6 +312,11 @@
 				type: "item"
 				item: "industrialforegoing:mycelial_slimey"
 			}]
+			rewards: [{
+				id: "201A05E6B81B29CC"
+				type: "random"
+				table_id: 5339755484547212720L
+			}]
 		}
 		{
 			x: 5.5d
@@ -249,6 +329,11 @@
 				id: "17E4CE51E0EFE782"
 				type: "item"
 				item: "industrialforegoing:ore_laser_base"
+			}]
+			rewards: [{
+				id: "7777D6B78A04B83A"
+				type: "random"
+				table_id: 5339755484547212720L
 			}]
 		}
 		{
@@ -263,6 +348,11 @@
 				type: "item"
 				item: "industrialforegoing:potion_brewer"
 			}]
+			rewards: [{
+				id: "404CAFE1FCD52F39"
+				type: "random"
+				table_id: 5339755484547212720L
+			}]
 		}
 		{
 			x: 5.0d
@@ -275,6 +365,11 @@
 				id: "6C0188D7380C796A"
 				type: "item"
 				item: "industrialforegoing:stasis_chamber"
+			}]
+			rewards: [{
+				id: "11AF0CDB6970E750"
+				type: "random"
+				table_id: 5339755484547212720L
 			}]
 		}
 		{
@@ -289,6 +384,11 @@
 				type: "item"
 				item: "industrialforegoing:washing_factory"
 			}]
+			rewards: [{
+				id: "0EFFCAAA0CB78CDF"
+				type: "random"
+				table_id: 5339755484547212720L
+			}]
 		}
 		{
 			x: 5.5d
@@ -301,6 +401,11 @@
 				id: "215B86982D51BD19"
 				type: "item"
 				item: "industrialforegoing:advanced_black_hole_tank"
+			}]
+			rewards: [{
+				id: "783C525EAAFD5E6F"
+				type: "random"
+				table_id: 5339755484547212720L
 			}]
 		}
 		{
@@ -315,6 +420,11 @@
 				type: "item"
 				item: "industrialforegoing:advanced_black_hole_unit"
 			}]
+			rewards: [{
+				id: "535D1138841A9A2D"
+				type: "random"
+				table_id: 5339755484547212720L
+			}]
 		}
 		{
 			x: 4.0d
@@ -327,6 +437,11 @@
 				id: "1522E3A061720D01"
 				type: "item"
 				item: "industrialforegoing:enchantment_applicator"
+			}]
+			rewards: [{
+				id: "2F647A36FAA3A750"
+				type: "random"
+				table_id: 5339755484547212720L
 			}]
 		}
 		{
@@ -341,6 +456,11 @@
 				type: "item"
 				item: "industrialforegoing:enchantment_extractor"
 			}]
+			rewards: [{
+				id: "3060D4D93C6D38AC"
+				type: "random"
+				table_id: 5339755484547212720L
+			}]
 		}
 		{
 			x: 4.5d
@@ -354,6 +474,11 @@
 				type: "item"
 				item: "industrialforegoing:enchantment_factory"
 			}]
+			rewards: [{
+				id: "0327E7DB03310120"
+				type: "random"
+				table_id: 5339755484547212720L
+			}]
 		}
 		{
 			x: 6.0d
@@ -366,6 +491,11 @@
 				id: "3EFE612EBA652943"
 				type: "item"
 				item: "industrialforegoing:enchantment_sorter"
+			}]
+			rewards: [{
+				id: "47650EC376863846"
+				type: "random"
+				table_id: 5339755484547212720L
 			}]
 		}
 		{
@@ -388,6 +518,11 @@
 				type: "item"
 				item: "industrialforegoing:fluid_laser_base"
 			}]
+			rewards: [{
+				id: "5FF15ABD974CEDCD"
+				type: "random"
+				table_id: 5339755484547212720L
+			}]
 		}
 		{
 			x: 4.0d
@@ -400,6 +535,11 @@
 				id: "410A028842C467BF"
 				type: "item"
 				item: "industrialforegoing:fluid_sieving_machine"
+			}]
+			rewards: [{
+				id: "26931ED4F65BA091"
+				type: "random"
+				table_id: 5339755484547212720L
 			}]
 		}
 		{
@@ -414,6 +554,11 @@
 				type: "item"
 				item: "industrialforegoing:infinity_charger"
 			}]
+			rewards: [{
+				id: "4B401A0AEB523DE3"
+				type: "random"
+				table_id: 5339755484547212720L
+			}]
 		}
 		{
 			x: 1.5d
@@ -426,6 +571,11 @@
 				id: "7BF6B26DA4189ACC"
 				type: "item"
 				item: "industrialforegoing:mycelial_magma"
+			}]
+			rewards: [{
+				id: "2D446DFAD8451826"
+				type: "random"
+				table_id: 5339755484547212720L
 			}]
 		}
 		{
@@ -440,6 +590,11 @@
 				type: "item"
 				item: "industrialforegoing:mycelial_explosive"
 			}]
+			rewards: [{
+				id: "723C3A5E46569C27"
+				type: "random"
+				table_id: 5339755484547212720L
+			}]
 		}
 		{
 			x: 3.5d
@@ -452,6 +607,11 @@
 				id: "7DDC0BA16B62D2B4"
 				type: "item"
 				item: "industrialforegoing:mycelial_ender"
+			}]
+			rewards: [{
+				id: "608EA1FDE3946626"
+				type: "random"
+				table_id: 5339755484547212720L
 			}]
 		}
 		{
@@ -466,6 +626,11 @@
 				type: "item"
 				item: "industrialforegoing:mycelial_disenchantment"
 			}]
+			rewards: [{
+				id: "5043C21DA1839CB0"
+				type: "random"
+				table_id: 5339755484547212720L
+			}]
 		}
 		{
 			x: 1.5d
@@ -479,6 +644,11 @@
 				type: "item"
 				item: "industrialforegoing:mycelial_death"
 			}]
+			rewards: [{
+				id: "4F0424E044732015"
+				type: "random"
+				table_id: 5339755484547212720L
+			}]
 		}
 		{
 			x: 3.0d
@@ -491,6 +661,11 @@
 				id: "1E67B2EBCB379662"
 				type: "item"
 				item: "industrialforegoing:mycelial_crimed"
+			}]
+			rewards: [{
+				id: "409AED608C423998"
+				type: "random"
+				table_id: 5339755484547212720L
 			}]
 		}
 		{
@@ -508,6 +683,11 @@
 				type: "item"
 				item: "industrialforegoing:mob_duplicator"
 			}]
+			rewards: [{
+				id: "0BE2E7F64CB19193"
+				type: "random"
+				table_id: 5339755484547212720L
+			}]
 		}
 		{
 			x: -0.5d
@@ -521,6 +701,11 @@
 				type: "item"
 				item: "industrialforegoing:plant_fertilizer"
 			}]
+			rewards: [{
+				id: "3D50927EEF227DA0"
+				type: "random"
+				table_id: 1349493084273925430L
+			}]
 		}
 		{
 			x: 1.0d
@@ -533,6 +718,11 @@
 				id: "60E0AACF0F50BB05"
 				type: "item"
 				item: "industrialforegoing:mycelial_furnace"
+			}]
+			rewards: [{
+				id: "184164856B618BB1"
+				type: "random"
+				table_id: 1349493084273925430L
 			}]
 		}
 		{
@@ -551,6 +741,11 @@
 				type: "item"
 				item: "industrialforegoing:hydroponic_bed"
 			}]
+			rewards: [{
+				id: "4D9021C578F298B5"
+				type: "random"
+				table_id: 1349493084273925430L
+			}]
 		}
 		{
 			x: -1.0d
@@ -563,6 +758,11 @@
 				id: "0F1B6FA52EB300C9"
 				type: "item"
 				item: "industrialforegoing:simple_black_hole_tank"
+			}]
+			rewards: [{
+				id: "1D500857F4DBDBC0"
+				type: "random"
+				table_id: 1349493084273925430L
 			}]
 		}
 		{
@@ -577,6 +777,11 @@
 				type: "item"
 				item: "industrialforegoing:mob_detector"
 			}]
+			rewards: [{
+				id: "3628ADE61C18ADA4"
+				type: "random"
+				table_id: 1349493084273925430L
+			}]
 		}
 		{
 			x: 2.5d
@@ -589,6 +794,11 @@
 				id: "7E64E95A5E73EC33"
 				type: "item"
 				item: "industrialforegoing:mycelial_pink"
+			}]
+			rewards: [{
+				id: "314D3926814DB7D9"
+				type: "random"
+				table_id: 1349493084273925430L
 			}]
 		}
 		{
@@ -603,6 +813,11 @@
 				type: "item"
 				item: "industrialforegoing:mycelial_frosty"
 			}]
+			rewards: [{
+				id: "6267F3DD4A87CE8C"
+				type: "random"
+				table_id: 1349493084273925430L
+			}]
 		}
 		{
 			x: 1.0d
@@ -615,6 +830,11 @@
 				id: "3945558BB67DFE32"
 				type: "item"
 				item: "industrialforegoing:simple_black_hole_unit"
+			}]
+			rewards: [{
+				id: "602E0C9474DC8E3D"
+				type: "random"
+				table_id: 1349493084273925430L
 			}]
 		}
 		{
@@ -629,6 +849,11 @@
 				type: "item"
 				item: "industrialforegoing:fermentation_station"
 			}]
+			rewards: [{
+				id: "3DA727E6C9F1BEDA"
+				type: "random"
+				table_id: 1349493084273925430L
+			}]
 		}
 		{
 			x: -1.5d
@@ -641,6 +866,11 @@
 				id: "7CB21479545E00A2"
 				type: "item"
 				item: "industrialforegoing:laser_drill"
+			}]
+			rewards: [{
+				id: "5A78DE9E9FB10908"
+				type: "random"
+				table_id: 1349493084273925430L
 			}]
 		}
 		{
@@ -655,6 +885,11 @@
 				type: "item"
 				item: "industrialforegoing:marine_fisher"
 			}]
+			rewards: [{
+				id: "37F2DB010C49D75A"
+				type: "random"
+				table_id: 1349493084273925430L
+			}]
 		}
 		{
 			x: 3.0d
@@ -668,6 +903,11 @@
 				type: "item"
 				item: "industrialforegoing:mycelial_culinary"
 			}]
+			rewards: [{
+				id: "2A63763438104323"
+				type: "random"
+				table_id: 1349493084273925430L
+			}]
 		}
 		{
 			x: -5.0d
@@ -680,6 +920,11 @@
 				id: "1D7F528921D81AAB"
 				type: "item"
 				item: "industrialforegoing:sewer"
+			}]
+			rewards: [{
+				id: "40B0544B8E7B637A"
+				type: "random"
+				table_id: 7669580165401868963L
 			}]
 		}
 		{
@@ -698,6 +943,11 @@
 				type: "item"
 				item: "industrialforegoing:sludge_refiner"
 			}]
+			rewards: [{
+				id: "3CFB7070EBE95C53"
+				type: "random"
+				table_id: 7669580165401868963L
+			}]
 		}
 		{
 			x: -4.5d
@@ -711,6 +961,11 @@
 				type: "item"
 				item: "industrialforegoing:plant_sower"
 			}]
+			rewards: [{
+				id: "395AE8036B91417F"
+				type: "random"
+				table_id: 7669580165401868963L
+			}]
 		}
 		{
 			x: -5.0d
@@ -723,6 +978,11 @@
 				id: "4F7606E1B6E9399C"
 				type: "item"
 				item: "industrialforegoing:plant_gatherer"
+			}]
+			rewards: [{
+				id: "4672734257570DD5"
+				type: "random"
+				table_id: 7669580165401868963L
 			}]
 		}
 		{
@@ -738,6 +998,11 @@
 				type: "item"
 				item: "industrialforegoing:pity_black_hole_unit"
 			}]
+			rewards: [{
+				id: "75148D91F36D22AC"
+				type: "random"
+				table_id: 7669580165401868963L
+			}]
 		}
 		{
 			x: -7.0d
@@ -751,6 +1016,11 @@
 				type: "item"
 				item: "industrialforegoing:pity_black_hole_tank"
 			}]
+			rewards: [{
+				id: "0422BD73627B74D9"
+				type: "random"
+				table_id: 7669580165401868963L
+			}]
 		}
 		{
 			x: -8.0d
@@ -763,6 +1033,11 @@
 				id: "1741BFE23400A0BA"
 				type: "item"
 				item: "industrialforegoing:pitiful_generator"
+			}]
+			rewards: [{
+				id: "2EC278D3A9ADA9B5"
+				type: "random"
+				table_id: 7669580165401868963L
 			}]
 		}
 		{
@@ -781,6 +1056,11 @@
 				type: "item"
 				item: "industrialforegoing:spores_recreator"
 			}]
+			rewards: [{
+				id: "7F19928337DB82F4"
+				type: "random"
+				table_id: 7669580165401868963L
+			}]
 		}
 		{
 			x: -4.5d
@@ -798,6 +1078,11 @@
 				type: "item"
 				item: "industrialforegoing:water_condensator"
 			}]
+			rewards: [{
+				id: "2570EA551697AF4A"
+				type: "random"
+				table_id: 7669580165401868963L
+			}]
 		}
 		{
 			x: -4.0d
@@ -810,6 +1095,11 @@
 				id: "442F465569563566"
 				type: "item"
 				item: "industrialforegoing:animal_feeder"
+			}]
+			rewards: [{
+				id: "38E2327D0A1B9663"
+				type: "random"
+				table_id: 7669580165401868963L
 			}]
 		}
 		{
@@ -824,6 +1114,11 @@
 				type: "item"
 				item: "industrialforegoing:block_placer"
 			}]
+			rewards: [{
+				id: "4736E99E73EB55FD"
+				type: "random"
+				table_id: 7669580165401868963L
+			}]
 		}
 		{
 			x: -6.0d
@@ -836,6 +1131,11 @@
 				id: "68C1F77B3DEDD82B"
 				type: "item"
 				item: "industrialforegoing:common_black_hole_unit"
+			}]
+			rewards: [{
+				id: "55D6BF56E664EDE7"
+				type: "random"
+				table_id: 7669580165401868963L
 			}]
 		}
 		{
@@ -850,6 +1150,11 @@
 				type: "item"
 				item: "industrialforegoing:common_black_hole_tank"
 			}]
+			rewards: [{
+				id: "29B2C8235EECE6F1"
+				type: "random"
+				table_id: 7669580165401868963L
+			}]
 		}
 		{
 			x: -4.0d
@@ -862,6 +1167,11 @@
 				id: "7E9C72B7CAF46340"
 				type: "item"
 				item: "industrialforegoing:block_breaker"
+			}]
+			rewards: [{
+				id: "1F866FB9C7063DBB"
+				type: "random"
+				table_id: 7669580165401868963L
 			}]
 		}
 		{
@@ -876,6 +1186,11 @@
 				type: "item"
 				item: "industrialforegoing:bioreactor"
 			}]
+			rewards: [{
+				id: "501BFDC0DC924F3F"
+				type: "random"
+				table_id: 7669580165401868963L
+			}]
 		}
 		{
 			x: -7.5d
@@ -888,6 +1203,11 @@
 				id: "3E9173EA8772E4F8"
 				type: "item"
 				item: "industrialforegoing:biofuel_generator"
+			}]
+			rewards: [{
+				id: "626CC5337AB8A801"
+				type: "random"
+				table_id: 7669580165401868963L
 			}]
 		}
 		{
@@ -902,6 +1222,11 @@
 				type: "item"
 				item: "industrialforegoing:animal_rancher"
 			}]
+			rewards: [{
+				id: "0F8AA58D013099E8"
+				type: "random"
+				table_id: 7669580165401868963L
+			}]
 		}
 		{
 			x: -7.0d
@@ -914,6 +1239,11 @@
 				id: "7B74C8966DF0467C"
 				type: "item"
 				item: "industrialforegoing:animal_baby_separator"
+			}]
+			rewards: [{
+				id: "73DD7EDE45440579"
+				type: "random"
+				table_id: 7669580165401868963L
 			}]
 		}
 		{
@@ -932,6 +1262,11 @@
 				type: "item"
 				item: "industrialforegoing:dissolution_chamber"
 			}]
+			rewards: [{
+				id: "2FB7833946AC5C36"
+				type: "random"
+				table_id: 7669580165401868963L
+			}]
 		}
 		{
 			x: -6.5d
@@ -944,6 +1279,11 @@
 				id: "74E6605EE3BA5246"
 				type: "item"
 				item: "industrialforegoing:dye_mixer"
+			}]
+			rewards: [{
+				id: "22E662EB5D699A51"
+				type: "random"
+				table_id: 7669580165401868963L
 			}]
 		}
 		{
@@ -958,6 +1298,11 @@
 				type: "item"
 				item: "industrialforegoing:fluid_collector"
 			}]
+			rewards: [{
+				id: "2DEE0F2973DE6F9C"
+				type: "random"
+				table_id: 7669580165401868963L
+			}]
 		}
 		{
 			x: -7.0d
@@ -970,6 +1315,11 @@
 				id: "7AC1126EAB26F55A"
 				type: "item"
 				item: "industrialforegoing:fluid_extractor"
+			}]
+			rewards: [{
+				id: "5389E61FC98B5C96"
+				type: "random"
+				table_id: 7669580165401868963L
 			}]
 		}
 		{
@@ -984,6 +1334,11 @@
 				type: "item"
 				item: "industrialforegoing:fluid_placer"
 			}]
+			rewards: [{
+				id: "5A66F927895EF412"
+				type: "random"
+				table_id: 7669580165401868963L
+			}]
 		}
 		{
 			x: -5.5d
@@ -996,6 +1351,11 @@
 				type: "item"
 				item: "industrialforegoing:fluid_transporter_type"
 			}]
+			rewards: [{
+				id: "7EB7DB64943F03D3"
+				type: "random"
+				table_id: 7669580165401868963L
+			}]
 		}
 		{
 			x: -6.5d
@@ -1007,6 +1367,11 @@
 				id: "1C2197B9AC162639"
 				type: "item"
 				item: "industrialforegoing:item_transporter_type"
+			}]
+			rewards: [{
+				id: "1ED7B85B735C30EA"
+				type: "random"
+				table_id: 7669580165401868963L
 			}]
 		}
 		{
@@ -1021,6 +1386,11 @@
 				type: "item"
 				item: "industrialforegoing:latex_processing_unit"
 			}]
+			rewards: [{
+				id: "6A640328319AAE87"
+				type: "random"
+				table_id: 7669580165401868963L
+			}]
 		}
 		{
 			x: -5.5d
@@ -1033,6 +1403,11 @@
 				id: "49AFC3B79D41E16E"
 				type: "item"
 				item: "industrialforegoing:mob_slaughter_factory"
+			}]
+			rewards: [{
+				id: "5BB82924258D1CFC"
+				type: "random"
+				table_id: 7669580165401868963L
 			}]
 		}
 		{
@@ -1051,6 +1426,11 @@
 				type: "item"
 				item: "industrialforegoing:resourceful_furnace"
 			}]
+			rewards: [{
+				id: "3B7D47E79AA01992"
+				type: "random"
+				table_id: 7669580165401868963L
+			}]
 		}
 		{
 			x: -8.0d
@@ -1063,6 +1443,11 @@
 				id: "6EE7E5E837738499"
 				type: "item"
 				item: "industrialforegoing:sewage_composter"
+			}]
+			rewards: [{
+				id: "3735E3AA77032EE5"
+				type: "random"
+				table_id: 7669580165401868963L
 			}]
 		}
 		{
@@ -1096,6 +1481,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "444E90E12D14AD21"
+					type: "item"
+					item: "thermal:gold_gear"
+				}
+				{
+					id: "566BBD23EFB717AF"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -1133,6 +1530,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "629C377050B26E57"
+					type: "item"
+					item: "thermal:gold_gear"
+				}
+				{
+					id: "36C97AC93802DAAC"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -1163,6 +1572,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "394D99585C8E0342"
+					type: "item"
+					item: "thermal:gold_gear"
+				}
+				{
+					id: "408742D676792A3F"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -1198,6 +1619,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "162501D48735B38D"
+					type: "item"
+					item: "thermal:gold_gear"
+				}
+				{
+					id: "6EE6D7533097DFC3"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -1225,6 +1658,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "33B8C84259F63FCC"
+					type: "item"
+					item: "thermal:gold_gear"
+				}
+				{
+					id: "6DF515F6E9976E7D"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			title: "Tiny Dry Rubber"
@@ -1243,6 +1688,11 @@
 				type: "item"
 				item: "industrialforegoing:tinydryrubber"
 			}]
+			rewards: [{
+				id: "57C16FCBDA21F10C"
+				type: "item"
+				item: "industrialforegoing:tinydryrubber"
+			}]
 		}
 		{
 			x: -7.0d
@@ -1255,6 +1705,11 @@
 				type: "item"
 				item: "industrialforegoing:dryrubber"
 			}]
+			rewards: [{
+				id: "7CB82AA2D16AA72D"
+				type: "item"
+				item: "industrialforegoing:dryrubber"
+			}]
 		}
 		{
 			x: -7.0d
@@ -1264,6 +1719,11 @@
 			id: "57196F75D8B2E56E"
 			tasks: [{
 				id: "7FBA1D5B3218003D"
+				type: "item"
+				item: "industrialforegoing:plastic"
+			}]
+			rewards: [{
+				id: "140E47EBE6D32F85"
 				type: "item"
 				item: "industrialforegoing:plastic"
 			}]
@@ -1285,6 +1745,11 @@
 				type: "item"
 				item: "industrialforegoing:mycelial_reactor"
 			}]
+			rewards: [{
+				id: "4F80F2A5E58A941D"
+				type: "random"
+				table_id: 448858559994644628L
+			}]
 		}
 		{
 			x: -4.5d
@@ -1301,6 +1766,11 @@
 				id: "4B82B736DFF8E55A"
 				type: "item"
 				item: "industrialforegoing:mechanical_dirt"
+			}]
+			rewards: [{
+				id: "456AAEA0ED6B00EF"
+				type: "random"
+				table_id: 7669580165401868963L
 			}]
 		}
 		{
@@ -1333,6 +1803,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "7F95072548C34ECD"
+					type: "item"
+					item: "thermal:gold_gear"
+				}
+				{
+					id: "61705419D9F750CB"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -6.0d
@@ -1345,6 +1827,11 @@
 				type: "item"
 				item: "industrialforegoing:world_transporter_type"
 			}]
+			rewards: [{
+				id: "0B933025F1C119E1"
+				type: "random"
+				table_id: 7669580165401868963L
+			}]
 		}
 		{
 			x: -7.0d
@@ -1355,6 +1842,11 @@
 			id: "160136E00BDB7DAF"
 			tasks: [{
 				id: "04FB0B6E6D216526"
+				type: "item"
+				item: "industrialforegoing:latex_bucket"
+			}]
+			rewards: [{
+				id: "11F6DE24C925F336"
 				type: "item"
 				item: "industrialforegoing:latex_bucket"
 			}]
@@ -1371,6 +1863,11 @@
 				type: "item"
 				item: "industrialforegoing:pink_slime"
 			}]
+			rewards: [{
+				id: "36708B2E93D781C0"
+				type: "item"
+				item: "industrialforegoing:pink_slime"
+			}]
 		}
 		{
 			x: -5.0d
@@ -1381,6 +1878,11 @@
 			id: "1CCB64CF9751C0B8"
 			tasks: [{
 				id: "716C295B408177F7"
+				type: "item"
+				item: "industrialforegoing:pink_slime_ingot"
+			}]
+			rewards: [{
+				id: "325E49D05191C061"
 				type: "item"
 				item: "industrialforegoing:pink_slime_ingot"
 			}]
@@ -1397,6 +1899,11 @@
 				type: "item"
 				item: "industrialforegoing:pink_slime_bucket"
 			}]
+			rewards: [{
+				id: "31FD7D239C6F8190"
+				type: "item"
+				item: "industrialforegoing:pink_slime_bucket"
+			}]
 		}
 		{
 			x: -6.5d
@@ -1407,6 +1914,11 @@
 			id: "072DB837B787A7B9"
 			tasks: [{
 				id: "76AEA7FB6662F2F1"
+				type: "item"
+				item: "industrialforegoing:mob_imprisonment_tool"
+			}]
+			rewards: [{
+				id: "62ACD1DF5991C1EE"
 				type: "item"
 				item: "industrialforegoing:mob_imprisonment_tool"
 			}]
@@ -1542,6 +2054,19 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7596EDCEBE8C739B"
+				type: "item"
+				item: {
+					id: "industrialforegoing:range_addon5"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Range: 5.0f
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 9.5d
@@ -1565,6 +2090,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "1E65B5902A19AA2C"
+				type: "item"
+				item: "thermal:gold_gear"
 			}]
 		}
 		{
@@ -1590,6 +2120,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7F058754298E0372"
+				type: "item"
+				item: "thermal:diamond_gear"
+			}]
 		}
 		{
 			x: 9.5d
@@ -1613,6 +2148,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "7B3214E7941BBBC5"
+				type: "item"
+				item: "thermal:gold_gear"
 			}]
 		}
 		{
@@ -1638,6 +2178,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1626179700F78073"
+				type: "item"
+				item: "thermal:diamond_gear"
+			}]
 		}
 		{
 			x: 9.5d
@@ -1661,6 +2206,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "5832069D9C71D27D"
+				type: "item"
+				item: "thermal:gold_gear"
 			}]
 		}
 		{
@@ -1686,6 +2236,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2B59F319D11A6150"
+				type: "item"
+				item: "thermal:diamond_gear"
+			}]
 		}
 		{
 			x: -5.5d
@@ -1704,6 +2259,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "38D65AF1FA8AEAFD"
+				type: "item"
+				item: "minecraft:book"
+			}]
 		}
 		{
 			title: "&bMechanic Core Tier 3"
@@ -1721,6 +2281,11 @@
 			id: "288DBA416FE2AA3C"
 			tasks: [{
 				id: "226F8E48442B9827"
+				type: "item"
+				item: "chromasky:mechanic_core_tier_3"
+			}]
+			rewards: [{
+				id: "2DE980C252617970"
 				type: "item"
 				item: "chromasky:mechanic_core_tier_3"
 			}]

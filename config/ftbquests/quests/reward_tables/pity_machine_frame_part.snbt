@@ -1,0 +1,12 @@
+{
+	id: "6A6FD2867728FAA3"
+	order_index: 10
+	title: "&aPity machine frame Part"
+	icon: "industrialforegoing:machine_frame_pity"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "immersiveengineering:treated_wood_horizontal" }
+		{ item: "mekanism:ingot_steel" }
+	]
+}

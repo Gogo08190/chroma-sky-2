@@ -1,0 +1,36 @@
+{
+	id: "6A50CEEDF7712066"
+	order_index: 7
+	title: "Mystical essence Tier 4"
+	icon: "mysticalagriculture:imperium_essence"
+	loot_size: 1
+	rewards: [
+		{ item: "mysticalagriculture:nickel_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:steel_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:enderman_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:ghast_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:experience_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:end_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:lapis_lazuli_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:gold_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:cobalt_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:rose_gold_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:osmium_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:fluorite_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:blaze_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:refined_obsidian_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:refined_glowstone_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:lumium_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:hop_graphite_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:blazing_crystal_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:energized_steel_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:starmetal_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:signalum_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:sapphire_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:ruby_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:uranium_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:invar_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:electrum_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:constantan_essence", count: 16, random_bonus: 4 }
+	]
+}

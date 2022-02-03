@@ -1,0 +1,299 @@
+{
+	id: "2C0CC2E5D2418137"
+	order_index: 16
+	title: "Singularity"
+	icon: "extendedcrafting:ultimate_singularity"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:uranium"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:tin"
+				}
+			}
+		}
+		{ item: "extendedcrafting:ultimate_singularity" }
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:steel"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:starmetal"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:spirited"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:silver"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:signalum"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:redstone"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:nitro"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:niotic"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:nickel"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:lumium"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:loran"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:lead"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:aluminum"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:blazing"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:bronze"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:castiron"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:coal"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:cobalt"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:copper"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:diamond"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:draconium"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:electrotine"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:electrum"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:emerald"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:enderium"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:energized"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:glowstone"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:invar"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:iron"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:lapis_lazuli"
+				}
+			}
+		}
+	]
+}

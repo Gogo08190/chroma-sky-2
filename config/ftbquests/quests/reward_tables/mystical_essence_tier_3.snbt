@@ -1,0 +1,34 @@
+{
+	id: "65801046CDFAECA4"
+	order_index: 6
+	title: "Mystical essence Tier 3"
+	icon: "mysticalagriculture:tertium_essence"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "mysticalagriculture:skeleton_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:zombie_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:prismarine_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:obsidian_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:redstone_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:glowstone_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:nether_quartz_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:iron_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:basalz_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:tinkers_bronze_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:slimesteel_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:pig_iron_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:ender_biotite_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:aquamarine_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:quartz_enriched_iron_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:blitz_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:blizz_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:lead_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:silver_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:creeper_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:bronze_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:tin_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:rabbit_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:spider_essence", count: 16, random_bonus: 4 }
+	]
+}

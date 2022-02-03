@@ -23,6 +23,11 @@
 				type: "item"
 				item: "thermal:machine_frame"
 			}]
+			rewards: [{
+				id: "6872D64A1B0A7273"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
 		}
 		{
 			x: 17.5d
@@ -38,6 +43,12 @@
 				type: "item"
 				item: "thermal:energy_cell_frame"
 			}]
+			rewards: [{
+				id: "4024332A485221D5"
+				type: "item"
+				item: "thermal:electrum_ingot"
+				count: 2
+			}]
 		}
 		{
 			x: 18.5d
@@ -52,6 +63,12 @@
 				id: "1EB7FB318E0D9BB9"
 				type: "item"
 				item: "thermal:fluid_cell_frame"
+			}]
+			rewards: [{
+				id: "4DF36AC01B3DC19F"
+				type: "item"
+				item: "thermal:bronze_ingot"
+				count: 2
 			}]
 		}
 		{
@@ -69,6 +86,11 @@
 				id: "6C29C78C9511A1D7"
 				type: "item"
 				item: "thermal:charge_bench"
+			}]
+			rewards: [{
+				id: "5A042ECDED616EBD"
+				type: "item"
+				item: "minecraft:redstone_block"
 			}]
 		}
 		{
@@ -96,6 +118,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "43B9B9336CC050ED"
+				type: "item"
+				item: "thermal:rf_coil"
 			}]
 		}
 		{
@@ -126,6 +153,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5B5BBF755A79A753"
+				type: "item"
+				item: "thermal:redstone_servo"
+			}]
 		}
 		{
 			x: 17.0d
@@ -138,6 +170,11 @@
 				id: "505B415F0E6325FB"
 				type: "item"
 				item: "thermal:device_hive_extractor"
+			}]
+			rewards: [{
+				id: "30EBE2629BE4F3B4"
+				type: "item"
+				item: "minecraft:beehive"
 			}]
 		}
 		{
@@ -154,6 +191,11 @@
 				id: "569D90883DEC932F"
 				type: "item"
 				item: "thermal:device_tree_extractor"
+			}]
+			rewards: [{
+				id: "2D1C00E27C740BDB"
+				type: "item"
+				item: "minecraft:jungle_sapling"
 			}]
 		}
 		{
@@ -183,6 +225,11 @@
 				type: "item"
 				item: "thermal:machine_refinery"
 			}]
+			rewards: [{
+				id: "6B4D877FC78F1F93"
+				type: "item"
+				item: "thermal:resin_bucket"
+			}]
 		}
 		{
 			x: 16.0d
@@ -195,6 +242,17 @@
 				id: "0F7D91FFE4949FAB"
 				type: "item"
 				item: "thermal:device_fisher"
+			}]
+			rewards: [{
+				id: "37CCAB775C93A09E"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -223,6 +281,11 @@
 				type: "item"
 				item: "thermal:device_water_gen"
 			}]
+			rewards: [{
+				id: "2B08144EF7D38F08"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
 		}
 		{
 			x: 21.5d
@@ -237,6 +300,11 @@
 				id: "3EAA2FEDFCB843A0"
 				type: "item"
 				item: "thermal:device_rock_gen"
+			}]
+			rewards: [{
+				id: "073483395B28CA6D"
+				type: "item"
+				item: "chromasky:1x_compressed_cobblestone"
 			}]
 		}
 		{
@@ -253,6 +321,11 @@
 				type: "item"
 				item: "thermal:device_collector"
 			}]
+			rewards: [{
+				id: "6DBFB3220DB0A1EE"
+				type: "item"
+				item: "minecraft:hopper"
+			}]
 		}
 		{
 			x: 15.0d
@@ -267,6 +340,12 @@
 				id: "175C8E49BD0F9E81"
 				type: "item"
 				item: "thermal:device_nullifier"
+			}]
+			rewards: [{
+				id: "5BDF732DD407E474"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 4
 			}]
 		}
 		{
@@ -283,6 +362,17 @@
 				type: "item"
 				item: "thermal:device_potion_diffuser"
 			}]
+			rewards: [{
+				id: "61A2E8E08044B7BE"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "apotheosis:long_resistance"
+					}
+				}
+			}]
 		}
 		{
 			x: 15.5d
@@ -298,6 +388,11 @@
 				type: "item"
 				item: "thermal:rf_coil"
 			}]
+			rewards: [{
+				id: "075410169199BF34"
+				type: "item"
+				item: "extendedcrafting:redstone_ingot"
+			}]
 		}
 		{
 			x: 20.5d
@@ -311,6 +406,11 @@
 				id: "0570C52EE8D0D36B"
 				type: "item"
 				item: "thermal:redstone_servo"
+			}]
+			rewards: [{
+				id: "2427EA57AE57ECE5"
+				type: "item"
+				item: "mekanism:ingot_steel"
 			}]
 		}
 		{
@@ -330,6 +430,11 @@
 				type: "item"
 				item: "thermal:machine_furnace"
 			}]
+			rewards: [{
+				id: "705ACC9A112D9978"
+				type: "item"
+				item: "minecraft:bricks"
+			}]
 		}
 		{
 			x: 13.0d
@@ -347,6 +452,12 @@
 				id: "29AC2DEF6E13F2DE"
 				type: "item"
 				item: "thermal:machine_sawmill"
+			}]
+			rewards: [{
+				id: "06754F9273F61C47"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 4
 			}]
 		}
 		{
@@ -366,6 +477,12 @@
 				type: "item"
 				item: "thermal:machine_pulverizer"
 			}]
+			rewards: [{
+				id: "23AFD3B7D54AE7D6"
+				type: "item"
+				item: "thermal:copper_dust"
+				count: 4
+			}]
 		}
 		{
 			x: 13.0d
@@ -383,6 +500,12 @@
 				id: "081A13549FAF8EBA"
 				type: "item"
 				item: "thermal:machine_smelter"
+			}]
+			rewards: [{
+				id: "06DF1ED0191922B0"
+				type: "item"
+				item: "thermal:obsidian_glass"
+				count: 2
 			}]
 		}
 		{
@@ -402,6 +525,12 @@
 				type: "item"
 				item: "thermal:machine_insolator"
 			}]
+			rewards: [{
+				id: "21E621DB7E33239B"
+				type: "item"
+				item: "thermal:phytogro"
+				count: 4
+			}]
 		}
 		{
 			x: 11.0d
@@ -419,6 +548,12 @@
 				id: "2EF095161D44190C"
 				type: "item"
 				item: "thermal:machine_centrifuge"
+			}]
+			rewards: [{
+				id: "55983643123500DB"
+				type: "item"
+				item: "thermal:bronze_dust"
+				count: 4
 			}]
 		}
 		{
@@ -438,6 +573,11 @@
 				type: "item"
 				item: "thermal:machine_press"
 			}]
+			rewards: [{
+				id: "2307928FE4781A56"
+				type: "item"
+				item: "thermal:gold_gear"
+			}]
 		}
 		{
 			x: 12.0d
@@ -456,6 +596,11 @@
 				type: "item"
 				item: "thermal:machine_crucible"
 			}]
+			rewards: [{
+				id: "12BF5EA80FD989AB"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
 		}
 		{
 			x: 12.0d
@@ -473,6 +618,11 @@
 				id: "1B0C245F95C29738"
 				type: "item"
 				item: "thermal:machine_chiller"
+			}]
+			rewards: [{
+				id: "7EEE19ACF3044DD5"
+				type: "item"
+				item: "tconstruct:molten_iron_bucket"
 			}]
 		}
 		{
@@ -519,6 +669,12 @@
 				type: "item"
 				item: "thermal:machine_pyrolyzer"
 			}]
+			rewards: [{
+				id: "6E13786BE545C3EE"
+				type: "item"
+				item: "thermal:cured_rubber"
+				count: 2
+			}]
 		}
 		{
 			x: 17.5d
@@ -555,6 +711,11 @@
 				type: "item"
 				item: "thermal:machine_crafter"
 			}]
+			rewards: [{
+				id: "5AD9D58ADE711F83"
+				type: "item"
+				item: "immersiveengineering:craftingtable"
+			}]
 		}
 		{
 			x: 12.0d
@@ -572,6 +733,12 @@
 				id: "147C6FDDD766C2FE"
 				type: "item"
 				item: "thermal:machine_bottler"
+			}]
+			rewards: [{
+				id: "5DABEC63582FEA58"
+				type: "item"
+				item: "minecraft:glass_bottle"
+				count: 4
 			}]
 		}
 		{
@@ -591,6 +758,11 @@
 				type: "item"
 				item: "thermal:machine_brewer"
 			}]
+			rewards: [{
+				id: "7F4E3FC4B3F20141"
+				type: "item"
+				item: "minecraft:ghast_tear"
+			}]
 		}
 		{
 			x: 23.0d
@@ -608,6 +780,11 @@
 				id: "14C60CFF45DCD2E3"
 				type: "item"
 				item: "thermal:dynamo_stirling"
+			}]
+			rewards: [{
+				id: "36492113F1CDFDB1"
+				type: "item"
+				item: "minecraft:coal"
 			}]
 		}
 		{
@@ -635,6 +812,11 @@
 				type: "item"
 				item: "thermal:dynamo_compression"
 			}]
+			rewards: [{
+				id: "10AFC2D95263855F"
+				type: "item"
+				item: "thermal:tree_oil_bucket"
+			}]
 		}
 		{
 			x: 22.5d
@@ -648,6 +830,11 @@
 				id: "745BD79BB4531364"
 				type: "item"
 				item: "thermal:dynamo_magmatic"
+			}]
+			rewards: [{
+				id: "1F4DF43968ECC6D2"
+				type: "item"
+				item: "minecraft:lava_bucket"
 			}]
 		}
 		{
@@ -667,6 +854,11 @@
 				type: "item"
 				item: "thermal:dynamo_numismatic"
 			}]
+			rewards: [{
+				id: "77ACBF614DA26356"
+				type: "item"
+				item: "thermal:electrum_coin"
+			}]
 		}
 		{
 			x: 25.5d
@@ -681,6 +873,11 @@
 				type: "item"
 				item: "thermal:dynamo_lapidary"
 			}]
+			rewards: [{
+				id: "35FA1A4E3BEC916A"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+			}]
 		}
 		{
 			x: 24.0d
@@ -693,6 +890,20 @@
 				type: "item"
 				item: "thermal:dynamo_disenchantment"
 			}]
+			rewards: [{
+				id: "2BE5B9032C056DCC"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:protection"
+						}]
+					}
+				}
+			}]
 		}
 		{
 			x: 25.0d
@@ -704,6 +915,11 @@
 				id: "06929A5053987B95"
 				type: "item"
 				item: "thermal:dynamo_gourmand"
+			}]
+			rewards: [{
+				id: "6B5793A193A363EB"
+				type: "item"
+				item: "thermal:spice_cake"
 			}]
 		}
 		{
@@ -721,6 +937,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "6D521523135B6A69"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 4
+			}]
 		}
 		{
 			x: 17.0d
@@ -735,6 +957,20 @@
 					id: "thermal:flux_drill"
 					Count: 1b
 					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "628A9C85E1C07DBB"
+				type: "item"
+				item: {
+					id: "immersiveengineering:drill"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 5
+							Items: [ ]
+						}
+					}
 				}
 			}]
 		}
@@ -753,6 +989,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "286594965403F501"
+				type: "item"
+				item: "minecraft:stonecutter"
+			}]
 		}
 		{
 			x: 19.0d
@@ -769,6 +1010,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "4ABDDC48715DAE8B"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 2
+			}]
 		}
 		{
 			x: 20.0d
@@ -784,6 +1031,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "4D4BE6150755C153"
+				type: "item"
+				item: "extendedcrafting:redstone_ingot"
 			}]
 		}
 		{
@@ -802,6 +1054,11 @@
 			id: "2E1A0AB49E83B283"
 			tasks: [{
 				id: "21BE7B22347C57AA"
+				type: "item"
+				item: "chromasky:mechanic_core_tier_2"
+			}]
+			rewards: [{
+				id: "37CFC0B9430F13E2"
 				type: "item"
 				item: "chromasky:mechanic_core_tier_2"
 			}]
@@ -824,6 +1081,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "604449CD4BADA1C2"
+				type: "item"
+				item: "minecraft:string"
+				count: 2
+			}]
 		}
 		{
 			x: 25.0d
@@ -842,6 +1105,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "7544B9644FA0FC84"
+				type: "item"
+				item: "minecraft:string"
+				count: 2
 			}]
 		}
 		{
@@ -862,6 +1131,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3A27AEFD4621940C"
+				type: "item"
+				item: "minecraft:string"
+				count: 2
+			}]
 		}
 		{
 			x: 25.0d
@@ -881,6 +1156,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "632765B4369338A7"
+				type: "item"
+				item: "minecraft:string"
+				count: 2
+			}]
 		}
 		{
 			x: 24.0d
@@ -898,6 +1179,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "2EC55A350E98AAE3"
+				type: "item"
+				item: "minecraft:honeycomb"
 			}]
 		}
 		{
@@ -917,6 +1203,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "71D240C9FA5E3702"
+				type: "item"
+				item: "minecraft:honeycomb"
+			}]
 		}
 		{
 			x: 24.0d
@@ -934,6 +1225,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "152B7C99B216502D"
+				type: "item"
+				item: "minecraft:honeycomb"
 			}]
 		}
 		{
@@ -953,6 +1249,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7A352BC3787A5CCA"
+				type: "item"
+				item: "minecraft:honeycomb"
+			}]
 		}
 		{
 			x: 23.0d
@@ -970,6 +1271,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "60FED3E136B1D61A"
+				type: "item"
+				item: "minecraft:sea_lantern"
 			}]
 		}
 		{
@@ -989,6 +1295,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3760B03833B3F7A2"
+				type: "item"
+				item: "minecraft:sea_lantern"
+			}]
 		}
 		{
 			x: 23.0d
@@ -1007,6 +1318,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7A1EB4889D7E105A"
+				type: "item"
+				item: "minecraft:sea_lantern"
+			}]
 		}
 		{
 			x: 23.0d
@@ -1024,6 +1340,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "17A755AB16069BA6"
+				type: "item"
+				item: "minecraft:sea_lantern"
 			}]
 		}
 		{
@@ -1045,6 +1366,11 @@
 				type: "item"
 				item: "chromasky:excitationcoil"
 			}]
+			rewards: [{
+				id: "5B066606EE7C6B5C"
+				type: "item"
+				item: "chromasky:excitationcoil"
+			}]
 		}
 		{
 			x: 11.5d
@@ -1059,6 +1385,11 @@
 				type: "item"
 				item: "thermal:upgrade_augment_1"
 			}]
+			rewards: [{
+				id: "032F7751B2013998"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 12.5d
@@ -1072,6 +1403,19 @@
 				type: "item"
 				item: "thermal:upgrade_augment_2"
 			}]
+			rewards: [
+				{
+					id: "35417E142B8DA0E1"
+					type: "item"
+					item: "thermal:lumium_ingot"
+					count: 2
+				}
+				{
+					id: "4F680217351D75F8"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 12.0d
@@ -1084,6 +1428,11 @@
 				id: "1A98D0587118D89F"
 				type: "item"
 				item: "thermal:upgrade_augment_3"
+			}]
+			rewards: [{
+				id: "14BAB49F51CE0C70"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1098,6 +1447,11 @@
 				type: "item"
 				item: "thermal:machine_efficiency_augment"
 			}]
+			rewards: [{
+				id: "29B5CD1F2956D5DE"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 12.0d
@@ -1110,6 +1464,11 @@
 				id: "47FDB0C588F27966"
 				type: "item"
 				item: "thermal:machine_output_augment"
+			}]
+			rewards: [{
+				id: "233E5CAEF28E955A"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1124,6 +1483,11 @@
 				type: "item"
 				item: "thermal:machine_catalyst_augment"
 			}]
+			rewards: [{
+				id: "104212756BB9140F"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 13.0d
@@ -1136,6 +1500,11 @@
 				id: "5580CDD0A9566608"
 				type: "item"
 				item: "thermal:dynamo_output_augment"
+			}]
+			rewards: [{
+				id: "03BEC9AD8470F179"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1150,6 +1519,11 @@
 				type: "item"
 				item: "thermal:machine_cycle_augment"
 			}]
+			rewards: [{
+				id: "27BA33A5FF06085F"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 12.0d
@@ -1162,6 +1536,11 @@
 				id: "5D16674B6A14060B"
 				type: "item"
 				item: "thermal:potion_amplifier_augment"
+			}]
+			rewards: [{
+				id: "07D672B07DAC8059"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1176,6 +1555,11 @@
 				type: "item"
 				item: "thermal:potion_duration_augment"
 			}]
+			rewards: [{
+				id: "6F5515A9E5E492EE"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 12.0d
@@ -1188,6 +1572,11 @@
 				id: "0E0BAB447CF19D05"
 				type: "item"
 				item: "thermal:area_radius_augment"
+			}]
+			rewards: [{
+				id: "56937F5269C5A3C7"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1202,6 +1591,11 @@
 				type: "item"
 				item: "thermal:dynamo_fuel_augment"
 			}]
+			rewards: [{
+				id: "67523D434DF29168"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 12.5d
@@ -1214,6 +1608,11 @@
 				id: "3B87872D8B6EB35E"
 				type: "item"
 				item: "thermal:rf_coil_augment"
+			}]
+			rewards: [{
+				id: "666A6DC3B8A3F9BC"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1228,6 +1627,11 @@
 				type: "item"
 				item: "thermal:rf_coil_storage_augment"
 			}]
+			rewards: [{
+				id: "3AA526EE2AC6CD88"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 13.0d
@@ -1240,6 +1644,11 @@
 				id: "320681005B330885"
 				type: "item"
 				item: "thermal:fluid_tank_augment"
+			}]
+			rewards: [{
+				id: "35027B4FA830D2C6"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1254,6 +1663,11 @@
 				type: "item"
 				item: "thermal:rf_coil_xfer_augment"
 			}]
+			rewards: [{
+				id: "1395BF3D1FC477AE"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 11.0d
@@ -1266,6 +1680,11 @@
 				id: "6D5BAEC718286A5C"
 				type: "item"
 				item: "thermal:machine_speed_augment"
+			}]
+			rewards: [{
+				id: "118855B60AC37DC3"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1280,6 +1699,11 @@
 				type: "item"
 				item: "thermal:item_filter_augment"
 			}]
+			rewards: [{
+				id: "0E8BCB2710D3412A"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 10.5d
@@ -1292,6 +1716,11 @@
 				id: "50A76C3B50B29CF9"
 				type: "item"
 				item: "thermal:xp_storage_augment"
+			}]
+			rewards: [{
+				id: "7433EE4DC0AC49CC"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1313,6 +1742,12 @@
 				type: "item"
 				item: "thermal:wrench"
 			}]
+			rewards: [{
+				id: "1E0E161A6F4D53D9"
+				type: "item"
+				item: "chromasky:iron_cluster"
+				count: 4
+			}]
 		}
 		{
 			x: 12.0d
@@ -1326,6 +1761,11 @@
 				id: "2F17CE9FE6B020D1"
 				type: "item"
 				item: "cobblefordays:tier_5"
+			}]
+			rewards: [{
+				id: "7D9DA7957A4F11CE"
+				type: "item"
+				item: "chromasky:3x_compressed_cobblestone"
 			}]
 		}
 	]

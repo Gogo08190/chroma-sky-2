@@ -1,0 +1,22 @@
+{
+	id: "2D24EE6E87E5D008"
+	order_index: 9
+	title: "Mystical essence Tier 5"
+	icon: "mysticalagriculture:supremium_essence"
+	loot_size: 1
+	rewards: [
+		{ item: "mysticalagriculture:rock_crystal_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:hepatizon_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:queens_slime_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:manyullyn_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:enderium_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:wither_skeleton_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:netherite_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:emerald_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:diamond_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:draconium_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:niotic_crystal_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:uraninite_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:spirited_crystal_essence", count: 16, random_bonus: 4 }
+	]
+}

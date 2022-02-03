@@ -18,6 +18,12 @@
 				type: "item"
 				item: "integrateddynamics:menril_sapling"
 			}]
+			rewards: [{
+				id: "5552B55A709BD347"
+				type: "item"
+				item: "integrateddynamics:menril_torch"
+				count: 8
+			}]
 		}
 		{
 			x: 7.0d
@@ -34,6 +40,12 @@
 				type: "item"
 				item: "integrateddynamics:crystalized_menril_block"
 			}]
+			rewards: [{
+				id: "1151DB401A2693E0"
+				type: "item"
+				item: "integrateddynamics:crystalized_menril_block"
+				count: 2
+			}]
 		}
 		{
 			x: 7.5d
@@ -45,6 +57,12 @@
 				type: "item"
 				item: "integrateddynamics:cable"
 				count: 16L
+			}]
+			rewards: [{
+				id: "21AF9EEAD4B68716"
+				type: "item"
+				item: "integrateddynamics:cable"
+				count: 16
 			}]
 		}
 		{
@@ -71,6 +89,11 @@
 					item: "integrateddynamics:part_machine_reader"
 				}
 			]
+			rewards: [{
+				id: "490F0E9A259CA93E"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Reading other things"
@@ -91,6 +114,11 @@
 					item: "integrateddynamics:part_world_reader"
 				}
 			]
+			rewards: [{
+				id: "5AF47E195AAA0FA6"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Redstone logic"
@@ -111,6 +139,11 @@
 					item: "integrateddynamics:part_redstone_writer"
 				}
 			]
+			rewards: [{
+				id: "5202358C0E9A81DD"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 2.0d
@@ -134,6 +167,11 @@
 				type: "item"
 				item: "integratedcrafting:part_interface_crafting"
 			}]
+			rewards: [{
+				id: "614DF6D9D9B6744E"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 3.0d
@@ -145,6 +183,11 @@
 				id: "1EEDC9831A69C44C"
 				type: "item"
 				item: "integratedcrafting:part_crafting_writer"
+			}]
+			rewards: [{
+				id: "59FE5609B2295F4F"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -162,6 +205,11 @@
 				id: "718188D0D15AD21F"
 				type: "item"
 				item: "integratedterminals:part_terminal_crafting_job"
+			}]
+			rewards: [{
+				id: "0DC11A630A490067"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -188,6 +236,11 @@
 					item: "integratedtunnels:part_exporter_energy"
 				}
 			]
+			rewards: [{
+				id: "4A473A49724258C1"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Energy in the world"
@@ -210,6 +263,11 @@
 					item: "integratedtunnels:part_exporter_world_energy"
 				}
 			]
+			rewards: [{
+				id: "04CF0521F3F7ACCF"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Fluid logistics"
@@ -235,6 +293,11 @@
 					item: "integratedtunnels:part_exporter_fluid"
 				}
 			]
+			rewards: [{
+				id: "486A02A8FD79558D"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Fluid in the world"
@@ -257,6 +320,11 @@
 					item: "integratedtunnels:part_exporter_world_fluid"
 				}
 			]
+			rewards: [{
+				id: "46F5D0DB41C85F97"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Item logistics"
@@ -282,6 +350,11 @@
 					item: "integratedtunnels:part_exporter_item"
 				}
 			]
+			rewards: [{
+				id: "75D856F8856EF570"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Item in the world"
@@ -304,6 +377,11 @@
 					item: "integratedtunnels:part_exporter_world_item"
 				}
 			]
+			rewards: [{
+				id: "20464C32744818FC"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 2.5d
@@ -321,6 +399,11 @@
 				type: "item"
 				item: "integratedterminals:part_terminal_storage"
 			}]
+			rewards: [{
+				id: "1076B5B327DF3A97"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 3.5d
@@ -331,6 +414,11 @@
 				id: "4D76250025748EB7"
 				type: "item"
 				item: "integratedterminals:terminal_storage_portable"
+			}]
+			rewards: [{
+				id: "002CA84E5354F057"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -343,6 +431,11 @@
 				id: "459F99CE5498379C"
 				type: "item"
 				item: "integrateddynamics:portable_logic_programmer"
+			}]
+			rewards: [{
+				id: "1E966C9E86ECD677"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -360,6 +453,11 @@
 				type: "item"
 				item: "integrateddynamics:part_connector_mono_directional"
 			}]
+			rewards: [{
+				id: "124A95561EC5D047"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 2.5d
@@ -372,6 +470,11 @@
 				id: "1A45A387E6A264BD"
 				type: "item"
 				item: "integrateddynamics:part_connector_omni_directional"
+			}]
+			rewards: [{
+				id: "6EE6549DD18AA794"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -386,6 +489,11 @@
 				advancement: "integrateddynamics:advanced_operations/what_would_i_be_looking_at"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "4AB9EBB001015281"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 12.0d
@@ -398,6 +506,11 @@
 				type: "advancement"
 				advancement: "integratedterminals:storage_terminal_filtering/filter_enchantable"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "2651F58F1D80DC6C"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -412,6 +525,11 @@
 				advancement: "integrateddynamics:challenges/tool_for_obsidian"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "1627DCE9C1D0446A"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 12.0d
@@ -425,6 +543,11 @@
 				advancement: "integratedcrafting:autocrafting_trigger/craft_planks"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "07DD5B57107AEB56"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 12.0d
@@ -437,6 +560,11 @@
 				type: "advancement"
 				advancement: "integrateddynamics:challenges/sponge_step_sound"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "5A6C9C65E512EA08"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -454,6 +582,11 @@
 				advancement: "integrateddynamics:challenges/smart_pressure_plate"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "47981D2D03ADCC6B"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 11.0d
@@ -467,6 +600,11 @@
 				advancement: "integratedtunnels:break_stone/break_stone"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "0AD320247D94977A"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 12.0d
@@ -479,6 +617,11 @@
 				type: "advancement"
 				advancement: "integratedtunnels:click_sword/click_sword"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "77D072394FB35CAB"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -499,6 +642,11 @@
 				type: "item"
 				item: "integrateddynamics:drying_basin"
 			}]
+			rewards: [{
+				id: "6D8576DCB0DCEAF5"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 8.5d
@@ -514,6 +662,11 @@
 				id: "6B4A2B2E18DFEA81"
 				type: "item"
 				item: "integrateddynamics:mechanical_drying_basin"
+			}]
+			rewards: [{
+				id: "65FA780302B8D60C"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -534,6 +687,11 @@
 				type: "item"
 				item: "integrateddynamics:mechanical_squeezer"
 			}]
+			rewards: [{
+				id: "1C7CC632ACB9B7E2"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 8.0d
@@ -549,6 +707,11 @@
 				type: "item"
 				item: "integratedterminals:menril_glass"
 			}]
+			rewards: [{
+				id: "4AB0D00F4793E3BC"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 8.5d
@@ -561,6 +724,12 @@
 				type: "item"
 				item: "integrateddynamics:crystalized_chorus_block"
 			}]
+			rewards: [{
+				id: "595D0AB9317973A2"
+				type: "item"
+				item: "integrateddynamics:crystalized_chorus_block"
+				count: 4
+			}]
 		}
 		{
 			x: 6.5d
@@ -572,6 +741,12 @@
 				id: "71DF2FF030864DD1"
 				type: "item"
 				item: "integratedterminals:chorus_glass"
+			}]
+			rewards: [{
+				id: "26984BEE91279C2F"
+				type: "item"
+				item: "integratedterminals:chorus_glass"
+				count: 2
 			}]
 		}
 		{
@@ -588,6 +763,11 @@
 				type: "item"
 				item: "integrateddynamics:logic_director"
 			}]
+			rewards: [{
+				id: "29A8374150130755"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 7.5d
@@ -599,6 +779,12 @@
 				id: "6AF8FB0B9298B0DD"
 				type: "item"
 				item: "integrateddynamics:crystalized_chorus_chunk"
+			}]
+			rewards: [{
+				id: "41573B27400A29AB"
+				type: "item"
+				item: "integrateddynamics:crystalized_chorus_chunk"
+				count: 4
 			}]
 		}
 		{
@@ -617,6 +803,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3094533EA9ED10B6"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 8.0d
@@ -627,6 +818,12 @@
 				id: "63D5AA5503ABA102"
 				type: "item"
 				item: "integrateddynamics:coal_generator"
+			}]
+			rewards: [{
+				id: "4B6F563334BFA6D3"
+				type: "item"
+				item: "minecraft:coal"
+				count: 8
 			}]
 		}
 		{
@@ -646,6 +843,11 @@
 				id: "5B59E09ABE0527C8"
 				type: "item"
 				item: "integrateddynamics:squeezer"
+			}]
+			rewards: [{
+				id: "5394ECB84461B4CA"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{

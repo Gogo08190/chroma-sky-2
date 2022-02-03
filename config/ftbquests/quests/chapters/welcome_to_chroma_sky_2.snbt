@@ -29,13 +29,64 @@
 				type: "checkmark"
 				title: "&bWelcome To Chroma Sky 2"
 			}]
-			rewards: [{
-				id: "78FAC8001BA0C5C1"
-				type: "command"
-				auto: "invisible"
-				command: "/tellraw @s [\"\",{\"text\":\"Welcome to \"},{\"text\":\"Chroma Sky 2\",\"color\":\"aqua\"},{\"text\":\" @p, have a good time !\"}]"
-				player_command: true
-			}]
+			rewards: [
+				{
+					id: "78FAC8001BA0C5C1"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @s [\"\",{\"text\":\"Welcome to \"},{\"text\":\"Chroma Sky 2\",\"color\":\"aqua\"},{\"text\":\" @p, have a good time !\"}]"
+					player_command: true
+				}
+				{
+					id: "23649817CBEFE1A6"
+					type: "item"
+					item: {
+						id: "minecraft:lime_shulker_box"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Items: [
+									{
+										Slot: 0
+										id: "player_head"
+										Count: 1
+										tag: {
+											SkullOwner: "Gogo08_Fr"
+										}
+									}
+									{
+										Slot: 1
+										id: "player_head"
+										Count: 1
+										tag: {
+											SkullOwner: "Noli_666"
+										}
+									}
+									{
+										Slot: 2
+										id: "player_head"
+										Count: 1
+										tag: {
+											SkullOwner: "koepss"
+										}
+									}
+									{
+										Slot: 3
+										id: "player_head"
+										Count: 1
+										tag: {
+											SkullOwner: "Maaht"
+										}
+									}
+								]
+							}
+							display: {
+								Name: "\"Modpack Creators\""
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			icon: "apotheosis:prismatic_web"
@@ -113,11 +164,18 @@
 				type: "checkmark"
 				title: "Islands"
 			}]
+			rewards: [{
+				id: "1F953A714527F43A"
+				type: "command"
+				auto: "invisible"
+				command: "/tellraw @s [\"\",{\"text\":\"Informations about Islands here : \"},{\"text\":\"chromatech.fr\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://chromatech.fr/modpack/chroma-sky-ii/\"}}]"
+				player_command: true
+			}]
 		}
 		{
 			icon: "losttrinkets:treasure_bag"
-			x: 0.0d
-			y: 2.5d
+			x: 1.0d
+			y: 0.5d
 			shape: "diamond"
 			description: [
 				"Trinkets will give you good effects such as preventing you from taking damage from falling, increasing health, giving you the ability to climb walls, etc."
@@ -135,6 +193,41 @@
 				id: "3BF48E9C80FFE840"
 				type: "checkmark"
 				title: "Lost Trinkets"
+			}]
+			rewards: [{
+				id: "4FEEC2C7A861DE62"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:slow_falling"
+					}
+				}
+			}]
+		}
+		{
+			icon: "supplementaries:statue"
+			x: -1.0d
+			y: 0.5d
+			shape: "diamond"
+			description: [
+				"To share your quests with your friends, you need to create a team."
+				""
+				"To do this, execture this command :"
+				"&a/ftbteams party create"
+				""
+				"To invite your friends, execute this command :"
+				"&b/ftbteams party invite &dName"
+				""
+				"Your friends just have to accept, and you are now in a team."
+			]
+			dependencies: ["5AA98A6A5E15905F"]
+			id: "54B6249303C543BD"
+			tasks: [{
+				id: "4219263D5147FC6D"
+				type: "checkmark"
+				title: "FTB Team"
 			}]
 		}
 	]

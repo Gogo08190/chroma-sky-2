@@ -24,6 +24,7 @@
 			x: 0.0d
 			y: -4.0d
 			shape: "gear"
+			dependencies: ["0D1B669F0D4E09BE"]
 			id: "5C1F3C366E52F0BF"
 			tasks: [{
 				id: "5A25AA9FB181F640"
@@ -36,11 +37,24 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "1D5BEBE48651F563"
-				type: "item"
-				item: "supplementaries:clock_block"
-			}]
+			rewards: [
+				{
+					id: "1D5BEBE48651F563"
+					type: "item"
+					item: "supplementaries:clock_block"
+				}
+				{
+					id: "65E103F7B7E4269D"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -68,6 +82,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "5389F213A83F9EBF"
+				type: "item"
+				item: "minecraft:diamond"
 			}]
 		}
 		{
@@ -97,6 +116,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "61D6C99CFF7C09DC"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
 		}
 		{
 			x: -5.0d
@@ -125,6 +149,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "44E30938B3600FC7"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
 		}
 		{
 			x: -5.0d
@@ -148,6 +177,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2A3ED12171D4E630"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
 		}
 		{
 			x: -3.0d
@@ -159,6 +193,18 @@
 				type: "item"
 				item: "cagedmobs:mobcage"
 			}]
+			rewards: [
+				{
+					id: "470AD737EEF5BB33"
+					type: "item"
+					item: "supplementaries:cage"
+				}
+				{
+					id: "5E2B850F1CCEF999"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -169,6 +215,11 @@
 				id: "590875D8B33D8D42"
 				type: "item"
 				item: "cagedmobs:hoppingmobcage"
+			}]
+			rewards: [{
+				id: "5846E5AF8DD26253"
+				type: "item"
+				item: "speedyhoppers:speedyhopper_mk3"
 			}]
 		}
 		{
@@ -181,6 +232,11 @@
 				type: "item"
 				item: "cagedmobs:dnasampler"
 			}]
+			rewards: [{
+				id: "5EB84B4957FD6C81"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
 			x: -3.0d
@@ -192,6 +248,11 @@
 				type: "item"
 				item: "cagedmobs:dnasamplerdiamond"
 			}]
+			rewards: [{
+				id: "6959AC890D9249B3"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
 		}
 		{
 			x: -3.0d
@@ -202,6 +263,11 @@
 				id: "28E96CFA7A3DEF3D"
 				type: "item"
 				item: "cagedmobs:dnasamplernetherite"
+			}]
+			rewards: [{
+				id: "258DADEC7E168518"
+				type: "item"
+				item: "cagedmobs:star_infused_netherite_ingot"
 			}]
 		}
 		{
@@ -217,6 +283,12 @@
 				type: "item"
 				item: "cagedmobs:cookingupgrade"
 			}]
+			rewards: [{
+				id: "210EB3B73A844260"
+				type: "item"
+				item: "minecraft:cooked_mutton"
+				count: 8
+			}]
 		}
 		{
 			x: -2.0d
@@ -228,6 +300,11 @@
 				type: "item"
 				item: "cagedmobs:lightningupgrade"
 			}]
+			rewards: [{
+				id: "3493C60939D86479"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+			}]
 		}
 		{
 			x: -2.0d
@@ -238,6 +315,18 @@
 				id: "6BBF64049DC50979"
 				type: "item"
 				item: "cagedmobs:arrowupgrade"
+			}]
+			rewards: [{
+				id: "4B43213DA81A9E71"
+				type: "item"
+				item: {
+					id: "minecraft:tipped_arrow"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_harming"
+					}
+				}
+				count: 8
 			}]
 		}
 		{
@@ -360,6 +449,11 @@
 				type: "item"
 				item: "pipez:wrench"
 			}]
+			rewards: [{
+				id: "51F208E30409036A"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -7.0d
@@ -375,6 +469,11 @@
 				type: "item"
 				item: "pipez:filter_destination_tool"
 			}]
+			rewards: [{
+				id: "53E84842C46C836E"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -7.0d
@@ -385,6 +484,11 @@
 			id: "47FD87C40EF62ABB"
 			tasks: [{
 				id: "2959AD38A2627DD4"
+				type: "item"
+				item: "pipez:basic_upgrade"
+			}]
+			rewards: [{
+				id: "3EBA6E6638981370"
 				type: "item"
 				item: "pipez:basic_upgrade"
 			}]
@@ -401,6 +505,11 @@
 				type: "item"
 				item: "pipez:improved_upgrade"
 			}]
+			rewards: [{
+				id: "44935754F0918F0D"
+				type: "item"
+				item: "pipez:improved_upgrade"
+			}]
 		}
 		{
 			x: -7.0d
@@ -414,6 +523,11 @@
 				type: "item"
 				item: "pipez:advanced_upgrade"
 			}]
+			rewards: [{
+				id: "3BA362A8648D7596"
+				type: "item"
+				item: "pipez:advanced_upgrade"
+			}]
 		}
 		{
 			x: -7.0d
@@ -424,6 +538,11 @@
 			id: "3390851CC346F5F5"
 			tasks: [{
 				id: "5A2B5ED8F2226882"
+				type: "item"
+				item: "pipez:ultimate_upgrade"
+			}]
+			rewards: [{
+				id: "4645A32D17F7B275"
 				type: "item"
 				item: "pipez:ultimate_upgrade"
 			}]
@@ -458,6 +577,22 @@
 					tag: { }
 				}
 			}]
+			rewards: [
+				{
+					id: "13DBC223B224299C"
+					type: "item"
+					item: {
+						id: "entangled:block"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "305AFEBFC900CCBE"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -478,6 +613,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "308F3EE28EF8EB3B"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 5.0d
@@ -494,6 +634,12 @@
 				id: "5440EFEEDAB0B775"
 				type: "item"
 				item: "compactmachines:machine_tiny"
+			}]
+			rewards: [{
+				id: "7180715781F11B2E"
+				type: "item"
+				item: "compactmachines:wall"
+				count: 2
 			}]
 		}
 		{
@@ -512,6 +658,12 @@
 				type: "item"
 				item: "compactmachines:machine_small"
 			}]
+			rewards: [{
+				id: "35393D8B4858DD03"
+				type: "item"
+				item: "compactmachines:wall"
+				count: 2
+			}]
 		}
 		{
 			x: 5.0d
@@ -528,6 +680,12 @@
 				id: "02F9B261E6A372AF"
 				type: "item"
 				item: "compactmachines:machine_normal"
+			}]
+			rewards: [{
+				id: "2193BEF23D812FF3"
+				type: "item"
+				item: "compactmachines:wall"
+				count: 4
 			}]
 		}
 		{
@@ -546,6 +704,12 @@
 				type: "item"
 				item: "compactmachines:machine_large"
 			}]
+			rewards: [{
+				id: "260C6E0E2009286E"
+				type: "item"
+				item: "compactmachines:wall"
+				count: 8
+			}]
 		}
 		{
 			x: 5.0d
@@ -562,6 +726,12 @@
 				id: "50E0C50DD7545011"
 				type: "item"
 				item: "compactmachines:machine_giant"
+			}]
+			rewards: [{
+				id: "32059B5BE0B34732"
+				type: "item"
+				item: "compactmachines:wall"
+				count: 16
 			}]
 		}
 		{
@@ -580,6 +750,12 @@
 				type: "item"
 				item: "compactmachines:machine_maximum"
 			}]
+			rewards: [{
+				id: "63799E1D8B7D1D4B"
+				type: "item"
+				item: "compactmachines:wall"
+				count: 32
+			}]
 		}
 		{
 			x: 4.0d
@@ -597,6 +773,11 @@
 				type: "item"
 				item: "compactmachines:personal_shrinking_device"
 			}]
+			rewards: [{
+				id: "591779BBA11F453C"
+				type: "item"
+				item: "immersiveengineering:component_steel"
+			}]
 		}
 		{
 			x: 4.0d
@@ -611,6 +792,12 @@
 				id: "0C2528F83CE8CE9E"
 				type: "item"
 				item: "compactmachines:wall"
+			}]
+			rewards: [{
+				id: "357D46AF28EDA4E2"
+				type: "item"
+				item: "compactmachines:wall"
+				count: 8
 			}]
 		}
 		{
@@ -631,6 +818,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "5898CBB21C2256A0"
+				type: "item"
+				item: "expandedstorage:netherite_chest"
 			}]
 		}
 		{
@@ -655,6 +847,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6C36A0B98AFEFAB4"
+				type: "item"
+				item: "extendedcrafting:redstone_ingot_block"
+			}]
 		}
 		{
 			x: 4.0d
@@ -671,6 +868,11 @@
 				item: "compactcrafting:field_projector"
 				count: 4L
 			}]
+			rewards: [{
+				id: "1D37A38D3534F275"
+				type: "item"
+				item: "thermal:redstone_servo"
+			}]
 		}
 		{
 			x: 7.0d
@@ -683,6 +885,11 @@
 				id: "666BA0045B11885D"
 				type: "item"
 				item: "trashcans:item_trash_can"
+			}]
+			rewards: [{
+				id: "4DE13E10E19B3A53"
+				type: "item"
+				item: "chromasky:1x_compressed_cobblestone"
 			}]
 		}
 		{
@@ -697,6 +904,11 @@
 				type: "item"
 				item: "trashcans:liquid_trash_can"
 			}]
+			rewards: [{
+				id: "18FC8B7253C24652"
+				type: "item"
+				item: "minecraft:pufferfish_bucket"
+			}]
 		}
 		{
 			x: 7.0d
@@ -709,6 +921,11 @@
 				id: "7F7E7ED0644C4A05"
 				type: "item"
 				item: "trashcans:energy_trash_can"
+			}]
+			rewards: [{
+				id: "57D79391407F8A4C"
+				type: "item"
+				item: "minecraft:redstone"
 			}]
 		}
 		{
@@ -726,6 +943,11 @@
 				id: "5FF52C569C868557"
 				type: "item"
 				item: "trashcans:ultimate_trash_can"
+			}]
+			rewards: [{
+				id: "0B8FAF68E489FDE4"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -767,11 +989,18 @@
 				type: "item"
 				item: "buildinggadgets:template_manager"
 			}]
-			rewards: [{
-				id: "16D7553282D0BA75"
-				type: "item"
-				item: "minecraft:paper"
-			}]
+			rewards: [
+				{
+					id: "16D7553282D0BA75"
+					type: "item"
+					item: "minecraft:paper"
+				}
+				{
+					id: "7538FE71CEA2CBC9"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+			]
 		}
 		{
 			x: -10.0d
@@ -790,6 +1019,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "20377BA62A408203"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 8
 			}]
 		}
 		{
@@ -810,6 +1045,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "34CA84799FF6FC00"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 16
+			}]
 		}
 		{
 			x: -10.0d
@@ -829,6 +1070,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "674158B8DC7B33E3"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 32
+			}]
 		}
 		{
 			x: -10.0d
@@ -847,6 +1094,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "10E9AEBAEB7DF31C"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
+			}]
 		}
 		{
 			x: 0.0d
@@ -857,6 +1110,11 @@
 			id: "33D43AA047132058"
 			tasks: [{
 				id: "50242FC327846515"
+				type: "item"
+				item: "torchmaster:megatorch"
+			}]
+			rewards: [{
+				id: "7347542317EF7DD2"
 				type: "item"
 				item: "torchmaster:megatorch"
 			}]
@@ -873,6 +1131,11 @@
 				type: "item"
 				item: "torchmaster:feral_flare_lantern"
 			}]
+			rewards: [{
+				id: "54EFF42B9AAAC46D"
+				type: "item"
+				item: "torchmaster:frozen_pearl"
+			}]
 		}
 		{
 			x: 0.0d
@@ -886,6 +1149,12 @@
 				type: "item"
 				item: "torchmaster:dreadlamp"
 			}]
+			rewards: [{
+				id: "29CA5953EDDDE9CA"
+				type: "item"
+				item: "supplementaries:copper_lantern"
+				count: 8
+			}]
 		}
 		{
 			x: 2.0d
@@ -897,6 +1166,11 @@
 				id: "4FBD62B9210BF5D0"
 				type: "item"
 				item: "speedyhoppers:speedyhopper_mk1"
+			}]
+			rewards: [{
+				id: "17FC86E12293D470"
+				type: "item"
+				item: "minecraft:hopper"
 			}]
 		}
 		{
@@ -910,6 +1184,11 @@
 				type: "item"
 				item: "speedyhoppers:speedyhopper_mk2"
 			}]
+			rewards: [{
+				id: "370ECF18FA17CBA6"
+				type: "item"
+				item: "speedyhoppers:speedyhopper_mk1"
+			}]
 		}
 		{
 			x: 2.0d
@@ -922,6 +1201,11 @@
 				type: "item"
 				item: "speedyhoppers:speedyhopper_mk3"
 			}]
+			rewards: [{
+				id: "468E23B36F101078"
+				type: "item"
+				item: "speedyhoppers:speedyhopper_mk2"
+			}]
 		}
 		{
 			x: -3.5d
@@ -933,6 +1217,13 @@
 				id: "2BFF7E28F8E2F80E"
 				type: "item"
 				item: "fluxnetworks:flux_dust"
+				count: 4L
+			}]
+			rewards: [{
+				id: "37FC05473F8EA3BA"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 16
 			}]
 		}
 		{
@@ -947,6 +1238,11 @@
 			id: "0FC578B7FD3FF48D"
 			tasks: [{
 				id: "589665C8832EC13A"
+				type: "item"
+				item: "fluxnetworks:flux_block"
+			}]
+			rewards: [{
+				id: "472386DE1ABB1545"
 				type: "item"
 				item: "fluxnetworks:flux_block"
 			}]
@@ -966,6 +1262,11 @@
 				type: "item"
 				item: "fluxnetworks:flux_plug"
 			}]
+			rewards: [{
+				id: "0241DCA690181CE7"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
 		}
 		{
 			x: -2.0d
@@ -976,6 +1277,11 @@
 			id: "696E514DDE3AF653"
 			tasks: [{
 				id: "7D310EDA3BF8A748"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+			rewards: [{
+				id: "6A80265A4E8EF849"
 				type: "item"
 				item: "fluxnetworks:flux_point"
 			}]
@@ -996,6 +1302,11 @@
 				type: "item"
 				item: "fluxnetworks:flux_controller"
 			}]
+			rewards: [{
+				id: "458D7B98764066EC"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -3.0d
@@ -1009,6 +1320,11 @@
 				type: "item"
 				item: "fluxnetworks:basic_flux_storage"
 			}]
+			rewards: [{
+				id: "0F849AE3D8943B0A"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: -2.0d
@@ -1021,6 +1337,11 @@
 				type: "item"
 				item: "fluxnetworks:herculean_flux_storage"
 			}]
+			rewards: [{
+				id: "433C0AC61C8EE918"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: -2.5d
@@ -1032,6 +1353,11 @@
 				id: "698F398AE6E87C31"
 				type: "item"
 				item: "fluxnetworks:gargantuan_flux_storage"
+			}]
+			rewards: [{
+				id: "1A0BD9A7F657C1D8"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1047,6 +1373,13 @@
 				id: "2B28373FAAB86CCE"
 				type: "item"
 				item: "fluxnetworks:flux_core"
+				count: 4L
+			}]
+			rewards: [{
+				id: "35C19DBA9D3B6C2D"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+				count: 4
 			}]
 		}
 		{

@@ -2361,6 +2361,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "170FE868867C83F6"
+				type: "item"
+				item: "theabyss:abyssicediamond"
+			}]
 		}
 		{
 			title: "Unknown Tools"

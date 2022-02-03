@@ -109,6 +109,13 @@
 				id: "28C68AA04637613A"
 				type: "item"
 				item: "powah:crystal_nitro"
+				count: 16L
+			}]
+			rewards: [{
+				id: "6A147EED2DD96EE4"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 16
 			}]
 		}
 		{
@@ -120,6 +127,11 @@
 			id: "0E3D24DB02A895C7"
 			tasks: [{
 				id: "6B5CE90A5F1D2DD5"
+				type: "item"
+				item: "powah:capacitor_nitro"
+			}]
+			rewards: [{
+				id: "3B03FB001573D7AD"
 				type: "item"
 				item: "powah:capacitor_nitro"
 			}]
@@ -140,6 +152,12 @@
 				type: "item"
 				item: "powah:ender_cell_nitro"
 			}]
+			rewards: [{
+				id: "0DADD1BC64D008CB"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
+			}]
 		}
 		{
 			x: 16.0d
@@ -152,6 +170,12 @@
 				id: "35AE33C0B8616E8E"
 				type: "item"
 				item: "powah:thermo_generator_nitro"
+			}]
+			rewards: [{
+				id: "71FA003690FA369F"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
 			}]
 		}
 		{
@@ -166,6 +190,12 @@
 				type: "item"
 				item: "powah:player_transmitter_nitro"
 			}]
+			rewards: [{
+				id: "455ADD3C48C895C2"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
+			}]
 		}
 		{
 			x: 17.0d
@@ -178,6 +208,12 @@
 				id: "477249AF18837894"
 				type: "item"
 				item: "powah:furnator_nitro"
+			}]
+			rewards: [{
+				id: "2C7C9A13BB9D7711"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
 			}]
 		}
 		{
@@ -192,6 +228,12 @@
 				type: "item"
 				item: "powah:energy_hopper_nitro"
 			}]
+			rewards: [{
+				id: "1B99FBBFFD308D78"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
+			}]
 		}
 		{
 			x: 16.0d
@@ -204,6 +246,12 @@
 				id: "7356EE9AE3FCEB4B"
 				type: "item"
 				item: "powah:energy_cell_nitro"
+			}]
+			rewards: [{
+				id: "570C4BDC511A3159"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
 			}]
 		}
 		{
@@ -218,6 +266,12 @@
 				type: "item"
 				item: "powah:energy_discharger_nitro"
 			}]
+			rewards: [{
+				id: "14AED32AA8FCFF19"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
+			}]
 		}
 		{
 			x: 17.0d
@@ -231,6 +285,12 @@
 				type: "item"
 				item: "powah:reactor_nitro"
 				count: 36L
+			}]
+			rewards: [{
+				id: "20D6EA8D10EB8F85"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
 			}]
 		}
 		{
@@ -249,6 +309,12 @@
 				type: "item"
 				item: "powah:energy_cable_nitro"
 			}]
+			rewards: [{
+				id: "37211438554CF1EC"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
+			}]
 		}
 		{
 			x: 16.0d
@@ -262,6 +328,12 @@
 				type: "item"
 				item: "powah:magmator_nitro"
 			}]
+			rewards: [{
+				id: "6C32F165B77AF8E8"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
+			}]
 		}
 		{
 			x: 16.5d
@@ -274,6 +346,12 @@
 				id: "0022AAB977F930D9"
 				type: "item"
 				item: "powah:solar_panel_nitro"
+			}]
+			rewards: [{
+				id: "0A106D626FBEC67B"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
 			}]
 		}
 		{
@@ -292,6 +370,12 @@
 				type: "item"
 				item: "powah:ender_gate_nitro"
 			}]
+			rewards: [{
+				id: "2EA822022144FC87"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
+			}]
 		}
 		{
 			x: 15.5d
@@ -303,6 +387,12 @@
 				id: "2FA7BEAE91D5895D"
 				type: "item"
 				item: "powah:energizing_rod_nitro"
+			}]
+			rewards: [{
+				id: "4E1F19973C05EBBB"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
 			}]
 		}
 		{
@@ -321,6 +411,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "793C21BEC9BDA1CC"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
+			}]
 		}
 		{
 			x: 10.5d
@@ -331,6 +427,11 @@
 			id: "63112023294D3304"
 			tasks: [{
 				id: "5B66AEFA50311CE4"
+				type: "item"
+				item: "powah:crystal_spirited"
+			}]
+			rewards: [{
+				id: "7FBB7F178B19D7EA"
 				type: "item"
 				item: "powah:crystal_spirited"
 			}]
@@ -347,6 +448,11 @@
 				type: "item"
 				item: "powah:capacitor_spirited"
 			}]
+			rewards: [{
+				id: "113F721633AFACE6"
+				type: "item"
+				item: "powah:capacitor_spirited"
+			}]
 		}
 		{
 			x: 10.0d
@@ -359,6 +465,12 @@
 				id: "35F09FD77D2FA102"
 				type: "item"
 				item: "powah:energy_cell_spirited"
+			}]
+			rewards: [{
+				id: "4FC569A45E96B89B"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
 			}]
 		}
 		{
@@ -377,6 +489,12 @@
 				type: "item"
 				item: "powah:ender_cell_spirited"
 			}]
+			rewards: [{
+				id: "5642875316755E2A"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
+			}]
 		}
 		{
 			x: 9.0d
@@ -393,6 +511,12 @@
 				id: "74877C1E64BE1ACA"
 				type: "item"
 				item: "powah:energy_cable_spirited"
+			}]
+			rewards: [{
+				id: "589A5824F7C09943"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
 			}]
 		}
 		{
@@ -411,6 +535,12 @@
 				type: "item"
 				item: "powah:ender_gate_spirited"
 			}]
+			rewards: [{
+				id: "7A9A3BEB66287C43"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
+			}]
 		}
 		{
 			x: 9.5d
@@ -422,6 +552,12 @@
 				id: "6EBF872C93E722CA"
 				type: "item"
 				item: "powah:energizing_rod_spirited"
+			}]
+			rewards: [{
+				id: "3A069123FA710433"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
 			}]
 		}
 		{
@@ -436,6 +572,12 @@
 				type: "item"
 				item: "powah:furnator_spirited"
 			}]
+			rewards: [{
+				id: "4C73B4E7B74B0142"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
+			}]
 		}
 		{
 			x: 10.0d
@@ -448,6 +590,12 @@
 				id: "5CE671495F552ED4"
 				type: "item"
 				item: "powah:magmator_spirited"
+			}]
+			rewards: [{
+				id: "7CCE0F0FEABB8A3A"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
 			}]
 		}
 		{
@@ -462,6 +610,12 @@
 				type: "item"
 				item: "powah:thermo_generator_spirited"
 			}]
+			rewards: [{
+				id: "039F931BE1EA48DE"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
+			}]
 		}
 		{
 			x: 10.5d
@@ -474,6 +628,12 @@
 				id: "5706A38E5C4E09BC"
 				type: "item"
 				item: "powah:solar_panel_spirited"
+			}]
+			rewards: [{
+				id: "7C50F68F54D58076"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
 			}]
 		}
 		{
@@ -489,6 +649,12 @@
 				item: "powah:reactor_spirited"
 				count: 36L
 			}]
+			rewards: [{
+				id: "5D711D535E440AD4"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
+			}]
 		}
 		{
 			x: 11.5d
@@ -501,6 +667,12 @@
 				id: "15043968AEB2FE1B"
 				type: "item"
 				item: "powah:player_transmitter_spirited"
+			}]
+			rewards: [{
+				id: "116FC006F96EA6FB"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
 			}]
 		}
 		{
@@ -515,6 +687,12 @@
 				type: "item"
 				item: "powah:energy_hopper_spirited"
 			}]
+			rewards: [{
+				id: "37D6F31342C772EC"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
+			}]
 		}
 		{
 			x: 9.5d
@@ -527,6 +705,12 @@
 				id: "0F8024C411E096DF"
 				type: "item"
 				item: "powah:energy_discharger_spirited"
+			}]
+			rewards: [{
+				id: "29990B7E0318B13C"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
 			}]
 		}
 		{
@@ -545,6 +729,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "5F42D81420DB942C"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
+			}]
 		}
 		{
 			x: 4.0d
@@ -557,6 +747,12 @@
 				id: "308DA8865004C41A"
 				type: "item"
 				item: "powah:energy_cell_niotic"
+			}]
+			rewards: [{
+				id: "3FFFF4C36B8A0788"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
 			}]
 		}
 		{
@@ -575,6 +771,12 @@
 				type: "item"
 				item: "powah:ender_cell_niotic"
 			}]
+			rewards: [{
+				id: "3CBE50E9EC3F7876"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
+			}]
 		}
 		{
 			x: 3.0d
@@ -591,6 +793,12 @@
 				id: "34577DEAF31D0D77"
 				type: "item"
 				item: "powah:energy_cable_niotic"
+			}]
+			rewards: [{
+				id: "7973C0CDD4E42474"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
 			}]
 		}
 		{
@@ -609,6 +817,12 @@
 				type: "item"
 				item: "powah:ender_gate_niotic"
 			}]
+			rewards: [{
+				id: "2D72FCE35C2AF49B"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
+			}]
 		}
 		{
 			x: 3.5d
@@ -620,6 +834,12 @@
 				id: "4347741BF6B116D9"
 				type: "item"
 				item: "powah:energizing_rod_niotic"
+			}]
+			rewards: [{
+				id: "06192F82F625DC7C"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
 			}]
 		}
 		{
@@ -634,6 +854,12 @@
 				type: "item"
 				item: "powah:furnator_niotic"
 			}]
+			rewards: [{
+				id: "3E5F491AB04824F2"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
+			}]
 		}
 		{
 			x: 4.0d
@@ -646,6 +872,12 @@
 				id: "0735284D6564AF1D"
 				type: "item"
 				item: "powah:magmator_niotic"
+			}]
+			rewards: [{
+				id: "30CDB912B66F744E"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
 			}]
 		}
 		{
@@ -660,6 +892,12 @@
 				type: "item"
 				item: "powah:thermo_generator_niotic"
 			}]
+			rewards: [{
+				id: "03E831678524222E"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
+			}]
 		}
 		{
 			x: 4.5d
@@ -672,6 +910,12 @@
 				id: "30778DD111AC03C7"
 				type: "item"
 				item: "powah:solar_panel_niotic"
+			}]
+			rewards: [{
+				id: "2BECB73BDCDDCA1B"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
 			}]
 		}
 		{
@@ -687,6 +931,12 @@
 				item: "powah:reactor_niotic"
 				count: 36L
 			}]
+			rewards: [{
+				id: "235D93040E84E4B5"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
+			}]
 		}
 		{
 			x: 5.5d
@@ -699,6 +949,12 @@
 				id: "68DFD4396AFB116E"
 				type: "item"
 				item: "powah:player_transmitter_niotic"
+			}]
+			rewards: [{
+				id: "2A2D74B68804F881"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
 			}]
 		}
 		{
@@ -713,6 +969,12 @@
 				type: "item"
 				item: "powah:energy_hopper_niotic"
 			}]
+			rewards: [{
+				id: "57086BF5FE3ECC5D"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
+			}]
 		}
 		{
 			x: 3.5d
@@ -725,6 +987,12 @@
 				id: "6A6B17D0FC37FB79"
 				type: "item"
 				item: "powah:energy_discharger_niotic"
+			}]
+			rewards: [{
+				id: "2ECB70EB173AA7AC"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
 			}]
 		}
 		{
@@ -743,6 +1011,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "3341D5EF58C28C90"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
+			}]
 		}
 		{
 			x: 4.5d
@@ -756,6 +1030,11 @@
 				type: "item"
 				item: "powah:crystal_niotic"
 			}]
+			rewards: [{
+				id: "7135EA282DCFC213"
+				type: "item"
+				item: "powah:crystal_niotic"
+			}]
 		}
 		{
 			x: 4.5d
@@ -766,6 +1045,11 @@
 			id: "0B7E73D585F86047"
 			tasks: [{
 				id: "52873B9D1D168A59"
+				type: "item"
+				item: "powah:capacitor_niotic"
+			}]
+			rewards: [{
+				id: "4A19BEB50CFF8FC0"
 				type: "item"
 				item: "powah:capacitor_niotic"
 			}]
@@ -783,6 +1067,12 @@
 				item: "powah:reactor_blazing"
 				count: 36L
 			}]
+			rewards: [{
+				id: "1757BC483EB2C5E5"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
+			}]
 		}
 		{
 			x: 7.0d
@@ -795,6 +1085,12 @@
 				id: "3A7745EB831E07F1"
 				type: "item"
 				item: "powah:energy_cell_blazing"
+			}]
+			rewards: [{
+				id: "760AFFA879EA2409"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
 			}]
 		}
 		{
@@ -813,6 +1109,12 @@
 				type: "item"
 				item: "powah:ender_cell_blazing"
 			}]
+			rewards: [{
+				id: "711215C9565F94DB"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
+			}]
 		}
 		{
 			x: 6.0d
@@ -829,6 +1131,12 @@
 				id: "25FC62E29006E833"
 				type: "item"
 				item: "powah:energy_cable_blazing"
+			}]
+			rewards: [{
+				id: "748B84EB8B4D2B77"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
 			}]
 		}
 		{
@@ -847,6 +1155,12 @@
 				type: "item"
 				item: "powah:ender_gate_blazing"
 			}]
+			rewards: [{
+				id: "110D2C166C70FE06"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
+			}]
 		}
 		{
 			x: 6.5d
@@ -858,6 +1172,12 @@
 				id: "290F771205C4D7B6"
 				type: "item"
 				item: "powah:energizing_rod_blazing"
+			}]
+			rewards: [{
+				id: "4EC065CF0DDECBF4"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
 			}]
 		}
 		{
@@ -872,6 +1192,12 @@
 				type: "item"
 				item: "powah:furnator_blazing"
 			}]
+			rewards: [{
+				id: "6C8AC60C2DC2AEB6"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
+			}]
 		}
 		{
 			x: 7.0d
@@ -884,6 +1210,12 @@
 				id: "0D8DD15C093E059E"
 				type: "item"
 				item: "powah:magmator_blazing"
+			}]
+			rewards: [{
+				id: "789B81173F2D1BB5"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
 			}]
 		}
 		{
@@ -898,6 +1230,12 @@
 				type: "item"
 				item: "powah:thermo_generator_blazing"
 			}]
+			rewards: [{
+				id: "6C6FA26C29AF713D"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
+			}]
 		}
 		{
 			x: 7.5d
@@ -910,6 +1248,12 @@
 				id: "5295C2A9D42BE1BB"
 				type: "item"
 				item: "powah:solar_panel_blazing"
+			}]
+			rewards: [{
+				id: "21DA934B52226E87"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
 			}]
 		}
 		{
@@ -928,6 +1272,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "23F9F18661E974F9"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
+			}]
 		}
 		{
 			x: 8.5d
@@ -940,6 +1290,12 @@
 				id: "64C2556348165A7D"
 				type: "item"
 				item: "powah:player_transmitter_blazing"
+			}]
+			rewards: [{
+				id: "771AD9EB6B33A8D9"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
 			}]
 		}
 		{
@@ -954,6 +1310,12 @@
 				type: "item"
 				item: "powah:energy_hopper_blazing"
 			}]
+			rewards: [{
+				id: "7A31A685225400D2"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
+			}]
 		}
 		{
 			x: 6.5d
@@ -967,6 +1329,12 @@
 				type: "item"
 				item: "powah:energy_discharger_blazing"
 			}]
+			rewards: [{
+				id: "230C5257857523E9"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
+			}]
 		}
 		{
 			x: 7.5d
@@ -977,6 +1345,11 @@
 			id: "57DBDBDE8D06C2AF"
 			tasks: [{
 				id: "71351D9638199A82"
+				type: "item"
+				item: "powah:crystal_blazing"
+			}]
+			rewards: [{
+				id: "0B54B062098F71C6"
 				type: "item"
 				item: "powah:crystal_blazing"
 			}]
@@ -992,6 +1365,13 @@
 				id: "3B395051501ABC22"
 				type: "item"
 				item: "powah:capacitor_blazing"
+				count: 2L
+			}]
+			rewards: [{
+				id: "4358E32BCF664DDB"
+				type: "item"
+				item: "powah:capacitor_blazing"
+				count: 2
 			}]
 		}
 		{
@@ -1003,6 +1383,11 @@
 			id: "71E4BB753498AB6B"
 			tasks: [{
 				id: "2A49C1AAB83E33DF"
+				type: "item"
+				item: "powah:steel_energized"
+			}]
+			rewards: [{
+				id: "50CC2D59CEF8D80A"
 				type: "item"
 				item: "powah:steel_energized"
 			}]
@@ -1018,6 +1403,13 @@
 				id: "117595A68BB70B0A"
 				type: "item"
 				item: "powah:capacitor_hardened"
+				count: 2L
+			}]
+			rewards: [{
+				id: "0370EAC30D62588B"
+				type: "item"
+				item: "powah:capacitor_hardened"
+				count: 2
 			}]
 		}
 		{
@@ -1031,6 +1423,12 @@
 				id: "59880ED6A66F0D02"
 				type: "item"
 				item: "powah:energy_cell_hardened"
+			}]
+			rewards: [{
+				id: "7385FD50815B5C4F"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
 			}]
 		}
 		{
@@ -1049,6 +1447,12 @@
 				type: "item"
 				item: "powah:ender_cell_hardened"
 			}]
+			rewards: [{
+				id: "0E5D8E39F5B8C292"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
+			}]
 		}
 		{
 			x: 12.0d
@@ -1065,6 +1469,12 @@
 				id: "644FA1BE8433788C"
 				type: "item"
 				item: "powah:energy_cable_hardened"
+			}]
+			rewards: [{
+				id: "5F759A1B8F843E4D"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
 			}]
 		}
 		{
@@ -1083,6 +1493,12 @@
 				type: "item"
 				item: "powah:ender_gate_hardened"
 			}]
+			rewards: [{
+				id: "5DB8C84C18D8EE92"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
+			}]
 		}
 		{
 			x: 12.5d
@@ -1094,6 +1510,12 @@
 				id: "3269BE200DCB963F"
 				type: "item"
 				item: "powah:energizing_rod_hardened"
+			}]
+			rewards: [{
+				id: "75F5ECFB1B4F4CB2"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
 			}]
 		}
 		{
@@ -1108,6 +1530,12 @@
 				type: "item"
 				item: "powah:furnator_hardened"
 			}]
+			rewards: [{
+				id: "2134ABB10D4D4F60"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
+			}]
 		}
 		{
 			x: 13.0d
@@ -1120,6 +1548,12 @@
 				id: "3B65F7B1D7E3DBB7"
 				type: "item"
 				item: "powah:magmator_hardened"
+			}]
+			rewards: [{
+				id: "60703B65B3126C99"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
 			}]
 		}
 		{
@@ -1134,6 +1568,12 @@
 				type: "item"
 				item: "powah:thermo_generator_hardened"
 			}]
+			rewards: [{
+				id: "065655B3C24E96A2"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
+			}]
 		}
 		{
 			x: 13.5d
@@ -1146,6 +1586,12 @@
 				id: "2AD08E96C64CC8F7"
 				type: "item"
 				item: "powah:solar_panel_hardened"
+			}]
+			rewards: [{
+				id: "29F58DD7EC82259A"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
 			}]
 		}
 		{
@@ -1161,6 +1607,12 @@
 				item: "powah:reactor_hardened"
 				count: 36L
 			}]
+			rewards: [{
+				id: "0F18BD392DF40D21"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
+			}]
 		}
 		{
 			x: 14.5d
@@ -1173,6 +1625,12 @@
 				id: "5C48A3DAE54CC5C3"
 				type: "item"
 				item: "powah:player_transmitter_hardened"
+			}]
+			rewards: [{
+				id: "1EAFFB47EF62D27D"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
 			}]
 		}
 		{
@@ -1187,10 +1645,18 @@
 				type: "item"
 				item: "powah:energy_hopper_hardened"
 			}]
-			rewards: [{
-				id: "484F9ADFB4510CB7"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "484F9ADFB4510CB7"
+					type: "random"
+				}
+				{
+					id: "1FF78EF41344F1F6"
+					type: "item"
+					item: "powah:steel_energized"
+					count: 2
+				}
+			]
 		}
 		{
 			x: 13.5d
@@ -1208,6 +1674,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "6D2F57E6CD43B5BA"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
+			}]
 		}
 		{
 			x: 12.5d
@@ -1220,6 +1692,12 @@
 				id: "2EEBB77185C253D6"
 				type: "item"
 				item: "powah:energy_discharger_hardened"
+			}]
+			rewards: [{
+				id: "345557ADB1296AA4"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
 			}]
 		}
 		{
@@ -1239,6 +1717,19 @@
 				type: "item"
 				item: "powah:energizing_orb"
 			}]
+			rewards: [
+				{
+					id: "4AF8509F71B8F3FE"
+					type: "item"
+					item: "powah:dielectric_rod"
+					count: 4
+				}
+				{
+					id: "192A84D8BD0B8EF2"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 10.450000000000001d
@@ -1258,6 +1749,11 @@
 				type: "item"
 				item: "powah:dielectric_casing"
 			}]
+			rewards: [{
+				id: "6D8A9883CF72DAAB"
+				type: "item"
+				item: "powah:dielectric_casing"
+			}]
 		}
 		{
 			x: 9.9d
@@ -1270,6 +1766,13 @@
 				id: "5198B3135D4E588C"
 				type: "item"
 				item: "powah:dielectric_rod"
+				count: 8L
+			}]
+			rewards: [{
+				id: "2E4187743E8A65D3"
+				type: "item"
+				item: "powah:dielectric_rod"
+				count: 8
 			}]
 		}
 		{
@@ -1283,6 +1786,13 @@
 				id: "373D93FCBD1E8291"
 				type: "item"
 				item: "powah:dielectric_rod_horizontal"
+				count: 8L
+			}]
+			rewards: [{
+				id: "1CE05226F28837F1"
+				type: "item"
+				item: "powah:dielectric_rod_horizontal"
+				count: 8
 			}]
 		}
 		{
@@ -1296,6 +1806,13 @@
 				id: "6A0235819F06D7BE"
 				type: "item"
 				item: "powah:dielectric_paste"
+				count: 24L
+			}]
+			rewards: [{
+				id: "11733CEA8D96CE49"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 12
 			}]
 		}
 		{
@@ -1309,6 +1826,12 @@
 				id: "3FE2296F64314C61"
 				type: "item"
 				item: "powah:energy_cell_starter"
+			}]
+			rewards: [{
+				id: "23679070B1EC97DE"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
 			}]
 		}
 		{
@@ -1327,6 +1850,12 @@
 				type: "item"
 				item: "powah:ender_cell_starter"
 			}]
+			rewards: [{
+				id: "1AF3E670F2B1E846"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 13.5d
@@ -1343,6 +1872,12 @@
 				id: "09F9716615E0CBBE"
 				type: "item"
 				item: "powah:energy_cable_starter"
+			}]
+			rewards: [{
+				id: "48BABAC7926A5A4D"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
 			}]
 		}
 		{
@@ -1361,6 +1896,12 @@
 				type: "item"
 				item: "powah:ender_gate_starter"
 			}]
+			rewards: [{
+				id: "6CC68417180EB31E"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 14.0d
@@ -1372,6 +1913,12 @@
 				id: "041E37E486A75DC0"
 				type: "item"
 				item: "powah:energizing_rod_starter"
+			}]
+			rewards: [{
+				id: "51F94011367107B3"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
 			}]
 		}
 		{
@@ -1386,6 +1933,12 @@
 				type: "item"
 				item: "powah:furnator_starter"
 			}]
+			rewards: [{
+				id: "445ACC7E9D790614"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 14.5d
@@ -1398,6 +1951,12 @@
 				id: "7FCAC2B58AC10F8F"
 				type: "item"
 				item: "powah:thermo_generator_starter"
+			}]
+			rewards: [{
+				id: "1EDAEF97825D2E1B"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
 			}]
 		}
 		{
@@ -1412,6 +1971,12 @@
 				type: "item"
 				item: "powah:magmator_starter"
 			}]
+			rewards: [{
+				id: "14BBE2E385D34EB3"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 15.0d
@@ -1424,6 +1989,12 @@
 				id: "33E82C4351ABDF87"
 				type: "item"
 				item: "powah:solar_panel_starter"
+			}]
+			rewards: [{
+				id: "14BDF901EE6A2DF0"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
 			}]
 		}
 		{
@@ -1439,6 +2010,12 @@
 				item: "powah:reactor_starter"
 				count: 36L
 			}]
+			rewards: [{
+				id: "6DC8A5DE0CA0892E"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 16.0d
@@ -1451,6 +2028,12 @@
 				id: "29B8FAC4799BC108"
 				type: "item"
 				item: "powah:player_transmitter_starter"
+			}]
+			rewards: [{
+				id: "38959C700FAB892F"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
 			}]
 		}
 		{
@@ -1465,6 +2048,12 @@
 				type: "item"
 				item: "powah:energy_hopper_starter"
 			}]
+			rewards: [{
+				id: "1A62D76627838F58"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 14.0d
@@ -1477,6 +2066,12 @@
 				id: "0ED6591471DCFCA8"
 				type: "item"
 				item: "powah:energy_discharger_starter"
+			}]
+			rewards: [{
+				id: "2DAF5E38904BE415"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
 			}]
 		}
 		{
@@ -1495,6 +2090,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "647284100547674D"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 15.0d
@@ -1509,6 +2110,12 @@
 				type: "item"
 				item: "powah:capacitor_basic_tiny"
 			}]
+			rewards: [{
+				id: "223F2E6163AC9ADE"
+				type: "item"
+				item: "powah:capacitor_basic_tiny"
+				count: 2
+			}]
 		}
 		{
 			x: 5.5d
@@ -1521,6 +2128,12 @@
 				id: "60133EADFCD09B5B"
 				type: "item"
 				item: "powah:energy_cell_basic"
+			}]
+			rewards: [{
+				id: "2F526E80F87E10C8"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
 			}]
 		}
 		{
@@ -1539,6 +2152,12 @@
 				type: "item"
 				item: "powah:ender_cell_basic"
 			}]
+			rewards: [{
+				id: "7950B9B6C5010A59"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 4.5d
@@ -1555,6 +2174,12 @@
 				id: "3502C8B3767C01F1"
 				type: "item"
 				item: "powah:energy_cable_basic"
+			}]
+			rewards: [{
+				id: "719CAB896DD954E5"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
 			}]
 		}
 		{
@@ -1573,6 +2198,12 @@
 				type: "item"
 				item: "powah:ender_gate_basic"
 			}]
+			rewards: [{
+				id: "79EDD92FBDA8D8FA"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 5.0d
@@ -1584,6 +2215,12 @@
 				id: "3F198E6D48199D48"
 				type: "item"
 				item: "powah:energizing_rod_basic"
+			}]
+			rewards: [{
+				id: "705CC4519F242B62"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
 			}]
 		}
 		{
@@ -1598,6 +2235,12 @@
 				type: "item"
 				item: "powah:furnator_basic"
 			}]
+			rewards: [{
+				id: "3659066CA0148A8A"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 5.5d
@@ -1610,6 +2253,12 @@
 				id: "42A2F80DB26404F7"
 				type: "item"
 				item: "powah:magmator_basic"
+			}]
+			rewards: [{
+				id: "5A063BD48BFC0F53"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
 			}]
 		}
 		{
@@ -1624,10 +2273,18 @@
 				type: "item"
 				item: "powah:thermo_generator_basic"
 			}]
-			rewards: [{
-				id: "60D901A32ED14693"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "60D901A32ED14693"
+					type: "random"
+				}
+				{
+					id: "2B2668671FAA28A8"
+					type: "item"
+					item: "powah:dielectric_paste"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -1640,6 +2297,12 @@
 				id: "55A11E8D68BAE30D"
 				type: "item"
 				item: "powah:solar_panel_basic"
+			}]
+			rewards: [{
+				id: "1A43CFB36F5EA26A"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
 			}]
 		}
 		{
@@ -1655,6 +2318,12 @@
 				item: "powah:reactor_basic"
 				count: 36L
 			}]
+			rewards: [{
+				id: "1F05DBE5F333B089"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 7.0d
@@ -1667,6 +2336,12 @@
 				id: "33DE3741660891B9"
 				type: "item"
 				item: "powah:player_transmitter_basic"
+			}]
+			rewards: [{
+				id: "38EABF268D80D976"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
 			}]
 		}
 		{
@@ -1681,6 +2356,12 @@
 				type: "item"
 				item: "powah:energy_hopper_basic"
 			}]
+			rewards: [{
+				id: "5C8C5FA830D99A92"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 5.0d
@@ -1693,6 +2374,12 @@
 				id: "3C996D78C11833AF"
 				type: "item"
 				item: "powah:energy_discharger_basic"
+			}]
+			rewards: [{
+				id: "3E98A600FCA6486C"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
 			}]
 		}
 		{
@@ -1707,6 +2394,13 @@
 				id: "6C51BD463D4224F9"
 				type: "item"
 				item: "powah:capacitor_basic"
+				count: 2L
+			}]
+			rewards: [{
+				id: "33C209E5B3395610"
+				type: "item"
+				item: "powah:capacitor_basic"
+				count: 2
 			}]
 		}
 		{
@@ -1728,6 +2422,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "687B878970D85319"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 9.9d
@@ -1739,6 +2439,11 @@
 			id: "73F3EDBEA043AFB0"
 			tasks: [{
 				id: "64A6BBDB9715307D"
+				type: "item"
+				item: "powah:charged_snowball"
+			}]
+			rewards: [{
+				id: "45E97F18405E9666"
 				type: "item"
 				item: "powah:charged_snowball"
 			}]
@@ -1755,6 +2460,11 @@
 				type: "item"
 				item: "powah:dry_ice"
 			}]
+			rewards: [{
+				id: "418CAC350EAB456F"
+				type: "item"
+				item: "powah:dry_ice"
+			}]
 		}
 		{
 			x: 10.450000000000001d
@@ -1765,6 +2475,11 @@
 			id: "4F49664319D58211"
 			tasks: [{
 				id: "5EF6209262724267"
+				type: "item"
+				item: "powah:ender_core"
+			}]
+			rewards: [{
+				id: "02B933BC6605A8B4"
 				type: "item"
 				item: "powah:ender_core"
 			}]
@@ -1780,6 +2495,12 @@
 				id: "50072E86C8642BC5"
 				type: "item"
 				item: "powah:uraninite"
+			}]
+			rewards: [{
+				id: "68541C415CDF5954"
+				type: "item"
+				item: "powah:uraninite"
+				count: 8
 			}]
 		}
 		{
@@ -1810,6 +2531,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "25A4AB272390C79C"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 16.5d
@@ -1825,6 +2551,11 @@
 				id: "605DD5D235179DA1"
 				type: "item"
 				item: "powah:blank_card"
+			}]
+			rewards: [{
+				id: "2502BB915C74F9E2"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1843,6 +2574,11 @@
 				type: "item"
 				item: "powah:binding_card"
 			}]
+			rewards: [{
+				id: "36977103A6326883"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 18.5d
@@ -1860,6 +2596,11 @@
 				type: "item"
 				item: "powah:binding_card_dim"
 			}]
+			rewards: [{
+				id: "731E40A7848D862F"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 4.5d
@@ -1870,6 +2611,11 @@
 			id: "593C7B0B7FDF55EC"
 			tasks: [{
 				id: "44EAFED09394972B"
+				type: "item"
+				item: "powah:photoelectric_pane"
+			}]
+			rewards: [{
+				id: "5885EF6AB0717D4C"
 				type: "item"
 				item: "powah:photoelectric_pane"
 			}]
@@ -1886,6 +2632,11 @@
 				type: "item"
 				item: "powah:lens_of_ender"
 			}]
+			rewards: [{
+				id: "5AB05D28DC8D5AB8"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 4.5d
@@ -1898,6 +2649,11 @@
 				id: "56D61761ADA28CF3"
 				type: "item"
 				item: "powah:aerial_pearl"
+			}]
+			rewards: [{
+				id: "07769E0A241D5FDB"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1916,6 +2672,11 @@
 				type: "item"
 				item: "powah:player_aerial_pearl"
 			}]
+			rewards: [{
+				id: "0F9616F1CEC894C4"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 2.5d
@@ -1932,6 +2693,11 @@
 				type: "item"
 				item: "powah:thermoelectric_plate"
 			}]
+			rewards: [{
+				id: "3E35AD1D808CB706"
+				type: "item"
+				item: "powah:thermoelectric_plate"
+			}]
 		}
 		{
 			x: 9.9d
@@ -1945,6 +2711,11 @@
 				id: "0F96D7D99B396B06"
 				type: "item"
 				item: "powah:book"
+			}]
+			rewards: [{
+				id: "37F469E81DF09832"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1965,6 +2736,11 @@
 			id: "1BF9C8439A0AAE86"
 			tasks: [{
 				id: "1ACBBFC48C196CF8"
+				type: "item"
+				item: "chromasky:mechanic_core_tier_4"
+			}]
+			rewards: [{
+				id: "4F3DA5D4D6FA8C57"
 				type: "item"
 				item: "chromasky:mechanic_core_tier_4"
 			}]
@@ -2001,6 +2777,12 @@
 						]
 					}
 				}
+			}]
+			rewards: [{
+				id: "55E01EB3E1DF02F4"
+				type: "item"
+				item: "powah:uraninite_raw_dense"
+				count: 4
 			}]
 		}
 	]

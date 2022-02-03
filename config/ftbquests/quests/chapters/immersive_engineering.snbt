@@ -97,6 +97,11 @@
 				observe_type: 0
 				to_observe: "immersiveengineering:coke_oven"
 			}]
+			rewards: [{
+				id: "1E7D5D50FC309D54"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Build a &6Blast Furnace"
@@ -114,6 +119,11 @@
 				observe_type: 0
 				to_observe: "immersiveengineering:blast_furnace"
 			}]
+			rewards: [{
+				id: "26853666AFF01F81"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Build an &6Alloy Kiln"
@@ -130,6 +140,11 @@
 				timer: 15L
 				observe_type: 0
 				to_observe: "immersiveengineering:alloy_smelter"
+			}]
+			rewards: [{
+				id: "408889EBB802C641"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -155,12 +170,25 @@
 			tasks: [{
 				id: "6B50510363834506"
 				type: "observation"
-				title: "Look a complete Auto Workbench"
+				title: "Look a complete &6Auto Workbench"
 				icon: "immersiveengineering:auto_workbench"
 				timer: 15L
 				observe_type: 0
 				to_observe: "immersiveengineering:auto_workbench"
 			}]
+			rewards: [
+				{
+					id: "239F6E095399925B"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "21BE70C1F4C0FFB3"
+					type: "item"
+					item: "thermal:obsidian_glass"
+					count: 8
+				}
+			]
 		}
 		{
 			x: 8.0d
@@ -171,6 +199,12 @@
 				id: "41D53C9198042415"
 				type: "item"
 				item: "mekanism:ingot_steel"
+			}]
+			rewards: [{
+				id: "1FDA0662FA09ACBD"
+				type: "item"
+				item: "mekanism:ingot_steel"
+				count: 4
 			}]
 		}
 		{
@@ -183,6 +217,11 @@
 				type: "item"
 				item: "immersiveengineering:coal_coke"
 			}]
+			rewards: [{
+				id: "69C69F41578E5E7B"
+				type: "item"
+				item: "immersiveengineering:coke"
+			}]
 		}
 		{
 			x: 6.0d
@@ -191,6 +230,11 @@
 			id: "20C7BB0FB260AC6A"
 			tasks: [{
 				id: "0FF814C3B8525BFA"
+				type: "item"
+				item: "immersiveengineering:creosote_bucket"
+			}]
+			rewards: [{
+				id: "1083372588C47386"
 				type: "item"
 				item: "immersiveengineering:creosote_bucket"
 			}]
@@ -216,6 +260,12 @@
 				type: "item"
 				item: "extendedcrafting:redstone_ingot"
 			}]
+			rewards: [{
+				id: "7B278ACD3A9E66FF"
+				type: "item"
+				item: "ftbjarmod:cast_iron_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: 4.0d
@@ -226,6 +276,12 @@
 				id: "3C5CB955D2A68A45"
 				type: "item"
 				item: "thermal:electrum_ingot"
+			}]
+			rewards: [{
+				id: "62C4B6CEC9CBA6FA"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -238,6 +294,12 @@
 				type: "item"
 				item: "thermal:invar_ingot"
 			}]
+			rewards: [{
+				id: "1E778151A979633C"
+				type: "item"
+				item: "thermal:nickel_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: 4.0d
@@ -248,6 +310,12 @@
 				id: "7E8B128EE1A3B653"
 				type: "item"
 				item: "thermal:bronze_ingot"
+			}]
+			rewards: [{
+				id: "2186A75AE6196A3E"
+				type: "item"
+				item: "thermal:tin_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -283,6 +351,19 @@
 				observe_type: 0
 				to_observe: "immersiveengineering:arc_furnace"
 			}]
+			rewards: [
+				{
+					id: "5C6C88907048DA3F"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "07A68EA028E4AA87"
+					type: "item"
+					item: "mekanism:ingot_steel"
+					count: 16
+				}
+			]
 		}
 		{
 			title: "Build an &6Assembler"
@@ -313,6 +394,19 @@
 				observe_type: 0
 				to_observe: "immersiveengineering:assembler"
 			}]
+			rewards: [
+				{
+					id: "7F30BE74A33ECEAA"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "4E8624946FBDE5D8"
+					type: "item"
+					item: "immersiveengineering:treated_wood_horizontal"
+					count: 8
+				}
+			]
 		}
 		{
 			title: "Build a &6Bottling Machine"
@@ -344,6 +438,19 @@
 				observe_type: 0
 				to_observe: "immersiveengineering:bottling_machine"
 			}]
+			rewards: [
+				{
+					id: "21F2A452CD73BCDC"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "6A7898D42CBDF98B"
+					type: "item"
+					item: "minecraft:glass_bottle"
+					count: 8
+				}
+			]
 		}
 		{
 			title: "Build a &6Crusher"
@@ -370,6 +477,19 @@
 				observe_type: 0
 				to_observe: "immersiveengineering:crusher"
 			}]
+			rewards: [
+				{
+					id: "7A309A8EF39A45B2"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "1C17098D1AD6484E"
+					type: "item"
+					item: "thermal:iron_dust"
+					count: 8
+				}
+			]
 		}
 		{
 			title: "Build a &6Diesel Generator"
@@ -397,6 +517,18 @@
 				observe_type: 0
 				to_observe: "immersiveengineering:diesel_generator"
 			}]
+			rewards: [
+				{
+					id: "3FF0FDFC52EDDE4F"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "3F25E59D435DEB80"
+					type: "item"
+					item: "immersiveengineering:biodiesel_bucket"
+				}
+			]
 		}
 		{
 			title: "Build a &6Distillation Tower"
@@ -424,6 +556,18 @@
 				observe_type: 0
 				to_observe: "immersivepetroleum:distillationtower"
 			}]
+			rewards: [
+				{
+					id: "4192A02C6568ED6D"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "6681115A0C8051AB"
+					type: "item"
+					item: "immersivepetroleum:auto_lubricator"
+				}
+			]
 		}
 		{
 			title: "Build an &6Industrial Fermenter"
@@ -451,6 +595,18 @@
 				observe_type: 0
 				to_observe: "immersiveengineering:fermenter"
 			}]
+			rewards: [
+				{
+					id: "3EDABC23DDA6431D"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "289F778245ADA400"
+					type: "item"
+					item: "immersiveengineering:ethanol_bucket"
+				}
+			]
 		}
 		{
 			title: "Build an &6Improved Blast Furnace"
@@ -471,6 +627,11 @@
 				timer: 15L
 				observe_type: 0
 				to_observe: "immersiveengineering:advanced_blast_furnace"
+			}]
+			rewards: [{
+				id: "4C27838CAB51A281"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -505,6 +666,19 @@
 				observe_type: 0
 				to_observe: "immersiveengineering:lightning_rod"
 			}]
+			rewards: [
+				{
+					id: "1E096F74DE934685"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "0EB0763BFA828889"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 8
+				}
+			]
 		}
 		{
 			title: "Build a &6Metal Press"
@@ -534,6 +708,19 @@
 				observe_type: 0
 				to_observe: "immersiveengineering:metal_press"
 			}]
+			rewards: [
+				{
+					id: "5DF3D0AC3765B0F7"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "7954222F76A3F2D4"
+					type: "item"
+					item: "immersiveengineering:plate_steel"
+					count: 4
+				}
+			]
 		}
 		{
 			title: "Build a &6Mixer"
@@ -561,6 +748,24 @@
 				observe_type: 0
 				to_observe: "immersiveengineering:mixer"
 			}]
+			rewards: [
+				{
+					id: "26241673F876D4B0"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "270B16FCAF5E0707"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:leaping"
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Build a &6Pumpjack"
@@ -595,6 +800,18 @@
 				observe_type: 0
 				to_observe: "immersivepetroleum:pumpjack"
 			}]
+			rewards: [
+				{
+					id: "70DDC74BC8434A7E"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "5A20F3A215F9CFFB"
+					type: "item"
+					item: "immersivepetroleum:oil_bucket"
+				}
+			]
 		}
 		{
 			title: "Build a &6Refinery"
@@ -622,6 +839,18 @@
 				observe_type: 0
 				to_observe: "immersiveengineering:refinery"
 			}]
+			rewards: [
+				{
+					id: "3024652B97D3F53D"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "39BE4F73428EF758"
+					type: "item"
+					item: "immersiveengineering:biodiesel_bucket"
+				}
+			]
 		}
 		{
 			title: "Build a &6Squeezer"
@@ -653,6 +882,18 @@
 				observe_type: 0
 				to_observe: "immersiveengineering:squeezer"
 			}]
+			rewards: [
+				{
+					id: "14332F0DB3F508AA"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "05A9B41DADFBE843"
+					type: "item"
+					item: "immersiveengineering:plantoil_bucket"
+				}
+			]
 		}
 		{
 			title: "Build a &6Tank"
@@ -680,6 +921,18 @@
 				observe_type: 0
 				to_observe: "immersiveengineering:tank"
 			}]
+			rewards: [
+				{
+					id: "4119354BDA751B14"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "61A3F9C28DB4C508"
+					type: "item"
+					item: "immersiveengineering:creosote_bucket"
+				}
+			]
 		}
 		{
 			title: "Build a &6Coker"
@@ -715,6 +968,24 @@
 				observe_type: 0
 				to_observe: "immersivepetroleum:cokerunit"
 			}]
+			rewards: [
+				{
+					id: "72E4097C1B1E7794"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "39FDCD98F3F78727"
+					type: "item"
+					item: "immersivepetroleum:bitumen"
+					count: 8
+				}
+				{
+					id: "61F17B118C5FB17A"
+					type: "item"
+					item: "immersivepetroleum:petcoke"
+				}
+			]
 		}
 		{
 			x: 11.0d
@@ -728,6 +999,27 @@
 				type: "item"
 				item: "immersiveengineering:sample_drill"
 			}]
+			rewards: [
+				{
+					id: "10A1E3DB2A560AD6"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+				{
+					id: "696010FB5152948F"
+					type: "item"
+					item: {
+						id: "immersiveengineering:skyhook"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Size: 2
+								Items: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 11.0d
@@ -740,6 +1032,12 @@
 				id: "16A5C6385D120B50"
 				type: "item"
 				item: "immersiveengineering:workbench"
+			}]
+			rewards: [{
+				id: "21B1732B5DDC44EE"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 8
 			}]
 		}
 		{
@@ -757,6 +1055,18 @@
 				type: "item"
 				item: "immersiveengineering:capacitor_lv"
 			}]
+			rewards: [
+				{
+					id: "528F4676756201B7"
+					type: "item"
+					item: "minecraft:redstone_block"
+				}
+				{
+					id: "2348B678FF51100F"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 18.5d
@@ -775,6 +1085,18 @@
 				type: "item"
 				item: "immersiveengineering:capacitor_mv"
 			}]
+			rewards: [
+				{
+					id: "407405C837535C84"
+					type: "item"
+					item: "thermal:electrum_block"
+				}
+				{
+					id: "21ADAEB6C1BD5F5B"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 20.5d
@@ -794,6 +1116,18 @@
 				type: "item"
 				item: "immersiveengineering:capacitor_hv"
 			}]
+			rewards: [
+				{
+					id: "7437C06CA764271C"
+					type: "item"
+					item: "thermal:invar_block"
+				}
+				{
+					id: "445E5965FFE79895"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 9.0d
@@ -810,6 +1144,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "7FBFC2F4A3407DC3"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -828,6 +1167,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3864A6A20259F321"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 15.5d
@@ -838,6 +1182,11 @@
 			id: "34223067CD59C964"
 			tasks: [{
 				id: "285F68BF2ED4A50D"
+				type: "item"
+				item: "immersiveengineering:watermill"
+			}]
+			rewards: [{
+				id: "2A4F84569541032D"
 				type: "item"
 				item: "immersiveengineering:watermill"
 			}]
@@ -853,6 +1202,12 @@
 				id: "09CBD39AEDFCCBFA"
 				type: "item"
 				item: "immersiveengineering:windmill"
+			}]
+			rewards: [{
+				id: "24C44E04AA2B3B24"
+				type: "item"
+				item: "thermal:invar_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -870,6 +1225,11 @@
 				type: "item"
 				item: "immersiveengineering:windmill_sail"
 			}]
+			rewards: [{
+				id: "470012B829B84A80"
+				type: "item"
+				item: "immersiveengineering:windmill_sail"
+			}]
 		}
 		{
 			x: 17.5d
@@ -881,6 +1241,11 @@
 				id: "4CF528F424020C94"
 				type: "item"
 				item: "immersiveengineering:dynamo"
+			}]
+			rewards: [{
+				id: "258512ACA3AE9278"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -913,6 +1278,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "17FAA0BAE8E6C5A3"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 15.5d
@@ -944,6 +1314,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1FF56F051A19F090"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Improved Blast Furnace requirement"
@@ -968,6 +1343,12 @@
 					item: "minecraft:hopper"
 				}
 			]
+			rewards: [{
+				id: "5BA122F4C7F91992"
+				type: "item"
+				item: "immersiveengineering:coal_coke"
+				count: 16
+			}]
 		}
 		{
 			x: 17.5d
@@ -1003,6 +1384,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7CFD4B4A56F78672"
+				type: "item"
+				item: "immersiveengineering:hemp_fabric"
+				count: 4
+			}]
 		}
 		{
 			x: 18.5d
@@ -1020,6 +1407,12 @@
 				type: "item"
 				item: "immersiveengineering:thermoelectric_generator"
 			}]
+			rewards: [{
+				id: "5170EECC12DC3057"
+				type: "item"
+				item: "immersiveengineering:wire_copper"
+				count: 4
+			}]
 		}
 		{
 			x: 7.0d
@@ -1030,6 +1423,20 @@
 				id: "7D4B18108092A8C6"
 				type: "item"
 				item: "immersiveengineering:manual"
+			}]
+			rewards: [{
+				id: "60B5B4B3B722C359"
+				type: "item"
+				item: {
+					id: "immersiveengineering:toolbox"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 23
+							Items: [ ]
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -1058,6 +1465,19 @@
 				observe_type: 0
 				to_observe: "immersiveengineering:silo"
 			}]
+			rewards: [
+				{
+					id: "65AC39EB5DA46321"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "2814D8A07D896DCE"
+					type: "item"
+					item: "minecraft:wheat"
+					count: 16
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -1072,6 +1492,12 @@
 				id: "2DEDB584A782952C"
 				type: "item"
 				item: "immersiveengineering:conveyor_basic"
+			}]
+			rewards: [{
+				id: "5B7275EB373EFB96"
+				type: "item"
+				item: "minecraft:leather"
+				count: 6
 			}]
 		}
 		{
@@ -1091,6 +1517,11 @@
 				type: "item"
 				item: "immersiveengineering:charging_station"
 			}]
+			rewards: [{
+				id: "26658D385ED2474C"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 10.0d
@@ -1100,6 +1531,11 @@
 			id: "07D65D087AEE1748"
 			tasks: [{
 				id: "0756EE42DD28702A"
+				type: "item"
+				item: "immersiveengineering:blastfurnace_preheater"
+			}]
+			rewards: [{
+				id: "7F03C1DDF4FD7248"
 				type: "item"
 				item: "immersiveengineering:blastfurnace_preheater"
 			}]
@@ -1114,6 +1550,12 @@
 				type: "item"
 				item: "thermal:constantan_ingot"
 			}]
+			rewards: [{
+				id: "545E13AB65AD1EE4"
+				type: "item"
+				item: "thermal:copper_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: 6.0d
@@ -1124,6 +1566,12 @@
 				id: "04B400861C87A78B"
 				type: "item"
 				item: "immersiveengineering:treated_wood_horizontal"
+			}]
+			rewards: [{
+				id: "05999175874BF0AF"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 8
 			}]
 		}
 		{
@@ -1140,6 +1588,11 @@
 			id: "07922BF1DC0DB8FE"
 			tasks: [{
 				id: "3E66B8310B5FB54F"
+				type: "item"
+				item: "chromasky:mechanic_core_tier_1"
+			}]
+			rewards: [{
+				id: "67557A11B9AC57DA"
 				type: "item"
 				item: "chromasky:mechanic_core_tier_1"
 			}]
@@ -1229,17 +1682,29 @@
 					count: 2L
 				}
 			]
-			rewards: [{
-				id: "58C805FF051FE043"
-				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "patchouli:cs2-machine-manual"
+			rewards: [
+				{
+					id: "58C805FF051FE043"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "patchouli:cs2-machine-manual"
+						}
 					}
 				}
-			}]
+				{
+					id: "7816BB181640A2F0"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "4C70D9072D265B5B"
+					type: "item"
+					item: "chromasky:mechanic_core_tier_1"
+				}
+			]
 		}
 	]
 }

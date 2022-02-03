@@ -19,6 +19,12 @@
 				type: "item"
 				item: "mob_grinding_utils:tank"
 			}]
+			rewards: [{
+				id: "3CCCE035B62C046F"
+				type: "item"
+				item: "glassential:glass_dark"
+				count: 4
+			}]
 		}
 		{
 			x: -1.0d
@@ -30,6 +36,12 @@
 				id: "349B85F16AE30D9E"
 				type: "item"
 				item: "mob_grinding_utils:jumbo_tank"
+			}]
+			rewards: [{
+				id: "0C8C65C3928EBE44"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 2
 			}]
 		}
 		{
@@ -44,6 +56,12 @@
 				type: "item"
 				item: "mob_grinding_utils:tank_sink"
 			}]
+			rewards: [{
+				id: "6258C3C27137F31E"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_baby"
+				count: 8
+			}]
 		}
 		{
 			x: 0.0d
@@ -55,6 +73,11 @@
 				id: "196EB5D147D30EBD"
 				type: "item"
 				item: "mob_grinding_utils:xp_tap"
+			}]
+			rewards: [{
+				id: "3B9613387B8A2687"
+				type: "item"
+				item: "minecraft:obsidian"
 			}]
 		}
 		{
@@ -71,6 +94,11 @@
 				type: "item"
 				item: "mob_grinding_utils:absorption_hopper"
 			}]
+			rewards: [{
+				id: "1E09A4059EF1D673"
+				type: "item"
+				item: "minecraft:hopper"
+			}]
 		}
 		{
 			x: -0.5d
@@ -84,6 +112,11 @@
 				type: "item"
 				item: "mob_grinding_utils:saw"
 			}]
+			rewards: [{
+				id: "21B2DD78A506DFA2"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 0.5d
@@ -94,6 +127,11 @@
 				id: "7E53B76A57582019"
 				type: "item"
 				item: "mob_grinding_utils:dragon_muffler"
+			}]
+			rewards: [{
+				id: "28BE70E8D0DC15B6"
+				type: "item"
+				item: "minecraft:dragon_egg"
 			}]
 		}
 		{
@@ -106,6 +144,11 @@
 				type: "item"
 				item: "mob_grinding_utils:wither_muffler"
 			}]
+			rewards: [{
+				id: "492C868193F7A662"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+			}]
 		}
 		{
 			x: 0.0d
@@ -115,6 +158,11 @@
 			id: "6791D7CE47B0AD5A"
 			tasks: [{
 				id: "4F52EBBAE495052F"
+				type: "item"
+				item: "mob_grinding_utils:fan"
+			}]
+			rewards: [{
+				id: "3A7B73480F2A2E7B"
 				type: "item"
 				item: "mob_grinding_utils:fan"
 			}]
@@ -131,6 +179,11 @@
 				type: "item"
 				item: "mob_grinding_utils:fan_upgrade_width"
 			}]
+			rewards: [{
+				id: "6451A525C3FF4F4F"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -0.5d
@@ -143,6 +196,11 @@
 				id: "75A2B1FA6746ED5F"
 				type: "item"
 				item: "mob_grinding_utils:fan_upgrade_height"
+			}]
+			rewards: [{
+				id: "3C5372BAE3C2227D"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -157,6 +215,11 @@
 				type: "item"
 				item: "mob_grinding_utils:fan_upgrade_speed"
 			}]
+			rewards: [{
+				id: "08CFD5452C211DAA"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -0.5d
@@ -169,6 +232,11 @@
 				id: "5F3E543E08709B86"
 				type: "item"
 				item: "mob_grinding_utils:absorption_upgrade"
+			}]
+			rewards: [{
+				id: "480B8EF40B04AFEC"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -183,6 +251,11 @@
 				type: "item"
 				item: "mob_grinding_utils:saw_upgrade_arthropod"
 			}]
+			rewards: [{
+				id: "6CA94F1B337B001D"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 0.0d
@@ -195,6 +268,11 @@
 				id: "2F377F086ABFF099"
 				type: "item"
 				item: "mob_grinding_utils:saw_upgrade_beheading"
+			}]
+			rewards: [{
+				id: "3CCE99DD11D43A58"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -209,6 +287,11 @@
 				type: "item"
 				item: "mob_grinding_utils:saw_upgrade_fire"
 			}]
+			rewards: [{
+				id: "149F5E7F8D4C9384"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 0.5d
@@ -221,6 +304,11 @@
 				id: "3DE25F1850596D33"
 				type: "item"
 				item: "mob_grinding_utils:saw_upgrade_looting"
+			}]
+			rewards: [{
+				id: "53AD72C55DE525EC"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -235,6 +323,11 @@
 				type: "item"
 				item: "mob_grinding_utils:saw_upgrade_sharpness"
 			}]
+			rewards: [{
+				id: "235FF79CB15DFAD0"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -1.5d
@@ -248,6 +341,11 @@
 				type: "item"
 				item: "mob_grinding_utils:saw_upgrade_smite"
 			}]
+			rewards: [{
+				id: "5220FB838D4543FC"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 6.0d
@@ -259,6 +357,12 @@
 				id: "0D16BBF46BF4634D"
 				type: "item"
 				item: "darkutils:blank_plate"
+			}]
+			rewards: [{
+				id: "597E57519F4D20D7"
+				type: "item"
+				item: "minecraft:ink_sac"
+				count: 4
 			}]
 		}
 		{
@@ -273,6 +377,11 @@
 				type: "item"
 				item: "darkutils:vector_plate"
 			}]
+			rewards: [{
+				id: "1F754AE27C7E5109"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 8.5d
@@ -285,6 +394,11 @@
 				id: "1B5067D0EE00DF9F"
 				type: "item"
 				item: "darkutils:export_plate"
+			}]
+			rewards: [{
+				id: "109EA2B0BABFA1C9"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -299,6 +413,11 @@
 				type: "item"
 				item: "darkutils:import_plate"
 			}]
+			rewards: [{
+				id: "1E027EB076D1F43F"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 5.5d
@@ -311,6 +430,11 @@
 				id: "4577EDCAF9FF9208"
 				type: "item"
 				item: "darkutils:vector_plate_fast"
+			}]
+			rewards: [{
+				id: "0E6A2DD13B4D0F8E"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -325,6 +449,11 @@
 				type: "item"
 				item: "darkutils:export_plate_fast"
 			}]
+			rewards: [{
+				id: "11CEB038F4542758"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 3.0d
@@ -337,6 +466,11 @@
 				id: "4808918C3B008D0B"
 				type: "item"
 				item: "darkutils:import_plate_fast"
+			}]
+			rewards: [{
+				id: "661D27B473E1AAD7"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -351,6 +485,11 @@
 				type: "item"
 				item: "darkutils:vector_plate_extreme"
 			}]
+			rewards: [{
+				id: "04C2C1393F313E45"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 9.0d
@@ -363,6 +502,11 @@
 				id: "3AF5A485E99953D9"
 				type: "item"
 				item: "darkutils:export_plate_extreme"
+			}]
+			rewards: [{
+				id: "55973287B7955D99"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -377,6 +521,11 @@
 				type: "item"
 				item: "darkutils:import_plate_extreme"
 			}]
+			rewards: [{
+				id: "6DFA6BCCB44EF794"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 6.5d
@@ -389,6 +538,11 @@
 				id: "39DC6692F617C239"
 				type: "item"
 				item: "darkutils:rune_damage"
+			}]
+			rewards: [{
+				id: "3A7367308E251E93"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -403,6 +557,11 @@
 				type: "item"
 				item: "darkutils:rune_damage_player"
 			}]
+			rewards: [{
+				id: "549CB5E9283B02E1"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 4.0d
@@ -415,6 +574,11 @@
 				id: "0B3A1192C80AF4FB"
 				type: "item"
 				item: "darkutils:rune_poison"
+			}]
+			rewards: [{
+				id: "66D865DDD256494A"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -429,6 +593,11 @@
 				type: "item"
 				item: "darkutils:rune_weakness"
 			}]
+			rewards: [{
+				id: "66B203BE02130D84"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 6.5d
@@ -441,6 +610,11 @@
 				id: "1CF25DC8BFC5F958"
 				type: "item"
 				item: "darkutils:rune_slowness"
+			}]
+			rewards: [{
+				id: "0F49E0494A42F893"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -455,6 +629,11 @@
 				type: "item"
 				item: "darkutils:rune_wither"
 			}]
+			rewards: [{
+				id: "0EC70310520487C0"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 5.0d
@@ -467,6 +646,11 @@
 				id: "1D91C00E62512E59"
 				type: "item"
 				item: "darkutils:rune_fire"
+			}]
+			rewards: [{
+				id: "7A6A998C6BAF648B"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -481,6 +665,11 @@
 				type: "item"
 				item: "darkutils:rune_fatigue"
 			}]
+			rewards: [{
+				id: "4F0494D1B5465487"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 5.0d
@@ -493,6 +682,11 @@
 				id: "758889F75D1044EB"
 				type: "item"
 				item: "darkutils:rune_glowing"
+			}]
+			rewards: [{
+				id: "19000DF43A6C2F79"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -507,6 +701,11 @@
 				type: "item"
 				item: "darkutils:rune_hunger"
 			}]
+			rewards: [{
+				id: "6C3F8E2EB6535FA7"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 8.0d
@@ -519,6 +718,11 @@
 				id: "7D11F43A183E7CE4"
 				type: "item"
 				item: "darkutils:rune_blindness"
+			}]
+			rewards: [{
+				id: "1E2FD69ACB304B4B"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -533,6 +737,11 @@
 				type: "item"
 				item: "darkutils:rune_nausea"
 			}]
+			rewards: [{
+				id: "5B5DD908C2EB7AF2"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 7.0d
@@ -546,6 +755,11 @@
 				type: "item"
 				item: "darkutils:anchor_plate"
 			}]
+			rewards: [{
+				id: "42EA0E8BCC2A6B7B"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 6.0d
@@ -556,6 +770,11 @@
 				id: "08F2235FFEB7BA89"
 				type: "item"
 				item: "darkutils:dark_glass"
+			}]
+			rewards: [{
+				id: "66882FE5F1F348A3"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -569,6 +788,11 @@
 				type: "item"
 				item: "darkutils:charm_gluttony"
 			}]
+			rewards: [{
+				id: "448A55A7420CE95A"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 6.0d
@@ -581,6 +805,11 @@
 				type: "item"
 				item: "darkutils:charm_sleep"
 			}]
+			rewards: [{
+				id: "24A554E36259DD3F"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 5.5d
@@ -592,6 +821,11 @@
 				id: "6D3EA4449197EAE7"
 				type: "item"
 				item: "darkutils:charm_experience"
+			}]
+			rewards: [{
+				id: "1DA5AA984BDE6D56"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 	]

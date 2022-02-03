@@ -1,7 +1,7 @@
 {
-	id: "667193135C24B9B2"
-	order_index: 0
-	title: "&aCommon Rewards"
+	id: "3BA9B25D0E222D50"
+	order_index: 2
+	title: "&5Rare Rewards"
 	icon: "losttrinkets:treasure_bag"
 	loot_size: 1
 	use_title: true

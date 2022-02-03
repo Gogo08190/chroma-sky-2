@@ -1,0 +1,13 @@
+{
+	id: "4CD20479662A9A5D"
+	order_index: 8
+	title: "&ePedestal Upgrade Base Part&r"
+	icon: "pedestals:coin/default"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:gold_block" }
+		{ item: "powah:energized_steel_block" }
+		{ item: "immersiveengineering:circuit_board" }
+		{ item: "industrialforegoing:pink_slime_ingot" }
+	]
+}

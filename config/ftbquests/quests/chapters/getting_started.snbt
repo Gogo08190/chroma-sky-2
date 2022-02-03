@@ -83,6 +83,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0536720FD039281B"
+				type: "item"
+				item: {
+					id: "woodenshears:wshears_oak"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: -1.0d
@@ -95,6 +106,11 @@
 				id: "147750697E200D88"
 				type: "item"
 				item: "ftbdripper:dripper"
+			}]
+			rewards: [{
+				id: "34FEBA5B2E9FB068"
+				type: "item"
+				item: "minecraft:dirt"
 			}]
 		}
 		{
@@ -113,6 +129,11 @@
 				id: "10163FBCBB7949F5"
 				type: "item"
 				item: "ftbsluice:oak_sluice"
+			}]
+			rewards: [{
+				id: "524246A0D9EE76CB"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -188,6 +209,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "02D463E0FC54FD50"
+				type: "item"
+				item: "chromasky:1x_compressed_cobblestone"
+				count: 2
+			}]
 		}
 		{
 			x: 2.0d
@@ -229,6 +256,12 @@
 					}
 				}
 				count: 32L
+			}]
+			rewards: [{
+				id: "594F2DA56A06AD97"
+				type: "item"
+				item: "minecraft:oak_leaves"
+				count: 64
 			}]
 		}
 		{
@@ -288,6 +321,12 @@
 				type: "item"
 				item: "minecraft:composter"
 			}]
+			rewards: [{
+				id: "648DD66635802F13"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 16
+			}]
 		}
 		{
 			x: 0.5d
@@ -329,6 +368,11 @@
 			id: "424F705CF3F9E901"
 			tasks: [{
 				id: "4A8A9DCD516095C5"
+				type: "item"
+				item: "minecraft:string"
+			}]
+			rewards: [{
+				id: "189F1459E07C5378"
 				type: "item"
 				item: "minecraft:string"
 			}]
@@ -477,6 +521,7 @@
 		{
 			x: 2.0d
 			y: -2.5d
+			description: ["Now, you can make an infinite water source."]
 			dependencies: [
 				"61F227105C40D547"
 				"79AFBD2DDADB091E"
@@ -518,6 +563,13 @@
 				id: "6F41118AB803C652"
 				type: "item"
 				item: "minecraft:cobblestone"
+				count: 8L
+			}]
+			rewards: [{
+				id: "103BF300B36FFD51"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 8
 			}]
 		}
 		{
@@ -529,6 +581,11 @@
 				id: "70186AD0E113589C"
 				type: "item"
 				item: "minecraft:furnace"
+			}]
+			rewards: [{
+				id: "594FBBFC998ED248"
+				type: "item"
+				item: "chromasky:1x_compressed_cobblestone"
 			}]
 		}
 		{
@@ -552,13 +609,13 @@
 				type: "item"
 				title: "Gather 4 Iron Chunks"
 				item: "chromasky:iron_chunk"
-				count: 4L
+				count: 9L
 			}]
 			rewards: [{
 				id: "35BC19749AE9024F"
 				type: "item"
 				item: "chromasky:iron_chunk"
-				count: 16
+				count: 18
 			}]
 		}
 		{
@@ -606,6 +663,19 @@
 				type: "item"
 				item: "minecraft:iron_ingot"
 			}]
+			rewards: [
+				{
+					id: "221F8C131C89C74A"
+					type: "item"
+					item: "minecraft:iron_ore"
+					count: 4
+				}
+				{
+					id: "353DDD3E2D5EE62A"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 9.0d
@@ -621,7 +691,21 @@
 				id: "4666FA5C80B977AB"
 				type: "item"
 				item: "ftbjarmod:cast_iron_ingot"
+				count: 4L
 			}]
+			rewards: [
+				{
+					id: "45F14D9AB04DC54E"
+					type: "item"
+					item: "ftbjarmod:cast_iron_ingot"
+					count: 4
+				}
+				{
+					id: "6D75E1D72BF2038B"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			title: "My first pickaxe"
@@ -781,14 +865,26 @@
 				type: "item"
 				item: "minecraft:bowl"
 			}]
+			rewards: [{
+				id: "2647725DA820BBFF"
+				type: "item"
+				item: "minecraft:beetroot_soup"
+			}]
 		}
 		{
 			x: -1.5d
 			y: -3.5d
+			subtitle: "Luxury bucket"
+			description: ["Right click with an empty bucket on a water source to obtain a water bowl."]
 			dependencies: ["3CE7D2130059E7AE"]
 			id: "5B6ABB98D391C9A5"
 			tasks: [{
 				id: "062D8C45E4A5F6A0"
+				type: "item"
+				item: "ftbdripper:water_bowl"
+			}]
+			rewards: [{
+				id: "4B2C2C1910662009"
 				type: "item"
 				item: "ftbdripper:water_bowl"
 			}]

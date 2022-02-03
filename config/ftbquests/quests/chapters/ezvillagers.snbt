@@ -183,6 +183,12 @@
 				type: "item"
 				item: "easy_villagers:incubator"
 			}]
+			rewards: [{
+				id: "6D012DE5F7672CED"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 4
+			}]
 		}
 		{
 			icon: "minecraft:emerald"
@@ -203,6 +209,11 @@
 				id: "647EC8CE7E3A668B"
 				type: "checkmark"
 				title: "Trade Cycling"
+			}]
+			rewards: [{
+				id: "35BED5C9467B03C7"
+				type: "item"
+				item: "minecraft:emerald"
 			}]
 		}
 	]

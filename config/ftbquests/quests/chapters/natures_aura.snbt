@@ -63,6 +63,12 @@
 				type: "item"
 				item: "naturesaura:gold_leaf"
 			}]
+			rewards: [{
+				id: "55F06712767D50BF"
+				type: "item"
+				item: "naturesaura:gold_leaf"
+				count: 16
+			}]
 		}
 		{
 			x: -7.5d
@@ -74,6 +80,12 @@
 				type: "item"
 				item: "naturesaura:gold_fiber"
 			}]
+			rewards: [{
+				id: "5E8E992E0747C2D3"
+				type: "item"
+				item: "naturesaura:gold_fiber"
+				count: 16
+			}]
 		}
 		{
 			x: -2.0d
@@ -84,6 +96,12 @@
 				id: "216B792E0FE08C1F"
 				type: "item"
 				item: "naturesaura:gold_powder"
+			}]
+			rewards: [{
+				id: "191E1117868F8DAD"
+				type: "item"
+				item: "naturesaura:gold_powder"
+				count: 16
 			}]
 		}
 		{
@@ -100,6 +118,11 @@
 						"patchouli:book": "naturesaura:book"
 					}
 				}
+			}]
+			rewards: [{
+				id: "0A4A911C57AFCB92"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -129,6 +152,11 @@
 					item: "minecraft:oak_sapling"
 				}
 			]
+			rewards: [{
+				id: "088D39897E4B15CB"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "The Natural Altar"
@@ -167,6 +195,18 @@
 					type: "item"
 					item: "minecraft:stone_bricks"
 					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "1F3E25789E716B5B"
+					type: "item"
+					item: "naturesaura:token_joy"
+				}
+				{
+					id: "4522699D1C3834BE"
+					type: "random"
+					table_id: 7381842975596526002L
 				}
 			]
 		}
@@ -208,6 +248,11 @@
 					count: 8L
 				}
 			]
+			rewards: [{
+				id: "2B8AD8DFC8E69394"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 0.5d
@@ -219,6 +264,19 @@
 				type: "item"
 				item: "naturesaura:infused_iron"
 			}]
+			rewards: [
+				{
+					id: "13333F92B8F58661"
+					type: "item"
+					item: "naturesaura:infused_iron"
+					count: 2
+				}
+				{
+					id: "6D945FDBB27F5864"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -236,6 +294,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "4FD4590C093F9520"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -255,6 +318,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "30A842C7A123ED46"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -3.0d
@@ -273,6 +341,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "21416E28924B90B5"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -3.0d
@@ -290,6 +363,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "3035EB08F2D89677"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -315,6 +393,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "68907E2FCD0209A0"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -2.0d
@@ -332,6 +415,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "0A6705E0B7347441"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -351,6 +439,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0C91EEA9E4685568"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -2.0d
@@ -368,6 +461,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "7BB4C07F8FC8430B"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -393,6 +491,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "40A53D8F6D6E03C4"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -6.5d
@@ -404,6 +507,11 @@
 				id: "59D28EAFD3D85440"
 				type: "item"
 				item: "naturesaura:token_joy"
+			}]
+			rewards: [{
+				id: "2C5EB7D83F0C3A3F"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -417,6 +525,11 @@
 				type: "item"
 				item: "naturesaura:token_fear"
 			}]
+			rewards: [{
+				id: "649BB351713BE884"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -4.5d
@@ -429,6 +542,24 @@
 				type: "item"
 				item: "naturesaura:token_anger"
 			}]
+			rewards: [
+				{
+					id: "33090556F872FEB9"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:nether"
+						}
+					}
+				}
+				{
+					id: "0D05CC7F84D226E3"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -441,6 +572,24 @@
 				type: "item"
 				item: "naturesaura:token_sorrow"
 			}]
+			rewards: [
+				{
+					id: "1D5DA1275B55EF5C"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:overworld"
+						}
+					}
+				}
+				{
+					id: "6DB6CF85D90FCE57"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -451,6 +600,11 @@
 				id: "4FD869F1FBCC2593"
 				type: "item"
 				item: "naturesaura:token_euphoria"
+			}]
+			rewards: [{
+				id: "6F10206029CCB545"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -463,6 +617,11 @@
 				type: "item"
 				item: "naturesaura:token_terror"
 			}]
+			rewards: [{
+				id: "3580939D24594BAC"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 5.5d
@@ -473,6 +632,11 @@
 				id: "68549754CBE6A313"
 				type: "item"
 				item: "naturesaura:token_rage"
+			}]
+			rewards: [{
+				id: "56ECA9BA8C88396C"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -485,6 +649,11 @@
 				id: "5DF4A9A3449E800C"
 				type: "item"
 				item: "naturesaura:token_grief"
+			}]
+			rewards: [{
+				id: "2ABE94CF8CDE27C8"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -510,6 +679,18 @@
 					count: 36L
 				}
 			]
+			rewards: [
+				{
+					id: "7E46B6303DF4CD37"
+					type: "item"
+					item: "naturesaura:token_fear"
+				}
+				{
+					id: "077B65B53B3D2BEB"
+					type: "item"
+					item: "naturesaura:token_sorrow"
+				}
+			]
 		}
 		{
 			x: -11.5d
@@ -527,6 +708,11 @@
 						effect: "naturesaura:nether_grass"
 					}
 				}
+			}]
+			rewards: [{
+				id: "7C404C52B76EBCE7"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -546,6 +732,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "18A2E67B6F25BCDC"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -13.5d
@@ -563,6 +754,11 @@
 						effect: "naturesaura:cache_recharge"
 					}
 				}
+			}]
+			rewards: [{
+				id: "632804CB3BBB709D"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -582,6 +778,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "413D8CC27D83ECC1"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -10.5d
@@ -599,6 +800,11 @@
 						effect: "naturesaura:plant_boost"
 					}
 				}
+			}]
+			rewards: [{
+				id: "5CF6CDF7531E7F24"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -618,6 +824,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6C37DEF1848A45FC"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -12.0d
@@ -635,6 +846,11 @@
 				type: "item"
 				item: "naturesaura:calling_spirit"
 			}]
+			rewards: [{
+				id: "4DF4B5BC1C995ABD"
+				type: "item"
+				item: "naturesaura:calling_spirit"
+			}]
 		}
 		{
 			x: 3.5d
@@ -646,19 +862,10 @@
 				type: "item"
 				item: "naturesaura:sky_ingot"
 			}]
-		}
-		{
-			x: 3.0d
-			y: -15.5d
-			dependencies: [
-				"13D134D9CECC9EFA"
-				"7620EE9990A9DFB4"
-			]
-			id: "0A744FB4B351E4DB"
-			tasks: [{
-				id: "63C2FB29AFCC6165"
-				type: "item"
-				item: "naturesaura:time_changer"
+			rewards: [{
+				id: "0F2BF656CFC84F04"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -671,6 +878,19 @@
 				type: "item"
 				item: "naturesaura:tainted_gold"
 			}]
+			rewards: [
+				{
+					id: "1FBE7EDBE5873C0D"
+					type: "item"
+					item: "naturesaura:tainted_gold"
+					count: 2
+				}
+				{
+					id: "59CD769528E07875"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -10.5d
@@ -681,6 +901,12 @@
 				id: "3A0EBEEED2CD7F97"
 				type: "item"
 				item: "naturesaura:bottle_two_the_rebottling"
+			}]
+			rewards: [{
+				id: "774761C2876AD615"
+				type: "item"
+				item: "naturesaura:bottle_two_the_rebottling"
+				count: 4
 			}]
 		}
 		{
@@ -700,6 +926,18 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7FA68A4C3015A662"
+				type: "item"
+				item: {
+					id: "naturesaura:aura_bottle"
+					Count: 1b
+					tag: {
+						stored_type: "naturesaura:end"
+					}
+				}
+				count: 4
+			}]
 		}
 		{
 			x: -10.5d
@@ -717,6 +955,18 @@
 						stored_type: "naturesaura:nether"
 					}
 				}
+			}]
+			rewards: [{
+				id: "31C8898160D5AE8A"
+				type: "item"
+				item: {
+					id: "naturesaura:aura_bottle"
+					Count: 1b
+					tag: {
+						stored_type: "naturesaura:nether"
+					}
+				}
+				count: 4
 			}]
 		}
 		{
@@ -736,6 +986,18 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "536EC2D60CDF7EEF"
+				type: "item"
+				item: {
+					id: "naturesaura:aura_bottle"
+					Count: 1b
+					tag: {
+						stored_type: "naturesaura:overworld"
+					}
+				}
+				count: 4
+			}]
 		}
 		{
 			x: 7.5d
@@ -746,6 +1008,11 @@
 				id: "0AB0336322781E6E"
 				type: "item"
 				item: "naturesaura:clock_hand"
+			}]
+			rewards: [{
+				id: "4974540EC8CBB0AA"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -758,6 +1025,18 @@
 				type: "item"
 				item: "naturesaura:conversion_catalyst"
 			}]
+			rewards: [
+				{
+					id: "310308597F443000"
+					type: "item"
+					item: "naturesaura:sky_ingot"
+				}
+				{
+					id: "27C1A0B6CCEB89B8"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -6.5d
@@ -769,6 +1048,18 @@
 				type: "item"
 				item: "naturesaura:crushing_catalyst"
 			}]
+			rewards: [
+				{
+					id: "28F842C4033981D5"
+					type: "item"
+					item: "naturesaura:token_anger"
+				}
+				{
+					id: "4120C396BC2A633A"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			icon: "naturesaura:rf_converter"
@@ -792,6 +1083,12 @@
 					count: 18L
 				}
 			]
+			rewards: [{
+				id: "0FE22D169671578F"
+				type: "item"
+				item: "naturesaura:sky_ingot"
+				count: 2
+			}]
 		}
 		{
 			x: 14.0d
@@ -815,6 +1112,18 @@
 				type: "item"
 				item: "naturesaura:generator_limit_remover"
 			}]
+			rewards: [
+				{
+					id: "20DC5F03C133DD01"
+					type: "item"
+					item: "naturesaura:token_euphoria"
+				}
+				{
+					id: "40AB33E5D85954CF"
+					type: "item"
+					item: "naturesaura:token_rage"
+				}
+			]
 		}
 		{
 			x: 14.5d
@@ -840,6 +1149,18 @@
 				type: "item"
 				item: "naturesaura:time_changer"
 			}]
+			rewards: [
+				{
+					id: "394BC7B92CFEA785"
+					type: "item"
+					item: "naturesaura:token_euphoria"
+				}
+				{
+					id: "0E3D65CFD987F43A"
+					type: "item"
+					item: "naturesaura:token_terror"
+				}
+			]
 		}
 		{
 			x: 16.0d
@@ -860,6 +1181,11 @@
 				type: "item"
 				item: "naturesstarlight:crystal_generator"
 			}]
+			rewards: [{
+				id: "4FAE6F2E23B54F58"
+				type: "item"
+				item: "astralsorcery:rock_crystal_ore"
+			}]
 		}
 		{
 			x: 0.5d
@@ -869,6 +1195,11 @@
 			id: "072BF88D65C7F365"
 			tasks: [{
 				id: "01C9A420267B7C91"
+				type: "item"
+				item: "naturesaura:ancient_sapling"
+			}]
+			rewards: [{
+				id: "6D3D5E46FCDD2944"
 				type: "item"
 				item: "naturesaura:ancient_sapling"
 			}]
@@ -904,6 +1235,11 @@
 					count: 16L
 				}
 			]
+			rewards: [{
+				id: "47D1DC6282330AA7"
+				type: "item"
+				item: "naturesaura:token_anger"
+			}]
 		}
 		{
 			icon: "naturesaura:moss_generator"
@@ -934,6 +1270,12 @@
 					count: 16L
 				}
 			]
+			rewards: [{
+				id: "5A7C76509C704FF3"
+				type: "item"
+				item: "minecraft:mossy_cobblestone"
+				count: 32
+			}]
 		}
 		{
 			x: 15.0d
@@ -958,6 +1300,12 @@
 				id: "242409E0E0F9DA10"
 				type: "item"
 				item: "naturesaura:slime_split_generator"
+			}]
+			rewards: [{
+				id: "7EFDBE9734096FF5"
+				type: "item"
+				item: "naturesaura:tainted_gold"
+				count: 2
 			}]
 		}
 		{
@@ -1006,6 +1354,12 @@
 					count: 28L
 				}
 			]
+			rewards: [{
+				id: "3109B120AF301CAC"
+				type: "item"
+				item: "naturesaura:sky_ingot"
+				count: 2
+			}]
 		}
 		{
 			icon: "naturesaura:chorus_generator"
@@ -1034,6 +1388,11 @@
 					item: "minecraft:chorus_flower"
 				}
 			]
+			rewards: [{
+				id: "2BCE99E33AEE7E31"
+				type: "item"
+				item: "naturesaura:token_rage"
+			}]
 		}
 		{
 			x: 16.0d
@@ -1057,6 +1416,11 @@
 				type: "item"
 				item: "naturesaura:firework_generator"
 			}]
+			rewards: [{
+				id: "7624A2853D813B07"
+				type: "item"
+				item: "naturesaura:token_joy"
+			}]
 		}
 		{
 			x: 16.0d
@@ -1074,6 +1438,11 @@
 				id: "530FFBACF3EEAC82"
 				type: "item"
 				item: "naturesaura:oak_generator"
+			}]
+			rewards: [{
+				id: "3F9090F9D0BCEAD3"
+				type: "item"
+				item: "naturesaura:token_fear"
 			}]
 		}
 		{
@@ -1103,6 +1472,12 @@
 					item: "minecraft:ender_eye"
 				}
 			]
+			rewards: [{
+				id: "63F0D2C5C109C2C0"
+				type: "item"
+				item: "naturesaura:end_flower"
+				count: 2
+			}]
 		}
 		{
 			x: 14.0d
@@ -1120,6 +1495,11 @@
 				type: "item"
 				item: "naturesaura:flower_generator"
 			}]
+			rewards: [{
+				id: "54CD56B2986F0020"
+				type: "item"
+				item: "naturesaura:token_joy"
+			}]
 		}
 		{
 			x: -2.5d
@@ -1131,6 +1511,11 @@
 				type: "item"
 				item: "naturesaura:eye"
 			}]
+			rewards: [{
+				id: "1401BF4100FF6905"
+				type: "item"
+				item: "naturesaura:gold_leaf"
+			}]
 		}
 		{
 			x: -3.0d
@@ -1141,6 +1526,11 @@
 				id: "0F68011D42B19B25"
 				type: "item"
 				item: "naturesaura:eye_improved"
+			}]
+			rewards: [{
+				id: "3ABA0DC363141241"
+				type: "item"
+				item: "naturesaura:end_flower"
 			}]
 		}
 		{
@@ -1160,6 +1550,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0AD1707FCFBFB9B6"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -1.0d
@@ -1177,6 +1572,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "7717A2612AAB9FCA"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1196,6 +1596,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "113421058197E68F"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -1.0d
@@ -1214,6 +1619,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7A6E072104227C3C"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 0.0d
@@ -1231,6 +1641,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "602F73884886A05C"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1256,6 +1671,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "50780C7ABFB4DDA5"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 0.0d
@@ -1273,6 +1693,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "7B7CF6B836CFE540"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1292,6 +1717,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "23DAA38761E421E6"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 0.0d
@@ -1310,6 +1740,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "45B52DD55081AEAF"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 0.0d
@@ -1321,6 +1756,19 @@
 				type: "item"
 				item: "naturesaura:infused_stone"
 			}]
+			rewards: [
+				{
+					id: "009A3425B6A599E9"
+					type: "item"
+					item: "minecraft:stone"
+					count: 4
+				}
+				{
+					id: "0B0A91EDC9254AC4"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			icon: "naturesaura:animal_spawner"
@@ -1363,6 +1811,11 @@
 					count: 16L
 				}
 			]
+			rewards: [{
+				id: "6E00EB8030AE4704"
+				type: "item"
+				item: "naturesaura:token_euphoria"
+			}]
 		}
 		{
 			x: 0.5d
@@ -1372,6 +1825,11 @@
 			id: "2708CCE704A1ECC0"
 			tasks: [{
 				id: "387C607741C2CE9B"
+				type: "item"
+				item: "naturesaura:birth_spirit"
+			}]
+			rewards: [{
+				id: "59C97406DE7129FB"
 				type: "item"
 				item: "naturesaura:birth_spirit"
 			}]
@@ -1386,6 +1844,11 @@
 				type: "item"
 				item: "naturesaura:infused_brick"
 			}]
+			rewards: [{
+				id: "6B9D392E9635EEC3"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 1.5d
@@ -1396,6 +1859,11 @@
 				id: "6BDE2E7ED36273FB"
 				type: "item"
 				item: "naturesaura:aura_cache"
+			}]
+			rewards: [{
+				id: "35BBD15AB9504018"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1413,6 +1881,11 @@
 				type: "item"
 				item: "naturesaura:aura_trove"
 			}]
+			rewards: [{
+				id: "2E520AE2F9B5293D"
+				type: "item"
+				item: "naturesaura:sky_ingot"
+			}]
 		}
 		{
 			x: 2.0d
@@ -1423,6 +1896,11 @@
 				id: "5CF78EF1F1BE8807"
 				type: "item"
 				item: "naturesaura:netherite_finder"
+			}]
+			rewards: [{
+				id: "1FC6F38655366368"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1440,6 +1918,11 @@
 				type: "item"
 				item: "naturesaura:pet_reviver"
 			}]
+			rewards: [{
+				id: "5370DA3AD5C6D6B5"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 0.5d
@@ -1451,6 +1934,18 @@
 				type: "item"
 				item: "naturesaura:break_prevention"
 			}]
+			rewards: [
+				{
+					id: "500F46FB00CE22BB"
+					type: "item"
+					item: "naturesaura:sky_ingot"
+				}
+				{
+					id: "1BE842CF6B12208C"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -11.5d
@@ -1462,6 +1957,11 @@
 				id: "0CBC1911CEE0BCB3"
 				type: "item"
 				item: "naturesaura:end_city_finder"
+			}]
+			rewards: [{
+				id: "4576974A0FDED9AB"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1488,6 +1988,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "22E5A3306943B887"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -10.5d
@@ -1499,6 +2004,11 @@
 				id: "3A923216BF2E6E2E"
 				type: "item"
 				item: "naturesaura:fortress_finder"
+			}]
+			rewards: [{
+				id: "479E34B829590238"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1516,6 +2026,11 @@
 				id: "677159248B128DDC"
 				type: "item"
 				item: "naturesaura:death_ring"
+			}]
+			rewards: [{
+				id: "18A5C716602C4B61"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1543,6 +2058,23 @@
 					item: "minecraft:furnace"
 				}
 			]
+			rewards: [
+				{
+					id: "5770D771A07FA72B"
+					type: "item"
+					item: "naturesaura:token_fear"
+				}
+				{
+					id: "46C25CA76AF8BE81"
+					type: "item"
+					item: "naturesaura:infused_iron"
+				}
+				{
+					id: "740B729DAFD14DFE"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 10.0d
@@ -1558,6 +2090,11 @@
 				id: "7A3C7FC8C0F4BDA3"
 				type: "item"
 				item: "naturesaura:blast_furnace_booster"
+			}]
+			rewards: [{
+				id: "07EFC335C3E8A0AD"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1594,6 +2131,11 @@
 					item: "naturesaura:dimension_rail_overworld"
 				}
 			]
+			rewards: [{
+				id: "283C0CC090C5FD2A"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 5.0d
@@ -1605,6 +2147,11 @@
 				id: "1F2A7B451E9C6699"
 				type: "item"
 				item: "naturesaura:spring"
+			}]
+			rewards: [{
+				id: "756D50AD3D6F588B"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1621,6 +2168,24 @@
 				type: "item"
 				item: "naturesaura:chunk_loader"
 			}]
+			rewards: [
+				{
+					id: "03DCD6C4D0D60CB8"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:end"
+						}
+					}
+				}
+				{
+					id: "5754BE60A388AC90"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -1633,6 +2198,11 @@
 				type: "item"
 				item: "naturesaura:ender_crate"
 			}]
+			rewards: [{
+				id: "33B1184713DEB911"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 8.0d
@@ -1644,6 +2214,11 @@
 				id: "2ABDFA2A144A1520"
 				type: "item"
 				item: "naturesaura:ender_access"
+			}]
+			rewards: [{
+				id: "51B9F3504481BE8B"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1670,6 +2245,11 @@
 					item: "naturesaura:crimson_aura_mushroom"
 				}
 			]
+			rewards: [{
+				id: "6681E5E0BDD386C1"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 5.0d
@@ -1686,6 +2266,11 @@
 				type: "item"
 				item: "naturesaura:mover_cart"
 			}]
+			rewards: [{
+				id: "436C1B15AD9C36CB"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 5.0d
@@ -1701,6 +2286,24 @@
 				type: "item"
 				item: "naturesaura:spawn_lamp"
 			}]
+			rewards: [
+				{
+					id: "27272A60BDB9CAAC"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:end"
+						}
+					}
+				}
+				{
+					id: "44DED32325D7F106"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -1713,6 +2316,11 @@
 				type: "item"
 				item: "naturesaura:animal_container"
 			}]
+			rewards: [{
+				id: "482E3E36B6DB8C31"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 7.0d
@@ -1724,6 +2332,11 @@
 				id: "70B8C361900E38CD"
 				type: "item"
 				item: "naturesaura:placer"
+			}]
+			rewards: [{
+				id: "0F8BF4C6C5C576DE"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1740,6 +2353,11 @@
 				type: "item"
 				item: "naturesaura:snow_creator"
 			}]
+			rewards: [{
+				id: "684C7680F4113F7E"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 9.0d
@@ -1751,6 +2369,11 @@
 				id: "0F269E542753C366"
 				type: "item"
 				item: "naturesaura:pickup_stopper"
+			}]
+			rewards: [{
+				id: "583B3588CA541CBA"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1764,6 +2387,11 @@
 				type: "item"
 				item: "naturesaura:aura_timer"
 			}]
+			rewards: [{
+				id: "10BBDEE9605FDAB1"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 6.5d
@@ -1775,6 +2403,11 @@
 				id: "649284ACA58E392A"
 				type: "item"
 				item: "naturesaura:hopper_upgrade"
+			}]
+			rewards: [{
+				id: "567603CC00A8A8C2"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1791,6 +2424,11 @@
 				type: "item"
 				item: "naturesaura:field_creator"
 			}]
+			rewards: [{
+				id: "2F48A302B2734822"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 5.0d
@@ -1802,6 +2440,11 @@
 				id: "405679C1E28E80B8"
 				type: "item"
 				item: "naturesaura:aura_detector"
+			}]
+			rewards: [{
+				id: "16811A780841950D"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1815,6 +2458,11 @@
 				type: "item"
 				item: "naturesaura:range_visualizer"
 			}]
+			rewards: [{
+				id: "360546D53AD14353"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -1.5d
@@ -1825,6 +2473,11 @@
 				id: "50805B8B5DB1BD25"
 				type: "item"
 				item: "chromasky:magiccrystal"
+			}]
+			rewards: [{
+				id: "1831047635A5486A"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1843,6 +2496,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "365CA5D73BD6ED7E"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 1.5d
@@ -1854,6 +2512,18 @@
 				type: "item"
 				item: "naturesaura:grated_chute"
 			}]
+			rewards: [
+				{
+					id: "1A293BB1CB65F55C"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+				{
+					id: "7549D320C2598648"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 	]
 }

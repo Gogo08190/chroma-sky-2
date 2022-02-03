@@ -28,6 +28,13 @@
 				id: "6C07264DC6CA78DD"
 				type: "item"
 				item: "projecte:high_covalence_dust"
+				count: 40L
+			}]
+			rewards: [{
+				id: "712B762079519FF6"
+				type: "item"
+				item: "projecte:high_covalence_dust"
+				count: 20
 			}]
 		}
 		{
@@ -43,6 +50,13 @@
 				id: "4A240C7B3C2309AD"
 				type: "item"
 				item: "projecte:medium_covalence_dust"
+				count: 40L
+			}]
+			rewards: [{
+				id: "708E68E8E319F137"
+				type: "item"
+				item: "projecte:medium_covalence_dust"
+				count: 20
 			}]
 		}
 		{
@@ -55,6 +69,13 @@
 				id: "40CE0CF463AB46FB"
 				type: "item"
 				item: "projecte:low_covalence_dust"
+				count: 40L
+			}]
+			rewards: [{
+				id: "0E5F073604FDB2F0"
+				type: "item"
+				item: "projecte:low_covalence_dust"
+				count: 20
 			}]
 		}
 		{
@@ -73,6 +94,11 @@
 				type: "item"
 				item: "projecte:alchemical_chest"
 			}]
+			rewards: [{
+				id: "48421409E4AE9F9A"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 2.5d
@@ -88,6 +114,11 @@
 				id: "1A4439D30AFFF301"
 				type: "item"
 				item: "projecte:condenser_mk1"
+			}]
+			rewards: [{
+				id: "4837FD23BF53C3D0"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -106,6 +137,11 @@
 				type: "item"
 				item: "projecte:condenser_mk2"
 			}]
+			rewards: [{
+				id: "6BBBD860B80BE62A"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 0.5d
@@ -118,6 +154,11 @@
 				id: "484C9EA6BFD23FA2"
 				type: "item"
 				item: "projecte:dm_chestplate"
+			}]
+			rewards: [{
+				id: "6174B9215B77BB76"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -132,6 +173,11 @@
 				type: "item"
 				item: "projecte:dm_helmet"
 			}]
+			rewards: [{
+				id: "7474AFC7F400D50F"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 0.5d
@@ -145,6 +191,11 @@
 				type: "item"
 				item: "projecte:dm_leggings"
 			}]
+			rewards: [{
+				id: "6421D4BFB74523D9"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 0.5d
@@ -157,6 +208,11 @@
 				id: "2C5499A8D3B7F047"
 				type: "item"
 				item: "projecte:dm_boots"
+			}]
+			rewards: [{
+				id: "3678DA73359A8EB4"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -174,6 +230,11 @@
 				type: "item"
 				item: "projecte:rm_helmet"
 			}]
+			rewards: [{
+				id: "135964BDDAADF1AB"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 1.5d
@@ -189,6 +250,11 @@
 				id: "46282019B030C440"
 				type: "item"
 				item: "projecte:rm_chestplate"
+			}]
+			rewards: [{
+				id: "07A13E1A3DC503D2"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -206,6 +272,11 @@
 				type: "item"
 				item: "projecte:rm_leggings"
 			}]
+			rewards: [{
+				id: "43A9AB116A0F1E93"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 1.5d
@@ -221,6 +292,11 @@
 				id: "50FB99430DA7602C"
 				type: "item"
 				item: "projecte:rm_boots"
+			}]
+			rewards: [{
+				id: "1B144E3499CF5140"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -238,6 +314,11 @@
 				type: "item"
 				item: "projecte:gem_boots"
 			}]
+			rewards: [{
+				id: "7164628022E118FD"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 2.5d
@@ -253,6 +334,11 @@
 				id: "0EEB46B7F90420B3"
 				type: "item"
 				item: "projecte:gem_helmet"
+			}]
+			rewards: [{
+				id: "26B28BD04C13B030"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -270,6 +356,11 @@
 				type: "item"
 				item: "projecte:gem_chestplate"
 			}]
+			rewards: [{
+				id: "33A6ADDEEE5B5C8F"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 2.5d
@@ -285,6 +376,11 @@
 				id: "64976DA766152A78"
 				type: "item"
 				item: "projecte:gem_leggings"
+			}]
+			rewards: [{
+				id: "0A60F83C44CB8F17"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -306,6 +402,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5F61A03913124236"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
 		}
 		{
 			x: 13.5d
@@ -325,6 +427,12 @@
 						Parent: { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "772426676764246D"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
 			}]
 		}
 		{
@@ -346,6 +454,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2E727C3B08655BD7"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
 		}
 		{
 			x: 12.5d
@@ -365,6 +479,12 @@
 						Parent: { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "087555770939A6CA"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
 			}]
 		}
 		{
@@ -386,6 +506,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4C3C24D601A1F8A5"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
 		}
 		{
 			x: 12.5d
@@ -406,6 +532,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3B4AAEC3E9CE1A11"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
 		}
 		{
 			x: 13.5d
@@ -425,6 +557,12 @@
 						Parent: { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "29702FA762AD9EE4"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
 			}]
 		}
 		{
@@ -449,6 +587,12 @@
 						Parent: { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "68296C3C713C2A6A"
+				type: "item"
+				item: "projecte:dark_matter"
+				count: 2
 			}]
 		}
 		{
@@ -476,6 +620,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "41E3F3AEFDFB7592"
+				type: "item"
+				item: "projecte:dark_matter"
+				count: 2
+			}]
 		}
 		{
 			x: 10.5d
@@ -499,6 +649,12 @@
 						Parent: { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "7AB5CC5377BA4A3E"
+				type: "item"
+				item: "projecte:dark_matter"
+				count: 2
 			}]
 		}
 		{
@@ -524,6 +680,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2D7716FFCB5362B0"
+				type: "item"
+				item: "projecte:dark_matter"
+				count: 2
+			}]
 		}
 		{
 			x: 11.5d
@@ -547,6 +709,12 @@
 						Parent: { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "0FD1528D45A3EF84"
+				type: "item"
+				item: "projecte:dark_matter"
+				count: 2
 			}]
 		}
 		{
@@ -572,6 +740,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "133A8A36DC8633C5"
+				type: "item"
+				item: "projecte:dark_matter"
+				count: 2
+			}]
 		}
 		{
 			x: 11.5d
@@ -595,6 +769,12 @@
 						Parent: { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "368038EF4B3E5E85"
+				type: "item"
+				item: "projecte:dark_matter"
+				count: 2
 			}]
 		}
 		{
@@ -621,6 +801,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7C7CD6D5477BD7F4"
+				type: "item"
+				item: "projecte:dark_matter"
+				count: 2
+			}]
 		}
 		{
 			x: 11.5d
@@ -644,6 +830,12 @@
 						Parent: { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "5FB9E02B887512BA"
+				type: "item"
+				item: "projecte:dark_matter"
+				count: 2
 			}]
 		}
 		{
@@ -699,6 +891,11 @@
 				type: "item"
 				item: "projecte:collector_mk3"
 			}]
+			rewards: [{
+				id: "27F3ED2E690A3271"
+				type: "item"
+				item: "projecte:red_matter"
+			}]
 		}
 		{
 			x: 2.5d
@@ -723,6 +920,11 @@
 				type: "item"
 				item: "projecte:relay_mk3"
 			}]
+			rewards: [{
+				id: "76DED7694F8CCB0D"
+				type: "item"
+				item: "projecte:red_matter"
+			}]
 		}
 		{
 			x: 5.5d
@@ -739,6 +941,11 @@
 				type: "item"
 				item: "projecte:dm_pedestal"
 			}]
+			rewards: [{
+				id: "6CC1689D0E69E803"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 6.0d
@@ -751,6 +958,11 @@
 				id: "4E46684E43A40D59"
 				type: "item"
 				item: "projecte:dm_furnace"
+			}]
+			rewards: [{
+				id: "2279B425559CC305"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -768,6 +980,11 @@
 				type: "item"
 				item: "projecte:rm_furnace"
 			}]
+			rewards: [{
+				id: "4B7EA0D07D098FF5"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 6.0d
@@ -784,6 +1001,11 @@
 				id: "741D59BC5B8100D4"
 				type: "item"
 				item: "projectex:knowledge_sharing_book"
+			}]
+			rewards: [{
+				id: "0E537E3CA7AEB4A2"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -817,6 +1039,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "727EE6380EDF162E"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 8.0d
@@ -842,6 +1069,11 @@
 				type: "item"
 				item: "projecte:transmutation_tablet"
 			}]
+			rewards: [{
+				id: "37CD2D7F83BB80F2"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 5.0d
@@ -863,6 +1095,11 @@
 				id: "22AA3D35B786AEE3"
 				type: "item"
 				item: "projecte:transmutation_table"
+			}]
+			rewards: [{
+				id: "6A8C82B69F3634A1"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -886,6 +1123,11 @@
 						Parent: { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "7C7C84F359E74774"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -912,6 +1154,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "711EA0FDE6C2B0E4"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 9.5d
@@ -930,6 +1177,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "1875FE1D9FBE75E2"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "6741CC749CD75E9A"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 10.5d
@@ -947,6 +1206,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "6ECE6A75D4DA735F"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "243E17ED5ACF2986"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 11.5d
@@ -964,6 +1235,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "15B89ED8EDA11422"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "54E032986B297D11"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 12.5d
@@ -981,6 +1264,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "08C11AD6C96DF72F"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "09439F0DB4A64FCB"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 13.5d
@@ -998,6 +1293,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "72853C8C1729DDC7"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "21BCD9581DF74151"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 14.5d
@@ -1015,6 +1322,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "3FEA411C5CCEF090"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "0FBF9117092832D9"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 9.5d
@@ -1032,6 +1351,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "2E43DB6F7C8A583C"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "71D7C2139BA089C4"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 10.5d
@@ -1049,6 +1380,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "3A1C22C0E51698C2"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "4FDC0C820BE8381F"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 11.5d
@@ -1066,6 +1409,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "62F7AB05FADAF615"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "36F3BA1695CA2D89"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 12.5d
@@ -1083,6 +1438,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "7B3549C14929401E"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "685F8C5B00357BAC"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 13.5d
@@ -1100,6 +1467,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "65B9B9ADD92151D1"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "1E25196129267607"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 14.5d
@@ -1117,6 +1496,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "5680199C30C929ED"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "129AD0A7819D5169"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 10.5d
@@ -1134,6 +1525,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "6BBF9882298DF53A"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "2CE3E550A9CC67BB"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 9.5d
@@ -1151,6 +1554,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "4F66A67D2C23A39F"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "5C6248BFFDE1C75C"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 11.5d
@@ -1168,6 +1583,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "72928884E12D340E"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "1E8F783F622AEB3B"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 12.5d
@@ -1185,6 +1612,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "1E3D9C3D75C6A2CC"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "56D61638D598E6A8"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 13.5d
@@ -1202,6 +1641,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "277F0EC34CC8180B"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "1D52161F05D42308"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 14.5d
@@ -1219,6 +1670,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "77E6F24D05B11135"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "0E659863C2CC98B2"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 14.5d
@@ -1230,6 +1693,11 @@
 				type: "item"
 				item: "projectex:final_star_shard"
 			}]
+			rewards: [{
+				id: "539C55C8B5ACFE77"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: -0.5d
@@ -1238,6 +1706,11 @@
 			id: "71B39B732BA2FC58"
 			tasks: [{
 				id: "628A2127E5D7F861"
+				type: "item"
+				item: "projecte:alchemical_coal"
+			}]
+			rewards: [{
+				id: "5D99EDA579459B2E"
 				type: "item"
 				item: "projecte:alchemical_coal"
 			}]
@@ -1252,6 +1725,11 @@
 				type: "item"
 				item: "projecte:mobius_fuel"
 			}]
+			rewards: [{
+				id: "21198B010ECE0D30"
+				type: "item"
+				item: "projecte:mobius_fuel"
+			}]
 		}
 		{
 			x: -1.0d
@@ -1260,6 +1738,11 @@
 			id: "5078B9DF0A839D26"
 			tasks: [{
 				id: "79CB5F6775CE566E"
+				type: "item"
+				item: "projecte:aeternalis_fuel"
+			}]
+			rewards: [{
+				id: "65E8D05602E3A33F"
 				type: "item"
 				item: "projecte:aeternalis_fuel"
 			}]
@@ -1277,6 +1760,11 @@
 				type: "item"
 				item: "projecte:dark_matter"
 			}]
+			rewards: [{
+				id: "197EB0D3F61C393C"
+				type: "item"
+				item: "projecte:dark_matter"
+			}]
 		}
 		{
 			x: 1.0d
@@ -1288,6 +1776,11 @@
 			id: "3BE9F90870F5E284"
 			tasks: [{
 				id: "1C57ECFF96B0014A"
+				type: "item"
+				item: "projecte:red_matter"
+			}]
+			rewards: [{
+				id: "7A296BE8095A556F"
 				type: "item"
 				item: "projecte:red_matter"
 			}]
@@ -1305,6 +1798,11 @@
 				type: "item"
 				item: "projectex:magenta_matter"
 			}]
+			rewards: [{
+				id: "68814D74B4C3BED2"
+				type: "item"
+				item: "projectex:magenta_matter"
+			}]
 		}
 		{
 			x: 10.0d
@@ -1316,6 +1814,11 @@
 			id: "408995BE4B615C3A"
 			tasks: [{
 				id: "043DA4FB5D070339"
+				type: "item"
+				item: "projectex:yellow_matter"
+			}]
+			rewards: [{
+				id: "4DCB6866DF18ED44"
 				type: "item"
 				item: "projectex:yellow_matter"
 			}]
@@ -1333,6 +1836,11 @@
 				type: "item"
 				item: "projectex:lime_matter"
 			}]
+			rewards: [{
+				id: "0CE2114ECA79DAA7"
+				type: "item"
+				item: "projectex:lime_matter"
+			}]
 		}
 		{
 			x: 8.0d
@@ -1344,6 +1852,11 @@
 			id: "4411DE0DA987DF00"
 			tasks: [{
 				id: "0DF3844CCD333548"
+				type: "item"
+				item: "projectex:green_matter"
+			}]
+			rewards: [{
+				id: "555CD1DD8BA989B7"
 				type: "item"
 				item: "projectex:green_matter"
 			}]
@@ -1361,6 +1874,11 @@
 				type: "item"
 				item: "projectex:purple_matter"
 			}]
+			rewards: [{
+				id: "502687F1EB82058F"
+				type: "item"
+				item: "projectex:purple_matter"
+			}]
 		}
 		{
 			x: 5.0d
@@ -1372,6 +1890,11 @@
 			id: "2BACC676236BC882"
 			tasks: [{
 				id: "06D2D159198E653C"
+				type: "item"
+				item: "projectex:violet_matter"
+			}]
+			rewards: [{
+				id: "276F137EBDF09734"
 				type: "item"
 				item: "projectex:violet_matter"
 			}]
@@ -1389,6 +1912,11 @@
 				type: "item"
 				item: "projectex:blue_matter"
 			}]
+			rewards: [{
+				id: "56E9BD513171F042"
+				type: "item"
+				item: "projectex:blue_matter"
+			}]
 		}
 		{
 			x: 12.0d
@@ -1400,6 +1928,11 @@
 			id: "73B5675603018A73"
 			tasks: [{
 				id: "0884258FE7490F70"
+				type: "item"
+				item: "projectex:white_matter"
+			}]
+			rewards: [{
+				id: "11BFA6C447623EDF"
 				type: "item"
 				item: "projectex:white_matter"
 			}]
@@ -1417,6 +1950,11 @@
 				type: "item"
 				item: "projectex:cyan_matter"
 			}]
+			rewards: [{
+				id: "14D306C982343E2E"
+				type: "item"
+				item: "projectex:cyan_matter"
+			}]
 		}
 		{
 			x: 3.0d
@@ -1428,6 +1966,11 @@
 			id: "6EDBE60F50AB8294"
 			tasks: [{
 				id: "7CA2C3B0DC2DF33E"
+				type: "item"
+				item: "projectex:pink_matter"
+			}]
+			rewards: [{
+				id: "014038C6E38B20CA"
 				type: "item"
 				item: "projectex:pink_matter"
 			}]
@@ -1445,6 +1988,11 @@
 				type: "item"
 				item: "projectex:orange_matter"
 			}]
+			rewards: [{
+				id: "3CCB9B8E0CBC4C0F"
+				type: "item"
+				item: "projectex:orange_matter"
+			}]
 		}
 		{
 			x: 13.0d
@@ -1459,6 +2007,11 @@
 				type: "item"
 				item: "projectex:fading_matter"
 			}]
+			rewards: [{
+				id: "0BA6ACF5C30DA5C6"
+				type: "item"
+				item: "projectex:fading_matter"
+			}]
 		}
 		{
 			x: -1.0d
@@ -1469,6 +2022,11 @@
 				id: "586C1913F60EC7EE"
 				type: "item"
 				item: "projectex:basic_collector"
+			}]
+			rewards: [{
+				id: "2F10A8201DE72DFA"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1484,6 +2042,11 @@
 				type: "item"
 				item: "projectex:dark_collector"
 			}]
+			rewards: [{
+				id: "7877A87E45B64337"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 4.0d
@@ -1497,6 +2060,11 @@
 				id: "1D17DDEE63B0CBD8"
 				type: "item"
 				item: "projectex:purple_collector"
+			}]
+			rewards: [{
+				id: "7617AB4744F56771"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1512,6 +2080,11 @@
 				type: "item"
 				item: "projectex:green_collector"
 			}]
+			rewards: [{
+				id: "56D29D1CAB5F3C9A"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 10.0d
@@ -1525,6 +2098,11 @@
 				id: "7FCCD77E8AD071FB"
 				type: "item"
 				item: "projectex:yellow_collector"
+			}]
+			rewards: [{
+				id: "16FA536582A9C7A4"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1540,6 +2118,11 @@
 				type: "item"
 				item: "projectex:fading_collector"
 			}]
+			rewards: [{
+				id: "72BA46E2EEF9B01F"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 7.0d
@@ -1553,6 +2136,11 @@
 				id: "78266EB250710C9A"
 				type: "item"
 				item: "projectex:cyan_collector"
+			}]
+			rewards: [{
+				id: "15FCC107B4160C6B"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1568,6 +2156,11 @@
 				type: "item"
 				item: "projectex:red_collector"
 			}]
+			rewards: [{
+				id: "35912CA0948D427D"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 14.5d
@@ -1581,6 +2174,11 @@
 				id: "51919C9482C51E0F"
 				type: "item"
 				item: "projectex:final_collector"
+			}]
+			rewards: [{
+				id: "3C52565E7C5B3934"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1596,6 +2194,11 @@
 				type: "item"
 				item: "projectex:white_collector"
 			}]
+			rewards: [{
+				id: "7C49C5FA333F7240"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 2.0d
@@ -1609,6 +2212,11 @@
 				id: "511F24FDEAC322E2"
 				type: "item"
 				item: "projectex:magenta_collector"
+			}]
+			rewards: [{
+				id: "5E7EF91092C10487"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1624,6 +2232,11 @@
 				type: "item"
 				item: "projectex:orange_collector"
 			}]
+			rewards: [{
+				id: "69308A54FB436833"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 3.0d
@@ -1637,6 +2250,11 @@
 				id: "3B364C304C274D95"
 				type: "item"
 				item: "projectex:pink_collector"
+			}]
+			rewards: [{
+				id: "37F3B0E18C4C2DF7"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1652,6 +2270,11 @@
 				type: "item"
 				item: "projectex:violet_collector"
 			}]
+			rewards: [{
+				id: "7DAE3DE66993304A"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 9.0d
@@ -1666,6 +2289,11 @@
 				type: "item"
 				item: "projectex:lime_collector"
 			}]
+			rewards: [{
+				id: "57D19087405B3FFE"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 6.0d
@@ -1679,6 +2307,11 @@
 				id: "4E637CEC045E0E6C"
 				type: "item"
 				item: "projectex:blue_collector"
+			}]
+			rewards: [{
+				id: "11A8BC7FEA1CFDCF"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1698,6 +2331,11 @@
 				type: "item"
 				item: "projectex:energy_link"
 			}]
+			rewards: [{
+				id: "21F79E87E0B7FBC7"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 0.0d
@@ -1711,6 +2349,11 @@
 				id: "4EB63AE6A7C06D52"
 				type: "item"
 				item: "projectex:dark_relay"
+			}]
+			rewards: [{
+				id: "452E7B8D9FBDCBE9"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1726,6 +2369,11 @@
 				type: "item"
 				item: "projectex:green_relay"
 			}]
+			rewards: [{
+				id: "68E4E8C89C0DCCD0"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 7.0d
@@ -1739,6 +2387,11 @@
 				id: "4DA294C3FDAA4AD4"
 				type: "item"
 				item: "projectex:cyan_relay"
+			}]
+			rewards: [{
+				id: "590D2B0BBB87F906"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1754,6 +2407,11 @@
 				type: "item"
 				item: "projectex:magenta_relay"
 			}]
+			rewards: [{
+				id: "7618DE35B69C8F48"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 5.0d
@@ -1767,6 +2425,11 @@
 				id: "5C93F2766CB900F8"
 				type: "item"
 				item: "projectex:violet_relay"
+			}]
+			rewards: [{
+				id: "30171377B7B22C25"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1782,6 +2445,11 @@
 				type: "item"
 				item: "projectex:yellow_relay"
 			}]
+			rewards: [{
+				id: "0E5A4C52C6D11DF5"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 12.0d
@@ -1795,6 +2463,11 @@
 				id: "33546F60FD7F1016"
 				type: "item"
 				item: "projectex:white_relay"
+			}]
+			rewards: [{
+				id: "28FEC33E2E92D0C2"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1810,6 +2483,11 @@
 				type: "item"
 				item: "projectex:final_relay"
 			}]
+			rewards: [{
+				id: "40341AC8B8041A79"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 13.0d
@@ -1824,6 +2502,11 @@
 				type: "item"
 				item: "projectex:fading_relay"
 			}]
+			rewards: [{
+				id: "5D97DFB10DDA9B7F"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: -1.0d
@@ -1834,6 +2517,11 @@
 				id: "6739B7ACECE2B110"
 				type: "item"
 				item: "projectex:basic_relay"
+			}]
+			rewards: [{
+				id: "37DF812D17DFA08C"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1849,6 +2537,11 @@
 				type: "item"
 				item: "projectex:pink_relay"
 			}]
+			rewards: [{
+				id: "083D9807659CD491"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 6.0d
@@ -1862,6 +2555,11 @@
 				id: "7049EFA487DD008C"
 				type: "item"
 				item: "projectex:blue_relay"
+			}]
+			rewards: [{
+				id: "492E0D10572331E6"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1877,6 +2575,11 @@
 				type: "item"
 				item: "projectex:lime_relay"
 			}]
+			rewards: [{
+				id: "66B7B69741C26018"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 11.0d
@@ -1890,6 +2593,11 @@
 				id: "26E0D2F69BE0FA1A"
 				type: "item"
 				item: "projectex:orange_relay"
+			}]
+			rewards: [{
+				id: "5BB08B945984E386"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1905,6 +2613,11 @@
 				type: "item"
 				item: "projectex:purple_relay"
 			}]
+			rewards: [{
+				id: "717DCA8D9F3D88DF"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 1.0d
@@ -1918,6 +2631,11 @@
 				id: "66EAC3F0A99815C8"
 				type: "item"
 				item: "projectex:red_relay"
+			}]
+			rewards: [{
+				id: "4F0DB863E6DD1FCB"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1943,6 +2661,11 @@
 				type: "item"
 				item: "projecte:tome"
 			}]
+			rewards: [{
+				id: "2320E286C8F771D0"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 10.0d
@@ -1958,6 +2681,11 @@
 				type: "item"
 				item: "projectex:yellow_power_flower"
 			}]
+			rewards: [{
+				id: "55D9F0DF1AFCB9CF"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 9.0d
@@ -1972,6 +2700,11 @@
 				id: "20287D9950E0CB9A"
 				type: "item"
 				item: "projectex:lime_power_flower"
+			}]
+			rewards: [{
+				id: "5F615D4786DBB41E"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1990,6 +2723,11 @@
 				type: "item"
 				item: "projectex:final_power_flower"
 			}]
+			rewards: [{
+				id: "2FB4558BFBBE963D"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 13.0d
@@ -2004,6 +2742,11 @@
 				id: "54F149991160EA13"
 				type: "item"
 				item: "projectex:fading_power_flower"
+			}]
+			rewards: [{
+				id: "44519FDD0F5323F5"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -2020,6 +2763,11 @@
 				type: "item"
 				item: "projectex:magenta_power_flower"
 			}]
+			rewards: [{
+				id: "4542475F9FB85F0C"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 6.0d
@@ -2034,6 +2782,11 @@
 				id: "6B81FE3B4709BAD4"
 				type: "item"
 				item: "projectex:blue_power_flower"
+			}]
+			rewards: [{
+				id: "4AFAFDAD96391519"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -2050,6 +2803,11 @@
 				type: "item"
 				item: "projectex:dark_power_flower"
 			}]
+			rewards: [{
+				id: "4D3754AA428E7415"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 1.0d
@@ -2064,6 +2822,11 @@
 				id: "358DA4466717D145"
 				type: "item"
 				item: "projectex:red_power_flower"
+			}]
+			rewards: [{
+				id: "65466BCA420D4C04"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -2080,6 +2843,11 @@
 				type: "item"
 				item: "projectex:white_power_flower"
 			}]
+			rewards: [{
+				id: "55E0B893679F0B52"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 3.0d
@@ -2094,6 +2862,11 @@
 				id: "63EEC03E821FCA51"
 				type: "item"
 				item: "projectex:pink_power_flower"
+			}]
+			rewards: [{
+				id: "4091C1DB481AA257"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -2110,6 +2883,11 @@
 				type: "item"
 				item: "projectex:cyan_power_flower"
 			}]
+			rewards: [{
+				id: "46C29A9F3DF1CB40"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 4.0d
@@ -2124,6 +2902,11 @@
 				id: "2BCB04C84ED208B9"
 				type: "item"
 				item: "projectex:purple_power_flower"
+			}]
+			rewards: [{
+				id: "2978B505FA82C08C"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -2140,6 +2923,11 @@
 				type: "item"
 				item: "projectex:basic_power_flower"
 			}]
+			rewards: [{
+				id: "51121F15CD72F56F"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 8.0d
@@ -2154,6 +2942,11 @@
 				id: "6DA233E7BDD5579D"
 				type: "item"
 				item: "projectex:green_power_flower"
+			}]
+			rewards: [{
+				id: "4DC8EDE3CE1A6CB2"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -2170,6 +2963,11 @@
 				type: "item"
 				item: "projectex:violet_power_flower"
 			}]
+			rewards: [{
+				id: "44EE50B6BA34560A"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 11.0d
@@ -2184,6 +2982,11 @@
 				id: "610D3EA1E51AE4EB"
 				type: "item"
 				item: "projectex:orange_power_flower"
+			}]
+			rewards: [{
+				id: "36ABE2F7746BF87F"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{

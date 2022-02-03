@@ -1,0 +1,28 @@
+{
+	id: "4A1C774A6AFD1A0A"
+	order_index: 1
+	title: "Random Cluster"
+	icon: "chromasky:redstone_cluster"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "chromasky:iron_cluster" }
+		{ item: "chromasky:gold_cluster" }
+		{ item: "chromasky:diamond_cluster" }
+		{ item: "chromasky:lapis_cluster" }
+		{ item: "chromasky:quartz_cluster" }
+		{ item: "chromasky:redstone_cluster" }
+		{ item: "chromasky:emerald_cluster" }
+		{ item: "chromasky:copper_cluster" }
+		{ item: "chromasky:cobalt_cluster" }
+		{ item: "chromasky:lead_cluster" }
+		{ item: "chromasky:tin_cluster" }
+		{ item: "chromasky:silver_cluster" }
+		{ item: "chromasky:nickel_cluster" }
+		{ item: "chromasky:osmium_cluster" }
+		{ item: "chromasky:fluorite_cluster" }
+		{ item: "chromasky:uranium_cluster" }
+		{ item: "chromasky:aluminum_cluster" }
+		{ item: "chromasky:coal_cluster" }
+	]
+}

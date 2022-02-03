@@ -18,6 +18,11 @@
 				type: "item"
 				item: "miniutilities:cursed_earth"
 			}]
+			rewards: [{
+				id: "4A8F6B0C057EB05B"
+				type: "item"
+				item: "chromasky:drop_of_darkness"
+			}]
 		}
 		{
 			x: 1.5d
@@ -28,6 +33,11 @@
 				id: "5ABFB22AF1CDA1AE"
 				type: "item"
 				item: "miniutilities:blessed_earth"
+			}]
+			rewards: [{
+				id: "4F58767E2052AB43"
+				type: "item"
+				item: "chromasky:drop_of_peacefulless"
 			}]
 		}
 		{
@@ -43,16 +53,30 @@
 				type: "item"
 				item: "miniutilities:blursed_earth"
 			}]
+			rewards: [{
+				id: "674B3FF848148C5E"
+				type: "item"
+				item: "miniutilities:unstable_block"
+			}]
 		}
 		{
 			x: 1.0d
 			y: -0.5d
 			shape: "diamond"
+			dependencies: [
+				"793F6D3707268AFB"
+				"5B6ABB98D391C9A5"
+			]
 			id: "180A11DC5CDCAB8E"
 			tasks: [{
 				id: "3BFEA43A749F4C20"
 				type: "item"
 				item: "miniutilities:stone_drum"
+			}]
+			rewards: [{
+				id: "62D7B781961DB608"
+				type: "item"
+				item: "minecraft:smooth_stone"
 			}]
 		}
 		{
@@ -66,6 +90,11 @@
 				type: "item"
 				item: "miniutilities:iron_drum"
 			}]
+			rewards: [{
+				id: "15C02B42210352A0"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
 			x: 0.0d
@@ -78,6 +107,11 @@
 				type: "item"
 				item: "miniutilities:reinforced_large_drum"
 			}]
+			rewards: [{
+				id: "770D279D0C5C61CB"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
 		}
 		{
 			x: -0.5d
@@ -89,6 +123,11 @@
 				id: "750536C1A3DFF8BE"
 				type: "item"
 				item: "miniutilities:netherite_reinforced_drum"
+			}]
+			rewards: [{
+				id: "0BC299773B449B9A"
+				type: "item"
+				item: "minecraft:ancient_debris"
 			}]
 		}
 		{
@@ -106,6 +145,11 @@
 				type: "item"
 				item: "miniutilities:unstable_drum"
 			}]
+			rewards: [{
+				id: "2C0F9358F8C70F3C"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
 		}
 		{
 			x: -1.0d
@@ -117,6 +161,17 @@
 				id: "1B44F3D37401390A"
 				type: "item"
 				item: "miniutilities:wooden_spikes"
+			}]
+			rewards: [{
+				id: "243808C61BCA94C1"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -130,6 +185,17 @@
 				type: "item"
 				item: "miniutilities:iron_spikes"
 			}]
+			rewards: [{
+				id: "07A58A101CFFDFF9"
+				type: "item"
+				item: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: 0.0d
@@ -141,6 +207,17 @@
 				id: "636AA7FFA7431A79"
 				type: "item"
 				item: "miniutilities:gold_spikes"
+			}]
+			rewards: [{
+				id: "403A2619C9A41A4F"
+				type: "item"
+				item: {
+					id: "minecraft:golden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -154,6 +231,17 @@
 				type: "item"
 				item: "miniutilities:diamond_spikes"
 			}]
+			rewards: [{
+				id: "5DCA45DC581701A3"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: 1.0d
@@ -166,6 +254,11 @@
 				type: "item"
 				item: "miniutilities:netherite_spikes"
 			}]
+			rewards: [{
+				id: "706A8FC1A4FCDA4C"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
 		}
 		{
 			x: -6.5d
@@ -177,6 +270,11 @@
 				type: "item"
 				item: "miniutilities:mechanical_miner"
 			}]
+			rewards: [{
+				id: "4A2386BA9F54CAEB"
+				type: "item"
+				item: "ftbjarmod:cast_iron_ingot"
+			}]
 		}
 		{
 			x: -8.0d
@@ -187,6 +285,11 @@
 				id: "67E9375C61D33B16"
 				type: "item"
 				item: "miniutilities:mechanical_placer"
+			}]
+			rewards: [{
+				id: "32E2CB217DA9FDB7"
+				type: "item"
+				item: "minecraft:diamond"
 			}]
 		}
 		{
@@ -206,6 +309,11 @@
 				type: "item"
 				item: "miniutilities:quantum_quarry"
 			}]
+			rewards: [{
+				id: "21B633D49E966957"
+				type: "item"
+				item: "miniutilities:emerald_opinium_core"
+			}]
 		}
 		{
 			x: -3.0d
@@ -219,6 +327,11 @@
 				type: "item"
 				item: "miniutilities:solar_panel"
 			}]
+			rewards: [{
+				id: "5C7335B7AB75BB3B"
+				type: "item"
+				item: "miniutilities:ender_tile"
+			}]
 		}
 		{
 			x: 3.0d
@@ -231,6 +344,11 @@
 				id: "63C8E181454BB7B0"
 				type: "item"
 				item: "miniutilities:lunar_panel"
+			}]
+			rewards: [{
+				id: "521EA5F8F7CC3003"
+				type: "item"
+				item: "miniutilities:chorus_tile"
 			}]
 		}
 		{
@@ -249,6 +367,11 @@
 				type: "item"
 				item: "miniutilities:solar_panel_controller"
 			}]
+			rewards: [{
+				id: "171040635FA05D37"
+				type: "item"
+				item: "miniutilities:gold_opinium_core"
+			}]
 		}
 		{
 			x: -6.5d
@@ -263,6 +386,11 @@
 				id: "121855A08BE9C968"
 				type: "item"
 				item: "miniutilities:laser_hub"
+			}]
+			rewards: [{
+				id: "461067529B63561D"
+				type: "item"
+				item: "miniutilities:emerald_opinium_core"
 			}]
 		}
 		{
@@ -279,6 +407,11 @@
 				type: "item"
 				item: "miniutilities:laser_port"
 			}]
+			rewards: [{
+				id: "516E20BBA8982191"
+				type: "item"
+				item: "miniutilities:iron_opinium_core"
+			}]
 		}
 		{
 			x: -8.0d
@@ -290,6 +423,11 @@
 				type: "item"
 				item: "miniutilities:ender_lily_seeds"
 			}]
+			rewards: [{
+				id: "3A1605C73CAFD789"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -9.5d
@@ -300,6 +438,11 @@
 				id: "674FC462AEBF576C"
 				type: "item"
 				item: "miniutilities:flame_lily_seeds"
+			}]
+			rewards: [{
+				id: "353F669D21B7D079"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -321,6 +464,11 @@
 				type: "item"
 				item: "miniutilities:angel_ring"
 			}]
+			rewards: [{
+				id: "672519D1D16A21DE"
+				type: "item"
+				item: "overloaded:nether_star_block"
+			}]
 		}
 		{
 			x: -0.5d
@@ -332,6 +480,11 @@
 				id: "398A8C417AD2EFCB"
 				type: "item"
 				item: "miniutilities:unstable_helmet"
+			}]
+			rewards: [{
+				id: "253366A8E96BEFC2"
+				type: "item"
+				item: "minecraft:diamond"
 			}]
 		}
 		{
@@ -345,6 +498,11 @@
 				type: "item"
 				item: "miniutilities:unstable_chestplate"
 			}]
+			rewards: [{
+				id: "49907EC3E380B52D"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
 		}
 		{
 			x: -0.5d
@@ -356,6 +514,11 @@
 				id: "3DD8B9277ACAC045"
 				type: "item"
 				item: "miniutilities:unstable_leggings"
+			}]
+			rewards: [{
+				id: "01803D59502C5961"
+				type: "item"
+				item: "minecraft:diamond"
 			}]
 		}
 		{
@@ -369,6 +532,11 @@
 				type: "item"
 				item: "miniutilities:unstable_boots"
 			}]
+			rewards: [{
+				id: "4542F7821FA1B30B"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
 		}
 		{
 			x: 0.5d
@@ -380,6 +548,11 @@
 				id: "543A13B33C0618B8"
 				type: "item"
 				item: "miniutilities:infused_chestplate"
+			}]
+			rewards: [{
+				id: "57E8C40C178EFE20"
+				type: "item"
+				item: "miniutilities:experience_pearl"
 			}]
 		}
 		{
@@ -393,6 +566,11 @@
 				type: "item"
 				item: "miniutilities:infused_helmet"
 			}]
+			rewards: [{
+				id: "21F446F49DF37B02"
+				type: "item"
+				item: "miniutilities:experience_pearl"
+			}]
 		}
 		{
 			x: 0.5d
@@ -404,6 +582,11 @@
 				id: "3EDD9A3E20EDF608"
 				type: "item"
 				item: "miniutilities:infused_leggings"
+			}]
+			rewards: [{
+				id: "7505F16BCE593228"
+				type: "item"
+				item: "miniutilities:experience_pearl"
 			}]
 		}
 		{
@@ -417,6 +600,11 @@
 				type: "item"
 				item: "miniutilities:infused_boots"
 			}]
+			rewards: [{
+				id: "7DBEB997472C3438"
+				type: "item"
+				item: "miniutilities:experience_pearl"
+			}]
 		}
 		{
 			x: 3.0d
@@ -427,6 +615,11 @@
 				id: "520AA159585904FC"
 				type: "item"
 				item: "miniutilities:iron_opinium_core"
+			}]
+			rewards: [{
+				id: "169F6B7408D30A2A"
+				type: "item"
+				item: "minecraft:coal"
 			}]
 		}
 		{
@@ -439,6 +632,11 @@
 				type: "item"
 				item: "miniutilities:gold_opinium_core"
 			}]
+			rewards: [{
+				id: "0377E2BA44DDEBD7"
+				type: "item"
+				item: "miniutilities:iron_opinium_core"
+			}]
 		}
 		{
 			x: 3.0d
@@ -449,6 +647,11 @@
 				id: "05E330532A79D85F"
 				type: "item"
 				item: "miniutilities:diamond_opinium_core"
+			}]
+			rewards: [{
+				id: "776FF591CF05C121"
+				type: "item"
+				item: "miniutilities:gold_opinium_core"
 			}]
 		}
 		{
@@ -461,6 +664,11 @@
 				type: "item"
 				item: "miniutilities:netherite_opinium_core"
 			}]
+			rewards: [{
+				id: "7595F113C3EBC010"
+				type: "item"
+				item: "miniutilities:diamond_opinium_core"
+			}]
 		}
 		{
 			x: 0.0d
@@ -471,6 +679,11 @@
 				id: "251AFCB370B414B0"
 				type: "item"
 				item: "miniutilities:emerald_opinium_core"
+			}]
+			rewards: [{
+				id: "5C023404B84B080C"
+				type: "item"
+				item: "miniutilities:netherite_opinium_core"
 			}]
 		}
 		{
@@ -483,6 +696,11 @@
 				type: "item"
 				item: "miniutilities:chorus_opinium_core"
 			}]
+			rewards: [{
+				id: "65ABF06A0CFDE6DA"
+				type: "item"
+				item: "miniutilities:emerald_opinium_core"
+			}]
 		}
 		{
 			x: -3.0d
@@ -493,6 +711,11 @@
 				id: "186A36AB30B57CCE"
 				type: "item"
 				item: "miniutilities:experience_opinium_core"
+			}]
+			rewards: [{
+				id: "257AB2F612DF0E24"
+				type: "item"
+				item: "miniutilities:chorus_opinium_core"
 			}]
 		}
 		{
@@ -508,6 +731,11 @@
 				type: "item"
 				item: "miniutilities:nether_star_opinium_core"
 			}]
+			rewards: [{
+				id: "08C2C319F66A7572"
+				type: "item"
+				item: "miniutilities:experience_opinium_core"
+			}]
 		}
 		{
 			x: -3.0d
@@ -521,6 +749,11 @@
 				id: "762BC3184A929993"
 				type: "item"
 				item: "miniutilities:the_final_opinium_core"
+			}]
+			rewards: [{
+				id: "725ACB8411E61777"
+				type: "item"
+				item: "miniutilities:nether_star_opinium_core"
 			}]
 		}
 		{
@@ -545,6 +778,11 @@
 				type: "item"
 				item: "miniutilities:kikoku"
 			}]
+			rewards: [{
+				id: "108C601B8EB2CBAA"
+				type: "item"
+				item: "dummmmmmy:target_dummy_placer"
+			}]
 		}
 		{
 			x: 6.0d
@@ -559,6 +797,11 @@
 				id: "5ED080991A24F4FE"
 				type: "item"
 				item: "miniutilities:healing_axe"
+			}]
+			rewards: [{
+				id: "020FC38E1CEE3CBA"
+				type: "item"
+				item: "minecraft:diamond"
 			}]
 		}
 		{
@@ -575,6 +818,11 @@
 				type: "item"
 				item: "miniutilities:reversing_hoe"
 			}]
+			rewards: [{
+				id: "15C5E5005324D13A"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
 		}
 		{
 			x: 7.5d
@@ -589,6 +837,11 @@
 				id: "686BB35DAECFD08E"
 				type: "item"
 				item: "miniutilities:destruction_pickaxe"
+			}]
+			rewards: [{
+				id: "2A42B240E0A14161"
+				type: "item"
+				item: "minecraft:diamond"
 			}]
 		}
 		{
@@ -605,6 +858,11 @@
 				type: "item"
 				item: "miniutilities:precision_shears"
 			}]
+			rewards: [{
+				id: "11A965FAB631A8EB"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
 		}
 		{
 			x: 9.0d
@@ -620,6 +878,11 @@
 				type: "item"
 				item: "miniutilities:erosion_shovel"
 			}]
+			rewards: [{
+				id: "0F6A20B245773FCD"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
 		}
 		{
 			x: 9.0d
@@ -634,6 +897,11 @@
 				id: "052C17AB04E5FA9B"
 				type: "item"
 				item: "miniutilities:etheric_sword"
+			}]
+			rewards: [{
+				id: "2AD15D38FAA246D8"
+				type: "item"
+				item: "minecraft:diamond"
 			}]
 		}
 		{
@@ -653,6 +921,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "5553BEA3E9CF4900"
+				type: "item"
+				item: "minecraft:diamond"
 			}]
 		}
 		{

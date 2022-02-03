@@ -28,6 +28,11 @@
 				type: "item"
 				item: "pedestals:linkingtool"
 			}]
+			rewards: [{
+				id: "2B6DFA1DCE5D71CE"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -2.0d
@@ -37,6 +42,11 @@
 			id: "1D2789B55007A753"
 			tasks: [{
 				id: "7B9FB210482531A3"
+				type: "item"
+				item: "pedestals:pedestal/stone333"
+			}]
+			rewards: [{
+				id: "261282705AFC6816"
 				type: "item"
 				item: "pedestals:pedestal/stone333"
 			}]
@@ -100,6 +110,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1D4168FA30C57ADD"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -2.0d
@@ -118,8 +133,9 @@
 				item: "pedestals:itemcolorpalletdefault"
 			}]
 			rewards: [{
-				id: "1872A4EE1E298019"
+				id: "364A30844ED69572"
 				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -149,6 +165,11 @@
 					item: "pedestals:filterswapper"
 				}
 			]
+			rewards: [{
+				id: "02C4168562235BDC"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -2.0d
@@ -171,11 +192,18 @@
 				type: "item"
 				item: "pedestals:coin/default"
 			}]
-			rewards: [{
-				id: "0E4DEF061DE56511"
-				type: "item"
-				item: "pedestals:coin/default"
-			}]
+			rewards: [
+				{
+					id: "0E4DEF061DE56511"
+					type: "item"
+					item: "pedestals:coin/default"
+				}
+				{
+					id: "0235EC556B2449E7"
+					type: "random"
+					table_id: 5535491811443382877L
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -217,6 +245,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "186B1D3832F5C5B7"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 1.5d
@@ -233,6 +266,11 @@
 				id: "3357EFD532A9269F"
 				type: "item"
 				item: "pedestals:bookadvanced"
+			}]
+			rewards: [{
+				id: "0F0732223A31A2C7"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -251,6 +289,11 @@
 				type: "item"
 				item: "pedestals:toolswapper"
 			}]
+			rewards: [{
+				id: "225D0E8A9990311E"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -3.5d
@@ -262,6 +305,11 @@
 				id: "27409CC96D264467"
 				type: "item"
 				item: "pedestals:upgradetool"
+			}]
+			rewards: [{
+				id: "1492EB6F600C7E60"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -299,6 +347,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "61EF9E6576749563"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: -3.0d
@@ -331,6 +384,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "493A5E75C2A183B6"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			title: "Energy Transfer"
@@ -359,6 +417,11 @@
 					item: "pedestals:coin/rfexport"
 				}
 			]
+			rewards: [{
+				id: "06EA29A1155437FB"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			title: "Item Transportation Upgrade"
@@ -387,6 +450,11 @@
 					item: "pedestals:coin/export"
 				}
 			]
+			rewards: [{
+				id: "0F6B8F05348AE026"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			title: "Fluid Transfer"
@@ -415,6 +483,11 @@
 					item: "pedestals:coin/fluidexport"
 				}
 			]
+			rewards: [{
+				id: "4661B6690C8384A0"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			title: "XP Input"
@@ -453,6 +526,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1A34C19D8CD29EF5"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: 3.5d
@@ -486,6 +564,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3B19FF451C120C32"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: 4.0d
@@ -505,6 +588,11 @@
 				title: "Enchanter Upgrade"
 				item: "pedestals:coin/xpenchanter"
 			}]
+			rewards: [{
+				id: "2193E2B0BFD68330"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: 4.5d
@@ -518,6 +606,11 @@
 				type: "item"
 				title: "XP Anvil"
 				item: "pedestals:coin/xpanvil"
+			}]
+			rewards: [{
+				id: "01122B85A57E87D3"
+				type: "random"
+				table_id: 5535491811443382877L
 			}]
 		}
 		{
@@ -536,6 +629,11 @@
 				title: "Fluid to XP Conversion"
 				item: "pedestals:coin/fluidxpconverter"
 			}]
+			rewards: [{
+				id: "4067978F700FB348"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: 0.5d
@@ -550,6 +648,11 @@
 				title: "Fluid Pump Upgrade"
 				item: "pedestals:coin/fluidpump"
 			}]
+			rewards: [{
+				id: "6EE543DF5404AF63"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: 0.0d
@@ -563,6 +666,11 @@
 				type: "item"
 				title: "Fluid Drain Upgrade"
 				item: "pedestals:coin/fluiddrain"
+			}]
+			rewards: [{
+				id: "68E9009711E50432"
+				type: "random"
+				table_id: 5535491811443382877L
 			}]
 		}
 		{
@@ -581,6 +689,11 @@
 				type: "item"
 				title: "Milker Upgrade"
 				item: "pedestals:coin/milker"
+			}]
+			rewards: [{
+				id: "0ACE19FBE2F4CDEA"
+				type: "random"
+				table_id: 5535491811443382877L
 			}]
 		}
 		{
@@ -638,6 +751,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7CDC9576DCE8423B"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: -3.5d
@@ -678,6 +796,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4AD2559B0593DA39"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: -4.0d
@@ -696,6 +819,11 @@
 				type: "item"
 				title: "Cobble Generator Upgrade"
 				item: "pedestals:coin/cobble"
+			}]
+			rewards: [{
+				id: "714AA4E4809B28A3"
+				type: "random"
+				table_id: 5535491811443382877L
 			}]
 		}
 		{
@@ -729,6 +857,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5AC3C6C8A7FC1937"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: -4.5d
@@ -761,6 +894,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2FE801CFA7730349"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: -3.5d
@@ -774,6 +912,11 @@
 				type: "item"
 				title: "Quarry Upgrade"
 				item: "pedestals:coin/quarry"
+			}]
+			rewards: [{
+				id: "0AC3E753EE0EA246"
+				type: "random"
+				table_id: 5535491811443382877L
 			}]
 		}
 		{
@@ -804,6 +947,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "66DC9E7EA9816449"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: -8.0d
@@ -832,6 +980,11 @@
 						]
 					}
 				}
+			}]
+			rewards: [{
+				id: "18BEC28E66203FC1"
+				type: "random"
+				table_id: 5535491811443382877L
 			}]
 		}
 		{
@@ -862,6 +1015,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5FDACBA174CBDA92"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: -6.0d
@@ -890,6 +1048,11 @@
 						]
 					}
 				}
+			}]
+			rewards: [{
+				id: "642DD12463787F25"
+				type: "random"
+				table_id: 5535491811443382877L
 			}]
 		}
 	]

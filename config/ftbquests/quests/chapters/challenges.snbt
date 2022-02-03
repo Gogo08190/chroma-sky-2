@@ -27,6 +27,18 @@
 				stat: "minecraft:leave_game"
 				value: 100
 			}]
+			rewards: [
+				{
+					id: "140C8755C0F8383D"
+					type: "item"
+					item: "tconstruct:jeweled_apple"
+				}
+				{
+					id: "56FD1FFE37AF23DD"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -41,6 +53,18 @@
 				stat: "minecraft:play_one_minute"
 				value: 36000000
 			}]
+			rewards: [
+				{
+					id: "3774AB93353962E1"
+					type: "item"
+					item: "projectex:blue_power_flower"
+				}
+				{
+					id: "35075142FDDF2D1F"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -60,6 +84,18 @@
 				stat: "minecraft:mob_kills"
 				value: 2000
 			}]
+			rewards: [
+				{
+					id: "33AC3CC091B65952"
+					type: "item"
+					item: "draconicevolution:chaotic_core"
+				}
+				{
+					id: "52319FDCA84AE8BE"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -73,6 +109,19 @@
 				entity: "draconicevolution:draconic_guardian"
 				value: 1L
 			}]
+			rewards: [
+				{
+					id: "1EDE413F628010FC"
+					type: "item"
+					item: "draconicevolution:large_chaos_frag"
+					count: 5
+				}
+				{
+					id: "30FD07BDF06C6392"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -86,6 +135,18 @@
 				entity: "minecraft:wither"
 				value: 50L
 			}]
+			rewards: [
+				{
+					id: "5B36832BF9375CBC"
+					type: "item"
+					item: "miniutilities:nether_star_opinium_core"
+				}
+				{
+					id: "343111F005E0956D"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -99,6 +160,18 @@
 				entity: "minecraft:ender_dragon"
 				value: 10L
 			}]
+			rewards: [
+				{
+					id: "5BBC8F2E9AA551D8"
+					type: "item"
+					item: "draconicevolution:dragon_heart"
+				}
+				{
+					id: "524703E68DFCB003"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -112,6 +185,19 @@
 				stat: "minecraft:animals_bred"
 				value: 250
 			}]
+			rewards: [
+				{
+					id: "6958B0E33A7313D8"
+					type: "item"
+					item: "naturesaura:birth_spirit"
+					count: 64
+				}
+				{
+					id: "0DD1E89B6C5319BF"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -134,6 +220,55 @@
 				stat: "minecraft:enchant_item"
 				value: 100
 			}]
+			rewards: [
+				{
+					id: "07F3D440997BFF4A"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "minecraft:looting"
+							}]
+						}
+					}
+				}
+				{
+					id: "43906366D03C5B89"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				}
+				{
+					id: "69397CB097CE2F74"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "minecraft:fortune"
+							}]
+						}
+					}
+				}
+				{
+					id: "7A203DE1084C3856"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -147,6 +282,24 @@
 				entity: "theabyss:the_roka_end_boss"
 				value: 10L
 			}]
+			rewards: [
+				{
+					id: "1F2A15FFFA197D53"
+					type: "item"
+					item: {
+						id: "theabyss:totem_of_time"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2C13A8FE9F934E63"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -160,6 +313,19 @@
 				entity: "occultism:afrit_wild"
 				value: 10L
 			}]
+			rewards: [
+				{
+					id: "13F4D21DA01FE230"
+					type: "item"
+					item: "occultism:iesnium_ingot"
+					count: 16
+				}
+				{
+					id: "2B5C360D31C97838"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			title: "&k&3abc &r&5The Final Challenge &k&3abc&r"
@@ -183,6 +349,18 @@
 				type: "item"
 				item: "projectex:final_power_flower"
 			}]
+			rewards: [
+				{
+					id: "22A29EAE2EAF27D2"
+					type: "item"
+					item: "projectex:final_power_flower"
+				}
+				{
+					id: "746B80CFBEB57F10"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 	]
 }

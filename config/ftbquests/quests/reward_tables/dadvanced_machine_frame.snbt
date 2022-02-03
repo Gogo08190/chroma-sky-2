@@ -1,0 +1,14 @@
+{
+	id: "4A1A9F526BE165B0"
+	order_index: 12
+	title: "&dAdvanced machine frame Part"
+	icon: "industrialforegoing:machine_frame_advanced"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "industrialforegoing:plastic" }
+		{ item: "thermal:diamond_gear" }
+		{ item: "minecraft:netherite_scrap" }
+		{ item: "minecraft:gold_ingot" }
+	]
+}

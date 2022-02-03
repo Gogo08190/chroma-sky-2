@@ -1968,7 +1968,11 @@
 			y: 4.5d
 			shape: "hexagon"
 			subtitle: "Multiblock Complete !"
-			description: ["Now you can automate &4&lBlood Magic&r !"]
+			description: [
+				"Now you can automate &4&lBlood Magic&r !"
+				""
+				"Structure by &4MrAbadakor&r !"
+			]
 			dependencies: [
 				"064E59AD8FC91AA2"
 				"5A7FE5ABB98EC914"
@@ -1979,6 +1983,31 @@
 				id: "73354DCC5EB23FC7"
 				type: "checkmark"
 				title: "I've built the Auto Blood Altar ! "
+			}]
+			rewards: [{
+				id: "201AD75D6EEC2624"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								1251022748
+								354765776
+								-1280107759
+								1772851314
+							]
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTY0MzgyMTc0OTIwNSwKICAicHJvZmlsZUlkIiA6ICI0YTkxMTc5YzE1MjU0YmQwYjNiMzFiMTE2OWFiOTA3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNckFiYWRha29yIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y1YmMxNWYzYzBkZmRlZjFmZTFhNzVjMzM5Y2JhMDU5YmY5YzRhZWUxNzFlN2JiZjkyYjhhZDMwZWQyZTIyZjgiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9"
+									Signature: "YooYUQG1aCvJgA/HJLq4jEk6Td3FyH6eiuLNZVkx73AOtoQqn4G6BDb5Y+EI7A/eUJrtrSrcUQjiI8iWWtwht6ZOcaZFg8RoTy6WPz5mpFeZOtIkghi14wOqFuKjOvQvvSJ9MxUotk4/vzzSMbS9pyYt1wGNR7mPIeZ1kiOwC2bljpPXVlOLPi/478r+9fSMBZ8aLSWcs5lHInvEuQ1/d7hGMW1HKw/YaVvzpCeyWSaReDgOj5utJ4xpzgdjRWOlUK+XX6XzMADJdL0LcW8MNeDu5nEnwhpkg4MZHch/2zSNGzmJ71PCTFBPBYfS4z9mUhuPQP1ORF4g5B108VjOsjXEO96FsVhRLzErlWLlWHTO0xeZh910ps/WOw7zFF7uEM5eKJXmE3jNUbaLyba/LczTcR/LisC7TaizV6HLsuER63HI3c8tEhbU/D1xxjmKbpXgB201CpkOAMb5Nx+xlmrIH2loeYkrc3dewry+Th8ySalJsHQgFbUdvS3RmTINEY10Vj1KFJWdhl6wC/DtqiYxhavBvYa3AoZDJZwXQrwxup9jn9Nk0Pm87Orv3vpR8jlSpGwMoTFcdqGjomD54g0eGGSS9BjdA9TgSeTHQUa+xrKIf6ssSkQ5twHTsPHzPNRNq0s8mZ8pTxlJfpn0/cKOhP5uTzijQ1kxO6RIYBs="
+								}]
+							}
+							Name: "MrAbadakor"
+						}
+					}
+				}
 			}]
 		}
 		{

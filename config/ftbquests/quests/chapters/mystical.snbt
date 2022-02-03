@@ -20,6 +20,11 @@
 				type: "item"
 				item: "mysticalagriculture:prosperity_seed_base"
 			}]
+			rewards: [{
+				id: "2DB770649987E587"
+				type: "item"
+				item: "mysticalagriculture:prosperity_seed_base"
+			}]
 		}
 		{
 			x: -17.0d
@@ -34,6 +39,11 @@
 			id: "568C652E37D97F53"
 			tasks: [{
 				id: "319F9E1573C96CB3"
+				type: "item"
+				item: "mysticalagriculture:soulium_seed_base"
+			}]
+			rewards: [{
+				id: "7024DA5EAD9E214A"
 				type: "item"
 				item: "mysticalagriculture:soulium_seed_base"
 			}]
@@ -57,6 +67,32 @@
 					count: 8L
 				}
 			]
+			rewards: [
+				{
+					id: "16F68FA9F2F97823"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+					count: 2
+				}
+				{
+					id: "045554A116227917"
+					type: "item"
+					item: "extendedcrafting:redstone_ingot_block"
+					count: 2
+				}
+				{
+					id: "2AB1D83C7C46A317"
+					type: "item"
+					item: "powah:blazing_crystal_block"
+					count: 2
+				}
+				{
+					id: "51CE29A9E27E3A38"
+					type: "item"
+					item: "powah:energized_steel_block"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -10.5d
@@ -68,6 +104,12 @@
 				id: "27E370D1A79585E5"
 				type: "item"
 				item: "mysticalagriculture:air_seeds"
+			}]
+			rewards: [{
+				id: "10B32D344C853BE3"
+				type: "item"
+				item: "mysticalagriculture:air_essence"
+				count: 4
 			}]
 		}
 		{
@@ -81,6 +123,12 @@
 				type: "item"
 				item: "mysticalagriculture:earth_seeds"
 			}]
+			rewards: [{
+				id: "22B874F7378B6D98"
+				type: "item"
+				item: "mysticalagriculture:earth_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -10.5d
@@ -92,6 +140,12 @@
 				id: "45AE7C7584F58550"
 				type: "item"
 				item: "mysticalagriculture:water_seeds"
+			}]
+			rewards: [{
+				id: "205CD1CD74108799"
+				type: "item"
+				item: "mysticalagriculture:water_essence"
+				count: 4
 			}]
 		}
 		{
@@ -105,6 +159,12 @@
 				type: "item"
 				item: "mysticalagriculture:fire_seeds"
 			}]
+			rewards: [{
+				id: "6059FF401C74FDD1"
+				type: "item"
+				item: "mysticalagriculture:fire_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -8.5d
@@ -116,6 +176,12 @@
 				id: "3513B3519EA1436E"
 				type: "item"
 				item: "mysticalagriculture:inferium_seeds"
+			}]
+			rewards: [{
+				id: "22220793D5065C2A"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -129,6 +195,12 @@
 				type: "item"
 				item: "mysticalagriculture:stone_seeds"
 			}]
+			rewards: [{
+				id: "7B78180EE9124395"
+				type: "item"
+				item: "mysticalagriculture:stone_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -8.5d
@@ -140,6 +212,12 @@
 				id: "12E159699FF5C5B1"
 				type: "item"
 				item: "mysticalagriculture:dirt_seeds"
+			}]
+			rewards: [{
+				id: "4F4589A9FEF9024E"
+				type: "item"
+				item: "mysticalagriculture:dirt_essence"
+				count: 4
 			}]
 		}
 		{
@@ -153,6 +231,12 @@
 				type: "item"
 				item: "mysticalagriculture:ice_seeds"
 			}]
+			rewards: [{
+				id: "5BA5DFA8136A355A"
+				type: "item"
+				item: "mysticalagriculture:ice_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -9.5d
@@ -165,6 +249,11 @@
 				id: "13DFE41AF4B4529E"
 				type: "item"
 				item: "mysticalagriculture:inferium_essence"
+			}]
+			rewards: [{
+				id: "26A88456D67F9B26"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -183,6 +272,11 @@
 				type: "item"
 				item: "mysticalagriculture:prudentium_essence"
 			}]
+			rewards: [{
+				id: "22C4E8445378D589"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 5.5d
@@ -199,6 +293,11 @@
 				id: "2E4BA9483D734331"
 				type: "item"
 				item: "mysticalagriculture:tertium_essence"
+			}]
+			rewards: [{
+				id: "21E141C7F0A03AF6"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -263,6 +362,12 @@
 				type: "item"
 				item: "mysticalagriculture:nature_seeds"
 			}]
+			rewards: [{
+				id: "08E1ADE65879689C"
+				type: "item"
+				item: "mysticalagriculture:nature_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -2.5d
@@ -274,6 +379,12 @@
 				id: "74ABC1EA57D4F666"
 				type: "item"
 				item: "mysticalagriculture:dye_seeds"
+			}]
+			rewards: [{
+				id: "69A76A1AD7F40917"
+				type: "item"
+				item: "mysticalagriculture:dye_essence"
+				count: 4
 			}]
 		}
 		{
@@ -287,6 +398,12 @@
 				type: "item"
 				item: "mysticalagriculture:nether_seeds"
 			}]
+			rewards: [{
+				id: "19888099372D275C"
+				type: "item"
+				item: "mysticalagriculture:nether_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -2.0d
@@ -298,6 +415,12 @@
 				id: "269162B740540A4D"
 				type: "item"
 				item: "mysticalagriculture:coal_seeds"
+			}]
+			rewards: [{
+				id: "1B3D5756CED4F00A"
+				type: "item"
+				item: "mysticalagriculture:coal_essence"
+				count: 4
 			}]
 		}
 		{
@@ -311,6 +434,12 @@
 				type: "item"
 				item: "mysticalagriculture:coral_seeds"
 			}]
+			rewards: [{
+				id: "5D656CE8B973912F"
+				type: "item"
+				item: "mysticalagriculture:coral_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -3.0d
@@ -322,6 +451,12 @@
 				id: "52E4EDD84D096CE1"
 				type: "item"
 				item: "mysticalagriculture:honey_seeds"
+			}]
+			rewards: [{
+				id: "37D8B3EC644DEFAA"
+				type: "item"
+				item: "mysticalagriculture:honey_essence"
+				count: 4
 			}]
 		}
 		{
@@ -335,6 +470,12 @@
 				type: "item"
 				item: "mysticalagriculture:pig_seeds"
 			}]
+			rewards: [{
+				id: "2CD3727F0DCCF20F"
+				type: "item"
+				item: "mysticalagriculture:pig_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -16.0d
@@ -346,6 +487,12 @@
 				id: "7280CC5C26E02510"
 				type: "item"
 				item: "mysticalagriculture:chicken_seeds"
+			}]
+			rewards: [{
+				id: "4B9698D176931E9A"
+				type: "item"
+				item: "mysticalagriculture:chicken_essence"
+				count: 4
 			}]
 		}
 		{
@@ -359,6 +506,12 @@
 				type: "item"
 				item: "mysticalagriculture:cow_seeds"
 			}]
+			rewards: [{
+				id: "0CEEC4ADE3B3CDAE"
+				type: "item"
+				item: "mysticalagriculture:cow_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -16.5d
@@ -370,6 +523,18 @@
 				id: "47A826A6D11C6F1A"
 				type: "item"
 				item: "mysticalagriculture:sheep_seeds"
+			}]
+			rewards: [{
+				id: "1F0313BD4FA4EFE9"
+				type: "item"
+				item: {
+					id: "animalcrops:seeds"
+					Count: 1b
+					tag: {
+						entity: "minecraft:sheep"
+					}
+				}
+				count: 4
 			}]
 		}
 		{
@@ -383,6 +548,12 @@
 				type: "item"
 				item: "mysticalagriculture:fish_seeds"
 			}]
+			rewards: [{
+				id: "02760B907F18958E"
+				type: "item"
+				item: "mysticalagriculture:fish_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -16.5d
@@ -394,6 +565,12 @@
 				id: "17C722C2076AB303"
 				type: "item"
 				item: "mysticalagriculture:slime_seeds"
+			}]
+			rewards: [{
+				id: "04BEEE22B1E8851F"
+				type: "item"
+				item: "mysticalagriculture:slime_essence"
+				count: 4
 			}]
 		}
 		{
@@ -407,6 +584,12 @@
 				type: "item"
 				item: "mysticalagriculture:turtle_seeds"
 			}]
+			rewards: [{
+				id: "6A56A735F7D1D9DE"
+				type: "item"
+				item: "mysticalagriculture:turtle_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -2.5d
@@ -418,6 +601,12 @@
 				id: "180680257D66BD47"
 				type: "item"
 				item: "mysticalagriculture:rubber_seeds"
+			}]
+			rewards: [{
+				id: "486E2F2A83ED998F"
+				type: "item"
+				item: "mysticalagriculture:rubber_essence"
+				count: 4
 			}]
 		}
 		{
@@ -431,6 +620,12 @@
 				type: "item"
 				item: "mysticalagriculture:silicon_seeds"
 			}]
+			rewards: [{
+				id: "515CA07C632E473C"
+				type: "item"
+				item: "mysticalagriculture:silicon_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -3.0d
@@ -442,6 +637,12 @@
 				id: "6B5E087D6C3EEA8C"
 				type: "item"
 				item: "mysticalagriculture:sulfur_seeds"
+			}]
+			rewards: [{
+				id: "135C74285D544206"
+				type: "item"
+				item: "mysticalagriculture:sulfur_essence"
+				count: 4
 			}]
 		}
 		{
@@ -455,6 +656,12 @@
 				type: "item"
 				item: "mysticalagriculture:aluminum_seeds"
 			}]
+			rewards: [{
+				id: "635C8CB936CEBB14"
+				type: "item"
+				item: "mysticalagriculture:aluminum_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -1.0d
@@ -466,6 +673,12 @@
 				id: "58D1EC51536DDDD8"
 				type: "item"
 				item: "mysticalagriculture:copper_seeds"
+			}]
+			rewards: [{
+				id: "0F8917DE6DF6D738"
+				type: "item"
+				item: "mysticalagriculture:copper_essence"
+				count: 4
 			}]
 		}
 		{
@@ -479,6 +692,12 @@
 				type: "item"
 				item: "mysticalagriculture:saltpeter_seeds"
 			}]
+			rewards: [{
+				id: "2792EE39619FBE33"
+				type: "item"
+				item: "mysticalagriculture:saltpeter_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -1.0d
@@ -490,6 +709,12 @@
 				id: "529A13F0BEC67490"
 				type: "item"
 				item: "mysticalagriculture:apatite_seeds"
+			}]
+			rewards: [{
+				id: "19FB71BB56A93214"
+				type: "item"
+				item: "mysticalagriculture:apatite_essence"
+				count: 4
 			}]
 		}
 		{
@@ -503,6 +728,12 @@
 				type: "item"
 				item: "mysticalagriculture:marble_seeds"
 			}]
+			rewards: [{
+				id: "31048D2295905E27"
+				type: "item"
+				item: "mysticalagriculture:marble_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -0.5d
@@ -515,6 +746,12 @@
 				type: "item"
 				item: "mysticalagriculture:basalt_seeds"
 			}]
+			rewards: [{
+				id: "14F3634234D3BBA7"
+				type: "item"
+				item: "mysticalagriculture:basalt_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -3.0d
@@ -526,6 +763,12 @@
 				id: "57D8BCB5E352A86E"
 				type: "item"
 				item: "mysticalagriculture:limestone_seeds"
+			}]
+			rewards: [{
+				id: "1ACB6A2A9419E572"
+				type: "item"
+				item: "mysticalagriculture:limestone_essence"
+				count: 4
 			}]
 		}
 		{
@@ -567,10 +810,16 @@
 				type: "item"
 				item: "mysticalagriculture:iron_seeds"
 			}]
+			rewards: [{
+				id: "5F6DE39CD4936080"
+				type: "item"
+				item: "mysticalagriculture:iron_essence"
+				count: 4
+			}]
 		}
 		{
-			x: 7.5d
-			y: -1.0d
+			x: 5.5d
+			y: 0.5d
 			shape: "diamond"
 			dependencies: ["278CC800303B12A5"]
 			id: "22161EB765776176"
@@ -578,6 +827,12 @@
 				id: "680ABAF5699ED680"
 				type: "item"
 				item: "mysticalagriculture:nether_quartz_seeds"
+			}]
+			rewards: [{
+				id: "173A2157F7C9C9FE"
+				type: "item"
+				item: "mysticalagriculture:nether_quartz_essence"
+				count: 4
 			}]
 		}
 		{
@@ -591,6 +846,12 @@
 				type: "item"
 				item: "mysticalagriculture:glowstone_seeds"
 			}]
+			rewards: [{
+				id: "04D258A6087A8493"
+				type: "item"
+				item: "mysticalagriculture:glowstone_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 7.0d
@@ -602,6 +863,12 @@
 				id: "07F5119F0FC67980"
 				type: "item"
 				item: "mysticalagriculture:redstone_seeds"
+			}]
+			rewards: [{
+				id: "75F7843F63F6FCDA"
+				type: "item"
+				item: "mysticalagriculture:redstone_essence"
+				count: 4
 			}]
 		}
 		{
@@ -615,6 +882,12 @@
 				type: "item"
 				item: "mysticalagriculture:obsidian_seeds"
 			}]
+			rewards: [{
+				id: "5297CFDF7C6DB0FD"
+				type: "item"
+				item: "mysticalagriculture:obsidian_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 6.5d
@@ -626,6 +899,12 @@
 				id: "00EB720F49E3D344"
 				type: "item"
 				item: "mysticalagriculture:prismarine_seeds"
+			}]
+			rewards: [{
+				id: "05A20B76918EB82B"
+				type: "item"
+				item: "mysticalagriculture:prismarine_essence"
+				count: 4
 			}]
 		}
 		{
@@ -639,6 +918,12 @@
 				type: "item"
 				item: "mysticalagriculture:zombie_seeds"
 			}]
+			rewards: [{
+				id: "631ED6580E1417C6"
+				type: "item"
+				item: "mysticalagriculture:zombie_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -17.5d
@@ -650,6 +935,12 @@
 				id: "18F8AE1D5423E2DC"
 				type: "item"
 				item: "mysticalagriculture:skeleton_seeds"
+			}]
+			rewards: [{
+				id: "07AC541F96B695A5"
+				type: "item"
+				item: "mysticalagriculture:skeleton_essence"
+				count: 4
 			}]
 		}
 		{
@@ -663,6 +954,12 @@
 				type: "item"
 				item: "mysticalagriculture:creeper_seeds"
 			}]
+			rewards: [{
+				id: "1AB53F588E8071B7"
+				type: "item"
+				item: "mysticalagriculture:creeper_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -18.0d
@@ -674,6 +971,12 @@
 				id: "033F6BB70DF128BB"
 				type: "item"
 				item: "mysticalagriculture:spider_seeds"
+			}]
+			rewards: [{
+				id: "3C44D6D51324F868"
+				type: "item"
+				item: "mysticalagriculture:spider_essence"
+				count: 4
 			}]
 		}
 		{
@@ -687,6 +990,12 @@
 				type: "item"
 				item: "mysticalagriculture:rabbit_seeds"
 			}]
+			rewards: [{
+				id: "589CABB9769477B8"
+				type: "item"
+				item: "mysticalagriculture:rabbit_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 4.5d
@@ -698,6 +1007,12 @@
 				id: "64F1AA5A215113C1"
 				type: "item"
 				item: "mysticalagriculture:tin_seeds"
+			}]
+			rewards: [{
+				id: "110386794C57A573"
+				type: "item"
+				item: "mysticalagriculture:tin_essence"
+				count: 4
 			}]
 		}
 		{
@@ -711,17 +1026,11 @@
 				type: "item"
 				item: "mysticalagriculture:bronze_seeds"
 			}]
-		}
-		{
-			x: 4.5d
-			y: -1.0d
-			shape: "diamond"
-			dependencies: ["278CC800303B12A5"]
-			id: "7F78C6A7361A7D17"
-			tasks: [{
-				id: "5EB33830B8D512EC"
+			rewards: [{
+				id: "54DF852FB1BFD5FB"
 				type: "item"
-				item: "mysticalagriculture:zinc_seeds"
+				item: "mysticalagriculture:bronze_essence"
+				count: 4
 			}]
 		}
 		{
@@ -735,10 +1044,16 @@
 				type: "item"
 				item: "mysticalagriculture:silver_seeds"
 			}]
+			rewards: [{
+				id: "4D8A0AB3F0F473B9"
+				type: "item"
+				item: "mysticalagriculture:silver_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 5.0d
-			y: 0.5d
+			y: -2.5d
 			shape: "diamond"
 			dependencies: ["278CC800303B12A5"]
 			id: "43A3E4224A99E9AB"
@@ -746,6 +1061,12 @@
 				id: "7C9F7FCC5CC63538"
 				type: "item"
 				item: "mysticalagriculture:lead_seeds"
+			}]
+			rewards: [{
+				id: "5A31F57802363552"
+				type: "item"
+				item: "mysticalagriculture:lead_essence"
+				count: 4
 			}]
 		}
 		{
@@ -759,6 +1080,12 @@
 				type: "item"
 				item: "mysticalagriculture:blizz_seeds"
 			}]
+			rewards: [{
+				id: "490443D3CDE9DB70"
+				type: "item"
+				item: "mysticalagriculture:blizz_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -16.0d
@@ -770,6 +1097,12 @@
 				id: "45946DC44A26112E"
 				type: "item"
 				item: "mysticalagriculture:blitz_seeds"
+			}]
+			rewards: [{
+				id: "7485CA40DAFD955A"
+				type: "item"
+				item: "mysticalagriculture:blitz_essence"
+				count: 4
 			}]
 		}
 		{
@@ -783,6 +1116,12 @@
 				type: "item"
 				item: "mysticalagriculture:basalz_seeds"
 			}]
+			rewards: [{
+				id: "1FCF3FE44DF2A9A3"
+				type: "item"
+				item: "mysticalagriculture:basalz_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 6.0d
@@ -794,6 +1133,12 @@
 				id: "65196A41A87AC0D4"
 				type: "item"
 				item: "mysticalagriculture:tinkers_bronze_seeds"
+			}]
+			rewards: [{
+				id: "0734920C22AF6975"
+				type: "item"
+				item: "mysticalagriculture:tinkers_bronze_essence"
+				count: 4
 			}]
 		}
 		{
@@ -807,6 +1152,12 @@
 				type: "item"
 				item: "mysticalagriculture:slimesteel_seeds"
 			}]
+			rewards: [{
+				id: "7CB058EF33EBB4C9"
+				type: "item"
+				item: "mysticalagriculture:slimesteel_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 4.0d
@@ -819,10 +1170,16 @@
 				type: "item"
 				item: "mysticalagriculture:pig_iron_seeds"
 			}]
+			rewards: [{
+				id: "379CD60426D6010F"
+				type: "item"
+				item: "mysticalagriculture:pig_iron_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 6.0d
-			y: 0.5d
+			y: -2.5d
 			shape: "diamond"
 			dependencies: ["278CC800303B12A5"]
 			id: "56900B6309305741"
@@ -830,6 +1187,12 @@
 				id: "088459AB17825AF4"
 				type: "item"
 				item: "mysticalagriculture:ender_biotite_seeds"
+			}]
+			rewards: [{
+				id: "3B758DA2F1066FAA"
+				type: "item"
+				item: "mysticalagriculture:ender_biotite_essence"
+				count: 4
 			}]
 		}
 		{
@@ -843,9 +1206,15 @@
 				type: "item"
 				item: "mysticalagriculture:aquamarine_seeds"
 			}]
+			rewards: [{
+				id: "174DE742922CBCB4"
+				type: "item"
+				item: "mysticalagriculture:aquamarine_essence"
+				count: 4
+			}]
 		}
 		{
-			x: 6.5d
+			x: 7.5d
 			y: -1.0d
 			shape: "diamond"
 			dependencies: ["278CC800303B12A5"]
@@ -854,6 +1223,12 @@
 				id: "0569FFAA6D366A9A"
 				type: "item"
 				item: "mysticalagriculture:quartz_enriched_iron_seeds"
+			}]
+			rewards: [{
+				id: "5E2A73BED2FACFB5"
+				type: "item"
+				item: "mysticalagriculture:quartz_enriched_iron_essence"
+				count: 4
 			}]
 		}
 		{
@@ -867,6 +1242,12 @@
 				type: "item"
 				item: "mysticalagriculture:gold_seeds"
 			}]
+			rewards: [{
+				id: "48D6DB8603A78DC3"
+				type: "item"
+				item: "mysticalagriculture:gold_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -10.0d
@@ -878,6 +1259,12 @@
 				id: "3313B4D7C154BF96"
 				type: "item"
 				item: "mysticalagriculture:lapis_lazuli_seeds"
+			}]
+			rewards: [{
+				id: "168394161B1285E3"
+				type: "item"
+				item: "mysticalagriculture:lapis_lazuli_essence"
+				count: 4
 			}]
 		}
 		{
@@ -891,6 +1278,12 @@
 				type: "item"
 				item: "mysticalagriculture:end_seeds"
 			}]
+			rewards: [{
+				id: "06237E30941EE08E"
+				type: "item"
+				item: "mysticalagriculture:end_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -8.5d
@@ -902,6 +1295,12 @@
 				id: "1869DB1153E4238C"
 				type: "item"
 				item: "mysticalagriculture:experience_seeds"
+			}]
+			rewards: [{
+				id: "4FDF3C93F9A81182"
+				type: "item"
+				item: "mysticalagriculture:experience_essence"
+				count: 4
 			}]
 		}
 		{
@@ -915,6 +1314,12 @@
 				type: "item"
 				item: "mysticalagriculture:blaze_seeds"
 			}]
+			rewards: [{
+				id: "686E011F57FA7B59"
+				type: "item"
+				item: "mysticalagriculture:blaze_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -16.0d
@@ -926,6 +1331,12 @@
 				id: "6F8EB3CB05B65498"
 				type: "item"
 				item: "mysticalagriculture:ghast_seeds"
+			}]
+			rewards: [{
+				id: "053478C9B9535449"
+				type: "item"
+				item: "mysticalagriculture:ghast_essence"
+				count: 4
 			}]
 		}
 		{
@@ -939,6 +1350,12 @@
 				type: "item"
 				item: "mysticalagriculture:enderman_seeds"
 			}]
+			rewards: [{
+				id: "70313FBC3F0F0C03"
+				type: "item"
+				item: "mysticalagriculture:enderman_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -11.0d
@@ -950,6 +1367,12 @@
 				id: "730BE64CEBFA3FAF"
 				type: "item"
 				item: "mysticalagriculture:steel_seeds"
+			}]
+			rewards: [{
+				id: "6DEB249452121059"
+				type: "item"
+				item: "mysticalagriculture:steel_essence"
+				count: 4
 			}]
 		}
 		{
@@ -963,6 +1386,12 @@
 				type: "item"
 				item: "mysticalagriculture:nickel_seeds"
 			}]
+			rewards: [{
+				id: "61B166CB87204FDC"
+				type: "item"
+				item: "mysticalagriculture:nickel_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -8.5d
@@ -974,6 +1403,12 @@
 				id: "796EE4F83454BCBF"
 				type: "item"
 				item: "mysticalagriculture:constantan_seeds"
+			}]
+			rewards: [{
+				id: "591B9859F2848FF4"
+				type: "item"
+				item: "mysticalagriculture:constantan_essence"
+				count: 4
 			}]
 		}
 		{
@@ -987,6 +1422,12 @@
 				type: "item"
 				item: "mysticalagriculture:electrum_seeds"
 			}]
+			rewards: [{
+				id: "14DA39B8BD579270"
+				type: "item"
+				item: "mysticalagriculture:electrum_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -11.0d
@@ -998,6 +1439,12 @@
 				id: "5DF6A81E9BC66DAC"
 				type: "item"
 				item: "mysticalagriculture:invar_seeds"
+			}]
+			rewards: [{
+				id: "19450366B810E9CF"
+				type: "item"
+				item: "mysticalagriculture:invar_essence"
+				count: 4
 			}]
 		}
 		{
@@ -1011,6 +1458,12 @@
 				type: "item"
 				item: "mysticalagriculture:uranium_seeds"
 			}]
+			rewards: [{
+				id: "11C3E25944FD0C5C"
+				type: "item"
+				item: "mysticalagriculture:uranium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -8.0d
@@ -1022,6 +1475,12 @@
 				id: "33DB267D4C593927"
 				type: "item"
 				item: "mysticalagriculture:ruby_seeds"
+			}]
+			rewards: [{
+				id: "3364B3270A22B028"
+				type: "item"
+				item: "mysticalagriculture:ruby_essence"
+				count: 4
 			}]
 		}
 		{
@@ -1035,6 +1494,12 @@
 				type: "item"
 				item: "mysticalagriculture:sapphire_seeds"
 			}]
+			rewards: [{
+				id: "08C47FDF41BBD7CB"
+				type: "item"
+				item: "mysticalagriculture:sapphire_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -9.5d
@@ -1046,6 +1511,12 @@
 				id: "50C21ABFAE4B4C05"
 				type: "item"
 				item: "mysticalagriculture:signalum_seeds"
+			}]
+			rewards: [{
+				id: "472BB9A81CC1AA00"
+				type: "item"
+				item: "thermal:signalum_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -1059,6 +1530,12 @@
 				type: "item"
 				item: "mysticalagriculture:lumium_seeds"
 			}]
+			rewards: [{
+				id: "495ABBEB3A29319B"
+				type: "item"
+				item: "thermal:lumium_dust"
+				count: 4
+			}]
 		}
 		{
 			x: -11.5d
@@ -1070,6 +1547,12 @@
 				id: "41274D676ADB2E5B"
 				type: "item"
 				item: "mysticalagriculture:hop_graphite_seeds"
+			}]
+			rewards: [{
+				id: "67C59B2EC6BB3DA8"
+				type: "item"
+				item: "mysticalagriculture:hop_graphite_essence"
+				count: 4
 			}]
 		}
 		{
@@ -1083,6 +1566,12 @@
 				type: "item"
 				item: "mysticalagriculture:cobalt_seeds"
 			}]
+			rewards: [{
+				id: "6327786B9B2733C4"
+				type: "item"
+				item: "mysticalagriculture:cobalt_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -11.0d
@@ -1094,6 +1583,12 @@
 				id: "4158FB4531D66805"
 				type: "item"
 				item: "mysticalagriculture:rose_gold_seeds"
+			}]
+			rewards: [{
+				id: "3A4F352E4D63814E"
+				type: "item"
+				item: "mysticalagriculture:rose_gold_essence"
+				count: 4
 			}]
 		}
 		{
@@ -1107,6 +1602,12 @@
 				type: "item"
 				item: "mysticalagriculture:osmium_seeds"
 			}]
+			rewards: [{
+				id: "7D1A6BBCA0388A40"
+				type: "item"
+				item: "mysticalagriculture:osmium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -9.5d
@@ -1118,6 +1619,12 @@
 				id: "15D573FDF057CADD"
 				type: "item"
 				item: "mysticalagriculture:fluorite_seeds"
+			}]
+			rewards: [{
+				id: "7449828A9D0C8EAA"
+				type: "item"
+				item: "mysticalagriculture:fluorite_essence"
+				count: 4
 			}]
 		}
 		{
@@ -1131,6 +1638,12 @@
 				type: "item"
 				item: "mysticalagriculture:refined_glowstone_seeds"
 			}]
+			rewards: [{
+				id: "7643A3E35D1261CB"
+				type: "item"
+				item: "mysticalagriculture:refined_glowstone_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -8.5d
@@ -1142,6 +1655,12 @@
 				id: "53D7989A3DDA4A96"
 				type: "item"
 				item: "mysticalagriculture:refined_obsidian_seeds"
+			}]
+			rewards: [{
+				id: "31BCBC83DA5E07AD"
+				type: "item"
+				item: "mysticalagriculture:refined_obsidian_essence"
+				count: 4
 			}]
 		}
 		{
@@ -1155,6 +1674,12 @@
 				type: "item"
 				item: "mysticalagriculture:starmetal_seeds"
 			}]
+			rewards: [{
+				id: "307A1D74CCE25C21"
+				type: "item"
+				item: "mysticalagriculture:starmetal_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -8.5d
@@ -1166,6 +1691,12 @@
 				id: "06D141DBE439AA87"
 				type: "item"
 				item: "mysticalagriculture:energized_steel_seeds"
+			}]
+			rewards: [{
+				id: "2F113DDD6975CDB2"
+				type: "item"
+				item: "mysticalagriculture:energized_steel_essence"
+				count: 4
 			}]
 		}
 		{
@@ -1179,6 +1710,12 @@
 				type: "item"
 				item: "mysticalagriculture:blazing_crystal_seeds"
 			}]
+			rewards: [{
+				id: "1CEB19AE91A6D8FF"
+				type: "item"
+				item: "mysticalagriculture:blazing_crystal_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -2.5d
@@ -1190,6 +1727,12 @@
 				id: "1F1B53BEC1478A8C"
 				type: "item"
 				item: "mysticalagriculture:diamond_seeds"
+			}]
+			rewards: [{
+				id: "06F1E968BCA399B3"
+				type: "item"
+				item: "mysticalagriculture:diamond_essence"
+				count: 4
 			}]
 		}
 		{
@@ -1203,6 +1746,12 @@
 				type: "item"
 				item: "mysticalagriculture:emerald_seeds"
 			}]
+			rewards: [{
+				id: "5AE5DE6388279D82"
+				type: "item"
+				item: "mysticalagriculture:emerald_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -3.0d
@@ -1214,6 +1763,12 @@
 				id: "3B139179E1160A87"
 				type: "item"
 				item: "mysticalagriculture:netherite_seeds"
+			}]
+			rewards: [{
+				id: "4D2D1FA9DA3051F0"
+				type: "item"
+				item: "mysticalagriculture:netherite_essence"
+				count: 4
 			}]
 		}
 		{
@@ -1227,6 +1782,12 @@
 				type: "item"
 				item: "mysticalagriculture:wither_skeleton_seeds"
 			}]
+			rewards: [{
+				id: "2C2598A0F6479E77"
+				type: "item"
+				item: "mysticalagriculture:wither_skeleton_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -3.0d
@@ -1238,6 +1799,12 @@
 				id: "7DC65EDE27146B82"
 				type: "item"
 				item: "mysticalagriculture:enderium_seeds"
+			}]
+			rewards: [{
+				id: "4466A18EFE9FAC08"
+				type: "item"
+				item: "mysticalagriculture:enderium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -1251,6 +1818,12 @@
 				type: "item"
 				item: "mysticalagriculture:manyullyn_seeds"
 			}]
+			rewards: [{
+				id: "4E7F5FAEBF06EFEF"
+				type: "item"
+				item: "mysticalagriculture:manyullyn_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -0.5d
@@ -1262,6 +1835,12 @@
 				id: "25E110515ACCC574"
 				type: "item"
 				item: "mysticalagriculture:queens_slime_seeds"
+			}]
+			rewards: [{
+				id: "161959BEBF6EB834"
+				type: "item"
+				item: "mysticalagriculture:queens_slime_essence"
+				count: 4
 			}]
 		}
 		{
@@ -1275,6 +1854,12 @@
 				type: "item"
 				item: "mysticalagriculture:hepatizon_seeds"
 			}]
+			rewards: [{
+				id: "771203F7F6584D48"
+				type: "item"
+				item: "mysticalagriculture:hepatizon_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -1.5d
@@ -1286,6 +1871,12 @@
 				id: "795F178826D59450"
 				type: "item"
 				item: "mysticalagriculture:rock_crystal_seeds"
+			}]
+			rewards: [{
+				id: "7CA28CC47DA4332A"
+				type: "item"
+				item: "mysticalagriculture:rock_crystal_essence"
+				count: 4
 			}]
 		}
 		{
@@ -1299,6 +1890,12 @@
 				type: "item"
 				item: "mysticalagriculture:draconium_seeds"
 			}]
+			rewards: [{
+				id: "3269FFE6ED61AFF4"
+				type: "item"
+				item: "mysticalagriculture:draconium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -1.0d
@@ -1310,6 +1907,12 @@
 				id: "67B02AA5DE2B14C1"
 				type: "item"
 				item: "mysticalagriculture:niotic_crystal_seeds"
+			}]
+			rewards: [{
+				id: "2DB322B5E7D0B232"
+				type: "item"
+				item: "mysticalagriculture:niotic_crystal_essence"
+				count: 4
 			}]
 		}
 		{
@@ -1323,6 +1926,12 @@
 				type: "item"
 				item: "mysticalagriculture:spirited_crystal_seeds"
 			}]
+			rewards: [{
+				id: "050CC813D5BDBF2A"
+				type: "item"
+				item: "mysticalagriculture:spirited_crystal_essence"
+				count: 4
+			}]
 		}
 		{
 			x: -1.0d
@@ -1334,6 +1943,12 @@
 				id: "71EE9B8D8947B26D"
 				type: "item"
 				item: "mysticalagriculture:uraninite_seeds"
+			}]
+			rewards: [{
+				id: "17D13D1242E7597C"
+				type: "item"
+				item: "mysticalagriculture:uraninite_essence"
+				count: 4
 			}]
 		}
 		{
@@ -1354,6 +1969,12 @@
 					item: "mysticalagradditions:dragon_egg_crux"
 				}
 			]
+			rewards: [{
+				id: "58CABD1185A48F9F"
+				type: "item"
+				item: "mysticalagriculture:chaos_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 5.0d
@@ -1373,6 +1994,12 @@
 					item: "mysticalagradditions:nether_star_crux"
 				}
 			]
+			rewards: [{
+				id: "1FFCB80CEA919092"
+				type: "item"
+				item: "mysticalagriculture:nether_star_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 4.5d
@@ -1392,6 +2019,12 @@
 					item: "mysticalagradditions:dragon_egg_crux"
 				}
 			]
+			rewards: [{
+				id: "08038A86D9EEF1EA"
+				type: "item"
+				item: "mysticalagriculture:dragon_egg_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 6.0d
@@ -1411,6 +2044,12 @@
 					item: "mysticalagradditions:awakened_draconium_crux"
 				}
 			]
+			rewards: [{
+				id: "0B2EDB026601F756"
+				type: "item"
+				item: "mysticalagriculture:awakened_draconium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 6.5d
@@ -1430,6 +2069,12 @@
 					item: "mysticalagradditions:nitro_crystal_crux"
 				}
 			]
+			rewards: [{
+				id: "73F85E748440655A"
+				type: "item"
+				item: "mysticalagriculture:nitro_crystal_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 22.5d
@@ -1442,6 +2087,12 @@
 				id: "0092AB9FE4EE6754"
 				type: "item"
 				item: "mysticalagradditions:inferium_coal"
+			}]
+			rewards: [{
+				id: "0AE5C5152BE0B922"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -1456,6 +2107,12 @@
 				type: "item"
 				item: "mysticalagradditions:prudentium_coal"
 			}]
+			rewards: [{
+				id: "51BC9C2B99144266"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 22.0d
@@ -1468,6 +2125,12 @@
 				id: "3FC8070AA33C203D"
 				type: "item"
 				item: "mysticalagradditions:tertium_coal"
+			}]
+			rewards: [{
+				id: "53C1542DBFABCE97"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -1482,6 +2145,12 @@
 				type: "item"
 				item: "mysticalagradditions:imperium_coal"
 			}]
+			rewards: [{
+				id: "63F33B600A03D12F"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 23.5d
@@ -1495,6 +2164,12 @@
 				type: "item"
 				item: "mysticalagradditions:supremium_coal"
 			}]
+			rewards: [{
+				id: "14C02BD950E530C4"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 23.0d
@@ -1507,6 +2182,12 @@
 				id: "043076839D5930AA"
 				type: "item"
 				item: "mysticalagradditions:insanium_coal"
+			}]
+			rewards: [{
+				id: "2A992CB43D5F4245"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -1561,6 +2242,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "7FB0677093E3A44A"
+				type: "item"
+				item: "mysticalagradditions:insanium_ingot"
+				count: 8
+			}]
 		}
 		{
 			x: 18.5d
@@ -1624,6 +2311,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "7A4CAEA72BBD5A9B"
+				type: "item"
+				item: "mysticalagriculture:inferium_ingot"
+				count: 8
+			}]
 		}
 		{
 			x: 19.0d
@@ -1677,6 +2370,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "2252A1C6986BA88D"
+				type: "item"
+				item: "mysticalagriculture:prudentium_ingot"
+				count: 8
+			}]
 		}
 		{
 			x: 18.0d
@@ -1730,6 +2429,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "6398926F6E85431F"
+				type: "item"
+				item: "mysticalagriculture:tertium_ingot"
+				count: 8
+			}]
 		}
 		{
 			x: 18.5d
@@ -1783,6 +2488,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "2E48C06FA13204DE"
+				type: "item"
+				item: "mysticalagriculture:imperium_ingot"
+				count: 8
+			}]
 		}
 		{
 			x: 19.5d
@@ -1836,6 +2547,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "21E63F0EE0BD2DA0"
+				type: "item"
+				item: "mysticalagriculture:supremium_ingot"
+				count: 8
+			}]
 		}
 		{
 			x: 20.5d
@@ -1852,6 +2569,11 @@
 				type: "item"
 				item: "mysticalagriculture:inferium_furnace"
 			}]
+			rewards: [{
+				id: "0894808697C08459"
+				type: "item"
+				item: "mysticalagriculture:inferium_block"
+			}]
 		}
 		{
 			x: 21.0d
@@ -1863,6 +2585,11 @@
 				id: "6140B258F7DE6949"
 				type: "item"
 				item: "mysticalagriculture:prudentium_furnace"
+			}]
+			rewards: [{
+				id: "0958BBCC9E6EFC03"
+				type: "item"
+				item: "mysticalagriculture:prudentium_block"
 			}]
 		}
 		{
@@ -1876,6 +2603,11 @@
 				type: "item"
 				item: "mysticalagriculture:tertium_furnace"
 			}]
+			rewards: [{
+				id: "54A05F87C22C55A1"
+				type: "item"
+				item: "mysticalagriculture:tertium_block"
+			}]
 		}
 		{
 			x: 20.5d
@@ -1887,6 +2619,11 @@
 				id: "3BC0EA1D5C00C8E4"
 				type: "item"
 				item: "mysticalagriculture:imperium_furnace"
+			}]
+			rewards: [{
+				id: "3BC5D29F6343DA47"
+				type: "item"
+				item: "mysticalagriculture:imperium_block"
 			}]
 		}
 		{
@@ -1900,6 +2637,11 @@
 				type: "item"
 				item: "mysticalagriculture:supremium_furnace"
 			}]
+			rewards: [{
+				id: "3A6AD959CDA5CA73"
+				type: "item"
+				item: "mysticalagriculture:supremium_block"
+			}]
 		}
 		{
 			x: 21.0d
@@ -1911,6 +2653,11 @@
 				id: "3307BA1FF2D80309"
 				type: "item"
 				item: "mysticaladaptations:insanium_furnace"
+			}]
+			rewards: [{
+				id: "776837889A68A7EF"
+				type: "item"
+				item: "mysticalagradditions:insanium_block"
 			}]
 		}
 		{
@@ -1924,6 +2671,12 @@
 				type: "item"
 				item: "mysticalagriculture:soulium_ingot"
 			}]
+			rewards: [{
+				id: "0DF43B66EE01176B"
+				type: "item"
+				item: "mysticalagriculture:soulium_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: 13.5d
@@ -1935,6 +2688,12 @@
 				id: "17D0444900A2568E"
 				type: "item"
 				item: "mysticalagriculture:prosperity_ingot"
+			}]
+			rewards: [{
+				id: "6731EF0865388DA1"
+				type: "item"
+				item: "mysticalagriculture:prosperity_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -1948,6 +2707,12 @@
 				type: "item"
 				item: "mysticalagriculture:inferium_ingot"
 			}]
+			rewards: [{
+				id: "258FF74D53EF9CBD"
+				type: "item"
+				item: "mysticalagriculture:inferium_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: 13.5d
@@ -1959,6 +2724,12 @@
 				id: "3A9FADA9C1607874"
 				type: "item"
 				item: "mysticalagriculture:prudentium_ingot"
+			}]
+			rewards: [{
+				id: "2FCFEDE4665B4ED1"
+				type: "item"
+				item: "mysticalagriculture:prudentium_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -1972,6 +2743,12 @@
 				type: "item"
 				item: "mysticalagriculture:tertium_ingot"
 			}]
+			rewards: [{
+				id: "7994B298A5CB432B"
+				type: "item"
+				item: "mysticalagriculture:tertium_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: 13.5d
@@ -1983,6 +2760,12 @@
 				id: "4716AEA05DCA36DC"
 				type: "item"
 				item: "mysticalagriculture:supremium_ingot"
+			}]
+			rewards: [{
+				id: "38ED51603E2D1CAA"
+				type: "item"
+				item: "mysticalagriculture:supremium_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -1996,6 +2779,12 @@
 				type: "item"
 				item: "mysticalagriculture:imperium_ingot"
 			}]
+			rewards: [{
+				id: "78797BAEB61E6651"
+				type: "item"
+				item: "mysticalagriculture:imperium_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: 13.5d
@@ -2007,6 +2796,12 @@
 				id: "0D6D63E92D453BEA"
 				type: "item"
 				item: "mysticalagradditions:insanium_ingot"
+			}]
+			rewards: [{
+				id: "6E8E63046298ABE5"
+				type: "item"
+				item: "mysticalagradditions:insanium_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -2020,6 +2815,12 @@
 				type: "item"
 				item: "mysticalagriculture:prosperity_gemstone"
 			}]
+			rewards: [{
+				id: "66CFA1E15A3215F6"
+				type: "item"
+				item: "mysticalagriculture:prosperity_gemstone"
+				count: 4
+			}]
 		}
 		{
 			x: 12.5d
@@ -2031,6 +2832,12 @@
 				id: "3E4DCC033F50C4C3"
 				type: "item"
 				item: "mysticalagriculture:soulium_gemstone"
+			}]
+			rewards: [{
+				id: "7B0EE880D5B20419"
+				type: "item"
+				item: "mysticalagriculture:soulium_gemstone"
+				count: 4
 			}]
 		}
 		{
@@ -2044,6 +2851,12 @@
 				type: "item"
 				item: "mysticalagriculture:inferium_gemstone"
 			}]
+			rewards: [{
+				id: "0D24AE5F5D0EAD71"
+				type: "item"
+				item: "mysticalagriculture:inferium_gemstone"
+				count: 4
+			}]
 		}
 		{
 			x: 12.5d
@@ -2055,6 +2868,12 @@
 				id: "16890695CEFBEB55"
 				type: "item"
 				item: "mysticalagriculture:prudentium_gemstone"
+			}]
+			rewards: [{
+				id: "7036BD8B1F46C079"
+				type: "item"
+				item: "mysticalagriculture:prudentium_gemstone"
+				count: 4
 			}]
 		}
 		{
@@ -2068,6 +2887,12 @@
 				type: "item"
 				item: "mysticalagriculture:tertium_gemstone"
 			}]
+			rewards: [{
+				id: "328CF411EF663E9F"
+				type: "item"
+				item: "mysticalagriculture:tertium_gemstone"
+				count: 4
+			}]
 		}
 		{
 			x: 12.5d
@@ -2079,6 +2904,12 @@
 				id: "37C540EE5949C5E6"
 				type: "item"
 				item: "mysticalagriculture:imperium_gemstone"
+			}]
+			rewards: [{
+				id: "2D0FEEAE0078D8C8"
+				type: "item"
+				item: "mysticalagriculture:imperium_gemstone"
+				count: 4
 			}]
 		}
 		{
@@ -2092,6 +2923,12 @@
 				type: "item"
 				item: "mysticalagriculture:supremium_gemstone"
 			}]
+			rewards: [{
+				id: "3C8C20EAA0B9604B"
+				type: "item"
+				item: "mysticalagriculture:supremium_gemstone"
+				count: 4
+			}]
 		}
 		{
 			x: 12.5d
@@ -2104,6 +2941,12 @@
 				type: "item"
 				item: "mysticalagradditions:insanium_gemstone"
 			}]
+			rewards: [{
+				id: "05BB2FB4F28C520C"
+				type: "item"
+				item: "mysticalagradditions:insanium_gemstone"
+				count: 4
+			}]
 		}
 		{
 			x: 13.0d
@@ -2114,6 +2957,12 @@
 				id: "32FEB21D8D161811"
 				type: "item"
 				item: "mysticalagriculture:prosperity_shard"
+			}]
+			rewards: [{
+				id: "177ED02AB5376970"
+				type: "item"
+				item: "mysticalagriculture:prosperity_shard"
+				count: 20
 			}]
 		}
 		{
@@ -2132,6 +2981,12 @@
 						"patchouli:book": "mysticalagriculture:guide"
 					}
 				}
+			}]
+			rewards: [{
+				id: "3F61095F55BD05F7"
+				type: "item"
+				item: "minecraft:book"
+				count: 4
 			}]
 		}
 		{
@@ -2201,6 +3056,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "00977C6290BFDEBD"
+				type: "item"
+				item: "mysticalagriculture:inferium_ingot"
+				count: 10
+			}]
 		}
 		{
 			x: 17.5d
@@ -2270,6 +3131,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "6D75ADBC300C7C9A"
+				type: "item"
+				item: "mysticalagriculture:prudentium_ingot"
+				count: 10
+			}]
 		}
 		{
 			x: 16.5d
@@ -2339,6 +3206,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "3D35D55B3898C125"
+				type: "item"
+				item: "mysticalagriculture:tertium_ingot"
+				count: 10
+			}]
 		}
 		{
 			x: 17.0d
@@ -2408,6 +3281,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "6F92003C5DC5A23B"
+				type: "item"
+				item: "mysticalagriculture:imperium_ingot"
+				count: 10
+			}]
 		}
 		{
 			x: 18.0d
@@ -2447,6 +3326,12 @@
 					item: "mysticalagriculture:supremium_hoe"
 				}
 			]
+			rewards: [{
+				id: "549F7043F3A14D3C"
+				type: "item"
+				item: "mysticalagriculture:supremium_ingot"
+				count: 10
+			}]
 		}
 		{
 			x: 17.5d
@@ -2486,6 +3371,12 @@
 					item: "mysticaladaptations:insanium_hoe"
 				}
 			]
+			rewards: [{
+				id: "277DC1D879697AA7"
+				type: "item"
+				item: "mysticalagradditions:insanium_ingot"
+				count: 10
+			}]
 		}
 		{
 			x: 19.0d
@@ -2504,6 +3395,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "1DA7BD99C3F0CD28"
+				type: "item"
+				item: "mysticalagriculture:inferium_ingot"
+				count: 6
 			}]
 		}
 		{
@@ -2524,6 +3421,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5BC629CF3F642DA4"
+				type: "item"
+				item: "mysticalagriculture:prudentium_ingot"
+				count: 6
+			}]
 		}
 		{
 			x: 18.5d
@@ -2542,6 +3445,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "0CCE8496FF206120"
+				type: "item"
+				item: "mysticalagriculture:tertium_ingot"
+				count: 6
 			}]
 		}
 		{
@@ -2562,6 +3471,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5528EE8D8C683C53"
+				type: "item"
+				item: "mysticalagriculture:imperium_ingot"
+				count: 6
+			}]
 		}
 		{
 			x: 20.0d
@@ -2574,6 +3489,12 @@
 				id: "02901525F1EAE9C9"
 				type: "item"
 				item: "mysticalagradditions:supremium_paxel"
+			}]
+			rewards: [{
+				id: "16F6503EE53901C3"
+				type: "item"
+				item: "mysticalagriculture:supremium_ingot"
+				count: 6
 			}]
 		}
 		{
@@ -2588,6 +3509,12 @@
 				type: "item"
 				item: "mysticaladaptations:insanium_paxel"
 			}]
+			rewards: [{
+				id: "36B0FA65B4413E3B"
+				type: "item"
+				item: "mysticalagradditions:insanium_ingot"
+				count: 6
+			}]
 		}
 		{
 			x: 21.0d
@@ -2598,6 +3525,11 @@
 			id: "04EC3DC0911D1623"
 			tasks: [{
 				id: "4DCF0ED2AA98E99E"
+				type: "item"
+				item: "mysticalagradditions:inferium_apple"
+			}]
+			rewards: [{
+				id: "3D4B8E9060BA449B"
 				type: "item"
 				item: "mysticalagradditions:inferium_apple"
 			}]
@@ -2614,6 +3546,11 @@
 				type: "item"
 				item: "mysticalagradditions:prudentium_apple"
 			}]
+			rewards: [{
+				id: "32D36182813F39BB"
+				type: "item"
+				item: "mysticalagradditions:prudentium_apple"
+			}]
 		}
 		{
 			x: 20.5d
@@ -2624,6 +3561,11 @@
 			id: "1099F787A13C5ABC"
 			tasks: [{
 				id: "0F87F2C886C62D8E"
+				type: "item"
+				item: "mysticalagradditions:tertium_apple"
+			}]
+			rewards: [{
+				id: "5EC0B8CCC64A01E4"
 				type: "item"
 				item: "mysticalagradditions:tertium_apple"
 			}]
@@ -2640,6 +3582,11 @@
 				type: "item"
 				item: "mysticalagradditions:imperium_apple"
 			}]
+			rewards: [{
+				id: "293AA6A1DCE8C751"
+				type: "item"
+				item: "mysticalagradditions:imperium_apple"
+			}]
 		}
 		{
 			x: 22.0d
@@ -2650,6 +3597,11 @@
 			id: "388BDE392B1129CA"
 			tasks: [{
 				id: "23B60CFEE66D1911"
+				type: "item"
+				item: "mysticalagradditions:supremium_apple"
+			}]
+			rewards: [{
+				id: "07D010F900A16C50"
 				type: "item"
 				item: "mysticalagradditions:supremium_apple"
 			}]
@@ -2666,6 +3618,11 @@
 				type: "item"
 				item: "mysticalagradditions:insanium_apple"
 			}]
+			rewards: [{
+				id: "3A6E9E24B7073891"
+				type: "item"
+				item: "mysticalagradditions:insanium_apple"
+			}]
 		}
 		{
 			x: -6.0d
@@ -2679,6 +3636,11 @@
 				type: "item"
 				item: "mysticalagriculture:fertilized_essence"
 			}]
+			rewards: [{
+				id: "0FDFE8511A5A0359"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 11.0d
@@ -2689,6 +3651,11 @@
 			id: "3D3D89DC1603984B"
 			tasks: [{
 				id: "187117EC67F9AA72"
+				type: "item"
+				item: "mysticalagriculture:inferium_farmland"
+			}]
+			rewards: [{
+				id: "5568AA0B0AB83225"
 				type: "item"
 				item: "mysticalagriculture:inferium_farmland"
 			}]
@@ -2705,6 +3672,11 @@
 				type: "item"
 				item: "mysticalagriculture:prudentium_farmland"
 			}]
+			rewards: [{
+				id: "71109C1A93F269D0"
+				type: "item"
+				item: "mysticalagriculture:prudentium_farmland"
+			}]
 		}
 		{
 			x: 11.0d
@@ -2715,6 +3687,11 @@
 			id: "0888F0E74A157A73"
 			tasks: [{
 				id: "3BFE5F0877FE6C4E"
+				type: "item"
+				item: "mysticalagriculture:tertium_farmland"
+			}]
+			rewards: [{
+				id: "0F286A35FD46A49C"
 				type: "item"
 				item: "mysticalagriculture:tertium_farmland"
 			}]
@@ -2731,6 +3708,11 @@
 				type: "item"
 				item: "mysticalagriculture:imperium_farmland"
 			}]
+			rewards: [{
+				id: "2B6A8E81CC12A662"
+				type: "item"
+				item: "mysticalagriculture:imperium_farmland"
+			}]
 		}
 		{
 			x: 11.0d
@@ -2744,6 +3726,11 @@
 				type: "item"
 				item: "mysticalagriculture:supremium_farmland"
 			}]
+			rewards: [{
+				id: "542D1772890D11D5"
+				type: "item"
+				item: "mysticalagriculture:supremium_farmland"
+			}]
 		}
 		{
 			x: 11.0d
@@ -2754,6 +3741,11 @@
 			id: "0F084AB64E88A696"
 			tasks: [{
 				id: "417F1BD0C70535C0"
+				type: "item"
+				item: "mysticalagradditions:insanium_farmland"
+			}]
+			rewards: [{
+				id: "1262FDA8E7750941"
 				type: "item"
 				item: "mysticalagradditions:insanium_farmland"
 			}]
@@ -2773,6 +3765,11 @@
 				type: "item"
 				item: "mysticalagriculture:inferium_growth_accelerator"
 			}]
+			rewards: [{
+				id: "5069D0515292850D"
+				type: "item"
+				item: "mysticalagriculture:inferium_growth_accelerator"
+			}]
 		}
 		{
 			x: 15.0d
@@ -2786,6 +3783,11 @@
 			id: "4A0FA952A7771416"
 			tasks: [{
 				id: "23DD3E99504EE778"
+				type: "item"
+				item: "mysticalagriculture:prudentium_growth_accelerator"
+			}]
+			rewards: [{
+				id: "5BABDAA92F057885"
 				type: "item"
 				item: "mysticalagriculture:prudentium_growth_accelerator"
 			}]
@@ -2805,6 +3807,11 @@
 				type: "item"
 				item: "mysticalagriculture:tertium_growth_accelerator"
 			}]
+			rewards: [{
+				id: "52AD4135215E86FB"
+				type: "item"
+				item: "mysticalagriculture:tertium_growth_accelerator"
+			}]
 		}
 		{
 			x: 15.0d
@@ -2821,6 +3828,11 @@
 				type: "item"
 				item: "mysticalagriculture:imperium_growth_accelerator"
 			}]
+			rewards: [{
+				id: "565ADEAD7E3B4622"
+				type: "item"
+				item: "mysticalagriculture:imperium_growth_accelerator"
+			}]
 		}
 		{
 			x: 15.0d
@@ -2834,6 +3846,11 @@
 			id: "2F7F794775523C81"
 			tasks: [{
 				id: "7FAD771C294D2299"
+				type: "item"
+				item: "mysticalagriculture:supremium_growth_accelerator"
+			}]
+			rewards: [{
+				id: "5D2B62CB2A4580CD"
 				type: "item"
 				item: "mysticalagriculture:supremium_growth_accelerator"
 			}]
@@ -2855,6 +3872,20 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "64BD19FCAA5028BD"
+					type: "item"
+					item: "mysticalagriculture:soulium_dust"
+					count: 2
+				}
+				{
+					id: "15E2E20FE85128C9"
+					type: "item"
+					item: "mysticalagriculture:soulium_ingot"
+					count: 2
+				}
+			]
 		}
 		{
 			x: 8.5d
@@ -2872,6 +3903,20 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "3931F192E0CD6D54"
+					type: "item"
+					item: "mysticalagriculture:soulium_gemstone"
+					count: 2
+				}
+				{
+					id: "00FD111C55D7FE50"
+					type: "item"
+					item: "mysticalagriculture:soulium_ingot"
+					count: 2
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -2889,6 +3934,20 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "36A4EA6AF2CFAE56"
+					type: "item"
+					item: "mysticalagriculture:soulium_gemstone"
+					count: 2
+				}
+				{
+					id: "004CD1143D5F8DC1"
+					type: "item"
+					item: "mysticalagriculture:soulium_ingot"
+					count: 2
+				}
+			]
 		}
 		{
 			x: 10.5d
@@ -2900,6 +3959,12 @@
 				id: "22B0D533B4509FBE"
 				type: "item"
 				item: "mysticalagriculture:absorption_i_augment"
+			}]
+			rewards: [{
+				id: "31145E0F5DC0A223"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -2913,6 +3978,12 @@
 				type: "item"
 				item: "mysticalagriculture:health_boost_i_augment"
 			}]
+			rewards: [{
+				id: "0FA9B48AFF391C58"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 8.5d
@@ -2924,6 +3995,12 @@
 				id: "4D5CCD2A392F5A9D"
 				type: "item"
 				item: "mysticalagriculture:pathing_aoe_i_augment"
+			}]
+			rewards: [{
+				id: "0A3518ECE0EBECA5"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -2937,6 +4014,12 @@
 				type: "item"
 				item: "mysticalagriculture:night_vision_augment"
 			}]
+			rewards: [{
+				id: "298070B57D0BA30F"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 15.5d
@@ -2948,6 +4031,12 @@
 				id: "38D65A975C50E513"
 				type: "item"
 				item: "mysticalagriculture:water_breathing_augment"
+			}]
+			rewards: [{
+				id: "3226BFA7C768ED02"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -2961,6 +4050,12 @@
 				type: "item"
 				item: "mysticalagriculture:absorption_ii_augment"
 			}]
+			rewards: [{
+				id: "42071462EC716A2F"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 9.5d
@@ -2972,6 +4067,12 @@
 				id: "0D0417838D53F484"
 				type: "item"
 				item: "mysticalagriculture:health_boost_ii_augment"
+			}]
+			rewards: [{
+				id: "023C65BD98B60990"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -2985,6 +4086,12 @@
 				type: "item"
 				item: "mysticalagriculture:speed_i_augment"
 			}]
+			rewards: [{
+				id: "59DE0DE569833BF0"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 6.5d
@@ -2996,6 +4103,12 @@
 				id: "1AFD7E14F073E5DE"
 				type: "item"
 				item: "mysticalagriculture:mining_aoe_i_augment"
+			}]
+			rewards: [{
+				id: "4D508E2BDCEA9B45"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -3009,6 +4122,12 @@
 				type: "item"
 				item: "mysticalagriculture:tilling_aoe_i_augment"
 			}]
+			rewards: [{
+				id: "19317D03565DAE35"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 8.5d
@@ -3020,6 +4139,12 @@
 				id: "5428F8898BFB3A01"
 				type: "item"
 				item: "mysticalagriculture:pathing_aoe_ii_augment"
+			}]
+			rewards: [{
+				id: "4074DB88489B6512"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -3033,6 +4158,12 @@
 				type: "item"
 				item: "mysticalagriculture:absorption_iii_augment"
 			}]
+			rewards: [{
+				id: "66FF6EC69C8DD515"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 13.5d
@@ -3044,6 +4175,12 @@
 				id: "1BEB4580608853D9"
 				type: "item"
 				item: "mysticalagriculture:fire_resistance_augment"
+			}]
+			rewards: [{
+				id: "301108C9C061A36C"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -3057,6 +4194,12 @@
 				type: "item"
 				item: "mysticalagriculture:jump_boost_ii_augment"
 			}]
+			rewards: [{
+				id: "7231F00DB17B5E9C"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 16.5d
@@ -3068,6 +4211,12 @@
 				id: "5A6792A7C60F3A1E"
 				type: "item"
 				item: "mysticalagriculture:step_assist_augment"
+			}]
+			rewards: [{
+				id: "24B2D927DCA72554"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -3081,6 +4230,12 @@
 				type: "item"
 				item: "mysticalagriculture:health_boost_iii_augment"
 			}]
+			rewards: [{
+				id: "074C42A3E023C142"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 12.5d
@@ -3092,6 +4247,12 @@
 				id: "58CBC894B30ABEA7"
 				type: "item"
 				item: "mysticalagriculture:strength_i_augment"
+			}]
+			rewards: [{
+				id: "00DF8293AD8A59F7"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -3105,6 +4266,12 @@
 				type: "item"
 				item: "mysticalagriculture:speed_ii_augment"
 			}]
+			rewards: [{
+				id: "05B370DE1185CB22"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 17.5d
@@ -3116,6 +4283,12 @@
 				id: "7663096272314F6D"
 				type: "item"
 				item: "mysticalagriculture:no_fall_damage_augment"
+			}]
+			rewards: [{
+				id: "20A4F26AA64DCB68"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -3129,6 +4302,12 @@
 				type: "item"
 				item: "mysticalagriculture:mining_aoe_ii_augment"
 			}]
+			rewards: [{
+				id: "060A555E6B4E0CD0"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 11.5d
@@ -3140,6 +4319,12 @@
 				id: "44A1A5DB9A3F8296"
 				type: "item"
 				item: "mysticalagriculture:attack_aoe_i_augment"
+			}]
+			rewards: [{
+				id: "237D24363B683FC3"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -3153,6 +4338,12 @@
 				type: "item"
 				item: "mysticalagriculture:tilling_aoe_ii_augment"
 			}]
+			rewards: [{
+				id: "5E80E1F8C94BCFBF"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 8.5d
@@ -3164,6 +4355,12 @@
 				id: "6C0056569A166970"
 				type: "item"
 				item: "mysticalagriculture:pathing_aoe_iii_augment"
+			}]
+			rewards: [{
+				id: "0307EF78EDF8940B"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -3177,6 +4374,12 @@
 				type: "item"
 				item: "mysticalagriculture:absorption_iv_augment"
 			}]
+			rewards: [{
+				id: "36872D2FC91FEBBC"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 16.5d
@@ -3188,6 +4391,12 @@
 				id: "1689200D326EE92F"
 				type: "item"
 				item: "mysticalagriculture:poison_resistance_augment"
+			}]
+			rewards: [{
+				id: "495EA7DB3D675ABE"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -3201,6 +4410,12 @@
 				type: "item"
 				item: "mysticalagriculture:jump_boost_iii_augment"
 			}]
+			rewards: [{
+				id: "5550CA4BB86CB89C"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 9.5d
@@ -3212,6 +4427,12 @@
 				id: "48F1BC25C8FB798F"
 				type: "item"
 				item: "mysticalagriculture:health_boost_iv_augment"
+			}]
+			rewards: [{
+				id: "76C78D7CAD7125F8"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -3225,6 +4446,12 @@
 				type: "item"
 				item: "mysticalagriculture:strength_ii_augment"
 			}]
+			rewards: [{
+				id: "2CE947F7E5E0172E"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 7.5d
@@ -3236,6 +4463,12 @@
 				id: "2AEEBA2817A88581"
 				type: "item"
 				item: "mysticalagriculture:speed_iii_augment"
+			}]
+			rewards: [{
+				id: "4ED12AD951D84B27"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -3249,6 +4482,12 @@
 				type: "item"
 				item: "mysticalagriculture:mining_aoe_iii_augment"
 			}]
+			rewards: [{
+				id: "360C08A043158D96"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 11.5d
@@ -3260,6 +4499,12 @@
 				id: "25CF5C2DA15F63F0"
 				type: "item"
 				item: "mysticalagriculture:attack_aoe_ii_augment"
+			}]
+			rewards: [{
+				id: "2D58CFCE8861B1F2"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -3273,6 +4518,12 @@
 				type: "item"
 				item: "mysticalagriculture:tilling_aoe_iii_augment"
 			}]
+			rewards: [{
+				id: "56AAF56D04693CE2"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 8.5d
@@ -3284,6 +4535,12 @@
 				id: "308D6006A7AE908F"
 				type: "item"
 				item: "mysticalagriculture:pathing_aoe_iv_augment"
+			}]
+			rewards: [{
+				id: "62F803F90EAEF26C"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -3297,6 +4554,12 @@
 				type: "item"
 				item: "mysticalagriculture:mining_fatigue_resistance_augment"
 			}]
+			rewards: [{
+				id: "3432C99A8E4650CE"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 10.5d
@@ -3308,6 +4571,12 @@
 				id: "5F647CF917C2BD44"
 				type: "item"
 				item: "mysticalagriculture:absorption_v_augment"
+			}]
+			rewards: [{
+				id: "6E080A3CA6D19AA8"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -3321,6 +4590,12 @@
 				type: "item"
 				item: "mysticalagriculture:wither_resistance_augment"
 			}]
+			rewards: [{
+				id: "3B13E6AE8C2E104D"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 9.5d
@@ -3332,6 +4607,12 @@
 				id: "00B8F463B45A4F89"
 				type: "item"
 				item: "mysticalagriculture:health_boost_v_augment"
+			}]
+			rewards: [{
+				id: "46FD3D0F5AA475DE"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -3345,6 +4626,12 @@
 				type: "item"
 				item: "mysticalagriculture:strength_iii_augment"
 			}]
+			rewards: [{
+				id: "10F3571AA91B3230"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 6.5d
@@ -3356,6 +4643,12 @@
 				id: "3168C3F0273B999D"
 				type: "item"
 				item: "mysticalagriculture:mining_aoe_iv_augment"
+			}]
+			rewards: [{
+				id: "1CE787521F9499BF"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -3369,6 +4662,12 @@
 				type: "item"
 				item: "mysticalagriculture:flight_augment"
 			}]
+			rewards: [{
+				id: "49BC1DCEDA36A8D7"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 11.5d
@@ -3380,6 +4679,12 @@
 				id: "471D4DF80826E7E8"
 				type: "item"
 				item: "mysticalagriculture:attack_aoe_iii_augment"
+			}]
+			rewards: [{
+				id: "20B66B3596016D33"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -3393,6 +4698,12 @@
 				type: "item"
 				item: "mysticalagriculture:tilling_aoe_iv_augment"
 			}]
+			rewards: [{
+				id: "1480AA8FA9472FC1"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 14.5d
@@ -3404,6 +4715,12 @@
 				id: "143C2F09DB4B7193"
 				type: "item"
 				item: "mysticalagriculture:hungerless_augment"
+			}]
+			rewards: [{
+				id: "67821704D1D48382"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -3417,6 +4734,12 @@
 				type: "item"
 				item: "mysticalagriculture:woodcutter_augment"
 			}]
+			rewards: [{
+				id: "4661138CEC94F967"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 12.5d
@@ -3428,6 +4751,12 @@
 				id: "39B6732A037BFFDB"
 				type: "item"
 				item: "mysticalagriculture:strength_iv_augment"
+			}]
+			rewards: [{
+				id: "03077948C73C4467"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -3441,6 +4770,12 @@
 				type: "item"
 				item: "mysticalagriculture:absorption_vi_augment"
 			}]
+			rewards: [{
+				id: "63D83D9D64C826D5"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 9.5d
@@ -3452,6 +4787,12 @@
 				id: "55EC022509599ECA"
 				type: "item"
 				item: "mysticalagriculture:health_boost_vi_augment"
+			}]
+			rewards: [{
+				id: "4E9A2B9C26062717"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -3465,6 +4806,12 @@
 				type: "item"
 				item: "mysticalagriculture:attack_aoe_iv_augment"
 			}]
+			rewards: [{
+				id: "12BB98ADFFBE841A"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 4.5d
@@ -3476,6 +4823,12 @@
 				id: "6366F406A7C18895"
 				type: "item"
 				item: "mysticalagriculture:tilling_aoe_v_augment"
+			}]
+			rewards: [{
+				id: "6E5F2B2D56B68D1A"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -3489,6 +4842,12 @@
 				type: "item"
 				item: "mysticalagriculture:mining_aoe_v_augment"
 			}]
+			rewards: [{
+				id: "0666FF307D55C472"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 5.5d
@@ -3500,6 +4859,12 @@
 				id: "4248BEEF2E68FE06"
 				type: "item"
 				item: "mysticalagriculture:jump_boost_i_augment"
+			}]
+			rewards: [{
+				id: "57F809B436D06E5A"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+				count: 4
 			}]
 		}
 		{
@@ -3517,6 +4882,12 @@
 				type: "item"
 				item: "mysticalagriculture:unattuned_augment"
 			}]
+			rewards: [{
+				id: "7E02A864988C99B5"
+				type: "item"
+				item: "mysticalagriculture:unattuned_augment"
+				count: 4
+			}]
 		}
 		{
 			x: 10.5d
@@ -3527,6 +4898,12 @@
 				id: "73128C21148ED0F8"
 				type: "item"
 				item: "mysticalagriculture:tinkering_table"
+			}]
+			rewards: [{
+				id: "3CA879FDC57D0E79"
+				type: "item"
+				item: "mysticalagriculture:soulium_dust"
+				count: 10
 			}]
 		}
 		{
@@ -3543,6 +4920,12 @@
 				id: "238E8179875B1CF2"
 				type: "item"
 				item: "mysticalagriculture:soul_jar"
+			}]
+			rewards: [{
+				id: "63499B99A21FBC2E"
+				type: "item"
+				item: "mysticalagriculture:soul_jar"
+				count: 3
 			}]
 		}
 		{
@@ -3631,6 +5014,23 @@
 					id: "3685BFAB2DD7C617"
 					type: "item"
 					item: "masterfulmachinery:mysticfactory1_mystical_energy_port_energy_input"
+				}
+			]
+			rewards: [
+				{
+					id: "7C34BE4ADEEA6672"
+					type: "item"
+					item: "xnet:controller"
+				}
+				{
+					id: "0DE8FE6E16B2E5FD"
+					type: "item"
+					item: "speedyhoppers:speedyhopper_mk3"
+				}
+				{
+					id: "63BE157B1628F2D4"
+					type: "item"
+					item: "thermal:energy_cell_frame"
 				}
 			]
 		}
@@ -3725,6 +5125,23 @@
 					item: "masterfulmachinery:mysticfactory2_mystical_energy_port_energy_input"
 				}
 			]
+			rewards: [
+				{
+					id: "4DAC35B0A4B6EF6E"
+					type: "item"
+					item: "industrialforegoing:pink_slime_ingot"
+				}
+				{
+					id: "389F0D3226648839"
+					type: "item"
+					item: "industrialforegoing:efficiency_addon_2"
+				}
+				{
+					id: "4838BC078D8B7CF8"
+					type: "random"
+					table_id: 4238701536616224465L
+				}
+			]
 		}
 		{
 			title: "Mystical Factory Tier 3"
@@ -3816,6 +5233,23 @@
 					item: "masterfulmachinery:mysticfactory3_mystical_energy_port_energy_input"
 				}
 			]
+			rewards: [
+				{
+					id: "26396F538E6E01E9"
+					type: "random"
+					table_id: 2399942809827321212L
+				}
+				{
+					id: "47104A5A6CA419EC"
+					type: "item"
+					item: "powah:ender_core"
+				}
+				{
+					id: "51DA7C90499E2F03"
+					type: "item"
+					item: "powah:energy_cell_starter"
+				}
+			]
 		}
 		{
 			title: "Mystical Factory Tier 4"
@@ -3904,6 +5338,24 @@
 					id: "7A27A926399E1CD2"
 					type: "item"
 					item: "masterfulmachinery:mysticfactory4_mystical_energy_port_energy_input"
+				}
+			]
+			rewards: [
+				{
+					id: "5AD341A2825D5725"
+					type: "random"
+					table_id: 7313863691139214500L
+				}
+				{
+					id: "60DE35D5130A0C4A"
+					type: "item"
+					item: "extendedcrafting:luminessence"
+				}
+				{
+					id: "5A7AD853ED6464F4"
+					type: "item"
+					item: "astralsorcery:illumination_powder"
+					count: 2
 				}
 			]
 		}
@@ -3998,6 +5450,23 @@
 					id: "0EC0B903552E4AB1"
 					type: "item"
 					item: "masterfulmachinery:mysticfactory5_mystical_energy_port_energy_input"
+				}
+			]
+			rewards: [
+				{
+					id: "0D11C75C3A54260F"
+					type: "random"
+					table_id: 7660850487611170918L
+				}
+				{
+					id: "30EC411332494427"
+					type: "item"
+					item: "mekanism:alloy_reinforced"
+				}
+				{
+					id: "6756CCB795CAFCD6"
+					type: "item"
+					item: "mekanism:teleportation_core"
 				}
 			]
 		}
@@ -4096,6 +5565,23 @@
 					item: "masterfulmachinery:mysticfactory6_mystical_energy_port_energy_input"
 				}
 			]
+			rewards: [
+				{
+					id: "6DE457E765E201A4"
+					type: "random"
+					table_id: 3252986989362139144L
+				}
+				{
+					id: "019B3890B4ED9577"
+					type: "item"
+					item: "thermal:redstone_servo"
+				}
+				{
+					id: "3DAD28F6927E9697"
+					type: "item"
+					item: "thermal:rf_coil"
+				}
+			]
 		}
 		{
 			title: "Mystical Factory Tier 7"
@@ -4185,6 +5671,23 @@
 					item: "masterfulmachinery:mysticfactory7_mystical_energy_port_energy_input"
 				}
 			]
+			rewards: [
+				{
+					id: "4205D71C729FAF95"
+					type: "random"
+					table_id: 4309216921490884332L
+				}
+				{
+					id: "7108EEBAE36A183D"
+					type: "item"
+					item: "draconicevolution:draconium_block"
+				}
+				{
+					id: "6AAC36A28C70790B"
+					type: "item"
+					item: "draconicevolution:draconium_core"
+				}
+			]
 		}
 		{
 			x: 23.5d
@@ -4198,6 +5701,20 @@
 				type: "item"
 				item: "mysticalagriculture:basic_reprocessor"
 			}]
+			rewards: [
+				{
+					id: "7F621C55CFEED942"
+					type: "item"
+					item: "mysticalagriculture:soulium_ingot"
+					count: 2
+				}
+				{
+					id: "01728503F85A4C9C"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 23.0d
@@ -4213,6 +5730,11 @@
 				id: "66E563307DCE983D"
 				type: "item"
 				item: "mysticalagriculture:inferium_reprocessor"
+			}]
+			rewards: [{
+				id: "2C9113465715E83D"
+				type: "item"
+				item: "mysticalagriculture:inferium_block"
 			}]
 		}
 		{
@@ -4230,6 +5752,11 @@
 				type: "item"
 				item: "mysticalagriculture:prudentium_reprocessor"
 			}]
+			rewards: [{
+				id: "45ED5B1BE6D81ED3"
+				type: "item"
+				item: "mysticalagriculture:prudentium_block"
+			}]
 		}
 		{
 			x: 24.5d
@@ -4245,6 +5772,11 @@
 				id: "466BC37C4A0D0279"
 				type: "item"
 				item: "mysticalagriculture:tertium_reprocessor"
+			}]
+			rewards: [{
+				id: "3F2D43D424E319DD"
+				type: "item"
+				item: "mysticalagriculture:tertium_block"
 			}]
 		}
 		{
@@ -4262,6 +5794,11 @@
 				type: "item"
 				item: "mysticalagriculture:imperium_reprocessor"
 			}]
+			rewards: [{
+				id: "4CA47243FB7BA3E8"
+				type: "item"
+				item: "mysticalagriculture:imperium_block"
+			}]
 		}
 		{
 			x: 23.5d
@@ -4278,6 +5815,11 @@
 				type: "item"
 				item: "mysticalagriculture:supremium_reprocessor"
 			}]
+			rewards: [{
+				id: "38DF732BDF499EB4"
+				type: "item"
+				item: "mysticalagriculture:supremium_block"
+			}]
 		}
 		{
 			x: 24.5d
@@ -4293,6 +5835,11 @@
 				id: "6D9B3D068EF34FDE"
 				type: "item"
 				item: "mysticaladaptations:insanium_reprocessor"
+			}]
+			rewards: [{
+				id: "35CF9B842F3A15FE"
+				type: "item"
+				item: "mysticalagradditions:insanium_block"
 			}]
 		}
 	]

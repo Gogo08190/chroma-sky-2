@@ -11,9 +11,15 @@
 		{
 			x: -4.0d
 			y: -2.0d
+			dependencies: ["3F97D03C2402B70D"]
 			id: "06A76CB4F8480A70"
 			tasks: [{
 				id: "16CF0D5EA3439317"
+				type: "item"
+				item: "krate:krate_small"
+			}]
+			rewards: [{
+				id: "129356FFB1930AC3"
 				type: "item"
 				item: "krate:krate_small"
 			}]
@@ -28,6 +34,11 @@
 				type: "item"
 				item: "krate:krate_basic"
 			}]
+			rewards: [{
+				id: "2C5EF32EAFDBAE84"
+				type: "item"
+				item: "krate:small_to_basic"
+			}]
 		}
 		{
 			x: -4.0d
@@ -39,6 +50,11 @@
 				type: "item"
 				item: "krate:krate_big"
 			}]
+			rewards: [{
+				id: "4EA023BAB6A7491C"
+				type: "item"
+				item: "krate:basic_to_big"
+			}]
 		}
 		{
 			x: -4.0d
@@ -49,6 +65,11 @@
 				id: "3FF8407C9ECE2F8A"
 				type: "item"
 				item: "krate:krate_large"
+			}]
+			rewards: [{
+				id: "2D18FD1B4A4A8A19"
+				type: "item"
+				item: "krate:big_to_large"
 			}]
 		}
 		{
@@ -62,6 +83,11 @@
 				type: "item"
 				item: "storagedrawers:oak_full_drawers_1"
 			}]
+			rewards: [{
+				id: "79EEDE52F09F887E"
+				type: "item"
+				item: "framedcompactdrawers:framed_full_one"
+			}]
 		}
 		{
 			x: -1.5d
@@ -73,6 +99,11 @@
 				id: "19698126CB026EE8"
 				type: "item"
 				item: "storagedrawers:oak_full_drawers_2"
+			}]
+			rewards: [{
+				id: "46F9A12153D108F2"
+				type: "item"
+				item: "framedcompactdrawers:framed_full_two"
 			}]
 		}
 		{
@@ -86,6 +117,11 @@
 				type: "item"
 				item: "storagedrawers:oak_full_drawers_4"
 			}]
+			rewards: [{
+				id: "5490C3FAAA817975"
+				type: "item"
+				item: "framedcompactdrawers:framed_full_four"
+			}]
 		}
 		{
 			x: -1.5d
@@ -97,6 +133,11 @@
 				type: "item"
 				item: "storagedrawers:compacting_drawers_3"
 			}]
+			rewards: [{
+				id: "651536E4EB38707E"
+				type: "item"
+				item: "framedcompactdrawers:framed_compact_drawer"
+			}]
 		}
 		{
 			x: -0.5d
@@ -107,6 +148,11 @@
 				id: "481AE1D5FFB6D9A5"
 				type: "item"
 				item: "storagedrawers:controller"
+			}]
+			rewards: [{
+				id: "29BAF1891E2C91C6"
+				type: "item"
+				item: "storagedrawers:controller_slave"
 			}]
 		}
 		{
@@ -120,6 +166,11 @@
 				type: "item"
 				item: "storagedrawers:drawer_key"
 			}]
+			rewards: [{
+				id: "4711BC86D077771D"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
 		}
 		{
 			x: -0.5d
@@ -131,6 +182,11 @@
 				id: "274C3D8AD7F8FD9E"
 				type: "item"
 				item: "storagedrawers:quantify_key"
+			}]
+			rewards: [{
+				id: "38F733794D264653"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
 			}]
 		}
 		{
@@ -144,6 +200,11 @@
 				type: "item"
 				item: "storagedrawers:shroud_key"
 			}]
+			rewards: [{
+				id: "3109B4D721F64468"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
 		}
 		{
 			x: 2.0d
@@ -156,6 +217,12 @@
 				type: "item"
 				item: "storagedrawers:upgrade_template"
 			}]
+			rewards: [{
+				id: "067BC8088AF606EB"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+				count: 4
+			}]
 		}
 		{
 			x: 2.0d
@@ -165,6 +232,11 @@
 			id: "7405B83D0ADAC9FE"
 			tasks: [{
 				id: "470837B2A0E73910"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+			rewards: [{
+				id: "06EE9F039BA369E1"
 				type: "item"
 				item: "storagedrawers:obsidian_storage_upgrade"
 			}]
@@ -180,6 +252,11 @@
 				type: "item"
 				item: "storagedrawers:iron_storage_upgrade"
 			}]
+			rewards: [{
+				id: "76A7D7F215EB9C41"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
 		}
 		{
 			x: 2.0d
@@ -189,6 +266,11 @@
 			id: "2C9BB21CD8A445DE"
 			tasks: [{
 				id: "38BAD5588A8EE333"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+			rewards: [{
+				id: "6A3D774EB1DDF2AF"
 				type: "item"
 				item: "storagedrawers:gold_storage_upgrade"
 			}]
@@ -204,6 +286,11 @@
 				type: "item"
 				item: "storagedrawers:diamond_storage_upgrade"
 			}]
+			rewards: [{
+				id: "1B836394B974E15E"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
 		}
 		{
 			x: 2.0d
@@ -213,6 +300,11 @@
 			id: "7DDF88D02453003F"
 			tasks: [{
 				id: "5D3701409F215826"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+			rewards: [{
+				id: "33B3609391AD57E5"
 				type: "item"
 				item: "storagedrawers:emerald_storage_upgrade"
 			}]
@@ -228,11 +320,17 @@
 				type: "item"
 				item: "storagedrawers:void_upgrade"
 			}]
+			rewards: [{
+				id: "262D34CB92B6A8DA"
+				type: "item"
+				item: "storagedrawers:void_upgrade"
+			}]
 		}
 		{
 			title: "Chest"
 			x: -6.5d
 			y: -2.0d
+			dependencies: ["3F97D03C2402B70D"]
 			id: "7BDEB257307A7144"
 			tasks: [{
 				id: "4DE62D47250F49F6"
@@ -246,6 +344,11 @@
 						value: "forge:chests/wooden"
 					}
 				}
+			}]
+			rewards: [{
+				id: "031F47A926B4F919"
+				type: "item"
+				item: "cfm:oak_crate"
 			}]
 		}
 		{
@@ -261,6 +364,11 @@
 				type: "item"
 				item: "expandedstorage:iron_chest"
 			}]
+			rewards: [{
+				id: "1492F2FF1AE33B8E"
+				type: "item"
+				item: "expandedstorage:old_iron_chest"
+			}]
 		}
 		{
 			x: -6.5d
@@ -271,6 +379,11 @@
 				id: "271430A95A35BBD7"
 				type: "item"
 				item: "expandedstorage:gold_chest"
+			}]
+			rewards: [{
+				id: "5C01D79A16994090"
+				type: "item"
+				item: "expandedstorage:old_gold_chest"
 			}]
 		}
 		{
@@ -283,6 +396,11 @@
 				type: "item"
 				item: "expandedstorage:diamond_chest"
 			}]
+			rewards: [{
+				id: "696DC8146747B31F"
+				type: "item"
+				item: "expandedstorage:old_diamond_chest"
+			}]
 		}
 		{
 			x: -6.5d
@@ -294,6 +412,11 @@
 				type: "item"
 				item: "expandedstorage:obsidian_chest"
 			}]
+			rewards: [{
+				id: "13F4EE1CE075167E"
+				type: "item"
+				item: "expandedstorage:old_obsidian_chest"
+			}]
 		}
 		{
 			x: -6.5d
@@ -304,6 +427,11 @@
 				id: "4CFE1BF3796D9DFA"
 				type: "item"
 				item: "expandedstorage:netherite_chest"
+			}]
+			rewards: [{
+				id: "631F81205DB34D63"
+				type: "item"
+				item: "expandedstorage:old_netherite_chest"
 			}]
 		}
 		{
@@ -317,10 +445,16 @@
 				type: "item"
 				item: "storagedrawers:illumination_upgrade"
 			}]
+			rewards: [{
+				id: "687123C84194DE91"
+				type: "item"
+				item: "storagedrawers:illumination_upgrade"
+			}]
 		}
 		{
 			x: 5.5d
 			y: -2.0d
+			dependencies: ["3F97D03C2402B70D"]
 			id: "74859A7CB24B4AA4"
 			tasks: [{
 				id: "12172D51200A5DB4"

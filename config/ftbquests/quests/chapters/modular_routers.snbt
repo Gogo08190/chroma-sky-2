@@ -28,6 +28,13 @@
 				id: "37FB8D5265226670"
 				type: "item"
 				item: "modularrouters:item_router"
+				count: 4L
+			}]
+			rewards: [{
+				id: "479B48665DAC81F8"
+				type: "item"
+				item: "modularrouters:item_router"
+				count: 2
 			}]
 		}
 		{
@@ -55,6 +62,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "0ED7C24DE518B4FA"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -85,6 +97,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "59EE0A8833218E92"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 1.5d
@@ -111,6 +128,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "05FD433E837A9561"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -139,6 +161,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "628FD6E3FAB4BDCC"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 3.5d
@@ -159,6 +186,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "585EB8F406592642"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -188,6 +220,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6366E986E444D3B2"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 0.5d
@@ -215,6 +252,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5EB142BBD3C2455F"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 1.5d
@@ -236,6 +278,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "52987B9FCFF98FD9"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 2.5d
@@ -256,6 +303,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "5AAE9DF82A3D2170"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -280,6 +332,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "359ABE3B68CA53E9"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -306,6 +363,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4B1A9C24BFB9BCC9"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 0.5d
@@ -324,6 +386,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "0274D48C78CBC7B6"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -346,6 +413,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "75E225B89730FF5E"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 2.5d
@@ -365,6 +437,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "544C4444988FFCB7"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -390,6 +467,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0ABB7BC7ABB0CABF"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 1.0d
@@ -410,6 +492,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "5B4BB22BCBFE42D8"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -435,6 +522,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7DB9B0EE685F333C"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 7.5d
@@ -450,6 +542,11 @@
 				id: "2A210C5DBC352D1E"
 				type: "item"
 				item: "modularrouters:fast_pickup_augment"
+			}]
+			rewards: [{
+				id: "5E18113A52449766"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -468,6 +565,11 @@
 				type: "item"
 				item: "modularrouters:pickup_delay_augment"
 			}]
+			rewards: [{
+				id: "1543E09DCB096AC0"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 9.5d
@@ -483,6 +585,11 @@
 				id: "0445186C0DDA7190"
 				type: "item"
 				item: "modularrouters:redstone_augment"
+			}]
+			rewards: [{
+				id: "46878E93BDCCE318"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -502,6 +609,11 @@
 				type: "item"
 				item: "modularrouters:regulator_augment"
 			}]
+			rewards: [{
+				id: "44DFA59C7D59886A"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 7.5d
@@ -519,6 +631,11 @@
 				type: "item"
 				item: "modularrouters:range_down_augment"
 			}]
+			rewards: [{
+				id: "041457E63F0FC83E"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 8.5d
@@ -534,6 +651,11 @@
 				id: "7305B4F205837BE8"
 				type: "item"
 				item: "modularrouters:range_up_augment"
+			}]
+			rewards: [{
+				id: "317FDF69472A5D03"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -552,6 +674,11 @@
 				type: "item"
 				item: "modularrouters:xp_vacuum_augment"
 			}]
+			rewards: [{
+				id: "2A3C1C39E672D86A"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 6.5d
@@ -568,6 +695,11 @@
 				type: "item"
 				item: "modularrouters:stack_augment"
 			}]
+			rewards: [{
+				id: "19FA4795469D36EC"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -3.5d
@@ -579,6 +711,11 @@
 				id: "5B33FCFDF23540D4"
 				type: "item"
 				item: "modularrouters:blast_upgrade"
+			}]
+			rewards: [{
+				id: "714A6D5556E3B7F4"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -595,6 +732,11 @@
 				id: "3679A61A4DFD9F2B"
 				type: "item"
 				item: "modularrouters:camouflage_upgrade"
+			}]
+			rewards: [{
+				id: "04D5A8E28464CCE9"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -613,6 +755,11 @@
 				type: "item"
 				item: "modularrouters:fluid_upgrade"
 			}]
+			rewards: [{
+				id: "28FCB257A972AC74"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -6.5d
@@ -624,6 +771,11 @@
 				id: "62A454C3E87219D5"
 				type: "item"
 				item: "modularrouters:muffler_upgrade"
+			}]
+			rewards: [{
+				id: "3F2783EBDBCAE5CB"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -641,6 +793,11 @@
 				type: "item"
 				item: "modularrouters:security_upgrade"
 			}]
+			rewards: [{
+				id: "6369164771CF8739"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -3.5d
@@ -657,6 +814,11 @@
 				type: "item"
 				item: "modularrouters:speed_upgrade"
 			}]
+			rewards: [{
+				id: "1E05A344D3AA5F48"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -4.5d
@@ -668,6 +830,11 @@
 				id: "1FB984480DF2B505"
 				type: "item"
 				item: "modularrouters:stack_upgrade"
+			}]
+			rewards: [{
+				id: "3FB54A395C6AD7BB"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -687,6 +854,11 @@
 				type: "item"
 				item: "modularrouters:sync_upgrade"
 			}]
+			rewards: [{
+				id: "542C33E55D7CF25D"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 1.5d
@@ -699,6 +871,13 @@
 				id: "57E2989D4AD2906B"
 				type: "item"
 				item: "modularrouters:blank_module"
+				count: 6L
+			}]
+			rewards: [{
+				id: "03FE63E6EA25D861"
+				type: "item"
+				item: "modularrouters:blank_module"
+				count: 6
 			}]
 		}
 		{
@@ -712,6 +891,13 @@
 				id: "426DBCA45B308CBA"
 				type: "item"
 				item: "modularrouters:blank_upgrade"
+				count: 4L
+			}]
+			rewards: [{
+				id: "49B3C6EB8741566C"
+				type: "item"
+				item: "modularrouters:blank_upgrade"
+				count: 4
 			}]
 		}
 		{
@@ -725,6 +911,13 @@
 				id: "4A0E3F3067B44AF0"
 				type: "item"
 				item: "modularrouters:augment_core"
+				count: 4L
+			}]
+			rewards: [{
+				id: "3AEC9EFC5CE8A16A"
+				type: "item"
+				item: "modularrouters:augment_core"
+				count: 4
 			}]
 		}
 	]

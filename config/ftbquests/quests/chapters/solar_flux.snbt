@@ -23,6 +23,11 @@
 				type: "item"
 				item: "solarflux:sp_1"
 			}]
+			rewards: [{
+				id: "64E69BFB43329FDD"
+				type: "item"
+				item: "thermal:rf_coil"
+			}]
 		}
 		{
 			x: 1.0d
@@ -37,6 +42,11 @@
 				id: "0674BAB62D3A62EF"
 				type: "item"
 				item: "solarflux:sp_2"
+			}]
+			rewards: [{
+				id: "2A9284574C644635"
+				type: "item"
+				item: "chromasky:mechanic_core_tier_1"
 			}]
 		}
 		{
@@ -53,6 +63,11 @@
 				type: "item"
 				item: "solarflux:sp_3"
 			}]
+			rewards: [{
+				id: "3042DC23392A8DA4"
+				type: "item"
+				item: "projectred-integration:repeater_gate"
+			}]
 		}
 		{
 			x: 3.0d
@@ -67,6 +82,11 @@
 				id: "6FAEA0A88C534A77"
 				type: "item"
 				item: "solarflux:sp_4"
+			}]
+			rewards: [{
+				id: "2CCD9FDCE16F268D"
+				type: "item"
+				item: "thermal:lumium_plate"
 			}]
 		}
 		{
@@ -83,6 +103,18 @@
 				type: "item"
 				item: "solarflux:sp_5"
 			}]
+			rewards: [
+				{
+					id: "3AD7E7829D14D8AB"
+					type: "item"
+					item: "mekanism:block_refined_glowstone"
+				}
+				{
+					id: "20985EB099E172F4"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -99,6 +131,18 @@
 				type: "item"
 				item: "solarflux:sp_6"
 			}]
+			rewards: [
+				{
+					id: "4687777A3DE4C0D5"
+					type: "item"
+					item: "chromasky:mechanic_core_tier_2"
+				}
+				{
+					id: "15549A6D3C638AF6"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -115,6 +159,18 @@
 				type: "item"
 				item: "solarflux:sp_7"
 			}]
+			rewards: [
+				{
+					id: "52D120EB612875C2"
+					type: "item"
+					item: "chromasky:mechanic_core_tier_3"
+				}
+				{
+					id: "74E47F1D26EEB114"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -131,6 +187,18 @@
 				type: "item"
 				item: "solarflux:sp_8"
 			}]
+			rewards: [
+				{
+					id: "35A7E9883D5A4170"
+					type: "item"
+					item: "draconicevolution:dragon_heart"
+				}
+				{
+					id: "0EFDE4DC0A4C5AB4"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 8.0d
@@ -146,6 +214,18 @@
 				type: "item"
 				item: "solarflux:sp_de.wyvern"
 			}]
+			rewards: [
+				{
+					id: "70A56BE3C4954423"
+					type: "item"
+					item: "draconicevolution:wyvern_core"
+				}
+				{
+					id: "09F4D56EE1388330"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 9.0d
@@ -161,6 +241,18 @@
 				type: "item"
 				item: "solarflux:sp_de.draconic"
 			}]
+			rewards: [
+				{
+					id: "556CFFCAB41DE494"
+					type: "item"
+					item: "draconicevolution:awakened_core"
+				}
+				{
+					id: "038F129DC23442C5"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 10.0d
@@ -177,6 +269,18 @@
 				type: "item"
 				item: "solarflux:sp_de.chaotic"
 			}]
+			rewards: [
+				{
+					id: "18B69F72D6D1F06B"
+					type: "item"
+					item: "draconicevolution:chaotic_core"
+				}
+				{
+					id: "40498E9DDF0A7DB2"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -190,6 +294,12 @@
 				type: "item"
 				item: "solarflux:mirror"
 			}]
+			rewards: [{
+				id: "197400985E22DA24"
+				type: "item"
+				item: "thermal:obsidian_glass"
+				count: 2
+			}]
 		}
 		{
 			x: 1.5d
@@ -202,6 +312,12 @@
 				id: "4937916975D2BC04"
 				type: "item"
 				item: "solarflux:photovoltaic_cell_1"
+			}]
+			rewards: [{
+				id: "0169C8FB2DA6FEE6"
+				type: "item"
+				item: "solarflux:mirror"
+				count: 3
 			}]
 		}
 		{
@@ -219,6 +335,11 @@
 				type: "item"
 				item: "solarflux:photovoltaic_cell_2"
 			}]
+			rewards: [{
+				id: "404642228936F193"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_1"
+			}]
 		}
 		{
 			x: 3.5d
@@ -231,6 +352,12 @@
 				id: "17E5652B227C8A1B"
 				type: "item"
 				item: "solarflux:photovoltaic_cell_3"
+			}]
+			rewards: [{
+				id: "6175CEACC0AB908A"
+				type: "item"
+				item: "mekanism:ingot_refined_glowstone"
+				count: 3
 			}]
 		}
 		{
@@ -245,6 +372,12 @@
 				id: "3B84B063F3D04BD4"
 				type: "item"
 				item: "solarflux:photovoltaic_cell_4"
+			}]
+			rewards: [{
+				id: "462DFA5D93EAAD00"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
 			}]
 		}
 		{
@@ -262,6 +395,12 @@
 				type: "item"
 				item: "solarflux:photovoltaic_cell_5"
 			}]
+			rewards: [{
+				id: "0CFE8C5480B8841F"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 4
+			}]
 		}
 		{
 			x: 6.5d
@@ -275,6 +414,12 @@
 				type: "item"
 				item: "solarflux:photovoltaic_cell_6"
 			}]
+			rewards: [{
+				id: "29CCAAD0D2DDFAF2"
+				type: "item"
+				item: "powah:ender_core"
+				count: 4
+			}]
 		}
 		{
 			x: -5.0d
@@ -285,6 +430,11 @@
 			id: "65880076A8BC26DC"
 			tasks: [{
 				id: "416D92BF9F5697D6"
+				type: "item"
+				item: "solarflux:blank_upgrade"
+			}]
+			rewards: [{
+				id: "2967DB1CADC00733"
 				type: "item"
 				item: "solarflux:blank_upgrade"
 			}]
@@ -319,6 +469,11 @@
 				type: "item"
 				item: "solarflux:efficiency_upgrade"
 			}]
+			rewards: [{
+				id: "3270794CC35F0CFC"
+				type: "item"
+				item: "solarflux:efficiency_upgrade"
+			}]
 		}
 		{
 			x: -6.0d
@@ -331,6 +486,11 @@
 				type: "item"
 				item: "solarflux:dispersive_upgrade"
 			}]
+			rewards: [{
+				id: "7F5861E6B1834EAB"
+				type: "item"
+				item: "solarflux:dispersive_upgrade"
+			}]
 		}
 		{
 			x: -5.0d
@@ -340,6 +500,11 @@
 			id: "6ED92FD4926208B7"
 			tasks: [{
 				id: "7096F601B880357C"
+				type: "item"
+				item: "solarflux:capacity_upgrade"
+			}]
+			rewards: [{
+				id: "7612B027F3502197"
 				type: "item"
 				item: "solarflux:capacity_upgrade"
 			}]
@@ -358,6 +523,11 @@
 				type: "item"
 				item: "solarflux:block_charging_upgrade"
 			}]
+			rewards: [{
+				id: "2E34956DD1540AC1"
+				type: "item"
+				item: "solarflux:block_charging_upgrade"
+			}]
 		}
 		{
 			x: -2.5d
@@ -370,6 +540,11 @@
 				type: "item"
 				item: "solarflux:blazing_coating"
 			}]
+			rewards: [{
+				id: "6BB9F9397642AC68"
+				type: "item"
+				item: "powah:crystal_blazing"
+			}]
 		}
 		{
 			x: -2.5d
@@ -381,6 +556,11 @@
 				id: "44E9A5DEB945A1E7"
 				type: "item"
 				item: "solarflux:emerald_glass"
+			}]
+			rewards: [{
+				id: "3E72E2F660DDC5DF"
+				type: "item"
+				item: "powah:crystal_spirited"
 			}]
 		}
 		{
@@ -396,6 +576,11 @@
 				id: "49CC7514318C7A79"
 				type: "item"
 				item: "solarflux:ender_glass"
+			}]
+			rewards: [{
+				id: "63ED7C31BA34CE7A"
+				type: "item"
+				item: "miniutilities:ender_pearl_block"
 			}]
 		}
 	]

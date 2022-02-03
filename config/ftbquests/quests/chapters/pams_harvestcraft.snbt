@@ -5331,5 +5331,21 @@
 				item: "pamhc2foodextended:peanutbutterbananapancakesitem"
 			}]
 		}
+		{
+			x: 9.0d
+			y: -1.5d
+			description: ["With the Market you can buy every natural seeds, saplings, flowers from every mods."]
+			dependencies: [
+				"47A4D81697C274A3"
+				"5E1F9A6B1FEB5289"
+				"72845589E6B99367"
+			]
+			id: "2858055FBC293F6B"
+			tasks: [{
+				id: "2FC9FF4A00466C69"
+				type: "item"
+				item: "farmingforblockheads:market"
+			}]
+		}
 	]
 }

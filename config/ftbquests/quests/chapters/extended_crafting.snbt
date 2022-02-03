@@ -23,6 +23,11 @@
 				type: "item"
 				item: "extendedcrafting:luminessence"
 			}]
+			rewards: [{
+				id: "7FF0F58472BEEECB"
+				type: "item"
+				item: "extendedcrafting:luminessence"
+			}]
 		}
 		{
 			x: 4.0d
@@ -40,6 +45,11 @@
 				type: "item"
 				item: "extendedcrafting:black_iron_ingot"
 			}]
+			rewards: [{
+				id: "5301B62F75055086"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+			}]
 		}
 		{
 			x: 4.0d
@@ -53,6 +63,11 @@
 				type: "item"
 				item: "extendedcrafting:ender_ingot"
 			}]
+			rewards: [{
+				id: "47E41C3B5BCAE7A4"
+				type: "item"
+				item: "extendedcrafting:ender_ingot"
+			}]
 		}
 		{
 			x: 4.5d
@@ -63,6 +78,11 @@
 			id: "1FED4DA5365C4EFF"
 			tasks: [{
 				id: "0403B51120425634"
+				type: "item"
+				item: "extendedcrafting:enhanced_ender_ingot"
+			}]
+			rewards: [{
+				id: "10C83D0F42D85607"
 				type: "item"
 				item: "extendedcrafting:enhanced_ender_ingot"
 			}]
@@ -85,6 +105,11 @@
 				type: "item"
 				item: "extendedcrafting:crystaltine_ingot"
 			}]
+			rewards: [{
+				id: "57A52C2C6DA70B66"
+				type: "item"
+				item: "extendedcrafting:crystaltine_ingot"
+			}]
 		}
 		{
 			x: 4.0d
@@ -98,6 +123,11 @@
 				id: "15AD0A7333FE9BCC"
 				type: "item"
 				item: "extendedcrafting:black_iron_slate"
+			}]
+			rewards: [{
+				id: "3BCDCA3C192DEAC4"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
 			}]
 		}
 		{
@@ -115,6 +145,11 @@
 				type: "item"
 				item: "extendedcrafting:basic_catalyst"
 			}]
+			rewards: [{
+				id: "36A5314819D633F7"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+			}]
 		}
 		{
 			x: 5.0d
@@ -130,6 +165,11 @@
 				id: "3C99F1E5ECD7BF61"
 				type: "item"
 				item: "extendedcrafting:advanced_catalyst"
+			}]
+			rewards: [{
+				id: "550D0F0FB2D853B9"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
 			}]
 		}
 		{
@@ -147,6 +187,11 @@
 				type: "item"
 				item: "extendedcrafting:elite_catalyst"
 			}]
+			rewards: [{
+				id: "40046D789A8C1931"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+			}]
 		}
 		{
 			x: 4.5d
@@ -162,6 +207,11 @@
 				id: "3F2147713EBAD2F2"
 				type: "item"
 				item: "extendedcrafting:ultimate_catalyst"
+			}]
+			rewards: [{
+				id: "540056E7D725F1CA"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
 			}]
 		}
 		{
@@ -179,6 +229,11 @@
 				type: "item"
 				item: "extendedcrafting:redstone_catalyst"
 			}]
+			rewards: [{
+				id: "7863B13663B6AAF9"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+			}]
 		}
 		{
 			x: 4.5d
@@ -194,6 +249,11 @@
 				id: "3B427369188EF060"
 				type: "item"
 				item: "extendedcrafting:ender_catalyst"
+			}]
+			rewards: [{
+				id: "076ECC37B026823E"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
 			}]
 		}
 		{
@@ -211,6 +271,11 @@
 				type: "item"
 				item: "extendedcrafting:enhanced_ender_catalyst"
 			}]
+			rewards: [{
+				id: "1963CB2609968354"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+			}]
 		}
 		{
 			x: 3.0d
@@ -226,6 +291,11 @@
 				id: "5BE5DF574B339827"
 				type: "item"
 				item: "extendedcrafting:crystaltine_catalyst"
+			}]
+			rewards: [{
+				id: "3F861B7366C33AED"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
 			}]
 		}
 		{
@@ -243,6 +313,11 @@
 				type: "item"
 				item: "extendedcrafting:the_ultimate_catalyst"
 			}]
+			rewards: [{
+				id: "4BCDAA75B127C131"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+			}]
 		}
 		{
 			x: 4.5d
@@ -253,6 +328,11 @@
 			id: "2F182F3F3D5B3979"
 			tasks: [{
 				id: "399DC3C14E28FDC9"
+				type: "item"
+				item: "extendedcrafting:ender_star"
+			}]
+			rewards: [{
+				id: "06A73CA64D147500"
 				type: "item"
 				item: "extendedcrafting:ender_star"
 			}]
@@ -273,6 +353,11 @@
 				id: "3D4C936CE2799061"
 				type: "item"
 				item: "extendedcrafting:compressor"
+			}]
+			rewards: [{
+				id: "7E7BEB0635FD1A34"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
 			}]
 		}
 		{
@@ -296,6 +381,18 @@
 					item: "extendedcrafting:ender_alternator"
 				}
 			]
+			rewards: [
+				{
+					id: "673AB37D4BC743D8"
+					type: "item"
+					item: "extendedcrafting:ender_ingot"
+				}
+				{
+					id: "4FA3987F45E41021"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -312,6 +409,23 @@
 				type: "item"
 				item: "extendedcrafting:basic_table"
 			}]
+			rewards: [
+				{
+					id: "72811867719C451E"
+					type: "item"
+					item: "extendedcrafting:black_iron_ingot"
+				}
+				{
+					id: "2CBE0E0E546AD359"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+				{
+					id: "4D3EA9414BC734CA"
+					type: "item"
+					item: "extendedcrafting:black_iron_ingot"
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -328,6 +442,23 @@
 				type: "item"
 				item: "extendedcrafting:advanced_table"
 			}]
+			rewards: [
+				{
+					id: "5BE3B7A1B94A00F5"
+					type: "item"
+					item: "extendedcrafting:black_iron_ingot"
+				}
+				{
+					id: "3116A8719019D6C3"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+				{
+					id: "76617F13550CB400"
+					type: "item"
+					item: "extendedcrafting:black_iron_ingot"
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -344,6 +475,23 @@
 				type: "item"
 				item: "extendedcrafting:elite_table"
 			}]
+			rewards: [
+				{
+					id: "76D748C03FC173DF"
+					type: "item"
+					item: "extendedcrafting:black_iron_ingot"
+				}
+				{
+					id: "5353414B8490E68A"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+				{
+					id: "1FCD379364DCAA8C"
+					type: "item"
+					item: "extendedcrafting:black_iron_ingot"
+				}
+			]
 		}
 		{
 			x: 6.5d
@@ -360,6 +508,23 @@
 				type: "item"
 				item: "extendedcrafting:ultimate_table"
 			}]
+			rewards: [
+				{
+					id: "14611CCC73D5C9A4"
+					type: "item"
+					item: "extendedcrafting:black_iron_ingot"
+				}
+				{
+					id: "4492A35FC99E1B88"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+				{
+					id: "43A20B2A61AC1B59"
+					type: "item"
+					item: "extendedcrafting:black_iron_ingot"
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -373,6 +538,23 @@
 				type: "item"
 				item: "extendedcrafting:basic_auto_table"
 			}]
+			rewards: [
+				{
+					id: "23D04A4BABE03807"
+					type: "item"
+					item: "extendedcrafting:black_iron_ingot"
+				}
+				{
+					id: "30D2190531E95749"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+				{
+					id: "63C4401219D122F4"
+					type: "item"
+					item: "extendedcrafting:black_iron_ingot"
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -386,6 +568,23 @@
 				type: "item"
 				item: "extendedcrafting:advanced_auto_table"
 			}]
+			rewards: [
+				{
+					id: "0D0C10BDF11A89C9"
+					type: "item"
+					item: "extendedcrafting:black_iron_ingot"
+				}
+				{
+					id: "71E4A690348B776C"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+				{
+					id: "76C0326A4CB0544D"
+					type: "item"
+					item: "extendedcrafting:black_iron_ingot"
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -399,6 +598,23 @@
 				type: "item"
 				item: "extendedcrafting:elite_auto_table"
 			}]
+			rewards: [
+				{
+					id: "3D210DD701287F46"
+					type: "item"
+					item: "extendedcrafting:black_iron_ingot"
+				}
+				{
+					id: "1DD9605CC042B9E8"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+				{
+					id: "02EB599667A21FF6"
+					type: "item"
+					item: "extendedcrafting:black_iron_ingot"
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -412,6 +628,23 @@
 				type: "item"
 				item: "extendedcrafting:ultimate_auto_table"
 			}]
+			rewards: [
+				{
+					id: "69B0DA80EF081304"
+					type: "item"
+					item: "extendedcrafting:black_iron_ingot"
+				}
+				{
+					id: "0B410E2D72D28626"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+				{
+					id: "528C72BD9E108EF7"
+					type: "item"
+					item: "extendedcrafting:black_iron_ingot"
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -430,6 +663,12 @@
 						Id: "extendedcrafting:bronze"
 					}
 				}
+			}]
+			rewards: [{
+				id: "219231F28D009C39"
+				type: "item"
+				item: "thermal:bronze_ingot"
+				count: 8
 			}]
 		}
 		{
@@ -450,6 +689,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1C624F4E68148D09"
+				type: "item"
+				item: "thermal:invar_ingot"
+				count: 8
+			}]
 		}
 		{
 			x: 5.5d
@@ -468,6 +713,12 @@
 						Id: "extendedcrafting:energized"
 					}
 				}
+			}]
+			rewards: [{
+				id: "7060A3CA385B002B"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 8
 			}]
 		}
 		{
@@ -488,6 +739,13 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "342BDCB8141D144D"
+				type: "item"
+				auto: "invisible"
+				item: "thermal:electrum_ingot"
+				count: 8
+			}]
 		}
 		{
 			x: 6.5d
@@ -506,6 +764,12 @@
 						Id: "extendedcrafting:lapis_lazuli"
 					}
 				}
+			}]
+			rewards: [{
+				id: "7210923D5116E5DD"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+				count: 8
 			}]
 		}
 		{
@@ -526,6 +790,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "19C208F1D661D41F"
+				type: "item"
+				item: "ftbjarmod:cast_iron_ingot"
+				count: 8
+			}]
 		}
 		{
 			x: 5.0d
@@ -544,6 +814,12 @@
 						Id: "extendedcrafting:uranium"
 					}
 				}
+			}]
+			rewards: [{
+				id: "05BDE4C607245640"
+				type: "item"
+				item: "mekanism:ingot_uranium"
+				count: 8
 			}]
 		}
 		{
@@ -564,6 +840,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4B7CEA16B970408B"
+				type: "item"
+				item: "minecraft:coal"
+				count: 8
+			}]
 		}
 		{
 			x: 6.0d
@@ -582,6 +864,12 @@
 						Id: "extendedcrafting:redstone"
 					}
 				}
+			}]
+			rewards: [{
+				id: "2E1E6501ED8A08E7"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 8
 			}]
 		}
 		{
@@ -602,6 +890,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "612025A97232EE45"
+				type: "item"
+				item: "theabyss:abyssloranitem"
+				count: 8
+			}]
 		}
 		{
 			x: 2.0d
@@ -620,6 +914,12 @@
 						Id: "extendedcrafting:diamond"
 					}
 				}
+			}]
+			rewards: [{
+				id: "1AA4052D675C17EA"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 8
 			}]
 		}
 		{
@@ -640,6 +940,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3A3DC6DAD0ACD821"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 8
+			}]
 		}
 		{
 			x: 2.0d
@@ -658,6 +964,12 @@
 						Id: "extendedcrafting:starmetal"
 					}
 				}
+			}]
+			rewards: [{
+				id: "00F47A3416D7DA4F"
+				type: "item"
+				item: "astralsorcery:starmetal_ingot"
+				count: 8
 			}]
 		}
 		{
@@ -678,6 +990,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "56BBF5E2E741B0FB"
+				type: "item"
+				item: "thermal:lumium_ingot"
+				count: 8
+			}]
 		}
 		{
 			x: 6.5d
@@ -696,6 +1014,12 @@
 						Id: "extendedcrafting:nickel"
 					}
 				}
+			}]
+			rewards: [{
+				id: "2D4EF73B7D00E288"
+				type: "item"
+				item: "thermal:nickel_ingot"
+				count: 8
 			}]
 		}
 		{
@@ -716,6 +1040,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "43F82EFF65C5B91E"
+				type: "item"
+				item: "tconstruct:cobalt_ingot"
+				count: 8
+			}]
 		}
 		{
 			x: 2.5d
@@ -734,6 +1064,12 @@
 						Id: "extendedcrafting:electrotine"
 					}
 				}
+			}]
+			rewards: [{
+				id: "6160515803EFDD14"
+				type: "item"
+				item: "projectred-core:electrotine_ingot"
+				count: 8
 			}]
 		}
 		{
@@ -754,6 +1090,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "30DFE49E8E489414"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+				count: 8
+			}]
 		}
 		{
 			x: 6.0d
@@ -772,6 +1114,12 @@
 						Id: "extendedcrafting:blazing"
 					}
 				}
+			}]
+			rewards: [{
+				id: "00167D0C3653C8F4"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 8
 			}]
 		}
 		{
@@ -792,6 +1140,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "67F7AA7EC3F8C6B5"
+				type: "item"
+				item: "mekanism:ingot_steel"
+				count: 8
+			}]
 		}
 		{
 			x: 3.0d
@@ -810,6 +1164,12 @@
 						Id: "extendedcrafting:niotic"
 					}
 				}
+			}]
+			rewards: [{
+				id: "71FAD96C51AF9236"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 8
 			}]
 		}
 		{
@@ -830,6 +1190,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0B49C6BEB85D117B"
+				type: "item"
+				item: "thermal:enderium_ingot"
+				count: 8
+			}]
 		}
 		{
 			x: 2.0d
@@ -848,6 +1214,12 @@
 						Id: "extendedcrafting:emerald"
 					}
 				}
+			}]
+			rewards: [{
+				id: "1C8549A58384B1C9"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 8
 			}]
 		}
 		{
@@ -868,6 +1240,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "339B090770368C5D"
+				type: "item"
+				item: "immersiveengineering:ingot_aluminum"
+				count: 8
+			}]
 		}
 		{
 			x: 6.0d
@@ -886,6 +1264,12 @@
 						Id: "extendedcrafting:draconium"
 					}
 				}
+			}]
+			rewards: [{
+				id: "42FB5EAA52769A47"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				count: 8
 			}]
 		}
 		{
@@ -906,6 +1290,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7420E682274744B8"
+				type: "item"
+				item: "thermal:silver_ingot"
+				count: 8
+			}]
 		}
 		{
 			x: 2.5d
@@ -924,6 +1314,12 @@
 						Id: "extendedcrafting:nitro"
 					}
 				}
+			}]
+			rewards: [{
+				id: "24DC4DDC65028F46"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 8
 			}]
 		}
 		{
@@ -944,6 +1340,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6BFFD89875B97B21"
+				type: "item"
+				item: "thermal:tin_ingot"
+				count: 8
+			}]
 		}
 		{
 			x: 3.0d
@@ -962,6 +1364,12 @@
 						Id: "extendedcrafting:copper"
 					}
 				}
+			}]
+			rewards: [{
+				id: "71DE5F807AA9AE6E"
+				type: "item"
+				item: "thermal:copper_ingot"
+				count: 8
 			}]
 		}
 		{
@@ -982,6 +1390,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4EF7AFE3898AC885"
+				type: "item"
+				item: "thermal:signalum_ingot"
+				count: 8
+			}]
 		}
 		{
 			x: 5.5d
@@ -1001,6 +1415,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "615DB5D8C986BAE7"
+				type: "item"
+				item: "thermal:lead_ingot"
+				count: 8
+			}]
 		}
 		{
 			x: 4.5d
@@ -1019,6 +1439,12 @@
 						Id: "extendedcrafting:spirited"
 					}
 				}
+			}]
+			rewards: [{
+				id: "39E37DE93DC29586"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 8
 			}]
 		}
 		{
@@ -1065,6 +1491,11 @@
 				id: "347DCD29D70290EF"
 				type: "item"
 				item: "extendedcrafting:ultimate_singularity"
+			}]
+			rewards: [{
+				id: "005E3E2C0F86F792"
+				type: "random"
+				table_id: 3174126129720164663L
 			}]
 		}
 	]

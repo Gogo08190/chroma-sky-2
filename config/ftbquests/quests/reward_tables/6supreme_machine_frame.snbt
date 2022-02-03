@@ -1,0 +1,14 @@
+{
+	id: "063AAA7B6EDFC894"
+	order_index: 13
+	title: "&6Supreme Machine Frame Part"
+	icon: "industrialforegoing:machine_frame_supreme"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "minecraft:diamond" }
+		{ item: "thermal:diamond_gear" }
+		{ item: "minecraft:netherite_ingot" }
+		{ item: "industrialforegoing:plastic" }
+	]
+}

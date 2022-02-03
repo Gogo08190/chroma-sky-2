@@ -18,6 +18,12 @@
 				type: "item"
 				item: "astralsorcery:aquamarine"
 			}]
+			rewards: [{
+				id: "44D61A899CD39378"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+				count: 8
+			}]
 		}
 		{
 			x: -19.5d
@@ -35,18 +41,30 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4BE84C5DF81A6B37"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -16.5d
 			y: -6.5d
 			shape: "diamond"
 			description: ["It is the first tier of crafting altar and is used throughout the Exploration chapter of the Astral Tome."]
+			dependencies: ["0B67CBE199F4E4D9"]
 			size: 3.0d
 			id: "4629A552492B890B"
 			tasks: [{
 				id: "7F88B3CE127D60F4"
 				type: "item"
 				item: "astralsorcery:altar_discovery"
+			}]
+			rewards: [{
+				id: "4B3B9374BAAED623"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+				count: 16
 			}]
 		}
 		{
@@ -62,6 +80,11 @@
 				id: "2C3C20A182757150"
 				type: "item"
 				item: "astralsorcery:altar_attunement"
+			}]
+			rewards: [{
+				id: "47A2D85BC742B2B3"
+				type: "item"
+				item: "astralsorcery:liquid_starlight_bucket"
 			}]
 		}
 		{
@@ -114,6 +137,25 @@
 				type: "item"
 				item: "astralsorcery:attunement_altar"
 			}]
+			rewards: [
+				{
+					id: "63BA0DD00E7F539E"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+					count: 2
+				}
+				{
+					id: "33FEF66C6094C4EE"
+					type: "item"
+					item: "astralsorcery:spectral_relay"
+				}
+				{
+					id: "5F9EF722BBA52557"
+					type: "item"
+					item: "astralsorcery:starmetal_ingot"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -11.0d
@@ -125,6 +167,11 @@
 				id: "4382DFBC0013B20C"
 				type: "item"
 				item: "astralsorcery:resonating_gem"
+			}]
+			rewards: [{
+				id: "4AA9177E1EADDB79"
+				type: "item"
+				item: "astralsorcery:liquid_starlight_bucket"
 			}]
 		}
 		{
@@ -138,6 +185,12 @@
 				type: "item"
 				item: "astralsorcery:glass_lens"
 			}]
+			rewards: [{
+				id: "769FD8F7F17529B4"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+				count: 4
+			}]
 		}
 		{
 			x: -15.0d
@@ -150,6 +203,12 @@
 				type: "item"
 				item: "astralsorcery:parchment"
 			}]
+			rewards: [{
+				id: "001F034E8AA44420"
+				type: "item"
+				item: "minecraft:paper"
+				count: 4
+			}]
 		}
 		{
 			x: -17.0d
@@ -159,6 +218,11 @@
 			id: "39E5C481897E7320"
 			tasks: [{
 				id: "21B52D85514CA067"
+				type: "item"
+				item: "astralsorcery:starmetal_ingot"
+			}]
+			rewards: [{
+				id: "55DDCDF17D2150FF"
 				type: "item"
 				item: "astralsorcery:starmetal_ingot"
 			}]
@@ -174,6 +238,11 @@
 				type: "item"
 				item: "astralsorcery:stardust"
 			}]
+			rewards: [{
+				id: "0E94CA27AC167E15"
+				type: "item"
+				item: "astralsorcery:stardust"
+			}]
 		}
 		{
 			x: -16.0d
@@ -185,6 +254,12 @@
 				id: "1FC21222EFE717FE"
 				type: "item"
 				item: "astralsorcery:nocturnal_powder"
+			}]
+			rewards: [{
+				id: "5ED88746BA363436"
+				type: "item"
+				item: "astralsorcery:nocturnal_powder"
+				count: 4
 			}]
 		}
 		{
@@ -198,6 +273,12 @@
 				type: "item"
 				item: "astralsorcery:illumination_powder"
 			}]
+			rewards: [{
+				id: "15FF2A186A4E7A8B"
+				type: "item"
+				item: "astralsorcery:illumination_powder"
+				count: 16
+			}]
 		}
 		{
 			x: -16.0d
@@ -207,6 +288,11 @@
 			id: "4EA89F8BC2F34D1D"
 			tasks: [{
 				id: "03B8C523C8AD9842"
+				type: "item"
+				item: "astralsorcery:rock_crystal_ore"
+			}]
+			rewards: [{
+				id: "74745C222E6C0747"
 				type: "item"
 				item: "astralsorcery:rock_crystal_ore"
 			}]
@@ -223,6 +309,12 @@
 				type: "item"
 				item: "astralsorcery:starmetal_ore"
 			}]
+			rewards: [{
+				id: "615D9B5BCB9B4A14"
+				type: "item"
+				item: "astralsorcery:starmetal_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: -15.5d
@@ -235,6 +327,12 @@
 				id: "18CE5F3C492ED4E2"
 				type: "item"
 				item: "astralsorcery:wand"
+			}]
+			rewards: [{
+				id: "0D5103154AA5B27A"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+				count: 2
 			}]
 		}
 		{
@@ -253,6 +351,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "3F006B8406C342A3"
+				type: "item"
+				item: "astralsorcery:starmetal_ingot"
 			}]
 		}
 		{
@@ -300,6 +403,19 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "475EAD3FF52ACBE9"
+					type: "item"
+					item: "astralsorcery:illumination_powder"
+					count: 4
+				}
+				{
+					id: "2F3F6245E45DCFEE"
+					type: "item"
+					item: "astralsorcery:shifting_star"
+				}
+			]
 		}
 		{
 			x: -16.0d
@@ -327,6 +443,20 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "3BE839694265B408"
+					type: "item"
+					item: "astralsorcery:stardust"
+					count: 2
+				}
+				{
+					id: "355C9B735E035725"
+					type: "item"
+					item: "minecraft:purple_dye"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -17.5d
@@ -345,6 +475,19 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "1A01FF33C695F450"
+					type: "item"
+					item: "astralsorcery:stardust"
+				}
+				{
+					id: "1D2AFE7BAE51419F"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -17.0d
@@ -358,6 +501,19 @@
 				type: "item"
 				item: "astralsorcery:grapple_wand"
 			}]
+			rewards: [
+				{
+					id: "30344C0640E50DFD"
+					type: "item"
+					item: "minecraft:blue_dye"
+					count: 2
+				}
+				{
+					id: "42237EFBCC929E8A"
+					type: "item"
+					item: "astralsorcery:stardust"
+				}
+			]
 		}
 		{
 			x: -18.0d
@@ -376,6 +532,19 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "493C5502F8009678"
+					type: "item"
+					item: "astralsorcery:stardust"
+				}
+				{
+					id: "41CA60057B2422D5"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -18.0d
@@ -388,6 +557,11 @@
 				id: "1188A9E75F2FC0E9"
 				type: "item"
 				item: "astralsorcery:hand_telescope"
+			}]
+			rewards: [{
+				id: "29AED17B5C644B02"
+				type: "item"
+				item: "astralsorcery:glass_lens"
 			}]
 		}
 		{
@@ -408,6 +582,24 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "6DE2CF5099DA34A8"
+					type: "item"
+					item: "astralsorcery:stardust"
+					count: 2
+				}
+				{
+					id: "3177E1DFECE5E5E7"
+					type: "item"
+					item: "astralsorcery:glass_lens"
+				}
+				{
+					id: "2A9B3DDA1213760A"
+					type: "item"
+					item: "astralsorcery:colored_lens_push"
+				}
+			]
 		}
 		{
 			x: -18.0d
@@ -421,6 +613,19 @@
 				type: "item"
 				item: "astralsorcery:ritual_pedestal"
 			}]
+			rewards: [
+				{
+					id: "27846308E5A38CA9"
+					type: "item"
+					item: "astralsorcery:liquid_starlight_bucket"
+				}
+				{
+					id: "4DA69F324724D082"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -12.0d
@@ -440,6 +645,29 @@
 				type: "item"
 				item: "astralsorcery:infuser"
 			}]
+			rewards: [
+				{
+					id: "74CE25C6D69B9FB6"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 2
+				}
+				{
+					id: "57F9EE7D84678589"
+					type: "item"
+					item: "astralsorcery:liquid_starlight_bucket"
+				}
+				{
+					id: "4031FA1E42DAAB94"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+				}
+				{
+					id: "15A239D275371E69"
+					type: "item"
+					item: "astralsorcery:starmetal_ingot"
+				}
+			]
 		}
 		{
 			x: -10.5d
@@ -463,6 +691,20 @@
 				type: "item"
 				item: "astralsorcery:chalice"
 			}]
+			rewards: [
+				{
+					id: "43AC4B2A3FD35120"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+					count: 3
+				}
+				{
+					id: "78F29F8FFE7438D2"
+					type: "item"
+					item: "astralsorcery:resonating_gem"
+					count: 3
+				}
+			]
 		}
 		{
 			x: -18.0d
@@ -476,6 +718,11 @@
 				type: "item"
 				item: "astralsorcery:well"
 			}]
+			rewards: [{
+				id: "6F6A92C42904B222"
+				type: "item"
+				item: "astralsorcery:liquid_starlight_bucket"
+			}]
 		}
 		{
 			x: -15.5d
@@ -488,6 +735,12 @@
 				id: "6E504B45A89E6042"
 				type: "item"
 				item: "astralsorcery:telescope"
+			}]
+			rewards: [{
+				id: "5960D3EEA7A50242"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 2
 			}]
 		}
 		{
@@ -506,6 +759,32 @@
 				type: "item"
 				item: "astralsorcery:observatory"
 			}]
+			rewards: [
+				{
+					id: "6CF4537EBFDDBC51"
+					type: "item"
+					item: "astralsorcery:stardust"
+					count: 2
+				}
+				{
+					id: "0AC4F0ECDAC59160"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 2
+				}
+				{
+					id: "4415B85DC2FE8E03"
+					type: "item"
+					item: "astralsorcery:illumination_powder"
+					count: 2
+				}
+				{
+					id: "7012313C6C39FC6D"
+					type: "item"
+					item: "astralsorcery:nocturnal_powder"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -12.0d
@@ -523,6 +802,26 @@
 				type: "item"
 				item: "astralsorcery:refraction_table"
 			}]
+			rewards: [
+				{
+					id: "4308C38812DD5929"
+					type: "item"
+					item: "astralsorcery:infused_wood_column"
+					count: 2
+				}
+				{
+					id: "549A415A5FA6364C"
+					type: "item"
+					item: "astralsorcery:starmetal_ingot"
+					count: 2
+				}
+				{
+					id: "78E299F3BC259727"
+					type: "item"
+					item: "astralsorcery:resonating_gem"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -10.0d
@@ -536,6 +835,18 @@
 				type: "item"
 				item: "astralsorcery:tree_beacon"
 			}]
+			rewards: [
+				{
+					id: "337C2F33FC5675C6"
+					type: "item"
+					item: "astralsorcery:liquid_starlight_bucket"
+				}
+				{
+					id: "295DEB5DCCE91FF1"
+					type: "item"
+					item: "astralsorcery:resonating_gem"
+				}
+			]
 		}
 		{
 			x: -16.0d
@@ -564,6 +875,30 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "3F6334FAF0741155"
+					type: "item"
+					item: "astralsorcery:glass_lens"
+				}
+				{
+					id: "05E2C284760BAFF1"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 2
+				}
+				{
+					id: "1FC0D52439AF8047"
+					type: "item"
+					item: "astralsorcery:nocturnal_powder"
+				}
+				{
+					id: "1F661B1209B06FDF"
+					type: "item"
+					item: "astralsorcery:stardust"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -8.5d
@@ -583,6 +918,26 @@
 				type: "item"
 				item: "astralsorcery:fountain"
 			}]
+			rewards: [
+				{
+					id: "596A0B25C69CC22F"
+					type: "item"
+					item: "astralsorcery:starmetal_ingot"
+					count: 2
+				}
+				{
+					id: "3EBCCA719D3C84FD"
+					type: "item"
+					item: "astralsorcery:resonating_gem"
+					count: 2
+				}
+				{
+					id: "1AA3F80E121BAAE0"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -10.5d
@@ -595,6 +950,32 @@
 				type: "item"
 				item: "astralsorcery:fountain_prime_liquid"
 			}]
+			rewards: [
+				{
+					id: "5C51E78BC2E32311"
+					type: "item"
+					item: "astralsorcery:starmetal_ingot"
+					count: 4
+				}
+				{
+					id: "6599ABA80EF0091F"
+					type: "item"
+					item: "astralsorcery:resonating_gem"
+					count: 4
+				}
+				{
+					id: "5856EFDECD325951"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+					count: 2
+				}
+				{
+					id: "68825A0782E96435"
+					type: "item"
+					item: "astralsorcery:stardust"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -8.5d
@@ -607,6 +988,30 @@
 				type: "item"
 				item: "astralsorcery:fountain_prime_vortex"
 			}]
+			rewards: [
+				{
+					id: "6F8FCF50C0D5CB25"
+					type: "item"
+					item: "astralsorcery:glass_lens"
+				}
+				{
+					id: "79CE47A12041D930"
+					type: "item"
+					item: "astralsorcery:starmetal_ingot"
+					count: 2
+				}
+				{
+					id: "363F9C495C3A5D9B"
+					type: "item"
+					item: "astralsorcery:resonating_gem"
+					count: 2
+				}
+				{
+					id: "190EB98D8D09F6B4"
+					type: "item"
+					item: "astralsorcery:nocturnal_powder"
+				}
+			]
 		}
 		{
 			x: -17.0d
@@ -627,6 +1032,11 @@
 				id: "24FEC9CCF9E32FF5"
 				type: "item"
 				item: "astralsorcery:spectral_relay"
+			}]
+			rewards: [{
+				id: "5636D7A001E55174"
+				type: "item"
+				item: "astralsorcery:glass_lens"
 			}]
 		}
 		{
@@ -651,6 +1061,26 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "4887168F183BF6ED"
+					type: "item"
+					item: "astralsorcery:resonating_gem"
+					count: 2
+				}
+				{
+					id: "1683747B7E423398"
+					type: "item"
+					item: "astralsorcery:stardust"
+					count: 2
+				}
+				{
+					id: "11CED27995603994"
+					type: "item"
+					item: "astralsorcery:glass_lens"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -15.0d
@@ -678,6 +1108,19 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "0C1E2BC6AB261BCC"
+					type: "item"
+					item: "astralsorcery:glass_lens"
+					count: 3
+				}
+				{
+					id: "4437F6760C8A7795"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+				}
+			]
 		}
 		{
 			x: -15.0d
@@ -689,6 +1132,13 @@
 				id: "03AF12EF3DAE96A2"
 				type: "item"
 				item: "astralsorcery:black_marble_raw"
+				count: 8L
+			}]
+			rewards: [{
+				id: "356075EE944042DF"
+				type: "item"
+				item: "astralsorcery:black_marble_raw"
+				count: 8
 			}]
 		}
 		{
@@ -703,10 +1153,14 @@
 			dependencies: ["62FFB55E9CF351CE"]
 			id: "5CD01CC064448ABE"
 			tasks: [{
-				id: "668BBE50924A22EB"
+				id: "2629AB8FC5447811"
 				type: "item"
 				item: "astralsorcery:ritual_link"
-				count: 2L
+			}]
+			rewards: [{
+				id: "762E4576995CADAF"
+				type: "item"
+				item: "astralsorcery:ritual_link"
 			}]
 		}
 		{
@@ -716,7 +1170,18 @@
 			y: -9.0d
 			shape: "gear"
 			hide_dependency_lines: true
-			dependencies: ["47814EBAB3AEBA79"]
+			dependencies: [
+				"47814EBAB3AEBA79"
+				"7591DDDBE81D6790"
+				"2CFB31CFACB54C1E"
+				"6F2326323EF33A63"
+				"79B4D111A5BC35BA"
+				"64863AF36FB0BB0F"
+				"1B9AFBFD62DBF237"
+				"500CE4634E4CAA6E"
+				"3EAB488E2A6BC29A"
+				"67BC8A5CBAF363F8"
+			]
 			size: 2.0d
 			id: "4B5E3923FE352C48"
 			tasks: [
@@ -789,6 +1254,36 @@
 					item: "masterfulmachinery:autoastral_autoastral_item_port_items_output"
 				}
 			]
+			rewards: [
+				{
+					id: "51AEEE62A8ACA7C9"
+					type: "item"
+					item: "industrialforegoing:machine_frame_supreme"
+				}
+				{
+					id: "66CC7E3824903FC8"
+					type: "item"
+					item: "powah:spirited_crystal_block"
+				}
+				{
+					id: "6ADC08C2FEA315AC"
+					type: "item"
+					item: "naturesaura:infused_iron_block"
+					count: 2
+				}
+				{
+					id: "45AD5914340A5134"
+					type: "item"
+					item: "chromasky:starmetal_gear"
+					count: 2
+				}
+				{
+					id: "4C9A88050C1F3010"
+					type: "item"
+					item: "astralsorcery:resonating_gem"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -16.5d
@@ -806,6 +1301,20 @@
 						Damage: 0
 					}
 				}
+			}]
+		}
+		{
+			title: "&k&dabc &r&bStarting Astral&r &k&dabc&r"
+			x: -16.5d
+			y: -3.5d
+			subtitle: "How to start Astral ?"
+			description: ["To start astral you must go to the end and find the different structures hidden on the islands."]
+			dependencies: ["0BDA67667CF2B2A3"]
+			id: "0B67CBE199F4E4D9"
+			tasks: [{
+				id: "14890DA075202246"
+				type: "checkmark"
+				title: "Starting Astral Sorcery"
 			}]
 		}
 	]

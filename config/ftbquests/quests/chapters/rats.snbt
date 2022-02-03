@@ -62,6 +62,13 @@
 				id: "6EC2CBC16B2E3FD2"
 				type: "item"
 				item: "rats:garbage_pile"
+				count: 8L
+			}]
+			rewards: [{
+				id: "4045B34608CFAD84"
+				type: "item"
+				item: "rats:garbage_pile"
+				count: 4
 			}]
 		}
 		{
@@ -100,6 +107,12 @@
 				type: "item"
 				item: "rats:auto_curdler"
 			}]
+			rewards: [{
+				id: "197AD5E4CF31B963"
+				type: "item"
+				item: "rats:block_of_cheese"
+				count: 4
+			}]
 		}
 		{
 			x: 9.0d
@@ -114,6 +127,12 @@
 				id: "79C2F3D66AC8D230"
 				type: "item"
 				item: "rats:filth_corruption"
+			}]
+			rewards: [{
+				id: "051A02199662343F"
+				type: "item"
+				item: "rats:filth"
+				count: 2
 			}]
 		}
 		{
@@ -162,6 +181,17 @@
 					value: 1L
 				}
 			]
+			rewards: [{
+				id: "569003DD411A7535"
+				type: "item"
+				item: {
+					id: "curios:crown"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			title: "&8Call of the plague&r"
@@ -179,6 +209,17 @@
 				id: "43237B923584EA5D"
 				type: "item"
 				item: "rats:plague_tome"
+			}]
+			rewards: [{
+				id: "606531460D1A1E85"
+				type: "item"
+				item: {
+					id: "rats:plague_doctor_mask"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -227,6 +268,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "3445DEDA2C0C0C48"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "&bRat Upgrade: Basic"
@@ -245,6 +291,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_basic"
 			}]
+			rewards: [{
+				id: "74E632A97D1D24D2"
+				type: "item"
+				item: "rats:rat_upgrade_basic"
+			}]
 		}
 		{
 			x: 5.5d
@@ -258,6 +309,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_jury_rigged"
 			}]
+			rewards: [{
+				id: "73CC32A77E88144E"
+				type: "item"
+				item: "rats:rat_upgrade_basic"
+			}]
 		}
 		{
 			x: 5.5d
@@ -268,6 +324,11 @@
 			id: "15936D51DC51D53B"
 			tasks: [{
 				id: "2FC91505835BF5B5"
+				type: "item"
+				item: "rats:rat_upgrade_speed"
+			}]
+			rewards: [{
+				id: "7E6DD1DD80B22199"
 				type: "item"
 				item: "rats:rat_upgrade_speed"
 			}]
@@ -285,6 +346,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_platter"
 			}]
+			rewards: [{
+				id: "5660DE9EE13CDC72"
+				type: "item"
+				item: "minecraft:iron_block"
+			}]
 		}
 		{
 			x: 8.0d
@@ -297,6 +363,17 @@
 				id: "20820A2884A90DBD"
 				type: "item"
 				item: "rats:rat_upgrade_health"
+			}]
+			rewards: [{
+				id: "5E62CA3F981A5A5E"
+				type: "item"
+				item: {
+					id: "minecraft:splash_potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
 			}]
 		}
 		{
@@ -311,6 +388,23 @@
 				type: "item"
 				item: "rats:rat_upgrade_armor"
 			}]
+			rewards: [{
+				id: "39F562026C3943BF"
+				type: "item"
+				item: {
+					id: "immersiveengineering:shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							Size: 2
+							Items: [ ]
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 3.5d
@@ -322,6 +416,17 @@
 				id: "5F4AB51A39665D0D"
 				type: "item"
 				item: "rats:rat_upgrade_bow"
+			}]
+			rewards: [{
+				id: "6A7165AD5A87CFE7"
+				type: "item"
+				item: {
+					id: "minecraft:crossbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -341,6 +446,12 @@
 				type: "item"
 				item: "rats:rat_upgrade_demon"
 			}]
+			rewards: [{
+				id: "03EDFBDB38438FC4"
+				type: "item"
+				item: "rats:blue_cheese"
+				count: 2
+			}]
 		}
 		{
 			x: 4.5d
@@ -352,6 +463,17 @@
 				id: "6ECAD9EC39E47E08"
 				type: "item"
 				item: "rats:rat_upgrade_strength"
+			}]
+			rewards: [{
+				id: "1B308E583F02BCE2"
+				type: "item"
+				item: {
+					id: "minecraft:splash_potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_strength"
+					}
+				}
 			}]
 		}
 		{
@@ -384,6 +506,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_god"
 			}]
+			rewards: [{
+				id: "47FD027E6FCCE463"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
 		}
 		{
 			x: 5.0d
@@ -396,6 +523,17 @@
 				id: "55038199DB1FBDF9"
 				type: "item"
 				item: "rats:rat_upgrade_chef"
+			}]
+			rewards: [{
+				id: "3843BFD6C39B4211"
+				type: "item"
+				item: {
+					id: "rats:chef_toque"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -419,18 +557,16 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "49111BD553B9E6B6"
-			tasks: [
-				{
-					id: "0528A1C4519090D6"
-					type: "item"
-					item: "rats:rat_upgrade_crafting"
-				}
-				{
-					id: "4A12E53C3DA83978"
-					type: "item"
-					item: "rats:rat_crafting_table"
-				}
-			]
+			tasks: [{
+				id: "0528A1C4519090D6"
+				type: "item"
+				item: "rats:rat_upgrade_crafting"
+			}]
+			rewards: [{
+				id: "606987610F00F6A8"
+				type: "item"
+				item: "rats:rat_crafting_table"
+			}]
 		}
 		{
 			title: "Rats Filter"
@@ -459,6 +595,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "31322E06DB31980F"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 4
+			}]
 		}
 		{
 			x: 4.0d
@@ -471,6 +613,12 @@
 				type: "item"
 				item: "rats:rat_upgrade_replanter"
 			}]
+			rewards: [{
+				id: "6F6E8557C00CCFA8"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+				count: 8
+			}]
 		}
 		{
 			x: 6.0d
@@ -482,6 +630,17 @@
 				id: "09A8EB311AE65E25"
 				type: "item"
 				item: "rats:rat_upgrade_flight"
+			}]
+			rewards: [{
+				id: "4F1F162671924BBE"
+				type: "item"
+				item: {
+					id: "minecraft:splash_potion"
+					Count: 1b
+					tag: {
+						Potion: "cyclic:levitation"
+					}
+				}
 			}]
 		}
 		{
@@ -496,6 +655,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_dragon"
 			}]
+			rewards: [{
+				id: "3A0B623ECA0EDD52"
+				type: "item"
+				item: "rats:dragon_wing"
+			}]
 		}
 		{
 			x: 3.0d
@@ -507,6 +671,17 @@
 				id: "65F26B017F1D54DE"
 				type: "item"
 				item: "rats:rat_upgrade_bee"
+			}]
+			rewards: [{
+				id: "7DFAAFC23A6C4EA3"
+				type: "item"
+				item: {
+					id: "animalcrops:seeds"
+					Count: 1b
+					tag: {
+						entity: "minecraft:bee"
+					}
+				}
 			}]
 		}
 		{
@@ -521,6 +696,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_aquatic"
 			}]
+			rewards: [{
+				id: "7BDDA87FCFBA110C"
+				type: "item"
+				item: "rats:fish_barrel"
+			}]
 		}
 		{
 			x: 5.0d
@@ -533,6 +713,11 @@
 				id: "744F8AA8250274EC"
 				type: "item"
 				item: "rats:rat_upgrade_ender"
+			}]
+			rewards: [{
+				id: "3A81FABE08042F06"
+				type: "item"
+				item: "minecraft:ender_eye"
 			}]
 		}
 		{
@@ -551,6 +736,17 @@
 				type: "item"
 				item: "rats:rat_upgrade_lumberjack"
 			}]
+			rewards: [{
+				id: "71423C82146981D3"
+				type: "item"
+				item: {
+					id: "projectred-exploration:ruby_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: 3.0d
@@ -563,6 +759,12 @@
 				id: "7D4E36326A48B842"
 				type: "item"
 				item: "rats:rat_upgrade_miner_ore"
+			}]
+			rewards: [{
+				id: "2E37400E8BC5733F"
+				type: "item"
+				item: "minecraft:iron_ore"
+				count: 4
 			}]
 		}
 		{
@@ -580,6 +782,17 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "10320707427762FB"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe_head"
+					Count: 1b
+					tag: {
+						Material: "mysticalagradditions:tertium"
+					}
+				}
+			}]
 		}
 		{
 			x: 4.0d
@@ -591,6 +804,11 @@
 				id: "35A8D241C2C169DB"
 				type: "item"
 				item: "rats:rat_upgrade_quarry"
+			}]
+			rewards: [{
+				id: "361B0A29DE65501D"
+				type: "item"
+				item: "rats:rat_quarry"
 			}]
 		}
 		{
@@ -604,6 +822,17 @@
 				id: "5BE46112963F4C72"
 				type: "item"
 				item: "rats:rat_upgrade_farmer"
+			}]
+			rewards: [{
+				id: "62A2C15B9EA45B17"
+				type: "item"
+				item: {
+					id: "projectred-exploration:peridot_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -622,6 +851,12 @@
 				type: "item"
 				item: "rats:rat_upgrade_breeder"
 			}]
+			rewards: [{
+				id: "5828F19118521214"
+				type: "item"
+				item: "minecraft:wheat"
+				count: 4
+			}]
 		}
 		{
 			x: 6.5d
@@ -634,6 +869,17 @@
 				id: "4CD00F8AF16F88B5"
 				type: "item"
 				item: "rats:rat_upgrade_fisherman"
+			}]
+			rewards: [{
+				id: "5436AA2226F10831"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -649,6 +895,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_tick_accelerator"
 			}]
+			rewards: [{
+				id: "2CDAF57A0BD1EB29"
+				type: "item"
+				item: "supplementaries:clock_block"
+			}]
 		}
 		{
 			x: 6.0d
@@ -662,6 +913,17 @@
 				type: "item"
 				item: "rats:rat_upgrade_asbestos"
 			}]
+			rewards: [{
+				id: "4BD002ED311454DF"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+			}]
 		}
 		{
 			x: 8.0d
@@ -673,6 +935,17 @@
 				id: "240095EF8B560BE9"
 				type: "item"
 				item: "rats:rat_upgrade_underwater"
+			}]
+			rewards: [{
+				id: "44A95585362B13B3"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:water_breathing"
+					}
+				}
 			}]
 		}
 		{
@@ -691,6 +964,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_damage_protection"
 			}]
+			rewards: [{
+				id: "1AB40EE15A884A90"
+				type: "item"
+				item: "rats:feathery_wing"
+			}]
 		}
 		{
 			x: 3.5d
@@ -702,6 +980,17 @@
 				id: "5E43460B8D6CEBC9"
 				type: "item"
 				item: "rats:rat_upgrade_poison"
+			}]
+			rewards: [{
+				id: "36366D8631DD995E"
+				type: "item"
+				item: {
+					id: "minecraft:splash_potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:weakness"
+					}
+				}
 			}]
 		}
 		{
@@ -720,6 +1009,12 @@
 				type: "item"
 				item: "rats:rat_upgrade_basic_energy"
 			}]
+			rewards: [{
+				id: "3F3137BA470EA7A5"
+				type: "item"
+				item: "pipez:energy_pipe"
+				count: 2
+			}]
 		}
 		{
 			x: 7.5d
@@ -731,6 +1026,12 @@
 				id: "6BDE733433D633BB"
 				type: "item"
 				item: "rats:rat_upgrade_ore_doubling"
+			}]
+			rewards: [{
+				id: "7D6AB872A2E1D531"
+				type: "item"
+				item: "minecraft:gold_ore"
+				count: 2
 			}]
 		}
 		{
@@ -744,6 +1045,12 @@
 				type: "item"
 				item: "rats:rat_upgrade_advanced_energy"
 			}]
+			rewards: [{
+				id: "79CEDD382AF436EC"
+				type: "item"
+				item: "pipez:energy_pipe"
+				count: 4
+			}]
 		}
 		{
 			x: 3.0d
@@ -755,6 +1062,12 @@
 				id: "08DCB24F35C6D60C"
 				type: "item"
 				item: "rats:rat_upgrade_elite_energy"
+			}]
+			rewards: [{
+				id: "717874ED42660A6A"
+				type: "item"
+				item: "pipez:energy_pipe"
+				count: 8
 			}]
 		}
 		{
@@ -768,6 +1081,12 @@
 				type: "item"
 				item: "rats:rat_upgrade_extreme_energy"
 			}]
+			rewards: [{
+				id: "23916129C3BC7291"
+				type: "item"
+				item: "pipez:energy_pipe"
+				count: 32
+			}]
 		}
 		{
 			x: 7.0d
@@ -779,6 +1098,11 @@
 				id: "33ACE2055F9565BD"
 				type: "item"
 				item: "rats:rat_upgrade_bucket"
+			}]
+			rewards: [{
+				id: "6B178F3DFAA324F1"
+				type: "item"
+				item: "minecraft:bucket"
 			}]
 		}
 		{
@@ -809,6 +1133,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_milker"
 			}]
+			rewards: [{
+				id: "4FC0ABA6C667F9D4"
+				type: "item"
+				item: "pamhc2foodcore:cookiesandmilkitem"
+			}]
 		}
 		{
 			x: 4.0d
@@ -820,6 +1149,17 @@
 				id: "10134EC42F601806"
 				type: "item"
 				item: "rats:rat_upgrade_shears"
+			}]
+			rewards: [{
+				id: "28C69ED814724D04"
+				type: "item"
+				item: {
+					id: "minecraft:shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -833,6 +1173,12 @@
 				type: "item"
 				item: "rats:rat_upgrade_tnt"
 			}]
+			rewards: [{
+				id: "192D9D1555906F26"
+				type: "item"
+				item: "minecraft:tnt"
+				count: 2
+			}]
 		}
 		{
 			x: 4.0d
@@ -845,6 +1191,12 @@
 				type: "item"
 				item: "rats:rat_upgrade_tnt_survivor"
 			}]
+			rewards: [{
+				id: "1D86D5417D77E347"
+				type: "item"
+				item: "rats:charged_creeper_chunk"
+				count: 2
+			}]
 		}
 		{
 			x: 7.5d
@@ -856,6 +1208,12 @@
 				id: "1CDA64D116A05B82"
 				type: "item"
 				item: "rats:rat_upgrade_placer"
+			}]
+			rewards: [{
+				id: "3DE8B23CC589F543"
+				type: "item"
+				item: "minecraft:coal_ore"
+				count: 4
 			}]
 		}
 		{
@@ -874,6 +1232,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_voodoo"
 			}]
+			rewards: [{
+				id: "5F7B43DD719ED669"
+				type: "item"
+				item: "rats:plague_stew"
+			}]
 		}
 		{
 			x: 6.0d
@@ -887,6 +1250,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_gemcutter"
 			}]
+			rewards: [{
+				id: "05D650A6DB0A593C"
+				type: "item"
+				item: "minecraft:stonecutter"
+			}]
 		}
 		{
 			x: 7.5d
@@ -899,6 +1267,20 @@
 				type: "item"
 				item: "rats:rat_upgrade_enchanter"
 			}]
+			rewards: [{
+				id: "5054679B77B0F15E"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+			}]
 		}
 		{
 			x: 6.0d
@@ -910,6 +1292,11 @@
 				id: "18E481885AC61325"
 				type: "item"
 				item: "rats:rat_upgrade_disenchanter"
+			}]
+			rewards: [{
+				id: "7FD3EFDEF076ECE7"
+				type: "item"
+				item: "tombstone:book_of_disenchantment"
 			}]
 		}
 		{
@@ -924,6 +1311,12 @@
 				type: "item"
 				item: "rats:rat_upgrade_carrat"
 			}]
+			rewards: [{
+				id: "410239EF7FC52C6F"
+				type: "item"
+				item: "rats:assorted_vegetables"
+				count: 4
+			}]
 		}
 		{
 			x: 4.5d
@@ -935,6 +1328,17 @@
 				id: "5B6D10046FB285E7"
 				type: "item"
 				item: "rats:rat_upgrade_no_flute"
+			}]
+			rewards: [{
+				id: "090937ACBC9D4556"
+				type: "item"
+				item: {
+					id: "supplementaries:flute"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -949,6 +1353,17 @@
 				type: "item"
 				item: "rats:rat_upgrade_angel"
 			}]
+			rewards: [{
+				id: "6BC34628D2D0027C"
+				type: "item"
+				item: {
+					id: "rats:halo_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: 6.5d
@@ -960,6 +1375,11 @@
 				id: "36DB40C535CE2CDA"
 				type: "item"
 				item: "rats:rat_upgrade_undead"
+			}]
+			rewards: [{
+				id: "13CBD522AFAA187D"
+				type: "item"
+				item: "minecraft:skeleton_skull"
 			}]
 		}
 		{
@@ -973,6 +1393,17 @@
 				type: "item"
 				item: "rats:rat_upgrade_basic_mount"
 			}]
+			rewards: [{
+				id: "1077722E9F38F2D0"
+				type: "item"
+				item: {
+					id: "minecraft:carrot_on_a_stick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: 4.0d
@@ -984,6 +1415,17 @@
 				id: "5723770775560A63"
 				type: "item"
 				item: "rats:rat_upgrade_chicken_mount"
+			}]
+			rewards: [{
+				id: "6E092E550E001286"
+				type: "item"
+				item: {
+					id: "animalcrops:seeds"
+					Count: 1b
+					tag: {
+						entity: "minecraft:chicken"
+					}
+				}
 			}]
 		}
 		{
@@ -997,6 +1439,19 @@
 				type: "item"
 				item: "rats:rat_upgrade_golem_mount"
 			}]
+			rewards: [
+				{
+					id: "40278BEF42F35D8F"
+					type: "item"
+					item: "minecraft:iron_block"
+					count: 4
+				}
+				{
+					id: "2CD89280C6A49555"
+					type: "item"
+					item: "minecraft:carved_pumpkin"
+				}
+			]
 		}
 		{
 			x: 6.5d
@@ -1009,6 +1464,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_strider_mount"
 			}]
+			rewards: [{
+				id: "33347F20312FD966"
+				type: "item"
+				item: "minecraft:saddle"
+			}]
 		}
 		{
 			x: 7.0d
@@ -1020,6 +1480,11 @@
 				id: "4BCDDCBB89795FF2"
 				type: "item"
 				item: "rats:rat_upgrade_beast_mount"
+			}]
+			rewards: [{
+				id: "27F4C63DCEE8612B"
+				type: "item"
+				item: "minecraft:saddle"
 			}]
 		}
 		{
@@ -1063,6 +1528,11 @@
 				type: "item"
 				item: "rats:confit_byaldi"
 			}]
+			rewards: [{
+				id: "3293F97E915A68BA"
+				type: "item"
+				item: "rats:confit_byaldi"
+			}]
 		}
 		{
 			x: 0.5d
@@ -1071,6 +1541,11 @@
 			id: "19322ECDAF4F422A"
 			tasks: [{
 				id: "0FE55235C6D6604A"
+				type: "item"
+				item: "rats:assorted_vegetables"
+			}]
+			rewards: [{
+				id: "47271CDC982FE997"
 				type: "item"
 				item: "rats:assorted_vegetables"
 			}]
@@ -1091,6 +1566,11 @@
 				type: "item"
 				item: "rats:potato_kinishes"
 			}]
+			rewards: [{
+				id: "76EE67975338874B"
+				type: "item"
+				item: "rats:potato_kinishes"
+			}]
 		}
 		{
 			x: 10.5d
@@ -1103,6 +1583,11 @@
 			id: "6ABF2E67C99C6B5B"
 			tasks: [{
 				id: "112F7D37182D2980"
+				type: "item"
+				item: "rats:centipede"
+			}]
+			rewards: [{
+				id: "23766F0B6D74F8D0"
 				type: "item"
 				item: "rats:centipede"
 			}]
@@ -1121,6 +1606,11 @@
 				type: "item"
 				item: "rats:little_black_worm"
 			}]
+			rewards: [{
+				id: "02152307E698A1ED"
+				type: "item"
+				item: "rats:little_black_worm"
+			}]
 		}
 		{
 			x: 0.5d
@@ -1128,6 +1618,11 @@
 			id: "1223C7BBA4EBEA0E"
 			tasks: [{
 				id: "1CD5BB172BEABD50"
+				type: "item"
+				item: "rats:potato_pancake"
+			}]
+			rewards: [{
+				id: "2121FD3200B94904"
 				type: "item"
 				item: "rats:potato_pancake"
 			}]
@@ -1140,6 +1635,11 @@
 			id: "0A489C5E8EDE6E9C"
 			tasks: [{
 				id: "6E6A6F7C8295F36B"
+				type: "item"
+				item: "rats:little_black_squash_balls"
+			}]
+			rewards: [{
+				id: "4BAEC0CF3C2940E5"
 				type: "item"
 				item: "rats:little_black_squash_balls"
 			}]
@@ -1165,6 +1665,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "1A8BACD88865721A"
+				type: "item"
+				item: "minecraft:barrel"
+				count: 2
+			}]
 		}
 		{
 			x: 0.5d
@@ -1174,6 +1680,11 @@
 			id: "1F3A35EE8F687480"
 			tasks: [{
 				id: "4E54457C0DDDCFA1"
+				type: "item"
+				item: "rats:string_cheese"
+			}]
+			rewards: [{
+				id: "022EF3B8F2D33C46"
 				type: "item"
 				item: "rats:string_cheese"
 			}]
@@ -1192,6 +1703,11 @@
 				type: "item"
 				item: "rats:rat_burger"
 			}]
+			rewards: [{
+				id: "3DC04C197AD7FA41"
+				type: "item"
+				item: "rats:rat_burger"
+			}]
 		}
 		{
 			x: 10.5d
@@ -1202,6 +1718,11 @@
 				id: "21EE18F9B81AEB0D"
 				type: "item"
 				item: "rats:cooked_rat"
+			}]
+			rewards: [{
+				id: "4ADB4BF9280CFE8F"
+				type: "item"
+				item: "rats:nether_cheese"
 			}]
 		}
 		{
@@ -1216,6 +1737,17 @@
 				type: "item"
 				item: "rats:rat_upgrade_aristocrat"
 			}]
+			rewards: [{
+				id: "5BF2E1F5137A91F4"
+				type: "item"
+				item: {
+					id: "rats:top_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: 5.0d
@@ -1227,6 +1759,12 @@
 				type: "item"
 				item: "rats:cursed_garbage"
 			}]
+			rewards: [{
+				id: "7476D2BFC31345FD"
+				type: "item"
+				item: "rats:cursed_garbage"
+				count: 4
+			}]
 		}
 		{
 			x: 5.5d
@@ -1235,6 +1773,11 @@
 			id: "30AD8D8704C2612E"
 			tasks: [{
 				id: "6A719682B031503F"
+				type: "item"
+				item: "rats:compressed_garbage"
+			}]
+			rewards: [{
+				id: "1BC3D33E1F0B096F"
 				type: "item"
 				item: "rats:compressed_garbage"
 			}]
@@ -1248,6 +1791,13 @@
 				id: "306BA92F38444739"
 				type: "item"
 				item: "rats:purified_garbage"
+				count: 8L
+			}]
+			rewards: [{
+				id: "18DD28AE2B46A23E"
+				type: "item"
+				item: "rats:purified_garbage"
+				count: 4
 			}]
 		}
 	]

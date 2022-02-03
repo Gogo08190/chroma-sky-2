@@ -18,6 +18,11 @@
 				type: "item"
 				item: "farmersdelight:roast_chicken_block"
 			}]
+			rewards: [{
+				id: "50DEED69B2BC73EC"
+				type: "item"
+				item: "farmersdelight:roast_chicken_block"
+			}]
 		}
 		{
 			x: -0.5d
@@ -29,6 +34,11 @@
 			id: "3AE496C8EBEC6DEA"
 			tasks: [{
 				id: "606885662478712D"
+				type: "item"
+				item: "farmersdelight:roast_chicken"
+			}]
+			rewards: [{
+				id: "0E5484FC15C28503"
 				type: "item"
 				item: "farmersdelight:roast_chicken"
 			}]
@@ -62,6 +72,11 @@
 					item: "minecraft:campfire"
 				}
 			]
+			rewards: [{
+				id: "63888DC0A4F1CF55"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 1.0d
@@ -76,6 +91,11 @@
 				type: "item"
 				item: "farmersdelight:stuffed_pumpkin"
 			}]
+			rewards: [{
+				id: "47B7540712CBD589"
+				type: "item"
+				item: "farmersdelight:stuffed_pumpkin"
+			}]
 		}
 		{
 			x: 1.0d
@@ -87,6 +107,11 @@
 				type: "item"
 				item: "farmersdelight:stuffed_pumpkin_block"
 			}]
+			rewards: [{
+				id: "27A171E7B0026004"
+				type: "item"
+				item: "farmersdelight:stuffed_pumpkin_block"
+			}]
 		}
 		{
 			x: 3.0d
@@ -95,6 +120,11 @@
 			id: "6DD0447D74E5C76F"
 			tasks: [{
 				id: "13E44D02336C3CCB"
+				type: "item"
+				item: "farmersdelight:shepherds_pie_block"
+			}]
+			rewards: [{
+				id: "1CF6D69624BFD401"
 				type: "item"
 				item: "farmersdelight:shepherds_pie_block"
 			}]
@@ -112,6 +142,11 @@
 				type: "item"
 				item: "farmersdelight:shepherds_pie"
 			}]
+			rewards: [{
+				id: "5953AB276902122A"
+				type: "item"
+				item: "farmersdelight:shepherds_pie"
+			}]
 		}
 		{
 			x: 9.0d
@@ -123,6 +158,11 @@
 				type: "item"
 				item: "minecraft:smoker"
 			}]
+			rewards: [{
+				id: "3AF5B968A04BF043"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 16.5d
@@ -131,6 +171,11 @@
 			id: "70A8C830652BC68D"
 			tasks: [{
 				id: "6B9018D38C02442B"
+				type: "item"
+				item: "farmersdelight:cooked_rice"
+			}]
+			rewards: [{
+				id: "3547ABA6D830F9FF"
 				type: "item"
 				item: "farmersdelight:cooked_rice"
 			}]
@@ -155,6 +200,11 @@
 					item: "farmersdelight:ham"
 				}
 			]
+			rewards: [{
+				id: "64E78DF8E39F1F0C"
+				type: "item"
+				item: "farmersdelight:smoked_ham"
+			}]
 		}
 		{
 			x: 4.5d
@@ -163,6 +213,11 @@
 			id: "793473959E5C9596"
 			tasks: [{
 				id: "6B775625E206C53B"
+				type: "item"
+				item: "farmersdelight:honey_glazed_ham_block"
+			}]
+			rewards: [{
+				id: "25FD9DF99531FB03"
 				type: "item"
 				item: "farmersdelight:honey_glazed_ham_block"
 			}]
@@ -180,6 +235,11 @@
 				type: "item"
 				item: "farmersdelight:honey_glazed_ham"
 			}]
+			rewards: [{
+				id: "6E42C8E781B2EB2C"
+				type: "item"
+				item: "farmersdelight:honey_glazed_ham"
+			}]
 		}
 		{
 			x: -0.5d
@@ -188,6 +248,11 @@
 			id: "17638FE118AB88FD"
 			tasks: [{
 				id: "0283F84EBA13E9B4"
+				type: "item"
+				item: "minecraft:cake"
+			}]
+			rewards: [{
+				id: "379154E16473E3DF"
 				type: "item"
 				item: "minecraft:cake"
 			}]
@@ -202,6 +267,11 @@
 				type: "item"
 				item: "farmersdelight:chocolate_pie"
 			}]
+			rewards: [{
+				id: "2CFDFEE295B9AB67"
+				type: "item"
+				item: "farmersdelight:chocolate_pie"
+			}]
 		}
 		{
 			x: 3.0d
@@ -210,6 +280,11 @@
 			id: "020F92E78E73C2CE"
 			tasks: [{
 				id: "287DF0DCE5DEB494"
+				type: "item"
+				item: "farmersdelight:sweet_berry_cheesecake"
+			}]
+			rewards: [{
+				id: "0DDD0E257EB202BB"
 				type: "item"
 				item: "farmersdelight:sweet_berry_cheesecake"
 			}]
@@ -224,6 +299,11 @@
 				type: "item"
 				item: "farmersdelight:apple_pie"
 			}]
+			rewards: [{
+				id: "357E6414721649FE"
+				type: "item"
+				item: "farmersdelight:apple_pie"
+			}]
 		}
 		{
 			x: 18.5d
@@ -232,6 +312,11 @@
 			id: "56A22EA7B49F9033"
 			tasks: [{
 				id: "74B0ECC72C8EF885"
+				type: "item"
+				item: "farmersdelight:pie_crust"
+			}]
+			rewards: [{
+				id: "6FFF260692AFA7E7"
 				type: "item"
 				item: "farmersdelight:pie_crust"
 			}]
@@ -249,6 +334,11 @@
 				type: "item"
 				item: "farmersdelight:cake_slice"
 			}]
+			rewards: [{
+				id: "2002C34158ED0AD7"
+				type: "item"
+				item: "farmersdelight:cake_slice"
+			}]
 		}
 		{
 			x: 4.5d
@@ -260,6 +350,11 @@
 			id: "732C434100FD24D2"
 			tasks: [{
 				id: "5DEC10FD2FE9F3B9"
+				type: "item"
+				item: "farmersdelight:apple_pie_slice"
+			}]
+			rewards: [{
+				id: "154E464E437111F1"
 				type: "item"
 				item: "farmersdelight:apple_pie_slice"
 			}]
@@ -277,6 +372,11 @@
 				type: "item"
 				item: "farmersdelight:sweet_berry_cheesecake_slice"
 			}]
+			rewards: [{
+				id: "6960A4C08EEF223A"
+				type: "item"
+				item: "farmersdelight:sweet_berry_cheesecake_slice"
+			}]
 		}
 		{
 			x: 1.0d
@@ -288,6 +388,11 @@
 			id: "2D968461C9B8BC2E"
 			tasks: [{
 				id: "2FA55943AE9EAF3F"
+				type: "item"
+				item: "farmersdelight:chocolate_pie_slice"
+			}]
+			rewards: [{
+				id: "65997CCC036C2FF9"
 				type: "item"
 				item: "farmersdelight:chocolate_pie_slice"
 			}]
@@ -370,6 +475,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7F513030456EB63E"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 9.0d
@@ -381,6 +491,11 @@
 				type: "item"
 				item: "farmersdelight:cutting_board"
 			}]
+			rewards: [{
+				id: "6C683DF15ADDF920"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 12.0d
@@ -389,6 +504,11 @@
 			id: "76B2946CB92BB35A"
 			tasks: [{
 				id: "0D569751D53E3182"
+				type: "item"
+				item: "farmersdelight:nether_salad"
+			}]
+			rewards: [{
+				id: "08081CD35755D973"
 				type: "item"
 				item: "farmersdelight:nether_salad"
 			}]
@@ -403,6 +523,11 @@
 				type: "item"
 				item: "farmersdelight:mixed_salad"
 			}]
+			rewards: [{
+				id: "1F064961DB90D79D"
+				type: "item"
+				item: "farmersdelight:mixed_salad"
+			}]
 		}
 		{
 			x: 12.5d
@@ -411,6 +536,11 @@
 			id: "66FC1402EF27DA60"
 			tasks: [{
 				id: "2C3458072648866D"
+				type: "item"
+				item: "farmersdelight:fruit_salad"
+			}]
+			rewards: [{
+				id: "3BD36299CF4BE95B"
 				type: "item"
 				item: "farmersdelight:fruit_salad"
 			}]
@@ -425,6 +555,11 @@
 				type: "item"
 				item: "farmersdelight:vegetable_soup"
 			}]
+			rewards: [{
+				id: "5FC00EA4A963E9CF"
+				type: "item"
+				item: "farmersdelight:vegetable_soup"
+			}]
 		}
 		{
 			x: 20.5d
@@ -433,6 +568,11 @@
 			id: "309B45DBE1780B3B"
 			tasks: [{
 				id: "6D337D987D6E505A"
+				type: "item"
+				item: "farmersdelight:fish_stew"
+			}]
+			rewards: [{
+				id: "7F4CBAFEAC2BB452"
 				type: "item"
 				item: "farmersdelight:fish_stew"
 			}]
@@ -447,6 +587,11 @@
 				type: "item"
 				item: "farmersdelight:pumpkin_soup"
 			}]
+			rewards: [{
+				id: "689C8BF01F0FDAD7"
+				type: "item"
+				item: "farmersdelight:pumpkin_soup"
+			}]
 		}
 		{
 			x: 21.5d
@@ -455,6 +600,11 @@
 			id: "19FD33D636685CD2"
 			tasks: [{
 				id: "5C8E3200565BD2E5"
+				type: "item"
+				item: "farmersdelight:baked_cod_stew"
+			}]
+			rewards: [{
+				id: "42551249BC8203CD"
 				type: "item"
 				item: "farmersdelight:baked_cod_stew"
 			}]
@@ -469,6 +619,11 @@
 				type: "item"
 				item: "farmersdelight:noodle_soup"
 			}]
+			rewards: [{
+				id: "3FEA47965C9C1F4E"
+				type: "item"
+				item: "farmersdelight:noodle_soup"
+			}]
 		}
 		{
 			x: 20.5d
@@ -480,6 +635,11 @@
 				type: "item"
 				item: "farmersdelight:beef_stew"
 			}]
+			rewards: [{
+				id: "4F3FC13B77AD9DAF"
+				type: "item"
+				item: "farmersdelight:beef_stew"
+			}]
 		}
 		{
 			x: 21.5d
@@ -488,6 +648,11 @@
 			id: "232AAFC2F9214968"
 			tasks: [{
 				id: "41137B14595DF1EE"
+				type: "item"
+				item: "farmersdelight:chicken_soup"
+			}]
+			rewards: [{
+				id: "5062518D8661DFFA"
 				type: "item"
 				item: "farmersdelight:chicken_soup"
 			}]
@@ -517,6 +682,11 @@
 				type: "item"
 				item: "farmersdelight:sweet_berry_cookie"
 			}]
+			rewards: [{
+				id: "077AF6350CC31BEE"
+				type: "item"
+				item: "farmersdelight:sweet_berry_cookie"
+			}]
 		}
 		{
 			x: 21.5d
@@ -528,6 +698,11 @@
 				type: "item"
 				item: "farmersdelight:honey_cookie"
 			}]
+			rewards: [{
+				id: "7FA079FA54066578"
+				type: "item"
+				item: "farmersdelight:honey_cookie"
+			}]
 		}
 		{
 			x: 20.5d
@@ -536,6 +711,11 @@
 			id: "37ABBAE7FB8FE781"
 			tasks: [{
 				id: "530F0D77C81B4A77"
+				type: "item"
+				item: "farmersdelight:melon_popsicle"
+			}]
+			rewards: [{
+				id: "6103A27FF69F1F6C"
 				type: "item"
 				item: "farmersdelight:melon_popsicle"
 			}]
@@ -584,6 +764,11 @@
 				type: "item"
 				item: "farmersdelight:pasta_with_mutton_chop"
 			}]
+			rewards: [{
+				id: "01B867A56F486FE4"
+				type: "item"
+				item: "farmersdelight:pasta_with_mutton_chop"
+			}]
 		}
 		{
 			x: 15.0d
@@ -592,6 +777,11 @@
 			id: "1FC730C27CC7F522"
 			tasks: [{
 				id: "344E577CC1B0E8B3"
+				type: "item"
+				item: "farmersdelight:pasta_with_meatballs"
+			}]
+			rewards: [{
+				id: "4327F51A3C8BAA12"
 				type: "item"
 				item: "farmersdelight:pasta_with_meatballs"
 			}]
@@ -606,6 +796,11 @@
 				type: "item"
 				item: "farmersdelight:steak_and_potatoes"
 			}]
+			rewards: [{
+				id: "46836B5FBE1D2B57"
+				type: "item"
+				item: "farmersdelight:steak_and_potatoes"
+			}]
 		}
 		{
 			x: 17.0d
@@ -614,6 +809,11 @@
 			id: "00EF5E65796B933A"
 			tasks: [{
 				id: "1089AB5131C1FE5A"
+				type: "item"
+				item: "farmersdelight:roasted_mutton_chops"
+			}]
+			rewards: [{
+				id: "7904E44FCFA7BBEC"
 				type: "item"
 				item: "farmersdelight:roasted_mutton_chops"
 			}]
@@ -628,6 +828,11 @@
 				type: "item"
 				item: "farmersdelight:ratatouille"
 			}]
+			rewards: [{
+				id: "09BA2AA866D430F9"
+				type: "item"
+				item: "farmersdelight:ratatouille"
+			}]
 		}
 		{
 			x: 15.5d
@@ -639,6 +844,11 @@
 				type: "item"
 				item: "farmersdelight:squid_ink_pasta"
 			}]
+			rewards: [{
+				id: "1A9F1EAF036D5192"
+				type: "item"
+				item: "farmersdelight:squid_ink_pasta"
+			}]
 		}
 		{
 			x: 16.5d
@@ -647,6 +857,11 @@
 			id: "54C0758A1FF7CEE7"
 			tasks: [{
 				id: "7BF8220629F41756"
+				type: "item"
+				item: "farmersdelight:grilled_salmon"
+			}]
+			rewards: [{
+				id: "5170A6D7544BA50E"
 				type: "item"
 				item: "farmersdelight:grilled_salmon"
 			}]
@@ -673,6 +888,11 @@
 				type: "item"
 				item: "farmersdelight:fried_rice"
 			}]
+			rewards: [{
+				id: "0D9489A55F182836"
+				type: "item"
+				item: "farmersdelight:fried_rice"
+			}]
 		}
 		{
 			x: 9.0d
@@ -681,6 +901,11 @@
 			id: "04031A8FE09649DD"
 			tasks: [{
 				id: "54FDD8E311169A75"
+				type: "item"
+				item: "farmersdelight:cabbage_rolls"
+			}]
+			rewards: [{
+				id: "602394BEA4D96014"
 				type: "item"
 				item: "farmersdelight:cabbage_rolls"
 			}]
@@ -695,6 +920,11 @@
 				type: "item"
 				item: "farmersdelight:barbecue_stick"
 			}]
+			rewards: [{
+				id: "7E492DE8E15A862F"
+				type: "item"
+				item: "farmersdelight:barbecue_stick"
+			}]
 		}
 		{
 			x: 11.0d
@@ -703,6 +933,11 @@
 			id: "4288B7894FC461EE"
 			tasks: [{
 				id: "12E604B38D0E3539"
+				type: "item"
+				item: "farmersdelight:egg_sandwich"
+			}]
+			rewards: [{
+				id: "6525D6853E675B88"
 				type: "item"
 				item: "farmersdelight:egg_sandwich"
 			}]
@@ -717,6 +952,11 @@
 				type: "item"
 				item: "farmersdelight:chicken_sandwich"
 			}]
+			rewards: [{
+				id: "327245F1745E2849"
+				type: "item"
+				item: "farmersdelight:chicken_sandwich"
+			}]
 		}
 		{
 			x: 9.0d
@@ -725,6 +965,11 @@
 			id: "4F27E659FF44AFF9"
 			tasks: [{
 				id: "22CD28BEDD122B78"
+				type: "item"
+				item: "farmersdelight:hamburger"
+			}]
+			rewards: [{
+				id: "72D1BCB6FBBDBCF3"
 				type: "item"
 				item: "farmersdelight:hamburger"
 			}]
@@ -739,6 +984,11 @@
 				type: "item"
 				item: "farmersdelight:bacon_sandwich"
 			}]
+			rewards: [{
+				id: "39B83080F3523412"
+				type: "item"
+				item: "farmersdelight:bacon_sandwich"
+			}]
 		}
 		{
 			x: 11.0d
@@ -747,6 +997,11 @@
 			id: "2930FBC764E08258"
 			tasks: [{
 				id: "5FE0B7B6B1397159"
+				type: "item"
+				item: "farmersdelight:mutton_wrap"
+			}]
+			rewards: [{
+				id: "016DA40FE8BF8BFC"
 				type: "item"
 				item: "farmersdelight:mutton_wrap"
 			}]
@@ -761,6 +1016,11 @@
 				type: "item"
 				item: "farmersdelight:dumplings"
 			}]
+			rewards: [{
+				id: "46ED643AEED39BE0"
+				type: "item"
+				item: "farmersdelight:dumplings"
+			}]
 		}
 		{
 			x: 9.0d
@@ -769,6 +1029,11 @@
 			id: "66DFB74EA3525CE0"
 			tasks: [{
 				id: "7AF399C7079A70D8"
+				type: "item"
+				item: "farmersdelight:stuffed_potato"
+			}]
+			rewards: [{
+				id: "4CAAD71DDD6B7568"
 				type: "item"
 				item: "farmersdelight:stuffed_potato"
 			}]
@@ -783,6 +1048,11 @@
 				type: "item"
 				item: "farmersdelight:bacon_and_eggs"
 			}]
+			rewards: [{
+				id: "04D454F53DC9DAD7"
+				type: "item"
+				item: "farmersdelight:bacon_and_eggs"
+			}]
 		}
 		{
 			x: 11.0d
@@ -791,6 +1061,11 @@
 			id: "1C274C74399378C9"
 			tasks: [{
 				id: "413D75D8C6BA891F"
+				type: "item"
+				item: "farmersdelight:dog_food"
+			}]
+			rewards: [{
+				id: "3691C9494DEDEDFD"
 				type: "item"
 				item: "farmersdelight:dog_food"
 			}]
@@ -860,6 +1135,18 @@
 					item: "nethers_delight:hoglin_hide"
 				}
 			]
+			rewards: [
+				{
+					id: "459316FEF2B44246"
+					type: "item"
+					item: "nethers_delight:hoglin_hide"
+				}
+				{
+					id: "6C1A3CB242EAA34D"
+					type: "item"
+					item: "nethers_delight:hoglin_sirloin"
+				}
+			]
 		}
 		{
 			x: 17.5d
@@ -871,14 +1158,25 @@
 				type: "item"
 				item: "nethers_delight:ground_strider"
 			}]
+			rewards: [{
+				id: "11594E8E2FC59EF1"
+				type: "item"
+				item: "nethers_delight:ground_strider"
+			}]
 		}
 		{
 			x: 18.5d
 			y: -10.0d
+			description: ["Like the pig kill a stryder with a knife"]
 			dependencies: ["02A31E005EA75211"]
 			id: "0BC8D5C67F3DC439"
 			tasks: [{
 				id: "62FA24EFBDA686FB"
+				type: "item"
+				item: "nethers_delight:strider_slice"
+			}]
+			rewards: [{
+				id: "2A8F531140BA21BD"
 				type: "item"
 				item: "nethers_delight:strider_slice"
 			}]
@@ -898,7 +1196,7 @@
 		{
 			x: 21.5d
 			y: -1.5d
-			description: ["Becareful, it can crash ! To avoid crashes, you will have to right click with an empty hand on the rear side of the &6Stuffed Hoglin&r and after right click with your &8Knife&r "]
+			description: ["&4Becareful, it can crash !&r To avoid crashes, you will have to right click with an empty hand on the rear side of the &6Stuffed Hoglin&r and after right click with your &8Knife&r "]
 			dependencies: ["254135040F468BE9"]
 			id: "577403BE83F42DE6"
 			tasks: [{
@@ -997,6 +1295,11 @@
 				id: "4B00D31AEE793C81"
 				type: "checkmark"
 				title: "Cooking tool"
+			}]
+			rewards: [{
+				id: "5A5210E517169B3C"
+				type: "item"
+				item: "minecraft:campfire"
 			}]
 		}
 		{

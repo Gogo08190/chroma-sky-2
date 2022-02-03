@@ -57,6 +57,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7152E8E8EB805DFD"
+				type: "item"
+				item: "minecraft:honeycomb"
+				count: 4
+			}]
 		}
 		{
 			x: 0.0d
@@ -74,6 +80,12 @@
 						entity: "minecraft:chicken"
 					}
 				}
+			}]
+			rewards: [{
+				id: "6B20BE680F46C243"
+				type: "item"
+				item: "minecraft:feather"
+				count: 4
 			}]
 		}
 		{
@@ -93,6 +105,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0E6748922356636B"
+				type: "item"
+				item: "minecraft:leather"
+				count: 4
+			}]
 		}
 		{
 			x: 2.0d
@@ -110,6 +128,12 @@
 						entity: "minecraft:pig"
 					}
 				}
+			}]
+			rewards: [{
+				id: "1D99759ACE5AB80B"
+				type: "item"
+				item: "quark:tallow"
+				count: 4
 			}]
 		}
 		{
@@ -129,6 +153,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5A4223BC53923CF5"
+				type: "item"
+				item: "minecraft:rabbit_hide"
+				count: 4
+			}]
 		}
 		{
 			x: 4.0d
@@ -146,6 +176,12 @@
 						entity: "minecraft:sheep"
 					}
 				}
+			}]
+			rewards: [{
+				id: "3EBCF9CB8088336D"
+				type: "item"
+				item: "minecraft:white_wool"
+				count: 4
 			}]
 		}
 		{
@@ -183,6 +219,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1427B6E0E32C695B"
+				type: "item"
+				item: "minecraft:ink_sac"
+				count: 4
+			}]
 		}
 		{
 			x: 7.0d
@@ -200,6 +242,12 @@
 						entity: "minecraft:turtle"
 					}
 				}
+			}]
+			rewards: [{
+				id: "0422C1BA27A96D3A"
+				type: "item"
+				item: "minecraft:scute"
+				count: 4
 			}]
 		}
 	]

@@ -19,6 +19,11 @@
 				advancement: "apotheosis:spawner/root"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "2083EE1C13827766"
+				type: "item"
+				item: "minecraft:zombie_spawn_egg"
+			}]
 		}
 		{
 			x: -2.0d
@@ -30,6 +35,12 @@
 				id: "1E6A49B39E049BC7"
 				type: "item"
 				item: "apotheosis:hellshelf"
+			}]
+			rewards: [{
+				id: "19382C8DA15C4CB3"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 4
 			}]
 		}
 		{
@@ -43,6 +54,20 @@
 				type: "item"
 				item: "apotheosis:blazing_hellshelf"
 			}]
+			rewards: [{
+				id: "189CC97FC1341E94"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "apotheosis:hell_infusion"
+						}]
+					}
+				}
+			}]
 		}
 		{
 			x: -2.0d
@@ -54,6 +79,20 @@
 				id: "30913AA719FCFAB8"
 				type: "item"
 				item: "apotheosis:glowing_hellshelf"
+			}]
+			rewards: [{
+				id: "4251E43058704124"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "apotheosis:hell_infusion"
+						}]
+					}
+				}
 			}]
 		}
 		{
@@ -67,6 +106,11 @@
 				type: "item"
 				item: "apotheosis:seashelf"
 			}]
+			rewards: [{
+				id: "785455D1F282586D"
+				type: "item"
+				item: "minecraft:pufferfish_bucket"
+			}]
 		}
 		{
 			x: -3.0d
@@ -78,6 +122,20 @@
 				id: "2B179348523AC701"
 				type: "item"
 				item: "apotheosis:crystal_seashelf"
+			}]
+			rewards: [{
+				id: "071951D256EEED5D"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "apotheosis:sea_infusion"
+						}]
+					}
+				}
 			}]
 		}
 		{
@@ -91,6 +149,20 @@
 				type: "item"
 				item: "apotheosis:heart_seashelf"
 			}]
+			rewards: [{
+				id: "657A011C73F193E5"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "apotheosis:sea_infusion"
+						}]
+					}
+				}
+			}]
 		}
 		{
 			x: -4.0d
@@ -102,6 +174,12 @@
 				id: "5434063582C8A600"
 				type: "item"
 				item: "apotheosis:endshelf"
+			}]
+			rewards: [{
+				id: "3C1A152CA4EC319E"
+				type: "item"
+				item: "minecraft:dragon_breath"
+				count: 2
 			}]
 		}
 		{
@@ -115,6 +193,11 @@
 				type: "item"
 				item: "apotheosis:draconic_endshelf"
 			}]
+			rewards: [{
+				id: "506AF9508CE60FA9"
+				type: "item"
+				item: "minecraft:dragon_head"
+			}]
 		}
 		{
 			x: -4.0d
@@ -126,6 +209,11 @@
 				id: "787250FC8C3E97F3"
 				type: "item"
 				item: "apotheosis:pearl_endshelf"
+			}]
+			rewards: [{
+				id: "258F10F2113C13B0"
+				type: "item"
+				item: "krate:shulker_upgrade"
 			}]
 		}
 		{
@@ -139,6 +227,12 @@
 				type: "item"
 				item: "apotheosis:beeshelf"
 			}]
+			rewards: [{
+				id: "130E38DA84E0B9D0"
+				type: "item"
+				item: "minecraft:honeycomb"
+				count: 4
+			}]
 		}
 		{
 			x: -5.0d
@@ -150,6 +244,12 @@
 				id: "1829763BE3D2AF2C"
 				type: "item"
 				item: "apotheosis:melonshelf"
+			}]
+			rewards: [{
+				id: "7217B58312D4E048"
+				type: "item"
+				item: "minecraft:melon"
+				count: 4
 			}]
 		}
 		{
@@ -163,6 +263,36 @@
 				type: "item"
 				item: "apotheosis:enchantment_library"
 			}]
+			rewards: [
+				{
+					id: "61FE40D6FD31CE11"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:fortune"
+							}]
+						}
+					}
+				}
+				{
+					id: "2CFC494EDAC9051F"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:looting"
+							}]
+						}
+					}
+				}
+			]
 		}
 		{
 			x: -6.0d
@@ -172,6 +302,12 @@
 			id: "45CF715D44DAD5A0"
 			tasks: [{
 				id: "6DFD9A674F2C3AE0"
+				type: "item"
+				item: "apotheosis:null_book"
+				count: 6L
+			}]
+			rewards: [{
+				id: "5D6DBE6EB4E4DE0D"
 				type: "item"
 				item: "apotheosis:null_book"
 			}]
@@ -198,6 +334,12 @@
 				id: "293BDE8261ABA91C"
 				type: "item"
 				item: "apotheosis:armor_chest_book"
+				count: 8L
+			}]
+			rewards: [{
+				id: "4A2F886560B9AF67"
+				type: "item"
+				item: "apotheosis:armor_chest_book"
 			}]
 		}
 		{
@@ -208,6 +350,12 @@
 			id: "51B9164856481CCA"
 			tasks: [{
 				id: "5C8C1A17CDF02A52"
+				type: "item"
+				item: "apotheosis:armor_legs_book"
+				count: 7L
+			}]
+			rewards: [{
+				id: "247013506540DEE0"
 				type: "item"
 				item: "apotheosis:armor_legs_book"
 			}]
@@ -222,6 +370,12 @@
 				id: "4D34ED83D208DFCE"
 				type: "item"
 				item: "apotheosis:armor_feet_book"
+				count: 4L
+			}]
+			rewards: [{
+				id: "6BB3116572E53FC6"
+				type: "item"
+				item: "apotheosis:armor_feet_book"
 			}]
 		}
 		{
@@ -232,6 +386,12 @@
 			id: "33745A802C197BB4"
 			tasks: [{
 				id: "5B83DA207183D136"
+				type: "item"
+				item: "apotheosis:weapon_book"
+				count: 2L
+			}]
+			rewards: [{
+				id: "53EABA17585E4731"
 				type: "item"
 				item: "apotheosis:weapon_book"
 			}]
@@ -246,6 +406,12 @@
 				id: "548FC130E2D97902"
 				type: "item"
 				item: "apotheosis:digger_book"
+				count: 3L
+			}]
+			rewards: [{
+				id: "1EA51CACA8837603"
+				type: "item"
+				item: "apotheosis:digger_book"
 			}]
 		}
 		{
@@ -256,6 +422,12 @@
 			id: "4CEE2A3D8DA44F3A"
 			tasks: [{
 				id: "3D47F801AB870745"
+				type: "item"
+				item: "apotheosis:fishing_rod_book"
+				count: 2L
+			}]
+			rewards: [{
+				id: "3B45A6E40BE3BB30"
 				type: "item"
 				item: "apotheosis:fishing_rod_book"
 			}]
@@ -270,6 +442,12 @@
 				id: "5D992C21408ED906"
 				type: "item"
 				item: "apotheosis:bow_book"
+				count: 3L
+			}]
+			rewards: [{
+				id: "376D73128FE411FA"
+				type: "item"
+				item: "apotheosis:bow_book"
 			}]
 		}
 		{
@@ -280,6 +458,12 @@
 				id: "36107F1FF2DEF1BB"
 				type: "item"
 				item: "minecraft:enchanting_table"
+			}]
+			rewards: [{
+				id: "25531FDE54EFFD6B"
+				type: "item"
+				item: "minecraft:bookshelf"
+				count: 4
 			}]
 		}
 	]

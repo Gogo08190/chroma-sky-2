@@ -1,0 +1,32 @@
+{
+	id: "214E4F452502A57C"
+	order_index: 4
+	title: "Mystical essence Tier 2"
+	icon: "mysticalagriculture:prudentium_essence"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "mysticalagriculture:cow_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:sulfur_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:basalt_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:dye_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:sheep_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:saltpeter_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:rubber_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:marble_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:limestone_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:honey_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:turtle_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:copper_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:coral_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:slime_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:chicken_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:nature_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:fish_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:aluminum_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:pig_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:silicon_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:coal_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:nether_essence", count: 16, random_bonus: 4 }
+	]
+}

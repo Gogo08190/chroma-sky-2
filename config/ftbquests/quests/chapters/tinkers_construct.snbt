@@ -31,6 +31,11 @@
 				type: "item"
 				item: "tconstruct:seared_melter"
 			}]
+			rewards: [{
+				id: "5ACFB9C4E5FEDA90"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -3.5d
@@ -43,6 +48,11 @@
 				id: "62DBD8CA481407E8"
 				type: "item"
 				item: "tconstruct:seared_ingot_gauge"
+			}]
+			rewards: [{
+				id: "5779E13ABAD51522"
+				type: "item"
+				item: "tconstruct:seared_fuel_gauge"
 			}]
 		}
 		{
@@ -74,6 +84,19 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "73A454680BEE2D4A"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+				{
+					id: "4A8F7FA3359EFAF1"
+					type: "item"
+					item: "minecraft:charcoal"
+					count: 8
+				}
+			]
 		}
 		{
 			x: -3.5d
@@ -87,6 +110,11 @@
 				id: "5EB814B55024112B"
 				type: "item"
 				item: "tconstruct:seared_faucet"
+			}]
+			rewards: [{
+				id: "034FC5D3143D05C4"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -102,6 +130,11 @@
 				type: "item"
 				item: "tconstruct:seared_table"
 			}]
+			rewards: [{
+				id: "4FC161D7CA6C2792"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -2.5d
@@ -115,6 +148,11 @@
 				id: "2CD46E0F98299C8E"
 				type: "item"
 				item: "tconstruct:seared_basin"
+			}]
+			rewards: [{
+				id: "7F527B46595D57BF"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -134,6 +172,11 @@
 				type: "item"
 				item: "cobblefordays:tier_2"
 			}]
+			rewards: [{
+				id: "14CA9FF57A9C28DA"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -3.494217687074851d
@@ -147,6 +190,11 @@
 				id: "5C42D7BBD8CEE401"
 				type: "item"
 				item: "tconstruct:smeltery_controller"
+			}]
+			rewards: [{
+				id: "7C075B3A46C91B63"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -163,6 +211,11 @@
 				id: "641E7C4278039819"
 				type: "item"
 				item: "tconstruct:seared_duct"
+			}]
+			rewards: [{
+				id: "25F9F7E3D2D96A18"
+				type: "item"
+				item: "tconstruct:copper_can"
 			}]
 		}
 		{
@@ -182,6 +235,11 @@
 				type: "item"
 				item: "tconstruct:seared_drain"
 			}]
+			rewards: [{
+				id: "7D2F26CA43A353CE"
+				type: "item"
+				item: "tconstruct:seared_ingot_tank"
+			}]
 		}
 		{
 			x: -3.0d
@@ -198,6 +256,11 @@
 				type: "item"
 				item: "tconstruct:seared_chute"
 			}]
+			rewards: [{
+				id: "3EB64891A0C541DB"
+				type: "item"
+				item: "minecraft:hopper"
+			}]
 		}
 		{
 			x: 3.0d
@@ -211,6 +274,20 @@
 				type: "item"
 				item: "tconstruct:molten_rose_gold_bucket"
 			}]
+			rewards: [
+				{
+					id: "52258D10C925ECBE"
+					type: "item"
+					item: "chromasky:gold_cluster"
+					count: 2
+				}
+				{
+					id: "1E542797334DD539"
+					type: "item"
+					item: "chromasky:copper_cluster"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -4.0d
@@ -233,6 +310,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "736B549DCDA0844F"
+				type: "item"
+				item: "tconstruct:cast_chest"
+			}]
 		}
 		{
 			x: 1.5d
@@ -248,6 +330,11 @@
 				item: "immersiveengineering:cokebrick"
 				count: 27L
 			}]
+			rewards: [{
+				id: "60AA07812F58FE8D"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 3.5d
@@ -262,6 +349,11 @@
 				title: "Blast Brick"
 				item: "immersiveengineering:blastbrick"
 				count: 27L
+			}]
+			rewards: [{
+				id: "7F305996E26B3D37"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -280,6 +372,11 @@
 				type: "item"
 				item: "tconstruct:foundry_controller"
 			}]
+			rewards: [{
+				id: "25A256EE03D936D2"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 2.0d
@@ -291,6 +388,11 @@
 				id: "257E0D8EF29552EB"
 				type: "item"
 				item: "tconstruct:scorched_fuel_tank"
+			}]
+			rewards: [{
+				id: "338103B6CF664E6A"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -305,6 +407,11 @@
 				type: "item"
 				item: "tconstruct:scorched_bricks"
 			}]
+			rewards: [{
+				id: "427207236CFCA8AB"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 3.0d
@@ -316,6 +423,11 @@
 				id: "7CD665462BF488A5"
 				type: "item"
 				item: "tconstruct:scorched_table"
+			}]
+			rewards: [{
+				id: "0C95D75792D2E1A8"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -329,6 +441,11 @@
 				type: "item"
 				item: "tconstruct:scorched_basin"
 			}]
+			rewards: [{
+				id: "6B163E1890E001AF"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 3.5d
@@ -340,6 +457,11 @@
 				id: "5E8E85E2A75187C4"
 				type: "item"
 				item: "tconstruct:scorched_faucet"
+			}]
+			rewards: [{
+				id: "2070D3C761F251D5"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -353,6 +475,11 @@
 				type: "item"
 				item: "tconstruct:scorched_drain"
 			}]
+			rewards: [{
+				id: "5CD4595AFC531793"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 2.0d
@@ -365,6 +492,11 @@
 				type: "item"
 				item: "tconstruct:scorched_chute"
 			}]
+			rewards: [{
+				id: "782A0B33B1A01488"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 1.5d
@@ -376,6 +508,11 @@
 				id: "2B014E8B9AA317F5"
 				type: "item"
 				item: "tconstruct:scorched_duct"
+			}]
+			rewards: [{
+				id: "0621B322B1850970"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -391,6 +528,13 @@
 				id: "75B94350AB5C5948"
 				type: "item"
 				item: "tconstruct:nether_grout"
+				count: 8L
+			}]
+			rewards: [{
+				id: "1779AF0C246089D4"
+				type: "item"
+				item: "tconstruct:nether_grout"
+				count: 8
 			}]
 		}
 		{
@@ -822,6 +966,24 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "0E0553D6F0C35CD5"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+				{
+					id: "4A2B833968D4D5A8"
+					type: "item"
+					item: {
+						id: "tconstruct:repair_kit"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:enderslime"
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -855,6 +1017,24 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "5AFA1BA012B7D006"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+				{
+					id: "77C311B069041843"
+					type: "item"
+					item: {
+						id: "tconstruct:repair_kit"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:cobalt"
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -888,6 +1068,24 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "3FB9BDD36F6AD44B"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+				{
+					id: "0CBE07D102774381"
+					type: "item"
+					item: {
+						id: "tconstruct:repair_kit"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:cobalt"
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -921,6 +1119,24 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "59790CAD97D7F19A"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+				{
+					id: "2C66A58C65A4AB11"
+					type: "item"
+					item: {
+						id: "tconstruct:repair_kit"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:cobalt"
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -954,6 +1170,24 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "37D025D69CA3446A"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+				{
+					id: "524F37F22F49A385"
+					type: "item"
+					item: {
+						id: "tconstruct:repair_kit"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:cobalt"
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 8.5d
@@ -983,6 +1217,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "60F96D5683E8C5D5"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1014,6 +1253,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2D9EE70F72EF064D"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 8.5d
@@ -1044,6 +1288,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "138B3F5676910FE4"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 8.5d
@@ -1073,6 +1322,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "33FC2E590AEFDADC"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1114,6 +1368,24 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "4207FADA3B8C091F"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+				{
+					id: "6FCC3AFF9ADCB4A3"
+					type: "item"
+					item: {
+						id: "tconstruct:repair_kit"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:enderslime"
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 10.0d
@@ -1160,6 +1432,24 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "298E64E009DED763"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+				{
+					id: "1D52E4B80BD7067F"
+					type: "item"
+					item: {
+						id: "tconstruct:repair_kit"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:enderslime"
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 10.0d
@@ -1203,6 +1493,24 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "540C7A1085CDF66A"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+				{
+					id: "59DABC5C96E48E3D"
+					type: "item"
+					item: {
+						id: "tconstruct:repair_kit"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:enderslime"
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -1216,6 +1524,11 @@
 				title: "Kiln Brick"
 				item: "immersiveengineering:alloybrick"
 				count: 8L
+			}]
+			rewards: [{
+				id: "193F4536359CE915"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1233,6 +1546,17 @@
 				type: "item"
 				item: "chromasky:hammer_head"
 			}]
+			rewards: [{
+				id: "40821EAAFEC9F1DB"
+				type: "item"
+				item: {
+					id: "tconstruct:hammer_head"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:rose_gold"
+					}
+				}
+			}]
 		}
 		{
 			x: 3.0d
@@ -1248,6 +1572,17 @@
 				id: "741DB0F69E330696"
 				type: "item"
 				item: "chromasky:wirecutter_head"
+			}]
+			rewards: [{
+				id: "2E9B84B66A76982D"
+				type: "item"
+				item: {
+					id: "tconstruct:small_blade"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:rose_gold"
+					}
+				}
 			}]
 		}
 		{
@@ -1401,6 +1736,11 @@
 						]
 					}
 				}
+			}]
+			rewards: [{
+				id: "34B5033660979C16"
+				type: "item"
+				item: "minecraft:anvil"
 			}]
 		}
 	]

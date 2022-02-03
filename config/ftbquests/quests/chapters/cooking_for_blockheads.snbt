@@ -25,6 +25,11 @@
 				type: "item"
 				item: "cookingforblockheads:cooking_table"
 			}]
+			rewards: [{
+				id: "764C158F3FFF3427"
+				type: "item"
+				item: "cfm:red_grill"
+			}]
 		}
 		{
 			x: -2.0d
@@ -37,6 +42,12 @@
 				id: "666279DDE7C51AE7"
 				type: "item"
 				item: "cookingforblockheads:oven"
+			}]
+			rewards: [{
+				id: "3A1F1E7B07D774CD"
+				type: "item"
+				item: "minecraft:coal"
+				count: 8
 			}]
 		}
 		{
@@ -51,6 +62,11 @@
 				type: "item"
 				item: "cookingforblockheads:sink"
 			}]
+			rewards: [{
+				id: "39E18F3E430C3D87"
+				type: "item"
+				item: "pamhc2foodcore:freshwateritem"
+			}]
 		}
 		{
 			x: -0.5d
@@ -62,6 +78,17 @@
 				id: "2C07B0178576EE61"
 				type: "item"
 				item: "cookingforblockheads:tool_rack"
+			}]
+			rewards: [{
+				id: "351587A17C1A0536"
+				type: "item"
+				item: {
+					id: "farmersdelight:iron_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -78,6 +105,11 @@
 				type: "item"
 				item: "cookingforblockheads:toaster"
 			}]
+			rewards: [{
+				id: "06F4179230540A4B"
+				type: "item"
+				item: "pamhc2foodcore:toastitem"
+			}]
 		}
 		{
 			x: 2.0d
@@ -90,6 +122,11 @@
 				id: "2CD7DC1FAAF318E7"
 				type: "item"
 				item: "cookingforblockheads:milk_jar"
+			}]
+			rewards: [{
+				id: "2117DA6309FA951B"
+				type: "item"
+				item: "pamhc2foodcore:freshmilkitem"
 			}]
 		}
 		{
@@ -108,6 +145,17 @@
 				type: "item"
 				item: "cookingforblockheads:cow_jar"
 			}]
+			rewards: [{
+				id: "282F406CDFD4234C"
+				type: "item"
+				item: {
+					id: "animalcrops:seeds"
+					Count: 1b
+					tag: {
+						entity: "minecraft:cow"
+					}
+				}
+			}]
 		}
 		{
 			x: 0.5d
@@ -119,6 +167,12 @@
 				id: "47144805DC27037C"
 				type: "item"
 				item: "cookingforblockheads:spice_rack"
+			}]
+			rewards: [{
+				id: "0F6625A8E7678A15"
+				type: "item"
+				item: "pamhc2crops:spiceleafitem"
+				count: 4
 			}]
 		}
 		{
@@ -133,6 +187,20 @@
 				type: "item"
 				item: "cookingforblockheads:fruit_basket"
 			}]
+			rewards: [
+				{
+					id: "4233E15484A7489A"
+					type: "item"
+					item: "pamhc2trees:peachitem"
+					count: 4
+				}
+				{
+					id: "4B1DF09F1150374E"
+					type: "item"
+					item: "pamhc2crops:grapeitem"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -146,6 +214,12 @@
 				type: "item"
 				item: "cookingforblockheads:counter"
 			}]
+			rewards: [{
+				id: "606286D184525057"
+				type: "item"
+				item: "minecraft:sugar"
+				count: 8
+			}]
 		}
 		{
 			x: -3.0d
@@ -158,6 +232,11 @@
 				type: "item"
 				item: "cookingforblockheads:corner"
 			}]
+			rewards: [{
+				id: "389C1F5557829DBF"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 2.0d
@@ -169,6 +248,12 @@
 				id: "1737358AE1B4F96D"
 				type: "item"
 				item: "cookingforblockheads:cabinet"
+			}]
+			rewards: [{
+				id: "3A8F777AB90E4690"
+				type: "item"
+				item: "pamhc2foodcore:flouritem"
+				count: 8
 			}]
 		}
 		{
@@ -189,14 +274,19 @@
 				type: "item"
 				item: "cookingforblockheads:fridge"
 			}]
+			rewards: [{
+				id: "6EF11EB520914436"
+				type: "item"
+				item: "pamhc2foodextended:elderberrysmoothieitem"
+			}]
 		}
 		{
-			x: 2.0d
-			y: 2.0d
+			x: -2.0d
+			y: 1.5d
 			shape: "diamond"
 			dependencies: [
 				"3F05D033EBD0710D"
-				"4873BB236873D26E"
+				"26C6099D254E34F4"
 			]
 			id: "011F82F647DB6514"
 			tasks: [{
@@ -204,10 +294,15 @@
 				type: "item"
 				item: "cookingforblockheads:heating_unit"
 			}]
+			rewards: [{
+				id: "184B2F08C0933729"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
-			x: 4.0d
-			y: 2.0d
+			x: 3.5d
+			y: 1.5d
 			shape: "diamond"
 			dependencies: [
 				"3F05D033EBD0710D"
@@ -219,10 +314,16 @@
 				type: "item"
 				item: "cookingforblockheads:ice_unit"
 			}]
+			rewards: [{
+				id: "7F2B7588F5D8BE59"
+				type: "item"
+				item: "minecraft:ice"
+				count: 4
+			}]
 		}
 		{
-			x: 3.0d
-			y: 1.0d
+			x: 2.5d
+			y: 1.5d
 			shape: "diamond"
 			dependencies: [
 				"3F05D033EBD0710D"
@@ -233,6 +334,12 @@
 				id: "7B636DC7102ACF60"
 				type: "item"
 				item: "cookingforblockheads:preservation_chamber"
+			}]
+			rewards: [{
+				id: "136E254BAB0900DF"
+				type: "item"
+				item: "farmersdelight:chicken_cuts"
+				count: 4
 			}]
 		}
 		{
@@ -246,6 +353,11 @@
 				type: "item"
 				item: "cookingforblockheads:recipe_book"
 			}]
+			rewards: [{
+				id: "1783D1AC53ADC440"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 0.0d
@@ -257,6 +369,11 @@
 				id: "7A72BFE3F0F36B06"
 				type: "item"
 				item: "cookingforblockheads:crafting_book"
+			}]
+			rewards: [{
+				id: "1E047B5BA4FA9ED6"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 	]

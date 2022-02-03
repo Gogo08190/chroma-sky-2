@@ -23,6 +23,11 @@
 				type: "item"
 				item: "simplegens:simple_combustion"
 			}]
+			rewards: [{
+				id: "010D330082F6DD69"
+				type: "item"
+				item: "mekanism:ingot_steel"
+			}]
 		}
 		{
 			x: 2.5d
@@ -40,6 +45,11 @@
 				type: "item"
 				item: "simplegens:simple_culinary"
 			}]
+			rewards: [{
+				id: "33E69C2A02D9A64A"
+				type: "item"
+				item: "mekanism:ingot_steel"
+			}]
 		}
 		{
 			x: 2.5d
@@ -52,6 +62,11 @@
 				id: "597343D9DB01072F"
 				type: "item"
 				item: "simplegens:simple_ender"
+			}]
+			rewards: [{
+				id: "3BCED8085146A185"
+				type: "item"
+				item: "mekanism:ingot_steel"
 			}]
 		}
 		{
@@ -66,6 +81,11 @@
 				type: "item"
 				item: "simplegens:simple_soul"
 			}]
+			rewards: [{
+				id: "07DE1E80071267A5"
+				type: "item"
+				item: "mekanism:ingot_steel"
+			}]
 		}
 		{
 			x: 2.0d
@@ -78,6 +98,11 @@
 				id: "7200074BA30BD3C4"
 				type: "item"
 				item: "simplegens:simple_nether"
+			}]
+			rewards: [{
+				id: "62ACF074CBA9D0D3"
+				type: "item"
+				item: "mekanism:ingot_steel"
 			}]
 		}
 		{
@@ -92,6 +117,11 @@
 				type: "item"
 				item: "simplegens:simple_pink"
 			}]
+			rewards: [{
+				id: "68A155EC458DC581"
+				type: "item"
+				item: "mekanism:ingot_steel"
+			}]
 		}
 		{
 			x: 0.5d
@@ -104,6 +134,11 @@
 				id: "778A814D5BA485BF"
 				type: "item"
 				item: "simplegens:simple_tnt"
+			}]
+			rewards: [{
+				id: "4B5C8ADA8C7FD774"
+				type: "item"
+				item: "mekanism:ingot_steel"
 			}]
 		}
 		{
@@ -118,6 +153,11 @@
 				type: "item"
 				item: "simplegens:simple_potion"
 			}]
+			rewards: [{
+				id: "0F511C60DE332BC7"
+				type: "item"
+				item: "mekanism:ingot_steel"
+			}]
 		}
 		{
 			x: 0.5d
@@ -131,6 +171,11 @@
 				type: "item"
 				item: "simplegens:simple_geothermal"
 			}]
+			rewards: [{
+				id: "386EE92F1E28C7C6"
+				type: "item"
+				item: "mekanism:ingot_steel"
+			}]
 		}
 		{
 			x: 1.0d
@@ -143,6 +188,11 @@
 				id: "4571525D67DAF09A"
 				type: "item"
 				item: "simplegens:simple_fluid_combustion"
+			}]
+			rewards: [{
+				id: "1728603B17331E1F"
+				type: "item"
+				item: "mekanism:ingot_steel"
 			}]
 		}
 		{
@@ -161,6 +211,11 @@
 				type: "item"
 				item: "simplegens:simple_turbine"
 			}]
+			rewards: [{
+				id: "36CF7FE79861D44C"
+				type: "item"
+				item: "mekanism:ingot_steel"
+			}]
 		}
 		{
 			x: 2.0d
@@ -176,6 +231,11 @@
 				id: "15FB4F82A23577C2"
 				type: "item"
 				item: "simplegens:simple_xp"
+			}]
+			rewards: [{
+				id: "340531A82E67D1B0"
+				type: "item"
+				item: "mekanism:ingot_steel"
 			}]
 		}
 	]

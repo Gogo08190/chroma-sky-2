@@ -48,6 +48,12 @@
 				type: "item"
 				item: "draconicevolution:draconium_dust"
 			}]
+			rewards: [{
+				id: "5367CBA9D3A7695F"
+				type: "item"
+				item: "draconicevolution:draconium_dust"
+				count: 16
+			}]
 		}
 		{
 			x: 3.5d
@@ -59,6 +65,12 @@
 				id: "230606F6780411FC"
 				type: "item"
 				item: "draconicevolution:draconium_ingot"
+			}]
+			rewards: [{
+				id: "640AE652A75C09B3"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -77,6 +89,11 @@
 				type: "item"
 				item: "draconicevolution:draconium_core"
 			}]
+			rewards: [{
+				id: "79B1CB25B026202D"
+				type: "item"
+				item: "draconicevolution:draconium_core"
+			}]
 		}
 		{
 			x: 3.5d
@@ -90,6 +107,11 @@
 				type: "item"
 				item: "draconicevolution:wyvern_core"
 			}]
+			rewards: [{
+				id: "214AAC6C2D4F7CAC"
+				type: "item"
+				item: "draconicevolution:wyvern_core"
+			}]
 		}
 		{
 			x: 3.5d
@@ -100,6 +122,11 @@
 			id: "186003E81B3E64B4"
 			tasks: [{
 				id: "01155059C5D4D993"
+				type: "item"
+				item: "draconicevolution:awakened_core"
+			}]
+			rewards: [{
+				id: "450E0D170D056484"
 				type: "item"
 				item: "draconicevolution:awakened_core"
 			}]
@@ -119,6 +146,11 @@
 				type: "item"
 				item: "draconicevolution:chaotic_core"
 			}]
+			rewards: [{
+				id: "50916ABA8FAEF379"
+				type: "item"
+				item: "draconicevolution:chaotic_core"
+			}]
 		}
 		{
 			x: 1.5d
@@ -128,6 +160,11 @@
 			id: "48A4816FD2732B2F"
 			tasks: [{
 				id: "5B69281F37E5A547"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_block"
+			}]
+			rewards: [{
+				id: "4A25A709CA4C758E"
 				type: "item"
 				item: "draconicevolution:awakened_draconium_block"
 			}]
@@ -144,6 +181,11 @@
 				type: "item"
 				item: "draconicevolution:dragon_heart"
 			}]
+			rewards: [{
+				id: "3F442E1A4E16D3F8"
+				type: "item"
+				item: "draconicevolution:dragon_heart"
+			}]
 		}
 		{
 			x: 2.0d
@@ -153,6 +195,11 @@
 			id: "5347872ED95C0D38"
 			tasks: [{
 				id: "6BD114F95114E6E7"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_ingot"
+			}]
+			rewards: [{
+				id: "6626761A16AA137B"
 				type: "item"
 				item: "draconicevolution:awakened_draconium_ingot"
 			}]
@@ -173,6 +220,12 @@
 				type: "item"
 				item: "draconicevolution:chaos_shard"
 				count: 5L
+			}]
+			rewards: [{
+				id: "749B1D520A88F986"
+				type: "item"
+				item: "draconicevolution:large_chaos_frag"
+				count: 5
 			}]
 		}
 		{
@@ -195,6 +248,11 @@
 				type: "item"
 				item: "draconicevolution:crafting_core"
 			}]
+			rewards: [{
+				id: "0C0157B77711A7F8"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 5.5d
@@ -216,6 +274,11 @@
 				type: "item"
 				item: "draconicevolution:basic_crafting_injector"
 			}]
+			rewards: [{
+				id: "70218DB1F760F605"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 5.5d
@@ -228,6 +291,11 @@
 				id: "6318EEF5E0E7D167"
 				type: "item"
 				item: "draconicevolution:wyvern_crafting_injector"
+			}]
+			rewards: [{
+				id: "1490B696D16FFBAC"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -242,6 +310,11 @@
 				type: "item"
 				item: "draconicevolution:awakened_crafting_injector"
 			}]
+			rewards: [{
+				id: "67CCDC3026B8CCA2"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 5.5d
@@ -254,6 +327,11 @@
 				id: "31BF02F226F133D7"
 				type: "item"
 				item: "draconicevolution:chaotic_crafting_injector"
+			}]
+			rewards: [{
+				id: "51BF87D6127C7CBE"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -300,6 +378,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0F5CC35DF1B6966A"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 7.0d
@@ -339,6 +422,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "07A39B3C9BF6D26D"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -380,6 +468,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2DD395EC7062153D"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: -2.5d
@@ -409,6 +502,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "1CE4C3BBF618B0E4"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 5.5d
@@ -436,6 +534,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6A53446DA37091EB"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 1.5d
@@ -451,6 +554,11 @@
 				id: "78F469DDF0003A7F"
 				type: "item"
 				item: "draconicevolution:dislocator_pedestal"
+			}]
+			rewards: [{
+				id: "3AD7ADB5F6A7E4F4"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -484,6 +592,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "6B636937EB273577"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -521,6 +634,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "30735055E4B2E92E"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 8.5d
@@ -557,6 +675,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0228D3375C120459"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 9.5d
@@ -589,6 +712,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "055F04B4AFA30792"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -626,6 +754,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0B92179647E0F2A0"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 9.5d
@@ -661,6 +794,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "661507E4F2C13547"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -699,6 +837,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "70D0C8C53CE1B3B1"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -741,6 +884,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "32B01ABC91E3795A"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 10.5d
@@ -782,6 +930,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6FE62797E10AE053"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 11.5d
@@ -819,6 +972,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "003FA4E49780A708"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -861,6 +1019,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "50DA0C982D01A1DC"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 11.5d
@@ -901,6 +1064,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "3202697226BF7CCF"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -946,6 +1114,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3AEFE7C22D2ACBB9"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 13.0d
@@ -989,6 +1162,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "5B7DFDFE9206D536"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1043,6 +1221,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6166D9ED9798E3FE"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 14.5d
@@ -1090,6 +1273,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "25E95AE38A283936"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1139,6 +1327,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0CDC589CDC0A2F7E"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: -4.0d
@@ -1156,6 +1349,11 @@
 				type: "item"
 				item: "draconicevolution:generator"
 			}]
+			rewards: [{
+				id: "2710AB1E5B3FF270"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 1.5d
@@ -1171,6 +1369,11 @@
 				id: "5EFB8A025B8EA23B"
 				type: "item"
 				item: "draconicevolution:magnet"
+			}]
+			rewards: [{
+				id: "1171584B32909C81"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1188,6 +1391,11 @@
 				id: "644372A39B618648"
 				type: "item"
 				item: "draconicevolution:advanced_magnet"
+			}]
+			rewards: [{
+				id: "13D7FD4CD884998C"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1209,6 +1417,12 @@
 				type: "item"
 				item: "draconicevolution:module_core"
 			}]
+			rewards: [{
+				id: "175B06AAF3CFDFEF"
+				type: "item"
+				item: "draconicevolution:module_core"
+				count: 8
+			}]
 		}
 		{
 			x: -3.5d
@@ -1225,6 +1439,11 @@
 				id: "4FB5E7A373B7AFE5"
 				type: "item"
 				item: "draconicevolution:crystal_binder"
+			}]
+			rewards: [{
+				id: "541A70F8E0D8BB0D"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1259,6 +1478,11 @@
 					item: "draconicevolution:basic_wireless_crystal"
 				}
 			]
+			rewards: [{
+				id: "79337266A7AD4645"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			title: "Wyvern Energy Transportation"
@@ -1292,6 +1516,11 @@
 					item: "draconicevolution:wyvern_wireless_crystal"
 				}
 			]
+			rewards: [{
+				id: "705BBE6BF2A63F25"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			title: "Draconic Energy Transportation"
@@ -1325,6 +1554,11 @@
 					item: "draconicevolution:draconic_wireless_crystal"
 				}
 			]
+			rewards: [{
+				id: "45D93D459A4FA899"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: -2.0d
@@ -1345,6 +1579,11 @@
 				id: "7FAF7112DD6C9342"
 				type: "item"
 				item: "draconicevolution:energy_transfuser"
+			}]
+			rewards: [{
+				id: "4CDABC9214791356"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1373,6 +1612,11 @@
 				id: "07AD80497B231A17"
 				type: "item"
 				item: "draconicevolution:grinder"
+			}]
+			rewards: [{
+				id: "1636EA2CD64C4170"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1404,6 +1648,11 @@
 					item: "draconicevolution:chaotic_energy_module"
 				}
 			]
+			rewards: [{
+				id: "15AF797309B519D9"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 9.5d
@@ -1434,6 +1683,11 @@
 					item: "draconicevolution:chaotic_speed_module"
 				}
 			]
+			rewards: [{
+				id: "7F2E79BAC7DE9A95"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 11.5d
@@ -1464,6 +1718,11 @@
 					item: "draconicevolution:chaotic_damage_module"
 				}
 			]
+			rewards: [{
+				id: "4429E861415D2613"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 9.5d
@@ -1494,6 +1753,11 @@
 					item: "draconicevolution:chaotic_aoe_module"
 				}
 			]
+			rewards: [{
+				id: "606E96BF688C2557"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			title: "Projectile Velocity Module"
@@ -1520,6 +1784,11 @@
 					item: "draconicevolution:chaotic_proj_velocity_module"
 				}
 			]
+			rewards: [{
+				id: "1CAE6458F6029CC9"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			title: "Projectile Accuracy Module"
@@ -1546,6 +1815,11 @@
 					item: "draconicevolution:chaotic_proj_accuracy_module"
 				}
 			]
+			rewards: [{
+				id: "172321551073904F"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			title: "Projectil Gravity Compensation Module"
@@ -1572,6 +1846,11 @@
 					item: "draconicevolution:chaotic_proj_grav_comp_module"
 				}
 			]
+			rewards: [{
+				id: "5BD1F46BD1DB23A4"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			title: "Projectile Penetration Module"
@@ -1599,6 +1878,11 @@
 					item: "draconicevolution:chaotic_proj_penetration_module"
 				}
 			]
+			rewards: [{
+				id: "3FDB2F6483E9F95C"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			title: "Projectile Damage Module"
@@ -1625,6 +1909,11 @@
 					item: "draconicevolution:chaotic_proj_damage_module"
 				}
 			]
+			rewards: [{
+				id: "25BE0F7B03C6B4C4"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 11.0d
@@ -1639,6 +1928,11 @@
 				type: "item"
 				item: "draconicevolution:wyvern_auto_fire_module"
 			}]
+			rewards: [{
+				id: "1DA454BB10131F29"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 10.5d
@@ -1652,6 +1946,11 @@
 				id: "188B38F15B3F3105"
 				type: "item"
 				item: "draconicevolution:draconic_proj_anti_immune_module"
+			}]
+			rewards: [{
+				id: "2E24E26452367CCC"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1679,6 +1978,11 @@
 					item: "draconicevolution:chaotic_shield_control_module"
 				}
 			]
+			rewards: [{
+				id: "29709FBAA42C2871"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			title: "Shield Capacity Module"
@@ -1705,6 +2009,11 @@
 					item: "draconicevolution:chaotic_shield_capacity_module"
 				}
 			]
+			rewards: [{
+				id: "3693EFBC725398CA"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			title: "Large Shield Capacity Module"
@@ -1732,6 +2041,11 @@
 					item: "draconicevolution:chaotic_large_shield_capacity_module"
 				}
 			]
+			rewards: [{
+				id: "618FD5E9231C3D4B"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			title: "Shield Recovery Module"
@@ -1758,6 +2072,11 @@
 					item: "draconicevolution:chaotic_shield_recovery_module"
 				}
 			]
+			rewards: [{
+				id: "36FC73C4271F4685"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 10.0d
@@ -1770,6 +2089,11 @@
 				id: "6D95B21F155913E0"
 				type: "item"
 				item: "draconicevolution:wyvern_hill_step_module"
+			}]
+			rewards: [{
+				id: "7EC541B6942706B1"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 		{
@@ -1801,6 +2125,11 @@
 					item: "draconicevolution:chaotic_jump_module"
 				}
 			]
+			rewards: [{
+				id: "1744C5990630B2B5"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			title: "Flight Module"
@@ -1832,6 +2161,11 @@
 					item: "draconicevolution:chaotic_flight_module"
 				}
 			]
+			rewards: [{
+				id: "22B370EF66DB087D"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			title: "Undying Module"
@@ -1859,6 +2193,11 @@
 					item: "draconicevolution:chaotic_undying_module"
 				}
 			]
+			rewards: [{
+				id: "146919A6E38AA879"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 8.0d
@@ -1884,6 +2223,11 @@
 					item: "draconicevolution:draconic_auto_feed_module"
 				}
 			]
+			rewards: [{
+				id: "5247AFABB352370D"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			title: "Draconic Energy Storage"
@@ -1960,6 +2304,11 @@
 					count: 36L
 				}
 			]
+			rewards: [{
+				id: "4A615506BEF0A54D"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: -3.0d
@@ -1976,6 +2325,11 @@
 				id: "79EEE458E66BAABC"
 				type: "item"
 				item: "draconicevolution:draconium_chest"
+			}]
+			rewards: [{
+				id: "3833AFABD9A73B84"
+				type: "random"
+				table_id: 4299163432040672592L
 			}]
 		}
 	]

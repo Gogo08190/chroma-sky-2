@@ -122,22 +122,44 @@
 			x: -1.5d
 			y: -2.5d
 			shape: "hexagon"
+			dependencies: ["22999033333BCA2C"]
 			id: "49766DA502FA3CE3"
 			tasks: [{
 				id: "4B231D4E67358D4C"
 				type: "item"
 				item: "mana-and-artifice:guide_book"
 			}]
+			rewards: [{
+				id: "6CF72F8A6B4F81D9"
+				type: "item"
+				item: "minecraft:lectern"
+			}]
 		}
 		{
 			x: 0.0d
 			y: -0.5d
-			dependencies: ["49766DA502FA3CE3"]
+			description: ["This item will permit you to see your advencement in the tier of mana and artefact, &4if you can not go in to mana and arteface tier just check out you maybe forgot a task&r"]
+			dependencies: [
+				"49766DA502FA3CE3"
+				"7455494CC9E4DF8B"
+				"48433427C278FD14"
+			]
 			id: "4D65C663D6E33AD1"
 			tasks: [{
 				id: "5188E2343B5AE669"
 				type: "item"
 				item: "mana-and-artifice:occulus"
+			}]
+			rewards: [{
+				id: "4078FB7FBE9759B5"
+				type: "item"
+				item: {
+					id: "minecraft:lingering_potion"
+					Count: 1b
+					tag: {
+						Potion: "mana-and-artifice:superior_mana_potion"
+					}
+				}
 			}]
 		}
 		{
@@ -173,7 +195,14 @@
 				"-use an enderfeather charm"
 			]
 			hide_dependency_lines: true
-			dependencies: ["4D65C663D6E33AD1"]
+			dependencies: [
+				"4D65C663D6E33AD1"
+				"515EF3943ECD7DDB"
+				"5E72C0CD30B7B124"
+				"02628A32D083A95D"
+				"56CE056754AC2BBF"
+				"32DA82CA3B2CB77E"
+			]
 			min_width: 250
 			id: "13EEC00E8C0E74D3"
 			tasks: [{
@@ -334,6 +363,10 @@
 		{
 			x: 11.0d
 			y: 6.0d
+			description: [
+				"The Eldrin's altar it's a new way to craft you just will need a new ressouce's the wellsprind (see the next quest to know how find it)"
+				"You can see how place the altar in the &5codex&r"
+			]
 			dependencies: ["19C32614D8476285"]
 			id: "708365E2F99D6FA3"
 			tasks: [
@@ -349,6 +382,11 @@
 					count: 8L
 				}
 			]
+			rewards: [{
+				id: "7B2C7F244C00627F"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			x: -1.5d
@@ -362,6 +400,12 @@
 				type: "item"
 				item: "mana-and-artifice:vellum"
 			}]
+			rewards: [{
+				id: "614566D75A22359A"
+				type: "item"
+				item: "mana-and-artifice:vellum"
+				count: 4
+			}]
 		}
 		{
 			x: -1.0d
@@ -373,6 +417,11 @@
 				id: "017F8A9B26461902"
 				type: "item"
 				item: "mana-and-artifice:inscription_table"
+			}]
+			rewards: [{
+				id: "20AC098617A258E9"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -397,6 +446,12 @@
 					item: "mana-and-artifice:arcane_compound"
 				}
 			]
+			rewards: [{
+				id: "4A3D7D0DAB89B4FE"
+				type: "item"
+				item: "mana-and-artifice:vinteum_dust"
+				count: 4
+			}]
 		}
 		{
 			x: -2.5d
@@ -418,6 +473,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "27E2F2942F818A51"
+				type: "item"
+				item: "mana-and-artifice:aum"
+				count: 4
+			}]
 		}
 		{
 			x: -1.0d
@@ -429,6 +490,61 @@
 				id: "1BDC95FFA3FE7B47"
 				type: "item"
 				item: "mana-and-artifice:spell_book"
+			}]
+			rewards: [{
+				id: "2CEF9AE1D5A7B591"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:spell"
+					Count: 1b
+					tag: {
+						icon: 359
+						spell: {
+							components: [{
+								attribute_0: "DELAY"
+								value_0: 0.0f
+								num_attributes: 1
+								resource_location: "mana-and-artifice:components/felled_oak"
+							}]
+							overrideAffinity: "UNKNOWN"
+							shape: {
+								attribute_1: "RADIUS"
+								attribute_0: "RANGE"
+								value_0: 3.0f
+								value_1: 0.0f
+								num_attributes: 2
+								resource_location: "mana-and-artifice:shapes/touch"
+							}
+							modifiers: {
+								modifier_2: "mana-and-artifice:empty"
+								modifier_0: "mana-and-artifice:empty"
+								modifier_1: "mana-and-artifice:empty"
+							}
+							mysterious: 0b
+						}
+						ritual_reagent_data: {
+							pattern_count: 3
+							component_items_0: "minecraft:iron_axe"
+							shape_items_count: 4
+							pattern_0: "mana-and-artifice:manaweave_patterns/triangle"
+							pattern_1: "mana-and-artifice:manaweave_patterns/square"
+							pattern_2: "mana-and-artifice:manaweave_patterns/triangle"
+							shape_items_0: "mana-and-artifice:infused_silk"
+							shape_items_3: "mana-and-artifice:vinteum_dust"
+							shape_items_1: "minecraft:feather"
+							component_items_2: "minecraft:logs"
+							shape_items_2: "minecraft:clay"
+							component_items_1: "minecraft:iron_axe"
+							complexity_reagent_count: 2
+							complexity_reagent_0: "mana-and-artifice:ritual_focus_minor"
+							component_items_count: 3
+							complexity_reagent_1: "mana-and-artifice:ritual_focus_minor"
+						}
+						display: {
+							Name: "{\"text\":\"Chop Chop\"}"
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -468,12 +584,20 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7B803E1A8A21B7BA"
+				type: "item"
+				item: "mana-and-artifice:manaweave_projector"
+			}]
 		}
 		{
 			x: -1.5d
 			y: 1.5d
 			shape: "hexagon"
-			dependencies: ["4D65C663D6E33AD1"]
+			dependencies: [
+				"4D65C663D6E33AD1"
+				"67BC8A5CBAF363F8"
+			]
 			id: "78F051756FD54991"
 			tasks: [{
 				id: "68F9DAC565D488AD"
@@ -492,6 +616,11 @@
 				type: "item"
 				item: "mana-and-artifice:manaweaving_altar"
 			}]
+			rewards: [{
+				id: "7B8B6472AC0BE5DF"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 1.5d
@@ -509,12 +638,18 @@
 			x: 6.0d
 			y: -13.5d
 			shape: "hexagon"
+			description: ["This item is her to give command to your robot "]
 			dependencies: ["6687C08D2F544C4D"]
 			id: "32E4EADD98A8D491"
 			tasks: [{
 				id: "7DDF7A62CEA81CCA"
 				type: "item"
 				item: "mana-and-artifice:lodestar"
+			}]
+			rewards: [{
+				id: "3C536B5E390F56B4"
+				type: "random"
+				table_id: 21613284823098451L
 			}]
 		}
 		{
@@ -527,6 +662,12 @@
 				id: "04AE63432F2ACB29"
 				type: "item"
 				item: "mana-and-artifice:runic_anvil"
+			}]
+			rewards: [{
+				id: "59C45B600DCBEB16"
+				type: "item"
+				item: "mana-and-artifice:superheated_vinteum_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -543,6 +684,30 @@
 				type: "item"
 				item: "mana-and-artifice:runescribing_table"
 			}]
+			rewards: [
+				{
+					id: "124A48D2E43DC5B8"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:runesmith_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "02D9AD88E4D9AEC5"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:runesmith_chisel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -553,6 +718,11 @@
 			id: "44AF16FDCA3DFE4D"
 			tasks: [{
 				id: "6AFBEBFE734996B3"
+				type: "item"
+				item: "mana-and-artifice:rune_clay_plate"
+			}]
+			rewards: [{
+				id: "4C36556F112DB59A"
 				type: "item"
 				item: "mana-and-artifice:rune_clay_plate"
 			}]
@@ -569,6 +739,11 @@
 				type: "item"
 				item: "mana-and-artifice:rune_pattern"
 			}]
+			rewards: [{
+				id: "44E85FE087A4040C"
+				type: "item"
+				item: "mana-and-artifice:rune_pattern"
+			}]
 		}
 		{
 			x: -6.5d
@@ -580,6 +755,11 @@
 				id: "2C0B7EA1A8D96A08"
 				type: "item"
 				item: "chromasky:pattern_mundane_cast_star_shard"
+			}]
+			rewards: [{
+				id: "3B69933945F41920"
+				type: "item"
+				item: "pamhc2trees:starfruititem"
 			}]
 		}
 		{
@@ -593,6 +773,11 @@
 				type: "item"
 				item: "chromasky:mundane_cast_star_shard"
 			}]
+			rewards: [{
+				id: "39BBD77900B37E73"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
 		}
 		{
 			x: -7.0d
@@ -605,6 +790,11 @@
 				id: "18C27A122019B8CB"
 				type: "item"
 				item: "chromasky:shard_star"
+			}]
+			rewards: [{
+				id: "21A4EA71C8D830CA"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -622,6 +812,11 @@
 				type: "item"
 				item: "astralsorcery:tome"
 			}]
+			rewards: [{
+				id: "0884C9EBDA5C77FF"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -8.0d
@@ -634,6 +829,11 @@
 				id: "42498958DF76B3EA"
 				type: "item"
 				item: "chromasky:magical_infuse_book"
+			}]
+			rewards: [{
+				id: "1197D5C1C3577DF6"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -649,6 +849,11 @@
 				type: "item"
 				item: "chromasky:enderessence"
 			}]
+			rewards: [{
+				id: "372CF6438C4B82ED"
+				type: "item"
+				item: "minecraft:ender_eye"
+			}]
 		}
 		{
 			x: 5.0d
@@ -661,6 +866,11 @@
 				id: "7F34FA8EAAFCD098"
 				type: "item"
 				item: "dimpaintings:end_painting"
+			}]
+			rewards: [{
+				id: "5621B6BC81BD6AD6"
+				type: "item"
+				item: "dimpaintings:overworld_painting"
 			}]
 		}
 		{
@@ -681,13 +891,21 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "60AAFC7F5050D0A8"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 3.5d
 			y: 5.0d
 			shape: "hexagon"
 			hide_dependency_lines: true
-			dependencies: ["02628A32D083A95D"]
+			dependencies: [
+				"02628A32D083A95D"
+				"13EEC00E8C0E74D3"
+			]
 			id: "3B661CBEB09023A6"
 			tasks: [{
 				id: "793E1CAE1C5064B5"
@@ -699,6 +917,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "3449DE591B180EDA"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -718,6 +941,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "59893C4BFC511601"
+				type: "item"
+				item: "mana-and-artifice:rune_ritual_metal"
+				count: 4
+			}]
 		}
 		{
 			x: 7.0d
@@ -731,6 +960,11 @@
 				type: "item"
 				item: "mana-and-artifice:modifier_book"
 			}]
+			rewards: [{
+				id: "7D0A68F78567F466"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			x: 8.5d
@@ -742,6 +976,11 @@
 				type: "item"
 				item: "mana-and-artifice:magic_broom"
 			}]
+			rewards: [{
+				id: "357B6661323CDCF4"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			x: 8.5d
@@ -752,6 +991,11 @@
 				id: "4EE9C030679E2367"
 				type: "item"
 				item: "mana-and-artifice:mana_crystal"
+			}]
+			rewards: [{
+				id: "6A74A2E2B0191FB6"
+				type: "random"
+				table_id: 21613284823098451L
 			}]
 		}
 		{
@@ -770,6 +1014,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3F4743712773D650"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			title: "Wooden/Stone Construct"
@@ -787,7 +1036,7 @@
 				""
 				"-The thing that influence your construct is the element you choose, for the element you will need to right cick with a spell, and the atribiut of the spell will be copy on your chimerite crystal"
 				""
-				"-To build your construt "
+				"-To build your construt you will need the spell &drobot activation&r that you can find in the next quest"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1038,6 +1287,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "4BE6F0BD75EFF436"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			title: "Mote"
@@ -1094,6 +1348,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "59C9F740D9EC9AFB"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			title: "Mage Armor"
@@ -1147,6 +1406,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "170DD16B7E26AB03"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			title: "Charcoal print"
@@ -1252,6 +1516,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "468F65A771B73EBA"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			title: "Join a faction"
@@ -1297,6 +1566,11 @@
 				type: "checkmark"
 				title: "You Now  have to join a faction"
 			}]
+			rewards: [{
+				id: "49BF59E2FCBA53A0"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			x: 6.0d
@@ -1307,6 +1581,11 @@
 				id: "6371FEE2DD1953F9"
 				type: "checkmark"
 				title: "Cast a tier 2 cantrip"
+			}]
+			rewards: [{
+				id: "6719189E4214BC12"
+				type: "random"
+				table_id: 21613284823098451L
 			}]
 		}
 		{
@@ -1399,6 +1678,66 @@
 					count: 8L
 				}
 			]
+			rewards: [{
+				id: "4B06A96887DF8A40"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:spell"
+					Count: 1b
+					tag: {
+						icon: 2
+						spell: {
+							components: [{
+								attribute_1: "DELAY"
+								attribute_0: "SPEED"
+								value_0: 1.0f
+								value_1: 0.0f
+								num_attributes: 2
+								resource_location: "mana-and-artifice:components/fling"
+							}]
+							overrideAffinity: "UNKNOWN"
+							shape: {
+								attribute_1: "RADIUS"
+								attribute_0: "RANGE"
+								value_0: 3.0f
+								value_1: 0.0f
+								num_attributes: 2
+								resource_location: "mana-and-artifice:shapes/touch"
+							}
+							modifiers: {
+								modifier_2: "mana-and-artifice:empty"
+								modifier_0: "mana-and-artifice:empty"
+								modifier_1: "mana-and-artifice:empty"
+							}
+							mysterious: 0b
+						}
+						ritual_reagent_data: {
+							pattern_count: 4
+							component_items_0: "mana-and-artifice:stone_rune_white"
+							pattern_3: "mana-and-artifice:manaweave_patterns/triangle"
+							shape_items_count: 4
+							pattern_0: "mana-and-artifice:manaweave_patterns/triangle"
+							pattern_1: "mana-and-artifice:manaweave_patterns/square"
+							pattern_2: "mana-and-artifice:manaweave_patterns/circle"
+							shape_items_0: "mana-and-artifice:infused_silk"
+							shape_items_3: "mana-and-artifice:vinteum_dust"
+							component_items_4: "mana-and-artifice:vinteum_dust"
+							component_items_3: "mana-and-artifice:stone_rune_white"
+							shape_items_1: "minecraft:feather"
+							component_items_2: "mana-and-artifice:runesmith_hammer"
+							shape_items_2: "minecraft:clay"
+							component_items_1: "mana-and-artifice:stone_rune_gray"
+							complexity_reagent_count: 2
+							complexity_reagent_0: "mana-and-artifice:ritual_focus_minor"
+							component_items_count: 5
+							complexity_reagent_1: "mana-and-artifice:ritual_focus_minor"
+						}
+						display: {
+							Name: "{\"text\":\"Robot activation\"}"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 5.0d
@@ -1409,6 +1748,11 @@
 				id: "4A19C438B13C794A"
 				type: "checkmark"
 				title: "Craft a spell with complexity 35 or more"
+			}]
+			rewards: [{
+				id: "76B0AD91605724C5"
+				type: "random"
+				table_id: 21613284823098451L
 			}]
 		}
 		{
@@ -1422,6 +1766,11 @@
 				type: "checkmark"
 				title: "Have an active set bonus"
 			}]
+			rewards: [{
+				id: "27FCAEFCFC59A5DB"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			x: 7.0d
@@ -1433,6 +1782,11 @@
 				type: "checkmark"
 				title: "Reach magic level 30"
 			}]
+			rewards: [{
+				id: "5FA017C3F4312878"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			x: 3.5d
@@ -1443,6 +1797,11 @@
 				id: "038C32CEE3B89F0E"
 				type: "item"
 				item: "mana-and-artifice:rune_clay_plate"
+			}]
+			rewards: [{
+				id: "05549350A4B83206"
+				type: "random"
+				table_id: 21613284823098451L
 			}]
 		}
 		{
@@ -1483,6 +1842,11 @@
 						]
 					}
 				}
+			}]
+			rewards: [{
+				id: "15CE03FE6C369480"
+				type: "random"
+				table_id: 21613284823098451L
 			}]
 		}
 		{
@@ -1543,6 +1907,11 @@
 						]
 					}
 				}
+			}]
+			rewards: [{
+				id: "14A11BE841631A2F"
+				type: "random"
+				table_id: 21613284823098451L
 			}]
 		}
 		{
@@ -1794,6 +2163,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "4A54A893681F3978"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			x: 17.5d
@@ -1810,6 +2184,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "6D914C92B8450E32"
+				type: "random"
+				table_id: 21613284823098451L
 			}]
 		}
 		{
@@ -1890,6 +2269,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "005278DCC5713916"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			x: 18.5d
@@ -1900,6 +2284,11 @@
 				id: "4513831F5DF816CF"
 				type: "checkmark"
 				title: "Cast a tier 3 cantrip"
+			}]
+			rewards: [{
+				id: "73FE640ACFDE4BC7"
+				type: "random"
+				table_id: 21613284823098451L
 			}]
 		}
 		{
@@ -1912,6 +2301,11 @@
 				type: "checkmark"
 				title: "Complete a tier 3 ritual"
 			}]
+			rewards: [{
+				id: "2044B78F2F745492"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			x: 18.5d
@@ -1922,6 +2316,11 @@
 				id: "341642F49B117F21"
 				type: "checkmark"
 				title: "Craft a spell with complexity 55 or more"
+			}]
+			rewards: [{
+				id: "6DD6E8E8F4E123D2"
+				type: "random"
+				table_id: 21613284823098451L
 			}]
 		}
 		{
@@ -1934,6 +2333,11 @@
 				type: "checkmark"
 				title: "Enchant an item using the runic anvil"
 			}]
+			rewards: [{
+				id: "2F7169677DCC8B46"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			x: 17.5d
@@ -1944,6 +2348,11 @@
 				id: "2FF8EC4707362430"
 				type: "checkmark"
 				title: "Find a nether fortress"
+			}]
+			rewards: [{
+				id: "15B53EC905CAE33F"
+				type: "random"
+				table_id: 21613284823098451L
 			}]
 		}
 		{
@@ -1956,6 +2365,11 @@
 				type: "checkmark"
 				title: "Perform a Sanctum Invcation ritual and complete the structure"
 			}]
+			rewards: [{
+				id: "1816928DD6CAFA5A"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			x: 13.5d
@@ -1966,6 +2380,11 @@
 				id: "0B3A4070527504EB"
 				type: "checkmark"
 				title: "Reach 10km away from the world spawn"
+			}]
+			rewards: [{
+				id: "21EC63769793A66E"
+				type: "random"
+				table_id: 21613284823098451L
 			}]
 		}
 		{
@@ -1978,6 +2397,11 @@
 				type: "checkmark"
 				title: "Reach magic level 45"
 			}]
+			rewards: [{
+				id: "5D4543C53659BAF1"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			x: 13.5d
@@ -1988,6 +2412,11 @@
 				id: "1F1A3749086948FE"
 				type: "checkmark"
 				title: "Reach the Nether "
+			}]
+			rewards: [{
+				id: "322B3E1B647AD37B"
+				type: "random"
+				table_id: 21613284823098451L
 			}]
 		}
 		{
@@ -2000,16 +2429,27 @@
 				type: "checkmark"
 				title: "Summon a &5Wither&r"
 			}]
+			rewards: [{
+				id: "2FA9BDA015199742"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			x: 10.5d
 			y: 4.5d
+			description: ["Just right cilck with it on a forge"]
 			dependencies: ["1896236FC7BEFF73"]
 			id: "14AE28056311492E"
 			tasks: [{
 				id: "4922F719442B2E29"
 				type: "item"
 				item: "mana-and-artifice:brimstone_charm"
+			}]
+			rewards: [{
+				id: "270E0F898E932DB8"
+				type: "random"
+				table_id: 21613284823098451L
 			}]
 		}
 		{
@@ -2022,6 +2462,11 @@
 				type: "item"
 				item: "mana-and-artifice:transitory_tunnel"
 			}]
+			rewards: [{
+				id: "5B4B4F8FFD965B4E"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			x: 8.5d
@@ -2032,6 +2477,11 @@
 				id: "4A1E6403A055D01C"
 				type: "item"
 				item: "minecraft:dragon_breath"
+			}]
+			rewards: [{
+				id: "4F5B64B12AC00D8E"
+				type: "random"
+				table_id: 21613284823098451L
 			}]
 		}
 		{
@@ -2055,6 +2505,11 @@
 						]
 					}
 				}
+			}]
+			rewards: [{
+				id: "05581B9764848135"
+				type: "random"
+				table_id: 21613284823098451L
 			}]
 		}
 		{
@@ -2218,6 +2673,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "04CA7391AFC586BD"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			x: 12.5d
@@ -2228,6 +2688,11 @@
 				id: "17A012E373B3895F"
 				type: "checkmark"
 				title: "Cast a tier 4 cantrip"
+			}]
+			rewards: [{
+				id: "1A33A2D632419751"
+				type: "random"
+				table_id: 21613284823098451L
 			}]
 		}
 		{
@@ -2240,6 +2705,11 @@
 				type: "checkmark"
 				title: "Craft a spell with complexity 75 or more"
 			}]
+			rewards: [{
+				id: "5B50FCCA036F7A2D"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			x: 11.0d
@@ -2251,8 +2721,14 @@
 				type: "checkmark"
 				title: "Enchant an item with an enchantment of level III or more using the Runic Anvil"
 			}]
+			rewards: [{
+				id: "14EAAF679606378C"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
+			icon: "minecraft:dragon_head"
 			x: 10.0d
 			y: 9.0d
 			dependencies: ["19C32614D8476285"]
@@ -2268,7 +2744,18 @@
 					type: "item"
 					item: "minecraft:dragon_egg"
 				}
+				{
+					id: "4163F57B502ABF83"
+					type: "kill"
+					entity: "minecraft:ender_dragon"
+					value: 1L
+				}
 			]
+			rewards: [{
+				id: "5BD889E594FA8FC6"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			x: 9.0d
@@ -2280,10 +2767,19 @@
 				type: "checkmark"
 				title: "Reach magic level 60"
 			}]
+			rewards: [{
+				id: "44DC825BA7C51D3E"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			x: 11.5d
 			y: 5.0d
+			description: [
+				"Now to cap the welspring energy you will need to build a structure on it, itch lens provide you a different type of &dmana&r (&6earth&r,&1water&r,etc)"
+				"To see how build this structure refere you to the codex"
+			]
 			dependencies: ["0E996FBAF5DB9C91"]
 			id: "68AA9C78C4049902"
 			tasks: [
@@ -2372,10 +2868,19 @@
 					count: 12L
 				}
 			]
+			rewards: [{
+				id: "2A2500720AB2EDBB"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			x: 10.0d
 			y: 6.0d
+			description: [
+				"To find a well spring you will need to drink this potion, quick advice you will see more well spring in &4nether&r so go find it"
+				"The dowsing sod will work like a compas always pointing on a wellspring, hold right click and it will targetit on it"
+			]
 			dependencies: ["708365E2F99D6FA3"]
 			id: "0E996FBAF5DB9C91"
 			tasks: [
@@ -2396,11 +2901,20 @@
 					item: "mana-and-artifice:wellspring_dowsing_rod"
 				}
 			]
+			rewards: [{
+				id: "5FD7FEF928B6F1C8"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			title: "Eldrin Conduit"
 			x: 9.5d
 			y: 5.0d
+			description: [
+				"Now that your structure is in place, you need a last item to use it, the &5Eldrin Construct&r but itch eldrin construct can only provide on type of mana, and only the mana that you disposed"
+				"You can see the amount of mana that you disposed in the &1Occulus"
+			]
 			dependencies: ["68AA9C78C4049902"]
 			id: "1896236FC7BEFF73"
 			tasks: [{
@@ -2440,6 +2954,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "26B3B94290AC8A99"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			x: 12.0d
@@ -2451,12 +2970,18 @@
 				type: "checkmark"
 				title: "Reach the End"
 			}]
+			rewards: [{
+				id: "7CF732467DA9BFC6"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			title: "Faction armor's"
-			x: 15.0d
+			x: 16.0d
 			y: -1.5d
-			description: ["Faction victim"]
+			subtitle: "Faction victim"
+			description: [""]
 			dependencies: ["38EF232690208FB4"]
 			id: "66BC204048F491F4"
 			tasks: [
@@ -2625,6 +3150,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "273AE2F0FADD2833"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			title: "Tier 5 artifact"
@@ -2661,12 +3191,18 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1A923EBD15FB5BD9"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			title: "Faction Horn's"
 			x: 15.0d
 			y: 1.5d
 			subtitle: "Call The legion!!!"
+			description: ["It will call a certain amount of minion from your faction"]
 			dependencies: ["38EF232690208FB4"]
 			id: "3966B9895A5FE883"
 			tasks: [{
@@ -2698,11 +3234,16 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2BC61E6E912B4509"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			title: "Diamond Construct"
-			x: 13.5d
-			y: 0.0d
+			x: 14.0d
+			y: -1.5d
 			dependencies: ["38EF232690208FB4"]
 			id: "4195C9A7C99D0A9A"
 			tasks: [
@@ -2860,6 +3401,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "7E80F0996339AFFB"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			x: 4.5d
@@ -2869,6 +3415,7 @@
 			dependencies: [
 				"02628A32D083A95D"
 				"13EEC00E8C0E74D3"
+				"776B4DD5C8BEAD4B"
 			]
 			id: "3DE8005B127FFA10"
 			tasks: [{
@@ -2881,6 +3428,29 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "410EF3783551B762"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+				count: 4
+			}]
+		}
+		{
+			x: 13.5d
+			y: 0.0d
+			description: ["To gain this beatiful axe you need to kill &9Odin Father of all thing&r he can be call by performing &1the ritual of odin call&r"]
+			dependencies: ["38EF232690208FB4"]
+			id: "5DEEFAD308D713E0"
+			tasks: [{
+				id: "7F15259154A0CE6B"
+				type: "item"
+				item: "mana-and-artifice:allfather_axe"
+			}]
+			rewards: [{
+				id: "04B5F3EEE249B9CD"
+				type: "random"
+				table_id: 21613284823098451L
 			}]
 		}
 	]

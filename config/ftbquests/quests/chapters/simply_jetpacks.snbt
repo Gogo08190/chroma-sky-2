@@ -22,10 +22,16 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "2D759A65A53A97C4"
+				type: "item"
+				item: "immersiveengineering:coil_lv"
+			}]
 		}
 		{
 			x: 2.0d
 			y: -0.5d
+			dependencies: ["59BACDF85CF0148A"]
 			id: "2D0569B221CE536B"
 			tasks: [{
 				id: "6F07E6F433D06416"
@@ -35,6 +41,12 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "1B0A93BF4F6440DD"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+				count: 2
 			}]
 		}
 		{
@@ -51,6 +63,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "596F65F5B920B414"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
 			x: -2.0d
@@ -65,6 +82,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "528862F55810A81D"
+				type: "item"
+				item: "thermal:lead_ingot"
 			}]
 		}
 		{
@@ -81,6 +103,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "5E278C389893ECE9"
+				type: "item"
+				item: "immersiveengineering:coil_mv"
+			}]
 		}
 		{
 			x: 0.0d
@@ -95,6 +122,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "7D00CD6BF2B80333"
+				type: "item"
+				item: "immersiveengineering:coil_hv"
 			}]
 		}
 		{
@@ -111,6 +143,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "67F896AB5494E927"
+				type: "item"
+				item: "mekanism:ingot_steel"
+				count: 4
+			}]
 		}
 		{
 			x: -3.0d
@@ -125,6 +163,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "358B8DD4B505394E"
+				type: "item"
+				item: "minecraft:iron_ingot"
 			}]
 		}
 		{
@@ -141,6 +184,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "06E0879DD913AC88"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
 		}
 		{
 			x: -3.0d
@@ -155,6 +203,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "0CA9C760213A1928"
+				type: "item"
+				item: "minecraft:gold_ingot"
 			}]
 		}
 		{
@@ -171,6 +224,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "72923141CED7B7A8"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
 		}
 		{
 			x: -3.0d
@@ -185,6 +243,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "0A94AEECF3222EFA"
+				type: "item"
+				item: "minecraft:diamond"
 			}]
 		}
 		{
@@ -201,6 +264,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "328CA9B04D18F853"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
 		}
 		{
 			x: -3.0d
@@ -215,6 +283,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "296436FBE3EDB5E1"
+				type: "item"
+				item: "minecraft:netherite_ingot"
 			}]
 		}
 		{
@@ -231,6 +304,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "115E5E1F00C312E3"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+				count: 2
+			}]
 		}
 		{
 			x: 2.0d
@@ -245,6 +324,12 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "552E24E3D2DB3AB9"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+				count: 2
 			}]
 		}
 		{
@@ -261,6 +346,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "379854AA5940A0A7"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+				count: 2
+			}]
 		}
 		{
 			x: 2.0d
@@ -275,6 +366,12 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "79D9E5D94300555F"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+				count: 2
 			}]
 		}
 		{
@@ -291,6 +388,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "1339866088AF3608"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+				count: 2
+			}]
 		}
 		{
 			x: 2.0d
@@ -305,6 +408,12 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "05E2BBB73FDC39E2"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+				count: 2
 			}]
 		}
 		{
@@ -321,6 +430,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "24708BAA3BD50DE5"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+				count: 2
+			}]
 		}
 		{
 			x: -2.0d
@@ -335,6 +450,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "198EDE6D93C8CFE6"
+				type: "item"
+				item: "thermal:lead_ingot"
 			}]
 		}
 		{
@@ -351,6 +471,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "7209AB59184466DC"
+				type: "item"
+				item: "thermal:invar_ingot"
+			}]
 		}
 		{
 			x: -1.0d
@@ -365,6 +490,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "51C74A7B6DC85EF2"
+				type: "item"
+				item: "thermal:invar_ingot"
 			}]
 		}
 		{
@@ -381,6 +511,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "6E943DA1D99130E1"
+				type: "item"
+				item: "thermal:electrum_ingot"
+			}]
 		}
 		{
 			x: 0.0d
@@ -395,6 +530,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "3804D4EA25B8548A"
+				type: "item"
+				item: "thermal:electrum_ingot"
 			}]
 		}
 		{
@@ -411,6 +551,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "5E0B075AF5B60AEF"
+				type: "item"
+				item: "thermal:enderium_ingot"
+			}]
 		}
 		{
 			x: 1.0d
@@ -425,6 +570,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "082CB06B7257D91C"
+				type: "item"
+				item: "thermal:enderium_ingot"
 			}]
 		}
 		{
@@ -441,6 +591,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "2EB83CCEC45CC8D7"
+				type: "item"
+				item: "simplyjetpacks:armorplating_te5"
+			}]
 		}
 		{
 			x: 2.0d
@@ -455,6 +610,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "4DE5EE16E232A22C"
+				type: "item"
+				item: "simplyjetpacks:armorplating_te5_enderium"
 			}]
 		}
 	]

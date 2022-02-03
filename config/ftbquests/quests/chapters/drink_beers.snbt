@@ -27,6 +27,11 @@
 				type: "item"
 				item: "drinkbeer:beer_barrel"
 			}]
+			rewards: [{
+				id: "7703B8E6AC038F51"
+				type: "item"
+				item: "drinkbeer:beer_barrel"
+			}]
 		}
 		{
 			x: 6.5d
@@ -38,6 +43,13 @@
 				id: "2F91576F9DE10882"
 				type: "item"
 				item: "drinkbeer:empty_beer_mug"
+				count: 8L
+			}]
+			rewards: [{
+				id: "042D0D274ECACB07"
+				type: "item"
+				item: "drinkbeer:empty_beer_mug"
+				count: 4
 			}]
 		}
 		{
@@ -50,6 +62,11 @@
 				id: "6229A0563026C509"
 				type: "item"
 				item: "drinkbeer:recipe_board_package"
+			}]
+			rewards: [{
+				id: "38F5DE9DF76AF5F2"
+				type: "item"
+				item: "drinkbeer:golden_call_bell"
 			}]
 		}
 		{
@@ -68,6 +85,11 @@
 				type: "item"
 				item: "drinkbeer:beer_mug"
 			}]
+			rewards: [{
+				id: "1A7487EE35ADFB21"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 4.5d
@@ -84,6 +106,11 @@
 				id: "05604F6D169BC04F"
 				type: "item"
 				item: "drinkbeer:beer_mug_blaze_stout"
+			}]
+			rewards: [{
+				id: "2181235F259686B7"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -102,6 +129,11 @@
 				type: "item"
 				item: "drinkbeer:beer_mug_blaze_milk_stout"
 			}]
+			rewards: [{
+				id: "4FB9E409E5BBA64C"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 5.5d
@@ -118,6 +150,11 @@
 				id: "2E283372160C9A12"
 				type: "item"
 				item: "drinkbeer:beer_mug_apple_lambic"
+			}]
+			rewards: [{
+				id: "17795BC50497D959"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -136,6 +173,11 @@
 				type: "item"
 				item: "drinkbeer:beer_mug_sweet_berry_kriek"
 			}]
+			rewards: [{
+				id: "10C382B5C73310CC"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 7.0d
@@ -152,6 +194,11 @@
 				id: "4671D3A6F66AA3A4"
 				type: "item"
 				item: "drinkbeer:beer_mug_haars_icey_pale_lager"
+			}]
+			rewards: [{
+				id: "37F430D993908771"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -170,6 +217,11 @@
 				type: "item"
 				item: "drinkbeer:beer_mug_pumpkin_kvass"
 			}]
+			rewards: [{
+				id: "7400A2F5B36CE463"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 4.0d
@@ -186,6 +238,11 @@
 				id: "231DB4B31B09311D"
 				type: "item"
 				item: "drinkbeer:beer_mug_night_howl_kvass"
+			}]
+			rewards: [{
+				id: "086AF0C5FD8E9D55"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 	]
