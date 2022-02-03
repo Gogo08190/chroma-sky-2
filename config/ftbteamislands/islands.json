@@ -78,6 +78,12 @@
         "image": "chromasky2:islands/screens/forklift.png"
       },
       {
+        "name": "Forced Landing",
+        "desc": "by MarioKirarafan",
+        "structure": "atterrissage.nbt",
+        "image": "chromasky2:islands/screens/atterrissage.png"
+      },
+      {
         "name": "The Small House",
         "desc": "by JemerAlex",
         "structure": "smallhouse.nbt",
