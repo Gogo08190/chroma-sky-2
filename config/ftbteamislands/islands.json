@@ -78,6 +78,12 @@
         "image": "chromasky2:islands/screens/forklift.png"
       },
       {
+        "name": "The Small House",
+        "desc": "by JemerAlex",
+        "structure": "smallhouse.nbt",
+        "image": "chromasky2:islands/screens/forklift.png"
+      },
+      {
         "name": "Breaking Bridge Island",
         "desc": "by Staniscraft",
         "structure": "voidbridge.nbt",
