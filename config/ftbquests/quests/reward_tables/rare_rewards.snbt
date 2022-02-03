@@ -4,6 +4,53 @@
 	title: "&5Rare Rewards"
 	icon: "losttrinkets:treasure_bag"
 	loot_size: 1
+	hide_tooltip: true
 	use_title: true
-	rewards: [ ]
+	rewards: [
+		{ item: "cyclic:gem_obsidian", count: 4 }
+		{ item: "cyclic:chorus_flight", count: 8 }
+		{ item: "refinedstorage:64k_fluid_storage_part" }
+		{ item: "refinedstorage:1k_storage_part" }
+		{ item: "mekanism:ingot_refined_glowstone", count: 2 }
+		{ item: "mekanism:ingot_refined_obsidian", count: 3 }
+		{ item: "mekanism:ingot_uranium", count: 16 }
+		{ item: "industrialforegoing:pink_slime_ingot", count: 2 }
+		{ item: "industrialforegoing:plastic", count: 8 }
+		{ item: "envirocore:litherite_crystal", count: 8 }
+		{ item: "powah:ender_core" }
+		{ item: "powah:steel_energized", count: 4 }
+		{ item: "powah:crystal_nitro", count: 2 }
+		{ item: "cyclic:gem_amber", count: 4 }
+		{ item: "draconicevolution:overworld_draconium_ore", count: 4 }
+		{ item: "draconicevolution:awakened_draconium_nugget", count: 16 }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "draconicevolution:reaper_enchantment"
+					}]
+				}
+			}
+		}
+		{ item: "extendedcrafting:ender_ingot", count: 2 }
+		{ item: "powah:uraninite_raw", count: 16 }
+		{ item: "powah:crystal_blazing", count: 2 }
+		{ item: "powah:crystal_niotic", count: 2 }
+		{ item: "powah:crystal_spirited", count: 2 }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "miniutilities:experience_harvester"
+					}]
+				}
+			}
+		}
+	]
 }

@@ -201,6 +201,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6B9D058741F069F9"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 4
+			}]
 		}
 		{
 			x: 6.0d

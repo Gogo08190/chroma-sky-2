@@ -131,9 +131,10 @@
 				item: "ftbsluice:oak_sluice"
 			}]
 			rewards: [{
-				id: "524246A0D9EE76CB"
-				type: "random"
-				table_id: 7381842975596526002L
+				id: "103B1ED937EE786E"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 4
 			}]
 		}
 		{
@@ -387,6 +388,12 @@
 				type: "item"
 				item: "ftbsluice:cloth_mesh"
 			}]
+			rewards: [{
+				id: "3CD0692AE54C2024"
+				type: "item"
+				item: "minecraft:string"
+				count: 2
+			}]
 		}
 		{
 			x: -0.5d
@@ -506,6 +513,11 @@
 				type: "item"
 				item: "cyclic:cask"
 			}]
+			rewards: [{
+				id: "342BD1BF2A71407B"
+				type: "item"
+				item: "cyclic:cask"
+			}]
 		}
 		{
 			x: 1.5d
@@ -516,6 +528,11 @@
 				id: "41B70A03EC761AC9"
 				type: "item"
 				item: "ftbsluice:clay_bucket"
+			}]
+			rewards: [{
+				id: "7AE10D5F8B821D30"
+				type: "item"
+				item: "minecraft:sand"
 			}]
 		}
 		{
@@ -529,6 +546,11 @@
 			id: "152FF2195E210630"
 			tasks: [{
 				id: "5D4C2218B37F76B7"
+				type: "item"
+				item: "ftbsluice:clay_water_bucket"
+			}]
+			rewards: [{
+				id: "1CE53BDD1E8D2EEC"
 				type: "item"
 				item: "ftbsluice:clay_water_bucket"
 			}]

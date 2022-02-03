@@ -24,9 +24,9 @@
 				item: "overloaded:energy_core"
 			}]
 			rewards: [{
-				id: "09DBCE2071661BBF"
-				type: "random"
-				table_id: 4299163432040672592L
+				id: "7C1D7DFFC267AAE9"
+				type: "item"
+				item: "overloaded:energy_core"
 			}]
 		}
 		{
@@ -45,9 +45,9 @@
 				item: "overloaded:item_core"
 			}]
 			rewards: [{
-				id: "49B0E5C5F02B3D4E"
-				type: "random"
-				table_id: 4299163432040672592L
+				id: "162F0BC33BFADB30"
+				type: "item"
+				item: "overloaded:item_core"
 			}]
 		}
 		{
@@ -66,9 +66,9 @@
 				item: "overloaded:fluid_core"
 			}]
 			rewards: [{
-				id: "5A57FC779968384E"
-				type: "random"
-				table_id: 4299163432040672592L
+				id: "13C57FBFF0C61E9F"
+				type: "item"
+				item: "overloaded:fluid_core"
 			}]
 		}
 		{

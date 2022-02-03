@@ -1,9 +1,10 @@
 {
 	id: "2C0CC2E5D2418137"
 	order_index: 16
-	title: "Singularity"
+	title: "&dSingularity"
 	icon: "extendedcrafting:ultimate_singularity"
 	loot_size: 1
+	hide_tooltip: true
 	use_title: true
 	rewards: [
 		{

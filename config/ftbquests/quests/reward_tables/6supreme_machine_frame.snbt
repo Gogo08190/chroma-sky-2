@@ -4,6 +4,7 @@
 	title: "&6Supreme Machine Frame Part"
 	icon: "industrialforegoing:machine_frame_supreme"
 	loot_size: 1
+	hide_tooltip: true
 	use_title: true
 	rewards: [
 		{ item: "minecraft:diamond" }

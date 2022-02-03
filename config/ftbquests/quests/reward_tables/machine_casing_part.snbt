@@ -1,9 +1,10 @@
 {
 	id: "3A0E11CD4B58C017"
 	order_index: 14
-	title: "Machine Casing Part"
+	title: "&8Machine Casing Part"
 	icon: "refinedstorage:machine_casing"
 	loot_size: 1
+	hide_tooltip: true
 	use_title: true
 	rewards: [
 		{ item: "refinedstorage:quartz_enriched_iron" }

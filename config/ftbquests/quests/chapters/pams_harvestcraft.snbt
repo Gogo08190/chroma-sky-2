@@ -18,6 +18,11 @@
 				type: "item"
 				item: "pamhc2foodcore:bakewareitem"
 			}]
+			rewards: [{
+				id: "1990466A1725D306"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 8.0d
@@ -28,6 +33,11 @@
 				id: "1DC5352A73BCE571"
 				type: "item"
 				item: "pamhc2foodcore:cuttingboarditem"
+			}]
+			rewards: [{
+				id: "530FCED44B8CDF5A"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -40,6 +50,11 @@
 				type: "item"
 				item: "pamhc2foodcore:grinderitem"
 			}]
+			rewards: [{
+				id: "1CD3052E2C111DCF"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 7.0d
@@ -50,6 +65,11 @@
 				id: "66F4C27A990E731A"
 				type: "item"
 				item: "pamhc2foodcore:mixingbowlitem"
+			}]
+			rewards: [{
+				id: "0B46AA78687E6EFC"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -62,6 +82,11 @@
 				type: "item"
 				item: "pamhc2foodcore:potitem"
 			}]
+			rewards: [{
+				id: "0E588808A77D4438"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 8.0d
@@ -72,6 +97,11 @@
 				id: "4B75341693538416"
 				type: "item"
 				item: "pamhc2foodcore:saucepanitem"
+			}]
+			rewards: [{
+				id: "5A709A2718AA3F40"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -84,6 +114,11 @@
 				type: "item"
 				item: "pamhc2foodcore:skilletitem"
 			}]
+			rewards: [{
+				id: "4BDEB9752BB23F59"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 6.0d
@@ -95,6 +130,11 @@
 				type: "item"
 				item: "pamhc2foodcore:rolleritem"
 			}]
+			rewards: [{
+				id: "494B048E62974D25"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 7.0d
@@ -105,6 +145,11 @@
 				id: "71D5852AA5960BFA"
 				type: "item"
 				item: "pamhc2foodcore:juiceritem"
+			}]
+			rewards: [{
+				id: "419645D9E9A554A2"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -143,6 +188,11 @@
 				type: "item"
 				item: "farmersdelight:bacon_sandwich"
 			}]
+			rewards: [{
+				id: "0FCF5B784CB706CE"
+				type: "item"
+				item: "farmersdelight:bacon_sandwich"
+			}]
 		}
 		{
 			x: 7.0d
@@ -151,6 +201,11 @@
 			id: "470A02ADE95BC49B"
 			tasks: [{
 				id: "578C497B34177B1C"
+				type: "item"
+				item: "farmersdelight:chicken_sandwich"
+			}]
+			rewards: [{
+				id: "6707F46B2CB469A8"
 				type: "item"
 				item: "farmersdelight:chicken_sandwich"
 			}]
@@ -165,6 +220,11 @@
 				type: "item"
 				item: "farmersdelight:egg_sandwich"
 			}]
+			rewards: [{
+				id: "01A87145F3DE8AD2"
+				type: "item"
+				item: "farmersdelight:egg_sandwich"
+			}]
 		}
 		{
 			x: 9.0d
@@ -173,6 +233,11 @@
 			id: "4B3E8AD6460AC95F"
 			tasks: [{
 				id: "29823FC5E7784FBF"
+				type: "item"
+				item: "thermal:pbj_sandwich"
+			}]
+			rewards: [{
+				id: "3464C0748F7C68E7"
 				type: "item"
 				item: "thermal:pbj_sandwich"
 			}]
@@ -187,6 +252,11 @@
 				type: "item"
 				item: "pamhc2foodextended:limejellysandwichitem"
 			}]
+			rewards: [{
+				id: "48AE89587F622641"
+				type: "item"
+				item: "pamhc2foodextended:limejellysandwichitem"
+			}]
 		}
 		{
 			x: 7.0d
@@ -195,6 +265,11 @@
 			id: "49ADAC46F0C5CA1C"
 			tasks: [{
 				id: "2CDF618EF8B27586"
+				type: "item"
+				item: "pamhc2foodextended:lemonjellysandwichitem"
+			}]
+			rewards: [{
+				id: "042E94C34EE8C52D"
 				type: "item"
 				item: "pamhc2foodextended:lemonjellysandwichitem"
 			}]
@@ -209,6 +284,11 @@
 				type: "item"
 				item: "pamhc2foodextended:durianjellysandwichitem"
 			}]
+			rewards: [{
+				id: "1B621B7FF22FE655"
+				type: "item"
+				item: "pamhc2foodextended:durianjellysandwichitem"
+			}]
 		}
 		{
 			x: 9.0d
@@ -217,6 +297,11 @@
 			id: "7E571DA09ABD8153"
 			tasks: [{
 				id: "18DDA507FAE5137D"
+				type: "item"
+				item: "pamhc2foodextended:gooseberryjellysandwichitem"
+			}]
+			rewards: [{
+				id: "6EC4DBDB8641E532"
 				type: "item"
 				item: "pamhc2foodextended:gooseberryjellysandwichitem"
 			}]
@@ -231,6 +316,11 @@
 				type: "item"
 				item: "pamhc2foodextended:tamarindjellysandwichitem"
 			}]
+			rewards: [{
+				id: "029083DFE6F2659C"
+				type: "item"
+				item: "pamhc2foodextended:tamarindjellysandwichitem"
+			}]
 		}
 		{
 			x: 7.0d
@@ -239,6 +329,11 @@
 			id: "3645CEF569F97575"
 			tasks: [{
 				id: "023BA14A3AF50636"
+				type: "item"
+				item: "pamhc2foodextended:rambutanjellysandwichitem"
+			}]
+			rewards: [{
+				id: "56FCFF9C9EF93D4D"
 				type: "item"
 				item: "pamhc2foodextended:rambutanjellysandwichitem"
 			}]
@@ -253,6 +348,11 @@
 				type: "item"
 				item: "pamhc2foodextended:passionfruitjellysandwichitem"
 			}]
+			rewards: [{
+				id: "1B033C3225CB90DA"
+				type: "item"
+				item: "pamhc2foodextended:passionfruitjellysandwichitem"
+			}]
 		}
 		{
 			x: 9.0d
@@ -261,6 +361,11 @@
 			id: "43C02A41DB46D448"
 			tasks: [{
 				id: "2E83E49188DA43F5"
+				type: "item"
+				item: "pamhc2foodextended:lycheejellysandwichitem"
+			}]
+			rewards: [{
+				id: "4CF981E2687D804D"
 				type: "item"
 				item: "pamhc2foodextended:lycheejellysandwichitem"
 			}]
@@ -275,6 +380,11 @@
 				type: "item"
 				item: "pamhc2foodextended:guavajellysandwichitem"
 			}]
+			rewards: [{
+				id: "477321865604251D"
+				type: "item"
+				item: "pamhc2foodextended:guavajellysandwichitem"
+			}]
 		}
 		{
 			x: 10.0d
@@ -283,6 +393,11 @@
 			id: "477523859A8A4D16"
 			tasks: [{
 				id: "3A274815B4B00060"
+				type: "item"
+				item: "pamhc2foodextended:breadfruitjellysandwichitem"
+			}]
+			rewards: [{
+				id: "7E939196C7D4F588"
 				type: "item"
 				item: "pamhc2foodextended:breadfruitjellysandwichitem"
 			}]
@@ -297,6 +412,11 @@
 				type: "item"
 				item: "pamhc2foodextended:jackfruitjellysandwichitem"
 			}]
+			rewards: [{
+				id: "057CA9CB94A0EA26"
+				type: "item"
+				item: "pamhc2foodextended:jackfruitjellysandwichitem"
+			}]
 		}
 		{
 			x: 6.0d
@@ -305,6 +425,11 @@
 			id: "2C686497ADF1D7C0"
 			tasks: [{
 				id: "6E94A9CFB4A2D414"
+				type: "item"
+				item: "pamhc2foodextended:starfruitjellysandwichitem"
+			}]
+			rewards: [{
+				id: "78909B47047A5B7F"
 				type: "item"
 				item: "pamhc2foodextended:starfruitjellysandwichitem"
 			}]
@@ -319,6 +444,11 @@
 				type: "item"
 				item: "pamhc2foodextended:pomegranatejellysandwichitem"
 			}]
+			rewards: [{
+				id: "37953167E81A16CA"
+				type: "item"
+				item: "pamhc2foodextended:pomegranatejellysandwichitem"
+			}]
 		}
 		{
 			x: 8.0d
@@ -327,6 +457,11 @@
 			id: "66A9CF02D4A982AE"
 			tasks: [{
 				id: "6DA99D69C731DF00"
+				type: "item"
+				item: "pamhc2foodextended:persimmonjellysandwichitem"
+			}]
+			rewards: [{
+				id: "4F549F1D2E6DAA46"
 				type: "item"
 				item: "pamhc2foodextended:persimmonjellysandwichitem"
 			}]
@@ -341,6 +476,11 @@
 				type: "item"
 				item: "pamhc2foodextended:applejellysandwichitem"
 			}]
+			rewards: [{
+				id: "35CAE26E4BD282E2"
+				type: "item"
+				item: "pamhc2foodextended:applejellysandwichitem"
+			}]
 		}
 		{
 			x: 10.0d
@@ -349,6 +489,11 @@
 			id: "08FE7F7E1CAE7A63"
 			tasks: [{
 				id: "692D35501D005D7D"
+				type: "item"
+				item: "pamhc2foodextended:cherryjellysandwichitem"
+			}]
+			rewards: [{
+				id: "21DB9C972CED3864"
 				type: "item"
 				item: "pamhc2foodextended:cherryjellysandwichitem"
 			}]
@@ -363,6 +508,11 @@
 				type: "item"
 				item: "pamhc2foodextended:orangejellysandwichitem"
 			}]
+			rewards: [{
+				id: "1F168658795D8705"
+				type: "item"
+				item: "pamhc2foodextended:orangejellysandwichitem"
+			}]
 		}
 		{
 			x: 7.0d
@@ -371,6 +521,11 @@
 			id: "6D771872D1F94A00"
 			tasks: [{
 				id: "28EB374E02051FDC"
+				type: "item"
+				item: "pamhc2foodextended:peachjellysandwichitem"
+			}]
+			rewards: [{
+				id: "738EBE61E296369F"
 				type: "item"
 				item: "pamhc2foodextended:peachjellysandwichitem"
 			}]
@@ -385,6 +540,11 @@
 				type: "item"
 				item: "pamhc2foodextended:pearjellysandwichitem"
 			}]
+			rewards: [{
+				id: "33D5D7D3107895FD"
+				type: "item"
+				item: "pamhc2foodextended:pearjellysandwichitem"
+			}]
 		}
 		{
 			x: 9.0d
@@ -393,6 +553,11 @@
 			id: "305A1F10F676A3BF"
 			tasks: [{
 				id: "7B6B31D04792A1ED"
+				type: "item"
+				item: "pamhc2foodextended:plumjellysandwichitem"
+			}]
+			rewards: [{
+				id: "4891F2D47F08ABD3"
 				type: "item"
 				item: "pamhc2foodextended:plumjellysandwichitem"
 			}]
@@ -407,6 +572,11 @@
 				type: "item"
 				item: "pamhc2foodextended:pawpawjellysandwichitem"
 			}]
+			rewards: [{
+				id: "7C731450A195FAC1"
+				type: "item"
+				item: "pamhc2foodextended:pawpawjellysandwichitem"
+			}]
 		}
 		{
 			x: 6.0d
@@ -415,6 +585,11 @@
 			id: "18D439EEB5487B7D"
 			tasks: [{
 				id: "037D4C7EB5EBCB85"
+				type: "item"
+				item: "pamhc2foodextended:soursopjellysandwichitem"
+			}]
+			rewards: [{
+				id: "7079673C18889729"
 				type: "item"
 				item: "pamhc2foodextended:soursopjellysandwichitem"
 			}]
@@ -429,6 +604,11 @@
 				type: "item"
 				item: "pamhc2foodextended:apricotjellysandwichitem"
 			}]
+			rewards: [{
+				id: "47872C8C462E38FC"
+				type: "item"
+				item: "pamhc2foodextended:apricotjellysandwichitem"
+			}]
 		}
 		{
 			x: 8.0d
@@ -437,6 +617,11 @@
 			id: "3A123AE3D753E128"
 			tasks: [{
 				id: "296B2E0AB7005D33"
+				type: "item"
+				item: "pamhc2foodextended:bananajellysandwichitem"
+			}]
+			rewards: [{
+				id: "062D5BC90CC03C2A"
 				type: "item"
 				item: "pamhc2foodextended:bananajellysandwichitem"
 			}]
@@ -451,6 +636,11 @@
 				type: "item"
 				item: "pamhc2foodextended:datejellysandwichitem"
 			}]
+			rewards: [{
+				id: "2E214B038ADF2626"
+				type: "item"
+				item: "pamhc2foodextended:datejellysandwichitem"
+			}]
 		}
 		{
 			x: 10.0d
@@ -459,6 +649,11 @@
 			id: "27565BB3522F6152"
 			tasks: [{
 				id: "70D464CEFDDC79DB"
+				type: "item"
+				item: "pamhc2foodextended:dragonfruitjellysandwichitem"
+			}]
+			rewards: [{
+				id: "51A89E32434C610B"
 				type: "item"
 				item: "pamhc2foodextended:dragonfruitjellysandwichitem"
 			}]
@@ -473,6 +668,11 @@
 				type: "item"
 				item: "pamhc2foodextended:figjellysandwichitem"
 			}]
+			rewards: [{
+				id: "503DC8614E87199B"
+				type: "item"
+				item: "pamhc2foodextended:figjellysandwichitem"
+			}]
 		}
 		{
 			x: 11.0d
@@ -481,6 +681,11 @@
 			id: "0BA6D6B6440571D9"
 			tasks: [{
 				id: "6441C8DE11E376BE"
+				type: "item"
+				item: "pamhc2foodextended:grapefruitjellysandwichitem"
+			}]
+			rewards: [{
+				id: "1E5A8230FFB886A0"
 				type: "item"
 				item: "pamhc2foodextended:grapefruitjellysandwichitem"
 			}]
@@ -495,6 +700,11 @@
 				type: "item"
 				item: "pamhc2foodextended:mangojellysandwichitem"
 			}]
+			rewards: [{
+				id: "1711E66E25FDA79B"
+				type: "item"
+				item: "pamhc2foodextended:mangojellysandwichitem"
+			}]
 		}
 		{
 			x: 11.0d
@@ -503,6 +713,11 @@
 			id: "2959A4DA94F82091"
 			tasks: [{
 				id: "0A7646DDDE206420"
+				type: "item"
+				item: "pamhc2foodextended:papayajellysandwichitem"
+			}]
+			rewards: [{
+				id: "6093CA9BA10B6DDE"
 				type: "item"
 				item: "pamhc2foodextended:papayajellysandwichitem"
 			}]
@@ -517,6 +732,11 @@
 				type: "item"
 				item: "pamhc2foodextended:blackberryjellysandwichitem"
 			}]
+			rewards: [{
+				id: "3BDB0C88F714D84B"
+				type: "item"
+				item: "pamhc2foodextended:blackberryjellysandwichitem"
+			}]
 		}
 		{
 			x: 11.0d
@@ -528,16 +748,10 @@
 				type: "item"
 				item: "pamhc2foodextended:blueberryjellysandwichitem"
 			}]
-		}
-		{
-			x: 12.0d
-			y: 7.5d
-			dependencies: ["002FB4856186F7F1"]
-			id: "23D46608C974E5DA"
-			tasks: [{
-				id: "2E888AB3C7042F07"
+			rewards: [{
+				id: "6F830F2E9D84B1A8"
 				type: "item"
-				item: "pamhc2foodextended:blackberryjellysandwichitem"
+				item: "pamhc2foodextended:blueberryjellysandwichitem"
 			}]
 		}
 		{
@@ -547,6 +761,11 @@
 			id: "2D376F4F8A784783"
 			tasks: [{
 				id: "4ADAF12A4BAF338D"
+				type: "item"
+				item: "pamhc2foodextended:peanutbutterbananasandwichitem"
+			}]
+			rewards: [{
+				id: "1A93B0AB7A280B96"
 				type: "item"
 				item: "pamhc2foodextended:peanutbutterbananasandwichitem"
 			}]
@@ -561,6 +780,11 @@
 				type: "item"
 				item: "pamhc2foodextended:loxbagelsandwichitem"
 			}]
+			rewards: [{
+				id: "4091F98D9857D1E9"
+				type: "item"
+				item: "pamhc2foodextended:loxbagelsandwichitem"
+			}]
 		}
 		{
 			x: 12.0d
@@ -569,6 +793,11 @@
 			id: "6FA8F6D2D3FF4D6A"
 			tasks: [{
 				id: "16299FDAB77B124A"
+				type: "item"
+				item: "pamhc2foodextended:toastsandwichitem"
+			}]
+			rewards: [{
+				id: "3FDE3DD56F89008D"
 				type: "item"
 				item: "pamhc2foodextended:toastsandwichitem"
 			}]
@@ -583,6 +812,11 @@
 				type: "item"
 				item: "pamhc2foodextended:meatloafsandwichitem"
 			}]
+			rewards: [{
+				id: "03697049F41D9A36"
+				type: "item"
+				item: "pamhc2foodextended:meatloafsandwichitem"
+			}]
 		}
 		{
 			x: 12.0d
@@ -591,6 +825,11 @@
 			id: "3A4B58012B554B04"
 			tasks: [{
 				id: "6B1AFB6E7691519B"
+				type: "item"
+				item: "pamhc2foodextended:hamsweetpicklesandwichitem"
+			}]
+			rewards: [{
+				id: "42977BBF2D434A0C"
 				type: "item"
 				item: "pamhc2foodextended:hamsweetpicklesandwichitem"
 			}]
@@ -605,6 +844,11 @@
 				type: "item"
 				item: "pamhc2foodextended:hamandcheesesandwichitem"
 			}]
+			rewards: [{
+				id: "6FD5EDFDF5CB38D9"
+				type: "item"
+				item: "pamhc2foodextended:hamandcheesesandwichitem"
+			}]
 		}
 		{
 			x: 7.0d
@@ -613,6 +857,11 @@
 			id: "157A1E7394A8ED74"
 			tasks: [{
 				id: "1C183FEEC963BDEA"
+				type: "item"
+				item: "pamhc2foodextended:groiledcheesesandwichitem"
+			}]
+			rewards: [{
+				id: "74F33C8CF2348A70"
 				type: "item"
 				item: "pamhc2foodextended:groiledcheesesandwichitem"
 			}]
@@ -627,6 +876,11 @@
 				type: "item"
 				item: "pamhc2foodextended:friedbolognasandwichitem"
 			}]
+			rewards: [{
+				id: "5BFA9F8E6E814FBC"
+				type: "item"
+				item: "pamhc2foodextended:friedbolognasandwichitem"
+			}]
 		}
 		{
 			x: 9.0d
@@ -635,6 +889,11 @@
 			id: "7C576243252D02F5"
 			tasks: [{
 				id: "42B79956336F87FD"
+				type: "item"
+				item: "pamhc2foodextended:cucumbersandwichitem"
+			}]
+			rewards: [{
+				id: "176F99C184C44503"
 				type: "item"
 				item: "pamhc2foodextended:cucumbersandwichitem"
 			}]
@@ -649,6 +908,11 @@
 				type: "item"
 				item: "pamhc2foodextended:bolognasandwichitem"
 			}]
+			rewards: [{
+				id: "56BCA02F6785505B"
+				type: "item"
+				item: "pamhc2foodextended:bolognasandwichitem"
+			}]
 		}
 		{
 			x: 11.0d
@@ -660,6 +924,11 @@
 				type: "item"
 				item: "pamhc2foodextended:sweetberryjellysandwichitem"
 			}]
+			rewards: [{
+				id: "52F1B62BFECB2CCC"
+				type: "item"
+				item: "pamhc2foodextended:sweetberryjellysandwichitem"
+			}]
 		}
 		{
 			x: 12.0d
@@ -668,6 +937,11 @@
 			id: "158FD9CE87763121"
 			tasks: [{
 				id: "46150E8FEF904F11"
+				type: "item"
+				item: "pamhc2foodextended:melonjellysandwichitem"
+			}]
+			rewards: [{
+				id: "76E00D0441D09DFC"
 				type: "item"
 				item: "pamhc2foodextended:melonjellysandwichitem"
 			}]
@@ -696,6 +970,11 @@
 				type: "item"
 				item: "pamhc2foodcore:basicchickensandwichitem"
 			}]
+			rewards: [{
+				id: "44D3EF1D26646ABC"
+				type: "item"
+				item: "pamhc2foodcore:basicchickensandwichitem"
+			}]
 		}
 		{
 			x: -6.0d
@@ -704,6 +983,11 @@
 			id: "391D96831CB64BE3"
 			tasks: [{
 				id: "77EF3573533A1C27"
+				type: "item"
+				item: "pamhc2foodcore:basicfishsandwichitem"
+			}]
+			rewards: [{
+				id: "5B1BD3A4E5946186"
 				type: "item"
 				item: "pamhc2foodcore:basicfishsandwichitem"
 			}]
@@ -718,6 +1002,11 @@
 				type: "item"
 				item: "pamhc2foodextended:leafychickensandwichitem"
 			}]
+			rewards: [{
+				id: "6C9B6C31B23FD0EF"
+				type: "item"
+				item: "pamhc2foodextended:leafychickensandwichitem"
+			}]
 		}
 		{
 			x: -6.0d
@@ -726,6 +1015,11 @@
 			id: "227EEE5042ACB262"
 			tasks: [{
 				id: "2E735236EBD2B603"
+				type: "item"
+				item: "pamhc2foodextended:leafyfishsandwichitem"
+			}]
+			rewards: [{
+				id: "40A3D1808D05F1F9"
 				type: "item"
 				item: "pamhc2foodextended:leafyfishsandwichitem"
 			}]
@@ -740,6 +1034,11 @@
 				type: "item"
 				item: "pamhc2foodcore:basichamburgeritem"
 			}]
+			rewards: [{
+				id: "713AC25490EC9827"
+				type: "item"
+				item: "pamhc2foodcore:basichamburgeritem"
+			}]
 		}
 		{
 			x: -12.0d
@@ -748,6 +1047,11 @@
 			id: "35FA66CC1C613DE9"
 			tasks: [{
 				id: "2AA83016EFAF69AE"
+				type: "item"
+				item: "pamhc2foodcore:basiccheeseburgeritem"
+			}]
+			rewards: [{
+				id: "79698A446B45B77C"
 				type: "item"
 				item: "pamhc2foodcore:basiccheeseburgeritem"
 			}]
@@ -762,6 +1066,11 @@
 				type: "item"
 				item: "pamhc2foodcore:baconcheeseburgeritem"
 			}]
+			rewards: [{
+				id: "510562F21143023A"
+				type: "item"
+				item: "pamhc2foodcore:baconcheeseburgeritem"
+			}]
 		}
 		{
 			x: -7.0d
@@ -770,6 +1079,11 @@
 			id: "0B1EAA04134C2536"
 			tasks: [{
 				id: "08D4CD3C92A31DB2"
+				type: "item"
+				item: "pamhc2foodextended:baconmushroomburgeritem"
+			}]
+			rewards: [{
+				id: "470813C9F6E47514"
 				type: "item"
 				item: "pamhc2foodextended:baconmushroomburgeritem"
 			}]
@@ -784,6 +1098,11 @@
 				type: "item"
 				item: "pamhc2foodextended:deluxecheeseburgeritem"
 			}]
+			rewards: [{
+				id: "791A9CED4B356341"
+				type: "item"
+				item: "pamhc2foodextended:deluxecheeseburgeritem"
+			}]
 		}
 		{
 			x: -7.0d
@@ -792,6 +1111,11 @@
 			id: "0AF990F82B1FC437"
 			tasks: [{
 				id: "0D4109E3E60BD0DD"
+				type: "item"
+				item: "pamhc2foodextended:beetburgeritem"
+			}]
+			rewards: [{
+				id: "0ED763D776E710F3"
 				type: "item"
 				item: "pamhc2foodextended:beetburgeritem"
 			}]
@@ -806,6 +1130,11 @@
 				type: "item"
 				item: "pamhc2foodextended:coleslawburgeritem"
 			}]
+			rewards: [{
+				id: "3EC392DDC543C732"
+				type: "item"
+				item: "pamhc2foodextended:coleslawburgeritem"
+			}]
 		}
 		{
 			x: -10.0d
@@ -814,6 +1143,11 @@
 			id: "32E20B9D7113CBFE"
 			tasks: [{
 				id: "75C2D4B88DCF6057"
+				type: "item"
+				item: "pamhc2foodextended:gourmetbeefburgeritem"
+			}]
+			rewards: [{
+				id: "2DB9495767CCBD85"
 				type: "item"
 				item: "pamhc2foodextended:gourmetbeefburgeritem"
 			}]
@@ -828,6 +1162,11 @@
 				type: "item"
 				item: "pamhc2foodextended:gourmetmuttonburgeritem"
 			}]
+			rewards: [{
+				id: "6ADB97507DA81BE1"
+				type: "item"
+				item: "pamhc2foodextended:gourmetmuttonburgeritem"
+			}]
 		}
 		{
 			x: -8.0d
@@ -836,6 +1175,11 @@
 			id: "76CB49EC6C5B1A15"
 			tasks: [{
 				id: "06A2FF6C8FB70DC2"
+				type: "item"
+				item: "pamhc2foodextended:gourmetporkburgeritem"
+			}]
+			rewards: [{
+				id: "6FA7FDB1145F7DAD"
 				type: "item"
 				item: "pamhc2foodextended:gourmetporkburgeritem"
 			}]
@@ -850,6 +1194,11 @@
 				type: "item"
 				item: "pamhc2foodextended:onionhamburgeritem"
 			}]
+			rewards: [{
+				id: "6BC5B04A0836B5A0"
+				type: "item"
+				item: "pamhc2foodextended:onionhamburgeritem"
+			}]
 		}
 		{
 			x: -8.0d
@@ -858,6 +1207,11 @@
 			id: "47545DCFC12743F9"
 			tasks: [{
 				id: "0D5B7756935EEB16"
+				type: "item"
+				item: "pamhc2foodextended:paradiseburgeritem"
+			}]
+			rewards: [{
+				id: "1424BF378F220BFC"
 				type: "item"
 				item: "pamhc2foodextended:paradiseburgeritem"
 			}]
@@ -872,6 +1226,11 @@
 				type: "item"
 				item: "pamhc2foodextended:jalapenoburgeritem"
 			}]
+			rewards: [{
+				id: "590499EF6BEE9896"
+				type: "item"
+				item: "pamhc2foodextended:jalapenoburgeritem"
+			}]
 		}
 		{
 			x: -10.0d
@@ -880,6 +1239,11 @@
 			id: "235CFC8A81FF8550"
 			tasks: [{
 				id: "7477D0543A9E944E"
+				type: "item"
+				item: "farmersdelight:hamburger"
+			}]
+			rewards: [{
+				id: "3D5463ECC155FF85"
 				type: "item"
 				item: "farmersdelight:hamburger"
 			}]
@@ -894,6 +1258,11 @@
 				type: "item"
 				item: "pamhc2foodcore:friedchickenitem"
 			}]
+			rewards: [{
+				id: "25BB46B61423EFEC"
+				type: "item"
+				item: "pamhc2foodcore:friedchickenitem"
+			}]
 		}
 		{
 			x: -9.0d
@@ -902,6 +1271,11 @@
 			id: "433B74E60F388202"
 			tasks: [{
 				id: "62C1B2E6DBDF590D"
+				type: "item"
+				item: "pamhc2foodcore:friesitem"
+			}]
+			rewards: [{
+				id: "4CEE39BD45452151"
 				type: "item"
 				item: "pamhc2foodcore:friesitem"
 			}]
@@ -916,6 +1290,11 @@
 				type: "item"
 				item: "pamhc2foodcore:potatochipsitem"
 			}]
+			rewards: [{
+				id: "106037D42AE45D46"
+				type: "item"
+				item: "pamhc2foodcore:potatochipsitem"
+			}]
 		}
 		{
 			x: -9.0d
@@ -924,6 +1303,11 @@
 			id: "59BD7368858F90EC"
 			tasks: [{
 				id: "6A2BF958910BF48F"
+				type: "item"
+				item: "pamhc2foodextended:bbqpotatochipsitem"
+			}]
+			rewards: [{
+				id: "7F7DAEAB9F1504DA"
 				type: "item"
 				item: "pamhc2foodextended:bbqpotatochipsitem"
 			}]
@@ -938,6 +1322,11 @@
 				type: "item"
 				item: "pamhc2foodextended:cheddarandsourcreampotatochipsitem"
 			}]
+			rewards: [{
+				id: "3C83CE4EC9B236D5"
+				type: "item"
+				item: "pamhc2foodextended:cheddarandsourcreampotatochipsitem"
+			}]
 		}
 		{
 			x: -10.0d
@@ -946,6 +1335,11 @@
 			id: "264CADC5DC7C474E"
 			tasks: [{
 				id: "5B0A5B5CCD9BB24E"
+				type: "item"
+				item: "pamhc2foodextended:chipsanddipitem"
+			}]
+			rewards: [{
+				id: "2435885EB493C913"
 				type: "item"
 				item: "pamhc2foodextended:chipsanddipitem"
 			}]
@@ -960,6 +1354,11 @@
 				type: "item"
 				item: "pamhc2foodextended:cornchipsitem"
 			}]
+			rewards: [{
+				id: "62948D30508A3C25"
+				type: "item"
+				item: "pamhc2foodextended:cornchipsitem"
+			}]
 		}
 		{
 			x: -9.0d
@@ -968,6 +1367,11 @@
 			id: "5D8BA8E64E444740"
 			tasks: [{
 				id: "63E86C67C73A43BA"
+				type: "item"
+				item: "pamhc2foodextended:sourcreamandonionpotatochipsitem"
+			}]
+			rewards: [{
+				id: "136C129B5C1B5341"
 				type: "item"
 				item: "pamhc2foodextended:sourcreamandonionpotatochipsitem"
 			}]
@@ -982,6 +1386,11 @@
 				type: "item"
 				item: "pamhc2foodextended:anchovypepperonipizzaitem"
 			}]
+			rewards: [{
+				id: "60CABA63A9E7571E"
+				type: "item"
+				item: "pamhc2foodextended:anchovypepperonipizzaitem"
+			}]
 		}
 		{
 			x: -12.0d
@@ -990,6 +1399,11 @@
 			id: "6BA3F038113C28C9"
 			tasks: [{
 				id: "40484CBAFAF5A866"
+				type: "item"
+				item: "pamhc2foodextended:bbqchickenpizzaitem"
+			}]
+			rewards: [{
+				id: "4258367EB34B61F1"
 				type: "item"
 				item: "pamhc2foodextended:bbqchickenpizzaitem"
 			}]
@@ -1004,6 +1418,11 @@
 				type: "item"
 				item: "pamhc2foodextended:hamandpineapplepizzaitem"
 			}]
+			rewards: [{
+				id: "517DB121E6713FBD"
+				type: "item"
+				item: "pamhc2foodextended:hamandpineapplepizzaitem"
+			}]
 		}
 		{
 			x: -12.0d
@@ -1012,6 +1431,11 @@
 			id: "241A2B0D2AEAF774"
 			tasks: [{
 				id: "2C844E3D7D5BD986"
+				type: "item"
+				item: "pamhc2foodextended:meatfeastpizzaitem"
+			}]
+			rewards: [{
+				id: "32B1913058096A95"
 				type: "item"
 				item: "pamhc2foodextended:meatfeastpizzaitem"
 			}]
@@ -1026,6 +1450,11 @@
 				type: "item"
 				item: "pamhc2foodextended:pepperonipizzaitem"
 			}]
+			rewards: [{
+				id: "6D5538B0E5C3C6E6"
+				type: "item"
+				item: "pamhc2foodextended:pepperonipizzaitem"
+			}]
 		}
 		{
 			x: -11.0d
@@ -1034,6 +1463,11 @@
 			id: "6A5B3D059707A33C"
 			tasks: [{
 				id: "426EDB104E45A114"
+				type: "item"
+				item: "pamhc2foodextended:pizzasoupitem"
+			}]
+			rewards: [{
+				id: "08E525BDF4A29C41"
 				type: "item"
 				item: "pamhc2foodextended:pizzasoupitem"
 			}]
@@ -1048,6 +1482,11 @@
 				type: "item"
 				item: "pamhc2foodextended:pizzasliceitem"
 			}]
+			rewards: [{
+				id: "23B34EDECF51D3B1"
+				type: "item"
+				item: "pamhc2foodextended:pizzasliceitem"
+			}]
 		}
 		{
 			x: -6.0d
@@ -1056,6 +1495,11 @@
 			id: "099C1B18B07F89C6"
 			tasks: [{
 				id: "6F90805DD54D7464"
+				type: "item"
+				item: "pamhc2foodextended:cherrysodaitem"
+			}]
+			rewards: [{
+				id: "6AA287EF62756C82"
 				type: "item"
 				item: "pamhc2foodextended:cherrysodaitem"
 			}]
@@ -1070,6 +1514,11 @@
 				type: "item"
 				item: "pamhc2foodextended:colasodaitem"
 			}]
+			rewards: [{
+				id: "76C2DF2AD78929EE"
+				type: "item"
+				item: "pamhc2foodextended:colasodaitem"
+			}]
 		}
 		{
 			x: -11.0d
@@ -1078,6 +1527,11 @@
 			id: "2534A59561ABFFE9"
 			tasks: [{
 				id: "66236971CFB217EA"
+				type: "item"
+				item: "pamhc2foodextended:gingersodaitem"
+			}]
+			rewards: [{
+				id: "538650AE1FC08701"
 				type: "item"
 				item: "pamhc2foodextended:gingersodaitem"
 			}]
@@ -1092,6 +1546,11 @@
 				type: "item"
 				item: "pamhc2foodextended:grapefruitsodaitem"
 			}]
+			rewards: [{
+				id: "3DE1D039CF31202F"
+				type: "item"
+				item: "pamhc2foodextended:grapefruitsodaitem"
+			}]
 		}
 		{
 			x: -7.0d
@@ -1100,6 +1559,11 @@
 			id: "70E4616E60E76060"
 			tasks: [{
 				id: "3392E5B2E520D75E"
+				type: "item"
+				item: "pamhc2foodextended:grapesodaitem"
+			}]
+			rewards: [{
+				id: "510001D0B394E807"
 				type: "item"
 				item: "pamhc2foodextended:grapesodaitem"
 			}]
@@ -1114,6 +1578,11 @@
 				type: "item"
 				item: "pamhc2foodextended:lemonlimesodaitem"
 			}]
+			rewards: [{
+				id: "6DFC5F8869DFCB1F"
+				type: "item"
+				item: "pamhc2foodextended:lemonlimesodaitem"
+			}]
 		}
 		{
 			x: -9.0d
@@ -1122,6 +1591,11 @@
 			id: "1C5C50A8C927944C"
 			tasks: [{
 				id: "41D5208287B7D42D"
+				type: "item"
+				item: "pamhc2foodextended:orangesodaitem"
+			}]
+			rewards: [{
+				id: "2EEDFF36D3F115F1"
 				type: "item"
 				item: "pamhc2foodextended:orangesodaitem"
 			}]
@@ -1136,6 +1610,11 @@
 				type: "item"
 				item: "pamhc2foodextended:rootbeersodaitem"
 			}]
+			rewards: [{
+				id: "211F4DAB448D1991"
+				type: "item"
+				item: "pamhc2foodextended:rootbeersodaitem"
+			}]
 		}
 		{
 			x: -11.0d
@@ -1144,6 +1623,11 @@
 			id: "6483354E41328C38"
 			tasks: [{
 				id: "3CE57D09D049D333"
+				type: "item"
+				item: "pamhc2foodextended:strawberrysodaitem"
+			}]
+			rewards: [{
+				id: "0897B7EB298F629F"
 				type: "item"
 				item: "pamhc2foodextended:strawberrysodaitem"
 			}]
@@ -1158,6 +1642,11 @@
 				type: "item"
 				item: "pamhc2foodcore:applepieitem"
 			}]
+			rewards: [{
+				id: "1B39390C05C6C4D2"
+				type: "item"
+				item: "pamhc2foodcore:applepieitem"
+			}]
 		}
 		{
 			x: -10.5d
@@ -1166,6 +1655,11 @@
 			id: "6E387735485F95F8"
 			tasks: [{
 				id: "3F15A331EE5D0918"
+				type: "item"
+				item: "pamhc2foodcore:sweetberrypieitem"
+			}]
+			rewards: [{
+				id: "275099914158A89E"
 				type: "item"
 				item: "pamhc2foodcore:sweetberrypieitem"
 			}]
@@ -1180,6 +1674,11 @@
 				type: "item"
 				item: "pamhc2foodcore:chocolatecupcakeitem"
 			}]
+			rewards: [{
+				id: "5CE6A26A984A4B5F"
+				type: "item"
+				item: "pamhc2foodcore:chocolatecupcakeitem"
+			}]
 		}
 		{
 			x: -8.5d
@@ -1188,6 +1687,11 @@
 			id: "613F3FDD359B9123"
 			tasks: [{
 				id: "34DF797329F04282"
+				type: "item"
+				item: "pamhc2foodcore:carrotcupcakeitem"
+			}]
+			rewards: [{
+				id: "6CC244B52B4F1614"
 				type: "item"
 				item: "pamhc2foodcore:carrotcupcakeitem"
 			}]
@@ -1202,6 +1706,11 @@
 				type: "item"
 				item: "pamhc2foodcore:pumpkincupcakeitem"
 			}]
+			rewards: [{
+				id: "15A431B2EE11F876"
+				type: "item"
+				item: "pamhc2foodcore:pumpkincupcakeitem"
+			}]
 		}
 		{
 			x: -6.5d
@@ -1210,6 +1719,11 @@
 			id: "0F2BF1E5DED3318D"
 			tasks: [{
 				id: "7D829B14B8ABAA83"
+				type: "item"
+				item: "pamhc2foodcore:caramelcupcakeitem"
+			}]
+			rewards: [{
+				id: "130C9587A495136F"
 				type: "item"
 				item: "pamhc2foodcore:caramelcupcakeitem"
 			}]
@@ -1224,6 +1738,11 @@
 				type: "item"
 				item: "pamhc2foodcore:chocolatecakeitem"
 			}]
+			rewards: [{
+				id: "282BC284681BA6C8"
+				type: "item"
+				item: "pamhc2foodcore:chocolatecakeitem"
+			}]
 		}
 		{
 			x: -10.5d
@@ -1232,6 +1751,11 @@
 			id: "6B10D83D51EFBB8C"
 			tasks: [{
 				id: "1A174FFE15B9890B"
+				type: "item"
+				item: "pamhc2foodcore:cheesecakeitem"
+			}]
+			rewards: [{
+				id: "6763ACCB38B056CE"
 				type: "item"
 				item: "pamhc2foodcore:cheesecakeitem"
 			}]
@@ -1246,6 +1770,11 @@
 				type: "item"
 				item: "pamhc2foodcore:pumpkincheesecakeitem"
 			}]
+			rewards: [{
+				id: "76E1B98C97E8BD04"
+				type: "item"
+				item: "pamhc2foodcore:pumpkincheesecakeitem"
+			}]
 		}
 		{
 			x: -8.5d
@@ -1254,6 +1783,11 @@
 			id: "038365FB7C6BBF84"
 			tasks: [{
 				id: "261F62EA610E4E80"
+				type: "item"
+				item: "pamhc2foodcore:chocolatemuffinitem"
+			}]
+			rewards: [{
+				id: "0E9D90D768DBBB20"
 				type: "item"
 				item: "pamhc2foodcore:chocolatemuffinitem"
 			}]
@@ -1268,6 +1802,11 @@
 				type: "item"
 				item: "pamhc2foodcore:carrotmuffinitem"
 			}]
+			rewards: [{
+				id: "7A159332F7A87EE4"
+				type: "item"
+				item: "pamhc2foodcore:carrotmuffinitem"
+			}]
 		}
 		{
 			x: -6.5d
@@ -1276,6 +1815,11 @@
 			id: "47AD34DB02305C91"
 			tasks: [{
 				id: "36A2B59BCB0CD56B"
+				type: "item"
+				item: "pamhc2foodcore:pumpkinmuffinitem"
+			}]
+			rewards: [{
+				id: "4F69A02667FE9DFD"
 				type: "item"
 				item: "pamhc2foodcore:pumpkinmuffinitem"
 			}]
@@ -1290,6 +1834,11 @@
 				type: "item"
 				item: "pamhc2foodcore:caramelmuffinitem"
 			}]
+			rewards: [{
+				id: "0940F50172D18011"
+				type: "item"
+				item: "pamhc2foodcore:caramelmuffinitem"
+			}]
 		}
 		{
 			x: -10.5d
@@ -1298,6 +1847,11 @@
 			id: "4165CD3134E48624"
 			tasks: [{
 				id: "118A01A27545D3DF"
+				type: "item"
+				item: "pamhc2foodcore:donutitem"
+			}]
+			rewards: [{
+				id: "465559C4341D6862"
 				type: "item"
 				item: "pamhc2foodcore:donutitem"
 			}]
@@ -1312,6 +1866,11 @@
 				type: "item"
 				item: "pamhc2foodcore:chocolatedonutitem"
 			}]
+			rewards: [{
+				id: "41B1E917CBADE8BF"
+				type: "item"
+				item: "pamhc2foodcore:chocolatedonutitem"
+			}]
 		}
 		{
 			x: -8.5d
@@ -1320,6 +1879,11 @@
 			id: "59DAB1142FBBEC37"
 			tasks: [{
 				id: "5FB419A0BCC28267"
+				type: "item"
+				item: "pamhc2foodcore:jellydonutitem"
+			}]
+			rewards: [{
+				id: "22AA80AD4375EE00"
 				type: "item"
 				item: "pamhc2foodcore:jellydonutitem"
 			}]
@@ -1334,6 +1898,11 @@
 				type: "item"
 				item: "pamhc2foodcore:yogurtitem"
 			}]
+			rewards: [{
+				id: "0A25B8AB626D8C4B"
+				type: "item"
+				item: "pamhc2foodcore:yogurtitem"
+			}]
 		}
 		{
 			x: -6.5d
@@ -1342,6 +1911,11 @@
 			id: "3E5AE5F64E1DD867"
 			tasks: [{
 				id: "061760A12F534C7B"
+				type: "item"
+				item: "pamhc2foodcore:chocolateyogurtitem"
+			}]
+			rewards: [{
+				id: "724963EE146FA2AD"
 				type: "item"
 				item: "pamhc2foodcore:chocolateyogurtitem"
 			}]
@@ -1356,6 +1930,11 @@
 				type: "item"
 				item: "pamhc2foodcore:appleyogurtitem"
 			}]
+			rewards: [{
+				id: "0EAB97DA0F50DE0D"
+				type: "item"
+				item: "pamhc2foodcore:appleyogurtitem"
+			}]
 		}
 		{
 			x: -10.5d
@@ -1364,6 +1943,11 @@
 			id: "0FC477BEFA92130C"
 			tasks: [{
 				id: "3B3C8E0C23BB38CB"
+				type: "item"
+				item: "pamhc2foodcore:sweetberryyogurtitem"
+			}]
+			rewards: [{
+				id: "580E2EA1E121C77D"
 				type: "item"
 				item: "pamhc2foodcore:sweetberryyogurtitem"
 			}]
@@ -1378,6 +1962,11 @@
 				type: "item"
 				item: "pamhc2foodcore:pumpkinyogurtitem"
 			}]
+			rewards: [{
+				id: "0CA099A05BBA2EEB"
+				type: "item"
+				item: "pamhc2foodcore:pumpkinyogurtitem"
+			}]
 		}
 		{
 			x: -8.5d
@@ -1386,6 +1975,11 @@
 			id: "78280ABA0BE8F100"
 			tasks: [{
 				id: "48BCC527756AFF17"
+				type: "item"
+				item: "pamhc2foodcore:caramelyogurtitem"
+			}]
+			rewards: [{
+				id: "0EA0DF8DBF01173C"
 				type: "item"
 				item: "pamhc2foodcore:caramelyogurtitem"
 			}]
@@ -1400,6 +1994,11 @@
 				type: "item"
 				item: "pamhc2foodcore:icecreamitem"
 			}]
+			rewards: [{
+				id: "26AF15402930C0ED"
+				type: "item"
+				item: "pamhc2foodcore:icecreamitem"
+			}]
 		}
 		{
 			x: -6.5d
@@ -1408,6 +2007,11 @@
 			id: "77CB3275C57A98B6"
 			tasks: [{
 				id: "13A974E2208D5C52"
+				type: "item"
+				item: "pamhc2foodcore:chocolateicecreamitem"
+			}]
+			rewards: [{
+				id: "2EB1679F24F29978"
 				type: "item"
 				item: "pamhc2foodcore:chocolateicecreamitem"
 			}]
@@ -1422,6 +2026,11 @@
 				type: "item"
 				item: "pamhc2foodcore:caramelicecreamitem"
 			}]
+			rewards: [{
+				id: "62BC2177DC10B859"
+				type: "item"
+				item: "pamhc2foodcore:caramelicecreamitem"
+			}]
 		}
 		{
 			x: -5.5d
@@ -1430,6 +2039,11 @@
 			id: "237131FA18B5D031"
 			tasks: [{
 				id: "77B5E5CDFEBF6489"
+				type: "item"
+				item: "pamhc2foodcore:cookiesandmilkitem"
+			}]
+			rewards: [{
+				id: "23447885450B1D19"
 				type: "item"
 				item: "pamhc2foodcore:cookiesandmilkitem"
 			}]
@@ -1444,6 +2058,11 @@
 				type: "item"
 				item: "pamhc2foodcore:chocolatebaritem"
 			}]
+			rewards: [{
+				id: "7BEC1604DBA77C7C"
+				type: "item"
+				item: "pamhc2foodcore:chocolatebaritem"
+			}]
 		}
 		{
 			x: -5.5d
@@ -1452,6 +2071,11 @@
 			id: "1DB56AB12D476404"
 			tasks: [{
 				id: "7FE6ABEA49286269"
+				type: "item"
+				item: "pamhc2foodcore:fruitsaladitem"
+			}]
+			rewards: [{
+				id: "21B6FE6092CA4406"
 				type: "item"
 				item: "pamhc2foodcore:fruitsaladitem"
 			}]
@@ -1466,6 +2090,11 @@
 				type: "item"
 				item: "pamhc2foodcore:chocolatepuddingitem"
 			}]
+			rewards: [{
+				id: "0F76D9BA83565C9A"
+				type: "item"
+				item: "pamhc2foodcore:chocolatepuddingitem"
+			}]
 		}
 		{
 			x: -10.5d
@@ -1474,6 +2103,11 @@
 			id: "036763A7717797B6"
 			tasks: [{
 				id: "1435FF5CD3454B46"
+				type: "item"
+				item: "pamhc2foodcore:chocolaterollitem"
+			}]
+			rewards: [{
+				id: "4D1E082017EAECAD"
 				type: "item"
 				item: "pamhc2foodcore:chocolaterollitem"
 			}]
@@ -1488,6 +2122,11 @@
 				type: "item"
 				item: "pamhc2foodcore:chocolatecaramelfudgeitem"
 			}]
+			rewards: [{
+				id: "0FC05528EDBA9D1C"
+				type: "item"
+				item: "pamhc2foodcore:chocolatecaramelfudgeitem"
+			}]
 		}
 		{
 			x: -9.5d
@@ -1496,6 +2135,11 @@
 			id: "6C99B9D22C9259C7"
 			tasks: [{
 				id: "47F042038389A8B3"
+				type: "item"
+				item: "pamhc2foodcore:cottoncandyitem"
+			}]
+			rewards: [{
+				id: "28D0D93FCC05E5D3"
 				type: "item"
 				item: "pamhc2foodcore:cottoncandyitem"
 			}]
@@ -1510,6 +2154,11 @@
 				type: "item"
 				item: "pamhc2foodcore:gummybearsitem"
 			}]
+			rewards: [{
+				id: "381841F8BE0E7585"
+				type: "item"
+				item: "pamhc2foodcore:gummybearsitem"
+			}]
 		}
 		{
 			x: -7.5d
@@ -1521,6 +2170,11 @@
 				type: "item"
 				item: "pamhc2foodcore:fruitcrumbleitem"
 			}]
+			rewards: [{
+				id: "0A2950B6B231A807"
+				type: "item"
+				item: "pamhc2foodcore:fruitcrumbleitem"
+			}]
 		}
 		{
 			x: -5.5d
@@ -1529,6 +2183,11 @@
 			id: "66B2509C2AD09ADE"
 			tasks: [{
 				id: "256609B28A9C112E"
+				type: "item"
+				item: "pamhc2foodextended:chocolatecoconutbaritem"
+			}]
+			rewards: [{
+				id: "3903663C91266A21"
 				type: "item"
 				item: "pamhc2foodextended:chocolatecoconutbaritem"
 			}]
@@ -1557,6 +2216,11 @@
 				type: "item"
 				item: "pamhc2foodextended:pomegranatepieitem"
 			}]
+			rewards: [{
+				id: "279AF1912C590AA9"
+				type: "item"
+				item: "pamhc2foodextended:pomegranatepieitem"
+			}]
 		}
 		{
 			x: -11.5d
@@ -1565,6 +2229,11 @@
 			id: "111E5833F56B4BCB"
 			tasks: [{
 				id: "0BED5E3FB82F2E76"
+				type: "item"
+				item: "pamhc2foodextended:starfruitpieitem"
+			}]
+			rewards: [{
+				id: "3C2DF5AF9FE2ECBB"
 				type: "item"
 				item: "pamhc2foodextended:starfruitpieitem"
 			}]
@@ -1579,6 +2248,11 @@
 				type: "item"
 				item: "pamhc2foodextended:keylimepieitem"
 			}]
+			rewards: [{
+				id: "4662C58FDDC0356D"
+				type: "item"
+				item: "pamhc2foodextended:keylimepieitem"
+			}]
 		}
 		{
 			x: -11.5d
@@ -1587,6 +2261,11 @@
 			id: "5EF32D5B938085A3"
 			tasks: [{
 				id: "68B8FBF21CF112AD"
+				type: "item"
+				item: "pamhc2foodextended:pecanpieitem"
+			}]
+			rewards: [{
+				id: "0C903C4CACD8F34C"
 				type: "item"
 				item: "pamhc2foodextended:pecanpieitem"
 			}]
@@ -1601,6 +2280,11 @@
 				type: "item"
 				item: "pamhc2foodextended:blackberrypieitem"
 			}]
+			rewards: [{
+				id: "185E7DFD5FAACDBD"
+				type: "item"
+				item: "pamhc2foodextended:blackberrypieitem"
+			}]
 		}
 		{
 			x: -11.5d
@@ -1609,6 +2293,11 @@
 			id: "5744A8B2BE3D7E67"
 			tasks: [{
 				id: "0B2A9373FB45B0AE"
+				type: "item"
+				item: "pamhc2foodextended:blueberrypieitem"
+			}]
+			rewards: [{
+				id: "45FF2F630D6CBC38"
 				type: "item"
 				item: "pamhc2foodextended:blueberrypieitem"
 			}]
@@ -1623,6 +2312,11 @@
 				type: "item"
 				item: "pamhc2foodextended:cactusfruitpieitem"
 			}]
+			rewards: [{
+				id: "48826963E03E2F7E"
+				type: "item"
+				item: "pamhc2foodextended:cactusfruitpieitem"
+			}]
 		}
 		{
 			x: -10.5d
@@ -1631,6 +2325,11 @@
 			id: "3180F60BED42B098"
 			tasks: [{
 				id: "0633CFE9F4D71C38"
+				type: "item"
+				item: "pamhc2foodextended:candleberrypieitem"
+			}]
+			rewards: [{
+				id: "0E2913BEBF9A5934"
 				type: "item"
 				item: "pamhc2foodextended:candleberrypieitem"
 			}]
@@ -1645,6 +2344,11 @@
 				type: "item"
 				item: "pamhc2foodextended:pearpieitem"
 			}]
+			rewards: [{
+				id: "22AFD2418A3EA776"
+				type: "item"
+				item: "pamhc2foodextended:pearpieitem"
+			}]
 		}
 		{
 			x: -8.5d
@@ -1653,6 +2357,11 @@
 			id: "78E149F053F502AA"
 			tasks: [{
 				id: "754CA7AC53A03332"
+				type: "item"
+				item: "pamhc2foodextended:peachpieitem"
+			}]
+			rewards: [{
+				id: "3F493868CE60459E"
 				type: "item"
 				item: "pamhc2foodextended:peachpieitem"
 			}]
@@ -1667,6 +2376,11 @@
 				type: "item"
 				item: "pamhc2foodextended:orangepieitem"
 			}]
+			rewards: [{
+				id: "089F59AC9AE9BDAC"
+				type: "item"
+				item: "pamhc2foodextended:orangepieitem"
+			}]
 		}
 		{
 			x: -6.5d
@@ -1675,6 +2389,11 @@
 			id: "58BC6FFD3E944EB3"
 			tasks: [{
 				id: "0E8BCF26A94CBBDF"
+				type: "item"
+				item: "pamhc2foodextended:cherrypieitem"
+			}]
+			rewards: [{
+				id: "354AB8E35ACD6E53"
 				type: "item"
 				item: "pamhc2foodextended:cherrypieitem"
 			}]
@@ -1689,6 +2408,11 @@
 				type: "item"
 				item: "pamhc2foodextended:pineapplepieitem"
 			}]
+			rewards: [{
+				id: "20B4FD6CD2BB5E32"
+				type: "item"
+				item: "pamhc2foodextended:pineapplepieitem"
+			}]
 		}
 		{
 			x: -5.5d
@@ -1697,6 +2421,11 @@
 			id: "7B58EC6218A72FF9"
 			tasks: [{
 				id: "1F233D767B52FC18"
+				type: "item"
+				item: "pamhc2foodextended:kiwipieitem"
+			}]
+			rewards: [{
+				id: "72EA7AE0B7F5EE3C"
 				type: "item"
 				item: "pamhc2foodextended:kiwipieitem"
 			}]
@@ -1711,6 +2440,11 @@
 				type: "item"
 				item: "pamhc2foodextended:greengrapepieitem"
 			}]
+			rewards: [{
+				id: "21DB3BD8DA4BAD5B"
+				type: "item"
+				item: "pamhc2foodextended:greengrapepieitem"
+			}]
 		}
 		{
 			x: -7.5d
@@ -1719,6 +2453,11 @@
 			id: "3E916C4C5BC3BB8C"
 			tasks: [{
 				id: "24733F9D639EA76A"
+				type: "item"
+				item: "pamhc2foodextended:grapepieitem"
+			}]
+			rewards: [{
+				id: "093F90DC680FE5FF"
 				type: "item"
 				item: "pamhc2foodextended:grapepieitem"
 			}]
@@ -1733,6 +2472,11 @@
 				type: "item"
 				item: "pamhc2foodextended:cantaloupepieitem"
 			}]
+			rewards: [{
+				id: "4CE2A5ED4E9A0F4E"
+				type: "item"
+				item: "pamhc2foodextended:cantaloupepieitem"
+			}]
 		}
 		{
 			x: -9.5d
@@ -1741,6 +2485,11 @@
 			id: "7EEB480B6AD5EC1A"
 			tasks: [{
 				id: "4A8EE551CB2D75D6"
+				type: "item"
+				item: "pamhc2foodextended:strawberrypieitem"
+			}]
+			rewards: [{
+				id: "3433FE894338F2E2"
 				type: "item"
 				item: "pamhc2foodextended:strawberrypieitem"
 			}]
@@ -1755,6 +2504,11 @@
 				type: "item"
 				item: "pamhc2foodextended:raspberrypieitem"
 			}]
+			rewards: [{
+				id: "7046A1AE2F494C1E"
+				type: "item"
+				item: "pamhc2foodextended:raspberrypieitem"
+			}]
 		}
 		{
 			x: -11.5d
@@ -1763,6 +2517,11 @@
 			id: "44ED31CA20424FF6"
 			tasks: [{
 				id: "141EEB8768DFCFD4"
+				type: "item"
+				item: "pamhc2foodextended:mulberrypieitem"
+			}]
+			rewards: [{
+				id: "26665F5AAC5BAC69"
 				type: "item"
 				item: "pamhc2foodextended:mulberrypieitem"
 			}]
@@ -1777,6 +2536,11 @@
 				type: "item"
 				item: "pamhc2foodextended:juniperberrypieitem"
 			}]
+			rewards: [{
+				id: "73B6E20859485DE5"
+				type: "item"
+				item: "pamhc2foodextended:juniperberrypieitem"
+			}]
 		}
 		{
 			x: -12.5d
@@ -1785,6 +2549,11 @@
 			id: "2B4B59884A4880B7"
 			tasks: [{
 				id: "46FFA6224D73CF27"
+				type: "item"
+				item: "pamhc2foodextended:huckleberrypieitem"
+			}]
+			rewards: [{
+				id: "59AD24D59F4B9673"
 				type: "item"
 				item: "pamhc2foodextended:huckleberrypieitem"
 			}]
@@ -1799,6 +2568,11 @@
 				type: "item"
 				item: "pamhc2foodextended:elderberrypieitem"
 			}]
+			rewards: [{
+				id: "680492FB69B5A8DF"
+				type: "item"
+				item: "pamhc2foodextended:elderberrypieitem"
+			}]
 		}
 		{
 			x: -12.5d
@@ -1807,6 +2581,11 @@
 			id: "3E9E2C65F0C83848"
 			tasks: [{
 				id: "11C57A9614DACE30"
+				type: "item"
+				item: "pamhc2foodextended:cranberrypieitem"
+			}]
+			rewards: [{
+				id: "3029D7102271F11E"
 				type: "item"
 				item: "pamhc2foodextended:cranberrypieitem"
 			}]
@@ -1821,6 +2600,11 @@
 				type: "item"
 				item: "pamhc2foodextended:plumpieitem"
 			}]
+			rewards: [{
+				id: "15615095342C70E6"
+				type: "item"
+				item: "pamhc2foodextended:plumpieitem"
+			}]
 		}
 		{
 			x: -12.5d
@@ -1829,6 +2613,11 @@
 			id: "6CDAB0D92F1C2D69"
 			tasks: [{
 				id: "0D1EFA9CA3B1A096"
+				type: "item"
+				item: "pamhc2foodextended:pawpawpieitem"
+			}]
+			rewards: [{
+				id: "71C1A77A064B4866"
 				type: "item"
 				item: "pamhc2foodextended:pawpawpieitem"
 			}]
@@ -1843,6 +2632,11 @@
 				type: "item"
 				item: "pamhc2foodextended:soursoppieitem"
 			}]
+			rewards: [{
+				id: "1AECBC3E31A20EAF"
+				type: "item"
+				item: "pamhc2foodextended:soursoppieitem"
+			}]
 		}
 		{
 			x: -12.5d
@@ -1851,6 +2645,11 @@
 			id: "679AE914336DD2D4"
 			tasks: [{
 				id: "588E7B8B995C753B"
+				type: "item"
+				item: "pamhc2foodextended:apricotpieitem"
+			}]
+			rewards: [{
+				id: "15228E944877F775"
 				type: "item"
 				item: "pamhc2foodextended:apricotpieitem"
 			}]
@@ -1865,6 +2664,11 @@
 				type: "item"
 				item: "pamhc2foodextended:bananapieitem"
 			}]
+			rewards: [{
+				id: "0D47EE460F53FD61"
+				type: "item"
+				item: "pamhc2foodextended:bananapieitem"
+			}]
 		}
 		{
 			x: -6.5d
@@ -1873,6 +2677,11 @@
 			id: "1C25ADC29E2C5978"
 			tasks: [{
 				id: "7F33FB562347A43C"
+				type: "item"
+				item: "pamhc2foodextended:datepieitem"
+			}]
+			rewards: [{
+				id: "4E6927A238473B91"
 				type: "item"
 				item: "pamhc2foodextended:datepieitem"
 			}]
@@ -1887,6 +2696,11 @@
 				type: "item"
 				item: "pamhc2foodextended:dragonfruitpieitem"
 			}]
+			rewards: [{
+				id: "23A2D5D86380B524"
+				type: "item"
+				item: "pamhc2foodextended:dragonfruitpieitem"
+			}]
 		}
 		{
 			x: -8.5d
@@ -1895,6 +2709,11 @@
 			id: "1464A5EFC3E73757"
 			tasks: [{
 				id: "16E1D9B87924FB18"
+				type: "item"
+				item: "pamhc2foodextended:figpieitem"
+			}]
+			rewards: [{
+				id: "59B1C91D35912624"
 				type: "item"
 				item: "pamhc2foodextended:figpieitem"
 			}]
@@ -1909,6 +2728,11 @@
 				type: "item"
 				item: "pamhc2foodextended:grapefruitpieitem"
 			}]
+			rewards: [{
+				id: "0008952F5EA15E16"
+				type: "item"
+				item: "pamhc2foodextended:grapefruitpieitem"
+			}]
 		}
 		{
 			x: -10.5d
@@ -1917,6 +2741,11 @@
 			id: "362390A152F3BDE4"
 			tasks: [{
 				id: "7908CEA10A87A9F6"
+				type: "item"
+				item: "pamhc2foodextended:mangopieitem"
+			}]
+			rewards: [{
+				id: "26610FBDF791911F"
 				type: "item"
 				item: "pamhc2foodextended:mangopieitem"
 			}]
@@ -1931,6 +2760,11 @@
 				type: "item"
 				item: "pamhc2foodextended:papayapieitem"
 			}]
+			rewards: [{
+				id: "63368D62B2D9EA2D"
+				type: "item"
+				item: "pamhc2foodextended:papayapieitem"
+			}]
 		}
 		{
 			x: -12.5d
@@ -1939,6 +2773,11 @@
 			id: "0BEC134A01C3FCCB"
 			tasks: [{
 				id: "6E4D157D7194EA5B"
+				type: "item"
+				item: "pamhc2foodextended:persimmonpieitem"
+			}]
+			rewards: [{
+				id: "6152C57FF62969D3"
 				type: "item"
 				item: "pamhc2foodextended:persimmonpieitem"
 			}]
@@ -1953,6 +2792,11 @@
 				type: "item"
 				item: "pamhc2foodextended:breadfruitpieitem"
 			}]
+			rewards: [{
+				id: "445713C687B3F65E"
+				type: "item"
+				item: "pamhc2foodextended:breadfruitpieitem"
+			}]
 		}
 		{
 			x: -13.5d
@@ -1961,6 +2805,11 @@
 			id: "32193B58EB685079"
 			tasks: [{
 				id: "27146ADD1254BDCE"
+				type: "item"
+				item: "pamhc2foodextended:jackfruitpieitem"
+			}]
+			rewards: [{
+				id: "5D3960B6EE6B93FC"
 				type: "item"
 				item: "pamhc2foodextended:jackfruitpieitem"
 			}]
@@ -1975,6 +2824,11 @@
 				type: "item"
 				item: "pamhc2foodextended:lycheepieitem"
 			}]
+			rewards: [{
+				id: "6AEED5B364D349D0"
+				type: "item"
+				item: "pamhc2foodextended:lycheepieitem"
+			}]
 		}
 		{
 			x: -13.5d
@@ -1983,6 +2837,11 @@
 			id: "22F2F610BBAE6E61"
 			tasks: [{
 				id: "1F2D2AB44147E1D0"
+				type: "item"
+				item: "pamhc2foodextended:guavapieitem"
+			}]
+			rewards: [{
+				id: "38D53E102ADD6465"
 				type: "item"
 				item: "pamhc2foodextended:guavapieitem"
 			}]
@@ -1997,6 +2856,11 @@
 				type: "item"
 				item: "pamhc2foodextended:passionfruitpieitem"
 			}]
+			rewards: [{
+				id: "39F4A90FC54E4608"
+				type: "item"
+				item: "pamhc2foodextended:passionfruitpieitem"
+			}]
 		}
 		{
 			x: -13.5d
@@ -2005,6 +2869,11 @@
 			id: "0CD02B63951517C9"
 			tasks: [{
 				id: "4BC020E452F39AC1"
+				type: "item"
+				item: "pamhc2foodextended:rambutanpieitem"
+			}]
+			rewards: [{
+				id: "49382C6D67F69C9B"
 				type: "item"
 				item: "pamhc2foodextended:rambutanpieitem"
 			}]
@@ -2019,6 +2888,11 @@
 				type: "item"
 				item: "pamhc2foodextended:gooseberrypieitem"
 			}]
+			rewards: [{
+				id: "3A2C498CC141E606"
+				type: "item"
+				item: "pamhc2foodextended:gooseberrypieitem"
+			}]
 		}
 		{
 			x: -13.5d
@@ -2027,6 +2901,11 @@
 			id: "49D6796F523717E4"
 			tasks: [{
 				id: "79038ED3A1F4B7DE"
+				type: "item"
+				item: "pamhc2foodextended:durianpieitem"
+			}]
+			rewards: [{
+				id: "528D4CEDC61EA28B"
 				type: "item"
 				item: "pamhc2foodextended:durianpieitem"
 			}]
@@ -2041,6 +2920,11 @@
 				type: "item"
 				item: "pamhc2foodextended:lemonpieitem"
 			}]
+			rewards: [{
+				id: "395CB26AA4B6FE3A"
+				type: "item"
+				item: "pamhc2foodextended:lemonpieitem"
+			}]
 		}
 		{
 			x: -6.5d
@@ -2049,6 +2933,11 @@
 			id: "7C2A90363B398964"
 			tasks: [{
 				id: "06E9A2647331B6CE"
+				type: "item"
+				item: "pamhc2foodextended:limepieitem"
+			}]
+			rewards: [{
+				id: "637D876813730579"
 				type: "item"
 				item: "pamhc2foodextended:limepieitem"
 			}]
@@ -2063,6 +2952,11 @@
 				type: "item"
 				item: "pamhc2foodcore:carrotcakeitem"
 			}]
+			rewards: [{
+				id: "77CD7EB2F8F641BB"
+				type: "item"
+				item: "pamhc2foodcore:carrotcakeitem"
+			}]
 		}
 		{
 			x: -12.0d
@@ -2071,6 +2965,11 @@
 			id: "1190CEA023967834"
 			tasks: [{
 				id: "3AFB21E01C407611"
+				type: "item"
+				item: "pamhc2foodextended:maplesyruppancakesitem"
+			}]
+			rewards: [{
+				id: "416CCE1042AF06F7"
 				type: "item"
 				item: "pamhc2foodextended:maplesyruppancakesitem"
 			}]
@@ -2085,6 +2984,11 @@
 				type: "item"
 				item: "pamhc2foodextended:pancakesitem"
 			}]
+			rewards: [{
+				id: "225DB595083BFDB0"
+				type: "item"
+				item: "pamhc2foodextended:pancakesitem"
+			}]
 		}
 		{
 			x: -9.5d
@@ -2093,6 +2997,11 @@
 			id: "53597C4533DA3CC7"
 			tasks: [{
 				id: "47F80E93BB883049"
+				type: "item"
+				item: "pamhc2foodextended:chocolatesprinklecakeitem"
+			}]
+			rewards: [{
+				id: "5BEA6CB40B341716"
 				type: "item"
 				item: "pamhc2foodextended:chocolatesprinklecakeitem"
 			}]
@@ -2107,6 +3016,11 @@
 				type: "item"
 				item: "pamhc2foodextended:fruitcakeitem"
 			}]
+			rewards: [{
+				id: "3730ACB761DDF420"
+				type: "item"
+				item: "pamhc2foodextended:fruitcakeitem"
+			}]
 		}
 		{
 			x: -5.5d
@@ -2115,6 +3029,11 @@
 			id: "529F017CC4685301"
 			tasks: [{
 				id: "32F6D09F52B4E466"
+				type: "item"
+				item: "pamhc2foodextended:holidaycakeitem"
+			}]
+			rewards: [{
+				id: "544E8206F3441CD3"
 				type: "item"
 				item: "pamhc2foodextended:holidaycakeitem"
 			}]
@@ -2129,6 +3048,11 @@
 				type: "item"
 				item: "pamhc2foodextended:lemondrizzlecakeitem"
 			}]
+			rewards: [{
+				id: "49D2869BFC6C9106"
+				type: "item"
+				item: "pamhc2foodextended:lemondrizzlecakeitem"
+			}]
 		}
 		{
 			x: -7.5d
@@ -2137,6 +3061,11 @@
 			id: "0400E906F4028FD1"
 			tasks: [{
 				id: "6414E75E4A8A7FF5"
+				type: "item"
+				item: "pamhc2foodextended:mochicakeitem"
+			}]
+			rewards: [{
+				id: "6DDA63EC1D95FBA2"
 				type: "item"
 				item: "pamhc2foodextended:mochicakeitem"
 			}]
@@ -2151,6 +3080,11 @@
 				type: "item"
 				item: "pamhc2foodextended:pineappleupsidedowncakeitem"
 			}]
+			rewards: [{
+				id: "273D9ADEB32F0AED"
+				type: "item"
+				item: "pamhc2foodextended:pineappleupsidedowncakeitem"
+			}]
 		}
 		{
 			x: -13.5d
@@ -2159,6 +3093,11 @@
 			id: "280F1231E541D8E5"
 			tasks: [{
 				id: "447ED80E74B31153"
+				type: "item"
+				item: "pamhc2foodextended:sprinklescupcakeitem"
+			}]
+			rewards: [{
+				id: "737B150CA12046A5"
 				type: "item"
 				item: "pamhc2foodextended:sprinklescupcakeitem"
 			}]
@@ -2173,6 +3112,11 @@
 				type: "item"
 				item: "pamhc2foodextended:redvelvetcupcakeitem"
 			}]
+			rewards: [{
+				id: "245E7015F3CB2B24"
+				type: "item"
+				item: "pamhc2foodextended:redvelvetcupcakeitem"
+			}]
 		}
 		{
 			x: -11.5d
@@ -2181,6 +3125,11 @@
 			id: "5D79283265C96617"
 			tasks: [{
 				id: "4CB75B2E14B3B622"
+				type: "item"
+				item: "pamhc2foodextended:rivermudcakeitem"
+			}]
+			rewards: [{
+				id: "13E8EDD9E09D894E"
 				type: "item"
 				item: "pamhc2foodextended:rivermudcakeitem"
 			}]
@@ -2208,6 +3157,11 @@
 				type: "item"
 				item: "pamhc2foodcore:applejellytoastitem"
 			}]
+			rewards: [{
+				id: "05792D748F764682"
+				type: "item"
+				item: "pamhc2foodcore:applejellytoastitem"
+			}]
 		}
 		{
 			x: 9.0d
@@ -2216,6 +3170,11 @@
 			id: "74B21B43D5523CFE"
 			tasks: [{
 				id: "0C658DD40F1DD031"
+				type: "item"
+				item: "pamhc2foodcore:melonjellytoastitem"
+			}]
+			rewards: [{
+				id: "39AE94FF9232C6EF"
 				type: "item"
 				item: "pamhc2foodcore:melonjellytoastitem"
 			}]
@@ -2230,6 +3189,11 @@
 				type: "item"
 				item: "pamhc2foodcore:sweetberryjellytoastitem"
 			}]
+			rewards: [{
+				id: "51F27987B50F48DB"
+				type: "item"
+				item: "pamhc2foodcore:sweetberryjellytoastitem"
+			}]
 		}
 		{
 			x: 8.0d
@@ -2238,6 +3202,11 @@
 			id: "2744AFD03C9A8BE9"
 			tasks: [{
 				id: "127EBF4A5DE97EC4"
+				type: "item"
+				item: "pamhc2foodextended:cinnamontoastitem"
+			}]
+			rewards: [{
+				id: "3F9A3936B8320C32"
 				type: "item"
 				item: "pamhc2foodextended:cinnamontoastitem"
 			}]
@@ -2252,6 +3221,11 @@
 				type: "item"
 				item: "pamhc2foodextended:frenchtoastitem"
 			}]
+			rewards: [{
+				id: "29828D8CF288FF60"
+				type: "item"
+				item: "pamhc2foodextended:frenchtoastitem"
+			}]
 		}
 		{
 			x: 10.0d
@@ -2260,6 +3234,11 @@
 			id: "409FED5BD0BDB5F3"
 			tasks: [{
 				id: "6355D690A876626F"
+				type: "item"
+				item: "pamhc2foodextended:beansontoastitem"
+			}]
+			rewards: [{
+				id: "48F782FB6E99312D"
 				type: "item"
 				item: "pamhc2foodextended:beansontoastitem"
 			}]
@@ -2274,6 +3253,11 @@
 				type: "item"
 				item: "pamhc2foodextended:cheeseontoastitem"
 			}]
+			rewards: [{
+				id: "3F35F7D0E18B330F"
+				type: "item"
+				item: "pamhc2foodextended:cheeseontoastitem"
+			}]
 		}
 		{
 			x: 9.0d
@@ -2282,6 +3266,11 @@
 			id: "454EBA63BBBD8911"
 			tasks: [{
 				id: "1B5D1ECF939343CB"
+				type: "item"
+				item: "pamhc2foodextended:grilledcheesevegemitetoastitem"
+			}]
+			rewards: [{
+				id: "7C642B8A14964FA7"
 				type: "item"
 				item: "pamhc2foodextended:grilledcheesevegemitetoastitem"
 			}]
@@ -2296,16 +3285,10 @@
 				type: "item"
 				item: "pamhc2foodextended:toastedwesternitem"
 			}]
-		}
-		{
-			x: 7.0d
-			y: -6.5d
-			dependencies: ["3805B08C81BEA8A0"]
-			id: "0978161629340FDD"
-			tasks: [{
-				id: "6D75E434AF153018"
+			rewards: [{
+				id: "50630A4BAE6C034A"
 				type: "item"
-				item: "pamhc2foodextended:toastsandwichitem"
+				item: "pamhc2foodextended:toastedwesternitem"
 			}]
 		}
 		{
@@ -2315,6 +3298,11 @@
 			id: "3A8557186268023A"
 			tasks: [{
 				id: "50B9ED3985A0226B"
+				type: "item"
+				item: "pamhc2foodextended:vegemiteontoastitem"
+			}]
+			rewards: [{
+				id: "0F2B6CD3D4F8ACE9"
 				type: "item"
 				item: "pamhc2foodextended:vegemiteontoastitem"
 			}]
@@ -2329,6 +3317,11 @@
 				type: "item"
 				item: "pamhc2foodextended:blackberryjellytoastitem"
 			}]
+			rewards: [{
+				id: "35AD704F5A8C1A5F"
+				type: "item"
+				item: "pamhc2foodextended:blackberryjellytoastitem"
+			}]
 		}
 		{
 			x: 7.0d
@@ -2337,6 +3330,11 @@
 			id: "68438631747FE96B"
 			tasks: [{
 				id: "0163EE4AD9C6CED0"
+				type: "item"
+				item: "pamhc2foodextended:blueberryjellytoastitem"
+			}]
+			rewards: [{
+				id: "42E5558A10369F0B"
 				type: "item"
 				item: "pamhc2foodextended:blueberryjellytoastitem"
 			}]
@@ -2351,6 +3349,11 @@
 				type: "item"
 				item: "pamhc2foodextended:cactusfruitjellytoastitem"
 			}]
+			rewards: [{
+				id: "705F1DA234963DDC"
+				type: "item"
+				item: "pamhc2foodextended:cactusfruitjellytoastitem"
+			}]
 		}
 		{
 			x: 9.0d
@@ -2359,6 +3362,11 @@
 			id: "50F73673A0BA4D36"
 			tasks: [{
 				id: "4407091DFCE62137"
+				type: "item"
+				item: "pamhc2foodextended:candleberryjellytoastitem"
+			}]
+			rewards: [{
+				id: "65EBE9537F0E866A"
 				type: "item"
 				item: "pamhc2foodextended:candleberryjellytoastitem"
 			}]
@@ -2373,6 +3381,11 @@
 				type: "item"
 				item: "pamhc2foodextended:cranberryjellytoastitem"
 			}]
+			rewards: [{
+				id: "26FD4092B36D699E"
+				type: "item"
+				item: "pamhc2foodextended:cranberryjellytoastitem"
+			}]
 		}
 		{
 			x: 11.0d
@@ -2381,6 +3394,11 @@
 			id: "75CFB7F9C546B511"
 			tasks: [{
 				id: "2234DB7ED406B9D7"
+				type: "item"
+				item: "pamhc2foodextended:elderberryjellytoastitem"
+			}]
+			rewards: [{
+				id: "50F0E03E6A92CB62"
 				type: "item"
 				item: "pamhc2foodextended:elderberryjellytoastitem"
 			}]
@@ -2395,6 +3413,11 @@
 				type: "item"
 				item: "pamhc2foodextended:huckleberryjellytoastitem"
 			}]
+			rewards: [{
+				id: "036B598E8629EAC9"
+				type: "item"
+				item: "pamhc2foodextended:huckleberryjellytoastitem"
+			}]
 		}
 		{
 			x: 11.0d
@@ -2403,6 +3426,11 @@
 			id: "6E233CD08604D6BE"
 			tasks: [{
 				id: "52C7D82C852715D2"
+				type: "item"
+				item: "pamhc2foodextended:juniperberryjellytoastitem"
+			}]
+			rewards: [{
+				id: "17B222D2AD47D307"
 				type: "item"
 				item: "pamhc2foodextended:juniperberryjellytoastitem"
 			}]
@@ -2417,6 +3445,11 @@
 				type: "item"
 				item: "pamhc2foodextended:mulberryjellytoastitem"
 			}]
+			rewards: [{
+				id: "3063CCEF5BD2BF3F"
+				type: "item"
+				item: "pamhc2foodextended:mulberryjellytoastitem"
+			}]
 		}
 		{
 			x: 6.0d
@@ -2425,6 +3458,11 @@
 			id: "37500B54ED9373C2"
 			tasks: [{
 				id: "5F77C489FD7EDE98"
+				type: "item"
+				item: "pamhc2foodextended:strawberryjellytoastitem"
+			}]
+			rewards: [{
+				id: "2E3D60136CA18AFF"
 				type: "item"
 				item: "pamhc2foodextended:strawberryjellytoastitem"
 			}]
@@ -2439,6 +3477,11 @@
 				type: "item"
 				item: "pamhc2foodextended:raspberryjellytoastitem"
 			}]
+			rewards: [{
+				id: "723A6054C5095A8B"
+				type: "item"
+				item: "pamhc2foodextended:raspberryjellytoastitem"
+			}]
 		}
 		{
 			x: 6.0d
@@ -2447,6 +3490,11 @@
 			id: "4113082CE9A93DD8"
 			tasks: [{
 				id: "7C278DBA1E1C8D76"
+				type: "item"
+				item: "pamhc2foodextended:cantaloupejellytoastitem"
+			}]
+			rewards: [{
+				id: "270050DD76163B56"
 				type: "item"
 				item: "pamhc2foodextended:cantaloupejellytoastitem"
 			}]
@@ -2461,6 +3509,11 @@
 				type: "item"
 				item: "pamhc2foodextended:grapejellytoastitem"
 			}]
+			rewards: [{
+				id: "50AD74494B12CE2D"
+				type: "item"
+				item: "pamhc2foodextended:grapejellytoastitem"
+			}]
 		}
 		{
 			x: 6.0d
@@ -2469,6 +3522,11 @@
 			id: "4F618D27D4A27997"
 			tasks: [{
 				id: "21BEA45811A210F4"
+				type: "item"
+				item: "pamhc2foodextended:greengrapejellytoastitem"
+			}]
+			rewards: [{
+				id: "30263E1D58A79382"
 				type: "item"
 				item: "pamhc2foodextended:greengrapejellytoastitem"
 			}]
@@ -2483,6 +3541,11 @@
 				type: "item"
 				item: "pamhc2foodextended:kiwijellytoastitem"
 			}]
+			rewards: [{
+				id: "0CFD3DE3697150F5"
+				type: "item"
+				item: "pamhc2foodextended:kiwijellytoastitem"
+			}]
 		}
 		{
 			x: 8.0d
@@ -2491,6 +3554,11 @@
 			id: "2199D23C55B5EAD4"
 			tasks: [{
 				id: "68A55DF6E82572F8"
+				type: "item"
+				item: "pamhc2foodextended:pineapplejellytoastitem"
+			}]
+			rewards: [{
+				id: "7D6A5C5B881D8672"
 				type: "item"
 				item: "pamhc2foodextended:pineapplejellytoastitem"
 			}]
@@ -2505,6 +3573,11 @@
 				type: "item"
 				item: "pamhc2foodextended:cherryjellytoastitem"
 			}]
+			rewards: [{
+				id: "770A7318807D8398"
+				type: "item"
+				item: "pamhc2foodextended:cherryjellytoastitem"
+			}]
 		}
 		{
 			x: 10.0d
@@ -2513,6 +3586,11 @@
 			id: "27A2C07EE9AC78C1"
 			tasks: [{
 				id: "2A24A3AA5348F294"
+				type: "item"
+				item: "pamhc2foodextended:orangejellytoastitem"
+			}]
+			rewards: [{
+				id: "656673D49B712CF6"
 				type: "item"
 				item: "pamhc2foodextended:orangejellytoastitem"
 			}]
@@ -2527,6 +3605,11 @@
 				type: "item"
 				item: "pamhc2foodextended:pearjellytoastitem"
 			}]
+			rewards: [{
+				id: "293FCB2EEF54FBD1"
+				type: "item"
+				item: "pamhc2foodextended:pearjellytoastitem"
+			}]
 		}
 		{
 			x: 6.0d
@@ -2535,6 +3618,11 @@
 			id: "647EE476DEF1D853"
 			tasks: [{
 				id: "355335922B0235A7"
+				type: "item"
+				item: "pamhc2foodextended:peachjellytoastitem"
+			}]
+			rewards: [{
+				id: "5D53CADCD983FDE4"
 				type: "item"
 				item: "pamhc2foodextended:peachjellytoastitem"
 			}]
@@ -2549,6 +3637,11 @@
 				type: "item"
 				item: "pamhc2foodextended:plumjellytoastitem"
 			}]
+			rewards: [{
+				id: "647252D5448E0E75"
+				type: "item"
+				item: "pamhc2foodextended:plumjellytoastitem"
+			}]
 		}
 		{
 			x: 8.0d
@@ -2557,6 +3650,11 @@
 			id: "41DCBD29F543E728"
 			tasks: [{
 				id: "47E6A4AE3481A3D0"
+				type: "item"
+				item: "pamhc2foodextended:pawpawjellytoastitem"
+			}]
+			rewards: [{
+				id: "0E5A415655EF7B55"
 				type: "item"
 				item: "pamhc2foodextended:pawpawjellytoastitem"
 			}]
@@ -2571,6 +3669,11 @@
 				type: "item"
 				item: "pamhc2foodextended:soursopjellytoastitem"
 			}]
+			rewards: [{
+				id: "5C4A465696E5BF21"
+				type: "item"
+				item: "pamhc2foodextended:soursopjellytoastitem"
+			}]
 		}
 		{
 			x: 10.0d
@@ -2579,6 +3682,11 @@
 			id: "554C0E18D197933D"
 			tasks: [{
 				id: "5DD8CC4B3E88076F"
+				type: "item"
+				item: "pamhc2foodextended:apricotjellytoastitem"
+			}]
+			rewards: [{
+				id: "62DFD74B5E0BE251"
 				type: "item"
 				item: "pamhc2foodextended:apricotjellytoastitem"
 			}]
@@ -2593,21 +3701,15 @@
 				type: "item"
 				item: "pamhc2foodextended:bananajellytoastitem"
 			}]
-		}
-		{
-			x: 12.0d
-			y: -7.5d
-			dependencies: ["3805B08C81BEA8A0"]
-			id: "434023ACB94127EC"
-			tasks: [{
-				id: "498C998570744394"
+			rewards: [{
+				id: "02FFB997BD92CD3E"
 				type: "item"
 				item: "pamhc2foodextended:bananajellytoastitem"
 			}]
 		}
 		{
 			x: 12.0d
-			y: -6.5d
+			y: -6.0d
 			dependencies: ["3805B08C81BEA8A0"]
 			id: "765A985026605797"
 			tasks: [{
@@ -2615,10 +3717,15 @@
 				type: "item"
 				item: "pamhc2foodextended:datejellytoastitem"
 			}]
+			rewards: [{
+				id: "5A0FD44AB66EAAF3"
+				type: "item"
+				item: "pamhc2foodextended:datejellytoastitem"
+			}]
 		}
 		{
 			x: 12.0d
-			y: -5.5d
+			y: -5.0d
 			dependencies: ["3805B08C81BEA8A0"]
 			id: "1527E83623499754"
 			tasks: [{
@@ -2626,10 +3733,15 @@
 				type: "item"
 				item: "pamhc2foodextended:dragonfruitjellytoastitem"
 			}]
+			rewards: [{
+				id: "2FC34B50A421BEA5"
+				type: "item"
+				item: "pamhc2foodextended:dragonfruitjellytoastitem"
+			}]
 		}
 		{
-			x: 12.0d
-			y: -4.5d
+			x: 7.0d
+			y: -6.5d
 			dependencies: ["3805B08C81BEA8A0"]
 			id: "4DC32BFCED32F76F"
 			tasks: [{
@@ -2637,10 +3749,15 @@
 				type: "item"
 				item: "pamhc2foodextended:figjellytoastitem"
 			}]
+			rewards: [{
+				id: "51AAF135F9F78000"
+				type: "item"
+				item: "pamhc2foodextended:figjellytoastitem"
+			}]
 		}
 		{
 			x: 12.0d
-			y: -11.5d
+			y: -11.0d
 			dependencies: ["3805B08C81BEA8A0"]
 			id: "6BC000808AA022E7"
 			tasks: [{
@@ -2648,14 +3765,24 @@
 				type: "item"
 				item: "pamhc2foodextended:grapefruitjellytoastitem"
 			}]
+			rewards: [{
+				id: "6A3D6DD6C5836401"
+				type: "item"
+				item: "pamhc2foodextended:grapefruitjellytoastitem"
+			}]
 		}
 		{
 			x: 12.0d
-			y: -10.5d
+			y: -10.0d
 			dependencies: ["3805B08C81BEA8A0"]
 			id: "6EB6ECAA8F943B59"
 			tasks: [{
 				id: "73ABE0FA7A713CB3"
+				type: "item"
+				item: "pamhc2foodextended:mangojellytoastitem"
+			}]
+			rewards: [{
+				id: "13EF5187DD7A4224"
 				type: "item"
 				item: "pamhc2foodextended:mangojellytoastitem"
 			}]
@@ -2670,6 +3797,11 @@
 				type: "item"
 				item: "pamhc2foodextended:papayajellytoastitem"
 			}]
+			rewards: [{
+				id: "73BDF7A108A10D45"
+				type: "item"
+				item: "pamhc2foodextended:papayajellytoastitem"
+			}]
 		}
 		{
 			x: 7.0d
@@ -2678,6 +3810,11 @@
 			id: "5CD66C5683DCEF25"
 			tasks: [{
 				id: "292230129807872D"
+				type: "item"
+				item: "pamhc2foodextended:persimmonjellytoastitem"
+			}]
+			rewards: [{
+				id: "5DFD68E779F9E70E"
 				type: "item"
 				item: "pamhc2foodextended:persimmonjellytoastitem"
 			}]
@@ -2692,6 +3829,11 @@
 				type: "item"
 				item: "pamhc2foodextended:pomegranatejellytoastitem"
 			}]
+			rewards: [{
+				id: "5CF84B6DC3208D9D"
+				type: "item"
+				item: "pamhc2foodextended:pomegranatejellytoastitem"
+			}]
 		}
 		{
 			x: 9.0d
@@ -2700,6 +3842,11 @@
 			id: "27E7D53BD5754293"
 			tasks: [{
 				id: "512A569E47C36FBF"
+				type: "item"
+				item: "pamhc2foodextended:starfruitjellytoastitem"
+			}]
+			rewards: [{
+				id: "7737AF77DC52AE06"
 				type: "item"
 				item: "pamhc2foodextended:starfruitjellytoastitem"
 			}]
@@ -2714,6 +3861,11 @@
 				type: "item"
 				item: "pamhc2foodextended:breadfruitjellytoastitem"
 			}]
+			rewards: [{
+				id: "2ECC509621F6DA54"
+				type: "item"
+				item: "pamhc2foodextended:breadfruitjellytoastitem"
+			}]
 		}
 		{
 			x: 11.0d
@@ -2725,10 +3877,15 @@
 				type: "item"
 				item: "pamhc2foodextended:jackfruitjellytoastitem"
 			}]
+			rewards: [{
+				id: "4ACB1A3266B7D0E5"
+				type: "item"
+				item: "pamhc2foodextended:jackfruitjellytoastitem"
+			}]
 		}
 		{
 			x: 12.0d
-			y: -8.5d
+			y: -8.0d
 			dependencies: ["3805B08C81BEA8A0"]
 			id: "3A0A920E95A92B02"
 			tasks: [{
@@ -2736,14 +3893,24 @@
 				type: "item"
 				item: "pamhc2foodextended:guavajellytoastitem"
 			}]
+			rewards: [{
+				id: "493F8907408A8D48"
+				type: "item"
+				item: "pamhc2foodextended:guavajellytoastitem"
+			}]
 		}
 		{
 			x: 12.0d
-			y: -9.5d
+			y: -9.0d
 			dependencies: ["3805B08C81BEA8A0"]
 			id: "588F302F9108476A"
 			tasks: [{
 				id: "0448586FB1A5C52F"
+				type: "item"
+				item: "pamhc2foodextended:lycheejellytoastitem"
+			}]
+			rewards: [{
+				id: "131C67762B96C0D8"
 				type: "item"
 				item: "pamhc2foodextended:lycheejellytoastitem"
 			}]
@@ -2758,6 +3925,11 @@
 				type: "item"
 				item: "pamhc2foodextended:passionfruitjellytoastitem"
 			}]
+			rewards: [{
+				id: "4C09A01FC856E2D7"
+				type: "item"
+				item: "pamhc2foodextended:passionfruitjellytoastitem"
+			}]
 		}
 		{
 			x: 10.0d
@@ -2766,6 +3938,11 @@
 			id: "04F90F7CE8372F4A"
 			tasks: [{
 				id: "0D50C04DD7C8F7C7"
+				type: "item"
+				item: "pamhc2foodextended:rambutanjellytoastitem"
+			}]
+			rewards: [{
+				id: "04BC07525A9944A6"
 				type: "item"
 				item: "pamhc2foodextended:rambutanjellytoastitem"
 			}]
@@ -2780,6 +3957,11 @@
 				type: "item"
 				item: "pamhc2foodextended:tamarindjellytoastitem"
 			}]
+			rewards: [{
+				id: "52AD9CD9851A1D70"
+				type: "item"
+				item: "pamhc2foodextended:tamarindjellytoastitem"
+			}]
 		}
 		{
 			x: 8.0d
@@ -2788,6 +3970,11 @@
 			id: "3D449AC030D52958"
 			tasks: [{
 				id: "7470DE656745EE54"
+				type: "item"
+				item: "pamhc2foodextended:gooseberryjellytoastitem"
+			}]
+			rewards: [{
+				id: "4949A5A3DF49DC51"
 				type: "item"
 				item: "pamhc2foodextended:gooseberryjellytoastitem"
 			}]
@@ -2802,6 +3989,11 @@
 				type: "item"
 				item: "pamhc2foodextended:durianjellytoastitem"
 			}]
+			rewards: [{
+				id: "450D88B8C57F786C"
+				type: "item"
+				item: "pamhc2foodextended:durianjellytoastitem"
+			}]
 		}
 		{
 			x: 6.0d
@@ -2813,14 +4005,24 @@
 				type: "item"
 				item: "pamhc2foodextended:lemonjellytoastitem"
 			}]
+			rewards: [{
+				id: "3B2298C3E64CADC5"
+				type: "item"
+				item: "pamhc2foodextended:lemonjellytoastitem"
+			}]
 		}
 		{
-			x: 9.0d
-			y: -12.5d
+			x: 12.0d
+			y: -7.0d
 			dependencies: ["3805B08C81BEA8A0"]
 			id: "3582ED079FF66C3E"
 			tasks: [{
 				id: "74C0C7B1F75492C0"
+				type: "item"
+				item: "pamhc2foodextended:limejellytoastitem"
+			}]
+			rewards: [{
+				id: "5D07172042BE48AA"
 				type: "item"
 				item: "pamhc2foodextended:limejellytoastitem"
 			}]
@@ -2848,6 +4050,11 @@
 				type: "item"
 				item: "pamhc2foodcore:applesmoothieitem"
 			}]
+			rewards: [{
+				id: "39276AE9CEC49B05"
+				type: "item"
+				item: "pamhc2foodcore:applesmoothieitem"
+			}]
 		}
 		{
 			x: -0.5d
@@ -2856,6 +4063,11 @@
 			id: "5233C0A293B8B025"
 			tasks: [{
 				id: "2B9DBBA8EBC4C339"
+				type: "item"
+				item: "pamhc2foodcore:melonsmoothieitem"
+			}]
+			rewards: [{
+				id: "479C898BB426D6A7"
 				type: "item"
 				item: "pamhc2foodcore:melonsmoothieitem"
 			}]
@@ -2870,6 +4082,11 @@
 				type: "item"
 				item: "pamhc2foodcore:sweetberrysmoothieitem"
 			}]
+			rewards: [{
+				id: "437B9E2D902AF8DD"
+				type: "item"
+				item: "pamhc2foodcore:sweetberrysmoothieitem"
+			}]
 		}
 		{
 			x: 1.5d
@@ -2878,6 +4095,11 @@
 			id: "753BAE8B9F89DEE5"
 			tasks: [{
 				id: "5CD8D2568C9D4C15"
+				type: "item"
+				item: "pamhc2foodextended:blueberrysmoothieitem"
+			}]
+			rewards: [{
+				id: "0129BDFB830A59A4"
 				type: "item"
 				item: "pamhc2foodextended:blueberrysmoothieitem"
 			}]
@@ -2892,6 +4114,11 @@
 				type: "item"
 				item: "pamhc2foodextended:blackberrysmoothieitem"
 			}]
+			rewards: [{
+				id: "5E0CC88699014E0E"
+				type: "item"
+				item: "pamhc2foodextended:blackberrysmoothieitem"
+			}]
 		}
 		{
 			x: -2.5d
@@ -2900,6 +4127,11 @@
 			id: "4DFBAFA5B87FE003"
 			tasks: [{
 				id: "6EC66DAC8017DF93"
+				type: "item"
+				item: "pamhc2foodextended:cactusfruitsmoothieitem"
+			}]
+			rewards: [{
+				id: "6E3A8752BB6E75E3"
 				type: "item"
 				item: "pamhc2foodextended:cactusfruitsmoothieitem"
 			}]
@@ -2914,6 +4146,11 @@
 				type: "item"
 				item: "pamhc2foodextended:candleberrysmoothieitem"
 			}]
+			rewards: [{
+				id: "22B9DA9C9C289FC6"
+				type: "item"
+				item: "pamhc2foodextended:candleberrysmoothieitem"
+			}]
 		}
 		{
 			x: -0.5d
@@ -2922,6 +4159,11 @@
 			id: "786DAAD3172E6460"
 			tasks: [{
 				id: "732E1EB025182A16"
+				type: "item"
+				item: "pamhc2foodextended:cranberrysmoothieitem"
+			}]
+			rewards: [{
+				id: "23ED422196ADC3DB"
 				type: "item"
 				item: "pamhc2foodextended:cranberrysmoothieitem"
 			}]
@@ -2936,6 +4178,11 @@
 				type: "item"
 				item: "pamhc2foodextended:elderberrysmoothieitem"
 			}]
+			rewards: [{
+				id: "6EBE48DA7FE104E0"
+				type: "item"
+				item: "pamhc2foodextended:elderberrysmoothieitem"
+			}]
 		}
 		{
 			x: 1.5d
@@ -2944,6 +4191,11 @@
 			id: "3322802FF9B46F25"
 			tasks: [{
 				id: "1616AAF6C351C318"
+				type: "item"
+				item: "pamhc2foodextended:huckleberrysmoothieitem"
+			}]
+			rewards: [{
+				id: "75B11D2FDDE75D2D"
 				type: "item"
 				item: "pamhc2foodextended:huckleberrysmoothieitem"
 			}]
@@ -2958,6 +4210,11 @@
 				type: "item"
 				item: "pamhc2foodextended:juniperberrysmoothieitem"
 			}]
+			rewards: [{
+				id: "6F22B1E3756BC1FC"
+				type: "item"
+				item: "pamhc2foodextended:juniperberrysmoothieitem"
+			}]
 		}
 		{
 			x: -1.5d
@@ -2966,6 +4223,11 @@
 			id: "6B9608128CD411BC"
 			tasks: [{
 				id: "2B372B654067B7E7"
+				type: "item"
+				item: "pamhc2foodextended:raspberrysmoothieitem"
+			}]
+			rewards: [{
+				id: "2ED663324810F959"
 				type: "item"
 				item: "pamhc2foodextended:raspberrysmoothieitem"
 			}]
@@ -2980,6 +4242,11 @@
 				type: "item"
 				item: "pamhc2foodextended:mulberrysmoothieitem"
 			}]
+			rewards: [{
+				id: "442E3D5EF08653E3"
+				type: "item"
+				item: "pamhc2foodextended:mulberrysmoothieitem"
+			}]
 		}
 		{
 			x: 0.5d
@@ -2988,6 +4255,11 @@
 			id: "18614EF29DCD772B"
 			tasks: [{
 				id: "5E2309AB5360462B"
+				type: "item"
+				item: "pamhc2foodextended:strawberrysmoothieitem"
+			}]
+			rewards: [{
+				id: "6A23159F1D10BB79"
 				type: "item"
 				item: "pamhc2foodextended:strawberrysmoothieitem"
 			}]
@@ -3002,6 +4274,11 @@
 				type: "item"
 				item: "pamhc2foodextended:cantaloupesmoothieitem"
 			}]
+			rewards: [{
+				id: "09B84F8FFFE80CE6"
+				type: "item"
+				item: "pamhc2foodextended:cantaloupesmoothieitem"
+			}]
 		}
 		{
 			x: -2.5d
@@ -3010,6 +4287,11 @@
 			id: "7A908D54B69DD35D"
 			tasks: [{
 				id: "2FB6BDB323A065E4"
+				type: "item"
+				item: "pamhc2foodextended:grapesmoothieitem"
+			}]
+			rewards: [{
+				id: "74F48FF5B5E7B383"
 				type: "item"
 				item: "pamhc2foodextended:grapesmoothieitem"
 			}]
@@ -3024,6 +4306,11 @@
 				type: "item"
 				item: "pamhc2foodextended:grapefruitsmoothieitem"
 			}]
+			rewards: [{
+				id: "0FEFC53FB42C414B"
+				type: "item"
+				item: "pamhc2foodextended:grapefruitsmoothieitem"
+			}]
 		}
 		{
 			x: -0.5d
@@ -3032,6 +4319,11 @@
 			id: "10E80E4B694BBC9D"
 			tasks: [{
 				id: "61A61E3B887D1D29"
+				type: "item"
+				item: "pamhc2foodextended:figsmoothieitem"
+			}]
+			rewards: [{
+				id: "1D5719ED0417981F"
 				type: "item"
 				item: "pamhc2foodextended:figsmoothieitem"
 			}]
@@ -3046,6 +4338,11 @@
 				type: "item"
 				item: "pamhc2foodextended:dragonfruitsmoothieitem"
 			}]
+			rewards: [{
+				id: "4D090B5D39773F8A"
+				type: "item"
+				item: "pamhc2foodextended:dragonfruitsmoothieitem"
+			}]
 		}
 		{
 			x: 1.5d
@@ -3054,6 +4351,11 @@
 			id: "222CF5A1FDF283FD"
 			tasks: [{
 				id: "746B7104543FB525"
+				type: "item"
+				item: "pamhc2foodextended:datesmoothieitem"
+			}]
+			rewards: [{
+				id: "6A0C5B278B444EAC"
 				type: "item"
 				item: "pamhc2foodextended:datesmoothieitem"
 			}]
@@ -3068,6 +4370,11 @@
 				type: "item"
 				item: "pamhc2foodextended:bananasmoothieitem"
 			}]
+			rewards: [{
+				id: "5066DBE19389856D"
+				type: "item"
+				item: "pamhc2foodextended:bananasmoothieitem"
+			}]
 		}
 		{
 			x: -1.5d
@@ -3076,6 +4383,11 @@
 			id: "081A7EC9981771BC"
 			tasks: [{
 				id: "636DE5D67B9D808C"
+				type: "item"
+				item: "pamhc2foodextended:apricotsmoothieitem"
+			}]
+			rewards: [{
+				id: "289FE75EF2603739"
 				type: "item"
 				item: "pamhc2foodextended:apricotsmoothieitem"
 			}]
@@ -3090,6 +4402,11 @@
 				type: "item"
 				item: "pamhc2foodextended:soursopsmoothieitem"
 			}]
+			rewards: [{
+				id: "1FE941BC3942F636"
+				type: "item"
+				item: "pamhc2foodextended:soursopsmoothieitem"
+			}]
 		}
 		{
 			x: 0.5d
@@ -3098,6 +4415,11 @@
 			id: "6265891A929B144C"
 			tasks: [{
 				id: "286A5E595A01314D"
+				type: "item"
+				item: "pamhc2foodextended:pawpawsmoothieitem"
+			}]
+			rewards: [{
+				id: "4293405C9C2D6C9A"
 				type: "item"
 				item: "pamhc2foodextended:pawpawsmoothieitem"
 			}]
@@ -3112,6 +4434,11 @@
 				type: "item"
 				item: "pamhc2foodextended:pearsmoothieitem"
 			}]
+			rewards: [{
+				id: "7BEA164A59533077"
+				type: "item"
+				item: "pamhc2foodextended:pearsmoothieitem"
+			}]
 		}
 		{
 			x: 1.5d
@@ -3120,6 +4447,11 @@
 			id: "7C111FA326D1FA2C"
 			tasks: [{
 				id: "68586849546F3B04"
+				type: "item"
+				item: "pamhc2foodextended:plumsmoothieitem"
+			}]
+			rewards: [{
+				id: "1D67A69BA14C9929"
 				type: "item"
 				item: "pamhc2foodextended:plumsmoothieitem"
 			}]
@@ -3134,6 +4466,11 @@
 				type: "item"
 				item: "pamhc2foodextended:peachsmoothieitem"
 			}]
+			rewards: [{
+				id: "4BEFB326D8046C12"
+				type: "item"
+				item: "pamhc2foodextended:peachsmoothieitem"
+			}]
 		}
 		{
 			x: -0.5d
@@ -3142,6 +4479,11 @@
 			id: "1252CE5EC835FC10"
 			tasks: [{
 				id: "00EE7E3C04718F8A"
+				type: "item"
+				item: "pamhc2foodextended:orangesmoothieitem"
+			}]
+			rewards: [{
+				id: "52AAEA528E7C02F6"
 				type: "item"
 				item: "pamhc2foodextended:orangesmoothieitem"
 			}]
@@ -3156,6 +4498,11 @@
 				type: "item"
 				item: "pamhc2foodextended:cherrysmoothieitem"
 			}]
+			rewards: [{
+				id: "4CB6B869251F12EB"
+				type: "item"
+				item: "pamhc2foodextended:cherrysmoothieitem"
+			}]
 		}
 		{
 			x: 1.5d
@@ -3164,6 +4511,11 @@
 			id: "39E2BF8A4FA73F97"
 			tasks: [{
 				id: "030867847F19DBE9"
+				type: "item"
+				item: "pamhc2foodextended:pineapplesmoothieitem"
+			}]
+			rewards: [{
+				id: "5A3A38CA28684522"
 				type: "item"
 				item: "pamhc2foodextended:pineapplesmoothieitem"
 			}]
@@ -3178,6 +4530,11 @@
 				type: "item"
 				item: "pamhc2foodextended:kiwismoothieitem"
 			}]
+			rewards: [{
+				id: "1A000DA4A83CB822"
+				type: "item"
+				item: "pamhc2foodextended:kiwismoothieitem"
+			}]
 		}
 		{
 			x: 2.5d
@@ -3186,6 +4543,11 @@
 			id: "20838644152EC91B"
 			tasks: [{
 				id: "36DE01F9D9012ECA"
+				type: "item"
+				item: "pamhc2foodextended:greengrapesmoothieitem"
+			}]
+			rewards: [{
+				id: "2A837A0FD643A0B2"
 				type: "item"
 				item: "pamhc2foodextended:greengrapesmoothieitem"
 			}]
@@ -3200,6 +4562,11 @@
 				type: "item"
 				item: "pamhc2foodextended:mangosmoothieitem"
 			}]
+			rewards: [{
+				id: "43E1A260FF9DC762"
+				type: "item"
+				item: "pamhc2foodextended:mangosmoothieitem"
+			}]
 		}
 		{
 			x: 2.5d
@@ -3208,6 +4575,11 @@
 			id: "6C503FCD47F2FC14"
 			tasks: [{
 				id: "6FC307862C600FF1"
+				type: "item"
+				item: "pamhc2foodextended:papayasmoothieitem"
+			}]
+			rewards: [{
+				id: "693B0C3531397C03"
 				type: "item"
 				item: "pamhc2foodextended:papayasmoothieitem"
 			}]
@@ -3222,6 +4594,11 @@
 				type: "item"
 				item: "pamhc2foodextended:persimmonsmoothieitem"
 			}]
+			rewards: [{
+				id: "038940E40F9C60D2"
+				type: "item"
+				item: "pamhc2foodextended:persimmonsmoothieitem"
+			}]
 		}
 		{
 			x: 2.5d
@@ -3230,6 +4607,11 @@
 			id: "660735876593DC22"
 			tasks: [{
 				id: "7F0A039C3E4207BD"
+				type: "item"
+				item: "pamhc2foodextended:pomegranatesmoothieitem"
+			}]
+			rewards: [{
+				id: "607A4EC7DA8D8155"
 				type: "item"
 				item: "pamhc2foodextended:pomegranatesmoothieitem"
 			}]
@@ -3257,6 +4639,11 @@
 				type: "item"
 				item: "pamhc2foodextended:starfruitsmoothieitem"
 			}]
+			rewards: [{
+				id: "48606069654F32A3"
+				type: "item"
+				item: "pamhc2foodextended:starfruitsmoothieitem"
+			}]
 		}
 		{
 			x: -1.5d
@@ -3265,6 +4652,11 @@
 			id: "4A31B5FD36736B5C"
 			tasks: [{
 				id: "0921DC4CD37D3167"
+				type: "item"
+				item: "pamhc2foodextended:breadfruitsmoothieitem"
+			}]
+			rewards: [{
+				id: "501883DAD3341114"
 				type: "item"
 				item: "pamhc2foodextended:breadfruitsmoothieitem"
 			}]
@@ -3279,6 +4671,11 @@
 				type: "item"
 				item: "pamhc2foodextended:jackfruitsmoothieitem"
 			}]
+			rewards: [{
+				id: "385D4E46FC941F1D"
+				type: "item"
+				item: "pamhc2foodextended:jackfruitsmoothieitem"
+			}]
 		}
 		{
 			x: 0.5d
@@ -3287,6 +4684,11 @@
 			id: "0C9EDD6ED536C5F3"
 			tasks: [{
 				id: "137B6B85634115C7"
+				type: "item"
+				item: "pamhc2foodextended:guavasmoothieitem"
+			}]
+			rewards: [{
+				id: "10E85A9961DA1D2B"
 				type: "item"
 				item: "pamhc2foodextended:guavasmoothieitem"
 			}]
@@ -3301,6 +4703,11 @@
 				type: "item"
 				item: "pamhc2foodextended:lycheesmoothieitem"
 			}]
+			rewards: [{
+				id: "1E6F1B61CD2918DD"
+				type: "item"
+				item: "pamhc2foodextended:lycheesmoothieitem"
+			}]
 		}
 		{
 			x: 2.5d
@@ -3309,6 +4716,11 @@
 			id: "1B00285157CC3709"
 			tasks: [{
 				id: "0CF10BD8B2556CCD"
+				type: "item"
+				item: "pamhc2foodextended:passionfruitsmoothieitem"
+			}]
+			rewards: [{
+				id: "30318A92AB7E05E6"
 				type: "item"
 				item: "pamhc2foodextended:passionfruitsmoothieitem"
 			}]
@@ -3323,6 +4735,11 @@
 				type: "item"
 				item: "pamhc2foodextended:rambutansmoothieitem"
 			}]
+			rewards: [{
+				id: "32B15D676DCB035E"
+				type: "item"
+				item: "pamhc2foodextended:rambutansmoothieitem"
+			}]
 		}
 		{
 			x: -1.5d
@@ -3331,6 +4748,11 @@
 			id: "4FFA03F264E58BF4"
 			tasks: [{
 				id: "3971138D06FC55DE"
+				type: "item"
+				item: "pamhc2foodextended:tamarindsmoothieitem"
+			}]
+			rewards: [{
+				id: "3BA9F5EEF0540662"
 				type: "item"
 				item: "pamhc2foodextended:tamarindsmoothieitem"
 			}]
@@ -3345,6 +4767,11 @@
 				type: "item"
 				item: "pamhc2foodextended:gooseberrysmoothieitem"
 			}]
+			rewards: [{
+				id: "5AEF2F016124C4CE"
+				type: "item"
+				item: "pamhc2foodextended:gooseberrysmoothieitem"
+			}]
 		}
 		{
 			x: 0.5d
@@ -3353,6 +4780,11 @@
 			id: "5F320F98CA46F734"
 			tasks: [{
 				id: "329FD2F5438450DF"
+				type: "item"
+				item: "pamhc2foodextended:duriansmoothieitem"
+			}]
+			rewards: [{
+				id: "5DDF3FC6EE667C15"
 				type: "item"
 				item: "pamhc2foodextended:duriansmoothieitem"
 			}]
@@ -3367,6 +4799,11 @@
 				type: "item"
 				item: "pamhc2foodextended:lemonsmoothieitem"
 			}]
+			rewards: [{
+				id: "687F32121E63F77E"
+				type: "item"
+				item: "pamhc2foodextended:lemonsmoothieitem"
+			}]
 		}
 		{
 			x: 2.5d
@@ -3375,6 +4812,11 @@
 			id: "74E0F051DD6260C6"
 			tasks: [{
 				id: "7996AFCEAF12608D"
+				type: "item"
+				item: "pamhc2foodextended:limesmoothieitem"
+			}]
+			rewards: [{
+				id: "38517163FAC562D7"
 				type: "item"
 				item: "pamhc2foodextended:limesmoothieitem"
 			}]
@@ -3389,6 +4831,11 @@
 				type: "item"
 				item: "pamhc2foodcore:smoresitem"
 			}]
+			rewards: [{
+				id: "7F7D03C67A327899"
+				type: "item"
+				item: "pamhc2foodcore:smoresitem"
+			}]
 		}
 		{
 			x: -9.5d
@@ -3397,6 +4844,11 @@
 			id: "1BE66A3D5C13DBF8"
 			tasks: [{
 				id: "7B90138A1FA4708A"
+				type: "item"
+				item: "pamhc2foodcore:trailmixitem"
+			}]
+			rewards: [{
+				id: "5E6FC042F99D16D9"
 				type: "item"
 				item: "pamhc2foodcore:trailmixitem"
 			}]
@@ -3411,6 +4863,11 @@
 				type: "item"
 				item: "pamhc2foodcore:crackeritem"
 			}]
+			rewards: [{
+				id: "37B2F48D363FF467"
+				type: "item"
+				item: "pamhc2foodcore:crackeritem"
+			}]
 		}
 		{
 			x: -13.0d
@@ -3419,6 +4876,11 @@
 			id: "227B25CFC2EE180D"
 			tasks: [{
 				id: "6BE6BE02B70BC9D1"
+				type: "item"
+				item: "pamhc2foodcore:softpretzelitem"
+			}]
+			rewards: [{
+				id: "2B2CBF6307ACC9B0"
 				type: "item"
 				item: "pamhc2foodcore:softpretzelitem"
 			}]
@@ -3433,6 +4895,11 @@
 				type: "item"
 				item: "pamhc2foodextended:rootbeerfloatitem"
 			}]
+			rewards: [{
+				id: "12BB1FD1F2C04527"
+				type: "item"
+				item: "pamhc2foodextended:rootbeerfloatitem"
+			}]
 		}
 		{
 			x: -13.0d
@@ -3444,6 +4911,11 @@
 				type: "item"
 				item: "pamhc2foodextended:fishtacoitem"
 			}]
+			rewards: [{
+				id: "025B74F6F22E0554"
+				type: "item"
+				item: "pamhc2foodextended:fishtacoitem"
+			}]
 		}
 		{
 			x: -13.0d
@@ -3452,6 +4924,11 @@
 			id: "4FF3895E8116C695"
 			tasks: [{
 				id: "2CA9FEFEB0F96B73"
+				type: "item"
+				item: "pamhc2foodextended:tacoitem"
+			}]
+			rewards: [{
+				id: "0D8132F2059C29F8"
 				type: "item"
 				item: "pamhc2foodextended:tacoitem"
 			}]
@@ -3482,6 +4959,11 @@
 				type: "item"
 				item: "pamhc2foodcore:fishandchipsitem"
 			}]
+			rewards: [{
+				id: "65DE1E4801C401C7"
+				type: "item"
+				item: "pamhc2foodcore:fishandchipsitem"
+			}]
 		}
 		{
 			x: 0.0d
@@ -3490,6 +4972,11 @@
 			id: "780C8BCB7CA1CBA6"
 			tasks: [{
 				id: "6AA9C11868246317"
+				type: "item"
+				item: "pamhc2foodcore:butteredbakedpotatoitem"
+			}]
+			rewards: [{
+				id: "243DEB95CBD42819"
 				type: "item"
 				item: "pamhc2foodcore:butteredbakedpotatoitem"
 			}]
@@ -3504,6 +4991,11 @@
 				type: "item"
 				item: "pamhc2foodcore:mashedpotatoesitem"
 			}]
+			rewards: [{
+				id: "1D42809E64394CF7"
+				type: "item"
+				item: "pamhc2foodcore:mashedpotatoesitem"
+			}]
 		}
 		{
 			x: 2.0d
@@ -3512,6 +5004,11 @@
 			id: "4F9C295DBC4D08AF"
 			tasks: [{
 				id: "45C298F42121F2AD"
+				type: "item"
+				item: "pamhc2foodextended:refriedbeansitem"
+			}]
+			rewards: [{
+				id: "484BD32532301A33"
 				type: "item"
 				item: "pamhc2foodextended:refriedbeansitem"
 			}]
@@ -3526,6 +5023,11 @@
 				type: "item"
 				item: "pamhc2foodcore:potatosoupitem"
 			}]
+			rewards: [{
+				id: "4C536CB07157285D"
+				type: "item"
+				item: "pamhc2foodcore:potatosoupitem"
+			}]
 		}
 		{
 			x: -1.0d
@@ -3534,6 +5036,11 @@
 			id: "0650122A8CE90BDC"
 			tasks: [{
 				id: "1DDA54D5EBC25684"
+				type: "item"
+				item: "pamhc2foodextended:spagettiitem"
+			}]
+			rewards: [{
+				id: "4C25B6D3D569B5AB"
 				type: "item"
 				item: "pamhc2foodextended:spagettiitem"
 			}]
@@ -3548,6 +5055,11 @@
 				type: "item"
 				item: "pamhc2foodextended:spaghettidinneritem"
 			}]
+			rewards: [{
+				id: "2F8D65EB23808F15"
+				type: "item"
+				item: "pamhc2foodextended:spaghettidinneritem"
+			}]
 		}
 		{
 			x: 1.0d
@@ -3556,6 +5068,11 @@
 			id: "52DDB6DC1FD2D96C"
 			tasks: [{
 				id: "26461FE4F4A16D6C"
+				type: "item"
+				item: "pamhc2foodextended:breadedporkchopitem"
+			}]
+			rewards: [{
+				id: "179C9CC30591FB9F"
 				type: "item"
 				item: "pamhc2foodextended:breadedporkchopitem"
 			}]
@@ -3570,6 +5087,11 @@
 				type: "item"
 				item: "pamhc2foodextended:broccolimacitem"
 			}]
+			rewards: [{
+				id: "5C8928D6A69C04A7"
+				type: "item"
+				item: "pamhc2foodextended:broccolimacitem"
+			}]
 		}
 		{
 			x: 3.0d
@@ -3578,6 +5100,11 @@
 			id: "631CFBB5C5466BC5"
 			tasks: [{
 				id: "6B8841FCF75F90FA"
+				type: "item"
+				item: "pamhc2foodcore:carrotsoupitem"
+			}]
+			rewards: [{
+				id: "3EA7429ACA4BA907"
 				type: "item"
 				item: "pamhc2foodcore:carrotsoupitem"
 			}]
@@ -3592,6 +5119,11 @@
 				type: "item"
 				item: "pamhc2foodcore:epicbaconitem"
 			}]
+			rewards: [{
+				id: "3B825101AF63FCE3"
+				type: "item"
+				item: "pamhc2foodcore:epicbaconitem"
+			}]
 		}
 		{
 			x: 0.0d
@@ -3600,6 +5132,11 @@
 			id: "7497A7909CC79158"
 			tasks: [{
 				id: "115C4A68F4A81595"
+				type: "item"
+				item: "pamhc2foodcore:pumpkinsoupitem"
+			}]
+			rewards: [{
+				id: "20890AFB880A9AE3"
 				type: "item"
 				item: "pamhc2foodcore:pumpkinsoupitem"
 			}]
@@ -3614,6 +5151,11 @@
 				type: "item"
 				item: "pamhc2foodcore:baconandeggsitem"
 			}]
+			rewards: [{
+				id: "1E2227EC6562EE93"
+				type: "item"
+				item: "pamhc2foodcore:baconandeggsitem"
+			}]
 		}
 		{
 			x: 2.0d
@@ -3622,6 +5164,11 @@
 			id: "237B8B85BB5EC75C"
 			tasks: [{
 				id: "68A3A67212261553"
+				type: "item"
+				item: "pamhc2foodcore:roastedsunflowerseedsitem"
+			}]
+			rewards: [{
+				id: "5EE4273059D8CE91"
 				type: "item"
 				item: "pamhc2foodcore:roastedsunflowerseedsitem"
 			}]
@@ -3636,6 +5183,11 @@
 				type: "item"
 				item: "pamhc2foodcore:stewitem"
 			}]
+			rewards: [{
+				id: "6283625EE397C668"
+				type: "item"
+				item: "pamhc2foodcore:stewitem"
+			}]
 		}
 		{
 			x: -1.0d
@@ -3644,6 +5196,11 @@
 			id: "04E73F191D10F78C"
 			tasks: [{
 				id: "3676A39F30BFC6B5"
+				type: "item"
+				item: "pamhc2foodcore:bakedvegetablemedlyitem"
+			}]
+			rewards: [{
+				id: "57738182F2023F67"
 				type: "item"
 				item: "pamhc2foodcore:bakedvegetablemedlyitem"
 			}]
@@ -3658,6 +5215,11 @@
 				type: "item"
 				item: "pamhc2foodextended:cookedtofabbititem"
 			}]
+			rewards: [{
+				id: "5118A8EF941E16E9"
+				type: "item"
+				item: "pamhc2foodextended:cookedtofabbititem"
+			}]
 		}
 		{
 			x: 1.0d
@@ -3666,6 +5228,11 @@
 			id: "4847AB11ED3C2510"
 			tasks: [{
 				id: "3FF0EDE828A0C144"
+				type: "item"
+				item: "pamhc2foodextended:cookedtofaconitem"
+			}]
+			rewards: [{
+				id: "23DDB6BE5930BAD4"
 				type: "item"
 				item: "pamhc2foodextended:cookedtofaconitem"
 			}]
@@ -3680,6 +5247,11 @@
 				type: "item"
 				item: "pamhc2foodextended:cookedtofeakitem"
 			}]
+			rewards: [{
+				id: "4C4A6E5805C920A7"
+				type: "item"
+				item: "pamhc2foodextended:cookedtofeakitem"
+			}]
 		}
 		{
 			x: 3.0d
@@ -3688,6 +5260,11 @@
 			id: "62E202C99F7346C7"
 			tasks: [{
 				id: "19940B2F4067C088"
+				type: "item"
+				item: "pamhc2foodextended:cookedtofickenitem"
+			}]
+			rewards: [{
+				id: "67D789996DC1F921"
 				type: "item"
 				item: "pamhc2foodextended:cookedtofickenitem"
 			}]
@@ -3702,6 +5279,11 @@
 				type: "item"
 				item: "pamhc2foodextended:cookedtofishitem"
 			}]
+			rewards: [{
+				id: "4ADCE74B497DA0EE"
+				type: "item"
+				item: "pamhc2foodextended:cookedtofishitem"
+			}]
 		}
 		{
 			x: 0.0d
@@ -3710,6 +5292,11 @@
 			id: "33FB67EE0553B669"
 			tasks: [{
 				id: "33805491526D384B"
+				type: "item"
+				item: "pamhc2foodextended:cookedtofuttonitem"
+			}]
+			rewards: [{
+				id: "4B6BADFBAD318BCD"
 				type: "item"
 				item: "pamhc2foodextended:cookedtofuttonitem"
 			}]
@@ -3724,6 +5311,11 @@
 				type: "item"
 				item: "pamhc2foodcore:fishsticksitem"
 			}]
+			rewards: [{
+				id: "1E31D5C02237A356"
+				type: "item"
+				item: "pamhc2foodcore:fishsticksitem"
+			}]
 		}
 		{
 			x: 2.0d
@@ -3732,6 +5324,11 @@
 			id: "3564B8F5D9D959CB"
 			tasks: [{
 				id: "18C9C957B197EBED"
+				type: "item"
+				item: "pamhc2foodextended:chimichangaitem"
+			}]
+			rewards: [{
+				id: "1C44DEA9C88193A7"
 				type: "item"
 				item: "pamhc2foodextended:chimichangaitem"
 			}]
@@ -3746,6 +5343,11 @@
 				type: "item"
 				item: "pamhc2foodextended:beansandriceitem"
 			}]
+			rewards: [{
+				id: "61B753058E8510C2"
+				type: "item"
+				item: "pamhc2foodextended:beansandriceitem"
+			}]
 		}
 		{
 			x: -1.0d
@@ -3754,6 +5356,11 @@
 			id: "0A95D16A41E9D047"
 			tasks: [{
 				id: "2EB52F642D34FC02"
+				type: "item"
+				item: "pamhc2foodextended:chipsandsalsaitem"
+			}]
+			rewards: [{
+				id: "50287C3C2DE88832"
 				type: "item"
 				item: "pamhc2foodextended:chipsandsalsaitem"
 			}]
@@ -3768,6 +5375,11 @@
 				type: "item"
 				item: "pamhc2foodextended:quesadillaitem"
 			}]
+			rewards: [{
+				id: "7509F9A0CE9AA673"
+				type: "item"
+				item: "pamhc2foodextended:quesadillaitem"
+			}]
 		}
 		{
 			x: 1.0d
@@ -3776,6 +5388,11 @@
 			id: "6CA09867FFD89F39"
 			tasks: [{
 				id: "10FDB4A1860F665B"
+				type: "item"
+				item: "pamhc2foodextended:deluxenachoesitem"
+			}]
+			rewards: [{
+				id: "1878BC55C00B94BF"
 				type: "item"
 				item: "pamhc2foodextended:deluxenachoesitem"
 			}]
@@ -3790,6 +5407,11 @@
 				type: "item"
 				item: "pamhc2foodextended:enchiladaitem"
 			}]
+			rewards: [{
+				id: "5B9C319DB2A78498"
+				type: "item"
+				item: "pamhc2foodextended:enchiladaitem"
+			}]
 		}
 		{
 			x: 3.0d
@@ -3798,6 +5420,11 @@
 			id: "23075F221D946E83"
 			tasks: [{
 				id: "1A9DB3046FC2B99A"
+				type: "item"
+				item: "pamhc2foodextended:fiestacornsaladitem"
+			}]
+			rewards: [{
+				id: "77912BE0F2FB1280"
 				type: "item"
 				item: "pamhc2foodextended:fiestacornsaladitem"
 			}]
@@ -3812,6 +5439,11 @@
 				type: "item"
 				item: "pamhc2foodextended:stuffedchilipeppersitem"
 			}]
+			rewards: [{
+				id: "62EF118F4B1E537D"
+				type: "item"
+				item: "pamhc2foodextended:stuffedchilipeppersitem"
+			}]
 		}
 		{
 			x: -2.0d
@@ -3820,6 +5452,11 @@
 			id: "64908F5E338F5509"
 			tasks: [{
 				id: "3BB619EEC3FEAB0C"
+				type: "item"
+				item: "pamhc2foodextended:garlicbreaditem"
+			}]
+			rewards: [{
+				id: "5D508431E60AFE49"
 				type: "item"
 				item: "pamhc2foodextended:garlicbreaditem"
 			}]
@@ -3834,6 +5471,11 @@
 				type: "item"
 				item: "pamhc2foodextended:garlicchickenitem"
 			}]
+			rewards: [{
+				id: "2E65C828F5ABC487"
+				type: "item"
+				item: "pamhc2foodextended:garlicchickenitem"
+			}]
 		}
 		{
 			x: -2.0d
@@ -3842,6 +5484,11 @@
 			id: "7B8E560B9D4BCACA"
 			tasks: [{
 				id: "63E758B49619CF37"
+				type: "item"
+				item: "pamhc2foodextended:nachoesitem"
+			}]
+			rewards: [{
+				id: "4B00A5934AE7464D"
 				type: "item"
 				item: "pamhc2foodextended:nachoesitem"
 			}]
@@ -3856,6 +5503,11 @@
 				type: "item"
 				item: "pamhc2foodextended:garlicmashedpotatoesitem"
 			}]
+			rewards: [{
+				id: "1D90C32A3E03581E"
+				type: "item"
+				item: "pamhc2foodextended:garlicmashedpotatoesitem"
+			}]
 		}
 		{
 			x: -2.0d
@@ -3864,6 +5516,11 @@
 			id: "416B9553CFFB2976"
 			tasks: [{
 				id: "1A3B3E15885798E7"
+				type: "item"
+				item: "pamhc2foodcore:glazedcarrotsitem"
+			}]
+			rewards: [{
+				id: "51CC3CEFE8BA5409"
 				type: "item"
 				item: "pamhc2foodcore:glazedcarrotsitem"
 			}]
@@ -3878,6 +5535,11 @@
 				type: "item"
 				item: "pamhc2foodextended:mcpamitem"
 			}]
+			rewards: [{
+				id: "0755A1495688422E"
+				type: "item"
+				item: "pamhc2foodextended:mcpamitem"
+			}]
 		}
 		{
 			x: -14.0d
@@ -3886,6 +5548,11 @@
 			id: "65B23BFCF06F00BA"
 			tasks: [{
 				id: "53218AA80847BBF5"
+				type: "item"
+				item: "pamhc2foodextended:cookoutmealitem"
+			}]
+			rewards: [{
+				id: "324CA6B36A50F410"
 				type: "item"
 				item: "pamhc2foodextended:cookoutmealitem"
 			}]
@@ -3900,6 +5567,11 @@
 				type: "item"
 				item: "pamhc2foodextended:bratwurstitem"
 			}]
+			rewards: [{
+				id: "0EBF3062690F4AF0"
+				type: "item"
+				item: "pamhc2foodextended:bratwurstitem"
+			}]
 		}
 		{
 			x: -3.0d
@@ -3908,6 +5580,11 @@
 			id: "584684F8C34A3509"
 			tasks: [{
 				id: "6A2A47B3393DE66A"
+				type: "item"
+				item: "pamhc2foodextended:chilidogitem"
+			}]
+			rewards: [{
+				id: "1B6A5F4636D00649"
 				type: "item"
 				item: "pamhc2foodextended:chilidogitem"
 			}]
@@ -3922,6 +5599,11 @@
 				type: "item"
 				item: "pamhc2foodextended:chickennoodlesoupitem"
 			}]
+			rewards: [{
+				id: "5BF806223113E040"
+				type: "item"
+				item: "pamhc2foodextended:chickennoodlesoupitem"
+			}]
 		}
 		{
 			x: -3.0d
@@ -3930,6 +5612,11 @@
 			id: "0438CEE35982596F"
 			tasks: [{
 				id: "3163BD6BC9101FA3"
+				type: "item"
+				item: "pamhc2foodextended:cinnamonappleoatmealitem"
+			}]
+			rewards: [{
+				id: "12D8620018753ADC"
 				type: "item"
 				item: "pamhc2foodextended:cinnamonappleoatmealitem"
 			}]
@@ -3944,6 +5631,11 @@
 				type: "item"
 				item: "pamhc2foodextended:coleslawitem"
 			}]
+			rewards: [{
+				id: "670E59825AEDB3AF"
+				type: "item"
+				item: "pamhc2foodextended:coleslawitem"
+			}]
 		}
 		{
 			x: -3.0d
@@ -3952,6 +5644,11 @@
 			id: "10A70CB7F7D1D74D"
 			tasks: [{
 				id: "12BF3044C8B06F75"
+				type: "item"
+				item: "pamhc2foodextended:breakfastburritoitem"
+			}]
+			rewards: [{
+				id: "069BDCF3DF02E217"
 				type: "item"
 				item: "pamhc2foodextended:breakfastburritoitem"
 			}]
@@ -3966,6 +5663,11 @@
 				type: "item"
 				item: "pamhc2foodextended:buttertartitem"
 			}]
+			rewards: [{
+				id: "1BF56CF1A333CA2C"
+				type: "item"
+				item: "pamhc2foodextended:buttertartitem"
+			}]
 		}
 		{
 			x: -3.0d
@@ -3974,6 +5676,11 @@
 			id: "06786A22C7EFDD80"
 			tasks: [{
 				id: "484235DAE9AC2AF9"
+				type: "item"
+				item: "pamhc2foodextended:californiarollitem"
+			}]
+			rewards: [{
+				id: "2C902413AE506B85"
 				type: "item"
 				item: "pamhc2foodextended:californiarollitem"
 			}]
@@ -3988,6 +5695,11 @@
 				type: "item"
 				item: "pamhc2foodextended:cantonesegreensitem"
 			}]
+			rewards: [{
+				id: "185992C60CB63B57"
+				type: "item"
+				item: "pamhc2foodextended:cantonesegreensitem"
+			}]
 		}
 		{
 			x: -1.0d
@@ -3996,6 +5708,11 @@
 			id: "41AB8ACFFEEE0D2F"
 			tasks: [{
 				id: "2BBB72E140DBB2F2"
+				type: "item"
+				item: "pamhc2foodextended:greenbeancasseroleitem"
+			}]
+			rewards: [{
+				id: "4F4E27F876010C8C"
 				type: "item"
 				item: "pamhc2foodextended:greenbeancasseroleitem"
 			}]
@@ -4010,6 +5727,11 @@
 				type: "item"
 				item: "pamhc2foodextended:loadedbakedpotatoitem"
 			}]
+			rewards: [{
+				id: "445473D1BDF96F75"
+				type: "item"
+				item: "pamhc2foodextended:loadedbakedpotatoitem"
+			}]
 		}
 		{
 			x: 1.0d
@@ -4018,6 +5740,11 @@
 			id: "08984D3F85911C46"
 			tasks: [{
 				id: "53205D6348ECFC74"
+				type: "item"
+				item: "pamhc2foodextended:potatoskinsitem"
+			}]
+			rewards: [{
+				id: "64529924408870A7"
 				type: "item"
 				item: "pamhc2foodextended:potatoskinsitem"
 			}]
@@ -4032,6 +5759,11 @@
 				type: "item"
 				item: "pamhc2foodextended:mozzerellasticksitem"
 			}]
+			rewards: [{
+				id: "4724BAB0560606A2"
+				type: "item"
+				item: "pamhc2foodextended:mozzerellasticksitem"
+			}]
 		}
 		{
 			x: 3.0d
@@ -4040,6 +5772,11 @@
 			id: "7C1121C366055A9E"
 			tasks: [{
 				id: "628E61080B4BC406"
+				type: "item"
+				item: "pamhc2foodextended:peachesandcreamoatmealitem"
+			}]
+			rewards: [{
+				id: "7B86B1C65069A050"
 				type: "item"
 				item: "pamhc2foodextended:peachesandcreamoatmealitem"
 			}]
@@ -4054,6 +5791,11 @@
 				type: "item"
 				item: "pamhc2foodextended:eggsaladitem"
 			}]
+			rewards: [{
+				id: "0C802E7C66DB0FFF"
+				type: "item"
+				item: "pamhc2foodextended:eggsaladitem"
+			}]
 		}
 		{
 			x: -4.0d
@@ -4062,6 +5804,11 @@
 			id: "45D2D11E9D7B0CD6"
 			tasks: [{
 				id: "3F88BAF6E65D7A3C"
+				type: "item"
+				item: "pamhc2foodextended:bbqchickenbiscuititem"
+			}]
+			rewards: [{
+				id: "062B0F8DA1571DB3"
 				type: "item"
 				item: "pamhc2foodextended:bbqchickenbiscuititem"
 			}]
@@ -4076,6 +5823,11 @@
 				type: "item"
 				item: "pamhc2foodextended:apricotglazedporkitem"
 			}]
+			rewards: [{
+				id: "36A59A9E4B92035C"
+				type: "item"
+				item: "pamhc2foodextended:apricotglazedporkitem"
+			}]
 		}
 		{
 			x: -4.0d
@@ -4084,6 +5836,11 @@
 			id: "08AF3DE30135E0A9"
 			tasks: [{
 				id: "5EA2FC2A1A8198AA"
+				type: "item"
+				item: "pamhc2foodextended:asparagusquicheitem"
+			}]
+			rewards: [{
+				id: "0285E9B4AC9C9FF6"
 				type: "item"
 				item: "pamhc2foodextended:asparagusquicheitem"
 			}]
@@ -4098,6 +5855,11 @@
 				type: "item"
 				item: "pamhc2foodextended:avocadoburritoitem"
 			}]
+			rewards: [{
+				id: "1616572908CD0800"
+				type: "item"
+				item: "pamhc2foodextended:avocadoburritoitem"
+			}]
 		}
 		{
 			x: -4.0d
@@ -4106,6 +5868,11 @@
 			id: "7815D7B3F95291F6"
 			tasks: [{
 				id: "064D5921AB090381"
+				type: "item"
+				item: "pamhc2foodextended:bakedalaskaitem"
+			}]
+			rewards: [{
+				id: "5232263EC467DDE5"
 				type: "item"
 				item: "pamhc2foodextended:bakedalaskaitem"
 			}]
@@ -4120,6 +5887,11 @@
 				type: "item"
 				item: "pamhc2foodextended:babaganoushitem"
 			}]
+			rewards: [{
+				id: "3E99B911D8449A3A"
+				type: "item"
+				item: "pamhc2foodextended:babaganoushitem"
+			}]
 		}
 		{
 			x: 3.0d
@@ -4128,6 +5900,11 @@
 			id: "4BFEB7C32731C2AA"
 			tasks: [{
 				id: "2B390F6FFA26410C"
+				type: "item"
+				item: "pamhc2foodextended:bakedhamitem"
+			}]
+			rewards: [{
+				id: "2666A8B74E4F18B2"
 				type: "item"
 				item: "pamhc2foodextended:bakedhamitem"
 			}]
@@ -4142,6 +5919,11 @@
 				type: "item"
 				item: "pamhc2foodextended:baklavaitem"
 			}]
+			rewards: [{
+				id: "10ABCB2567874C33"
+				type: "item"
+				item: "pamhc2foodextended:baklavaitem"
+			}]
 		}
 		{
 			x: 1.0d
@@ -4150,6 +5932,11 @@
 			id: "598963BF90AC9632"
 			tasks: [{
 				id: "02CA952035A99823"
+				type: "item"
+				item: "pamhc2foodextended:bibimbapitem"
+			}]
+			rewards: [{
+				id: "437170163CE06A39"
 				type: "item"
 				item: "pamhc2foodextended:bibimbapitem"
 			}]
@@ -4164,6 +5951,11 @@
 				type: "item"
 				item: "pamhc2foodextended:berryvinaigrettesaladitem"
 			}]
+			rewards: [{
+				id: "3FAEE593688AF481"
+				type: "item"
+				item: "pamhc2foodextended:berryvinaigrettesaladitem"
+			}]
 		}
 		{
 			x: -1.0d
@@ -4172,6 +5964,11 @@
 			id: "6E0D5026E08FF7F8"
 			tasks: [{
 				id: "339CE777A5221C32"
+				type: "item"
+				item: "pamhc2foodextended:battenbergitem"
+			}]
+			rewards: [{
+				id: "323C6685E6AA3E95"
 				type: "item"
 				item: "pamhc2foodextended:battenbergitem"
 			}]
@@ -4186,6 +5983,11 @@
 				type: "item"
 				item: "pamhc2foodextended:bbqjackfruititem"
 			}]
+			rewards: [{
+				id: "216DF543F76B7D92"
+				type: "item"
+				item: "pamhc2foodextended:bbqjackfruititem"
+			}]
 		}
 		{
 			x: -3.0d
@@ -4197,16 +5999,10 @@
 				type: "item"
 				item: "pamhc2foodextended:bentoboxitem"
 			}]
-		}
-		{
-			x: 4.0d
-			y: 11.0d
-			dependencies: ["486D752E708E00F9"]
-			id: "76A528D28BCB4FE7"
-			tasks: [{
-				id: "562B13D974AFAE54"
+			rewards: [{
+				id: "4DB7923CC1A334CD"
 				type: "item"
-				item: "pamhc2foodextended:beansontoastitem"
+				item: "pamhc2foodextended:bentoboxitem"
 			}]
 		}
 		{
@@ -4216,6 +6012,11 @@
 			id: "3FA5845909EF4923"
 			tasks: [{
 				id: "4EB03D7E96D7EADA"
+				type: "item"
+				item: "pamhc2foodextended:berrymeringuenestitem"
+			}]
+			rewards: [{
+				id: "611834DEE3AFD08C"
 				type: "item"
 				item: "pamhc2foodextended:berrymeringuenestitem"
 			}]
@@ -4230,6 +6031,11 @@
 				type: "item"
 				item: "pamhc2foodextended:batteredsausageitem"
 			}]
+			rewards: [{
+				id: "2F61F1B3515ACE76"
+				type: "item"
+				item: "pamhc2foodextended:batteredsausageitem"
+			}]
 		}
 		{
 			x: 4.0d
@@ -4238,6 +6044,11 @@
 			id: "10F4ED9D282B45ED"
 			tasks: [{
 				id: "2659DAC32CE76FC6"
+				type: "item"
+				item: "pamhc2foodextended:cornonthecobitem"
+			}]
+			rewards: [{
+				id: "4075C188EE1774CA"
 				type: "item"
 				item: "pamhc2foodextended:cornonthecobitem"
 			}]
@@ -4252,6 +6063,11 @@
 				type: "item"
 				item: "pamhc2foodextended:corndogitem"
 			}]
+			rewards: [{
+				id: "68A47F0850F86490"
+				type: "item"
+				item: "pamhc2foodextended:corndogitem"
+			}]
 		}
 		{
 			x: 4.0d
@@ -4260,6 +6076,11 @@
 			id: "64FCD0D1F48A9B1C"
 			tasks: [{
 				id: "113413A996C1486D"
+				type: "item"
+				item: "pamhc2foodextended:cantonesenoodlesitem"
+			}]
+			rewards: [{
+				id: "2AA5F14A0E4AF3C5"
 				type: "item"
 				item: "pamhc2foodextended:cantonesenoodlesitem"
 			}]
@@ -4274,6 +6095,11 @@
 				type: "item"
 				item: "pamhc2foodextended:ceasarsaladitem"
 			}]
+			rewards: [{
+				id: "11C53218385B97FB"
+				type: "item"
+				item: "pamhc2foodextended:ceasarsaladitem"
+			}]
 		}
 		{
 			x: 4.0d
@@ -4282,6 +6108,11 @@
 			id: "66615BCAE3D493D8"
 			tasks: [{
 				id: "618C97B3BA59EC86"
+				type: "item"
+				item: "pamhc2foodextended:cevicheitem"
+			}]
+			rewards: [{
+				id: "4887F775CD0BE3A6"
 				type: "item"
 				item: "pamhc2foodextended:cevicheitem"
 			}]
@@ -4296,6 +6127,11 @@
 				type: "item"
 				item: "pamhc2foodextended:charsiuitem"
 			}]
+			rewards: [{
+				id: "107F9191AA8510D7"
+				type: "item"
+				item: "pamhc2foodextended:charsiuitem"
+			}]
 		}
 		{
 			x: 2.0d
@@ -4304,6 +6140,11 @@
 			id: "3A80B21F463913CC"
 			tasks: [{
 				id: "4B1BD60C72518B37"
+				type: "item"
+				item: "pamhc2foodextended:cheesedanishitem"
+			}]
+			rewards: [{
+				id: "49C60208DBE7D6EA"
 				type: "item"
 				item: "pamhc2foodextended:cheesedanishitem"
 			}]
@@ -4318,6 +6159,11 @@
 				type: "item"
 				item: "pamhc2foodextended:cheeseontoastitem"
 			}]
+			rewards: [{
+				id: "4FD86FA2B0C03087"
+				type: "item"
+				item: "pamhc2foodextended:cheeseontoastitem"
+			}]
 		}
 		{
 			x: 0.0d
@@ -4326,6 +6172,11 @@
 			id: "70F091D71AC6B53F"
 			tasks: [{
 				id: "7CD9DBC117D7FD65"
+				type: "item"
+				item: "pamhc2foodextended:cheesesteakitem"
+			}]
+			rewards: [{
+				id: "5924F11524E5ABF9"
 				type: "item"
 				item: "pamhc2foodextended:cheesesteakitem"
 			}]
@@ -4340,6 +6191,11 @@
 				type: "item"
 				item: "pamhc2foodextended:chickenandwafflesitem"
 			}]
+			rewards: [{
+				id: "3E8C55AE2E26BE5E"
+				type: "item"
+				item: "pamhc2foodextended:chickenandwafflesitem"
+			}]
 		}
 		{
 			x: -2.0d
@@ -4348,6 +6204,11 @@
 			id: "27468689068F9D99"
 			tasks: [{
 				id: "063C1007FBD6DE71"
+				type: "item"
+				item: "pamhc2foodextended:chilipoppersitem"
+			}]
+			rewards: [{
+				id: "00DD2D427EA8C362"
 				type: "item"
 				item: "pamhc2foodextended:chilipoppersitem"
 			}]
@@ -4362,6 +6223,11 @@
 				type: "item"
 				item: "pamhc2foodextended:chickencelerycasseroleitem"
 			}]
+			rewards: [{
+				id: "2FCFFF4C6A5E6C38"
+				type: "item"
+				item: "pamhc2foodextended:chickencelerycasseroleitem"
+			}]
 		}
 		{
 			x: -4.0d
@@ -4370,6 +6236,11 @@
 			id: "71E56A14D4D209BD"
 			tasks: [{
 				id: "059900197C9F3F07"
+				type: "item"
+				item: "pamhc2foodextended:chickenchowmeinitem"
+			}]
+			rewards: [{
+				id: "22B5C7DA07502DBD"
 				type: "item"
 				item: "pamhc2foodextended:chickenchowmeinitem"
 			}]
@@ -4384,6 +6255,11 @@
 				type: "item"
 				item: "pamhc2foodextended:chickencordonbleuitem"
 			}]
+			rewards: [{
+				id: "650DECC752476F7F"
+				type: "item"
+				item: "pamhc2foodextended:chickencordonbleuitem"
+			}]
 		}
 		{
 			x: -4.0d
@@ -4392,6 +6268,11 @@
 			id: "4F27D82DC6EDC326"
 			tasks: [{
 				id: "6721C4F03263B0BA"
+				type: "item"
+				item: "pamhc2foodextended:chickendinneritem"
+			}]
+			rewards: [{
+				id: "10EFEDA1F6721A8A"
 				type: "item"
 				item: "pamhc2foodextended:chickendinneritem"
 			}]
@@ -4406,6 +6287,11 @@
 				type: "item"
 				item: "pamhc2foodextended:chickengumboitem"
 			}]
+			rewards: [{
+				id: "64D5F88606D9EE3C"
+				type: "item"
+				item: "pamhc2foodextended:chickengumboitem"
+			}]
 		}
 		{
 			x: -3.0d
@@ -4414,6 +6300,11 @@
 			id: "4E13F059DA6284F6"
 			tasks: [{
 				id: "295AE494E900978D"
+				type: "item"
+				item: "pamhc2foodextended:chickenparmasanitem"
+			}]
+			rewards: [{
+				id: "6D340FE4A4D7201A"
 				type: "item"
 				item: "pamhc2foodextended:chickenparmasanitem"
 			}]
@@ -4428,6 +6319,11 @@
 				type: "item"
 				item: "pamhc2foodextended:chickenbiscuititem"
 			}]
+			rewards: [{
+				id: "6430BFDCB4C823A9"
+				type: "item"
+				item: "pamhc2foodextended:chickenbiscuititem"
+			}]
 		}
 		{
 			x: -1.0d
@@ -4436,6 +6332,11 @@
 			id: "756C13969C786EF8"
 			tasks: [{
 				id: "5CED47C2ACC87B06"
+				type: "item"
+				item: "pamhc2foodextended:chikorollitem"
+			}]
+			rewards: [{
+				id: "5365F31182BC6EBF"
 				type: "item"
 				item: "pamhc2foodextended:chikorollitem"
 			}]
@@ -4450,6 +6351,11 @@
 				type: "item"
 				item: "pamhc2foodextended:cinnamonbreaditem"
 			}]
+			rewards: [{
+				id: "4C1C0217DF5F9EF5"
+				type: "item"
+				item: "pamhc2foodextended:cinnamonbreaditem"
+			}]
 		}
 		{
 			x: 1.0d
@@ -4458,6 +6364,11 @@
 			id: "0217ABECC3A0393B"
 			tasks: [{
 				id: "404CEA275027C0C6"
+				type: "item"
+				item: "pamhc2foodextended:citrussaladitem"
+			}]
+			rewards: [{
+				id: "71CA61AA465B08EF"
 				type: "item"
 				item: "pamhc2foodextended:citrussaladitem"
 			}]
@@ -4472,6 +6383,11 @@
 				type: "item"
 				item: "pamhc2foodextended:cornedbeefbreakfastitem"
 			}]
+			rewards: [{
+				id: "7001280344578839"
+				type: "item"
+				item: "pamhc2foodextended:cornedbeefbreakfastitem"
+			}]
 		}
 		{
 			x: 3.0d
@@ -4480,6 +6396,11 @@
 			id: "78DD85C01E5A6788"
 			tasks: [{
 				id: "4222124E66AC2615"
+				type: "item"
+				item: "pamhc2foodextended:cornedbeefhashitem"
+			}]
+			rewards: [{
+				id: "16E372235FBE9DAB"
 				type: "item"
 				item: "pamhc2foodextended:cornedbeefhashitem"
 			}]
@@ -4494,6 +6415,11 @@
 				type: "item"
 				item: "pamhc2foodextended:cornedbeefitem"
 			}]
+			rewards: [{
+				id: "319F0272DC342EEF"
+				type: "item"
+				item: "pamhc2foodextended:cornedbeefitem"
+			}]
 		}
 		{
 			x: -5.0d
@@ -4502,6 +6428,11 @@
 			id: "56C1D84FE9FC91AC"
 			tasks: [{
 				id: "569CF90262E5A19D"
+				type: "item"
+				item: "pamhc2foodextended:cornishpastyitem"
+			}]
+			rewards: [{
+				id: "5E2BAB004A5347E6"
 				type: "item"
 				item: "pamhc2foodextended:cornishpastyitem"
 			}]
@@ -4516,6 +6447,11 @@
 				type: "item"
 				item: "pamhc2foodextended:cottagepieitem"
 			}]
+			rewards: [{
+				id: "23FDC40651C9FC49"
+				type: "item"
+				item: "pamhc2foodextended:cottagepieitem"
+			}]
 		}
 		{
 			x: -5.0d
@@ -4524,6 +6460,11 @@
 			id: "1480E4E1AE42B3B8"
 			tasks: [{
 				id: "2EB225B659EC2EF4"
+				type: "item"
+				item: "pamhc2foodextended:crackersandcheeseitem"
+			}]
+			rewards: [{
+				id: "62A98B353E3D4E00"
 				type: "item"
 				item: "pamhc2foodextended:crackersandcheeseitem"
 			}]
@@ -4538,6 +6479,11 @@
 				type: "item"
 				item: "pamhc2foodextended:creamedbroccolisoupitem"
 			}]
+			rewards: [{
+				id: "2E618A3EC82FEB1B"
+				type: "item"
+				item: "pamhc2foodextended:creamedbroccolisoupitem"
+			}]
 		}
 		{
 			x: -5.0d
@@ -4546,6 +6492,11 @@
 			id: "5789A5BED8423F3F"
 			tasks: [{
 				id: "122AF86B764AFD3C"
+				type: "item"
+				item: "pamhc2foodextended:creamofavocadosoupitem"
+			}]
+			rewards: [{
+				id: "3686C7E107A56C0D"
 				type: "item"
 				item: "pamhc2foodextended:creamofavocadosoupitem"
 			}]
@@ -4560,6 +6511,11 @@
 				type: "item"
 				item: "pamhc2foodextended:custarditem"
 			}]
+			rewards: [{
+				id: "05D0E276B5B2B8C7"
+				type: "item"
+				item: "pamhc2foodextended:custarditem"
+			}]
 		}
 		{
 			x: -5.0d
@@ -4568,6 +6524,11 @@
 			id: "1DECAE60E2B15511"
 			tasks: [{
 				id: "64712EF3D17E9AE2"
+				type: "item"
+				item: "pamhc2foodextended:dangoitem"
+			}]
+			rewards: [{
+				id: "5D66112C1F3AF0FC"
 				type: "item"
 				item: "pamhc2foodextended:dangoitem"
 			}]
@@ -4582,6 +6543,11 @@
 				type: "item"
 				item: "pamhc2foodextended:deluxechickencurryitem"
 			}]
+			rewards: [{
+				id: "538D1562729EEDB2"
+				type: "item"
+				item: "pamhc2foodextended:deluxechickencurryitem"
+			}]
 		}
 		{
 			x: -5.0d
@@ -4590,6 +6556,11 @@
 			id: "460040444C1076CC"
 			tasks: [{
 				id: "1C22CD28F3299608"
+				type: "item"
+				item: "pamhc2foodextended:deviledeggitem"
+			}]
+			rewards: [{
+				id: "53FD9B897F7B5C72"
 				type: "item"
 				item: "pamhc2foodextended:deviledeggitem"
 			}]
@@ -4604,6 +6575,11 @@
 				type: "item"
 				item: "pamhc2foodextended:dhalitem"
 			}]
+			rewards: [{
+				id: "0D685175666F02E9"
+				type: "item"
+				item: "pamhc2foodextended:dhalitem"
+			}]
 		}
 		{
 			x: -5.0d
@@ -4612,6 +6588,11 @@
 			id: "4EB75B5BF94C4C54"
 			tasks: [{
 				id: "1ECBA430500A0F4B"
+				type: "item"
+				item: "pamhc2foodextended:dimsumitem"
+			}]
+			rewards: [{
+				id: "781A10BDF681073F"
 				type: "item"
 				item: "pamhc2foodextended:dimsumitem"
 			}]
@@ -4626,6 +6607,11 @@
 				type: "item"
 				item: "pamhc2foodextended:eggplantparmitem"
 			}]
+			rewards: [{
+				id: "2DAB037916B8E69F"
+				type: "item"
+				item: "pamhc2foodextended:eggplantparmitem"
+			}]
 		}
 		{
 			x: -3.0d
@@ -4634,6 +6620,11 @@
 			id: "3373F001C4183202"
 			tasks: [{
 				id: "1142FDB23500460D"
+				type: "item"
+				item: "pamhc2foodextended:eggsbenedictitem"
+			}]
+			rewards: [{
+				id: "650D425E0D2BF80F"
 				type: "item"
 				item: "pamhc2foodextended:eggsbenedictitem"
 			}]
@@ -4648,6 +6639,11 @@
 				type: "item"
 				item: "pamhc2foodextended:eggtartitem"
 			}]
+			rewards: [{
+				id: "7CE78E5502E1C773"
+				type: "item"
+				item: "pamhc2foodextended:eggtartitem"
+			}]
 		}
 		{
 			x: -1.0d
@@ -4656,6 +6652,11 @@
 			id: "6E2E303C1D33AECD"
 			tasks: [{
 				id: "15D261F1720BC5AF"
+				type: "item"
+				item: "pamhc2foodextended:fairybreaditem"
+			}]
+			rewards: [{
+				id: "582E8B322209BF83"
 				type: "item"
 				item: "pamhc2foodextended:fairybreaditem"
 			}]
@@ -4670,6 +6671,11 @@
 				type: "item"
 				item: "pamhc2foodextended:generaltsochickenitem"
 			}]
+			rewards: [{
+				id: "483F20E390C47018"
+				type: "item"
+				item: "pamhc2foodextended:generaltsochickenitem"
+			}]
 		}
 		{
 			x: 1.0d
@@ -4678,6 +6684,11 @@
 			id: "0F82647C58F0DDA8"
 			tasks: [{
 				id: "2ADDB3EE06347673"
+				type: "item"
+				item: "pamhc2foodextended:footlongitem"
+			}]
+			rewards: [{
+				id: "5508C81EB685980B"
 				type: "item"
 				item: "pamhc2foodextended:footlongitem"
 			}]
@@ -4692,6 +6703,11 @@
 				type: "item"
 				item: "pamhc2foodextended:friedfeastitem"
 			}]
+			rewards: [{
+				id: "045E97E4D2C75FE9"
+				type: "item"
+				item: "pamhc2foodextended:friedfeastitem"
+			}]
 		}
 		{
 			x: 3.0d
@@ -4700,6 +6716,11 @@
 			id: "314332DFED238EFE"
 			tasks: [{
 				id: "7B0155C4C8827EAE"
+				type: "item"
+				item: "pamhc2foodextended:fruitcreamfestivalbreaditem"
+			}]
+			rewards: [{
+				id: "3E3104E8466FF612"
 				type: "item"
 				item: "pamhc2foodextended:fruitcreamfestivalbreaditem"
 			}]
@@ -4714,6 +6735,11 @@
 				type: "item"
 				item: "pamhc2foodextended:jambalayaitem"
 			}]
+			rewards: [{
+				id: "06674FE899ADBD08"
+				type: "item"
+				item: "pamhc2foodextended:jambalayaitem"
+			}]
 		}
 		{
 			x: 5.0d
@@ -4725,16 +6751,10 @@
 				type: "item"
 				item: "pamhc2foodextended:kohlundpinkelitem"
 			}]
-		}
-		{
-			x: 5.0d
-			y: 12.0d
-			dependencies: ["486D752E708E00F9"]
-			id: "5F0C5B6C4705C2DE"
-			tasks: [{
-				id: "1AD528C8E282E1E1"
+			rewards: [{
+				id: "575F81AC632F1AFC"
 				type: "item"
-				item: "pamhc2foodextended:keylimepieitem"
+				item: "pamhc2foodextended:kohlundpinkelitem"
 			}]
 		}
 		{
@@ -4744,6 +6764,11 @@
 			id: "2F42D252F310D6A6"
 			tasks: [{
 				id: "2CDCA0D2D0A56D5D"
+				type: "item"
+				item: "pamhc2foodextended:koreandinneritem"
+			}]
+			rewards: [{
+				id: "4D68679631935178"
 				type: "item"
 				item: "pamhc2foodextended:koreandinneritem"
 			}]
@@ -4758,6 +6783,11 @@
 				type: "item"
 				item: "pamhc2foodextended:gherkinitem"
 			}]
+			rewards: [{
+				id: "1143F45767E7E8C1"
+				type: "item"
+				item: "pamhc2foodextended:gherkinitem"
+			}]
 		}
 		{
 			x: 5.0d
@@ -4766,6 +6796,11 @@
 			id: "54CFF4932D7A17DF"
 			tasks: [{
 				id: "6A4E84257154939C"
+				type: "item"
+				item: "pamhc2foodextended:gingeredrhubarbtartitem"
+			}]
+			rewards: [{
+				id: "6B2A4546AD1AC692"
 				type: "item"
 				item: "pamhc2foodextended:gingeredrhubarbtartitem"
 			}]
@@ -4780,6 +6815,11 @@
 				type: "item"
 				item: "pamhc2foodextended:gourmetbeefpattyitem"
 			}]
+			rewards: [{
+				id: "3E87C11DE77D8A01"
+				type: "item"
+				item: "pamhc2foodextended:gourmetbeefpattyitem"
+			}]
 		}
 		{
 			x: 5.0d
@@ -4788,6 +6828,11 @@
 			id: "3B2483BBFFED2A05"
 			tasks: [{
 				id: "43F8FAE25B883A2E"
+				type: "item"
+				item: "pamhc2foodextended:gourmetmuttonpattyitem"
+			}]
+			rewards: [{
+				id: "771C16C2BFA1ECE1"
 				type: "item"
 				item: "pamhc2foodextended:gourmetmuttonpattyitem"
 			}]
@@ -4802,6 +6847,11 @@
 				type: "item"
 				item: "pamhc2foodextended:gourmetporkpattyitem"
 			}]
+			rewards: [{
+				id: "57AD886548BC9177"
+				type: "item"
+				item: "pamhc2foodextended:gourmetporkpattyitem"
+			}]
 		}
 		{
 			x: 5.0d
@@ -4810,6 +6860,11 @@
 			id: "4715DEABE04E9F42"
 			tasks: [{
 				id: "2DA44B575203C45E"
+				type: "item"
+				item: "pamhc2foodextended:grilledskewersitem"
+			}]
+			rewards: [{
+				id: "7E05A9B3C69B06FE"
 				type: "item"
 				item: "pamhc2foodextended:grilledskewersitem"
 			}]
@@ -4824,6 +6879,11 @@
 				type: "item"
 				item: "pamhc2foodextended:guacamoleitem"
 			}]
+			rewards: [{
+				id: "58244D3CA363A531"
+				type: "item"
+				item: "pamhc2foodextended:guacamoleitem"
+			}]
 		}
 		{
 			x: 5.0d
@@ -4832,6 +6892,11 @@
 			id: "2C00BDF5DDA9B332"
 			tasks: [{
 				id: "570B39C04FE3C8F2"
+				type: "item"
+				item: "pamhc2foodextended:guisoitem"
+			}]
+			rewards: [{
+				id: "0BB4E8728240EDF2"
 				type: "item"
 				item: "pamhc2foodextended:guisoitem"
 			}]
@@ -4846,6 +6911,11 @@
 				type: "item"
 				item: "pamhc2foodextended:gyudonitem"
 			}]
+			rewards: [{
+				id: "56697164DB34CED7"
+				type: "item"
+				item: "pamhc2foodextended:gyudonitem"
+			}]
 		}
 		{
 			x: -6.0d
@@ -4854,6 +6924,11 @@
 			id: "0AB618321D93D770"
 			tasks: [{
 				id: "3BC2AD59F76B2284"
+				type: "item"
+				item: "pamhc2foodextended:haggisitem"
+			}]
+			rewards: [{
+				id: "4EB6C3D45357CB44"
 				type: "item"
 				item: "pamhc2foodextended:haggisitem"
 			}]
@@ -4868,6 +6943,11 @@
 				type: "item"
 				item: "pamhc2foodextended:hashitem"
 			}]
+			rewards: [{
+				id: "45209ECBEA696EFC"
+				type: "item"
+				item: "pamhc2foodextended:hashitem"
+			}]
 		}
 		{
 			x: -6.0d
@@ -4876,6 +6956,11 @@
 			id: "73E096E0D7D5AB78"
 			tasks: [{
 				id: "0CA76B5FE06738C2"
+				type: "item"
+				item: "pamhc2foodextended:honeyglazedcarrotsitem"
+			}]
+			rewards: [{
+				id: "325E51622C805710"
 				type: "item"
 				item: "pamhc2foodextended:honeyglazedcarrotsitem"
 			}]
@@ -4890,6 +6975,11 @@
 				type: "item"
 				item: "pamhc2foodextended:honeyglazedhamitem"
 			}]
+			rewards: [{
+				id: "5C2FA95025C0A6A1"
+				type: "item"
+				item: "pamhc2foodextended:honeyglazedhamitem"
+			}]
 		}
 		{
 			x: -6.0d
@@ -4898,6 +6988,11 @@
 			id: "158F36BD157CE3D0"
 			tasks: [{
 				id: "40B2B371F236A0AA"
+				type: "item"
+				item: "pamhc2foodextended:honeylemonlambitem"
+			}]
+			rewards: [{
+				id: "2CDBD4E323503E94"
 				type: "item"
 				item: "pamhc2foodextended:honeylemonlambitem"
 			}]
@@ -4912,6 +7007,11 @@
 				type: "item"
 				item: "pamhc2foodextended:futomakiitem"
 			}]
+			rewards: [{
+				id: "47D6EE6C985E8C51"
+				type: "item"
+				item: "pamhc2foodextended:futomakiitem"
+			}]
 		}
 		{
 			x: -6.0d
@@ -4920,6 +7020,11 @@
 			id: "14B6AE932C6438A0"
 			tasks: [{
 				id: "735C511F3AD0CC89"
+				type: "item"
+				item: "pamhc2foodextended:honeysoyribsitem"
+			}]
+			rewards: [{
+				id: "03A6D4A03ABB4B31"
 				type: "item"
 				item: "pamhc2foodextended:honeysoyribsitem"
 			}]
@@ -4934,6 +7039,11 @@
 				type: "item"
 				item: "pamhc2foodextended:hotdishcasseroleitem"
 			}]
+			rewards: [{
+				id: "54BC28B8A2817889"
+				type: "item"
+				item: "pamhc2foodextended:hotdishcasseroleitem"
+			}]
 		}
 		{
 			x: -6.0d
@@ -4942,6 +7052,11 @@
 			id: "5AD7261F19101735"
 			tasks: [{
 				id: "6415804A58CFA00A"
+				type: "item"
+				item: "pamhc2foodextended:hotandsoursoupitem"
+			}]
+			rewards: [{
+				id: "2831DAD041CAFBA6"
 				type: "item"
 				item: "pamhc2foodextended:hotandsoursoupitem"
 			}]
@@ -4956,6 +7071,11 @@
 				type: "item"
 				item: "pamhc2foodextended:lemonmeringueitem"
 			}]
+			rewards: [{
+				id: "3D5C6CD0B109C635"
+				type: "item"
+				item: "pamhc2foodextended:lemonmeringueitem"
+			}]
 		}
 		{
 			x: 6.0d
@@ -4964,6 +7084,11 @@
 			id: "2902370EF3BF9DAF"
 			tasks: [{
 				id: "46424B16174A4D63"
+				type: "item"
+				item: "pamhc2foodextended:gingerchickenitem"
+			}]
+			rewards: [{
+				id: "5D329249B2B0F184"
 				type: "item"
 				item: "pamhc2foodextended:gingerchickenitem"
 			}]
@@ -4978,6 +7103,11 @@
 				type: "item"
 				item: "pamhc2foodextended:lasagnaitem"
 			}]
+			rewards: [{
+				id: "79B428FA6BE1DC17"
+				type: "item"
+				item: "pamhc2foodextended:lasagnaitem"
+			}]
 		}
 		{
 			x: 6.0d
@@ -4986,6 +7116,11 @@
 			id: "4658C7303550E7B9"
 			tasks: [{
 				id: "317379D3AF23BB78"
+				type: "item"
+				item: "pamhc2foodextended:mashedpotatoeschickenbiscuititem"
+			}]
+			rewards: [{
+				id: "5FA38419D4E58024"
 				type: "item"
 				item: "pamhc2foodextended:mashedpotatoeschickenbiscuititem"
 			}]
@@ -5000,6 +7135,11 @@
 				type: "item"
 				item: "pamhc2foodextended:mashedpotatoeschickenbiscuititem"
 			}]
+			rewards: [{
+				id: "6C4318C5C2E8475B"
+				type: "item"
+				item: "pamhc2foodextended:mashedpotatoeschickenbiscuititem"
+			}]
 		}
 		{
 			x: 6.0d
@@ -5008,6 +7148,11 @@
 			id: "0F93D413E0423CB6"
 			tasks: [{
 				id: "65DFB65E77A22BF3"
+				type: "item"
+				item: "pamhc2foodextended:meatpieitem"
+			}]
+			rewards: [{
+				id: "5E0A2AFA400DDA54"
 				type: "item"
 				item: "pamhc2foodextended:meatpieitem"
 			}]
@@ -5022,6 +7167,11 @@
 				type: "item"
 				item: "pamhc2foodextended:meesuaitem"
 			}]
+			rewards: [{
+				id: "51E7542C308E5E72"
+				type: "item"
+				item: "pamhc2foodextended:meesuaitem"
+			}]
 		}
 		{
 			x: 6.0d
@@ -5030,6 +7180,11 @@
 			id: "3B2A0B92CBAE556B"
 			tasks: [{
 				id: "5984461791737CC1"
+				type: "item"
+				item: "pamhc2foodextended:meringuebombeitem"
+			}]
+			rewards: [{
+				id: "0048B8F922250FFC"
 				type: "item"
 				item: "pamhc2foodextended:meringuebombeitem"
 			}]
@@ -5044,6 +7199,11 @@
 				type: "item"
 				item: "pamhc2foodextended:meringuerouladeitem"
 			}]
+			rewards: [{
+				id: "7308E4BA2C1D17D8"
+				type: "item"
+				item: "pamhc2foodextended:meringuerouladeitem"
+			}]
 		}
 		{
 			x: 6.0d
@@ -5052,6 +7212,11 @@
 			id: "1EC562E5300DD4D9"
 			tasks: [{
 				id: "4C9609DC2DD92708"
+				type: "item"
+				item: "pamhc2foodextended:peaandhamsoupitem"
+			}]
+			rewards: [{
+				id: "169FB4B3D6270A00"
 				type: "item"
 				item: "pamhc2foodextended:peaandhamsoupitem"
 			}]
@@ -5066,6 +7231,11 @@
 				type: "item"
 				item: "pamhc2foodextended:ploughmanslunchitem"
 			}]
+			rewards: [{
+				id: "25C81B43E08D5356"
+				type: "item"
+				item: "pamhc2foodextended:ploughmanslunchitem"
+			}]
 		}
 		{
 			x: 6.0d
@@ -5074,6 +7244,11 @@
 			id: "57E0219287387541"
 			tasks: [{
 				id: "5ADF9A006FCB9143"
+				type: "item"
+				item: "pamhc2foodextended:porklomeinitem"
+			}]
+			rewards: [{
+				id: "0708D09DEF4B1E23"
 				type: "item"
 				item: "pamhc2foodextended:porklomeinitem"
 			}]
@@ -5088,6 +7263,11 @@
 				type: "item"
 				item: "pamhc2foodextended:poutineitem"
 			}]
+			rewards: [{
+				id: "2F5DA982F3FE2015"
+				type: "item"
+				item: "pamhc2foodextended:poutineitem"
+			}]
 		}
 		{
 			x: -5.0d
@@ -5096,6 +7276,11 @@
 			id: "73E572615A0C193D"
 			tasks: [{
 				id: "4D173A5F37EB556E"
+				type: "item"
+				item: "pamhc2foodextended:pumpkinspicelatteitem"
+			}]
+			rewards: [{
+				id: "6654E3F67B5C48E9"
 				type: "item"
 				item: "pamhc2foodextended:pumpkinspicelatteitem"
 			}]
@@ -5110,6 +7295,11 @@
 				type: "item"
 				item: "pamhc2foodextended:sausageinbreaditem"
 			}]
+			rewards: [{
+				id: "114B54F0F9B3AA4A"
+				type: "item"
+				item: "pamhc2foodextended:sausageinbreaditem"
+			}]
 		}
 		{
 			x: -3.0d
@@ -5118,6 +7308,11 @@
 			id: "59F12BA04FAFAD78"
 			tasks: [{
 				id: "741C07A79C2174EE"
+				type: "item"
+				item: "pamhc2foodextended:slawdogitem"
+			}]
+			rewards: [{
+				id: "7A0BEE58D4218DE1"
 				type: "item"
 				item: "pamhc2foodextended:slawdogitem"
 			}]
@@ -5132,6 +7327,11 @@
 				type: "item"
 				item: "pamhc2foodextended:southernstylebreakfastitem"
 			}]
+			rewards: [{
+				id: "78E2CC598385D2DE"
+				type: "item"
+				item: "pamhc2foodextended:southernstylebreakfastitem"
+			}]
 		}
 		{
 			x: -1.0d
@@ -5140,6 +7340,11 @@
 			id: "351BF38345720AD2"
 			tasks: [{
 				id: "555BE389EAD650A9"
+				type: "item"
+				item: "pamhc2foodextended:springfieldcashewchickenitem"
+			}]
+			rewards: [{
+				id: "0F203350BC3F3CE8"
 				type: "item"
 				item: "pamhc2foodextended:springfieldcashewchickenitem"
 			}]
@@ -5154,6 +7359,11 @@
 				type: "item"
 				item: "pamhc2foodextended:springrollitem"
 			}]
+			rewards: [{
+				id: "46F77D6B9F083C31"
+				type: "item"
+				item: "pamhc2foodextended:springrollitem"
+			}]
 		}
 		{
 			x: 1.0d
@@ -5162,6 +7372,11 @@
 			id: "45A7D730196566CF"
 			tasks: [{
 				id: "1E681015BDC894E3"
+				type: "item"
+				item: "pamhc2foodextended:sundayroastitem"
+			}]
+			rewards: [{
+				id: "420C2D1AB0867F1A"
 				type: "item"
 				item: "pamhc2foodextended:sundayroastitem"
 			}]
@@ -5176,6 +7391,11 @@
 				type: "item"
 				item: "pamhc2foodextended:sundayhighteaitem"
 			}]
+			rewards: [{
+				id: "357D46F0BB62DC17"
+				type: "item"
+				item: "pamhc2foodextended:sundayhighteaitem"
+			}]
 		}
 		{
 			x: 3.0d
@@ -5184,6 +7404,11 @@
 			id: "36B0E15FF3E2ABFE"
 			tasks: [{
 				id: "0DEA590C112F76F2"
+				type: "item"
+				item: "pamhc2foodextended:steakfajitaitem"
+			}]
+			rewards: [{
+				id: "0038AA15E0247DBC"
 				type: "item"
 				item: "pamhc2foodextended:steakfajitaitem"
 			}]
@@ -5198,6 +7423,11 @@
 				type: "item"
 				item: "pamhc2foodextended:swedishmeatballsitem"
 			}]
+			rewards: [{
+				id: "67C79550FA36CBB7"
+				type: "item"
+				item: "pamhc2foodextended:swedishmeatballsitem"
+			}]
 		}
 		{
 			x: 5.0d
@@ -5206,6 +7436,11 @@
 			id: "3205C75F46F2115A"
 			tasks: [{
 				id: "2E2780723542177C"
+				type: "item"
+				item: "pamhc2foodextended:sweetandsourchickenitem"
+			}]
+			rewards: [{
+				id: "675F7B48B0251BCA"
 				type: "item"
 				item: "pamhc2foodextended:sweetandsourchickenitem"
 			}]
@@ -5220,6 +7455,11 @@
 				type: "item"
 				item: "pamhc2foodextended:sweetandsourmeatballsitem"
 			}]
+			rewards: [{
+				id: "0EDB58A8AEB03110"
+				type: "item"
+				item: "pamhc2foodextended:sweetandsourmeatballsitem"
+			}]
 		}
 		{
 			x: -6.0d
@@ -5228,6 +7468,11 @@
 			id: "173311EBF08C1EE6"
 			tasks: [{
 				id: "3D702006FF42CEC1"
+				type: "item"
+				item: "pamhc2foodextended:szechuaneggplantitem"
+			}]
+			rewards: [{
+				id: "37F409A9F4386155"
 				type: "item"
 				item: "pamhc2foodextended:szechuaneggplantitem"
 			}]
@@ -5242,6 +7487,11 @@
 				type: "item"
 				item: "pamhc2foodextended:timpanoitem"
 			}]
+			rewards: [{
+				id: "10FD3BA55089D7B1"
+				type: "item"
+				item: "pamhc2foodextended:timpanoitem"
+			}]
 		}
 		{
 			x: -4.0d
@@ -5250,6 +7500,11 @@
 			id: "11E753CE948C644F"
 			tasks: [{
 				id: "5B6E426A55E0FE8E"
+				type: "item"
+				item: "pamhc2foodextended:weekendpicnicitem"
+			}]
+			rewards: [{
+				id: "0A6FEE58DABA6AC2"
 				type: "item"
 				item: "pamhc2foodextended:weekendpicnicitem"
 			}]
@@ -5264,10 +7519,15 @@
 				type: "item"
 				item: "pamhc2foodextended:zucchinibakeitem"
 			}]
+			rewards: [{
+				id: "20D8CB0F41444EB0"
+				type: "item"
+				item: "pamhc2foodextended:zucchinibakeitem"
+			}]
 		}
 		{
-			x: -0.5d
-			y: 23.0d
+			x: 5.0d
+			y: 12.0d
 			dependencies: ["486D752E708E00F9"]
 			id: "53B27305342EA941"
 			tasks: [{
@@ -5275,14 +7535,24 @@
 				type: "item"
 				item: "pamhc2foodextended:zucchinifriesitem"
 			}]
+			rewards: [{
+				id: "5196160C5ED61DCA"
+				type: "item"
+				item: "pamhc2foodextended:zucchinifriesitem"
+			}]
 		}
 		{
-			x: 0.5d
-			y: 23.0d
+			x: 4.0d
+			y: 11.0d
 			dependencies: ["486D752E708E00F9"]
 			id: "7C098C71B678E725"
 			tasks: [{
 				id: "49A23FD5A54623C5"
+				type: "item"
+				item: "pamhc2foodextended:fajitaburritoitem"
+			}]
+			rewards: [{
+				id: "17A38D0C942FF31E"
 				type: "item"
 				item: "pamhc2foodextended:fajitaburritoitem"
 			}]
@@ -5297,6 +7567,11 @@
 				type: "item"
 				item: "pamhc2foodextended:chickentendersmealitem"
 			}]
+			rewards: [{
+				id: "6DD16D6015C18080"
+				type: "item"
+				item: "pamhc2foodextended:chickentendersmealitem"
+			}]
 		}
 		{
 			x: 4.0d
@@ -5305,6 +7580,11 @@
 			id: "56642D0E92A2A6ED"
 			tasks: [{
 				id: "65D8ED9C96C8E9F4"
+				type: "item"
+				item: "pamhc2foodextended:cornedbeefandcabbageitem"
+			}]
+			rewards: [{
+				id: "41EEC1950552FCDD"
 				type: "item"
 				item: "pamhc2foodextended:cornedbeefandcabbageitem"
 			}]
@@ -5319,6 +7599,11 @@
 				type: "item"
 				item: "pamhc2foodextended:grandmasmacaronicasseroleitem"
 			}]
+			rewards: [{
+				id: "369EFAC475476298"
+				type: "item"
+				item: "pamhc2foodextended:grandmasmacaronicasseroleitem"
+			}]
 		}
 		{
 			x: 6.0d
@@ -5327,6 +7612,11 @@
 			id: "5FF0747610F9ED0C"
 			tasks: [{
 				id: "3391BCDAD7A6F1C2"
+				type: "item"
+				item: "pamhc2foodextended:peanutbutterbananapancakesitem"
+			}]
+			rewards: [{
+				id: "2BEF9B70839E4336"
 				type: "item"
 				item: "pamhc2foodextended:peanutbutterbananapancakesitem"
 			}]
@@ -5345,6 +7635,27 @@
 				id: "2FC9FF4A00466C69"
 				type: "item"
 				item: "farmingforblockheads:market"
+			}]
+			rewards: [{
+				id: "64F25F203F8BC9CB"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 7.5d
+			dependencies: ["002FB4856186F7F1"]
+			id: "1C9E74E19803652F"
+			tasks: [{
+				id: "50E31C3F5D2D640D"
+				type: "item"
+				item: "pamhc2foodextended:kiwijellysandwichitem"
+			}]
+			rewards: [{
+				id: "58CACB3BE7F5A05F"
+				type: "item"
+				item: "pamhc2foodextended:kiwijellysandwichitem"
 			}]
 		}
 	]

@@ -1,9 +1,10 @@
 {
 	id: "6A6FD2867728FAA3"
 	order_index: 10
-	title: "&aPity machine frame Part"
+	title: "&aPity Machine Frame Part"
 	icon: "industrialforegoing:machine_frame_pity"
 	loot_size: 1
+	hide_tooltip: true
 	use_title: true
 	rewards: [
 		{ item: "immersiveengineering:treated_wood_horizontal" }

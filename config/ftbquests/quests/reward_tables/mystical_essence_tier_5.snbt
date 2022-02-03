@@ -1,9 +1,11 @@
 {
 	id: "2D24EE6E87E5D008"
 	order_index: 9
-	title: "Mystical essence Tier 5"
+	title: "&4Mystical Essence Tier 5"
 	icon: "mysticalagriculture:supremium_essence"
 	loot_size: 1
+	hide_tooltip: true
+	use_title: true
 	rewards: [
 		{ item: "mysticalagriculture:rock_crystal_essence", count: 16, random_bonus: 4 }
 		{ item: "mysticalagriculture:hepatizon_essence", count: 16, random_bonus: 4 }

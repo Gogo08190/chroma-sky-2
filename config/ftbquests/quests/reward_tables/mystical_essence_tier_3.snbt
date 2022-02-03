@@ -1,9 +1,10 @@
 {
 	id: "65801046CDFAECA4"
 	order_index: 6
-	title: "Mystical essence Tier 3"
+	title: "&6Mystical Essence Tier 3"
 	icon: "mysticalagriculture:tertium_essence"
 	loot_size: 1
+	hide_tooltip: true
 	use_title: true
 	rewards: [
 		{ item: "mysticalagriculture:skeleton_essence", count: 16, random_bonus: 4 }

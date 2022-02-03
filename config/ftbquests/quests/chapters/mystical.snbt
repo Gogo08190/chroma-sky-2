@@ -251,9 +251,9 @@
 				item: "mysticalagriculture:inferium_essence"
 			}]
 			rewards: [{
-				id: "26A88456D67F9B26"
-				type: "random"
-				table_id: 7381842975596526002L
+				id: "6F5678F7CB3657FC"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
 			}]
 		}
 		{
@@ -273,9 +273,9 @@
 				item: "mysticalagriculture:prudentium_essence"
 			}]
 			rewards: [{
-				id: "22C4E8445378D589"
-				type: "random"
-				table_id: 7381842975596526002L
+				id: "6049EDBBF4887E3F"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
 			}]
 		}
 		{
@@ -295,9 +295,9 @@
 				item: "mysticalagriculture:tertium_essence"
 			}]
 			rewards: [{
-				id: "21E141C7F0A03AF6"
-				type: "random"
-				table_id: 7381842975596526002L
+				id: "708F1F99EC401014"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
 			}]
 		}
 		{
@@ -313,6 +313,11 @@
 			id: "695E644312CB3D02"
 			tasks: [{
 				id: "7D967A235BE5CC3E"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+			}]
+			rewards: [{
+				id: "6640FDE718591BF5"
 				type: "item"
 				item: "mysticalagriculture:imperium_essence"
 			}]
@@ -333,6 +338,11 @@
 				type: "item"
 				item: "mysticalagriculture:supremium_essence"
 			}]
+			rewards: [{
+				id: "75687F4DD82222C1"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+			}]
 		}
 		{
 			x: 5.5d
@@ -347,6 +357,11 @@
 			id: "0D702BE2A86D3A38"
 			tasks: [{
 				id: "78DD0BB714F3DBEB"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+			}]
+			rewards: [{
+				id: "26AC887C2C0C315D"
 				type: "item"
 				item: "mysticalagradditions:insanium_essence"
 			}]
@@ -2243,10 +2258,9 @@
 				}
 			]
 			rewards: [{
-				id: "7FB0677093E3A44A"
-				type: "item"
-				item: "mysticalagradditions:insanium_ingot"
-				count: 8
+				id: "58BD6EFC621AA8B1"
+				type: "random"
+				table_id: 4309216921490884332L
 			}]
 		}
 		{
@@ -2312,10 +2326,9 @@
 				}
 			]
 			rewards: [{
-				id: "7A4CAEA72BBD5A9B"
-				type: "item"
-				item: "mysticalagriculture:inferium_ingot"
-				count: 8
+				id: "74B0C65110733A9B"
+				type: "random"
+				table_id: 4238701536616224465L
 			}]
 		}
 		{
@@ -2371,10 +2384,9 @@
 				}
 			]
 			rewards: [{
-				id: "2252A1C6986BA88D"
-				type: "item"
-				item: "mysticalagriculture:prudentium_ingot"
-				count: 8
+				id: "0B728E16D27DBBA4"
+				type: "random"
+				table_id: 2399942809827321212L
 			}]
 		}
 		{
@@ -2430,10 +2442,9 @@
 				}
 			]
 			rewards: [{
-				id: "6398926F6E85431F"
-				type: "item"
-				item: "mysticalagriculture:tertium_ingot"
-				count: 8
+				id: "57A0002B8A67588A"
+				type: "random"
+				table_id: 7313863691139214500L
 			}]
 		}
 		{
@@ -2489,10 +2500,9 @@
 				}
 			]
 			rewards: [{
-				id: "2E48C06FA13204DE"
-				type: "item"
-				item: "mysticalagriculture:imperium_ingot"
-				count: 8
+				id: "765A4B850B08DDF1"
+				type: "random"
+				table_id: 7660850487611170918L
 			}]
 		}
 		{
@@ -2548,10 +2558,9 @@
 				}
 			]
 			rewards: [{
-				id: "21E63F0EE0BD2DA0"
-				type: "item"
-				item: "mysticalagriculture:supremium_ingot"
-				count: 8
+				id: "13BF73C7DEC2F98B"
+				type: "random"
+				table_id: 3252986989362139144L
 			}]
 		}
 		{
@@ -2570,9 +2579,9 @@
 				item: "mysticalagriculture:inferium_furnace"
 			}]
 			rewards: [{
-				id: "0894808697C08459"
-				type: "item"
-				item: "mysticalagriculture:inferium_block"
+				id: "6EDA18EFC370F54B"
+				type: "random"
+				table_id: 4238701536616224465L
 			}]
 		}
 		{
@@ -2587,9 +2596,9 @@
 				item: "mysticalagriculture:prudentium_furnace"
 			}]
 			rewards: [{
-				id: "0958BBCC9E6EFC03"
-				type: "item"
-				item: "mysticalagriculture:prudentium_block"
+				id: "3CBACA0C7CFE976B"
+				type: "random"
+				table_id: 2399942809827321212L
 			}]
 		}
 		{
@@ -2604,9 +2613,9 @@
 				item: "mysticalagriculture:tertium_furnace"
 			}]
 			rewards: [{
-				id: "54A05F87C22C55A1"
-				type: "item"
-				item: "mysticalagriculture:tertium_block"
+				id: "3CB33CA61D77AD48"
+				type: "random"
+				table_id: 7313863691139214500L
 			}]
 		}
 		{
@@ -2621,9 +2630,9 @@
 				item: "mysticalagriculture:imperium_furnace"
 			}]
 			rewards: [{
-				id: "3BC5D29F6343DA47"
-				type: "item"
-				item: "mysticalagriculture:imperium_block"
+				id: "64E19626DDBC538C"
+				type: "random"
+				table_id: 7660850487611170918L
 			}]
 		}
 		{
@@ -2638,9 +2647,9 @@
 				item: "mysticalagriculture:supremium_furnace"
 			}]
 			rewards: [{
-				id: "3A6AD959CDA5CA73"
-				type: "item"
-				item: "mysticalagriculture:supremium_block"
+				id: "6A2AD7D561569D01"
+				type: "random"
+				table_id: 3252986989362139144L
 			}]
 		}
 		{
@@ -2655,9 +2664,9 @@
 				item: "mysticaladaptations:insanium_furnace"
 			}]
 			rewards: [{
-				id: "776837889A68A7EF"
-				type: "item"
-				item: "mysticalagradditions:insanium_block"
+				id: "373BFBF435441323"
+				type: "random"
+				table_id: 4309216921490884332L
 			}]
 		}
 		{
@@ -3057,10 +3066,9 @@
 				}
 			]
 			rewards: [{
-				id: "00977C6290BFDEBD"
-				type: "item"
-				item: "mysticalagriculture:inferium_ingot"
-				count: 10
+				id: "078B5EC026AE7170"
+				type: "random"
+				table_id: 4238701536616224465L
 			}]
 		}
 		{
@@ -3132,10 +3140,9 @@
 				}
 			]
 			rewards: [{
-				id: "6D75ADBC300C7C9A"
-				type: "item"
-				item: "mysticalagriculture:prudentium_ingot"
-				count: 10
+				id: "678474AF442C06C5"
+				type: "random"
+				table_id: 2399942809827321212L
 			}]
 		}
 		{
@@ -3207,10 +3214,9 @@
 				}
 			]
 			rewards: [{
-				id: "3D35D55B3898C125"
-				type: "item"
-				item: "mysticalagriculture:tertium_ingot"
-				count: 10
+				id: "246A80BD868AE904"
+				type: "random"
+				table_id: 7313863691139214500L
 			}]
 		}
 		{
@@ -3282,10 +3288,9 @@
 				}
 			]
 			rewards: [{
-				id: "6F92003C5DC5A23B"
-				type: "item"
-				item: "mysticalagriculture:imperium_ingot"
-				count: 10
+				id: "76BFEF3EBA3BA120"
+				type: "random"
+				table_id: 7660850487611170918L
 			}]
 		}
 		{
@@ -3327,10 +3332,9 @@
 				}
 			]
 			rewards: [{
-				id: "549F7043F3A14D3C"
-				type: "item"
-				item: "mysticalagriculture:supremium_ingot"
-				count: 10
+				id: "5D7E36FEA4057F85"
+				type: "random"
+				table_id: 3252986989362139144L
 			}]
 		}
 		{
@@ -3372,10 +3376,9 @@
 				}
 			]
 			rewards: [{
-				id: "277DC1D879697AA7"
-				type: "item"
-				item: "mysticalagradditions:insanium_ingot"
-				count: 10
+				id: "02FAFFF3D230C345"
+				type: "random"
+				table_id: 4309216921490884332L
 			}]
 		}
 		{
@@ -5028,9 +5031,9 @@
 					item: "speedyhoppers:speedyhopper_mk3"
 				}
 				{
-					id: "63BE157B1628F2D4"
-					type: "item"
-					item: "thermal:energy_cell_frame"
+					id: "289FBC94F6FF1797"
+					type: "random"
+					table_id: 4238701536616224465L
 				}
 			]
 		}
@@ -5701,20 +5704,11 @@
 				type: "item"
 				item: "mysticalagriculture:basic_reprocessor"
 			}]
-			rewards: [
-				{
-					id: "7F621C55CFEED942"
-					type: "item"
-					item: "mysticalagriculture:soulium_ingot"
-					count: 2
-				}
-				{
-					id: "01728503F85A4C9C"
-					type: "item"
-					item: "minecraft:iron_ingot"
-					count: 4
-				}
-			]
+			rewards: [{
+				id: "736D5965E59FA937"
+				type: "random"
+				table_id: 4238701536616224465L
+			}]
 		}
 		{
 			x: 23.0d
@@ -5732,9 +5726,9 @@
 				item: "mysticalagriculture:inferium_reprocessor"
 			}]
 			rewards: [{
-				id: "2C9113465715E83D"
-				type: "item"
-				item: "mysticalagriculture:inferium_block"
+				id: "1796C379B98292A7"
+				type: "random"
+				table_id: 4238701536616224465L
 			}]
 		}
 		{
@@ -5753,9 +5747,9 @@
 				item: "mysticalagriculture:prudentium_reprocessor"
 			}]
 			rewards: [{
-				id: "45ED5B1BE6D81ED3"
-				type: "item"
-				item: "mysticalagriculture:prudentium_block"
+				id: "5EEFD1A4C1C41FEC"
+				type: "random"
+				table_id: 2399942809827321212L
 			}]
 		}
 		{
@@ -5774,9 +5768,9 @@
 				item: "mysticalagriculture:tertium_reprocessor"
 			}]
 			rewards: [{
-				id: "3F2D43D424E319DD"
-				type: "item"
-				item: "mysticalagriculture:tertium_block"
+				id: "66AA45C7116CC646"
+				type: "random"
+				table_id: 7313863691139214500L
 			}]
 		}
 		{
@@ -5795,9 +5789,9 @@
 				item: "mysticalagriculture:imperium_reprocessor"
 			}]
 			rewards: [{
-				id: "4CA47243FB7BA3E8"
-				type: "item"
-				item: "mysticalagriculture:imperium_block"
+				id: "61D5AB081487CD9A"
+				type: "random"
+				table_id: 7660850487611170918L
 			}]
 		}
 		{
@@ -5816,9 +5810,9 @@
 				item: "mysticalagriculture:supremium_reprocessor"
 			}]
 			rewards: [{
-				id: "38DF732BDF499EB4"
-				type: "item"
-				item: "mysticalagriculture:supremium_block"
+				id: "544D6B6A327B643B"
+				type: "random"
+				table_id: 3252986989362139144L
 			}]
 		}
 		{
@@ -5837,9 +5831,9 @@
 				item: "mysticaladaptations:insanium_reprocessor"
 			}]
 			rewards: [{
-				id: "35CF9B842F3A15FE"
-				type: "item"
-				item: "mysticalagradditions:insanium_block"
+				id: "099745129CD8FECE"
+				type: "random"
+				table_id: 4309216921490884332L
 			}]
 		}
 	]

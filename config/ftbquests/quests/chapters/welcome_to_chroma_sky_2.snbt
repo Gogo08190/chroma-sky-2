@@ -164,13 +164,96 @@
 				type: "checkmark"
 				title: "Islands"
 			}]
-			rewards: [{
-				id: "1F953A714527F43A"
-				type: "command"
-				auto: "invisible"
-				command: "/tellraw @s [\"\",{\"text\":\"Informations about Islands here : \"},{\"text\":\"chromatech.fr\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://chromatech.fr/modpack/chroma-sky-ii/\"}}]"
-				player_command: true
-			}]
+			rewards: [
+				{
+					id: "1F953A714527F43A"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @s [\"\",{\"text\":\"Informations about Islands here : \"},{\"text\":\"chromatech.fr\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://chromatech.fr/modpack/chroma-sky-ii/\"}}]"
+					player_command: true
+				}
+				{
+					id: "16A1D1C4A478014E"
+					type: "item"
+					item: {
+						id: "minecraft:magenta_shulker_box"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Items: [
+									{
+										Slot: 0
+										id: "player_head"
+										Count: 1
+										tag: {
+											SkullOwner: "ctrl_juteau"
+										}
+									}
+									{
+										Slot: 1
+										id: "player_head"
+										Count: 1
+										tag: {
+											SkullOwner: "ploc300"
+										}
+									}
+									{
+										Slot: 2
+										id: "player_head"
+										Count: 1
+										tag: {
+											SkullOwner: "Miniteck"
+										}
+									}
+									{
+										Slot: 3
+										id: "player_head"
+										Count: 1
+										tag: {
+											SkullOwner: "Iglee42"
+										}
+									}
+									{
+										Slot: 4
+										id: "player_head"
+										Count: 1
+										tag: {
+											SkullOwner: "_JemerAlex_"
+										}
+									}
+									{
+										Slot: 5
+										id: "player_head"
+										Count: 1
+										tag: {
+											SkullOwner: "staniscraft"
+										}
+									}
+									{
+										Slot: 6
+										id: "player_head"
+										Count: 1
+										tag: {
+											SkullOwner: "Bloodshadow96"
+										}
+									}
+									{
+										Slot: 7
+										id: "player_head"
+										Count: 1
+										tag: {
+											SkullOwner: "beua"
+										}
+									}
+								]
+							}
+							display: {
+								Name: "\"Islands Creators\""
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			icon: "losttrinkets:treasure_bag"
@@ -228,6 +311,24 @@
 				id: "4219263D5147FC6D"
 				type: "checkmark"
 				title: "FTB Team"
+			}]
+		}
+		{
+			icon: "pedestals:upgradesoundmuffler"
+			x: 0.0d
+			y: 2.5d
+			shape: "diamond"
+			description: [
+				"ImmersiveFx add more sound events, particles, quality foley's."
+				""
+				"You can configure the sound level with &actrl+v&r command."
+			]
+			dependencies: ["5AA98A6A5E15905F"]
+			id: "5B130076AA2B92CC"
+			tasks: [{
+				id: "0F43405AFE64D912"
+				type: "checkmark"
+				title: "Immersive FX"
 			}]
 		}
 	]

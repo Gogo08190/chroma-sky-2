@@ -4,6 +4,7 @@
 	title: "&4Fac&r&dtio&r&bn C&r&5oin&r"
 	icon: "mana-and-artifice:mark_of_the_fey"
 	loot_size: 1
+	hide_tooltip: true
 	use_title: true
 	rewards: [
 		{ item: "mana-and-artifice:mark_of_the_fey", count: 5 }

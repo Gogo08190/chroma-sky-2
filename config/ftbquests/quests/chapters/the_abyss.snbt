@@ -18,6 +18,12 @@
 				type: "item"
 				item: "theabyss:abyssloranitem"
 			}]
+			rewards: [{
+				id: "3AFBA1FE9D30F105"
+				type: "item"
+				item: "theabyss:abyssloranitem"
+				count: 4
+			}]
 		}
 		{
 			x: -3.0d
@@ -29,6 +35,11 @@
 			id: "5924A2719A053B61"
 			tasks: [{
 				id: "6EDC0A7D23EAC18F"
+				type: "item"
+				item: "theabyss:loranflower"
+			}]
+			rewards: [{
+				id: "07386F8EDD5BD8FA"
 				type: "item"
 				item: "theabyss:loranflower"
 			}]
@@ -49,6 +60,11 @@
 						"patchouli:book": "theabyss:abyssbookitem"
 					}
 				}
+			}]
+			rewards: [{
+				id: "47DBF3093ACD3E70"
+				type: "item"
+				item: "theabyss:abyssloranitem"
 			}]
 		}
 		{
@@ -78,6 +94,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "602B2B0D54115FD6"
+				type: "item"
+				item: "theabyss:abyssloranitem"
+			}]
 		}
 		{
 			x: 0.5d
@@ -89,6 +110,11 @@
 				type: "dimension"
 				dimension: "theabyss:theabyssdim"
 			}]
+			rewards: [{
+				id: "0D036F08118CCF3B"
+				type: "item"
+				item: "theabyss:abyssloranitem"
+			}]
 		}
 		{
 			x: -3.5d
@@ -97,6 +123,11 @@
 			id: "46AF23700351647F"
 			tasks: [{
 				id: "49F6DA5B6AD6DEDF"
+				type: "item"
+				item: "theabyss:abyssdiamond"
+			}]
+			rewards: [{
+				id: "045E99A83FAC22DF"
 				type: "item"
 				item: "theabyss:abyssdiamond"
 			}]
@@ -111,6 +142,11 @@
 				type: "item"
 				item: "theabyss:ultraabyssdiamond"
 			}]
+			rewards: [{
+				id: "51236411C8E78841"
+				type: "item"
+				item: "theabyss:ultraabyssdiamond"
+			}]
 		}
 		{
 			x: -1.5d
@@ -119,6 +155,11 @@
 			id: "6BA1A90842584C08"
 			tasks: [{
 				id: "53FFEFFCEAE0ECF5"
+				type: "item"
+				item: "theabyss:unknown_diamond"
+			}]
+			rewards: [{
+				id: "6D9EDDE45F578096"
 				type: "item"
 				item: "theabyss:unknown_diamond"
 			}]
@@ -133,6 +174,11 @@
 				type: "item"
 				item: "theabyss:abyssicediamond"
 			}]
+			rewards: [{
+				id: "0CB414E592A9384F"
+				type: "item"
+				item: "theabyss:abyssicediamond"
+			}]
 		}
 		{
 			x: 0.5d
@@ -144,6 +190,11 @@
 				type: "item"
 				item: "theabyss:abyssfirediamond"
 			}]
+			rewards: [{
+				id: "1995209A356FE2F8"
+				type: "item"
+				item: "theabyss:abyssfirediamond"
+			}]
 		}
 		{
 			x: -1.5d
@@ -152,6 +203,11 @@
 			id: "0E5E8CBB8A380F7E"
 			tasks: [{
 				id: "17CB86DE3AD2B7F7"
+				type: "item"
+				item: "theabyss:loran_energy"
+			}]
+			rewards: [{
+				id: "61230B7503C5A8B8"
 				type: "item"
 				item: "theabyss:loran_energy"
 			}]
@@ -177,6 +233,12 @@
 				type: "item"
 				item: "theabyss:phantom_soul_item"
 			}]
+			rewards: [{
+				id: "0649767CEE378A95"
+				type: "item"
+				item: "theabyss:phantom_soul_item"
+				count: 3
+			}]
 		}
 		{
 			x: 4.0d
@@ -187,6 +249,12 @@
 				id: "5C71338F8F39DB37"
 				type: "item"
 				item: "theabyss:thunder_nugget"
+			}]
+			rewards: [{
+				id: "5C4C5C6878F22ED9"
+				type: "item"
+				item: "theabyss:thunder_nugget"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -199,6 +267,12 @@
 				type: "item"
 				item: "theabyss:life_nugget"
 			}]
+			rewards: [{
+				id: "639695DAC579B05E"
+				type: "item"
+				item: "theabyss:life_nugget"
+				random_bonus: 6
+			}]
 		}
 		{
 			x: 7.0d
@@ -209,6 +283,12 @@
 				id: "04AC5D0FACD34EC5"
 				type: "item"
 				item: "theabyss:abyssfirenug"
+			}]
+			rewards: [{
+				id: "6678EC653DF5301F"
+				type: "item"
+				item: "theabyss:abyssfirenug"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -221,6 +301,12 @@
 				type: "item"
 				item: "theabyss:icora_nugget"
 			}]
+			rewards: [{
+				id: "6FADDAA5C79BC871"
+				type: "item"
+				item: "theabyss:icora_nugget"
+				random_bonus: 6
+			}]
 		}
 		{
 			x: 2.5d
@@ -231,6 +317,12 @@
 				id: "38EF92CFF501D21E"
 				type: "item"
 				item: "thebeginning:lazarus_nugget"
+			}]
+			rewards: [{
+				id: "1FDEC7AF8AAEE139"
+				type: "item"
+				item: "thebeginning:lazarus_nugget"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -250,6 +342,11 @@
 				observe_type: 0
 				to_observe: "theabyss:abyssthunderplant"
 			}]
+			rewards: [{
+				id: "4AC349FD6E993FC9"
+				type: "item"
+				item: "theabyss:abyssthunderplant"
+			}]
 		}
 		{
 			title: "Life Flower"
@@ -267,6 +364,11 @@
 				timer: 1L
 				observe_type: 0
 				to_observe: "theabyss:goldendeathplant"
+			}]
+			rewards: [{
+				id: "149362F8E596DD09"
+				type: "item"
+				item: "theabyss:goldendeathplant"
 			}]
 		}
 		{
@@ -286,6 +388,11 @@
 				observe_type: 0
 				to_observe: "theabyss:fireplantx"
 			}]
+			rewards: [{
+				id: "0D1E50C7E8ADF216"
+				type: "item"
+				item: "theabyss:fireplantx"
+			}]
 		}
 		{
 			title: "Lazarus Flower"
@@ -303,6 +410,11 @@
 				timer: 1L
 				observe_type: 0
 				to_observe: "thebeginning:lazarus_flower"
+			}]
+			rewards: [{
+				id: "6DB0FC9526E6569C"
+				type: "item"
+				item: "thebeginning:lazarus_flower"
 			}]
 		}
 		{
@@ -322,6 +434,11 @@
 				observe_type: 0
 				to_observe: "theabyss:icora_flower"
 			}]
+			rewards: [{
+				id: "0AE8B439692C043F"
+				type: "item"
+				item: "theabyss:icora_flower"
+			}]
 		}
 		{
 			title: "Phantom"
@@ -339,6 +456,11 @@
 				timer: 4L
 				observe_type: 5
 				to_observe: "theabyss:phantom_abyss_entity"
+			}]
+			rewards: [{
+				id: "23FBD1CE5EFD1A0E"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -359,6 +481,11 @@
 				observe_type: 0
 				to_observe: "theabyss:unknown_ore"
 			}]
+			rewards: [{
+				id: "41A8C72DEE7B5890"
+				type: "item"
+				item: "theabyss:unknown_ore"
+			}]
 		}
 		{
 			title: "Ice Ore"
@@ -376,6 +503,11 @@
 				timer: 5L
 				observe_type: 0
 				to_observe: "theabyss:abyssiceore"
+			}]
+			rewards: [{
+				id: "24B149384AE500B0"
+				type: "item"
+				item: "theabyss:abyssiceore"
 			}]
 		}
 		{
@@ -395,6 +527,11 @@
 				observe_type: 0
 				to_observe: "theabyss:abyssfireore"
 			}]
+			rewards: [{
+				id: "10F755A3B8EDB970"
+				type: "item"
+				item: "theabyss:abyssfireore"
+			}]
 		}
 		{
 			title: "Abyss Ore"
@@ -413,6 +550,11 @@
 				observe_type: 0
 				to_observe: "theabyss:abyssore"
 			}]
+			rewards: [{
+				id: "6ACA4ECB519A6DA4"
+				type: "item"
+				item: "theabyss:abyssore"
+			}]
 		}
 		{
 			x: 2.5d
@@ -427,6 +569,12 @@
 				type: "dimension"
 				dimension: "theabyss:theabyssdimiceworld"
 			}]
+			rewards: [{
+				id: "0BE948737D78BC4D"
+				type: "item"
+				item: "powah:dry_ice"
+				count: 10
+			}]
 		}
 		{
 			x: 5.5d
@@ -437,6 +585,12 @@
 				id: "3A495380B96C5429"
 				type: "dimension"
 				dimension: "theabyss:the_end_of_time"
+			}]
+			rewards: [{
+				id: "14E92852383E52A6"
+				type: "item"
+				item: "minecraft:jack_o_lantern"
+				count: 16
 			}]
 		}
 		{
@@ -449,6 +603,11 @@
 				type: "dimension"
 				dimension: "theabyss:the_end_of_time_2"
 			}]
+			rewards: [{
+				id: "2A87AE65362905BD"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 0.5d
@@ -459,6 +618,12 @@
 				id: "38AC72096D492513"
 				type: "dimension"
 				dimension: "thebeginning:theabyssdimbeginning"
+			}]
+			rewards: [{
+				id: "7B92588071A2E9D6"
+				type: "item"
+				item: "thebeginning:cloud_block"
+				count: 4
 			}]
 		}
 		{
@@ -478,6 +643,11 @@
 				observe_type: 0
 				to_observe: "thebeginning:florite_ore"
 			}]
+			rewards: [{
+				id: "22FBC7399436B4BC"
+				type: "item"
+				item: "thebeginning:florite_ore"
+			}]
 		}
 		{
 			x: -2.5d
@@ -486,6 +656,11 @@
 			id: "1ABFFC463B088605"
 			tasks: [{
 				id: "42A5A58E96559518"
+				type: "item"
+				item: "thebeginning:florite_ingot"
+			}]
+			rewards: [{
+				id: "12BEB982A596DBA7"
 				type: "item"
 				item: "thebeginning:florite_ingot"
 			}]
@@ -516,6 +691,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "2ACC9AFF0BB854AB"
+				type: "item"
+				item: "theabyss:abyssloranitem"
+			}]
 		}
 		{
 			title: "Abyss End Spider"
@@ -534,6 +714,11 @@
 				observe_type: 5
 				to_observe: "theabyss:endspider"
 			}]
+			rewards: [{
+				id: "5A4629FE90ED4687"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 4.5d
@@ -544,6 +729,12 @@
 				id: "524A033DB745218B"
 				type: "item"
 				item: "theabyss:nethernugget"
+			}]
+			rewards: [{
+				id: "3CCE7891FD16B683"
+				type: "item"
+				item: "theabyss:nethernugget"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -561,6 +752,11 @@
 				timer: 2L
 				observe_type: 5
 				to_observe: "theabyss:the_roka_end_boss"
+			}]
+			rewards: [{
+				id: "631BF2E88A494E0B"
+				type: "xp_levels"
+				xp_levels: 10
 			}]
 		}
 		{
@@ -601,6 +797,11 @@
 					to_observe: "theabyss:eot_end_shrine"
 				}
 			]
+			rewards: [{
+				id: "5EB70CF2233044C3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
 			x: 8.5d
@@ -617,6 +818,11 @@
 				timer: 2L
 				observe_type: 5
 				to_observe: "theabyss:nosaj_boss"
+			}]
+			rewards: [{
+				id: "034328656E77BC02"
+				type: "xp_levels"
+				xp_levels: 10
 			}]
 		}
 		{
@@ -657,6 +863,11 @@
 					to_observe: "theabyss:eot_end_shrine_2"
 				}
 			]
+			rewards: [{
+				id: "2CB4FFC2740CAF88"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
 			x: 10.0d
@@ -668,6 +879,11 @@
 				type: "item"
 				item: "theabyss:scorpioneye"
 				count: 2L
+			}]
+			rewards: [{
+				id: "45D05925046D9E4E"
+				type: "item"
+				item: "theabyss:scorpioneye"
 			}]
 		}
 		{
@@ -687,6 +903,11 @@
 				observe_type: 5
 				to_observe: "theabyss:netherscorpion"
 			}]
+			rewards: [{
+				id: "56BCB933BBB7C73E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
 			x: -4.5d
@@ -704,6 +925,11 @@
 				observe_type: 0
 				to_observe: "theabyss:garnite_ore"
 			}]
+			rewards: [{
+				id: "45766E355CC3E92E"
+				type: "item"
+				item: "theabyss:garnite_ore"
+			}]
 		}
 		{
 			x: -4.5d
@@ -712,6 +938,11 @@
 			id: "503BA9C76DDA7B69"
 			tasks: [{
 				id: "148B39113F5EC321"
+				type: "item"
+				item: "theabyss:garnite_ingot"
+			}]
+			rewards: [{
+				id: "2509357F4314A4B1"
 				type: "item"
 				item: "theabyss:garnite_ingot"
 			}]
@@ -732,6 +963,11 @@
 				timer: 5L
 				observe_type: 0
 				to_observe: "theabyss:fusionore"
+			}]
+			rewards: [{
+				id: "48BBFCD429F3DE2F"
+				type: "item"
+				item: "theabyss:fusionore"
 			}]
 		}
 		{
@@ -793,6 +1029,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "267E926ECAD3E72B"
+				type: "item"
+				item: "theabyss:abyssdiamond"
+				count: 6
+			}]
 		}
 		{
 			title: "Abyss Ultra Armor"
@@ -853,6 +1095,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "3C9377C745C43D79"
+				type: "item"
+				item: "theabyss:ultraabyssdiamond"
+				count: 4
+			}]
 		}
 		{
 			title: "Fire Armor"
@@ -913,6 +1161,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "3CBDA2F6178BAB9E"
+				type: "item"
+				item: "theabyss:abyssfirediamond"
+				count: 6
+			}]
 		}
 		{
 			title: "Ice Armor"
@@ -973,6 +1227,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "124B2327913D5975"
+				type: "item"
+				item: "theabyss:abyssicediamond"
+				count: 6
+			}]
 		}
 		{
 			title: "Fusion Armor"
@@ -1033,6 +1293,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "7640D822BDF6C836"
+				type: "item"
+				item: "theabyss:fusioningot"
+				count: 4
+			}]
 		}
 		{
 			title: "Unknown Armor"
@@ -1093,6 +1359,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "1A339FC2C66F023A"
+				type: "item"
+				item: "theabyss:unknown_diamond"
+				count: 6
+			}]
 		}
 		{
 			title: "Phantom Armor"
@@ -1156,6 +1428,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "58A1215A76C5B0FC"
+				type: "item"
+				item: "theabyss:phantom_ingot"
+				count: 2
+			}]
 		}
 		{
 			title: "Bone Armor"
@@ -1216,6 +1494,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "0DADBCAAF89D4793"
+				type: "item"
+				item: "theabyss:phantom_bone"
+				count: 6
+			}]
 		}
 		{
 			title: "Netherfire Armor"
@@ -1276,6 +1560,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "3EF0993D5FDB00F6"
+				type: "item"
+				item: "theabyss:netherfire_ingot"
+				count: 2
+			}]
 		}
 		{
 			title: "Garnite Armor"
@@ -1336,6 +1626,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "64C1704749546140"
+				type: "item"
+				item: "theabyss:garnite_ingot"
+				count: 6
+			}]
 		}
 		{
 			title: "Unorithe Armor"
@@ -1396,6 +1692,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "57350D6C43D0C9D1"
+				type: "item"
+				item: "theabyss:unorithe_ingot"
+				count: 2
+			}]
 		}
 		{
 			title: "Unorithe Armor (&4Netherite&r Fusion)"
@@ -1459,6 +1761,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "41ED82DF9D1022A9"
+				type: "item"
+				item: "theabyss:slime_stage_4"
+				count: 2
+			}]
 		}
 		{
 			title: "Abyss Armor (&4Netherite&r Fusion)"
@@ -1519,6 +1827,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "7A9B5B37A279116F"
+				type: "item"
+				item: "theabyss:slime_stage_4"
+				count: 2
+			}]
 		}
 		{
 			title: "Netherfire Armor (&4Netherite&r Fusion)"
@@ -1579,6 +1893,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "1F0AF82AA9B8434C"
+				type: "item"
+				item: "theabyss:slime_stage_4"
+				count: 2
+			}]
 		}
 		{
 			title: "Ice Armor (Netherite Fusion)"
@@ -1639,6 +1959,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "46FD627A8FCC227D"
+				type: "item"
+				item: "theabyss:slime_stage_4"
+				count: 2
+			}]
 		}
 		{
 			title: "Florite Armor"
@@ -1699,6 +2025,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "0014DF30F4FAAFF5"
+				type: "item"
+				item: "thebeginning:florite_ingot"
+				count: 6
+			}]
 		}
 		{
 			x: -5.5d
@@ -1707,6 +2039,11 @@
 			id: "4DA4860D10C053FE"
 			tasks: [{
 				id: "205DC50E939B6346"
+				type: "item"
+				item: "theabyss:unactivefusioningot"
+			}]
+			rewards: [{
+				id: "734F36E5BE776EF5"
 				type: "item"
 				item: "theabyss:unactivefusioningot"
 			}]
@@ -1721,6 +2058,11 @@
 				type: "item"
 				item: "theabyss:fusioningot"
 			}]
+			rewards: [{
+				id: "72E104C606B3279E"
+				type: "item"
+				item: "theabyss:fusioningot"
+			}]
 		}
 		{
 			x: 15.0d
@@ -1729,6 +2071,11 @@
 			id: "6FDBB9217E16AE9E"
 			tasks: [{
 				id: "41AD8D3194BA34E9"
+				type: "item"
+				item: "theabyss:phantom_ingot"
+			}]
+			rewards: [{
+				id: "5A390E39B2F11A6B"
 				type: "item"
 				item: "theabyss:phantom_ingot"
 			}]
@@ -1743,6 +2090,11 @@
 				type: "item"
 				item: "theabyss:phantom_essence"
 			}]
+			rewards: [{
+				id: "70193499BDFCD7ED"
+				type: "item"
+				item: "theabyss:phantom_essence"
+			}]
 		}
 		{
 			x: 13.0d
@@ -1751,6 +2103,11 @@
 			id: "34C4E61DA6186995"
 			tasks: [{
 				id: "2333B85ED84A07E9"
+				type: "item"
+				item: "theabyss:unorithe_ingot"
+			}]
+			rewards: [{
+				id: "465FA3DBE5DEEF92"
 				type: "item"
 				item: "theabyss:unorithe_ingot"
 			}]
@@ -1765,6 +2122,12 @@
 				type: "item"
 				item: "theabyss:slime_stage_1"
 			}]
+			rewards: [{
+				id: "45A5FAE9A227EF87"
+				type: "item"
+				item: "theabyss:slime_stage_1"
+				count: 2
+			}]
 		}
 		{
 			x: 8.5d
@@ -1775,6 +2138,12 @@
 				id: "1EE798A422BFED30"
 				type: "item"
 				item: "theabyss:slime_stage_2"
+			}]
+			rewards: [{
+				id: "06B3D08DAE232522"
+				type: "item"
+				item: "theabyss:slime_stage_2"
+				count: 2
 			}]
 		}
 		{
@@ -1787,6 +2156,11 @@
 				type: "item"
 				item: "theabyss:slime_stage_3"
 			}]
+			rewards: [{
+				id: "0D6C9B3CF4AD03D7"
+				type: "item"
+				item: "theabyss:slime_stage_3"
+			}]
 		}
 		{
 			x: 8.5d
@@ -1795,6 +2169,11 @@
 			id: "7516C939B91E17F1"
 			tasks: [{
 				id: "48F4FA0F38C4DE79"
+				type: "item"
+				item: "theabyss:slime_stage_4"
+			}]
+			rewards: [{
+				id: "538361B43D64DA55"
 				type: "item"
 				item: "theabyss:slime_stage_4"
 			}]
@@ -1815,6 +2194,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "58DDA13B36B4F92A"
+				type: "item"
+				item: "theabyss:life_stone"
+				count: 4
+			}]
 		}
 		{
 			x: 18.0d
@@ -1831,6 +2216,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "3293116AF5B11571"
+				type: "item"
+				item: "thebeginning:lazarus_stone"
+				count: 4
 			}]
 		}
 		{
@@ -1849,6 +2240,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "38387F1D752982ED"
+				type: "item"
+				item: "theabyss:abyssicediamond"
+				count: 4
+			}]
 		}
 		{
 			x: 18.5d
@@ -1865,6 +2262,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "125800AEB92AEB18"
+				type: "item"
+				item: "theabyss:thunder_stone"
+				count: 4
 			}]
 		}
 		{
@@ -1883,6 +2286,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "49D07E2F50F322C2"
+				type: "item"
+				item: "theabyss:abyssloranitem"
+			}]
 		}
 		{
 			x: 18.5d
@@ -1899,6 +2307,18 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "3F7F841D1DE2F22A"
+				type: "item"
+				item: {
+					id: "theabyss:enderbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				random_bonus: 1
 			}]
 		}
 		{
@@ -1917,6 +2337,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1BF12855A2BB61DF"
+				type: "item"
+				item: "minecraft:ender_eye"
+				count: 4
+			}]
 		}
 		{
 			x: 17.5d
@@ -1933,6 +2359,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "1B034CAA11B61A1E"
+				type: "item"
+				item: "theabyss:loran_energy"
+				count: 4
 			}]
 		}
 		{
@@ -1951,6 +2383,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "46511EE888402F15"
+				type: "item"
+				item: "theabyss:phantom_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 15.5d
@@ -1968,6 +2406,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4136FBA7641D24AF"
+				type: "item"
+				item: "theabyss:abyssfirenug"
+				count: 4
+			}]
 		}
 		{
 			x: 16.5d
@@ -1984,6 +2428,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "4A9CFDFC008C1C0B"
+				type: "item"
+				item: "theabyss:abyssdiamond"
+				count: 4
 			}]
 		}
 		{
@@ -2022,6 +2472,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7909007F85889EFD"
+				type: "item"
+				item: "theabyss:node_shard"
+				count: 2
+			}]
 		}
 		{
 			x: 13.5d
@@ -2038,6 +2494,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "609092CB21715358"
+				type: "item"
+				item: "theabyss:loran_energy"
+				count: 4
 			}]
 		}
 		{
@@ -2056,6 +2518,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "32978CA1185D26C7"
+				type: "item"
+				item: "theabyss:roka_horn"
+			}]
 		}
 		{
 			x: -5.5d
@@ -2064,6 +2531,11 @@
 			id: "334AC51D18410A5C"
 			tasks: [{
 				id: "568FFC343A43F69A"
+				type: "item"
+				item: "theabyss:loran_ingot"
+			}]
+			rewards: [{
+				id: "5432C23998787F36"
 				type: "item"
 				item: "theabyss:loran_ingot"
 			}]
@@ -2138,6 +2610,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "1B2FB6FDFD266761"
+				type: "item"
+				item: "theabyss:phantom_bone"
+				count: 4
+			}]
 		}
 		{
 			x: -3.5d
@@ -2158,6 +2636,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "26D26C71155D8375"
+				type: "item"
+				item: "theabyss:abyssfirediamond"
 			}]
 		}
 		{
@@ -2213,6 +2696,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "527329CF65CA4854"
+				type: "item"
+				item: "theabyss:abyssdiamond"
+				count: 4
+			}]
 		}
 		{
 			title: "Ultra Tools"
@@ -2278,6 +2767,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "69CD1B341702003F"
+				type: "item"
+				item: "theabyss:ultraabyssdiamond"
+				count: 4
+			}]
 		}
 		{
 			title: "Fusion Tools"
@@ -2343,6 +2838,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "6703A6C2551EE7E9"
+				type: "item"
+				item: "theabyss:fusioningot"
+				count: 4
+			}]
 		}
 		{
 			x: 0.5d
@@ -2431,6 +2932,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "73B9DF64B4F34689"
+				type: "item"
+				item: "theabyss:unknown_diamond"
+				count: 4
+			}]
 		}
 		{
 			x: 0.5d
@@ -2457,6 +2964,11 @@
 						]
 					}
 				}
+			}]
+			rewards: [{
+				id: "00EAA37BCED95284"
+				type: "item"
+				item: "theabyss:phantom_ingot"
 			}]
 		}
 		{
@@ -2512,6 +3024,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "4E283C03715DCB84"
+				type: "item"
+				item: "theabyss:phantom_ingot"
+				count: 2
+			}]
 		}
 		{
 			title: "Garnite Tools"
@@ -2566,6 +3084,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "0EE82CA847B13816"
+				type: "item"
+				item: "theabyss:garnite_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Unorithe Tools"
@@ -2612,6 +3136,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "4FB73F23504B8AC9"
+				type: "item"
+				item: "theabyss:unorithe_ingot"
+				count: 2
+			}]
 		}
 		{
 			title: "Knight Tools"
@@ -2686,6 +3216,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "258AC3E32DC5EE21"
+				type: "item"
+				item: "theabyss:knight_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: 8.5d
@@ -2694,6 +3230,11 @@
 			id: "14CC83498085D974"
 			tasks: [{
 				id: "00721D9894260688"
+				type: "item"
+				item: "theabyss:icora_stone"
+			}]
+			rewards: [{
+				id: "48B60332F4F3B5BE"
 				type: "item"
 				item: "theabyss:icora_stone"
 			}]
@@ -2708,6 +3249,11 @@
 			id: "61BAF2F81D87DAE5"
 			tasks: [{
 				id: "219E5530F68448E9"
+				type: "item"
+				item: "theabyss:knight_ingot"
+			}]
+			rewards: [{
+				id: "7C9F9E2F6135E48E"
 				type: "item"
 				item: "theabyss:knight_ingot"
 			}]
@@ -2726,6 +3272,11 @@
 				type: "item"
 				item: "theabyss:briked_knight_ingot"
 			}]
+			rewards: [{
+				id: "204479AD362D4BA9"
+				type: "item"
+				item: "theabyss:briked_knight_ingot"
+			}]
 		}
 		{
 			x: 13.0d
@@ -2737,6 +3288,11 @@
 				type: "item"
 				item: "theabyss:knight_shard"
 			}]
+			rewards: [{
+				id: "127198B14C0B8BD2"
+				type: "item"
+				item: "theabyss:knight_shard"
+			}]
 		}
 		{
 			title: "the lost letters"
@@ -2744,28 +3300,40 @@
 			y: -3.5d
 			dependencies: ["1A94F29EE2D84BCC"]
 			id: "0B8B819414E9C13C"
-			tasks: [
-				{
-					id: "3932D0EAE935D572"
-					type: "item"
-					item: "theabyss:lost_letter_pt_eof_2"
+			tasks: [{
+				id: "7401278EF14F1725"
+				type: "item"
+				title: "Letters"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "theabyss:lost_letter_pt_eof_1"
+								Count: 1b
+							}
+							{
+								id: "theabyss:lost_letter_pt_eof_2"
+								Count: 1b
+							}
+							{
+								id: "theabyss:lost_letter_pt_eof_3"
+								Count: 1b
+							}
+							{
+								id: "theabyss:lost_letter_pt_slime_fusion"
+								Count: 1b
+							}
+						]
+					}
 				}
-				{
-					id: "6732EDAE3DE760B5"
-					type: "item"
-					item: "theabyss:lost_letter_pt_eof_1"
-				}
-				{
-					id: "5ECFFEBC4404FB0E"
-					type: "item"
-					item: "theabyss:lost_letter_pt_slime_fusion"
-				}
-				{
-					id: "7FF7CAB9ED8F9388"
-					type: "item"
-					item: "theabyss:lost_letter_pt_eof_3"
-				}
-			]
+			}]
+			rewards: [{
+				id: "116BD5D31F86C134"
+				type: "item"
+				item: "theabyss:lost_letter_pt_eof_3"
+			}]
 		}
 		{
 			x: 13.0d
@@ -2774,6 +3342,11 @@
 			id: "65DEE077545EBC59"
 			tasks: [{
 				id: "450486B3F46E4BB9"
+				type: "item"
+				item: "theabyss:roka_horn"
+			}]
+			rewards: [{
+				id: "463E4B9304C9C5E1"
 				type: "item"
 				item: "theabyss:roka_horn"
 			}]
@@ -2794,6 +3367,12 @@
 				observe_type: 0
 				to_observe: "theabyss:monolith_letter"
 			}]
+			rewards: [{
+				id: "5ADD66BDBC390184"
+				type: "item"
+				item: "theabyss:monolith_letter"
+				count: 4
+			}]
 		}
 		{
 			x: 13.0d
@@ -2810,6 +3389,11 @@
 				timer: 0L
 				observe_type: 5
 				to_observe: "theabyss:the_roka"
+			}]
+			rewards: [{
+				id: "6E1C89B223998AA0"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -2828,6 +3412,11 @@
 				observe_type: 5
 				to_observe: "theabyss:ice_knight"
 			}]
+			rewards: [{
+				id: "3174CAF6C34BA1F6"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 7.0d
@@ -2845,6 +3434,11 @@
 				observe_type: 5
 				to_observe: "theabyss:slime_spider"
 			}]
+			rewards: [{
+				id: "043463A0E327D666"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 3.0d
@@ -2861,6 +3455,18 @@
 				type: "item"
 				item: "theabyss:end_of_time_book"
 			}]
+			rewards: [
+				{
+					id: "3F3A967D4BB42798"
+					type: "item"
+					item: "theabyss:lost_letter_pt_eof_3"
+				}
+				{
+					id: "5BCC17E452584363"
+					type: "item"
+					item: "theabyss:lost_letter_pt_eof_3"
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -2885,6 +3491,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2E14D92C0457C2A9"
+				type: "item"
+				item: "theabyss:end_of_time_book"
+			}]
 		}
 		{
 			x: 10.0d
@@ -2896,6 +3507,12 @@
 				type: "item"
 				item: "theabyss:abyssmelon"
 				count: 2L
+			}]
+			rewards: [{
+				id: "76EEF7E4E2AA648A"
+				type: "item"
+				item: "theabyss:abyssmelon"
+				count: 2
 			}]
 		}
 		{
@@ -2913,6 +3530,11 @@
 				timer: 0L
 				observe_type: 0
 				to_observe: "theabyss:blue_melon_block"
+			}]
+			rewards: [{
+				id: "4380FE0186D91C35"
+				type: "item"
+				item: "theabyss:blue_melon_block"
 			}]
 		}
 		{
@@ -2936,6 +3558,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "19E549C33A063DCA"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
 		}
 		{
 			x: 18.5d
@@ -2946,6 +3573,12 @@
 				id: "3977AFF1DB47EB74"
 				type: "item"
 				item: "theabyss:heal_camp_fire"
+			}]
+			rewards: [{
+				id: "5FE1A6EFB884FFCC"
+				type: "item"
+				item: "theabyss:loran_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -2958,6 +3591,11 @@
 				type: "item"
 				item: "theabyss:broken_phantom_bone"
 			}]
+			rewards: [{
+				id: "14732F09286EA6B4"
+				type: "item"
+				item: "theabyss:broken_phantom_bone"
+			}]
 		}
 		{
 			x: 8.5d
@@ -2966,6 +3604,11 @@
 			id: "56D68FD2F91E1AFE"
 			tasks: [{
 				id: "47D83AB2DB4E9910"
+				type: "item"
+				item: "theabyss:phantom_bone"
+			}]
+			rewards: [{
+				id: "71FD4F948D0FCE81"
 				type: "item"
 				item: "theabyss:phantom_bone"
 			}]
@@ -2984,6 +3627,11 @@
 				timer: 0L
 				observe_type: 0
 				to_observe: "theabyss:bone_block_abyss"
+			}]
+			rewards: [{
+				id: "787E0F53D9099E4F"
+				type: "item"
+				item: "theabyss:bone_block_abyss"
 			}]
 		}
 		{
@@ -3013,6 +3661,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7BD7345BC9A89FEB"
+				type: "item"
+				item: {
+					id: "theabyss:totem_of_thunder"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: 7.0d
@@ -3035,6 +3694,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "55683EA504E66EC8"
+				type: "item"
+				item: {
+					id: "theabyss:totem_of_abyss"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: 0.5d
@@ -3043,6 +3713,11 @@
 			id: "5640A9F291CFCD2E"
 			tasks: [{
 				id: "72A3401CB5AC2BFA"
+				type: "item"
+				item: "theabyss:netherfire_ingot"
+			}]
+			rewards: [{
+				id: "76E0A83C8AD3A0E8"
 				type: "item"
 				item: "theabyss:netherfire_ingot"
 			}]
@@ -3063,6 +3738,11 @@
 				observe_type: 5
 				to_observe: "theabyss:abysscreeper"
 			}]
+			rewards: [{
+				id: "49876F3DE9C0CC30"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 15.0d
@@ -3071,6 +3751,11 @@
 			id: "0A82FC8B1CF71CF7"
 			tasks: [{
 				id: "76B7F9289B2823ED"
+				type: "item"
+				item: "theabyss:creeper_dust"
+			}]
+			rewards: [{
+				id: "6390F03C59C6E461"
 				type: "item"
 				item: "theabyss:creeper_dust"
 			}]
@@ -3083,6 +3768,11 @@
 			id: "48F9166474F9D7D4"
 			tasks: [{
 				id: "248A5ECA5A7BB455"
+				type: "item"
+				item: "minecraft:totem_of_undying"
+			}]
+			rewards: [{
+				id: "44642CAA8C0FFBF9"
 				type: "item"
 				item: "minecraft:totem_of_undying"
 			}]
@@ -3103,6 +3793,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "7BF5097FBDF76B50"
+				type: "item"
+				item: "theabyss:abyssicediamond"
 			}]
 		}
 	]

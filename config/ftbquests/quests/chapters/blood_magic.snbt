@@ -34,6 +34,11 @@
 				type: "item"
 				item: "bloodmagic:altar"
 			}]
+			rewards: [{
+				id: "30E9914618598A78"
+				type: "item"
+				item: "chromasky:3x_compressed_stone"
+			}]
 		}
 		{
 			x: -1.5d
@@ -57,6 +62,11 @@
 				type: "item"
 				item: "bloodmagic:alchemytable"
 			}]
+			rewards: [{
+				id: "1A2D925BD364ED0A"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -4.0d
@@ -76,6 +86,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0956BCF4E0F24864"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 1.5d
@@ -85,6 +100,11 @@
 			id: "07B16F39EF24C5E8"
 			tasks: [{
 				id: "5A38E3DF350DE569"
+				type: "item"
+				item: "bloodmagic:life_essence_bucket"
+			}]
+			rewards: [{
+				id: "2F03220E088639C9"
 				type: "item"
 				item: "bloodmagic:life_essence_bucket"
 			}]
@@ -107,6 +127,11 @@
 				type: "item"
 				item: "bloodmagic:soulforge"
 			}]
+			rewards: [{
+				id: "17291050D1C4F28E"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 2.5d
@@ -118,6 +143,11 @@
 				id: "1F639253797627A8"
 				type: "item"
 				item: "bloodmagic:weakbloodorb"
+			}]
+			rewards: [{
+				id: "068A680336D72B70"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -136,6 +166,12 @@
 				type: "item"
 				item: "bloodmagic:soulsnare"
 			}]
+			rewards: [{
+				id: "45B8C2FEDF17EA62"
+				type: "item"
+				item: "bloodmagic:soulsnare"
+				count: 4
+			}]
 		}
 		{
 			x: 1.5d
@@ -144,6 +180,11 @@
 			id: "5188EC1BF58C53AE"
 			tasks: [{
 				id: "3D0FE976287AFA45"
+				type: "item"
+				item: "bloodmagic:blankslate"
+			}]
+			rewards: [{
+				id: "6125966C9776F6B9"
 				type: "item"
 				item: "bloodmagic:blankslate"
 			}]
@@ -177,6 +218,11 @@
 				item: "bloodmagic:blankrune"
 				count: 8L
 			}]
+			rewards: [{
+				id: "1AC4B057AE251276"
+				type: "item"
+				item: "bloodmagic:life_essence_bucket"
+			}]
 		}
 		{
 			x: 5.0d
@@ -190,6 +236,11 @@
 				type: "item"
 				item: "bloodmagic:daggerofsacrifice"
 			}]
+			rewards: [{
+				id: "0DF4F5C1E1447AC2"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 4.0d
@@ -198,6 +249,11 @@
 			id: "49FA91CAAB120631"
 			tasks: [{
 				id: "651FE2037B0A2E70"
+				type: "item"
+				item: "bloodmagic:reinforcedslate"
+			}]
+			rewards: [{
+				id: "2A52ABBCEDE7CE97"
 				type: "item"
 				item: "bloodmagic:reinforcedslate"
 			}]
@@ -212,6 +268,11 @@
 				id: "6874019CC4001F54"
 				type: "item"
 				item: "bloodmagic:apprenticebloodorb"
+			}]
+			rewards: [{
+				id: "1AAE9269F766E8F5"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -252,9 +313,14 @@
 					count: 4L
 				}
 			]
+			rewards: [{
+				id: "1DCF885124BBCA7F"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
-			x: 9.0d
+			x: 8.5d
 			y: -1.5d
 			dependencies: ["643221D07E10181E"]
 			id: "30C4B1967B040C9C"
@@ -262,6 +328,11 @@
 				id: "7A06373A744D26EC"
 				type: "item"
 				item: "bloodmagic:magicianbloodorb"
+			}]
+			rewards: [{
+				id: "18FE94B476C394EC"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -279,6 +350,11 @@
 				type: "item"
 				item: "bloodmagic:ritualdiviner"
 			}]
+			rewards: [{
+				id: "3D8E41D289A8376C"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 10.0d
@@ -287,6 +363,11 @@
 			id: "40BF29176669399A"
 			tasks: [{
 				id: "565BE90062AFB195"
+				type: "item"
+				item: "bloodmagic:infusedslate"
+			}]
+			rewards: [{
+				id: "5B86E761734D31B7"
 				type: "item"
 				item: "bloodmagic:infusedslate"
 			}]
@@ -301,16 +382,10 @@
 				type: "item"
 				item: "bloodmagic:activationcrystalweak"
 			}]
-		}
-		{
-			x: 8.0d
-			y: -1.5d
-			dependencies: ["643221D07E10181E"]
-			id: "5C726462D85CD1B0"
-			tasks: [{
-				id: "56EEF53C7C8C4874"
-				type: "item"
-				item: "bloodmagic:reinforcedslate"
+			rewards: [{
+				id: "333CFD776F90CF41"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -351,6 +426,11 @@
 					count: 4L
 				}
 			]
+			rewards: [{
+				id: "0D28B45A193440B6"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 7.0d
@@ -362,6 +442,11 @@
 				type: "item"
 				item: "bloodmagic:masterbloodorb"
 			}]
+			rewards: [{
+				id: "385C4B6DF1897F6D"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 7.0d
@@ -370,6 +455,11 @@
 			id: "6077AB5BB795BD9C"
 			tasks: [{
 				id: "55773AC52C7B5F3C"
+				type: "item"
+				item: "bloodmagic:demonslate"
+			}]
+			rewards: [{
+				id: "6FA20746045287EE"
 				type: "item"
 				item: "bloodmagic:demonslate"
 			}]
@@ -405,6 +495,11 @@
 					count: 4L
 				}
 			]
+			rewards: [{
+				id: "1809463DC650449D"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 10.020578231292518d
@@ -413,6 +508,11 @@
 			id: "16ECE876428DB73E"
 			tasks: [{
 				id: "4206BCE40C95AE5C"
+				type: "item"
+				item: "bloodmagic:etherealslate"
+			}]
+			rewards: [{
+				id: "7EE0CA2624E805B7"
 				type: "item"
 				item: "bloodmagic:etherealslate"
 			}]
@@ -435,6 +535,17 @@
 				type: "item"
 				item: "bloodmagic:basemonstersoul"
 			}]
+			rewards: [{
+				id: "6813B41FCD79A4D8"
+				type: "item"
+				item: {
+					id: "bloodmagic:basemonstersoul"
+					Count: 1b
+					tag: {
+						souls: 5.0d
+					}
+				}
+			}]
 		}
 		{
 			x: -0.5d
@@ -449,6 +560,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "139B9CEF944BD10A"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -465,6 +581,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "406D1ABC1ED95BE0"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -0.5d
@@ -480,6 +601,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "6B8901AB8B30F6AB"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -0.5d
@@ -494,6 +620,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "57F79C6821EFA02C"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -561,6 +692,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "3B229FBC25EEB19C"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 13.0d
@@ -574,6 +710,11 @@
 				id: "24C8B9F946F6F683"
 				type: "item"
 				item: "bloodmagic:ritualdivinerdusk"
+			}]
+			rewards: [{
+				id: "528C7F9954F32914"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -632,6 +773,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "1ADEDCF1183F8B78"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: -4.0d
@@ -658,6 +804,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2B5ABD55D2DAB346"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_regeneration"
+					}
+				}
+			}]
 		}
 		{
 			x: 2.5d
@@ -678,6 +835,11 @@
 					count: 36L
 				}
 			]
+			rewards: [{
+				id: "5A1469AEE2C1ADF8"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Demonic Machinery"
@@ -697,6 +859,11 @@
 					item: "bloodmagic:demoncrystallizer"
 				}
 			]
+			rewards: [{
+				id: "7A370F6CBED6AD85"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			icon: {
@@ -726,6 +893,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5A86406CD905C66F"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 10.0d
@@ -750,6 +922,12 @@
 				type: "item"
 				item: "bloodmagic:masterritualstone"
 			}]
+			rewards: [{
+				id: "2831E21645CBF5F2"
+				type: "item"
+				item: "bloodmagic:ritualstone"
+				count: 4
+			}]
 		}
 		{
 			title: "Call Of The Zephyr"
@@ -771,6 +949,11 @@
 				id: "760908A277351257"
 				type: "checkmark"
 				title: "Ritual Built"
+			}]
+			rewards: [{
+				id: "1F2A09356F94DC62"
+				type: "item"
+				item: "quark:oak_chest"
 			}]
 		}
 		{
@@ -799,6 +982,11 @@
 				type: "checkmark"
 				title: "Ritual Built"
 			}]
+			rewards: [{
+				id: "2FACF1B20386AD05"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Focus of the Ellipsoid"
@@ -826,6 +1014,11 @@
 				type: "checkmark"
 				title: "Ritual Built"
 			}]
+			rewards: [{
+				id: "43A34CB9CE24EE37"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Reap of the Harvest Moon"
@@ -852,6 +1045,12 @@
 				id: "1BBD71F51025D734"
 				type: "checkmark"
 				title: "Ritual Built"
+			}]
+			rewards: [{
+				id: "186D44262694BCA3"
+				type: "item"
+				item: "minecraft:carrot"
+				count: 8
 			}]
 		}
 		{
@@ -881,6 +1080,11 @@
 				type: "checkmark"
 				title: "Ritual Built"
 			}]
+			rewards: [{
+				id: "0C53A4ACB65AAE2F"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Ritual of Living Evolution"
@@ -907,6 +1111,11 @@
 				type: "checkmark"
 				title: "Ritual Built"
 			}]
+			rewards: [{
+				id: "19492DDB30E52C9A"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Ritual of Magnetism"
@@ -932,6 +1141,11 @@
 				id: "03726A51E80BBAEE"
 				type: "checkmark"
 				title: "Ritual Built"
+			}]
+			rewards: [{
+				id: "562A94DB94D3158A"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -960,6 +1174,11 @@
 				type: "checkmark"
 				title: "Ritual Built"
 			}]
+			rewards: [{
+				id: "1BEA2F8C2704B4E8"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Ritual of the Crusher"
@@ -986,6 +1205,11 @@
 				id: "615F21C6BEBAB70E"
 				type: "checkmark"
 				title: "Ritual Built"
+			}]
+			rewards: [{
+				id: "4C88564905E9B555"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1015,6 +1239,17 @@
 				type: "checkmark"
 				title: "Ritual Built"
 			}]
+			rewards: [{
+				id: "4B5C8051651966F3"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_regeneration"
+					}
+				}
+			}]
 		}
 		{
 			title: "Ritual of the Full Spring"
@@ -1038,6 +1273,11 @@
 				id: "0A48C939B8088E05"
 				type: "checkmark"
 				title: "Ritual Built"
+			}]
+			rewards: [{
+				id: "2D3CBC64DD40A22C"
+				type: "item"
+				item: "minecraft:water_bucket"
 			}]
 		}
 		{
@@ -1063,6 +1303,12 @@
 				id: "50235550BFBFE48D"
 				type: "checkmark"
 				title: "Ritual Built"
+			}]
+			rewards: [{
+				id: "3A0CCDA8B3B2B837"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 8
 			}]
 		}
 		{
@@ -1091,6 +1337,11 @@
 				type: "checkmark"
 				title: "Ritual Built"
 			}]
+			rewards: [{
+				id: "07B863A3D2B66A1F"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Serenade of the Nether"
@@ -1114,6 +1365,11 @@
 				id: "395E75473A8C8638"
 				type: "checkmark"
 				title: "Ritual Built"
+			}]
+			rewards: [{
+				id: "1185E1E56A14A76A"
+				type: "item"
+				item: "minecraft:lava_bucket"
 			}]
 		}
 		{
@@ -1143,6 +1399,11 @@
 				type: "checkmark"
 				title: "Ritual Built"
 			}]
+			rewards: [{
+				id: "61D2C0D4880188C8"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Well of Suffering"
@@ -1171,6 +1432,137 @@
 				type: "checkmark"
 				title: "Ritual Built"
 			}]
+			rewards: [{
+				id: "446E027031C56AA7"
+				type: "item"
+				item: {
+					id: "industrialforegoing:mob_imprisonment_tool"
+					Count: 1b
+					tag: {
+						Brain: {
+							memories: { }
+						}
+						HurtByTimestamp: 0
+						ForgeData: { }
+						CanJoinRaid: 1b
+						Attributes: [
+							{
+								Base: 0.25d
+								Name: "minecraft:generic.movement_speed"
+							}
+							{
+								Base: 16.0d
+								Modifiers: [{
+									Operation: 1
+									UUID: [I;
+										-1057324008
+										-613006152
+										-1361682475
+										547341087
+									]
+									Amount: 0.012665056871089625d
+									Name: "Random spawn bonus"
+								}]
+								Name: "minecraft:generic.follow_range"
+							}
+							{
+								Base: 0.08d
+								Name: "forge:entity_gravity"
+							}
+						]
+						PatrolLeader: 0b
+						Invulnerable: 0b
+						FallFlying: 0b
+						PortalCooldown: 0
+						AbsorptionAmount: 0.0f
+						FallDistance: 0.0f
+						CanUpdate: 1b
+						DeathTime: 0s
+						BoundingBox: [
+							240.19999998807907d
+							105.0d
+							5084.199999988079d
+							240.80000001192093d
+							106.95000004768372d
+							5084.800000011921d
+						]
+						ForgeCaps: {
+							"mana-and-artifice:pfx_capability": {
+								flags: 0L
+							}
+							"citadel:extended_entity_data_citadel": { }
+							"mekanism:radiation": {
+								radiation: 1.0E-7d
+							}
+						}
+						HandDropChances: [
+							0.085f
+							0.085f
+						]
+						PersistenceRequired: 0b
+						UUID: [I;
+							1878693736
+							-1806349511
+							-1383854953
+							1499725539
+						]
+						Patrolling: 0b
+						Motion: [
+							0.0d
+							-0.0784000015258789d
+							0.0d
+						]
+						Health: 26.0f
+						KubeJSPersistentData: { }
+						LeftHanded: 0b
+						Air: 300s
+						OnGround: 1b
+						CitadelData: { }
+						Rotation: [
+							17.953741f
+							0.0f
+						]
+						HandItems: [
+							{ }
+							{ }
+						]
+						Wave: 0
+						ArmorDropChances: [
+							0.085f
+							0.085f
+							0.085f
+							0.085f
+						]
+						Pos: [
+							240.5d
+							105.0d
+							5084.5d
+						]
+						Fire: -1s
+						ArmorItems: [
+							{ }
+							{ }
+							{ }
+							{ }
+						]
+						CanPickUpLoot: 0b
+						HurtTime: 0s
+						entity: "minecraft:witch"
+						ActiveEffects: [{
+							Ambient: 1b
+							CurativeItems: [{
+								id: "minecraft:milk_bucket"
+								Count: 1b
+							}]
+							ShowIcon: 1b
+							ShowParticles: 1b
+							Duration: 98
+							Id: 10b
+							Amplifier: 1b
+						}]
+					}
+				}
+			}]
 		}
 		{
 			x: 12.0d
@@ -1188,6 +1580,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "26C59EB44FD5C877"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1207,6 +1604,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "42D6F9DF0F60F13D"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 12.0d
@@ -1224,6 +1626,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "44944B9AC193628F"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1243,6 +1650,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3CAB06DAF2974098"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 12.0d
@@ -1260,6 +1672,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "412278EB1D69B814"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1286,6 +1703,11 @@
 				type: "checkmark"
 				title: "Ritual Built"
 			}]
+			rewards: [{
+				id: "3344FE887669CF52"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 20.5d
@@ -1300,6 +1722,11 @@
 			id: "0972DA566D31F61C"
 			tasks: [{
 				id: "43C9801DB06F052A"
+				type: "item"
+				item: "bloodmagic:simplekey"
+			}]
+			rewards: [{
+				id: "735BBCC3F134F00E"
 				type: "item"
 				item: "bloodmagic:simplekey"
 			}]
@@ -1340,6 +1767,11 @@
 					dimension: "bloodmagic:dungeon"
 				}
 			]
+			rewards: [{
+				id: "6546BC9A977A8C06"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 21.5d
@@ -1358,6 +1790,11 @@
 			id: "094E53A4DBFB3D59"
 			tasks: [{
 				id: "1BB85502B588136E"
+				type: "item"
+				item: "bloodmagic:weak_tau"
+			}]
+			rewards: [{
+				id: "11319697C78860A4"
 				type: "item"
 				item: "bloodmagic:weak_tau"
 			}]
@@ -1389,6 +1826,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1EE134CD0CAC9A80"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -4.0d
@@ -1415,6 +1857,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "44E95E5CD9C07CD5"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1444,6 +1891,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "34B41EF83B4350F0"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -4.5d
@@ -1457,6 +1909,11 @@
 				id: "41E476D9F1717291"
 				type: "item"
 				item: "bloodmagic:airsigil"
+			}]
+			rewards: [{
+				id: "7B329E234AE4BCCC"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1475,6 +1932,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "6E64050BAF1DAF60"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1508,6 +1970,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1CCA2C08EE994454"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -3.5d
@@ -1537,6 +2004,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6F0864FFFD23DB85"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -2.5d
@@ -1550,6 +2022,11 @@
 				id: "1E5CC0AD45B3048C"
 				type: "item"
 				item: "bloodmagic:watersigil"
+			}]
+			rewards: [{
+				id: "034FD7D9515AE55B"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1579,6 +2056,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "787D7632E10AD86F"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -3.0d
@@ -1597,6 +2079,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "203A8365A0DC1F6A"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -3.5d
@@ -1610,6 +2097,11 @@
 				id: "05D4172CC4BB2BAC"
 				type: "item"
 				item: "bloodmagic:seersigil"
+			}]
+			rewards: [{
+				id: "586678BD123BFFDC"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1629,6 +2121,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "3F204225DBDDAD5B"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 3.5d
@@ -1640,6 +2137,11 @@
 			id: "04259AEE1B76B118"
 			tasks: [{
 				id: "2E392B537FDB6A89"
+				type: "item"
+				item: "bloodmagic:speedrune"
+			}]
+			rewards: [{
+				id: "3F52AE0543456873"
 				type: "item"
 				item: "bloodmagic:speedrune"
 			}]
@@ -1657,6 +2159,11 @@
 				type: "item"
 				item: "bloodmagic:sacrificerune"
 			}]
+			rewards: [{
+				id: "438E7C7F10AA1035"
+				type: "item"
+				item: "bloodmagic:sacrificerune"
+			}]
 		}
 		{
 			x: 4.0d
@@ -1668,6 +2175,11 @@
 			id: "75799BECAD6DDD52"
 			tasks: [{
 				id: "25DD8054EBA91B80"
+				type: "item"
+				item: "bloodmagic:selfsacrificerune"
+			}]
+			rewards: [{
+				id: "561DD81EE1602CF3"
 				type: "item"
 				item: "bloodmagic:selfsacrificerune"
 			}]
@@ -1685,6 +2197,11 @@
 				type: "item"
 				item: "bloodmagic:dislocationrune"
 			}]
+			rewards: [{
+				id: "263A24318185E3D4"
+				type: "item"
+				item: "bloodmagic:dislocationrune"
+			}]
 		}
 		{
 			x: 3.0d
@@ -1696,6 +2213,11 @@
 			id: "1C73B88CAF77D053"
 			tasks: [{
 				id: "3533D797D7DA986D"
+				type: "item"
+				item: "bloodmagic:altarcapacityrune"
+			}]
+			rewards: [{
+				id: "714E9158354DE5DE"
 				type: "item"
 				item: "bloodmagic:altarcapacityrune"
 			}]
@@ -1713,6 +2235,11 @@
 				type: "item"
 				item: "bloodmagic:orbcapacityrune"
 			}]
+			rewards: [{
+				id: "0E7D2F3C94B47068"
+				type: "item"
+				item: "bloodmagic:orbcapacityrune"
+			}]
 		}
 		{
 			x: 4.0d
@@ -1724,6 +2251,11 @@
 			id: "506C96312A58392F"
 			tasks: [{
 				id: "3998817BE3B9229A"
+				type: "item"
+				item: "bloodmagic:chargingrune"
+			}]
+			rewards: [{
+				id: "2D930F2C45F0E326"
 				type: "item"
 				item: "bloodmagic:chargingrune"
 			}]
@@ -1741,6 +2273,11 @@
 				type: "item"
 				item: "bloodmagic:accelerationrune"
 			}]
+			rewards: [{
+				id: "4BDBE48C38E89A36"
+				type: "item"
+				item: "bloodmagic:accelerationrune"
+			}]
 		}
 		{
 			x: 4.5d
@@ -1752,6 +2289,11 @@
 			id: "466A3116027899E8"
 			tasks: [{
 				id: "4F2F66FE1A6C2BC2"
+				type: "item"
+				item: "bloodmagic:bettercapacityrune"
+			}]
+			rewards: [{
+				id: "1D5A36B4362EE9FE"
 				type: "item"
 				item: "bloodmagic:bettercapacityrune"
 			}]
@@ -1917,6 +2459,11 @@
 					count: 4L
 				}
 			]
+			rewards: [{
+				id: "1C9869C2A6F5A3A6"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			title: "Auto Blood Altar Part 2"
@@ -1961,6 +2508,11 @@
 					item: "minecraft:hopper"
 				}
 			]
+			rewards: [{
+				id: "36BE96957C1490F5"
+				type: "item"
+				item: "bloodmagic:weakbloodshard"
+			}]
 		}
 		{
 			title: "I've Built the Auto Blood Altar ! "
@@ -2026,6 +2578,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "647E4D11B9E062CB"
+				type: "item"
+				item: "mysticalagriculture:imperium_ingot"
+				count: 2
+			}]
 		}
 		{
 			x: 21.5d
@@ -2050,6 +2608,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "0E5D6C43786B977C"
+				type: "item"
+				item: "bloodmagic:infusedslate"
+			}]
 		}
 		{
 			x: 21.5d
@@ -2058,6 +2621,11 @@
 			id: "65BCF1AC99ABAE8E"
 			tasks: [{
 				id: "530844DE570235FF"
+				type: "item"
+				item: "bloodmagic:weakbloodshard"
+			}]
+			rewards: [{
+				id: "57097F93BC4E3F77"
 				type: "item"
 				item: "bloodmagic:weakbloodshard"
 			}]

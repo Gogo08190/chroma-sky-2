@@ -1,9 +1,10 @@
 {
 	id: "3BCD69F5799106EC"
 	order_index: 15
-	title: "Mystical essence Tier 6"
+	title: "&5Mystical Essence Tier 6"
 	icon: "mysticalagradditions:insanium_essence"
 	loot_size: 1
+	hide_tooltip: true
 	use_title: true
 	rewards: [
 		{ item: "mysticalagriculture:nitro_crystal_essence", count: 8, random_bonus: 4 }

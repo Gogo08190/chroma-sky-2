@@ -461,6 +461,11 @@
 				type: "item"
 				item: "dankstorage:dank_1"
 			}]
+			rewards: [{
+				id: "17D551F13F711CE6"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 5.5d
@@ -471,6 +476,11 @@
 				id: "51C0F6A6AE244A63"
 				type: "item"
 				item: "dankstorage:dank_2"
+			}]
+			rewards: [{
+				id: "77A7FC3A2982C685"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -483,6 +493,11 @@
 				type: "item"
 				item: "dankstorage:dank_3"
 			}]
+			rewards: [{
+				id: "7762B717098D0095"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 5.5d
@@ -493,6 +508,11 @@
 				id: "4F0910FC46227610"
 				type: "item"
 				item: "dankstorage:dank_4"
+			}]
+			rewards: [{
+				id: "708DA2018D08A92E"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -505,6 +525,11 @@
 				type: "item"
 				item: "dankstorage:dank_5"
 			}]
+			rewards: [{
+				id: "0FB0554B0764EB6C"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 5.5d
@@ -515,6 +540,11 @@
 				id: "6C95468DE9EAA328"
 				type: "item"
 				item: "dankstorage:dank_6"
+			}]
+			rewards: [{
+				id: "5233306B173E920A"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -527,6 +557,11 @@
 				type: "item"
 				item: "dankstorage:dank_7"
 			}]
+			rewards: [{
+				id: "5F58BB65D3EF3D93"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 6.5d
@@ -536,6 +571,11 @@
 				id: "3376EB16430E1ACC"
 				type: "item"
 				item: "dankstorage:dock"
+			}]
+			rewards: [{
+				id: "3CE29B24AAEAF895"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 	]

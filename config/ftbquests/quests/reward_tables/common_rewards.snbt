@@ -4,6 +4,89 @@
 	title: "&aCommon Rewards"
 	icon: "losttrinkets:treasure_bag"
 	loot_size: 1
+	hide_tooltip: true
 	use_title: true
-	rewards: [ ]
+	rewards: [
+		{ item: "minecraft:clay", count: 16 }
+		{ item: "minecraft:sand", count: 16 }
+		{ item: "minecraft:stone", count: 16 }
+		{ item: "minecraft:gravel", count: 16 }
+		{ item: "minecraft:dirt", count: 16 }
+		{ item: "minecraft:grass_block", count: 8 }
+		{ item: "minecraft:ink_sac", count: 8 }
+		{ item: "chromasky:iron_cluster", count: 8 }
+		{ item: "chromasky:gold_cluster", count: 8 }
+		{ item: "chromasky:diamond_cluster", count: 4 }
+		{ item: "chromasky:lapis_cluster", count: 4 }
+		{ item: "chromasky:quartz_cluster", count: 8 }
+		{ item: "chromasky:redstone_cluster", count: 4 }
+		{ item: "chromasky:emerald_cluster", count: 4 }
+		{ item: "chromasky:copper_cluster", count: 8 }
+		{ item: "chromasky:cobalt_cluster", count: 4 }
+		{ item: "chromasky:lead_cluster", count: 8 }
+		{ item: "chromasky:tin_cluster", count: 8 }
+		{ item: "chromasky:silver_cluster", count: 8 }
+		{ item: "chromasky:nickel_cluster", count: 8 }
+		{ item: "chromasky:osmium_cluster", count: 8 }
+		{ item: "chromasky:fluorite_cluster", count: 4 }
+		{ item: "chromasky:uranium_cluster", count: 8 }
+		{ item: "chromasky:aluminum_cluster", count: 8 }
+		{ item: "chromasky:coal_cluster", count: 16 }
+		{ item: "chromasky:1x_compressed_basalt", count: 2 }
+		{ item: "chromasky:1x_compressed_endstone", count: 2 }
+		{ item: "chromasky:1x_compressed_netherrack", count: 2 }
+		{ item: "mekanismadditions:cyan_balloon", count: 4 }
+		{ item: "mekanism:ingot_steel", count: 4 }
+		{ item: "expandedstorage:wood_to_gold_conversion_kit" }
+		{ item: "pamhc2crops:grapeitem", count: 16 }
+		{ item: "pamhc2crops:raspberryitem", count: 16 }
+		{ item: "pamhc2crops:blueberryitem", count: 16 }
+		{
+			item: {
+				id: "tconstruct:pickaxe_head"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:rose_gold"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:tough_handle"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:invar"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:tool_binding"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:pig_iron"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:broad_blade"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:bone"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:broad_axe_head"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:seared_stone"
+				}
+			}
+		}
+		{ item: "pamhc2crops:cranberryitem", count: 16 }
+		{ item: "pamhc2crops:huckleberryitem", count: 16 }
+	]
 }

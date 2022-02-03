@@ -1,9 +1,10 @@
 {
 	id: "4A1C774A6AFD1A0A"
 	order_index: 1
-	title: "Random Cluster"
+	title: "&cRandom Cluster"
 	icon: "chromasky:redstone_cluster"
 	loot_size: 1
+	hide_tooltip: true
 	use_title: true
 	rewards: [
 		{ item: "chromasky:iron_cluster" }

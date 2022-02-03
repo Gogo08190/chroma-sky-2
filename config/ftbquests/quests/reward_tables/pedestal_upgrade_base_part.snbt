@@ -4,6 +4,8 @@
 	title: "&ePedestal Upgrade Base Part&r"
 	icon: "pedestals:coin/default"
 	loot_size: 1
+	hide_tooltip: true
+	use_title: true
 	rewards: [
 		{ item: "minecraft:gold_block" }
 		{ item: "powah:energized_steel_block" }

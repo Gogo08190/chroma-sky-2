@@ -54,9 +54,9 @@
 				item: "miniutilities:blursed_earth"
 			}]
 			rewards: [{
-				id: "674B3FF848148C5E"
-				type: "item"
-				item: "miniutilities:unstable_block"
+				id: "2098F730BC8ABA22"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -464,11 +464,18 @@
 				type: "item"
 				item: "miniutilities:angel_ring"
 			}]
-			rewards: [{
-				id: "672519D1D16A21DE"
-				type: "item"
-				item: "overloaded:nether_star_block"
-			}]
+			rewards: [
+				{
+					id: "672519D1D16A21DE"
+					type: "item"
+					item: "overloaded:nether_star_block"
+				}
+				{
+					id: "77274318895EC282"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -763,6 +770,11 @@
 			id: "0CD840F613B5EB4A"
 			tasks: [{
 				id: "466935C3CFC3AFE9"
+				type: "item"
+				item: "miniutilities:angel_block"
+			}]
+			rewards: [{
+				id: "787CEB7A076D5DEA"
 				type: "item"
 				item: "miniutilities:angel_block"
 			}]

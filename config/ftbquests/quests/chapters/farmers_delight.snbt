@@ -730,6 +730,11 @@
 				type: "item"
 				item: "nethers_delight:magma_gelatin"
 			}]
+			rewards: [{
+				id: "7D3083E3C544877A"
+				type: "item"
+				item: "nethers_delight:magma_gelatin"
+			}]
 		}
 		{
 			x: 19.0d
@@ -1092,6 +1097,11 @@
 				type: "item"
 				item: "nethers_delight:warped_moldy_meat"
 			}]
+			rewards: [{
+				id: "27119B494C7CC119"
+				type: "item"
+				item: "nethers_delight:warped_moldy_meat"
+			}]
 		}
 		{
 			x: 9.5d
@@ -1103,6 +1113,11 @@
 				type: "item"
 				item: "nethers_delight:grilled_strider"
 			}]
+			rewards: [{
+				id: "59331DC5A673FC03"
+				type: "item"
+				item: "nethers_delight:grilled_strider"
+			}]
 		}
 		{
 			x: 10.5d
@@ -1111,6 +1126,11 @@
 			id: "5F8C1CA69CD48888"
 			tasks: [{
 				id: "065B00BBD557FE96"
+				type: "item"
+				item: "nethers_delight:hoglin_sirloin"
+			}]
+			rewards: [{
+				id: "38EBC9DBA8A7B5B8"
 				type: "item"
 				item: "nethers_delight:hoglin_sirloin"
 			}]
@@ -1192,6 +1212,11 @@
 				type: "item"
 				item: "nethers_delight:raw_stuffed_hoglin"
 			}]
+			rewards: [{
+				id: "5B7BF0158FB51848"
+				type: "item"
+				item: "nethers_delight:raw_stuffed_hoglin"
+			}]
 		}
 		{
 			x: 21.5d
@@ -1201,6 +1226,11 @@
 			id: "577403BE83F42DE6"
 			tasks: [{
 				id: "6FD7ED850E8EBEE6"
+				type: "item"
+				item: "nethers_delight:stuffed_hoglin_item"
+			}]
+			rewards: [{
+				id: "55AFB50548D53C24"
 				type: "item"
 				item: "nethers_delight:stuffed_hoglin_item"
 			}]
@@ -1215,6 +1245,11 @@
 				type: "item"
 				item: "nethers_delight:roast_hoglin"
 			}]
+			rewards: [{
+				id: "21FBDE843004FFEB"
+				type: "item"
+				item: "nethers_delight:roast_hoglin"
+			}]
 		}
 		{
 			x: 23.5d
@@ -1223,6 +1258,11 @@
 			id: "28747967DE9B8EB6"
 			tasks: [{
 				id: "59706183A5C09028"
+				type: "item"
+				item: "nethers_delight:roast_hoglin_ham"
+			}]
+			rewards: [{
+				id: "0D4920B592AE2F31"
 				type: "item"
 				item: "nethers_delight:roast_hoglin_ham"
 			}]
@@ -1237,6 +1277,11 @@
 				type: "item"
 				item: "nethers_delight:hoglin_ear"
 			}]
+			rewards: [{
+				id: "5298C318486A55E0"
+				type: "item"
+				item: "nethers_delight:hoglin_ear"
+			}]
 		}
 		{
 			x: 23.5d
@@ -1245,6 +1290,11 @@
 			id: "0277080B09700EDC"
 			tasks: [{
 				id: "69FB52D9D490CFE4"
+				type: "item"
+				item: "nethers_delight:roast_hoglin_snout"
+			}]
+			rewards: [{
+				id: "4B6413F7F6D2D54F"
 				type: "item"
 				item: "nethers_delight:roast_hoglin_snout"
 			}]

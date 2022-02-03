@@ -192,18 +192,11 @@
 				type: "item"
 				item: "pedestals:coin/default"
 			}]
-			rewards: [
-				{
-					id: "0E4DEF061DE56511"
-					type: "item"
-					item: "pedestals:coin/default"
-				}
-				{
-					id: "0235EC556B2449E7"
-					type: "random"
-					table_id: 5535491811443382877L
-				}
-			]
+			rewards: [{
+				id: "0E4DEF061DE56511"
+				type: "item"
+				item: "pedestals:coin/default"
+			}]
 		}
 		{
 			x: 0.5d

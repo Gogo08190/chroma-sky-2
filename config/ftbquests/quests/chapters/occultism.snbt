@@ -147,6 +147,11 @@
 				type: "item"
 				item: "occultism:datura_seeds"
 			}]
+			rewards: [{
+				id: "125DC70037646436"
+				type: "item"
+				item: "occultism:datura"
+			}]
 		}
 		{
 			x: 0.0d

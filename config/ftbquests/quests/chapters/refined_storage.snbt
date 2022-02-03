@@ -125,9 +125,10 @@
 				item: "refinedstorage:quartz_enriched_iron"
 			}]
 			rewards: [{
-				id: "5168F247AAC4757F"
-				type: "random"
-				table_id: 7381842975596526002L
+				id: "6AB29DD7F0CEDF8F"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				count: 4
 			}]
 		}
 		{
@@ -1009,9 +1010,10 @@
 				item: "refinedstorage:silicon"
 			}]
 			rewards: [{
-				id: "799B1DF49703CE7A"
-				type: "random"
-				table_id: 7381842975596526002L
+				id: "5B0225C2D3B0C68D"
+				type: "item"
+				item: "refinedstorage:silicon"
+				count: 8
 			}]
 		}
 		{
@@ -1137,9 +1139,10 @@
 				item: "refinedstorage:processor_binding"
 			}]
 			rewards: [{
-				id: "0F100BE81CC4EAB9"
-				type: "random"
-				table_id: 7381842975596526002L
+				id: "2E8E49ECBC1CF29E"
+				type: "item"
+				item: "refinedstorage:processor_binding"
+				count: 4
 			}]
 		}
 		{
@@ -1276,6 +1279,7 @@
 			x: 17.5d
 			y: -10.0d
 			shape: "diamond"
+			description: ["&aThe Kitchen Station&r needs to be placed as part of the kitchen network."]
 			hide_dependency_lines: true
 			dependencies: [
 				"49149CE5DB8F85F0"
@@ -1300,6 +1304,7 @@
 			x: 18.5d
 			y: -10.0d
 			shape: "diamond"
+			description: ["&aThe Kitchen Access Points&r needs to be placed in the Refined Storage Network."]
 			hide_dependency_lines: true
 			dependencies: [
 				"418E4C58B76E51A5"
@@ -1323,6 +1328,13 @@
 			x: 18.0d
 			y: -9.5d
 			shape: "diamond"
+			description: [
+				"The Kitchen Station acts as Refined Storage Network Receiver and needs to be attached to a Kitchen Network Card."
+				""
+				"Then this Kitchen Network Card needs to be placed inside a Kitchen Access Point, which acts a Refined Storage Network Transmitter."
+				""
+				"Once everything is connected, you'll be able to consume items from your Refined Storage network right from your cooking table."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"58A9D7D7EFE97810"
