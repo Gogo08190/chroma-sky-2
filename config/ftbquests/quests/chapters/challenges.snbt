@@ -82,7 +82,7 @@
 					}
 				}
 				stat: "minecraft:mob_kills"
-				value: 2000
+				value: 5000
 			}]
 			rewards: [
 				{
@@ -218,7 +218,7 @@
 					}
 				}
 				stat: "minecraft:enchant_item"
-				value: 100
+				value: 200
 			}]
 			rewards: [
 				{
@@ -378,6 +378,19 @@
 				observe_type: 5
 				to_observe: "draconicevolution:draconic_guardian"
 			}]
+			rewards: [
+				{
+					id: "1919744CBBE8298D"
+					type: "item"
+					item: "mysticalagriculture:chaos_essence"
+					count: 8
+				}
+				{
+					id: "2B36D077F16D59B6"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			title: "&dCraft All Foods"
