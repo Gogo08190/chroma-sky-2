@@ -587,9 +587,9 @@
 				dimension: "theabyss:the_end_of_time"
 			}]
 			rewards: [{
-				id: "14E92852383E52A6"
+				id: "6786525C4E50AFAB"
 				type: "item"
-				item: "minecraft:jack_o_lantern"
+				item: "chipped:jack_o_lantern_nether"
 				count: 16
 			}]
 		}

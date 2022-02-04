@@ -860,6 +860,11 @@
 				type: "item"
 				item: "integrateddynamics:on_the_dynamics_of_integration"
 			}]
+			rewards: [{
+				id: "3F40184EF1DB2A30"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 	]
 }

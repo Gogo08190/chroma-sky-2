@@ -249,6 +249,11 @@
 				type: "item"
 				item: "immersiveengineering:slag"
 			}]
+			rewards: [{
+				id: "25608851860B260F"
+				type: "item"
+				item: "immersiveengineering:slag"
+			}]
 		}
 		{
 			x: 4.0d

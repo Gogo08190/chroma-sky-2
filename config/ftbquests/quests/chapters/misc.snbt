@@ -1394,6 +1394,156 @@
 				type: "item"
 				item: "fluxnetworks:flux_configurator"
 			}]
+			rewards: [{
+				id: "7106992508037651"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 4
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["53FCCB40B318331E"]
+			id: "56875A475D14434A"
+			tasks: [{
+				id: "5765D63AEBD74668"
+				type: "item"
+				item: "chipped:botanist_workbench"
+			}]
+			rewards: [{
+				id: "6FDE16B9448E8920"
+				type: "item"
+				item: "minecraft:hay_block"
+				count: 16
+			}]
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["53FCCB40B318331E"]
+			id: "1F34494915EAE5BC"
+			tasks: [{
+				id: "3A0D22BC1F265D10"
+				type: "item"
+				item: "chipped:glassblower"
+			}]
+			rewards: [{
+				id: "5311D35E9AC5B9F6"
+				type: "item"
+				item: "minecraft:glass"
+				count: 64
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["53FCCB40B318331E"]
+			id: "3191E64323A356C0"
+			tasks: [{
+				id: "330A0929EEA61282"
+				type: "item"
+				item: "chipped:carpenters_table"
+			}]
+			rewards: [{
+				id: "252780248C83D223"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 16
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["53FCCB40B318331E"]
+			id: "62B3A9E256453AA4"
+			tasks: [{
+				id: "49A18DED2ED3EFEA"
+				type: "item"
+				item: "chipped:loom_table"
+			}]
+			rewards: [{
+				id: "6321934C1631D80A"
+				type: "item"
+				item: "minecraft:white_wool"
+				count: 8
+			}]
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["53FCCB40B318331E"]
+			id: "726D27170C82C636"
+			tasks: [{
+				id: "2CF3EB95058E805F"
+				type: "item"
+				item: "chipped:mason_table"
+			}]
+			rewards: [{
+				id: "6229617619A0B8F7"
+				type: "item"
+				item: "minecraft:stone"
+				count: 32
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["53FCCB40B318331E"]
+			id: "7281DAEB6EC0308A"
+			tasks: [{
+				id: "4782C7F55209D997"
+				type: "item"
+				item: "chipped:alchemy_bench"
+			}]
+			rewards: [{
+				id: "68E944EB1BA362E1"
+				type: "item"
+				item: "minecraft:glowstone"
+				count: 8
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["53FCCB40B318331E"]
+			id: "2C9AA7E3E13F6C2A"
+			tasks: [{
+				id: "2EBEEBDE0429F54F"
+				type: "item"
+				item: "chipped:mechanist_workbench"
+			}]
+			rewards: [{
+				id: "0DAECFF77E649A21"
+				type: "item"
+				item: "minecraft:redstone_torch"
+				count: 16
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			shape: "diamond"
+			description: [
+				"&eChipped&r expands on the variety of blocks you can use in-game."
+				""
+				"The mod offers over 2000 unique building blocks."
+				""
+				"Chipped works in the same way as the stone cutter."
+			]
+			id: "53FCCB40B318331E"
+			tasks: [{
+				id: "0B7775A6507C0BF0"
+				type: "checkmark"
+				title: "Chipped"
+			}]
 		}
 	]
 }

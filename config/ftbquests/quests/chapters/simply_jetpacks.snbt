@@ -87,6 +87,7 @@
 				id: "528862F55810A81D"
 				type: "item"
 				item: "thermal:lead_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -188,6 +189,7 @@
 				id: "06E0879DD913AC88"
 				type: "item"
 				item: "minecraft:gold_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -208,6 +210,7 @@
 				id: "0CA9C760213A1928"
 				type: "item"
 				item: "minecraft:gold_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -228,6 +231,7 @@
 				id: "72923141CED7B7A8"
 				type: "item"
 				item: "minecraft:diamond"
+				count: 4
 			}]
 		}
 		{
@@ -248,6 +252,7 @@
 				id: "0A94AEECF3222EFA"
 				type: "item"
 				item: "minecraft:diamond"
+				count: 4
 			}]
 		}
 		{
@@ -268,6 +273,7 @@
 				id: "328CA9B04D18F853"
 				type: "item"
 				item: "minecraft:netherite_ingot"
+				count: 3
 			}]
 		}
 		{
@@ -288,6 +294,7 @@
 				id: "296436FBE3EDB5E1"
 				type: "item"
 				item: "minecraft:netherite_ingot"
+				count: 3
 			}]
 		}
 		{
@@ -455,6 +462,7 @@
 				id: "198EDE6D93C8CFE6"
 				type: "item"
 				item: "thermal:lead_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -475,6 +483,7 @@
 				id: "7209AB59184466DC"
 				type: "item"
 				item: "thermal:invar_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -495,6 +504,7 @@
 				id: "51C74A7B6DC85EF2"
 				type: "item"
 				item: "thermal:invar_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -515,6 +525,7 @@
 				id: "6E943DA1D99130E1"
 				type: "item"
 				item: "thermal:electrum_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -535,6 +546,7 @@
 				id: "3804D4EA25B8548A"
 				type: "item"
 				item: "thermal:electrum_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -555,6 +567,7 @@
 				id: "5E0B075AF5B60AEF"
 				type: "item"
 				item: "thermal:enderium_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -575,6 +588,7 @@
 				id: "082CB06B7257D91C"
 				type: "item"
 				item: "thermal:enderium_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -595,6 +609,7 @@
 				id: "2EB83CCEC45CC8D7"
 				type: "item"
 				item: "simplyjetpacks:armorplating_te5"
+				count: 2
 			}]
 		}
 		{
@@ -615,6 +630,7 @@
 				id: "4DE5EE16E232A22C"
 				type: "item"
 				item: "simplyjetpacks:armorplating_te5_enderium"
+				count: 2
 			}]
 		}
 	]
