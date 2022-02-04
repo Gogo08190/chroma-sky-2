@@ -173,7 +173,7 @@
 					player_command: true
 				}
 				{
-					id: "16A1D1C4A478014E"
+					id: "75F86871DF34A8D2"
 					type: "item"
 					item: {
 						id: "minecraft:magenta_shulker_box"
@@ -242,7 +242,15 @@
 										id: "player_head"
 										Count: 1
 										tag: {
-											SkullOwner: "beua"
+											SkullOwner: "beuaaa2"
+										}
+									}
+									{
+										Slot: 8
+										id: "player_head"
+										Count: 1
+										tag: {
+											SkullOwner: "Mario_Kirarafan"
 										}
 									}
 								]
