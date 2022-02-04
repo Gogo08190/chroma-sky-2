@@ -43,4 +43,5 @@ onEvent("recipes", (event) => {
   event.remove({output: 'buildersaddition:iron_rod'})
   event.remove({output: 'theabyss:auto_smelt_pick_axe'})
   event.remove({output: 'extendedcrafting:ultimate_singularity'})
+  event.remove({output: 'mekanism:upgrade_anchor'})
 });

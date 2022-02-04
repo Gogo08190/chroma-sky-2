@@ -142,6 +142,7 @@ events.listen('jei.hide.items', function (event) {
     'mysticalagriculture:mithril_essence',
     'mysticalagriculture:titanium_essence',
     'mysticalagriculture:chrome_essence',
+    'mekanism:upgrade_anchor',
     'cyclic:fluid_pipe',
     'cyclic:item_pipe',
     'cyclic:energy_pipe',
