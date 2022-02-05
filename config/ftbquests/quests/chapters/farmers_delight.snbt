@@ -744,7 +744,7 @@
 			tasks: [{
 				id: "4AF4F0ADDE3C3762"
 				type: "checkmark"
-				title: "Yumi"
+				title: "Yummy"
 			}]
 		}
 		{
@@ -874,7 +874,7 @@
 		{
 			x: 12.5d
 			y: -9.5d
-			subtitle: "Don't need to be vegie"
+			subtitle: "Don't need to be veggie"
 			dependencies: ["30309EDA489E594A"]
 			id: "723B50BFEA16C8C4"
 			tasks: [{
@@ -1314,7 +1314,7 @@
 		{
 			x: 2.0d
 			y: -3.0d
-			subtitle: "You not deserve an &4hearth&r attack"
+			subtitle: "You do not deserve an &4heart&r attack"
 			dependencies: ["30309EDA489E594A"]
 			id: "736997EF7FABE1CD"
 			tasks: [{
@@ -1326,7 +1326,7 @@
 		{
 			x: 12.5d
 			y: -1.5d
-			subtitle: "Now the most yumi food"
+			subtitle: "Now the most yummy food"
 			size: 4.0d
 			id: "30309EDA489E594A"
 			tasks: [{

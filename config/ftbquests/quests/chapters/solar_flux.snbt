@@ -453,6 +453,11 @@
 				type: "item"
 				item: "solarflux:furnace_upgrade"
 			}]
+			rewards: [{
+				id: "2D7411BFA95CAA71"
+				type: "item"
+				item: "solarflux:blazing_coating"
+			}]
 		}
 		{
 			x: -5.0d

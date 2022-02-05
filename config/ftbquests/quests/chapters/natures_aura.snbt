@@ -1426,7 +1426,7 @@
 			x: 16.0d
 			y: -16.5d
 			shape: "circle"
-			description: ["Surely, at one point in their lives, any person dealing with trees was faced with this wellknow issue: An &dOak Sapling&r grows into a &6Big tree&r wich is hard to look at, to manage and to chop down."]
+			description: ["Surely, at one point in their lives, any person dealing with trees was faced with this wellknow issue: An &dOak Sapling&r grows into a &6Big tree&r which is hard to look at, to manage and to chop down."]
 			hide_dependency_lines: true
 			dependencies: [
 				"13D134D9CECC9EFA"

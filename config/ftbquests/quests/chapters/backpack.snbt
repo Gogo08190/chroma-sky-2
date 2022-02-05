@@ -383,7 +383,7 @@
 		{
 			x: 0.0d
 			y: -5.5d
-			description: ["Up to 6 stacks can be defined in its filter to refill like that"]
+			description: ["Up to 6 stacks can be defined in its filter to refill "]
 			dependencies: ["27442D51C7848385"]
 			id: "496AB4B2F1DB6DEB"
 			tasks: [{
@@ -716,7 +716,7 @@
 			y: -1.5d
 			description: [
 				"Pumps fluids between Tank upgrade and adjacent blocks"
-				"Works with fluid containers in hand dans fluid blocks in world"
+				"Works with fluid containers in hand and fluid blocks in world"
 				"allow to filter which fluids are pumped"
 			]
 			dependencies: ["6593FBB2CF040863"]
@@ -735,7 +735,7 @@
 		{
 			x: 0.0d
 			y: -2.5d
-			description: ["Pumps experience between Tank upgarde and player"]
+			description: ["Pumps experience between Tank upgrade and player"]
 			dependencies: ["2DC67FADD37722AD"]
 			id: "05667EA6D3F65BD1"
 			tasks: [{

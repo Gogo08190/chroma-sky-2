@@ -322,6 +322,12 @@
 				id: "122236451CF20FB5"
 				type: "item"
 				item: "apotheosis:armor_head_book"
+				count: 5L
+			}]
+			rewards: [{
+				id: "13D0BCCF719CB51F"
+				type: "item"
+				item: "apotheosis:armor_head_book"
 			}]
 		}
 		{

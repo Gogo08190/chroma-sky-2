@@ -147,7 +147,7 @@
 			y: 1.0d
 			shape: "diamond"
 			description: [
-				"To create as island do :"
+				"To create an island do :"
 				"&a/ftbteamislands create"
 				""
 				"After creating your island, you can teleport to it by using the command :"
@@ -305,7 +305,7 @@
 			description: [
 				"To share your quests with your friends, you need to create a team."
 				""
-				"To do this, execture this command :"
+				"To do this, execute this command :"
 				"&a/ftbteams party create"
 				""
 				"To invite your friends, execute this command :"

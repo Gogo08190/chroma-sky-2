@@ -1492,6 +1492,7 @@
 			x: 5.5d
 			y: 5.5d
 			description: ["A Block of Cheese can be made by interacting with an empty cauldron using a Bucket of Milk."]
+			dependencies: ["3F05D033EBD0710D"]
 			id: "70326FBA1D606DB4"
 			tasks: [
 				{

@@ -108,6 +108,7 @@
 			tasks: [{
 				id: "242277B3818464CC"
 				type: "dimension"
+				title: "Visit dimension: &aThe Abyss Dim"
 				dimension: "theabyss:theabyssdim"
 			}]
 			rewards: [{
@@ -221,6 +222,12 @@
 				id: "0110894504101F35"
 				type: "item"
 				item: "theabyss:thunder_stone"
+			}]
+			rewards: [{
+				id: "38ABD0C7342720A8"
+				type: "item"
+				item: "theabyss:thunder_stone"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -346,6 +353,8 @@
 				id: "4AC349FD6E993FC9"
 				type: "item"
 				item: "theabyss:abyssthunderplant"
+				count: 2
+				random_bonus: 4
 			}]
 		}
 		{
@@ -369,6 +378,8 @@
 				id: "149362F8E596DD09"
 				type: "item"
 				item: "theabyss:goldendeathplant"
+				count: 2
+				random_bonus: 4
 			}]
 		}
 		{
@@ -392,6 +403,8 @@
 				id: "0D1E50C7E8ADF216"
 				type: "item"
 				item: "theabyss:fireplantx"
+				count: 2
+				random_bonus: 4
 			}]
 		}
 		{
@@ -415,6 +428,8 @@
 				id: "6DB0FC9526E6569C"
 				type: "item"
 				item: "thebeginning:lazarus_flower"
+				count: 2
+				random_bonus: 4
 			}]
 		}
 		{
@@ -438,25 +453,35 @@
 				id: "0AE8B439692C043F"
 				type: "item"
 				item: "theabyss:icora_flower"
+				count: 2
+				random_bonus: 4
 			}]
 		}
 		{
 			title: "Phantom"
 			x: 17.0d
 			y: -8.5d
-			description: ["Look at an phantom and kill it"]
+			description: ["Look at a Phantom and kill it."]
 			hide_dependency_lines: true
 			dependencies: ["04CD419F2D4AB1D0"]
 			id: "377B8E23EDE65AD4"
-			tasks: [{
-				id: "1BAC475885C3EF60"
-				type: "observation"
-				title: "Phantom"
-				icon: "theabyss:eot_phantom_spawn_egg"
-				timer: 4L
-				observe_type: 5
-				to_observe: "theabyss:phantom_abyss_entity"
-			}]
+			tasks: [
+				{
+					id: "1BAC475885C3EF60"
+					type: "observation"
+					title: "Look at a &bPhantom&r"
+					icon: "theabyss:eot_phantom_spawn_egg"
+					timer: 4L
+					observe_type: 5
+					to_observe: "theabyss:phantom_abyss_entity"
+				}
+				{
+					id: "1649B331C318D93A"
+					type: "kill"
+					entity: "theabyss:phantom_abyss_entity"
+					value: 1L
+				}
+			]
 			rewards: [{
 				id: "23FBD1CE5EFD1A0E"
 				type: "xp"
@@ -567,6 +592,7 @@
 			tasks: [{
 				id: "6C41447E3F4CA625"
 				type: "dimension"
+				title: "Visit Dimension: &aIce world"
 				dimension: "theabyss:theabyssdimiceworld"
 			}]
 			rewards: [{
@@ -584,6 +610,7 @@
 			tasks: [{
 				id: "3A495380B96C5429"
 				type: "dimension"
+				title: "Visit Dimension: &aThe End Of Time"
 				dimension: "theabyss:the_end_of_time"
 			}]
 			rewards: [{
@@ -601,6 +628,7 @@
 			tasks: [{
 				id: "59264C451B28FE2F"
 				type: "dimension"
+				title: "Visit Dimension: &aThe End Of Time 2"
 				dimension: "theabyss:the_end_of_time_2"
 			}]
 			rewards: [{
@@ -617,6 +645,7 @@
 			tasks: [{
 				id: "38AC72096D492513"
 				type: "dimension"
+				title: "Visit dimension : &aThe Beginning"
 				dimension: "thebeginning:theabyssdimbeginning"
 			}]
 			rewards: [{
@@ -701,19 +730,27 @@
 			title: "Abyss End Spider"
 			x: 4.5d
 			y: -15.0d
-			description: ["Look at the abyss end spider and kill it"]
+			description: ["Look at &bThe Abyss End Spider&r and kill it."]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "324E9D65D883662B"
-			tasks: [{
-				id: "60DD0168C4798F09"
-				type: "observation"
-				title: "Abyss End Spider"
-				icon: "theabyss:endspider_spawn_egg"
-				timer: 4L
-				observe_type: 5
-				to_observe: "theabyss:endspider"
-			}]
+			tasks: [
+				{
+					id: "60DD0168C4798F09"
+					type: "observation"
+					title: "Look at &bThe Abyss End Spider "
+					icon: "theabyss:endspider_spawn_egg"
+					timer: 4L
+					observe_type: 5
+					to_observe: "theabyss:endspider"
+				}
+				{
+					id: "0C9ADF9C6D958DE1"
+					type: "kill"
+					entity: "theabyss:endspider"
+					value: 1L
+				}
+			]
 			rewards: [{
 				id: "5A4629FE90ED4687"
 				type: "xp"
@@ -738,21 +775,30 @@
 			}]
 		}
 		{
+			title: "The Roka End Boss"
 			x: 5.5d
 			y: -2.0d
-			description: ["Look at the roka end and kill it"]
+			description: ["Look at &bThe Roka End Boss&r and kill it."]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "77D3FC20B68C5A5B"
-			tasks: [{
-				id: "5213A1805570F5FC"
-				type: "observation"
-				title: "The Roka End Boss"
-				icon: "theabyss:the_roka_end_boss_spawn_egg"
-				timer: 2L
-				observe_type: 5
-				to_observe: "theabyss:the_roka_end_boss"
-			}]
+			tasks: [
+				{
+					id: "5213A1805570F5FC"
+					type: "observation"
+					title: "Look at &bThe Roka End Boss"
+					icon: "theabyss:the_roka_end_boss_spawn_egg"
+					timer: 2L
+					observe_type: 5
+					to_observe: "theabyss:the_roka_end_boss"
+				}
+				{
+					id: "7FFBF0A151249952"
+					type: "kill"
+					entity: "theabyss:the_roka_end_boss"
+					value: 1L
+				}
+			]
 			rewards: [{
 				id: "631BF2E88A494E0B"
 				type: "xp_levels"
@@ -804,16 +850,17 @@
 			}]
 		}
 		{
+			title: "The Nosaj End Boss"
 			x: 8.5d
 			y: -3.5d
-			description: ["Look at the nosaj end boos and kill it"]
+			description: ["Look at &bThe Nosaj End Boss&r and kill it."]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "3BDB681140D956F1"
 			tasks: [{
 				id: "30352A034F451C6B"
 				type: "observation"
-				title: "Nosaj End Boss"
+				title: "Look at &bThe Nosaj End Boss"
 				icon: "theabyss:nosaj_boss_spawn_egg"
 				timer: 2L
 				observe_type: 5
@@ -884,25 +931,36 @@
 				id: "45D05925046D9E4E"
 				type: "item"
 				item: "theabyss:scorpioneye"
+				count: 2
+				random_bonus: 2
 			}]
 		}
 		{
+			title: "Scorpion"
 			icon: "theabyss:netherscorpion_spawn_egg"
 			x: 10.0d
 			y: -15.0d
-			description: ["Look at a scorpion and kill it"]
+			description: ["Look at &ba Scorpion &rand kill it."]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "67323B8C47F85B81"
-			tasks: [{
-				id: "6BC5D09768A2F6B3"
-				type: "observation"
-				title: "Scorpion"
-				icon: "theabyss:netherscorpion_spawn_egg"
-				timer: 0L
-				observe_type: 5
-				to_observe: "theabyss:netherscorpion"
-			}]
+			tasks: [
+				{
+					id: "6BC5D09768A2F6B3"
+					type: "observation"
+					title: "Look at &ba Scorpion"
+					icon: "theabyss:netherscorpion_spawn_egg"
+					timer: 0L
+					observe_type: 5
+					to_observe: "theabyss:netherscorpion"
+				}
+				{
+					id: "0C6A535C2284F71B"
+					type: "kill"
+					entity: "theabyss:nether_scorpion_lv_l_4"
+					value: 1L
+				}
+			]
 			rewards: [{
 				id: "56BCB933BBB7C73E"
 				type: "xp_levels"
@@ -3225,7 +3283,7 @@
 		}
 		{
 			x: 8.5d
-			y: -12.0d
+			y: -11.5d
 			dependencies: ["2C6EC507A6C0A4EE"]
 			id: "14CC83498085D974"
 			tasks: [{
@@ -3237,6 +3295,7 @@
 				id: "48B60332F4F3B5BE"
 				type: "item"
 				item: "theabyss:icora_stone"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -3375,21 +3434,30 @@
 			}]
 		}
 		{
+			title: "The Roka"
 			x: 13.0d
 			y: -10.0d
-			description: ["Look at the roka and kill it"]
+			description: ["Look at the Roka and kill it."]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "7FA1A3460BF01273"
-			tasks: [{
-				id: "11F8BDF9B7790E62"
-				type: "observation"
-				title: "Roka"
-				icon: "theabyss:the_roka_spawn_egg"
-				timer: 0L
-				observe_type: 5
-				to_observe: "theabyss:the_roka"
-			}]
+			tasks: [
+				{
+					id: "11F8BDF9B7790E62"
+					type: "observation"
+					title: "Look at &bThe Roka&r"
+					icon: "theabyss:the_roka_spawn_egg"
+					timer: 0L
+					observe_type: 5
+					to_observe: "theabyss:the_roka"
+				}
+				{
+					id: "0D428C4268327B6F"
+					type: "kill"
+					entity: "theabyss:the_roka"
+					value: 1L
+				}
+			]
 			rewards: [{
 				id: "6E1C89B223998AA0"
 				type: "xp_levels"
@@ -3397,21 +3465,30 @@
 			}]
 		}
 		{
+			title: "Ice Knight"
 			x: 15.0d
 			y: -14.0d
-			description: ["Look at a knight ice and kill it"]
+			description: ["Look at a &bIce Knight&r and kill it."]
 			hide_dependency_lines: true
 			dependencies: ["1018CECF2CD1A0C9"]
 			id: "26053ECD39645ECC"
-			tasks: [{
-				id: "1B701C58464CF311"
-				type: "observation"
-				title: "Ice Knight"
-				icon: "theabyss:ice_knight_spawn_egg"
-				timer: 0L
-				observe_type: 5
-				to_observe: "theabyss:ice_knight"
-			}]
+			tasks: [
+				{
+					id: "1B701C58464CF311"
+					type: "observation"
+					title: "Look at a &bIce Knight"
+					icon: "theabyss:ice_knight_spawn_egg"
+					timer: 0L
+					observe_type: 5
+					to_observe: "theabyss:ice_knight"
+				}
+				{
+					id: "1F564286C66B972E"
+					type: "kill"
+					entity: "theabyss:ice_knight"
+					value: 1L
+				}
+			]
 			rewards: [{
 				id: "3174CAF6C34BA1F6"
 				type: "xp"
@@ -3419,21 +3496,30 @@
 			}]
 		}
 		{
+			title: "Slime Spider"
 			x: 7.0d
 			y: -15.0d
-			description: ["Look at a slime spider and kill it"]
+			description: ["Look at a &bSlime Spider&r and kill it."]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "7D8532ED0D801AF9"
-			tasks: [{
-				id: "0A473EEA1AA9B1DA"
-				type: "observation"
-				title: "Slime Spider"
-				icon: "theabyss:slime_spider_spawn_egg"
-				timer: 0L
-				observe_type: 5
-				to_observe: "theabyss:slime_spider"
-			}]
+			tasks: [
+				{
+					id: "0A473EEA1AA9B1DA"
+					type: "observation"
+					title: "Look at a &bSlime Spider"
+					icon: "theabyss:slime_spider_spawn_egg"
+					timer: 0L
+					observe_type: 5
+					to_observe: "theabyss:slime_spider"
+				}
+				{
+					id: "7AED5303B4AE2DBF"
+					type: "kill"
+					entity: "theabyss:slime_spider"
+					value: 1L
+				}
+			]
 			rewards: [{
 				id: "043463A0E327D666"
 				type: "xp"
@@ -3723,21 +3809,30 @@
 			}]
 		}
 		{
+			title: "Abyss Creeper"
 			x: 15.0d
 			y: -8.5d
-			description: ["Look at a abyss creeper and kill it"]
+			description: ["Look at an Abyss Creeper and kill it"]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "5F9ED8BF1BBB4ABC"
-			tasks: [{
-				id: "1C3F51997C25BED3"
-				type: "observation"
-				title: "Abyss Creeper"
-				icon: "theabyss:abysscreeper_spawn_egg"
-				timer: 0L
-				observe_type: 5
-				to_observe: "theabyss:abysscreeper"
-			}]
+			tasks: [
+				{
+					id: "1C3F51997C25BED3"
+					type: "observation"
+					title: "Look at an &bAbyss Creeper"
+					icon: "theabyss:abysscreeper_spawn_egg"
+					timer: 0L
+					observe_type: 5
+					to_observe: "theabyss:abysscreeper"
+				}
+				{
+					id: "14EA27B124760BA5"
+					type: "kill"
+					entity: "theabyss:abysscreeper"
+					value: 1L
+				}
+			]
 			rewards: [{
 				id: "49876F3DE9C0CC30"
 				type: "xp"

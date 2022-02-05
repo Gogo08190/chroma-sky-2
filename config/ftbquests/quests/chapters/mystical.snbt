@@ -5836,5 +5836,17 @@
 				table_id: 4309216921490884332L
 			}]
 		}
+		{
+			title: "&6Mystical Factory&r"
+			x: -18.5d
+			y: 13.5d
+			description: ["&4The Mystical Factory&r will allow you to transform essences to resources"]
+			dependencies: ["3200C3D9158B9D92"]
+			id: "2EB153359B10438F"
+			tasks: [{
+				id: "4B06B25A81A5D7E2"
+				type: "checkmark"
+			}]
+		}
 	]
 }
