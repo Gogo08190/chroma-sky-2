@@ -30,7 +30,7 @@ onEvent("recipes", (event) => {
   jar('tconstruct:seared_chute', ["4x tconstruct:seared_brick", "2x thermal:copper_ingot", "minecraft:hopper"]).time(200).highTemp();
   jar('tconstruct:seared_duct', ["4x tconstruct:seared_brick", "2x tconstruct:cobalt_ingot", "speedyhoppers:speedyhopper_mk1"]).time(200).highTemp();
 
-  jar('tconstruct:seared_brick', ["tconstruct:grout"]).time(200).highTemp();
+  jar('tconstruct:seared_brick', ["tconstruct:grout"]).time(200).lowTemp();
   jar('8x tconstruct:seared_brick', ["8x tconstruct:grout"]).time(600).highTemp();
   jar('16x tconstruct:seared_brick', ["16x tconstruct:grout"]).time(800).highTemp();
 
