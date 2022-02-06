@@ -84,6 +84,12 @@
         "image": "chromasky2:islands/screens/atterrissage.png"
       },
       {
+        "name": "Wizard Tower",
+        "desc": "by Mahat",
+        "structure": "wizardtower.nbt",
+        "image": "chromasky2:islands/screens/wizardtower.png"
+      },
+      {
         "name": "The Small House",
         "desc": "by JemerAlex",
         "structure": "smallhouse.nbt",
