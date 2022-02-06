@@ -95,7 +95,7 @@ onEvent('recipes', event => {
   'RSR'
   ], {
     S: 'minecraft:string',
-    R: 'cb_microblock:stone_rod'
+    R: 'minecraft:stick'
   })
 
   // Iron Mesh
