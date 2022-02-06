@@ -461,7 +461,7 @@
 			title: "Phantom"
 			x: 17.0d
 			y: -8.5d
-			description: ["Look at a Phantom and kill it."]
+			description: ["Look at a &bPhantom&r and kill it."]
 			hide_dependency_lines: true
 			dependencies: ["04CD419F2D4AB1D0"]
 			id: "377B8E23EDE65AD4"
@@ -3413,7 +3413,11 @@
 		{
 			x: 10.0d
 			y: -2.0d
-			description: ["look for and watch "]
+			description: [
+				"look for and watch ."
+				""
+				"To find it you have to explore the dimension."
+			]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "1A94F29EE2D84BCC"
@@ -3437,7 +3441,7 @@
 			title: "The Roka"
 			x: 13.0d
 			y: -10.0d
-			description: ["Look at the Roka and kill it."]
+			description: ["Look at the &bRoka&r and kill it."]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "7FA1A3460BF01273"
@@ -3812,7 +3816,7 @@
 			title: "Abyss Creeper"
 			x: 15.0d
 			y: -8.5d
-			description: ["Look at an Abyss Creeper and kill it"]
+			description: ["Look at an &bAbyss Creeper&r and kill it."]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "5F9ED8BF1BBB4ABC"

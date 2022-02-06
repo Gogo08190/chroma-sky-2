@@ -138,12 +138,33 @@
 		{
 			x: 0.0d
 			y: -0.5d
-			description: ["This item will permit you to see your advencement in the tier of mana and artefact, &4if you can not go in to mana and arteface tier just check out you maybe forgot a task&r"]
+			description: [
+				"Occulus tells the player what Tier, Items, Spells, Rituals, they have unlocked and what the player need to complete to advance to the next Tier."
+				""
+				"Your Tier is displayed at the top right of the GUI."
+				""
+				"On the right of the GUI is a bar that tells the player what objectives they need to complete to advance to the next Tier."
+				""
+				"&5Sorcery&r : Lists all of the spell Shapes, Components, and Modifiers that are unlocked."
+				""
+				"&5Rituals&r : Lists all of the Rituals that are unlocked."
+				""
+				"&5Manaweave Patterns&r : Lists all of the Manaweave Patterns that are unlocked."
+				""
+				"&5Manaweave Crafting&r : Lists all of the all of the crafting recipes for the Manaweave Altar that are unlocked."
+				""
+				"&5Runescribing&r : Lists all of the Runescribing Patterns that are unlocked."
+				""
+				"&5Runesmithing&r : Lists all of the Runes that are unlocked."
+				""
+				"&5Enchantments&r : Lists all of the Enchantments that are unlocked."
+			]
 			dependencies: [
 				"49766DA502FA3CE3"
 				"7455494CC9E4DF8B"
 				"48433427C278FD14"
 			]
+			min_width: 300
 			id: "4D65C663D6E33AD1"
 			tasks: [{
 				id: "5188E2343B5AE669"
@@ -163,36 +184,37 @@
 			}]
 		}
 		{
+			title: "&6Tier 1 &7→ &6Tier 2"
 			x: 6.0d
 			y: -8.5d
 			description: [
-				"Tier 2:"
+				"Tier 2 :"
 				""
 				"To move to Tier 2, you will need to perform several tasks but not all, but a minimum of 10, for a maximum of 12, you will need to: "
 				""
-				"-Cast a spell"
+				"• Cast a spell"
 				""
-				"-Cast a cantrip (a sequence of symbols drawn in the air via the manaweaving wand, you can see the combinations by doing ctrl+right click you can select the symbols to be drawn by clicking on the little arrows right next to the symbol under the cantrip)"
+				"• Cast a cantrip (a sequence of symbols drawn in the air via the manaweaving wand, you can see the combinations by doing ctrl+right click you can select the symbols to be drawn by clicking on the little arrows right next to the symbol under the cantrip)"
 				""
-				"-Make a tier 1 ritual (you can see them in the codex, you just have to put the symbols on the ground as indicated on the craft, to activate the ritual you have to right click with a purified vinteum dust to see the items then right click again to activate the ritual)"
+				"• Make a tier 1 ritual (you can see them in the codex, you just have to put the symbols on the ground as indicated on the craft, to activate the ritual you have to right click with a purified vinteum dust to see the items then right click again to activate the ritual)"
 				""
-				"-Create a manaweaving altar"
+				"• Create a manaweaving altar"
 				""
-				"-Create a viteum manaweaving wand"
+				"• Create a viteum manaweaving wand"
 				""
-				"-Create a spell of complexity 15 or more"
+				"• Create a spell of complexity 15 or more"
 				""
-				"-Create an inscription table"
+				"• Create an inscription table"
 				""
-				"-Craft something with a manaweaving altar"
+				"• Craft something with a manaweaving altar"
 				""
-				"-Draw a symbol with the manaweaving wand (right click while drawing in the air)"
+				"• Draw a symbol with the manaweaving wand (right click while drawing in the air)"
 				""
-				"-Reach a magic level of 15 (this level will increase as you use magic)"
+				"• Reach a magic level of 15 (this level will increase as you use magic)"
 				""
-				"-use a bonefeather charm"
+				"• Use a bonefeather charm"
 				""
-				"-use an enderfeather charm"
+				"• Use an enderfeather charm"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -208,44 +230,45 @@
 			tasks: [{
 				id: "21949E2CB8FDCE4C"
 				type: "checkmark"
-				title: "Tier2"
+				title: "Reaching &5Tier 2"
 			}]
 		}
 		{
+			title: "&6Tier 2 &7→ &6Tier 3"
 			x: 16.0d
 			y: -8.0d
 			description: [
-				"Tier 3:"
+				"Tier 3 :"
 				""
 				"To move to Tier 3, you will need to perform several tasks but not all, but a minimum of 11, for a maximum of 14, you will need to: "
 				""
-				"-Add a modifier to a spell using the Ritual of Alteration"
+				"• Add a modifier to a spell using the Ritual of Alteration"
 				""
-				"-Craft a Magic Broom"
+				"• Craft a Magic Broom"
 				""
-				"-Cast a tier 2 cantrip"
+				"• Cast a tier 2 cantrip"
 				""
-				"-Craft a Mana Crystal"
+				"• Craft a Mana Crystal"
 				""
-				"-Craft a mana crystal fragment"
+				"• Craft a mana crystal fragment"
 				""
-				"-Craft a construct with at least 3 wood or stone part"
+				"• Craft a construct with at least 3 wood or stone part"
 				""
-				"-Craft a spell with complexity 35 or more"
+				"• Craft a spell with complexity 35 or more"
 				""
-				"-Craft a unfired Rune plate"
+				"• Craft a unfired Rune plate"
 				""
-				"_Craft a elemental mote using using one of the 6 mote ritual"
+				"• Craft a elemental mote using using one of the 6 mote ritual"
 				""
-				"-Have an active set bonus (You will need to wear at least 3 part of the Mage Armor)"
+				"• Have an active set bonus (You will need to wear at least 3 part of the Mage Armor)"
 				""
-				"-Make a charcoal print of a scribed rune ate the runic anvil"
+				"• Make a charcoal print of a scribed rune ate the runic anvil"
 				""
-				"-Reach magic level 30"
+				"• Reach magic level 30"
 				""
-				"-Runeforge a rune"
+				"• Runeforge a rune"
 				""
-				"-Runescribe a rune Pattern"
+				"• Runescribe a rune Pattern"
 			]
 			hide_dependency_lines: true
 			dependencies: ["1AF520BA592D90CD"]
@@ -254,42 +277,43 @@
 			tasks: [{
 				id: "7B4C7C4592917C6E"
 				type: "checkmark"
-				title: "Tier3"
+				title: "Reaching &5Tier 3"
 			}]
 		}
 		{
+			title: "&6Tier 3 &7→ &6Tier 4"
 			x: 10.5d
 			y: 7.0d
 			description: [
-				"Tier4:"
+				"Tier 4 :"
 				""
 				"To move to Tier 4, you will need to perform several tasks but not all, but a minimum of 11, for a maximum of 14, you will need to:"
 				""
-				"-Cast a tier 3 cantrip"
+				"• Cast a tier 3 cantrip"
 				""
-				"-Complete a tier 3 ritual"
+				"• Complete a tier 3 ritual"
 				""
-				"-Craft a construct with at least 3 iron or gold parts"
+				"• Craft a construct with at least 3 iron or gold parts"
 				""
-				"-Craft a spell with complexity 55 or more"
+				"• Craft a spell with complexity 55 or more"
 				""
-				"-Craft an Eldritch Orb"
+				"• Craft an Eldritch Orb"
 				""
-				"-Craft an artifact from your faction at the Manaweaving Altar"
+				"• Craft an artifact from your faction at the Manaweaving Altar"
 				""
-				"-Enchant an item using the Runic Anvil"
+				"• Enchant an item using the Runic Anvil"
 				""
-				"-Find a Nether Fortress"
+				"• Find a Nether Fortress"
 				""
-				"-Perform a Sanctum Invcation ritual and complete the structure"
+				"• Perform a Sanctum Invcation ritual and complete the structure"
 				""
-				"-Reach 10km away from the world spawn"
+				"• Reach 10km away from the world spawn"
 				""
-				"-Reach magic level 45"
+				"• Reach magic level 45"
 				""
-				"-Reach the Nether "
+				"• Reach the Nether "
 				""
-				"-Summon a &5Wither&r"
+				"• Summon a &5Wither&r"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -312,36 +336,37 @@
 			tasks: [{
 				id: "2D63A37E0E1255CA"
 				type: "checkmark"
-				title: "Tier4"
+				title: "Reaching &5Tier 4"
 			}]
 		}
 		{
+			title: "&6Tier 4 &7→ &6Tier 5"
 			x: 15.0d
 			y: 0.0d
 			description: [
-				"Tier 5:"
+				"Tier 5 :"
 				""
 				"To move to Tier 5, you will need to perform several tasks but not all, but a minimum of 9, for a maximum of 11, you will need to: "
 				""
-				"-Cast a tier 4 cantrip"
+				"• Cast a tier 4 cantrip"
 				""
-				"-Craft a Transitory Tunnel"
+				"• Craft a Transitory Tunnel"
 				""
-				"-Craft a construct with at least 3 obsidian parts"
+				"• Craft a construct with at least 3 obsidian parts"
 				""
-				"-Craft a spell with complexity 75 or more"
+				"• Craft a spell with complexity 75 or more"
 				""
-				"-Enchant an item with an enchantment of level III or more using the Runic Anvil"
+				"• Enchant an item with an enchantment of level III or more using the Runic Anvil"
 				""
-				"-Kill the Ender Dragon"
+				"• Kill the Ender Dragon"
 				""
-				"-Obtain Dragon’s Breath"
+				"• Obtain Dragon’s Breath"
 				""
-				"-Obtain Elytra"
+				"• Obtain Elytra"
 				""
-				"-Reach magic level 60"
+				"• Reach magic level 60"
 				""
-				"-Upgrade a Runeforge to a Brimstone Forge using a Brimstone Charm"
+				"• Upgrade a Runeforge to a Brimstone Forge using a Brimstone Charm"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -361,7 +386,7 @@
 			tasks: [{
 				id: "0301E3DD744FD467"
 				type: "checkmark"
-				title: "Tier5"
+				title: "Reaching &5Tier 5"
 			}]
 		}
 		{
@@ -396,6 +421,7 @@
 			x: -1.5d
 			y: -6.5d
 			shape: "hexagon"
+			description: ["To obtain &eVellum&r, right-click on &bWater&r while holding &6Leather&r."]
 			hide_dependency_lines: true
 			dependencies: ["4D65C663D6E33AD1"]
 			id: "3F20415ED705FE0B"
@@ -557,7 +583,10 @@
 			shape: "hexagon"
 			description: [
 				"The manaweave projector is her to help you automate the manaweaving, but to make him reproduce a new pattarn you will need to right click with a manaweaving pattern."
-				"The manaweaving pattern can be buy from a specific trader : &athe wandering wizzard&r. &aThe wandering wizard&r can be summon from &bthe ritual of wandering wizard.&r"
+				""
+				"The manaweaving pattern can be buy from a specific trader : &athe wandering wizzard&r."
+				""
+				"&aThe wandering wizard&r can be summon from &bthe ritual of wandering wizard&r."
 			]
 			dependencies: ["4D65C663D6E33AD1"]
 			id: "515EF3943ECD7DDB"
@@ -886,7 +915,7 @@
 			y: 2.0d
 			shape: "hexagon"
 			subtitle: "Remote Getaway"
-			description: ["Same as the &4Nether Painting&r just jump into it to access the &5End&r"]
+			description: ["Same as the &4Nether Painting&r just jump into it to access the &5End&r."]
 			hide_dependency_lines: true
 			dependencies: ["5549ED33FDF4AEAF"]
 			id: "0BDA67667CF2B2A3"
@@ -2228,19 +2257,19 @@
 				""
 				"Wizard's Council :"
 				""
-				" -Bracelet of Eldrin Power/-Eldrin Sight Unguent"
+				"• Bracelet of Eldrin Power/-Eldrin Sight Unguent"
 				""
 				"Fey:"
 				""
-				"-Bracelet of Antidote/-Bracelet of Trickery"
+				"• Bracelet of Antidote/-Bracelet of Trickery"
 				""
 				"Demons:"
 				""
-				"-Emberglow Bracelet"
+				"• Emberglow Bracelet"
 				""
 				"Undead:"
 				""
-				"-Coffin"
+				"• Coffin"
 			]
 			dependencies: ["4673AA05474E416E"]
 			min_width: 250
@@ -2466,7 +2495,7 @@
 		{
 			x: 10.5d
 			y: 4.5d
-			description: ["Just right cilck with it on a forge"]
+			description: ["Just right cilck with it on a forge."]
 			dependencies: ["1896236FC7BEFF73"]
 			id: "14AE28056311492E"
 			tasks: [{
@@ -2805,8 +2834,9 @@
 			x: 11.5d
 			y: 5.0d
 			description: [
-				"Now to cap the wellspring energy you will need to build a structure on it, each lens provides you a different type of &dmana&r (&6earth&r,&1water&r,etc)"
-				"To see how to build this structure please read the codex"
+				"Now to cap the wellspring energy you will need to build a structure on it, each lens provides you a different type of &dmana&r (&6Earth&r, &1Water&r, etc)."
+				""
+				"To see how to build this structure please read the codex."
 			]
 			dependencies: ["0E996FBAF5DB9C91"]
 			id: "68AA9C78C4049902"
@@ -3244,7 +3274,7 @@
 			x: 15.0d
 			y: 1.5d
 			subtitle: "Call The legion!!!"
-			description: ["It will call a certain amount of minion from your faction"]
+			description: ["It will call a certain amount of minion from your faction."]
 			dependencies: ["38EF232690208FB4"]
 			id: "3966B9895A5FE883"
 			tasks: [{
@@ -3495,7 +3525,7 @@
 		{
 			x: 13.5d
 			y: 0.0d
-			description: ["To gain this beautiful axe you need to kill &9Odin Father of all thing&r he can be call by performing &1the ritual of odin call&r"]
+			description: ["To gain this beautiful axe you need to kill &9Odin Father of all thing&r he can be call by performing &1the ritual of odin call&r."]
 			dependencies: ["38EF232690208FB4"]
 			id: "5DEEFAD308D713E0"
 			tasks: [{
