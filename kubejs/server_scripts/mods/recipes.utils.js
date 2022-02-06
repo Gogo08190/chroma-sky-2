@@ -105,7 +105,7 @@ onEvent("recipes", (event) => {
     'OPO',
     'NON'
     ], {
-      N: 'chromasky:2x_compressed_netherrack',
+      N: 'chromasky:1x_compressed_netherrack',
       O: 'minecraft:obsidian',
       P: 'minecraft:painting'
     });
@@ -116,7 +116,7 @@ onEvent("recipes", (event) => {
     'OPO',
     'NON'
     ], {
-      N: 'chromasky:3x_compressed_endstone',
+      N: 'chromasky:2x_compressed_endstone',
       O: 'chromasky:enderessence',
       P: 'minecraft:painting'
     });
