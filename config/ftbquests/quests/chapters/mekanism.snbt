@@ -2363,6 +2363,11 @@
 				type: "item"
 				item: "mekanism:upgrade_muffling"
 			}]
+			rewards: [{
+				id: "0D3B8301610C6FE7"
+				type: "item"
+				item: "mekanism:upgrade_muffling"
+			}]
 		}
 		{
 			x: 4.0d
@@ -3228,6 +3233,12 @@
 				item: "mekanismgenerators:fusion_reactor_frame"
 				count: 4L
 			}]
+			rewards: [{
+				id: "1B1C4C5A83053023"
+				type: "item"
+				item: "mekanismgenerators:fusion_reactor_frame"
+				count: 4
+			}]
 		}
 		{
 			x: -6.0d
@@ -3326,6 +3337,11 @@
 			id: "6718734F1501927A"
 			tasks: [{
 				id: "3F48360EF37ADA11"
+				type: "item"
+				item: "mekanismgenerators:saturating_condenser"
+			}]
+			rewards: [{
+				id: "4FC72DFF3C7AB36F"
 				type: "item"
 				item: "mekanismgenerators:saturating_condenser"
 			}]
@@ -4286,6 +4302,11 @@
 				id: "2E889069CA0A5BBA"
 				type: "item"
 				item: "mekanism:electric_pump"
+			}]
+			rewards: [{
+				id: "53561D845DC911CF"
+				type: "item"
+				item: "mekanism:heavy_water_bucket"
 			}]
 		}
 	]

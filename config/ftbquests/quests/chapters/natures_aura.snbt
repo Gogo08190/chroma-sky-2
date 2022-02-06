@@ -500,7 +500,7 @@
 		{
 			x: -6.5d
 			y: -11.5d
-			description: ["Exploration and beauty"]
+			description: ["Exploration and beauty."]
 			dependencies: ["67BC8A5CBAF363F8"]
 			id: "606BD6F121A796AF"
 			tasks: [{
@@ -534,7 +534,7 @@
 		{
 			x: -4.5d
 			y: -13.0d
-			description: ["Explosiveness, Fire and Dark"]
+			description: ["Explosiveness, Fire and Dark."]
 			dependencies: ["67BC8A5CBAF363F8"]
 			id: "30905843166E7619"
 			tasks: [{
@@ -564,7 +564,7 @@
 		{
 			x: -1.0d
 			y: -11.5d
-			description: ["Fragility and Death"]
+			description: ["Fragility and Death."]
 			dependencies: ["67BC8A5CBAF363F8"]
 			id: "1074EAA509CF1984"
 			tasks: [{

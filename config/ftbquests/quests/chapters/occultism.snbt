@@ -184,12 +184,17 @@
 				type: "checkmark"
 				title: "Spiritfire!"
 			}]
+			rewards: [{
+				id: "77001EDF3390EF8B"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 2.5d
 			y: -2.5d
 			subtitle: "Am I seeing weird things?"
-			description: ["Throw an Oak Sapling into the &5Spiritfire&r"]
+			description: ["Throw an Oak Sapling into the &5Spiritfire&r."]
 			dependencies: ["5007B0720DA78896"]
 			id: "748B28CA71EB65FE"
 			tasks: [{
@@ -203,18 +208,28 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3D855BC15F18F563"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 3.0d
 			y: -1.5d
 			subtitle: "A new &5Diamond&r"
-			description: ["When you throw a &bDiamond&r in the &n&5Spiritfire&r, the spirits will possess it and transform it into the &5Spirit Attuned Gem&r"]
+			description: ["When you throw a &bDiamond&r in the &n&5Spiritfire&r, the spirits will possess it and transform it into the &5Spirit Attuned Gem&r."]
 			dependencies: ["5007B0720DA78896"]
 			id: "0DFF62AA3CC689C7"
 			tasks: [{
 				id: "56B733F22FF33B0F"
 				type: "item"
 				item: "occultism:spirit_attuned_gem"
+			}]
+			rewards: [{
+				id: "68C64F11D4F1020A"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -230,18 +245,28 @@
 				type: "item"
 				item: "occultism:purified_ink"
 			}]
+			rewards: [{
+				id: "77EA19F0213A4A88"
+				type: "loot"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 3.5d
 			y: -2.5d
 			subtitle: "Another World"
-			description: ["Throw a Stone into the &5Spiritfire&r"]
+			description: ["Throw a Stone into the &5Spiritfire&r."]
 			dependencies: ["5007B0720DA78896"]
 			id: "37835F8EBFC2056D"
 			tasks: [{
 				id: "454ADBDAB5F95E3D"
 				type: "item"
 				item: "occultism:otherstone"
+			}]
+			rewards: [{
+				id: "292060ED96B02C17"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -255,6 +280,11 @@
 				id: "21E5B0EEEEB13747"
 				type: "item"
 				item: "occultism:chalk_white_impure"
+			}]
+			rewards: [{
+				id: "0A606A2F8F647633"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -299,6 +329,11 @@
 					item: "occultism:brush"
 				}
 			]
+			rewards: [{
+				id: "588CD04A21A24502"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Gettin' Some Tallow"
@@ -331,6 +366,11 @@
 					item: "occultism:tallow"
 				}
 			]
+			rewards: [{
+				id: "2B25EF3AFF8950FF"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Your first ritual !"
@@ -372,6 +412,11 @@
 					item: "occultism:golden_sacrificial_bowl"
 				}
 			]
+			rewards: [{
+				id: "7A38DAE14E19B07F"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 4.0d
@@ -441,6 +486,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "187FA5BBA142B323"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 2.0d
@@ -458,6 +508,11 @@
 				type: "item"
 				item: "occultism:book_of_binding_foliot"
 			}]
+			rewards: [{
+				id: "114BA2647EA18D3F"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 3.0d
@@ -469,6 +524,11 @@
 				id: "08D26C978985289F"
 				type: "item"
 				item: "occultism:book_of_binding_djinni"
+			}]
+			rewards: [{
+				id: "55A8CE1DBA95BDC5"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -482,6 +542,11 @@
 				type: "item"
 				item: "occultism:book_of_binding_afrit"
 			}]
+			rewards: [{
+				id: "5432AF7BED8B352D"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 5.0d
@@ -493,6 +558,11 @@
 				id: "483B1E170EAF5B86"
 				type: "item"
 				item: "occultism:book_of_binding_marid"
+			}]
+			rewards: [{
+				id: "1B0204F43E95D0BE"
+				type: "loot"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -540,6 +610,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "19DF766C501F50DD"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Foliot Janitor"
@@ -597,6 +672,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "0AB738EFA2F462E4"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Foliot Crusher"
@@ -643,6 +723,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "7A3DAD884E407D2A"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Lumberjack"
@@ -712,6 +797,11 @@
 					item: "minecraft:oak_sapling"
 				}
 			]
+			rewards: [{
+				id: "6F42F8C9FCE42443"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Foliot Transporter"
@@ -758,6 +848,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "4F3C2AE0DE1C86D0"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 6.5d
@@ -770,6 +865,11 @@
 				id: "19D8E134E9F17666"
 				type: "item"
 				item: "occultism:chalk_gold_impure"
+			}]
+			rewards: [{
+				id: "321D2D7BBCF64C6E"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -789,6 +889,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "519CFFEF96B59EC8"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -835,6 +940,11 @@
 					item: "occultism:sacrificial_bowl"
 				}
 			]
+			rewards: [{
+				id: "57FD7F015CD2F239"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Infused Lenses"
@@ -879,6 +989,11 @@
 					item: "occultism:infused_lenses"
 				}
 			]
+			rewards: [{
+				id: "7F79D60AB2791E89"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 11.758503401360556d
@@ -898,6 +1013,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "1DA68C452D3A7FF9"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -960,6 +1080,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "23708831A1B689F4"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Storage Actuator Base"
@@ -1002,6 +1127,11 @@
 					item: "occultism:storage_controller_base"
 				}
 			]
+			rewards: [{
+				id: "6AD9F5C8893E79AA"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Stable Wormhole"
@@ -1057,6 +1187,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "34B8B2681FF7EA8E"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Tier 1 Dimensional Storage Stabilizer"
@@ -1105,6 +1240,11 @@
 					item: "occultism:storage_stabilizer_tier1"
 				}
 			]
+			rewards: [{
+				id: "5A42E8EE8B94CE54"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Foliot Miner"
@@ -1167,6 +1307,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "0354F339D3AFEF3B"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Hedryin's Lure"
@@ -1205,6 +1350,11 @@
 					item: "occultism:golden_sacrificial_bowl"
 				}
 			]
+			rewards: [{
+				id: "24A97B47388D2EDB"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Summon &5Possessed Endermite&r"
@@ -1254,6 +1404,11 @@
 					item: "minecraft:egg"
 				}
 			]
+			rewards: [{
+				id: "637194CD1F3FE41C"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Summon &8Possessed Skeleton&r"
@@ -1300,6 +1455,11 @@
 					item: "minecraft:skeleton_skull"
 				}
 			]
+			rewards: [{
+				id: "2CDF482692C18561"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: 6.5d
@@ -1312,6 +1472,11 @@
 				id: "22A1A834FC465B3F"
 				type: "item"
 				item: "occultism:chalk_purple_impure"
+			}]
+			rewards: [{
+				id: "26DB8600EDE82672"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1336,6 +1501,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "054BF00C22B5B52E"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -1382,6 +1552,11 @@
 					item: "occultism:sacrificial_bowl"
 				}
 			]
+			rewards: [{
+				id: "33B5B277273C2681"
+				type: "loot"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Infused Pickaxe"
@@ -1441,6 +1616,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "166062160A036185"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Soul Gem"
@@ -1506,6 +1686,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "6B4AEEC8D0E3D42A"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Prudentium Crystal"
@@ -1564,6 +1749,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "12FAB7B741E2314D"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Dimensional Crystal Matrix"
@@ -1618,6 +1808,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "1806E44E5F7047A1"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Storage Accessor"
@@ -1670,6 +1865,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "22A6BF5B38B12779"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Tier 2 Dimensional Storage Stabilizer"
@@ -1719,6 +1919,11 @@
 					item: "occultism:storage_stabilizer_tier2"
 				}
 			]
+			rewards: [{
+				id: "34ED665065C62729"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Dimensional Mineshaft"
@@ -1772,6 +1977,11 @@
 					item: "occultism:dimensional_mineshaft"
 				}
 			]
+			rewards: [{
+				id: "433958A0B3C1F544"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Possessed &0Wither Skeletons"
@@ -1822,6 +2032,11 @@
 					item: "minecraft:wither_skeleton_skull"
 				}
 			]
+			rewards: [{
+				id: "72E95628A0AA8371"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			title: "Osorin's Unbound Calling"
@@ -1861,6 +2076,11 @@
 					item: "occultism:golden_sacrificial_bowl"
 				}
 			]
+			rewards: [{
+				id: "2CF7864BFDDAF123"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Ihagan's Entrhallement"
@@ -1906,6 +2126,11 @@
 					item: "occultism:golden_sacrificial_bowl"
 				}
 			]
+			rewards: [{
+				id: "7EAB070263A4937A"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Spawn &5Possessed Enderman"
@@ -1949,6 +2174,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "40827E3141C6B445"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Spawn &fPossessed Ghast&r"
@@ -1995,6 +2225,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "1B7626C90FB74B20"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Abra's Open Conjure"
@@ -2048,6 +2283,11 @@
 					count: 4L
 				}
 			]
+			rewards: [{
+				id: "70DCECB489800679"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Afrit Essence"
@@ -2102,6 +2342,11 @@
 					item: "occultism:afrit_essence"
 				}
 			]
+			rewards: [{
+				id: "77B20599F151BD1F"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			title: "Sevira's Permanent Confinement"
@@ -2155,6 +2400,11 @@
 					item: "occultism:golden_sacrificial_bowl"
 				}
 			]
+			rewards: [{
+				id: "28EE28FFC83DAC67"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			title: "Tier 3 Dimensional Storage Stabilizer"
@@ -2203,6 +2453,11 @@
 					item: "occultism:storage_stabilizer_tier3"
 				}
 			]
+			rewards: [{
+				id: "5CB2B8CC5C515058"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 3.201530612244909d
@@ -2215,6 +2470,11 @@
 				id: "3FB0DB89B406F11B"
 				type: "item"
 				item: "occultism:chalk_red_impure"
+			}]
+			rewards: [{
+				id: "319841893023B817"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -2237,6 +2497,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "42AB5962E7A5441F"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
@@ -2299,6 +2564,11 @@
 					item: "occultism:golden_sacrificial_bowl"
 				}
 			]
+			rewards: [{
+				id: "300B779A5B0CE0A6"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			title: "Tier 4 Dimensional Storage Stabilizer"
@@ -2348,6 +2618,11 @@
 					item: "occultism:storage_stabilizer_tier4"
 				}
 			]
+			rewards: [{
+				id: "1276159D728FCAA6"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 	]
 }

@@ -441,7 +441,23 @@
 			x: -1.0d
 			y: -7.5d
 			shape: "hexagon"
+			description: [
+				"&1The Inscription Table&r is a crafting station added by &5Mana and Artifice&r. It is used to create &5spell&r recipes."
+				""
+				"• &5The Inscription Table&r has 3 slots in the top left corner of the GUI. The leftmost slot is for &1Arcanist Ink&r, the middle for &dVellum&r, and the rightmost for &dArcane Ash&r."
+				""
+				"• On the left of the GUI are spell options. There are three type of spell options: &cShapes&r, &6Components&r, and &eModifiers&r."
+				""
+				"• There are five slots in the middle of the GUI that hold &dspell options&r. A recipe can hold &c1 Shape&r, &61 Component&r, and &e3 Modifiers&r. &cShapes&r affect how the &dspell&r is cast, such as a beam, by touch, or on one's self. &6Components&r affect what the &dspell&r does, such as fire damage, healing, or digging. &eModifiers&r affect the properties of the &dspell&r, such as extending the range, duration, or potency."
+				""
+				"• Clicking on the options adds them to the recipe; at least one &cshape&r and &6component&r must be selected.To adjust &emodifier&r settings select a &emodifier&r and click on the &eyellow arrows&r that appear to increase or lower the desired property."
+				""
+				"• On the right-hand side of the GUI the &2complexity&r, &bmana cost&r, &ainscription table costs&r and required &3spell components&r are displayed. Each recipe will cost a certain amount of &1Arcanist Ink&r, &dVellum&r, and&d Arcane Ash&r. &1Arcanist Ink&r has a durability that will be lowered, while &dVellum and Arcane Ash&r are consumed."
+				""
+				"• To finish a recipe click the &2green arrow&r at the top of the GUI. Recipes take time to be crafted, which is shown with a progress bar along the top. When finished &5the Inscription Table&r deposits the &dspell&r recipe in the top-right corner of the GUI."
+			]
 			dependencies: ["528078ED845A9B6D"]
+			min_width: 350
 			id: "2BDE562C12CC5DEB"
 			tasks: [{
 				id: "017F8A9B26461902"
@@ -693,7 +709,7 @@
 			x: 6.0d
 			y: -13.5d
 			shape: "hexagon"
-			description: ["This item is here to give command to your robot "]
+			description: ["This item is here to give command to your robot."]
 			dependencies: ["6687C08D2F544C4D"]
 			id: "32E4EADD98A8D491"
 			tasks: [{
@@ -711,6 +727,10 @@
 			x: -8.0d
 			y: -6.0d
 			shape: "hexagon"
+			description: [
+				"The &dRunic Anvil&r is here to turn your cast into items."
+				"Just place your cast then your requested item then hit the runic anvil with your hammer until your item is crafted."
+			]
 			dependencies: ["3CB541121BAD261F"]
 			id: "489D66AC806D8BF7"
 			tasks: [{
@@ -729,6 +749,11 @@
 			x: -7.5d
 			y: -4.0d
 			shape: "hexagon"
+			description: [
+				"With the Runescribing table you will be abble to drown on a &6Rune Pattern&r"
+				"To work you will need to place a hammer and a chisel from the mod &5mana and artifice&r"
+				"Some of your drawings will give you some pattern cast. You will need them to craft some items."
+			]
 			dependencies: [
 				"44AF16FDCA3DFE4D"
 				"007BAD2E799D3D20"
@@ -1008,7 +1033,7 @@
 		{
 			x: 7.0d
 			y: -11.5d
-			description: ["You need to make the alteration ritual, next select which augment you want to add to your spell with the book of alteration"]
+			description: ["You need to make the alteration ritual, next select which augment you want to add to your spell with the book of alteration."]
 			dependencies: ["13EEC00E8C0E74D3"]
 			min_width: 300
 			id: "06A1EEB14413F998"
@@ -1085,15 +1110,15 @@
 			description: [
 				"To craft a construct you will need:"
 				""
-				"-One of each part of the construct (head, torso, left arm, right arm, legs)"
+				"-One of each part of the construct (head, torso, left arm, right arm, legs)."
 				""
-				"-You will need at least 8 chimerite crystal the color doesn't matter"
+				"-You will need at least 8 chimerite crystal the color doesn't matter."
 				""
-				"-Now place your part one the construct workbench"
+				"-Now place your part one the construct workbench."
 				""
-				"-The thing that influence your construct is the element you choose, for the element you will need to right cick with a spell, and the atribiut of the spell will be copy on your chimerite crystal"
+				"-The thing that influence your construct is the element you choose, for the element you will need to right cick with a spell, and the atribiut of the spell will be copy on your chimerite crystal."
 				""
-				"-To build your construt you will need the spell &drobot activation&r that you can find in the next quest"
+				"-To build your construt you will need the spell &drobot activation&r that you can find in the next quest."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1357,17 +1382,17 @@
 			description: [
 				"How to obtain the mote:"
 				""
-				"-Ritual of Forgotten Lore / Mote of Magic: You will need to place a least 10 bookshelf near the ritual place for make this ritual worked"
+				"-Ritual of Forgotten Lore / Mote of Magic: You will need to place a least 10 bookshelf near the ritual place for make this ritual worked."
 				""
-				"-Ritual of the Untamed Wind / Mote of Air: This ritual must be execute very high"
+				"-Ritual of the Untamed Wind / Mote of Air: This ritual must be execute very high."
 				""
-				"-Ritual of the Endless Void / Mote of Ender: This ritual must be execut in complete darkness"
+				"-Ritual of the Endless Void / Mote of Ender: This ritual must be execut in complete darkness."
 				""
-				"-Ritual of the Searing Inferno / Mote of Fire: need to be execute in the nether"
+				"-Ritual of the Searing Inferno / Mote of Fire: need to be execute in the nether."
 				""
-				"-Ritual of the Deep Ocean / Mote of Water: Need to be place in oceao biome"
+				"-Ritual of the Deep Ocean / Mote of Water: Need to be place in oceao biome."
 				""
-				"-Ritual of ancient stone / Mote of Earth: One of the chalk mark must be place on bedrock (the center one)"
+				"-Ritual of ancient stone / Mote of Earth: One of the chalk mark must be place on bedrock (the center one)."
 			]
 			dependencies: ["13EEC00E8C0E74D3"]
 			min_width: 250
@@ -1473,7 +1498,7 @@
 			title: "Charcoal print"
 			x: 3.5d
 			y: -9.0d
-			description: ["To make a charcoal print you need one rune, a paper, a coal. First place your rune on the anvil, next place the paper, and to finish the craft right click with a coal"]
+			description: ["To make a charcoal print you need one rune, a paper, a coal. First place your rune on the anvil, next place the paper, and to finish the craft right click with a coal."]
 			dependencies: ["13EEC00E8C0E74D3"]
 			id: "5BB34233D6DBEB69"
 			tasks: [{
@@ -1586,17 +1611,17 @@
 			y: -8.5d
 			shape: "circle"
 			description: [
-				"One of the main part of mana and artifact is the faction. Each faction give specific abilities and item, for example the fey will give some peaceful spell and the Demon will give some destructive spell"
+				"One of the main part of mana and artifact is the faction. Each faction give specific abilities and item, for example the fey will give some peaceful spell and the Demon will give some destructive spell."
 				""
 				"To Join a Faction you will need to execute a specific ritual :"
 				""
-				"-Ritual of the Faerie Courts : Withthis Ritual you will join the &dFaerie faction&r , you will just need an extra &7air mote&r to trade with the fearie queen"
+				"-Ritual of the Faerie Courts : Withthis Ritual you will join the &dFaerie faction&r , you will just need an extra &7air mote&r to trade with the fearie queen."
 				""
 				"-Ritual of the Cold Dark : You will join the &bUndead faction&r             &4&kr&r&4WARNING This faction is harder, you will now burn in the sunlight, and your mana is now your soul and it can be only regenerated by killing living things&kr&r"
 				""
-				"-Ritual of the wizard's Council : You will now join the &5wizard faction&r"
+				"-Ritual of the wizard's Council : You will now join the &5wizard faction&r."
 				""
-				"Ritual of the Burning Hells : You will be part of &4Satan Army&r you will just need an extra &6fire mote&r"
+				"Ritual of the Burning Hells : You will be part of &4Satan Army&r you will just need an extra &6fire mote&r."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1815,7 +1840,7 @@
 		{
 			x: 3.5d
 			y: -10.0d
-			description: ["With your actual tier the only item with a set bonus is the mage armor"]
+			description: ["With your actual tier the only item with a set bonus is the mage armor."]
 			dependencies: ["13EEC00E8C0E74D3"]
 			id: "751B41B7BA66644E"
 			tasks: [{

@@ -101,6 +101,7 @@
 			x: -1.5d
 			y: 1.0d
 			shape: "octagon"
+			subtitle: "God's Slayer"
 			id: "49032A43B4D96127"
 			tasks: [{
 				id: "0498CB3DAEDEAC08"
@@ -368,13 +369,14 @@
 			x: -1.5d
 			y: -1.0d
 			shape: "octagon"
+			subtitle: "Look death in the eye"
 			id: "22E20E4041F42A8A"
 			tasks: [{
 				id: "027217C9D0CE22E4"
 				type: "observation"
-				title: "Look a &5Chaos Guardian&r for 1 minute."
+				title: "Look a &5Chaos Guardian&r for 30 secondes."
 				icon: "naturesaura:end_city_finder"
-				timer: 1200L
+				timer: 600L
 				observe_type: 5
 				to_observe: "draconicevolution:draconic_guardian"
 			}]
@@ -383,7 +385,7 @@
 					id: "1919744CBBE8298D"
 					type: "item"
 					item: "mysticalagriculture:chaos_essence"
-					count: 8
+					count: 32
 				}
 				{
 					id: "2B36D077F16D59B6"

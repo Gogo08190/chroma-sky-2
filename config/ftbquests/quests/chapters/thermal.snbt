@@ -75,7 +75,7 @@
 			x: 18.0d
 			y: 2.5d
 			subtitle: "Charging Items"
-			description: ["Charges items with Forge Energy. Items can be inserted and removed with automation"]
+			description: ["Charges items with Forge Energy. Items can be inserted and removed with automation."]
 			hide_dependency_lines: true
 			dependencies: [
 				"500CE4634E4CAA6E"
@@ -332,7 +332,7 @@
 			y: 3.5d
 			shape: "diamond"
 			subtitle: "Trash Can "
-			description: ["Destroy anything placed to it. Items and fluid inserted with automation are destroyed instantly"]
+			description: ["Destroy anything placed to it. Items and fluid inserted with automation are destroyed instantly."]
 			hide_dependency_lines: true
 			dependencies: ["3EAB488E2A6BC29A"]
 			id: "0CEE56E095598C07"
@@ -772,7 +772,7 @@
 			description: [
 				"This &7Dynamo&r can generate FE with, like said in the subtitle, solid fuel."
 				""
-				"Solid Fuels are what you can use in a furnace in order to smelt or cook items "
+				"Solid Fuels are what you can use in a furnace in order to smelt or cook items."
 			]
 			dependencies: ["4B00EE6E2C55BA82"]
 			id: "57AE8DDD7C33FA5F"
@@ -1729,7 +1729,7 @@
 			shape: "diamond"
 			subtitle: "The Wrench"
 			description: [
-				"The &bCrescent Hammer&r"
+				"The &bCrescent Hammer&r."
 				""
 				"So this is the main wrench to the thermal mod."
 				""

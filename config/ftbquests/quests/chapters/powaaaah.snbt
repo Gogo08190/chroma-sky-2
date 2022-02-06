@@ -1645,18 +1645,12 @@
 				type: "item"
 				item: "powah:energy_hopper_hardened"
 			}]
-			rewards: [
-				{
-					id: "484F9ADFB4510CB7"
-					type: "random"
-				}
-				{
-					id: "1FF78EF41344F1F6"
-					type: "item"
-					item: "powah:steel_energized"
-					count: 2
-				}
-			]
+			rewards: [{
+				id: "1FF78EF41344F1F6"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
+			}]
 		}
 		{
 			x: 13.5d
@@ -2273,18 +2267,12 @@
 				type: "item"
 				item: "powah:thermo_generator_basic"
 			}]
-			rewards: [
-				{
-					id: "60D901A32ED14693"
-					type: "random"
-				}
-				{
-					id: "2B2668671FAA28A8"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			rewards: [{
+				id: "2B2668671FAA28A8"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 6.0d

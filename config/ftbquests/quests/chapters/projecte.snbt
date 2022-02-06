@@ -864,6 +864,11 @@
 				type: "item"
 				item: "projecte:relay_mk1"
 			}]
+			rewards: [{
+				id: "7F5F49255BC3518F"
+				type: "item"
+				item: "projecte:alchemical_coal_block"
+			}]
 		}
 		{
 			x: 2.5d
@@ -904,6 +909,11 @@
 				id: "1EED13AC8BFD0465"
 				type: "item"
 				item: "projecte:relay_mk2"
+			}]
+			rewards: [{
+				id: "07D93FE0D9BE6590"
+				type: "item"
+				item: "projecte:dark_matter"
 			}]
 		}
 		{

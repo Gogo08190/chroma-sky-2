@@ -72,7 +72,7 @@
 			icon: "theabyss:abyssportalstone"
 			x: -1.5d
 			y: -3.5d
-			description: [""]
+			description: ["Do not place the gate on dirt or right-click with the wand."]
 			dependencies: ["576F2384CF4A5DD7"]
 			id: "02E24F6032ED94A3"
 			tasks: [

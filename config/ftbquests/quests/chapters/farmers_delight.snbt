@@ -1356,7 +1356,7 @@
 			x: 17.5d
 			y: -8.5d
 			subtitle: "Traveling in the world of my creation"
-			description: ["This are the farmer's delight main food for your craft"]
+			description: ["This are the farmer's delight main food for your craft."]
 			dependencies: ["30309EDA489E594A"]
 			id: "02A31E005EA75211"
 			tasks: [{

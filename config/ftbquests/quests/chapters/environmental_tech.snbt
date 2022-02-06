@@ -141,18 +141,12 @@
 				type: "item"
 				item: "envirotech:nanorite_void_miner_ccu"
 			}]
-			rewards: [
-				{
-					id: "6B6FA4D1F2E21FF3"
-					type: "random"
-				}
-				{
-					id: "174C57406CC89B4E"
-					type: "item"
-					item: "envirocore:nanorite_crystal"
-					count: 4
-				}
-			]
+			rewards: [{
+				id: "174C57406CC89B4E"
+				type: "item"
+				item: "envirocore:nanorite_crystal"
+				count: 4
+			}]
 		}
 		{
 			x: 6.0d
@@ -303,18 +297,12 @@
 				type: "item"
 				item: "enviroenergy:nanorite_solar_ccu"
 			}]
-			rewards: [
-				{
-					id: "1A7504DBF9783391"
-					type: "random"
-				}
-				{
-					id: "01495E052FDE8367"
-					type: "item"
-					item: "envirocore:nanorite_crystal"
-					count: 4
-				}
-			]
+			rewards: [{
+				id: "01495E052FDE8367"
+				type: "item"
+				item: "envirocore:nanorite_crystal"
+				count: 4
+			}]
 		}
 		{
 			x: 5.5d
@@ -347,18 +335,12 @@
 				type: "item"
 				item: "enviroenergy:litherite_lightning_ccu"
 			}]
-			rewards: [
-				{
-					id: "7CF6957BBCD5E131"
-					type: "random"
-				}
-				{
-					id: "4AA7525B1AAF30E8"
-					type: "item"
-					item: "envirocore:litherite_crystal"
-					count: 4
-				}
-			]
+			rewards: [{
+				id: "4AA7525B1AAF30E8"
+				type: "item"
+				item: "envirocore:litherite_crystal"
+				count: 4
+			}]
 		}
 		{
 			x: -5.5d
@@ -467,18 +449,12 @@
 				type: "item"
 				item: "enviroenergy:nanorite_lightning_ccu"
 			}]
-			rewards: [
-				{
-					id: "2B0DEFFAAFBDE68C"
-					type: "random"
-				}
-				{
-					id: "619975C3D94B2CD4"
-					type: "item"
-					item: "envirocore:nanorite_crystal"
-					count: 4
-				}
-			]
+			rewards: [{
+				id: "619975C3D94B2CD4"
+				type: "item"
+				item: "envirocore:nanorite_crystal"
+				count: 4
+			}]
 		}
 		{
 			x: 6.5d
@@ -628,18 +604,12 @@
 				type: "item"
 				item: "enviroenergy:nanorite_solar_cell"
 			}]
-			rewards: [
-				{
-					id: "627CFE5BAF91A280"
-					type: "random"
-				}
-				{
-					id: "0AA6D589A61D79CE"
-					type: "item"
-					item: "envirocore:nanorite_crystal"
-					count: 4
-				}
-			]
+			rewards: [{
+				id: "0AA6D589A61D79CE"
+				type: "item"
+				item: "envirocore:nanorite_crystal"
+				count: 4
+			}]
 		}
 		{
 			x: 5.0d
@@ -789,18 +759,12 @@
 				type: "item"
 				item: "envirocore:nanorite_frame"
 			}]
-			rewards: [
-				{
-					id: "5F39C26659FC0872"
-					type: "random"
-				}
-				{
-					id: "19F2B628F7FA12D3"
-					type: "item"
-					item: "envirocore:nanorite_crystal"
-					count: 4
-				}
-			]
+			rewards: [{
+				id: "19F2B628F7FA12D3"
+				type: "item"
+				item: "envirocore:nanorite_crystal"
+				count: 4
+			}]
 		}
 		{
 			x: 7.0d

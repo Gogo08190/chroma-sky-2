@@ -605,6 +605,11 @@
 					item: "refinedstorage:network_card"
 				}
 			]
+			rewards: [{
+				id: "54B4BAA6B264A03C"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
 		}
 		{
 			x: 22.5d
@@ -1271,6 +1276,11 @@
 			id: "554F07C62FC1C424"
 			tasks: [{
 				id: "754D5CA411423945"
+				type: "item"
+				item: "refinedstorage:pattern"
+			}]
+			rewards: [{
+				id: "22B5FB92F134C85C"
 				type: "item"
 				item: "refinedstorage:pattern"
 			}]
