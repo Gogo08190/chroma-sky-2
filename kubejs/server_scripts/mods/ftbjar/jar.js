@@ -20,15 +20,15 @@ onEvent("recipes", (event) => {
 
   jar("cobblefordays:tier_4", ["cobblefordays:tier_3", "2x chromasky:3x_compressed_cobblestone", Fluid.of("tconstruct:molten_rose_gold", 1000)]).time(400).highTemp();
 
-  jar('tconstruct:seared_heater', ["8x tconstruct:seared_brick", "minecraft:furnace"]).time(200).highTemp();
-  jar('tconstruct:seared_melter', ["5x tconstruct:seared_brick", "tconstruct:seared_ingot_gauge"]).time(200).highTemp();
-  jar('tconstruct:seared_fuel_tank', ["8x tconstruct:seared_brick", "#forge:glass"]).time(200).highTemp();
-  jar('tconstruct:seared_basin', ["5x tconstruct:seared_brick", "minecraft:cauldron"]).time(200).highTemp();
-  jar('tconstruct:seared_table', ["5x tconstruct:seared_brick", "tconstruct:pattern"]).time(200).highTemp();
-  jar('tconstruct:seared_faucet', ["3x tconstruct:seared_brick", "minecraft:flower_pot"]).time(200).highTemp();
-  jar('tconstruct:seared_drain', ["4x tconstruct:seared_brick", "2x thermal:copper_ingot", "tconstruct:seared_faucet"]).time(200).highTemp();
-  jar('tconstruct:seared_chute', ["4x tconstruct:seared_brick", "2x thermal:copper_ingot", "minecraft:hopper"]).time(200).highTemp();
-  jar('tconstruct:seared_duct', ["4x tconstruct:seared_brick", "2x tconstruct:cobalt_ingot", "speedyhoppers:speedyhopper_mk1"]).time(200).highTemp();
+  jar('tconstruct:seared_heater', ["8x tconstruct:seared_brick", "minecraft:furnace"]).time(200).lowTemp();
+  jar('tconstruct:seared_melter', ["5x tconstruct:seared_brick", "tconstruct:seared_ingot_gauge"]).time(200).lowTemp();
+  jar('tconstruct:seared_fuel_tank', ["8x tconstruct:seared_brick", "#forge:glass"]).time(200).lowTemp();
+  jar('tconstruct:seared_basin', ["5x tconstruct:seared_brick", "minecraft:cauldron"]).time(200).lowTemp();
+  jar('tconstruct:seared_table', ["5x tconstruct:seared_brick", "tconstruct:pattern"]).time(200).lowTemp();
+  jar('tconstruct:seared_faucet', ["3x tconstruct:seared_brick", "minecraft:flower_pot"]).time(200).lowTemp();
+  jar('tconstruct:seared_drain', ["4x tconstruct:seared_brick", "2x thermal:copper_ingot", "tconstruct:seared_faucet"]).time(200).lowTemp();
+  jar('tconstruct:seared_chute', ["4x tconstruct:seared_brick", "2x thermal:copper_ingot", "minecraft:hopper"]).time(200).lowTemp();
+  jar('tconstruct:seared_duct', ["4x tconstruct:seared_brick", "2x tconstruct:cobalt_ingot", "speedyhoppers:speedyhopper_mk1"]).time(200).lowTemp();
 
   jar('tconstruct:seared_brick', ["tconstruct:grout"]).time(200).lowTemp();
   jar('8x tconstruct:seared_brick', ["8x tconstruct:grout"]).time(600).highTemp();
