@@ -29,7 +29,7 @@ nonRandom = ["ftbultimine:ultiminer"]
 	killingUnlockEnabled = true
 	#Rarity of unlocking a trinket from killing non-Boss entities. (Greater number = more rare)
 	#Range: 2 ~ 100000
-	killing = 128
+	killing = 256
 
 [Bosses_Killing_Unlocks]
 	#Set to false to disable unlocking trinkets from killing Bosses.
@@ -43,14 +43,14 @@ nonRandom = ["ftbultimine:ultiminer"]
 	farmingUnlockEnabled = true
 	#Rarity of unlocking a trinket from farming. (Greater number = more rare)
 	#Range: 2 ~ 100000
-	farming = 140
+	farming = 500
 
 [Ores_Mining_Unlocks]
 	#Set to false to disable unlocking trinkets from mining ores.
 	oresMiningUnlockEnabled = true
 	#Rarity of unlocking a trinket from mining ores. (Greater number = more rare)
 	#Range: 2 ~ 100000
-	oresMining = 100
+	oresMining = 800
 
 [Trading_Unlocks]
 	#Set to false to disable unlocking trinkets from trading.
@@ -65,4 +65,3 @@ nonRandom = ["ftbultimine:ultiminer"]
 	#Rarity of unlocking a trinket from cutting trees. (Greater number = more rare)
 	#Range: 2 ~ 100000
 	woodCutting = 256
-
