@@ -92,3 +92,15 @@ onEvent('jei.information', event => {
   event.add('chromasky:drop_of_darkness', ['Has a chance to drop on a Wither Skeleton']);
   event.add('chromasky:drop_of_peacefulless', ['Has a chance to drop on a Passive Mob']);
 });
+
+onEvent('item.modification', event => {
+  event.modify('chromasky:coal_chunk', item => {
+    item.burnTime = 100
+  })
+})
+
+onEvent('item.modification', event => {
+  event.modify('chromasky:coal_cluster', item => {
+    item.burnTime = 800
+  })
+})

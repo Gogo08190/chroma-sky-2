@@ -185,7 +185,6 @@ onEvent('recipes', event => {
     "copper",
     "lead",
     "bronze",
-    "uranium",
     "constantan",
     "electrum",
     "silver",

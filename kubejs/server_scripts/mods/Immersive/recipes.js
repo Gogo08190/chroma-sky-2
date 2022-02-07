@@ -37,7 +37,7 @@ onEvent('recipes', event => {
   'BHB',
   'SWS'
   ], {
-    W: 'thermal:signalum_gear',
+    W: 'chromasky:redstone_gear',
     S: 'immersiveengineering:treated_wood_horizontal',
     B: 'thermal:invar_gear',
     H: 'immersiveengineering:capacitor_mv',
