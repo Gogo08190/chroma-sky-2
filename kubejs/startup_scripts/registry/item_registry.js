@@ -95,12 +95,12 @@ onEvent('jei.information', event => {
 
 onEvent('item.modification', event => {
   event.modify('chromasky:coal_chunk', item => {
-    item.burnTime = 20
+    item.burnTime = 100
   })
 })
 
 onEvent('item.modification', event => {
   event.modify('chromasky:coal_cluster', item => {
-    item.burnTime = 80
+    item.burnTime = 800
   })
 })
