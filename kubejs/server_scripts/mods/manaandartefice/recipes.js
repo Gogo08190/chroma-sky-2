@@ -11,4 +11,6 @@ onEvent('recipes', event => {
 
     //Codex
     event.shapeless('mana-and-artifice:guide_book', ['mana-and-artifice:chimerite_gem', 'minecraft:book'])
+    event.remove({ output: 'mana-and-artifice:stone_rune_yellow' })
+    event.shapeless('mana-and-artifice:stone_rune_yellow', ['mana-and-artifice:stone_rune_blank', 'minecraft:yellow_dye'])
 });
