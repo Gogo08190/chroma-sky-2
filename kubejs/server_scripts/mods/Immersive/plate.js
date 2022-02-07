@@ -14,7 +14,6 @@ onEvent("recipes", (event) => {
   event.remove({id: 'immersiveengineering:crafting/plate_tin_hammering'})
   event.remove({id: 'immersiveengineering:crafting/plate_copper_hammering'})
   event.remove({id: 'immersiveengineering:crafting/plate_gold_hammering'})
-  event.remove({id: 'immersiveengineering:crafting/plate_iron_hammering'})
   event.remove({id: 'immersiveengineering:crafting/plate_steel_hammering'})
   event.remove({id: 'immersiveengineering:crafting/plate_uranium_hammering'})
   event.remove({id: 'immersiveengineering:crafting/plate_aluminum_hammering'})
