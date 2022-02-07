@@ -32,6 +32,7 @@ onEvent("recipes", (event) => {
   event.remove({output: 'overloaded:almost_infinite_capacitor'})
   event.remove({output: 'overloaded:true_infinite_capacitor'})
   event.remove({id: 'pedestals:upgrades/itempedestalupgradedefault'})
+  event.remove({id: 'immersiveengineering:crafting/ingot_uranium_to_storage_uranium'})
   event.remove({output: 'projectex:alchemy_table'})
   event.remove({output: 'projectex:stone_table'})
   event.remove({output: 'projectex:compressed_refined_link'})
