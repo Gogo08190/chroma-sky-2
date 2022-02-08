@@ -46,7 +46,7 @@
 		#Ore Settings
 		[worldgen.oregen.iesniumOre]
 			#True to generate this ore.
-			generateOre = false
+			generateOre = true
 			#The tag for the blocks this ore will spawn in.
 			fillerBlockTag = "occultism:netherrack"
 			#The size of veins for this ore.
@@ -82,4 +82,3 @@
 		ceilingLightChance = 0.1
 		#The biome types the underground grove cannot spawn in.
 		biomeTypeBlacklist = ["NETHER", "END"]
-
