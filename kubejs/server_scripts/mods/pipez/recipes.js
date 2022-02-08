@@ -49,7 +49,7 @@ onEvent("recipes", (event) => {
   ' RS',
   'R  '
   ], {
-    R: 'immersiveposts:stick_lead',
+    R: 'immersiveengineering:stick_aluminum',
     S: 'mekanism:ingot_steel'
   })
 
