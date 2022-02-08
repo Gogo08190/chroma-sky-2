@@ -835,7 +835,6 @@
 			y: -13.0d
 			hide_dependency_lines: true
 			dependencies: [
-				"4E340C8BF251D2E5"
 				"2626A2F3A1782F83"
 				"47A262541C6569CA"
 				"1C8E72FDD4811D75"
@@ -855,7 +854,11 @@
 		{
 			x: 3.5d
 			y: -12.0d
-			dependencies: ["48433427C278FD14"]
+			hide_dependency_lines: true
+			dependencies: [
+				"48433427C278FD14"
+				"1FA531FE75961B5C"
+			]
 			id: "4E340C8BF251D2E5"
 			tasks: [{
 				id: "332732B85BD1942C"
@@ -1783,7 +1786,6 @@
 			dependencies: [
 				"4E340C8BF251D2E5"
 				"7620EE9990A9DFB4"
-				"2708CCE704A1ECC0"
 			]
 			id: "04CD419F2D4AB1D0"
 			tasks: [
@@ -1821,7 +1823,10 @@
 			x: 0.5d
 			y: -21.0d
 			hide_dependency_lines: true
-			dependencies: ["741A9BB38F47B06A"]
+			dependencies: [
+				"741A9BB38F47B06A"
+				"04CD419F2D4AB1D0"
+			]
 			id: "2708CCE704A1ECC0"
 			tasks: [{
 				id: "387C607741C2CE9B"
@@ -2140,6 +2145,7 @@
 		{
 			x: 5.0d
 			y: -15.5d
+			description: ["Be careful, it uses a lot of aura!"]
 			hide_dependency_lines: true
 			dependencies: ["7620EE9990A9DFB4"]
 			id: "305EE90B1032BA75"

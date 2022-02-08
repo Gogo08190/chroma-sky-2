@@ -34,8 +34,8 @@
 					id: "78FAC8001BA0C5C1"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @s [\"\",{\"text\":\"Welcome to \"},{\"text\":\"Chroma Sky 2\",\"color\":\"aqua\"},{\"text\":\" @p, have a good time !\"}]"
-					player_command: true
+					command: "/tellraw @p [\"\",{\"text\":\"Welcome to \"},{\"text\":\"Chroma Sky 2\",\"color\":\"aqua\"},{\"text\":\" @p, have a good time !\"}]"
+					player_command: false
 				}
 				{
 					id: "23649817CBEFE1A6"
@@ -114,8 +114,8 @@
 				id: "32C84E91AC9A838F"
 				type: "command"
 				auto: "invisible"
-				command: "/tellraw @s [\"\",{\"text\":\"Website here : \"},{\"text\":\"chromatech.fr\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://chromatech.fr/\"}}]"
-				player_command: true
+				command: "/tellraw @p [\"\",{\"text\":\"Website here : \"},{\"text\":\"chromatech.fr\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://chromatech.fr/\"}}]"
+				player_command: false
 			}]
 		}
 		{
@@ -130,7 +130,7 @@
 				"This &6Questbook&r has a very simple quest system. "
 				"In fact a &8quest&r by default does not require a &7&ldependancy&r so you can do it right now or later, up to you to decide."
 				""
-				"Has you can see, the majority of quests does need a &7&ldependancy&r. In order to unlock them, you can click on the &0&l&nGrey Arrow&r to list the needed &7&ldependancy&r or &7&ldependancies&r."
+				"As you can see, the majority of quests does need a &7&ldependancy&r. In order to unlock them, you can click on the &0&l&nGrey Arrow&r to list the needed &7&ldependancy&r or &7&ldependancies&r."
 			]
 			dependencies: ["5AA98A6A5E15905F"]
 			min_width: 250
@@ -169,8 +169,8 @@
 					id: "1F953A714527F43A"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @s [\"\",{\"text\":\"Informations about Islands here : \"},{\"text\":\"chromatech.fr\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://chromatech.fr/modpack/chroma-sky-ii/\"}}]"
-					player_command: true
+					command: "/tellraw @p [\"\",{\"text\":\"Informations about Islands here : \"},{\"text\":\"chromatech.fr\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://chromatech.fr/modpack/chroma-sky-ii/\"}}]"
+					player_command: false
 				}
 				{
 					id: "75F86871DF34A8D2"

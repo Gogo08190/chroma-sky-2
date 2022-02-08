@@ -631,13 +631,13 @@
 				type: "item"
 				title: "Gather 4 Iron Chunks"
 				item: "chromasky:iron_chunk"
-				count: 9L
+				count: 4L
 			}]
 			rewards: [{
 				id: "35BC19749AE9024F"
 				type: "item"
 				item: "chromasky:iron_chunk"
-				count: 18
+				count: 20
 			}]
 		}
 		{
@@ -906,9 +906,18 @@
 				item: "ftbdripper:water_bowl"
 			}]
 			rewards: [{
-				id: "4B2C2C1910662009"
+				id: "3FE5C715E8860024"
 				type: "item"
-				item: "ftbdripper:water_bowl"
+				item: {
+					id: "ftbdripper:water_bowl"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "minecraft:water"
+							Amount: 250
+						}
+					}
+				}
 			}]
 		}
 	]

@@ -49,6 +49,7 @@
 			}]
 		}
 		{
+			icon: "astralsorcery:altar_discovery"
 			x: -16.5d
 			y: -6.5d
 			shape: "diamond"
@@ -57,7 +58,7 @@
 			size: 3.0d
 			id: "4629A552492B890B"
 			tasks: [{
-				id: "7F88B3CE127D60F4"
+				id: "0788A2E88CA764C0"
 				type: "item"
 				item: "astralsorcery:altar_discovery"
 			}]
@@ -399,25 +400,6 @@
 				id: "3F006B8406C342A3"
 				type: "item"
 				item: "astralsorcery:starmetal_ingot"
-			}]
-		}
-		{
-			x: -17.0d
-			y: -10.5d
-			shape: "diamond"
-			description: [
-				"It is used to direct Starlight from a Collector Crystal, Celestial Collector Crystal, Lens, or PrismLens to a block."
-				""
-				"Right-clicking on one of the aforementioned blocks with the Linking Tool will display a \"Selected <block>!\" message in the chat log. Right-clicking blocks will direct a ray of starlight to the selected blocks with the text \"Linked <block> to a block!\" Shift right-clicking on the starlight-producing blocks will erase all existing starlight rays and display the message \"Unlinked all links!\" in the chat log."
-				""
-				"Switching to another item will display \"Stopped linking!\" in the chat log and finishing the linking process."
-			]
-			dependencies: ["13C3047AC4A33314"]
-			id: "6398164082354B4C"
-			tasks: [{
-				id: "7A469F82D7612F76"
-				type: "item"
-				item: "astralsorcery:linking_tool"
 			}]
 		}
 		{
@@ -892,7 +874,7 @@
 			]
 		}
 		{
-			x: -16.0d
+			x: -17.0d
 			y: -10.5d
 			shape: "diamond"
 			description: [
@@ -1329,8 +1311,8 @@
 			]
 		}
 		{
-			x: -16.5d
-			y: -14.0d
+			x: -16.0d
+			y: -10.5d
 			shape: "diamond"
 			dependencies: ["13C3047AC4A33314"]
 			id: "4B3A7953270DCEFD"
@@ -1365,12 +1347,61 @@
 				type: "checkmark"
 				title: "Starting Astral Sorcery"
 			}]
-			rewards: [{
-				id: "425BF55BD90D7186"
-				type: "item"
-				item: "minecraft:end_stone"
-				count: 16
-			}]
+			rewards: [
+				{
+					id: "425BF55BD90D7186"
+					type: "item"
+					item: "minecraft:end_stone"
+					count: 16
+				}
+				{
+					id: "0F210EA743319EAA"
+					type: "item"
+					item: {
+						id: "astralsorcery:rock_collector_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								constellation: "astralsorcery:discidia"
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:purity"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:collector.rate"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:constellation.discidia"
+											pLevel: 2
+											discovered: 1b
+										}
+									]
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "0F20DA6BE4D1BB45"
+					type: "item"
+					item: "astralsorcery:linking_tool"
+				}
+			]
 		}
 	]
 }

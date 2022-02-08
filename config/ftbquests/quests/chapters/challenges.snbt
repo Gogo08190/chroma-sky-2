@@ -44,7 +44,7 @@
 			x: 2.0d
 			y: 0.0d
 			shape: "octagon"
-			subtitle: "500"
+			subtitle: "500 hours"
 			id: "4C1F56190A907ACA"
 			tasks: [{
 				id: "0212112F26F6FF66"
