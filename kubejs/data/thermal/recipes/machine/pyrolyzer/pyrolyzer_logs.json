@@ -1,19 +1,15 @@
 {
   "type": "thermal:pyrolyzer",
   "ingredient": {
-    "item": "minecraft:coal"
+    "tag": "minecraft:logs"
   },
   "result": [
     {
-      "item": "immersiveengineering:coal_coke"
-    },
-    {
-      "item": "thermal:tar",
-      "chance": 0.25
+      "item": "minecraft:charcoal"
     },
     {
       "fluid": "immersiveengineering:creosote",
-      "amount": 250
+      "amount": 125
     }
   ],
   "experience": 0.15

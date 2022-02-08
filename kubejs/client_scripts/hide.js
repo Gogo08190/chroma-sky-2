@@ -143,6 +143,7 @@ events.listen('jei.hide.items', function (event) {
     'mysticalagriculture:titanium_essence',
     'mysticalagriculture:chrome_essence',
     'mekanism:upgrade_anchor',
+    'thermal:creosote_bucket',
     'cyclic:fluid_pipe',
     'cyclic:item_pipe',
     'cyclic:energy_pipe',
@@ -229,6 +230,7 @@ events.listen('jei.hide.items', function (event) {
     Item.of('animalcrops:seeds', '{entity:"minecraft:cat"}'),
     Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:platinum"}'),
     Item.of('modularrouters:creative_module', '{modularrouters:{ModuleFilter:{}}}'),
+    Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{FluidName:"thermal:creosote",Amount:2147483647}}]}}'),
     'theabyss:auto_smelt_pick_axe'
   ])
 })
