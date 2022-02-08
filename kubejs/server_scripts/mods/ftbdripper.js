@@ -55,4 +55,64 @@ onEvent("recipes", (event) => {
     outputBlock: 'tconstruct:ender_slime_sapling',
     chance: 1.0,
   });
+
+  drip({
+    inputBlock: 'minecraft:poppy',
+    outputBlock: 'minecraft:cornflower',
+    chance: 1.0,
+  });
+
+  drip({
+    inputBlock: 'minecraft:cornflower',
+    outputBlock: 'minecraft:white_tulip',
+    chance: 1.0,
+  });
+
+  drip({
+    inputBlock: 'minecraft:white_tulip',
+    outputBlock: 'minecraft:orange_tulip',
+    chance: 1.0,
+  });
+
+  drip({
+    inputBlock: 'minecraft:orange_tulip',
+    outputBlock: 'minecraft:red_tulip',
+    chance: 1.0,
+  });
+
+  drip({
+    inputBlock: 'minecraft:red_tulip',
+    outputBlock: 'minecraft:azure_bluet',
+    chance: 1.0,
+  });
+
+  drip({
+    inputBlock: 'minecraft:dandelion',
+    outputBlock: 'minecraft:allium',
+    chance: 1.0,
+  });
+
+  drip({
+    inputBlock: 'minecraft:allium',
+    outputBlock: 'minecraft:blue_orchid',
+    chance: 1.0,
+  });
+
+  drip({
+    inputBlock: 'minecraft:blue_orchid',
+    outputBlock: 'minecraft:lily_of_the_valley',
+    chance: 1.0,
+  });
+
+  drip({
+    inputBlock: 'minecraft:lily_of_the_valley',
+    outputBlock: 'minecraft:pink_tulip',
+    chance: 1.0,
+  });
+
+  drip({
+    inputBlock: 'minecraft:pink_tulip',
+    outputBlock: 'minecraft:oxeye_daisy',
+    chance: 1.0,
+  });
 });
