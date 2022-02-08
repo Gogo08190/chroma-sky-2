@@ -194,7 +194,13 @@
 			x: 2.5d
 			y: -2.5d
 			subtitle: "Am I seeing weird things?"
-			description: ["Throw an Oak Sapling into the &5Spiritfire&r."]
+			description: [
+				"Throw an Oak Sapling into the &5Spiritfire&r."
+				""
+				"To have the wood, you will have to eat a &1Demon Fruit&r to have the &5Otherworld&r vision. Be carefull tho it's not definitive. "
+				""
+				"Once that you have that vision you will be able to farm the &5Otherwood&r ."
+			]
 			dependencies: ["5007B0720DA78896"]
 			id: "748B28CA71EB65FE"
 			tasks: [{
@@ -246,8 +252,8 @@
 				item: "occultism:purified_ink"
 			}]
 			rewards: [{
-				id: "77EA19F0213A4A88"
-				type: "loot"
+				id: "2299AA9278008906"
+				type: "random"
 				table_id: 7381842975596526002L
 			}]
 		}
@@ -255,7 +261,7 @@
 			x: 3.5d
 			y: -2.5d
 			subtitle: "Another World"
-			description: ["Throw a Stone into the &5Spiritfire&r."]
+			description: ["Throw an Andesite into the &5Spiritfire&r."]
 			dependencies: ["5007B0720DA78896"]
 			id: "37835F8EBFC2056D"
 			tasks: [{

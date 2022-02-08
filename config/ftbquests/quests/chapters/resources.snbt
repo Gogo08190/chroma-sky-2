@@ -286,6 +286,11 @@
 					type: "item"
 					item: "dimpaintings:overworld_painting"
 				}
+				{
+					id: "52E5266E3EFEF7E4"
+					type: "item"
+					item: "minecraft:snow_block"
+				}
 			]
 		}
 		{

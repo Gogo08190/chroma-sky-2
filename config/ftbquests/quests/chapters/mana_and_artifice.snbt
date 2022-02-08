@@ -224,6 +224,7 @@
 				"02628A32D083A95D"
 				"56CE056754AC2BBF"
 				"32DA82CA3B2CB77E"
+				"3B661CBEB09023A6"
 			]
 			min_width: 250
 			id: "13EEC00E8C0E74D3"
@@ -984,10 +985,7 @@
 			y: 5.0d
 			shape: "hexagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"02628A32D083A95D"
-				"13EEC00E8C0E74D3"
-			]
+			dependencies: ["02628A32D083A95D"]
 			id: "3B661CBEB09023A6"
 			tasks: [{
 				id: "793E1CAE1C5064B5"

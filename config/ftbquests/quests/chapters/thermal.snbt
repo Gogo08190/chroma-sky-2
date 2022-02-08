@@ -209,6 +209,11 @@
 				type: "item"
 				item: "thermal:latex_bucket"
 			}]
+			rewards: [{
+				id: "7D989FC602D04523"
+				type: "item"
+				item: "thermal:latex_bucket"
+			}]
 		}
 		{
 			x: 16.5d
