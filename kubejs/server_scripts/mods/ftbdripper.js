@@ -115,4 +115,11 @@ onEvent("recipes", (event) => {
     outputBlock: 'minecraft:oxeye_daisy',
     chance: 1.0,
   });
+
+  drip({
+    inputBlock: 'minecraft:allium',
+    outputBlock: 'minecraft:peony',
+    chance: 1.0,
+  });
+
 });
