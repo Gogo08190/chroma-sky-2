@@ -46,7 +46,7 @@ onEvent("recipes", (event) => {
     .energy(5000);
 
   event.recipes.thermal
-    .smelter(["2x mekanism:ingot_steel", "2x immersiveengineering:slag"], ['immersiveengineering:coal_coke', 'minecraft:iron_ingot'])
+    .smelter(["mekanism:ingot_steel", "immersiveengineering:slag"], ['immersiveengineering:coal_coke', 'minecraft:iron_ingot'])
     .energy(5000);
 
   event.recipes.thermal
