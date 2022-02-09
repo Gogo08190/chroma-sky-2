@@ -49,8 +49,79 @@ onEvent('recipes', (event) => {
             outputFluid: `{FluidName:"${recipe.outputFluid}",Amount:${recipe.outputFluidAmount}}`
         });
 
+<<<<<<< HEAD
         if (recipe.id) {
             re.id(recipe.id);
         }
     });
+=======
+  event.custom(
+    {
+        "input": [
+            {
+                "item": "astralsorcery:rock_crystal"
+            },
+            {
+                "item": "astralsorcery:rock_crystal"
+            },
+            {
+                "item": "astralsorcery:rock_crystal"
+            },
+            {
+                "item": "astralsorcery:rock_crystal"
+            },
+            {
+                "item": "astralsorcery:rock_crystal"
+            },
+            {
+                "item": "astralsorcery:rock_crystal"
+            },
+            {
+                "item": "astralsorcery:rock_crystal"
+            },
+            {
+                "item": "astralsorcery:rock_crystal"
+            }
+        ],
+        "inputFluid": '{FluidName:\"industrialforegoing:ether_gas\",Amount:1000}',
+        "processingTime": 320,
+        "output": {
+          "item": "astralsorcery:rock_collector_crystal",
+          "nbt": {
+            "astralsorcery":{
+              "constellation":"astralsorcery:aevitas",
+              "crystalProperties":{
+                "attributes":[{
+                  "property":"astralsorcery:size",
+                  "pLevel":3,
+                  "discovered":1
+                },
+                {
+                  "property":"astralsorcery:purity",
+                  "pLevel":2,
+                  "discovered":1
+                },
+                {
+                  "property":"astralsorcery:shape",
+                  "pLevel":3,
+                  "discovered":1
+                },
+                {
+                  "property":"astralsorcery:collector.rate",
+                  "pLevel":3,
+                  "discovered":1
+                },
+                {
+                  "property":"astralsorcery:constellation.aevitas",
+                  "pLevel":2,
+                  "discovered":1
+                }
+              ]}
+            }
+          }
+        },
+        "type": "industrialforegoing:dissolution_chamber"
+    }
+  )l
+>>>>>>> 0cf24ab735af8c1880dd22c3760805aabaab3e12
 });
