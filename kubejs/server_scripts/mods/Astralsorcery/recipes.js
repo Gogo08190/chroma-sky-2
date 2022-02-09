@@ -49,27 +49,27 @@ onEvent('recipes', event => {
                 "attributes":[{
                   "property":"astralsorcery:size",
                   "pLevel":3,
-                  "discovered":1b
+                  "discovered":1b,
                 },
                 {
                   "property":"astralsorcery:purity",
                   "pLevel":2,
-                  "discovered":1b
+                  "discovered":1b,
                 },
                 {
                   "property":"astralsorcery:shape",
                   "pLevel":3,
-                  "discovered":1b
+                  "discovered":1b,
                 },
                 {
                   "property":"astralsorcery:collector.rate",
                   "pLevel":3,
-                  "discovered":1b
+                  "discovered":1b,
                 },
                 {
                   "property":"astralsorcery:constellation.aevitas",
                   "pLevel":2,
-                  "discovered":1b
+                  "discovered":1b,
                 }
               ]}
             }
