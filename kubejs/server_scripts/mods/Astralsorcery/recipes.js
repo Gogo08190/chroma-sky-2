@@ -38,7 +38,7 @@ onEvent('recipes', event => {
                 "item": "astralsorcery:rock_crystal"
             }
         ],
-        "inputFluid": "{FluidName:\"industrialforegoing:ether_gas\",Amount:1000}",
+        "inputFluid": '{FluidName:\"industrialforegoing:ether_gas\",Amount:1000}',
         "processingTime": 320,
         "output": {
           "item": "astralsorcery:rock_collector_crystal",
