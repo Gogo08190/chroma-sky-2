@@ -1668,7 +1668,7 @@
 	Forgotten = true
 	Foxhound = true
 	Frogs = true
-	Stonelings = true
+	Stonelings = false
 	Toretoise = true
 	Wraith = true
 
@@ -2097,4 +2097,3 @@
 				[experimental.shiba.spawn_config.biomes.biomes]
 					Biomes = []
 					"Is Blacklist" = true
-
