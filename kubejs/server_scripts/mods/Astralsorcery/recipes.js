@@ -41,7 +41,7 @@ onEvent('recipes', event => {
         "inputFluid": "{FluidName:\"industrialforegoing:ether_gas\",Amount:1000}",
         "processingTime": 320,
         "output": {
-            "item": "Item.of('astralsorcery:rock_collector_crystal', '{astralsorcery:{constellation:"astralsorcery:discidia",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.discidia",pLevel:2,discovered:1b}]}}}')",
+            "item": "Item.of('astralsorcery:rock_collector_crystal', '{astralsorcery:{constellation:"astralsorcery:discidia",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.discidia",pLevel:2,discovered:1b}]}}",
             "count": 1
         },
         "type": "industrialforegoing:dissolution_chamber"
