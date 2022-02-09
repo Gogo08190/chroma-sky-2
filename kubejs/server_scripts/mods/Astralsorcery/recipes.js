@@ -77,5 +77,5 @@ onEvent('recipes', event => {
         },
         "type": "industrialforegoing:dissolution_chamber"
     }
-  )
+  )l
 });
