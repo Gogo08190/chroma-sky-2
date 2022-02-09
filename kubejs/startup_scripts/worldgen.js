@@ -32,7 +32,21 @@ onEvent('worldgen.remove', event => {
         'projectred-exploration:ruby_ore',
         'projectred-exploration:tin_ore',
         'mekanism:tin_ore',
-        'thermal:tin_ore'
+        'thermal:tin_ore',
+        'minecraft:nether_quartz_ore',
+        'mysticalagradditions:end_prosperity_ore',
+        'mysticalagradditions:nether_prosperity_ore',
+        'mysticalagriculture:prosperity_ore',
+        'powah:uraninite_ore_poor',
+        'powah:uraninite_ore',
+        'powah:uraninite_ore_dense',
+        'minecraft:nether_gold_ore',
+        'immersiveengineering:ore_aluminum',
+        'thermal:niter_ore',
+        'miniutilities:ender_ore',
+        'mysticalagriculture:inferium_ore',
+        'mana-and-artifice:vinteum_ore',
+        'thermal:apatite_ore'
       ]
   })
 })
