@@ -70,8 +70,8 @@
                     ")": "projecte:dark_matter_block",
                     "*": "masterfulmachinery:emcflower_assemblingenergy_port_energy_input",
                     "+": "minecraft:polished_blackstone_bricks",
-                    ",": "masterfulmachinery:emcflower_assembing_item_port_items_output",
-                    "-": "masterfulmachinery:emcflower_assembing_item_port_items_input",
+                    "-": "masterfulmachinery:emcflower_assembing_item_port_items_output",
+                    ",": "masterfulmachinery:emcflower_assembing_item_port_items_input",
                     ".": "projectex:energy_link",
                     "/":  "projectex:basic_collector",
                     "0":  "masterfulmachinery:emcflower_controller"
