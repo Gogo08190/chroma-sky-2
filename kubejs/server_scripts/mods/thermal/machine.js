@@ -47,7 +47,7 @@ onEvent("recipes", (event) => {
 
   event.recipes.thermal
     .smelter(["mekanism:ingot_steel", "immersiveengineering:slag"], ['immersiveengineering:coal_coke', 'minecraft:iron_ingot'])
-    .energy(5000);
+    .energy(3000);
 
   event.recipes.thermal
     .crucible(Fluid.of('kubejs:cryotheum', 100), 'thermal:blizz_powder')
