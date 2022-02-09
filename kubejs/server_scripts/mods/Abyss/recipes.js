@@ -1,6 +1,7 @@
 onEvent('recipes', event => {
 
     // Unstable Obsidian
+    event.remove({ output: 'theabyss:abyssportalstone' })
     event.shaped('2x theabyss:abyssportalstone', [
       `OLO`,
       `LNL`,
@@ -12,6 +13,7 @@ onEvent('recipes', event => {
     })
 
     // Abyss Activator portal
+    event.remove({ output: 'theabyss:theabyssdim' })
     event.shaped('theabyss:theabyssdim', [
       ` I `,
       `ENE`,
