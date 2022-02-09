@@ -6,6 +6,12 @@ onEvent("recipes", (event) => {
       "immersiveengineering:mold_plate"
   );
 
+  event.recipes.immersiveengineering.metal_press(
+      "thermal:enderium_plate",
+      "thermal:enderium_ingot",
+      "immersiveengineering:mold_plate"
+  );
+
   event.remove({id: 'immersiveengineering:crafting/plate_constantan_hammering'})
   event.remove({id: 'immersiveengineering:crafting/plate_electrum_hammering'})
   event.remove({id: 'immersiveengineering:crafting/plate_nickel_hammering'})
