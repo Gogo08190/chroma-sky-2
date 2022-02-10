@@ -257,7 +257,7 @@ events.listen('recipes', event => {
                 "item": "minecraft:clay_ball"
             }
         ],
-        "inputFluid": "{FluidName:\"minecraft:lava\",Amount:1000}",
+        "inputFluid": "{FluidName:\"minecraft:lava\",Amount:250}",
         "processingTime": 100,
         "output": {
             "item": "powah:dielectric_paste",
