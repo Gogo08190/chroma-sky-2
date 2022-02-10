@@ -126,8 +126,8 @@ onEvent('recipes', event => {
   })
 
   // Energizing Rod (Basic)
-  event.remove({ output: 'powah:energizing_rod_starter' })
-  event.shaped('powah:energizing_rod_starter', [
+  event.remove({ output: 'powah:energizing_rod_basic' })
+  event.shaped('powah:energizing_rod_basic', [
   ' Q ',
   'BCB',
   ' D '
