@@ -29,18 +29,18 @@ onEvent("recipes", (event) => {
         event.blasting(output, input).xp(0.7);
     };
 
-    multiSmelt("minecraft:iron_nugget", "chromasky:iron_cluster");
-    multiSmelt("minecraft:gold_nugget", "chromasky:gold_cluster");
-    multiSmelt("thermal:copper_nugget", "chromasky:copper_cluster");
-    multiSmelt("tconstruct:cobalt_nugget", "chromasky:cobalt_cluster");
-    multiSmelt("thermal:tin_nugget", "chromasky:tin_cluster");
-    multiSmelt("thermal:nickel_nugget", "chromasky:nickel_cluster");
-    multiSmelt("thermal:silver_nugget", "chromasky:silver_cluster");
-    multiSmelt("thermal:lead_nugget", "chromasky:lead_cluster");
-    multiSmelt("mekanism:nugget_uranium", "chromasky:uranium_cluster");
-    multiSmelt("mekanism:nugget_osmium", "chromasky:osmium_cluster");
-    multiSmelt("mekanism:fluorite_gem", "chromasky:fluorite_cluster");
-    multiSmelt("immersiveengineering:ingot_aluminum", "chromasky:aluminum_cluster");
+    multiSmelt("minecraft:iron_nugget", "#forge:chunks/iron");
+    multiSmelt("minecraft:gold_nugget", "#forge:chunks/gold");
+    multiSmelt("thermal:copper_nugget", "#forge:chunks/copper");
+    multiSmelt("tconstruct:cobalt_nugget", "#forge:chunks/cobalt");
+    multiSmelt("thermal:tin_nugget", "#forge:chunks/tin");
+    multiSmelt("thermal:nickel_nugget", "#forge:chunks/nickel");
+    multiSmelt("thermal:silver_nugget", "#forge:chunks/silver");
+    multiSmelt("thermal:lead_nugget", "#forge:chunks/lead");
+    multiSmelt("mekanism:nugget_uranium", "#forge:chunks/uranium");
+    multiSmelt("mekanism:nugget_osmium", "#forge:chunks/osmium");
+    multiSmelt("mekanism:fluorite_gem", "#forge:clusters/fluorite");
+    multiSmelt("immersiveengineering:ingot_aluminum", "#forge:clusters/aluminum");
 
     multiSmelt("tconstruct:cobalt_ingot", "chromasky:cobalt_dust");
 });
