@@ -29,7 +29,7 @@ onEvent("recipes", (event) => {
         ["chromasky:cobalt_chunk", 0.18],
         ["minecraft:glowstone_dust", 0.24],
         ["minecraft:blaze_powder", 0.23],
-    ]).fluid("minecraft:lava");;
+    ]).fluid("minecraft:lava");
 
     sluice(["blazing"], "ftbsluice:crushed_netherrack", [
         ["minecraft:gold_ingot", 0.35],
@@ -40,6 +40,5 @@ onEvent("recipes", (event) => {
         ["minecraft:netherite_scrap", 0.08],
         ["minecraft:glowstone_dust", 0.26],
         ["minecraft:blaze_powder", 0.30],
-        ["minecraft:netherite_scrap", 0.08],
     ]).fluid("minecraft:lava");
 });
