@@ -879,8 +879,8 @@
 					"Is Blacklist" = false
 
 	[world.biotite]
-		"Generate Naturally" = false
-		"Generate On Dragon Death" = true
+		"Generate Naturally" = true
+		"Generate On Dragon Death" = false
 		"Clusters Per Dragon Tick" = 16
 		"Dragon Ticks Per Cluster" = 1
 
@@ -894,9 +894,9 @@
 			#Allowed values: [0,255]
 			"Max Height" = 64
 			#Allowed values: [0,)
-			"Cluster Size" = 14
+			"Cluster Size" = 3
 			#Allowed values: [0,)
-			"Cluster Count" = 16
+			"Cluster Count" = 8
 
 	[world.blossom_trees]
 		"Drop Leaf Particles" = true
