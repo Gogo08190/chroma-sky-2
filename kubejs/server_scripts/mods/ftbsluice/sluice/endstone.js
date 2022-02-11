@@ -23,7 +23,4 @@ onEvent("recipes", (event) => {
         ["minecraft:chorus_flower", 0.12],
         ["miniutilities:ender_lily_seeds", 0.12],
     ]);
-
-    sluice(["blazing"], "ftbsluice:crushed_endstone", [
-    ]).fluid("minecraft:lava");
 });
