@@ -12,6 +12,9 @@ onEvent("item.tooltip", (event) => {
     event.add(/mekanismtools:(wood|stone|iron|diamond|gold|netherite)_(paxel)/, [
         Text.red("This item is for crafting only!"),
     ]);
+    event.add(/cyclic:(emerald|sandstone|netherbrick)_(sword|(pick)?axe|hoe|shovel)/, [
+        Text.red("This item is for crafting only!"),
+    ]);
 
     event.add(/miniutilities:experience_pearl*/, [
         Text.red("Experience pearls are gotten when you kill a mob with experience harvester enchant."),
