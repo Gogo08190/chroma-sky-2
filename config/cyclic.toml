@@ -27,7 +27,7 @@
 		#Set false to disable enchantment
 		life_leech = true
 		#Set false to disable enchantment
-		magnet = true
+		magnet = false
 		#Set false to disable enchantment
 		multishot = true
 		#Set false to disable enchantment
