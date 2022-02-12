@@ -13,6 +13,8 @@ onEvent("recipes", (event) => {
 
     event.shapeless('minecraft:oak_leaves', '9x chromasky:leaf');
 
+    event.shapeless('4x minecraft:quartz', 'minecraft:quartz_block');
+
     event.shaped(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:cs2-machine-manual"}'), [
     'BC'
     ], {

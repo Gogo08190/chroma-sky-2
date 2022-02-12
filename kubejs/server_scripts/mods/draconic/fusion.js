@@ -37,6 +37,43 @@ onEvent("recipes", (event) => {
         ],
     });
 
+    event.recipes.draconicevolution.fusion_crafting({
+        result: {
+            item: "mysticalagriculture:master_infusion_crystal",
+        },
+        catalyst: {
+            tag: "matc:supremium_crystal",
+        },
+        total_energy: 3000000,
+        tier: "WYVERN",
+        ingredients: [
+            {
+                item: "mysticalagradditions:insanium_essence",
+            },
+            {
+                item: "mysticalagradditions:insanium_essence",
+            },
+            {
+                item: "mysticalagriculture:prosperity_shard",
+            },
+            {
+                item: "mysticalagriculture:prosperity_shard",
+            },
+            {
+                item: "mysticalagriculture:prosperity_shard",
+            },
+            {
+                item: "mysticalagriculture:prosperity_shard",
+            },
+            {
+                item: "mysticalagradditions:insanium_essence",
+            },
+            {
+                item: "mysticalagradditions:insanium_essence",
+            },
+        ],
+    });
+
     event.remove({ output: 'draconicevolution:wyvern_chestpiece' })
     event.recipes.draconicevolution.fusion_crafting({
         result: {
