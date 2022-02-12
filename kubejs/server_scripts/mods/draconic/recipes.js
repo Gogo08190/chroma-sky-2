@@ -1,5 +1,6 @@
 onEvent('recipes', event => {
 
+  event.remove({ output: 'mysticalagriculture:master_infusion_crystal' })
   event.remove({ output: 'draconicevolution:draconium_core' })
   event.custom(
     {
