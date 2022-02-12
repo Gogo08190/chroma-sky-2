@@ -37,4 +37,18 @@ onEvent('recipes', event => {
         "aura": 5000,
         "time": 50
     })
+
+    event.custom({
+        "type": "naturesaura:altar",
+        "input": {
+            "item": "theabyss:ricom_flower"
+        },
+        "output": {
+            "item": "thebeginning:lazarus_flower"
+        },
+        "aura_type": "naturesaura:overworld",
+        "aura": 200,
+        "time": 80
+    })
+
 });
