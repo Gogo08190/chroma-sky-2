@@ -27,7 +27,7 @@
 		#Set false to disable enchantment
 		life_leech = true
 		#Set false to disable enchantment
-		magnet = true
+		magnet = false
 		#Set false to disable enchantment
 		multishot = true
 		#Set false to disable enchantment
@@ -48,14 +48,14 @@
 		beheadingEntityMHF = ["minecraft:blaze:MHF_Blaze", "minecraft:cat:MHF_Ocelot", "minecraft:cave_spider:MHF_CaveSpider", "minecraft:chicken:MHF_Chicken", "minecraft:cow:MHF_Cow", "minecraft:enderman:MHF_Enderman", "minecraft:ghast:MHF_Ghast", "minecraft:iron_golem:MHF_Golem", "minecraft:magma_cube:MHF_LavaSlime", "minecraft:mooshroom:MHF_MushroomCow", "minecraft:ocelot:MHF_Ocelot", "minecraft:pig:MHF_Pig", "minecraft:zombie_pigman:MHF_PigZombie", "minecraft:sheep:MHF_Sheep", "minecraft:slime:MHF_Slime", "minecraft:spider:MHF_Spider", "minecraft:squid:MHF_Squid", "minecraft:villager:MHF_Villager", "minecraft:witch:MHF_Witch", "minecraft:wolf:MHF_Wolf", "minecraft:guardian:MHF_Guardian", "minecraft:elder_guardian:MHF_Guardian", "minecraft:snow_golem:MHF_SnowGolem", "minecraft:silverfish:MHF_Silverfish", "minecraft:endermite:MHF_Endermite"]
 
 	#####################################################################################
-	# Worldgen settings  
+	# Worldgen settings
 	#####################################################################################
 	[cyclic.worldgen]
 		#Does this generate in the world
 		flower_cyan = true
 
 	#####################################################################################
-	# Edit the permissions of all commands added by the mod.  false means anyone can use, true means only OP players can use  
+	# Edit the permissions of all commands added by the mod.  false means anyone can use, true means only OP players can use
 	#####################################################################################
 	[cyclic.command]
 		#True means only players with OP can use this /cyclic command
@@ -367,4 +367,3 @@
 			#Ticks used for each uncraft
 			#Range: 1 ~ 9999
 			ticks = 60
-
