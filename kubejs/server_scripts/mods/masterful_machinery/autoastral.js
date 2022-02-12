@@ -170,15 +170,16 @@ function astral1(input1, count1, output, countout, starlight) {
     })
   }
   //Astral 1 item
-  astral1('astralsorcery:starmetal_ingot', 4, 'chromasky:starmetal_gear', 1, 100)
+  astral1('astralsorcery:starmetal_ingot', 4, 'chromasky:starmetal_gear', 1, 200)
+  astral1('minecraft:iron_ore', 1, 'astralsorcery:starmetal_ore', 1, 1000)
 
   // Astral 2 Items
-  astral2('astralsorcery:aquamarine', 1, 'minecraft:glowstone_dust', 4, 'astralsorcery:illumination_powder', 16, 100)
-  astral2('minecraft:glass_pane', 1, 'astralsorcery:aquamarine', 4, 'astralsorcery:glass_lens', 1, 50)
-  astral2('astralsorcery:marble_raw', 8, 'minecraft:coal', 1, 'astralsorcery:black_marble_raw', 8, 40)
-  astral2('minecraft:paper', 4, 'astralsorcery:aquamarine', 1, 'astralsorcery:parchment', 1, 60)
+  astral2('astralsorcery:aquamarine', 1, 'minecraft:glowstone_dust', 4, 'astralsorcery:illumination_powder', 16, 150)
+  astral2('minecraft:glass_pane', 1, 'astralsorcery:aquamarine', 4, 'astralsorcery:glass_lens', 1, 100)
+  astral2('astralsorcery:marble_raw', 8, 'minecraft:coal', 1, 'astralsorcery:black_marble_raw', 8, 120)
+  astral2('minecraft:paper', 4, 'astralsorcery:aquamarine', 1, 'astralsorcery:parchment', 1, 100)
 
   // Astral 4 Items
-  astral4('minecraft:oak_planks', 2, 'astralsorcery:marble_raw', 1, 'minecraft:gold_nugget', 2, 'astralsorcery:glass_lens', 1, 'astralsorcery:spectral_relay', 2, 70)
-  astral4('astralsorcery:illumination_powder', 1, 'minecraft:coal', 2, 'minecraft:black_dye', 1, 'minecraft:blue_dye', 1, 'astralsorcery:nocturnal_powder', 4, 80)
+  astral4('minecraft:oak_planks', 2, 'astralsorcery:marble_raw', 1, 'minecraft:gold_nugget', 2, 'astralsorcery:glass_lens', 1, 'astralsorcery:spectral_relay', 2, 180)
+  astral4('astralsorcery:illumination_powder', 1, 'minecraft:coal', 2, 'minecraft:black_dye', 1, 'minecraft:blue_dye', 1, 'astralsorcery:nocturnal_powder', 4, 200)
 })
