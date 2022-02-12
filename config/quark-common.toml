@@ -1669,7 +1669,7 @@
 	Foxhound = true
 	Frogs = true
 	Stonelings = false
-	Toretoise = true
+	Toretoise = false
 	Wraith = true
 
 	[mobs.crabs]
