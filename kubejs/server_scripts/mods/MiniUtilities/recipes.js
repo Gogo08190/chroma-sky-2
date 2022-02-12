@@ -12,7 +12,7 @@ onEvent('recipes', event => {
   })
 
   event.remove({ output: 'miniutilities:cursed_earth' })
-  event.shaped('8x miniutilities:cursed_earth', [
+  event.shaped('4x miniutilities:cursed_earth', [
   'DCD',
   'CEC',
   'DCD'
@@ -23,7 +23,7 @@ onEvent('recipes', event => {
   })
 
   event.remove({ output: 'miniutilities:blessed_earth' })
-  event.shaped('miniutilities:blessed_earth', [
+  event.shaped('4x miniutilities:blessed_earth', [
   'DCD',
   'CEC',
   'DCD'
@@ -69,5 +69,5 @@ onEvent('recipes', event => {
     R: 'extendedcrafting:redstone_ingot_block',
     N: 'minecraft:netherite_pickaxe'
   })
-  
+
 });
