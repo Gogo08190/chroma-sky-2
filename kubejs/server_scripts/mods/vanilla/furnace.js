@@ -8,6 +8,12 @@ onEvent("recipes", (event) => {
             });
         });
 
+    global.types
+        .map((t) => t.toLowerCase())
+        .forEach((t) => {
+            event.shapeless("4x chromasky:" + t + "_chunk", "chromasky:" + t + "_cluster");
+        });
+
     // compression and decompression recipes
     for (let type in global.compressables) {
         let props = global.compressables[type];
