@@ -5,8 +5,8 @@ onEvent('recipes', event => {
   // Auto Blood Controller
   event.recipes.bloodmagic.alchemytable('masterfulmachinery:autoblood_controller', ['bloodmagic:etherealslate', 'bloodmagic:weakbloodshard', 'xnet:controller', 'bloodmagic:vengefuldemoncrystal', 'bloodmagic:weakbloodshard', 'bloodmagic:etherealslate']).syphon(3658).upgradeLevel(4)
 
-  // Imperium Infusion Crystal
-  event.recipes.bloodmagic.alchemytable('matc:imperium_crystal', ['matc:tertium_crystal', 'mysticalagriculture:imperium_gemstone_block', 'mysticalagriculture:imperium_gemstone_block', 'mysticalagriculture:imperium_gemstone_block', 'mysticalagriculture:imperium_gemstone', 'mysticalagriculture:imperium_gemstone']).syphon(3658).upgradeLevel(4)
+  // Supremium Infusion Crystal
+  event.recipes.bloodmagic.alchemytable('matc:supremiumcrystal', ['matc:imperium_crystal', 'mysticalagriculture:supremium_gemstone_block', 'mysticalagriculture:supremium_gemstone_block', 'mysticalagriculture:supremium_gemstone_block', 'mysticalagriculture:supremium_gemstone', 'mysticalagriculture:supremium_gemstone']).syphon(3658).upgradeLevel(4)
   event.remove({ output: 'matc:imperium_crystal' })
 
   event.shaped('masterfulmachinery:autoblood_blood_item_port_items_output', [
