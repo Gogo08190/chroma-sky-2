@@ -242,21 +242,21 @@ onEvent('recipes', event => {
         ],
         "key": {
           "G": {
-            "item": "mysticalagriculture:supremium_gemstone_block"
+            "item": "mysticalagriculture:imperium_gemstone_block"
           },
           "S": {
-            "item": "mysticalagriculture:supremium_gemstone"
+            "item": "mysticalagriculture:imperium_gemstone"
           },
           "P": {
             "item": "mysticalagriculture:prosperity_shard"
           },
           "O": {
-            "item": "matc:imperium_crystal"
+            "item": "matc:tertium_crystal"
           }
         },
         "output": [
           {
-            "item": 'matc:supremium_crystal',
+            "item": 'matc:imperium_crystal',
             "count": 1
           }
         ],
