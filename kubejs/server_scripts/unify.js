@@ -178,6 +178,10 @@ onEvent('recipes', event => {
   event.replaceInput("immersivepetroleum:bitumen", "#forge:bitumen");
   event.replaceOutput("thermal:bitumen", "immersivepetroleum:bitumen");
 
+  event.replaceInput("thermal:ender_pearl_dust", "'forge:dusts/ender'");
+  event.replaceInput("miniutilities:ender_dust", "'forge:dusts/ender'");
+  event.replaceOutput("miniutilities:ender_dust", "thermal:ender_pearl_dust");
+
 });
 
 onEvent('recipes', event => {
