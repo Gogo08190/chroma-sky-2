@@ -2758,93 +2758,36 @@ onEvent("recipes", (event) => {
 
   event.custom(
     {
-      "type": "extendedcrafting:shaped_table",
+  "type": "extendedcrafting:shaped_table",
       "pattern": [
-        "         ",
-        "     AAA ",
-        "    ABCDA",
-        "   AEFGHA",
-        "  AIJKALA",
-        " AMNOPQRA",
-        " ASTUOVA ",
-        " AWXYAA  ",
-        "  AAA    "
+        "    AAA  ",
+        "   ABCDA ",
+        "  ABBBCA ",
+        " ABBBBBA ",
+        "ABBBBBBA ",
+        "AEBBBBA  ",
+        "AFEBAA   ",
+        " AAA     ",
+        "         "
       ],
       "key": {
         "A": {
           "item": "rats:block_of_cheese"
         },
         "B": {
-          "item": "rats:cheese"
+          "item": "rats:token_piece"
         },
         "C": {
-          "item": "pamhc2foodextended:groiledcheesesandwichitem"
+          "item": "rats:nether_cheese"
         },
         "D": {
           "item": "chromasky:ultimatebeer"
         },
         "E": {
-          "item": "pamhc2foodextended:grilledcheesevegemitetoastitem"
-        },
-        "F": {
-          "item": "pamhc2foodextended:cheesesteakitem"
-        },
-        "G": {
-          "item": "pamhc2foodcore:pumpkincheesecakeitem"
-        },
-        "H": {
-          "item": "pamhc2foodcore:baconcheeseburgeritem"
-        },
-        "I": {
           "item": "rats:blue_cheese"
         },
-        "J": {
-          "item": "pamhc2foodcore:cheesecakeitem"
-        },
-        "K": {
-          "item": "pamhc2foodextended:crackersandcheeseitem"
-        },
-        "L": {
-          "item": "pamhc2foodextended:cheesedanishitem"
-        },
-        "M": {
-          "item": "rats:nether_cheese"
-        },
-        "N": {
-          "item": "pamhc2foodextended:hamandcheesesandwichitem"
-        },
-        "O": {
-          "item": "pamhc2foodextended:potatoandcheesepirogiitem"
-        },
-        "P": {
-          "item": "pamhc2foodcore:grilledcheeseitem"
-        },
-        "Q": {
-          "item": "pamhc2foodcore:macncheeseitem"
-        },
-        "R": {
-          "item": "pamhc2foodextended:cheeseontoastitem"
-        },
-        "S": {
-          "item": "thermal:cheese_wheel"
-        },
-        "T": {
-          "item": "farmersdelight:sweet_berry_cheesecake_slice"
-        },
-        "U": {
-          "item": "pamhc2foodcore:basiccheeseburgeritem"
-        },
-        "V": {
-          "item": "pamhc2foodextended:herbcheeseballitem"
-        },
-        "W": {
+        "F": {
           "item": "chromasky:ultimate_meat"
-        },
-        "X": {
-          "item": "farmersdelight:sweet_berry_cheesecake"
-        },
-        "Y": {
-          "item": "thermal:cheese_wedge"
         }
       },
       "result": {
