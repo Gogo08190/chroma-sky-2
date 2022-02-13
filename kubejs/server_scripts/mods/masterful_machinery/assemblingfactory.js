@@ -57,20 +57,6 @@ e.custom({
   }
 })
 
-  function assembling2(ticks, rf, input1, count1, output) {
-    e.custom({
-      "type": "masterfulmachinery:machine_process",
-      "structureId": "assembling_factory",
-      "controllerId": "assemblingfactory",
-      "ticks": ticks,
-      "inputs": [
-          {"type": "masterfulmachinery:items","data": {"item": input1,"count": count1}},
-          {"type": "masterfulmachinery:energy","data": {"amount": rf}}
-      ],
-      "outputs": [{"type": "masterfulmachinery:items","data": {"item": output,"count": 1}}]
-    })
-  }
-
   function assembling3(ticks, rf, input1, count1, input2, count2, input3, count3, output) {
     e.custom({
       "type": "masterfulmachinery:machine_process",
@@ -121,9 +107,6 @@ e.custom({
       "outputs": [{"type": "masterfulmachinery:items","data": {"item": output,"count": 1}}]
     })
   }
-
-  // 1 Input
-  assembling2(20, 2000, 'matc:inferium_crystal', 1, 'chromasky:craft_prudentium_crystal')
 
   // 3 Inputs
   assembling3(20, 2000, 'chromasky:bottom_frame', 1, 'chromasky:mechanic_core_tier_1', 1, 'chromasky:top_frame', 1, 'thermal:machine_frame')
