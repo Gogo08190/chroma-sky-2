@@ -9,7 +9,7 @@
 	#####################################################################################
 	[cyclic.enchantment]
 		#Set false to disable enchantment
-		auto_smelt = true
+		auto_smelt = false
 		#Set false to disable enchantment
 		beekeeper = true
 		#Set false to disable enchantment
