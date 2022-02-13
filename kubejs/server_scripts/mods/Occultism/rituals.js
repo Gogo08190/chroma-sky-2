@@ -3,7 +3,7 @@ onEvent('recipes', (event) => {
     const recipes = [
         {
             ritual_type: 'occultism:craft',
-            activation_item: 'chromasky:craft_prudentium_crystal',
+            activation_item: Item.of('matc:inferium_crystal', '{Damage:0}').weakNBT(),
             pentacle_id: 'occultism:craft_foliot',
             duration: 15,
             ritual_dummy: 'chromasky:craft_prudentium_crystal',

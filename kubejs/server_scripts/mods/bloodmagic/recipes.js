@@ -64,5 +64,5 @@ onEvent('recipes', event => {
   })
 
   event.remove({ output: 'bloodmagic:daggerofsacrifice' })
-  event.recipes.bloodmagic.altar( 'bloodmagic:daggerofsacrifice', 'mysticalagriculture:soulium_dagger').upgradeLevel(2).altarSyphon(3000).consumptionRate(5).drainRate(5)
+  event.recipes.bloodmagic.altar('bloodmagic:daggerofsacrifice', Item.of('mysticalagriculture:soulium_dagger', '{Damage:0}').weakNBT(),).upgradeLevel(2).altarSyphon(3000).consumptionRate(5).drainRate(5)
 });
