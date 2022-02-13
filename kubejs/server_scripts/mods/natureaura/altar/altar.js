@@ -51,4 +51,17 @@ onEvent('recipes', event => {
         "time": 80
     })
 
+    event.custom({
+        "type": "naturesaura:altar",
+        "input": {
+            "item": "theabyss:abyssmountainplanta"
+        },
+        "output": {
+            "item": "theabyss:abyssthunderplant"
+        },
+        "aura_type": "naturesaura:overworld",
+        "aura": 200,
+        "time": 80
+    })
+
 });

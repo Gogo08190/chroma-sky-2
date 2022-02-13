@@ -26,19 +26,62 @@ onEvent("recipes", (event) => {
         ["mana-and-artifice:cerublossom", 0.15],
         ["mana-and-artifice:tarma_root", 0.15],
         ["mana-and-artifice:wakebloom", 0.15],
-        ["mana-and-artifice:desert_nova", 0.15]
+        ["mana-and-artifice:desert_nova", 0.25],
+        ["minecraft:pumpkin_seeds", 0.25],
+        ["minecraft:melon_seeds", 0.25],
+        ["minecraft:beetroot_seeds", 0.25],
+        ["minecraft:cocoa_beans", 0.25],
+        ["minecraft:bamboo", 0.25],
+        ["minecraft:sugar_cane", 0.25],
+        ["minecraft:cactus", 0.25],
+        ["immersiveengineering:seed", 0.25],
+        ["minecraft:wheat_seeds", 0.30],
+        ["minecraft:sea_pickle", 0.20],
     ]);
 
     sluice(["gold"], "#forge:dirt", [
         ["minecraft:kelp", 0.23],
-        ["mana-and-artifice:aum", 0.23]
+        ["mana-and-artifice:aum", 0.33],
+        ["occultism:datura_seeds", 0.32],
+        ["minecraft:sweet_berries", 0.32],
+        ["minecraft:potato", 0.30],
+        ["minecraft:carrot", 0.30],
+        ["mana-and-artifice:cerublossom", 0.25],
+        ["mana-and-artifice:tarma_root", 0.25],
+        ["mana-and-artifice:wakebloom", 0.25],
+        ["mana-and-artifice:desert_nova", 0.25],
+        ["minecraft:pumpkin_seeds", 0.35],
+        ["minecraft:melon_seeds", 0.35],
+        ["minecraft:beetroot_seeds", 0.35],
+        ["minecraft:cocoa_beans", 0.35],
+        ["minecraft:bamboo", 0.35],
+        ["minecraft:sugar_cane", 0.35],
+        ["minecraft:cactus", 0.35],
+        ["immersiveengineering:seed", 0.35],
+        ["minecraft:wheat_seeds", 0.40],
+        ["minecraft:sea_pickle", 0.25],
     ]);
 
     sluice(["diamond"], "#forge:dirt", [
         ["minecraft:kelp", 0.28],
-        ["mana-and-artifice:aum", 0.28]
+        ["mana-and-artifice:aum", 0.28],
+        ["occultism:datura_seeds", 0.42],
+        ["minecraft:sweet_berries", 0.42],
+        ["minecraft:potato", 0.40],
+        ["minecraft:carrot", 0.40],
+        ["mana-and-artifice:cerublossom", 0.35],
+        ["mana-and-artifice:tarma_root", 0.35],
+        ["mana-and-artifice:wakebloom", 0.35],
+        ["mana-and-artifice:desert_nova", 0.35],
+        ["minecraft:pumpkin_seeds", 0.45],
+        ["minecraft:melon_seeds", 0.45],
+        ["minecraft:beetroot_seeds", 0.45],
+        ["minecraft:cocoa_beans", 0.45],
+        ["minecraft:bamboo", 0.45],
+        ["minecraft:sugar_cane", 0.45],
+        ["minecraft:cactus", 0.45],
+        ["immersiveengineering:seed", 0.45],
+        ["minecraft:wheat_seeds", 0.45],
+        ["minecraft:sea_pickle", 0.30],
     ]);
-
-    sluice(["blazing"], "#forge:dirt", [
-    ]).fluid("minecraft:lava");
 });
