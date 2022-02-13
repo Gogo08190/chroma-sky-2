@@ -42,7 +42,7 @@ onEvent("recipes", (event) => {
             item: "mysticalagriculture:master_infusion_crystal",
         },
         catalyst: {
-            tag: "matc:supremium_crystal",
+            item: "matc:supremium_crystal",
         },
         total_energy: 3000000,
         tier: "WYVERN",
