@@ -80,7 +80,7 @@
 [perks]
 	#Sets the max level for the perk tree levels.
 	#Range: 10 ~ 100
-	perkLevelCap = 60
+	perkLevelCap = 100
 
 	[perks.key]
 
