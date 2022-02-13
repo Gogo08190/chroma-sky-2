@@ -13,7 +13,7 @@
 		#Set false to disable enchantment
 		beekeeper = true
 		#Set false to disable enchantment
-		beheading = true
+		beheading = false
 		#Set false to disable enchantment
 		curse = true
 		#Set false to disable enchantment
