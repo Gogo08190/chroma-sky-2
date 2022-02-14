@@ -8,7 +8,89 @@ onEvent("recipes", (event) => {
     S: 'mekanism:ingot_steel',
     R: 'extendedcrafting:redstone_ingot',
     C: 'mekanism:steel_casing',
-    F: 'ironfurnaces:iron_furnace'
+    F: 'industrialforegoing:resourceful_furnace'
+  })
+
+  event.remove({ output: 'mekanism:energized_smelter' })
+  event.shaped('mekanism:energized_smelter', [
+  'RFR',
+  'GCG',
+  'RFR'
+  ], {
+    G: 'thermal:machine_furnace',
+    R: 'extendedcrafting:redstone_ingot',
+    C: 'mekanism:steel_casing',
+    F: 'mekanism:basic_control_circuit'
+  })
+
+  event.remove({ output: 'mekanism:enrichment_chamber' })
+  event.shaped('mekanism:enrichment_chamber', [
+  'RFR',
+  'GCG',
+  'RFR'
+  ], {
+    G: 'thermal:machine_pulverizer',
+    R: 'extendedcrafting:redstone_ingot',
+    C: 'mekanism:steel_casing',
+    F: 'mekanism:basic_control_circuit'
+  })
+
+  event.remove({ output: 'mekanism:basic_tier_installer' })
+  event.shaped('mekanism:basic_tier_installer', [
+  'RFR',
+  'GCG',
+  'RFR'
+  ], {
+    G: 'ftbjarmod:cast_iron_ingot',
+    R: 'extendedcrafting:redstone_ingot',
+    C: '#minecraft:planks',
+    F: 'mekanism:basic_control_circuit'
+  })
+
+  event.remove({ output: 'mekanism:teleportation_core' })
+  event.shaped('mekanism:teleportation_core', [
+  'RFR',
+  'GCG',
+  'RFR'
+  ], {
+    G: 'powah:crystal_blazing',
+    R: 'powah:crystal_niotic',
+    C: 'rftoolsbase:infused_diamond',
+    F: 'mekanism:alloy_atomic'
+  })
+
+  event.remove({ output: 'mekanism:logistical_sorter' })
+  event.shaped('mekanism:logistical_sorter', [
+  'IPI',
+  'ICI',
+  'III'
+  ], {
+    I: 'powah:steel_energized',
+    P: 'minecraft:piston',
+    C: 'mekanism:basic_control_circuit'
+  })
+
+  event.remove({ output: 'mekanism:enrgy_tablet' })
+  event.shaped('mekanism:enrgy_tablet', [
+  'RGR',
+  'AGA',
+  'RGR'
+  ], {
+    G: 'powah:steel_energized',
+    R: 'extendedcrafting:redstone_ingot',
+    A: 'mekanism:alloy_infused'
+  })
+
+  event.remove({ output: 'mekanism:crusher' })
+  event.shaped('mekanism:crusher', [
+  'RFR',
+  'GCG',
+  'RFR'
+  ], {
+    G: 'minecraft:lava_bucket',
+    R: 'extendedcrafting:redstone_ingot',
+    C: 'mekanism:steel_casing',
+    F: 'mekanism:basic_control_circuit'
   })
 
   event.remove({ output: 'mekanism:steel_casing' })
