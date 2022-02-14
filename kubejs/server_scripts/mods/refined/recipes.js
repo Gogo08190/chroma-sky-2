@@ -246,6 +246,318 @@ onEvent('recipes', event => {
         "type": "industrialforegoing:dissolution_chamber"
     }
   )
+
+  event.custom(
+    {
+        "input": [
+            {
+                "item": "refinedstorage:silicon"
+            },
+            {
+                "item": "refinedstorage:quartz_enriched_iron"
+            },
+            {
+                "item": "refinedstorage:silicon"
+            },
+            {
+                "item": "thermal:lumium_glass"
+            },
+            {
+                "item": "thermal:lumium_glass"
+            },
+            {
+                "item": "refinedstorage:silicon"
+            },
+            {
+                "item": "extendedcrafting:redstone_ingot"
+            },
+            {
+                "item": "refinedstorage:silicon"
+            }
+        ],
+        "inputFluid": "{FluidName:\"industrialforegoing:pink_slime\",Amount:250}",
+        "processingTime": 60,
+        "output": {
+            "item": "refinedstorage:1k_storage_part",
+            "count": 1
+        },
+        "type": "industrialforegoing:dissolution_chamber"
+    }
+  )
+
+  event.custom(
+    {
+        "input": [
+            {
+                "item": "refinedstorage:basic_processor"
+            },
+            {
+                "item": "extendedcrafting:redstone_ingot"
+            },
+            {
+                "item": "refinedstorage:basic_processor"
+            },
+            {
+                "item": "refinedstorage:1k_storage_part"
+            },
+            {
+                "item": "refinedstorage:1k_storage_part"
+            },
+            {
+                "item": "refinedstorage:basic_processor"
+            },
+            {
+                "item": "refinedstorage:1k_storage_part"
+            },
+            {
+                "item": "refinedstorage:basic_processor"
+            }
+        ],
+        "inputFluid": "{FluidName:\"industrialforegoing:pink_slime\",Amount:250}",
+        "processingTime": 60,
+        "output": {
+            "item": "refinedstorage:4k_storage_part",
+            "count": 1
+        },
+        "type": "industrialforegoing:dissolution_chamber"
+    }
+  )
+
+  event.custom(
+    {
+        "input": [
+            {
+                "item": "refinedstorage:improved_processor"
+            },
+            {
+                "item": "extendedcrafting:redstone_ingot"
+            },
+            {
+                "item": "refinedstorage:improved_processor"
+            },
+            {
+                "item": "refinedstorage:4k_storage_part"
+            },
+            {
+                "item": "refinedstorage:4k_storage_part"
+            },
+            {
+                "item": "refinedstorage:improved_processor"
+            },
+            {
+                "item": "refinedstorage:4k_storage_part"
+            },
+            {
+                "item": "refinedstorage:improved_processor"
+            }
+        ],
+        "inputFluid": "{FluidName:\"industrialforegoing:pink_slime\",Amount:250}",
+        "processingTime": 60,
+        "output": {
+            "item": "refinedstorage:16k_storage_part",
+            "count": 1
+        },
+        "type": "industrialforegoing:dissolution_chamber"
+    }
+  )
+
+  event.custom(
+    {
+        "input": [
+            {
+                "item": "refinedstorage:advanced_processor"
+            },
+            {
+                "item": "extendedcrafting:redstone_ingot"
+            },
+            {
+                "item": "refinedstorage:advanced_processor"
+            },
+            {
+                "item": "refinedstorage:16k_storage_part"
+            },
+            {
+                "item": "refinedstorage:16k_storage_part"
+            },
+            {
+                "item": "refinedstorage:advanced_processor"
+            },
+            {
+                "item": "refinedstorage:16k_storage_part"
+            },
+            {
+                "item": "refinedstorage:advanced_processor"
+            }
+        ],
+        "inputFluid": "{FluidName:\"industrialforegoing:pink_slime\",Amount:250}",
+        "processingTime": 60,
+        "output": {
+            "item": "refinedstorage:64k_storage_part",
+            "count": 1
+        },
+        "type": "industrialforegoing:dissolution_chamber"
+    }
+  )
+
+  event.custom(
+    {
+        "input": [
+            {
+                "item": "extrastorage:neural_processor"
+            },
+            {
+                "item": "powah:capacitor_hardened"
+            },
+            {
+                "item": "extrastorage:neural_processor"
+            },
+            {
+                "item": "refinedstorage:64k_storage_part"
+            },
+            {
+                "item": "refinedstorage:64k_storage_part"
+            },
+            {
+                "item": "extrastorage:neural_processor"
+            },
+            {
+                "item": "refinedstorage:64k_storage_part"
+            },
+            {
+                "item": "extrastorage:neural_processor"
+            }
+        ],
+        "inputFluid": "{FluidName:\"industrialforegoing:ether_gas\",Amount:250}",
+        "processingTime": 60,
+        "output": {
+            "item": "extrastorage:storagepart_256k",
+            "count": 1
+        },
+        "type": "industrialforegoing:dissolution_chamber"
+    }
+  )
+
+  event.custom(
+    {
+        "input": [
+            {
+                "item": "extrastorage:neural_processor"
+            },
+            {
+                "item": "powah:capacitor_blazing"
+            },
+            {
+                "item": "extrastorage:neural_processor"
+            },
+            {
+                "item": "extrastorage:storagepart_256k"
+            },
+            {
+                "item": "extrastorage:storagepart_256k"
+            },
+            {
+                "item": "extrastorage:neural_processor"
+            },
+            {
+                "item": "extrastorage:storagepart_256k"
+            },
+            {
+                "item": "extrastorage:neural_processor"
+            }
+        ],
+        "inputFluid": "{FluidName:\"industrialforegoing:ether_gas\",Amount:250}",
+        "processingTime": 60,
+        "output": {
+            "item": "extrastorage:storagepart_1024k",
+            "count": 1
+        },
+        "type": "industrialforegoing:dissolution_chamber"
+    }
+  )
+
+  event.custom(
+    {
+        "input": [
+            {
+                "item": "extrastorage:neural_processor"
+            },
+            {
+                "item": "powah:capacitor_spirited"
+            },
+            {
+                "item": "extrastorage:neural_processor"
+            },
+            {
+                "item": "extrastorage:storagepart_1024k"
+            },
+            {
+                "item": "extrastorage:storagepart_1024k"
+            },
+            {
+                "item": "extrastorage:neural_processor"
+            },
+            {
+                "item": "extrastorage:storagepart_1024k"
+            },
+            {
+                "item": "extrastorage:neural_processor"
+            }
+        ],
+        "inputFluid": "{FluidName:\"industrialforegoing:ether_gas\",Amount:500}",
+        "processingTime": 60,
+        "output": {
+            "item": "extrastorage:storagepart_4096k",
+            "count": 1
+        },
+        "type": "industrialforegoing:dissolution_chamber"
+    }
+  )
+
+  event.custom(
+    {
+        "input": [
+            {
+                "item": "extrastorage:neural_processor"
+            },
+            {
+                "item": "powah:capacitor_niotic"
+            },
+            {
+                "item": "extrastorage:neural_processor"
+            },
+            {
+                "item": "extrastorage:storagepart_4096k"
+            },
+            {
+                "item": "extrastorage:storagepart_4096k"
+            },
+            {
+                "item": "extrastorage:neural_processor"
+            },
+            {
+                "item": "extrastorage:storagepart_4096k"
+            },
+            {
+                "item": "extrastorage:neural_processor"
+            }
+        ],
+        "inputFluid": "{FluidName:\"industrialforegoing:ether_gas\",Amount:1000}",
+        "processingTime": 60,
+        "output": {
+            "item": "extrastorage:storagepart_16384k",
+            "count": 1
+        },
+        "type": "industrialforegoing:dissolution_chamber"
+    }
+  )
+  event.remove({ output: 'refinedstorage:1k_storage_part' })
+  event.remove({ output: 'refinedstorage:4k_storage_part' })
+  event.remove({ output: 'refinedstorage:16k_storage_part' })
+  event.remove({ output: 'refinedstorage:64k_storage_part' })
+  event.remove({ output: 'extrastorage:storagepart_256k' })
+  event.remove({ output: 'extrastorage:storagepart_1024k' })
+  event.remove({ output: 'extrastorage:storagepart_4096k' })
+  event.remove({ output: 'extrastorage:storagepart_16384k' })
   event.remove({ output: 'extrastorage:neural_processor' })
   event.remove({ output: 'extrastorage:raw_neural_processor' })
 
