@@ -124,17 +124,4 @@ onEvent('recipes', event => {
     C: 'powah:dielectric_casing',
     Q: 'refinedstorage:quartz_enriched_iron'
   })
-
-  // Energizing Rod (Basic)
-  event.remove({ output: 'powah:energizing_rod_basic' })
-  event.shaped('powah:energizing_rod_basic', [
-  ' Q ',
-  'BCB',
-  ' D '
-  ], {
-    D: 'powah:dielectric_rod',
-    B: 'powah:capacitor_basic_tiny',
-    C: 'powah:dielectric_casing',
-    Q: 'refinedstorage:quartz_enriched_iron_block'
-  })
 });
