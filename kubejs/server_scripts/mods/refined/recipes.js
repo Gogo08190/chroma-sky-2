@@ -748,44 +748,6 @@ onEvent('recipes', event => {
                 "item": "extrastorage:neural_processor"
             },
             {
-                "item": "powah:capacitor_hardened"
-            },
-            {
-                "item": "extrastorage:neural_processor"
-            },
-            {
-                "item": "refinedstorage:4096k_fluid_storage_part"
-            },
-            {
-                "item": "refinedstorage:4096k_fluid_storage_part"
-            },
-            {
-                "item": "extrastorage:neural_processor"
-            },
-            {
-                "item": "refinedstorage:4096k_fluid_storage_part"
-            },
-            {
-                "item": "extrastorage:neural_processor"
-            }
-        ],
-        "inputFluid": "{FluidName:\"industrialforegoing:ether_gas\",Amount:250}",
-        "processingTime": 60,
-        "output": {
-            "item": "extrastorage:storagepart_16384k_fluid",
-            "count": 1
-        },
-        "type": "industrialforegoing:dissolution_chamber"
-    }
-  )
-
-  event.custom(
-    {
-        "input": [
-            {
-                "item": "extrastorage:neural_processor"
-            },
-            {
                 "item": "powah:capacitor_blazing"
             },
             {
@@ -848,7 +810,7 @@ onEvent('recipes', event => {
         "inputFluid": "{FluidName:\"industrialforegoing:ether_gas\",Amount:500}",
         "processingTime": 60,
         "output": {
-            "item": "extrastorage:storagepart_65536k_fluid",
+            "item": "extrastorage:storagepart_262144k_fluid",
             "count": 1
         },
         "type": "industrialforegoing:dissolution_chamber"
@@ -868,7 +830,7 @@ onEvent('recipes', event => {
                 "item": "extrastorage:neural_processor"
             },
             {
-                "item": "extrastorage:storagepart_2621446k_fluid"
+                "item": "extrastorage:storagepart_262144k_fluid"
             },
             {
                 "item": "extrastorage:storagepart_262144k_fluid"

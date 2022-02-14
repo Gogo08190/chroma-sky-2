@@ -70,8 +70,8 @@ onEvent("recipes", (event) => {
     C: 'mekanism:basic_control_circuit'
   })
 
-  event.remove({ output: 'mekanism:enrgy_tablet' })
-  event.shaped('mekanism:enrgy_tablet', [
+  event.remove({ output: 'mekanism:energy_tablet' })
+  event.shaped('mekanism:energy_tablet', [
   'RGR',
   'AGA',
   'RGR'
