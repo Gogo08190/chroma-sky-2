@@ -9,7 +9,7 @@ onEvent("recipes", (event) => {
         ["minecraft:netherrack", 0.26],
         ["minecraft:brown_mushroom", 0.13],
         ["minecraft:red_mushroom", 0.13],
-    ]).mb(50);
+    ]).mb(50).fluid("minecraft:lava");
 
     sluice(["iron"], "ftbsluice:crushed_basalt", [
       ["minecraft:soul_sand", 0.23],
@@ -19,7 +19,7 @@ onEvent("recipes", (event) => {
       ["minecraft:netherrack", 0.36],
       ["farmersdelight:brown_mushroom_colony", 0.13],
       ["farmersdelight:red_mushroom_colony", 0.13],
-    ]);
+    ]).fluid("minecraft:lava");
 
     sluice(["gold"], "ftbsluice:crushed_basalt", [
       ["minecraft:soul_sand", 0.29],
@@ -27,7 +27,7 @@ onEvent("recipes", (event) => {
       ["tconstruct:netherite_nugget", 0.07],
       ["minecraft:gold_nugget", 0.29],
       ["minecraft:netherrack", 0.38],
-    ]);
+    ]).fluid("minecraft:lava");
 
     sluice(["diamond"], "ftbsluice:crushed_basalt", [
       ["minecraft:soul_sand", 0.31],
@@ -35,7 +35,7 @@ onEvent("recipes", (event) => {
       ["tconstruct:netherite_nugget", 0.08],
       ["minecraft:gold_nugget", 0.31],
       ["minecraft:netherrack", 0.41],
-    ]);
+    ]).fluid("minecraft:lava");
 
     sluice(["blazing"], "ftbsluice:crushed_basalt", [
       ["minecraft:soul_sand", 0.31],
