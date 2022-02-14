@@ -237,7 +237,7 @@ onEvent('recipes', event => {
                 "item": "refinedstorage:quartz_enriched_iron"
             }
         ],
-        "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:250}",
+        "inputFluid": "{FluidName:\"industrialforegoing:ether_gas\",Amount:250}",
         "processingTime": 60,
         "output": {
             "item": "extrastorage:neural_processor",
