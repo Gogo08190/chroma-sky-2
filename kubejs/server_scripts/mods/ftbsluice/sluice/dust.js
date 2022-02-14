@@ -32,7 +32,6 @@ onEvent("recipes", (event) => {
 
     sluice(["diamond"], "ftbsluice:dust", [
         ["mana-and-artifice:vinteum_dust", 0.1],
-        ["chromasky:redstone_chunk", 0.3],
         ["chromasky:fluorite_chunk", 0.21],
         ["projectred-core:peridot", 0.23],
         ["chromasky:gold_chunk", 0.16],
