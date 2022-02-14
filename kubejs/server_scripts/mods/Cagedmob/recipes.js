@@ -15,20 +15,20 @@ onEvent('recipes', event => {
     "growTicks": 1200,
     "results": [
     	{
-    		"chance": 0.2,
+    		"chance": 0.1,
     		"output": {
     			"item": "theabyss:phantom_soul_item"
     		},
     		"minAmount": 1,
-    		"maxAmount": 4
+    		"maxAmount": 2
     	},
     	{
-    		"chance": 0.3,
+    		"chance": 0.2,
     		"output": {
     			"item": "minecraft:phantom_membrane"
     		},
     		"minAmount": 1,
-    		"maxAmount": 4
+    		"maxAmount": 2
     	}
     ]
 
