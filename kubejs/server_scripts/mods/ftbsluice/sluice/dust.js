@@ -37,7 +37,7 @@ onEvent("recipes", (event) => {
         ["chromasky:gold_chunk", 0.16],
         ["minecraft:bone_meal", 0.25],
         ["minecraft:gunpowder", 0.19],
-        ["chromasky:redstone_chunk", 0.21],
+        ["chromasky:redstone_chunk", 0.30],
         ["chromasky:silver_chunk", 0.15],
         ["chromasky:nickel_chunk", 0.14],
     ]);
