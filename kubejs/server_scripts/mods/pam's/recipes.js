@@ -29,7 +29,7 @@ onEvent("recipes", (event) => {
 
   event.shaped('pamhc2foodextended:peachesandcreamoatmealitem', [
   'PO ',
-  'AW',
+  'AW ',
   '   '
   ], {
     P: 'pamhc2foodcore:potitem',
