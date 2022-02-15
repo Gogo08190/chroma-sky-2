@@ -15,6 +15,7 @@ onEvent("recipes", (event) => {
         ["minecraft:cactus", 0.15],
         ["immersiveengineering:seed", 0.15],
         ["minecraft:wheat_seeds", 0.20],
+        ["minecraft:sunflower", 0.10],
     ]).mb(50);
 
     sluice(["iron"], "#forge:dirt", [
@@ -37,6 +38,7 @@ onEvent("recipes", (event) => {
         ["immersiveengineering:seed", 0.25],
         ["minecraft:wheat_seeds", 0.30],
         ["minecraft:sea_pickle", 0.20],
+        ["minecraft:sunflower", 0.15],
     ]);
 
     sluice(["gold"], "#forge:dirt", [
@@ -60,6 +62,7 @@ onEvent("recipes", (event) => {
         ["immersiveengineering:seed", 0.35],
         ["minecraft:wheat_seeds", 0.40],
         ["minecraft:sea_pickle", 0.25],
+        ["minecraft:sunflower", 0.20],
     ]);
 
     sluice(["diamond"], "#forge:dirt", [
@@ -83,5 +86,6 @@ onEvent("recipes", (event) => {
         ["immersiveengineering:seed", 0.45],
         ["minecraft:wheat_seeds", 0.45],
         ["minecraft:sea_pickle", 0.30],
+        ["minecraft:sunflower", 0.25],
     ]);
 });
