@@ -13,11 +13,10 @@
 	#Enables redstone being compressed with the bedrock and obsidian to get flux
 	enableFluxRecipe = true
 	#Allows flux tiles to work as chunk loaders
-	enableChunkLoading = true
+	enableChunkLoading = false
 
 [blacklist]
 	#A blacklist for blocks which flux devices shouldn't connect to, use format 'modid:registry_name'
 	blockBlacklistStrings = ["actuallyadditions:block_phantom_energyface"]
 	#A blacklist for items which wireless charging shouldn't charge to, use format 'modid:registry_name'
 	itemBlackListStrings = [""]
-
