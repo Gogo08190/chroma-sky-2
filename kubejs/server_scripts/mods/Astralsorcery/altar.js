@@ -5,7 +5,7 @@ onEvent('recipes', event => {
         "type": "astralsorcery:altar",
         "altar_type": 3,
         "duration": 1200,
-        "starlight": 6942,
+        "starlight": 6900,
         "pattern": ["AAAAA","ARSRA","AGIGA","ARSRA","AAAAA"],
         "key": {
           "A": {"item": "astralsorcery:black_marble_raw"},
