@@ -40,7 +40,7 @@ onEvent("recipes", (event) => {
 
   // Gourmet Mutton Patty
 
-  event.shaped('pamhc2foodextended:peachesandcreamoatmealitem', [
+  event.shaped('pamhc2foodextended:gourmetmuttonpattyitem', [
   'BGS',
   'LM ',
   '   '
