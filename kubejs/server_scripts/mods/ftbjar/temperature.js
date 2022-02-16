@@ -13,15 +13,25 @@ onEvent("recipes", (event) => {
         });
     };
 
+    const source2 = (temperature, block, item, efficiency) => {
+        temp({
+            temperature: temperature,
+            block: block,
+            item: item,
+            efficiency: efficiency,
+        });
+    };
+
     //Sub temp
-    source("subzero", "minecraft:water", 0.20);
+    source("subzero", "minecraft:packed_ice", 2.0);
     source("subzero", "minecraft:snow_block", 0.45);
     source("subzero", "minecraft:ice", 0.75);
-    source("subzero", "minecraft:packed_ice", 2.0);
-    source("subzero", "kubejs:cryotheum", 3.0);
     source("subzero", "minecraft:blue_ice", 4.0);
     source("subzero", "powah:dry_ice", 6.0);
 
-    //Low Temp
-    source("low", "tconstruct:blazing_blood", 6.0);
+
+    source2("low", "tconstruct:blazing_blood", "tconstruct:blazing_blood_bucket", 6.0);
+
+    source2("subzero", "kubejs:cryotheum", "kubejs:cryotheum_bucket", 3.0);
+    source2("subzero", "minecraft:water", "minecraft:water_bucket", 0.20);
 });
