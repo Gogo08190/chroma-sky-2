@@ -5,10 +5,19 @@
 </p>
 
 <p align="center">
-<strong>Chroma Sky 2</strong> is a modpack for Minecraft 1.16.5 in Skyblock..
+Hello and Welcome to the sequel of <strong>Chroma Sky</strong> developed by our team.<br><br>
+As you may understand, this is a <strong>Skyblock Modpack</strong> ! But this time you will be able to choose different islands to start your adventure !<br>
+Becareful though some islands might be hard !<br><br>
+The goal of this modpack is to survive and automate on your island in order to access creative recipes !<br><br>
+To help you through your journey, you will be able to go through more than <strong>3000 quests</strong> !<br><br>
+This modpack is available in 1.16.5 and has a <strong>unique collection of mods</strong>, <strong>custom crafts</strong>, <strong>configs</strong> and <strong>machines</strong> to enhance your survival.
 </p>
 
 <p align="center">
+  <a target="_blank" href="https://chromatech.fr/">
+    <img src="https://img.shields.io/badge/Website-Chromatech.fr-1b1b1b?style=for-the-badge">
+  </a>
+
   <a target="_blank" href="https://discord.gg/cVEMguY">
     <img src="https://img.shields.io/discord/370244934483312640?color=1b1b1b&label=Discord&logo=Discord&style=for-the-badge">
   </a>
@@ -27,13 +36,13 @@
 </p>
 
 <p align="center">
-  <strong>For support, please come directly to our <a href="https://discord.gg/cVEMguY">Discord server</a>.</strong>
+  <strong>For support, create and issue or come directly to our <a href="https://discord.gg/cVEMguY">Discord server</a>.</strong>
 </p>
 
 ------------------------------
 
 <p align="center">
-  <strong>If you're interested in hosting a server with Chroma Sky 2, click the image below!</strong>
+  <strong>If you're interested in hosting a server with <strong>Chroma Sky 2</strong>, click the image below!</strong>
 </p>
 
 <p align="center">
