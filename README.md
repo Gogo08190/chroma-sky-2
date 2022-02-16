@@ -32,10 +32,6 @@ This modpack is available in 1.16.5 and has a <strong>unique collection of mods<
 </p>
 
 <p align="center">
- Description here
-</p>
-
-<p align="center">
   <strong>For support, create and issue or come directly to our <a href="https://discord.gg/cVEMguY">Discord server</a>.</strong>
 </p>
 
