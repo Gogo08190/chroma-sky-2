@@ -13,4 +13,6 @@ onEvent("recipes", (event) => {
   event.shapeless('pamhc2foodextended:gourmetmuttonpattyitem', ['pamhc2foodcore:mixingbowlitem', 'pamhc2foodcore:groundmuttonitem', 'pamhc2foodextended:saltandpepperitem', 'pamhc2crops:spiceleafitem', 'pamhc2crops:mustardseedsitem'])
 
   event.shapeless('pamhc2foodextended:honeyglazedhamitem', ['pamhc2foodcore:saucepanitem', 'minecraft:porkchop', 'minecraft:honey_bottle', '#forge:butter', 'pamhc2trees:lemonitem'])
+
+  event.shapeless('farmers_extra_foods:batteredcod', ['farmersdelight:cod_slice', 'farmers_extra_foods:flour', 'minecraft:egg'])
 });
