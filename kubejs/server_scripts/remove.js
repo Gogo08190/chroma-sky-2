@@ -46,4 +46,8 @@ onEvent("recipes", (event) => {
   event.remove({output: 'extendedcrafting:ultimate_singularity'})
   event.remove({output: 'mekanism:upgrade_anchor'})
   event.remove({output: 'thermal:creosote_bucket'})
+  event.remove({output: 'thermal:glowstone_mushroom_spores'})
+  event.remove({output: 'thermal:gunpowder_mushroom_spores'})
+  event.remove({output: 'thermal:redstone_mushroom_spores'})
+  event.remove({output: 'thermal:slime_mushroom_spores'})
 });
