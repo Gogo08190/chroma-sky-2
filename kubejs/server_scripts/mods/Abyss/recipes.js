@@ -7,7 +7,7 @@ onEvent('recipes', event => {
       `LNL`,
       `OLO`
     ], {
-      O: 'minecraft:obsidian',
+      O: 'minecraft:crying_obsidian',
       L: 'theabyss:abyssloranitem',
       N: 'powah:crystal_niotic'
     })
