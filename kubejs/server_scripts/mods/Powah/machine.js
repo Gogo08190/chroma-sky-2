@@ -213,7 +213,7 @@ onEvent('recipes', event => {
       "ingredients": [
       {"item": 'mysticalagriculture:prudentium_gemstone_block'},
       {"item": 'powah:energy_cell_spirited'},
-      {"item": 'masterfulmachinery:mysticfactory2_mystical_item_port_items_output'},
+      {"item": 'masterfulmachinery:mysticfactory2_mystical_energy_port_energy_input'},
       {"item": 'powah:energy_cell_spirited'},
       {"item": 'mysticalagriculture:prudentium_gemstone_block'}
       ],
