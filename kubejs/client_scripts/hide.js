@@ -231,7 +231,11 @@ events.listen('jei.hide.items', function (event) {
     Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:platinum"}'),
     Item.of('modularrouters:creative_module', '{modularrouters:{ModuleFilter:{}}}'),
     Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{FluidName:"thermal:creosote",Amount:2147483647}}]}}'),
-    'theabyss:auto_smelt_pick_axe'
+    'theabyss:auto_smelt_pick_axe',
+    'thermal:glowstone_mushroom_spores',
+    'thermal:gunpowder_mushroom_spores',
+    'thermal:redstone_mushroom_spores',
+    'thermal:slime_mushroom_spores'
   ])
 })
 
