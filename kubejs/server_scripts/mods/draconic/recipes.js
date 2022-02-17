@@ -13,7 +13,7 @@ onEvent('recipes', event => {
       {"item": 'thermal:gold_gear'},
       {"item": 'thermal:gold_gear'}
       ],
-      "energy": 5000,
+      "energy": 20000,
       "result": {
       "item": 'draconicevolution:draconium_core',
       "count": 1
@@ -47,10 +47,10 @@ onEvent('recipes', event => {
   'BSB',
   'BBB'
   ], {
-    D: 'thermal:diamond_gear',
+    D: 'chromasky:draconium_gear',
     C: 'draconicevolution:draconium_core',
     B: 'minecraft:blackstone',
-    S: 'mekanism:block_steel'
+    S: 'mekanism:steel_casing'
   })
 
   event.remove({ output: 'draconicevolution:wyvern_energy_core' })
@@ -92,8 +92,8 @@ onEvent('recipes', event => {
   'DCD',
   'LDL'
   ], {
-    D: 'thermal:diamond_gear',
-    L: 'minecraft:lapis_block',
+    D: 'chromasky:ultimategear',
+    L: 'powah:niotic_crystal_block',
     C: 'draconicevolution:draconium_core'
   })
 
