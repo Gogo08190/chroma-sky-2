@@ -14,14 +14,43 @@ onEvent('recipes', event => {
 
     // Abyss Activator portal
     event.remove({ output: 'theabyss:theabyssdim' })
-    event.shaped('theabyss:theabyssdim', [
-      ` I `,
-      `ENE`,
-      ` B `
-    ], {
-      B: 'minecraft:lava_bucket',
-      E: 'extendedcrafting:black_iron_ingot',
-      N: 'powah:crystal_niotic',
-      I: 'mysticalagriculture:imperium_ingot'
-    })
+    event.custom(
+      {
+        "type": "astralsorcery:altar",
+        "altar_type": 0,
+        "duration": 100,
+        "starlight": 100,
+        "pattern": [
+          "_____",
+          "_ R _",
+          "_ENE_",
+          "_ B _",
+          "_____"
+        ],
+        "key": {
+          "B": {
+            "item": "minecraft:lava_bucket"
+          },
+          "R": {
+            "item": "astralsorcery:resonating_gem"
+          },
+          "E": {
+            "item": "extendedcrafting:black_iron_ingot"
+          },
+          "N": {
+            "item": "powah:crystal_niotic"
+          },
+        },
+        "output": [
+          {
+            "item": "theabyss:theabyssdim",
+            "count": 1
+          }
+        ],
+        "effects": [
+          "astralsorcery:built_in_effect_discovery_central_beam"
+        ]
+      }
+    )
+
   });
