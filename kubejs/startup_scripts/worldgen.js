@@ -46,7 +46,12 @@ onEvent('worldgen.remove', event => {
         'miniutilities:ender_ore',
         'mysticalagriculture:inferium_ore',
         'mana-and-artifice:vinteum_ore',
-        'thermal:apatite_ore'
+        'thermal:apatite_ore',
+        'draconicevolution:end_draconium_ore'
+        'draconicevolution:nether_draconium_ore'
+        'draconicevolution:overworld_draconium_ore'
+        'mysticalagradditions:nether_inferium_ore'
+        'mysticalagradditions:end_inferium_ore'
       ]
   })
 })
