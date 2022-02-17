@@ -45,12 +45,13 @@ onEvent('recipes', event => {
   event.shaped('draconicevolution:basic_crafting_injector', [
   'DCD',
   'BSB',
-  'BBB'
+  'BPB'
   ], {
     D: 'chromasky:draconium_gear',
     C: 'draconicevolution:draconium_core',
     B: 'minecraft:blackstone',
-    S: 'mekanism:steel_casing'
+    S: 'mekanism:steel_casing',
+    P: 'projecte:dark_matter'
   })
 
   event.remove({ output: 'draconicevolution:wyvern_energy_core' })
