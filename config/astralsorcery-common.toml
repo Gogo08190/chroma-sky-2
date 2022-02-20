@@ -55,11 +55,11 @@
 		#Set this to true to let this feature generate in any biome.
 		everyBiome = true
 		#Set this to true to let this feature generate in any world. (Does NOT work for structures!)
-		everyWorld = false
+		everyWorld = true
 		#Sets the categories to generate this feature in. Available categories: none,taiga,extreme_hills,jungle,mesa,plains,savanna,icy,the_end,beach,forest,ocean,desert,river,swamp,mushroom,nether
-		biomeCategoryNames = ["the_end", "nether"]
+		biomeCategoryNames = []
 		#Sets the worlds to generate this feature in. (Does NOT work for structures!)
-		worldNames = ["overworld"]
+		worldNames = []
 
 	[worldgen.aquamarine]
 		#Set this to false to disable this worldgen feature.
@@ -102,4 +102,3 @@
 		#Defines the structure separation for worldgen
 		#Range: 1 ~ 512
 		separation = 4
-
