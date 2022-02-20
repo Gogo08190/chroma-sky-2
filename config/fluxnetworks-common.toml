@@ -20,3 +20,4 @@
 	blockBlacklistStrings = ["actuallyadditions:block_phantom_energyface"]
 	#A blacklist for items which wireless charging shouldn't charge to, use format 'modid:registry_name'
 	itemBlackListStrings = [""]
+

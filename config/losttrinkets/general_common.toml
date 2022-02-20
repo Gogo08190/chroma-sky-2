@@ -19,7 +19,7 @@ nonRandom = ["ftbultimine:ultiminer"]
 	maxSlots = 40
 	#Levels of xp needed to unlock a trinket slot.
 	#Range: 0 ~ 1000
-	slotCost = 15
+	slotCost = 20
 	#Amount of Xp levels added to the next unlocking cost.
 	#Range: 0 ~ 1000
 	slotUpFactor = 3

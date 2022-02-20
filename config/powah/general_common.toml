@@ -43,3 +43,4 @@ lens_of_ender = true
 	#Eg: Coal has 1600 fuel tick, so will generate 48000 FE.
 	#Range: 1 ~ 1000000
 	solidFuelEnergyBase = 30
+
