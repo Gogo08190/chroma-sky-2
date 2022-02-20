@@ -221,7 +221,8 @@ onEvent('recipes', event => {
           }
         ],
         "effects": [
-          "astralsorcery:built_in_effect_discovery_central_beam"
+          "astralsorcery:built_in_effect_discovery_central_beam",
+          "astralsorcery:built_in_effect_attunement_sparkle"
         ]
       }
     )
