@@ -59,4 +59,7 @@ onEvent("recipes", (event) => {
   event.recipes.thermal
     .bottler("simplyjetpacks:unit_cryotheum", ['simplyjetpacks:unit_cryotheum_empty', Fluid.of('kubejs:cryotheum', 1000)])
     .energy(500);
+
+    event
+      .custom({"type": "thermal:pyrolyzer","ingredient": {"item": "rats:plastic_waste"},"result": [{"item": 'industrialforegoing:tinydryrubber',"chance": 0.3},{"item": 'industrialforegoing:dryrubber',"chance": 0.005}],"energy": 5000,"experience": 0.00});
 });
