@@ -61,5 +61,5 @@ onEvent("recipes", (event) => {
     .energy(500);
 
     event
-      .custom({"type": "thermal:pyrolyzer","ingredient": {"item": "rats:plastic_waste"},"result": [{"item": 'industrialforegoing:tinydryrubber',"chance": 0.3},{"item": 'industrialforegoing:dryrubber',"chance": 0.005}],"energy": 5000,"experience": 0.00});
+      .custom({"type": "thermal:pyrolyzer","ingredient": {"item": "rats:plastic_waste"},"result": [{"item": 'industrialforegoing:tinydryrubber',"chance": 0.1},{"fluid": 'industrialforegoing:latex',"amount": 50}],"energy": 3000,"experience": 0.00});
 });
