@@ -1,7 +1,7 @@
 {
 	id: "7E3C8E455E632DF6"
 	group: "73390EDA98890AC0"
-	order_index: 2
+	order_index: 3
 	filename: "astral_sorcery"
 	title: "Astral Sorcery"
 	icon: "astralsorcery:shifting_star_vicio"
@@ -53,7 +53,11 @@
 			x: -16.5d
 			y: -6.5d
 			shape: "diamond"
-			description: ["It is the first tier of crafting altar and is used throughout the Exploration chapter of the Astral Tome."]
+			description: [
+				"It is the first tier of crafting altar and is used throughout the Exploration chapter of the Astral Tome."
+				""
+				"Bind the &aCollector Crystal&r on a Crafting table to transform this on a Luminous Crafting Table."
+			]
 			dependencies: ["0B67CBE199F4E4D9"]
 			size: 3.0d
 			id: "4629A552492B890B"
@@ -202,8 +206,8 @@
 			]
 		}
 		{
-			x: -11.0d
-			y: -4.5d
+			x: -10.5d
+			y: -4.0d
 			shape: "diamond"
 			dependencies: ["7E5C6859951B0E01"]
 			id: "0FC2D90E094EAB11"
@@ -272,8 +276,8 @@
 			}]
 		}
 		{
-			x: -18.0d
-			y: -4.0d
+			x: -16.5d
+			y: -4.5d
 			shape: "diamond"
 			dependencies: ["39E5C481897E7320"]
 			id: "2FB5F19F9E49B197"
@@ -328,7 +332,7 @@
 			x: -16.0d
 			y: -5.0d
 			shape: "diamond"
-			dependencies: ["649AAA6B08377944"]
+			dependencies: ["5AF41D8E497E6D5F"]
 			id: "4EA89F8BC2F34D1D"
 			tasks: [{
 				id: "03B8C523C8AD9842"
@@ -930,7 +934,7 @@
 			y: -10.5d
 			shape: "diamond"
 			description: [
-				" It forms the core of an advanced multi-block. "
+				"It forms the core of an advanced multi-block. "
 				""
 				"A Containment Chalice must be placed on top of the fountain and supplied with Liquid Starlight for the structure to operate."
 				""
@@ -1311,36 +1315,22 @@
 			]
 		}
 		{
-			x: -16.0d
-			y: -10.5d
-			shape: "diamond"
-			dependencies: ["13C3047AC4A33314"]
-			id: "4B3A7953270DCEFD"
-			tasks: [{
-				id: "52F23666FDBF659B"
-				type: "item"
-				item: {
-					id: "matc:supremium_crystal"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "16C459749D24D4BC"
-				type: "item"
-				item: "mysticalagriculture:supremium_ingot"
-				count: 4
-			}]
-		}
-		{
 			title: "&k&dabc &r&bStarting Astral&r &k&dabc&r"
+			icon: "astralsorcery:shifting_star_armara"
 			x: -16.5d
-			y: -3.5d
+			y: -3.0d
 			subtitle: "How to start Astral ?"
-			description: ["To start astral you must go to the end and find the different structures hidden on the islands."]
-			dependencies: ["0BDA67667CF2B2A3"]
+			description: [
+				"To start astral you must go to the end and find the different structures hidden on the islands."
+				""
+				"To be able to start astral, you must craft a &dcollector crystal&r.  To make it put &b8 Rock Crystals&r in a Dissolution chamber with &bEther Gas&r."
+				""
+				"Check Rock Crystal utilisation in JEI to see the recipe."
+			]
+			dependencies: [
+				"0BDA67667CF2B2A3"
+				"0990C82D9CE73CAF"
+			]
 			id: "0B67CBE199F4E4D9"
 			tasks: [{
 				id: "14890DA075202246"
@@ -1355,53 +1345,39 @@
 					count: 16
 				}
 				{
-					id: "0F210EA743319EAA"
-					type: "item"
-					item: {
-						id: "astralsorcery:rock_collector_crystal"
-						Count: 1b
-						tag: {
-							astralsorcery: {
-								constellation: "astralsorcery:discidia"
-								crystalProperties: {
-									attributes: [
-										{
-											property: "astralsorcery:size"
-											pLevel: 3
-											discovered: 1b
-										}
-										{
-											property: "astralsorcery:purity"
-											pLevel: 2
-											discovered: 1b
-										}
-										{
-											property: "astralsorcery:shape"
-											pLevel: 3
-											discovered: 1b
-										}
-										{
-											property: "astralsorcery:collector.rate"
-											pLevel: 3
-											discovered: 1b
-										}
-										{
-											property: "astralsorcery:constellation.discidia"
-											pLevel: 2
-											discovered: 1b
-										}
-									]
-								}
-							}
-						}
-					}
-				}
-				{
 					id: "0F20DA6BE4D1BB45"
 					type: "item"
 					item: "astralsorcery:linking_tool"
 				}
 			]
+		}
+		{
+			x: -16.0d
+			y: -10.5d
+			shape: "diamond"
+			dependencies: [
+				"13C3047AC4A33314"
+				"695E644312CB3D02"
+				"558E5F0EFD894D61"
+			]
+			id: "20D1BA0606138A0D"
+			tasks: [{
+				id: "7DDB57D5343F89AD"
+				type: "item"
+				item: {
+					id: "matc:imperium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "759605BB6C7920BC"
+				type: "item"
+				item: "mysticalagriculture:imperium_ingot"
+				count: 4
+			}]
 		}
 	]
 }

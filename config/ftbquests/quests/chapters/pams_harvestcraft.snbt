@@ -180,70 +180,6 @@
 		}
 		{
 			x: 6.0d
-			y: 7.5d
-			dependencies: ["002FB4856186F7F1"]
-			id: "50ABBC5710AA4F69"
-			tasks: [{
-				id: "150FEBD05E8F452A"
-				type: "item"
-				item: "farmersdelight:bacon_sandwich"
-			}]
-			rewards: [{
-				id: "0FCF5B784CB706CE"
-				type: "item"
-				item: "farmersdelight:bacon_sandwich"
-			}]
-		}
-		{
-			x: 7.0d
-			y: 7.5d
-			dependencies: ["002FB4856186F7F1"]
-			id: "470A02ADE95BC49B"
-			tasks: [{
-				id: "578C497B34177B1C"
-				type: "item"
-				item: "farmersdelight:chicken_sandwich"
-			}]
-			rewards: [{
-				id: "6707F46B2CB469A8"
-				type: "item"
-				item: "farmersdelight:chicken_sandwich"
-			}]
-		}
-		{
-			x: 8.0d
-			y: 7.5d
-			dependencies: ["002FB4856186F7F1"]
-			id: "4F49D55BA3B7C0A0"
-			tasks: [{
-				id: "0F9AE23E779F85F5"
-				type: "item"
-				item: "farmersdelight:egg_sandwich"
-			}]
-			rewards: [{
-				id: "01A87145F3DE8AD2"
-				type: "item"
-				item: "farmersdelight:egg_sandwich"
-			}]
-		}
-		{
-			x: 9.0d
-			y: 7.5d
-			dependencies: ["002FB4856186F7F1"]
-			id: "4B3E8AD6460AC95F"
-			tasks: [{
-				id: "29823FC5E7784FBF"
-				type: "item"
-				item: "thermal:pbj_sandwich"
-			}]
-			rewards: [{
-				id: "3464C0748F7C68E7"
-				type: "item"
-				item: "thermal:pbj_sandwich"
-			}]
-		}
-		{
-			x: 6.0d
 			y: 1.5d
 			dependencies: ["002FB4856186F7F1"]
 			id: "66CD3B2669147B04"
@@ -371,7 +307,7 @@
 			}]
 		}
 		{
-			x: 10.0d
+			x: 6.0d
 			y: 7.5d
 			dependencies: ["002FB4856186F7F1"]
 			id: "3195EB8BEBDB3370"
@@ -659,7 +595,7 @@
 			}]
 		}
 		{
-			x: 11.0d
+			x: 7.0d
 			y: 7.5d
 			dependencies: ["002FB4856186F7F1"]
 			id: "36DA7A7DE58E3339"
@@ -756,7 +692,7 @@
 		}
 		{
 			x: 12.0d
-			y: 1.5d
+			y: 2.0d
 			dependencies: ["002FB4856186F7F1"]
 			id: "2D376F4F8A784783"
 			tasks: [{
@@ -772,7 +708,7 @@
 		}
 		{
 			x: 12.0d
-			y: 2.5d
+			y: 4.5d
 			dependencies: ["002FB4856186F7F1"]
 			id: "43BDB10099C940DB"
 			tasks: [{
@@ -788,7 +724,7 @@
 		}
 		{
 			x: 12.0d
-			y: 3.5d
+			y: 7.0d
 			dependencies: ["002FB4856186F7F1"]
 			id: "6FA8F6D2D3FF4D6A"
 			tasks: [{
@@ -803,8 +739,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: 4.5d
+			x: 11.0d
+			y: 7.5d
 			dependencies: ["002FB4856186F7F1"]
 			id: "575A4610B172E1E6"
 			tasks: [{
@@ -819,8 +755,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: 5.5d
+			x: 11.0d
+			y: 6.5d
 			dependencies: ["002FB4856186F7F1"]
 			id: "3A4B58012B554B04"
 			tasks: [{
@@ -915,8 +851,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 6.5d
+			x: 10.0d
+			y: 7.5d
 			dependencies: ["002FB4856186F7F1"]
 			id: "230B281F23B5BA7D"
 			tasks: [{
@@ -931,8 +867,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: 6.5d
+			x: 9.0d
+			y: 7.5d
 			dependencies: ["002FB4856186F7F1"]
 			id: "158FD9CE87763121"
 			tasks: [{
@@ -1230,22 +1166,6 @@
 				id: "590499EF6BEE9896"
 				type: "item"
 				item: "pamhc2foodextended:jalapenoburgeritem"
-			}]
-		}
-		{
-			x: -10.0d
-			y: 6.0d
-			dependencies: ["7E8EDE2BE3EF6163"]
-			id: "235CFC8A81FF8550"
-			tasks: [{
-				id: "7477D0543A9E944E"
-				type: "item"
-				item: "farmersdelight:hamburger"
-			}]
-			rewards: [{
-				id: "3D5463ECC155FF85"
-				type: "item"
-				item: "farmersdelight:hamburger"
 			}]
 		}
 		{
@@ -5543,7 +5463,7 @@
 		}
 		{
 			x: -14.0d
-			y: 2.5d
+			y: 4.5d
 			dependencies: ["7E8EDE2BE3EF6163"]
 			id: "65B23BFCF06F00BA"
 			tasks: [{
@@ -5558,8 +5478,8 @@
 			}]
 		}
 		{
-			x: -14.0d
-			y: 6.5d
+			x: -10.0d
+			y: 6.0d
 			dependencies: ["7E8EDE2BE3EF6163"]
 			id: "23DB16FD80033EBC"
 			tasks: [{
@@ -7127,22 +7047,6 @@
 		}
 		{
 			x: 6.0d
-			y: 14.0d
-			dependencies: ["486D752E708E00F9"]
-			id: "3BA7B01ECBF11036"
-			tasks: [{
-				id: "387EB82C81CD3D42"
-				type: "item"
-				item: "pamhc2foodextended:mashedpotatoeschickenbiscuititem"
-			}]
-			rewards: [{
-				id: "6C4318C5C2E8475B"
-				type: "item"
-				item: "pamhc2foodextended:mashedpotatoeschickenbiscuititem"
-			}]
-		}
-		{
-			x: 6.0d
 			y: 15.0d
 			dependencies: ["486D752E708E00F9"]
 			id: "0F93D413E0423CB6"
@@ -7510,8 +7414,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 23.0d
+			x: 6.0d
+			y: 14.0d
 			dependencies: ["486D752E708E00F9"]
 			id: "7F379FC02DF5F336"
 			tasks: [{
@@ -7558,7 +7462,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 0.0d
 			y: 23.0d
 			dependencies: ["486D752E708E00F9"]
 			id: "033CE3A94478BF19"
@@ -7643,7 +7547,7 @@
 			}]
 		}
 		{
-			x: 12.0d
+			x: 8.0d
 			y: 7.5d
 			dependencies: ["002FB4856186F7F1"]
 			id: "1C9E74E19803652F"

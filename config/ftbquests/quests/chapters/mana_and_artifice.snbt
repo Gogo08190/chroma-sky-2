@@ -185,6 +185,7 @@
 		}
 		{
 			title: "&6Tier 1 &7→ &6Tier 2"
+			icon: "mana-and-artifice:eldrin_rift"
 			x: 6.0d
 			y: -8.5d
 			description: [
@@ -236,6 +237,7 @@
 		}
 		{
 			title: "&6Tier 2 &7→ &6Tier 3"
+			icon: "mana-and-artifice:eldrin_rift"
 			x: 16.0d
 			y: -8.0d
 			description: [
@@ -283,6 +285,7 @@
 		}
 		{
 			title: "&6Tier 3 &7→ &6Tier 4"
+			icon: "mana-and-artifice:eldrin_rift"
 			x: 10.5d
 			y: 7.0d
 			description: [
@@ -342,6 +345,7 @@
 		}
 		{
 			title: "&6Tier 4 &7→ &6Tier 5"
+			icon: "mana-and-artifice:eldrin_rift"
 			x: 15.0d
 			y: 0.0d
 			description: [
@@ -395,7 +399,7 @@
 			y: 6.0d
 			description: [
 				"The Eldrin's altar it's a new way to craft you just will need a new ressouce's the wellsprind (see the next quest to know how find it)"
-				"You can see how place the altar in the &5codex&r"
+				"You can see how place the altar in the &5codex&r."
 			]
 			dependencies: ["19C32614D8476285"]
 			id: "708365E2F99D6FA3"
@@ -599,7 +603,7 @@
 			y: 1.5d
 			shape: "hexagon"
 			description: [
-				"The manaweave projector is her to help you automate the manaweaving, but to make him reproduce a new pattarn you will need to right click with a manaweaving pattern."
+				"The manaweave projector is her to help you automate the manaweaving, but to make him reproduce a new pattern you will need to right click with a manaweaving pattern."
 				""
 				"The manaweaving pattern can be buy from a specific trader : &athe wandering wizzard&r."
 				""
@@ -1049,6 +1053,7 @@
 		{
 			x: 8.5d
 			y: -10.0d
+			description: ["Work like a vacum hoper, just shift right clik on the chest you want him bind"]
 			dependencies: ["13EEC00E8C0E74D3"]
 			id: "7AEF59123D32D06A"
 			tasks: [{
@@ -1065,6 +1070,7 @@
 		{
 			x: 8.5d
 			y: -9.0d
+			description: ["Give you an effect of mana regen"]
 			dependencies: ["13EEC00E8C0E74D3"]
 			id: "1B51595D4FE0E914"
 			tasks: [{
@@ -1396,7 +1402,7 @@
 			min_width: 250
 			id: "73C20CE2F47089A3"
 			tasks: [{
-				id: "016215281B2EB83D"
+				id: "74B5E20A7F308837"
 				type: "item"
 				title: "Mote"
 				item: {
@@ -1413,7 +1419,11 @@
 								Count: 1b
 							}
 							{
-								id: "mana-and-artifice:mote_fire"
+								id: "mana-and-artifice:mote_arcane"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:mote_ender"
 								Count: 1b
 							}
 							{
@@ -1421,7 +1431,7 @@
 								Count: 1b
 							}
 							{
-								id: "mana-and-artifice:mote_ender"
+								id: "mana-and-artifice:mote_fire"
 								Count: 1b
 							}
 						]
@@ -1653,6 +1663,7 @@
 			}]
 		}
 		{
+			icon: "mana-and-artifice:manaweaver_wand_advanced"
 			x: 6.0d
 			y: -5.5d
 			dependencies: ["13EEC00E8C0E74D3"]
@@ -1820,6 +1831,13 @@
 			}]
 		}
 		{
+			icon: {
+				id: "mana-and-artifice:enchanted_vellum"
+				Count: 1b
+				tag: {
+					spell: { }
+				}
+			}
 			x: 5.0d
 			y: -5.5d
 			dependencies: ["13EEC00E8C0E74D3"]
@@ -1836,6 +1854,7 @@
 			}]
 		}
 		{
+			icon: "mana-and-artifice:greater_mote_arcane"
 			x: 3.5d
 			y: -10.0d
 			description: ["With your actual tier the only item with a set bonus is the mage armor."]
@@ -1853,6 +1872,7 @@
 			}]
 		}
 		{
+			icon: "mana-and-artifice:greater_mote_fire"
 			x: 7.0d
 			y: -5.5d
 			dependencies: ["13EEC00E8C0E74D3"]
@@ -2356,6 +2376,7 @@
 			}]
 		}
 		{
+			icon: "mana-and-artifice:manaweaver_wand_advanced"
 			x: 18.5d
 			y: -8.0d
 			dependencies: ["4673AA05474E416E"]
@@ -2372,6 +2393,7 @@
 			}]
 		}
 		{
+			icon: "mana-and-artifice:rune_water"
 			x: 18.5d
 			y: -9.0d
 			dependencies: ["4673AA05474E416E"]
@@ -2388,6 +2410,13 @@
 			}]
 		}
 		{
+			icon: {
+				id: "mana-and-artifice:enchanted_vellum"
+				Count: 1b
+				tag: {
+					spell: { }
+				}
+			}
 			x: 18.5d
 			y: -7.0d
 			dependencies: ["4673AA05474E416E"]
@@ -2404,6 +2433,16 @@
 			}]
 		}
 		{
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "mana-and-artifice:fireproof"
+					}]
+				}
+			}
 			x: 16.0d
 			y: -5.5d
 			dependencies: ["4673AA05474E416E"]
@@ -2420,6 +2459,7 @@
 			}]
 		}
 		{
+			icon: "minecraft:nether_bricks"
 			x: 17.5d
 			y: -6.0d
 			dependencies: ["4673AA05474E416E"]
@@ -2436,6 +2476,7 @@
 			}]
 		}
 		{
+			icon: "mana-and-artifice:slipstream_generator"
 			x: 14.5d
 			y: -6.0d
 			dependencies: ["4673AA05474E416E"]
@@ -2452,6 +2493,7 @@
 			}]
 		}
 		{
+			icon: "quark:golden_frog_leg"
 			x: 13.5d
 			y: -9.0d
 			dependencies: ["4673AA05474E416E"]
@@ -2468,6 +2510,7 @@
 			}]
 		}
 		{
+			icon: "mana-and-artifice:greater_mote_fire"
 			x: 13.5d
 			y: -8.0d
 			dependencies: ["4673AA05474E416E"]
@@ -2484,6 +2527,7 @@
 			}]
 		}
 		{
+			icon: "naturesaura:nether_grass"
 			x: 13.5d
 			y: -7.0d
 			dependencies: ["4673AA05474E416E"]
@@ -2500,6 +2544,7 @@
 			}]
 		}
 		{
+			icon: "minecraft:wither_skeleton_skull"
 			x: 16.5d
 			y: -10.5d
 			dependencies: ["4673AA05474E416E"]
@@ -2760,6 +2805,7 @@
 			}]
 		}
 		{
+			icon: "mana-and-artifice:manaweaver_wand_advanced"
 			x: 12.5d
 			y: 6.0d
 			dependencies: ["19C32614D8476285"]
@@ -2776,6 +2822,13 @@
 			}]
 		}
 		{
+			icon: {
+				id: "mana-and-artifice:enchanted_vellum"
+				Count: 1b
+				tag: {
+					spell: { }
+				}
+			}
 			x: 12.5d
 			y: 8.0d
 			dependencies: ["19C32614D8476285"]
@@ -2792,6 +2845,16 @@
 			}]
 		}
 		{
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s
+						id: "minecraft:blast_protection"
+					}]
+				}
+			}
 			x: 11.0d
 			y: 9.0d
 			dependencies: ["19C32614D8476285"]
@@ -2838,6 +2901,7 @@
 			}]
 		}
 		{
+			icon: "mana-and-artifice:greater_mote_fire"
 			x: 9.0d
 			y: 9.0d
 			dependencies: ["19C32614D8476285"]
@@ -2854,12 +2918,16 @@
 			}]
 		}
 		{
+			title: "Wellsping Prism"
 			x: 11.5d
 			y: 5.0d
 			description: [
 				"Now to cap the wellspring energy you will need to build a structure on it, each lens provides you a different type of &dmana&r (&6Earth&r, &1Water&r, etc)."
 				""
 				"To see how to build this structure please read the codex."
+				""
+				" "
+				"&4Warning the Lens cannot be redrop once broken&r"
 			]
 			dependencies: ["0E996FBAF5DB9C91"]
 			id: "68AA9C78C4049902"
@@ -2960,7 +3028,7 @@
 			y: 6.0d
 			description: [
 				"To find a well spring you will need to drink this potion, quick advice you will see more well spring in &4nether&r so go find it"
-				"The dowsing sod will work like a compas always pointing on a wellspring, hold right click and it will targetit on it"
+				"The dowsing Rod will work like a compas always pointing on a wellspring, hold right click and it will targetit on it"
 			]
 			dependencies: ["708365E2F99D6FA3"]
 			id: "0E996FBAF5DB9C91"
@@ -2993,8 +3061,10 @@
 			x: 9.5d
 			y: 5.0d
 			description: [
-				"Now that your structure is in place, you need a last item to use it, the &5Eldrin Construct&r but each eldrin construct can only provide one type of mana and only the mana that you have at your disposal"
+				"Now that your structure is in place, you need a last item to use it, the &5Eldrin Construct&r but each eldrin construct can only provide one type of mana and only the mana that you have at your disposal."
 				"You can see the amount of mana that you disposed in the &1Occulus"
+				" "
+				"&4Warning it's cannot be redrop once broken&r"
 			]
 			dependencies: ["68AA9C78C4049902"]
 			id: "1896236FC7BEFF73"
@@ -3042,6 +3112,7 @@
 			}]
 		}
 		{
+			icon: "minecraft:end_stone"
 			x: 12.0d
 			y: 9.0d
 			dependencies: ["19C32614D8476285"]
@@ -3231,18 +3302,11 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "273AE2F0FADD2833"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-				{
-					id: "3EE8E45AB4DDF2BA"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			rewards: [{
+				id: "273AE2F0FADD2833"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			title: "Tier 5 artifact"
@@ -3279,18 +3343,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "1A923EBD15FB5BD9"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-				{
-					id: "25F4293B062622D0"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			rewards: [{
+				id: "1A923EBD15FB5BD9"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			title: "Faction Horn's"
@@ -3329,18 +3386,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "2BC61E6E912B4509"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-				{
-					id: "376A424988A2CF56"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			rewards: [{
+				id: "2BC61E6E912B4509"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			title: "Diamond Construct"
@@ -3503,18 +3553,11 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "7E80F0996339AFFB"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-				{
-					id: "3D74C7DE72772D72"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			rewards: [{
+				id: "7E80F0996339AFFB"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 		{
 			x: 4.5d
@@ -3524,7 +3567,7 @@
 			dependencies: [
 				"02628A32D083A95D"
 				"13EEC00E8C0E74D3"
-				"776B4DD5C8BEAD4B"
+				"278CC800303B12A5"
 			]
 			id: "3DE8005B127FFA10"
 			tasks: [{
@@ -3556,18 +3599,11 @@
 				type: "item"
 				item: "mana-and-artifice:allfather_axe"
 			}]
-			rewards: [
-				{
-					id: "04B5F3EEE249B9CD"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-				{
-					id: "6C0263DE5D4B5BCD"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			rewards: [{
+				id: "04B5F3EEE249B9CD"
+				type: "random"
+				table_id: 21613284823098451L
+			}]
 		}
 	]
 }

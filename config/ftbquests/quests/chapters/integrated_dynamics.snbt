@@ -146,73 +146,6 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -4.0d
-			subtitle: "Make a Crafting Interface"
-			description: [
-				"The &bCrafting Interface&r is the first step to auto-crafting using your network."
-				""
-				"Attach the Crafting Interface &6to the machine you want to craft with&r. For regular 3x3 crafting recipes, attach it to a Crafting Table; for smelting recipes, attach it to a Furnace; etc."
-				""
-				"Using a &6Logic Programmer&r, click &9Recipe&r and set the crafting recipe you want. For instance, place 8 Oak Planks in the left slots, then place a Chest in the right slots."
-				""
-				"Insert this Variable Card into one of the slots in the Crafting Interface, and the network will now have access to that recipe."
-			]
-			hide_dependency_lines: true
-			dependencies: ["08030E2DAC25D1B7"]
-			min_width: 250
-			id: "41A2EF471C77213F"
-			tasks: [{
-				id: "3D6FADCAFEA4CE7F"
-				type: "item"
-				item: "integratedcrafting:part_interface_crafting"
-			}]
-			rewards: [{
-				id: "614DF6D9D9B6744E"
-				type: "random"
-				table_id: 7381842975596526002L
-			}]
-		}
-		{
-			x: 3.0d
-			y: -4.0d
-			hide_dependency_lines: true
-			dependencies: ["08030E2DAC25D1B7"]
-			id: "07D14E4D9C83F746"
-			tasks: [{
-				id: "1EEDC9831A69C44C"
-				type: "item"
-				item: "integratedcrafting:part_crafting_writer"
-			}]
-			rewards: [{
-				id: "59FE5609B2295F4F"
-				type: "random"
-				table_id: 7381842975596526002L
-			}]
-		}
-		{
-			x: 1.5d
-			y: -3.0d
-			subtitle: "Make a Crafting Job Terminal"
-			description: [
-				"The &bCrafting Job Terminal&r has a list of all current crafting jobs in its network."
-				"You can click on any crafting job to cancel it."
-			]
-			hide_dependency_lines: true
-			dependencies: ["3D6378E8B91C9436"]
-			id: "6BAFFC59116E2E71"
-			tasks: [{
-				id: "718188D0D15AD21F"
-				type: "item"
-				item: "integratedterminals:part_terminal_crafting_job"
-			}]
-			rewards: [{
-				id: "0DC11A630A490067"
-				type: "random"
-				table_id: 7381842975596526002L
-			}]
-		}
-		{
 			title: "Energy logistics"
 			x: 6.0d
 			y: 0.5d
@@ -385,7 +318,7 @@
 		}
 		{
 			x: 2.5d
-			y: -3.0d
+			y: -2.5d
 			subtitle: "Make a Storage Terminal"
 			description: ["All &bstored items&f, &bfluids &fand &benergy &fbecome visible and interactable from a single place using the &bStorage Terminal&f, and &bcrafting jobs &fbecome manageable from the &bCrafting Job Terminal&f."]
 			hide_dependency_lines: true
@@ -407,7 +340,7 @@
 		}
 		{
 			x: 3.5d
-			y: -3.0d
+			y: -2.5d
 			dependencies: ["22E48889C36049E9"]
 			id: "01A95C71F1AE6645"
 			tasks: [{

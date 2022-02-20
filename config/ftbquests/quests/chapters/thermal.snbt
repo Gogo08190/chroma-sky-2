@@ -240,6 +240,11 @@
 			x: 16.0d
 			y: 4.0d
 			shape: "square"
+			description: [
+				"To work the &aAquatic Entangler&r must be in the middle of a 7x7 of water."
+				""
+				"&7Validate = facingWater >= 7&r"
+			]
 			hide_dependency_lines: true
 			dependencies: ["3EAB488E2A6BC29A"]
 			id: "5E9BCCC8CE990A6B"
@@ -1052,7 +1057,6 @@
 			dependencies: [
 				"3B8B6059CD724BD3"
 				"5D4D5257E78D1C9F"
-				"3BDDE5E2E3851B58"
 				"661BC53D4AC2DA09"
 			]
 			size: 2.0d

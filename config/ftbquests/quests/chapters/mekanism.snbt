@@ -3849,7 +3849,7 @@
 			description: [
 				"&bThe Attack Amplification Unit&r Is a Module that Amplifies Melee attacks to both players and mobs."
 				""
-				"it can only be applied to the Meka-Tool."
+				"It can only be applied to the Meka-Tool."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3873,7 +3873,7 @@
 			x: 2.5d
 			y: 14.5d
 			shape: "diamond"
-			description: ["&bHydraulic Propulsion Units&r are modules that allows you climb over a maximum of 2 blocks. It also allows you to jump higher when you hold Left Control and jump (LCrtl+Spacebar)."]
+			description: ["&bHydraulic Propulsion Units&r are modules that allows you to climb over a maximum of 2 blocks. It also allows you to jump higher when you hold Left Control and jump (LCrtl+Spacebar)."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6BE52EF19D6EEA0B"

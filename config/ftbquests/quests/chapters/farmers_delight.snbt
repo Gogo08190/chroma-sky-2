@@ -9,8 +9,9 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -0.5d
-			y: -5.0d
+			x: 6.0d
+			y: 0.0d
+			shape: "diamond"
 			dependencies: ["736997EF7FABE1CD"]
 			id: "0A2A6B8E7CC2AC4F"
 			tasks: [{
@@ -25,8 +26,9 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -8.0d
+			x: 5.0d
+			y: 0.0d
+			shape: "diamond"
 			dependencies: [
 				"3658FDC372B60F90"
 				"0A2A6B8E7CC2AC4F"
@@ -44,8 +46,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -6.0d
+			x: 4.5d
+			y: -1.5d
+			shape: "diamond"
 			dependencies: ["736997EF7FABE1CD"]
 			id: "3658FDC372B60F90"
 			tasks: [{
@@ -56,8 +59,9 @@
 		}
 		{
 			icon: "farmersdelight:cooking_pot"
-			x: 8.0d
-			y: -11.0d
+			x: 11.5d
+			y: -6.0d
+			shape: "diamond"
 			dependencies: ["46CDE79382DE1E39"]
 			id: "09917FE8A0A43C24"
 			tasks: [
@@ -79,8 +83,9 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -8.0d
+			x: 4.5d
+			y: -2.5d
+			shape: "diamond"
 			dependencies: [
 				"3658FDC372B60F90"
 				"33BB5BBA13D695DF"
@@ -98,8 +103,9 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -5.0d
+			x: 5.5d
+			y: -2.5d
+			shape: "diamond"
 			dependencies: ["736997EF7FABE1CD"]
 			id: "33BB5BBA13D695DF"
 			tasks: [{
@@ -114,8 +120,9 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -5.0d
+			x: 5.5d
+			y: -0.5d
+			shape: "diamond"
 			dependencies: ["736997EF7FABE1CD"]
 			id: "6DD0447D74E5C76F"
 			tasks: [{
@@ -130,8 +137,9 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -8.0d
+			x: 4.5d
+			y: -0.5d
+			shape: "diamond"
 			dependencies: [
 				"3658FDC372B60F90"
 				"6DD0447D74E5C76F"
@@ -149,8 +157,9 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -11.0d
+			x: 13.5d
+			y: -6.0d
+			shape: "diamond"
 			dependencies: ["46CDE79382DE1E39"]
 			id: "17A497B4A8A52978"
 			tasks: [{
@@ -165,8 +174,9 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: -11.0d
+			x: 11.0d
+			y: -7.5d
+			shape: "diamond"
 			dependencies: ["02A31E005EA75211"]
 			id: "70A8C830652BC68D"
 			tasks: [{
@@ -183,8 +193,9 @@
 		{
 			title: "Ham"
 			icon: "farmersdelight:smoked_ham"
-			x: 17.5d
-			y: -11.0d
+			x: 10.5d
+			y: -7.0d
+			shape: "diamond"
 			description: ["For this food you will need to kill a pig with a knife"]
 			dependencies: ["02A31E005EA75211"]
 			id: "087223707334C3CE"
@@ -207,8 +218,9 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -5.0d
+			x: 6.0d
+			y: -3.0d
+			shape: "diamond"
 			dependencies: ["736997EF7FABE1CD"]
 			id: "793473959E5C9596"
 			tasks: [{
@@ -223,8 +235,9 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -8.0d
+			x: 5.0d
+			y: -3.0d
+			shape: "diamond"
 			dependencies: [
 				"3658FDC372B60F90"
 				"793473959E5C9596"
@@ -242,8 +255,9 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 1.5d
+			x: 8.5d
+			y: -0.5d
+			shape: "diamond"
 			dependencies: ["58A5E20B49731297"]
 			id: "17638FE118AB88FD"
 			tasks: [{
@@ -258,8 +272,9 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 1.5d
+			x: 8.0d
+			y: -1.0d
+			shape: "diamond"
 			dependencies: ["58A5E20B49731297"]
 			id: "72E2648306BFF329"
 			tasks: [{
@@ -274,8 +289,10 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 1.5d
+			x: 8.5d
+			y: -2.5d
+			shape: "diamond"
+			subtitle: "Favorite Maaht Food"
 			dependencies: ["58A5E20B49731297"]
 			id: "020F92E78E73C2CE"
 			tasks: [{
@@ -290,8 +307,9 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 1.5d
+			x: 8.0d
+			y: -2.0d
+			shape: "diamond"
 			dependencies: ["58A5E20B49731297"]
 			id: "0D0F770572DEB478"
 			tasks: [{
@@ -306,8 +324,9 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: -11.0d
+			x: 14.5d
+			y: -7.0d
+			shape: "diamond"
 			dependencies: ["02A31E005EA75211"]
 			id: "56A22EA7B49F9033"
 			tasks: [{
@@ -322,8 +341,9 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -1.5d
+			x: 7.5d
+			y: 0.0d
+			shape: "diamond"
 			dependencies: [
 				"64C1A357F10CD849"
 				"17638FE118AB88FD"
@@ -341,8 +361,9 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -1.5d
+			x: 7.0d
+			y: -2.5d
+			shape: "diamond"
 			dependencies: [
 				"64C1A357F10CD849"
 				"0D0F770572DEB478"
@@ -360,8 +381,9 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -1.5d
+			x: 7.5d
+			y: -3.0d
+			shape: "diamond"
 			dependencies: [
 				"64C1A357F10CD849"
 				"020F92E78E73C2CE"
@@ -379,8 +401,9 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -1.5d
+			x: 7.0d
+			y: -0.5d
+			shape: "diamond"
 			dependencies: [
 				"64C1A357F10CD849"
 				"72E2648306BFF329"
@@ -399,8 +422,9 @@
 		}
 		{
 			title: "Knife"
-			x: 2.0d
-			y: 0.5d
+			x: 7.0d
+			y: -1.5d
+			shape: "diamond"
 			subtitle: "It's Dangerous to go Alone! Take this"
 			dependencies: ["58A5E20B49731297"]
 			id: "64C1A357F10CD849"
@@ -454,8 +478,9 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -10.0d
+			x: 12.0d
+			y: -5.5d
+			shape: "diamond"
 			dependencies: ["46CDE79382DE1E39"]
 			id: "500AC5E571FAB72A"
 			tasks: [{
@@ -482,8 +507,9 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -10.0d
+			x: 13.0d
+			y: -5.5d
+			shape: "diamond"
 			dependencies: ["46CDE79382DE1E39"]
 			id: "5B114EC640A1E8E5"
 			tasks: [{
@@ -498,8 +524,9 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: -12.0d
+			x: 11.5d
+			y: -9.5d
+			shape: "diamond"
 			dependencies: ["723B50BFEA16C8C4"]
 			id: "76B2946CB92BB35A"
 			tasks: [{
@@ -514,8 +541,9 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: -12.0d
+			x: 13.5d
+			y: -9.5d
+			shape: "diamond"
 			dependencies: ["723B50BFEA16C8C4"]
 			id: "3B6D897F240E770D"
 			tasks: [{
@@ -531,7 +559,8 @@
 		}
 		{
 			x: 12.5d
-			y: -11.0d
+			y: -10.0d
+			shape: "diamond"
 			dependencies: ["723B50BFEA16C8C4"]
 			id: "66FC1402EF27DA60"
 			tasks: [{
@@ -546,8 +575,9 @@
 			}]
 		}
 		{
-			x: 21.5d
-			y: -6.5d
+			x: 20.0d
+			y: -1.0d
+			shape: "diamond"
 			dependencies: ["60847D41EC682CFB"]
 			id: "21BD73B0BE889EC6"
 			tasks: [{
@@ -562,8 +592,9 @@
 			}]
 		}
 		{
-			x: 20.5d
-			y: -5.5d
+			x: 20.0d
+			y: -2.0d
+			shape: "diamond"
 			dependencies: ["60847D41EC682CFB"]
 			id: "309B45DBE1780B3B"
 			tasks: [{
@@ -578,8 +609,9 @@
 			}]
 		}
 		{
-			x: 22.5d
-			y: -5.5d
+			x: 19.5d
+			y: -1.5d
+			shape: "diamond"
 			dependencies: ["60847D41EC682CFB"]
 			id: "5C7DD4CFC167A118"
 			tasks: [{
@@ -594,8 +626,9 @@
 			}]
 		}
 		{
-			x: 21.5d
-			y: -5.5d
+			x: 19.0d
+			y: 0.5d
+			shape: "diamond"
 			dependencies: ["60847D41EC682CFB"]
 			id: "19FD33D636685CD2"
 			tasks: [{
@@ -610,8 +643,9 @@
 			}]
 		}
 		{
-			x: 20.5d
-			y: -6.5d
+			x: 19.5d
+			y: -2.5d
+			shape: "diamond"
 			dependencies: ["60847D41EC682CFB"]
 			id: "624E77B263767A75"
 			tasks: [{
@@ -626,8 +660,9 @@
 			}]
 		}
 		{
-			x: 20.5d
-			y: -4.5d
+			x: 19.5d
+			y: -0.5d
+			shape: "diamond"
 			dependencies: ["60847D41EC682CFB"]
 			id: "0CD116E670055D5B"
 			tasks: [{
@@ -642,8 +677,9 @@
 			}]
 		}
 		{
-			x: 21.5d
-			y: -4.5d
+			x: 19.0d
+			y: -3.5d
+			shape: "diamond"
 			dependencies: ["60847D41EC682CFB"]
 			id: "232AAFC2F9214968"
 			tasks: [{
@@ -658,8 +694,10 @@
 			}]
 		}
 		{
-			x: 19.0d
-			y: -5.5d
+			icon: "thermal:xp_stew"
+			x: 18.5d
+			y: -1.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"09917FE8A0A43C24"
@@ -673,8 +711,9 @@
 			}]
 		}
 		{
-			x: 21.5d
-			y: 2.0d
+			x: 17.5d
+			y: -2.0d
+			shape: "diamond"
 			dependencies: ["6F6FA87BC9620EF1"]
 			id: "33F9ED2E68D0A5F5"
 			tasks: [{
@@ -689,8 +728,9 @@
 			}]
 		}
 		{
-			x: 21.5d
-			y: 3.0d
+			x: 17.5d
+			y: -1.0d
+			shape: "diamond"
 			dependencies: ["6F6FA87BC9620EF1"]
 			id: "39961FC6EF0F7F28"
 			tasks: [{
@@ -705,8 +745,9 @@
 			}]
 		}
 		{
-			x: 20.5d
-			y: 2.0d
+			x: 17.0d
+			y: -2.5d
+			shape: "diamond"
 			dependencies: ["6F6FA87BC9620EF1"]
 			id: "37ABBAE7FB8FE781"
 			tasks: [{
@@ -721,8 +762,9 @@
 			}]
 		}
 		{
-			x: 20.5d
-			y: 3.0d
+			x: 17.0d
+			y: -0.5d
+			shape: "diamond"
 			dependencies: ["6F6FA87BC9620EF1"]
 			id: "529AF418AD6BA5EA"
 			tasks: [{
@@ -737,8 +779,10 @@
 			}]
 		}
 		{
-			x: 19.0d
-			y: 2.5d
+			icon: "minecraft:sugar"
+			x: 16.5d
+			y: -1.5d
+			shape: "diamond"
 			dependencies: ["30309EDA489E594A"]
 			id: "6F6FA87BC9620EF1"
 			tasks: [{
@@ -748,8 +792,10 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 6.0d
+			icon: "pamhc2foodcore:bakewareitem"
+			x: 12.5d
+			y: 9.0d
+			shape: "diamond"
 			subtitle: "Don't need to clean the dishes"
 			dependencies: ["30309EDA489E594A"]
 			id: "79D93389618AF64E"
@@ -760,8 +806,9 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 8.0d
+			x: 12.0d
+			y: 6.5d
+			shape: "diamond"
 			dependencies: ["79D93389618AF64E"]
 			id: "5F9F4ECE52E410E0"
 			tasks: [{
@@ -776,8 +823,9 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: 8.0d
+			x: 11.5d
+			y: 7.5d
+			shape: "diamond"
 			dependencies: ["79D93389618AF64E"]
 			id: "1FC730C27CC7F522"
 			tasks: [{
@@ -792,8 +840,9 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: 8.0d
+			x: 13.5d
+			y: 7.5d
+			shape: "diamond"
 			dependencies: ["79D93389618AF64E"]
 			id: "6266B0CEAE4F9C2B"
 			tasks: [{
@@ -808,8 +857,9 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: 8.0d
+			x: 13.0d
+			y: 6.5d
+			shape: "diamond"
 			dependencies: ["79D93389618AF64E"]
 			id: "00EF5E65796B933A"
 			tasks: [{
@@ -824,8 +874,9 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 9.0d
+			x: 12.0d
+			y: 8.0d
+			shape: "diamond"
 			dependencies: ["79D93389618AF64E"]
 			id: "1D67A9BB91ACF601"
 			tasks: [{
@@ -840,8 +891,9 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 9.0d
+			x: 12.5d
+			y: 7.5d
+			shape: "diamond"
 			dependencies: ["79D93389618AF64E"]
 			id: "77FE90FE9347A885"
 			tasks: [{
@@ -856,8 +908,9 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: 9.0d
+			x: 13.0d
+			y: 8.0d
+			shape: "diamond"
 			dependencies: ["79D93389618AF64E"]
 			id: "54C0758A1FF7CEE7"
 			tasks: [{
@@ -872,8 +925,10 @@
 			}]
 		}
 		{
+			icon: "farmersdelight:cabbage"
 			x: 12.5d
-			y: -9.5d
+			y: -9.0d
+			shape: "diamond"
 			subtitle: "Don't need to be veggie"
 			dependencies: ["30309EDA489E594A"]
 			id: "723B50BFEA16C8C4"
@@ -884,8 +939,9 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 8.0d
+			x: 12.0d
+			y: 2.5d
+			shape: "diamond"
 			dependencies: ["77CF3DBF6A2DA4E4"]
 			id: "59F305683E2C61F2"
 			tasks: [{
@@ -900,8 +956,9 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 8.0d
+			x: 11.5d
+			y: 2.0d
+			shape: "diamond"
 			dependencies: ["77CF3DBF6A2DA4E4"]
 			id: "04031A8FE09649DD"
 			tasks: [{
@@ -916,8 +973,9 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 8.0d
+			x: 13.0d
+			y: 2.5d
+			shape: "diamond"
 			dependencies: ["77CF3DBF6A2DA4E4"]
 			id: "61AC32AF504C1990"
 			tasks: [{
@@ -932,8 +990,9 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 8.0d
+			x: 13.5d
+			y: 2.0d
+			shape: "diamond"
 			dependencies: ["77CF3DBF6A2DA4E4"]
 			id: "4288B7894FC461EE"
 			tasks: [{
@@ -948,8 +1007,9 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 9.0d
+			x: 12.0d
+			y: 4.0d
+			shape: "diamond"
 			dependencies: ["77CF3DBF6A2DA4E4"]
 			id: "78831F57558CA600"
 			tasks: [{
@@ -964,8 +1024,9 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 9.0d
+			x: 12.5d
+			y: 3.5d
+			shape: "diamond"
 			dependencies: ["77CF3DBF6A2DA4E4"]
 			id: "4F27E659FF44AFF9"
 			tasks: [{
@@ -980,8 +1041,9 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 9.0d
+			x: 13.0d
+			y: 4.0d
+			shape: "diamond"
 			dependencies: ["77CF3DBF6A2DA4E4"]
 			id: "5F14267E89E363D5"
 			tasks: [{
@@ -996,8 +1058,9 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 9.0d
+			x: 13.5d
+			y: 3.5d
+			shape: "diamond"
 			dependencies: ["77CF3DBF6A2DA4E4"]
 			id: "2930FBC764E08258"
 			tasks: [{
@@ -1012,8 +1075,9 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 10.0d
+			x: 11.5d
+			y: 3.5d
+			shape: "diamond"
 			dependencies: ["77CF3DBF6A2DA4E4"]
 			id: "18A6A316E1D8ED89"
 			tasks: [{
@@ -1028,8 +1092,9 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 10.0d
+			x: 11.0d
+			y: 3.0d
+			shape: "diamond"
 			dependencies: ["77CF3DBF6A2DA4E4"]
 			id: "66DFB74EA3525CE0"
 			tasks: [{
@@ -1044,8 +1109,9 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 10.0d
+			x: 12.5d
+			y: 4.5d
+			shape: "diamond"
 			dependencies: ["77CF3DBF6A2DA4E4"]
 			id: "0762A17AC541DAA1"
 			tasks: [{
@@ -1060,8 +1126,9 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 10.0d
+			x: 14.0d
+			y: 3.0d
+			shape: "diamond"
 			dependencies: ["77CF3DBF6A2DA4E4"]
 			id: "1C274C74399378C9"
 			tasks: [{
@@ -1076,8 +1143,10 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 6.0d
+			icon: "pamhc2foodcore:friedchickenitem"
+			x: 12.5d
+			y: 1.5d
+			shape: "diamond"
 			subtitle: "Sooo Good!"
 			dependencies: ["30309EDA489E594A"]
 			id: "77CF3DBF6A2DA4E4"
@@ -1088,8 +1157,9 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 11.0d
+			x: 11.5d
+			y: 5.0d
+			shape: "diamond"
 			dependencies: ["77CF3DBF6A2DA4E4"]
 			id: "5F2A1F9D69ED937B"
 			tasks: [{
@@ -1104,8 +1174,9 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 11.0d
+			x: 12.5d
+			y: 5.5d
+			shape: "diamond"
 			dependencies: ["77CF3DBF6A2DA4E4"]
 			id: "5EAB16635FB4C023"
 			tasks: [{
@@ -1120,8 +1191,9 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 11.0d
+			x: 13.5d
+			y: 5.0d
+			shape: "diamond"
 			dependencies: ["77CF3DBF6A2DA4E4"]
 			id: "5F8C1CA69CD48888"
 			tasks: [{
@@ -1138,8 +1210,9 @@
 		{
 			title: "Hoglin food"
 			icon: "nethers_delight:hoglin_hide"
-			x: 16.5d
-			y: -10.0d
+			x: 12.0d
+			y: -7.0d
+			shape: "diamond"
 			description: ["For this food you will need to kill hoglin with a knife"]
 			dependencies: ["02A31E005EA75211"]
 			id: "39916BB9C030D815"
@@ -1169,8 +1242,9 @@
 			]
 		}
 		{
-			x: 17.5d
-			y: -10.0d
+			x: 13.0d
+			y: -7.0d
+			shape: "diamond"
 			dependencies: ["02A31E005EA75211"]
 			id: "50D958535FB0192D"
 			tasks: [{
@@ -1185,9 +1259,10 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: -10.0d
-			description: ["Like the pig kill a stryder with a knife"]
+			x: 14.0d
+			y: -7.5d
+			shape: "diamond"
+			description: ["Like the pig kill a strider with a knife"]
 			dependencies: ["02A31E005EA75211"]
 			id: "0BC8D5C67F3DC439"
 			tasks: [{
@@ -1202,8 +1277,9 @@
 			}]
 		}
 		{
-			x: 20.0d
+			x: 21.5d
 			y: -1.5d
+			shape: "diamond"
 			subtitle: "How i stuff a hoglin"
 			dependencies: ["30309EDA489E594A"]
 			id: "254135040F468BE9"
@@ -1219,8 +1295,9 @@
 			}]
 		}
 		{
-			x: 21.5d
+			x: 22.5d
 			y: -1.5d
+			shape: "diamond"
 			description: ["&4Becareful, it can crash !&r To avoid crashes, you will have to right click with an empty hand on the rear side of the &6Stuffed Hoglin&r and after right click with your &8Knife&r "]
 			dependencies: ["254135040F468BE9"]
 			id: "577403BE83F42DE6"
@@ -1236,8 +1313,9 @@
 			}]
 		}
 		{
-			x: 23.5d
-			y: -3.5d
+			x: 22.0d
+			y: -2.5d
+			shape: "diamond"
 			dependencies: ["577403BE83F42DE6"]
 			id: "1E883BC104D2D5C6"
 			tasks: [{
@@ -1252,8 +1330,9 @@
 			}]
 		}
 		{
-			x: 23.5d
-			y: -2.0d
+			x: 21.0d
+			y: -3.0d
+			shape: "diamond"
 			dependencies: ["577403BE83F42DE6"]
 			id: "28747967DE9B8EB6"
 			tasks: [{
@@ -1268,8 +1347,9 @@
 			}]
 		}
 		{
-			x: 23.5d
-			y: -1.0d
+			x: 21.0d
+			y: 0.0d
+			shape: "diamond"
 			dependencies: ["577403BE83F42DE6"]
 			id: "7214761A7A09A1CA"
 			tasks: [{
@@ -1284,8 +1364,9 @@
 			}]
 		}
 		{
-			x: 23.5d
-			y: 0.5d
+			x: 22.0d
+			y: -0.5d
+			shape: "diamond"
 			dependencies: ["577403BE83F42DE6"]
 			id: "0277080B09700EDC"
 			tasks: [{
@@ -1300,8 +1381,10 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 3.5d
+			icon: "pamhc2foodcore:cuttingboarditem"
+			x: 8.5d
+			y: -1.5d
+			shape: "diamond"
 			subtitle: "The &dcake&r is a lie"
 			dependencies: ["30309EDA489E594A"]
 			id: "58A5E20B49731297"
@@ -1312,8 +1395,10 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -3.0d
+			icon: "farmersdelight:cutting_board"
+			x: 6.0d
+			y: -1.5d
+			shape: "diamond"
 			subtitle: "You do not deserve an &4heart&r attack"
 			dependencies: ["30309EDA489E594A"]
 			id: "736997EF7FABE1CD"
@@ -1324,8 +1409,10 @@
 			}]
 		}
 		{
+			icon: "farmersdelight:sweet_berry_cheesecake"
 			x: 12.5d
 			y: -1.5d
+			shape: "octagon"
 			subtitle: "Now the most yummy food"
 			size: 4.0d
 			id: "30309EDA489E594A"
@@ -1336,8 +1423,16 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -8.5d
+			icon: {
+				id: "occultism:butcher_knife"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 12.5d
+			y: -5.0d
+			shape: "diamond"
 			subtitle: "It's better than your hands"
 			dependencies: ["30309EDA489E594A"]
 			id: "46CDE79382DE1E39"
@@ -1353,8 +1448,10 @@
 			}]
 		}
 		{
-			x: 17.5d
-			y: -8.5d
+			icon: "nethers_delight:hoglin_ear"
+			x: 12.5d
+			y: -7.5d
+			shape: "diamond"
 			subtitle: "Traveling in the world of my creation"
 			description: ["This are the farmer's delight main food for your craft."]
 			dependencies: ["30309EDA489E594A"]

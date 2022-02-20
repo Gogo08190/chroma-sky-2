@@ -4,7 +4,6 @@
 	title: "&cRandom Cluster"
 	icon: "chromasky:redstone_cluster"
 	loot_size: 1
-	hide_tooltip: true
 	use_title: true
 	rewards: [
 		{ item: "chromasky:iron_cluster" }

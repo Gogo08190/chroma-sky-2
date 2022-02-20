@@ -73,7 +73,12 @@
 			x: -1.5d
 			y: -3.5d
 			description: ["Do not place the gate on dirt or right-click with the wand."]
-			dependencies: ["576F2384CF4A5DD7"]
+			dependencies: [
+				"576F2384CF4A5DD7"
+				"254D683B153C4582"
+				"0FC2D90E094EAB11"
+				"4629A552492B890B"
+			]
 			id: "02E24F6032ED94A3"
 			tasks: [
 				{
@@ -101,16 +106,30 @@
 			}]
 		}
 		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "supplementaries:textures/map/nether_portal.png"
+				}
+			}
 			x: 0.5d
 			y: -3.5d
 			dependencies: ["02E24F6032ED94A3"]
 			id: "50F3AFDF64210C67"
-			tasks: [{
-				id: "242277B3818464CC"
-				type: "dimension"
-				title: "Visit dimension: &aThe Abyss Dim"
-				dimension: "theabyss:theabyssdim"
-			}]
+			tasks: [
+				{
+					id: "242277B3818464CC"
+					type: "dimension"
+					title: "Visit dimension: &aThe Abyss Dim"
+					dimension: "theabyss:theabyssdim"
+				}
+				{
+					id: "4BD561FB4C0DD5C0"
+					type: "checkmark"
+					title: "Visit dimension"
+				}
+			]
 			rewards: [{
 				id: "0D036F08118CCF3B"
 				type: "item"
@@ -582,6 +601,13 @@
 			}]
 		}
 		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "supplementaries:textures/map/nether_portal.png"
+				}
+			}
 			x: 2.5d
 			y: -3.5d
 			dependencies: [
@@ -589,12 +615,19 @@
 				"6185EB5C5215F063"
 			]
 			id: "1018CECF2CD1A0C9"
-			tasks: [{
-				id: "6C41447E3F4CA625"
-				type: "dimension"
-				title: "Visit Dimension: &aIce world"
-				dimension: "theabyss:theabyssdimiceworld"
-			}]
+			tasks: [
+				{
+					id: "6C41447E3F4CA625"
+					type: "dimension"
+					title: "Visit Dimension: &aIce world"
+					dimension: "theabyss:theabyssdimiceworld"
+				}
+				{
+					id: "7C9663BA782745C1"
+					type: "checkmark"
+					title: "Visit dimension"
+				}
+			]
 			rewards: [{
 				id: "0BE948737D78BC4D"
 				type: "item"
@@ -603,16 +636,30 @@
 			}]
 		}
 		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "supplementaries:textures/map/nether_portal.png"
+				}
+			}
 			x: 5.5d
 			y: -3.5d
 			dependencies: ["77D3FC20B68C5A5B"]
 			id: "05DCFF5D8F3D5136"
-			tasks: [{
-				id: "3A495380B96C5429"
-				type: "dimension"
-				title: "Visit Dimension: &aThe End Of Time"
-				dimension: "theabyss:the_end_of_time"
-			}]
+			tasks: [
+				{
+					id: "3A495380B96C5429"
+					type: "dimension"
+					title: "Visit Dimension: &aThe End Of Time"
+					dimension: "theabyss:the_end_of_time"
+				}
+				{
+					id: "3CDC5D2EE6AA08FE"
+					type: "checkmark"
+					title: "Visit dimension"
+				}
+			]
 			rewards: [{
 				id: "6786525C4E50AFAB"
 				type: "item"
@@ -621,16 +668,30 @@
 			}]
 		}
 		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "supplementaries:textures/map/nether_portal.png"
+				}
+			}
 			x: 8.5d
 			y: -2.0d
 			dependencies: ["3BDB681140D956F1"]
 			id: "700FD15DE9E49D60"
-			tasks: [{
-				id: "59264C451B28FE2F"
-				type: "dimension"
-				title: "Visit Dimension: &aThe End Of Time 2"
-				dimension: "theabyss:the_end_of_time_2"
-			}]
+			tasks: [
+				{
+					id: "59264C451B28FE2F"
+					type: "dimension"
+					title: "Visit Dimension: &aThe End Of Time 2"
+					dimension: "theabyss:the_end_of_time_2"
+				}
+				{
+					id: "53229E82E68C8144"
+					type: "checkmark"
+					title: "Visit dimension"
+				}
+			]
 			rewards: [{
 				id: "2A87AE65362905BD"
 				type: "xp"
@@ -638,16 +699,30 @@
 			}]
 		}
 		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "supplementaries:textures/map/nether_portal.png"
+				}
+			}
 			x: 0.5d
 			y: -2.0d
 			dependencies: ["38E08D56032FEA54"]
 			id: "63AF7FEF081583C8"
-			tasks: [{
-				id: "38AC72096D492513"
-				type: "dimension"
-				title: "Visit dimension : &aThe Beginning"
-				dimension: "thebeginning:theabyssdimbeginning"
-			}]
+			tasks: [
+				{
+					id: "38AC72096D492513"
+					type: "dimension"
+					title: "Visit dimension : &aThe Beginning"
+					dimension: "thebeginning:theabyssdimbeginning"
+				}
+				{
+					id: "388B60F18EEAEDB6"
+					type: "checkmark"
+					title: "Visit dimension"
+				}
+			]
 			rewards: [{
 				id: "7B92588071A2E9D6"
 				type: "item"
@@ -806,7 +881,7 @@
 			}]
 		}
 		{
-			title: "Loot table roka"
+			title: "Loots from Roka"
 			x: 7.0d
 			y: -2.0d
 			dependencies: ["77D3FC20B68C5A5B"]
@@ -873,7 +948,7 @@
 			}]
 		}
 		{
-			title: "Loot Table Nosaj End"
+			title: "Loots from Nosaj End"
 			x: 7.0d
 			y: -3.5d
 			dependencies: ["3BDB681140D956F1"]
@@ -957,7 +1032,7 @@
 				{
 					id: "0C6A535C2284F71B"
 					type: "kill"
-					entity: "theabyss:nether_scorpion_lv_l_4"
+					entity: "theabyss:netherscorpion"
 					value: 1L
 				}
 			]
@@ -3503,7 +3578,11 @@
 			title: "Slime Spider"
 			x: 7.0d
 			y: -15.0d
-			description: ["Look at a &bSlime Spider&r and kill it."]
+			description: [
+				"Look at a &bSlime Spider&r and kill it."
+				""
+				"In the &4Slime Forest&r biomes."
+			]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "7D8532ED0D801AF9"

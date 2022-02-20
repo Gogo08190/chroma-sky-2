@@ -1,7 +1,7 @@
 {
 	id: "305E787CD28AB7E5"
 	group: "73390EDA98890AC0"
-	order_index: 4
+	order_index: 1
 	filename: "rftools"
 	title: "RFTools"
 	icon: "rftoolsbase:dimensionalshard"
@@ -9,8 +9,9 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -2.0d
+			x: -4.0d
 			y: -3.5d
+			shape: "octagon"
 			description: [
 				"This &3Wrench&r can do a lot of stuff with the mod &6RFtools&r"
 				""
@@ -36,7 +37,10 @@
 			y: -1.0d
 			shape: "gear"
 			description: ["This &6Machine Frame&r can permit to craft a lot of &bRFtools&r machines"]
-			dependencies: ["31D5F89946C7CA5C"]
+			dependencies: [
+				"39DB67EE674F41A4"
+				"2E1A0AB49E83B283"
+			]
 			size: 1.5d
 			id: "18345F991AFEEF63"
 			tasks: [{
@@ -52,8 +56,9 @@
 		}
 		{
 			title: "Rf with EnderPearls"
-			x: -1.5d
+			x: -1.0d
 			y: -1.0d
+			shape: "diamond"
 			subtitle: "Endergenic Power Generation"
 			description: ["Throw an Ender Pearl at an Endergenic Generator at just the right moment and energy will be produced."]
 			dependencies: ["18345F991AFEEF63"]
@@ -88,48 +93,34 @@
 			}]
 		}
 		{
-			title: "Crafters"
-			x: 3.0d
+			x: 2.0d
 			y: -1.0d
+			shape: "diamond"
 			description: [
 				"Three different tiers of &bCrafters&r"
 				""
 				"Each Crafter has the double of the previous used in the crafting"
 				""
-				"So you have : "
-				"-> Tier 1 : Two Crafts"
-				"-> Tier 2 : Four Crafts"
-				"-> Tier 3 : Eight Crafts"
+				"Tier 1 : Two Crafts"
 			]
 			dependencies: ["18345F991AFEEF63"]
 			id: "7E9B96A8D215D21A"
-			tasks: [
-				{
-					id: "0F7BB0DDAC0FBFA8"
-					type: "item"
-					item: "rftoolsutility:crafter1"
-				}
-				{
-					id: "0A404BA7A3D9635D"
-					type: "item"
-					item: "rftoolsutility:crafter2"
-				}
-				{
-					id: "1C91FB49BF851B1B"
-					type: "item"
-					item: "rftoolsutility:crafter3"
-				}
-			]
-			rewards: [{
-				id: "69263E59C4737453"
+			tasks: [{
+				id: "0F7BB0DDAC0FBFA8"
 				type: "item"
-				item: "rftoolsutility:crafter3"
+				item: "rftoolsutility:crafter1"
+			}]
+			rewards: [{
+				id: "30C04F90E5F46143"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
 			title: "Storage"
-			x: 0.5d
-			y: -3.0d
+			x: 0.0d
+			y: -4.0d
+			shape: "hexagon"
 			description: [
 				"Here is a little storage advancement"
 				""
@@ -183,7 +174,12 @@
 		{
 			x: -4.5d
 			y: -2.5d
-			dependencies: ["31D5F89946C7CA5C"]
+			shape: "hexagon"
+			dependencies: [
+				"31D5F89946C7CA5C"
+				"5D4D5257E78D1C9F"
+				"0507BB01DF49C38B"
+			]
 			id: "3C9FE6987201F275"
 			tasks: [{
 				id: "73013BB97D732483"
@@ -198,8 +194,9 @@
 		}
 		{
 			title: "Redstone Stuff"
-			x: -5.5d
-			y: -1.0d
+			x: -5.0d
+			y: -1.5d
+			shape: "hexagon"
 			dependencies: ["3C9FE6987201F275"]
 			id: "4D279225E892CF4D"
 			tasks: [
@@ -241,8 +238,9 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -3.0d
+			x: -5.5d
+			y: -2.5d
+			shape: "hexagon"
 			dependencies: ["3C9FE6987201F275"]
 			id: "32406A0A9025BD9F"
 			tasks: [
@@ -265,8 +263,9 @@
 		}
 		{
 			title: "Usefull Modules"
-			x: -8.5d
-			y: -4.5d
+			x: -6.0d
+			y: -1.5d
+			shape: "hexagon"
 			dependencies: ["32406A0A9025BD9F"]
 			id: "69E87B792B96F1D8"
 			tasks: [
@@ -346,73 +345,24 @@
 		}
 		{
 			title: "Shape Cards"
-			x: -1.0d
-			y: -5.0d
+			x: 5.5d
+			y: -4.5d
+			shape: "diamond"
 			subtitle: "For the builder"
 			description: [
 				"This quest will adk you to craft all &2Shape Cards&r for the &6Builder&r"
 				""
 				"I suggest you check on the &bRFtools&r guide to see what they do.... Unless you wanna have a surprise, it's up to you"
 			]
+			hide_dependency_lines: true
 			dependencies: ["31D5F89946C7CA5C"]
+			size: 1.5d
 			id: "4CF494F5A7587034"
-			tasks: [
-				{
-					id: "142B3FE4B3CEC8FC"
-					type: "item"
-					item: "rftoolsbuilder:shape_card_def"
-				}
-				{
-					id: "4C1DA3D870356355"
-					type: "item"
-					item: "rftoolsbuilder:shape_card_liquid"
-				}
-				{
-					id: "6676D406D38EE053"
-					type: "item"
-					item: "rftoolsbuilder:shape_card_pump"
-				}
-				{
-					id: "75BB0F36B445D028"
-					type: "item"
-					item: "rftoolsbuilder:shape_card_pump_clear"
-				}
-				{
-					id: "75893F3AF950F5FF"
-					type: "item"
-					item: "rftoolsbuilder:shape_card_quarry"
-				}
-				{
-					id: "7DD0C89B1B07BD6E"
-					type: "item"
-					item: "rftoolsbuilder:shape_card_quarry_clear"
-				}
-				{
-					id: "410DC20B4B2D84F2"
-					type: "item"
-					item: "rftoolsbuilder:shape_card_quarry_clear_fortune"
-				}
-				{
-					id: "4E84C4CE1A6FBF75"
-					type: "item"
-					item: "rftoolsbuilder:shape_card_quarry_clear_silk"
-				}
-				{
-					id: "21B6E784AA34A24F"
-					type: "item"
-					item: "rftoolsbuilder:shape_card_quarry_silk"
-				}
-				{
-					id: "5D809A597F281E82"
-					type: "item"
-					item: "rftoolsbuilder:shape_card_quarry_fortune"
-				}
-				{
-					id: "66ACF551CE95E5A7"
-					type: "item"
-					item: "rftoolsbuilder:shape_card_void"
-				}
-			]
+			tasks: [{
+				id: "142B3FE4B3CEC8FC"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_def"
+			}]
 			rewards: [{
 				id: "7E65AB1EA503DA59"
 				type: "item"
@@ -420,8 +370,9 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -5.5d
+			x: 1.5d
+			y: -3.0d
+			shape: "hexagon"
 			description: [
 				"Here is the &3Builder !&r"
 				""
@@ -432,7 +383,7 @@
 				""
 				"How does it work? shift Right Click with a shape card in the main hand and select two blocks that are opposed to each other, you do not want to select a radius of two blocks... unless that's what you really want of course."
 			]
-			dependencies: ["31D5F89946C7CA5C"]
+			dependencies: ["18345F991AFEEF63"]
 			id: "16EA12AE325A8069"
 			tasks: [{
 				id: "544F98125E93085A"
@@ -446,8 +397,9 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -5.0d
+			x: -3.5d
+			y: -4.5d
+			shape: "hexagon"
 			subtitle: "The RFtools book"
 			description: ["Opening this book can bring you some usefull informations about some &bRFtools&r machines or items"]
 			dependencies: ["31D5F89946C7CA5C"]
@@ -464,8 +416,9 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -5.0d
+			x: -4.5d
+			y: -4.5d
+			shape: "hexagon"
 			description: [
 				"Mining can bee cool sometimes"
 				""
@@ -487,8 +440,9 @@
 		}
 		{
 			title: "Infusing"
-			x: -6.0d
-			y: -7.0d
+			x: -5.0d
+			y: -5.5d
+			shape: "hexagon"
 			subtitle: "Shiny"
 			description: [
 				"What happened ?!"
@@ -517,8 +471,9 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -5.0d
+			x: -5.5d
+			y: -4.5d
+			shape: "hexagon"
 			subtitle: "Boosting your machines"
 			description: [
 				"The &3Infuser&r can \"upgrade\" your &bRFtools&r machines"
@@ -543,8 +498,9 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: -1.5d
 			y: 1.0d
+			shape: "octagon"
 			dependencies: ["18345F991AFEEF63"]
 			id: "38E9A6975B2DA7FE"
 			tasks: [{
@@ -559,8 +515,9 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 1.0d
+			x: -2.5d
+			y: 0.5d
+			shape: "octagon"
 			dependencies: ["38E9A6975B2DA7FE"]
 			id: "22BB1FD058C929CD"
 			tasks: [{
@@ -575,8 +532,9 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 1.0d
+			x: -3.0d
+			y: 1.5d
+			shape: "octagon"
 			dependencies: ["22BB1FD058C929CD"]
 			id: "635B4119B3DABE31"
 			tasks: [{
@@ -591,8 +549,9 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 2.5d
+			x: -1.0d
+			y: 2.0d
+			shape: "octagon"
 			description: ["The more powercell you put for the multiblock, more energy will be stocked"]
 			dependencies: ["38E9A6975B2DA7FE"]
 			id: "010428B4F1F3BF8B"
@@ -608,8 +567,9 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -2.0d
 			y: 2.5d
+			shape: "octagon"
 			dependencies: [
 				"010428B4F1F3BF8B"
 				"22BB1FD058C929CD"
@@ -627,8 +587,9 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -3.0d
 			y: 2.5d
+			shape: "octagon"
 			dependencies: [
 				"417FBC4C46679D2F"
 				"635B4119B3DABE31"
@@ -647,8 +608,9 @@
 		}
 		{
 			title: "Dimensional Cells"
-			x: 2.0d
-			y: -3.0d
+			x: 1.0d
+			y: -4.0d
+			shape: "hexagon"
 			subtitle: "Wireless Energy"
 			description: [
 				"As said in the subtitle"
@@ -701,8 +663,9 @@
 		}
 		{
 			title: "Advanced Storage"
-			x: 3.0d
+			x: -0.5d
 			y: -3.0d
+			shape: "hexagon"
 			subtitle: "Wireless Storage?"
 			description: [
 				"Now that you have a little more stocking space"
@@ -742,8 +705,9 @@
 		}
 		{
 			title: "Spawner"
-			x: 4.5d
-			y: -3.0d
+			x: 0.5d
+			y: -5.0d
+			shape: "hexagon"
 			subtitle: "Spawning mobs"
 			description: [
 				"In Order to spawn mobs you will have to craft 3 beams."
@@ -787,8 +751,9 @@
 		}
 		{
 			title: "Shield"
-			x: 4.5d
-			y: 0.0d
+			x: 2.5d
+			y: 1.0d
+			shape: "octagon"
 			description: [
 				"In order to create a &bShield&r you must use those &5Shield Projectors&r"
 				""
@@ -796,43 +761,21 @@
 			]
 			dependencies: ["18345F991AFEEF63"]
 			id: "0DD9AD3742FD755D"
-			tasks: [
-				{
-					id: "391C50260F5F3E95"
-					type: "item"
-					item: "rftoolsbuilder:shield_block1"
-				}
-				{
-					id: "1B3704FC1A9EFBE7"
-					type: "item"
-					item: "rftoolsbuilder:shield_block2"
-				}
-				{
-					id: "74974A1D5ACDE59A"
-					type: "item"
-					item: "rftoolsbuilder:shield_block3"
-				}
-				{
-					id: "1D5229BDBA65A97F"
-					type: "item"
-					item: "rftoolsbuilder:shield_block4"
-				}
-				{
-					id: "6933C0663ED3384B"
-					type: "item"
-					item: "rftoolsbuilder:blue_shield_template_block"
-				}
-			]
-			rewards: [{
-				id: "6C4F5AD618D774C5"
+			tasks: [{
+				id: "391C50260F5F3E95"
 				type: "item"
-				item: "rftoolsbuilder:blue_shield_template_block"
-				count: 8
+				item: "rftoolsbuilder:shield_block1"
+			}]
+			rewards: [{
+				id: "6CB141091C331DCD"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{
-			x: 3.0d
-			y: 1.0d
+			x: 0.5d
+			y: 0.5d
+			shape: "diamond"
 			subtitle: "Creating blazing rods"
 			description: [
 				"With some energy, you will be able to craft some &6Blazing Rods&r"
@@ -854,8 +797,9 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 2.5d
+			x: 0.0d
+			y: 1.0d
+			shape: "diamond"
 			subtitle: "Infusing Blazing Rods"
 			description: [
 				"Once you have crafted the &6Blazing Rods&r you can infuse them with some &bDimensional Shards&r"
@@ -878,8 +822,9 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 2.5d
+			x: 1.0d
+			y: 1.0d
+			shape: "diamond"
 			subtitle: "Generates RF with &6Blazing Rods&r"
 			description: [
 				"So as we saw on the last quest"
@@ -901,8 +846,9 @@
 		}
 		{
 			title: "Teleporter"
-			x: 1.5d
-			y: 1.0d
+			x: -1.5d
+			y: -1.5d
+			shape: "diamond"
 			dependencies: ["18345F991AFEEF63"]
 			id: "055F099F3998F83B"
 			tasks: [
@@ -939,8 +885,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 2.5d
+			x: -1.5d
+			y: -0.5d
+			shape: "diamond"
 			dependencies: ["055F099F3998F83B"]
 			id: "51C4BBBF2434455C"
 			tasks: [
@@ -1205,6 +1152,258 @@
 				id: "1B33261219335A8D"
 				type: "item"
 				item: "xnet:connector_blue"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			shape: "diamond"
+			description: ["Tier 2 : Four Crafts"]
+			dependencies: ["7E9B96A8D215D21A"]
+			id: "6231B50255715C83"
+			tasks: [{
+				id: "7093F0DB84D30AC7"
+				type: "item"
+				item: "rftoolsutility:crafter2"
+			}]
+			rewards: [{
+				id: "66EAE9D7C889C8BB"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			shape: "diamond"
+			description: ["Tier 3 : Eight Crafts"]
+			dependencies: ["6231B50255715C83"]
+			id: "1C03FA173D7A81FB"
+			tasks: [{
+				id: "5785E23E73EA1AA9"
+				type: "item"
+				item: "rftoolsutility:crafter3"
+			}]
+			rewards: [{
+				id: "44CE53D997516F7F"
+				type: "item"
+				item: "rftoolsutility:crafter3"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.5d
+			shape: "diamond"
+			dependencies: ["4CF494F5A7587034"]
+			id: "70E987913CFEFEB4"
+			tasks: [{
+				id: "4356FB93493B7847"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_liquid"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -6.0d
+			shape: "diamond"
+			dependencies: ["4CF494F5A7587034"]
+			id: "5B59623E6E269E30"
+			tasks: [{
+				id: "0970C4D2AFC9CA69"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_pump"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.5d
+			shape: "diamond"
+			dependencies: ["4CF494F5A7587034"]
+			id: "27F02CBD3A4829FA"
+			tasks: [{
+				id: "2B6DA3C7F3FA96C5"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_pump_clear"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			shape: "diamond"
+			dependencies: ["4CF494F5A7587034"]
+			id: "1B36D1A71262B772"
+			tasks: [{
+				id: "303657E09FFF8B60"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -5.0d
+			shape: "diamond"
+			dependencies: ["4CF494F5A7587034"]
+			id: "6332E5DCB623DE92"
+			tasks: [{
+				id: "75A9A522C45DB476"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry_clear"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			shape: "diamond"
+			dependencies: ["4CF494F5A7587034"]
+			id: "3E8E015D67283D15"
+			tasks: [{
+				id: "3891C56F16899289"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry_clear_fortune"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.0d
+			shape: "diamond"
+			dependencies: ["4CF494F5A7587034"]
+			id: "10CA4F42BE099260"
+			tasks: [{
+				id: "4FC5BFC5A180DC33"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry_clear_silk"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: ["4CF494F5A7587034"]
+			id: "6A7D6E6EA4DD0B5A"
+			tasks: [{
+				id: "42409A57FDC22F8A"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry_fortune"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: ["4CF494F5A7587034"]
+			id: "5799A9BC5A40B3CB"
+			tasks: [{
+				id: "264B945E6DAC295D"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry_silk"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: ["4CF494F5A7587034"]
+			id: "735867789677B6FA"
+			tasks: [{
+				id: "64CE56DA5ADFD344"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_void"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			shape: "octagon"
+			dependencies: ["0DD9AD3742FD755D"]
+			id: "73CA500A539D6583"
+			tasks: [{
+				id: "70FF2C64BFD66165"
+				type: "item"
+				item: "rftoolsbuilder:shield_block2"
+			}]
+			rewards: [{
+				id: "1166AD8C12321E20"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			shape: "octagon"
+			dependencies: ["73CA500A539D6583"]
+			id: "167CCDB05CBC9E9B"
+			tasks: [{
+				id: "17037881CCBE53C3"
+				type: "item"
+				item: "rftoolsbuilder:shield_block3"
+			}]
+			rewards: [{
+				id: "4AA23820E004453F"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			shape: "octagon"
+			dependencies: [
+				"167CCDB05CBC9E9B"
+				"6F027051B26FC2DA"
+			]
+			id: "010E49067555F452"
+			tasks: [{
+				id: "04C16A870CAA1FC9"
+				type: "item"
+				item: "rftoolsbuilder:shield_block4"
+			}]
+			rewards: [{
+				id: "453753F8C23BC6E8"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
+		}
+		{
+			title: "Shield Template"
+			x: 3.5d
+			y: 0.5d
+			shape: "octagon"
+			dependencies: ["0DD9AD3742FD755D"]
+			id: "6F027051B26FC2DA"
+			tasks: [{
+				id: "5F6C223307D37514"
+				type: "item"
+				title: "Shield Template"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "rftoolsbuilder:blue_shield_template_block"
+								Count: 1b
+							}
+							{
+								id: "rftoolsbuilder:red_shield_template_block"
+								Count: 1b
+							}
+							{
+								id: "rftoolsbuilder:green_shield_template_block"
+								Count: 1b
+							}
+							{
+								id: "rftoolsbuilder:yellow_shield_template_block"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "78C0BFC87238AB77"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 	]

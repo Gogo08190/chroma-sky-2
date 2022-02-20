@@ -178,15 +178,15 @@
 			}]
 			rewards: [
 				{
-					id: "239F6E095399925B"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-				{
 					id: "21BE70C1F4C0FFB3"
 					type: "item"
 					item: "thermal:obsidian_glass"
 					count: 8
+				}
+				{
+					id: "76D5F9D123A4A80A"
+					type: "random"
+					table_id: 7381842975596526002L
 				}
 			]
 		}
@@ -358,15 +358,15 @@
 			}]
 			rewards: [
 				{
-					id: "5C6C88907048DA3F"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-				{
 					id: "07A68EA028E4AA87"
 					type: "item"
 					item: "mekanism:ingot_steel"
 					count: 16
+				}
+				{
+					id: "1AAD0114B421032A"
+					type: "random"
+					table_id: 7381842975596526002L
 				}
 			]
 		}
@@ -401,15 +401,15 @@
 			}]
 			rewards: [
 				{
-					id: "7F30BE74A33ECEAA"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-				{
 					id: "4E8624946FBDE5D8"
 					type: "item"
 					item: "immersiveengineering:treated_wood_horizontal"
 					count: 8
+				}
+				{
+					id: "28EAD8F3B968447D"
+					type: "random"
+					table_id: 7381842975596526002L
 				}
 			]
 		}
@@ -445,15 +445,15 @@
 			}]
 			rewards: [
 				{
-					id: "21F2A452CD73BCDC"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-				{
 					id: "6A7898D42CBDF98B"
 					type: "item"
 					item: "minecraft:glass_bottle"
 					count: 8
+				}
+				{
+					id: "74BE7FBE167B2FA4"
+					type: "random"
+					table_id: 7381842975596526002L
 				}
 			]
 		}
@@ -484,15 +484,15 @@
 			}]
 			rewards: [
 				{
-					id: "7A309A8EF39A45B2"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-				{
 					id: "1C17098D1AD6484E"
 					type: "item"
 					item: "thermal:iron_dust"
 					count: 8
+				}
+				{
+					id: "4FB4547DA4FBDFE8"
+					type: "random"
+					table_id: 7381842975596526002L
 				}
 			]
 		}
@@ -511,7 +511,10 @@
 				"01x Redstone Engineering Block"
 			]
 			hide_dependency_lines: true
-			dependencies: ["47A4D81697C274A3"]
+			dependencies: [
+				"47A4D81697C274A3"
+				"5D4D5257E78D1C9F"
+			]
 			id: "2FA1D09F8788E613"
 			tasks: [{
 				id: "00BAB278979BBE16"
@@ -524,14 +527,14 @@
 			}]
 			rewards: [
 				{
-					id: "3FF0FDFC52EDDE4F"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-				{
 					id: "3F25E59D435DEB80"
 					type: "item"
 					item: "immersiveengineering:biodiesel_bucket"
+				}
+				{
+					id: "72DDAF8348F0CAFD"
+					type: "random"
+					table_id: 7381842975596526002L
 				}
 			]
 		}
@@ -543,7 +546,7 @@
 				"The Distillation Tower is primarily used to convert Crude Oil into usable Diesel and Gasoline fuels and Lubricant, creating Bitumen as a byproduct."
 				""
 				"25x Steel Scaffolding"
-				"33x Steel Scaffolding Slab"
+				"30x Steel Scaffolding Slab"
 				"17x Fluid Pipe"
 				"60x Iron Sheetmetal"
 				"04x Heavy Engineering Block"
@@ -563,14 +566,14 @@
 			}]
 			rewards: [
 				{
-					id: "4192A02C6568ED6D"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-				{
 					id: "6681115A0C8051AB"
 					type: "item"
 					item: "immersivepetroleum:auto_lubricator"
+				}
+				{
+					id: "51110725210108EC"
+					type: "random"
+					table_id: 7381842975596526002L
 				}
 			]
 		}
@@ -602,14 +605,14 @@
 			}]
 			rewards: [
 				{
-					id: "3EDABC23DDA6431D"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-				{
 					id: "289F778245ADA400"
 					type: "item"
 					item: "immersiveengineering:ethanol_bucket"
+				}
+				{
+					id: "094CE18C738A1962"
+					type: "random"
+					table_id: 7381842975596526002L
 				}
 			]
 		}
@@ -652,7 +655,7 @@
 				"8x Copper Coil Block"
 				"4x Steel Scaffolding"
 				"4x HV Capacitor"
-				"4x Light Enfineering Block"
+				"4x Light Engineering Block"
 				"4x Treated Wood Fence"
 				"3x High-Voltage Coil Block"
 			]
@@ -660,6 +663,7 @@
 			dependencies: [
 				"5E1F9A6B1FEB5289"
 				"47A4D81697C274A3"
+				"5D4D5257E78D1C9F"
 			]
 			id: "0BC9880B53E548C5"
 			tasks: [{
@@ -673,15 +677,15 @@
 			}]
 			rewards: [
 				{
-					id: "1E096F74DE934685"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-				{
 					id: "0EB0763BFA828889"
 					type: "item"
 					item: "immersiveengineering:steel_fence"
 					count: 8
+				}
+				{
+					id: "5190FE4F0610EF3A"
+					type: "random"
+					table_id: 7381842975596526002L
 				}
 			]
 		}
@@ -715,15 +719,15 @@
 			}]
 			rewards: [
 				{
-					id: "5DF3D0AC3765B0F7"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-				{
 					id: "7954222F76A3F2D4"
 					type: "item"
 					item: "immersiveengineering:plate_steel"
 					count: 4
+				}
+				{
+					id: "39C343E312A41810"
+					type: "random"
+					table_id: 7381842975596526002L
 				}
 			]
 		}
@@ -755,11 +759,6 @@
 			}]
 			rewards: [
 				{
-					id: "26241673F876D4B0"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-				{
 					id: "270B16FCAF5E0707"
 					type: "item"
 					item: {
@@ -769,6 +768,11 @@
 							Potion: "minecraft:leaping"
 						}
 					}
+				}
+				{
+					id: "24656C022917750A"
+					type: "random"
+					table_id: 7381842975596526002L
 				}
 			]
 		}
@@ -782,6 +786,7 @@
 				""
 				"Once it's powered, the pumpjack pumps at a rate of 15 mB/tick"
 				""
+				"04x Steel Sheetmetal"
 				"11x Steel Scaffolding"
 				"06x Treated Wood Fence"
 				"04x Fluid Pipe"
@@ -807,14 +812,14 @@
 			}]
 			rewards: [
 				{
-					id: "70DDC74BC8434A7E"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-				{
 					id: "5A20F3A215F9CFFB"
 					type: "item"
 					item: "immersivepetroleum:oil_bucket"
+				}
+				{
+					id: "2E50CFAF7BD679F8"
+					type: "random"
+					table_id: 7381842975596526002L
 				}
 			]
 		}
@@ -846,14 +851,14 @@
 			}]
 			rewards: [
 				{
-					id: "3024652B97D3F53D"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-				{
 					id: "39BE4F73428EF758"
 					type: "item"
 					item: "immersiveengineering:biodiesel_bucket"
+				}
+				{
+					id: "20D2253995998848"
+					type: "random"
+					table_id: 7381842975596526002L
 				}
 			]
 		}
@@ -889,14 +894,14 @@
 			}]
 			rewards: [
 				{
-					id: "14332F0DB3F508AA"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-				{
 					id: "05A9B41DADFBE843"
 					type: "item"
 					item: "immersiveengineering:plantoil_bucket"
+				}
+				{
+					id: "406326DAF414F992"
+					type: "random"
+					table_id: 7381842975596526002L
 				}
 			]
 		}
@@ -928,14 +933,14 @@
 			}]
 			rewards: [
 				{
-					id: "4119354BDA751B14"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-				{
 					id: "61A3F9C28DB4C508"
 					type: "item"
 					item: "immersiveengineering:creosote_bucket"
+				}
+				{
+					id: "6AFA5CFFF6A9C163"
+					type: "random"
+					table_id: 7381842975596526002L
 				}
 			]
 		}
@@ -975,11 +980,6 @@
 			}]
 			rewards: [
 				{
-					id: "72E4097C1B1E7794"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-				{
 					id: "39FDCD98F3F78727"
 					type: "item"
 					item: "immersivepetroleum:bitumen"
@@ -989,6 +989,11 @@
 					id: "61F17B118C5FB17A"
 					type: "item"
 					item: "immersivepetroleum:petcoke"
+				}
+				{
+					id: "35D21675E2A732B0"
+					type: "random"
+					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -1053,6 +1058,7 @@
 			dependencies: [
 				"20C7BB0FB260AC6A"
 				"5E1F9A6B1FEB5289"
+				"5D4D5257E78D1C9F"
 			]
 			id: "0C62C613B2CC0973"
 			tasks: [{
@@ -1114,6 +1120,7 @@
 				"22B0E29207751423"
 				"20C7BB0FB260AC6A"
 				"5E1F9A6B1FEB5289"
+				"5D4D5257E78D1C9F"
 			]
 			id: "3ABC5EB20529B64A"
 			tasks: [{
@@ -1183,7 +1190,11 @@
 			y: 0.5d
 			description: ["The Water Wheel is used to generate energy with flowing water when connected to the front of a Kinetic Dynamo."]
 			hide_dependency_lines: true
-			dependencies: ["44885326BA2DCB65"]
+			dependencies: [
+				"44885326BA2DCB65"
+				"5D4D5257E78D1C9F"
+				"5E1F9A6B1FEB5289"
+			]
 			id: "34223067CD59C964"
 			tasks: [{
 				id: "285F68BF2ED4A50D"
@@ -1240,7 +1251,10 @@
 			x: 17.5d
 			y: 0.5d
 			hide_dependency_lines: true
-			dependencies: ["47A4D81697C274A3"]
+			dependencies: [
+				"47A4D81697C274A3"
+				"5D4D5257E78D1C9F"
+			]
 			id: "44885326BA2DCB65"
 			tasks: [{
 				id: "4CF528F424020C94"
@@ -1472,15 +1486,15 @@
 			}]
 			rewards: [
 				{
-					id: "65AC39EB5DA46321"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-				{
 					id: "2814D8A07D896DCE"
 					type: "item"
 					item: "minecraft:wheat"
 					count: 16
+				}
+				{
+					id: "1449761EBF95EA3E"
+					type: "random"
+					table_id: 7381842975596526002L
 				}
 			]
 		}
@@ -1605,8 +1619,8 @@
 		{
 			title: "&cAssembling Factory"
 			icon: "masterfulmachinery:assemblingfactory_controller"
-			x: 14.357142857142854d
-			y: 16.071428571428584d
+			x: 16.0d
+			y: 16.0d
 			shape: "octagon"
 			subtitle: "Useful to do everything"
 			description: [
@@ -1625,6 +1639,7 @@
 				"0DBCCDC1A9287229"
 				"47A4D81697C274A3"
 				"3ABC5EB20529B64A"
+				"5D4D5257E78D1C9F"
 			]
 			size: 2.0d
 			min_width: 250
@@ -1700,16 +1715,55 @@
 					}
 				}
 				{
-					id: "7816BB181640A2F0"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-				{
 					id: "4C70D9072D265B5B"
 					type: "item"
 					item: "chromasky:mechanic_core_tier_1"
 				}
+				{
+					id: "42D1334D0D4D04F2"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
 			]
+		}
+		{
+			x: 9.0d
+			y: 16.0d
+			description: ["The &aGarden Cloche&r is used to grow crops placed in it."]
+			hide_dependency_lines: true
+			dependencies: [
+				"47A4D81697C274A3"
+				"5E1F9A6B1FEB5289"
+			]
+			id: "1910744EF32C3709"
+			tasks: [{
+				id: "466E0DF92D638E5F"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+			rewards: [{
+				id: "29A08673B057E0F1"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 16
+			}]
+		}
+		{
+			x: 13.0d
+			y: 16.0d
+			description: [
+				"The &aProjector&r can help you in the construction of multiblocks."
+				""
+				"&6Right Click&r with the projector in your hand to open the menu and select your structure."
+			]
+			hide_dependency_lines: true
+			dependencies: ["5E1F9A6B1FEB5289"]
+			id: "3ABCA2A818B8B370"
+			tasks: [{
+				id: "717AF6BC55FD16A7"
+				type: "item"
+				item: "immersivepetroleum:projector"
+			}]
 		}
 	]
 }

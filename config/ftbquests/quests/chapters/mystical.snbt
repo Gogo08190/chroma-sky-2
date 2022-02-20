@@ -12,7 +12,13 @@
 			x: -2.0d
 			y: 2.5d
 			shape: "octagon"
-			dependencies: ["39DB67EE674F41A4"]
+			hide_dependency_lines: true
+			dependencies: [
+				"39DB67EE674F41A4"
+				"7DB4A0C8AE804CAF"
+				"1D095565CA7B1C62"
+				"2E493DA5E07A7804"
+			]
 			size: 2.0d
 			id: "083F18D402B22953"
 			tasks: [{
@@ -52,7 +58,12 @@
 			x: 2.0d
 			y: 2.5d
 			shape: "rsquare"
-			dependencies: ["39DB67EE674F41A4"]
+			dependencies: [
+				"39DB67EE674F41A4"
+				"71E4BB753498AB6B"
+				"57DBDBDE8D06C2AF"
+				"7591DDDBE81D6790"
+			]
 			id: "0A783ECF5E943732"
 			tasks: [
 				{
@@ -329,7 +340,7 @@
 			hide_dependency_lines: true
 			dependencies: [
 				"695E644312CB3D02"
-				"682F3B47FAE6BB17"
+				"20D1BA0606138A0D"
 			]
 			size: 1.5d
 			id: "6BCBB87B89D1D218"
@@ -350,8 +361,8 @@
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
-				"4B3A7953270DCEFD"
 				"6BCBB87B89D1D218"
+				"25EBA82EBB05631E"
 			]
 			size: 1.5d
 			id: "0D702BE2A86D3A38"
@@ -787,6 +798,7 @@
 			}]
 		}
 		{
+			icon: "chromasky:drop_of_peacefulless"
 			x: -17.0d
 			y: -0.5d
 			shape: "diamond"
@@ -801,6 +813,7 @@
 			}]
 		}
 		{
+			icon: "chromasky:drop_of_darkness"
 			x: -17.0d
 			y: 5.5d
 			shape: "diamond"
@@ -2206,6 +2219,7 @@
 			}]
 		}
 		{
+			title: "Insanium Armor"
 			x: 19.0d
 			y: -3.0d
 			shape: "diamond"
@@ -2264,6 +2278,7 @@
 			}]
 		}
 		{
+			title: "Inferium Armor"
 			x: 18.5d
 			y: -4.5d
 			shape: "diamond"
@@ -2332,6 +2347,7 @@
 			}]
 		}
 		{
+			title: "Prudentium Armor"
 			x: 19.0d
 			y: -4.0d
 			shape: "diamond"
@@ -2390,6 +2406,7 @@
 			}]
 		}
 		{
+			title: "Tertium Armor"
 			x: 18.0d
 			y: -4.0d
 			shape: "diamond"
@@ -2448,6 +2465,7 @@
 			}]
 		}
 		{
+			title: "Imperium Armor"
 			x: 18.5d
 			y: -3.5d
 			shape: "diamond"
@@ -2506,6 +2524,7 @@
 			}]
 		}
 		{
+			title: "Supremium Armor"
 			x: 19.5d
 			y: -3.5d
 			shape: "diamond"
@@ -2977,6 +2996,7 @@
 		{
 			x: 13.0d
 			y: -5.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["74083D9E4671E933"]
 			id: "1552684EADC725BA"
@@ -2999,6 +3019,7 @@
 			}]
 		}
 		{
+			title: "Inferium Tool"
 			x: 17.0d
 			y: -3.0d
 			shape: "diamond"
@@ -3072,6 +3093,7 @@
 			}]
 		}
 		{
+			title: "Prudentium Tool"
 			x: 17.5d
 			y: -2.5d
 			shape: "diamond"
@@ -3146,6 +3168,7 @@
 			}]
 		}
 		{
+			title: "Tertium Tool"
 			x: 16.5d
 			y: -2.5d
 			shape: "diamond"
@@ -3220,6 +3243,7 @@
 			}]
 		}
 		{
+			title: "Imperium Tool"
 			x: 17.0d
 			y: -2.0d
 			shape: "diamond"
@@ -3294,6 +3318,7 @@
 			}]
 		}
 		{
+			title: "Supremium Tool"
 			x: 18.0d
 			y: -2.0d
 			shape: "diamond"
@@ -3338,6 +3363,7 @@
 			}]
 		}
 		{
+			title: "Insanium Tool"
 			x: 17.5d
 			y: -1.5d
 			shape: "diamond"
@@ -3893,7 +3919,12 @@
 		{
 			x: 8.5d
 			y: -4.5d
-			dependencies: ["5693A4D9D9206449"]
+			hide_dependency_lines: true
+			dependencies: [
+				"5693A4D9D9206449"
+				"0A783ECF5E943732"
+				"7854F6787B4A647C"
+			]
 			id: "038582C7C5EA0757"
 			tasks: [{
 				id: "43D0E74557ACF3D2"
@@ -3924,7 +3955,12 @@
 		{
 			x: 7.0d
 			y: -5.5d
-			dependencies: ["5693A4D9D9206449"]
+			hide_dependency_lines: true
+			dependencies: [
+				"5693A4D9D9206449"
+				"0A783ECF5E943732"
+				"7854F6787B4A647C"
+			]
 			id: "37AEF2C991581C06"
 			tasks: [{
 				id: "2711B7E08CD407F6"
@@ -4914,10 +4950,7 @@
 			y: -5.5d
 			description: ["You must kill the mobs with the soulium dagger to get their souls."]
 			hide_dependency_lines: true
-			dependencies: [
-				"7A0CA37A094EE4AE"
-				"5693A4D9D9206449"
-			]
+			dependencies: ["7A0CA37A094EE4AE"]
 			id: "7854F6787B4A647C"
 			tasks: [{
 				id: "238E8179875B1CF2"
@@ -4937,6 +4970,7 @@
 			x: -18.5d
 			y: 11.0d
 			shape: "pentagon"
+			description: ["&4The Mystical Factory&r will allow you to transform essences to resources."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D095565CA7B1C62"
@@ -5043,6 +5077,7 @@
 			x: -15.5d
 			y: 11.0d
 			shape: "pentagon"
+			description: ["Gives &atwice&r as many resources as the previous one."]
 			hide_dependency_lines: true
 			dependencies: [
 				"04E5851B9BE50661"
@@ -5152,6 +5187,7 @@
 			x: -12.5d
 			y: 11.0d
 			shape: "pentagon"
+			description: ["Gives &2twice&r as many resources as the previous one."]
 			hide_dependency_lines: true
 			dependencies: [
 				"4D929FF53B2B44E3"
@@ -5260,6 +5296,7 @@
 			x: -9.5d
 			y: 11.0d
 			shape: "pentagon"
+			description: ["Gives &6twice&r as many resources as the previous one."]
 			hide_dependency_lines: true
 			dependencies: [
 				"62AB1EAC05151A44"
@@ -5368,6 +5405,7 @@
 			x: -6.5d
 			y: 11.0d
 			shape: "pentagon"
+			description: ["Gives &9twice&r as many resources as the previous one."]
 			hide_dependency_lines: true
 			dependencies: [
 				"558E5F0EFD894D61"
@@ -5479,6 +5517,7 @@
 			x: -3.5d
 			y: 11.0d
 			shape: "pentagon"
+			description: ["Gives &4twice&r as many resources as the previous one."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2888ACD6C2BDB508"
@@ -5592,6 +5631,7 @@
 			x: -0.5d
 			y: 11.0d
 			shape: "pentagon"
+			description: ["Gives &5twice&r as many resources as the previous one."]
 			hide_dependency_lines: true
 			dependencies: [
 				"349EAE82D9B38037"
@@ -5834,18 +5874,6 @@
 				id: "099745129CD8FECE"
 				type: "random"
 				table_id: 4309216921490884332L
-			}]
-		}
-		{
-			title: "&6Mystical Factory&r"
-			x: -18.5d
-			y: 13.5d
-			description: ["&4The Mystical Factory&r will allow you to transform essences to resources."]
-			dependencies: ["3200C3D9158B9D92"]
-			id: "2EB153359B10438F"
-			tasks: [{
-				id: "4B06B25A81A5D7E2"
-				type: "checkmark"
 			}]
 		}
 	]

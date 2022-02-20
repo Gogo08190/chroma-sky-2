@@ -82,7 +82,7 @@
 					}
 				}
 				stat: "minecraft:mob_kills"
-				value: 5000
+				value: 100000
 			}]
 			rewards: [
 				{
@@ -219,7 +219,7 @@
 					}
 				}
 				stat: "minecraft:enchant_item"
-				value: 200
+				value: 500
 			}]
 			rewards: [
 				{
@@ -400,10 +400,6 @@
 			y: -2.0d
 			shape: "octagon"
 			dependencies: [
-				"50ABBC5710AA4F69"
-				"470A02ADE95BC49B"
-				"4F49D55BA3B7C0A0"
-				"4B3E8AD6460AC95F"
 				"66CD3B2669147B04"
 				"49ADAC46F0C5CA1C"
 				"7F78AC069118A633"
@@ -465,7 +461,6 @@
 				"518B56A2BB2377AC"
 				"47545DCFC12743F9"
 				"4E30E0460A3C25AA"
-				"235CFC8A81FF8550"
 				"675230B2FD1015A0"
 				"433B74E60F388202"
 				"74C33399BF9DD97E"
@@ -829,7 +824,6 @@
 				"2902370EF3BF9DAF"
 				"562A7988C477AC46"
 				"4658C7303550E7B9"
-				"3BA7B01ECBF11036"
 				"0F93D413E0423CB6"
 				"4F255D0BD53CADA1"
 				"3B2A0B92CBAE556B"

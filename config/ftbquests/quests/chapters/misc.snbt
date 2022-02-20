@@ -1545,5 +1545,287 @@
 				title: "Chipped"
 			}]
 		}
+		{
+			x: 1.0d
+			y: 4.0d
+			shape: "diamond"
+			dependencies: ["0218CABFAB5059B3"]
+			id: "125F24645FA1A1EC"
+			tasks: [{
+				id: "29ED14D88D3E891F"
+				type: "item"
+				item: "ironfurnaces:iron_furnace"
+			}]
+			rewards: [{
+				id: "3B07F8E4F86DDE84"
+				type: "item"
+				item: "chromasky:iron_cluster"
+				count: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["125F24645FA1A1EC"]
+			id: "0F7C8A9454D8BDE6"
+			tasks: [{
+				id: "0C3FD9BBD1DD7674"
+				type: "item"
+				item: "ironfurnaces:gold_furnace"
+			}]
+			rewards: [{
+				id: "20D81FC361F61B57"
+				type: "item"
+				item: "chromasky:gold_cluster"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["0F7C8A9454D8BDE6"]
+			id: "5733CD5AF8B622CC"
+			tasks: [{
+				id: "35415F7C4F754B40"
+				type: "item"
+				item: "ironfurnaces:diamond_furnace"
+			}]
+			rewards: [{
+				id: "6DE9FC864101C289"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5733CD5AF8B622CC"]
+			id: "3F7B39CC01678D82"
+			tasks: [{
+				id: "14179ED522FFE660"
+				type: "item"
+				item: "ironfurnaces:emerald_furnace"
+			}]
+			rewards: [{
+				id: "5BC4CDE3323928EA"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5733CD5AF8B622CC"]
+			id: "74776E70DC308B12"
+			tasks: [{
+				id: "601DFB9D66FDA62F"
+				type: "item"
+				item: "ironfurnaces:obsidian_furnace"
+			}]
+			rewards: [{
+				id: "3C9BB4211FDB09C1"
+				type: "item"
+				item: "minecraft:blaze_rod"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5733CD5AF8B622CC"]
+			id: "516604376B219C87"
+			tasks: [{
+				id: "57361FFB8A1C6461"
+				type: "item"
+				item: "ironfurnaces:crystal_furnace"
+			}]
+			rewards: [{
+				id: "5C73721ECC082719"
+				type: "item"
+				item: "minecraft:glass"
+				count: 4
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["74776E70DC308B12"]
+			id: "6400C07B22F6B16E"
+			tasks: [{
+				id: "4ACBAF33D17ACBD7"
+				type: "item"
+				item: "ironfurnaces:netherite_furnace"
+			}]
+		}
+		{
+			title: "Wireless Heat"
+			x: 2.0d
+			y: 7.0d
+			shape: "diamond"
+			dependencies: ["088D692E25F62BFD"]
+			id: "4053EB85A913C1E5"
+			tasks: [
+				{
+					id: "573347DC4F5F4D3A"
+					type: "item"
+					item: "ironfurnaces:heater"
+				}
+				{
+					id: "77CE0360D2E9F65C"
+					type: "item"
+					item: "ironfurnaces:item_heater"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 7.0d
+			shape: "diamond"
+			dependencies: [
+				"0218CABFAB5059B3"
+				"088D692E25F62BFD"
+			]
+			id: "58D25DDAFC452615"
+			tasks: [{
+				id: "3B9ABB6305907873"
+				type: "item"
+				item: "ironfurnaces:augment_blasting"
+			}]
+			rewards: [{
+				id: "098266CD7B634458"
+				type: "item"
+				item: "minecraft:coal"
+				count: 4
+			}]
+		}
+		{
+			x: 3.0d
+			y: 7.0d
+			shape: "diamond"
+			dependencies: ["088D692E25F62BFD"]
+			id: "18B50120979E9761"
+			tasks: [{
+				id: "317CC49AC796ED3E"
+				type: "item"
+				item: "ironfurnaces:augment_smoking"
+			}]
+			rewards: [{
+				id: "02A0FA4A434504D6"
+				type: "item"
+				item: "minecraft:coal"
+				count: 4
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.5d
+			shape: "diamond"
+			dependencies: ["088D692E25F62BFD"]
+			id: "6487800FC44EED29"
+			tasks: [{
+				id: "5F24BDA5366C42E6"
+				type: "item"
+				item: "ironfurnaces:augment_speed"
+			}]
+			rewards: [{
+				id: "020D79815570AA94"
+				type: "item"
+				item: "minecraft:coal"
+				count: 4
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.5d
+			shape: "diamond"
+			dependencies: ["088D692E25F62BFD"]
+			id: "4C3A4D03ACF82A80"
+			tasks: [{
+				id: "16A7591469A42723"
+				type: "item"
+				item: "ironfurnaces:augment_fuel"
+			}]
+			rewards: [{
+				id: "65A4782B05847F3D"
+				type: "item"
+				item: "minecraft:coal"
+				count: 4
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["6400C07B22F6B16E"]
+			id: "1B8BB3D2D10F76DE"
+			tasks: [{
+				id: "4EBC830C9250486D"
+				type: "item"
+				item: "ironfurnaces:rainbow_core"
+			}]
+			rewards: [{
+				id: "4AF4D4D0505A7F68"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"125F24645FA1A1EC"
+				"0F7C8A9454D8BDE6"
+				"5733CD5AF8B622CC"
+				"74776E70DC308B12"
+				"516604376B219C87"
+				"3F7B39CC01678D82"
+			]
+			id: "24CDCDA1F19C08F7"
+			tasks: [{
+				id: "2E0DA0FE0CCA7544"
+				type: "item"
+				item: "ironfurnaces:rainbow_plating"
+				count: 8L
+			}]
+			rewards: [{
+				id: "16A03DD787650DD8"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.5d
+			shape: "diamond"
+			dependencies: [
+				"1B8BB3D2D10F76DE"
+				"24CDCDA1F19C08F7"
+			]
+			id: "135A6CF8BE3A3DA0"
+			tasks: [{
+				id: "1DC4E4DA5C9585E4"
+				type: "item"
+				item: "ironfurnaces:million_furnace"
+			}]
+			rewards: [{
+				id: "62762417EEE0117A"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
+		}
 	]
 }

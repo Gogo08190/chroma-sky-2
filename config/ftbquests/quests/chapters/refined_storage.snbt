@@ -1,7 +1,7 @@
 {
 	id: "5DAC7BC12836A880"
 	group: "7F090E96EFD94B43"
-	order_index: 2
+	order_index: 3
 	filename: "refined_storage"
 	title: "Refined Storage"
 	icon: "refinedstorage:controller"
@@ -298,11 +298,19 @@
 				type: "item"
 				item: "refinedstorage:controller"
 			}]
-			rewards: [{
-				id: "6442711A96A71EB4"
-				type: "random"
-				table_id: 7381842975596526002L
-			}]
+			rewards: [
+				{
+					id: "6442711A96A71EB4"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+				{
+					id: "623EB76539A6DB5D"
+					type: "item"
+					item: "refinedstorage:quartz_enriched_iron"
+					count: 8
+				}
+			]
 		}
 		{
 			x: 18.0d
@@ -960,9 +968,9 @@
 				item: "refinedstorage:raw_basic_processor"
 			}]
 			rewards: [{
-				id: "239504E9078F52F1"
-				type: "random"
-				table_id: 7381842975596526002L
+				id: "521286893AF2982A"
+				type: "item"
+				item: "refinedstorage:raw_basic_processor"
 			}]
 		}
 		{
@@ -979,9 +987,9 @@
 				item: "refinedstorage:raw_improved_processor"
 			}]
 			rewards: [{
-				id: "777CA73F7EB523D9"
-				type: "random"
-				table_id: 7381842975596526002L
+				id: "4127627890519359"
+				type: "item"
+				item: "refinedstorage:raw_improved_processor"
 			}]
 		}
 		{
@@ -998,9 +1006,9 @@
 				item: "refinedstorage:raw_advanced_processor"
 			}]
 			rewards: [{
-				id: "4CBB3C52A62A2C7A"
-				type: "random"
-				table_id: 7381842975596526002L
+				id: "5F8AFE8E9B19EA7E"
+				type: "item"
+				item: "refinedstorage:raw_advanced_processor"
 			}]
 		}
 		{
@@ -1038,9 +1046,9 @@
 				item: "refinedstorage:basic_processor"
 			}]
 			rewards: [{
-				id: "2917D550348F066B"
-				type: "random"
-				table_id: 7381842975596526002L
+				id: "7202EF96D7947971"
+				type: "item"
+				item: "refinedstorage:basic_processor"
 			}]
 		}
 		{
@@ -1060,9 +1068,9 @@
 				item: "refinedstorage:improved_processor"
 			}]
 			rewards: [{
-				id: "039F1516F257C5E3"
-				type: "random"
-				table_id: 7381842975596526002L
+				id: "3B6404F5F2D1DF36"
+				type: "item"
+				item: "refinedstorage:improved_processor"
 			}]
 		}
 		{
@@ -1082,9 +1090,9 @@
 				item: "refinedstorage:advanced_processor"
 			}]
 			rewards: [{
-				id: "48192E064C99DE6A"
-				type: "random"
-				table_id: 7381842975596526002L
+				id: "17A57BCD5E1E497C"
+				type: "item"
+				item: "refinedstorage:advanced_processor"
 			}]
 		}
 		{
@@ -1104,9 +1112,9 @@
 				item: "refinedstorage:construction_core"
 			}]
 			rewards: [{
-				id: "1A733F5815F18BE3"
-				type: "random"
-				table_id: 7381842975596526002L
+				id: "7D8C1274BFA5AAB0"
+				type: "item"
+				item: "refinedstorage:construction_core"
 			}]
 		}
 		{
@@ -1126,9 +1134,9 @@
 				item: "refinedstorage:destruction_core"
 			}]
 			rewards: [{
-				id: "3D682612E9B073B8"
-				type: "random"
-				table_id: 7381842975596526002L
+				id: "12BD7328C1318D32"
+				type: "item"
+				item: "refinedstorage:destruction_core"
 			}]
 		}
 		{
@@ -1421,9 +1429,9 @@
 				item: "extrastorage:raw_neural_processor"
 			}]
 			rewards: [{
-				id: "75A931B3300486EC"
-				type: "random"
-				table_id: 7381842975596526002L
+				id: "4967261AF63E0A33"
+				type: "item"
+				item: "extrastorage:raw_neural_processor"
 			}]
 		}
 		{
@@ -1443,9 +1451,9 @@
 				item: "extrastorage:neural_processor"
 			}]
 			rewards: [{
-				id: "0942B19125BC0981"
-				type: "random"
-				table_id: 7381842975596526002L
+				id: "7C9BB073EA70DB02"
+				type: "item"
+				item: "extrastorage:neural_processor"
 			}]
 		}
 		{

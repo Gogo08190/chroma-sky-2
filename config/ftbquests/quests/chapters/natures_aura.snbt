@@ -1334,17 +1334,6 @@
 					item: "naturesaura:potion_generator"
 				}
 				{
-					id: "09715F46E2971309"
-					type: "item"
-					item: {
-						id: "minecraft:lingering_potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:mundane"
-						}
-					}
-				}
-				{
 					id: "2B27C60900D7543C"
 					type: "item"
 					item: "minecraft:red_nether_bricks"
@@ -1778,9 +1767,15 @@
 			x: 2.5d
 			y: -21.0d
 			description: [
-				"The required &dSpirit of Birthing&r can be obtained easily by a person &6breeding&r two passive animals together while there is a (slight) excess of &aAura&r present in the surrounding area."
+				"Sometimes, the &6creation&r of certain living creatures would be of use any slightly gruesome botanist"
 				""
-				"For each new baby born, there is a chance of a few &dSpirits of Birthing&r to be created in the process."
+				"For this, the &5Altar of Birthing&r can be used:"
+				""
+				"It can create and spawn almost any &6living creature&r at the cost of some ingredients that are related to that very creature and a bit of &2Aura&r from the environement."
+				""
+				"For it to work, it requires the right structure to be assembled as well as the usage of a &5Spririt of Birthing&r as follow:"
+				""
+				"All ingredients, including the &5Spirit of Birthing&r, are required to be thrown down on the ground close to the &5Altar of Birthing&r and the process will begin automatically."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1822,6 +1817,11 @@
 		{
 			x: 0.5d
 			y: -21.0d
+			description: [
+				"The required &5Spirit of Birthing&r can be obtained easily by a person &6breeding&r two passive animals together while there is a(slight) exess of &2Aura&r present in the surrounding area."
+				""
+				"For each new baby born, there is a chance of a few &5Spirits of Birthing&r to be created in the process."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"741A9BB38F47B06A"
@@ -1972,6 +1972,11 @@
 		{
 			x: 8.0d
 			y: -15.5d
+			description: [
+				"The &5Amulet of Wrath&r, when held anywhere in the inventory, allows its wearer to focus their power, giving them the ability to, when &6sneaking&r and &6jumping&r in place, stomp down on the ground hard enough to create a &5shockwave&r that hurts any other living creatures close by. "
+				""
+				"This, of course, come at the cost of some &2Aura&r, stored in the form of, say, an &1Aura Cache&r."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"0C09995550F3CE0F"
@@ -2019,6 +2024,7 @@
 		{
 			x: 6.0d
 			y: -15.5d
+			description: ["The &5Ring of Last Chance&r, when placed anuwhere in the user's inventory, will prevent their death by healing them and &6disappearing&r in the process, similary to the &5Totem of Undying&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6FA1B1D053C2C065"
@@ -2042,7 +2048,7 @@
 			icon: "naturesaura:furnace_heater"
 			x: 10.0d
 			y: -14.5d
-			description: ["The Extraneous Firestarter is a way of using Aura to your benefit: It collects it from the world and powers a furnace without needing any fuel."]
+			description: ["The &6Extraneous Firestarter&r is a way of using Aura to your benefit: It collects it from the world and powers a furnace without needing any fuel."]
 			hide_dependency_lines: true
 			dependencies: [
 				"0C09995550F3CE0F"
@@ -2084,6 +2090,11 @@
 		{
 			x: 10.0d
 			y: -15.5d
+			description: [
+				"They have found that &aAura&r might be capable of purifying any kind of &6ore&r to a point where it has a chance of producing &6two ingots&r rather than one."
+				""
+				"&5Armorer's Aid&r, which simply has to be placed on top of a &5Blast Furnace&r."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"2FAA582C635713A7"
@@ -2145,7 +2156,11 @@
 		{
 			x: 5.0d
 			y: -15.5d
-			description: ["Be careful, it uses a lot of aura!"]
+			description: [
+				"Be careful, it uses a lot of aura!"
+				""
+				"Infinite water !"
+			]
 			hide_dependency_lines: true
 			dependencies: ["7620EE9990A9DFB4"]
 			id: "305EE90B1032BA75"
@@ -2161,41 +2176,18 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -14.5d
-			hide_dependency_lines: true
-			dependencies: [
-				"6FA1B1D053C2C065"
-				"23FBED7C0340EA45"
-			]
-			id: "724E16B37808DCE9"
-			tasks: [{
-				id: "1FE9B08993080B89"
-				type: "item"
-				item: "naturesaura:chunk_loader"
-			}]
-			rewards: [
-				{
-					id: "03DCD6C4D0D60CB8"
-					type: "item"
-					item: {
-						id: "naturesaura:aura_bottle"
-						Count: 1b
-						tag: {
-							stored_type: "naturesaura:end"
-						}
-					}
-				}
-				{
-					id: "5754BE60A388AC90"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
-		}
-		{
 			x: 7.0d
 			y: -14.5d
+			description: [
+				"&5Ender Chests&r are great technology for anyone trying to store items safely, however, they don't provide easy means of &6transportation&r for said items."
+				""
+				"For this, the &5Ender Crate&r is perfect:"
+				"Two or more of these crates which are linked together share the same inventory, event interdimensionally, meaning that they create the possibility of easily transporting items around."
+				""
+				"To link one or more crates, they have to be given an &5Ender Name&r by placing them in an &6anvil&r with an &5Ender Eye&r and then writing down the desired name."
+				""
+				"If the worry exists that other people might call their crates the same name, any name can be &6locked&r from being given simply by placing a &1Token of Terror&r inside a crate with that name."
+			]
 			hide_dependency_lines: true
 			dependencies: ["6FA1B1D053C2C065"]
 			id: "3A1F57CF67C4DBFE"
@@ -2213,6 +2205,13 @@
 		{
 			x: 8.0d
 			y: -14.5d
+			description: [
+				"The &5Ender Ocular&r is, to put it simply, a handheld version of the &1Ender Crate&r."
+				""
+				"After giving it an &6Ender Name&r the exact sam way, interacting with it while holding it in one's hand will open the storage then and there."
+				""
+				"For this, an &1Aura Cache&r is required that some &2Aura&r will be drained from."
+			]
 			hide_dependency_lines: true
 			dependencies: ["6FA1B1D053C2C065"]
 			id: "3912755F95BE2CDF"
@@ -2231,6 +2230,7 @@
 			title: "Aura Flower"
 			x: 9.0d
 			y: -14.5d
+			description: ["Found in the &4nether&r."]
 			hide_dependency_lines: true
 			dependencies: ["111FCE085D6AC550"]
 			id: "4BCA238C4EE0BD35"
@@ -2314,6 +2314,13 @@
 		{
 			x: 6.0d
 			y: -16.5d
+			description: [
+				"Sometimes, as a farmer, one wants their &6animals&r to be contained in a small area as to prevent them from running away."
+				""
+				"The &5Corporeal Eye&r prevents any animals frome exiting its area of effect without needing any blocks around it."
+				""
+				"Its &6range&r for this containment is determined by the &6redstone signal&r applied to it - the stronger it is, the bigger the area."
+			]
 			hide_dependency_lines: true
 			dependencies: ["23FBED7C0340EA45"]
 			id: "66CBFD4C91CFC831"
@@ -2348,6 +2355,15 @@
 		{
 			x: 8.0d
 			y: -16.5d
+			description: [
+				"The &5Winter's Calling&r brings this occurence back by causing snow to fall in a vast area around it, provided a little bit of &aAura&r."
+				""
+				"Additionally, water will freeze into ice and very occasionally, snow golems will spawn to help with covering the lands."
+				""
+				"To get this process going, a &6redstone signal&r needs to be supplied."
+				""
+				"The higher the strength of the signal, the biger the area in which snow will fall."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"50BE4323CEF3E376"
@@ -2383,7 +2399,7 @@
 			}]
 		}
 		{
-			x: 8.5d
+			x: 7.5d
 			y: -17.5d
 			hide_dependency_lines: true
 			dependencies: ["62453989EC0762EA"]
@@ -2400,8 +2416,16 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 5.0d
 			y: -17.5d
+			description: [
+				"Collecting items using &5Hoppers&r is useful, but sometimes, it can be inconvenient, especially if given a big area that one has to collect items in."
+				""
+				"For that, the &5Hopper Enhancement&r will be a help:"
+				"By simply placing it on top of any &5Hopper&r, it will increase its range of picking up items drastically by about &6seven&r blocks."
+				""
+				"When collecting an item, it then uses a small amount of &2Aura&r."
+			]
 			hide_dependency_lines: true
 			dependencies: ["62453989EC0762EA"]
 			id: "377381E839A4C259"
@@ -2419,6 +2443,13 @@
 		{
 			x: 10.0d
 			y: -16.5d
+			description: [
+				"One of the two activities mosly done by humans is &6breaking&r blocks."
+				""
+				"This requires quite a bit of strengh and effort, and, if done for long amounts of time, can become quite tiring."
+				""
+				"The &5Aura Field Creator&r creates a dense field of moving &2Aura&r that is strong enough for it &6destroy blocks&r within it."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"271AE89B1CA86C01"
@@ -2437,8 +2468,15 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -17.5d
+			x: 6.0d
+			y: -14.5d
+			description: [
+				"When working with &2Aura&r, sometimes it can be beneficial to know about its levels in an area without having to be there to check in person."
+				""
+				"The &5Aura Detector&r gives out a &6redstone&r signal based on the amout of &2Aura&r in the close vicinity around it, so long as you attach a &5Comparator&r to it."
+				""
+				"For that, its range of display is similar to that of the &1Environmental Eye&r."
+			]
 			hide_dependency_lines: true
 			dependencies: ["23FBED7C0340EA45"]
 			id: "3E46BFE9CD66C880"
@@ -2456,6 +2494,11 @@
 		{
 			x: 10.0d
 			y: -17.5d
+			description: [
+				"The &5Mystical Magnifier&r is a neat device for any magical botanist working with machinery."
+				""
+				"When equipped in either hand, and interacting with a compatible device, its &6range of operation&r will be displayed around it, allowing any contraptions built with it to be inspected easily and precisely."
+			]
 			hide_dependency_lines: true
 			dependencies: ["62453989EC0762EA"]
 			id: "4774E5DBE97FEB16"
@@ -2489,7 +2532,10 @@
 		{
 			x: -4.5d
 			y: -15.0d
-			dependencies: ["67BC8A5CBAF363F8"]
+			dependencies: [
+				"67BC8A5CBAF363F8"
+				"74083D9E4671E933"
+			]
 			id: "09E50257121C71FB"
 			tasks: [{
 				id: "21A2C50B686B8351"

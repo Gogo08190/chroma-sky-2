@@ -1,7 +1,7 @@
 {
 	id: "24A21BFBA2BC04D1"
 	group: "7F090E96EFD94B43"
-	order_index: 1
+	order_index: 2
 	filename: "blood_magic"
 	title: "Blood Magic"
 	icon: "bloodmagic:altar"
@@ -225,11 +225,14 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 7.5d
 			y: 1.5d
 			subtitle: "Used for the Ritual Of Sacrifice"
 			description: ["In order to have a better source of Blood, make the Ritual Of Sacrifice"]
-			dependencies: ["4E2EBC93FBE004C0"]
+			dependencies: [
+				"643221D07E10181E"
+				"5693A4D9D9206449"
+			]
 			id: "0CA75CA8046315B6"
 			tasks: [{
 				id: "3022C3D16B435802"
@@ -243,7 +246,7 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 5.0d
 			y: 1.5d
 			dependencies: ["4E2EBC93FBE004C0"]
 			id: "49FA91CAAB120631"
@@ -2284,7 +2287,7 @@
 			y: 4.0d
 			shape: "diamond"
 			subtitle: "Better capacity"
-			description: ["The &4Rune of Augmented Capacity&r increases the capacity of the &4c&lBood Altar&r by +7.5% per rune. They only apply after the regular &nCapacity Runes&r."]
+			description: ["The &4Rune of Augmented Capacity&r increases the capacity of the &4&lBood Altar&r by +7.5% per rune. They only apply after the regular &nCapacity Runes&r."]
 			dependencies: ["4E2EBC93FBE004C0"]
 			id: "466A3116027899E8"
 			tasks: [{
@@ -2302,7 +2305,7 @@
 			x: 4.0d
 			y: -3.0d
 			description: [
-				"The &6Incense Altar&r is a multiblock structure that can boost your self-sacricing at a &4&nBlood Altar&r.  By stand near your setup, it will calm you soul base on the area's &2Tranquility&r allowing you to increase LP.The basic T1 Setup is the Altar itself, you have to place it down anywhere (3x3 setup block) and stay within a 5 blocks radius of the Altar.While the Altar is working, it will transform your &8Sacrificial Knife&r and make it shinier.  You will now be able to hold right click near an Altar to sacrifice 90% of your health at once."
+				"The &6Incense Altar&r is a multiblock structure that can boost your self-sacricing at a &4&nBlood Altar&r.  By stand near your setup, it will calm you soul base on the area's &2Tranquility&r allowing you to increase LP. The basic T1 Setup is the Altar itself, you have to place it down anywhere (3x3 setup block) and stay within a 5 blocks radius of the Altar. While the Altar is working, it will transform your &8Sacrificial Knife&r and make it shinier. You will now be able to hold right click near an Altar to sacrifice 90% of your health at once."
 				"Details about the tranquillity : Based on the total &2Tranquility&r of the area, you'll receive a bonus to the &cLP&r added to the &4&nBlood Altar&r. When you hover your &6Incense Altar&r with either a &eDivination Sigil&r or &eSeer's Sigil&r it'll display the total &2Tranquility&r of your setup and the % bonus receive d when sacrificing. (1 LP + bonus/100).To increase the &2Tranquility&r you must place paths leading out to your &6Incense Altar&r. These paths needs to be constructed from a 3 wide set of &8Path&r blocks such as &dWooden Path&r."
 				"Each new \"ring\" of path blocks follow a set of rules : "
 				"- All path blocks on the same ring have to be on the same y-level"
@@ -2563,29 +2566,6 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -3.0d
-			dependencies: ["7F47CF0B2B6119BC"]
-			id: "682F3B47FAE6BB17"
-			tasks: [{
-				id: "1BB7ABF1E6C70586"
-				type: "item"
-				item: {
-					id: "matc:imperium_crystal"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "647E4D11B9E062CB"
-				type: "item"
-				item: "mysticalagriculture:imperium_ingot"
-				count: 2
-			}]
-		}
-		{
 			x: 21.5d
 			y: -3.5d
 			dependencies: ["094E53A4DBFB3D59"]
@@ -2628,6 +2608,33 @@
 				id: "57097F93BC4E3F77"
 				type: "item"
 				item: "bloodmagic:weakbloodshard"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			dependencies: [
+				"7F47CF0B2B6119BC"
+				"6BCBB87B89D1D218"
+				"2888ACD6C2BDB508"
+			]
+			id: "25EBA82EBB05631E"
+			tasks: [{
+				id: "615B1AC8F6DC18C7"
+				type: "item"
+				item: {
+					id: "matc:supremium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "00F8B7F492CA4BFE"
+				type: "item"
+				item: "mysticalagriculture:supremium_ingot"
+				count: 4
 			}]
 		}
 	]

@@ -78,11 +78,11 @@
 				""
 				"&n&l&7No Temperature&r : Glowstone, Crying Obsidian, Respawn Anchor, Any Block"
 				""
-				"&n&l&6Low Temperature&r : Campfire, Fire, Torch, Lava, Magma Block"
+				"&n&l&6Low Temperature&r : Campfire, Fire, Torch, Lava, Magma Block, Blazing Blood"
 				""
 				"&n&l&bHigh Temperature&r : Soul Campfire, Beacon, Blue Magma Block, Soul Fire"
 				""
-				"&n&lSub-Zero Temperature&r : Snow, Ice, Packed Ice, Blue Ice, Dry Ice"
+				"&n&lSub-Zero Temperature&r : Snow, Ice, Packed Ice, Blue Ice, Dry Ice, Water, Cryotheum"
 			]
 			dependencies: ["21288D54FFA59370"]
 			min_width: 300
@@ -109,6 +109,11 @@
 		{
 			x: 9.0d
 			y: -12.0d
+			description: [
+				"The &aGlass Jar&r allows you to add fluid to the Tempered Jar."
+				""
+				"If you break the Glass Jar, its contents will be lost."
+			]
 			dependencies: [
 				"1B69AF5509A2B907"
 				"054C13431F464EC6"

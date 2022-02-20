@@ -4,7 +4,6 @@
 	title: "&6Mystical Essence Tier 3"
 	icon: "mysticalagriculture:tertium_essence"
 	loot_size: 1
-	hide_tooltip: true
 	use_title: true
 	rewards: [
 		{ item: "mysticalagriculture:skeleton_essence", count: 16, random_bonus: 4 }

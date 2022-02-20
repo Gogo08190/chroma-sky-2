@@ -4,7 +4,6 @@
 	title: "&2Mystical Essence Tier 2"
 	icon: "mysticalagriculture:prudentium_essence"
 	loot_size: 1
-	hide_tooltip: true
 	use_title: true
 	rewards: [
 		{ item: "mysticalagriculture:cow_essence", count: 16, random_bonus: 4 }

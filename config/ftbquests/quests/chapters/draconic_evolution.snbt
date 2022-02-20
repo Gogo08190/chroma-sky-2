@@ -1,7 +1,7 @@
 {
 	id: "5A6078595E919328"
-	group: "7F090E96EFD94B43"
-	order_index: 3
+	group: "5D61CD9450FCE349"
+	order_index: 0
 	filename: "draconic_evolution"
 	title: "Draconic Evolution"
 	icon: {
@@ -153,10 +153,16 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 0.5d
 			y: 16.5d
 			shape: "hexagon"
-			dependencies: ["723F46202A76C7FB"]
+			hide_dependency_lines: true
+			dependencies: [
+				"723F46202A76C7FB"
+				"3DEE79B6C18743BB"
+				"7D1F2293C1E1979A"
+				"2F98FC6EB3FD8756"
+			]
 			id: "48A4816FD2732B2F"
 			tasks: [{
 				id: "5B69281F37E5A547"
@@ -188,8 +194,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 17.5d
+			x: 1.5d
+			y: 16.5d
 			shape: "hexagon"
 			dependencies: ["48A4816FD2732B2F"]
 			id: "5347872ED95C0D38"
@@ -240,7 +246,10 @@
 				"It crafts by pressing the button on the GUI or by a signal redstone."
 			]
 			hide_dependency_lines: true
-			dependencies: ["3DEE79B6C18743BB"]
+			dependencies: [
+				"3DEE79B6C18743BB"
+				"6F2326323EF33A63"
+			]
 			size: 1.5d
 			id: "7D1F2293C1E1979A"
 			tasks: [{
@@ -267,6 +276,7 @@
 			dependencies: [
 				"47A4D81697C274A3"
 				"3DEE79B6C18743BB"
+				"5C396355C35FF855"
 			]
 			id: "794CE36A9EBCC151"
 			tasks: [{
@@ -2330,6 +2340,25 @@
 				id: "3833AFABD9A73B84"
 				type: "random"
 				table_id: 4299163432040672592L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 14.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"0D702BE2A86D3A38"
+				"2F98FC6EB3FD8756"
+				"7DB4A0C8AE804CAF"
+				"25EBA82EBB05631E"
+			]
+			size: 1.5d
+			id: "3E3E6D8AE0C84623"
+			tasks: [{
+				id: "7E3744B8C6BE2694"
+				type: "item"
+				item: "mysticalagriculture:master_infusion_crystal"
 			}]
 		}
 	]

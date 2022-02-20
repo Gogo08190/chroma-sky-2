@@ -1005,6 +1005,7 @@
 			}]
 		}
 		{
+			title: "Spikes"
 			x: 12.5d
 			y: -2.5d
 			dependencies: ["48349B9872AD2A11"]
@@ -2220,6 +2221,7 @@
 			}]
 		}
 		{
+			title: "Scythe"
 			x: 6.0d
 			y: -7.0d
 			dependencies: ["48349B9872AD2A11"]
@@ -2272,6 +2274,7 @@
 			]
 		}
 		{
+			title: "Ender Orb"
 			x: 6.0d
 			y: 4.0d
 			dependencies: ["48349B9872AD2A11"]
@@ -2444,7 +2447,7 @@
 			}]
 		}
 		{
-			title: "Magic Boomerangs"
+			title: "Boomerangs"
 			x: 6.0d
 			y: 10.0d
 			dependencies: ["48349B9872AD2A11"]
@@ -2970,6 +2973,7 @@
 			}]
 		}
 		{
+			title: "Shape building"
 			x: -6.0d
 			y: 4.0d
 			dependencies: ["48349B9872AD2A11"]

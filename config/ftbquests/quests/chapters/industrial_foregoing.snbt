@@ -1,7 +1,7 @@
 {
 	id: "6543D50CE942A7FE"
 	group: "73390EDA98890AC0"
-	order_index: 1
+	order_index: 2
 	filename: "industrial_foregoing"
 	title: "Industrial foregoing"
 	icon: "industrialforegoing:machine_frame_supreme"
@@ -223,8 +223,8 @@
 				item: "industrialforegoing:mycelial_netherstar"
 			}]
 			rewards: [{
-				id: "2892561783240DB5"
-				type: "loot"
+				id: "0C68911D0A1E1E5F"
+				type: "random"
 				table_id: 448858559994644628L
 			}]
 		}

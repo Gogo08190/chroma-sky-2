@@ -455,7 +455,7 @@
 			subtitle: "Worth Exchange"
 			description: [
 				"The &3Otherstone Exchanger&r is a little guy that will help you get some &5Otherstone&r. "
-				"You will just need to drop some normal some vanilla stone and he will give you &5Otherstones&r."
+				"You will just need to drop normal vanilla stone and he will give you &5Otherstones&r."
 			]
 			dependencies: ["14518278805D60D1"]
 			id: "6CC208ED91F88BA0"
@@ -566,8 +566,8 @@
 				item: "occultism:book_of_binding_marid"
 			}]
 			rewards: [{
-				id: "1B0204F43E95D0BE"
-				type: "loot"
+				id: "75886537C6CC2DCD"
+				type: "random"
 				table_id: 7381842975596526002L
 			}]
 		}
@@ -579,7 +579,7 @@
 			subtitle: "Another exchange !"
 			description: [
 				"The &2Otherworld Sapling Exchanger&r is a little guy that will help you get some Stable &5Otherworld Saplings&r. "
-				"You will just need to drop some normal vanilla &2Oak Saplings&r and he will give you stables &5Otherworld Saplings&r."
+				"0You will just need to drop your &5Unstable Otherwood Saplings&r and he will give you stables &5Otherworld Saplings&r."
 			]
 			dependencies: ["14518278805D60D1"]
 			id: "4141D25E86015854"
@@ -1005,7 +1005,7 @@
 			x: 11.758503401360556d
 			y: -0.5884353741496682d
 			subtitle: "I see better"
-			description: ["The &5Infused Lenses&r allow the player to have the Demon View that can offers &2The Demon Dream Fruit&r. You will bow be able to see the Otherwold stuff !"]
+			description: ["The &5Infused Lenses&r allow the player to have the Demon View that can offers &2The Demon Dream Fruit&r. You will now be able to see the Otherwold stuff !"]
 			dependencies: ["227ABB042FCE13AE"]
 			min_width: 250
 			id: "61FC5847FE175F29"
@@ -1559,8 +1559,8 @@
 				}
 			]
 			rewards: [{
-				id: "33B5B277273C2681"
-				type: "loot"
+				id: "32F740E1EF6985EB"
+				type: "random"
 				table_id: 7381842975596526002L
 			}]
 		}
@@ -1623,7 +1623,7 @@
 				}
 			]
 			rewards: [{
-				id: "166062160A036185"
+				id: "3CBC2C2B26BBDF3D"
 				type: "random"
 				table_id: 7381842975596526002L
 			}]
@@ -1711,7 +1711,10 @@
 			y: -1.5d
 			subtitle: "Farmer's Dreams"
 			description: ["Unlock the next tier of the &2Mystical Agriculture's&r crystal by crafting it with &5Occultism&r."]
-			dependencies: ["4641078FDD6E3595"]
+			dependencies: [
+				"4641078FDD6E3595"
+				"0F28E6EDB6BC1AA6"
+			]
 			id: "1D8AB179DEB3AA4B"
 			tasks: [
 				{
@@ -1733,7 +1736,7 @@
 					count: 2L
 				}
 				{
-					id: "47C63FB3732A1E3C"
+					id: "7696A1DA615E10AB"
 					type: "item"
 					item: {
 						id: "matc:inferium_crystal"
@@ -1744,7 +1747,7 @@
 					}
 				}
 				{
-					id: "776B4DD5C8BEAD4B"
+					id: "2D9A0F7EE15E463A"
 					type: "item"
 					item: {
 						id: "matc:prudentium_crystal"
@@ -2301,7 +2304,10 @@
 			x: 23.762585034013597d
 			y: 3.4207482993197473d
 			subtitle: "Boss: Be prepared"
-			description: ["By doing this ritual, you can now summon like you surely understood, an &4Afrit Spirit&r."]
+			description: [
+				"By doing this ritual, you can now summon like you surely understood, an &4Afrit Spirit&r."
+				"To summon it you will need to &4Sacrifice&r a &1Cow&r"
+			]
 			dependencies: ["1E337423472D7C43"]
 			id: "24BA56063B821D2B"
 			tasks: [
@@ -2628,6 +2634,36 @@
 				id: "1276159D728FCAA6"
 				type: "random"
 				table_id: 4299163432040672592L
+			}]
+		}
+		{
+			x: 18.0d
+			y: 9.0d
+			subtitle: "See Iesnium"
+			description: [
+				"In order to mine &9Iesnium Ores&r you will have to craft this wand."
+				""
+				"First you will have to setup your wand to find &9Iesnium Ores&r to do so, simply right click with your wand on a Netherrack. "
+				""
+				"Once that's done you will have to right click with your &5Divination Wand&r to search &9Iesnium Ore&r. Once your wand has found an &9Ore&r, you can see it through the floor as it is highlighted."
+				""
+				"Note that you will need the &5Otherworld Vision&r to see the &9Ore&r and the &5Infused Pickaxe&r to mine the &9Iesnium Ore&r."
+			]
+			dependencies: ["52A9B829A4D0206D"]
+			id: "2D82A80CA9A03328"
+			tasks: [{
+				id: "0F232CA88750E649"
+				type: "item"
+				item: {
+					id: "occultism:divination_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3D8A2C76F5AC1DBB"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 	]
