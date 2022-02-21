@@ -304,7 +304,7 @@ onEvent('recipes', event => {
         "item": "mysticalagradditions:insanium_ingot"
       },
       "D": {
-        "item": "chromasky:drop_of_darkness"
+        "item": "bloodmagic:etherealslate"
       },
       "E": {
         "item": "projecte:red_matter"

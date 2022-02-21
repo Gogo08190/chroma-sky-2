@@ -10,7 +10,7 @@ onEvent('recipes', event => {
       {"item": 'chromasky:draconium_gear'},
       {"item": 'powah:crystal_niotic'},
       {"item": 'powah:crystal_niotic'},
-      {"item": 'thermal:gold_gear'},
+      {"item": 'bloodmagic:blankslate'},
       {"item": 'thermal:gold_gear'}
       ],
       "energy": 20000,

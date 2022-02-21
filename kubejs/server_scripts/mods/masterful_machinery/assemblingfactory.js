@@ -112,12 +112,12 @@ e.custom({
   assembling3(20, 2000, 'chromasky:bottom_frame', 1, 'chromasky:mechanic_core_tier_1', 1, 'chromasky:top_frame', 1, 'thermal:machine_frame')
   assembling3(40, 50000, 'refinedstorage:quartz_enriched_iron', 4, 'immersiveengineering:component_steel', 4, 'chromasky:mechanic_core_tier_3', 1, 'refinedstorage:machine_casing')
   assembling3(20, 10000, 'mekanism:ingot_steel', 4, 'immersiveengineering:treated_wood_horizontal', 4, 'chromasky:mechanic_core_tier_2', 1, 'industrialforegoing:machine_frame_pity')
-  assembling3(20, 100000, 'mekanism:block_steel', 4, 'mekanism:block_osmium', 4, 'chromasky:mechanic_core_tier_4', 1, 'mekanism:steel_casing')
   assembling3(20, 100000, 'krate:krate_basic', 4, 'minecraft:obsidian', 4, 'minecraft:ender_pearl', 4, 'entangled:block')
   assembling3(20, 10000, 'mysticalagriculture:inferium_essence', 4, 'mysticalagriculture:inferium_block', 4, 'minecraft:wheat_seeds', 1, 'mysticalagriculture:inferium_seeds')
 
   // 4 Inputs
   assembling4(20, 10000, 'mekanism:ingot_steel', 4, 'thermal:lapis_gear', 2, 'thermal:gold_plate', 2, 'chromasky:mechanic_core_tier_2', 1, 'rftoolsbase:machine_frame')
+  assembling3(20, 100000, 'mekanism:block_steel', 4, 'mekanism:block_osmium', 4, 'chromasky:mechanic_core_tier_4', 1, 'bloodmagic:reinforcedslate', 1, 'mekanism:steel_casing')
   assembling4(20, 20000, 'mekanism:ingot_steel', 4, 'powah:dielectric_rod', 2, 'powah:dielectric_rod_horizontal', 2, 'chromasky:mechanic_core_tier_3', 1, 'powah:dielectric_casing')
   assembling4(40, 100000, 'extendedcrafting:redstone_ingot_block', 2, 'powah:blazing_crystal_block', 2, 'powah:energized_steel_block', 2, 'extendedcrafting:pedestal', 1, 'mysticalagriculture:infusion_pedestal')
   assembling4(20, 5000, 'mob_grinding_utils:saw', 1, 'thermal:machine_frame', 1, 'extendedcrafting:redstone_ingot_block', 1, 'minecraft:iron_bars', 16, 'cagedmobs:mobcage')
