@@ -533,4 +533,27 @@ onEvent("worldgen.add", (event) => {
         spawn.minCount = 1;
         spawn.maxCount = 2;
     });
+
+    event.addSpawn((spawn) => {
+        spawn.biomes.values = [
+          "#plains",
+          "#savanna",
+          "#icy",
+          "#mesa",
+          "#jungle",
+          "#extreme_hills",
+          "#taiga",
+          "#beach",
+          "#forest",
+          "#desert",
+          "#river",
+          "#swamp",
+          "#mushroom",
+        ];
+        spawn.category = "water_ambient";
+        spawn.entity = "minecraft:squid";
+        spawn.weight = 15;
+        spawn.minCount = 1;
+        spawn.maxCount = 2;
+    });
 });
