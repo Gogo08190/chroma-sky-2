@@ -169,6 +169,11 @@
 				type: "item"
 				item: "occultism:dictionary_of_spirits"
 			}]
+			rewards: [{
+				id: "2E682A95E41A8FF0"
+				type: "item"
+				item: "minecraft:book"
+			}]
 		}
 		{
 			title: "Spirit Fire"
@@ -445,6 +450,11 @@
 				id: "4E27D43CFD995E47"
 				type: "item"
 				item: "chromasky:magical_infuse_book"
+			}]
+			rewards: [{
+				id: "5FD2A9ACABBDCA06"
+				type: "item"
+				item: "occultism:book_of_binding_foliot"
 			}]
 		}
 		{

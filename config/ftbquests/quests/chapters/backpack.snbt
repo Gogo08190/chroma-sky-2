@@ -232,6 +232,11 @@
 				type: "item"
 				item: "sophisticatedbackpacks:feeding_upgrade"
 			}]
+			rewards: [{
+				id: "38519AB0D0440C9A"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			x: -3.0d
@@ -242,6 +247,11 @@
 				id: "7FB03138A63DDD88"
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+			}]
+			rewards: [{
+				id: "50AC34DCC112B0A2"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{

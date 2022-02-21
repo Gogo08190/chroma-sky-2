@@ -1,7 +1,7 @@
 {
 	id: "3F7966DECB7A5CEF"
 	group: "5D61CD9450FCE349"
-	order_index: 1
+	order_index: 0
 	filename: "environmental_tech"
 	title: "Environmental Tech"
 	icon: "envirotech:litherite_void_miner_ccu"

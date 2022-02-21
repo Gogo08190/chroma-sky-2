@@ -1,7 +1,7 @@
 {
 	id: "5A6078595E919328"
 	group: "5D61CD9450FCE349"
-	order_index: 0
+	order_index: 2
 	filename: "draconic_evolution"
 	title: "Draconic Evolution"
 	icon: {
@@ -2359,6 +2359,92 @@
 				id: "7E3744B8C6BE2694"
 				type: "item"
 				item: "mysticalagriculture:master_infusion_crystal"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 20.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"7D1F2293C1E1979A"
+				"2F98FC6EB3FD8756"
+			]
+			id: "55D81FC1DF3D3780"
+			tasks: [{
+				id: "7672CDC261C8A508"
+				type: "item"
+				item: "ftb-power-pots:power_pot_mk1"
+			}]
+			rewards: [{
+				id: "43D43AC371BF8B4A"
+				type: "item"
+				item: "ftbjarmod:cast_iron_block"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 20.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"55D81FC1DF3D3780"
+				"2F98FC6EB3FD8756"
+			]
+			id: "0D084299F0365818"
+			tasks: [{
+				id: "3FAE4ABFD1008E33"
+				type: "item"
+				item: "ftb-power-pots:power_pot_mk2"
+			}]
+			rewards: [{
+				id: "303571DA1B93F5EE"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 7
+			}]
+		}
+		{
+			x: 7.5d
+			y: 20.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"0D084299F0365818"
+				"30D4F6F9F3D6EAB9"
+			]
+			id: "2A42B4B5527D80A1"
+			tasks: [{
+				id: "793393CF5326945D"
+				type: "item"
+				item: "ftb-power-pots:power_pot_mk3"
+			}]
+			rewards: [{
+				id: "10FFB0A83FA4DD37"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 7
+			}]
+		}
+		{
+			x: 8.5d
+			y: 20.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"2A42B4B5527D80A1"
+				"5E8C6F0D7FCAAEA9"
+			]
+			id: "5CD4A8C2DE68C676"
+			tasks: [{
+				id: "6C4476C6003AE27B"
+				type: "item"
+				item: "ftb-power-pots:power_pot_mk4"
+			}]
+			rewards: [{
+				id: "60977C46248D9D93"
+				type: "item"
+				item: "draconicevolution:draconium_block"
 			}]
 		}
 	]

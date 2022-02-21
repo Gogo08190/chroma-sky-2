@@ -2587,6 +2587,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2B0457EAAA360416"
+				type: "item"
+				item: "theabyss:loran_ingot"
+			}]
 		}
 		{
 			x: 14.0d

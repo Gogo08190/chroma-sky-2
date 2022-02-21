@@ -24,9 +24,10 @@
 				item: "simplegens:simple_combustion"
 			}]
 			rewards: [{
-				id: "010D330082F6DD69"
+				id: "6C650E28086DF64E"
 				type: "item"
-				item: "mekanism:ingot_steel"
+				item: "minecraft:coal_block"
+				count: 2
 			}]
 		}
 		{
@@ -46,9 +47,10 @@
 				item: "simplegens:simple_culinary"
 			}]
 			rewards: [{
-				id: "33E69C2A02D9A64A"
+				id: "5BA9A4A32609FB00"
 				type: "item"
-				item: "mekanism:ingot_steel"
+				item: "cyclic:apple_honey"
+				count: 2
 			}]
 		}
 		{
@@ -64,9 +66,10 @@
 				item: "simplegens:simple_ender"
 			}]
 			rewards: [{
-				id: "3BCED8085146A185"
+				id: "3AAD7A414D1C652F"
 				type: "item"
-				item: "mekanism:ingot_steel"
+				item: "minecraft:ender_eye"
+				count: 2
 			}]
 		}
 		{
@@ -81,11 +84,19 @@
 				type: "item"
 				item: "simplegens:simple_soul"
 			}]
-			rewards: [{
-				id: "07DE1E80071267A5"
-				type: "item"
-				item: "mekanism:ingot_steel"
-			}]
+			rewards: [
+				{
+					id: "605AA4D6CBD67AAE"
+					type: "item"
+					item: "minecraft:creeper_head"
+				}
+				{
+					id: "686E6A8100C71AEC"
+					type: "item"
+					item: "minecraft:bone"
+					count: 10
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -102,7 +113,7 @@
 			rewards: [{
 				id: "62ACF074CBA9D0D3"
 				type: "item"
-				item: "mekanism:ingot_steel"
+				item: "minecraft:nether_star"
 			}]
 		}
 		{
@@ -118,9 +129,10 @@
 				item: "simplegens:simple_pink"
 			}]
 			rewards: [{
-				id: "68A155EC458DC581"
+				id: "5B4FE700C5D0C41B"
 				type: "item"
-				item: "mekanism:ingot_steel"
+				item: "minecraft:pink_wool"
+				count: 5
 			}]
 		}
 		{
@@ -136,9 +148,10 @@
 				item: "simplegens:simple_tnt"
 			}]
 			rewards: [{
-				id: "4B5C8ADA8C7FD774"
+				id: "22A197C19CAFFC75"
 				type: "item"
-				item: "mekanism:ingot_steel"
+				item: "minecraft:tnt"
+				count: 2
 			}]
 		}
 		{
@@ -154,9 +167,15 @@
 				item: "simplegens:simple_potion"
 			}]
 			rewards: [{
-				id: "0F511C60DE332BC7"
+				id: "6E5A7177B60D5B3D"
 				type: "item"
-				item: "mekanism:ingot_steel"
+				item: {
+					id: "minecraft:splash_potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:slowness"
+					}
+				}
 			}]
 		}
 		{
@@ -172,9 +191,9 @@
 				item: "simplegens:simple_geothermal"
 			}]
 			rewards: [{
-				id: "386EE92F1E28C7C6"
+				id: "7F3CCE06E702CF60"
 				type: "item"
-				item: "mekanism:ingot_steel"
+				item: "minecraft:lava_bucket"
 			}]
 		}
 		{
@@ -190,9 +209,9 @@
 				item: "simplegens:simple_fluid_combustion"
 			}]
 			rewards: [{
-				id: "1728603B17331E1F"
+				id: "5FF32404499DCFC2"
 				type: "item"
-				item: "mekanism:ingot_steel"
+				item: "industrialforegoing:biofuel_bucket"
 			}]
 		}
 		{
@@ -212,9 +231,9 @@
 				item: "simplegens:simple_turbine"
 			}]
 			rewards: [{
-				id: "36CF7FE79861D44C"
+				id: "2D5750859BF9ABF1"
 				type: "item"
-				item: "mekanism:ingot_steel"
+				item: "mekanism:steam_bucket"
 			}]
 		}
 		{
@@ -233,9 +252,9 @@
 				item: "simplegens:simple_xp"
 			}]
 			rewards: [{
-				id: "340531A82E67D1B0"
+				id: "3B8CBBA9EFF65646"
 				type: "item"
-				item: "mekanism:ingot_steel"
+				item: "cyclic:xpjuice_bucket"
 			}]
 		}
 	]

@@ -1801,6 +1801,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5FB245ADC4A378C8"
+				type: "item"
+				item: "cyclic:gem_amber"
+			}]
 		}
 		{
 			x: 7.0d
@@ -2272,6 +2277,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "277DD31661C95325"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
 		}
 		{
 			title: "Ender Orb"

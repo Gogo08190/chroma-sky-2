@@ -1201,6 +1201,11 @@
 				type: "item"
 				item: "rftoolsbuilder:shape_card_liquid"
 			}]
+			rewards: [{
+				id: "291D1EA9F84CD687"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
 			x: 5.5d
@@ -1212,6 +1217,11 @@
 				id: "0970C4D2AFC9CA69"
 				type: "item"
 				item: "rftoolsbuilder:shape_card_pump"
+			}]
+			rewards: [{
+				id: "1E098D2AC57EB3A2"
+				type: "item"
+				item: "minecraft:iron_ingot"
 			}]
 		}
 		{
@@ -1225,6 +1235,11 @@
 				type: "item"
 				item: "rftoolsbuilder:shape_card_pump_clear"
 			}]
+			rewards: [{
+				id: "55B8A3CEC088791C"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
 			x: 4.5d
@@ -1236,6 +1251,11 @@
 				id: "303657E09FFF8B60"
 				type: "item"
 				item: "rftoolsbuilder:shape_card_quarry"
+			}]
+			rewards: [{
+				id: "0C02B1E9B66671EF"
+				type: "item"
+				item: "minecraft:iron_ingot"
 			}]
 		}
 		{
@@ -1249,6 +1269,11 @@
 				type: "item"
 				item: "rftoolsbuilder:shape_card_quarry_clear"
 			}]
+			rewards: [{
+				id: "7616B5CC9A9212A7"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
 			x: 4.5d
@@ -1260,6 +1285,11 @@
 				id: "3891C56F16899289"
 				type: "item"
 				item: "rftoolsbuilder:shape_card_quarry_clear_fortune"
+			}]
+			rewards: [{
+				id: "0358973DC8E07716"
+				type: "item"
+				item: "minecraft:iron_ingot"
 			}]
 		}
 		{
@@ -1273,6 +1303,11 @@
 				type: "item"
 				item: "rftoolsbuilder:shape_card_quarry_clear_silk"
 			}]
+			rewards: [{
+				id: "3FE058996250D280"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
 			x: 5.0d
@@ -1284,6 +1319,11 @@
 				id: "42409A57FDC22F8A"
 				type: "item"
 				item: "rftoolsbuilder:shape_card_quarry_fortune"
+			}]
+			rewards: [{
+				id: "55471B685372DC92"
+				type: "item"
+				item: "minecraft:iron_ingot"
 			}]
 		}
 		{
@@ -1297,6 +1337,11 @@
 				type: "item"
 				item: "rftoolsbuilder:shape_card_quarry_silk"
 			}]
+			rewards: [{
+				id: "552C4E909B18E4B7"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
 			x: 5.5d
@@ -1308,6 +1353,11 @@
 				id: "64CE56DA5ADFD344"
 				type: "item"
 				item: "rftoolsbuilder:shape_card_void"
+			}]
+			rewards: [{
+				id: "310B20EF4B2E6B06"
+				type: "item"
+				item: "minecraft:iron_ingot"
 			}]
 		}
 		{

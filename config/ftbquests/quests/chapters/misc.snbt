@@ -1667,6 +1667,11 @@
 				type: "item"
 				item: "ironfurnaces:netherite_furnace"
 			}]
+			rewards: [{
+				id: "22C096A25E9AA76A"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
 		}
 		{
 			title: "Wireless Heat"
@@ -1687,6 +1692,11 @@
 					item: "ironfurnaces:item_heater"
 				}
 			]
+			rewards: [{
+				id: "4E9BEAE9023177C1"
+				type: "item"
+				item: "minecraft:redstone_block"
+			}]
 		}
 		{
 			x: 1.0d

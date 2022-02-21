@@ -1764,6 +1764,11 @@
 				type: "item"
 				item: "immersivepetroleum:projector"
 			}]
+			rewards: [{
+				id: "6E1A7F7D0868FB48"
+				type: "item"
+				item: "immersiveengineering:lantern"
+			}]
 		}
 	]
 }

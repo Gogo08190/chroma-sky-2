@@ -277,6 +277,11 @@
 				type: "item"
 				item: "thermal:device_soil_infuser"
 			}]
+			rewards: [{
+				id: "64C85D013787A000"
+				type: "item"
+				item: "thermal:phytogro"
+			}]
 		}
 		{
 			x: 20.0d

@@ -140,6 +140,11 @@
 				type: "checkmark"
 				title: "Quests"
 			}]
+			rewards: [{
+				id: "61DE5A8C8A66AFC4"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			icon: "losttrinkets:tha_cloud"
@@ -320,6 +325,11 @@
 				type: "checkmark"
 				title: "FTB Team"
 			}]
+			rewards: [{
+				id: "6A49F5AAC5224E19"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			icon: "pedestals:upgradesoundmuffler"
@@ -337,6 +347,11 @@
 				id: "0F43405AFE64D912"
 				type: "checkmark"
 				title: "Immersive FX"
+			}]
+			rewards: [{
+				id: "693D17F8BB4FD634"
+				type: "xp"
+				xp: 100
 			}]
 		}
 	]

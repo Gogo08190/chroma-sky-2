@@ -487,6 +487,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_warrior"
 			}]
+			rewards: [{
+				id: "776783579AF0F8D7"
+				type: "item"
+				item: "minecraft:diamond_block"
+			}]
 		}
 		{
 			x: 4.5d

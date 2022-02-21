@@ -916,6 +916,11 @@
 				type: "item"
 				item: "mekanism:jetpack_armored"
 			}]
+			rewards: [{
+				id: "1CA16F90F2E2A81E"
+				type: "item"
+				item: "mekanism:block_steel"
+			}]
 		}
 		{
 			x: -2.0d
@@ -2898,7 +2903,7 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -7.0d
 			y: 9.0d
 			shape: "diamond"
 			hide_dependency_lines: true
@@ -4291,7 +4296,7 @@
 			x: 3.0d
 			y: -6.0d
 			shape: "diamond"
-			description: ["&bThe Electric Pump&r  is used to pump fluids out of a reservoir in the world or a storage."]
+			description: ["&bThe Electric Pump&r is used to pump fluids out of a reservoir in the world or a storage."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C096F70E21229EC"
@@ -4307,6 +4312,28 @@
 				id: "53561D845DC911CF"
 				type: "item"
 				item: "mekanism:heavy_water_bucket"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 9.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"6083CEBD7FF77D03"
+				"6F2326323EF33A63"
+				"39DD69009C6A2070"
+			]
+			id: "6A6EC5FAE5195A58"
+			tasks: [{
+				id: "616E7D413F48D58D"
+				type: "item"
+				item: "mekanism:solar_neutron_activator"
+			}]
+			rewards: [{
+				id: "1FE7B8FE718E6326"
+				type: "item"
+				item: "mekanism:hdpe_sheet"
 			}]
 		}
 	]

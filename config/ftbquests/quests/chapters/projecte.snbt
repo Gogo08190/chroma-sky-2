@@ -1,7 +1,7 @@
 {
 	id: "2135033622511EF7"
 	group: "5D61CD9450FCE349"
-	order_index: 2
+	order_index: 1
 	filename: "projecte"
 	title: "ProjectE"
 	icon: {
@@ -849,6 +849,11 @@
 				type: "item"
 				item: "projecte:collector_mk1"
 			}]
+			rewards: [{
+				id: "7E4FC2F793174047"
+				type: "item"
+				item: "powah:niotic_crystal_block"
+			}]
 		}
 		{
 			x: 3.5d
@@ -880,6 +885,11 @@
 				id: "700FCF385B1676C1"
 				type: "item"
 				item: "projecte:collector_mk2"
+			}]
+			rewards: [{
+				id: "0FD51FB3F6FAF0C2"
+				type: "item"
+				item: "projecte:dark_matter"
 			}]
 		}
 		{
