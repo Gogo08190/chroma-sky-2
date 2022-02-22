@@ -589,7 +589,7 @@
 			subtitle: "Another exchange !"
 			description: [
 				"The &2Otherworld Sapling Exchanger&r is a little guy that will help you get some Stable &5Otherworld Saplings&r. "
-				"0You will just need to drop your &5Unstable Otherwood Saplings&r and he will give you stables &5Otherworld Saplings&r."
+				"You will just need to drop your &5Unstable Otherwood Saplings&r and he will give you stables &5Otherworld Saplings&r."
 			]
 			dependencies: ["14518278805D60D1"]
 			id: "4141D25E86015854"
