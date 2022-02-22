@@ -433,27 +433,10 @@ onEvent("worldgen.add", (event) => {
     });
 
     event.addSpawn((spawn) => {
+        spawn.biomes.blacklist = true
         spawn.biomes.values = [
-            "minecraft:ocean",
-            "minecraft:cold_ocean",
-            "minecraft:deep_cold_ocean",
-            "minecraft:deep_lukewarm_ocean",
-            "minecraft:deep_ocean",
-            "minecraft:lukewarm_ocean",
-            "minecraft:warm_ocean",
-            "#plains",
-            "#savanna",
-            "#icy",
-            "#mesa",
-            "#jungle",
-            "#extreme_hills",
-            "#taiga",
-            "#beach",
-            "#forest",
-            "#desert",
-            "#river",
-            "#swamp",
-            "#mushroom",
+            "#nether",
+            "#the_end",
         ];
         spawn.category = "water_creature";
         spawn.entity = "minecraft:squid";
