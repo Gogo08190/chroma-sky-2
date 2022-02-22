@@ -76,7 +76,7 @@ isVisible = true
 holdKeyToMakeVisible = false
 #The scale of the tooltips, 1 is default, 2 is smaller
 #Range: 0.4 ~ 5.0
-tooltipScale = 2.0
+tooltipScale = 1
 #Color of the border of the chest contents box (0 to disable)
 chestContentsBorderColor = "FF2bc7d9"
 #0 means don't show break progress, 1 is show as bar, 2 is show as text
@@ -108,4 +108,3 @@ harvestStyleVanilla = true
 	Ok = "green"
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
 	Label = "gray"
-
