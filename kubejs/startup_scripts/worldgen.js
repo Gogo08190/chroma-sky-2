@@ -441,6 +441,19 @@ onEvent("worldgen.add", (event) => {
             "minecraft:deep_ocean",
             "minecraft:lukewarm_ocean",
             "minecraft:warm_ocean",
+            "#plains",
+            "#savanna",
+            "#icy",
+            "#mesa",
+            "#jungle",
+            "#extreme_hills",
+            "#taiga",
+            "#beach",
+            "#forest",
+            "#desert",
+            "#river",
+            "#swamp",
+            "#mushroom",
         ];
         spawn.category = "water_creature";
         spawn.entity = "minecraft:squid";
@@ -529,29 +542,6 @@ onEvent("worldgen.add", (event) => {
         ];
         spawn.category = "water_ambient";
         spawn.entity = "minecraft:salmon";
-        spawn.weight = 15;
-        spawn.minCount = 1;
-        spawn.maxCount = 2;
-    });
-
-    event.addSpawn((spawn) => {
-        spawn.biomes.values = [
-          "#plains",
-          "#savanna",
-          "#icy",
-          "#mesa",
-          "#jungle",
-          "#extreme_hills",
-          "#taiga",
-          "#beach",
-          "#forest",
-          "#desert",
-          "#river",
-          "#swamp",
-          "#mushroom",
-        ];
-        spawn.category = "water_ambient";
-        spawn.entity = "minecraft:squid";
         spawn.weight = 15;
         spawn.minCount = 1;
         spawn.maxCount = 2;
