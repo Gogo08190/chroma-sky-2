@@ -16,7 +16,7 @@ onEvent("recipes", (event) => {
         ["chromasky:fluorite_chunk", 0.1],
         ["chromasky:osmium_chunk", 0.06],
         ["chromasky:aluminum_chunk", 0.09],
-    ]).max(2);
+    ]).max(2).mb(50);
 
     sluice(["iron"], "#forge:gravel", [
         ["chromasky:iron_chunk", 0.54],
