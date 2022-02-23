@@ -109,6 +109,9 @@ onEvent("recipes", (event) => {
   jar("minecraft:dirt", "8x #minecraft:saplings").time(800);
   jar("minecraft:dirt", "8x #forge:seeds").time(800);
 
+  jar("minecraft:grass_block", ["8x #forge:seeds", "minecraft:dirt"]).time(800);
+  jar("8x minecraft:grass_block", ["64x #forge:seeds", "8x minecraft:dirt"]).time(1200);
+
   jar("8x minecraft:dirt", "64x #minecraft:saplings").time(1200);
   jar("8x minecraft:dirt", "64x #forge:seeds").time(1200);
 
