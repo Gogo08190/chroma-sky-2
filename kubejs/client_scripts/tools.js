@@ -3,7 +3,7 @@ onEvent("item.tooltip", (event) => {
     event.add(/minecraft:(wooden|stone|iron|golden|diamond|netherite)_(sword|shovel|(pick)?axe|hoe)/, [
         Text.red("This item is for crafting only!"),
     ]);
-    event.add(/immersiveengineering:(steer)_(sword|shovel|(pick)?axe|hoe)/, [
+    event.add(/immersiveengineering:(steel)_(sword|shovel|(pick)?axe|hoe)/, [
         Text.red("This item is for crafting only!"),
     ]);
     event.add(/projectred-exploration:(ruby|peridot|sapphire)_(sickle|sword|(pick)?axe|hoe|shovel)/, [
