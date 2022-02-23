@@ -52,7 +52,9 @@ onEvent('worldgen.remove', event => {
         'draconicevolution:overworld_draconium_ore',
         'mysticalagradditions:nether_inferium_ore',
         'mysticalagradditions:end_inferium_ore',
-        'minecraft:glowstone'
+        'minecraft:glowstone',
+        'thermal:sulfur_ore',
+        'thermal:cinnabar_ore'
       ]
   })
 })
