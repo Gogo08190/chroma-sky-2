@@ -1,6 +1,6 @@
 // priority: 0
 onEvent("item.tooltip", (event) => {
-    event.add(/minecraft:(wooden|stone|iron|golden|diamond|netherite)_(sword|shovel|(pick)?axe|hoe)/, [
+    event.add(/minecraft:(wooden|stone|iron|golden|diamond|netherite)_(sword|shovel|(pick)?axe)/, [
         Text.red("This item is for crafting only!"),
     ]);
     event.add(/immersiveengineering:(steel)_(sword|shovel|(pick)?axe|hoe)/, [

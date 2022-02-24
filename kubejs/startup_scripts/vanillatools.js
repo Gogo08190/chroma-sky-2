@@ -1,5 +1,5 @@
-const vanillaTools = Ingredient.of(/minecraft:(wooden|stone|iron|golden|diamond|netherite)_(sword|shovel|(pick)?axe|hoe)/);
-const immersiveTools = Ingredient.of(/immersiveengineering:(steer)_(sword|shovel|(pick)?axe|hoe)/);
+const vanillaTools = Ingredient.of(/minecraft:(wooden|stone|iron|golden|diamond|netherite)_(sword|shovel|(pick)?axe)/);
+const immersiveTools = Ingredient.of(/immersiveengineering:(steel)_(sword|shovel|(pick)?axe|hoe)/);
 const prTools = Ingredient.of(/projectred-exploration:(ruby|peridot|sapphire)_(sickle|sword|(pick)?axe|hoe|shovel)/);
 const mekaTools = Ingredient.of(/mekanismtools:(bronze|lapis_lazuli|osmium|steel)_(sword|(pick)?axe|hoe|shovel|paxel)/);
 const mekabTools = Ingredient.of(/mekanismtools:(wood|stone|iron|diamond|gold|netherite)_(paxel)/);
