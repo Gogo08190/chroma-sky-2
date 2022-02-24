@@ -16,6 +16,8 @@ onEvent("recipes", (event) => {
         ["immersiveengineering:seed", 0.15],
         ["minecraft:wheat_seeds", 0.20],
         ["minecraft:sunflower", 0.10],
+        ["minecraft:dandelion", 0.20],
+        ["minecraft:poppy", 0.20],
     ]).mb(50);
 
     sluice(["iron"], "#forge:dirt", [
