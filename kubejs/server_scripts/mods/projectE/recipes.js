@@ -585,4 +585,156 @@ onEvent('recipes', event => {
   }
   )
 
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCBA",
+        "BDEFB",
+        "GHIJK",
+        "BLMNB",
+        "ABOBA"
+      ],
+      "key": {
+        "A": {
+          "item": "projectex:fading_matter"
+        },
+        "B": {
+          "item": "project_architect:emc_link_7"
+        },
+        "C": {
+          "item": "refinedstorage:network_receiver"
+        },
+        "D": {
+          "item": "projectex:violet_matter"
+        },
+        "E": {
+          "item": "projectex:blue_matter"
+        },
+        "F": {
+          "item": "projectex:cyan_matter"
+        },
+        "G": {
+          "item": "extrastorage:advanced_importer"
+        },
+        "H": {
+          "item": "projectex:green_matter"
+        },
+        "I": {
+          "item": "projecte:condenser_mk2"
+        },
+        "J": {
+          "item": "projectex:lime_matter"
+        },
+        "K": {
+          "item": "extrastorage:advanced_exporter"
+        },
+        "L": {
+          "item": "projectex:magenta_matter"
+        },
+        "M": {
+          "item": "projectex:orange_matter"
+        },
+        "N": {
+          "item": "projectex:white_matter"
+        },
+        "O": {
+          "item": "refinedstorage:network_transmitter"
+        }
+      },
+      "result": {
+        "item": "'project_architect:emc_interface'"
+      }
+    }
+  )
+
+  event.shaped('project_architect:emc_steak', [
+  ' M ',
+  'MDM',
+  ' M '
+  ], {
+    M: 'chromasky:ultimate_meat',
+    D: 'projecte:dark_matter'
+  })
+
+  event.shaped('project_architect:emc_coal', [
+  'AMA',
+  'MDM',
+  'AMA'
+  ], {
+    M: 'mysticalagradditions:insanium_coal',
+    D: 'projecte:dark_matter',
+    A: 'projecte:aeternalis_fuel'
+  })
+
+  event.shaped('project_architect:emc_link_1', [
+  'SRS',
+  'RMR',
+  'SRS'
+  ], {
+    R: 'projecte:red_matter',
+    S: 'thebeginning:stable_obsidian',
+    M: 'projecte:condenser_mk2'
+  })
+
+  event.shaped('project_architect:emc_link_2', [
+  'SRS',
+  'RMR',
+  'SRS'
+  ], {
+    R: 'project_architect:emc_link_1',
+    S: 'thebeginning:stable_obsidian',
+    M: 'projecte:condenser_mk2'
+  })
+
+  event.shaped('project_architect:emc_link_3', [
+  'SRS',
+  'RMR',
+  'SRS'
+  ], {
+    R: 'project_architect:emc_link_2',
+    S: 'thebeginning:stable_obsidian',
+    M: 'projecte:condenser_mk2'
+  })
+
+  event.shaped('project_architect:emc_link_4', [
+  'SRS',
+  'RMR',
+  'SRS'
+  ], {
+    R: 'project_architect:emc_link_3',
+    S: 'thebeginning:stable_obsidian',
+    M: 'projecte:condenser_mk2'
+  })
+
+  event.shaped('project_architect:emc_link_5', [
+  'SRS',
+  'RMR',
+  'SRS'
+  ], {
+    R: 'project_architect:emc_link_4',
+    S: 'thebeginning:stable_obsidian',
+    M: 'projecte:condenser_mk2'
+  })
+
+  event.shaped('project_architect:emc_link_6', [
+  'SRS',
+  'RMR',
+  'SRS'
+  ], {
+    R: 'project_architect:emc_link_5',
+    S: 'thebeginning:stable_obsidian',
+    M: 'projecte:condenser_mk2'
+  })
+
+  event.shaped('project_architect:emc_link_7', [
+  'SRS',
+  'RMR',
+  'SRS'
+  ], {
+    R: 'project_architect:emc_link_6',
+    S: 'thebeginning:stable_obsidian',
+    M: 'projecte:condenser_mk2'
+  })
+
 });
