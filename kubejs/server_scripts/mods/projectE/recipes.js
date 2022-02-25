@@ -643,7 +643,7 @@ onEvent('recipes', event => {
         }
       },
       "result": {
-        "item": "'project_architect:emc_interface'"
+        "item": "project_architect:emc_interface"
       }
     }
   )
