@@ -23,6 +23,22 @@
     {
       "item": "projectex:basic_collector",
       "emc": 30224200
+    },
+    {
+      "item": "cobblefordays:tier_2",
+      "emc": 226
+    },
+    {
+      "item": "cobblefordays:tier_3",
+      "emc": 6638
+    },
+    {
+      "item": "cobblefordays:tier_4",
+      "emc": 8132
+    },
+    {
+      "item": "cobblefordays:tier_5",
+      "emc": 8653
     }
   ]
 }
