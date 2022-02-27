@@ -123,6 +123,24 @@ onEvent("recipes", (event) => {
       P: 'minecraft:painting'
     });
 
+    event.remove({ output: 'tconstruct:pattern' })
+    event.shaped('3x tconstruct:pattern', [
+    'PP',
+    'SS'
+    ], {
+      S: 'minecraft:stick',
+      P: 'minecraft:oak_planks'
+    });
+
+    event.remove({ output: 'chisel:iron_chisel' })
+    event.shaped('chisel:iron_chisel', [
+    'I',
+    'S'
+    ], {
+      S: 'minecraft:stick',
+      I: 'minecraft:iron_ingot'
+    });
+
     event.remove({ output: 'entangled:block' })
 
     event.remove({ output: 'entangled:item' })

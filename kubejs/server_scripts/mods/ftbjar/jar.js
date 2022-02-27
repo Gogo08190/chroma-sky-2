@@ -5,6 +5,8 @@ onEvent("recipes", (event) => {
 
   jar("minecraft:basalt", [Fluid.of("minecraft:water", 1000), Fluid.of("minecraft:lava", 125)]).time(60).subzeroTemp()
 
+  jar("minecraft:ice", [Fluid.of("minecraft:water", 1000)]).time(60).subzeroTemp()
+
   jar("minecraft:stone", [Fluid.of("minecraft:water", 1000), Fluid.of("minecraft:lava", 125)]).time(60);
 
   jar("minecraft:obsidian", [Fluid.of("minecraft:water", 1000), Fluid.of("minecraft:lava", 1000)]).time(60);
