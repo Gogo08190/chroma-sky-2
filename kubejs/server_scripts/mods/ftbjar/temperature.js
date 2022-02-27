@@ -30,7 +30,7 @@ onEvent("recipes", (event) => {
     source("subzero", "powah:dry_ice", 6.0);
 
 
-    source2("low", "tconstruct:blazing_blood", "tconstruct:blazing_blood_bucket", 6.0);
+    source2("low", "tconstruct:blazing_blood_fluid", "tconstruct:blazing_blood_bucket", 6.0);
 
     source2("subzero", "kubejs:cryotheum", "kubejs:cryotheum_bucket", 3.0);
     source2("subzero", "minecraft:water", "minecraft:water_bucket", 0.20);
