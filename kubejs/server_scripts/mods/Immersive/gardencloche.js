@@ -87,6 +87,14 @@ events.listen('recipes', function (e) {
     gardenvanilla('minecraft:potato', 6, 'minecraft:potato', 'mysticalagriculture:supremium_farmland', 'crop', 'minecraft:potatoes')
     gardenvanilla('minecraft:potato', 7, 'minecraft:potato', 'mysticalagradditions:insanium_farmland', 'crop', 'minecraft:potatoes')
 
+    gardenvanilla('minecraft:ender_pearl', 1, 'miniutilities:ender_lily_seeds', 'chromasky:1x_compressed_endstone', 'generic', 'miniutilities:ender_lily_block')
+    gardenvanilla('minecraft:ender_pearl', 2, 'miniutilities:ender_lily_seeds', 'chromasky:2x_compressed_endstone', 'generic', 'miniutilities:ender_lily_block')
+    gardenvanilla('minecraft:ender_pearl', 3, 'miniutilities:ender_lily_seeds', 'chromasky:3x_compressed_endstone', 'generic', 'miniutilities:ender_lily_block')
+
+    gardenvanilla('miniutilities:flame_lily', 1, 'miniutilities:flame_lily_seeds', 'chromasky:1x_compressed_netherrack', 'generic', 'miniutilities:flame_lily_block')
+    gardenvanilla('miniutilities:flame_lily', 2, 'miniutilities:flame_lily_seeds', 'chromasky:2x_compressed_netherrack', 'generic', 'miniutilities:flame_lily_block')
+    gardenvanilla('miniutilities:flame_lily', 3, 'miniutilities:flame_lily_seeds', 'chromasky:3x_compressed_netherrack', 'generic', 'miniutilities:flame_lily_block')
+
     e.remove({ id: 'immersiveengineering:cloche/pumpkin' })
     gardenvanilla('minecraft:pumpkin', 1, 'minecraft:pumpkin_seeds', 'minecraft:dirt', 'stem', 'minecraft:pumpkin')
     gardenvanilla('minecraft:pumpkin', 2, 'minecraft:pumpkin_seeds', 'mysticalagriculture:inferium_farmland', 'stem', 'minecraft:pumpkin')
