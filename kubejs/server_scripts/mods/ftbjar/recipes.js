@@ -13,6 +13,7 @@ onEvent('recipes', event => {
   event.remove({ output: 'tconstruct:seared_duct' })
   event.remove({ output: 'tconstruct:seared_faucet' })
   event.remove({ output: 'naturesaura:gold_brick' })
+  event.remove({output: 'naturesaura:gold_nether_brick' })
 
   // Auto Processing Block
   event.remove({ output: 'ftbjarmod:auto_processing_block' })
