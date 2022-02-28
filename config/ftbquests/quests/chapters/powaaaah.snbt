@@ -2773,5 +2773,42 @@
 				count: 4
 			}]
 		}
+		{
+			x: 10.5d
+			y: -15.5d
+			shape: "diamond"
+			description: [
+				"The &5Netherite Sluice&r will need &4energy&r to work."
+				""
+				"&6Netherite Sluice&r can be improved with upgrades."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"1A872B4EA72C7D99"
+				"0F668D0787EC56C6"
+			]
+			size: 1.5d
+			id: "363DFF147DD06B8E"
+			tasks: [{
+				id: "42EF76D1605AAD2D"
+				type: "item"
+				item: {
+					id: "ftbsluice:netherite_sluice"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Energy: {
+								energy: 0
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3EF64E65C35AD692"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
+		}
 	]
 }

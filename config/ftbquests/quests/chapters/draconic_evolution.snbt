@@ -2448,5 +2448,58 @@
 				item: "draconicevolution:draconium_block"
 			}]
 		}
+		{
+			x: 5.5d
+			y: 22.0d
+			shape: "rsquare"
+			description: ["&6The Blazing Mesh&r is better than &bThe diamond mesh&r and this mesh gives you directly &7ingot&r and not &7chunks&r."]
+			dependencies: [
+				"2F98FC6EB3FD8756"
+				"22999033333BCA2C"
+			]
+			id: "1FF3B466A3BEA8E9"
+			tasks: [{
+				id: "0EFEB105D827DAED"
+				type: "item"
+				item: "ftbsluice:blazing_mesh"
+			}]
+			rewards: [{
+				id: "64B1A69106701B80"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 22.0d
+			shape: "rsquare"
+			description: ["&6The empowered sluice&r works faster than &8The netherite sluice&r, this one accept &6the Blazing Mesh&r."]
+			hide_dependency_lines: true
+			dependencies: [
+				"2F98FC6EB3FD8756"
+				"363DFF147DD06B8E"
+			]
+			id: "0CAA8B9BBB9750CF"
+			tasks: [{
+				id: "0DD24514D3E600F6"
+				type: "item"
+				item: {
+					id: "ftbsluice:empowered_sluice"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Energy: {
+								energy: 0
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "205B0992F2CF9356"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
+		}
 	]
 }

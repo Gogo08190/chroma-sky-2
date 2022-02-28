@@ -104,7 +104,10 @@
 			x: -0.5d
 			y: -3.0d
 			shape: "diamond"
-			dependencies: ["1B69AF5509A2B907"]
+			dependencies: [
+				"1B69AF5509A2B907"
+				"5D4D5257E78D1C9F"
+			]
 			size: 2.0d
 			id: "29955CAE8BE6F998"
 			tasks: [{

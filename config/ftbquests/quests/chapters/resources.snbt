@@ -44,6 +44,8 @@
 		{
 			x: 4.5d
 			y: -7.5d
+			subtitle: "Auto Item Input"
+			description: ["The &8Iron Sluice&r can accept item insertion with hoppers but not with fluids. You will have to put water with buckets or with the &bManual Pump&r."]
 			dependencies: [
 				"3A520D98DB566C24"
 				"3F05D033EBD0710D"
@@ -473,6 +475,8 @@
 		{
 			x: 6.0d
 			y: -7.5d
+			subtitle: "Items and Fluids ! "
+			description: ["The &bDiamond Sluice&r can be fully automated with both hoppers and fluid insertion cables such as &9Integrated Dynamics&r."]
 			dependencies: ["6A80532DD41BEECA"]
 			id: "0F668D0787EC56C6"
 			tasks: [{

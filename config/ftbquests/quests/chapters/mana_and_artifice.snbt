@@ -603,7 +603,7 @@
 			y: 1.5d
 			shape: "hexagon"
 			description: [
-				"The manaweave projector is her to help you automate the manaweaving, but to make him reproduce a new pattern you will need to right click with a manaweaving pattern."
+				"The manaweave projector is here to help you automate the manaweaving, but to make him reproduce a new pattern you will need to right click with a manaweaving pattern."
 				""
 				"The manaweaving pattern can be buy from a specific trader : &athe wandering wizzard&r."
 				""
@@ -1118,11 +1118,11 @@
 				""
 				"-You will need at least 8 chimerite crystal the color doesn't matter."
 				""
-				"-Now place your part one the construct workbench."
+				"-Now place your part on the construct workbench."
 				""
-				"-The thing that influence your construct is the element you choose, for the element you will need to right cick with a spell, and the atribiut of the spell will be copy on your chimerite crystal."
+				"-The thing that influence your construct is the element you choose, for the element you will need to right click with a spell, and the atribute of the spell will be copied on your chimerite crystal."
 				""
-				"-To build your construt you will need the spell &drobot activation&r that you can find in the next quest."
+				"-To build your construct you will need the spell &drobot activation&r that you can find in the next quest."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1386,17 +1386,17 @@
 			description: [
 				"How to obtain the mote:"
 				""
-				"-Ritual of Forgotten Lore / Mote of Magic: You will need to place a least 10 bookshelf near the ritual place for make this ritual worked."
+				"-Ritual of Forgotten Lore / Mote of Magic: You will need to place a least 10 bookshelf near the ritual place for make this ritual work."
 				""
-				"-Ritual of the Untamed Wind / Mote of Air: This ritual must be execute very high."
+				"-Ritual of the Untamed Wind / Mote of Air: This ritual must be executed very high."
 				""
-				"-Ritual of the Endless Void / Mote of Ender: This ritual must be execut in complete darkness."
+				"-Ritual of the Endless Void / Mote of Ender: This ritual must be executed in complete darkness."
 				""
 				"-Ritual of the Searing Inferno / Mote of Fire: need to be execute in the nether."
 				""
-				"-Ritual of the Deep Ocean / Mote of Water: Need to be place in oceao biome."
+				"-Ritual of the Deep Ocean / Mote of Water: Need to be placed in ocean biome."
 				""
-				"-Ritual of ancient stone / Mote of Earth: One of the chalk mark must be place on bedrock (the center one)."
+				"-Ritual of ancient stone / Mote of Earth: One of the chalk mark must be placed on bedrock (the center one)."
 			]
 			dependencies: ["13EEC00E8C0E74D3"]
 			min_width: 250

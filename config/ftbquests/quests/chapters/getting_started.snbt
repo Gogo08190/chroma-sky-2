@@ -122,6 +122,8 @@
 				"Hold the mesh in your hand and right click it on the sluice to insert it."
 				"The sluice has an internal tank which it consumes water from after every operation. "
 				"Right-click with a water bucket to fill the tank."
+				""
+				"Be careful this sluice doesn't accept hoppers or direct inputs with cables."
 			]
 			dependencies: ["3F97D03C2402B70D"]
 			id: "3A520D98DB566C24"
@@ -897,7 +899,7 @@
 			x: -1.5d
 			y: -3.5d
 			subtitle: "Luxury bucket"
-			description: ["Right click with an empty bucket on a water source to obtain a water bowl."]
+			description: ["Right click with an empty bowl on a water source to obtain a water bowl."]
 			dependencies: ["3CE7D2130059E7AE"]
 			id: "5B6ABB98D391C9A5"
 			tasks: [{

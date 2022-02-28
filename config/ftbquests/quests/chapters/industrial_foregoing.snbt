@@ -394,7 +394,7 @@
 			x: 5.5d
 			y: -3.0d
 			shape: "diamond"
-			subtitle: "Can Hold : &367,108,864 &rmb"
+			subtitle: "Can Hold : &365,536,000 &rmb"
 			dependencies: ["330F7694A3CE7357"]
 			id: "2C06BBD227F27724"
 			tasks: [{
@@ -751,7 +751,7 @@
 			x: -1.0d
 			y: -3.5d
 			shape: "diamond"
-			subtitle: "Can Hold : &3524,288 &rmb"
+			subtitle: "Can Hold : &31,024,000 &rmb"
 			dependencies: ["2B1E63E2EF6E34BE"]
 			id: "52F3A8CA801AC307"
 			tasks: [{

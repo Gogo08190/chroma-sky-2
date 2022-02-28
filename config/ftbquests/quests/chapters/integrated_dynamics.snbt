@@ -341,6 +341,7 @@
 		{
 			x: 3.5d
 			y: -2.5d
+			description: ["You must use the Omni-Directional Connector to access your remote storage system !"]
 			dependencies: ["22E48889C36049E9"]
 			id: "01A95C71F1AE6645"
 			tasks: [{
@@ -706,7 +707,7 @@
 			x: 7.5d
 			y: 5.0d
 			hide_dependency_lines: true
-			dependencies: ["1B26D90A4DA22414"]
+			dependencies: ["1A89AEC8DAC884C5"]
 			id: "376158C957B192C7"
 			tasks: [{
 				id: "6AF8FB0B9298B0DD"
