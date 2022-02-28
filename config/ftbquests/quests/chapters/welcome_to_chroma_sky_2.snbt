@@ -140,11 +140,6 @@
 				type: "checkmark"
 				title: "Quests"
 			}]
-			rewards: [{
-				id: "61DE5A8C8A66AFC4"
-				type: "xp"
-				xp: 100
-			}]
 		}
 		{
 			icon: "losttrinkets:tha_cloud"
@@ -325,16 +320,11 @@
 				type: "checkmark"
 				title: "FTB Team"
 			}]
-			rewards: [{
-				id: "6A49F5AAC5224E19"
-				type: "xp"
-				xp: 100
-			}]
 		}
 		{
 			icon: "pedestals:upgradesoundmuffler"
-			x: 0.0d
-			y: 2.5d
+			x: 0.5d
+			y: 2.0d
 			shape: "diamond"
 			description: [
 				"ImmersiveFx add more sound events, particles, quality foley's."
@@ -348,10 +338,24 @@
 				type: "checkmark"
 				title: "Immersive FX"
 			}]
-			rewards: [{
-				id: "693D17F8BB4FD634"
-				type: "xp"
-				xp: 100
+		}
+		{
+			icon: "ftbultimine:ultiminer"
+			x: -0.5d
+			y: 2.0d
+			shape: "diamond"
+			subtitle: "How to activate &6FTB Ultimine&r ?"
+			description: [
+				"In order to have &bFTB Ultimine&r, you must unlock the &3Primary Resources&r and right click with the &6Ultiminer&r. When you're done check the &5Lost Trinkets&r quest that is available in the &9Welcome To Chroma Sky 2&r quest."
+				""
+				"The &5Trinker's&r GUI can be opened with the &l&cR&r Key (by default)."
+			]
+			dependencies: ["5AA98A6A5E15905F"]
+			id: "6B53C14F97A2A709"
+			tasks: [{
+				id: "31D4EC0EC88D015F"
+				type: "checkmark"
+				title: "FTB Ultimine"
 			}]
 		}
 	]

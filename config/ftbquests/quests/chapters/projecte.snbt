@@ -3095,5 +3095,237 @@
 				}
 			]
 		}
+		{
+			x: 3.5d
+			y: -6.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"521EE6EF94574CDF"
+				"38E08D56032FEA54"
+				"3BE9F90870F5E284"
+			]
+			id: "46429A8D75297B82"
+			tasks: [{
+				id: "35964ECB1B1F2080"
+				type: "item"
+				item: "project_architect:emc_link_1"
+			}]
+			rewards: [{
+				id: "46509A8E22D59105"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.0d
+			shape: "rsquare"
+			dependencies: ["46429A8D75297B82"]
+			id: "05054E90FDE363CB"
+			tasks: [{
+				id: "58E5C15D88C1E0F6"
+				type: "item"
+				item: "project_architect:emc_link_2"
+			}]
+			rewards: [{
+				id: "7109913E9C2490DC"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
+		}
+		{
+			x: 5.5d
+			y: -6.0d
+			shape: "rsquare"
+			dependencies: ["05054E90FDE363CB"]
+			id: "46C976E1AAA0383A"
+			tasks: [{
+				id: "17A8F8D30A67E4FF"
+				type: "item"
+				item: "project_architect:emc_link_3"
+			}]
+			rewards: [{
+				id: "7AD01877666313F3"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -6.0d
+			shape: "rsquare"
+			dependencies: ["46C976E1AAA0383A"]
+			id: "21D563C07CE12662"
+			tasks: [{
+				id: "5763885D0314EE66"
+				type: "item"
+				item: "project_architect:emc_link_4"
+			}]
+			rewards: [{
+				id: "4EB24EAA5F62FB90"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -6.0d
+			shape: "rsquare"
+			dependencies: ["21D563C07CE12662"]
+			id: "671435342BFDC450"
+			tasks: [{
+				id: "72AA3F875E107B0D"
+				type: "item"
+				item: "project_architect:emc_link_5"
+			}]
+			rewards: [{
+				id: "5C4CD0293E81E0BF"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -6.0d
+			shape: "rsquare"
+			dependencies: ["671435342BFDC450"]
+			id: "70E0776B2DBFC95C"
+			tasks: [{
+				id: "14FBB966F8B349E9"
+				type: "item"
+				item: "project_architect:emc_link_6"
+			}]
+			rewards: [{
+				id: "633050951F74B6A2"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
+		}
+		{
+			x: 9.5d
+			y: -6.0d
+			shape: "rsquare"
+			dependencies: ["70E0776B2DBFC95C"]
+			id: "281EFC2344216FA3"
+			tasks: [{
+				id: "655ACDFA5AC9FC35"
+				type: "item"
+				item: "project_architect:emc_link_7"
+			}]
+			rewards: [{
+				id: "37459C9EB3F121CF"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -8.0d
+			shape: "gear"
+			hide_dependency_lines: true
+			dependencies: [
+				"71A0609C38D650E0"
+				"25E74A40DADB9C2C"
+				"521EE6EF94574CDF"
+				"281EFC2344216FA3"
+				"042E2480F1AA851A"
+				"04E45C500FBB7D04"
+				"4941E64E326EA7F5"
+				"2BACC676236BC882"
+				"1BC4AAB24ACBD58B"
+				"4E11D0D2FCB066EA"
+				"73B5675603018A73"
+				"50179A3DB56EE756"
+				"0E61D31918A9DA3B"
+				"137559BEE7374510"
+				"4411DE0DA987DF00"
+			]
+			id: "1EC0ECD3CE92D155"
+			tasks: [{
+				id: "24C2E1F12121F537"
+				type: "item"
+				item: "project_architect:emc_interface"
+			}]
+			rewards: [
+				{
+					id: "7C491505900630FD"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+				{
+					id: "18534692D49F89E1"
+					type: "item"
+					item: "refinedstorage:external_storage"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -7.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"5C396355C35FF855"
+				"728798A02B318DFC"
+			]
+			id: "65F400B86F38741C"
+			tasks: [{
+				id: "0DC5A2475A749CE3"
+				type: "item"
+				item: "project_architect:emc_link_configurator"
+			}]
+			rewards: [{
+				id: "2068F963FCD70529"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
+		}
+		{
+			x: 5.5d
+			y: -7.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"5078B9DF0A839D26"
+				"5C396355C35FF855"
+			]
+			id: "67AED81AD5DED98D"
+			tasks: [{
+				id: "7701D029BEDC8508"
+				type: "item"
+				item: {
+					id: "project_architect:emc_coal"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "786EC4900A4B33A7"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -7.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"5C396355C35FF855"
+				"228808D5974EFFAA"
+			]
+			id: "7F62E1DAAE369CF0"
+			tasks: [{
+				id: "56BDD653121CA4D2"
+				type: "item"
+				item: "project_architect:emc_steak"
+			}]
+			rewards: [{
+				id: "2A614008088706A3"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
+		}
 	]
 }

@@ -55,14 +55,14 @@
 			}]
 			rewards: [
 				{
-					id: "3774AB93353962E1"
-					type: "item"
-					item: "projectex:blue_power_flower"
-				}
-				{
 					id: "35075142FDDF2D1F"
 					type: "random"
 					table_id: 4299163432040672592L
+				}
+				{
+					id: "2B4A56CB886E1F86"
+					type: "item"
+					item: "projectex:dark_power_flower"
 				}
 			]
 		}

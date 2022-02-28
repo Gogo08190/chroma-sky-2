@@ -944,7 +944,7 @@
 			x: 1.5d
 			y: 2.5d
 			shape: "octagon"
-			description: ["&dThe enchantment&r can only be put on items that can &aharvest&r"]
+			description: ["&dThe enchantment&r can only be put on items that can &aharvest&r."]
 			id: "20BCDE9BEC4E4609"
 			tasks: [{
 				id: "072D804B6319A82C"
