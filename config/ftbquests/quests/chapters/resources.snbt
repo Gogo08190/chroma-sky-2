@@ -85,6 +85,8 @@
 				"&n&l&bHigh Temperature&r : Soul Campfire, Beacon, Blue Magma Block, Soul Fire"
 				""
 				"&n&lSub-Zero Temperature&r : Snow, Ice, Packed Ice, Blue Ice, Dry Ice, Water, Cryotheum"
+				""
+				"{image:chromasky2:textures/quest/jar.png width:200 height:140 align:1}"
 			]
 			dependencies: ["21288D54FFA59370"]
 			min_width: 300
@@ -476,7 +478,7 @@
 			x: 6.0d
 			y: -7.5d
 			subtitle: "Items and Fluids ! "
-			description: ["The &bDiamond Sluice&r can be fully automated with both hoppers and fluid insertion cables such as &9Integrated Dynamics&r."]
+			description: ["The &bDiamond Sluice&r can be fully automated with both hoppers and fluid insertion cables such as &9Integrated Dynamics&r or &ePipez&r."]
 			dependencies: ["6A80532DD41BEECA"]
 			id: "0F668D0787EC56C6"
 			tasks: [{

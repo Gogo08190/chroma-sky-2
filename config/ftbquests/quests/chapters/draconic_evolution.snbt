@@ -2452,7 +2452,7 @@
 			x: 5.5d
 			y: 22.0d
 			shape: "rsquare"
-			description: ["&6The Blazing Mesh&r is better than &bThe diamond mesh&r and this mesh gives you directly &7ingot&r and not &7chunks&r."]
+			description: ["&6The Blazing Mesh&r is better than &bthe diamond mesh&r and it will give you &7ingots&r and not &7chunks&r."]
 			dependencies: [
 				"2F98FC6EB3FD8756"
 				"22999033333BCA2C"
@@ -2473,7 +2473,7 @@
 			x: 6.5d
 			y: 22.0d
 			shape: "rsquare"
-			description: ["&6The empowered sluice&r works faster than &8The netherite sluice&r, this one accept &6the Blazing Mesh&r."]
+			description: ["&6The empowered sluice&r works faster than &8the netherite sluice&r, this one accept &6the Blazing Mesh&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2F98FC6EB3FD8756"
