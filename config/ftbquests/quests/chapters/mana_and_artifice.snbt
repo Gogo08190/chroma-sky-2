@@ -122,6 +122,7 @@
 			x: -1.5d
 			y: -2.5d
 			shape: "hexagon"
+			description: ["To start the mod you &4MUST RIGHT CLICK WITH THE BOOK&r."]
 			dependencies: ["22999033333BCA2C"]
 			id: "49766DA502FA3CE3"
 			tasks: [{
