@@ -737,4 +737,13 @@ onEvent('recipes', event => {
     M: 'projecte:condenser_mk2'
   })
 
+  event.shaped('project_architect:emc_link_configurator', [
+  '  D',
+  'DRD',
+  'DDD'
+  ], {
+    D: 'projecte:dark_matter_block',
+    R: 'projectex:energy_link',
+  })
+
 });
