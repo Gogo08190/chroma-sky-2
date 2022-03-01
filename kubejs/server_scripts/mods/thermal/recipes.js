@@ -257,4 +257,17 @@ onEvent("recipes", (event) => {
     R: 'thermal:cured_rubber',
     E: 'thermal:emerald_gear'
   })
+
+  event.remove({ output: 'thermal:dynamo_gourmand' })
+  event.shaped('thermal:dynamo_gourmand', [
+  ' C ',
+  'IGI',
+  'BRB'
+  ], {
+    C: 'chromasky:excitationcoil',
+    G: 'thermal:sapphire_gear',
+    I: 'thermal:iron_plate',
+    B: 'thermal:tin_block',
+    R: 'thermal:rf_coil'
+  })
 });
