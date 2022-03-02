@@ -1823,10 +1823,7 @@
 				"For each new baby born, there is a chance of a few &5Spirits of Birthing&r to be created in the process."
 			]
 			hide_dependency_lines: true
-			dependencies: [
-				"741A9BB38F47B06A"
-				"04CD419F2D4AB1D0"
-			]
+			dependencies: ["04CD419F2D4AB1D0"]
 			id: "2708CCE704A1ECC0"
 			tasks: [{
 				id: "387C607741C2CE9B"
@@ -2239,11 +2236,6 @@
 					id: "4A2D44DA6B1BC450"
 					type: "item"
 					item: "naturesaura:warped_aura_mushroom"
-				}
-				{
-					id: "5C9002FD0DCAF753"
-					type: "item"
-					item: "naturesaura:aura_mushroom"
 				}
 				{
 					id: "103F9A61508D43E5"

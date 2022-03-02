@@ -4,7 +4,6 @@
 	title: "&dAdvanced Machine Frame Part"
 	icon: "industrialforegoing:machine_frame_advanced"
 	loot_size: 1
-	hide_tooltip: true
 	use_title: true
 	rewards: [
 		{ item: "industrialforegoing:plastic" }
