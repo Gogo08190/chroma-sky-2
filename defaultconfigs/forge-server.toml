@@ -12,7 +12,7 @@
 	zombieBaseSummonChance = 0.1
 	#Chance that a zombie (or subclass) is a baby. Allows changing the zombie spawning mechanic.
 	#Range: 0.0 ~ 1.0
-	zombieBabyChance = 0.05
+	zombieBabyChance = 0.00
 	#Log cascading chunk generation issues during terrain population.
 	logCascadingWorldGeneration = true
 	#Fix vanilla issues that cause worldgen cascading. This DOES change vanilla worldgen so DO NOT report bugs related to world differences if this flag is on.
