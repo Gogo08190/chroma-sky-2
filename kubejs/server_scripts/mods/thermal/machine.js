@@ -60,6 +60,14 @@ onEvent("recipes", (event) => {
     .bottler("simplyjetpacks:unit_cryotheum", ['simplyjetpacks:unit_cryotheum_empty', Fluid.of('kubejs:cryotheum', 1000)])
     .energy(500);
 
-    event
-      .custom({"type": "thermal:pyrolyzer","ingredient": {"item": "rats:plastic_waste"},"result": [{"item": 'industrialforegoing:tinydryrubber',"chance": 0.1},{"fluid": 'industrialforegoing:latex',"amount": 50}],"energy": 3000,"experience": 0.00});
+  event
+    .custom({"type": "thermal:pyrolyzer","ingredient": {"item": "rats:plastic_waste"},"result": [{"item": 'industrialforegoing:tinydryrubber',"chance": 0.1},{"fluid": 'industrialforegoing:latex',"amount": 50}],"energy": 3000,"experience": 0.00});
+
+  event.recipes.thermal.pulverizer("2x chromasky:cobalt_dust", "#forge:clusters/cobalt");
+  event.recipes.thermal.pulverizer("mekanism:dust_coal", "minecraft:coal");
+  event.recipes.thermal.pulverizer("mekanism:dust_charcoal", "minecraft:charcoal");
+  event.recipes.thermal.pulverizer("draconicevolution:draconium_dust", "#forge:ingots/draconium");
+  event.recipes.thermal.pulverizer("5x draconicevolution:draconium_dust", "#forge:ores/draconium");
+
+  event.recipes.thermal.press("minecraft:blaze_rod", "3x minecraft:blaze_powder");
 });
