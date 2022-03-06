@@ -293,7 +293,7 @@
 
 	[tweaks.placeable_books]
 		#Allow books and enchanted books to be placed on the ground
-		enabled = true
+		enabled = false
 		#Allow all books to be placed both vertically and horizontally
 		mixed_books = false
 		#Allows written books to be placeable (will need shift clicking)
