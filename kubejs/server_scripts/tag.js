@@ -17,6 +17,7 @@ onEvent("item.tags", (event) => {
         "minecraft:smooth_sandstone",
     ]);
     event.add("chisel:metals/bronze", ["thermal:bronze_block"]);
+    event.add("chisel:metals/aluminum", ["immersiveengineering:storage_aluminum"]);
     event.add("chisel:emerald", ["minecraft:emerald_block"]);
     event.add("chisel:redstone", ["minecraft:redstone_block"]);
     event.remove("chisel:prismarine", "minecraft:prismarine");
