@@ -41,6 +41,7 @@ onEvent("recipes", (event) => {
         ["minecraft:wheat_seeds", 0.30],
         ["minecraft:sea_pickle", 0.20],
         ["minecraft:sunflower", 0.15],
+        ["farmersdelight:rice", 0.15],
     ]);
 
     sluice(["gold"], "#forge:dirt", [
