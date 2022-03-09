@@ -1,5 +1,8 @@
 onEvent('recipes', event => {
 
+  // Information tablet
+  event.shapeless('draconicevolution:info_tablet', ['minecraft:book', 'draconicevolution:draconium_dust'])
+
   event.remove({ output: 'mysticalagriculture:master_infusion_crystal' })
   event.remove({ output: 'draconicevolution:draconium_core' })
   event.custom(
