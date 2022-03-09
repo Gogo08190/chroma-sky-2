@@ -125,6 +125,7 @@ onEvent('recipes', event => {
   event.remove({id: "immersiveengineering:crafting/ingot_steel_from_dust_from_blast"})
   event.remove({id: "immersiveengineering:crafting/ingot_steel_from_dust"})
   event.remove({id: "immersiveengineering:crafting/ingot_steel_to_storage_steel"})
+  event.remove({id: "immersiveengineering:crafting/storage_uranium_to_ingot_uranium"})
   event.remove({id: "thermal:storage/coal_coke_from_block"})
   event.remove({id: "thermal:storage/coal_coke_block"})
   event.remove({id: "mekanism:storage_blocks/charcoal"})
