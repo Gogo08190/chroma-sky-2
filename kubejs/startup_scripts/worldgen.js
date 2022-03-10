@@ -61,14 +61,10 @@ onEvent('worldgen.remove', event => {
 
 onEvent("worldgen.add", (event) => {
     event.addSpawn((spawn) => {
+        spawn.biomes.blacklist = true
         spawn.biomes.values = [
-            "minecraft:ocean",
-            "minecraft:cold_ocean",
-            "minecraft:deep_cold_ocean",
-            "minecraft:deep_lukewarm_ocean",
-            "minecraft:deep_ocean",
-            "minecraft:lukewarm_ocean",
-            "minecraft:warm_ocean",
+            "#nether",
+            "#the_end",
         ];
         spawn.category = "creature";
         spawn.entity = "minecraft:pig";
@@ -78,14 +74,10 @@ onEvent("worldgen.add", (event) => {
     });
 
     event.addSpawn((spawn) => {
+        spawn.biomes.blacklist = true
         spawn.biomes.values = [
-            "minecraft:ocean",
-            "minecraft:cold_ocean",
-            "minecraft:deep_cold_ocean",
-            "minecraft:deep_lukewarm_ocean",
-            "minecraft:deep_ocean",
-            "minecraft:lukewarm_ocean",
-            "minecraft:warm_ocean",
+            "#nether",
+            "#the_end",
         ];
         spawn.category = "creature";
         spawn.entity = "minecraft:cow";
@@ -95,14 +87,10 @@ onEvent("worldgen.add", (event) => {
     });
 
     event.addSpawn((spawn) => {
+        spawn.biomes.blacklist = true
         spawn.biomes.values = [
-            "minecraft:ocean",
-            "minecraft:cold_ocean",
-            "minecraft:deep_cold_ocean",
-            "minecraft:deep_lukewarm_ocean",
-            "minecraft:deep_ocean",
-            "minecraft:lukewarm_ocean",
-            "minecraft:warm_ocean",
+            "#nether",
+            "#the_end",
         ];
         spawn.category = "creature";
         spawn.entity = "minecraft:chicken";
@@ -112,14 +100,10 @@ onEvent("worldgen.add", (event) => {
     });
 
     event.addSpawn((spawn) => {
+        spawn.biomes.blacklist = true
         spawn.biomes.values = [
-            "minecraft:ocean",
-            "minecraft:cold_ocean",
-            "minecraft:deep_cold_ocean",
-            "minecraft:deep_lukewarm_ocean",
-            "minecraft:deep_ocean",
-            "minecraft:lukewarm_ocean",
-            "minecraft:warm_ocean",
+            "#nether",
+            "#the_end",
         ];
         spawn.category = "creature";
         spawn.entity = "minecraft:donkey";
@@ -129,14 +113,10 @@ onEvent("worldgen.add", (event) => {
     });
 
     event.addSpawn((spawn) => {
+        spawn.biomes.blacklist = true
         spawn.biomes.values = [
-            "minecraft:ocean",
-            "minecraft:cold_ocean",
-            "minecraft:deep_cold_ocean",
-            "minecraft:deep_lukewarm_ocean",
-            "minecraft:deep_ocean",
-            "minecraft:lukewarm_ocean",
-            "minecraft:warm_ocean",
+            "#nether",
+            "#the_end",
         ];
         spawn.category = "creature";
         spawn.entity = "minecraft:horse";
@@ -146,14 +126,10 @@ onEvent("worldgen.add", (event) => {
     });
 
     event.addSpawn((spawn) => {
+        spawn.biomes.blacklist = true
         spawn.biomes.values = [
-            "minecraft:ocean",
-            "minecraft:cold_ocean",
-            "minecraft:deep_cold_ocean",
-            "minecraft:deep_lukewarm_ocean",
-            "minecraft:deep_ocean",
-            "minecraft:lukewarm_ocean",
-            "minecraft:warm_ocean",
+            "#nether",
+            "#the_end",
         ];
         spawn.category = "creature";
         spawn.entity = "minecraft:llama";
@@ -163,14 +139,10 @@ onEvent("worldgen.add", (event) => {
     });
 
     event.addSpawn((spawn) => {
+        spawn.biomes.blacklist = true
         spawn.biomes.values = [
-            "minecraft:ocean",
-            "minecraft:cold_ocean",
-            "minecraft:deep_cold_ocean",
-            "minecraft:deep_lukewarm_ocean",
-            "minecraft:deep_ocean",
-            "minecraft:lukewarm_ocean",
-            "minecraft:warm_ocean",
+            "#nether",
+            "#the_end",
         ];
         spawn.category = "creature";
         spawn.entity = "minecraft:pig";
@@ -180,14 +152,10 @@ onEvent("worldgen.add", (event) => {
     });
 
     event.addSpawn((spawn) => {
+        spawn.biomes.blacklist = true
         spawn.biomes.values = [
-            "minecraft:ocean",
-            "minecraft:cold_ocean",
-            "minecraft:deep_cold_ocean",
-            "minecraft:deep_lukewarm_ocean",
-            "minecraft:deep_ocean",
-            "minecraft:lukewarm_ocean",
-            "minecraft:warm_ocean",
+            "#nether",
+            "#the_end",
         ];
         spawn.category = "creature";
         spawn.entity = "minecraft:rabbit";
@@ -197,14 +165,10 @@ onEvent("worldgen.add", (event) => {
     });
 
     event.addSpawn((spawn) => {
+        spawn.biomes.blacklist = true
         spawn.biomes.values = [
-            "minecraft:ocean",
-            "minecraft:cold_ocean",
-            "minecraft:deep_cold_ocean",
-            "minecraft:deep_lukewarm_ocean",
-            "minecraft:deep_ocean",
-            "minecraft:lukewarm_ocean",
-            "minecraft:warm_ocean",
+            "#nether",
+            "#the_end",
         ];
         spawn.category = "creature";
         spawn.entity = "minecraft:sheep";
