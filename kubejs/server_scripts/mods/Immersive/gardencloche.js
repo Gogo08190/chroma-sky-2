@@ -120,19 +120,20 @@ events.listen('recipes', function (e) {
     gardenvanilla('minecraft:chorus_fruit', 4, 'minecraft:chorus_flower', 'chromasky:3x_compressed_endstone', 'chorus', 'minecraft:chorus_flower')
 
     e.remove({ id: 'immersiveengineering:cloche/hemp' })
-    gardenvanilla('immersiveengineering:hemp_fiber', 1, 'immersiveengineering:seed', 'minecraft:dirt', 'hemp', 'immersiveengineering:hemp')
-    gardenvanilla('immersiveengineering:hemp_fiber', 2, 'immersiveengineering:seed', 'mysticalagriculture:inferium_farmland', 'hemp', 'immersiveengineering:hemp')
-    gardenvanilla('immersiveengineering:hemp_fiber', 3, 'immersiveengineering:seed', 'mysticalagriculture:prudentium_farmland', 'hemp', 'immersiveengineering:hemp')
-    gardenvanilla('immersiveengineering:hemp_fiber', 4, 'immersiveengineering:seed', 'mysticalagriculture:tertium_farmland', 'hemp', 'immersiveengineering:hemp')
-    gardenvanilla('immersiveengineering:hemp_fiber', 5, 'immersiveengineering:seed', 'mysticalagriculture:imperium_farmland', 'hemp', 'immersiveengineering:hemp')
-    gardenvanilla('immersiveengineering:hemp_fiber', 6, 'immersiveengineering:seed', 'mysticalagriculture:supremium_farmland', 'hemp', 'immersiveengineering:hemp')
-    gardenvanilla('immersiveengineering:hemp_fiber', 7, 'immersiveengineering:seed', 'mysticalagradditions:insanium_farmland', 'hemp', 'immersiveengineering:hemp')
+    gardenvanilla2('immersiveengineering:hemp_fiber', 'immersiveengineering:seed', 1, 1, 'immersiveengineering:seed', 'minecraft:dirt', 'hemp', 'immersiveengineering:hemp')
+    gardenvanilla2('immersiveengineering:hemp_fiber', 'immersiveengineering:seed', 2, 2, 'immersiveengineering:seed', 'mysticalagriculture:inferium_farmland', 'hemp', 'immersiveengineering:hemp')
+    gardenvanilla2('immersiveengineering:hemp_fiber', 'immersiveengineering:seed', 3, 3, 'immersiveengineering:seed', 'mysticalagriculture:prudentium_farmland', 'hemp', 'immersiveengineering:hemp')
+    gardenvanilla2('immersiveengineering:hemp_fiber', 'immersiveengineering:seed', 4, 4, 'immersiveengineering:seed', 'mysticalagriculture:tertium_farmland', 'hemp', 'immersiveengineering:hemp')
+    gardenvanilla2('immersiveengineering:hemp_fiber', 'immersiveengineering:seed', 5, 5, 'immersiveengineering:seed', 'mysticalagriculture:imperium_farmland', 'hemp', 'immersiveengineering:hemp')
+    gardenvanilla2('immersiveengineering:hemp_fiber', 'immersiveengineering:seed', 6, 6, 'immersiveengineering:seed', 'mysticalagriculture:supremium_farmland', 'hemp', 'immersiveengineering:hemp')
+    gardenvanilla2('immersiveengineering:hemp_fiber', 'immersiveengineering:seed', 7, 7, 'immersiveengineering:seed', 'mysticalagradditions:insanium_farmland', 'hemp', 'immersiveengineering:hemp')
 
     e.remove({ id: 'immersiveengineering:cloche/nether_warp' })
     gardenvanilla('minecraft:nether_wart', 1, 'minecraft:nether_wart', 'minecraft:soul_sand', 'crop', 'minecraft:nether_wart')
     gardenvanilla('minecraft:nether_wart', 2, 'minecraft:nether_wart', 'snad:soul_snad', 'crop', 'minecraft:nether_wart')
 
     function gardenvanilla(result, qte, input, soil, type, block){e.custom({"type":"immersiveengineering:cloche","results":[{"item":result,"count":qte}],"input":{"item":input},"soil":{"item" : soil},"time":200,"render":{"type":type,"block": block}})}
+    function gardenvanilla2(result1, result2, qte1, qte2, input, soil, type, block){e.custom({"type":"immersiveengineering:cloche","results":[{"item":result1,"count":qte1}, {"item":result2,"count":qte2}],"input":{"item":input},"soil":{"item" : soil},"time":200,"render":{"type":type,"block": block}})}
 
     // Mystical
     function gardenma(crop, soil, qte){e.custom({"type": "immersiveengineering:cloche", "input": { "item": "mysticalagriculture:"+crop+"_seeds" }, "soil": { "item": soil }, "time": 400, "render": { "type": "crop", "block": "mysticalagriculture:"+crop+"_crop" }, "results": [{ "item": "mysticalagriculture:"+crop+"_essence", "count": qte },{"item":"mysticalagriculture:fertilized_essence","count":1}]})}
