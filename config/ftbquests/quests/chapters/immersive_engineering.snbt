@@ -465,10 +465,10 @@
 				"The crusher allows you to crush materials."
 				""
 				"10x Steel Scaffolding"
-				"10x Light Enfineering Block"
+				"10x Light Engineering Block"
 				"01x Redstone Engineering Block"
 				"08x Steel Fence"
-				"09x Hooper"
+				"09x Hopper"
 			]
 			hide_dependency_lines: true
 			dependencies: ["47A4D81697C274A3"]

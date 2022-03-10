@@ -476,7 +476,7 @@
 		{
 			x: 1.0d
 			y: 5.5d
-			description: [" This module scans for dropped items in a 13x13x13 cubic area around the router, and absorbs them into the router's buffer, if possible."]
+			description: ["This module scans for dropped items in a 13x13x13 cubic area around the router, and absorbs them into the router's buffer, if possible."]
 			dependencies: ["676FFA9DD41D1C7B"]
 			id: "7ACE8A5366B2C8E7"
 			tasks: [{

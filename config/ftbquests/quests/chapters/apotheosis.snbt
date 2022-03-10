@@ -368,7 +368,7 @@
 		}
 		{
 			x: -9.0d
-			y: 0.5d
+			y: 1.0d
 			shape: "square"
 			dependencies: ["2C562B816E58084C"]
 			id: "2D641BEEDBEE1A43"
@@ -470,6 +470,122 @@
 				type: "item"
 				item: "minecraft:bookshelf"
 				count: 4
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			dependencies: ["491A2C391B3F7CAC"]
+			id: "28B3AF0E480074EC"
+			tasks: [{
+				id: "507F0E7D2F6787CA"
+				type: "item"
+				item: "apotheosis:common_shard"
+			}]
+			rewards: [{
+				id: "702DC272B53DCA07"
+				type: "item"
+				item: "apotheosis:common_shard"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			description: [""]
+			dependencies: ["491A2C391B3F7CAC"]
+			id: "12512F4BB716C162"
+			tasks: [{
+				id: "6AD43709BE3D3B56"
+				type: "item"
+				item: "apotheosis:uncommon_shard"
+			}]
+			rewards: [{
+				id: "4E4F25E504C6C244"
+				type: "item"
+				item: "apotheosis:uncommon_shard"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			dependencies: ["491A2C391B3F7CAC"]
+			id: "3144FCC6A1244D37"
+			tasks: [{
+				id: "6AC7A18608B08AAC"
+				type: "item"
+				item: "apotheosis:rare_shard"
+			}]
+			rewards: [{
+				id: "7B1DA36E09595EFF"
+				type: "item"
+				item: "apotheosis:rare_shard"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.0d
+			dependencies: ["491A2C391B3F7CAC"]
+			id: "2F7D69997BDFB5A6"
+			tasks: [{
+				id: "69AF05FB1FFD20F5"
+				type: "item"
+				item: "apotheosis:epic_shard"
+			}]
+			rewards: [{
+				id: "7F159F007EA3AA1F"
+				type: "item"
+				item: "apotheosis:epic_shard"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			dependencies: ["491A2C391B3F7CAC"]
+			id: "29536E4FAA825A2E"
+			tasks: [{
+				id: "60BDCD19511FB8DB"
+				type: "item"
+				item: "apotheosis:mythic_shard"
+			}]
+			rewards: [{
+				id: "2FD6EDC423C8500F"
+				type: "item"
+				item: "apotheosis:mythic_shard"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["3A520D98DB566C24"]
+			id: "491A2C391B3F7CAC"
+			tasks: [{
+				id: "55798B8FCF46506E"
+				type: "item"
+				item: "minecraft:soul_campfire"
+			}]
+			rewards: [{
+				id: "62C6571755873108"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["2C562B816E58084C"]
+			id: "0EC2642FF4FCA580"
+			tasks: [{
+				id: "0870CEBC7D60ABA6"
+				type: "item"
+				item: "apotheosis:scrap_tome"
+				count: 8L
+			}]
+			rewards: [{
+				id: "45F79D4F0E1FB225"
+				type: "item"
+				item: "apotheosis:scrap_tome"
+				count: 8
 			}]
 		}
 	]

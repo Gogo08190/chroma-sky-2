@@ -279,6 +279,11 @@
 			x: -16.5d
 			y: -4.5d
 			shape: "diamond"
+			description: [
+				"Drop a &1Starmetal Ingot&r on the ground, and with the &4Starmetal Cutting Tool&r equipped in you hand, &eleft-click&r it."
+				""
+				"The ingot will then transform into stardust, and can be picked up from the ground."
+			]
 			dependencies: ["39E5C481897E7320"]
 			id: "2FB5F19F9E49B197"
 			tasks: [{

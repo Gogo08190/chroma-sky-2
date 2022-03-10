@@ -6070,22 +6070,6 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 19.0d
-			dependencies: ["486D752E708E00F9"]
-			id: "6C5D08E4ABB2969F"
-			tasks: [{
-				id: "7F06BE90BD22D188"
-				type: "item"
-				item: "pamhc2foodextended:cheeseontoastitem"
-			}]
-			rewards: [{
-				id: "4FD86FA2B0C03087"
-				type: "item"
-				item: "pamhc2foodextended:cheeseontoastitem"
-			}]
-		}
-		{
 			x: 0.0d
 			y: 19.0d
 			dependencies: ["486D752E708E00F9"]
@@ -7398,8 +7382,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 23.0d
+			x: 1.0d
+			y: 19.0d
 			dependencies: ["486D752E708E00F9"]
 			id: "11E753CE948C644F"
 			tasks: [{
@@ -7462,7 +7446,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -4.0d
 			y: 23.0d
 			dependencies: ["486D752E708E00F9"]
 			id: "033CE3A94478BF19"

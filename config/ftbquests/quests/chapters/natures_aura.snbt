@@ -1100,7 +1100,7 @@
 			description: [
 				"As described in the &9One Creating Aura&r section, most &6creational devices&r lack the ability to create &2Aura&r beyond a certain point."
 				""
-				"The &dCreational Catalyst&r easily solves this problem: Placing it directly below any crational device will cause its limit to be lifted, making it able to generate &2Aura&r far beyond the previously mentioned point."
+				"The &dCreational Catalyst&r easily solves this problem: Placing it directly below any creational device will cause its limit to be lifted, making it able to generate &2Aura&r far beyond the previously mentioned point."
 			]
 			hide_dependency_lines: true
 			dependencies: [

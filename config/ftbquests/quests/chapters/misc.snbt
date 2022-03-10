@@ -1837,5 +1837,55 @@
 				table_id: 7381842975596526002L
 			}]
 		}
+		{
+			x: -7.5d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["243FA1E08B56689C"]
+			id: "66484C32B3CA754A"
+			tasks: [{
+				id: "0593419C9CD2FD50"
+				type: "item"
+				item: "enderstorage:ender_chest"
+			}]
+			rewards: [{
+				id: "6AC5BDADFDEEDDF5"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["243FA1E08B56689C"]
+			id: "1B31F1D239548AF6"
+			tasks: [{
+				id: "4C34F603EAA66B2B"
+				type: "item"
+				item: "enderstorage:ender_tank"
+			}]
+			rewards: [{
+				id: "2FC329B7EC3CFEA7"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 4.0d
+			shape: "diamond"
+			id: "610974D44CC67886"
+			tasks: [{
+				id: "6D3DA4A4E73015F9"
+				type: "item"
+				item: "enderstorage:ender_pouch"
+			}]
+			rewards: [{
+				id: "5B0BB169970E49D8"
+				type: "random"
+				table_id: 7381842975596526002L
+			}]
+		}
 	]
 }
