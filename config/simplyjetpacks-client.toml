@@ -28,7 +28,7 @@
 		hudTextPosition = "TOP_LEFT"
 		#Set the X offset of the Jetpack HUD on the screen.
 		#Range: > -2147483648
-		hudXOffset = 0
+		hudXOffset = 50
 		#Set the Y offset of the Jetpack HUD on the screen.
 		#Range: > -2147483648
 		hudYOffset = 0
@@ -50,4 +50,3 @@
 	[simplyjetpacks-client.visual]
 		#This sets whether Jetpack particles will be displayed.
 		enableJetpackParticles = true
-
