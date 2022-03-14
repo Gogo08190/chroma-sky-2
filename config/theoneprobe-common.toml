@@ -50,3 +50,4 @@ showContentsWithoutSneaking = ["storagedrawers:basicdrawers", "storagedrawersext
 dontShowContentsUnlessSneaking = []
 #A list of blocks for which we don't send NBT over the network. This is mostly useful for blocks that have HUGE NBT in their pickblock (itemstack)
 dontSendNBT = []
+

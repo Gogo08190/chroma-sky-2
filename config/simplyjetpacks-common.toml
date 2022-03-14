@@ -1005,3 +1005,4 @@
 				emergencyHoverMode = false
 				#When enabled, this Jetpack will be able to activate Charger Mode.
 				chargerMode = false
+

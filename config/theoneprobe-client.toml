@@ -108,3 +108,4 @@ harvestStyleVanilla = true
 	Ok = "green"
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
 	Label = "gray"
+
