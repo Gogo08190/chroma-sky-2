@@ -70,8 +70,8 @@ onEvent('recipes', event => {
     N: 'minecraft:netherite_pickaxe'
   })
 
-  event.remove({ output: 'miniutilities:dark_glass' })
-  event.shaped('miniutilities:dark_glass', [
+  event.remove({ output: '8x miniutilities:dark_glass' })
+  event.shaped('8x miniutilities:dark_glass', [
   'GGG',
   'GIG',
   'GGG'
