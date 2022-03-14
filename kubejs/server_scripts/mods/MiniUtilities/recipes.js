@@ -70,13 +70,4 @@ onEvent('recipes', event => {
     N: 'minecraft:netherite_pickaxe'
   })
 
-  event.shaped('8x miniutilities:dark_glass', [
-  'GGG',
-  'GIG',
-  'GGG'
-  ], {
-    I: 'minecraft:ink_sac',
-    G: 'minecraft:glass'
-  })
-
 });
