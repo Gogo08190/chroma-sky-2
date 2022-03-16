@@ -55,7 +55,7 @@
 	excessParticleAmount = 0.5
 	#The location of the aura bar, where 0 is top left, 1 is top right, 2 is bottom left and 3 is bottom right
 	#Range: 0 ~ 3
-	auraBarLocation = 0
+	auraBarLocation = 2
 	#The location of the aura cache bar, where 0 is to the left of the hotbar and 1 is to the right of the hotbar
 	#Range: 0 ~ 1
 	cacheBarLocation = 0
@@ -65,4 +65,3 @@
 	debugWorld = false
 	#If certain equippable items, like the Environmental Eye, should be rendered on the player
 	renderItemsOnPlayer = true
-
