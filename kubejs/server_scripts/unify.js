@@ -95,6 +95,8 @@ onEvent('item.tags', event => {
 
     event.remove('forge:slag', 'thermal:slag')
     event.remove('forge:bitumen', 'thermal:bitumen')
+
+    event.remove('forge:dusts', 'pedestals:dustosmium')
   })
 
 onEvent('block.tags', event => {
