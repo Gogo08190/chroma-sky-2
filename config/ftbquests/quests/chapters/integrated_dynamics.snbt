@@ -412,8 +412,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: -2.5d
+			x: 12.0d
+			y: -1.0d
 			description: ["Get the Block you are looking at."]
 			dependencies: ["2BF510AA8F2C57F2"]
 			id: "3E0102CF4E76CE82"
@@ -430,8 +430,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: 0.5d
+			x: 11.0d
+			y: -1.5d
 			description: ["Dynamically filter enchantable items in the Storage Terminal using Variable"]
 			dependencies: ["2BF510AA8F2C57F2"]
 			id: "51E256D601D5900E"
@@ -448,7 +448,7 @@
 			}]
 		}
 		{
-			x: 11.0d
+			x: 13.0d
 			y: -1.5d
 			description: ["Check if a Stone Pickaxe can break an Obsidian block, and show the result in a Display Panel."]
 			dependencies: ["2BF510AA8F2C57F2"]
@@ -466,26 +466,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: -1.5d
-			description: ["Use a Crafting Writer to start a crafting job for Oak Planks."]
-			dependencies: ["2BF510AA8F2C57F2"]
-			id: "42D00E445B997B2B"
-			tasks: [{
-				id: "510039793EAF3282"
-				type: "advancement"
-				advancement: "integratedcrafting:autocrafting_trigger/craft_planks"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "07DD5B57107AEB56"
-				type: "random"
-				table_id: 4299163432040672592L
-			}]
-		}
-		{
-			x: 12.0d
-			y: -2.5d
+			x: 13.0d
+			y: -0.5d
 			description: ["Play the step sound of a Wet Sponge block."]
 			dependencies: ["2BF510AA8F2C57F2"]
 			id: "603796112345983E"
@@ -503,7 +485,7 @@
 		}
 		{
 			x: 11.0d
-			y: 0.5d
+			y: -0.5d
 			description: [
 				"Create a systeme that automatically opens a door when you pass by an Entity Reader based on entity name matching, using Redstone Writer directly pointing to the door."
 				"Hint : Pass an entity name as first argument into the equals operator."
@@ -523,8 +505,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: -0.5d
+			x: 12.0d
+			y: 0.0d
 			description: ["Break Stone blocks using a World Block Importer."]
 			dependencies: ["2BF510AA8F2C57F2"]
 			id: "764FDCA51D6A228B"
@@ -542,7 +524,7 @@
 		}
 		{
 			x: 12.0d
-			y: -0.5d
+			y: -2.0d
 			description: ["Click with a Diamond Sword using a Player Simulator."]
 			dependencies: ["2BF510AA8F2C57F2"]
 			id: "5539D44A512E0843"

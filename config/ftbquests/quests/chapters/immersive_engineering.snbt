@@ -420,13 +420,12 @@
 			description: [
 				"The Bottling Machine is used to fill liquid containers."
 				""
-				"3x Steel Scaffolding"
+				"3x Steel Scaffoldings"
 				"2x Iron Sheetmetal"
 				"1x Redstone Engineering Block"
-				"2x Light Engineering Block"
-				"3x Conveyor Belt"
-				"1x Fluid Pump"
-				"1x Glass"
+				"2x Light Engineering Blocks"
+				"3x Conveyor Belts"
+				"2x Fluid Pump"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -962,6 +961,7 @@
 				"045x Steel Scaffolding Slab"
 				"047x Fluid Pipe"
 				"003x Steel Structural Arm"
+				"005x Heavy Engineering Blocks"
 			]
 			hide_dependency_lines: true
 			dependencies: [

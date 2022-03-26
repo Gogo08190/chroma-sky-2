@@ -56,7 +56,7 @@
 			description: [
 				"It is the first tier of crafting altar and is used throughout the Exploration chapter of the Astral Tome."
 				""
-				"Bind the &aCollector Crystal&r on a Crafting table to transform this on a Luminous Crafting Table."
+				"Bind the &aCollector Crystal&r on a Crafting table to transform it in a Luminous Crafting Table."
 			]
 			dependencies: ["0B67CBE199F4E4D9"]
 			size: 3.0d

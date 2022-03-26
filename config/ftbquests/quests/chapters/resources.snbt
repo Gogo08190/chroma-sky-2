@@ -272,7 +272,11 @@
 			x: 2.5d
 			y: -12.0d
 			shape: "pentagon"
-			description: ["&4Nether Painting&r allows you to access the nether by jumping through it."]
+			description: [
+				"&4Nether Painting&r allows you to access the nether by jumping through it."
+				""
+				"Use &a/myisland &rcommand to ruturn on your island."
+			]
 			dependencies: [
 				"5357A7208D1C2B46"
 				"243FA1E08B56689C"
@@ -289,11 +293,6 @@
 					id: "6E7C5AB12F8FE2B5"
 					type: "random"
 					table_id: 7381842975596526002L
-				}
-				{
-					id: "52A1B246DBFD4E1C"
-					type: "item"
-					item: "dimpaintings:overworld_painting"
 				}
 				{
 					id: "52E5266E3EFEF7E4"

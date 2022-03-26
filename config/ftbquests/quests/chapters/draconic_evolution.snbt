@@ -2361,6 +2361,11 @@
 				type: "item"
 				item: "mysticalagriculture:master_infusion_crystal"
 			}]
+			rewards: [{
+				id: "2691343DA52FB352"
+				type: "random"
+				table_id: 4299163432040672592L
+			}]
 		}
 		{
 			x: 5.5d

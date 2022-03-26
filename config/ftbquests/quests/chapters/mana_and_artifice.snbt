@@ -946,7 +946,11 @@
 			y: 2.0d
 			shape: "hexagon"
 			subtitle: "Remote Getaway"
-			description: ["Same as the &4Nether Painting&r just jump into it to access the &5End&r."]
+			description: [
+				"Same as the &4Nether Painting&r just jump into it to access the &5End&r."
+				""
+				"Use &a/myisland &rcommand to ruturn on your island."
+			]
 			hide_dependency_lines: true
 			dependencies: ["5549ED33FDF4AEAF"]
 			id: "0BDA67667CF2B2A3"
@@ -956,9 +960,9 @@
 				item: "dimpaintings:end_painting"
 			}]
 			rewards: [{
-				id: "5621B6BC81BD6AD6"
-				type: "item"
-				item: "dimpaintings:overworld_painting"
+				id: "247DE4FB772FF0E2"
+				type: "random"
+				table_id: 7381842975596526002L
 			}]
 		}
 		{

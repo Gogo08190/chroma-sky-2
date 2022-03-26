@@ -1992,9 +1992,9 @@
 					item: "mysticalagriculture:chaos_seeds"
 				}
 				{
-					id: "631BC6900E37D0C3"
+					id: "551832D889E3E066"
 					type: "item"
-					item: "mysticalagradditions:dragon_egg_crux"
+					item: "chromasky:chaos_crux"
 				}
 			]
 			rewards: [{
