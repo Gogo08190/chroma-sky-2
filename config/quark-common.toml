@@ -229,7 +229,7 @@
 
 [management]
 	"Chests In Boats" = true
-	"Easy Transfering" = true
+	"Easy Transfering" = false
 	"Hotbar Changer" = true
 	"Inventory Sorting" = false
 	"Item Sharing" = true
