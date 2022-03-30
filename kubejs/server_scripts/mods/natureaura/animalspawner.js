@@ -118,10 +118,10 @@ onEvent('recipes', event => {
               "item": "minecraft:carved_pumpkin"
           },
           {
-              "item": "minecraft:packed_ice"
+              "item": "chromasky:1x_compressed_basalt"
           }
       ],
-      "entity": "thermal:blitz",
+      "entity": "thermal:basalz",
       "aura": 50000,
       "time": 60
   })
