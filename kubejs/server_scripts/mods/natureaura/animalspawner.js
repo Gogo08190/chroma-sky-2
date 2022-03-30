@@ -108,4 +108,22 @@ onEvent('recipes', event => {
       "time": 60
   })
 
+  event.custom({
+      "type": "naturesaura:animal_spawner",
+      "ingredients": [
+          {
+              "item": "naturesaura:birth_spirit"
+          },
+          {
+              "item": "minecraft:carved_pumpkin"
+          },
+          {
+              "item": "minecraft:packed_ice"
+          }
+      ],
+      "entity": "thermal:blitz",
+      "aura": 50000,
+      "time": 60
+  })
+
 });
