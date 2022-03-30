@@ -21,7 +21,7 @@
 	#If the RF converter block should be enabled
 	rfConverter = true
 	#If the chunk loader block should be enabled
-	chunkLoader = true
+	chunkLoader = false
 	#If the Aura Imbalance effect of grass and trees dying in the area if the Aura levels are too low should occur
 	grassDieEffect = true
 	#If the Aura Imbalance effect of nether blocks degrading in the area if the Aura levels are too low should occur
@@ -48,11 +48,11 @@
 [client]
 	#The percentage of particles that should be displayed, where 1 is 100% and 0 is 0%
 	#Range: 0.0 ~ 1.0
-	particleAmount = 0.3
+	particleAmount = 0.1
 	#If particle spawning should respect the particle setting in Minecraft's video settings screen
 	respectVanillaParticleSettings = true
 	#The percentage of particles that should spawn when there is an excess amount of Aura in the environment, where 1 is 100% and 0 is 0%
-	excessParticleAmount = 0.5
+	excessParticleAmount = 0.2
 	#The location of the aura bar, where 0 is top left, 1 is top right, 2 is bottom left and 3 is bottom right
 	#Range: 0 ~ 3
 	auraBarLocation = 2
