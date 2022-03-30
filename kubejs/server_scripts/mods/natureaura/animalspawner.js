@@ -31,7 +31,7 @@ onEvent('recipes', event => {
               "item": "minecraft:packed_ice"
           }
       ],
-      "entity": "thermal:blitz",
+      "entity": "thermal:blizz",
       "aura": 50000,
       "time": 60
   })
@@ -122,6 +122,24 @@ onEvent('recipes', event => {
           }
       ],
       "entity": "thermal:basalz",
+      "aura": 50000,
+      "time": 60
+  })
+
+  event.custom({
+      "type": "naturesaura:animal_spawner",
+      "ingredients": [
+          {
+              "item": "naturesaura:birth_spirit"
+          },
+          {
+              "item": "quark:gunpowder_sack"
+          },
+          {
+              "item": "minecraft:tnt"
+          }
+      ],
+      "entity": "thermal:blitz",
       "aura": 50000,
       "time": 60
   })
