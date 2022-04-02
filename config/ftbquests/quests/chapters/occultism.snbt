@@ -702,7 +702,7 @@
 			subtitle: "Classic Crusher"
 			description: [
 				"The &6Foliot Crusher&r will crush ores into powders. "
-				"He will stau in the world for 50 IRL minutes so be careful ! "
+				"He will stay in the world for 50 IRL minutes so be careful ! "
 			]
 			dependencies: ["14518278805D60D1"]
 			id: "21B647B48022DA26"
