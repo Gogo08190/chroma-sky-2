@@ -27,7 +27,7 @@
 	#If the Aura Imbalance effect of nether blocks degrading in the area if the Aura levels are too low should occur
 	netherDecayEffect = true
 	#If the Aura Imbalance effect of plant growth being boosted if the Aura levels are high enough should occur
-	plantBoostEffect = true
+	plantBoostEffect = false
 	#If the Aura Imbalance effect of aura containers in players' inventories being filled if the Aura levels are high enough should occur
 	cacheRechargeEffect = true
 	#If the Aura Imbalance effect of explosions happening randomly if Aura levels are too low should occur
