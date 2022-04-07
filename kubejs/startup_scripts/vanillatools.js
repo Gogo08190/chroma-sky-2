@@ -3,7 +3,7 @@ const immersiveTools = Ingredient.of(/immersiveengineering:(steel)_(sword|shovel
 const prTools = Ingredient.of(/projectred-exploration:(ruby|peridot|sapphire)_(sickle|sword|(pick)?axe|hoe|shovel)/);
 const mekaTools = Ingredient.of(/mekanismtools:(bronze|lapis_lazuli|osmium|steel)_(sword|(pick)?axe|hoe|shovel|paxel)/);
 const mekabTools = Ingredient.of(/mekanismtools:(wood|stone|iron|diamond|gold|netherite)_(paxel)/);
-const cyclicbTools = Ingredient.of(/cyclic:(emerald|sandstone|netherbrick)_(sword|(pick)?axe|hoe|shovel)/);
+const cyclicTools = Ingredient.of(/cyclic:(emerald|sandstone|netherbrick)_(sword|(pick)?axe|hoe|shovel)/);
 
 onEvent("item.modification", (event) => {
     event.modify(vanillaTools, (tool) => {
