@@ -34,4 +34,21 @@ onEvent('recipes', event => {
   	"categories": ["node"]
   })
 
+  event.custom(
+    {
+    "type": "cagedmobs:env_data",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "theabyss"
+      }
+    ],
+    "input": {
+      "item": "theabyss:eot_block"
+    },
+    "render": "theabyss:eot_block",
+    "growModifier": 1.0,
+    "categories": ["black"]
+  })
+
 });

@@ -86,4 +86,140 @@ onEvent('recipes', event => {
 
   })
 
+  event.custom(
+    {
+    "type": "cagedmobs:mob_data",
+    "entity": "theabyss:eot_light_fish",
+    "conditions": [
+    	{
+    		"type": "forge:mod_loaded",
+    		"modid": "cagedmobs"
+    	}
+    ],
+    "samplerTier": 1,
+    "environments": ["black"],
+    "growTicks": 1200,
+    "results": [
+    	{
+    		"chance": 0.3,
+    		"output": {
+    			"item": "minecraft:light_blue_dye"
+    		},
+    		"minAmount": 1,
+    		"maxAmount": 2
+    	},
+    	{
+    		"chance": 0.3,
+    		"output": {
+    			"item": "minecraft:light_gray_dye"
+    		},
+    		"minAmount": 1,
+    		"maxAmount": 2
+    	}
+    ]
+
+  })
+
+  event.custom(
+    {
+    "type": "cagedmobs:mob_data",
+    "entity": "theabyss:eot_light_fish_4",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "cagedmobs"
+      }
+    ],
+    "samplerTier": 1,
+    "environments": ["black"],
+    "growTicks": 1200,
+    "results": [
+      {
+        "chance": 0.3,
+        "output": {
+          "item": "minecraft:orange_dye"
+        },
+        "minAmount": 1,
+        "maxAmount": 2
+      },
+      {
+        "chance": 0.3,
+        "output": {
+          "item": "minecraft:yellow_dye"
+        },
+        "minAmount": 1,
+        "maxAmount": 2
+      }
+    ]
+
+  })
+
+  event.custom(
+    {
+    "type": "cagedmobs:mob_data",
+    "entity": "theabyss:eot_light_fish_3",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "cagedmobs"
+      }
+    ],
+    "samplerTier": 1,
+    "environments": ["black"],
+    "growTicks": 1200,
+    "results": [
+      {
+        "chance": 0.3,
+        "output": {
+          "item": "minecraft:pink_dye"
+        },
+        "minAmount": 1,
+        "maxAmount": 2
+      },
+      {
+        "chance": 0.3,
+        "output": {
+          "item": "minecraft:purple_dye"
+        },
+        "minAmount": 1,
+        "maxAmount": 2
+      }
+    ]
+
+  })
+
+  event.custom(
+    {
+    "type": "cagedmobs:mob_data",
+    "entity": "theabyss:jungle_light_fish_green",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "cagedmobs"
+      }
+    ],
+    "samplerTier": 1,
+    "environments": ["black"],
+    "growTicks": 1200,
+    "results": [
+      {
+        "chance": 0.3,
+        "output": {
+          "item": "minecraft:green_dye"
+        },
+        "minAmount": 1,
+        "maxAmount": 2
+      },
+      {
+        "chance": 0.3,
+        "output": {
+          "item": "minecraft:lime_dye"
+        },
+        "minAmount": 1,
+        "maxAmount": 2
+      }
+    ]
+
+  })
+
 });
