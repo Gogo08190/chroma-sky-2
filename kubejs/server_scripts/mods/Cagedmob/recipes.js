@@ -222,4 +222,106 @@ onEvent('recipes', event => {
 
   })
 
+  event.custom(
+    {
+    "type": "cagedmobs:mob_data",
+    "entity": "theabyss:the_abyss_golem",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "cagedmobs"
+      }
+    ],
+    "samplerTier": 3,
+    "environments": ["black"],
+    "growTicks": 1200,
+    "results": [
+      {
+        "chance": 0.1,
+        "output": {
+          "item": "theabyss:node_shard"
+        },
+        "minAmount": 1,
+        "maxAmount": 2
+      },
+      {
+        "chance": 0.1,
+        "output": {
+          "item": "theabyss:node_crystal"
+        },
+        "minAmount": 1,
+        "maxAmount": 2
+      }
+    ]
+
+  })
+
+  event.custom(
+    {
+    "type": "cagedmobs:mob_data",
+    "entity": "theabyss:carlos_end_fight",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "cagedmobs"
+      }
+    ],
+    "samplerTier": 3,
+    "environments": ["black"],
+    "growTicks": 1200,
+    "results": [
+      {
+        "chance": 0.1,
+        "output": {
+          "item": "minecraft:sponge"
+        },
+        "minAmount": 1,
+        "maxAmount": 2
+      },
+      {
+        "chance": 0.3,
+        "output": {
+          "item": "minecraft:ink_sac"
+        },
+        "minAmount": 1,
+        "maxAmount": 2
+      }
+    ]
+
+  })
+
+  event.custom(
+    {
+    "type": "cagedmobs:mob_data",
+    "entity": "theabyss:abyss_elder",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "cagedmobs"
+      }
+    ],
+    "samplerTier": 3,
+    "environments": ["black"],
+    "growTicks": 1200,
+    "results": [
+      {
+        "chance": 0.2,
+        "output": {
+          "item": "minecraft:ender_pearl"
+        },
+        "minAmount": 1,
+        "maxAmount": 2
+      },
+      {
+        "chance": 0.1,
+        "output": {
+          "item": "theabyss:loran_energy"
+        },
+        "minAmount": 1,
+        "maxAmount": 2
+      }
+    ]
+
+  })
+
 });
