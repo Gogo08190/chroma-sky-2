@@ -104,3 +104,9 @@ onEvent('item.modification', event => {
     item.burnTime = 800
   })
 })
+
+onEvent('item.modification', event => {
+  event.modify('theabyss:node_shard', item => {
+    item.maxStackSize = 64
+  })
+})
