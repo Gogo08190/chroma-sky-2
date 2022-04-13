@@ -89,10 +89,10 @@ events.listen('recipes', event => {
                 "item": "mysticalagriculture:inferium_gemstone_block"
             },
             {
-                "item": "industrialforegoing:processing_addon_2"
+                "item": Item.of('industrialforegoing:processing_addon_2', '{TitaniumAugment:{Processing:3.0f}}')
             },
             {
-                "item": "industrialforegoing:processing_addon_2"
+                "item": Item.of('industrialforegoing:processing_addon_2', '{TitaniumAugment:{Processing:3.0f}}')
             },
             {
                 "item": "mysticalagriculture:inferium_gemstone_block"
