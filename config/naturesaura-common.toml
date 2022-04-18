@@ -39,7 +39,7 @@
 	#If the Aura Imbalance effect of farm animals being affected in positive ways if Aura levels are too high should occur
 	animalEffect = true
 	#If the Aura Imbalance effect of ores spawning in the area if Aura levels are too high should occur
-	oreEffect = true
+	oreEffect = false
 	#If Aura Blooms and Aura Cacti should generate in the world
 	auraBlooms = true
 	#If the Aura Imbalance effect of grass growing on netherrack if the Aura levels are high enough should occur
