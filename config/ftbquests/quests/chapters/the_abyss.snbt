@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -3.0d
-			y: -3.5d
+			x: -6.5d
+			y: -1.5d
 			dependencies: ["5924A2719A053B61"]
 			id: "576F2384CF4A5DD7"
 			tasks: [{
@@ -26,8 +26,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -1.0d
+			x: -6.5d
+			y: 0.0d
 			dependencies: [
 				"7591DDDBE81D6790"
 				"4A6725B54DD382E1"
@@ -45,22 +45,29 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: -1.0d
+			x: -8.0d
+			y: -1.5d
 			description: ["A book that tells you the stats of the mobs."]
 			dependencies: ["576F2384CF4A5DD7"]
 			id: "72A76CFCD3DBDAB9"
-			tasks: [{
-				id: "051DA2517B76FBE2"
-				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "theabyss:abyssbookitem"
+			tasks: [
+				{
+					id: "051DA2517B76FBE2"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "theabyss:abyssbookitem"
+						}
 					}
 				}
-			}]
+				{
+					id: "0E811E3ED6B728FC"
+					type: "item"
+					item: "theabyss:translationletter"
+				}
+			]
 			rewards: [{
 				id: "47DBF3093ACD3E70"
 				type: "item"
@@ -70,8 +77,8 @@
 		{
 			title: "Abyss Portal"
 			icon: "theabyss:abyssportalstone"
-			x: -1.5d
-			y: -3.5d
+			x: -3.5d
+			y: -1.5d
 			description: ["&4Do not place portal on the dirt or right-click with the wand on the dirt."]
 			dependencies: [
 				"576F2384CF4A5DD7"
@@ -113,9 +120,11 @@
 					Icon: "supplementaries:textures/map/nether_portal.png"
 				}
 			}
-			x: 0.5d
-			y: -3.5d
+			x: -1.5d
+			y: -2.25d
+			shape: "gear"
 			dependencies: ["02E24F6032ED94A3"]
+			size: 1.5d
 			id: "50F3AFDF64210C67"
 			tasks: [
 				{
@@ -137,8 +146,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -6.5d
+			x: -1.5d
+			y: -7.0d
 			dependencies: ["4426977D7ED752F4"]
 			id: "46AF23700351647F"
 			tasks: [{
@@ -153,8 +162,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -8.0d
+			x: -1.5d
+			y: -9.0d
 			dependencies: ["46AF23700351647F"]
 			id: "5A20D2449CE912E3"
 			tasks: [{
@@ -169,8 +178,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -6.5d
+			x: 2.5d
+			y: -4.5d
 			dependencies: ["5F91598E3C6509BB"]
 			id: "6BA1A90842584C08"
 			tasks: [{
@@ -185,8 +194,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -6.5d
+			x: 2.5d
+			y: -3.0d
 			dependencies: ["5186597E9AACF6F0"]
 			id: "406D7606D7E5ACC5"
 			tasks: [{
@@ -201,8 +210,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -6.5d
+			x: 2.5d
+			y: -1.5d
 			dependencies: ["425EFB238217FDE3"]
 			id: "6922F366FD53486C"
 			tasks: [{
@@ -217,8 +226,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -8.5d
+			x: 4.0d
+			y: -4.5d
 			dependencies: ["6BA1A90842584C08"]
 			id: "0E5E8CBB8A380F7E"
 			tasks: [{
@@ -233,8 +242,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -11.5d
+			x: -6.5d
+			y: 4.0d
 			dependencies: ["45E8BB444DBAAEA0"]
 			id: "51E27EF5043F1CB5"
 			tasks: [{
@@ -250,8 +259,8 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: -10.0d
+			x: 14.0d
+			y: -9.5d
 			dependencies: ["377B8E23EDE65AD4"]
 			id: "2A37A693DFFADE0C"
 			tasks: [{
@@ -267,8 +276,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -10.0d
+			x: -6.5d
+			y: 3.0d
 			dependencies: ["7B56E21D3592FA35"]
 			id: "45E8BB444DBAAEA0"
 			tasks: [{
@@ -284,8 +293,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -10.0d
+			x: -3.5d
+			y: 0.0d
 			dependencies: ["4D571C41AE6DBA08"]
 			id: "7DF4C56C2E4DBAF6"
 			tasks: [{
@@ -301,8 +310,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -10.0d
+			x: -4.0d
+			y: 3.0d
 			dependencies: ["35D025140E375791"]
 			id: "36FF17F44B16FA23"
 			tasks: [{
@@ -318,8 +327,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -10.0d
+			x: -9.5d
+			y: 0.0d
 			dependencies: ["5368DE820CC032B7"]
 			id: "2C6EC507A6C0A4EE"
 			tasks: [{
@@ -335,8 +344,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -10.0d
+			x: 10.5d
+			y: -6.5d
 			dependencies: ["48B2EA3BCB882162"]
 			id: "3C11D2D76EDAADD6"
 			tasks: [{
@@ -353,8 +362,8 @@
 		}
 		{
 			title: "Thunder Plant"
-			x: 4.0d
-			y: -8.5d
+			x: -6.5d
+			y: 1.5d
 			description: ["Look at the plant"]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
@@ -378,8 +387,8 @@
 		}
 		{
 			title: "Life Flower"
-			x: 5.5d
-			y: -8.5d
+			x: -5.0d
+			y: 0.0d
 			description: ["Look at the flower"]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
@@ -403,8 +412,8 @@
 		}
 		{
 			title: "Fire Plant X"
-			x: 7.0d
-			y: -8.5d
+			x: -5.0d
+			y: 1.5d
 			description: ["Look at the plant"]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
@@ -428,10 +437,9 @@
 		}
 		{
 			title: "Lazarus Flower"
-			x: 2.5d
-			y: -8.5d
+			x: 10.5d
+			y: -4.5d
 			description: ["Look at the flower"]
-			hide_dependency_lines: true
 			dependencies: ["63AF7FEF081583C8"]
 			id: "48B2EA3BCB882162"
 			tasks: [{
@@ -453,8 +461,8 @@
 		}
 		{
 			title: "Icora Flower"
-			x: 8.5d
-			y: -8.5d
+			x: -8.0d
+			y: 0.0d
 			description: ["Look at the flower"]
 			hide_dependency_lines: true
 			dependencies: ["1018CECF2CD1A0C9"]
@@ -478,8 +486,8 @@
 		}
 		{
 			title: "Phantom"
-			x: 17.0d
-			y: -8.5d
+			x: 14.0d
+			y: -8.0d
 			description: ["Look at a &bPhantom&r and kill it."]
 			hide_dependency_lines: true
 			dependencies: ["04CD419F2D4AB1D0"]
@@ -510,10 +518,9 @@
 		{
 			title: "Unknown Ore"
 			icon: "theabyss:unknown_ore"
-			x: -1.5d
-			y: -5.0d
+			x: 0.0d
+			y: -4.5d
 			description: ["Look at the block"]
-			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "5F91598E3C6509BB"
 			tasks: [{
@@ -533,10 +540,9 @@
 		}
 		{
 			title: "Ice Ore"
-			x: -0.5d
-			y: -5.0d
+			x: 1.0d
+			y: -3.0d
 			description: ["Look at the block"]
-			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "5186597E9AACF6F0"
 			tasks: [{
@@ -556,10 +562,9 @@
 		}
 		{
 			title: "Fire Ore"
-			x: 0.5d
-			y: -5.0d
+			x: 1.0d
+			y: -1.5d
 			description: ["Look at the block"]
-			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "425EFB238217FDE3"
 			tasks: [{
@@ -579,10 +584,9 @@
 		}
 		{
 			title: "Abyss Ore"
-			x: -3.5d
+			x: -1.5d
 			y: -5.0d
 			description: ["Look at the block"]
-			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "4426977D7ED752F4"
 			tasks: [{
@@ -608,12 +612,11 @@
 					Icon: "supplementaries:textures/map/nether_portal.png"
 				}
 			}
-			x: 2.5d
-			y: -3.5d
-			dependencies: [
-				"50F3AFDF64210C67"
-				"6185EB5C5215F063"
-			]
+			x: -1.5d
+			y: 1.5d
+			shape: "gear"
+			dependencies: ["6185EB5C5215F063"]
+			size: 1.5d
 			id: "1018CECF2CD1A0C9"
 			tasks: [
 				{
@@ -643,9 +646,11 @@
 					Icon: "supplementaries:textures/map/nether_portal.png"
 				}
 			}
-			x: 5.5d
-			y: -3.5d
+			x: 0.0d
+			y: 1.5d
+			shape: "gear"
 			dependencies: ["77D3FC20B68C5A5B"]
+			size: 1.5d
 			id: "05DCFF5D8F3D5136"
 			tasks: [
 				{
@@ -675,9 +680,11 @@
 					Icon: "supplementaries:textures/map/nether_portal.png"
 				}
 			}
-			x: 8.5d
-			y: -2.0d
+			x: 1.5d
+			y: 1.5d
+			shape: "gear"
 			dependencies: ["3BDB681140D956F1"]
+			size: 1.5d
 			id: "700FD15DE9E49D60"
 			tasks: [
 				{
@@ -706,9 +713,11 @@
 					Icon: "supplementaries:textures/map/nether_portal.png"
 				}
 			}
-			x: 0.5d
-			y: -2.0d
+			x: 10.5d
+			y: -3.0d
+			shape: "gear"
 			dependencies: ["38E08D56032FEA54"]
+			size: 1.5d
 			id: "63AF7FEF081583C8"
 			tasks: [
 				{
@@ -732,10 +741,9 @@
 		}
 		{
 			title: "Florite Ore"
-			x: -2.5d
-			y: -5.0d
+			x: 10.5d
+			y: -1.5d
 			description: ["Look at the block"]
-			hide_dependency_lines: true
 			dependencies: ["63AF7FEF081583C8"]
 			id: "0611995CF6286BBD"
 			tasks: [{
@@ -754,8 +762,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -6.5d
+			x: 12.5d
+			y: -1.5d
 			dependencies: ["0611995CF6286BBD"]
 			id: "1ABFFC463B088605"
 			tasks: [{
@@ -772,8 +780,9 @@
 		{
 			title: "The Abyss Beginning Portal"
 			icon: "thebeginning:stable_obsidian"
-			x: -1.5d
-			y: -2.0d
+			x: 8.0d
+			y: -3.0d
+			hide_dependency_lines: true
 			dependencies: ["02E24F6032ED94A3"]
 			id: "38E08D56032FEA54"
 			tasks: [
@@ -851,8 +860,8 @@
 		}
 		{
 			title: "The Roka End Boss"
-			x: 5.5d
-			y: -2.0d
+			x: 0.0d
+			y: 3.0d
 			description: ["Look at &bThe Roka End Boss&r and kill it."]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
@@ -882,8 +891,8 @@
 		}
 		{
 			title: "Loots from Roka"
-			x: 7.0d
-			y: -2.0d
+			x: 1.5d
+			y: 3.0d
 			dependencies: ["77D3FC20B68C5A5B"]
 			id: "4540074B663BFE37"
 			tasks: [
@@ -926,8 +935,8 @@
 		}
 		{
 			title: "The Nosaj End Boss"
-			x: 8.5d
-			y: -3.5d
+			x: 3.0d
+			y: 1.5d
 			description: ["Look at &bThe Nosaj End Boss&r and kill it."]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
@@ -949,8 +958,8 @@
 		}
 		{
 			title: "Loots from Nosaj End"
-			x: 7.0d
-			y: -3.5d
+			x: 4.5d
+			y: 1.5d
 			dependencies: ["3BDB681140D956F1"]
 			id: "570F8686F5E9DC0A"
 			tasks: [
@@ -1043,10 +1052,9 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -5.0d
+			x: -3.0d
+			y: -4.5d
 			description: ["Look at the block"]
-			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "71FDC951F2CAEB6B"
 			tasks: [{
@@ -1065,8 +1073,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -6.5d
+			x: -3.5d
+			y: -7.0d
 			dependencies: ["71FDC951F2CAEB6B"]
 			id: "503BA9C76DDA7B69"
 			tasks: [{
@@ -1082,10 +1090,9 @@
 		}
 		{
 			icon: "theabyss:fusionore"
-			x: -5.5d
-			y: -5.0d
+			x: -3.5d
+			y: -3.0d
 			description: ["Look at the block"]
-			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "10ABD134A75AE62D"
 			tasks: [{
@@ -2167,7 +2174,7 @@
 		}
 		{
 			x: -5.5d
-			y: -6.5d
+			y: -7.0d
 			dependencies: ["10ABD134A75AE62D"]
 			id: "4DA4860D10C053FE"
 			tasks: [{
@@ -2183,7 +2190,7 @@
 		}
 		{
 			x: -5.5d
-			y: -8.0d
+			y: -9.0d
 			dependencies: ["4DA4860D10C053FE"]
 			id: "5A693930CD50579E"
 			tasks: [{
@@ -2198,8 +2205,8 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: -11.5d
+			x: 12.5d
+			y: -11.0d
 			dependencies: ["794DA0DEE3A46620"]
 			id: "6FDBB9217E16AE9E"
 			tasks: [{
@@ -2214,8 +2221,8 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: -11.5d
+			x: 14.0d
+			y: -11.0d
 			dependencies: ["2A37A693DFFADE0C"]
 			id: "794DA0DEE3A46620"
 			tasks: [{
@@ -2230,8 +2237,8 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: -11.5d
+			x: 10.5d
+			y: -11.0d
 			dependencies: ["6FDBB9217E16AE9E"]
 			id: "34C4E61DA6186995"
 			tasks: [{
@@ -2312,8 +2319,8 @@
 			}]
 		}
 		{
-			x: 17.5d
-			y: -21.0d
+			x: 19.5d
+			y: -6.0d
 			dependencies: ["29842ADFFB75F30B"]
 			id: "781CCCDAF09D095E"
 			tasks: [{
@@ -2335,8 +2342,8 @@
 			}]
 		}
 		{
-			x: 18.0d
-			y: -17.5d
+			x: 20.0d
+			y: -4.0d
 			dependencies: ["29842ADFFB75F30B"]
 			id: "2CBC28537C4AAF05"
 			tasks: [{
@@ -2358,8 +2365,8 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: -17.0d
+			x: 16.5d
+			y: -3.0d
 			dependencies: ["29842ADFFB75F30B"]
 			id: "4F31D2F6EE0A6CEC"
 			tasks: [{
@@ -2382,7 +2389,7 @@
 		}
 		{
 			x: 18.5d
-			y: -20.0d
+			y: -6.5d
 			dependencies: ["29842ADFFB75F30B"]
 			id: "3DAD61C93A5BEB99"
 			tasks: [{
@@ -2404,8 +2411,8 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: -17.5d
+			x: 16.5d
+			y: -6.0d
 			dependencies: ["29842ADFFB75F30B"]
 			id: "4F651D90C4CFE66F"
 			tasks: [{
@@ -2426,8 +2433,8 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: -18.5d
+			x: 19.5d
+			y: -3.0d
 			dependencies: ["29842ADFFB75F30B"]
 			id: "3310D5178BC7A4BC"
 			tasks: [{
@@ -2455,8 +2462,8 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: -18.5d
+			x: 16.0d
+			y: -5.0d
 			dependencies: ["29842ADFFB75F30B"]
 			id: "5C576C199F4D4E9B"
 			tasks: [{
@@ -2478,8 +2485,8 @@
 			}]
 		}
 		{
-			x: 17.5d
-			y: -16.0d
+			x: 15.5d
+			y: -2.0d
 			dependencies: ["4F31D2F6EE0A6CEC"]
 			id: "79DFADF999BEC94F"
 			tasks: [{
@@ -2501,8 +2508,8 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: -20.5d
+			x: 17.5d
+			y: -2.5d
 			dependencies: ["29842ADFFB75F30B"]
 			id: "6F3A70F9F0366A2C"
 			tasks: [{
@@ -2524,8 +2531,8 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: -16.5d
+			x: 17.5d
+			y: -6.5d
 			dependencies: ["29842ADFFB75F30B"]
 			id: "772F6C120264AD33"
 			tasks: [{
@@ -2547,8 +2554,8 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: -21.5d
+			x: 20.0d
+			y: -5.0d
 			dependencies: ["29842ADFFB75F30B"]
 			id: "28D5472FF7D54D5A"
 			tasks: [{
@@ -2570,8 +2577,8 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: -19.0d
+			x: 18.0d
+			y: -4.5d
 			hide_dependency_lines: true
 			dependencies: ["334AC51D18410A5C"]
 			size: 3.0d
@@ -2594,8 +2601,8 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: -19.5d
+			x: 16.0d
+			y: -4.0d
 			hide_dependency_lines: false
 			dependencies: ["29842ADFFB75F30B"]
 			id: "58A26B1D4B2FB993"
@@ -2618,8 +2625,8 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: -21.5d
+			x: 17.5d
+			y: -1.0d
 			dependencies: ["6F3A70F9F0366A2C"]
 			id: "41E5DE1D14B94A89"
 			tasks: [{
@@ -2641,8 +2648,8 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: -21.0d
+			x: 18.5d
+			y: -2.5d
 			dependencies: ["29842ADFFB75F30B"]
 			id: "29103121806797BB"
 			tasks: [{
@@ -2663,8 +2670,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: -3.5d
+			x: -6.5d
+			y: -3.0d
 			dependencies: ["576F2384CF4A5DD7"]
 			id: "334AC51D18410A5C"
 			tasks: [{
@@ -3362,8 +3369,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -11.5d
+			x: -11.0d
+			y: 0.0d
 			dependencies: ["2C6EC507A6C0A4EE"]
 			id: "14CC83498085D974"
 			tasks: [{
@@ -3379,8 +3386,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -10.5d
+			x: 4.0d
+			y: -6.5d
 			dependencies: [
 				"0E5E8CBB8A380F7E"
 				"2B2D20ABEE47365B"
@@ -3398,8 +3405,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -10.5d
+			x: 2.5d
+			y: -6.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"0E5E8CBB8A380F7E"
@@ -3418,8 +3425,8 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: -14.0d
+			x: -1.5d
+			y: 4.5d
 			dependencies: ["26053ECD39645ECC"]
 			id: "3DCB0A20C8A1EBD7"
 			tasks: [{
@@ -3435,8 +3442,8 @@
 		}
 		{
 			title: "the lost letters"
-			x: 10.0d
-			y: -3.5d
+			x: 4.0d
+			y: -10.5d
 			dependencies: ["1A94F29EE2D84BCC"]
 			id: "0B8B819414E9C13C"
 			tasks: [{
@@ -3475,8 +3482,8 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: -8.5d
+			x: 1.5d
+			y: -7.5d
 			dependencies: ["7FA1A3460BF01273"]
 			id: "65DEE077545EBC59"
 			tasks: [{
@@ -3491,10 +3498,9 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -2.0d
+			x: 2.5d
+			y: -10.5d
 			description: [
-				"look for and watch ."
 				""
 				"To find it you have to explore the dimension."
 			]
@@ -3519,10 +3525,9 @@
 		}
 		{
 			title: "The Roka"
-			x: 13.0d
-			y: -10.0d
+			x: 0.0d
+			y: -7.5d
 			description: ["Look at the &bRoka&r and kill it."]
-			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "7FA1A3460BF01273"
 			tasks: [
@@ -3550,10 +3555,9 @@
 		}
 		{
 			title: "Ice Knight"
-			x: 15.0d
-			y: -14.0d
+			x: -1.5d
+			y: 3.0d
 			description: ["Look at a &bIce Knight&r and kill it."]
-			hide_dependency_lines: true
 			dependencies: ["1018CECF2CD1A0C9"]
 			id: "26053ECD39645ECC"
 			tasks: [
@@ -3615,8 +3619,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -6.5d
+			x: 6.0d
+			y: -10.5d
 			description: ["This book speaks to you, it just serves to make a craft."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3643,8 +3647,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: -6.5d
+			x: 7.5d
+			y: -10.5d
 			description: ["To the choice of boss."]
 			dependencies: ["3E7374F2F516211B"]
 			id: "3C98C940A5F0BA3C"
@@ -3672,8 +3676,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -10.0d
+			x: -7.0d
+			y: -6.5d
 			dependencies: ["791B99F52A7855D4"]
 			id: "2BA4A7731A5012E1"
 			tasks: [{
@@ -3690,9 +3694,9 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -8.5d
-			description: ["look for and watch "]
+			x: -5.0d
+			y: -3.0d
+			description: ["In order to obtain the &bAbyss Melon&r you'll have to use the &5Starlight Transmutation&r from &6Astral Sorcery&r."]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "791B99F52A7855D4"
@@ -3713,7 +3717,7 @@
 		}
 		{
 			x: 4.0d
-			y: -2.5d
+			y: 0.0d
 			description: ["Even better than an ender pearl!"]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3739,8 +3743,8 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: -22.5d
+			x: 20.5d
+			y: -8.5d
 			dependencies: ["781CCCDAF09D095E"]
 			id: "33D3C1AAF6C13935"
 			tasks: [{
@@ -3756,8 +3760,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -5.5d
+			x: 6.0d
+			y: -6.5d
 			dependencies: ["34F445E330F23CE8"]
 			id: "136A460D59AC3092"
 			tasks: [{
@@ -3772,8 +3776,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -5.5d
+			x: 7.5d
+			y: -6.5d
 			dependencies: ["136A460D59AC3092"]
 			id: "56D68FD2F91E1AFE"
 			tasks: [{
@@ -3789,7 +3793,7 @@
 		}
 		{
 			x: 6.0d
-			y: -5.5d
+			y: -8.0d
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "34F445E330F23CE8"
@@ -3809,8 +3813,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -19.5d
+			x: 4.0d
+			y: -12.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"48F9166474F9D7D4"
@@ -3848,8 +3852,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -19.5d
+			x: 5.5d
+			y: -12.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"576F2384CF4A5DD7"
@@ -3881,8 +3885,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -8.5d
+			x: 4.0d
+			y: -1.5d
 			dependencies: ["6922F366FD53486C"]
 			id: "5640A9F291CFCD2E"
 			tasks: [{
@@ -3898,10 +3902,9 @@
 		}
 		{
 			title: "Abyss Creeper"
-			x: 15.0d
-			y: -8.5d
+			x: 0.0d
+			y: -0.5d
 			description: ["Look at an &bAbyss Creeper&r and kill it."]
-			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "5F9ED8BF1BBB4ABC"
 			tasks: [
@@ -3928,8 +3931,8 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: -10.0d
+			x: 2.5d
+			y: 0.0d
 			dependencies: ["5F9ED8BF1BBB4ABC"]
 			id: "0A82FC8B1CF71CF7"
 			tasks: [{
@@ -3944,8 +3947,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -19.5d
+			x: 7.0d
+			y: -12.5d
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "48F9166474F9D7D4"
@@ -3961,9 +3964,9 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -2.0d
-			description: ["I do not put you the block for the structure because they are not craftable but what I can tell you is that the portal is deep and be lucky to fall on it."]
+			x: -1.5d
+			y: -0.5d
+			description: ["I did not put you the block for the structure because they are not craftable but what I can tell you is that the portal is deep and be lucky to find it."]
 			dependencies: ["50F3AFDF64210C67"]
 			id: "6185EB5C5215F063"
 			tasks: [{

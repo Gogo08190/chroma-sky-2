@@ -562,7 +562,7 @@
 								tag: {
 									tic_multipliers: { }
 									tic_stats: {
-										"tconstruct:durability": 437.0f
+										"tconstruct:durability": 502.0f
 										"tconstruct:armor": 0.0f
 									}
 									tic_broken: 0b
@@ -649,7 +649,7 @@
 								tag: {
 									tic_multipliers: { }
 									tic_stats: {
-										"tconstruct:durability": 517.0f
+										"tconstruct:durability": 407.0f
 										"tconstruct:armor": 2.0f
 									}
 									tic_broken: 0b
@@ -707,7 +707,7 @@
 								tag: {
 									tic_multipliers: { }
 									tic_stats: {
-										"tconstruct:durability": 587.0f
+										"tconstruct:durability": 542.0f
 										"tconstruct:armor": 0.0f
 									}
 									tic_broken: 0b
@@ -765,7 +765,7 @@
 								tag: {
 									tic_multipliers: { }
 									tic_stats: {
-										"tconstruct:durability": 427.0f
+										"tconstruct:durability": 562.0f
 										"tconstruct:armor": 0.0f
 									}
 									tic_broken: 0b
@@ -794,7 +794,7 @@
 								tag: {
 									tic_multipliers: { }
 									tic_stats: {
-										"tconstruct:durability": 422.0f
+										"tconstruct:durability": 452.0f
 										"tconstruct:armor": 0.0f
 									}
 									tic_broken: 0b

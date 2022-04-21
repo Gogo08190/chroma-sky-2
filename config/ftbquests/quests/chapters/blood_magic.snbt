@@ -52,7 +52,7 @@
 				"Even better it can be automated ! "
 				"Simply put the input thanks to the directions on the GUI and extract underneath the table."
 				""
-				"Be sure to have to correct &aPhilosopher Stone&r or you'll get surprises"
+				"Be sure to have to correct &aBlood Orb &r or you'll get surprises"
 				""
 			]
 			dependencies: ["0DB48A26E11F0114"]
@@ -2305,19 +2305,19 @@
 			x: 4.0d
 			y: -3.0d
 			description: [
-				"The &6Incense Altar&r is a multiblock structure that can boost your self-sacricing at a &4&nBlood Altar&r.  By stand near your setup, it will calm you soul base on the area's &2Tranquility&r allowing you to increase LP. The basic T1 Setup is the Altar itself, you have to place it down anywhere (3x3 setup block) and stay within a 5 blocks radius of the Altar. While the Altar is working, it will transform your &8Sacrificial Knife&r and make it shinier. You will now be able to hold right click near an Altar to sacrifice 90% of your health at once."
-				"Details about the tranquillity : Based on the total &2Tranquility&r of the area, you'll receive a bonus to the &cLP&r added to the &4&nBlood Altar&r. When you hover your &6Incense Altar&r with either a &eDivination Sigil&r or &eSeer's Sigil&r it'll display the total &2Tranquility&r of your setup and the % bonus receive d when sacrificing. (1 LP + bonus/100).To increase the &2Tranquility&r you must place paths leading out to your &6Incense Altar&r. These paths needs to be constructed from a 3 wide set of &8Path&r blocks such as &dWooden Path&r."
+				"The &6Incense Altar&r is a multiblock structure that can boost your blood generation by self-sacrifice at a &4&nBlood Altar&r.  By standing near your setup, it will calm you soul base on the area's &2Tranquility&r allowing you to increase LP. The basic T1 Setup is the Altar itself, you have to place it down anywhere (3x3 setup block) and stay within a 5 blocks radius of the Altar. While the Altar is working, it will transform your &8Sacrificial Knife&r and make it shinier. You will now be able to hold right click near an Altar to sacrifice 90% of your health at once."
+				"Details about the tranquillity : Based on the total &2Tranquility&r of the area, you'll receive a bonus to the &cLP&r added to the &4&nBlood Altar&r. When you hover your &6Incense Altar&r with either a &eDivination Sigil&r or &eSeer's Sigil&r it'll display the total &2Tranquility&r of your setup and the % bonus received when sacrificing. (1 LP + bonus/100).To increase the &2Tranquility&r you must place paths leading out to your &6Incense Altar&r. These paths need to be built from a 3 wide set of &8Path&r blocks such as &dWooden Path&r."
 				"Each new \"ring\" of path blocks follow a set of rules : "
 				"- All path blocks on the same ring have to be on the same y-level"
 				"- The next ring of path blocks may not be more than 5 blocks higher or lower than the previous ring."
-				"- The blocks that are the same level or up to two blocks above the path blocks' ring count towards the total &2Tranquility&r."
+				"- The blocks that are the same level or up to two blocks above the path blocks ring count towards the total &2Tranquility&r."
 				"The efficacy of each type of path blocks is limited by distance. "
 				"Wooden > 3 rings"
 				"Stone > 5 rings"
 				"Worn Stone > 7 rings"
 				"Obsidian > 9 rings."
 				"What blocks are counted to increase the &2Tranquility&r?"
-				"Plants, crops, trees, earthen, water, fire and lava within the &6Incense Altar&r's range. Life essence, Netherrack, Dirt, farmland, potatoes, carrots, wheat, nether wart, beetroots, leaves, logs, fire and grass are as well counted.It's important to note that the &2Tranquility bonus&r is capped by the size of your Altar."
+				"Plants, crops, trees, earth blocks (dirt, grass etc..), water, fire and lava within the &6Incense Altar&r's range. Life essence, Netherrack, Dirt, farmland, potatoes, carrots, wheat, nether wart, beetroots, leaves, logs, fire and grass are as well counted. It's important to note that the &2Tranquility bonus&r is capped by the size of your Altar."
 				"Here are the caps :"
 				"* No path : 20%"
 				"* Wooden path : 60%"
