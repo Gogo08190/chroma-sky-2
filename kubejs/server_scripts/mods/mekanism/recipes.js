@@ -179,7 +179,7 @@ onEvent("recipes", (event) => {
     C: 'mekanism:ultimate_control_circuit',
     P: 'mekanism:pellet_polonium',
     B: 'mekanism:basic_induction_cell',
-    A: 'theabyss:unorithe_a_netherithe_helmet'
+    A: Item.of('theabyss:unorithe_a_netherithe_helmet', '{Damage:0}').weakNBT(),
   })
 
   event.remove({ output: 'mekanism:mekasuit_bodyarmor' })
@@ -192,7 +192,7 @@ onEvent("recipes", (event) => {
     C: 'mekanism:ultimate_control_circuit',
     P: 'mekanism:pellet_polonium',
     B: 'mekanism:basic_induction_cell',
-    A: 'theabyss:unorithe_a_netherithe_chestplate'
+    A: Item.of('theabyss:unorithe_a_netherithe_chestplate', '{Damage:0}').weakNBT(),
   })
 
   event.remove({ output: 'mekanism:mekasuit_pants' })
@@ -205,7 +205,7 @@ onEvent("recipes", (event) => {
     C: 'mekanism:ultimate_control_circuit',
     P: 'mekanism:pellet_polonium',
     B: 'mekanism:basic_induction_cell',
-    A: 'theabyss:unorithe_a_netherithe_leggings'
+    A: Item.of('theabyss:unorithe_a_netherithe_leggings', '{Damage:0}').weakNBT(),
   })
 
   event.remove({ output: 'mekanism:mekasuit_boots' })
@@ -218,7 +218,7 @@ onEvent("recipes", (event) => {
     C: 'mekanism:ultimate_control_circuit',
     P: 'mekanism:pellet_polonium',
     B: 'mekanism:basic_induction_cell',
-    A: 'theabyss:unorithe_a_netherithe_boots'
+    A: Item.of('theabyss:unorithe_a_netherithe_boots', '{Damage:0}').weakNBT(),
   })
 
   event.remove({ output: 'mekanism:module_base' })
