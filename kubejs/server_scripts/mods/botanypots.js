@@ -33,7 +33,7 @@ events.listen('recipes', function (e) {
     seedPot("nitro_crystal", "nitro_crystal_crux", 3000)
     seedPot("nether_star", "nether_star_crux", 3000)
     seedPot("dragon_egg", "dragon_egg_crux", 3000)
-    seedPot("awakened_draconium", "draconium_crux", 3000)
+    seedPot("awakened_draconium", "awakened_draconium_crux", 3000)
     seedPot("chaos", "chaos_crux", 3000)
 
     //soil
@@ -49,7 +49,7 @@ events.listen('recipes', function (e) {
     soil("mysticalagradditions:nether_star_crux", ["nether_star_crux"], 0.90)
     soil("mysticalagradditions:dragon_egg_crux", ["dragon_egg_crux"], 0.90)
     soil("mysticalagradditions:nitro_crystal_crux", ["nitro_crystal_crux"], 0.90)
-    soil("mysticalagradditions:awakened_draconium_crux", ["draconium_crux"], 0.90)
+    soil("mysticalagradditions:awakened_draconium_crux", ["awakened_draconium_crux"], 0.90)
     soil("chromasky:chaos_crux", ["chaos_crux"], 0.90)
 
     e.remove({ id: "mysticalagriculture:soils/inferium_farmland" })
