@@ -121,7 +121,7 @@ e.custom({
   mystic(1500, 'mysticalagriculture:aluminum_essence', 8, 'immersiveengineering:ingot_aluminum', 5)
   mystic(1500, 'mysticalagriculture:lumium_essence', 8, 'thermal:lumium_ingot', 5)
   mystic(1500, 'mysticalagriculture:emerald_essence', 8, 'minecraft:emerald', 5)
-  mystic(1500, 'mysticalagriculture:awakened_draconium_essence', 8, 'draconicevolution:awakened_draconium_nugget', 5)
+  mystic(1500, 'mysticalagriculture:awakened_draconium_essence', 9, 'draconicevolution:awakened_draconium_nugget', 5)
   mystic(1500, 'mysticalagriculture:spirited_crystal_essence', 9, 'powah:crystal_spirited', 5)
   mystic(1500, 'mysticalagriculture:niotic_crystal_essence', 9, 'powah:crystal_niotic', 5)
   mystic(1500, 'mysticalagriculture:nitro_crystal_essence', 9, 'powah:crystal_nitro', 5)
