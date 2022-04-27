@@ -191,6 +191,10 @@
     {
       "item": "minecraft:redstone",
       "emc": 0
+    },
+    {
+      "item": "projecte:klein_star_ein",
+      "emc": 40768
     }
   ]
 }
