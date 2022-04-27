@@ -1,7 +1,7 @@
 
 #General Config Section
 [general]
-	#The Client ID of the Discord App to use
+	#The Application ID of the Discord App to use
 	clientID = 930051335301255188
 	#Enable/Disable the mod
 	enabled = true
@@ -12,7 +12,7 @@
 	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
 	launcherIntegration = false
 	#Internal Version Number. NO TOUCHY!
-	version = 12
+	version = 13
 
 #The Game Loading event
 [init]
@@ -64,6 +64,25 @@
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "Chroma Sky 2"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord
+	buttons = []
+
+#The Realms Screen event
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is looking for a Realm"
+	#The second line of text under the app name
+	state = "Browsing Realms"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "mclogonew"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
@@ -128,6 +147,25 @@
 	#The buttons to display on Discord
 	buttons = []
 
+#The Realms Game Event
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Playing on %realmname%"
+	#The second line of text under the app name
+	state = "Playing on a Realm"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "mclogonew"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%realmdescription%"
+	#The buttons to display on Discord
+	buttons = []
+
 #Fallback event for disabled events
 [generic]
 	#The first line of text under the app name
@@ -177,3 +215,4 @@
 		largeImageText = "In the End"
 		smallImageKey = "mclogo"
 		smallImageText = "%mods% mods installed"
+

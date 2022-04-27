@@ -50,3 +50,4 @@
 	[simplyjetpacks-client.visual]
 		#This sets whether Jetpack particles will be displayed.
 		enableJetpackParticles = true
+

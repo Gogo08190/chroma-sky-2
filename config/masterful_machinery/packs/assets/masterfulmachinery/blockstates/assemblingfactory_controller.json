@@ -1,11 +1,5 @@
 {
   "variants": {
-    "facing=down": {
-      "model": "masterfulmachinery:block/assemblingfactory_controller"
-    },
-    "facing=up": {
-      "model": "masterfulmachinery:block/assemblingfactory_controller"
-    },
     "facing=north": {
       "model": "masterfulmachinery:block/assemblingfactory_controller"
     },

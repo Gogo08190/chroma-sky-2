@@ -65,3 +65,4 @@
 	debugWorld = false
 	#If certain equippable items, like the Environmental Eye, should be rendered on the player
 	renderItemsOnPlayer = true
+

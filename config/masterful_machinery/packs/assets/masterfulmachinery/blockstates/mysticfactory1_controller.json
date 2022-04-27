@@ -1,11 +1,5 @@
 {
   "variants": {
-    "facing=down": {
-      "model": "masterfulmachinery:block/mysticfactory1_controller"
-    },
-    "facing=up": {
-      "model": "masterfulmachinery:block/mysticfactory1_controller"
-    },
     "facing=north": {
       "model": "masterfulmachinery:block/mysticfactory1_controller"
     },
