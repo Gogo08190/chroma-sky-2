@@ -90,8 +90,8 @@
 		}
 		{
 			icon: "apotheosis:prismatic_web"
-			x: 0.0d
-			y: 1.5d
+			x: 0.5d
+			y: 2.0d
 			shape: "diamond"
 			subtitle: "More information about &bChroma Sky 2&r"
 			description: [
@@ -319,24 +319,6 @@
 				id: "4219263D5147FC6D"
 				type: "checkmark"
 				title: "FTB Team"
-			}]
-		}
-		{
-			icon: "pedestals:upgradesoundmuffler"
-			x: 0.5d
-			y: 2.0d
-			shape: "diamond"
-			description: [
-				"ImmersiveFx add more sound events, particles, quality foley's."
-				""
-				"You can configure the sound level with &actrl+v&r command."
-			]
-			dependencies: ["5AA98A6A5E15905F"]
-			id: "5B130076AA2B92CC"
-			tasks: [{
-				id: "0F43405AFE64D912"
-				type: "checkmark"
-				title: "Immersive FX"
 			}]
 		}
 		{

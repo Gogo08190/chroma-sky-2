@@ -944,7 +944,7 @@
 			x: 1.5d
 			y: 2.5d
 			shape: "octagon"
-			description: ["&dThe enchantment&r can only be put on items that can &aharvest&r."]
+			description: ["&aExperience Pearls&r are gotten when you kill a mob with &5experience harvester&r enchant."]
 			id: "20BCDE9BEC4E4609"
 			tasks: [{
 				id: "072D804B6319A82C"
