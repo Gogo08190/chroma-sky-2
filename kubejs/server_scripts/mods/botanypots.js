@@ -46,11 +46,11 @@ events.listen('recipes', function (e) {
         })
     }
 
-    soil("mysticalagradditions:nether_star_crux", ["nether_star_crux"], 1.50)
-    soil("mysticalagradditions:dragon_egg_crux", ["dragon_egg_crux"], 1.50)
-    soil("mysticalagradditions:nitro_crystal_crux", ["nitro_crystal_crux"], 1.50)
-    soil("mysticalagradditions:awakened_draconium_crux", ["awakened_draconium_crux"], 1.50)
-    soil("chromasky:chaos_crux", ["chaos_crux"], 1.50)
+    soil("mysticalagradditions:nether_star_crux", ["nether_star_crux"], 0.80)
+    soil("mysticalagradditions:dragon_egg_crux", ["dragon_egg_crux"], 0.80)
+    soil("mysticalagradditions:nitro_crystal_crux", ["nitro_crystal_crux"], 0.80)
+    soil("mysticalagradditions:awakened_draconium_crux", ["awakened_draconium_crux"], 0.80)
+    soil("chromasky:chaos_crux", ["chaos_crux"], 0.80)
 
     e.remove({ id: "mysticalagriculture:soils/inferium_farmland" })
     e.remove({ id: "mysticalagriculture:soils/prudentium_farmland" })
