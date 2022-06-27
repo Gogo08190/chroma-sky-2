@@ -51,4 +51,5 @@ onEvent("recipes", (event) => {
   event.remove({output: 'thermal:redstone_mushroom_spores'})
   event.remove({output: 'thermal:slime_mushroom_spores'})
   event.remove({output: 'naturesaura:chunk_loader'})
+  event.remove({output: 'miniutilities:golden_lasso'})
 });
