@@ -237,7 +237,8 @@ events.listen('jei.hide.items', function (event) {
     'thermal:redstone_mushroom_spores',
     'thermal:slime_mushroom_spores',
     'naturesaura:chunk_loader',
-    'pedestals:dustosmium'
+    'pedestals:dustosmium',
+    'miniutilities:golden_lasso'
   ])
 })
 
