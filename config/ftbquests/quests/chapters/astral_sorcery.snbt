@@ -28,7 +28,7 @@
 		{
 			x: -19.5d
 			y: -10.0d
-			description: ["You can find the constellation paper in the Astral structures that are located in the end."]
+			description: ["You can find the constellation paper in the Astral structures that are located in the nether."]
 			dependencies: ["13F91C2C4EBE7565"]
 			id: "2EDE9D3CB4DCBDED"
 			tasks: [{
