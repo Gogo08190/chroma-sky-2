@@ -172,7 +172,7 @@ function astral1(input1, count1, output, countout, starlight) {
   //Astral 1 item
   astral1('astralsorcery:starmetal_ingot', 4, 'chromasky:starmetal_gear', 1, 200)
   astral1('minecraft:iron_ore', 1, 'astralsorcery:starmetal_ore', 1, 1000)
-  astral1('astralsorcery:aquamarine', 1, 'astralsorcery:resonating_gem', 1, 5000)
+  astral1('projectred-core:electrotine_dust', 1, 'astralsorcery:resonating_gem', 1, 5000)
 
   // Astral 2 Items
   astral2('astralsorcery:aquamarine', 1, 'minecraft:glowstone_dust', 4, 'astralsorcery:illumination_powder', 16, 150)
