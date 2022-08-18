@@ -1837,10 +1837,12 @@
 		}
 		{
 			x: -4.0d
-			y: -2.5d
+			y: -4.5d
+			shape: "diamond"
 			subtitle: "Storage for Demons"
 			description: ["The &6Divination Sigil&r will allow you to see your current essence level. This amount is how much LP you have stocked in your &4BloodMagic&r \"network\"."]
 			dependencies: ["7234EDC19FB08166"]
+			size: 2.0d
 			id: "27283317A072FFE4"
 			tasks: [{
 				id: "62320AB5A59E0ADA"
@@ -1943,13 +1945,12 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -4.5d
+			x: -3.5d
+			y: -5.5d
 			shape: "diamond"
 			subtitle: "Sigils Backpack"
 			description: ["The &6Sigil Of Holding&r can hold up to 5 other &8Sigils&r at a time. This can allow to activate them all together. "]
 			dependencies: ["27283317A072FFE4"]
-			size: 2.0d
 			id: "05CC4C4E53AA8A27"
 			tasks: [{
 				id: "7762991CB9EA27E8"
@@ -1975,40 +1976,6 @@
 			}]
 			rewards: [{
 				id: "1CCA2C08EE994454"
-				type: "random"
-				table_id: 7381842975596526002L
-			}]
-		}
-		{
-			x: -3.5d
-			y: -5.5d
-			shape: "diamond"
-			subtitle: "You are Jesus..!"
-			description: ["&bFrost Walker&r as a &5Sigil"]
-			dependencies: ["27283317A072FFE4"]
-			id: "3BB4F88377BC8FC7"
-			tasks: [{
-				id: "270D2FBF99F9C41D"
-				type: "item"
-				item: {
-					id: "bloodmagic:icesigil"
-					Count: 1b
-					tag: {
-						binding: {
-							name: "Noli_666"
-							id: [I;
-								-1473269377
-								973752737
-								-1456830272
-								-117663136
-							]
-						}
-						activated: 1b
-					}
-				}
-			}]
-			rewards: [{
-				id: "6F0864FFFD23DB85"
 				type: "random"
 				table_id: 7381842975596526002L
 			}]
