@@ -262,10 +262,7 @@ onEvent("recipes", (event) => {
           "item": "extendedcrafting:ultimate_singularity"
         },
         "F": {
-          "type": "forge:nbt",
           "item": "mekanism:creative_energy_cube",
-          "count": 1,
-          "nbt": "{mekData:{EnergyContainers:[{Container:0b,stored:\"18446744073709551615.9999\"}]}}"
         },
         "G": {
           "item": "chromasky:ultimategear"
