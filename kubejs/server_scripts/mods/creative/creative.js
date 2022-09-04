@@ -1799,10 +1799,7 @@ onEvent("recipes", (event) => {
           "item": "powah:energy_cell_creative"
         },
         "S": {
-          "type": "forge:nbt",
           "item": "mekanism:creative_energy_cube",
-          "count": 1,
-          "nbt": "{mekData:{EnergyContainers:[{Container:0b,stored:\"18446744073709551615.9999\"}]}}"
         }
       },
       "result": {
