@@ -1561,7 +1561,7 @@
 			rewards: [{
 				id: "495ABBEB3A29319B"
 				type: "item"
-				item: "thermal:lumium_dust"
+				item: "mysticalagriculture:lumium_essence"
 				count: 4
 			}]
 		}
