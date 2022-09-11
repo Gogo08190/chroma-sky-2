@@ -26,9 +26,9 @@ events.listen('recipes', function (e) {
     seed2.forEach(S => { seedPot(S, "Farmland_t2", 2400) })
     var seed3 = ["iron", "nether_quartz", "glowstone", "redstone", "obsidian", "prismarine", "zombie", "skeleton", "creeper", "spider", "rabbit", "tin", "bronze", "silver", "lead", "graphite", "blizz", "blitz", "basalz", "ender_biotite", "aquamarine", "rose_gold", "steeleaf", "slimesteel", "pig_iron", "tinkers_bronze", "quartz_enriched_iron"]
     seed3.forEach(S => { seedPot(S, "Farmland_t3", 3600) })
-    var seed4 = ["gold", "lapis_lazuli", "end", "experience", "blaze", "ghast", "enderman", "steel", "nickel", "constantan", "electrum", "invar", "uranium", "signalum", "lumium", "hop_graphite", "osmium", "refined_glowstone", "refined_obsidian", "energized_steel", "blazing_crystal", "starmetal", "fluorite", "knightmetal", "cobalt", "hepatizon", "sapphire", "ruby",]
+    var seed4 = ["gold", "lapis_lazuli", "end", "experience", "blaze", "ghast", "enderman", "steel", "nickel", "constantan", "electrum", "invar", "uranium", "signalum", "lumium", "hop_graphite", "osmium", "refined_glowstone", "refined_obsidian", "energized_steel", "blazing_crystal", "starmetal", "fluorite", "knightmetal", "cobalt", "sapphire", "ruby",]
     seed4.forEach(S => { seedPot(S, "Farmland_t4", 4000) })
-    var seed5 = ["platinum", "diamond", "emerald", "netherite", "wither_skeleton", "enderium", "niotic_crystal", "spirited_crystal", "uraninite", "rock_crystal", "manyullyn", "queens_slime", "draconium"]
+    var seed5 = ["platinum", "diamond", "emerald", "netherite", "wither_skeleton", "enderium", "niotic_crystal", "spirited_crystal", "uraninite", "rock_crystal", "manyullyn", "queens_slime", "draconium", "hepatizon"]
     seed5.forEach(S => { seedPot(S, "Farmland_t5", 4500) })
     seedPot("nitro_crystal", "nitro_crystal_crux", 3000)
     seedPot("nether_star", "nether_star_crux", 3000)
