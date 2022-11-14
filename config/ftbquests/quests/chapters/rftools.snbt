@@ -17,7 +17,7 @@
 				""
 				"When you right click with it on a &6RFtools&r machine you can setup the &b input&r and obviously the &4output&r"
 				""
-				"But when you &nshift right click&r, you break the machine instantly, so you better use that unless you pickaxe is unbreakable or has a very large durability"
+				"But when you &nshift right click&r, you beack the machine instantly, so you better use that unless you pickaxe is unbreakable or has a very large durability"
 			]
 			dependencies: ["3BDDE5E2E3851B58"]
 			id: "31D5F89946C7CA5C"
@@ -36,7 +36,7 @@
 			x: 0.5d
 			y: -1.0d
 			shape: "gear"
-			description: ["This &6Machine Frame&r is a crafting ingredient for a lot of &bRFtools&r machines"]
+			description: ["This &6Machine Frame&r can permit to craft a lot of &bRFtools&r machines"]
 			dependencies: [
 				"39DB67EE674F41A4"
 				"2E1A0AB49E83B283"
@@ -124,8 +124,8 @@
 			description: [
 				"Here is a little storage advancement"
 				""
-				"Each &6Storage Card&r has a stock limit. So as you understand that, you will have four different tiers."
-				"Each tier has a better stocking capacity of course"
+				"Each &6Storage Card&r has a stock limit. So as you understand that, you will have fou differents tiers."
+				"Yes each tier as a better stocking capacity of course"
 			]
 			dependencies: ["18345F991AFEEF63"]
 			id: "044CA68B556FEAA9"
@@ -350,9 +350,9 @@
 			shape: "diamond"
 			subtitle: "For the builder"
 			description: [
-				"This quest will ask you to craft all &2Shape Cards&r for the &6Builder&r"
+				"This quest will adk you to craft all &2Shape Cards&r for the &6Builder&r"
 				""
-				"I suggest you check on the &bRFtools&r guide to see what they do... Unless you wanna have a surprise, it's up to you"
+				"I suggest you check on the &bRFtools&r guide to see what they do.... Unless you wanna have a surprise, it's up to you"
 			]
 			hide_dependency_lines: true
 			dependencies: ["31D5F89946C7CA5C"]
@@ -376,12 +376,12 @@
 			description: [
 				"Here is the &3Builder !&r"
 				""
-				"Build some cool stuff with it? You can!"
-				"Mine an entire chunk? You can!"
+				"Build some cool stuff with it ? You can!"
+				"Mine an entire chunk? you can!"
 				""
 				"Just put the wanted shape card in it."
 				""
-				"How does it work? Shift Right Click with a shape card in the main hand and select two blocks that are opposed to each other, you do not want to select a radius of two blocks... unless that's what you really want of course."
+				"How does it work? shift Right Click with a shape card in the main hand and select two blocks that are opposed to each other, you do not want to select a radius of two blocks... unless that's what you really want of course."
 			]
 			dependencies: ["18345F991AFEEF63"]
 			id: "16EA12AE325A8069"
@@ -401,7 +401,7 @@
 			y: -4.5d
 			shape: "hexagon"
 			subtitle: "The RFtools book"
-			description: ["This book can provide useful information about some &bRFtools&r machines or items"]
+			description: ["Opening this book can bring you some usefull informations about some &bRFtools&r machines or items"]
 			dependencies: ["31D5F89946C7CA5C"]
 			id: "6B3CA233ED3AB935"
 			tasks: [{
@@ -420,9 +420,9 @@
 			y: -4.5d
 			shape: "hexagon"
 			description: [
-				"Mining can be cool sometimes"
+				"Mining can bee cool sometimes"
 				""
-				"You can find that ore in several dimensions. There is not a specific layer to find it."
+				"You can find that ore on several dimensions. there is not a specific layer to find that ore."
 			]
 			dependencies: ["31D5F89946C7CA5C"]
 			id: "028E23DDEAB2ADEE"
@@ -478,7 +478,7 @@
 			description: [
 				"The &3Infuser&r can \"upgrade\" your &bRFtools&r machines"
 				""
-				"They will be faster! But be aware, they will consume a lot more energy and you have to upgrade them with &1Dimensional Shards&r"
+				"They will be faster ! But be aware, it does consume a lot more energy and you have to upgrade with those &1Dimensional Shards&r"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -552,7 +552,7 @@
 			x: -1.0d
 			y: 2.0d
 			shape: "octagon"
-			description: ["The more powercells you put in the multiblock, the more energy will be stocked"]
+			description: ["The more powercell you put for the multiblock, more energy will be stocked"]
 			dependencies: ["38E9A6975B2DA7FE"]
 			id: "010428B4F1F3BF8B"
 			tasks: [{
@@ -619,10 +619,10 @@
 				""
 				"Depending on the cell it will be less or more effective."
 				""
-				"How does it work? Take a &cCell Card&r and put it in a &1Powercell, put it in the first slot and it will have a number on it."
-				"That number corresponds to your network. The second slot is to copy your network to another cell. Take the new card and put it in another &1Powercell&r."
+				"How does it work? take a &cCell Card&r and put it in a &1Powercell, put it in the first slot and it will have a number on it."
+				"That number corresponds to your network. the second slot is to copy your network to another cell, take the new created card and put it in another &1Powercell&r."
 				""
-				"Be aware that players can copy your network and put it in their own &1Powercell&r"
+				"Be aware that players can copy your networkd and put it on their own &1Powercell&r"
 			]
 			dependencies: ["18345F991AFEEF63"]
 			id: "4406B46FBC156090"
@@ -710,7 +710,7 @@
 			shape: "hexagon"
 			subtitle: "Spawning mobs"
 			description: [
-				"To spawn mobs you will have to craft three beams."
+				"In Order to spawn mobs you will have to craft 3 beams."
 				""
 				"The &cSyringue&r has to be entirely filled with mob essence (Note that Dragons are not spawnable)"
 				""
@@ -755,9 +755,9 @@
 			y: 1.0d
 			shape: "octagon"
 			description: [
-				"In order to create a &bShield&r you must use &5Shield Projectors&r"
+				"In order to create a &bShield&r you must use those &5Shield Projectors&r"
 				""
-				"Each projector has more protection depending on the tier you're using."
+				"Each projector has a better protection depending on the tier you're using."
 			]
 			dependencies: ["18345F991AFEEF63"]
 			id: "0DD9AD3742FD755D"
@@ -780,7 +780,7 @@
 			description: [
 				"With some energy, you will be able to craft some &6Blazing Rods&r"
 				""
-				"Just insert nine of them and they will be transformed"
+				"Just put 9 of them and thoses will be transformed"
 			]
 			dependencies: ["18345F991AFEEF63"]
 			id: "0C051B4D0DB0D3E0"
@@ -804,9 +804,9 @@
 			description: [
 				"Once you have crafted the &6Blazing Rods&r you can infuse them with some &bDimensional Shards&r"
 				""
-				"Insert one rod and shards and let the recipe do its job."
+				"Put one rod and shards and let the recipe do it's job."
 				""
-				"Once that is done this &bInfused&r &6Blazing Rod&r will generate more RF than a single &6Blazing Rod&r"
+				"Once that is done this &bInfused&r &6Blazing Rod&r will generates more RF than a singular &6Blazing Rod&r"
 			]
 			dependencies: ["0C051B4D0DB0D3E0"]
 			id: "7C9E5CF4B29B5F0D"
@@ -829,7 +829,7 @@
 			description: [
 				"So as we saw on the last quest"
 				""
-				"Just insert your &bInfused&r &6Blazing Rods&r and generate some RF !"
+				"Just put your &bInfused&r &6Blazing Rods&r and generate some RF !"
 			]
 			dependencies: ["7C9E5CF4B29B5F0D"]
 			id: "772D1176C3CD602A"
@@ -944,7 +944,7 @@
 			y: 0.0d
 			shape: "diamond"
 			description: [
-				"If you want to go beyond the eight-channel limit or you want to connect multiple distinct networks you can make a 'routing network' using routers."
+				"If you want to go beyond the 8 channel limit or you want to connect multiple distinct networks you can make a 'routing network' using routers."
 				""
 				"A single router is already sufficient to connect up to six (six sides of the router) channels but using routing cables and routing connectors you can also make a routing network out of routers."
 				""

@@ -3555,6 +3555,11 @@
 				type: "item"
 				item: "mekanism:qio_drive_array"
 			}]
+			rewards: [{
+				id: "63D9C6CEED5E6234"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
 		}
 		{
 			x: 9.0d

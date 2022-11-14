@@ -856,6 +856,7 @@ onEvent("recipes", (event) => {
       }
     }
   )
+  event.shapeless('mekanism:creative_bin', 'mekanism:creative_bin');
 
   event.shapeless('mekanism:creative_fluid_tank', 'mekanism:creative_fluid_tank');
   event.custom(
