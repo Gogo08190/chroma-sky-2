@@ -487,7 +487,7 @@
 			x: 11.0d
 			y: -0.5d
 			description: [
-				"Create a systeme that automatically opens a door when you pass by an Entity Reader based on entity name matching, using Redstone Writer directly pointing to the door."
+				"Create a system that automatically opens a door when you pass by an Entity Reader based on entity name matching, using Redstone Writer directly pointing to the door."
 				"Hint : Pass an entity name as first argument into the equals operator."
 			]
 			dependencies: ["2BF510AA8F2C57F2"]
